@@ -1,0 +1,62 @@
+.stroke-bg {
+    position: absolute;
+    top: -100%;
+    left: -5px;
+    width: 300%;
+    height: 300%;
+    z-index: 0;
+    rotate: 0deg;
+
+}
+.back-stroke{
+    background:url('./back-stroke.png');
+    padding:2rem 0 2rem 0.5rem;
+    color:#001055 !important;
+    background-size: cover;
+}
+
+.brush-splash {
+    position: absolute;
+    top: -15%;
+    right: 1%;
+    max-width: 200px;
+}
+
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-mGVIa.style-mGVIa {
+    font-family: Courgette;
+    /* color: rgba(233, 30, 99, .7) !important; */
+color:#FF7900;
+}
+
+#style-Zk4yd.style-Zk4yd {
+    font-family: Courgette;
+    /* color: rgba(233, 30, 99, .7) !important; */
+color:#FF7900;
+}
+
+#style-cdWw7.style-cdWw7 {
+    font-family: Courgette;
+    /* color: rgba(233, 30, 99, .7) !important; */
+color:#FF7900;
+}
+
+#style-csfwy.style-csfwy {
+    font-family: Courgette;
+    /* color: rgba(233, 30, 99, .7) !important; */
+color:#FF7900;
+}
+
+#style-p78Ac.style-p78Ac {
+    font-family: Courgette;
+    /* color: rgba(233, 30, 99, .7) !important; */
+color:#FF7900;
+}
+.snipcss0-1-1-5{
+    color:#001055;
+}
+.snipcss0-2-9-10{
+    color:#001055;
+}

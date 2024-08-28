@@ -17,4 +17,16 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/public
+# Ignore all files and folders in the public directory
+/public/*
+
+# Except for the assets directory
+!/public/assets/
+
+# Ignore everything in the assets directory
+/public/assets/*
+
+# Except for the CSS and JS folders
+!/public/assets/css/
+!/public/assets/js/
+!/public/assets/json/

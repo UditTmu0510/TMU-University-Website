@@ -1,0 +1,97 @@
+.about-section {
+    padding: 50px 0;
+    background-color: #f9f9f9!important;
+}
+
+.text-content {
+    padding-right: 20px;
+}
+
+.text-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.8rem;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.about-p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-custom {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-learn {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+.btn-learn:hover {
+    background-color: #4b4dbb;
+}
+
+.btn-teach {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+.btn-teach:hover {
+    background-color: #d4a707;
+}
+
+.image-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.custom-bg {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.custom-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+.section-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #fff;
+    height: auto;
+    transition: transform 0.3s;
+}
+.section-box:hover {
+    transform: translateY(-5px);
+}
+.section-title {
+    font-size: 1.5em;
+    line-height: 1.9em;
+    color: #ff7900;
+}
+
+@media screen and (max-width: 480px) {
+    .image-content {
+        /* Further adjust image size for mobile devices */
+        width: fit-content;
+        height: fit-content;
+    }
+}

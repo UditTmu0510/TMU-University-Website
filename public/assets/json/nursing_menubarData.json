@@ -1,0 +1,285 @@
+{
+    "1": {
+        "Overview": { "link": "/college-of-nursing/about-us" },
+        "College Highlights": {
+            "link": "/college-of-nursing/college-highlight" },
+        "Dean's Desk": {
+            "link": "/college-of-nursing/dean" },
+        "Principal's Desk": {
+            "link": "/college-of-nursing/principal" },
+        "Gallery": { "link": "/college-of-nursing/gallery" },
+        "College Advisory Board": { "link": "/college-of-nursing/college-advisory-board" }
+    },
+    "2": {
+        
+        "Syllabus": { "link": "/college-of-nursing/syllabus" },
+        "Academic Calendar": { "link": "/college-of-nursing/academic-calendar" },
+        "Department": { "link": "/college-of-nursing/department" }
+    },
+    "3": {
+        "Trining Placement Cell": {
+            "link": "/college-of-nursing/training-placement-cell"
+        },
+        "Corporatory Advisory Board": {
+            "link": "/college-of-nursing/corporate-advisory_board"
+        },
+        "Placements Calender": { "link": "/college-of-nursing/placement-calendar" },
+        "Placements News": { "link": "/college-of-nursing/placement-news" }
+    },
+    "4": {
+        "Time Table": { "link": "/college-of-nursing/time-table" },
+        "Old Exam Papers": { "link": "https://library.tmu.ac.in/" },
+        "Anti Ragging Committee": { "link": "/college-of-nursing/anti-ragging-committee" }
+
+    },
+    "5": {
+
+        "Guest lecture": { "link": "/college-of-nursing/guest-lecture" },
+        "Contact Us": { "link": "/college-of-nursing/contact-us" }
+    },
+    "7": {
+        "University Glimpse": {
+            "About University": { "link": "/tmu/about-us" },
+            "Vision And Mission": { "link": "/tmu/vision-mission" },
+            "Accolades": { "link": "/tmu/awards-recognition" },
+            "Governance": { "link": "/tmu/university-governance" },
+            "Organogram": { "link": "/tmu/university-organogram" },
+            "Administration": { "link": "/tmu/university-administration" },
+            "Statutory Approvals": { "link": "/tmu/statutory-approvals" }
+
+        },
+        "Executive Desk": {
+            "Chancellor": { "link": "/tmu/chancellor" },
+            "Founder Chancellor": { "link": "/tmu/founder-vicechancellor" },
+            "Vice Chancellor": { "link": "/tmu/vicechancellor" }
+        },
+        "Campus Policies": {
+            "IIC": { "link": "/innovation-startup" },
+            "NSS": { "link": "/nss-about" },
+            "IQAC": { "link": "/tmu/iqac-cell/iqac" }
+        },
+        "Highlights": {
+            "Past Events": { "link": "/tmu/news" },
+            "Media Coverage": { "link": "" },
+            "Convocation": { "link": "" }
+        }
+    },
+    "8": {
+        "Medical": { "link": "/medical-college-and-research-centre" },
+        "Engineering": { "link": "/faculty-of-engineering" },      
+        "CCSIT": { "link": "/college-of-computing-sciences-and-it" },
+        "TMIMT": { "link": "/tmimt-college-of-management" },
+        "AGRICULTURE": { "link": "/college-of-agriculture-sciences" },
+        "DENTAL": { "link": "/dental-college-and-research-centre" },
+        "NURSING": { "link": "/college-of-nursing" },
+        "PHARMACY": { "link": "/college-of-pharmacy" },
+        "PARAMEDICAL": { "link": "/college-of-paramedical-sciences" },
+        "PHYSIOTHERAPY": { "link": "/department-of-physiotherapy" },
+        "FINE ARTS": { "link": "/college-of-fine-arts" },
+        "LAW": { "link": "/college-of-law-and-legal-studies" },
+        "PHYSICAL EDUCATION": { "link": "/tmimt-college-of-physical-education" },
+        "EDUCATION": { "link": "/faculty-of-education" }
+
+        
+        
+    },
+    "9": {
+        "undergraduate": {
+            "Computer Sciences & IT": {
+
+                "B.Tech. (Computer Science & Engineering)  with specialisation in Data Science (In collaboration with TCS- iON)": { "link": "/programme/b-tech-cse-in-data-science-collaboration-with-tcs-ion-programme" },
+                "B.Tech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": { "link": "/programme/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning" },
+
+
+                "BCA": { "link": "/programme/bachelor-of-computer-application-programme" },
+
+
+
+                "B.Sc.-(H) Computer Science with Research": { "link": "/programme/b-sc-hons-in-computer-science-programme" },
+                "B.Sc. (Animation) ": { "link": "/programme/bsc-in-animation" }
+
+                
+
+            
+            },
+            "Agriculture Science": {
+                "B.Sc.(H) Agriculture": { "link": "/programme/bsc-hons-agriculture" }
+            },
+            "Dental": {
+                "BDS (Bachelor of Dental Surgery)": { "link": "/programme/BDS-course-details" }
+            },
+            "Education": {
+                "B.A.": { "link": "/programme/bachelor-of-arts-programme" },
+                "B.Ed. (Bachelor of Education)": { "link": "/programme/bachelor-of-education-b-ed" },
+
+                "B.Sc. (ZBC with PCM)": { "link": "/programme/bsc-pcm-zbc" }
+            },
+            "Engineering": {
+
+                "B.Tech. (Mechanical Engineering)": { "link": "/programme/b-tech-in-mechanical-engineering" },
+                "B.Tech. (Electrical Engineering)": { "link": "/programme/btech-electrical-engineering" },
+                "B.Tech. (Electronics & Communication Engineering)": { "link": "/programme/b-tech-in-electronics-communicationec-engineering-programme" },
+                "B.Tech. (Civil Engineering)": { "link": "/programme/b-tech-in-civil-engineering-programme" }
+
+
+
+                
+                    
+            },
+            "Fine Arts": {
+                "BFA (Bachelor of Fine Arts)": { "link": "/programme/bachelor-of-fine-arts-programme" }
+                
+            },
+            "Management": {
+
+
+                "B.Com (Hons.) ": { "link": "/programme/bachelor-of-commerce-b-com-honours-programme" },
+                "B.Com Fintech & Blockchain Technologies with Whizhack Technologies": { "link": "/programme/bcom-in-fintech" },
+
+                "B.B.A. B.B.A in Data Anlytics ": { "link": "/programme/bba-in-data-analytics" }
+
+
+                
+            },
+            
+
+            "Paramedical": {
+                "B.Optom. (Bachelor of Optometry)": { "link": "/programme/bachelor-of-optometry-b-optom" },
+                "B.Sc (Forensic Sciences) Postmortem Facility": { "link": "/programme/bsc-forensic-science" },
+                "BMLT (B.SC. IN Medical Lab Technology)": { "link": "/programme/bsc-in-medical-lab-technology" },
+                "BRIT (B.SC. IN Medical Radiography Imaging Techniques)": { "link": "/programme/bsc-in-radiology" }
+            },
+            
+            "Physical Education": {
+                "B.P.ES (Bachelor of Physical Education & Sports)": { "link": "/programme/bpes-programme" },
+                "B.P.ED (Bachelor of Physical Education)": { "link": "/programme/bachelor-of-physical-education-bped-programme" }
+                
+            },
+            "Physiotherapy": {
+                "BPT (Bachelor of Physiotherapy) Lateral": { "link": "/programme/bachelor-of-physiotherapy-programme" }
+            }
+        },
+        "postgraduate": {
+            
+            "Computing Sciences & IT": {
+                "Master of Computer Applications(MCA) ": { "link": "/programme/master-of-computer-application-in-software-development" }
+            },
+            "Dental": {
+                "MDS (Conservative Dentistry and Endodontics)": { "link": "/programme/mds-conservation-dentistry-programme" },
+                "MDS (Oral and Maxillofacial Surgery)": { "link": "/programme/mds-oral-maxillofacial-surgery" },
+                "MDS (Orthodontics and Dentofacial Orthopedics)": { "link": "/programme/mds-orthodontics-dentofacial-orthopedics" },
+                "MDS (Prosthodontics and Crown and Bridge)": { "link": "/programme/mds-prosthodontics-crown-bridge" },
+                "MDS (Paedodontics and Preventive Dentistry)": { "link": "/programme/mds-paedodontics-preventive-dentistry" },
+                "MDS (Periodontology)": { "link": "/programme/MDS-Periodontology" },
+                "MDS (Public Health Dentistry)": { "link": "/programme/MDS-Public-Health-Dentistry" },
+                "MDS (Oral Medicine and Radiology)": { "link": "/programme/MDS-Oral-Medicine-Radiology" },
+                "MDS (Oral Pathology and Microbiology)": { "link": "/programme/mds-oral-pathology" }
+            },
+            "Education": {
+                "M.Ed. (Master of Education)": { "link": "/programme/masters-of-education-m-ed" }
+            },
+            
+            "Fine Arts": {
+                "MFA (Masters of Fine Arts)": { "link": "/programme/MFA-Program" }
+            },
+            "Management": {
+                "MBA  ": { "link": "/programme/mba-marketing-hr-ib-finance" },
+                "Master of Business Administration (Specialization in Agri-Business Management) ": { "link": "/programme/" },
+                "MBA Hospital Management ": { "link": "/programme/mba-in-hospital-management-mba-programme" }
+            },
+    
+            "Paramedical": {
+                "M.Sc (Forensic Science)": { "link": "/programme/MSc-Forensic-Science" },
+                "M.Sc (Medical Laboratory Techniques)": { "link": "/programme/msc-medical-lab-technology" },
+                "M.Sc (Optometry)": { "link": "/programme/msc-in-optometry" },
+                "M.Sc (Radiological Imaging Techniques)": { "link": "/programme/msc-in-radiology" }
+            },
+            "Pharmacy": {
+
+                "PharmaD": { "link": "/programme/doctor-of-pharmacy-programme-at-tmu-moradabad" }
+            },
+            "Physical Education": {
+                "M.P.ED (Bachelor of Physical Education)": { "link": "/programme/mped-programme" }
+            },
+            "Physiotherapy": {
+
+                "MPT (Masters of Physiotherapy)": { "link": "/programme/master-of-physiotherapy-mpt-programme" }
+            },
+            "Agriculture": {
+
+                "MSC (Master of Science in Agronomy )": { "link": "/programme/master-of-science-in-agronomy-programme" }
+            },
+            "Law": {
+
+                "LLM (Masters of Law )": { "link": "/programme/masters-of-law-llm-programme" }
+            }
+        },
+        
+        
+        "integrated": {
+            "Education": {
+                "B.A-B.ED (Integrated)": { "link": "/programme/ba-bed-integrated" },
+                "B.SC-B.ED (Integrated)": { "link": "/programme/b-sc-b-ed-integrated-programme" }
+            },
+            "Law & Legal Studies": {
+                "B.A-LLB (Hons)": { "link": "/programme/ba-llb-hons-programme" },
+                "B.B.A-LLB (Hons)": { "link": "/programme/bba-llb-hons-programme" },
+                "B.COM-LLB (Hons)": { "link": "/programme/BCom-LLB-program" }
+            }
+        }
+    },
+    "10": {
+        "About Research Development Centre": { "link": "/tmu/research" },
+        "Research Policy": { "link": "/tmu/research-policy" },
+        "Code of Ethics": { "link": "/tmu/code-of-ethics" },
+        "Conferences": { "link": "/tmu/conferences" },
+        "Research Publication": { "link": "/tmu/research-publications" },
+        "Sponsored Projects": { "link": "/tmu/sponsored-projects" },
+        "Patents": { "link": "/tmu/patents" },
+        "Seed Money": { "link": "/tmu/seed-money" },
+        "Institution/Teachers/Students Awards": { "link": "/tmu/research-innovation-award" },
+        "Fellowship/Recognition": { "link": "/tmu/fellowship-awards" },
+        "University Ethics Committee": { "link": "/tmu/university-ethics-committee" },
+        "UAIP / CAIP": { "link": "/tmu/uaip-caip" },
+        "Overview": { "link": "/tmu/phd-overview" },
+        "Ordinance": { "link": "/tmu/phd-ordinance" },
+        "Intake to Ph.D. Programme": { "link": "/tmu/phd-intake" },
+        "Research Scholar": { "link": "/tmu/research-scholar" },
+        "Syllabus of Course Work": {"link": "/tmu/syllabus-course-work"},
+        "FAQs": {"link": "/tmu/phd-faq" },
+        "Semester Progress Report Proforma": {"link": "/tmu/semester-progress-report" },
+        "Admission Notice": {"link":"/tmu/phd-admission-notice"},
+        "Instructions for Apply": {"link": "/tmu/phd-how-to-apply" },
+        "Checklist of Documents": {"link":"/tmu/checklist" },
+        "Application Form":{"link":"/tmu/phd-application-form"},
+        "Ph.D. Process": {"link":"/tmu/phd-process" },
+        "Fee Structure": {"link":"/tmu/phd-fee-structure" },
+        "Result": {"link":"/tmu/result" }
+        
+    },
+    "11": {
+
+            "Overview": { "link": "/tmu/exam-overview" },
+            "Ordinance": { "link": "/tmu/exam-ordinance" },
+            "Result": { "link": "http://portal.tmu.ac.in/onlineresult.aspx" },
+            "Syllabus": { "link": "/tmu/syllabus" },
+            "Open Elective Courses(CBCS)": { "link": "/tmu/cbcs" },
+            "NAD": { "link": "https://cvl.nad.co.in/NAD/home.action" }
+        },
+    "12": {
+        "CTLD": { "link": "/tmu/centre-for-teaching-learning-and-development" },
+        "IIC": { "link": "/innovation-startup" },
+        "Grievances Portal": { "link": "/tmu/grievances-portal" },
+        "Research & Development": { "link": "/research-and-development-center" },
+        "Disciplinary Rules": { "link": "/tmu/disciplinary-rules" },
+        "Admission & Refund Policy": { "link": "https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf" },
+        "Anti-Ragging Policy": { "link": "https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf" },
+        "Anti-Ragging Committee": { "link": "/tmu/anti-ragging-committee" },
+        "University Academic Calender": { "link": "/tmu/university-academic-calender" },
+        "University Sports Calender": { "link": "/tmu/university-sport-calender" },
+        "NSS UNit": { "link": "/nss-about" },
+        "NEP 2020": {"link": "/tmu/nep-ordinance"},
+        "Convocation": {"link": ""}
+     
+    }
+}
