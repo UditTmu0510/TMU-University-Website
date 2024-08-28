@@ -317,7 +317,7 @@ Route::get('/faculty-of-engineering/contact-us', [TmuController::class, 'enginee
 Route::get('/faculty-of-engineering/foe-college-gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 Route::get('/faculty-of-engineering/iqac', [TmuController::class, 'engineering_iqac'])->name('engineering.iqac');
 Route::get('/faculty-of-engineering/syllabus', [TmuController::class, 'engineering_syllabus'])->name('engineering.syllabus');
-Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
+// Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 
 
 // CCSIT College

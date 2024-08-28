@@ -4,10 +4,11 @@
 
 <div class="main-content">
   <div class="container">
-    <div class="banner text-white text-center p-4 rounded"
-      style="height: 20vh; background-color: #001055;">
-      <h2 style="color: #fff; padding:1.5rem;">NSS Department Overview</h2>
-    </div>
+  <div class="banner text-white text-center d-flex align-items-center justify-content-center p-4 rounded"
+     style="height: 17vh; background-color: #001055;">
+    <h2 class="m-0" style="color: #fff!important;">NSS Department Overview</h2>
+</div>
+
 
     <section class="about-section bg-light mt-4">
       <div class="container">
