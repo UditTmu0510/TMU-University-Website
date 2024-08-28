@@ -284,19 +284,19 @@
       <div class="iqac-container">
         <div class="iqac-card">
           <div class="card-pdf">
-            <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP Policies</p>
             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/pdf/erp_policy.pdf">View
               PDF</a>
           </div>
           <div class="card-pdf">
-            <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP License</p>
             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/pdf/erp_license.pdf">View
               PDF</a>
           </div>
           <div class="card-pdf">
-            <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP Modules</p>
             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/pdf/erp_modules.pdf">View
               PDF</a>
