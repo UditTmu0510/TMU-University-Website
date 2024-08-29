@@ -132,7 +132,7 @@
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech CS&E programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in UP.</b></p>
 
-                        <a href="https://tmunewweb.tmu.ac.in/faculty-of-engineering/about-us" class="tmu-btn btn-1 py-2">Know More!</a>
+                        <a href="{{route('engineering.about.us')}}" class="tmu-btn btn-1 py-2">Know More!</a>
                     </div>
                 </div>
             </div>
