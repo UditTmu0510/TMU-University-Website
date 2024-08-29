@@ -12,7 +12,7 @@
                 <!-- <video muted loop autoplay id="main-banner-vid" class="d-none" poster="./assets/image/banner-poster.jpg" src="#"> -->
                 <!-- </video> -->
                 <video muted autoplay loop>
-                    <source src="{{asset('assets/img/home/banner/tmu_final_video.mp4')}}">
+                    <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
             </div>
             <div class="banner-text">
@@ -69,7 +69,7 @@
 </div>
 
 <div class="container my-2 mt-4 d-block d-md-none">
-    <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -140,19 +140,19 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
 
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/2-01.webp')}}" alt="Slide 6"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/3-01.webp')}}" alt="Slide 8"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/4-01.webp')}}" alt="Slide 9"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/5-01.webp')}}" alt="Slide 10"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/6-01.webp')}}" alt="Slide 11"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/7-01.webp')}}" alt="Slide 12"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/8-01.webp')}}" alt="Slide 13"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/9-01.webp')}}" alt="Slide 14"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/10-01.webp')}}" alt="Slide 15"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/11.webp')}}" alt="Slide 16"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/12.webp')}}" alt="Slide 17"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/13-01.webp')}}" alt="Slide 18"></div>
-                            <div class="swiper-slide"><img src="{{asset('/assets/img/home/gallery/14-01.webp')}}" alt="Slide 19"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
+                            <div class="swiper-slide"><img src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
 
                         </div>
                         <!-- Add pagination -->
@@ -269,6 +269,7 @@ $i++;
 
     </div>
 </section>
+
 <!-----Courses Ends  Start-->
 
 
@@ -289,9 +290,9 @@ $i++;
 
                         <div class=" mb-0 entry col-lg-12 col-md-12">
                             <div class="owl-carousel" id="owl-carousel2">
+                               
 
-
-                                @foreach ($news as $event)
+                                @foreach ($news as $event)                                
                                 <div class="item">
 
                                     <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
@@ -302,7 +303,7 @@ $i++;
                                                         <div class="slide">
                                                             <a href="{{ $event->n_slug}}" data-lightbox="gallery-item" style="background: url('{{ $event->monaco_image_path }}') no-repeat center bottom; background-size: cover; height: 200px;">
                                                             </a>
-                                                        </div>
+                                                        </div>                                                        
                                                         <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-2.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-2.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
                                                         <!--</div>-->
                                                         <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-3.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-3.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
@@ -325,12 +326,12 @@ $i++;
                                         </div>
                                     </div>
                                 </div>
-                                @endforeach
+@endforeach
+
+                               
 
 
-
-
-
+                               
                             </div>
                         </div>
                     </div>
@@ -624,7 +625,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         Conference Room</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 09,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 09,
                                         March</span>
                                 </div>
                             </div>
@@ -640,7 +641,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         Conference Room</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 15,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 15,
                                         March</span>
                                 </div>
                             </div>
@@ -656,7 +657,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         CCSIT</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 21,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 21,
                                         March</span>
                                 </div>
                             </div>
@@ -672,7 +673,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         CCSIT</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 20,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 20,
                                         March</span>
                                 </div>
                             </div>
@@ -688,7 +689,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         Auditorium</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 14,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 14,
                                         March</span>
                                 </div>
                             </div>
@@ -704,7 +705,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         LT-6, CCSIT </span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 28,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 28,
                                         February</span>
                                 </div>
                             </div>
@@ -720,7 +721,7 @@ $i++;
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
                                         LT-6, FOE</span>
-                                    <span><img src="{{asset('assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 24,
+                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 24,
                                         February</span>
                                 </div>
                             </div>
@@ -784,7 +785,7 @@ $i++;
         <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(2)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/deeksha-rani.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
@@ -799,7 +800,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/mansi-boraa.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/mansi-boraa.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Mansi Boraa</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
@@ -814,7 +815,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/navodita-bisht.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
@@ -829,7 +830,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(3)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/nikshita-singh.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(3)"><img src="./assets/img/university/testimonial-thumbnail/nikshita-singh.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Nikshita Singh</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
@@ -844,7 +845,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(0)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/saloni-jain.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
@@ -858,7 +859,7 @@ $i++;
             </div>
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="{{asset('/assets/img/home/testimonial-thumbnail/shashank-negi.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/shashank-negi.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Shashank Negi</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
@@ -977,30 +978,32 @@ $i++;
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    $(document).ready(function() {
-        // Click event for navbar buttons
-        $('.programme-fetch-button').click(function() {
-            var collegeId = this.getAttribute('data-collegeId');
-            // Ajax call to fetch programs of selected type
-            $.ajax({
-                url: '{{ route("fetch_programme_by_college_id") }}',
-                type: 'POST',
-                data: {
-                    _token: '{{ csrf_token() }}',
-                    cd_id: collegeId
-                },
-                success: function(response) {
-                    // Handle JSON response and populate program list
-                    console.log(response);
-                    var programs = response.programs;
-                    var programListHtml = '';
-                    let i = 0;
-                    programs.forEach(function(program) {
-                        if ((i % 3 == 0) && (i != 0)) {
-                            programListHtml += `</div><div class="row">`;
-                        } else if (i == 0) {
-                            programListHtml += `<div class="row">`;
-                        }
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        var collegeId = this.getAttribute('data-collegeId');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programme_by_college_id") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: collegeId
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -1019,41 +1022,41 @@ $i++;
                                     </div>
                                 </div>`;
 
-
-
-                        i++;
-                    });
-                    $('#' + collegeId).html(programListHtml);
-                },
-                error: function(xhr, status, error) {
-
-                    console.log('the error is' + error);
-                }
-            });
+            
+                
+                                i++;
+                });
+                $('#'+collegeId).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
         });
-        $('.programme-fetch-button:first').addClass('active').click();
-        $('.programmes-data:first').addClass('active');
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
 
-        // Programme fetch code for the mobile view starts here
+// Programme fetch code for the mobile view starts here
 
-        $('.careers-accordion').click(function() {
-            var collegeId = this.getAttribute('data-collegeId');
-            // Ajax call to fetch programs of selected type
-            $.ajax({
-                url: '{{ route("fetch_programme_by_college_id") }}',
-                type: 'POST',
-                data: {
-                    _token: '{{ csrf_token() }}',
-                    cd_id: collegeId
-                },
-                success: function(response) {
-                    // Handle JSON response and populate program list
-                    console.log(response);
-                    var programs = response.programs;
-                    var programListHtml = '';
-                    let i = 0;
-                    programs.forEach(function(program) {
-
+    $('.careers-accordion').click(function() {
+        var collegeId = this.getAttribute('data-collegeId');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programme_by_college_id") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: collegeId
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -1069,20 +1072,21 @@ $i++;
                             </div>
                         </div>
                     </li>`;
-                        i++;
-                    });
-                    $('#programme' + collegeId).html(programListHtml);
-                },
-                error: function(xhr, status, error) {
-
-                    console.log('the error is' + error);
-                }
-            });
+ i++;
+                });
+                $('#programme'+collegeId).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
         });
-
-        // Programme fetch code for the mobile view ends here
-
     });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
 </script>
 
 @endsection
