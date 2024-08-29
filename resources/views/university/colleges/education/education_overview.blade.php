@@ -18,7 +18,7 @@
                         <p class="about-p mb-4">Teerthanker Mahaveer Dental College and Research Centre, established in year 2005, is one of the prestigious and accredited dental institute. The college is actively involved in quality teaching and research practices in oral health care that makes it a centre of excellence for providing world class education.</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="assets/img/112.jpg" alt="Learning and Teaching">
+                        <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4">The college is well equipped with state-of-the-art dental clinical setup and a modern & majestic infrastructure. The college has a well established simulated pre-clinical and research labs. The air-conditioned central library opens for 12 hours a day. A separate hostel for girls and boys situated in the serene environment with round the clock Wi-Fi connectivity and uninterrupted power supply makes it conducive for concentrated studies. The indoor and the outdoor stadium gives a boost for athletic development. The BDS course has an intake of 100 whereas; the MDS course has an intake of 45 seats. The programmes are at par with the International standards and fulfill all the regulations laid down by Dental Council of India.</p>  
