@@ -23,6 +23,7 @@
           <hr class="horizontal-line">
           <button class="careers-accordion">GOVERNING BODY<span class="icon">+</span></button>
           <div class="panel active">
+            <div class="table-responsive mb-3">
             <table class="table table-bordered">
               <thead>
                 <tr class="text-center">
@@ -120,6 +121,7 @@
                 </tr>
               </tbody>
             </table>
+            </div>
             <h3 class="mb-2 ms-2 tmu-text-primary text-center"><span>Minutes of Meeting of </span><span> the Governing
                 Body</span></h3>
 
@@ -138,7 +140,7 @@
           <hr class="horizontal-line">
 
           <button class="careers-accordion">EXECUTIVE COUNCIL<span class="icon">+</span></button>
-          <div class="panel">
+          <div class="panel"><div class="table-responsive mb-3">
             <table class="table table-bordered">
               <thead>
                 <tr class="text-center">
@@ -224,7 +226,7 @@
                   <td>Member Secretary</td>
                 </tr>
               </tbody>
-            </table>
+            </table></div>
             <h3 class="mb-2 ms-2 tmu-text-primary text-center"><span>Minutes of Meeting of </span><span>the Executive
                 Council</span></h3>
             <div class="iqac-container">
@@ -285,7 +287,7 @@
           <hr class="horizontal-line">
 
           <button class="careers-accordion">ACADEMIC COUNCIL<span class="icon">+</span></button>
-          <div class="panel">
+          <div class="panel"><div class="table-responsive mb-3">
             <table class="table table-bordered">
               <thead>
                 <tr class="text-center">
@@ -495,7 +497,7 @@
 														<td>Member Secretary</td>
 													</tr>
               </tbody>
-            </table>
+            </table></div>
 
             <h3 class="mb-2 ms-3 tmu-text-primary text-center"><span>Minutes of Meeting of </span><span> Academic
                 Council</span></h3>
@@ -594,6 +596,7 @@
 
           <button class="careers-accordion">FINANCE COMMITTEE<span class="icon">+</span></button>
           <div class="panel">
+          <div class="table-responsive mb-3">
             <table class="table table-bordered">
               <thead>
                 <tr class="text-center">
@@ -654,13 +657,14 @@
                 </tr>
               </tbody>
               </tbody>
-            </table>
+            </table></div>
           </div>
           <hr class="horizontal-line">
 
 
           <button class="careers-accordion">PLANNING BOARD<span class="icon">+</span></button>
           <div class="panel">
+            <div class="table-responsive mb-3">
             <table class="table table-bordered">
               <thead>
                 <tr class="text-center">
@@ -740,13 +744,13 @@
                 </tr>
               </tbody>
               </tbody>
-            </table>
+            </table></div>
           </div>
           <hr class="horizontal-line">
 
           <button class="careers-accordion">BOARD OF STUDIES<span class="icon">+</span></button>
           <div class="panel">
-            <div class="table-responsive">
+            <div class="table-responsive mb-3">
               <table class="table table-bordered">
                 <thead>
                   <tr>
