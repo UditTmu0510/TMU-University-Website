@@ -27,19 +27,19 @@
             <div class="row  mx-0">
               <ul class="list-group">
                 <li class="list-group-item">
-                  <a href="https://www.tmu.ac.in/img/approval/1.jpg" class="text-decoration-none" data-bs-toggle="modal"
+                  <a href="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/1.jpg')}}" class="text-decoration-none" data-bs-toggle="modal"
                     data-bs-target="#lightboxModal1">
                     Notification (Hindi)
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="https://www.tmu.ac.in/img/approval/2.jpg" class="text-decoration-none" data-bs-toggle="modal"
+                  <a href="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/2.jpg')}}" class="text-decoration-none" data-bs-toggle="modal"
                     data-bs-target="#lightboxModal2">
                     Notification (English)
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="https://www.tmu.ac.in/img/approval/3.jpg" class="text-decoration-none" data-bs-toggle="modal"
+                  <a href="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/3.jpg')}}" class="text-decoration-none" data-bs-toggle="modal"
                     data-bs-target="#lightboxModal3">
                     Authorization Letter from Government of Uttar Pradesh
                   </a>
@@ -56,7 +56,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
-                      <img src="https://www.tmu.ac.in/img/approval/1.jpg" alt="Notification (Hindi)" class="img-fluid">
+                      <img src="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/1.jpg')}}" alt="Notification (Hindi)" class="img-fluid">
                     </div>
                   </div>
                 </div>
@@ -71,7 +71,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
-                      <img src="https://www.tmu.ac.in/img/approval/2.jpg" alt="Notification (English)"
+                      <img src="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/2.jpg')}}" alt="Notification (English)"
                         class="img-fluid">
                     </div>
                   </div>
@@ -89,7 +89,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
-                      <img src="https://www.tmu.ac.in/img/approval/3.jpg"
+                      <img src="{{asset('/assets/img/aboutus/statutory_approvals/govt_letters/3.jpg')}}"
                         alt="Authorization Letter from Government of Uttar Pradesh" class="img-fluid">
                     </div>
                   </div>
@@ -113,9 +113,9 @@
                     (Establishment of and Maintenance of Standards in Private University) Regulations, 2003.</p>
                 </div>
               </div>
-              <div class="col-lg-2 d-flex align-items-center justify-content-center p-3">
-                <img src="https://www.tmu.ac.in/img/approval/ugc.png" alt="TMU approved by UGC" class="img-fluid"
-                  height="150">
+              <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center p-3">
+                <img src="{{asset('/assets/img/aboutus/statutory_approvals/ugc.png')}}" alt="TMU approved by UGC" class="img-fluid"
+                style="max-height: 150px;">
               </div>
             </div>
           </div>
@@ -125,20 +125,20 @@
           <div class="iqac-container">
             <div class="iqac-card">
               <div class="card-pdf">
-                <img src="{{asset('/{{asset('/assets/img/icons/sheet.svg')}}')}}" alt="PDF Icon" class="pdf-icon">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Letter of UGC recognition for Teerthanker Mahaveer University</p>
-                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/img/approval/4.jpg">View
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/img/aboutus/pdf/approvals/5.pdf')}}">View
                   PDF</a>
               </div>
               <div class="card-pdf">
-                <img src="{{asset('/{{asset('/assets/img/icons/sheet.svg')}}')}}" alt="PDF Icon" class="pdf-icon">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">The UGC's Letter of 12B status was granted to Teerthanker Mahaveer University.
                 </p>
-                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/img/approval/4.pdf">View
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/img/aboutus/pdf/approvals/4.pdf')}}">View
                   PDF</a>
               </div>
               <div class="card-pdf">
-                <img src="{{asset('/{{asset('/assets/img/icons/sheet.svg')}}')}}" alt="PDF Icon" class="pdf-icon">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Report of the UGC Expert Committee</p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="https://www.ugc.ac.in/pdfnews/9873922_TirthankarMahavirUniversity-UP0001.pdf">View PDF</a>

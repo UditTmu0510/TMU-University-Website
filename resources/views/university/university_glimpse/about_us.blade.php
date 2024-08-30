@@ -21,15 +21,15 @@
                 </div>
                 <div class="container">
                   <div class="row align-items-center">
-                    <div class="col-lg-4">
-                      <a class="grid-item" href="{{asset('/assets/img/university/about-img.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/images/about-img.jpg')}}" class="d-block mx-auto" alt="Gallery Thumb 1"></a>
+                    <div class="col-lg-4 mb-2">
+                      <a class="grid-item" href="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" class="d-block mx-auto" alt="Gallery Thumb 1"></a>
                     </div>
-                    <div class="col-lg-8 mt-2">
+                    <div class="col-lg-8 mt-2 mb-2">
                       <p class="text-justify fs-14">As a multi-disciplinary varsity, we offer
                         career-oriented programmes
-                        at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams <a href="https://www.tmu.ac.in/medical-college-and-research-centre" target="_blank">Medical</a>, <a href="https://www.tmu.ac.in/dental-college-and-research-centre" target="_blank">Dental</a>, <a href="https://www.tmu.ac.in/college-of-pharmacy" target="_blank">Pharmacy</a>, <a href="https://www.tmu.ac.in/college-of-nursing" target="_blank">Nursing</a>, <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences</a>, <a href="https://www.tmu.ac.in/department-of-physiotherapy" target="_blank">Physiotherapy</a>, <a href="https://www.tmu.ac.in/tmimt-college-of-management" target="_blank">Hospital Administration</a>,
-                        <a href="https://www.tmu.ac.in/tmimt-college-of-physical-education" target="_blank">Physical Education</a>, <a href="https://www.tmu.ac.in/tmimt-college-of-management" target="_blank">Management</a>, <a href="https://www.tmu.ac.in/faculty-of-engineering" target="_blank">Engineering</a>,<a href="https://www.tmu.ac.in/faculty-of-engineering" target="_blank">Polytechnic</a>,
-                        <a href="https://www.tmu.ac.in/college-of-law-and-legal-studies" target="_blank">Law</a>, <a href="https://www.tmu.ac.in/college-of-fine-arts" target="_blank">Fine Arts</a>,<a href="https://www.tmu.ac.in/college-of-agriculture-sciences" target="_blank">Agriculture</a> and <a href="https://www.tmu.ac.in/centre-of-jain-studies" target="_blank">Jain Studies</a> to meet rising aspirations of the youth.
+                        at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
+                        <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank">Polytechnic</a>,
+                        <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>,<a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="#" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
                       </p>
 
                       <p class="text-justify fs-14">TMU provides a unique environment for students to
@@ -60,29 +60,29 @@
                     <div class="row">
                       <div class="col-lg-6 col-xl-4">
                         <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                          <li><a href="https://www.tmu.ac.in/medical-college-and-research-centre"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
-                          <li><a href="https://www.tmu.ac.in/dental-college-and-research-centre"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-nursing"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-pharmacy"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Pharmacy</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-paramedical-sciences"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Paramedical Sciences</li></a>
+                          <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
+                          <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
+                          <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
+                          <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Pharmacy</li></a>
+                          <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Paramedical Sciences</li></a>
                         </ul>
                       </div>
                       <div class="col-lg-6 col-xl-4">
                         <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                          <li><a href="https://www.tmu.ac.in/department-of-physiotherapy"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
-                          <li><a href="https://www.tmu.ac.in/tmimt-college-of-management"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-law-and-legal-studies"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-computing-sciences-and-it"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences</li></a>
-                          <li><a href="https://www.tmu.ac.in/faculty-of-engineering"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Engineering</li></a>
+                          <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
+                          <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
+                          <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
+                          <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences</li></a>
+                          <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Engineering</li></a>
                         </ul>
                       </div>
                       <div class="col-lg-6 col-xl-4">
                         <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                          <li><a href="https://www.tmu.ac.in/college-of-fine-arts"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Fine Arts</li></a>
-                          <li><a href="https://www.tmu.ac.in/faculty-of-education"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Education</li></a>
-                          <li><a href="https://www.tmu.ac.in/tmimt-college-of-physical-education"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Physical Education</li></a>
-                          <li><a href="https://www.tmu.ac.in/college-of-agriculture-sciences"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Agriculture Sciences</li></a>
-                          <li><a href="https://www.tmu.ac.in/centre-of-jain-studies"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
+                          <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Fine Arts</li></a>
+                          <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Education</li></a>
+                          <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Physical Education</li></a>
+                          <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Agriculture Sciences</li></a>
+                          <li><a href="#"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
                         </ul>
                       </div>
                     </div>
@@ -98,7 +98,7 @@
             <h2 class="tmu-text-primary text-center mt-4"><span>Message from the </span><span>Chancellor</span></h2>
             <div class="quote-box mx-auto">
               <div class="profile-image">
-                <img src="{{asset('/assets/img/university/suresh_jain_tmu.webp')}}" alt="Profile Image">
+                <img src="{{asset('/assets/img/aboutus/suresh_jain_tmu.webp')}}" alt="Profile Image">
               </div>
               <div class="quote-text mt-4 mt-md-0">
 
@@ -303,14 +303,14 @@
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
                         <a href="#" class="entry-image mb-0 h-100">
-                          <img src="./assets/img/university/campus_facilities/Water_Recycling_System.webp" alt="Water Recycling System at TMU" class="rounded-2 h-100 object-cover">
+                          <img src="{{asset('/assets/img/aboutus/campus_facilities/Water_Recycling_System.webp')}}" alt="Water Recycling System at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
                         </a>
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
-                          <h4>Preserving Water Resources</h4>
+                          <h4 class="mb-0 tmu-text-primary mt-2"><span>Preserving Water Resources</span></h4>
                         </div>
                         <div class="entry-content my-3">
                           <p class="mb-0">Our advanced water recycling system efficiently captures and treats wastewater from campus facilities, ensuring that water is reused for landscaping and other non-potable purposes. This innovative system helps conserve water resources and minimises our impact on the environment.</p>
@@ -326,14 +326,14 @@
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
                         <a href="#" class="entry-image mb-0 h-100">
-                          <img src="./assets/img/university/campus_facilities//solar_energy.webp" alt="Solar energy at TMU" class="rounded-2 h-100 object-cover">
+                          <img src="{{asset('/assets/img/aboutus/campus_facilities/solar_energy.webp')}}" alt="Solar energy at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
                         </a>
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
-                          <h4>Adopting Clean Energy Solutions</h4>
+                          <h4 class="mb-0 tmu-text-primary mt-2"><span>Adopting Clean Energy Solutions</span></h4>
                         </div>
                         <div class="entry-content my-3">
                           <p class="mb-0">TMU is proud to utilise solar energy as a primary source of power for our campus. By installing solar panels on buildings and other structures, we harness renewable energy from the sun, reducing our reliance on traditional electricity sources and decreasing our carbon footprint.</p>
@@ -348,14 +348,14 @@
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
                         <a href="#" class="entry-image mb-0 h-100">
-                          <img src="./assets/img/university/campus_facilities/eco_green_campus.webp" alt="Eco green campus at TMU" class="rounded-2 h-100 object-cover">
+                          <img src="{{asset('/assets/img/aboutus/campus_facilities/eco_green_campus.webp')}}" alt="Eco green campus at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
                         </a>
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
-                          <h4>Creating Sustainable Landscapes</h4>
+                          <h4 class="mb-0 tmu-text-primary mt-2"><span>Creating Sustainable Landscapes</span></h4>
                         </div>
                         <div class="entry-content my-3">
                           <p class="mb-0">Our commitment to greenery enhancement involves the cultivation of native plant species, the creation of green spaces, and the implementation of sustainable landscaping practices. These efforts not only beautify our campus but also promote biodiversity, improve air quality, and provide a peaceful environment for studies.</p>
@@ -381,65 +381,65 @@
 
               <div style="text-align:center; margin-top:2rem;">
                 <h2 class="tmu-text-primary"><span>Campus </span><span>Facilities</span></h2>
-                <p style="text-align:center; padding:0 30px;">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p>
+                <p style="text-align:center; padding:0 30px;" class="mb-4">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p>
               </div>
             </div>
             <div class="container d-none d-md-block">
               <div class="row justify-content-center">
                 <div class="col-md-3 text-center">
                   <a href="">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Hospital_02.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Hospital_02.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">Hospital Services</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>Hospital Services</span></h4>
                   <p>Access to Comprehensive Medical Care</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Hostel.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Hostel.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">Hostel Accommodation</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>Hostel Accommodation</span></h4>
                   <p>Comfortable Residency for Students</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Faculty_Residences.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Faculty_Residences.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">Faculty Residences</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>Faculty Residences</span></h4>
                   <p>Faculty Accommodation Within Campus</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Indoor.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Indoor.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">Indoor Stadiums</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>Indoor Stadiums</span></h4>
                   <p>Modern Sports Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Gym.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Gym.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">Gym Facilities (for Both Girls and Boys)</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>Gym Facilities (for Both Girls and Boys)</span></h4>
                   <p>Fitness Centres and Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/Outdoor.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Outdoor.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0"> Outdoor Stadiums</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span> Outdoor Stadiums</span></h4>
                   <p>Modern Sports Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/CCTV.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/CCTV.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">24/7 Surveillance System</h4>
+                  <h4 class="mb-0 tmu-text-primary"><span>24/7 Surveillance System</span></h4>
                   <p>Ensuring Safety with more than 3600 Night Vision Cameras</p>
                 </div>
                 <div class="col-md-3 text-center">
                   <a href="#">
-                    <img class="img-fluid mb-2" src="./assets/img/university/campus_facilities/E_lobby.webp" alt="Image">
+                    <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/E_lobby.webp')}}" alt="Image">
                   </a>
-                  <h4 class="mb-0">E-Lobby (Food Court)</h4>
+                  <h4 class="mb-0 tmu-text-primary mt-2"><span>E-Lobby (Food Court)</span></h4>
                   <p>Varied Dining Choices at E-Lobby</p>
                 </div>
               </div>
@@ -462,14 +462,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-12 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Hospital_02.JPG" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Hospital_02.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-12 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">Hospital Services</h4>
+                            <h4 class="mb-0 tmu-text-primary"><span>Hospital Services</span></h4>
                               <p>Access to Comprehensive Medical Care</p>
                               <p></p>
                             </div>
@@ -483,14 +483,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Hostel.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Hostel.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">Hostel Accommodation</h4>
+                            <h4 class="mb-0 tmu-text-primary"><span>Hostel Accommodation</span></h4>
                               <p>Comfortable Residency for Students</p>
                             </div>
                           </div>
@@ -503,14 +503,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Faculty_Residences.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Faculty_Residences.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">Faculty Residences</h4>
+                            <h4 class="mb-0 tmu-text-primary"><span>Faculty Residences</span></h4>
                               <p>Faculty Accommodation Within Campus</p>
                             </div>
                           </div>
@@ -523,15 +523,15 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Indoor.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Indoor.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">Indoor Stadiums</h4>
-                              <p>Modern Sports Facilities</p>
+                            <h4 class="mb-0 tmu-text-primary"><span>Indoor Stadiums</span></h4>
+                              <p>Modern Sports <br> Facilities</p>
                             </div>
                           </div>
                         </div>
@@ -543,14 +543,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Gym.JPG" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Gym.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">Gym Facilities (for Both Girls and Boys)</h4>
+                            <h4 class="mb-0 tmu-text-primary"><span>Gym Facilities (for Both Girls and Boys)</span></h4>
                               <p>Fitness Centres and Facilities</p>
                             </div>
                           </div>
@@ -563,15 +563,15 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/Outdoor.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/Outdoor.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0"> Outdoor Stadiums</h4>
-                              <p>Modern Sports Facilities</p>
+                            <h4 class="mb-0 tmu-text-primary"><span> Outdoor Stadiums</span></h4>
+                              <p>Modern Sports <br> Facilities</p>
                             </div>
                           </div>
                         </div>
@@ -583,14 +583,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/CCTV.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/CCTV.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">24/7 Surveillance System</h4>
+                            <h4 class="mb-0 tmu-text-primary"><span>24/7 Surveillance System</span></h4>
                               <p>Ensuring Safety with more than 3600 Night Vision Cameras</p>
                             </div>
                           </div>
@@ -603,14 +603,14 @@
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
                             <a href="#" class="entry-image mb-0 h-100">
-                              <img src="images/campus_facilities/E_lobby.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                              <img src="{{asset('/assets/img/aboutus/campus_facilities/E_lobby.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
                             </a>
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
-                              <h4 class="mb-0">E-Lobby (Food Court)</h4>
+                            <h4 class="mb-0 tmu-text-primary mt-2"><span>E-Lobby (Food Court)</span></h4>
                               <p>Varied Dining Choices at E-Lobby</p>
                             </div>
                           </div>
