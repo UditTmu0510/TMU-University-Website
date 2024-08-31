@@ -131,20 +131,22 @@
 
 
 		<div class="box-container">
-			<div class="box">
-				<h1 class="college-main-heading">Teerthanker Mahaveer College of Nursing</h1>
-				<div class="row">
-					<div class="col-12 px-2 px-md-5">
-						<p style="text-align: justify;">Nursing professionals are one of the most vital members of the healthcare industry. Their significant contribution towards the betterment of the patient is incomparable. Hence nursing professionals are also called caregivers. College of Nursing, Teerthanker Mahaveer University Moradabad, understands the essence of the profession. It aids in nurturing refined, compassionate healthcare professionals with the right blend of academic and practical training, making us the top choice among aspiring Nursing candidates. College of Nursing is committed to grooming competent nursing professionals according to the latest industry standards of the ever-evolving healthcare sector with UG, PG and doctoral nursing programmes.</p>
-						<p class="mb-0 pb-0"><b>Join the bandwagon of the best private nursing college in UP to excel beyond your imagination.</b></p>
+            <div class="box">
+                <h2 class="college-main-heading">TMU Nursing College, Among the top Nursing Colleges</h2>
+                <div class="row">
+                    <div class="col-12 px-2 px-md-5">
+                        <p style="text-align: justify;">College of Nursing, Teerthanker Mahaveer University was established in 2009. College of Nursing is committed to grooming competent nursing professionals according to the latest industry standards of the ever-evolving healthcare sector with UG, PG and doctoral nursing programmes. Join the bandwagon of the best nursing college in UP to excel beyond your imagination.</p>
+                        <div class="read-more-content mt-0">
+                        <p style="text-align: justify;">Nursing professionals are one of the most vital members of the healthcare industry. Their significant contribution towards the betterment of the patient is incomparable. Hence nursing professionals are also called caregivers. TMU’s College of Nursing understands the essence of the profession. It aids in nurturing refined, compassionate healthcare professionals with the right blend of academic and practical training, making us the top choice among aspiring Nursing candidates.</p>
+						<p style="text-align: justify;">Choosing the right nursing college can shape your career in profound ways. TMU Nursing College stands out as a premier institution, offering a blend of academic excellence, practical training, and holistic development. Here's why TMU Nursing College is the best choice for your nursing education.</p>
+                    </div>
+                    <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
-						<button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                    </div>
 
-					</div>
-
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
 
 		<div class="container my-5 py-2">
 			<ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs" role="tablist">
@@ -236,144 +238,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-		<section id="content">
-			<div class="content-wrap py-0" style="background-color: #001055;">
-				<main1>
-					<div>
-						<p class="tmimt-awards-heading"><span>Awards <span class="symbol">&</span> Excellence</span>
-					</div>
-					<div class="swiper swiper-management-awards">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide swiper-slide--one">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-							<div class="swiper-slide swiper-slide--two">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-							<div class="swiper-slide swiper-slide--three">
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-
-							<div class="swiper-slide swiper-slide--four">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-
-							<div class="swiper-slide swiper-slide--seven">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-							<div class="swiper-slide swiper-slide--six">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-
-							<div class="swiper-slide swiper-slide--five">
-
-								<!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
-                                            </div> -->
-							</div>
-						</div>
-						<!-- Add Pagination -->
-						<div class="swiper-pagination"></div>
-					</div>
-					<img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-					<img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
-					</main>
-			</div>
-		</section>
-
-
-		<!-- Section for collaborators -->
-		<div class="container industry-collaborators mt-5">
-			<h2 class="text-center mb-0" style="font-weight:700; color:#001055">Top Industry Academic Partners and <span style="color:#FF7900"> Collaborative Programmes at TMU</span></h2>
-
-			<!-- Collaborators Carousel -->
-			<div class="section bg-transparent mt-0 mb-5">
-
-				<div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-					<div class="oc-item text-start">
-						<div class="card collab-card">
-							<img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/ur.jpg" alt="TMU collaboration with united resourcing">
-
-							<div class="card-body">
-								<h3 class="collab-card-title">BBA – INTERNATIONAL BUSINESS & ENTREPRENEURSHIP</h3>
-								<p class="collab-card-text ">As part of a partnership with United Resourcing Services, Teerthanker Mahaveer University is offering a Masters of Business Administration (MBA) in Industry Integrated with Global Exposure along with Bachelors of Business Administration (BBA) in International Business and Entrepreneurship programme. UR Services Pvt. Ltd. helps the students to be prepared for the challenges in the industry.</p>
-								<button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="card collab-card">
-							<img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/whizhacklogo.jpg" alt="TMU collaboration with whizhack">
-							<div class="card-body">
-								<h3 class="collab-card-title">MBA Cyber Security (in association with Whizhack Technologies Pvt Ltd)</h3>
-								<p class="collab-card-text">Welcome to our MBA in Cyber Security program, offered in collaboration with Whizhack Technologies Pvt Ltd. In this cutting-edge program, we empower aspiring professionals with the knowledge and skills required to navigate the complex landscape of cybersecurity.</p>
-								<button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="card collab-card">
-							<img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/BSE-India.jpg" alt="TMU collaboration with BSE india">
-							<div class="card-body">
-								<h3 class="collab-card-title">B.Com. (Hons.) - Financial Markets</h3>
-								<p class="collab-card-text">As part of a partnership with the Bombay Stock Exchange (BSE), Teerthanker Mahaveer University is offering a highly in-demand (B. Com) Honors programme with a focus on Financial Markets.</p>
-								<button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="card collab-card">
-							<img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/safeducate.jpg" alt="TMU collaboration with safeducate">
-							<div class="card-body">
-								<h3 class="collab-card-title">MBA (Supply Chain Management & Logistics)</h3>
-								<p class="collab-card-text">This collaborative program is a joint venture program with Safexpress that provides specialisation in Supply Chain Management and Logistics.</p>
-								<button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="card collab-card">
-							<img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-							<div class="card-body">
-								<h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-								<p class="collab-card-text">This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.</p>
-								<button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-
-
-
 
 		<!-- Collab Modal -->
 		<div id="collabModal" class="tmu-modal">
@@ -1062,6 +926,125 @@
 		</div>
 	</div>
 </section><!-- #content end -->
+
+<div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Why TMU is the Best Choice for You <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>UGC-Approved with </span><span> NAAC A Accreditation</span></h3> 
+			<p>TMU Nursing College is UGC-approved and has received NAAC A accreditation, a mark of excellence and quality in education. This recognition ensures that the college meets high standards in teaching, research, and infrastructure.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Experiential Learning by </span><span> Highly Qualified Faculties</span></h3> 
+			<p>The college prides itself on its team of highly qualified faculties who bring a wealth of experience and knowledge to the classroom. They focus on experiential learning, ensuring that students gain hands-on experience that is crucial in the nursing field.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3> 
+			<p>The Centre for Teaching, Learning, and Development at TMU fosters an environment of continuous improvement and innovation in teaching methods. It supports faculty development and ensures that students receive the best possible education.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Global Career </span><span> Prospects</span></h3> 
+			<p>Graduating from TMU Nursing College opens doors to global career opportunities. The college&rsquo;s strong industry connections and international collaborations help students secure placements and internships worldwide.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>On-Campus </span><span> Hostel Facilities</span></h3> 
+			<p>TMU offers comfortable on-campus hostel facilities, providing a home away from home for students. The hostels are well-maintained and equipped with all the necessary amenities, ensuring a comfortable living environment.</p>
+
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Academic Excellence <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Modern Classrooms for </span><span>Interactive Sessions</span></h3>
+			<p>The college boasts modern classrooms equipped with the latest technology to facilitate interactive learning sessions. This ensures that students are engaged and can actively participate in their education.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Educational Seminars </span><span> and Conferences</span></h3>
+			<p>Regular educational seminars and conferences are held at TMU, providing students with the opportunity to learn from experts in the field, stay updated with the latest advancements, and network with professionals.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Strong Focus on </span><span> Practical Knowledge</span></h3>
+			<p>At TMU, the emphasis is on practical knowledge. The curriculum is designed to provide students with hands-on experience through practical training in well-equipped laboratories and real-world settings.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Campus Life at TMU Nursing College <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Extracurricular </span><span> Clubs</span></h3>
+			<p>Extracurricular activities are a vital part of student life at TMU. The college has a variety of clubs that cater to different interests, helping students develop well-rounded personalities and leadership skills.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Electrifying Concerts and </span><span> Dynamic Events</span></h3>
+			<p>The campus is always buzzing with events, from electrifying concerts to dynamic cultural and sports events. These activities provide a vibrant and engaging campus life for students.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Gym and  </span><span> Fitness Centre</span></h3>
+			<p>TMU&rsquo;s gym and fitness centre are well-equipped, promoting a healthy lifestyle among students. Regular physical activity is encouraged, helping students maintain their physical well-being.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Shopping Stores and </span><span>  Cafeterias</span></h3>
+			<p>Convenience is key at TMU, with on-campus shopping stores and cafeterias that cater to students' daily needs. These facilities ensure that students have everything they need within the campus.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Anti-Ragging </span><span>  Campus</span></h3>
+			<p>Safety is a top priority at TMU. The campus is strictly anti-ragging, ensuring a safe and welcoming environment for all students.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Fully Wi-Fi  </span><span> Enabled Campus</span></h3>
+			<p>Staying connected is essential, and TMU provides a fully Wi-Fi enabled campus. This ensures that students have access to the internet for academic and personal use at all times.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Placement and Career Opportunities <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Explore Top-Notch </span><span>Placement Opportunities</span></h3>
+			<p>TMU Nursing College offers top-notch placement opportunities, with a dedicated placement cell that works tirelessly to ensure that students secure positions in reputed organizations.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>100% Placement Assistance with </span><span> an Outstanding Track Record</span></h3>
+			<p>The college boasts a 100% placement assistance record, with graduates finding positions in leading healthcare institutions and organizations. The outstanding track record speaks volumes about the quality of education and training provided.</span></p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Strong Industry Connections</span><span> with Top Companies</span></h3>
+			<p>TMU&rsquo;s strong connections with top companies in the healthcare industry provide students with invaluable insights and opportunities. These connections facilitate internships, placements, and collaborative projects.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">State-of-the-Art Facilities <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Well-Maintained Landscapes for a </span><span> Conducive Learning Environment </span></h3>
+			<p>The campus is adorned with well-maintained landscapes, creating a serene and conducive learning environment. The greenery and open spaces contribute to a positive and healthy atmosphere.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Well-Equipped </span><span> Nursing Laboratories </span></h3>
+			<p>The college&rsquo;s nursing laboratories are equipped with the latest technology and instruments, providing students with hands-on training that is essential for their professional development.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Global Exposure and Opportunities <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>International Nursing </span><span> Internships</span></h3>
+			<p>TMU Nursing College provides opportunities for international internships, allowing students to gain global exposure and experience different healthcare systems.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Placement Opportunities in </span><span> Leading Nursing Industries</span></h3>
+			<p>The college&rsquo;s placement cell works diligently to secure opportunities in leading nursing industries, ensuring that graduates find positions that match their skills and aspirations.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Global Nursing </span><span> Research Opportunities</span></h3>
+			<p>Research is a critical component of TMU&rsquo;s academic environment. Students have the chance to engage in global nursing research opportunities, contributing to advancements in the field.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Robust Nursing Industry Affiliations</span><span> for Invaluable Insights</span></h3>
+			<p>TMU&rsquo;s affiliations with various nursing industry leaders provide students with insights and exposure that are invaluable for their professional growth.</p>
+            </div>
+			<hr class="horizontal-line">
+            <button class="careers-accordion">Research and Development <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span> In-House Research Journal - </span><span> TMU Journal of Nursing</span></h3>
+			<p>TMU publishes its own research journal, the TMU Journal of Nursing, which features scholarly articles and research findings. This encourages students and faculty to contribute to the body of knowledge in nursing.</p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span> Research and Entrepreneurial </span><span> Development Programmes</span></h3>
+			<p>The college offers research and entrepreneurial development programs, fostering innovation and encouraging students to pursue research projects and entrepreneurial ventures.</p>
+			</div>
+			<hr class="horizontal-line">
+            <button class="careers-accordion">Accommodation and Amenities <span class="icon">+</span></button>
+            <div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Comfortable On-Campus</span><span> Hostel Facilities</span></h3>
+			<p>TMU provides comfortable on-campus hostel facilities, ensuring that students have a safe and convenient place to stay. The hostels are equipped with all the necessary amenities and provide a supportive living environment.</span></p>
+			<h3 class="tmu-text-primary fs-16 mb-1"><span>Stores and </span><span> Cafeterias</span></h3>
+			<p>For students, TMU offers stores and cafeterias that cater to their needs. These facilities make it easy for students to find the supplies they need and enjoy a variety of food options.</span></p>
+			</div>
+			<hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMU Nursing College offers a comprehensive education experience, combining academic excellence, practical training, and a vibrant campus life. With state-of-the-art facilities, global opportunities, and strong industry connections, TMU Nursing College is the best choice for aspiring nurses. The college’s commitment to quality education, student support, and holistic development ensures that graduates are well-prepared for successful careers in nursing.</p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+            <p><strong>Q1: What accreditation does TMU Nursing College have?</strong></p>
+			<p><strong>Ans:</strong> TMU Nursing College is UGC-approved and has received NAAC A accreditation, indicating high standards in education, research, and infrastructure.</p>
+			<p><strong>Q2: Are there on-campus accommodation facilities at TMU Nursing College?</strong></p>
+			<p><strong>Ans: </strong>Yes, TMU provides comfortable on-campus hostel facilities equipped with all necessary amenities.</p>
+			<p><strong>Q3: What are the global opportunities available for TMU Nursing College students?</strong></p>
+			<p><strong>Ans: </strong>Students at TMU Nursing College have access to international internships, global nursing research opportunities, and placement opportunities in leading nursing industries.</p>
+			<p><strong>Q4: How does TMU Nursing College support student placement?</strong></p>
+			<p><strong>Ans: </strong>TMU Nursing College offers 100% placement assistance with an outstanding track record, strong industry connections, and a dedicated placement cell that ensures students secure positions in reputed organizations.</p>
+
+            </div>
+            <hr class="horizontal-line">
+        </div>
+
+
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
