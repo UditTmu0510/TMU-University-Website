@@ -10,14 +10,14 @@
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Management</span> College in UP,TMIMT</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Management</span> College in UP,TMIMT</h1>
-                    <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-5">Apply Now</a>
+                    <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-5">Apply Now</a>
                     <!-- <a href="#" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a> -->
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
                         <div style="z-index: 2;">
                             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
-                            <img src="{{asset('assets/image/tmimt-banner.png')}}" alt="" class="p-0 m-0">
+                            <img src="{{asset('/assets/img/banner/management/management-banner.webp')}}" alt="" class="p-0 m-0">
                         </div>
                     </div>
                 </div>
@@ -1176,13 +1176,81 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
 </section><!-- #content end -->
+
+<div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+            
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+            
+            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
+            <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p></p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            
+
+            </div>
+            <hr class="horizontal-line">
+        </div>
 
 <br /><br />
 

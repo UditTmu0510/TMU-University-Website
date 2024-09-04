@@ -16,7 +16,7 @@
                     known as Department of Computer Applications, established in the year 2001).</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="https://www.tmu.ac.in/img/ccsit/ccit_about.jpg" alt="Learning and Teaching">
+                        <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4">The college was established by the university with the aim of providing

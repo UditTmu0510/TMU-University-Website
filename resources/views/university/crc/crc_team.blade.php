@@ -10,7 +10,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-0">
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/MR_SIDHARTH_SINGH.jpg')}}" class="card-img-top" alt="Image 3">
+            <img src="{{asset('/assets/img/our_team/crc/MR_SIDHARTH_SINGH.jpg')}}" class="card-img-top" alt="Image 3">
             <div class="card-body text-center">
               <h5 class="card-title fs-14 tmu-color fw-bold">Mr. Sidhart Singh</h5>
               <p class="card-text fs-14 tmu-color-blue">Joint Director (CRC)</p>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/riteshkumar.jpg')}}" class="card-img-top" alt="Image 2">
+            <img src="{{asset('/assets/img/our_team/crc/riteshkumar.jpg')}}" class="card-img-top" alt="Image 2">
             <div class="card-body text-center">
               <h5 class="card-title  fs-14 tmu-color fw-bold">Mr. Ritesh kr. Srivastva</h5>
               <p class="card-text fs-14 tmu-color-blue">Assistant Director (CRC)</p>
@@ -33,7 +33,7 @@
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/akash_b.jpg')}}" class="card-img-top" alt="Image 2">
+            <img src="{{asset('/assets/img/our_team/crc/akash_b.jpg')}}" class="card-img-top" alt="Image 2">
             <div class="card-body text-center">
               <h5 class="card-title  fs-14 tmu-color fw-bold">Mr. Akash Bhatnagar</h5>
               <p class="card-text fs-14 tmu-color-blue">Assistant Director (CRC)</p>
@@ -44,7 +44,7 @@
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/danish_r.jpg')}}" class="card-img-top" alt="Image 1">
+            <img src="{{asset('/assets/img/our_team/crc/danish_r.jpg')}}" class="card-img-top" alt="Image 1">
             <div class="card-body text-center">
               <h5 class="card-title  fs-14 tmu-color fw-bold">Mr. Danish Rahmani</h5>
               <p class="card-text fs-14 tmu-color-blue">Assistant Manager (CRC)</p>
@@ -55,18 +55,7 @@
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/kushwant_s.jpg')}}" class="card-img-top" alt="Image 1">
-            <div class="card-body text-center">
-              <h5 class="card-title  fs-14 tmu-color fw-bold">Mr. Khushwant Singh</h5>
-              <p class="card-text fs-14 tmu-color-blue">Executive (CRC)</p>
-              <p class="card-text fs-14 tmu-color-blue">+91-8077704563</p>
-              <p class="card-text fs-14 tmu-color-blue">kushwant.crc@tmu.ac.in</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
-          <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/sudhanshu_g.jpg')}}" class="card-img-top" alt="Image 1">
+            <img src="{{asset('/assets/img/our_team/crc/sudhanshu_g.jpg')}}" class="card-img-top" alt="Image 1">
             <div class="card-body text-center">
               <h5 class="card-title  fs-14 tmu-color fw-bold">Mr. Shudhanshu Gautam</h5>
               <p class="card-text fs-14 tmu-color-blue">Office Assistant (CRC)</p>
@@ -77,7 +66,7 @@
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
           <div class="card card-animation">
-            <img src="{{asset('/assets/img/crc/team/mehvish_s.jpg')}}" class="card-img-top" alt="Image 1">
+            <img src="{{asset('/assets/img/our_team/crc/mehvish_s.jpg')}}" class="card-img-top" alt="Image 1">
             <div class="card-body text-center">
               <h5 class="card-title  fs-14 tmu-color fw-bold">Ms. Mehvish Shad</h5>
               <p class="card-text fs-14 tmu-color-blue">Executive (CRC)</p>

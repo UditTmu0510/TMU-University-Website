@@ -3,34 +3,27 @@
 
 
 
-
-
-
-
-
-
-<link rel="stylesheet" href="{{asset('./assets/css/tmu-testimonial.css')}}">
-<link rel="stylesheet" href="{{asset('./assets/css/tmimt.css')}}">
-<link rel="stylesheet" href="{{asset('./assets/css/college.css')}}">
-
+<link rel="stylesheet" href="{{asset('/assets/css/tmu-testimonial.css')}}">
+<link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}">
+<link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
 
 <div class="main-content">
     <div class="container">
         <div class="container-xl tmu-testimonial">
-            <h1 class="tmu-text-primary mb-0 tmu-page-heading">
+            <h1 class="tmu-text-primary mb-0 tmu-page-heading pt-md-5 pb-4">
                 <span>Students</span><span>Testimonial</span>
             </h1>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-2">
                     <div class="media ">
-                        <img src="https://www.tmu.ac.in/uploads/testimonial/Pranshi_Sharma.jpg"
+                        <img src="{{asset('/assets/img/testimonials/department/ctld/students/Pranshi_Sharma.jpg')}}"
                             class="mr-3" alt="">
                         <div class="media-body">
                             <div class="testimonial">
                                 <p class="overview mb-3 fs-14"><b class="fs-16">Dr. Pranshi Sharma</b>
                                     <br>MBA (2023 - 2024), <br> Data Engineer at Aventra Group
-                                    <br><br>
+                                    <br>
                                     <span>
                                         <a href="https://www.linkedin.com/in/udit-gupta-ug0510/"
                                             class=" px-2 py-1 linkedin-text">Linkedin <i
@@ -48,7 +41,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-2">
                     <div class="media ">
-                        <img src="https://www.tmu.ac.in/uploads/testimonial/Purnima_Varshney.jpg"
+                        <img src="{{asset('/assets/img/testimonials/department/ctld/students/Purnima_Varshney.jpg')}}"
                             class="mr-3" alt="">
                         <div class="media-body">
                             <div class="testimonial">
@@ -74,13 +67,13 @@
 
                 <div class="col-lg-4 col-md-6 mb-2">
                     <div class="media ">
-                        <img src="https://www.tmu.ac.in/uploads/testimonial/Sumbul_Fatema.jpg"
+                        <img src="{{asset('/assets/img/testimonials/department/ctld/students/Sumbul_Fatema.jpg')}}"
                             class="mr-3" alt="">
                         <div class="media-body">
                             <div class="testimonial">
                                 <p class="overview mb-3 fs-14"><b class="fs-16">Sumbul Fatema</b>
-                                    <br>BPT (2020 - 2024), <br> Data Engineer at Aventra Group
-                                    <br><br>
+                                    <br>BPT (2020 - 2024), <br>Data Engineer at Aventra Group
+                                    <br>
                                     <span>
                                         <a href="https://www.linkedin.com/in/udit-gupta-ug0510/"
                                             class=" px-2 py-1 linkedin-text">Linkedin <i
@@ -101,7 +94,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-2">
                     <div class="media ">
-                        <img src="https://www.tmu.ac.in/uploads/testimonial/Abeer_Masroor.jpg"
+                        <img src="{{asset('/assets/img/testimonials/department/ctld/students/Abeer_Masroor.jpg')}}"
                             class="mr-3" alt="">
                         <div class="media-body">
                             <div class="testimonial">
@@ -138,7 +131,7 @@
             <div class="tmu-testimonial bg-light">
 
                 <div class="media ">
-                    <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/abdul_india_mart_mba.webp"
+                    <img src="{{asset('/assets/img/testimonials/department/ctld/students/abdul_india_mart_mba.jpg')}}"
                         class="mr-3" alt="">
                     <div class="media-body">
                         <div class="testimonial">
@@ -162,7 +155,7 @@
 </div>
 </div>
 
-<script src="{{asset('./assets/js/tmimt.js')}}"></script>
+<script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
 
 @endsection

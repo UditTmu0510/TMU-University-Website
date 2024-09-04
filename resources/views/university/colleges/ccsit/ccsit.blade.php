@@ -16,13 +16,13 @@
                     <h1 class=" mt-5 mb-3 d-block d-md-none"
                         style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
                         Welcome to <span>College Of</span> Computing Sciences & IT (CCSIT)</h1>
-                        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
+                        <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
                         <div style="z-index: 2;">
                             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
-                            <img src="{{asset('assets/img/banner/ccsit/ccsit-banner.png')}}" alt="" class="p-0 m-0">
+                            <img src="{{asset('assets/img/banner/ccsit/ccsit-banner.webp')}}" alt="" class="p-0 m-0">
                         </div>
                     </div>
                 </div>

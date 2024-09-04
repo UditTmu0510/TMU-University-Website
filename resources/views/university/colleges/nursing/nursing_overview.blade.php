@@ -19,7 +19,7 @@
                         Their significant contribution towards the betterment of the patient is incomparable. Hence nursing professionals are also called caregivers.</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="assets/img/112.jpg" alt="Learning and Teaching">
+                        <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4">TMU, understands

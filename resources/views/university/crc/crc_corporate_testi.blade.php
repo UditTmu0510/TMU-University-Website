@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media ">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/ishant_raheja_mando_softech.jpg" class="mr-3"
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/ishant_raheja_mando_softech.jpg')}}" class="mr-3"
                                 alt="">
                             <div class="media-body">
                                 <div class="testimonial">
@@ -36,7 +36,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/deen_d_maxhealthcare.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/deen_d_maxhealthcare.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Deen D</b><br> <span class="tmu-color-blue">Sr. HR Manager, <br> MAX
@@ -56,7 +56,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/Aditya_Kumar_vivo.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/Aditya_Kumar_vivo.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Aditya Kumar</b><br> <span class="tmu-color-blue">HR Manager, <br> VIVO
@@ -74,7 +74,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media ">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/bali_singh_eco_energies.jpg" class="mr-3"
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/bali_singh_eco_energies.jpg')}}" class="mr-3"
                                 alt="">
                             <div class="media-body">
                                 <div class="testimonial">
@@ -97,11 +97,11 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/saumya_srivastava_remotestate.jpg" class="mr-3"
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/saumya_srivastava_remotestate.jpg')}}" class="mr-3"
                                 alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Deen D</b><br> <span class="tmu-color-blue">Head- HR, <br>
+                                    <p class="overview mb-3"><b>Saumya Srivastava</b><br> <span class="tmu-color-blue">Head- HR, <br>
                                             REMOTESTATE</span></p>
                                     <p>I find that Teerthanker Mahaveer University students are adaptable
                                         and are eager to adjust to the environment, the company appreciate
@@ -119,7 +119,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/team-1.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-1.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Mr. Manish Kumar Tewari</b><br> <span class="tmu-color-blue">Manager,
@@ -138,7 +138,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/team-1.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-2.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ms. Megha Agarwal</b><br> <span class="tmu-color-blue">Senior Manager
@@ -158,7 +158,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/team-1.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-7.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Mr. Akhilesh Sharma</b><br> <span class="tmu-color-blue">IFBI, <br> NIIT
@@ -178,7 +178,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/team-1.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-8.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Mr. Gaurav Gupta</b><br> <span class="tmu-color-blue">Corporate HR, <br>
@@ -197,7 +197,7 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="https://www.tmu.ac.in/img/placement/corporate/team-1.jpg" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-1.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ms. Smita Dubey</b><br> <span class="tmu-color-blue">HR Recruitment,
@@ -220,7 +220,7 @@
                         <div class="close-btn" onclick="closeTestimonialModal()">x</div>
                         <div class="tmu-testimonial bg-light">
                             <div class="media">
-                                <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/abdul_india_mart_mba.webp"
+                                <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-2.jpg')}}"
                                     class="mr-3" alt="">
                                 <div class="media-body">
                                     <div class="testimonial">
