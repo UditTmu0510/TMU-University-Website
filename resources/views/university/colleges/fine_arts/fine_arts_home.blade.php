@@ -128,12 +128,14 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer College of Fine Arts</h1>
+                <h2 class="college-main-heading">College of Fine Arts, among the top Colleges for Fine Arts Courses</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">College of Fine Arts, the best fine arts college, serves as a vibrant hub for artistic exploration. It is a place where aspiring artists from diverse backgrounds come together to develop their creative aptitudes and refine their artistic skills. It offers bachelor, master's and doctoral level programmes with painting and applied as the major specialisations.</p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <p style="text-align: justify;">College of Fine Arts established in 2011 at Teerthanker Mahaveer University (TMU), is renowned for its exceptional offerings in fine arts education. Whether you're aspiring to delve into the intricacies of visual arts, performing arts, or pursue a career in art management, TMU provides a nurturing environment enriched with academic excellence and practical learning experiences.</p>
+                        <div class="read-more-content mt-0">
+                        </p>
+                    </div>
+                    <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -200,143 +202,6 @@
                 </div>
             </div>
         </div>
-
-
-
-        <section id="content">
-            <div class="content-wrap py-0" style="background-color: #001055;">
-                <main1>
-                    <div>
-                        <p class="tmimt-awards-heading"><span>Awards <span class="symbol">&</span> Excellence</span>
-                    </div>
-                    <div class="swiper swiper-management-awards">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide--one">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--two">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--three">
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--four">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--seven">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--six">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--five">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
-                    </main>
-            </div>
-        </section>
-
-
-        <!-- Section for collaborators -->
-        <div class="container industry-collaborators mt-5">
-            <h2 class="text-center mb-0" style="font-weight:700; color:#001055">Top Industry Academic Partners and <span style="color:#FF7A00"> Collaborative Programmes at TMU</span></h2>
-
-            <!-- Collaborators Carousel -->
-            <div class="section bg-transparent mt-0 mb-5">
-
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/ur.jpg" alt="TMU collaboration with united resourcing">
-
-                            <div class="card-body">
-                                <h3 class="collab-card-title">BBA – INTERNATIONAL BUSINESS & ENTREPRENEURSHIP</h3>
-                                <p class="collab-card-text ">As part of a partnership with United Resourcing Services, Teerthanker Mahaveer University is offering a Masters of Business Administration (MBA) in Industry Integrated with Global Exposure along with Bachelors of Business Administration (BBA) in International Business and Entrepreneurship programme. UR Services Pvt. Ltd. helps the students to be prepared for the challenges in the industry.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/whizhacklogo.jpg" alt="TMU collaboration with whizhack">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA Cyber Security (in association with Whizhack Technologies Pvt Ltd)</h3>
-                                <p class="collab-card-text">Welcome to our MBA in Cyber Security program, offered in collaboration with Whizhack Technologies Pvt Ltd. In this cutting-edge program, we empower aspiring professionals with the knowledge and skills required to navigate the complex landscape of cybersecurity.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/BSE-India.jpg" alt="TMU collaboration with BSE india">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">B.Com. (Hons.) - Financial Markets</h3>
-                                <p class="collab-card-text">As part of a partnership with the Bombay Stock Exchange (BSE), Teerthanker Mahaveer University is offering a highly in-demand (B. Com) Honors programme with a focus on Financial Markets.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/safeducate.jpg" alt="TMU collaboration with safeducate">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (Supply Chain Management & Logistics)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with Safexpress that provides specialisation in Supply Chain Management and Logistics.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
 
 
         <!-- Collab Modal -->
@@ -811,6 +676,80 @@
         </div>
 
 </section><!-- #content end -->
+
+<div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+            
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+            
+            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
+            <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p></p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            
+
+            </div>
+            <hr class="horizontal-line">
+        </div>
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>

@@ -8,347 +8,119 @@
 <!-- Content
     ============================================= -->
 
-	<div class="main-content">
-        <div class="container">
-            <section class="events_ctld">
-                <section id="content bg-dark">
+<div class="main-content">
+    <div class="container">
+        <section class="events_ctld">
+            <section id="content bg-dark" style="background: #f5f5f5;">
+                <div class="container">
                     <div class="content-wrap">
-                        <div class="container">
+                        <div class="row g-4 mb-5" id="news_results">
+                            @foreach ($events as $item)
 
-                            <div class="row g-4 mb-5">
-
+                            @php
+                            $string = nl2br(html_entity_decode($item->event_full_description));
+                            $length = 374;
+                            $final_string;
+                            if (strlen($string) <= $length) {
+                                $final_string=$string;
+                                }else{
+                                $truncated=substr($string, 0, $length);
+                                $last_space=strrpos($truncated, ' ' );
+                                if ($last_space !==false) {
+                                $final_string=substr($truncated, 0, $last_space);
+                                }
+                                }
+                                $final_string=$final_string. '...' ;
+                                @endphp
                                 <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Academics
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Fri, Jan 23 @
-                                                            5:30PM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">TMU Students Tour Narora Atomic Power Station Curtailing
-                                                        Nuclear Power</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">Aug 17, 2023. TMU's Faculty of Education students
-                                                    undertook a knowledge-enriching educational excursion to Narora
-                                                    Atomic Power Station. It aimed to provide students.</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i
-                                                                class="uil uil-map-marker"></i>TMU, Moaradabad</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
+                                    <div class="col-md-4 mb-md-0">
+                                        <a href="#" class="entry-image mb-0 h-100">
+                                            <img src="{{asset($item->ti_path)}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                                            
+                                        </a>
                                     </div>
+                                    <div class="col-md-8 p-4">
+                                        
+
+                                        <div class="entry-title nott">
+                                            <h3><a href="#">{{$item->event_title}}</a></h3>
+                                        </div>
+                                        <div class="entry-meta mt-3">
+                                            <ul>
+                                                <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i> {{$item->event_date}}</li>
+                                                <li style="margin: 0 0 8px 0;"><a href="#"><i class="uil uil-user"></i> admin</a></li>
+                                                <li style="margin: 0 0 8px 0;"><i class="uil uil-folder-open"></i> <a href="#">{{$item->category}}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="entry-content my-3">
+                                            <p class="mb-0 text-justify">@php echo $final_string @endphp</p>
+                                        </div>
+
+                                        <a href="{{'news/'.$item->n_slug}}" class="tmu-btn btn-1 m-0 py-1 px-2">Read More</a>
+                                    </div>
+                                </div>
                                 </article>
 
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Achievements
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Fri, Jan 23 @
-                                                            5:30PM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">CTLD’s Faculty Development Programme Empowers Educators
-                                                        with Emotional Intelligence Skills</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">July 8th, 2023, In response to the ever-changing
-                                                    landscape of the global workforce, and recognising the increasing
-                                                    importance of Emotional Intelligence (EI) skills.</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i
-                                                                class="uil uil-map-marker"></i>TMU, Moaradabad</a></li>
-                                                </ul>
+                                @endforeach
+                                {{-- <article class="entry event col-12 mb-4">
+                            <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
+                                <div class="col-md-4 mb-md-0">
+                                    <a href="#" class="entry-image mb-0 h-100">
+                                        <img src="https://www.tmu.ac.in/uploads/events/past_event/543_title_image.jpg" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                                        <div class="bg-overlay">
+                                            <div class="bg-overlay-content justify-content-start align-items-start">
+                                                <div class="badge px-3 py-2 fs-12 rounded-pill">Academics</div>
                                             </div>
                                         </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-8 p-4">
+                                    <div class="entry-meta no-separator mb-1 mt-0">
+                                        <ul>
+                                            <li><a href="#" class="text-uppercase fw-medium">Fri, Jan 23 </a></li>
+                                        </ul>
                                     </div>
-                                </article>
-
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Alumni</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Mon, Feb 12 @
-                                                            3:00PM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">Hands-on Advanced Level Workshop on Intellectual
-                                                        Property Rights (IPR)</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">On 3rd June 2023, a Hands-on Advanced level workshop on
-                                                    Intellectual Property Rights (IPR) was organised jointly by IIC .
-                                                </p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                            Campus, TMU</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+        
+                                    <div class="entry-title nott">
+                                        <h3><a href="#">TMU ranks among top 20 private universities in India</a></h3>
                                     </div>
-                                </article>
-
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">CME /
-                                                            Workshop</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Fri, Mar 5 @
-                                                            11:00AM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">London Product Conference</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">National Seminar at TMU: Innovative Strategies on
-                                                    Tobacco Cessation</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                            CCSIT, TMU</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                    <div class="entry-meta mt-3" >
+                                    <ul>
+                                        <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i> 10th July 2024</li>
+                                        <li style="margin: 0 0 8px 0;"><a href="#"><i class="uil uil-user"></i> admin</a></li>
+                                        <li style="margin: 0 0 8px 0;"><i class="uil uil-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                    <div class="entry-content my-3">
+                                        <p class="mb-0 text-justify">March 04, 2024 In a proud moment for Teerthanker Mahaveer University, the university has secured the 19th position among. March 04, 2024 In a proud moment for Teerthanker Mahaveer University, the university has secured the 19th position among. March 04, 2024 In a proud moment for Teerthanker Mahaveer University, the university has secured the 19th position among</p>
                                     </div>
-                                </article>
-
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Community
-                                                            Services</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Fri, Jan 23 @
-                                                            5:30PM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">COVID Is Fueling Children's Mental Health Emergency</a>
-                                                </h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">Deaths of parents and other traumatic experiences have
-                                                    harmed hundreds and thousands of students. Although countable
-                                                    initiatives are attempting to assist bereaved families.</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i
-                                                                class="uil uil-map-marker"></i>TMU, Moaradabad</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Commemorative
-                                                            Days</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Mon, Feb 12 @
-                                                            3:00PM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">Women's WordCamp 2022</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis.</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                            Campus, TMU</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="entry event col-12 mb-4">
-                                    <div
-                                        class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
-                                        <div class="col-md-4 mb-md-0">
-                                            <a href="#" class="entry-image mb-0 h-100">
-                                                <img src="https://via.placeholder.com/800x450"
-                                                    alt="Inventore voluptates velit totam ipsa tenetur"
-                                                    class="rounded-2 h-100 object-cover">
-                                                <div class="bg-overlay">
-                                                    <div
-                                                        class="bg-overlay-content justify-content-start align-items-start">
-                                                        <div class="badge bg-light text-dark rounded-pill">Placements
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-8 p-4">
-                                            <div class="entry-meta no-separator mb-1 mt-0">
-                                                <ul>
-                                                    <li><a href="#" class="text-uppercase fw-medium">Fri, Mar 5 @
-                                                            11:00AM</a></li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="entry-title nott">
-                                                <h3><a href="#">London Product Conference</a></h3>
-                                            </div>
-                                            <div class="entry-content my-3">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis.</p>
-                                            </div>
-
-                                            <div class="entry-meta no-separator">
-                                                <ul>
-                                                    <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                            CCSIT, TMU</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-
+        
+                                    <a href="#" class="tmu-btn btn-1 m-0 py-1 px-2">Read More</a>
+                                </div>
                             </div>
+                        </article> --}}
 
-                            <!-- Pager
-					============================================= -->
-                            <ul class="pagination pagination-circle justify-content-center">
-                                <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span></a></li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span
-                                            aria-hidden="true">&raquo;</span></a></li>
-                            </ul>
 
-                            <!-- .pager end -->
 
                         </div>
+
+                        <!-- Pager
+                            ============================================= -->
+
+                        {{$events->links('vendor.pagination.custom')}}
+
+
+
+                        <!-- .pager end -->
                     </div>
-                </section>
+                </div>
             </section>
-        </div>
+        </section>
     </div>
+</div>
 </div>
 
 @endsection

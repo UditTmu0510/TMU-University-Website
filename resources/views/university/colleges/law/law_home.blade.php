@@ -872,6 +872,80 @@ that encourage students to share their ideas and engage in thoughtful discussion
 
 </section><!-- #content end -->
 
+<div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+            
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+            
+            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
+            <p class="text-justify"></p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"><span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion"> <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p></p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            
+
+            </div>
+            <hr class="horizontal-line">
+        </div>
+
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 

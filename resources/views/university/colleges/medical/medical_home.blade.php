@@ -1460,72 +1460,79 @@
         </div>
     </div>
 
-        <div class="container mb-5 mt-5">
+    <div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Does University provide transport?<span class="icon">+</span></button>
+            <button class="careers-accordion"> <span class="icon">+</span></button>
             <div class="panel">
-                <p>Yes, Teerthanker Mahaveer University offers pick and drop facility to students and staff coming
-                    from
-                    within
-                    the radial distance of 100 Kms. For added safety, the buses have camera surveillance inside it
-                    too.
-                </p>
+            
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Working environment<span class="icon">+</span></button>
+            <button class="careers-accordion"><span class="icon">+</span></button>
             <div class="panel">
-                <p>The work environment is truly conductive & intriguing to develop you professionally and
-                    personally.
-                    We have a
-                    workforce of 4000 employees. Our team of renowned administrators and academicians from reputed
-                    institutes
-                    help you realize your best and enhance your caliber.</p>
+                <p class="text-justify"></p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
-            <button class="careers-accordion">Campus<span class="icon">+</span></button>
+            <button class="careers-accordion"><span class="icon">+</span></button>
             <div class="panel">
-                <p>The University is located in the vicinity of the beautiful city of Moradabad and is at a
-                    reasonable
-                    distance
-                    from Moradabad Bus stand and Railway station. The campus occupies the geographical area of 130
-                    Acres.</p>
+            
+            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
+            <p class="text-justify"></p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
-            <button class="careers-accordion">Career Opportunities<span class="icon">+</span></button>
+            <button class="careers-accordion"><span class="icon">+</span></button>
             <div class="panel">
-                <p>If you are the one who is looking forward to broaden the career horizons, then Teerthanker
-                    Mahaveer
-                    University is the perfect place for you. We not only develop our student’s skills and enhance
-                    them
-                    through
-                    extra training programs like Industry Placements, Higher studies, and classes for Government,
-                    Civil,
-                    and
-                    Banking sectors, but also give equal growth opportunities to our staff through Internal Job
-                    Posting
-                    (IJP),
-                    International Faculty Exchange Programs, Research opportunities and more.</p>
+                <p class="text-justify"></p>
+                
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
-            <button class="careers-accordion">Residential complex for faculties<span class="icon">+</span></button>
+            <button class="careers-accordion"> <span class="icon">+</span></button>
             <div class="panel">
-                <p>Yes, TMU accommodates the faculty family keeping in mind their comfort and other amenities. Our
-                    residential
-                    complex for faculties is fully equipped with Wi-Fi, Gymnasium, Indoor game area, Night Canteen
-                    and
-                    Tuck
-                    shops, 24X7 Health facilities, 24X7 Power backup, salon and more.</p>
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
+                <p class="text-justify"></p>
+                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
             </div>
             <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"></p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p></p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            <p class="text-justify"><strong></strong></p>
+            <p class="text-justify"><strong>Ans:</strong> </p>
+            
+
+            </div>
             <hr class="horizontal-line">
         </div>
-    </div>
 
 </section>
 

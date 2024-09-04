@@ -23,7 +23,7 @@
                     As per the research by one of the world’s top University, 88% of a candidate’s selection is based on
                     Soft skills and only 12% weighs on domain knowledge in an interview at hotshot corporates and other
                     dream companies.<br>
-                    <img class="mt-4 mb-4" src="https://www.tmu.ac.in/monaco/assets/image/infographics/info_1.png"
+                    <img class="mt-4 mb-4" src="{{asset('/assets/img/banner_overview/ctld/info_1.png')}}"
                         alt="">
                     Hence, realising the importance of these skills, Teerthanker Mahaveer University (TMU) introduced
                     new training department which will develop essential basic aptitude skillset in students and faculty

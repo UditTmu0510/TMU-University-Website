@@ -128,12 +128,15 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Dental College & Research Centre</h1>
+                <h2 class="college-main-heading">TMU Dental College, Among the Top Dental Colleges in India</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Teerthanker Mahaveer Dental College and Research Centre (TMDC&RC), established in the year 2005, is the best private dental college in UP. Approved by the DCI, the college is renowned for excellence in teaching and research practices in oral healthcare. With BDS, MDS and PhD programmes, we are committed to nurturing and promoting excellence in dentistry.</p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <p style="text-align: justify;">Teerthanker Mahaveer Dental College and Research Centre, established in the year 2005, is one of the most prestigious and accredited dental institutes. The college is actively involved in quality teaching and research practices in oral health care which makes it a centre of excellence for providing world-class education.</p>
+                        <div class="read-more-content mt-0">
+                        <p style="text-align: justify;">Choosing the right dental college is crucial for aspiring dentists. Teerthanker Mahaveer Dental College and Research Centre (TMDC&RC) stands out as one of the premier institutions in India. With a focus on academic excellence, practical knowledge, and global career opportunities, TMU Dental College offers a holistic educational experience that prepares students for a successful dental career.
+                        </p>
+                    </div>
+                    <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -224,140 +227,6 @@
             </div>
         </div>
 
-
-
-        <section id="content">
-            <div class="content-wrap py-0" style="background-color: #001055;">
-                <main1>
-                    <div>
-                        <p class="tmimt-awards-heading"><span>Awards <span class="symbol">&</span> Excellence</span>
-                    </div>
-                    <div class="swiper swiper-management-awards">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide--one">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--two">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--three">
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--four">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--seven">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--six">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--five">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
-                    </main>
-            </div>
-        </section>
-
-
-        <!-- Section for collaborators -->
-        <div class="container industry-collaborators mt-5">
-            <h2 class="text-center mb-0" style="font-weight:700; color:#001055">Top Industry Academic Partners and <span style="color:#FF7A00"> Collaborative Programmes at TMU</span></h2>
-
-            <!-- Collaborators Carousel -->
-            <div class="section bg-transparent mt-0 mb-5">
-
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/ur.jpg" alt="TMU collaboration with united resourcing">
-
-                            <div class="card-body">
-                                <h3 class="collab-card-title">BBA – INTERNATIONAL BUSINESS & ENTREPRENEURSHIP</h3>
-                                <p class="collab-card-text ">As part of a partnership with United Resourcing Services, Teerthanker Mahaveer University is offering a Masters of Business Administration (MBA) in Industry Integrated with Global Exposure along with Bachelors of Business Administration (BBA) in International Business and Entrepreneurship programme. UR Services Pvt. Ltd. helps the students to be prepared for the challenges in the industry.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/whizhacklogo.jpg" alt="TMU collaboration with whizhack">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA Cyber Security (in association with Whizhack Technologies Pvt Ltd)</h3>
-                                <p class="collab-card-text">Welcome to our MBA in Cyber Security program, offered in collaboration with Whizhack Technologies Pvt Ltd. In this cutting-edge program, we empower aspiring professionals with the knowledge and skills required to navigate the complex landscape of cybersecurity.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/BSE-India.jpg" alt="TMU collaboration with BSE india">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">B.Com. (Hons.) - Financial Markets</h3>
-                                <p class="collab-card-text">As part of a partnership with the Bombay Stock Exchange (BSE), Teerthanker Mahaveer University is offering a highly in-demand (B. Com) Honors programme with a focus on Financial Markets.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/safeducate.jpg" alt="TMU collaboration with safeducate">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (Supply Chain Management & Logistics)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with Safexpress that provides specialisation in Supply Chain Management and Logistics.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
 
         <!-- Collab Modal -->
         <div id="collabModal" class="tmu-modal">
@@ -1113,6 +982,176 @@
         </div>
 
 </section><!-- #content end -->
+
+<div class="container mb-5 mt-5">
+<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Why TMU is the Best Choice for You <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with </span><span> NAAC A Accreditation</span></h3>
+                <p>TMU Dental College is UGC-approved and boasts NAAC A accreditation, a testament to its high-quality education standards. This accreditation assures students and parents of the college's commitment to academic excellence and continuous improvement.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Experiential Learning by </span><span> Highly Qualified Faculties</span></h3>
+                <p>Learning at TMU is an immersive experience, guided by highly qualified faculties who bring a wealth of knowledge and practical expertise. The faculty members are dedicated to providing students with hands-on training and real-world dental practice exposure.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3>
+                <p>The Centre for Teaching, Learning, and Development at TMU is a hub for innovative educational practices. It focuses on enhancing teaching methodologies and ensuring that students receive the best possible learning experience and gain soft skills too.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Career </span><span> Prospects</span></h3>
+                <p>TMU Dental College provides students with global career prospects. The institution has strong ties with international dental clinics and companies, facilitating global internships and placements.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus </span><span> Hostel Facilities</span></h3>
+                <p>Comfortable on-campus hostel facilities ensure that students have a conducive living environment. The hostels are equipped with modern amenities and provide a safe and supportive community for students.</p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Academic Excellence <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Modern Classrooms for </span><span> Interactive Sessions</span></h3>
+                <p>TMU&rsquo;s modern classrooms are designed for interactive learning sessions. These classrooms are equipped with the latest educational technology to facilitate an engaging and effective learning environment.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Educational Seminars and </span><span> Conferences</span></h3>
+                <p>Regular educational seminars and conferences are conducted to keep students updated with the latest developments in dentistry. These events provide opportunities for networking and learning from industry experts</p>               
+            </div>
+
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Student Life <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Extracurricular </span><span> Clubs</span></h3>
+                <p>At TMU, student life is vibrant and dynamic. There are numerous extracurricular clubs catering to various interests, ensuring that students have a well-rounded college experience.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Electrifying Concerts and</span><span> Dynamic Events</span></h3>
+                <p>The college hosts electrifying concerts and dynamic events, providing students with ample opportunities to unwind and enjoy their time on campus.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Gym and Fitness </span><span> Centre</span></h3>
+                <p>A well-equipped gym and fitness centre are available for students to maintain their physical health and well-being.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Shopping Stores and</span><span> Cafeterias</span></h3>
+                <p>Convenient shopping stores and cafeterias on campus cater to students' daily needs, making campus life comfortable and enjoyable.</p>
+            </div>
+            <hr class="horizontal-line">
+                <button class="careers-accordion">Safe and Supportive Environment <span class="icon">+</span></button>
+                <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Anti-Ragging </span><span> Campus</span></h3>
+                <p>TMU is committed to providing a safe and supportive environment for all students. The campus has a strict anti-ragging policy, ensuring that every student feels secure and respected.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Fully Wi-Fi </span><span> Enabled</span></h3>
+                <p>The entire campus is fully Wi-Fi enabled, allowing students to stay connected and access online resources from anywhere within the campus.</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Career Opportunities <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Top-Notch Placement </span><span> Opportunities </span></h3>
+                <p>TMU Dental College offers top-notch placement opportunities, ensuring that graduates secure promising positions in leading dental clinics and companies</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>100% Placement Assistance with </span><span> an Outstanding Track Record </span></h3>
+                <p>The college has a stellar track record of 100% placement assistance. The dedicated placement cell works tirelessly to help students find suitable job opportunities.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Career </span><span> Prospects </span></h3>
+                <p>TMU&rsquo;s strong industry connections and global partnerships open doors to international career opportunities for its graduates.</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Hands-On Practical Knowledge <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Expert Faculty for Hands-On </span><span> Practical Knowledge</span></h3>
+                <p>The expert faculty at TMU emphasizes hands-on practical knowledge, ensuring that students are well-prepared for real-world dental practice.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3>
+                <p>The Centre for Teaching, Learning, and Development plays a pivotal role in enhancing students' practical skills through innovative teaching methods and advanced training programs.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Art Studios and Expansive Spaces for </span><span> Practical Training and Experiments</span></h3>
+                <p>TMU provides art studios and expansive spaces for practical training and experiments, fostering creativity and hands-on learning</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Strong Industry Connections <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Robust Industry Affiliations for </span><span> Invaluable Insights</span></h3>
+                <p>TMU&rsquo;s robust industry affiliations provide students with invaluable insights into the dental industry. These connections enhance the learning experience and prepare students for their professional careers.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Exposure with </span><span> International Dental Internships</span></h3>
+                <p>The college offers global exposure through international dental internships, giving students the chance to gain international experience and broaden their professional horizons.</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Comprehensive Dental Facilities <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Well-Equipped Dental </span><span> Clinics and Laboratories</span></h3>
+                <p>TMU boasts well-equipped dental clinics and laboratories, providing students with the necessary tools and technology for comprehensive dental training.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Dental Technology and </span><span> Instruments for Practical Training</span></h3>
+                <p>The college uses advanced dental technology and instruments, ensuring that students receive the best possible practical training.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Orthodontics Workshop </span><span> and Seminar</span></h3>
+                <p>Regular orthodontics workshops and seminars are held to keep students abreast of the latest techniques and developments in the field.</p>
+            </div>
+
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Professional Memberships and Opportunities <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Professional Memberships with the Indian Dental Association and </span><span> Restorative Association of Nine Specialties of Dentistry</span></h3>
+                <p>TMU facilitates professional memberships with prestigious organizations like the Indian Dental Association and the Restorative Association of Nine Specialties of Dentistry, enhancing students' professional credentials.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Opportunities with Top </span><span> Dental Clinics - Oral Surgery, Orthodontics</span></h3>
+                <p>Students have access to global opportunities with top dental clinics, specializing in oral surgery and orthodontics, paving the way for successful careers.</p>
+            </div>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Research and Development <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>In-House Research Journal - </span><span> TMU Journal of Dentistry </span></h3>
+                <p>TMU publishes an in-house research journal, the TMU Journal of Dentistry, which provides a platform for students and faculty to publish their research work.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Research and Entrepreneurial </span><span> Development Programs </span></h3>
+                <p>The college encourages research and entrepreneurial development through various programs, fostering innovation and leadership among students>.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Precision Dentistry <span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Precision Dentistry and Sustainable </span><span> Dental Practices Training</span></h3>
+                <p>TMU emphasizes precision dentistry and sustainable dental practices, preparing students for the future of dental care</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Dental </span><span> Research Laboratories</span></h3>
+                <p>Advanced dental research laboratories at TMU provide students with the opportunity to engage in cutting-edge research and innovation.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Orthodontics Workshop and </span><span> Implantology Seminar</span></h3>
+                <p>Specialized workshops and seminars on orthodontics and implantology are conducted to enhance students' knowledge and skills in these areas</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Global Exposure and Placements<span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Exposure with International Dental Placement and </span><span> Internship Opportunities</span></h3>
+                <p>TMU offers global exposure through international dental placements and internships, ensuring that students are well-prepared for international dental careers.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus Dental </span><span> Accommodation Facilities</span></h3>
+                <p>The college provides on-campus dental accommodation facilities, ensuring that students have a comfortable living environment while pursuing their studies.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Additional Facilities<span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Electrifying </span><span>Concerts</span></h3>
+                <p>The college hosts electrifying concerts, adding a vibrant cultural dimension to student life.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Art Supply Stores and </span><span> Cafeterias</span></h3>
+                <p>Art supply stores and cafeterias on campus cater to the needs of students, making their daily lives convenient and enjoyable.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Top Programs Offered <span class="icon">+</span></button>
+            <div class="panel">
+            <h3 class="tmu-text-primary fs-16 mb-0"><span>BDS </span><span> (Bachelor of Dental Surgery)</span></h3>
+            <p>The BDS program at TMU is designed to provide comprehensive dental education and practical training.</p>
+            <h3 class="tmu-text-primary fs-16 mb-0"><span>MDS </span><span> (Master of Dental Surgery)</span></h3>
+            <p>The MDS program offers specialized training in various fields of dentistry, preparing students for advanced dental practice.</p>
+            <h3 class="tmu-text-primary fs-16 mb-0"><span>PhD</span></h3>
+            <p>The PhD program at TMU focuses on advanced research and innovation in dentistry, contributing to the development of the field.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">Teerthanker Mahaveer Dental College and Research Centre (TMDC&RC) is a top choice for aspiring dentists in India. With its strong focus on academic excellence, practical knowledge, global career opportunities, and a supportive campus environment, TMU Dental College ensures that students receive a well-rounded and high-quality dental education.</p>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+                <p><strong>Q1: What accreditation does TMU Dental College have?</strong></p>
+                <p>TMU Dental College is UGC-approved and has NAAC &nbsp;A accreditation, signifying its commitment to high educational standards.</p>
+                <p><strong>Q2: What kind of career opportunities are available for graduates?</strong></p>
+                <p><strong>Ans: </strong>Graduates from TMU Dental College have access to top-notch placement opportunities, 100% placement assistance, and global career prospects in leading dental clinics and companies.</p>
+                <p><strong>Q3: What facilities does TMU Dental College offer?</strong></p>
+                <p><strong>Ans: </strong>TMU Dental College offers modern classrooms, well-equipped dental clinics and laboratories, on-campus hostel facilities, a gym and fitness centre, and various extracurricular clubs and events.</p>
+                <p><strong>Q4: What programs are offered at TMU Dental College?</strong> </p>
+                <p><strong>Ans: </strong>TMU Dental College offers BDS (Bachelor of Dental Surgery), MDS (Master of Dental Surgery), and PhD programs, catering to various levels of dental education and specialization.</p>
+            </div>
+            <hr class="horizontal-line">
+        </div>
+
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>

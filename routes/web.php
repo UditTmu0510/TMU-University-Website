@@ -11,6 +11,7 @@ use App\Http\Controllers\Backend\BlogsController;
 use App\Http\Controllers\Backend\ProgrammesController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
+use App\Http\Controllers\Backend\CtldController;
 
 /*
 |--------------------------------------------------------------------------
@@ -146,7 +147,7 @@ Route::get('/tmu/ctld-aims-and-objective', [TmuController::class, 'ctld_aims_and
 Route::get('/tmu/ctld-director-desk', [TmuController::class, 'ctld_director_desk'])->name('ctld.director.desk');
 Route::get('/tmu/ctld-our-team', [TmuController::class, 'ctld_team'])->name('ctld.team');
 Route::get('/tmu/ctld-testimonial', [TmuController::class, 'ctld_students_testimonials'])->name('ctld.students.testimonials');
-Route::get('/tmu/ctld-events', [TmuController::class, 'ctld_events'])->name('ctld.events');
+Route::get('/tmu/ctld-events', [CtldController::class, 'ctld_events'])->name('ctld.events');
 Route::get('/tmu/ctld-magazine', [TmuController::class, 'ctld_magazine'])->name('ctld.magazine');
 
 // IQAC

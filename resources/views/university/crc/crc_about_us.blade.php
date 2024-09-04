@@ -16,7 +16,7 @@
 				ready to excel in their chosen fields upon graduation. Its success is reflected in its impressive 82%
 				placement rate, showcasing its effectiveness in guiding students toward fruitful career paths.
 			</p>
-			<img class="mt-2 mb-5" src="./assets/img/info_2.png" alt="">
+			<img class="mt-2 mb-5" src="{{asset('/assets/img/banner_overview/crc/overview_img.png')}}" alt="">
 
 			<p class="text-justify"><strong>“An investment in knowledge pays the best interest”</strong> and making this their mantra, TMU
 				constantly focuses to improve and update themselves with the changing times and empower their students by
@@ -26,7 +26,7 @@
 				<strong class="d-block mt-3">TMU with its very famous tag line ensures to bring out the best in 'U' through
 					TMU.</strong>
 			</p>
-			<img src="./assets/img/placement-proces.png" class="w-75 d-block mx-auto mb-5" alt="">
+			<img src="{{asset('/assets/img/banner_overview/crc/placement-proces.png')}}" class="w-75 d-block mx-auto mb-5" alt="">
 		</div>
 
 	</div>
