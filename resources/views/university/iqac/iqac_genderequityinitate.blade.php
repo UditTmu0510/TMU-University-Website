@@ -997,88 +997,94 @@
             places in
             and around Moradabad.</p>
 
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row gutter-30 col-mb-5 mb-5">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/cctv1.jpg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/cctv1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> Gyan Bhawan, TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/cctv1.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/cctv2.jpg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/cctv2.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> Vidya Bhawan, TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/cctv2.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/cctv3.jpg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/cctv3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">CCTV Surveillance Monitor</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> Mala Bhawan, TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/cctv3.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/female_security_room.jpeg"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/transport.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="fs-14">Transport Facility for Girls</h4><span class="fst-normal fs-12 mb-2"><i
+                        class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/bus_for_girls.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/fsm2.jpg')}}"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Female Security Room</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Female Security Room</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/female_security_room.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/face_scanning_machine.jpeg"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/fsm1.jpg')}}"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Face Scanning Machine</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Face Scanning Machine</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> TMU Campus</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/bus_for_girls.jpeg" alt="">
-                </div>
-                <div class="team-desc p-2">
-                  <div class="team-title pt-0">
-                    <h4 class="fs-14">Transport Facility for Girls</h4><span class="fst-normal fs-12"><i
-                        class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/face_scanning_machine.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -1094,47 +1100,50 @@
           <p class="text-justfy">The constituent Colleges/Departments of the University regularly organize awareness programs about health
             & hygiene of women, awareness workshop on Girls safety, Yoga sessions, program on self-defense for girls
             safety, workshop on women rights etc.</p>
-          <div class="row justify-content-center gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row justify-content-center gutter-30 col-mb-5 mb-5">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/counselling_room1.jpeg"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/csw1.jpg')}}"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> Medical College & Research Centre, TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/counselling_room1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/counselling_room2.jpeg"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/csw2.jpg')}}"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> College of Paramedical Sciences, TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/counselling_room2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/counselling_room3.jpeg"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/csw5.jpg')}}"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Counselling Room</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> Department of Physiotherapy, TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/counselling_room3.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -1146,44 +1155,47 @@
         <div class="panel">
           <p class="text-justfy">The girls common rooms are available in each constituent college/ departments of the University and
             separate cabins are also allotted forthe female faculty members.</p>
-          <div class="row justify-content-center gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row justify-content-center gutter-30 col-mb-5 mb-5">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/gc1.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/gsm1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12"><i
-                        class="fa-solid fa-location-dot"></i> TMIMT College of Management, TMU Campus</span>
+                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12 mb-2"><i
+                        class="fa-solid fa-location-dot"></i> TMIMT College of Management,<br>TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/gc1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/gc2.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/gsm4.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12"><i
-                        class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12 mb-2"><i
+                        class="fa-solid fa-location-dot"></i> College of Nursing, <br> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/gc2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/gc3.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/gsm3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12"><i
-                        class="fa-solid fa-location-dot"></i> Fcaulty of Education, TMU Campus</span>
+                    <h4 class="fs-14">Girls Common Room</h4><span class="fst-normal fs-12 mb-2"><i
+                        class="fa-solid fa-location-dot"></i> Fcaulty of Education, <br> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/gc3.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -1197,32 +1209,34 @@
             employeesin discharging their duties effectively and efficiently without any worry of their kids who are
             provided a safe and secure environment with quality care takers in the day care center. The DCC remains
             functional from 9 am to 5 pm on working days.</p>
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row gutter-30 col-mb-5 mb-5">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/dc1.jpeg" class="col-4"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/dc1.jpg')}}" class="col-4"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/dc1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/cctv/dc2.jpeg" class="col-4"
+                  <img src="{{asset('/assets/img/department/iqac/gender_equity_initiative/dc2.jpg')}}" class="col-4"
                     alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12"><i
+                    <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/gender_equity_initiative/download/dc2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -1278,5 +1292,44 @@
 </div>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const downloadButtons = document.querySelectorAll('.download-btn');
 
+    downloadButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const imgSrc = button.getAttribute('href');
+        if (imgSrc) {
+          downloadFile(imgSrc);
+        } else {
+          console.error('Image source not found.');
+        }
+      });
+    });
+  });
+
+  function downloadFile(filePath) {
+    fetch(filePath)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = filePath.split('/').pop(); // Extract filename from path
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+        alert('Failed to download the image. Please try again later.');
+      });
+  }
+</script>
 @endsection
