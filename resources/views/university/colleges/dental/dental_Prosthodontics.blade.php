@@ -2,7 +2,7 @@
 @section('content')
 
 
-<link rel="stylesheet" href="assets/css/college_overview.css">
+<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
 
 <div class="main-content">
     <div class="container">
@@ -15,7 +15,7 @@
                     <p class="about-p mb-4">TThe Department of Prosthodontics is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="assets/img/gallery/collegegallery/dental/dep-2.jpg" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/pcb/37.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">The department provides specialized dental treatment for patients aspiring artificial replacement of teeth and other structures in the head and neck region. It is a very vast department covering various fields like Complete Denture, Removable partial Denture, Fixed Partial Denture, Maxillo-Facial Prosthodontics and Implantology. In addition to these, the subject of Dental Materials is also taught in the department to the BDS students.</p>
@@ -77,10 +77,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/32.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/32.jpg" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/33.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/33.jpg" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/34.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/34.jpg" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/35.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/35.jpg" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/32.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/33.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/34.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/35.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

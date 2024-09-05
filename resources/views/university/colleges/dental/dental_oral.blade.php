@@ -2,7 +2,7 @@
 @section('content')
 
 
-<link rel="stylesheet" href="assets/css/college_overview.css">
+<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
 
 
 <div class="main-content">
@@ -16,7 +16,7 @@
                     <p class="about-p mb-4">The specialty of Oral and Maxillofacial Surgery (OMFS) is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="assets/img/gallery/collegegallery/dental/dep-2.jpg" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Jaw Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
@@ -66,10 +66,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/32.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/32.jpg" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/33.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/33.jpg" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/34.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/34.jpg" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/35.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/35.jpg" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/35.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/32.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/33.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

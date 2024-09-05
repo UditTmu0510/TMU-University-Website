@@ -3,7 +3,7 @@
 
 
 
-<link rel="stylesheet" href="assets/css/college_overview.css">
+<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
 
 
 <div class="main-content">
@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="assets/img/gallery/collegegallery/dental/dep-6.jpg" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/omr/40.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Conditions managed in Oral Medicine Department are often long standing
@@ -74,17 +74,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="card shadow-sm border-light">
-                        <img src="demos/coworking/images/features/3.jpg" alt="Featured image 1" class="card-img-top">
+                        <img src="{{asset('/assets/img/college_departments/dental/omr/3.jpg')}}" alt="Featured image 1" class="card-img-top">
 
                     </div>
                     <div class="card shadow-sm border-light mt-4">
-                        <img src="demos/coworking/images/features/2.jpg" alt="Featured image 2" class="card-img-top">
+                        <img src="{{asset('/assets/img/college_departments/dental/omr/2.jpg')}}" alt="Featured image 2" class="card-img-top">
 
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 ps-sm-3 mt-3 mt-sm-0">
                     <div class="card shadow-sm border-light">
-                        <img src="demos/coworking/images/features/1.jpg" alt="Featured image 3" class="card-img-top">
+                        <img src="{{asset('/assets/img/college_departments/dental/omr/1.jpg')}}" alt="Featured image 3" class="card-img-top">
 
                     </div>
                 </div>
@@ -107,10 +107,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/32.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/32.jpg" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/33.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/33.jpg" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/34.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/34.jpg" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/35.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/35.jpg" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/32.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/33.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/34.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/35.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">
