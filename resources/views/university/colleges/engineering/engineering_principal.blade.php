@@ -13,7 +13,7 @@
                             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
                             <!--</div>-->
                             <div class="col-sm-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                                <img src="https://www.tmu.ac.in/uploads/college/ccsit_head.jpg"
+                                <img src="{{asset('/assets/img/principal/engineering/engineering_principal.jpg')}}"
                                     alt="Tangade_dental_principal" height="fitcontent" width="450">
                             </div>
                             <div class="col-lg-8 col-sm-12">
