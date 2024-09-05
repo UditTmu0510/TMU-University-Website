@@ -8,11 +8,11 @@
             <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
                     Principal</span></h1>
 
-            <div class="col-md-4 text-center img-container">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/ccsit_principal_nivo.jpg"
-                    class="w-100" alt="R.K. Dwivedi">
+            <div class="col-md-12 col-lg-4 text-center img-container">
+                <img src="{{asset('/assets/img/principal/CCSIT/ccsit_principal.jpg')}}"
+                    width="280" height="400" alt="R.K. Dwivedi">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12 col-lg-8">
                 <blockquote class="zitat1">
                     "Wherever the art of medicine is loved, there is also a love of humanity."
                     <!-- <cite>Peter Drucker</cite> -->
@@ -29,20 +29,14 @@
                 <p class="mb-3">We, at CCSIT, nurture the students so that they can develop a versatile
                     personality and become responsible citizens of our nation. We provide ample scope,
                     opportunities and facilities for the all-round development of personality and
-                    leadership qualities of the students through various academic, cultural, literary,
-                    sports, social and club activities.</p>
-                <p class="mb-3">students through various academic, cultural, literary, sports, social
+                    leadership qualities of the students through various academic, cultural, literary, sports, social
                     and club activities. A student is expected to reflect under all circumstances proper
                     respect for order, morality and rights of others and a sense of personal honour
                     required for being good citizen. We are desirous that the students of CCSIT become
                     icons in their respective disciplines.</p>
-                <p class="mb-3"> We firmly believe that students are like clay which can be given
-                    desired shape by experienced craftsman in the form of a teacher. Our endeavour is to
-                    create a pool of talented professionals possessing knowledge, ability and more
-                    importantly, the attitude and resilience to deliver both at regional as well as
-                    global level.</p>
             </div>
-            <div class="col-md-8 col-sm-12 col-lg-12">
+
+            <div class="col-md-12 col-sm-12 col-lg-12">
                 <p class="mb-3"> We firmly believe that students are like clay which can be given
                     desired shape by experienced craftsman in the form of a teacher. Our endeavour is to
                     create a pool of talented professionals possessing knowledge, ability and more
@@ -81,6 +75,4 @@
     </div>
 </div>
 </div>
-
-
 @endsection

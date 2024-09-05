@@ -1,248 +1,152 @@
 @extends('layouts.university.colleges.ccsit_with_sidebar')
 @section('content')
 
-<style>
-    .entry-image {
-        position: relative;
-        overflow: hidden;
-        padding-top: 56.25%;
-        /* 16:9 Aspect Ratio */
-    }
-
-    .entry-image .fslider {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .entry-image .slide a {
-        display: block;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-    }
-</style>
-<div class="main-content">
+<div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
-        <section id="content">
-            <div class="content-wrap">
-                <div class="container">
-                    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Placement </span><span> News</span></h1>
-                    <div class="post-grid row">
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+        <h1 class="tmu-text-primary tmu-page-heading"><span>Placements </span><span> News</span></h1>
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/1.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                      Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                        </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/6.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                            </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/3.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                            </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/4.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                            </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/5.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                            </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/ccsit/2.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="entry event col-lg-4 col-md-6 col-sm-6  ">
-                            <div class="grid-inner shadow-sm card rounded-5">
-                                <div class="entry-image mb-0">
-                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                        <div class="flexslider">
-                                            <div class="slider-wrap">
-                                                <div class="slide"><a href="{{asset('/assets/img/nursing/placement_news/pnews.png')}}" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="p-3">
-                                    <div class="entry-content mt-0">
-                                        <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                                    </div>
-                                    <hr class="my-4">
-                                    <div class="entry-meta d-flex align-items-center">
-                                        <div>
-                                            <ul class="my-0">
-                                                <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                            </ul>
-                                        </div>
+                            <div class="card-body">
+                                <!-- <p class="card-text">
+                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
+                                            </p> -->
+                                <hr class="my-2" />
+                                <div class="d-flex justify-content-between">
+                                    <div class="entry-meta mt-1">
                                     </div>
                                 </div>
                             </div>
@@ -250,9 +154,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </div>
 </div>
-
 @endsection

@@ -19,7 +19,7 @@
                         <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                             <div class="entry-image">
                                 <a href="#">
-                                    <img src="https://www.tmu.ac.in/uploads/events/past_event/news9_title_image.jpg"
+                                    <img src="{{asset('/assets/img/guest_lecturer/CCSIT/news9_title_image.jpg')}}"
                                         alt="Event-1">
                                 </a>
                             </div>
@@ -32,7 +32,7 @@
                                 <h3 class="tmu-text-primary fs-16"><span>Big Bang & The Expanding Universe</span></h3>
                             </div>
                             <div class="entry-content mt-1" style="text-align: right;">
-                                <a href=""
+                                <a href="#"
                                     class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
                             </div>
                         </div>
