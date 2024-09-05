@@ -21,7 +21,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/agri_title1.jpg"
+                                <img src="{{asset('/assets/img/guest_lecturer/agriculture/1.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>

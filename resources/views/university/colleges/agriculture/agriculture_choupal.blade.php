@@ -1,8 +1,8 @@
 @extends('layouts.university.colleges.agriculture_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="assets/css/journal.css">
 
+<link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
 
 <div class="main-content">
     <div class="container">
@@ -16,7 +16,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/agriculture/ED_5.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/publications/materials/agriculture/fifth_edition/1.webp"
+                                            src="{{asset('assets/img/magazines/agriculture/1.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/agriculture/ED_4.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/publications/materials/agriculture/fourth_edition/1.webp"
+                                            src="{{asset('assets/img/magazines/agriculture/2.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/agriculture/ED_3.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/publications/materials/agriculture/third_edition/1.webp"
+                                            src="{{asset('assets/img/magazines/agriculture/3.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/agriculture/ED_2.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/publications/materials/agriculture/second_edition/1.webp"
+                                            src="{{asset('assets/img/magazines/agriculture/4.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/agriculture/ED_1.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/publications/materials/agriculture/first_edition/1.webp"
+                                            src="{{asset('assets/img/magazines/agriculture/5.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/publications/materials/agriculture/fifth_edition/1.webp" />
+                                            <img src="{{asset('assets/img/magazines/agriculture/1.webp')}}" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -107,7 +107,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/publications/materials/agriculture/fourth_edition/1.webp" />
+                                            <img src="{{asset('assets/img/magazines/agriculture/2.webp')}}" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -123,7 +123,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/publications/materials/agriculture/third_edition/1.webp" />
+                                            <img src="{{asset('assets/img/magazines/agriculture/3.webp')}}" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -139,7 +139,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/publications/materials/agriculture/second_edition/1.webp" />
+                                            <img src="{{asset('assets/img/magazines/agriculture/4.webp')}}" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -155,7 +155,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/publications/materials/agriculture/first_edition/1.webp" />
+                                            <img src="{{asset('assets/img/magazines/agriculture/5.webp')}}" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
