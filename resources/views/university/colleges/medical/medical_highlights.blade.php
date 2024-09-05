@@ -1,175 +1,216 @@
-
 @extends('layouts.university.colleges.medical_with_sidebar')
 @section('content')
 
+<link rel="stylesheet" href="{{asset('/assets/css/tmu-timeline.css')}}">
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span>College </span><span> Highlights </span></h1>
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-6">
-                    <h3 class="tmu-text-primary mb-0"><span> Year of </span><span> Establishment: </span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Founded in 2008, the Medical College offers MBBS, MD/MS, M.Sc. Medical, and Ph.D. programmes, shaping future medical professionals.</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span> Programmes </span><span> Offered</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>MBBS </li>
-                        <li>MD/MS</li>
-                        <li>M.Sc. (Medical)</li>
-                        <li>Ph.D.(Medical)</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Faculty </span><span> Strenght </span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>216</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Books & </span><span> E-Books</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Books: 11605;</li>
-                        <li>E-Books: 4052</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Books </span><span> & Journals</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Books – 20,000, Journals:</li>
-                        <li>National – 20, International – 05</li>
-                    </ol>
+        <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn">
+                    <h2 class="tmu-text-primary"><span>College </span><span> Highlights</span></h2>
+                </header>
+                <div class="timeline ">
+                    <div class="timeline-item left wow slideInLeft">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2008</div>
+                            <p>Founded in 2008, the Medical College offers MBBS, MD/MS, M.Sc. Medical, and Ph.D. programmes, shaping future medical professionals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Programmes Offered</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">MBBS</b></li>
+                                <li><b class="fs-14">MD/MS</b></li>
+                                <li><b class="fs-14">M.Sc. (Medical)</b></li>
+                                <li><b class="fs-14">Ph.D.(Medical)</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Faculty Strength</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">436</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Books & E-Books</div>
+                            <p>Teerthanker Mahaveer Medical College & Research Centre has a collection of 13,077 books and 2015 E-Books providing comprehensive resources for academic research and study.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft mb-0">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Journals & E-Journals</div>
+                            <p>Teerthanker Mahaveer Medical College & Research Centre provides access to 97(National and International) journals and 1733 e-joournals.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3 class="tmu-text-primary mb-0"><span> Journals</span><span> </span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>National: 70</li>
-                        <li>International: 85</li>
-                    </ol>
 
-                    <h3 class="tmu-text-primary mb-0"><span> E - </span><span> Journals </span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Through Clinical Key (Elsevier) (689 Full Text) & EBSCO Database (300 Full Text)</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span> Labs </span><span></span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Teaching Lab: 12 </li>
-                        <li>Diagnostic Lab: 14</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>In-house </span><span>Research Journal</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li><a href="https://www.tmu.ac.in/medical-college-and-research-centre/publication.html">Acta Medica International </a>- An Official Peer-reviewed Journal (ISSN 2349-0578) </li>
-                        <li><a href="http://www.actamedicainternational.com/">Online journal: Acta Medica International</a> - An Official Peer-reviewed Journal (ISSN: 2349-0896)</li>
-                    </ol>
+                <div class="read-more-content">
+                    <div class="timeline mt-0">
+                        <div class="timeline-item right wow slideInRight">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Labs</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Teaching Lab: </b>12</li>
+                                    <li><b class="fs-14">Diagnostic Lab: </b>14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item left wow slideInLeft">
+                            <div class="timeline-text">
+                                <div class="timeline-date">In-house Research Journal</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14"><a href="https://www.tmu.ac.in/medical-college-and-research-centre/publication.html">Acta Medica International</a></b>- An Official Peer-reviewed Journal (ISSN 2349-0578)</li>
+                                    <li><b class="fs-14"><a href="http://www.actamedicainternational.com/">Online journal: Acta Medica International</a></b>- An Official Peer-reviewed Journal (ISSN: 2349-0896)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <h3 class="tmu-text-primary tmu-page-heading"><span>HOSPITAL </span><span>HIGHLIGHTS</span></h3>
-                <div class="col-md-6">
-                    <h3 class="tmu-text-primary mb-0"><span>Year of </span><span>Establishment</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Established in 2007, the hospital, with more than 800 beds, caters to the medical needs of a vast area, embodying TMU's commitment to healthcare accessibility.</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Beds</span><span></span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>800</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Depart</span><span>ments</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>General Medicine</li>
-                        <li>Psychiatry</li>
-                        <li>Dermatology</li>
-                        <li>Pulmonary Medicine</li>
-                        <li>Pediatrics</li>
-                        <li>General Surgery</li>
-                        <li>Orthopedics</li>
-                        <li>Otorhinolaryngology (ENT)</li>
-                        <li>Ophthalmology</li>
-                        <li>Obstetrics and Gynecology</li>
-                        <li>Anesthesia</li>
-                        <li>Radiodiagnosis</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Super </span><span> Speciality</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Pediatric Surgery</li>
-                        <li>Neuro Surgery</li>
-                        <li>Urology</li>
-                        <li>Cardiology and Cardiac Surgery including Open-Heart Surgery (with invasive and non-invasive procedures)</li>
-                        <li>G.I. Surgery</li>
-                        <li>Reconstructive Surgery</li>
-                        <li>Joint Replacement Surgery</li>
-                        <li>Plastic Surgery</li>
-                        <li>Cancer Detection</li>
-                        <li>IVF (Obstetrics & Gynecology)</li>
-                        <li>Burn Unit</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Operation </span><span>Theatres</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Major: 12 </li>
-                        <li>Minor: 3</li>
-                    </ol>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="tmu-text-primary mb-0"><span>Teaching </span><span>Centre</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Rural Health Centre: 3</li>
-                        <li>Urban Health Centre: 1</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Major </span><span>Equipments</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>Sleep Lab</li>
-                        <li>CT Scan</li>
-                        <li>MRI</li>
-                        <li>Mammography</li>
-                        <li>Cath Lab</li>
-                        <li>Echocardiograph</li>
-                        <li>EEG</li>
-                        <li>EMG</li>
-                        <li>NCV</li>
-                        <li>BERA</li>
-                        <li>TMT</li>
-                        <li>Digital X-Ray with IITV</li>
-                        <li>Color Doppler</li>
-                        <li>Bronchoscope</li>
-                        <li>Endoscope</li>
-                        <li>Audiometer</li>
-                        <li>Dialysis</li>
-                        <li>Image Intensifier</li>
-                        <li>Laparoscopic Sets</li>
-                        <li>Holmium Laser</li>
-                        <li>DSA</li>
-                        <li>Green Laser</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Average Daily </span><span>OPD</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>More than 1870</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Average Daily </span><span>IPD (Admission)</span></h3>
-                    <ol class="m-ol-list ps-5 mb-3">
-                        <li>More than 142</li>
-                    </ol>
-
-                    <h3 class="tmu-text-primary mb-0"><span>Service</span><span>
-                            <ol class="m-ol-list ps-5 mb-3">
-                                <li>Emergency Service: 24 X 7</li>
-                                <li>Central Lab: 24 X 7</li>
-                                <li>Blood Bank: 24 X 7</li>
-                            </ol>
-                </div>
+                <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-md-5 read-more d-block mx-auto"
+                    style="width:fit-content" title="Read More">Read More</a>
             </div>
         </div>
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn">
+                    <h2 class="tmu-text-primary"><span>Hospital </span><span> Highlights</span></h2>
+                </header>
+                <div class="timeline ">
+                    <div class="timeline-item left wow slideInLeft">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2007</div>
+                            <p>Established in 2007, the hospital, with more than 800 beds, caters to the medical needs of a vast area, embodying TMU's commitment to healthcare accessibility.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Departments</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">General Medicine</b></li>
+                                <li><b class="fs-14">Psychiatry</b></li>
+                                <li><b class="fs-14">Dermatology</b></li>
+                                <li><b class="fs-14">Pulmonary Medicine</b></li>
+                                <li><b class="fs-14">Pediatrics</b></li>
+                                <li><b class="fs-14">General Surgery</b></li>
+                                <li><b class="fs-14">Orthopedics</b></li>
+                                <li><b class="fs-14">Otorhinolaryngology (ENT)</b></li>
+                                <li><b class="fs-14">Ophthalmology</b></li>
+                                <li><b class="fs-14">Obstetrics and Gynecology</b></li>
+                                <li><b class="fs-14">Anesthesia</b></li>
+                                <li><b class="fs-14">Radiodiagnosis</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Beds</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">1091</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Operation Theaters</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">Major</b>: 12</li>
+                                <li><b class="fs-14">Minor</b>: 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft mb-0">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Super Departments</div>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">Pediatric Surgery</b></li>
+                                <li><b class="fs-14">Neuro Surgery</b></li>
+                                <li><b class="fs-14">Joint Replacement Surgery</b></li>
+                                <li><b class="fs-14">G.I. Surgery</b></li>
+                                <li><b class="fs-14">Reconstructive Surgery</b></li>
+                                <li><b class="fs-14">Urology</b></li>
+                                <li><b class="fs-14">Plastic Surgery</b></li>
+                                <li><b class="fs-14">Cancer Detection</b></li>
+                                <li><b class="fs-14">IVF (Obstetrics & Gynecology)</b></li>
+                                <li><b class="fs-14">Burn Unit</b></li>
+                                <li><b class="fs-14">Cardiology and Cardiac Surgery including Open-Heart Surgery (with invasive and non-invasive procedures)</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="read-more-content">
+                    <div class="timeline mt-0">
+                        <div class="timeline-item right wow slideInRight">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Teaching Center</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Rural Health Centre: </b>3</li>
+                                    <li><b class="fs-14">Urban Health Centre: </b>1</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item left wow slideInLeft">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Major Equipments</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Sleep Lab</b></li>
+                                    <li><b class="fs-14">MRI</b></li>
+                                    <li><b class="fs-14">CT Scan</b></li>
+                                    <li><b class="fs-14">Mammography</b></li>
+                                    <li><b class="fs-14">Cath Lab</b></li>
+                                    <li><b class="fs-14">EEG</b></li>
+                                    <li><b class="fs-14">EMG</b></li>
+                                    <li><b class="fs-14">NCV</b></li>
+                                    <li><b class="fs-14">BERA</b></li>
+                                    <li><b class="fs-14">TMT</b></li>
+                                    <li><b class="fs-14">Digital X-Ray with IITV</b></li>
+                                    <li><b class="fs-14">Color Doppler</b></li>
+                                    <li><b class="fs-14">Bronchoscope</b></li>
+                                    <li><b class="fs-14">Endoscope</b></li>
+                                    <li><b class="fs-14">Audiometer</b></li>
+                                    <li><b class="fs-14">Dialysis</b></li>
+                                    <li><b class="fs-14">Image Intensifier</b></li>
+                                    <li><b class="fs-14">Laparoscopic Sets</b></li>
+                                    <li><b class="fs-14">Holmium Laser</b></li>
+                                    <li><b class="fs-14">DSA</b></li>
+                                    <li><b class="fs-14">Green Laser</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item right wow slideInRight">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Average Daily Stats</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">OPD: </b>More than 1870</li>
+                                    <li><b class="fs-14">IPD: </b>More than 142</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item left wow slideInLeft">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Services</div>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Emergency Service:</b> 24 X 7</li>
+                                    <li><b class="fs-14">Central Lab:</b> 24 X 7</li>
+                                    <li><b class="fs-14">Blood Bank:</b> 24 X 7</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-md-5 read-more d-block mx-auto"
+                    style="width:fit-content" title="Read More">Read More</a>
+            </div>
+        </div>
+        <!-- Job Experience End -->
     </div>
 </div>
 </div>
-
-
 @endsection

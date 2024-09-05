@@ -15,32 +15,32 @@
 						<tr>
 							<th class="text-center">Sl. No.</th>
 							<th>Location</th>
-							<th>View</th>
+							<!-- <th>View</th> -->
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
 							<td>Community Health Centers</td>
-							<td><a href="https://www.tmu.ac.in/medical-college-and-research-center/community-health-centers" target="_blank">Click Here to View</a></td>
+							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">2</td>
 							<td>Primary Health Centers</td>
-							<td><a href="https://www.tmu.ac.in/medical-college-and-research-center/primary-health-centers" target="_blank">Click Here to View</a></td>
+							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
 							<td>Rural Health Centers</td>
-							<td><a href="https://www.tmu.ac.in/medical-college-and-research-centre/rural-health-centers" target="_blank">Click Here to View</a></td>
+							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
 							<td>Urban Health Centers</td>
-							<td>
-								<a href="https://www.tmu.ac.in/medical-college-and-research-center/urban-health-centers" target="_blank">Click Here to View</a>
+							<!-- <td>
+								<a href="#" target="_blank">Click Here to View</a>
 
-							</td>
+							</td> -->
 						</tr>
 					</tbody>
 				</table>
