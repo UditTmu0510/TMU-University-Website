@@ -20,93 +20,93 @@
             solar street lights are installed in the campus at major places.</p>
           <table class="table table-bordered table-striped">
             <thead>
-              <th>#</th>
+              <th class="text-center">Sl. No.</th>
               <th>Solar Location</th>
               <th>Solar Capacity (In KW)</th>
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
+                <td class="text-center">1</td>
                 <td>Dental College</td>
                 <td>50</td>
               </tr>
               <tr>
-                <td>2</td>
+                <td class="text-center">2</td>
                 <td>Engineering Block</td>
                 <td>50</td>
               </tr>
               <tr>
-                <td>3</td>
+                <td class="text-center">3</td>
                 <td>Mala Bhawan</td>
                 <td>80</td>
               </tr>
               <tr>
-                <td>4</td>
+                <td class="text-center">4</td>
                 <td>Medical College</td>
                 <td>110</td>
               </tr>
               <tr>
-                <td>5</td>
+                <td class="text-center">5</td>
                 <td>Prakash Bhawan</td>
                 <td>60</td>
               </tr>
               <tr>
-                <td>6</td>
+                <td class="text-center">6</td>
                 <td>Pharmacy College</td>
                 <td>30</td>
               </tr>
               <tr>
-                <td>7</td>
+                <td class="text-center">7</td>
                 <td>Gyan Bhawan</td>
                 <td>30</td>
               </tr>
               <tr>
-                <td>8</td>
+                <td class="text-center">8</td>
                 <td>Hospital</td>
                 <td>195</td>
               </tr>
               <tr>
-                <td>9</td>
+                <td class="text-center">9</td>
                 <td>Indoor Stadium</td>
                 <td>60</td>
               </tr>
               <tr>
-                <td>10</td>
+                <td class="text-center">10</td>
                 <td>Nursing College</td>
                 <td>60</td>
               </tr>
               <tr>
-                <td>11</td>
+                <td class="text-center">11</td>
                 <td>Vidya Bhawan</td>
                 <td>50</td>
               </tr>
               <tr>
-                <td>12</td>
+                <td class="text-center">12</td>
                 <td>Vardhaman Bhawan</td>
                 <td>87</td>
               </tr>
               <tr>
-                <td>13</td>
+                <td class="text-center">13</td>
                 <td>Engineering Block</td>
                 <td>227</td>
               </tr>
               <tr>
-                <td>14</td>
+                <td class="text-center">14</td>
                 <td>Substation No-3</td>
                 <td>27</td>
               </tr>
               <tr>
-                <td>15</td>
+                <td class="text-center">15</td>
                 <td>Mortuary</td>
                 <td>17</td>
               </tr>
               <tr>
-                <td>16</td>
+                <td class="text-center">16</td>
                 <td>Faculty Block</td>
                 <td>82</td>
               </tr>
               <tr>
-                <td>17</td>
+                <td class="text-center">17</td>
                 <td>Faculty of Education</td>
                 <td>130</td>
               </tr>
@@ -117,257 +117,274 @@
             </tbody>
           </table>
           <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s1.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Dental
                       College Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s8.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s2.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer Hospital Roof</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s8.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s14.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Sub-Station
                       No.3 Roof</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s14.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s2.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s4.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Engineering
                       Block-I Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s9.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s5.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Indoor
                       Stadium Roof</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s9.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s16.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s6.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> TMU Morchary
                       3 Roof</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s16.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s3.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s7.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Mala Bhawan
                       Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s3.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s10.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s8.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> College of
                       Nursing Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s10.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s16.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s9.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> TMU Faculty
-                      Block Roof </span>
+                      Block <br>Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s16.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s4.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s10.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Medical
                       College & Research Centre Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s4.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s12.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s11.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Vardhaman
-                      Bhawan Roof </span>
+                      Bhawan <br>Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s12.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s17.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s12.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
-                      style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Gyan Bhawan
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
+                      style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Gyan Bhawan<br>
                       Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s17.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s5.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s13.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
-                      style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Prakash
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
+                      style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Prakash
                       Bhawan Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s5.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s13.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s14.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Engineering
                       Block-II Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s13.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s18.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s15.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Vidya Bhawan
                       Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s18.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s6.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s16.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Pharmacy
                       Block Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s6.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/s19.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/s17.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Solar Panels</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Faculty of
                       Education Block Roof </span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/s19.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -379,21 +396,22 @@
 
         <button class="careers-accordion"> Biogas Plant<span class="icon">+</span></button>
         <div class="panel">
-          <div class="row justify-content-center gutter-30 col-mb-5">
-            <div class="col-sm-8 col-md-8">
-              <p>The University has signed MoU with JARDS Moradabad, where biogas plant is situated. The students
+          <div class="row justify-content-center col-mb-5">
+            <div class="col-md-12">
+              <p class="mt-1">The University has signed MoU with JARDS Moradabad, where biogas plant is situated. The students
                 regularly visitthe plants for the exposer purpose.</p>
             </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/bio_gas.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/biogas.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">BioGas Plant </h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">BioGas Plant </h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> TMU
                       Campus</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/bio_gas.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -405,7 +423,7 @@
 
         <button class="careers-accordion"> Wheeling to the Grid<span class="icon">+</span></button>
         <div class="panel">
-          <p>An <a href="https://www.tmu.ac.in/pdf/mous/wheeling_to_grid.pdf"> agreement</a> has been signed with
+          <p>An <span class="highlight"><a href="https://www.tmu.ac.in/pdf/mous/wheeling_to_grid.pdf"> agreement</a></span> has been signed with
             Uttar Pradesh Power Corporation Limited (UPPCL) in regard with energy export to the grid and they provided
             net metering system to record the solar energy generation in campus.</p>
         </div>
@@ -416,76 +434,82 @@
           <p>TThe University has installed sensor based & wireless facility of conserve the energy at administrative
             block.</p>
           <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/sensored1.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/se1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Sensor based Automatic Water Control System</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Sensor based Automatic Water Control System</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Ground
                       Floor, Medical College & Research Centre</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/sensored1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/sensored2.jpg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/se2.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Sensor Based Energy Conservation </h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Sensor Based Energy Conservation </h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Indoor
                       Stadium, Teerthanker Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/sensored2')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="	https://www.tmu.ac.in/img/facilities/institutional_values/solar/sensored5.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/se3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Sensor Based Automatic Street Light System</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Sensor Based Automatic Street Light System</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/sensored4.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/sensored3.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/se4.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Sensor Based Energy Conservation Room</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Sensor Based Energy Conservation Room</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>
                       Administrative Block, Teerthanker Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/sensored5.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/sensored4.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/se5.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Sensor Based Automatic Street Light System</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Sensor Based Automatic Street Light System</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/sensored3.jpeg')}}"> Download Geo Tag Image</div>
+                      
                   </div>
                 </div>
               </div>
@@ -500,60 +524,47 @@
             required presently 95% of the lights are LED. The updated &power saver equipmentlike fan, AC, fridge &
             other electronic items are replaced by five star rated equipment.</p>
           <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/led.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/led1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Uses of LED Bulbs</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">Uses of LED Bulbs</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/led.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/5_star/ac_1.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/led2.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Uses of Power Efficient Equipments</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">LED Street Light</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/led1.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/led1.jpg" alt=""
-                    style="height:300px!important;">
+                  <img src="{{asset('/assets/img/department/iqac/environment_conciousness/led3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">LED Street Light</h4><span class="fst-normal fs-12"
+                    <h4 class="fs-14">LED Street Light</h4><span class="fst-normal fs-12 mb-2"
                       style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
                       Mahaveer University</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/solar/led2.jpg" alt=""
-                    style="height:300px!important;">
-                </div>
-                <div class="team-desc p-2">
-                  <div class="team-title pt-0">
-                    <h4 class="fs-14">LED Street Light</h4><span class="fst-normal fs-12"
-                      style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Teerthanker
-                      Mahaveer University</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/iqac/environment_conciousness/download/led2.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -566,6 +577,45 @@
   </div>
 </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const downloadButtons = document.querySelectorAll('.download-btn');
 
+    downloadButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const imgSrc = button.getAttribute('href');
+        if (imgSrc) {
+          downloadFile(imgSrc);
+        } else {
+          console.error('Image source not found.');
+        }
+      });
+    });
+  });
+
+  function downloadFile(filePath) {
+    fetch(filePath)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = filePath.split('/').pop(); // Extract filename from path
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+        alert('Failed to download the image. Please try again later.');
+      });
+  }
+</script>
 
 @endsection
