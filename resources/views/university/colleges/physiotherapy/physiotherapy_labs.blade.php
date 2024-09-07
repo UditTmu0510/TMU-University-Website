@@ -9,7 +9,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <!-- Card -->
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="	https://www.tmu.ac.in/img/physiotherapy/labs/electrotherapy_lab.jpg" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/labs/physiotherapy/electrotherapy/1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Electrotherapy Lab</h4>
@@ -26,7 +26,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="	https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab.jpg" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="mb-2">Execercise Therapy Lab</h4>
                     </div>
@@ -42,7 +42,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="https://www.tmu.ac.in/img/physiotherapy/labs/research_lab.jpg" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/labs/physiotherapy/research/1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Research Lab</h4>
@@ -58,7 +58,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="	https://www.tmu.ac.in/img/physiotherapy/labs/physiotherapy_opd.jpg" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/labs/physiotherapy/opd/1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Physiotherapy OPD.</h4>

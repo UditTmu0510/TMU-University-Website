@@ -12,7 +12,7 @@
             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
             <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/physiotherapy_principal_nivo.jpg" alt="jaslin-vp-nursing" height="450" width="450">
+                <img src="{{asset('/assets/img/principal/physiotherapy/physiotherapy_principal.jpg')}}" alt="jaslin-vp-nursing" height="450" width="450">
             </div>
             <div class="col-md-8">
                 <p class="mb-2 text-justify">Welcome to Department of Physiotherapy, a department that focuses on opportunity and achievement, a place where students are encouraged and supported to excel. As rightly said by Albert Einstein, "Education is not learning of facts but training of mind to think". Keeping the very fact in mind the department with the support of it's able faculty members, visionary management and excellent and extensive infrastructure entrenches perseverance and a never-say-die spirit from academics to co-curricular activities in the heart of every student to not only making them good physiotherapists but brilliant human beings.</p>
