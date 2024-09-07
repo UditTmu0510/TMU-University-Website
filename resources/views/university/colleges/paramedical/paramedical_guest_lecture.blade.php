@@ -20,7 +20,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/497_title_image.webp"
+                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/497_title_image.webp')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -43,7 +43,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/452_title_image.webp"
+                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/452_title_image.webp')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -66,7 +66,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/388_title_image.webp"
+                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/388_title_image.webp')}}"
                                     alt="Event-1">
                             </a>
                         </div>

@@ -7,7 +7,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-0">
             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card cab-members">
-                    <img src="https://www.tmu.ac.in/img/college_advisory_board/paramedical/16.jpg" class="card-img-top" alt="Image 3">
+                    <img src="{{asset('/assets/img/advisory_board/paramedical/OM_PRAKASH_JASUJA.jpg')}}" class="card-img-top" alt="Image 3">
                     <div class="card-body text-center"> <!-- Added 'text-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold mb-0"><span></span><span>DR. OM PRAKASH JASUJA</span></h5>
                         <p class="card-text fs-14 "><b>Professor (Forensic Science)</b> </p>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card cab-members">
-                    <img src="https://www.tmu.ac.in/img/college_advisory_board/paramedical/13.jpg" class="card-img-top"
+                    <img src="{{asset('/assets/img/advisory_board/paramedical/KAMAL_PANT.jpg')}}" class="card-img-top"
                         alt="Image 2">
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. KAMAL PANT</span></h5>
@@ -28,7 +28,7 @@
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card cab-members">
-                    <img src="https://www.tmu.ac.in/img/college_advisory_board/paramedical/17.jpg" class="card-img-top"
+                    <img src="{{asset('/assets/img/advisory_board/paramedical/MOHAN_BHAGWAT.jpg')}}" class="card-img-top"
                         alt="Image 2">
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>MR. MOHAN BHAGWAT</span></h5>
@@ -43,7 +43,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-0 mb-5">
             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card cab-members">
-                    <img src="https://www.tmu.ac.in/img/college_advisory_board/paramedical/15.jpg" class="card-img-top"
+                    <img src="{{asset('/assets/img/advisory_board/paramedical/KAPIL_DEV.jpg')}}" class="card-img-top"
                         alt="Image 1">
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. KAPIL DEV</span></h5>
@@ -56,7 +56,7 @@
 
             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card cab-members">
-                    <img src="https://www.tmu.ac.in/img/college_advisory_board/paramedical/14.jpg" class="card-img-top"
+                    <img src="{{asset('/assets/img/advisory_board/paramedical/NAROTAM_SHARMA.jpg')}}" class="card-img-top"
                         alt="Image 1">
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. NAROTAM SHARMA </span></h5>
