@@ -8,7 +8,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Card -->
                                 <div class="card shadow-sm college_departments ">
-                                    <img src="assets/img/programme_stock_img/nursing/5.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/5.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -18,7 +18,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="/nursing_gynaeo.php" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing_gynaeo')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>
@@ -27,7 +27,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="assets/img/programme_stock_img/nursing/1.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/1.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -38,7 +38,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="/nursing_medical_surgical.php" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing.medical.surgical')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="assets/img/programme_stock_img/nursing/2.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/2.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -57,7 +57,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing.community.health')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="assets/img/programme_stock_img/nursing/4.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/4.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -75,7 +75,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing.paediatric')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="assets/img/programme_stock_img/nursing/7.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/3.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -93,7 +93,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing.psychiatric')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="assets/img/programme_stock_img/nursing/6.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/6.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -111,7 +111,7 @@
                                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                         <div>
                                         </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                        <a href="{{route('nursing.fundamentals')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                             More</a>
                                     </div>
                                 </div>

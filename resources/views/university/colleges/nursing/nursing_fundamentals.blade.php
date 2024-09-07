@@ -15,7 +15,7 @@
 						The basic skill of nursing practice is through the utilization of theory and kinaesthetic learning principles.</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="https://www.tmu.ac.in/img/nursing/department/fundamental.jpg" alt="">
+					<img src="{{asset('/assets/img/college_departments/nursing/fun/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">The physical layout accommodates various learning areas according to the needs of the students. The lab consists of 15 hospital beds holding “patients” (mannequins). The “patients”,
@@ -23,10 +23,10 @@
 					<p class="about-p mb-4">The uniqueness of the Lab is that it combines the atmosphere of the hospital environment with sophisticated learning technology. It is instrumental for insuring the success of all our nursing students as they progress throughout their baccalaureate program.</p>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
 					<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="assets/img/nursing/departments/fundamentals/f1.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/fundamentals/f1.jpg" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="assets/img/nursing/departments/fundamentals/f3.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/fundamentals/f3.jpg" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="assets/img/nursing/departments/fundamentals/f2.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/fundamentals/f2.jpg" alt="Gallery Thumb 3"></a>
-						<a class="grid-item" href="assets/img/nursing/departments/fundamentals/f4.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/fundamentals/f4.jpg" alt="Gallery Thumb 5"></a>
+						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab7.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab7.jpeg')}}" alt="Gallery Thumb 1"></a>
+						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab4.jpg')}}" alt="Gallery Thumb 3"></a>
+						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab5.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab5.jpeg')}}" alt="Gallery Thumb 5"></a>
 					</div>
 
 

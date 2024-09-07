@@ -1,240 +1,196 @@
-@extends('layouts.university.colleges.nursing_without_sidebar')
+@extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-<style>
-.post-grid .entry {
-    margin-bottom: 15px!important;
-}
+<link rel="stylesheet" href="{{asset('/demos/news/news.css')}}">
 
-.slide a {
-    display: block;
-    height: 330px;
-    background-size: contain;
-}
-</style>
-<section id="content">
-    <div class="content-wrap">
+
+<div class="main-content">
+    <div class="container">
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Placements </span><span> News</span></h1>
         <div class="container">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Placement </span><span> News</span></h1>
-            <div class="post-grid row">
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+            <div class="row col-mb-10 mb-2">
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/6_Feb_2023/04_feb_23.jpg')}}"
+                                    alt="nursing Placements News">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/6_Feb_2023/04_feb_23_2.jpg')}}"
+                                    alt="nursing Placements News">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/6_Feb_2023/04_feb_23_3.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/6_Feb_2023/04_feb_23_4.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/4.1.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/4.2.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/5.2.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="entry col-lg-3 col-md-6">
-                    <div class="grid-inner shadow-sm card rounded-5">
-                        <div class="entry-image mb-0">
-                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                <div class="flexslider">
-                                    <div class="slider-wrap">
-                                        <div class="slide"><a href="assets/img/nursing/placement_news/pnews.png" data-lightbox="gallery-item" style="background: url('assets/img/nursing/placement_news/pnews.png') no-repeat center bottom; background-size: cover; height:320px;"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="entry-content mt-0">
-                                <p class="mb-0">Khant Dev of BTech CSE Batch 2024 is placed in Polymerize, Singapore with package of 07.00 LPA</p>
-                            </div>
-                            <hr class="my-4">
-                            <div class="entry-meta d-flex align-items-center">
-                                <div>
-                                    <ul class="my-0">
-                                        <li class="mb-0"><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                    </ul>
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/6.1.jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/6.2.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/10.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/10.1.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/10.2.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/10.3.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/10.4.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                    <!-- Post Article -->
+                    <div class="posts-md">
+                        <div class="entry">
+                            <div class="entry-image">
+                                <img src="{{asset('/assets/img/placement_news/nursing/5_Jan_2023/11.1.jpg')}}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="pagination pagination-circle justify-content-center">
+                    <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span></a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span
+                                aria-hidden="true">&raquo;</span></a></li>
+                </ul>
             </div>
         </div>
     </div>
-</section>
+</div>
+</div>
 
 @endsection
