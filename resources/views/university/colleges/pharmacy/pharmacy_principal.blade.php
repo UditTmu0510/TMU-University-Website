@@ -13,8 +13,8 @@
             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
             <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="https://www.tmu.ac.in/uploads/college/tmph_head.jpg"
-                    alt="jaslin-vp-nursing" height="450" width="450">
+                <img src="{{asset('/assets/img/principal/pharmacy/pharmacy_principal.jpg')}}"
+                    alt="anurag-pharmacy-principal" width="450">
             </div>
             <div class="col-md-8">
                 <p class="mb-2 text-justify">Pharmacy is a noble profession and the pharmacist plays a vital role in the health
@@ -30,6 +30,9 @@
                     believe that education is not only about teaching curriculum, but it is also about the
                     development of human intellect and training the thought process to face unprecedented situations
                     with confidence.</p>
+
+            </div>
+            <div class="col-md-12">
                 <p class="mb-2 text-justify">I have immense faith in the practices the college ensures to teach students the true
                     essence of being a healthcare professional. We have seen and shaped professionals that have made
                     significant contributions to the nursing profession and positively impact the lives of countless
@@ -41,8 +44,6 @@
                     learning along with them. We teach, counsel and through numerous student activities we impart
                     life skills in our students. </p>
                 <p class="mb-3 text-justify">There are lot of student activities like various clubs and other forums that are managed by students.</p>
-            </div>
-            <div class="col-md-12">
                 <p class="mb-2 text-justify">The students continuously motivate and challenge each other's mental boundaries to help each other to grow.
                     We encourage our students to speak their mind and always teach them to have an open channel to exchange ideas and thought, thus, our students are not shy to express their ideas and think creatively.
                     The students follow hobbies of their choice as these things too shape them as an individual.</p>

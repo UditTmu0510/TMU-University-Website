@@ -8,7 +8,7 @@
                         <div class="row row-cols-1 row-cols-md-3 g-4 mt-0">
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Hemant_Jadhav.jpg" class="card-img-top" alt="Image 3">
+                                    <img src="{{asset('/assets/img/advisory_board/pharmacy/Hemant_Jadhav.jpg')}}" class="card-img-top" alt="Image 3">
                                     <div class="card-body text-center"> <!-- Added 'text-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold mb-0"><span></span><span>Prof. Hemant R Jadhav</span></h5>
                                         <p class="card-text fs-14 ">Professor and Head </p>
@@ -18,7 +18,7 @@
                             </div>
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Kamla_Pathak.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/advisory_board/pharmacy/Kamla_Pathak.jpg')}}" class="card-img-top"
                                         alt="Image 2">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof. Kamla Pathak</span></h5>
@@ -33,7 +33,7 @@
                         <div class="row row-cols-1 row-cols-md-3 g-4 mt-0 mb-5">
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Yogendra_Singh.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/advisory_board/pharmacy/Yogendra_Singh.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Yogendra Singh</span></h5>
@@ -45,7 +45,7 @@
 
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Rakesh_Shrivastav.jpg" class="card-img-top"
+                                    <img src="{{asset('/assets/img/advisory_board/pharmacy/Rakesh_Shrivastav.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>MR. Rakesh Sivastav</span></h5>
@@ -58,7 +58,7 @@
                             
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="	https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Neeraj_Bhardwaj.jpg" class="card-img-top"
+                                    <img src="	{{asset('/assets/img/advisory_board/pharmacy/Neeraj_Bhardwaj.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Mr. Neeraj Bhardwaj</span></h5>
@@ -70,7 +70,7 @@
                             
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="	https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Gaurav_Goyal.jpg" class="card-img-top"
+                                    <img src="	{{asset('/assets/img/advisory_board/pharmacy/Gaurav_Goyal.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Gourav Goyal</span></h5>
@@ -82,7 +82,7 @@
                             
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                                 <div class="card cab-members">
-                                    <img src="	https://www.tmu.ac.in/img/college_advisory_board/pharmacy/Manjeet_Sinha.jpg" class="card-img-top"
+                                    <img src="	{{asset('/assets/img/advisory_board/pharmacy/Manjeet_Sinha.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Yogendra Singh</span></h5>
