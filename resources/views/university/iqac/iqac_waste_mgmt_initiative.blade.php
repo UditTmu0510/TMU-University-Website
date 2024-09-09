@@ -13,83 +13,91 @@
 
         <button class="careers-accordion"> Solid Waste Management<span class="icon">+</span></button>
         <div class="panel active">
-          <p>The biodegradable waste like food waste from mess & canteen are procured by the near-by piggery
-            farms
-            on the daily basis. Besides, the University has also signed MoU with Nagar Panchayat, Pakwara
-            for the
-            disposal of Non- biodegradable waste like plastic, tins, glass bottles etc. and ensures that the
+          <p class="text-justify">The biodegradable waste like food waste from mess & canteen are procured by the near-by piggery
+            farmson the daily basis. Besides, the University has also signed MoU with Nagar Panchayat, Pakwara
+            for the disposal of Non- biodegradable waste like plastic, tins, glass bottles etc. and ensures that the
             University is having efficient mechanism for the disposal of solid waste.</p>
 
-          <div class="row  gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row  gutter-30 col-mb-5 mb-4">
+
+          <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/solid_waste_certificate_2022_second_page.png" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/soild-waste.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Food Waste <br> Record</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
+                      Campus</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/certificate-2.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2021-22</h4><span class="fst-normal fs-12 mb-2 "><i class="fa-solid fa-location-dot"></i> Nagar Panchayat, Pakwara </span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/certificate2.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/certificate-1.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of Food Waste (2020-21)</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot mb-1"></i> Nagar Panchayat, Pakwara
+                    </span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/certificate1.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row  gutter-30 col-mb-5 mb-4">
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/swc-2.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2"> 
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2022-23 (Second Page)</h4>
-                    <span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat,
+                    <span class="fst-normal fs-12 mb-1"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat,
                       Pakwara</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_second_page.png')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/solid_waste.jpeg" alt="">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/swc-1.jpg')}}" alt="">
                 </div>
-                <div class="team-desc p-2">
+                <div class="team-desc p-2"> 
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Food Waste Record</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> TMU
-                      Campus</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/certificate2.jpeg" alt="">
-                </div>
-                <div class="team-desc p-2">
-                  <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2021-22</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat, Pakwara </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/solid_waste_certificate_2022_first_page.png" alt="">
-                </div>
-                <div class="team-desc p-2">
-                  <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2022-23 (First Page)</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat,
+                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2022-23 (First Page)</h4>
+                    <span class="fst-normal fs-12 mb-1"><i class="fa-solid fa-location-dot mb-1"></i> Nagar Panchayat,
                       Pakwara</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_first_page.png')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/certificate1.jpeg" alt="">
-                </div>
-                <div class="team-desc p-2">
-                  <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2020-21 (Second Page)</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat, Pakwara
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <!-- Add the horizontal line here -->
@@ -98,13 +106,10 @@
         <button class="careers-accordion">Liquid Waste Management<span class="icon">+</span></button>
         <div class="panel">
           <p>In order to avoid any untoward effects and impacts of the liquid effluents, the University
-            has
-            established its own Sewage Treatment Plant (STP)which has the capacity of 1.5 MLD for the
-            disposal of
-            liquid effluent.
+            has established its own Sewage Treatment Plant (STP)which has the capacity of 1.5 MLD for the
+            disposal of liquid effluent.
             After the STP process the treated water is used for the irrigation of agriculture field,
-            grounds,
-            parks etc in the University campus.</p>
+            grounds,parks etc in the University campus.</p>
           <div class="row  gutter-30 col-mb-5">
             <div class="col-sm-4 col-md-6">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
@@ -142,10 +147,8 @@
         <button class="careers-accordion"> Biomedical Waste Management<span class="icon">+</span></button>
         <div class="panel py-3">
           <p>The University has signed MoU with <a href="https://www.tmu.ac.in/pdf/mou_sp%20green.pdf">SP
-              Green
-              Light Environment Waste Management LLP</a>, 1st Floor, Tiwari Market, Opp Ram Janki Mandir,
-            Bareilly
-            – 243001 for the collection & disposal of biomedical waste.</p>
+              Green Light Environment Waste Management LLP</a>, 1st Floor, Tiwari Market, Opp Ram Janki Mandir,
+            Bareilly – 243001 for the collection & disposal of biomedical waste.</p>
         </div>
         <hr class="horizontal-line">
 
@@ -211,7 +214,7 @@
             <div class="col-sm-5 col-md-5">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="	https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/ETP.jpeg" alt="">
+                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/waste_management/ETP.jpeg" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
@@ -240,7 +243,5 @@
   </div>
 </div>
 </div>
-
-
 
 @endsection

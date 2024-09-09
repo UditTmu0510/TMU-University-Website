@@ -310,6 +310,49 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 
+
+<!-- Geo Taged Image download button Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const downloadButtons = document.querySelectorAll('.download-btn');
+
+    downloadButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const imgSrc = button.getAttribute('href');
+        if (imgSrc) {
+          downloadFile(imgSrc);
+        } else {
+          console.error('Image source not found.');
+        }
+      });
+    });
+  });
+
+  function downloadFile(filePath) {
+    fetch(filePath)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = filePath.split('/').pop(); // Extract filename from path
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+        alert('Failed to download the image. Please try again later.');
+      });
+  }
+</script>
+
 </div>
 
 
