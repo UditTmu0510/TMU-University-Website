@@ -2,15 +2,6 @@
 @section('content')
 
 
-
-
-
-
-
-
-
-
-
 <div class="main-content">
 
 	<div class="container" style="max-width: 70vw !important;">
@@ -86,40 +77,40 @@
 				<!-- <h2 class="mb-0">Certification Gallery</h2> -->
 
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/university_certificate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate1.jpg')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_aditya_sharma_certificate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate2.jpg')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/medical/iic_certificate_10.webp" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate3.webp')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/medical/iic_certificate_11.webp" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate4.webp')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_aditya_sharma_certificate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate5.jpg')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_manjula_jain_certificate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate6.jpg')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/vivek_certicate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate7.jpg')}}" alt="">
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_geetanshu_dawar_certifcate.jpg" alt="">
+					<img src="{{asset('/assets/img/department/iic/certificates/certificate8.jpg')}}" alt="">
 				</div>
 			</div>
 
 			<div class="owl-carousel d-block d-md-none" id="owl-certificate">
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/university_certificate.jpg" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_aditya_sharma_certificate.jpg" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/medical/iic_certificate_10.webp" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/medical/iic_certificate_11.webp" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_aditya_sharma_certificate.jpg" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_manjula_jain_certificate.jpg" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/vivek_certicate.jpg" alt="Certificate"></div>
-				<div class="item"><img src="https://www.tmu.ac.in/img/tmu/iic_certificates/dr_geetanshu_dawar_certifcate.jpg" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate1.jpg')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate2.jpg')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate3.webp')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate4.webp')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate5.jpg')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate6.jpg')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate7.jpg')}}" alt="Certificate"></div>
+				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate8.jpg')}}" alt="Certificate"></div>
 			</div>
 
 		</div>
@@ -145,7 +136,7 @@
 						<div id="owl-demo" class="owl-carousel ">
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="https://www.tmu.ac.in/uploads/events/past_event/508_title_image.jpg" alt="...">
+									<img src="{{asset('/assets/img/department/iic/event/508_title_image.jpg')}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>
@@ -160,7 +151,7 @@
 
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="https://www.tmu.ac.in/uploads/events/past_event/488_title_image.webp" alt="...">
+									<img src="{{asset('/assets/img/department/iic/event/488_title_image.webp')}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>
@@ -174,7 +165,7 @@
 							</div>
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="https://www.tmu.ac.in/uploads/events/past_event/513_title_image.webp" alt="...">
+									<img src="{{asset('/assets/img/department/iic/event/513_title_image.webp')}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>
@@ -188,7 +179,7 @@
 							</div>
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="https://www.tmu.ac.in/uploads/events/past_event/479_title_image.jpg" alt="...">
+									<img src="{{asset('/assets/img/department/iic/event/479_title_image.jpg')}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>
@@ -202,7 +193,7 @@
 							</div>
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="https://www.tmu.ac.in/uploads/events/past_event/497_title_image.webp" alt="...">
+									<img src="{{asset('/assets/img/department/iic/event/497_title_image.webp')}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>

@@ -10,7 +10,7 @@
             <div class="iqac-container">
                 <div class="iqac-card">
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Innovation and Startup Policy 2019</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                             href="https://www.tmu.ac.in/pdf/Innovation%20and%20Startup%20Policy%202019.pdf">View PDF</a>

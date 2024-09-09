@@ -11,7 +11,7 @@
             <!-- Hero Banner -->
             <div class="container mb-3">
                 <div class="row">
-                    <img src="https://www.tmu.ac.in/img/slides/startup-tip-over-innovatie.jpg" alt="">
+                    <img src="{{asset('/assets/img/banner_overview/iic/banner.jpg')}}" alt="">
                 </div>
             </div>
 
