@@ -13,10 +13,10 @@
 			<section class="about-section bg-light mt-4">
 				<div class="container">
 					<div class="text-content p-4">
-						<h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to the College of </span><span> Law & Legal Studies</span></h1>
+						<h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to the </span><span>Examination Cell</span></h1>
 					</div>
 					<div class="image-content text-center p-4">
-						<img src="https://www.tmu.ac.in/img/student-g.jpg" alt="Law about us image">
+						<img src="{{asset('/assets/img/banner_department/examination/student-g.jpg')}}" alt="Law about us image">
 					</div>
 					<div class="container p-3">
 						<p class="about-p mb-4 text-center"><span class="highlight">Exams test your memory, life tests your learning; others will test

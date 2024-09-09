@@ -88,56 +88,59 @@
       </div>
 
       <h2 class="tmu-text-primary text-center"><span>Latest</span> <span> Pledge</span></h2>
-      <div class="row gutter-30 col-mb-5">
-        <div class="col-sm-4 col-md-4">
+      <div class="row gutter-30 col-mb-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pledge/1.jpg" alt="">
+              <img src="{{asset('/assets/img/department/iqac/human_profession_ethics/1.jpg')}}" alt="">
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="text-center fs-14">Say Yes to Life, No to Drugs Pledge</h4><span class="fst-normal fs-12"><a href="https://pledge.mygov.in/" class="more-link fst-normal ms-2">Read more</a></span>
+                <h4 class="text-center fs-14 mb-2">Say Yes to Life, No to <br> Drugs Pledge</h4>
+                  <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://pledge.mygov.in/" target="_blank"> Read More!</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 ">
+          <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+            <div class="team-image">
+              <img src="{{asset('/assets/img/department/iqac/human_profession_ethics/2.jpg')}}" alt="">
+            </div>
+            <div class="team-desc p-2">
+              <div class="team-title pt-0">
+                <h4 class="text-center fs-14 mb-2">Read The <br> Preamble</h4>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://pledge.mygov.in/" target="_blank"> Read More!</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-3 ">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pledge/2.jpg" alt="">
+              <img src="{{asset('/assets/img/department/iqac/human_profession_ethics/3.jpg')}}" alt="">
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="text-center fs-14">Read The Preamble</h4><span class="fst-normal"><a href="https://pledge.mygov.in/" class="more-link fst-normal ms-2" style="font-size:14px; font-family:'poppins';">Read more</a></span>
+                <h4 class="text-center fs-14 mb-2">Rashtriya Ekta Diwas <br> Pledge</h4>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://pledge.mygov.in/" target="_blank"> Read More!</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-3 ">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pledge/4.jpg" alt="">
+              <img src="{{asset('/assets/img/department/iqac/human_profession_ethics/4.jpg')}}" alt="">
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="text-center fs-14">Rashtriya Ekta Diwas Pledge</h4><span class="fst-normal fs-12"><a href="https://pledge.mygov.in/" class="more-link fst-normal ms-2">Read more</a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-          <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-            <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pledge/4.jpg" alt="">
-            </div>
-            <div class="team-desc p-2">
-              <div class="team-title pt-0">
-                <h4 class="text-center fs-14">Swachh Bharat Harit Bharat Green Pledge</h4><span>
-                  <a href="https://pledge.mygov.in/" class="more-link fst-normal ms-2 fs-12">Read more</a></span>
-              </div>
+                <h4 class="text-center fs-14 mb-2">Swachh Bharat Harit <br> Bharat Green Pledge</h4>
+                  <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://pledge.mygov.in/" target="_blank"> Read More!</a>
+                </div>
             </div>
           </div>
         </div>
