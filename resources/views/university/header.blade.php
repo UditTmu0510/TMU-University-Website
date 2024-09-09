@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
     <!-- managemt college css -->
-    <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
     <!-- Document Title
 	============================================= -->
     <title>TMU | New Website</title>
@@ -46,8 +46,8 @@
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
 
-    <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold"
-        rel="stylesheet">
+    <!-- <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold"
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
     <!-- Bootstrap Bundle with Popper -->
