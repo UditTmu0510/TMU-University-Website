@@ -14,7 +14,7 @@
                         <p class="about-p mb-4">To enable students to become empathetic mental health professional, engaged in promotion of mental health, identification, care and rehabilitation of the mentally ill.</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="https://www.tmu.ac.in/img/nursing/department/psychiatric.jpg" alt="">
+                        <img src="{{asset('/assets/img/college_departments/nursing/psy/banner.jpg')}}" alt="">
                     </div>
                     <div class="container p-3">
                        <ul class="m-ol-list ps-5 text-justify">

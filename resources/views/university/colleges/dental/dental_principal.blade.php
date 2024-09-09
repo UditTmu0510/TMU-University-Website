@@ -12,9 +12,9 @@
             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
             <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/dental_principal_2024.jpg" alt="Tangade_dental_principal" height="450" width="450">
+                <img src="{{asset('/assets/img/principal/dental/dental_principal.jpg')}}" alt="Tangade_dental_principal" height="400" width="280">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-12 col-lg-8">
                 <blockquote class="zitat1">
                     "A dentist gets to the root of the problem"
                     <cite>Anonymous</cite>
@@ -31,7 +31,7 @@
                 <p class="mb-2 text-justify">Under my leadership, and as a team working together, we strongly promote academic achievement among our students.
                     Our College is recognized as a national leader in teaching and learning, student relationships and wellbeing. Our approach involves working with parents to meet the individual needs of every student, and supporting them to fulfill their academic and co-curricular goals and dreams.</p>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-lg-12">
                 <p class="mb-2 text-justify">I hope you enjoy your visit to the website and should you wish to contact us, please find details at the contact page.</p>
                 <div class="person-details">Prof. Pradeep Tangade <br>
                     <span> Principal</span>

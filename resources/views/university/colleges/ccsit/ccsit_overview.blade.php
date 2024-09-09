@@ -17,6 +17,7 @@
                     </div>
                     <div class="image-content text-center p-4">
                         <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
+                        <!-- <img src="{{asset('assets/img/banner_overview/banner.jpg')}}" alt="Learning and Teaching"> -->
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4">The college was established by the university with the aim of providing
@@ -43,11 +44,11 @@
                 <div class="row impe-plac-row my-2">
                         <div class="col-md-6 text-center my-4">
                             <div class="border-box ">
-                                <a class="col-md-4" href="https://www.tmu.ac.in/img/ccsit/iic_certificate1.jpg"
+                                <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate1.jpg')}}"
                                     data-lightbox="image" 
                                     data-zoom="true">
                                     <div class="grid-inner mb-2">
-                                        <img src="https://www.tmu.ac.in/img/ccsit/iic_certificate1.jpg" height="300"
+                                        <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate1.jpg')}}" height="300"
                                             width="450" alt="Single Image">
                                         <div class="bg-overlay">
                                             <div class="bg-overlay-content dark">
@@ -62,10 +63,10 @@
 
                         <div class="col-md-6 text-center my-4">
                             <div class="border-box">
-                                <a class="col-md-4" href="https://www.tmu.ac.in/img/ccsit/iic_certificate2.jpg"
+                                <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate2.jpg')}}"
                                     data-lightbox="image" data-zoom="true">
                                     <div class="grid-inner mb-2">
-                                        <img src="https://www.tmu.ac.in/img/ccsit/iic_certificate2.jpg" height="300"
+                                        <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate2.jpg')}}" height="300"
                                             width="450" alt="Single Image">
                                         <div class="bg-overlay">
                                             <div class="bg-overlay-content dark">

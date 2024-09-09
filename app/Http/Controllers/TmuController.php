@@ -2200,6 +2200,11 @@ public function ccsit_syllabus()
         return view('university.colleges.dental.dental_oral');
     }
 
+    public function dental_orthodontics()
+    {
+        return view('university.colleges.dental.dental_orthodontics');
+    }
+
     public function dental_Prosthodontics()
     {
         return view('university.colleges.dental.dental_Prosthodontics');

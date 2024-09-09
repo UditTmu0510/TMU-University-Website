@@ -5,7 +5,7 @@
 	<div class="container">
 		<h1 class="tmu-text-primary tmu-page-heading"><span>College</span><span> information</span></h1>
 		<div class="row">
-			<img class="col-md-10 d-block mx-auto mb-4" src="https://www.tmu.ac.in/img/medical/medical_about.jpg" alt="Card image cap">
+			<img class="col-md-10 d-block mx-auto mb-4" src="{{asset('/assets/img/banner_overview/medical/medical_college_info.jpg')}}" alt="Card image cap">
 		</div>
 
 		<div class="row">
@@ -40,7 +40,7 @@
 							<tr>
 								<td class="text-center" sdval="4">4</td>
 								<td>Official website</td>
-								<td><a href="https://www.tmu.ac.in/">www.tmu.ac.in</a></td>
+								<td><a href="{{route('tmuhome')}}">www.tmu.ac.in</a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="5">5</td>
@@ -374,7 +374,7 @@
 					</object>
 				</div>
 				<hr class="horizontal-line">
-				<button class="careers-accordion">Department wise list of Faculty Members<span class="icon">+</span> </button>
+				<button class="careers-accordion">Publication Details<span class="icon">+</span> </button>
 				<div class="panel">
 					<object data="https://www.tmu.ac.in/pdf/medical/publication_and_other_details.pdf" type="application/pdf" width="100%" height="1180px">
 						<p>Your web browser doesn't have a PDF plugin. Instead you can</p>

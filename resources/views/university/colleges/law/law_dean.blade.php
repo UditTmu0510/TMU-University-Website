@@ -11,8 +11,8 @@
                 <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
                 <!--</div>-->
                 <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                    <img src="https://www.tmu.ac.in/img/tmu/administration/dean/PROF_HARBANSH_DIXIT.jpg" alt="dixitji_law_dean"
-                        height="350" width="350">
+                    <img src="{{asset('/assets/img/principal/law/law_dean.jpg')}}" alt="dixitji_law_dean"
+                         width="350">
                 </div>
                 <div class="col-md-8">
                     <blockquote class="zitat1">

@@ -1,6 +1,6 @@
 @extends('layouts.university.colleges.tmimt_with_sidebar')
 @section('content')
-<link rel="stylesheet" href="assets/css/journal.css">
+<link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
 
 <div class="main-content">
     <div class="container">
@@ -15,7 +15,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement_brochure_2022_23.pdf"
                                         target="_blank"><img
-                                            src="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-broucher-22-23.jpg"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_22_23.jpg')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2021-22.pdf"
                                         target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_21_22.webp"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_21_22.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2020-21.pdf"
                                         target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_20_21.webp"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_20_21.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2019-20.pdf"
                                         target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_19_20.webp"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_19_20.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -67,19 +67,7 @@
                                 <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2018-19.pdf"
                                         target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_18_19.webp"
-                                            alt="Book Cover Image"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="book">
-                            <div class="front">
-                                <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2017-18.pdf"
-                                        target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_17_18.webp"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_18_19.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -99,9 +87,21 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
+                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2017-18.pdf"
+                                        target="_blank"><img
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_17_18.webp')}}"
+                                            alt="Book Cover Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="book">
+                            <div class="front">
+                                <div class="cover">
                                     <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2016-17.pdf"
                                         target="_blank"><img
-                                            src="assets/img/mgmt/mgmt-magazine/brochure/brochure_16_17.webp"
+                                            src="{{asset('/assets/img/placement_brochure/management/brochure_16_17.webp')}}"
                                             alt="Book Cover Image"></a>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-broucher-22-23.jpg" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_22_23.jpg')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -142,7 +142,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_21_22.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_21_22.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -158,7 +158,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_20_21.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_20_21.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -174,7 +174,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_19_20.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_19_20.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -190,7 +190,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_18_19.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_18_19.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -206,7 +206,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_17_18.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_17_18.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>
@@ -222,7 +222,7 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <img src="assets/img/mgmt/mgmt-magazine/brochure/brochure_16_17.webp" />
+                                        <img src="{{asset('/assets/img/placement_brochure/management/brochure_16_17.webp')}}" />
                                         <div class="effect"></div>
                                         <div class="light"></div>
                                     </div>

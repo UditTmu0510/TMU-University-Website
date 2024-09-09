@@ -15,7 +15,7 @@
             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
             <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="https://www.tmu.ac.in/uploads/college/tmmg_head.jpg" alt="vipinji_mgmt_principal"
+                <img src="{{asset('/assets/img/principal/management/management_principal.jpg')}}" alt="vipinji_mgmt_principal"
                     height="400" width="400">
             </div>
             <div class="col-lg-8">
@@ -38,8 +38,10 @@
                     <span> Director / Principal</span><br>
                     <span>Ph.D, FCMA, MBA(Gold Medalist), LLB, CS(Executive)</span><br>
                     <span>Department of Management Studies & Commerce</span><br>
-                    <span>Teerthanker Mahaveer Institute of Management and Technology (TMIMT</span><br>
-                    <span>Email: principal.management<br>@tmu.ac.in</span><br>
+                    <span>Teerthanker Mahaveer Institute of Management and Technology (TMIMT)</span><br>
+                    <div class="d-flex flex-wrap">
+                        <span class="text-break">Email: principal.management@tmu.ac.in</span>
+                    </div>
                     <span>Tel: 0591-2487111</span>
                 </div>
             </div>

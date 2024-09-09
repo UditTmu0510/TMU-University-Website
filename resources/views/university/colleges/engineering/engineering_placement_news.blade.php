@@ -11,7 +11,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/1.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/1.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
@@ -35,7 +35,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/6.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/6.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
@@ -59,7 +59,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/3.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/3.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
@@ -83,7 +83,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/2.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/4.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
@@ -107,7 +107,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/4.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/5.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
@@ -133,7 +133,7 @@
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
                                 data-mdb-ripple-color="light">
-                                <img class="img-fluid" src="assets/img/ccsit/placement_news/5.jpg"
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/2.jpg')}}"
                                     alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">

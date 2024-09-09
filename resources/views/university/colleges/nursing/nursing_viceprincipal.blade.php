@@ -8,7 +8,7 @@
                     Vice Principal</span></h1>
 
             <div class="col-md-12 col-lg-4 text-center img-container mb-3" style="height:fit-content;">
-                <img src="assets/img/university/administration/jaslinem.jpg"
+                <img src="{{asset('/assets/img/principal/nursing/nursing_vice_principal.jpg')}}"
                     alt="jaslin-vp-nursing" height="450" width="450">
             </div>
             <div class="col-md-8">

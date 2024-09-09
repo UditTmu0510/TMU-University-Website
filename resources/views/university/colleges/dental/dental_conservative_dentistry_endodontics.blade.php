@@ -18,7 +18,7 @@
                         BDS students for pre-clinical activities. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="assets/img/gallery/collegegallery/dental/dep-1.jpg" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Department provides specialized dental treatment which includes amalgam
@@ -60,10 +60,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/32.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/32.jpg" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/33.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/33.jpg" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/34.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/34.jpg" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="assets/img/gallery/collegegallery/dental/35.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/dental/35.jpg" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/33.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/34.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/35.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

@@ -12,8 +12,8 @@
             <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
             <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/education_principal_nivo.jpg" alt="rashmi_education_principal"
-                    height="350" width="300">
+                <img src="{{asset('/assets/img/principal/education/education_principal.jpg')}}" alt="rashmi_education_principal"
+                     width="300">
             </div>
             <div class="col-md-8">
                 <blockquote class="zitat1">

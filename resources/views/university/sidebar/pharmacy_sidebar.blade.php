@@ -41,7 +41,7 @@
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
-            <a href="{{route('pharmacy.academic.calendar')}}" class="custom-menu-item">
+            <a href="{{route('pharmacy.anti.ragging')}}" class="custom-menu-item">
                 <p>Anti Ragging Committee</p>
             </a>
         </div>
@@ -58,7 +58,7 @@
             <a href="{{route('pharmacy.iqac')}}" class="custom-menu-item">
                 <p>College IQAC</p>
             </a>
-            <a href=<a href="{{asset('/assets/pdf/publications/reports/sif-report-2021.pdf')}}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/publications/reports/sif-report-2021.pdf')}}" class="custom-menu-item">
                 <p>SIF Report</p>
             </a>
         </div>

@@ -8,7 +8,7 @@
                     Superintendent </span></h1>
 
             <div class="col-lg-4 text-center img-container mb-3">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/ms.jpg" alt="Vishvanayakji"
+                <img src="{{asset('/assets/img/principal/medical/superintendent_medical.jpg')}}" alt="Vishvanayakji"
                     height="400" width="400">
             </div>
             <div class="col-lg-8">

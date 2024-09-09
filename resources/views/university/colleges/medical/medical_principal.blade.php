@@ -9,7 +9,7 @@
                     Principal</span></h1>
 
             <div class="col-lg-4 text-center img-container">
-                <img src="https://www.tmu.ac.in/img/tmu/administration/principal/medical_principal_nivo_1.jpg"
+                <img src="{{asset('/assets/img/principal/medical/principal_medical.jpg')}}"
                     alt="Naveen Sir" height="450" width="450">
             </div>
             <div class="col-lg-8">

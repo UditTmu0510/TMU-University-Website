@@ -14,7 +14,7 @@
 					<p class="about-p mb-3">The department of physiotherapy at TMU Hospital works in close coordination with other departments to deliver quality care to the patients facing inhibitions in movement. It is equipped with state-of-the-art facilities and technologically advanced medical equipment to ensure the swift healing of patients. The Department has Physiotherapy OPD operational in the 1000 bed multi super-specialty.</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="https://www.tmu.ac.in/img/physiotherapy/labs/physiotherapy_opd1.jpg" alt="">
+					<img src="{{asset('/assets/img/labs/physiotherapy/opd/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">The division holds expertise in treating conditions like Arthritis, Chronic Pain Syndrome, Concussion, Frozen Shoulder, Heel and Foot Pain, Lower Back Pain, Motor Vehicle Accident Injuries, Neck Pain, Post Surgery, Repetitive Strain, Sports Injuries, and Tennis Elbow.</p>
@@ -30,10 +30,14 @@
 					<h2 class="tmu-text-primary tmu-page-heading"><span>Infrastructure</span><span></span></h2>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
 					<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="assets/img/gallery/collegegallery/physiotherapy/infrastructure/1.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/physiotherapy/infrastructure/1.jpg" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="assets/img/gallery/collegegallery/physiotherapy/infrastructure/2.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/physiotherapy/infrastructure/2.jpg" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="assets/img/gallery/collegegallery/physiotherapy/infrastructure/3.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/physiotherapy/infrastructure/3.jpg" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="assets/img/gallery/collegegallery/physiotherapy/infrastructure/4.jpg" data-lightbox="gallery-item"><img src="assets/img/gallery/collegegallery/physiotherapy/infrastructure/4.jpg" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd2.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd2.jpeg')}}" alt="Gallery Thumb 1"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd3.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd3.jpeg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd4.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd4.jpeg')}}" alt="Gallery Thumb 1"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd5.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd5.jpeg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd6.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd6.jpeg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd7.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd7.jpeg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd8.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd8.jpeg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/opd/opd9.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/opd/opd9.jpeg')}}" alt="Gallery Thumb 2"></a>
 					</div>
 					<h4 class="tmu-text-primary"><span>Labs </span><span> Equipments</span></h4>
 					<div class="row">

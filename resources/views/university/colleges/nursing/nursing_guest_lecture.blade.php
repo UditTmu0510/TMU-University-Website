@@ -21,7 +21,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/398_title_image.webp"
+                                <img src="{{asset('/assets/img/guest_lecturer/nursing/398_title_image.webp')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -44,7 +44,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="	https://www.tmu.ac.in/uploads/events/past_event/title1.jpg"
+                                <img src="	{{asset('/assets/img/guest_lecturer/nursing/title1.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -67,7 +67,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/title2.jpg"
+                                <img src="{{asset('/assets/img/guest_lecturer/nursing/title2.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/news119_title_image.jpg"
+                                <img src="{{asset('/assets/img/guest_lecturer/nursing/news119_title_image.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -113,7 +113,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="https://www.tmu.ac.in/uploads/events/past_event/title_image.jpg"
+                                <img src="{{asset('/assets/img/guest_lecturer/nursing/title_image.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>
@@ -135,7 +135,7 @@
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="	https://www.tmu.ac.in/uploads/events/past_event/news116_title_image1.jpg"
+                                <img src="	{{asset('/assets/img/guest_lecturer/nursing/news116_title_image1.jpg')}}"
                                     alt="Event-1">
                             </a>
                         </div>

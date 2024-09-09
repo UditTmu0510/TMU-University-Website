@@ -6,7 +6,7 @@
                             <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span>of Dean</span></h1>
 
                             <div class="col-md-12 col-lg-4 text-center img-container" style="height:fit-content;">
-                                <img src="assets/img/university/administration/SUBASHINI.jpg"
+                                <img src="{{asset('/assets/img/principal/nursing/nursing_dean.jpg')}}"
                                     alt="SUbhshini-dean-nursing" height="450" width="450">
                             </div>
                             <div class="col-md-8">

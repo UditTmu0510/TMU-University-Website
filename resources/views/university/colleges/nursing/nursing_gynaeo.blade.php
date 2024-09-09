@@ -14,16 +14,16 @@
                         <p class="about-p mb-4">Obstetric and Gynaecological Nursing is a nursing specialty that works with care of motherhood and care of women with abnormalities in reproductive system. We teach the nursing students to provide care of women during prenatal, intranatal, postnatal periods and care of women with Gynaecological problems. With highly motivated teaching faculties we provide sound theoretical knowledge. </p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="https://www.tmu.ac.in/img/nursing/department/obg.jpg" alt="">
+                        <img src="{{asset('/assets/img/college_departments/nursing/obg/banner.jpg')}}" alt="">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4">We have greatly modernized equipments and facilities to provide training to the nursing students on various practical sessions. Scientific understanding, level of knowledge, acquisition of necessary skills and techniques and development of appropriate attitudes are monitored and evaluated. Among our greatest attributes is emphasis on competencies, creativity, critical thinking, clinical skills development, good professional judgment, informed decisions, effective and safe quality practice and keeping abreast with emerging concepts.</p>
                         <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
                         <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						    <a class="grid-item" href="assets/img/nursing/departments/gynaeo/obg-1.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/gynaeo/obg-1.jpg" alt="Gallery Thumb 1"></a>
-						    <a class="grid-item" href="assets/img/nursing/departments/gynaeo/obg-3.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/gynaeo/obg-3.jpg" alt="Gallery Thumb 2"></a>
-						    <a class="grid-item" href="assets/img/nursing/departments/gynaeo/obg-2.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/gynaeo/obg-2.jpg" alt="Gallery Thumb 3"></a>
-						    <a class="grid-item" href="assets/img/nursing/departments/gynaeo/obg-4.jpg" data-lightbox="gallery-item"><img src="assets/img/nursing/departments/gynaeo/obg-4.jpg" alt="Gallery Thumb 5"></a>
+						    <a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/obg/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/obg/lab2.jpg')}}" alt="Gallery Thumb 1"></a>
+						    <a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/obg/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/obg/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
+						    <a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/obg/lab4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/obg/lab4.jpg')}}" alt="Gallery Thumb 3"></a>
+						    <a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/obg/lab5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/obg/lab5.jpg')}}" alt="Gallery Thumb 5"></a>
 					    </div>
 
          

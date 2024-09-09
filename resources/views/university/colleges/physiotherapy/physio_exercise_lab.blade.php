@@ -15,17 +15,17 @@
 					<h1 class="tmu-text-primary tmu-page-heading"><span> Excercise Therapy </span><span> Lab </span></h1>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab1.jpg" alt="">
+					<img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">The exercise demonstration lab in the Department of Physiotherapy is equipped with various exercise therapy equipment. Equipment is used to demonstrate various techniques of exercise therapy. The students learn techniques of exercise therapy which they apply on patients during their treatment.</p>
 					<h2 class="tmu-text-primary tmu-page-heading"><span>Infrastructure</span><span></span></h2>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
 					<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab2.jpg" data-lightbox="gallery-item"><img src="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab2.jpg" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab3.jpg" data-lightbox="gallery-item"><img src="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab3.jpg" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab4.jpg" data-lightbox="gallery-item"><img src="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab4.jpg" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab2.jpg" data-lightbox="gallery-item"><img src="https://www.tmu.ac.in/img/physiotherapy/labs/exercise_therapy_lab2.jpg" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab2.jpg')}}" alt="Gallery Thumb 1"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab4.jpg')}}" alt="Gallery Thumb 1"></a>
+						<a class="grid-item" href="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/lab2.jpg')}}" alt="Gallery Thumb 2"></a>
 					</div>
 					<h4 class="tmu-text-primary"><span>Labs </span><span> Equipments</span></h4>
 					<div class="row">
