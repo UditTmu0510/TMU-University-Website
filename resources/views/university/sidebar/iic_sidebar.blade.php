@@ -12,7 +12,7 @@
                 <p>Innovation & Startup Policies</p>
             </a>
             <!-- <a href="{{route('iic.research.policy')}}" class="custom-menu-item "> -->
-            <a href="#" class="custom-menu-item ">
+            <a href="{{route('iic.research.policy')}}" class="custom-menu-item ">
                 <p>Research Policy</p>
             </a>
             <a href="{{route('iic.committee')}}" class="custom-menu-item ">

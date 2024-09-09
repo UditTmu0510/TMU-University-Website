@@ -10,31 +10,31 @@
             <div class="iqac-container">
                 <div class="iqac-card">
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Consultancy & Research Project</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                             href="https://www.tmu.ac.in/pdf/research/consultancy_research_project_policy.pdf">View PDF</a>
                     </div>
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Seed Money Grant <br>Scheme</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                             href="https://www.tmu.ac.in/pdf/research/seed_money_policy.pdf">View PDF</a>
                     </div>
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Financial Assistance for Research</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                             href="https://www.tmu.ac.in/pdf/research/incentive_policy.pdf">View PDF</a>
                     </div>
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Intellectual Property Right Policy</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/pdf/research/ipr_policy.pdf">View
                             PDF</a>
                     </div>
                     <div class="card-pdf">
-                        <img src="assets/img/icons/sheet.svg" alt="PDF Icon" class="pdf-icon">
+                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Vice Chancellor's Innovation Fund</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                             href="https://www.tmu.ac.in/pdf/research/innovation_fund.pdf">View PDF</a>

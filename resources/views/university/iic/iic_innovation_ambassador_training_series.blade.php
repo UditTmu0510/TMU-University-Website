@@ -11,15 +11,15 @@
                 <div class="row">
                     <h3 class="mb-0 ms-2 tmu-text-primary"><span>Faculty of </span> <span> Engineering</span></h3>
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/coe/ajay_rastogi.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/ambassador_certificates/ajay_rastogi.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/coe/gulista_khan.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/ambassador_certificates/gulista_khan.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/coe/pradeep_kr_verma.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/ambassador_certificates/pradeep_kr_verma.jpg')}}" alt="">
                     </div>
                 </div>
             </div>

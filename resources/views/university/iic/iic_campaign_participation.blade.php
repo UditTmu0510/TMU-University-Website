@@ -12,38 +12,38 @@
                 <div class="row">
                     <h3 class="mb-0 ms-2 tmu-text-primary"><span>Faculty of </span> <span> Engineering</span></h3>
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/coe/11 July Dir SIr_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/engineering1.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
                         <img
-                            src="https://www.tmu.ac.in/img/coe/11 july Indias First Leadership Talk Series-certification Patcher - Session with General Dr. Madhuri Kanitkar_page-0001.jpg"
+                            src="{{asset('/assets/img/department/iic/campaign_participation/engineering2.jpg')}}"
                             alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/coe/Innovation and startup participation_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/engineering3.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <h3 class="mb-0 ms-2 tmu-text-primary"><span>College of Computing </span> <span> Sciences & IT</span></h3>
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/ccsit/Certificate-DRKD_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/CSIT1.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/ccsit/Cert-LT-1_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/CSIT2.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/ccsit/Cert-LT2-Venkat_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/CSIT3.jpg')}}" alt="">
                     </div>
 
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/ccsit/IIC_Online_Session_Certificate_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/CSIT4.jpg')}}" alt="">
                     </div>
                     <div class="col-md-4 p-4" style="box-sizing:border-box;">
-                        <img src="https://www.tmu.ac.in/img/ccsit/NISP-AB_page-0001.jpg" alt="">
+                        <img src="{{asset('/assets/img/department/iic/campaign_participation/CSIT5.jpg')}}" alt="">
                     </div>
                 </div>
             </div>
