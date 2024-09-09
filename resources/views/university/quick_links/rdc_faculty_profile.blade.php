@@ -9,7 +9,7 @@
       <h1 class=" tmu-text-primary tmu-page-heading mb-0 pt-md-5"><span>RDC </span><span> Faculty Profile</span></h1>
       <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
         <div class="card card-animation">
-          <img src="{{asset('/images/souviksur.jpg')}}" class="card-img-top" alt="Image 1">
+          <img src="{{asset('assets/img/department/rdc/souvik_sur.jpg')}}" class="card-img-top" alt="Image 1">
           <div class="card-body text-center"> <!-- Added 'text-center' class -->
             <h5 class="card-title tmu-color fw-bold">Dr. Souvik Sur</h5>
             <p class="card-text tmu-color-blue">Assistant Professor</p>
