@@ -34,7 +34,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://upgrade.tmu.ac.in/assets/pdf/jnrl/viewpoint_jan_july_2021_1.pdf" target="_blank"><img
-                                        src="https://upgrade.tmu.ac.in/assets/img/jnrl/8.jpg" alt="Book Cover Image"></a>
+                                        src="{{asset('/assets/img/magazines/research/8.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://www.tmu.ac.in/img/research/pharmacoaerena.jpg" target="_blank"><img
-                                        src="https://upgrade.tmu.ac.in/assets/img/jnrl/10.jpg" alt="Book Cover Image"></a>
+                                        src="{{asset('/assets/img/magazines/research/10.jpg')}}" alt="Book Cover Image"></a>
                                 <!-- <p class="num-up">84</p>
                         <p class="num-down">1</p>
                         <p class="author">George Orwell</p> -->
@@ -66,7 +66,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://www.tmu.ac.in/tmu/publication" target="_blank"><img
-                                        src="https://www.tmu.ac.in/img/research/s&treview.jpg" alt="Book Cover Image"
+                                        src="{{asset('/assets/img/magazines/research/s&treview.jpg')}}" alt="Book Cover Image"
                                         style="width:200px; height:275px;"></a>
 
                             </div>
@@ -81,7 +81,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://tmujdent.co.in/archive.php" target="_blank"><img
-                                        src="https://upgrade.tmu.ac.in/assets/img/jnrl/11.jpg" alt="Book Cover Image"
+                                        src="{{asset('/assets/img/magazines/research/11.jpg')}}" alt="Book Cover Image"
                                         style="height:275px;"></a>
 
                             </div>
@@ -96,7 +96,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://journals.lww.com/amit/pages/default.aspx" target="_blank"><img
-                                        src="https://upgrade.tmu.ac.in/assets/img/jnrl/12.jpg" alt="Book Cover Image"
+                                        src="{{asset('/assets/img/magazines/research/12.jpg')}}" alt="Book Cover Image"
                                         style="height:275px;"></a>
 
                             </div>
@@ -111,7 +111,7 @@
                         <div class="front">
                             <div class="cover">
                                 <a href="https://www.tmu.ac.in/tmu/publication" target="_blank"><img
-                                        src="https://www.tmu.ac.in/img/research/ijrtcsit.jpg" alt="Book Cover Image"
+                                        src="{{asset('/assets/img/magazines/research/ijrtcsit.jpg')}}" alt="Book Cover Image"
                                         style="width:200px; height:275px;"></a>
 
                             </div>
