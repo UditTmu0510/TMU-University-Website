@@ -200,6 +200,20 @@ Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_ant
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
 Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance_submit_suggestion'])->name('greviance.submit.suggestion');
 
+
+// Campus View
+Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
+Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
+Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
+Route::get('/tmu/jinalaya', [TmuController::class, 'jinalaya'])->name('jinalaya');
+Route::get('/tmu/yoga-and-meditation-hall', [TmuController::class, 'yoga_and_meditation_hall'])->name('yoga.and.meditation.hall');
+Route::get('/tmu/music-and-dance-room', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
+Route::get('/tmu/banking-facility', [TmuController::class, 'banking_facility'])->name('banking.facility');
+Route::get('/tmu/faculty-accomodation', [TmuController::class, 'faculty_accomodation'])->name('faculty.accomodation');
+Route::get('/tmu/guest-house', [TmuController::class, 'guest_house'])->name('guest.house');
+
+
+
 // RDC_QUICK_LINKS
 Route::get('/research-and-development-center', [TmuController::class, 'research_development_center_about'])->name('research.development.center.about');
 Route::get('/research-and-development-center/faculty-profile', [TmuController::class, 'rdc_faculty_profile'])->name('rdc.faculty.profile');

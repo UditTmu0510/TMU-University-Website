@@ -1339,6 +1339,12 @@ class TmuController extends Controller
         return view('university.quick_links.greviance_submit_suggestion');
     }
 
+    public function campus_view()
+    {
+        return view('university.quick_links.greviance_submit_suggestion');
+        // return view('university.quick_links.campus_view');
+    }
+
     // RDC_Quick_links
 
     public function research_development_center_about()
