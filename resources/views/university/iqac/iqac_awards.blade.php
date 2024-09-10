@@ -9,10 +9,10 @@
             <div class="row impe-plac-row mb-4">
                 <div class="col-lg-6 col-md-12 col-sm-6 text-center mb-0">
                     <div class="border-box-iqac">
-                        <a class="colmd-4" href="assets/img/Iqac/iqac_awards_2.webp" data-lightbox="image" title=""
+                        <a class="colmd-4" href="{{asset('/assets/img/department/iqac/certificate/iqac_awards_2.webp')}}" data-lightbox="image" title=""
                             data-zoom="true">
                             <div class="grid-inner mb-2">
-                                <img src="assets/img/Iqac/iqac_awards_2.webp" height="600" width="400" alt="Single Image">
+                                <img src="{{asset('/assets/img/department/iqac/certificate/iqac_awards_2.webp')}}" height="600" width="400" alt="Single Image">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark">
                                         <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
@@ -27,10 +27,10 @@
 
                 <div class="col-lg-6 col-md-12 col-sm-6 text-center mb-0">
                     <div class="border-box-iqac">
-                        <a class="colmd-4" href="assets/img/Iqac/iqac_awards_1.webp" data-lightbox="image" title=""
+                        <a class="colmd-4" href="{{asset('/assets/img/department/iqac/certificate/iqac_awards_1.webp')}}" data-lightbox="image" title=""
                             data-zoom="true">
                             <div class="grid-inner mb-2">
-                                <img src="assets/img/Iqac/iqac_awards_1.webp" height="600" width="400" alt="Single Image">
+                                <img src="{{asset('/assets/img/department/iqac/certificate/iqac_awards_1.webp')}}" height="600" width="400" alt="Single Image">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark">
                                         <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
