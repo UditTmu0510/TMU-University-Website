@@ -16,7 +16,7 @@
           <div
             class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/rdc/rdc1.jpg" alt="rdc">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}" alt="rdc">
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
           <div
             class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="https://www.tmu.ac.in/img/facilities/rdc/rdc3.jpg" alt="rdc3">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}" alt="rdc3">
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
           <div
             class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="	https://www.tmu.ac.in/img/facilities/rdc/rdc2.jpg" alt="rdc2" height="260">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}" alt="rdc2" height="260">
             </div>
           </div>
         </div>
