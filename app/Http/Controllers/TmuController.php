@@ -1341,9 +1341,53 @@ class TmuController extends Controller
 
     public function campus_view()
     {
-        return view('university.quick_links.greviance_submit_suggestion');
-        // return view('university.quick_links.campus_view');
+        return view('university.quick_links.campus_view');
     }
+
+    public function gym()
+    {
+        return view('university.quick_links.gym');
+    }
+
+    public function auditorium()
+    {
+        return view('university.quick_links.auditorium');
+    }
+
+    public function jinalaya()
+    {
+        return view('university.quick_links.jinalaya');
+    }
+
+    public function yoga_and_meditation_hall()
+    {
+        return view('university.quick_links.yoga_and_meditation_hall');
+    }
+
+    public function music_and_dance_room()
+    {
+        return view('university.quick_links.music_and_dance_room');
+    }
+
+    public function banking_facility()
+    {
+        return view('university.quick_links.banking_facility');
+    }
+
+    public function faculty_accomodation()
+    {
+        return view('university.quick_links.faculty_accomodation');
+    }
+
+    public function guest_house()
+    {
+        return view('university.quick_links.guest_house');
+    }
+
+
+
+
+
 
     // RDC_Quick_links
 
