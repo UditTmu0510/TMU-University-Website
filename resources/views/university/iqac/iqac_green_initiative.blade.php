@@ -463,7 +463,6 @@
                     <h4 class="fs-14">plantation by Mohd. Shami, Memeber-Indian Cricekt Team</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
                       <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
-
                   </div>
                 </div>
               </div>
