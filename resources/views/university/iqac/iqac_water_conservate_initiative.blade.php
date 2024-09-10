@@ -11,42 +11,45 @@
         <div class="panel active">
           <p>The University has it’s own water lake with the capacity of 1 crore liter water. This large lake serve the main purpose of rainwater harvesting.
             The rain water from the roofs tops of the buildings through drains, landscaped campus & RCC roads recharge the ground water table throughout the year.</p>
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+          <div class="row gutter-30 col-mb-5 mb-3">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/rwh/rwh1.jpeg" alt="" style="height: 350px;">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rwhs-1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/rwh/rwh2.jpeg" alt="" style="height: 350px;">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rwhs-2.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/rwh/rwh3.jpeg" alt="" style="height: 350px;">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rwhs-3.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> TMU
+                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
                       Campus</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh3.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -55,52 +58,46 @@
         </div>
         <!-- Add the horizontal line here -->
         <hr class="horizontal-line">
-
-        <button class="careers-accordion"> Bore Well / Open WellRecharge<span class="icon">+</span></button>
-        <div class="panel pt-3">
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
-              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/university_campus/stp/5.jpg" alt="" style="height: 350px;">
-                </div>
-                <div class="team-desc p-0">
-                  <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Rain Water recharge well</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i>
-                      Teerthanker Mahaveer University Campus</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-8 col-md-8">
-              <p>The University has operational Open Well recharge system to increase the water table.</p>
-            </div>
-          </div>
-        </div>
-        <hr class="horizontal-line">
-
-        <button class="careers-accordion"> Construction of Tanks & Bunds<span class="icon">+</span></button>
+        <button class="careers-accordion"> Roof Rain Water Harvesting <span class="icon">+</span></button>
         <div class="panel">
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-8 col-md-8">
-              <p>The University has constructed three water tanks and all tanks fulfill the following purposes:
-              <ul class="m-ol-list ps-4">
-                <li>Household water requirements for the campus residents including hostels.</li>
-                <li>Fire safety water requirements.</li>
-                <li>For the irrigation of agriculture field, grounds, parks etc.</li>
-              </ul>
-              </p>
-            </div>
-            <div class="col-sm-4 col-md-4">
+          <div class="row gutter-30 col-mb-5 mb-3">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/rain_water.jpg" alt="" style="height: 350px;">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rainw1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Rain Water recharge well</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i>
-                      Teerthanker Mahaveer University Campus</span>
+                    <h4 class="tmu-text-primary fs-14">Roof Rain Water Harvesting</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/roof_rain1.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rainw2.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Roof Rain Water Harvesting</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
+                      Campus</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/roof_rain2.jpeg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rainw3.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Harvesting Tank Water flow Drawing</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
+                      Campus</span>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/route_map.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -108,29 +105,51 @@
           </div>
         </div>
         <hr class="horizontal-line">
-
-        <button class="careers-accordion">Waste Recycling System<span class="icon">+</span></button>
-        <div class="pane pt-3">
-          <div class="row gutter-30 col-mb-5">
-            <div class="col-sm-4 col-md-4">
+        <button class="careers-accordion "> Construction of Tanks & Bunds <span class="icon">+</span></button>
+        <div class="panel ">
+          <p>The University has constructed three water tanks and all tanks fulfill the following purposes:</p>
+          <ul class="m-ol-list ps-4">
+              <li>Household water requirements for the campus residents including hostels</li>
+              <li>Fire safety water requirements.</li>
+              <li>For the irrigation of agriculture field, grounds, parks etc.</li>
+          </ul>
+          <div class="row gutter-30 col-mb-5 mb-3">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/rain_water.jpg" alt="" style="height: 350px;">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/rwhs-1.jpg')}}" alt="">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="tmu-text-primary fs-14">Sewage Treatment Plan</h4><span class="fst-normal fs-12"><i class="fa-solid fa-location-dot"></i> Teerthanker Mahaveer University Campus</span>
+                    <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh1.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-8 col-md-8">
-              <p>The University has established STP (Sea wage Treatment Plant) as per standard norms for the purpose of waste water recycling.</p>
+          </div>
+        </div>
+        <hr class="horizontal-line">
+        <button class="careers-accordion"> Waste Water Recycling <span class="icon">+</span></button>
+        <div class="panel">
+          <p>The University has established STP (Sea wage Treatment Plant) as per standard norms for the purpose of waste water recycling.</p>
+          <div class="row gutter-30 col-mb-5 mb-3">
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/water_conservative/sewage-treatment.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Sewage Treatment Plant</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/5.jpg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <hr class="horizontal-line">
-
         <button class="careers-accordion">Maintenance of Water Bodies & Distribution System in the Campus<span class="icon">+</span></button>
         <div class="panel">
           <p>The University has separate maintenance department to regulate, maintain & regular distribution of water in the campus through water tanks.</p>
