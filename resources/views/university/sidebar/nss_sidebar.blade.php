@@ -3,7 +3,7 @@
         <span class="close-btn" id="closeSidebar">&times;</span>
     </div>
     <div class="custom-menu-section">
-        <h2 class="fs-16">NEP 2020 Implementation</h2>
+        <h2 class="fs-16">NSS</h2>
         <div class="account-section">
             <a href="{{route('nss.about')}}" class="custom-menu-item active">
                 <p>About NSS</p>
