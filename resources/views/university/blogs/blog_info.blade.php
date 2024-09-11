@@ -74,7 +74,14 @@
             /* 2 items per row */
         }
     }
+
+    #blogs69 h3,
+    #blogs69 h2,
+    #blogs69 strong {
+        font-weight: 600 !important;
+    }
 </style>
+
 
 <!-- Page Title -->
 <section class="news-page-title page-title bg-transparent">
@@ -141,11 +148,11 @@
                             <div class="entry-content mt-0">
 
                                 <!-- Post Single - Content End -->
-                                <p style="text-align:justify">
+                                <div style="text-align:justify" id="blogs69">
                                     @php
                                     echo nl2br(html_entity_decode($blog->full_post));
                                     @endphp
-                                </p>
+                                </div>
 
 
 

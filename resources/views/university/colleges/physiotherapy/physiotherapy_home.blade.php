@@ -130,9 +130,10 @@
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">Established in 2010, the Department of Physiotherapy at TMU offers a comprehensive range of programmes. These include a diploma, BPT, MPT, and PhD in physiotherapy. With a focus on helping patients maintain, recover, and improve their physical abilities, we prepare students to address impairments and promote mobility, providing provisional diagnosis and physical interventions. Become a skilled professional in meeting the increasing demand for physiotherapy services in the medical sector.</p>
-
-						<button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
-
+						<div class="read-more-content mt-0">
+							<p style="text-align: justify;">Department of Physiotherapy at Teerthanker Mahaveer University (TMU), where excellence in education meets unparalleled practical experience. Choosing the right institution for your physiotherapy education is crucial, and TMU stands out as a premier choice. Let's explore why TMU's Department of Physiotherapy is the ideal place to kickstart your career.</p>
+						</div>
+						<a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 					</div>
 
 				</div>

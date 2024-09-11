@@ -176,10 +176,11 @@
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">Teerthanker Mahaveer Medical College & Research Centre was established in 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</p></b>
-                        <p style="text-align: justify;">Choosing the right medical college is a critical decision that shapes your future as a healthcare professional. Teerthanker Mahaveer Medical College and Research Centre (TMMC&RC) stands out as one of the premier institutions in India, providing top-notch education and exceptional facilities. Let’s explore why TMMC&RC is the ideal choice for aspiring medical professionals.
-                            </b></p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <div class="read-more-content mt-0">
+                            <p style="text-align: justify;">Choosing the right medical college is a critical decision that shapes your future as a healthcare professional. Teerthanker Mahaveer Medical College and Research Centre (TMMC&RC) stands out as one of the premier institutions in India, providing top-notch education and exceptional facilities. Let’s explore why TMMC&RC is the ideal choice for aspiring medical professionals.
+                                </b></p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -270,15 +271,12 @@
         <div class="section bg-transparent mt-0" style="margin-bottom:30px;">
             <div class="row justify-content-center ">
                 <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-                    <h2 class="h1 fw-bold"
-                        style="font-size: 48px; font-weight: 600; line-height: 64px; color:#000000; margin-bottom: 22px;">
-                        GALLERY</h2>
+
+                    <h2 class="tmu-text-primary"><span>GALLERY</span></h2>
 
                 </div>
                 <div class="col-xl-10 col-lg-10 text-center d-block d-sm-none">
-                    <h2 class="h1 fw-bold"
-                        style="font-size: 30px; font-weight: 600; line-height: 64px; color:#FF7900; margin-bottom: 9px; margin-top: -12px;">
-                        GALLERY</h2>
+                    <h2 class="tmu-text-primary"><span>GALLERY</span></h2>
 
                 </div>
             </div>
@@ -326,8 +324,9 @@
                 <div class="container d-none d-lg-block">
 
                     <div class="col-xl-12 col-xl-10 text-center">
-                        <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
-                            PROGRAMMES<span class="color:##FF7900"> OFFERED</span></h2>
+                        <h2 class="tmu-text-primary"><span>PROGRAMMES</span><span> OFFERED</span></h2>
+                        <!-- <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
+                            <span class="color:##FF7900"> </span></h2> -->
                     </div>
                     <div class="row ">
                         <div class="col-md-3">
@@ -1617,7 +1616,9 @@
 
             <button class="careers-accordion">Post Graduate Programs<span class="icon">+</span></button>
             <div class="panel">
-                <h3 class="tmu-text-primary fs-16 mb-0"><p>TMMC&RC offers postgraduate programs (MD/MS) in various disciplines, including: different interests and career aspirations in the medical field:</p></h3>
+                <h3 class="tmu-text-primary fs-16 mb-0">
+                    <p>TMMC&RC offers postgraduate programs (MD/MS) in various disciplines, including: different interests and career aspirations in the medical field:</p>
+                </h3>
                 <br>
                 <h3 class="tmu-text-primary fs-16 mb-0">Pre-Clinical Subjects</h3>
                 <ul class="m-ol-list ps-4 text-justify">
@@ -1675,7 +1676,7 @@
                 <h3 class="tmu-text-primary fs-16 mb-0">9. Dermatologist</h3>
                 <p>Dermatologists treat skin, hair, and nail conditions. They manage issues like acne, eczema, and skin cancer, and perform cosmetic procedures to improve the appearance of the skin.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0">10. Orthopedic Surgeon</h3>
-                <p>Orthopedic surgeons specialise in the musculoskeletal system, treating injuries and diseases related to bones, joints, ligaments, and muscles. They perform surgeries to correct issues like fractures, dislocations, and arthritis.</p>               
+                <p>Orthopedic surgeons specialise in the musculoskeletal system, treating injuries and diseases related to bones, joints, ligaments, and muscles. They perform surgeries to correct issues like fractures, dislocations, and arthritis.</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">

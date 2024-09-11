@@ -133,8 +133,11 @@
                     <div class="col-12 px-2 px-md-5">
                         <p class="m-0 p-0"><b>Sports can deliver you a successful career.</b></p>
                         <p style="text-align: justify;">TMIMT College of Physical Education stands behind its claim, having groomed professionals, athletes, and other careers within the sports industry. The establishment of 2011, in its more than a decade-long journey, has evolved itself into a top-notch private institution for sports enthusiasts. The college provides the best facilities like a gym, indoor stadium, coaches, and faculties to groom compassionate sports personnel. TMIMT College of Physical Education, through its rigorous practical training and regular participation in inter–intra and other state and national level competitions, ensures to carve you into your best.</p>
-                        <p class="m-0 p-0"><b>Join the team of the best private college for Physical Education in UP to excel beyond your imagination.</b></p>
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <div class="read-more-content mt-0">
+                            <p class="m-0 p-0" style="text-align: justify;">TMIMT College of Physical Education is a premier institution dedicated to fostering excellence in the field of physical education and sports. Situated under the aegis of Teerthanker Mahaveer University (TMU), TMIMT College of Physical Education stands out as a beacon for aspiring sports professionals. But why is physical education so crucial? It's more than just sports and games; it's about cultivating a healthy, active lifestyle and developing the skills necessary for personal and professional growth.</p>
+                            <p class="m-0 p-0"><b>Join the team of the best private college for Physical Education in UP to excel beyond your imagination.</b></p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
                     </div>
                 </div>
             </div>

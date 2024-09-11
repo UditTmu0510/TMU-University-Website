@@ -129,15 +129,33 @@
 
         </div>
 
+        <!-- <div class="box-container">
+            <div class="box">
+                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
+                <div class="row">
+                    <div class="col-12 px-2 px-md-5">
+                        <p class="m-0 p-0"><b></b></p>
+                        <p style="text-align: justify;"></p>
+
+                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
         <div class="box-container">
             <div class="box">
                 <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p class="m-0 p-0"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
+                        <p style="text-align: center;"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
                         <p style="text-align: justify;">At the Faculty of Education, TMU, we dedicate ourselves to providing excellence in teacher education. As approved by the prestigious NCTE & SCERT, Lucknow, we have been shaping future generations through quality education since 2003. Our recently introduced four-year BSc (Honours with Research) and BA (Honours with Research) programmes further enhance our offerings, providing students with comprehensive academic opportunities. Step into the realm of the best education college in UP.</p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <div class="read-more-content mt-0">
+                            <p style="text-align: justify;">At Teerthanker Mahaveer University (TMU), our Faculty of Education College stands as a beacon of excellence in the realm of Bachelor of Education (B.Ed.) programmes. We pride ourselves on nurturing future educators who are not only academically proficient but also equipped with practical skills essential for today's classrooms.</p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
