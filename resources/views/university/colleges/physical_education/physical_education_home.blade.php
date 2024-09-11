@@ -7,7 +7,7 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+<section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
@@ -32,7 +32,7 @@
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span>BCCI </span>
                             <br>
                             <span class="d-block pt-1">Certified Coaches</span>
@@ -81,7 +81,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>BCCI </span>
                                         <br>
                                         <span class="d-block pt-1">Certified Coaches</span>
@@ -158,13 +158,13 @@
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
-                        <ul class="m-ol-list ps-4 mb-0">
-                            <li>Follow the Outcome-based education and Psycho-motor skills.</li>
-                            <li>Qualified, committed and competent educators to shape the personalities of teacher trainees into successful professionals.</li>
-                            <li>The College has spacious, furnished classrooms, Classrooms with ICT facilities, contemporary laboratories, a library etc. with modern equipment for learning and research purposes.</li>
-                        </ul>
-                        <div class="read-more-content">
-                        <ul class="m-ol-list ps-4">    
+                    <ul class="m-ol-list ps-4 mb-0">
+                        <li>Follow the Outcome-based education and Psycho-motor skills.</li>
+                        <li>Qualified, committed and competent educators to shape the personalities of teacher trainees into successful professionals.</li>
+                        <li>The College has spacious, furnished classrooms, Classrooms with ICT facilities, contemporary laboratories, a library etc. with modern equipment for learning and research purposes.</li>
+                    </ul>
+                    <div class="read-more-content">
+                        <ul class="m-ol-list ps-4">
                             <li>Excellent indoor facilities are available for table tennis, basketball, volleyball, badminton, gymnastics, yoga, squash and skating.</li>
                             <li>Excellent outdoor facilities are available for cricket, football, hockey, track & field and tennis.</li>
                             <li>Leadership Training Camp.</li>
@@ -172,8 +172,8 @@
                             <li>Sports Scholarship and financial support to meritorious sports person or Providing Sports and Jain Scholarship Scheme.</li>
                             <li>To develop the leading capacity to organise different sporting events.</li>
                         </ul>
-                        </div>
-                        <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>  
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
@@ -196,7 +196,7 @@
                         <li>International-level multipurpose Indoor sports complex for Volleyball/Badminton/Basketball/Gymnastics/Yoga/Skating</li>
                     </ul>
                     <div class="read-more-content">
-                        <ul class="m-ol-list ps-4">    
+                        <ul class="m-ol-list ps-4">
                             <li>Excellent pavilion with cricket ground.</li>
                             <li>Two Kabaddi court</li>
                             <li>One Taekwondo court</li>
@@ -206,12 +206,12 @@
                             <li>Pool table of Snooker</li>
                         </ul>
                     </div>
-                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>  
+                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
                 </div>
             </div>
         </div>
 
-       <!-----Courses section Start-->
+        <!-----Courses section Start-->
         <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
@@ -253,7 +253,7 @@
                                                 <div class="card-body">
 
                                                     <h5 class="mb-0 text-center">B.Com. (Fintech & Blockchain Technologies with whizack
-                                                Technologies)</h5>
+                                                        Technologies)</h5>
                                                 </div>
                                                 <div
                                                     class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
@@ -645,11 +645,12 @@
 
                     <div class="oc-item text-start">
                         <div class="media">
-                            <img  src="https://www.tmu.ac.in/uploads/alumni_speak/03___Ishan_Vishnoi.jpg" class="mr-3" alt="">
+                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/03___Ishan_Vishnoi.jpg" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ishan Vishnoi</b>, BPEd (Bachelor of Physical Education)</p>
-                                    <p>If stereotypical opinions of pursuing dentistry from a private institute are debatable, visit Teerthanker Mahaveer Dental College & Research Centre at Teerthanker Mahaveer University which changed my opinion completely. The prominent faculties guiding you, the latest technologies at the college keep you upgraded about efficient practices and the regular sessions with eminent people from Dental domain enlightening us, overall it's great! I am so proud to be a part of TMU & TMDC&RC.</p>                                </div>
+                                    <p>If stereotypical opinions of pursuing dentistry from a private institute are debatable, visit Teerthanker Mahaveer Dental College & Research Centre at Teerthanker Mahaveer University which changed my opinion completely. The prominent faculties guiding you, the latest technologies at the college keep you upgraded about efficient practices and the regular sessions with eminent people from Dental domain enlightening us, overall it's great! I am so proud to be a part of TMU & TMDC&RC.</p>
+                                </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
                         </div>
@@ -717,6 +718,156 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+        <!-- FAQS and accordian -->
+
+        <div class="container mb-5 mt-5">
+            <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Why Choose TMIMT College of Physical Education?<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">Choosing the right college is pivotal, and TMIMT College of Physical Education offers a plethora of reasons why it should be your top choice.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accredited University</span></h3>
+                <p class="text-justify">The university is UGC-approved and boasts a prestigious NAAC A Accreditation. This recognition ensures that the college meets the highest standards of education and infrastructure, providing students with an exceptional learning experience.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
+                <p class="text-justify">At TMIMT College of Physical Education, learning goes beyond textbooks. The college prides itself on experiential learning, guided by highly qualified faculty members who bring a wealth of knowledge and real-world experience to the classroom.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Programmes Offered<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT College offers a range of programmes tailored to meet the diverse interests and career aspirations of students in the field of physical education.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physical Education</span><span> and Sports (BPES)</span></h3>
+                <p class="text-justify">The BPES program focuses on the broad aspects of physical education and sports, offering a comprehensive curriculum that includes sports management, coaching, and fitness training.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physical</span><span> Education (BPEd)</span></h3>
+                <p class="text-justify">The BPEd program lays a solid foundation in physical education, blending theoretical knowledge with practical skills essential for a successful career in sports and fitness.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Master of Physical</span><span> Education (MPEd)</span></h3>
+                <p class="text-justify">The MPEd program is designed for those looking to advance their expertise and leadership skills in physical education, preparing them for higher roles in academia, sports management, and coaching.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>PhD in </span><span>Physical Education</span></h3>
+                <p class="text-justify">For those inclined towards research and academic excellence, TMIMT offers a PhD program in physical education, fostering innovation and scholarly contributions to the field.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physical Education</span><span> and Sports (BPES)</span></h3>
+                <p class="text-justify">The BPES program focuses on the broad aspects of physical education and sports, offering a comprehensive curriculum that includes sports management, coaching, and fitness training. State-of-the-Art Infrastructure</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">College Infrastructure<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">A key highlight of TMIMT College is its state-of-the-art infrastructure, designed to support both academic and athletic excellence.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>International-level</span><span> Sports Infrastructure</span></h3>
+                <p class="text-justify">The college features international-level sports facilities, including well-maintained fields, tracks, and courts that provide students with the best training environment.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Modern Classrooms</span><span> for Interactive Sessions</span></h3>
+                <p class="text-justify">TMIMT's modern classrooms are equipped with the latest technology to facilitate interactive learning and engagement.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>State-of-the-art Indoor</span><span> and Outdoor Stadiums</span></h3>
+                <p class="text-justify">The college boasts impressive indoor and outdoor stadiums that host various sports events, competitions, and training sessions.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Faculty and Coaching<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT takes pride in its highly qualified and experienced faculty, along with BCCI-certified coaches who offer unparalleled guidance and training to students.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Highly Qualified and</span><span> Experienced Faculty</span></h3>
+                <p class="text-justify">The faculty at TMIMT are not just educators but mentors who are committed to nurturing the talents and potential of each student.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>BCCI Certified</span><span> Coaches</span></h3>
+                <p class="text-justify">With BCCI-certified coaches, students receive top-notch training and insights, enhancing their skills and performance in various sports.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Student Support and</span><span> Development</span></h3>
+                <p class="text-justify">TMIMT is dedicated to the holistic development of its students, offering robust support systems and opportunities for growth.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Up to 100%</span><span> Scholarship Assistance</span></h3>
+                <p class="text-justify">Financial constraints should never be a barrier to education. TMIMT provides up to 100% scholarship assistance to deserving students, ensuring everyone has access to quality education.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>100% Placement Assistance</span><span> with a Strong Record</span></h3>
+                <p class="text-justify">The college has a remarkable track record of 100% placement assistance, helping students secure promising careers in the sports industry.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Extracurricular</span><span> Sports Clubs</span></h3>
+                <p class="text-justify">Extracurricular activities are a vital part of student life at TMIMT, with various sports clubs that encourage participation, teamwork, and leadership.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Campus Facilities<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT's campus is designed to offer a comfortable and enriching environment for students.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Comfortable Hostel</span><span> Facilities</span></h3>
+                <p class="text-justify">The college provides comfortable hostel facilities, ensuring a safe and conducive living environment for students.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Gym and</span><span> Fitness Centre</span></h3>
+                <p class="text-justify">A well-equipped gym and fitness centre is available for students to maintain their fitness and training routines.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Wi-Fi Enabled</span><span> Campus</span></h3>
+                <p class="text-justify">With a fully Wi-Fi-enabled campus, students have seamless access to online resources and digital learning platforms.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Shopping Stores</span><span> and Cafeterias</span></h3>
+                <p class="text-justify">On-campus shopping stores and cafeterias cater to the daily needs and convenience of students, providing a variety of options.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Anti-Ragging and Safety Measures<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT is committed to ensuring a safe and supportive environment for all students.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Anti-Ragging</span><span> Campus</span></h3>
+                <p class="text-justify">The college has a strict anti-ragging policy, creating a secure and welcoming atmosphere for new students.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Extracurricular and Sports Events<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT regularly hosts concerts, sports events, and championships, fostering a vibrant campus life and community spirit.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Regular Concerts and</span><span> Sports Events</span></h3>
+                <p class="text-justify">These events provide students with opportunities to showcase their talents, build camaraderie, and engage with the broader community.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Sports</span><span> Championships</span></h3>
+                <p class="text-justify">Participation in sports championships at various levels helps students gain competitive experience and recognition.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Exposure and</span><span> Opportunities</span></h3>
+                <p class="text-justify">TMIMT offers students numerous opportunities for global exposure and professional growth.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Member of AIU</span><span> Sports Council</span></h3>
+                <p class="text-justify">As a member of the AIU Sports Council, TMIMT aligns with national and international sports standards and networks.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Sports Skill Development</span><span> Programmes</span></h3>
+                <p class="text-justify">Various skill development programs are designed to enhance students' competencies in different sports and physical activities.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Hands-on Training in Real</span><span> Sports Scenarios</span></h3>
+                <p class="text-justify">Practical training sessions simulate real sports scenarios, providing students with hands-on experience.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Research and</span><span> Development</span></h3>
+                <p class="text-justify">The college fosters a culture of research and innovation in sports and physical education.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Sports Research and</span><span> Entrepreneurial Development Programmes</span></h3>
+                <p class="text-justify">Research programs and entrepreneurial initiatives encourage students to explore new ideas and solutions in sports.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Placement Opportunities<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">TMIMT's strong industry connections and dedicated placement cell ensure excellent career prospects for graduates.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>100% Placement Assistance</span><span> with an Excellent Track Record</span></h3>
+                <p class="text-justify">The college's impressive placement record speaks volumes about its commitment to student success.</p>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Sports</span><span> Opportunities</span></h3>
+                <p class="text-justify">Graduates of TMIMT have access to global sports opportunities, opening doors to exciting and rewarding careers.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify">In conclusion, TMIMT College of Physical Education offers an unparalleled blend of academic excellence, practical training, and comprehensive student support. Whether you aspire to be a sports professional, coach, or researcher, TMIMT provides the perfect platform to launch your career. Ready to take the next step? Join TMIMT and be part of a legacy of excellence in physical education.</p>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+            <div class="panel">
+                <p class="text-justify"><strong>Q. What is physical education?</strong></p>
+                <p class="text-justify">Ans: Physical education is a discipline focused on the development of physical fitness, motor skills, and overall health through various physical activities and sports.</p>
+                <p class="text-justify"><strong>Q. What programs does TMIMT offer?</strong></p>
+                <p class="text-justify">Ans: TMIMT offers a range of programs including BPEd, MPEd, PhD in Physical Education, PGDYEd, and BPES.</p>
+                <p class="text-justify"><strong>Q. How does TMIMT support student placements?</strong></p>
+                <p class="text-justify">Ans: TMIMT provides 100% placement assistance with a strong track record, offering career guidance, training, and connections with leading sports organizations.</p>
+                <p class="text-justify"><strong>Q. What facilities are available on campus?</strong></p>
+                <p class="text-justify">Ans: The campus features state-of-the-art sports infrastructure, modern classrooms, comfortable hostels, a gym, Wi-Fi, shopping stores, and cafeterias.</p>
+                <p class="text-justify"><strong>Q. How can I apply to TMIMT?</strong></p>
+                <p class="text-justify">Ans: Interested candidates can apply through the TMU website or contact the admissions office for detailed application procedures.</p>
+            </div>
+            <hr class="horizontal-line">
+
         </div>
 
 </section><!-- #content end -->
