@@ -228,22 +228,6 @@
         </div>
 
 
-        <!-- Collab Modal -->
-        <div id="collabModal" class="tmu-modal">
-            <div class="overlay" onclick="closeCollabModal()"></div>
-            <div class="tmu-modal-box">
-                <div class="close-btn" onclick="closeCollabModal()">x</div>
-                <div class="card collab-card">
-                    <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                    <div class="card-body">
-                        <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                        <p class="collab-card-text">
-                            This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-----Courses section Start-->
         <section id="content" class="prog-bm">
