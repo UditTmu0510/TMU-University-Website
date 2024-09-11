@@ -130,12 +130,14 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer College of Paramedical Sciences</h1>
+                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Paramedical Sciences, established in 2010, is a leading college in India offering BSc, MSc, and PhD programmes in Paramedical Science. Our primary aim is to train Paramedical Science professionals, contributing to the medical field. Students gain real-world experience through clinical exposure at our parent hospital. Being recognised as the Best Paramedical Science College in UP, we take deep pride in our unwavering dedication to excellence.</p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                        <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science education programme is to ensure that educational opportunities for development of skills. </p>
+                        <div class="read-more-content mt-0">
+                            <p style="text-align: justify;">The emphasis of the Paramedical Science education programme is on developing a cadre of small entrepreneurs, especially among girls, women &amp; rural youth.</p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -160,14 +162,14 @@
             </ul>
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <h3>Key Highlights</h3>
+                    <h3>Key Highlights</span></h3>
                     <p>The College of Paramedical Sciences offers specialised training in four disciplines, delivered by qualified professionals.</p>
                     <ul class="m-ol-list ps-4">
                         <li>
                             <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span>It is a hub of academic research and consultancy that grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes with the knowledge and skills necessary to excel in the ever-evolving pharmacy field.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span>  Develop proficiency in radiological imaging techniques. Such as X-Ray, Color Doppler, Ultrasound, CT-SCAN, and MRI.</p>
+                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> Develop proficiency in radiological imaging techniques. Such as X-Ray, Color Doppler, Ultrasound, CT-SCAN, and MRI.</p>
                         </li>
                         <li>
                             <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> Become a specialised health care professional that provides comprehensive eye care, examining the eyes and structures for defects or abnormalities.</p>
@@ -178,14 +180,14 @@
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                    <h3>Placement/Internship</h3>
+                    <h3>Placement/Internship</span></h3>
                     <p>Paramedical College stands out for exceptional placement and internship opportunities for students in their respective fields.
-                    <br>  
-                    With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings. Enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce. Here’s our stellar placement
+                        <br>
+                        With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings. Enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce. Here’s our stellar placement
                     </p>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                    <h3>Curriculum</h3>
+                    <h3>Curriculum</span></h3>
                     <p>Teerthanker Mahaveer College of Paramedical Sciences offers a comprehensive curriculum designed to equip paramedical students with the necessary skills and training required in the healthcare field. Our courses cover a wide range of topics, including anatomy, optics, microbiology, psychology, physiology, forensic serology, toxicology, pharmacology, and medical ethics, among others. We also offer clinical rotations in a variety of healthcare settings, allowing students to gain hands-on experience working with patients.</p>
                     <br>
                     Additionally, we have MOUs with industry experts and academic institutions.
@@ -196,170 +198,23 @@
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
-                    <h3>Infrastructure</h3>
+                    <h3>Infrastructure</span></h3>
                     <p>Our college boasts a variety of well-equipped laboratories that adhere to the UP State medical standards. It also meets international benchmarks. Our state-of-the-art facilities includes:</p>
                     <ul class="m-ol-list ps-4">
-                        <li><p class="p-0 m-0"><b>Medical Laboratory Techniques:</b> includes spectrophotometer, colorimeter, ELISA reader, semi auto analyser, PH metre and Autoclaves.</p></li>
-                        <li><p class="p-0 m-0"><b>Radiological & Imaging Techniques: </b>include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p></li>
-                        <li><p class="p-0 m-0"><b>Optometry:</b> includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p></li>
-                        <li><p class="p-0 m-0"><b>Forensic Science:</b>includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p></li>
-                    </ul> 
-                    <p>These cutting-edge laboratories provide students with a world-class learning experience, ensuring they receive hands-on training on par with global standards.</p>          
-                </div>
-            </div>
-        </div>
-
-
-
-        <section id="content">
-            <div class="content-wrap py-0" style="background-color: #001055;">
-                <main1>
-                    <div>
-                        <p class="tmimt-awards-heading"><span>Awards <span class="symbol">&</span> Excellence</span>
-                    </div>
-                    <div class="swiper swiper-management-awards">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide--one">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--two">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--three">
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--four">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--seven">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                            <div class="swiper-slide swiper-slide--six">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-
-                            <div class="swiper-slide swiper-slide--five">
-
-                                <!-- <div>
-                                                <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
-                                            </div> -->
-                            </div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
-                    </main>
-            </div>
-        </section>
-
-
-        <!-- Section for collaborators -->
-        <div class="container industry-collaborators mt-5">
-            <h2 class="text-center mb-0" style="font-weight:700; color:#001055">Top Industry Academic Partners and <span style="color:#FF7900"> Collaborative Programmes at TMU</span></h2>
-
-            <!-- Collaborators Carousel -->
-            <div class="section bg-transparent mt-0 mb-5">
-
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/ur.jpg" alt="TMU collaboration with united resourcing">
-
-                            <div class="card-body">
-                                <h3 class="collab-card-title">BBA – INTERNATIONAL BUSINESS & ENTREPRENEURSHIP</h3>
-                                <p class="collab-card-text ">As part of a partnership with United Resourcing Services, Teerthanker Mahaveer University is offering a Masters of Business Administration (MBA) in Industry Integrated with Global Exposure along with Bachelors of Business Administration (BBA) in International Business and Entrepreneurship programme. UR Services Pvt. Ltd. helps the students to be prepared for the challenges in the industry.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/whizhacklogo.jpg" alt="TMU collaboration with whizhack">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA Cyber Security (in association with Whizhack Technologies Pvt Ltd)</h3>
-                                <p class="collab-card-text">Welcome to our MBA in Cyber Security program, offered in collaboration with Whizhack Technologies Pvt Ltd. In this cutting-edge program, we empower aspiring professionals with the knowledge and skills required to navigate the complex landscape of cybersecurity.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/BSE-India.jpg" alt="TMU collaboration with BSE india">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">B.Com. (Hons.) - Financial Markets</h3>
-                                <p class="collab-card-text">As part of a partnership with the Bombay Stock Exchange (BSE), Teerthanker Mahaveer University is offering a highly in-demand (B. Com) Honors programme with a focus on Financial Markets.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/safeducate.jpg" alt="TMU collaboration with safeducate">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (Supply Chain Management & Logistics)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with Safexpress that provides specialisation in Supply Chain Management and Logistics.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="card collab-card">
-                            <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                            <div class="card-body">
-                                <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                                <p class="collab-card-text">This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.</p>
-                                <button class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-        <!-- Collab Modal -->
-        <div id="collabModal" class="tmu-modal">
-            <div class="overlay" onclick="closeCollabModal()"></div>
-            <div class="tmu-modal-box">
-                <div class="close-btn" onclick="closeCollabModal()">x</div>
-                <div class="card collab-card">
-                    <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                    <div class="card-body">
-                        <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                        <p class="collab-card-text">
-                            This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.
-                        </p>
-                    </div>
+                        <li>
+                            <p class="p-0 m-0"><b>Medical Laboratory Techniques:</b> includes spectrophotometer, colorimeter, ELISA reader, semi auto analyser, PH metre and Autoclaves.</p>
+                        </li>
+                        <li>
+                            <p class="p-0 m-0"><b>Radiological & Imaging Techniques: </b>include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p>
+                        </li>
+                        <li>
+                            <p class="p-0 m-0"><b>Optometry:</b> includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p>
+                        </li>
+                        <li>
+                            <p class="p-0 m-0"><b>Forensic Science:</b>includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p>
+                        </li>
+                    </ul>
+                    <p>These cutting-edge laboratories provide students with a world-class learning experience, ensuring they receive hands-on training on par with global standards.</p>
                 </div>
             </div>
         </div>
@@ -492,7 +347,7 @@
                                             </div>
                                         </div>
 
-                                    <div class="col-md-4">
+                                        <div class="col-md-4">
                                             <!-- Card -->
                                             <div class="card shadow-sm">
                                                 <img src="assets/img/programme_stock_img/paramedical/21.jpg" height="178px" class="card-img-top" alt="...">
@@ -802,7 +657,7 @@
                                                 More</a>
                                         </div>
                                     </div>
-                                </li>   
+                                </li>
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
@@ -902,10 +757,10 @@
                     </div>
 
 
-                  
-                <!-- Code for the Mobile View Ends Here -->
 
-            </div>
+                    <!-- Code for the Mobile View Ends Here -->
+
+                </div>
         </section>
         <!-----Courses section completed-->
 
@@ -993,7 +848,7 @@
                             <img src="https://www.tmu.ac.in/uploads/alumni_speak/Madhuri-N.jpg" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Madhuri Kumari </b>,  B.Sc. (RIT)</p>
+                                    <p class="overview mb-3"><b>Madhuri Kumari </b>, B.Sc. (RIT)</p>
                                     <p>Thank you TMU & College of Pharmacy for the immense efforts, the management and staff puts in for us students, a huge heart felt thank you to you all. All the practice at laboratories, exercise at the indoor stadium and theory classes at the classrooms have grown me and made me an active and fit person. I am happy that with careful guidance I have achieved my dream into reality and all thanks to TMCOP.</p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -1030,78 +885,194 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
-            <hr class="horizontal-line">
+    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <hr class="horizontal-line">
 
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-            
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
+    <button class="careers-accordion">Why TMU’s College of Paramedical Sciences is the Best Choice for You <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>NAAC-A Accredited and Recognised by UGC and </span><span> UP State Medical Faculty</span></h3>
+        <p class="text-justify">The College of Paramedical Sciences at TMU boasts prestigious accreditations and recognitions, ensuring that your education meets the highest standards set by regulatory bodies.</p>
 
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-            
-            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
-            <p class="text-justify"></p>
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
-            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div>
-            <hr class="horizontal-line">
-            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
-            <div class="panel">
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Awarded "A" Rating by the Quality </span><span> Council of India</span></h3>
+        <p class="text-justify">In 2023, TMU's commitment to quality education was reaffirmed with an "A" rating from the Quality Council of India, underscoring its dedication to academic excellence.</p>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p></p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Experiential Learning by </span><span> Highly Qualified Faculties</span></h3>
+        <p class="text-justify">At TMU, learning extends beyond textbooks, with highly qualified faculties providing hands-on experiences to prepare you for real-world challenges in the paramedical field.</p>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Hands-on Training in </span><span> TMU Hospital</span></h3>
+        <p class="text-justify">One of the unique features of TMU is its integrated hospital, providing students with invaluable hands-on training in a real healthcare setting.</p>
 
-            </div>
-            <hr class="horizontal-line">
-        </div>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Well-equipped Laboratories </span><span> and Medical Technology</span></h3>
+        <p class="text-justify">State-of-the-art laboratories and cutting-edge medical technology ensure that students receive practical training using the latest equipment and techniques.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Global </span><span> Opportunities</span></h3>
+        <p class="text-justify">TMU's global outlook opens doors to international opportunities, allowing students to gain exposure to diverse healthcare systems and practices.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>100% Placement Assistance with an </span><span> Excellent Track Record</span></h3>
+        <p class="text-justify">With a strong network of industry connections, TMU ensures that graduates are well-equipped to secure fulfilling careers in the paramedical field.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Strong Industry Connections for </span><span> Real-World Insights</span></h3>
+        <p class="text-justify">TMU's robust industry connections provide students with insights into current trends and practices, ensuring that they are industry-ready upon graduation.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Modern Classrooms for </span><span> Interactive Sessions</span></h3>
+        <p class="text-justify">Interactive sessions in modern classrooms foster collaborative learning and critical thinking among students.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Well-equipped Medical Laboratories for </span><span> Practical Experiments</span></h3>
+        <p class="text-justify">From conducting experiments to mastering techniques, TMU's well-equipped medical laboratories provide students with a conducive environment for learning.</p>
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+
+    <button class="careers-accordion">Paramedical Courses offered in TMU<span class="icon">+</span></button>
+    <div class="panel">
+        <ul class="m-ol-list ps-5 mb-1">
+            <li><strong>UG</strong> </li>
+            <li><strong>PG</strong> </li>
+            <li><strong>Ph.D.</strong> </li>
+        </ul>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Explore Top-Notch Placement Opportunities<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Expert Faculty for Hands-on </span><span> Practical Knowledge</span></h3>
+        <p class="text-justify">Under the guidance of expert faculty members, students gain practical knowledge that is essential for success in the paramedical field.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3>
+        <p class="text-justify">TMU's focus on holistic development ensures that students not only excel academically but also grow personally and professionally.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Robust Industry Affiliations for </span><span> Invaluable Insights</span></h3>
+        <p class="text-justify">Affiliations with leading healthcare organisations provide students with invaluable insights into industry practices and trends.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Gain a Global Edge with </span><span> International Healthcare Internships</span></h3>
+        <p class="text-justify">TMU offers opportunities for international internships, allowing students to gain a global perspective and enhance their skill set.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>On-Campus </span><span> Accommodation Facilities</span></h3>
+        <p class="text-justify">Comfortable hostel facilities ensure that students have a conducive environment for learning and personal growth.</p>
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Top 10 Careers in the Paramedical Field: <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>1. Medical Laboratory </span><span> Assistance</span></h3>
+        <p class="text-justify">Medical lab assistants perform various laboratory tests to help diagnose, treat, and prevent diseases. They analyse body fluids, tissues, and cells to provide crucial information to healthcare professionals.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Radiologic </span><span> Technologist</span></h3>
+        <p class="text-justify">Radiologic technologists operate imaging equipment such as X-ray machines, CT scanners, and MRI machines to create images of the body for diagnostic purposes. They play a vital role in helping physicians diagnose and treat medical conditions. TMU offers BSc/MSc Radiology courses and diploma courses in Radiology.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>3. Emergency Medical </span><span> Technician (EMT)</span></h3>
+        <p class="text-justify">EMTs provide emergency medical care to patients in critical situations, such as accidents, injuries, or sudden illnesses. They assess patients' conditions, administer necessary treatments, and transport them to medical facilities for further care.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>4. Paramedic</span></h3>
+        <p class="text-justify">Paramedics are advanced EMTs trained to provide more comprehensive medical care in emergency situations. They can administer medications, perform advanced medical procedures, and make critical decisions to stabilise patients before they reach the hospital.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>5. Respiratory </span><span> Therapist</span></h3>
+        <p class="text-justify">Respiratory therapists specialise in treating patients with respiratory disorders, such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. They assess patients' lung function, administer breathing treatments, and provide respiratory care in emergency situations.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>6. Occupational </span><span> Therapy Assistant</span></h3>
+        <p class="text-justify">Occupational therapy assistants work under the supervision of occupational therapists to help patients develop, recover, and improve the skills needed for daily living and working. They assist patients with therapeutic exercises, activities, and adaptive equipment.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>7. Physical </span><span> Therapy Assistant</span></h3>
+        <p class="text-justify">Physical therapy assistants assist physical therapists in providing rehabilitative services to patients with injuries or disabilities. They help patients perform therapeutic exercises, use therapeutic modalities, and improve mobility and function.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>8. Cardiac </span><span> Technician</span></h3>
+        <p class="text-justify">Cardiac technicians perform diagnostic tests to evaluate patients' heart function and identify cardiac abnormalities. They conduct electrocardiograms (ECGs), stress tests, and Holter monitoring to assist cardiologists in diagnosing and treating heart conditions.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>9. Surgical </span><span> Technologist</span></h3>
+        <p class="text-justify">Surgical technologists assist surgeons and nurses in operating rooms by preparing surgical instruments, equipment, and supplies for procedures. They also assist during surgeries by passing instruments to surgeons, maintaining a sterile field, and ensuring patient safety.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>10. Dialysis </span><span> Technician</span></h3>
+        <p class="text-justify">Dialysis technicians operate dialysis machines to remove waste and excess fluid from patients' blood when their kidneys are no longer able to function properly. They monitor patients during dialysis treatments and provide emotional support and education to patients and their families.</p>
+
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion"> Campus Life at College of Paramedical Sciences:<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>1. Academic </span><span> Excellence:</span></h3>
+        <p class="text-justify">
+            The College of Paramedical Sciences at TMU is committed to providing students with a rigorous academic curriculum taught
+            by experienced faculty members who are experts in their fields.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Extracurricular </span><span> Activities:</span></h3>
+        <p class="text-justify">
+            In addition to academics, students have the opportunity to participate in a variety of extracurricular activities, including
+            sports, cultural events, and student clubs and organizations.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>3. State-of-the-Art </span><span> Facilities:</span></h3>
+        <p class="text-justify">
+            TMU's campus boasts modern facilities, including well-equipped classrooms, laboratories, and libraries, providing students
+            with an optimal learning environment.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>4. Career </span><span> Services:</span></h3>
+        <p class="text-justify">
+            The college offers comprehensive career services through the Corporate Resource Centre (CRC) to help students explore career
+            options, develop job search skills, and connect with potential employers through internships and job placements.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>5. Student Support </span><span> Services:</span></h3>
+        <p class="text-justify">
+            TMU provides various support services to help students succeed, including academic advising, counselling, tutoring, and
+            disability services, ensuring that all students have the resources they need to excel academically and personally.
+        </p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Facilities Available at College of Paramedical Sciences: <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>1. Laboratories:</span></h3>
+        <p class="text-justify">
+            The college is equipped with state-of-the-art laboratories for practical training in medical laboratory technology, radiography, and other paramedical disciplines.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Hospital </span><span> Training:</span></h3>
+        <p class="text-justify">
+            TMU's integrated hospital provides students with hands-on training opportunities in a real healthcare setting, allowing them to apply their knowledge and skills in a clinical environment.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>3. Library:</span></h3>
+        <p class="text-justify">
+            The college library houses a vast collection of reference materials, textbooks, journals, and online resources related to paramedical sciences, providing students with access to valuable learning resources.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>4. Simulation </span><span> Labs:</span></h3>
+        <p class="text-justify">
+            Simulation labs are available for students to practice clinical procedures and scenarios in a controlled environment, helping them develop confidence and proficiency before working with actual patients.
+        </p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>5. Faculty </span><span> Support:</span></h3>
+        <p class="text-justify">
+            Experienced faculty members are available to provide guidance, support, and mentorship to students throughout their academic journey, ensuring that they receive personalised attention and assistance when needed.
+        </p>
+
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify">In conclusion, Teerthanker Mahaveer University's College of Paramedical Sciences stands out as a top choice for individuals seeking quality education and practical training in the paramedical field. With its prestigious accreditations, experienced faculty, state-of-the-art facilities, and strong industry connections, TMU prepares students for successful careers in healthcare, both nationally and internationally.</p>
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify"><strong>Q1. What makes TMU's College of Paramedical Sciences unique?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong> TMU's College of Paramedical Sciences stands out for its hands-on training, global opportunities, and strong industry connections, ensuring that students receive a comprehensive education that prepares them for success in the paramedical field.</p>
+
+        <p class="text-justify"><strong>Q2. How does TMU support students' career aspirations?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong> TMU offers 100% placement assistance, with a track record of excellent placements in leading healthcare organisations. Additionally, the university provides students with opportunities for international internships and exposure to real-world industry practices.</p>
+        </p>
+        <p class="text-justify"><strong>Q3. What facilities does TMU provide for students' accommodation?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong> TMU offers comfortable hostel facilities on campus, ensuring that students have a conducive environment for learning and personal growth. The university prioritises students' well-being and provides a supportive community environment.</p>
+        <p class="text-justify"><strong>Q4. What sets TMU's faculty apart?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong> TMU's faculty members are highly qualified experts in their respective fields, with extensive experience in academia and industry. They are dedicated to providing students with practical knowledge and skills that are essential for success in the paramedical field.</p>
+        <p class="text-justify"><strong>Q5. How does TMU foster innovation and entrepreneurship?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong>TMU is committed to fostering innovation and entrepreneurship through its Business Incubation Centre and Entrepreneurship Development Cell. The university provides support and resources to students interested in starting their own ventures, contributing to the nation's journey towards self-reliance. </p>
+    </div>
+    <hr class="horizontal-line">
+</div>
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
