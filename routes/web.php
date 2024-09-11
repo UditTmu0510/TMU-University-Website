@@ -220,6 +220,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
+Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
 Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
 Route::get('/tmu/jinalaya', [TmuController::class, 'jinalaya'])->name('jinalaya');

@@ -1344,6 +1344,11 @@ class TmuController extends Controller
         return view('university.quick_links.campus_view');
     }
 
+    public function how_to_apply()
+    {
+        return view('university.quick_links.how_to_apply');
+    }
+
     public function gym()
     {
         return view('university.quick_links.gym');
