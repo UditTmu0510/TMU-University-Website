@@ -63,6 +63,12 @@ p {
 .fs-16{
     font-size: 16px !important;
 }
+.fs-18{
+    font-size: 18px !important;
+}
+.fs-22{
+    font-size: 22px !important;
+}
 .fs-24{
     font-size: 24px !important;
 }
@@ -3258,14 +3264,6 @@ Chancellor Desk Page CSS start
     color: #FF7900;
     font-weight: 600;
 }
-
-.highlight-url {
-    background-color: transparent;
-    color: #001055;
-    font-weight: 600;
-    font-size:14px;
-}
-
 @media screen and (max-width:786px) {
     .person-quote i {
         color: #555;

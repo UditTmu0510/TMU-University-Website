@@ -7,7 +7,7 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+<section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
@@ -32,7 +32,7 @@
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span>Well-equipped </span>
                             <br>
                             <span class="d-block pt-1">Art Studios</span>
@@ -81,7 +81,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Well-equipped </span>
                                         <br>
                                         <span class="d-block pt-1">Art Studios</span>
@@ -130,12 +130,12 @@
             <div class="box">
                 <h2 class="college-main-heading">College of Fine Arts, among the top Colleges for Fine Arts Courses</h2>
                 <div class="row">
-                    <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">College of Fine Arts established in 2011 at Teerthanker Mahaveer University (TMU), is renowned for its exceptional offerings in fine arts education. Whether you're aspiring to delve into the intricacies of visual arts, performing arts, or pursue a career in art management, TMU provides a nurturing environment enriched with academic excellence and practical learning experiences.</p>
+                    <div class="col-12 px-2 px-md-5"> 
+                        <p style="text-align: justify;">College of Fine Arts established in 2011 at Teerthanker Mahaveer University (TMU), is renowned for its exceptional offerings in fine arts education.</p>
                         <div class="read-more-content mt-0">
-                        </p>
-                    </div>
-                    <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
+                            <p style="text-align: justify;"> Whether you're aspiring to delve into the intricacies of visual arts, performing arts, or pursue a career in art management, TMU provides a nurturing environment enriched with academic excellence and practical learning experiences.</p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -162,64 +162,70 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4">
-                        <li><p class="p-0 m-0">Ravindra Dev, the head of the department (HOD), shares his 29 years of rich expertise in fine arts, majoring in WASH Painting. Being an artist, he guides students in techniques such as painting, sculpting, jewellery making, and printing while also teaching them the business skills required to support themselves.</li>
-                        <li><p class="p-0 m-0">College of Fine Arts, one of the best private fine arts colleges in UP focuses on diverse areas ranging from scriptures to social media, mural to UI/UX design, tattoo making to website design, and animation to others.</li>
+                        <li>
+                            <p class="p-0 m-0">Ravindra Dev, the head of the department (HOD), shares his 29 years of rich expertise in fine arts, majoring in WASH Painting. Being an artist, he guides students in techniques such as painting, sculpting, jewellery making, and printing while also teaching them the business skills required to support themselves.
+                        </li>
+                        <li>
+                            <p class="p-0 m-0">College of Fine Arts, one of the best private fine arts colleges in UP focuses on diverse areas ranging from scriptures to social media, mural to UI/UX design, tattoo making to website design, and animation to others.
+                        </li>
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li><p class="p-0 m-0">Teerthanker Mahaveer University offers a personalised, supportive environment from admissions to placements. The college assists students in securing placement opportunities in artistic disciplines, including painting, sculpture, drawing, photography, printmaking, ceramics, graphic design, illustration, digital arts, film, animation, theatre, dance, music, and more.</li>
-                        <li><p class="p-0 m-0">In the past years, our students have secured placement and training opportunities in top-notch advertising agencies worldwide namely, McCann, FCB Ulka, Ogilvy, Leo Burnett, and TBWA. Some of our students got government jobs in premier institutions like Jamia Millia Islamia, Delhi, Mangalayatan University, Aligarh, etc.</li>
+                        <li>
+                            <p class="p-0 m-0">Teerthanker Mahaveer University offers a personalised, supportive environment from admissions to placements. The college assists students in securing placement opportunities in artistic disciplines, including painting, sculpture, drawing, photography, printmaking, ceramics, graphic design, illustration, digital arts, film, animation, theatre, dance, music, and more.
+                        </li>
+                        <li>
+                            <p class="p-0 m-0">In the past years, our students have secured placement and training opportunities in top-notch advertising agencies worldwide namely, McCann, FCB Ulka, Ogilvy, Leo Burnett, and TBWA. Some of our students got government jobs in premier institutions like Jamia Millia Islamia, Delhi, Mangalayatan University, Aligarh, etc.
+                        </li>
                     </ul>
                     <div class="read-more-content">
-                        <ul class="m-ol-list ps-4">    
-                            <li><p class="p-0 m-0">Reputed industrial houses across the country visit for campus recruitment programmes. The prime objective of the Training & Placement cell is to facilitate the graduating students and industry by providing a meeting ground for them. To achieve 100% placement, the T&P cell offers training programmes to upgrade the social and professional skills of students and ensures that the students are employment ready.</p></li>
+                        <ul class="m-ol-list ps-4">
+                            <li>
+                                <p class="p-0 m-0">Reputed industrial houses across the country visit for campus recruitment programmes. The prime objective of the Training & Placement cell is to facilitate the graduating students and industry by providing a meeting ground for them. To achieve 100% placement, the T&P cell offers training programmes to upgrade the social and professional skills of students and ensures that the students are employment ready.</p>
+                            </li>
                         </ul>
                     </div>
-                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>      
+                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li><p class="p-0 m-0">The College of Fine Arts blends modern art education and the curriculum is designed as per the NEP scheme of UP Higher Education, critically implementing each part of its with practical aspects, and hands-on training in fine arts.</li>
-                        <li><p class="p-0 m-0">You will gain a strong foundation in traditional art forms including drawing, painting and sculpture, with extensive explorations in video, installation, performance, photography and digital imaging.</li>
+                        <li>
+                            <p class="p-0 m-0">The College of Fine Arts blends modern art education and the curriculum is designed as per the NEP scheme of UP Higher Education, critically implementing each part of its with practical aspects, and hands-on training in fine arts.
+                        </li>
+                        <li>
+                            <p class="p-0 m-0">You will gain a strong foundation in traditional art forms including drawing, painting and sculpture, with extensive explorations in video, installation, performance, photography and digital imaging.
+                        </li>
                     </ul>
                     <div class="read-more-content mt-1">
-                    <ul class="m-ol-list ps-4">    
-                        <li><p class="p-0 m-0">By choosing to begin your degree at Teerthanker Mahaveer College of Fine Arts, you will get a competitive edge with a curriculum that is designed to cultivate a strong foundation in fundamental Art & Design skills before students progress to their respective choice of discipline.</li>
-                        <li><p class="p-0 m-0">During the foundation years, students will develop knowledge and skills across different media, and apply critical thinking and research methodologies with historical, cultural, social and technological perspectives. After the end of the 2nd year of BFA, students have the option of doing their internships with the best industry partners across the country towards their credits for the 3rd and 4th years.</li>
-                    </ul>
+                        <ul class="m-ol-list ps-4">
+                            <li>
+                                <p class="p-0 m-0">By choosing to begin your degree at Teerthanker Mahaveer College of Fine Arts, you will get a competitive edge with a curriculum that is designed to cultivate a strong foundation in fundamental Art & Design skills before students progress to their respective choice of discipline.
+                            </li>
+                            <li>
+                                <p class="p-0 m-0">During the foundation years, students will develop knowledge and skills across different media, and apply critical thinking and research methodologies with historical, cultural, social and technological perspectives. After the end of the 2nd year of BFA, students have the option of doing their internships with the best industry partners across the country towards their credits for the 3rd and 4th years.
+                            </li>
+                        </ul>
                     </div>
-                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>    
+                    <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4">
-                        <li><p class="p-0 m-0">Teerthanker Mahaveer College of Fine Arts offers several unique facilities to all its students like smart classes, computer lab, spacious art and graphic studio, 3D clay modelling lab, wifi facility, stationary, easels and drawing boards available to all the students.</li>
-                        <li><p class="p-0 m-0">This top fine arts college facilities library and resource centre that house an extensive collection of art books, reference materials, digital resources, and archives. These facilities provide students and faculty with access to a wide range of artistic literature, research materials, and historical references, supporting their academic pursuits and artistic development.</li>
+                        <li>
+                            <p class="p-0 m-0">Teerthanker Mahaveer College of Fine Arts offers several unique facilities to all its students like smart classes, computer lab, spacious art and graphic studio, 3D clay modelling lab, wifi facility, stationary, easels and drawing boards available to all the students.
+                        </li>
+                        <li>
+                            <p class="p-0 m-0">This top fine arts college facilities library and resource centre that house an extensive collection of art books, reference materials, digital resources, and archives. These facilities provide students and faculty with access to a wide range of artistic literature, research materials, and historical references, supporting their academic pursuits and artistic development.
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
 
 
-        <!-- Collab Modal -->
-        <div id="collabModal" class="tmu-modal">
-            <div class="overlay" onclick="closeCollabModal()"></div>
-            <div class="tmu-modal-box">
-                <div class="close-btn" onclick="closeCollabModal()">x</div>
-                <div class="card collab-card">
-                    <img class="collab-card-img" src="https://www.tmu.ac.in/img/collaborative/EPCH logo.png" alt="TMU collaboration with epch">
-                    <div class="card-body">
-                        <h3 class="collab-card-title">MBA (HANDICRAFTS EXPORT MANAGEMENT)</h3>
-                        <p class="collab-card-text">
-                            This collaborative program is a joint venture program with the Export Promotion Council for Handicrafts (EPCH) that provides specialisation in Handicraft Export Management.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-----Courses section Start-->
         <section id="content" class="prog-bm">
@@ -554,10 +560,10 @@
                     </div>
 
 
-                  
-                <!-- Code for the Mobile View Ends Here -->
 
-            </div>
+                    <!-- Code for the Mobile View Ends Here -->
+
+                </div>
         </section>
         <!-----Courses section completed-->
 
@@ -578,7 +584,7 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ahmed Khizar</b>, BFA (Bachelor's of Fine Arts) </p>
-                                    <p>It has been a great journey so far at Teerthankar Mahaveer University and I am glad I chose TMU & TMDC&RC for my dental education. From enjoying moments of cultural programs, enthusiastic partake in sports; to being distinctively through with the studies and co-curricular activities is the best aspect of our college. </p>
+                                    <p>"Choosing the College of Fine Arts at TMU was the best decision I made for my academic and creative growth. The UGC-approved accreditation and NAAC A rating gave me confidence in the quality of education offered. The modern facilities and the university's commitment to continuous improvement made my learning experience truly enriching. TMU provides an environment that fosters creativity and ensures that students meet high academic standards.</p>
                                 </div>
                             </div>
                             <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -586,18 +592,6 @@
                         </div>
                     </div>
 
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Misba_Zafar-N.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Misbah Zafar</b>, BFA (Bachelor's of Fine Arts) </p>
-                                    <p>I am a BDS intern at TMU's Dental College (TMDC&RC) and I have had memorable experiences here at the campus and college. Be it the adrenaline rush from extracting a patient's tooth or enjoying the Fresher's Party. To top it all TMDC&RC offers all the pre-eminent treatment plans for all the different fields of study in dentistry that gave me wide academic & practical exposure required to excel in my field. </p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="oc-item text-start">
                         <div class="media">
@@ -605,7 +599,8 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ayushi Pragya</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>If stereotypical opinions of pursuing dentistry from a private institute are debatable, visit Teerthanker Mahaveer Dental College & Research Centre at Teerthanker Mahaveer University which changed my opinion completely. The prominent faculties guiding you, the latest technologies at the college keep you upgraded about efficient practices and the regular sessions with eminent people from Dental domain enlightening us, overall it's great! I am so proud to be a part of TMU & TMDC&RC.</p>                                </div>
+                                    <p>"The experiential learning approach at TMU's College of Fine Arts has been a game-changer for me. The highly qualified faculty members, with their real-world industry experience, guided me through workshops, seminars, and hands-on projects that prepared me for the challenges of the art world. It wasn't just theoretical learning; we were encouraged to explore and experiment, making the most of every opportunity for artistic growth."</p>
+                                </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
                         </div>
@@ -617,7 +612,7 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Ayushi Jaiswal</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>3 years of being a part of Teerthankar Mahaveer University family and even though every day is full of academic growth, vibrant culture, bustling co-curricular activities, all I can say that I have changed a lot, and grown so much as an individual and as a soon-to-be a dentist. TMDC&RC's clinics, classrooms, corridors, or just the campus has become an integral part of my life and I love it all and I know my next two years will be equally more dynamic here.</p>
+                                    <p>TMU's College of Fine Arts has opened doors to global opportunities I never imagined. The comprehensive Teaching, Learning, and Development Center is a hub of creativity, where I collaborated with peers and faculty on innovative projects. The global career prospects and partnerships with international organizations helped me secure internships abroad, giving me invaluable exposure to different artistic cultures and practices. TMU has truly prepared me for a successful career in the international art industry."</p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
@@ -630,7 +625,7 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Meghna Bhargava</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>TMU - a conducive atmosphere altogether for any student to be successful. Great supportive faculty members, advanced and upgraded technology & machines, vibrant student buzzing atmosphere, has made a huge difference in me. TMDC&RC has given me a platform to spread my wings and embody ethical & moral principles to be an excellent clinician & compassionate dentist. I consider myself blessed for being a part of this esteemed University & Dental college that has been bestowing me with a plethora of opportunities to learn and grow. </p>
+                                    <p>The faculty at TMU’s College of Fine Arts have transformed my artistic journey. Their deep industry experience combined with practical teaching methods has provided me with hands-on learning through workshops and seminars. They have encouraged me to push creative boundaries and apply real-world techniques, making my education truly experiential."</p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
@@ -641,8 +636,8 @@
                             <img src="https://www.tmu.ac.in/uploads/alumni_speak/Rishab_Bhardwaj-N.JPG" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Rishabhb Bhardwaj </b>,  BFA (Bachelor's of Fine Arts)</p>
-                                    <p>Teerthankar Mahaveer University is an ocean of opportunities and I was lauded with one such fine opportunity through the student exchange program at Malaysia where I represented our college & country. I am just in my second year and my journey here has been nothing less but phenomenal and an enriching ride. </p>
+                                    <p class="overview mb-3"><b>Rishabhb Bhardwaj </b>, BFA (Bachelor's of Fine Arts)</p>
+                                    <p>Teerthanker Mahaveer University's College of Fine Arts, with its UGC-approved accreditation and NAAC A rating, truly stands as a beacon of excellence. The quality of education here is unmatched, as it not only meets the highest academic standards but also fosters continuous improvement in the field of fine arts. Being part of such a prestigious institution has greatly enriched my learning experience."</p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
@@ -678,78 +673,122 @@
 </section><!-- #content end -->
 <!-- 
 <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
-            <hr class="horizontal-line">
 
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-            
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
+    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <hr class="horizontal-line">
 
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-            
-            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
-            <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div>
-            <hr class="horizontal-line">
-            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
-            <div class="panel">
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+    <button class="careers-accordion">Why Choose TMU for Fine Arts Education?<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>UGC-Approved Accreditation and </span><span>NAAC A Rating</span></h3>
+        <p class="text-justify">TMU holds the prestigious UGC approval and boasts an NAAC A accreditation, affirming its commitment to delivering high-quality education in the field of fine arts. This accreditation underscores TMU's adherence to stringent academic standards and continuous improvement in educational practices.</p>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p></p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
+        <p class="text-justify">At TMU, learning extends beyond textbooks. Our faculty comprises highly qualified professionals with extensive industry experience. They not only impart theoretical knowledge but also facilitate hands-on learning through workshops, seminars, and industry collaborations.</p>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Comprehensive Teaching, </span><span>Learning, and Development Center</span></h3>
+        <p class="text-justify">The College of Fine Arts houses a dedicated center for teaching, learning, and development, equipped with state-of-the-art facilities to foster creativity and innovation among students. This center serves as a hub for artistic experimentation, research, and interdisciplinary collaboration.</p>
 
-            </div>
-            <hr class="horizontal-line">
-        </div> -->
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Global Career </span><span> Prospects</span></h3>
+        <p class="text-justify">TMU offers global career prospects to its fine arts graduates. Through strategic partnerships with renowned art organizations and international internship opportunities, students gain invaluable exposure to diverse cultural contexts and real-world artistic practices, preparing them for a successful career in the global art industry.</p>
+
+    </div>
+    <hr class="horizontal-line">
+
+    <button class="careers-accordion"> Campus Facilities<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>On-Campus </span><span>Hostel Facilities</span></h3>
+        <p class="text-justify">To ensure a conducive learning environment, TMU provides on-campus hostel facilities equipped with modern amenities. These accommodations offer students a comfortable living space that complements their academic journey.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Scholarship Assistance </span><span>Up to 100%</span></h3>
+        <p class="text-justify">Recognising the financial challenges students may face, TMU offers up to 100% scholarship assistance based on merit and need. This initiative aims to make quality education accessible to deserving students, regardless of their financial background.</p>
+
+    </div>
+    <hr class="horizontal-line">
+
+    <button class="careers-accordion"> Academic Environment<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Modern Classrooms and</span><span> Interactive Sessions</span></h3>
+        <p class="text-justify">TMU features modern classrooms designed to facilitate interactive learning sessions. Equipped with advanced technology and conducive to collaborative learning, these classrooms enhance the overall academic experience of students.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Educational Seminars and </span><span> Conferences</span></h3>
+        <p class="text-justify">The College of Fine Arts regularly organizes educational seminars and conferences, inviting industry experts and scholars to share insights and trends in the field of fine arts. These events enrich students' knowledge and broaden their perspectives on contemporary art practices.</p>
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Extracurricular Offerings <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Artistic Clubs and </span><span> Electrifying Events</span></h3>
+        <p class="text-justify">TMU encourages holistic development through a range of extracurricular activities. Students can join artistic clubs, participate in electrifying concerts, and engage in dynamic art events, fostering their creativity and passion beyond the classroom.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Gym, Fitness Centre, and </span><span> Recreational Facilities</span></h3>
+        <p class="text-justify">Maintaining a healthy work-life balance is essential at TMU. The campus boasts a well-equipped gym, fitness centre, and recreational facilities, ensuring students have opportunities to stay active and unwind amidst their academic pursuits.</p>
+
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Shopping Stores and </span><span> Cafeterias</span></h3>
+        <p class="text-justify">TMU's campus includes convenient shopping stores and cafeterias, providing students with easy access to essential supplies and wholesome dining options, enhancing their overall campus experience.</p>
+
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Student Welfare and Safety<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>1. Anti-Ragging </span><span> Campus</span></h3>
+        <p class="text-justify">TMU maintains a strict anti-ragging policy to ensure a safe and respectful environment for all students. This policy reflects our commitment to promoting a culture of mutual respect and zero tolerance towards any form of harassment.</p>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>2. Fully Wi-Fi </span><span>Enabled Environment</span></h3>
+        <p class="text-justify">The entire TMU campus is fully Wi-Fi enabled, facilitating seamless connectivity and access to online resources essential for academic and research purposes.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Placement Opportunities <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>1. Outstanding Placement</span><span> Assistance</span></h3>
+        <p class="text-justify">TMU takes pride in its track record of providing outstanding placement assistance to its fine arts graduates. Through dedicated career services and industry tie-ups, TMU prepares students for successful entry into the professional art world.</p>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>2. Strong Industry </span><span>Connections</span></h3>
+        <p class="text-justify">The College of Fine Arts nurtures strong industry connections with leading art studios, galleries, and cultural institutions. These connections provide students with valuable networking opportunities and insights into industry trends, giving them a competitive edge in their careers.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Practical Training and Artistic Facilities <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary fs-16 mb-1"><span> Art Studios and</span><span> Creative Spaces</span></h3>
+        <p class="text-justify">TMU offers well-equipped art studios and creative spaces where students can unleash their artistic potential and experiment with different mediums and techniques. These facilities are conducive to practical training and artistic exploration under the guidance of expert faculty.</p>
+        <h3 class="tmu-text-primary fs-16 mb-1"><span> Galleries, Exhibitions, and </span><span> Art Supply Stores</span></h3>
+        <p class="text-justify">The campus includes galleries and exhibition spaces where students can showcase their artworks to a wider audience. Additionally, art supply stores on campus ensure students have access to essential materials for their creative projects.</p>
+
+
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Specialisations Offered <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary fs-16 mb-1"><span> BFA, MFA, and </span><span>PhD Programmes</span></h3>
+        <p class="text-justify">TMU provides a range of specialized programmes including Bachelor of Fine Arts (BFA), Master of Fine Arts (MFA), and PhD in Fine Arts. These programmes cater to diverse interests and career aspirations, offering comprehensive training in specific areas of artistic expertise.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify">Choosing TMU for your fine arts education ensures a transformative learning journey enriched with academic rigour, practical experience, and global opportunities. Join us at TMU's College of Fine Arts to embark on a fulfilling career in the dynamic world of art and creativity.</p>
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify"><strong>Q1:- What makes TMU's College of Fine Arts stand out among other institutions?</strong></p>
+        <p class="text-justify"><strong>Ans:-</strong> TMU stands out due to its UGC-approved status, NAAC A accreditation, and robust faculty expertise in delivering experiential learning.</p>
+        <p class="text-justify"><strong>Q2:- Can students expect financial support at TMU?</strong>&nbsp;</p>
+        <p class="text-justify"><strong>Ans:- </strong>Yes, TMU offers up to 100% scholarship assistance to eligible students, ensuring access to quality education regardless of financial background.</p>
+        <p class="text-justify"><strong>Q3:- How does TMU prepare students for global careers in fine arts?</strong>&nbsp;</p>
+        <p class="text-justify"><strong>Ans:- </strong>TMU provides global career prospects through its industry-aligned curriculum, extensive campus facilities, and international internship opportunities.</p>
+        <p class="text-justify"><strong>Q4:- What are the facilities available on TMU's campus?</strong>&nbsp;</p>
+        <p class="text-justify"><strong>Ans:- </strong>TMU boasts modern classrooms, comprehensive hostel facilities, recreational spaces, and amenities such as gyms, cafeterias, and art supply stores.</p>
+        <p class="text-justify"><strong>Q5:- How does TMU ensure practical training for fine arts students?</strong>&nbsp;</p>
+        <p class="text-justify"><strong>Ans:- </strong>TMU's College of Fine Arts offers state-of-the-art studios, workshops, and artistic development programmes, facilitated by expert faculty.</p>
+
+
+    </div>
+    <hr class="horizontal-line">
+</div>
+
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>

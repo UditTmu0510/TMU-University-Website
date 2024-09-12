@@ -33,7 +33,7 @@
                                 onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                         </div>
                     </div>
-
+ 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
                             <img src="{{asset('/assets/img/testimonials/department/crc/corporate/deen_d_maxhealthcare.jpg')}}" class="mr-3" alt="">
