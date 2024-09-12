@@ -67,7 +67,7 @@
         </div>
 
         <div class="container my-2 d-block d-md-none">
-        <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -126,13 +126,14 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Institute of Management and Technology (TMIMT)</h1>
+                <h2 class="college-main-heading">TMIMT College of Management, Among the Top Colleges for BBA/MBA</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">TMIMT is the seed that has grown into a big Banyan tree in the form of Teerthanker Mahaveer University. This top management college, established in 2001, has been contributing to the development of management education, by fostering leadership, nurturing entrepreneurial talent and stimulating research since its inception.</p>
-                        <p class="mb-0 pb-0"><b>Join the 21-years legacy of scholars shaping the business landscape, with the assistance of the exceptionally qualified faculty.</b></p>
-
-                        <a href="{{route('mgmt.overview')}}" class="tmu-btn btn-1 py-2 mt-4 d-block w-fit-content mx-auto">Know More!</a>
+                        <p style="text-align: justify;">Teerthanker Mahaveer Institute of Management and Technology (TMIMT) is the seed that has grown into a big Banyan tree in the form of Teerthanker Mahaveer University. This top management college, established in 2001, has been contributing to the development of management education, by fostering leadership, nurturing entrepreneurial talent and stimulating research since its inception.</p>
+                        <div class="read-more-content mt-0">
+                            <p style="text-align: justify;">TMIMT is part of Teerthanker Mahaveer University. It is one of the top colleges for BBA/MBA programmes. Let's delve into why TMU is your ideal choice for higher education in management.</p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -400,222 +401,20 @@
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Computer
-                                    Science
-                                    &nbsp;&nbsp;<span class="badge rounded-pill">14</span>
-                                </a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Engineering
-                                    &nbsp;&nbsp;<span class="badge rounded-pill">10</span></a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Management
+                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Undergraduate Programmes
                                     &nbsp;&nbsp;<span class="badge rounded-pill">12</span></a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
+                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Postgraduate Programmes
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a>
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="tab-content" id="nav-tabContent">
 
-                                <!-- Home Tab starts here -->
-                                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm ">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Data Science)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/NCAI-program.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Artificial Intelligence)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Cyber Security)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Data Science)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/NCAI-program.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Artificial Intelligence)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Cyber Security)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
-
-                                </div>
-
-                                <!-- Home Tab  Ends  here -->
-
-
-                                <!--  Home tab panel 2 Starts Here  --
-								       ----------------------------- -->
-                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Mechanical Engineering</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/mit-data-science-machine-learning-program.jpg" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">Mtech (Machine learning & Computer Sciences)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">Btech Computer Science (Cyber Security)</h4>
-
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
-                                </div>
-                                <!-- 
-									/////Home tab 2 Ends Here/////
-								 -->
-
                                 <!-- 
 									/////Home tab 3 Starts Here/////
 								 -->
 
-                                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                <div class="tab-pane active" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
 
                                     <div class="row">
 
@@ -775,135 +574,8 @@
                                 <span>Programmes</span> <span>Offered</span>
                             </h1>
                         </div>
-
-                        <button class="careers-accordion"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Computer Science</span> <span class="icon">+</span></button>
-                        <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h5 class="mb-2">Btech Computer Science (Data Science)</h5>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/NCAI-program.png" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Btech Computer Science (Artificial Intelligence)
-                                            </h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Btech Computer Science (Cyber Security)</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-                            </ul>
-                        </div>
-                        <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-
-                        <button class="careers-accordion"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Engineering</span> <span class="icon">+</span></button>
-                        <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="Engineering image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Btech Mechanical Engineering</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/applications-of-ai-domestic.jpeg" height="178px" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Mtech (Machine learning & Computer Sciences)
-                                            </h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://e1.pxfuel.com/desktop-wallpaper/775/611/desktop-wallpaper-ece-study-materials-and-projects-ebooks-campus-preparations-ece-engineering-thumbnail.jpg" height="178px">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Btech Computer & Communication Engineering</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-                            </ul>
-                        </div>
-                        <!-- Add the horizontal line here -->
-                        <hr class="horizontal-line">
-                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Management</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul">
                                 <li class="progli">
@@ -968,7 +640,7 @@
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
                         <button class="careers-accordion">
-                            <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law</span> <span class="icon">+</span></button>
+                            <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul">
                                 <li class="progli">
@@ -1060,10 +732,10 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                    <span>
-                                        <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                    </span>    
-                                </p>
+                                        <span>
+                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
+                                        </span>
+                                    </p>
                                     <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
                                         business. Professors here were mentors who helped me navigate the complexities of
                                         creativity. TMU, to me, isn't just an educational space; it's the place where my journey
@@ -1084,10 +756,10 @@
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                    <span>
-                                        <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                    </span>    
-                                </p>
+                                        <span>
+                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
+                                        </span>
+                                    </p>
                                     <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
                                         business. Professors here were mentors who helped me navigate the complexities of
                                         creativity. TMU, to me, isn't just an educational space; it's the place where my journey
@@ -1101,16 +773,17 @@
 
 
                         </div>
-                    </div><div class="oc-item text-start">
+                    </div>
+                    <div class="oc-item text-start">
                         <div class="media ">
                             <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                    <span>
-                                        <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                    </span>    
-                                </p>
+                                        <span>
+                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
+                                        </span>
+                                    </p>
                                     <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
                                         business. Professors here were mentors who helped me navigate the complexities of
                                         creativity. TMU, to me, isn't just an educational space; it's the place where my journey
@@ -1124,16 +797,17 @@
 
 
                         </div>
-                    </div><div class="oc-item text-start">
+                    </div>
+                    <div class="oc-item text-start">
                         <div class="media ">
                             <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                    <span>
-                                        <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                    </span>    
-                                </p>
+                                        <span>
+                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
+                                        </span>
+                                    </p>
                                     <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
                                         business. Professors here were mentors who helped me navigate the complexities of
                                         creativity. TMU, to me, isn't just an educational space; it's the place where my journey
@@ -1178,79 +852,218 @@
         </div>
 </section><!-- #content end -->
 
-<!-- <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
-            <hr class="horizontal-line">
+<div class="container mb-5 mt-5">
+    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <hr class="horizontal-line">
 
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-            
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
+    <button class="careers-accordion"> Why TMU is the best choice for you:<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>UGC-Approved and NAAC-A </span><span>accredited University</span></h3>
+        <p class="text-justify mb-0">TMU has approval from UGC. The NAAC-A has also accredited it. This ensures your degree holds value. It's recognized nationally and internationally.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Case-based Innovative </span><span>Teaching Pedagogy</span></h3>
+        <p class="text-justify mb-0">At TMIMT, learning is not just about textbooks; it's about real-world application. Our case-based teaching approach equips you with practical knowledge and problem-solving skills.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>100% Placement Assistance with an </span><span>Excellent Track Record</span></h3>
+        <p class="text-justify mb-0">Your career is our priority. We have strong industry connections and a dedicated placement cell. We guarantee 100% placement help. It ensures a bright future for every student. </p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Corporate Collaborations with </span><span>Top Companies</span></h3>
+        <p class="text-justify mb-0">TMU has partnerships with famous companies. They include the Bombay Stock Exchange, Future Group, and IL&FS. They provide students with invaluable exposure and networking opportunities</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Professional Memberships and </span><span>Recognitions</span></h3>
+        <p class="text-justify mb-0">As a TMU student, you get access to pro memberships. These are with esteemed groups like NEN, AIMA, and ISTD. This boosts your credibility in the business world</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Business Incubation </span><span>Centre</span></h3>
+        <p class="text-justify mb-0">The Government of Uttar Pradesh recognises TMU. It has a Business Incubation Centre. The centre nurtures the entrepreneurial spirit and supports innovative startups. It provides them with the resources and mentorship they need.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Exciting Career </span><span>Prospects</span></h3>
+        <p class="text-justify mb-0">TMIMT has national and international collaborations. They open doors to an exciting world of career opportunities. They ensure that your career trajectory knows no bounds. </p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>On-Campus Accommodation </span><span>Facilities</span></h3>
+        <p class="text-justify mb-0">Stay in our comfortable on-campus accommodation. It will feel like a home away from home. It provides a good environment for learning and personal growth</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Anti-Ragging </span><span>Campus</span></h3>
+        <p class="text-justify mb-0">TMU is committed to providing a safe and nurturing environment for all students. It has strict measures to prevent any ragging or harassment.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
 
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-            
-            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
-            <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div>
-            <hr class="horizontal-line">
-            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
-            <div class="panel">
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+    <button class="careers-accordion">Explore Top-Notch Placement Opportunities: <span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Expert Faculty for Hands-On </span><span>Practical Knowledge</span></h3>
+        <p class="text-justify mb-0">Our faculty members are experienced. They are dedicated to teaching not just theory but also practical insights. These insights will prepare you for the real challenges of the corporate world.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Centre for Teaching, </span><span>Learning, and Development</span></h3>
+        <p class="text-justify mb-0">At TMIMT, we believe in continuous growth and development. Our Centre for Teaching, Learning, and Development offers many programmes. They will improve your skills and competencies.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>International Internships</span><span> and Placements</span></h3>
+        <p class="text-justify mb-0">Get a global edge with our international internships and job placements. They will broaden your horizons and enrich your resume with valuable cross-cultural experiences.</p>
+        <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Entrepreneurial Skill </span><span>Development Programmes</span></h3>
+        <p class="text-justify mb-0">TMU empowers the next generation of leaders. It offers comprehensive entrepreneurial skills programmes. They will give you the tools and mindset to succeed as an entrepreneur.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion"> Core Programmes Offered with Diverse Specialisations: <span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify mb-0">MBA | BBA | BCom | BA | MA | MCom <br>
+            The TMIMT College of Management offers many programmes. They have diverse specialisations, so you can find the perfect fit for your career.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">TMU's Commitment to Academic Excellence:<span class="icon">+</span></button>
+    <div class="panel">
+        <ul class="m-ol-list ps-5 mb-1">
+            <li>Teerthanker Mahaveer University (TMU) ranks 4th in patent filings, with over 1700 patents filed, 25 granted, and 347 published.</li>
+            <li>TMU has published over 6,000 research papers in the past 5 years, demonstrating a strong commitment to advancing knowledge and innovation.</li>
+            <li>The TMU Business Incubation Centre has supported 15 startups in just 2 years, fostering a culture of innovation and entrepreneurship.</li>
+            <li>TMU earned a 4-star rating for its Institution Innovation Council, highlighting its success in promoting innovation and creativity.</li>
+            <li>TMU has secured significant grants from the DST, the Indian Government, and the MSME, reflecting its contributions to innovation and skill development.</li>
+        </ul>
+        <p class="text-justify">TMU is at the forefront of creating a self-reliant India through:</p>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span></span><span></span></h3>
+        <p class="text-justify"><b>Startup Hub:</b> TMU is creating a hub for startups. It fosters entrepreneurship and innovation.</p>
+        <ul class="m-ol-list ps-5 mb-1">
+            <li>TMU's Entrepreneurship Development Cell empowers students. It teaches them to create jobs, not just seek them</li>
+            <li>TMU is aligning with National Education Policy (NEP) 2020. It is doing this to make sure its education system matches the needs of industry and society.</li>
+        </ul>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion"> Top 10 Careers in Management: <span class="icon">+</span></button>
+    <div class="panel">
+        <ul class="m-ol-list ps-5 mb-1">
+            <li><strong>Marketing Manager:</strong> Responsible for developing and executing marketing strategies to promote products or services.</li>
+            <li><strong>Financial Analyst:</strong> Analyzes financial data to provide insights and recommendations for investment decisions.</li>
+            <li><strong>Human Resources Manager:</strong> Manages hiring, training, and developing employees within an organization.</li>
+            <li><strong>Operations Manager:</strong> Oversees a company's day-to-day operations to ensure efficiency and productivity.</li>
+            <li><strong>Management Consultant:</strong> Provides expert advice to organizations on improving their performance and efficiency.</li>
+            <li><strong>Sales Manager:</strong> Leads a team of sales representatives with the goal of hitting sales targets and maximizing revenue.</li>
+            <li><strong>Project Manager:</strong> Plans, executes, and manages projects from start to finish, ensuring they are completed on time and within budget.</li>
+            <li><strong>Business Development Manager:</strong> Identifies new business opportunities and builds relationships with potential clients or partners.</li>
+            <li><strong>Supply Chain Manager:</strong> Manages the flow of goods and services from the supplier to the consumer, aiming to improve the supply chain process.</li>
+            <li><strong>Entrepreneur:</strong> Starts and manages their own business, taking on the risks and rewards of entrepreneurship.</li>
+        </ul>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p></p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Campus Life at TMIMT College of Management <span class="icon">+</span></button>
+    <div class="panel">
+        <ul style="list-style-type:decimal;">
+            <li><strong>Academic Excellence:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT boasts a conducive learning environment where academic excellence is paramount. Faculty members are experienced and committed to nurturing students' curiosity and critical thinking skills.</li>
+                    <li>The college offers many academic programs with diverse specializations, allowing students to pursue their interests and career goals.</li>
+                </ul>
+            </li>
+            <li><strong>Extracurricular Activities:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>Beyond academics, TMIMT encourages students to participate in extracurricular activities, including sports tournaments, cultural events, and service projects.</li>
+                    <li>These activities help students develop leadership, teamwork, and time management skills, enhancing their overall college experience.</li>
+                </ul>
+            </li>
+            <li><strong>Student Clubs and Organizations:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT provides a platform for students to explore their interests and passions through various clubs and organizations.</li>
+                    <li>Students can join clubs focused on entrepreneurship, marketing, social activism, and more, making meaningful contributions to the college community.</li>
+                </ul>
+            </li>
+            <li><strong>Networking Opportunities:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT fosters a culture of networking and collaboration, offering numerous opportunities to connect with industry professionals, alumni, and fellow students.</li>
+                    <li>Students can gain insights, expand their network, and explore career options through these networking events.</li>
+                </ul>
+            </li>
+            <li><strong>Cultural Diversity:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT celebrates diversity and inclusivity, with students coming from various backgrounds and cultures to create a vibrant and welcoming campus environment.</li>
+                    <li>Cultural events, festivals, and international student exchanges promote cross-cultural understanding and enrich the college experience.</li>
+                </ul>
+            </li>
+            <li><strong>Student Support Services:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT offers a range of student support services to ensure that every student has the resources needed to thrive academically, personally, and professionally.</li>
+                    <li>Support services include academic advising, career counseling, mental health support, and disability services, reflecting the college's commitment to students' overall well-being.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion"> Facilities Available at TMIMT College of Management <span class="icon">+</span></button>
+    <div class="panel">
+        <ul style="list-style-type:decimal;">
+            <li><strong>Modern Classrooms:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT features modern classrooms equipped with multimedia technology, interactive whiteboards, and ergonomic seating, creating an ideal learning environment.</li>
+                </ul>
+            </li>
+            <li><strong>Library and Resource Center:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>The college library has a vast collection of books, journals, and research papers, along with digital resources to support academic and research needs.</li>
+                    <li>Access to online databases, e-journals, and research portals enriches students' learning and academic pursuits.</li>
+                </ul>
+            </li>
+            <li><strong>Computer Labs:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>Dedicated computer labs are equipped with the latest hardware, software, and fast internet to facilitate hands-on experience with industry-standard tools.</li>
+                    <li>These labs enable students to conduct research, complete assignments, and work on projects efficiently.</li>
+                </ul>
+            </li>
+            <li><strong>Sports and Recreation Facilities:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>The campus includes sports facilities such as basketball and volleyball courts, cricket grounds, and indoor complexes.</li>
+                    <li>Sports tournaments, fitness classes, and recreational activities promote health and build teamwork and camaraderie among students.</li>
+                </ul>
+            </li>
+            <li><strong>Hostel Accommodation:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>On-campus hostel accommodation is available for both male and female students, ensuring a safe, comfortable, and well-equipped living environment.</li>
+                    <li>Hostels feature modern amenities such as spacious rooms, Wi-Fi connectivity, study areas, and recreational facilities.</li>
+                </ul>
+            </li>
+            <li><strong>Cafeteria and Dining Facilities:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>The cafeteria serves a variety of healthy and clean meals, snacks, and drinks to match students' dietary preferences and tastes.</li>
+                    <li>Dining facilities offer a relaxed, social space where students can unwind and refuel between classes.</li>
+                </ul>
+            </li>
+            <li><strong>Medical and Health Services:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>TMIMT provides access to medical facilities, first aid services, and counseling on campus, valuing the health and well-being of its students.</li>
+                    <li>Qualified medical professionals and counselors are available to address health concerns, promote wellness, and provide timely assistance.</li>
+                </ul>
+            </li>
+            <li><strong>Transportation Services:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>The college offers transportation services for students commuting from nearby areas, ensuring convenient and safe travel to and from campus.</li>
+                    <li>Shuttle buses and vans operate on set routes to provide a hassle-free commuting experience.</li>
+                </ul>
+            </li>
+            <li><strong>Wi-Fi Connectivity:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>Campus-wide Wi-Fi allows students to access online resources, join virtual classes, and stay connected with peers and faculty.</li>
+                </ul>
+            </li>
+            <li><strong>Study Areas and Collaborative Spaces:</strong>
+                <ul class="m-ol-list ps-5 mb-1">
+                    <li>The campus includes study areas, study rooms, and spaces for group work, enabling students to work on projects, prepare for exams, and engage in collaborative learning.</li>
+                    <li>The spaces are designed with comfortable seating, ample lighting, and a quiet environment to support focused study and collaboration.</li>
+                </ul>
+            </li>
+        </ul>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            
+    </div>
 
-            </div>
-            <hr class="horizontal-line">
-        </div> -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion"> Conclusion <span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify mb-0">At TMIMT College of Management, students get top education. They also have access to many facilities and opportunities. These help them enrich their college experience. TMIMT offers academic excellence and extracurricular activities. It also has modern facilities and student support services. The school is committed to providing a holistic learning environment. It prepares students for success in their academic, professional, and personal lives.</p>
+        <p class="text-justify mb-0"></p>
+        <p class="text-justify mb-0"></p>
+    </div>
+
+    <hr class="horizontal-line">
+    <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify mb-0"><strong>Q: Is TMIMT College of Management affiliated with any university?</strong></p>
+        <p class="text-justify mb-0"><strong>Ans:</strong> Yes, TMIMT is a part of Teerthanker Mahaveer University (TMU), which is UGC-approved and NAAC-accredited.</p>
+
+        <p class="text-justify mb-0"><strong>Q: Does TMIMT offer hostel facilities for students?</strong></p>
+        <p class="text-justify mb-0"><strong>Ans:</strong> Absolutely! TMU provides comfortable on-campus accommodation facilities for students, ensuring a safe and conducive living environment. </p>
+        </p>
+    </div>
+    <hr class="horizontal-line">
+</div>
 
 <br /><br />
 

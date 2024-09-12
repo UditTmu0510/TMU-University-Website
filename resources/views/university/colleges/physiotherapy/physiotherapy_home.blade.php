@@ -205,7 +205,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-----Courses section Start-->
 		<section id="content" class="prog-bm">
 			<div class="content-wrap py-0" style="overflow: visible;">

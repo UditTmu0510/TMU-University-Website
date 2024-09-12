@@ -7,7 +7,7 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+<section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
@@ -32,7 +32,7 @@
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span>Bar Council</span>
                             <br>
                             <span class="d-block pt-1">of India approved Programmes</span>
@@ -81,7 +81,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> 
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Bar Council</span>
                                         <br>
                                         <span class="d-block pt-1">of India approved Programmes</span>
@@ -93,7 +93,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Integrated </span>
                                         <br>
-                                         <span class="d-block pt-1">Dual Degree <br> Programmes</span>
+                                        <span class="d-block pt-1">Dual Degree <br> Programmes</span>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Legal Aid</span>
                                         <br>
-                                         <span class="d-block pt-1">Clinics & Social Consultancy Centre</span>
+                                        <span class="d-block pt-1">Clinics & Social Consultancy Centre</span>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Active learning </span>
                                         <br>
-                                         <span class="d-block pt-1">through Moot Court Sessions</span>
+                                        <span class="d-block pt-1">through Moot Court Sessions</span>
                                     </div>
                                 </div>
                             </div>
@@ -128,12 +128,14 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer College of Law & Legal Studies</h1>
+                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
                 <div class="row">
-                    <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Make a successful career in the Law domain with the best private law college in UP, College of Law & Legal Studies. The 12+ years old institute has carved a niche for itself when it comes to the top private law colleges in UP due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. CLLS nurtures the professional skills of the students while teaching them their rightful duties, and crucial moral values to be a good law professional. Join the bandwagon of the best private law college in UP to excel beyond your imagination.</p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+                    <div class="col-12 px-2 px-md-5"> 
+                        <p style="text-align: justify;">College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <a href="https://www.tmu.ac.in/blog/top-10-law-colleges-in-india" target="_blank">best private colleges for law in India</a> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
+                        <div class="read-more-content mt-0">
+                            <p style="text-align: justify;">CLLS nurtures the professional skills of the students while teaching them their rightful duties, and crucial moral values to be a good law professional.</p>
+                        </div>
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
                     </div>
 
@@ -160,19 +162,19 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <p>The college has been rewarding the legal sector with consistently good professionals and has been rated in high regards in the top law colleges in UP.</p>
+                    <ul class="m-ol-list ps-4 mb-0">
+                        <li>A multicultural environment for our students from different nations and continents allows them to interact, learn from their peers, and make long-term professional associations.</li>
+                        <li>100% placement assistance in leading law firms, corporate houses, and NGOs. While one can also pursue their career as a Professor / Judge / Law Officers in academics, judicial services & public offices, respectively.</li>
+                    </ul>
+                    <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4 mb-0">
-                            <li>A multicultural environment for our students from different nations and continents allows them to interact, learn from their peers, and make long-term professional associations.</li>
-                            <li>100% placement assistance in leading law firms, corporate houses, and NGOs. While one can also pursue their career as a Professor / Judge / Law Officers in academics, judicial services & public offices, respectively.</li>
-                        </ul>    
-                            <div class="read-more-content mt-0">
-                                <ul class="m-ol-list ps-4 mb-0">
-                                    <li>Intra and inter-school academic competitions are organized regularly. These competitions include moot-court competitions, debate competitions, extempore competitions, legal role-play competitions, research paper presentations, Legal Quizzes, etc.</li>
-                                    <li>Guest lectures by eminent personalities from the legal fraternity as well as workshops and seminars monthly and organizing periodic visits to the Parliament, Law Commission of India, Supreme Court of India, etc.</li>
-                                    <li>Scholarship Program for Meritorious.</li>
-							        <li>Holistic development.</li>
-                                </ul>
-                            </div>
-                            <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>    
+                            <li>Intra and inter-school academic competitions are organized regularly. These competitions include moot-court competitions, debate competitions, extempore competitions, legal role-play competitions, research paper presentations, Legal Quizzes, etc.</li>
+                            <li>Guest lectures by eminent personalities from the legal fraternity as well as workshops and seminars monthly and organizing periodic visits to the Parliament, Law Commission of India, Supreme Court of India, etc.</li>
+                            <li>Scholarship Program for Meritorious.</li>
+                            <li>Holistic development.</li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Internship and Job Placement Opportunities:</h3>
@@ -180,12 +182,13 @@
                     <div class="read-more-content mt-1">
                         <h3>Global Perspective and International Exchanges:</h3>
                         <p>The international law is being strengthened by various national and international forums and with the correct guidance the college aims to serve not just the courtry but the world as a whole.
-                        <br><br>Hence College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.</p>
+                            <br><br>Hence College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
+                        </p>
                     </div>
-                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>    
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                <h3>curriculum</h3>
+                    <h3>curriculum</h3>
                     <p>The curriculum is a road map of the academic journey, and the appropriate importance is leveraged through it. The curriculum is aligned with the latest industry knowledge and emphasizes the holistic development of the students. Recently the University has been implementing NEP 2020 policy guidelines, legal framework, OBE's guidelines, etc., to ensure that the educational framework is at par with the global standards. Moreover, to expose the students to broader industry knowledge, national and international repute dignitaries are invited to guide them and nurture their entrepreneurial talent, stimulate research, foster leadership skills, and contribute to the modern business world. Also, the curriculum is BCI approved.</p>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
@@ -593,10 +596,10 @@
                     </div>
 
 
-                  
-                <!-- Code for the Mobile View Ends Here -->
 
-            </div>
+                    <!-- Code for the Mobile View Ends Here -->
+
+                </div>
         </section>
         <!-----Courses section completed-->
 
@@ -618,7 +621,7 @@
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>ANYA GUPTA</b>, B.Com.-LL.B.</p>
                                     <p>TMU's College of Law and Legal Studies is one of the top-tier legal educational colleges. It is well-known for its academic excellence and commitment to developing skilled lawyers who can drive social, political, and economic change. To achieve this, the college relies on a team of dedicated experts who are passionate about the legal profession. Throughout the year, the college hosts stimulating events and competitions
-that encourage students to share their ideas and engage in thoughtful discussions.</p>
+                                        that encourage students to share their ideas and engage in thoughtful discussions.</p>
                                 </div>
                             </div>
                             <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -645,7 +648,8 @@ that encourage students to share their ideas and engage in thoughtful discussion
                             <div class="media-body">
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>MITALI</b>, B.Com.-LL.B.</p>
-                                    <p>At TMU's College of Law and Legal Studies, I found my dream combination of academic and professional development opportunities. From moot courts to seminars, the college offers a variety of opportunities to build confidence and gain practical experience. The staff and instructors are supportive, and the campus library is a valuable resource. Overall, it's been a great experience.</div>
+                                    <p>At TMU's College of Law and Legal Studies, I found my dream combination of academic and professional development opportunities. From moot courts to seminars, the college offers a variety of opportunities to build confidence and gain practical experience. The staff and instructors are supportive, and the campus library is a valuable resource. Overall, it's been a great experience.
+                                </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
                         </div>
@@ -656,7 +660,7 @@ that encourage students to share their ideas and engage in thoughtful discussion
                             <img src="https://www.tmu.ac.in/uploads/alumni_speak/Muskan_Tandon.jpg" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Muskan Tandon</b>, B.B.A.-LL.B. (Hons.)	</p>
+                                    <p class="overview mb-3"><b>Muskan Tandon</b>, B.B.A.-LL.B. (Hons.) </p>
                                     <p>The decisions that a law professional makes changes the world. Being a law student, the college enabled me to widen my horizon and acquire those important skills of righteousness and develop my inter-personal skills and hence I feel glad about being a part of this college.</p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -681,7 +685,7 @@ that encourage students to share their ideas and engage in thoughtful discussion
                             <img src="https://www.tmu.ac.in/uploads/testimonial/SIDDARTH_KUMAR_(B_A__LL_B_)2018-2023.jpg" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>SIDDARTH KUMAR</b>,  B.A.-LL.B.</p>
+                                    <p class="overview mb-3"><b>SIDDARTH KUMAR</b>, B.A.-LL.B.</p>
                                     <p>Teerthankar Mahaveer University is an ocean of opportunities and I was lauded with one such fine opportunity through the student exchange program at Malaysia where I represented our college & country. I am just in my second year and my journey here has been nothing less but phenomenal and an enriching ride. </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -717,80 +721,197 @@ that encourage students to share their ideas and engage in thoughtful discussion
 
 </section><!-- #content end -->
 
-<!-- <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
-            <hr class="horizontal-line">
+<div class="container mb-5 mt-5">
+    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
 
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-            
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
+    <button class="careers-accordion">Why TMU is the Best Choice for You:<span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify">In the bustling landscape of legal education in India, the College of Law and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
+        <ul class="m-ol-list ps-5 mb-1">
+            <li>
+                <h3 class="tmu-text-primary mb-0 fs-16"><span>UGC-Approved with <span></span> NAAC-A Accreditation</span></h3>
+                <p class="text-justify">
+                    TMU's CLLS boasts the coveted UGC approval and holds an esteemed NAAC A Accreditation, ensuring a quality legal education that meets national standards.
+                </p>
+            </li>
 
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-            
-            <h3 class="tmu-text-primary fs-16"><span></span><span> </span></h3>   
-            <p class="text-justify"></p>
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"><span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion"> <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-                <p class="text-justify"></p>
-                <h3 class="tmu-text-primary fs-16 mb-1"><span> </span><span></span></h3> 
-            </div> -->
-            <!-- Add the horizontal line here -->
-            <!-- <hr class="horizontal-line">
-            <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
-            <div class="panel">
-                <p class="text-justify"></p>
-            </div>
-            <hr class="horizontal-line">
-            <button class="careers-accordion">FAQs<span class="icon">+</span></button>
-            <div class="panel">
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+            <li>
+                <h3 class="tmu-text-primary mb-0 fs-16"><span>Experiential Learning by <span></span> Highly Qualified Faculties</span></h3>
+                <p class="text-justify">
+                    Our faculty members, renowned for their expertise and experience, provide a dynamic learning environment, offering practical insights and fostering critical thinking.
+                </p>
+            </li>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p></p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
+            <li>
+                <h3 class="tmu-text-primary mb-0 fs-16"><span>Legal Aid Clinic, IP Facilitation, and <span></span> Social Consultancy Centre</span></h3>
+                <p class="text-justify">
+                    At CLLS, we emphasise the application of legal knowledge to real-world scenarios. Our Legal Aid Clinic, IP Facilitation, and Social Consultancy Centre provide students with hands-on experience, preparing them for the challenges of legal practice.
+                </p>
+            </li>
 
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            <p class="text-justify"><strong></strong></p>
-            <p class="text-justify"><strong>Ans:</strong> </p>
-            
+            <li>
+                <h3 class="tmu-text-primary mb-0 fs-16"><span>Global Career Prospects and <span></span> Comprehensive Internship Programmes</span></h3>
+                <p class="text-justify">
+                    We believe in shaping globally competent legal professionals. With our comprehensive internship programs and global career prospects, CLLS opens doors to diverse opportunities both nationally and internationally.
+                </p>
+            </li>
+        </ul>
 
-            </div>
-            <hr class="horizontal-line">
-        </div> -->
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">On-campus Accommodation Facilities<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Quality Education with Affordable Fees and </span><span>100% Scholarship Assistance</span></h3>
+        <p class="text-justify">We understand the importance of accessible education. At CLLS, we offer quality education at affordable fees, supplemented by scholarship assistance, to deserving students.</p>
 
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Educational Trips to Courts & </span><span>Advocate Chambers</span></h3>
+        <p class="text-justify">Learning extends beyond the classroom at CLLS. Our educational trips to courts and advocate chambers offer students firsthand exposure to the legal profession, enriching their understanding of legal practices.</p>
+
+        <h3 class="tmu-text-primary mb-2 fs-16"><span>The Essence of </span><span>Our Campus:</span></h3>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Modern Classrooms for </span><span>Interactive Sessions</span></h4>
+        <p class="text-justify">CLLS boasts modern classrooms equipped with state-of-the-art technology, fostering interactive learning experiences that engage and inspire students.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Electrifying Concerts and </span><span> Dynamic Events</span></h4>
+        <p class="text-justify">Our vibrant campus life goes beyond academics. From electrifying concerts to dynamic events, CLLS provides a platform for students to explore their talents and passions.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Anti-Ragging </span><span> Campus</span></h4>
+        <p class="text-justify">We prioritize the safety and well-being of our students. CLLS maintains a strict anti-ragging policy, ensuring a supportive and respectful campus environment.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Comfortable Hostel </span><span> Facilities</span></h4>
+        <p class="text-justify">Our hostel facilities offer students a home away from home, providing comfortable living spaces and amenities to support their academic journey.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Gym and </span><span> Fitness Centre</span></h4>
+        <p class="text-justify">At CLLS, we believe in nurturing both the mind and body. Our gym and fitness centre encourage students to maintain a healthy lifestyle, promoting overall well-being.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Shopping Stores and</span><span> Cafeterias</span></h4>
+        <p class="text-justify">Convenience is key at TMU. With on-campus shopping stores and cafeterias, students have easy access to essential amenities and delicious meals.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Wi-Fi Enabled </span><span> Campus</span></h4>
+        <p class="text-justify">In the digital age, connectivity is crucial. CLLS provides a Wi-Fi-enabled campus, ensuring seamless access to online resources and information.</p>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Explore Top-Notch Placement Opportunities<span class="icon">+</span></button>
+    <div class="panel">
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Affiliated with the </span><span>Bar Council of India</span></h4>
+        <p class="text-justify">CLLS holds affiliation with the Bar Council of India, ensuring that our graduates meet the highest professional standards in the legal field.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Expert Faculty for Hands-on </span><span>Practical Knowledge</span></h4>
+        <p class="text-justify">Our faculty members bring a wealth of practical knowledge and industry experience to the classroom, preparing students for the rigours of legal practice.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Centre for Teaching, Learning, and </span><span>Legal Development</span></h4>
+        <p class="text-justify">At CLLS, we are committed to continuous learning and development. Our Centre for Teaching, Learning, and Legal Development provides a platform for scholarly research and innovation.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>100% Placement Assistance with an </span><span>Outstanding Track Record</span></h4>
+        <p class="text-justify">We take pride in our track record of placement success. CLLS offers 100% placement assistance, connecting students with leading law firms, courts, and legal organisations.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Global Opportunities with Renowned </span><span>Legal Organisations</span></h4>
+        <p class="text-justify">Our global network opens doors to prestigious legal internships and career opportunities worldwide, providing students with a truly international perspective.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Robust Legal Industry Affiliations for </span><span>Invaluable Insights</span></h4>
+        <p class="text-justify">CLLS maintains strong affiliations with the legal industry, providing students with invaluable insights and networking opportunities that enrich their learning experience.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>Gain a Global Edge with </span><span> International Legal Internships</span></h4>
+        <p class="text-justify">Through our international legal internships, students gain a global edge and valuable cross-cultural experience, setting them apart in the competitive legal landscape.</p>
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Top 10 Careers in Law: <span class="icon">+</span></button>
+    <div class="panel">
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Corporate </span><span> Lawyer</span></h4>
+        <p class="text-justify">Specializing in business law, corporate lawyers provide legal advice to corporations on various matters such as mergers, acquisitions, contracts, and compliance.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Criminal </span><span> Lawyer</span></h4>
+        <p class="text-justify">Criminal lawyers defend individuals or entities accused of committing criminal offences, representing them in court proceedings and negotiating plea deals.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>3. Civil Litigation </span><span> Lawyer</span></h4>
+        <p class="text-justify">Civil litigation lawyers handle disputes between individuals or organisations, representing clients in civil lawsuits related to contracts, property, and personal injury.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>4. Family </span><span> Lawyer</span></h4>
+        <p class="text-justify">Family lawyers deal with legal matters related to family relationships, such as divorce, child custody, adoption, and domestic violence cases.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>5. Intellectual </span><span> Property Lawyer</span></h4>
+        <p class="text-justify">Intellectual property lawyers protect the rights of individuals or businesses regarding their intellectual property, including patents, trademarks, copyrights, and trade secrets.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>6. Environmental </span><span> Lawyer</span></h4>
+        <p class="text-justify">Environmental lawyers focus on legal issues related to environmental protection and conservation, advising clients on compliance with environmental laws and regulations.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>7. Human Rights </span><span> Lawyer</span></h4>
+        <p class="text-justify">Human rights lawyers advocate for the protection of human rights and social justice, representing individuals or organisations in cases involving discrimination, injustice, and human rights abuses.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>8. Immigration </span><span> Lawyer</span></h4>
+        <p class="text-justify">Immigration lawyers assist individuals with immigration-related issues, including visa applications, citizenship petitions, deportation defence, and asylum cases.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>9. Entertainment </span><span> Lawyer</span></h4>
+        <p class="text-justify">Entertainment lawyers work with clients in the entertainment industry, negotiating contracts, protecting intellectual property rights, and handling legal disputes related to music, film, television, and other forms of entertainment.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>10. Legal </span><span> Consultant</span></h4>
+        <p class="text-justify">Legal consultants provide expert advice to businesses or individuals on legal matters, offering guidance on compliance, risk management, and strategic decision-making.</p>
+
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Campus Life at College of Law and Legal Studies: <span class="icon">+</span></button>
+    <div class="panel">
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Academic </span><span> Excellence</span></h4>
+        <p class="text-justify">The College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Vibrant Student </span><span> Community</span></h4>
+        <p class="text-justify">CLLS boasts a vibrant student community, with diverse extracurricular activities, student clubs, and events that foster leadership skills, teamwork, and social interaction.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>3. Moot Court </span><span> Competitions</span></h4>
+        <p class="text-justify">Students at CLLS actively participate in moot court competitions, honing their advocacy and legal research skills while competing at national and international levels, gaining invaluable practical experience.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>4. Legal Aid </span><span> Clinic</span></h4>
+        <p class="text-justify">The Legal Aid Clinic at CLLS provides students with the opportunity to engage in pro bono legal work, offering assistance to underprivileged individuals and communities, and promoting access to justice.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>5. Networking </span><span> Opportunities</span></h4>
+        <p class="text-justify">CLLS organises networking events, seminars, and guest lectures featuring legal experts and professionals, providing students with networking opportunities and insights into the legal industry.</p>
+
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">Facilities Available at College of Paramedical Sciences: <span class="icon">+</span></button>
+    <div class="panel">
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>1. State-of-the-Art</span><span> Laboratories</span></h4>
+        <p class="text-justify">The College of Paramedical Sciences is equipped with state-of-the-art laboratories, offering students hands-on training and practical experience in various medical disciplines.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Clinical </span><span>Training Facilities</span></h4>
+        <p class="text-justify">Students have access to clinical training facilities, including simulation labs and healthcare institutions, where they can apply theoretical knowledge in real-world healthcare settings under supervision.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>3. Library and </span><span>Research Resources</span></h4>
+        <p class="text-justify">The college maintains a well-stocked library with a vast collection of medical literature, journals, and research resources, providing students with access to up-to-date information and scholarly materials.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>4. Faculty</span><span> Expertise</span></h4>
+        <p class="text-justify">The faculty members at the College of Paramedical Sciences are highly qualified and experienced professionals in their respective fields, providing students with expert guidance and mentorship.</p>
+
+        <h4 class="tmu-text-primary mb-0 fs-16"><span>5. Career Development</span><span> Support</span></h4>
+        <p class="text-justify">The college offers career development support services, including internships, placements, and workshops, to help students explore career options, gain practical experience, and prepare for their future in the healthcare industry.</p>
+
+    </div>
+    <hr class="horizontal-line">
+    <button class="careers-accordion">FAQs<span class="icon">+</span></button>
+    <div class="panel">
+        <p class="text-justify"><strong>Q1:- How do I apply for admission to CLLS?</strong></p>
+        <p class="text-justify"><strong>Ans:</strong> Visit our website and navigate to the admissions section for detailed information on the application process and requirements.</p>
+        <p class="text-justify"> <strong>Q2:- Are there scholarships available for students?</strong></p>
+        <p class="text-justify"><strong>Ans: </strong>Yes, we offer scholarships based on merit and financial need. Explore our scholarship options on our website or contact our admissions office for assistance.</p>
+        <p class="text-justify"> <strong>Q3:- Can international students apply to CLLS?</strong></p>
+        <p class="text-justify"><strong>Ans: </strong>Absolutely! We welcome applications from international students. Visit our international admissions page for guidance on the application process and visa requirements.</p>
+        <p class="text-justify"> <strong>Q4:- What sets CLLS apart from other law colleges?</strong></p>
+        <p class="text-justify"><strong>Ans: </strong>CLLS stands out for its experiential learning approach, expert faculty, global opportunities, and commitment to student success. Our track record of placement assistance and industry affiliations speak for themselves.</p>
+        <p class="text-justify"> <strong>Q5:- Does CLLS offer post-graduate programs?</strong></p>
+        <p class="text-justify"><strong>Ans: </strong>Yes, CLLS offers a two-year LL.M program, along with an LL.M executive program for working professionals. Explore our post-graduate legal studies options for more information. </p>
+        <p class="text-justify">Join the ranks of the legal luminaries and embark on a fulfilling journey at the College of Law and Legal Studies, TMU. Experience excellence in legal education and unlock your potential with us.</p>
+
+
+    </div>
+    <hr class="horizontal-line">
+</div>
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
