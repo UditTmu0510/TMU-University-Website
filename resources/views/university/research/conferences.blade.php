@@ -13,7 +13,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/479_image1.jpg" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/479_image1.jpg')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -40,7 +40,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/472_image1.png" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/472_image1.png')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -66,7 +66,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/464_image1.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/464_image1.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -92,7 +92,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/472_image1.png" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/472_image1.png')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -118,7 +118,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/375_image3.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/375_image3.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -146,7 +146,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/372_image1.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/372_image1.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -172,7 +172,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/328b_image1.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/328b_image1.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -198,7 +198,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/328a_image6.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/328a_image6.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">
@@ -224,7 +224,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="#">
-                <img src="https://www.tmu.ac.in/uploads/events/past_event/30c8_image1.webp" alt="Event-1">
+                <img src="{{asset('/assets/img/department/research/conferences/30c8_image1.webp')}}" alt="Event-1">
               </a>
             </div>
             <div class="entry-meta mb-1">

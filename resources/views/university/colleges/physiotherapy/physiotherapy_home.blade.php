@@ -130,9 +130,10 @@
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">Established in 2010, the Department of Physiotherapy at TMU offers a comprehensive range of programmes. These include a diploma, BPT, MPT, and PhD in physiotherapy. With a focus on helping patients maintain, recover, and improve their physical abilities, we prepare students to address impairments and promote mobility, providing provisional diagnosis and physical interventions. Become a skilled professional in meeting the increasing demand for physiotherapy services in the medical sector.</p>
-
-						<button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
-
+						<div class="read-more-content mt-0">
+							<p style="text-align: justify;">Department of Physiotherapy at Teerthanker Mahaveer University (TMU), where excellence in education meets unparalleled practical experience. Choosing the right institution for your physiotherapy education is crucial, and TMU stands out as a premier choice. Let's explore why TMU's Department of Physiotherapy is the ideal place to kickstart your career.</p>
+						</div>
+						<a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 					</div>
 
 				</div>
@@ -839,6 +840,173 @@
 		</div>
 	</div>
 
+
+
+
+	<!-- FAQS accordian -->
+
+	<div class="container mb-5 mt-5">
+		<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+		<hr class="horizontal-line">
+
+		<button class="careers-accordion">Why TMU is the Best Choice for You<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accredited University</span></h3>
+			<p class="text-justify">TMU is UGC-approved and boasts an NAAC-A accreditation, a testament to our commitment to academic excellence and quality education. This prestigious recognition ensures that our programmes meet the highest standards in education.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
+			<p class="text-justify">At TMU, learning goes beyond textbooks. Our highly qualified faculties bring a wealth of experience and practical knowledge, providing students with an immersive learning experience. Through hands-on training and real-world applications, students gain the skills necessary to excel in their careers.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Hands-on Training</span><span> in TMU Hospital</span></h3>
+			<p class="text-justify">One of the standout features of our programme is the extensive hands-on training provided at TMU Hospital. Students get the opportunity to work in real healthcare settings, honing their skills and gaining invaluable experience.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+
+		<button class="careers-accordion">Programmes Approved by Govt of UP and UP State Medical Faculty<span class="icon">+</span></button>
+		<div class="panel">
+			<p class="text-justify">Our programmes are not only approved by the Government of Uttar Pradesh but also by the UP State Medical Faculty, ensuring that our curriculum is comprehensive and up-to-date with the latest industry standards.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Unique Features of TMU’s Physiotherapy Department<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>MoU with</span><span> GTT Foundation</span></h3>
+			<p class="text-justify">TMU has a Memorandum of Understanding (MoU) with the GTT Foundation, opening doors for students to engage in various collaborative projects and gain exposure to cutting-edge research and innovations in physiotherapy.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Physiotherapy</span><span> OPD/IPD Facilities</span></h3>
+			<p class="text-justify">Our department is equipped with both Outpatient Department (OPD) and Inpatient Department (IPD) facilities, providing students with diverse clinical experiences. This exposure is critical for developing well-rounded physiotherapy professionals.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Well-Maintained Electrotherapy</span><span> and Exercise Therapy Laboratories</span></h3>
+			<p class="text-justify">The state-of-the-art electrotherapy and exercise therapy laboratories at TMU are designed to offer students hands-on practice with advanced equipment and technologies, enhancing their learning and practical skills.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Global Opportunities and</span><span> International Internship Programmes</span></h3>
+			<p class="text-justify">We believe in providing our students with global exposure. TMU offers international internship programmes, allowing students to gain insights and experience from healthcare systems around the world.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Career Support and Placement
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>100% Placement Assistance</span><span> with an Excellent Track Record</span></h3>
+			<p class="text-justify">Our commitment to our students' futures is unwavering. TMU provides 100% placement assistance, and our excellent track record speaks for itself. Our graduates are highly sought after in the industry, thanks to the comprehensive education and training they receive.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Strong Industry Connections</span><span> for Real-World Insights</span></h3>
+			<p class="text-justify">Our strong industry connections ensure that students are well-prepared for the real world. These partnerships provide opportunities for internships, workshops, and placements, giving students a competitive edge in the job market.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Educational Environment
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Modern Classrooms</span><span> for Interactive Sessions</span></h3>
+			<p class="text-justify">Our modern classrooms are equipped with the latest technology to facilitate interactive and engaging learning sessions. This environment fosters active participation and enhances the overall learning experience.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Physiotherapy Labs for</span><span> Practical Training and Experiments</span></h3>
+			<p class="text-justify">Practical training is a cornerstone of our curriculum. Our well-equipped physiotherapy labs allow students to conduct experiments and practice their skills in a controlled environment, bridging the gap between theory and practice.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Technology and Instruments</span><span> for a Conducive Learning Environment</span></h3>
+			<p class="text-justify">TMU continuously invests in advanced technology and instruments, creating a conducive learning environment that keeps pace with the latest advancements in the field of physiotherapy.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Campus Life at TMU
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Comfortable Hostel</span><span> Facilities</span></h3>
+			<p class="text-justify">We understand the importance of a comfortable living environment. Our hostel facilities are designed to provide students with a home away from home, ensuring their well-being and comfort.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Healthcare Clubs</span><span> and Dynamic Events</span></h3>
+			<p class="text-justify">TMU offers a vibrant campus life with various healthcare clubs and dynamic events. These extracurricular activities provide a balanced education and opportunities for personal growth and networking.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus Shopping</span><span> Stores and Cafeterias</span></h3>
+			<p class="text-justify">Our on-campus shopping stores and cafeterias cater to all your needs, ensuring that students have access to essential services and a variety of dining options within the campus.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Core Programmes Offered
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physiotherapy</span><span> (BPT)</span></h3>
+			<p class="text-justify">Our Bachelor of Physiotherapy (BPT) programme is designed to provide a strong foundation in physiotherapy, covering all essential aspects from basic sciences to advanced clinical practice.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Master of Physiotherapy</span><span> (MPT)</span></h3>
+			<p class="text-justify">The Master of Physiotherapy (MPT) programme at TMU offers specialized training in various fields of physiotherapy, preparing graduates for leadership roles in the healthcare sector.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>PhD in </span><span> Physiotherapy</span></h3>
+			<p class="text-justify">For those interested in research and academia, our PhD in Physiotherapy programme provides an opportunity to contribute to the advancement of knowledge in the field and develop innovative therapeutic techniques.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Research and Development
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Research and Healthcare </span><span>Development Programmes</span></h3>
+			<p class="text-justify">TMU is committed to advancing the field of physiotherapy through research. Our research and healthcare development programmes encourage students and faculty to explore new frontiers and contribute to scientific knowledge.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Innovative Physiotherapy</span><span> Workshops and Seminars</span></h3>
+			<p class="text-justify">We regularly host innovative workshops and seminars, inviting experts from around the world to share their knowledge and experiences. These events provide students with the latest insights and trends in physiotherapy.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Global Exposure and Opportunities
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>International Medical Placements</span><span> and Internship Opportunities</span></h3>
+			<p class="text-justify">Our global exposure initiatives include international medical placements and internship opportunities, allowing students to gain valuable experience in different healthcare settings across the globe.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Robust Industry</span><span> Affiliations</span></h3>
+			<p class="text-justify">TMU's robust industry affiliations ensure that our students are well-prepared for their careers. These partnerships provide access to a network of professionals and organizations that can help guide and support our students' career paths.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">State-of-the-Art Facilities
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Well-Equipped </span><span>Physiotherapy Labs</span></h3>
+			<p class="text-justify">Our well-equipped physiotherapy labs provide students with the tools they need to practice and perfect their skills. These facilities are essential for delivering high-quality education and training.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Technology for</span><span> Medical Training and Practicals</span></h3>
+			<p class="text-justify">TMU is at the forefront of integrating advanced technology into medical training. Our students benefit from the latest innovations, which enhance their learning experience and prepare them for the future.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Accommodation and Student Life
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus </span><span>Accommodation Facilities</span></h3>
+			<p class="text-justify">We offer comfortable on-campus accommodation facilities, ensuring that students have a safe and convenient place to live while they pursue their studies.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Comfortable Healthcare</span><span> Labs and Facilities</span></h3>
+			<p class="text-justify">Our healthcare labs and facilities are designed to provide a comfortable and effective learning environment, supporting students in their educational journey.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Faculty and Learning Experience
+			<span class="icon">+</span></button>
+		<div class="panel">
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Expert Faculty Ensuring </span><span>Practical Healthcare Knowledge</span></h3>
+			<p class="text-justify">Our expert faculty members are dedicated to providing students with practical healthcare knowledge. Their extensive experience and expertise ensure that students receive a well-rounded education.</p>
+			<h3 class="tmu-text-primary fs-16 mb-0"><span>Centre for Teaching,</span><span> Learning, and Development</span></h3>
+			<p class="text-justify">The Centre for Teaching, Learning, and Development at TMU is committed to continuous improvement in education. It provides resources and support for both students and faculty to enhance the learning experience and get ready for corporate world.</p>
+		</div>
+		<!-- Add the horizontal line here -->
+		<hr class="horizontal-line">
+		<button class="careers-accordion">Conclusion <span class="icon">+</span></button>
+		<div class="panel">
+			<p class="text-justify">Teerthanker Mahaveer University's Department of Physiotherapy is a premier institution for aspiring physiotherapists. With its state-of-the-art facilities, experienced faculty, and commitment to student success, TMU offers an unparalleled education in physiotherapy. Join us and take the first step towards a rewarding career in healthcare.</p>
+		</div>
+		<hr class="horizontal-line">
+		<button class="careers-accordion">FAQs<span class="icon">+</span></button>
+		<div class="panel">
+			<p class="text-justify"><strong>Q. What is physiotherapy?</strong></p>
+			<p class="text-justify">Ans: Physiotherapy is a healthcare profession that focuses on the assessment, diagnosis, and treatment of physical ailments and disabilities using physical methods such as exercise, massage, and other techniques.</p>
+			<p class="text-justify"><strong>Q. What do physiotherapists do?</strong></p>
+			<p class="text-justify">Ans: Physiotherapists work with patients to manage pain, improve mobility, and prevent further injury. They develop personalized treatment plans and use various therapies to help patients recover from injuries and manage chronic conditions.</p>
+			<p class="text-justify"><strong>Q. How to become a physiotherapist?</strong></p>
+			<p class="text-justify">Ans: To become a physiotherapist, one typically needs to complete a Bachelor of Physiotherapy (BPT) degree, followed by a Master of Physiotherapy (MPT) if desired. Licensure and certification requirements may vary by region.</p>
+			<p class="text-justify"><strong>Q. What are the benefits of physiotherapy?</strong></p>
+			<p class="text-justify">Ans: Physiotherapy offers numerous benefits, including pain relief, improved mobility, enhanced recovery from injuries, prevention of future injuries, and better overall physical health.</p>
+			<p class="text-justify"><strong>Q. What kind of placements can TMU students expect?</strong></p>
+			<p class="text-justify">Ans: TMU provides 100% placement assistance with an excellent track record. Our students have access to a wide range of placement opportunities in top healthcare institutions, both nationally and internationally.</p>
+			<!-- <p class="text-justify"><strong></strong></p>
+                <p class="text-justify"><strong>Ans:</strong> </p>
+                <p class="text-justify"><strong></strong></p>
+                <p class="text-justify"><strong>Ans:</strong> </p>
+
+                <p class="text-justify"><strong></strong></p>
+                <p class="text-justify"><strong>Ans:</strong> </p>
+                <p class="text-justify"><strong></strong></p>
+                <p class="text-justify"><strong>Ans:</strong> </p> -->
+
+
+		</div>
+		<hr class="horizontal-line">
+	</div>
 </section><!-- #content end -->
 
 <br /><br />

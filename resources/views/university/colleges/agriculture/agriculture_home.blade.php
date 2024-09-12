@@ -137,9 +137,10 @@
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">The College of Agriculture Sciences established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the realm of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
-						<p style="text-align: justify;">Guided by the recommendations of the Vth Deans Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum comprising each aspect of Agriculture. It is with great pride that we proclaim our accreditation by ICAR, which is a mark of quality and excellence in the field of agricultural education.</p>
-
-						<button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+						<div class="read-more-content mt-0">
+							<p style="text-align: justify;">Guided by the recommendations of the Vth Deans Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum comprising each aspect of Agriculture. It is with great pride that we proclaim our accreditation by ICAR, which is a mark of quality and excellence in the field of agricultural education.</p>
+						</div>
+						<a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
 					</div>
 
@@ -215,7 +216,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<!-----Courses section Start-->
 		<section id="content" class="prog-bm">

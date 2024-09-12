@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/cs_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/cs_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Computer Applications</span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/management_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/management_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span>Management</span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/education_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/education_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Education </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/dentistry_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/dentistry_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Dental Sciences</span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/allied_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/allied_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Medical Sciences</span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/pharmacy_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/pharmacy_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Pharmacy </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/engineering_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/engineering_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Engineering </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/nursing_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/nursing_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Nursing </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/law_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/law_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span>Law & Legal Studies </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/physical_education_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/physical_education_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Physical Education </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="https://www.tmu.ac.in/img/research/fineart_research.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/fineart_research.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Fine Arts </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="	https://www.tmu.ac.in/img/research/jain-ahimsa.jpg" class="img-fluid rounded" alt="...">
+                        <img src="	{{asset('/assets/img/banner_overview/phd/jain-ahimsa.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Jain Studies </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -183,7 +183,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="/images/physiotherapy.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/physiotherapy.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Physiotherapy Department </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
@@ -196,7 +196,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="/images/pmc.jpg" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/pmc.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Paramedical Sciences </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">

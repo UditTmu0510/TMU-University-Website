@@ -294,7 +294,7 @@
 
                     <div class="oc-item text-start">
                         <div class="card collab-card">
-                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/3.png')}}"
+                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/ccsit/3.png')}}"
                                 alt="TMU collaboration with united resourcing">
 
                             <div class="card-body">
@@ -317,7 +317,7 @@
 
                     <div class="oc-item text-start">
                         <div class="card collab-card">
-                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/2.png')}}"
+                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/ccsit/2.png')}}"
                                 alt="TMU collaboration with whizhack">
                             <div class="card-body">
                                 <h3 class="collab-card-title">B.Tech (CSE) Applications development using cloud &
@@ -360,7 +360,7 @@
 
                     <div class="oc-item text-start">
                         <div class="card collab-card">
-                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/1.png')}}"
+                            <img class="collab-card-img" src="{{asset('assets/img/collaboration/ccsit/1.png')}}"
                                 alt="TMU collaboration with safeducate">
                             <div class="card-body">
                                 <h3 class="collab-card-title">M.Sc. In collaboration with Aivancity, France</h3>
@@ -802,78 +802,78 @@
             <div class="marquee my-5 py-5 pt-4">
                 <section class="marquee-content">
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/face_academy.png" alt="face academy visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/face_academy.png')}}" alt="face academy visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Tata%20Motors.png" alt="Tata motors visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Tata%20Motors.png')}}" alt="Tata motors visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Cetpa.png" alt="cetpa visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Cetpa.png')}}" alt="cetpa visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Tosha%20International.png" alt="tosha inernational visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Tosha%20International.png')}}" alt="tosha inernational visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/tci.png" alt="TCI visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/tci.png')}}" alt="TCI visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/wipro.png" alt="Wipro visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/wipro.png')}}" alt="Wipro visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/torrent_gas.png" alt="Torrent gas visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/torrent_gas.png')}}" alt="Torrent gas visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/munjal_auto.png" alt="munjal auto visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/munjal_auto.png')}}" alt="munjal auto visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/smart_brain.png" alt="smart brain visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/smart_brain.png')}}" alt="smart brain visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/infosys.png" alt="infosys visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/infosys.png')}}" alt="infosys visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/ford-logo.png" alt="ford visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/ford-logo.png')}}" alt="ford visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/tech_mahindra.png" alt="tech mahindra visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/tech_mahindra.png')}}" alt="tech mahindra visit TMU for recruitment"></a>
                     </div>
                 </section>
                 <section class="marquee-content">
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/face_academy.png" alt="face academy visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/face_academy.png')}}" alt="face academy visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Tata%20Motors.png" alt="Tata motors visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Tata%20Motors.png')}}" alt="Tata motors visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Cetpa.png" alt="cetpa visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Cetpa.png')}}" alt="cetpa visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/Tosha%20International.png" alt="tosha inernational visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/Tosha%20International.png')}}" alt="tosha inernational visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/tci.png" alt="TCI visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/tci.png')}}" alt="TCI visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/wipro.png" alt="Wipro visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/wipro.png')}}" alt="Wipro visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/torrent_gas.png" alt="Torrent gas visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/torrent_gas.png')}}" alt="Torrent gas visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/munjal_auto.png" alt="munjal auto visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/munjal_auto.png')}}" alt="munjal auto visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/smart_brain.png" alt="smart brain visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/smart_brain.png')}}" alt="smart brain visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/infosys.png" alt="infosys visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/infosys.png')}}" alt="infosys visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/ford-logo.png" alt="ford visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/ford-logo.png')}}" alt="ford visit TMU for recruitment"></a>
                     </div>
                     <div class="marquee-block">
-                        <a href="#"><img src="https://www.tmu.ac.in/img/placement/recruiters_logos/our_recuriters/tech_mahindra.png" alt="tech mahindra visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset('/assets/img/recruiters/ccsit/tech_mahindra.png')}}" alt="tech mahindra visit TMU for recruitment"></a>
                     </div>
                 </section>
             </div>
