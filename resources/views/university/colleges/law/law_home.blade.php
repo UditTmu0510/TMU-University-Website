@@ -198,7 +198,6 @@
             </div>
         </div>
 
-
         <!-----Courses section Start-->
         <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
@@ -913,7 +912,6 @@
     </div>
     <hr class="horizontal-line">
 </div>
-
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 

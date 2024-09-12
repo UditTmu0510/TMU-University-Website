@@ -215,6 +215,7 @@
                         </li>
                     </ul>
                     <p>These cutting-edge laboratories provide students with a world-class learning experience, ensuring they receive hands-on training on par with global standards.</p>
+
                 </div>
             </div>
         </div>
@@ -1073,6 +1074,7 @@
     </div>
     <hr class="horizontal-line">
 </div>
+
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>

@@ -1,141 +1,198 @@
 @extends('layouts.university.news_single')
 @section('content')
-<!-- Document Wrapper
-	============================================= -->
-<div id="wrapper">
-    <!-- Page Title
-		============================================= -->
-    <section class="news-page-title page-title bg-transparent">
-        <div class="container">
-            <div class="page-title-row">
 
-                <div class="page-title-content">
-                    <h2 class="news-page-title-text">TMU News</h2>
-                </div>
 
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">News</li>
-                    </ol>
-                </nav>
+<style>
+    .grid-item {
+        padding: 0;
+        /* Remove any padding if you want the images to be closer together */
+        margin-bottom: 20px;
+        /* Adjust this value to increase row space */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Add shadow effect */
+        border: 2px solid #FF7900;
+        /* Add border with the specified color */
+        border-radius: 5px;
+        /* Optional: add border radius for better appearance */
+        overflow: hidden;
+        /* To ensure box-shadow is visible */
+    }
 
-            </div>
-        </div>
-    </section><!-- .page-title end -->
-    <style>
-           .grid-item {
-            padding: 0; /* Remove any padding if you want the images to be closer together */
-            margin-bottom: 20px; /* Adjust this value to increase row space */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-            border: 2px solid #FF7900; /* Add border with the specified color */
-            border-radius: 5px; /* Optional: add border radius for better appearance */
-            overflow: hidden; /* To ensure box-shadow is visible */
-        }
+    .row[data-lightbox="gallery"] {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* Adjust this value to reduce column space */
+    }
 
-        .row[data-lightbox="gallery"] {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px; /* Adjust this value to reduce column space */
-        }
+    .col-4 {
+        flex: 1 1 calc(33.333% - 10px);
+        /* 3 items per row with space between */
+    }
 
+    .entry-content ul {
+        padding-left: 0;
+        /* Removes default padding */
+        margin-left: 0;
+        /* Removes default margin */
+        list-style-position: inside;
+        /* Moves the bullet inside the list item's padding */
+    }
+
+    .entry-content ol {
+        padding-left: 0;
+        /* Removes default padding */
+        margin-left: 0;
+        /* Removes default margin */
+        list-style-position: inside;
+        /* Moves the bullet inside the list item's padding */
+    }
+
+    .entry-content ul li {
+        margin-bottom: 10px;
+        /* Space between list items */
+        padding-left: 30px;
+        /* Align content with bullets */
+        text-indent: -20px;
+        /* Offset text indentation to align with bullet */
+    }
+
+    .entry-content ol li {
+        margin-bottom: 10px;
+        /* Space between list items */
+        padding-left: 20px;
+        /* Align content with bullets */
+        text-indent: -15px;
+        /* Offset text indentation to align with bullet */
+    }
+
+
+    @media (max-width: 768px) {
+
+        /* Tablet and Mobile view */
         .col-4 {
-            flex: 1 1 calc(33.333% - 10px); /* 3 items per row with space between */
+            flex: 1 1 calc(50% - 10px);
+            /* 2 items per row */
         }
+    }
+</style>
 
-        @media (max-width: 768px) { /* Tablet and Mobile view */
-            .col-4 {
-                flex: 1 1 calc(50% - 10px); /* 2 items per row */
-            }
-        }
-    </style>
-    <!-- Content
+<!-- Page Title
 		============================================= -->
-    <section id="content">
-        <div class="content-wrap">
-            <div class="container col-12 col-md-7">
+<section class="news-page-title page-title bg-transparent">
+    <div class="container">
+        <div class="page-title-row">
 
-                <div class="single-post mb-0">
-
-                    <!-- Single Post
-						============================================= -->
-                    <div class="entry">
-
-                        <!-- Entry Title
-							============================================= -->
-                        <div class="entry-title mb-3">
-                            <h2>{{$news->event_title}}</h2>
-                        </div><!-- .entry-title end -->
-
-                        <!-- Entry Meta
-							============================================= -->
-                        <div class="entry-meta  " >
-                            <ul>
-                                <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{$news->event_date}}</li>
-                                <li style="margin: 0 0 8px 0;"><a href="#"><i class="uil uil-user"></i> admin</a></li>
-                                <li style="margin: 0 0 8px 0;"><i class="uil uil-folder-open"></i> <a href="#">{{$news->category_name}}</a>
-                                </li>
-                            </ul>
-                        </div><!-- .entry-meta end -->
-
-                        <!-- Entry Image
-							============================================= -->
-                        <div class="entry-image mb-5">
-                            <a href="#"><img src="{{asset($news->ei1_path)}}" alt="Blog Single"></a>
-                        </div><!-- .entry-image end -->
-
-                        <!-- Entry Content
-							============================================= -->
-                        <div class="entry-content mt-0">
-
-                            <!-- Post Single - Content End -->
-                            <p style="text-align:justify">
-                            @php
-                           echo nl2br(html_entity_decode($news->event_full_description));
-                           @endphp
-                        </p>
-                        
-                     
-
-
-                            <section id="content">
-                                <div class="content-wrap">
-                                <div class="container">
-					<div class="row "  data-lightbox="gallery">
-                        @if(!empty($news->ei1_path))
-						<a class="grid-item col-4" href="{{asset($news->ei1_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei1_path)}}" alt="Gallery Thumb 1"></a>
-                        @endif
-
-                        @if(!empty($news->ei2_path))
-						<a class="grid-item col-4" href="{{asset($news->ei2_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei2_path)}}" alt="Gallery Thumb 2"></a>
-						@endif
-                        
-                        @if(!empty($news->ei3_path))
-                        <a class="grid-item col-4" href="{{asset($news->ei3_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei3_path)}}" alt="Gallery Thumb 3"></a>
-						@endif
-
-                        @if(!empty($news->ei4_path))
-                        <a class="grid-item col-4" href="{{asset($news->ei4_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei4_path)}}" alt="Gallery Thumb 4"></a>
-						@endif
-
-                        @if(!empty($news->ei5_path))
-                        <a class="grid-item col-4" href="{{asset($news->ei5_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei5_path)}}" alt="Gallery Thumb 5"></a>
-						@endif
-
-                        @if(!empty($news->ei6_path))
-                        <a class="grid-item col-4" href="{{asset($news->ei6_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei6_path)}}" alt="Gallery Thumb 6"></a>
-                        @endif
-
-					</div>
-
-<div class="divider"><i class="bi-circle-fill"></i></div>
-                </div>
+            <div>
+                <h1 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3"><span>TMU </span><span> NEWS</span></h1>
+                <!-- <h2 class="news-page-title-text">TMU News</h2> -->
             </div>
-        </section>
-      
-                            <!-- Tag Cloud
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{route('tmuhome')}}">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="{{route('all_news.post')}}">News</a></li>
+                </ol>
+            </nav>
+
+        </div>
+    </div>
+</section><!-- .page-title end -->
+
+<!-- Content
+		============================================= -->
+<section id="content">
+    <div class="content-wrap">
+        <div class="container col-12 col-md-7">
+
+            <div class="single-post mb-0">
+
+                <!-- Single Post
+						============================================= -->
+                <div class="entry">
+
+                    <!-- Entry Title
+							============================================= -->
+                    <div class="entry-title mb-3">
+                    <h2 class="tmu-text-primary"><span>{{$news->event_title}}</span><span></span></h2>
+                    </div><!-- .entry-title end -->
+
+                    <!-- Entry Meta
+							============================================= -->
+                    <div class="entry-meta  ">
+                        <ul>
+                            <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{$news->event_date}}</li>
+                            <li style="margin: 0 0 8px 0;">
+                                <i class="uil uil-folder-open"></i>
+                                <a href="#" class="category-link" data-category="{{$news->category}}">{{ $news->category }}</a>
+                            </li>
+
+
+                            <form id="categoryForm" method="POST" action="{{ route('all_news.post') }}" style="display: none;">
+                                @csrf
+                                <input type="hidden" name="news_category" id="categoryInput">
+                            </form>
+                        </ul>
+                    </div><!-- .entry-meta end -->
+
+                    <!-- Entry Image
+							============================================= -->
+                    <div class="entry-image mb-5">
+                        <a href="#"><img src="{{asset($news->ei1_path)}}" alt="Blog Single"></a>
+                    </div><!-- .entry-image end -->
+
+                    <!-- Entry Content
+							============================================= -->
+                    <div class="entry-content mt-0">
+
+                        <!-- Post Single - Content End -->
+                        <p style="text-align:justify">
+                            @php
+                            echo nl2br(html_entity_decode($news->event_full_description));
+                            @endphp
+                        </p>
+
+
+
+
+                        <section id="content">
+                            <div class="content-wrap">
+                                <div class="container">
+                                    <div class="row " data-lightbox="gallery">
+                                        @if(!empty($news->ei1_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei1_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei1_path)}}" alt="Gallery Thumb 1"></a>
+                                        @endif
+
+                                        @if(!empty($news->ei2_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei2_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei2_path)}}" alt="Gallery Thumb 2"></a>
+                                        @endif
+
+                                        @if(!empty($news->ei3_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei3_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei3_path)}}" alt="Gallery Thumb 3"></a>
+                                        @endif
+
+                                        @if(!empty($news->ei4_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei4_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei4_path)}}" alt="Gallery Thumb 4"></a>
+                                        @endif
+
+                                        @if(!empty($news->ei5_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei5_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei5_path)}}" alt="Gallery Thumb 5"></a>
+                                        @endif
+
+                                        @if(!empty($news->ei6_path))
+                                        <a class="grid-item col-4" href="{{asset($news->ei6_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei6_path)}}" alt="Gallery Thumb 6"></a>
+                                        @endif
+
+                                    </div>
+
+                                    <div class="divider"><i class="bi-circle-fill"></i></div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Tag Cloud
 								============================================= -->
-                                {{-- <h3 class="mb-2">Categories</h3>
+                        {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
                                 <a href="#">information</a>
@@ -145,12 +202,12 @@
                                 <a href="#">illustration</a>
                             </div><!-- .tagcloud end --> --}}
 
-                            <div class="clear"></div>
-                        </div>
-                    </div><!-- .entry end -->
+                        <div class="clear"></div>
+                    </div>
+                </div><!-- .entry end -->
 
-                    {{-- <h4 class="fs-4 fw-medium">Recommended for you</h4> --}}
-                    {{-- <div class="related-posts row posts-md g-4">
+                {{-- <h4 class="fs-4 fw-medium">Recommended for you</h4> --}}
+                {{-- <div class="related-posts row posts-md g-4">
                         <div class="entry col-12 col-md-6 col-lg-4">
                             <div class="grid-inner row align-items-center gx-4">
                                 <div class="col-auto">
@@ -222,9 +279,9 @@
                         </div>
                     </div> --}}
 
-                    <!-- Comments
+                <!-- Comments
 						============================================= -->
-                    {{-- <div id="comments">
+                {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
 
@@ -397,15 +454,27 @@
 
                     </div><!-- #comments end --> --}}
 
-                </div>
-
             </div>
-        </div>
-    </section><!-- #content end -->
 
-</div><!-- #wrapper end -->
+        </div>
+    </div>
+</section><!-- #content end -->
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.category-link').on('click', function(e) {
+            e.preventDefault(); // Prevent default link behavior
+
+            var category = $(this).data('category'); // Get category from data attribute
+            $('#categoryInput').val(category); // Set category value in hidden form
+            $('#categoryForm').submit(); // Submit the hidden form
+        });
+    });
+</script>
 
 <!-- Go To Top
 	============================================= -->
 
-    @endsection
+@endsection

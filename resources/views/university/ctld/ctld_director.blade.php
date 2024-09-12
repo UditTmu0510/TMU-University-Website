@@ -9,7 +9,7 @@
                     Director</span></h1>
 
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="{{asset('/assets/img/aboutus/administration/ctld_head1.jpg')}}"
+                <img src="{{asset('/assets/img/department/ctld/ctld_head1.jpg')}}"
                     alt="krishnia_principal" >
             </div>
             <div class="col-md-8">

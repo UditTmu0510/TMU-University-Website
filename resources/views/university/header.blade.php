@@ -214,7 +214,7 @@
                                         <a class="nav-link" href="{{route('iqac.about')}}">IQAC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Blogs</a>
+                                        <a class="nav-link" href="{{route('all_blogs')}}">Blogs</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Allumni</a>

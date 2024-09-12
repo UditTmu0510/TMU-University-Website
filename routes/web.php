@@ -12,7 +12,20 @@ use App\Http\Controllers\Backend\ProgrammesController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
-
+use App\Http\Controllers\AgricultureController;
+use App\Http\Controllers\CcsitController;
+use App\Http\Controllers\DentalController;
+use App\Http\Controllers\EducationController;
+use App\Http\Controllers\EngineeringController;
+use App\Http\Controllers\FineartsController;
+use App\Http\Controllers\LawController;
+use App\Http\Controllers\ManagementController;
+use App\Http\Controllers\MedicalController;
+use App\Http\Controllers\NursingController;
+use App\Http\Controllers\ParamedicalController;
+use App\Http\Controllers\PharmacyController;
+use App\Http\Controllers\PhysicaleducationController;
+use App\Http\Controllers\PhysiotherapyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,6 +79,10 @@ Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-
 Route::get('news/{slug}', [NewsController::class, 'news_info']);
 Route::get('programme/{slug}', [TmuController::class, 'programme']);
 Route::get('/news', [NewsController::class, 'all_news'])->name('all_news');
+Route::post('/news', [NewsController::class, 'all_news'])->name('all_news.post');
+Route::get('/blog/{slug}', [BlogsController::class, 'blog_info'])->name('blog_info');;
+Route::get('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs');
+Route::post('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
 
 
 // Instructor  Group Middleware Starts
@@ -200,6 +217,22 @@ Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_ant
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
 Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance_submit_suggestion'])->name('greviance.submit.suggestion');
 
+
+// Footer links 
+Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
+Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
+Route::get('/tmu/application-form', [TmuController::class, 'application_form'])->name('application.form');
+Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
+Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
+Route::get('/tmu/jinalaya', [TmuController::class, 'jinalaya'])->name('jinalaya');
+Route::get('/tmu/yoga-and-meditation-hall', [TmuController::class, 'yoga_and_meditation_hall'])->name('yoga.and.meditation.hall');
+Route::get('/tmu/music-and-dance-room', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
+Route::get('/tmu/banking-facility', [TmuController::class, 'banking_facility'])->name('banking.facility');
+Route::get('/tmu/faculty-accomodation', [TmuController::class, 'faculty_accomodation'])->name('faculty.accomodation');
+Route::get('/tmu/guest-house', [TmuController::class, 'guest_house'])->name('guest.house');
+
+
+
 // RDC_QUICK_LINKS
 Route::get('/research-and-development-center', [TmuController::class, 'research_development_center_about'])->name('research.development.center.about');
 Route::get('/research-and-development-center/faculty-profile', [TmuController::class, 'rdc_faculty_profile'])->name('rdc.faculty.profile');
@@ -260,286 +293,286 @@ Route::get('/tmu/cbcs-agriculture-sciences', [TmuController::class, 'cbcs_agricu
 
 // Management college
 
-Route::get('/tmimt-college-of-management', [TmuController::class, 'tmimt_college_of_management'])->name('tmimt.home');
-Route::get('/tmimt-college-of-management/about-us', [TmuController::class, 'mgmt_overview'])->name('mgmt.overview');
-Route::get('/tmimt-college-of-management/college-highlight', [TmuController::class, 'mgmt_highlight'])->name('mgmt.highlight');
-Route::get('/tmimt-college-of-management/principal', [TmuController::class, 'mgmt_principal'])->name('mgmt.principal');
+Route::get('/tmimt-college-of-management', [ManagementController::class, 'index'])->name('tmimt.home');
+Route::get('/tmimt-college-of-management/about-us', [ManagementController::class, 'mgmt_overview'])->name('mgmt.overview');
+Route::get('/tmimt-college-of-management/college-highlight', [ManagementController::class, 'mgmt_highlight'])->name('mgmt.highlight');
+Route::get('/tmimt-college-of-management/principal', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
 // Route::get('/tmimt-college-of-management/syllabus', [TmuController::class, '#'])->name('mgmt.overview');
-Route::get('/tmimt-college-of-management/academic-calendar', [TmuController::class, 'mgmt_academic_calendar'])->name('mgmt.academic.calendar');
-Route::get('/tmimt-college-of-management/training-placement-cell', [TmuController::class, 'training_placements_cell'])->name('mgmt.tpc');
-Route::get('/tmimt-college-of-management/corporate-advisory-board', [TmuController::class, 'corporate_advisory_board'])->name('mgmt.ca.board');
-Route::get('/tmimt-college-of-management/placement-calendar', [TmuController::class, 'mgmt_placement_calendar'])->name('mgmt.placement.calendar');
-Route::get('/tmimt-college-of-management/placement-brochure', [TmuController::class, 'mgmt_placement_brochure'])->name('mgmt.placement.brochure');
-Route::get('/tmimt-college-of-management/placement-news', [TmuController::class, 'mgmt_news'])->name('mgmt.news');
-Route::get('/tmimt-college-of-management/time-table', [TmuController::class, 'mgmt_timetable'])->name('mgmt.timetable');
-Route::get('/tmimt-college-of-management/anti-ragging-committee', [TmuController::class, 'mgmt_anti_ragging'])->name('mgmt.anti.ragging');
-Route::get('/tmimt-college-of-management/guest-lecture', [TmuController::class, 'mgmt_guestlecture'])->name('mgmt.guestlecture');
+Route::get('/tmimt-college-of-management/academic-calendar', [ManagementController::class, 'mgmt_academic_calendar'])->name('mgmt.academic.calendar');
+Route::get('/tmimt-college-of-management/training-placement-cell', [ManagementController::class, 'training_placements_cell'])->name('mgmt.tpc');
+Route::get('/tmimt-college-of-management/corporate-advisory-board', [ManagementController::class, 'corporate_advisory_board'])->name('mgmt.ca.board');
+Route::get('/tmimt-college-of-management/placement-calendar', [ManagementController::class, 'mgmt_placement_calendar'])->name('mgmt.placement.calendar');
+Route::get('/tmimt-college-of-management/placement-brochure', [ManagementController::class, 'mgmt_placement_brochure'])->name('mgmt.placement.brochure');
+Route::get('/tmimt-college-of-management/placement-news', [ManagementController::class, 'mgmt_news'])->name('mgmt.news');
+Route::get('/tmimt-college-of-management/time-table', [ManagementController::class, 'mgmt_timetable'])->name('mgmt.timetable');
+Route::get('/tmimt-college-of-management/anti-ragging-committee', [ManagementController::class, 'mgmt_anti_ragging'])->name('mgmt.anti.ragging');
+Route::get('/tmimt-college-of-management/guest-lecture', [ManagementController::class, 'mgmt_guestlecture'])->name('mgmt.guestlecture');
 // Route::get('/tmimt-college-of-management/gallery', [TmuController::class, 'mgmt_overview'])->name('mgmt.overview');
-Route::get('/tmimt-college-of-management/contact-us', [TmuController::class, 'mgmt_contactus'])->name('mgmt.contactus');
-Route::get('/tmimt-college-of-management/event-magazine', [TmuController::class, 'mgmt_magazine'])->name('mgmt.magazine');
-Route::get('/tmimt-college-of-management/sc-st-committee', [TmuController::class, 'mgmt_scst_committee'])->name('mgmt.scst.committee');
-Route::get('/tmimt-college-of-management/icc-committee', [TmuController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
-Route::get('/tmimt-college-of-management/gallery', [TmuController::class, 'mgmt_gallery'])->name('mgmt.gallery');
+Route::get('/tmimt-college-of-management/contact-us', [ManagementController::class, 'mgmt_contactus'])->name('mgmt.contactus');
+Route::get('/tmimt-college-of-management/event-magazine', [ManagementController::class, 'mgmt_magazine'])->name('mgmt.magazine');
+Route::get('/tmimt-college-of-management/sc-st-committee', [ManagementController::class, 'mgmt_scst_committee'])->name('mgmt.scst.committee');
+Route::get('/tmimt-college-of-management/icc-committee', [ManagementController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
+Route::get('/tmimt-college-of-management/gallery', [ManagementController::class, 'mgmt_gallery'])->name('mgmt.gallery');
 
 // Fine arts 
-Route::get('/college-of-fine-arts', [TmuController::class, 'fine_arts_home'])->name('fine_arts.home');
-Route::get('/college-of-fine-arts/about-us', [TmuController::class, 'fine_arts_overview'])->name('fine.arts.overview');
-Route::get('/college-of-fine-arts/college-highlight', [TmuController::class, 'fine_arts_highlights'])->name('fine.arts.highlights');
-Route::get('/college-of-fine-arts/hod', [TmuController::class, 'fine_arts_hod'])->name('fine.arts.hod');
+Route::get('/college-of-fine-arts', [FineartsController::class, 'index'])->name('fine_arts.home');
+Route::get('/college-of-fine-arts/about-us', [FineartsController::class, 'fine_arts_overview'])->name('fine.arts.overview');
+Route::get('/college-of-fine-arts/college-highlight', [FineartsController::class, 'fine_arts_highlights'])->name('fine.arts.highlights');
+Route::get('/college-of-fine-arts/hod', [FineartsController::class, 'fine_arts_hod'])->name('fine.arts.hod');
 // Route::get('/college-of-fine-arts/programs', [TmuController::class, ''])->name('');
 // Route::get('/college-of-fine-arts/programme-structure', [TmuController::class, ''])->name('');
-Route::get('/college-of-fine-arts/syllabus', [TmuController::class, 'fine_arts_syllabus'])->name('fine.arts.syllabus');
-Route::get('/college-of-fine-arts/academic-calendar', [TmuController::class, 'fine_arts_academic_calendar'])->name('fine.arts.academic.calendar');
+Route::get('/college-of-fine-arts/syllabus', [FineartsController::class, 'fine_arts_syllabus'])->name('fine.arts.syllabus');
+Route::get('/college-of-fine-arts/academic-calendar', [FineartsController::class, 'fine_arts_academic_calendar'])->name('fine.arts.academic.calendar');
 // Route::get('/college-of-fine-arts/study-material', [TmuController::class, ''])->name('');
-Route::get('/college-of-fine-arts/time-table', [TmuController::class, 'fine_arts_timetable'])->name('fine.arts.timetable');
-Route::get('/college-of-fine-arts/anti-ragging-committee', [TmuController::class, 'fine_arts_anti_ragging'])->name('fine.arts.anti.ragging');
-Route::get('/college-of-fine-arts/gallery', [TmuController::class, 'fine_arts_gallery'])->name('fine.arts.gallery');
-Route::get('/college-of-fine-arts/contact-us', [TmuController::class, 'fine_arts_contact_us'])->name('fine.arts.contact.us');
-Route::get('/college-of-fine-arts/iqac', [TmuController::class, 'fine_arts_iqac'])->name('fine.arts.iqac');
+Route::get('/college-of-fine-arts/time-table', [FineartsController::class, 'fine_arts_timetable'])->name('fine.arts.timetable');
+Route::get('/college-of-fine-arts/anti-ragging-committee', [FineartsController::class, 'fine_arts_anti_ragging'])->name('fine.arts.anti.ragging');
+Route::get('/college-of-fine-arts/gallery', [FineartsController::class, 'fine_arts_gallery'])->name('fine.arts.gallery');
+Route::get('/college-of-fine-arts/contact-us', [FineartsController::class, 'fine_arts_contact_us'])->name('fine.arts.contact.us');
+Route::get('/college-of-fine-arts/iqac', [FineartsController::class, 'fine_arts_iqac'])->name('fine.arts.iqac');
 
 // Engineering College
 
-Route::get('/faculty-of-engineering', [TmuController::class, 'engineering_home'])->name('engineering.home');
-Route::get('/faculty-of-engineering/about-us', [TmuController::class, 'engineering_about_us'])->name('engineering.about.us');
-Route::get('/faculty-of-engineering/college-highlight', [TmuController::class, 'engineering_highlights'])->name('engineering.highlights');
-Route::get('/faculty-of-engineering/director', [TmuController::class, 'engineering_principal'])->name('engineering.principal');
-Route::get('/faculty-of-engineering/academic-calendar', [TmuController::class, 'engineering_academic_calednar'])->name('engineering.academic.calednar');
-Route::get('/faculty-of-engineering/nba', [TmuController::class, 'engineering_nba'])->name('engineering.nba');
-Route::get('/faculty-of-engineering/corporate-advisory-board', [TmuController::class, 'engineering_corporate_advisory_board'])->name('engineering.corporate.advisory.board');
-Route::get('/faculty-of-engineering/placement-calendar', [TmuController::class, 'engineering_placement_calendar'])->name('engineering.placement.calendar');
-Route::get('/faculty-of-engineering/placement-brochure', [TmuController::class, 'engineering_placement_brochure'])->name('engineering.placement.brochure');
-Route::get('/faculty-of-engineering/placement-news', [TmuController::class, 'engineering_placement_news'])->name('engineering.placement.news');
-Route::get('/faculty-of-engineering/project-guidelines', [TmuController::class, 'engineering_project_guidelines'])->name('engineering.project.guidelines');
-Route::get('/faculty-of-engineering/project-templates', [TmuController::class, 'engineering_project_template'])->name('engineering.project.template');
-Route::get('/faculty-of-engineering/time-table', [TmuController::class, 'engineering_timetable'])->name('engineering.timetable');
-Route::get('/faculty-of-engineering/anti-ragging-committee', [TmuController::class, 'engineering_anti_ragging'])->name('engineering.anti.ragging');
-Route::get('/faculty-of-engineering/financial-statement', [TmuController::class, 'engineering_financial_statement'])->name('engineering.financial.statement');
-Route::get('/faculty-of-engineering/contact-us', [TmuController::class, 'engineering_contact_us'])->name('engineering.contact.us');
-Route::get('/faculty-of-engineering/foe-college-gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
-Route::get('/faculty-of-engineering/iqac', [TmuController::class, 'engineering_iqac'])->name('engineering.iqac');
-Route::get('/faculty-of-engineering/syllabus', [TmuController::class, 'engineering_syllabus'])->name('engineering.syllabus');
+Route::get('/faculty-of-engineering', [EngineeringController::class, 'index'])->name('engineering.home');
+Route::get('/faculty-of-engineering/about-us', [EngineeringController::class, 'engineering_about_us'])->name('engineering.about.us');
+Route::get('/faculty-of-engineering/college-highlight', [EngineeringController::class, 'engineering_highlights'])->name('engineering.highlights');
+Route::get('/faculty-of-engineering/director', [EngineeringController::class, 'engineering_principal'])->name('engineering.principal');
+Route::get('/faculty-of-engineering/academic-calendar', [EngineeringController::class, 'engineering_academic_calednar'])->name('engineering.academic.calednar');
+Route::get('/faculty-of-engineering/nba', [EngineeringController::class, 'engineering_nba'])->name('engineering.nba');
+Route::get('/faculty-of-engineering/corporate-advisory-board', [EngineeringController::class, 'engineering_corporate_advisory_board'])->name('engineering.corporate.advisory.board');
+Route::get('/faculty-of-engineering/placement-calendar', [EngineeringController::class, 'engineering_placement_calendar'])->name('engineering.placement.calendar');
+Route::get('/faculty-of-engineering/placement-brochure', [EngineeringController::class, 'engineering_placement_brochure'])->name('engineering.placement.brochure');
+Route::get('/faculty-of-engineering/placement-news', [EngineeringController::class, 'engineering_placement_news'])->name('engineering.placement.news');
+Route::get('/faculty-of-engineering/project-guidelines', [EngineeringController::class, 'engineering_project_guidelines'])->name('engineering.project.guidelines');
+Route::get('/faculty-of-engineering/project-templates', [EngineeringController::class, 'engineering_project_template'])->name('engineering.project.template');
+Route::get('/faculty-of-engineering/time-table', [EngineeringController::class, 'engineering_timetable'])->name('engineering.timetable');
+Route::get('/faculty-of-engineering/anti-ragging-committee', [EngineeringController::class, 'engineering_anti_ragging'])->name('engineering.anti.ragging');
+Route::get('/faculty-of-engineering/financial-statement', [EngineeringController::class, 'engineering_financial_statement'])->name('engineering.financial.statement');
+Route::get('/faculty-of-engineering/contact-us', [EngineeringController::class, 'engineering_contact_us'])->name('engineering.contact.us');
+Route::get('/faculty-of-engineering/foe-college-gallery', [EngineeringController::class, 'engineering_gallery'])->name('engineering.gallery');
+Route::get('/faculty-of-engineering/iqac', [EngineeringController::class, 'engineering_iqac'])->name('engineering.iqac');
+Route::get('/faculty-of-engineering/syllabus', [EngineeringController::class, 'engineering_syllabus'])->name('engineering.syllabus');
 // Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 
 
 // CCSIT College
 
-Route::get('/college-of-computing-sciences-and-it', [TmuController::class, 'ccsit_home'])->name('ccsit.home');
-Route::get('/college-of-computing-sciences-and-it/about-us', [TmuController::class, 'ccsit_overview'])->name('ccsit.about.us');
-Route::get('/college-of-computing-sciences-and-it/college-highlight', [TmuController::class, 'ccsit_highlights'])->name('ccsit.highlights');
-Route::get('/college-of-computing-sciences-and-it/principal', [TmuController::class, 'ccsit_principal'])->name('ccsit.principal');
-Route::get('/college-of-computing-sciences-and-it/college-gallery', [TmuController::class, 'ccsit_gallery'])->name('ccsit.gallery');
-Route::get('/college-of-computing-sciences-and-it/academic-calendar', [TmuController::class, 'ccsit_academic_calendar'])->name('ccsit.academic.calendar');
-Route::get('/college-of-computing-sciences-and-it/corporate-advisory-board', [TmuController::class, 'ccsit_corporate_advisory'])->name('ccsit.corporate.advisory');
-Route::get('/college-of-computing-sciences-and-it/placement-calendar', [TmuController::class, 'ccsit_placement_calendar'])->name('ccsit.placement.calendar');
-Route::get('/college-of-computing-sciences-and-it/placement-brochure', [TmuController::class, 'ccsit_placement_brochure'])->name('ccsit.placement.brochure');
-Route::get('/college-of-computing-sciences-and-it/placement-news', [TmuController::class, 'ccsit_placement_news'])->name('ccsit.placement.news');
-Route::get('/college-of-computing-sciences-and-it/project-guidelines', [TmuController::class, 'ccsit_project_guidelines'])->name('ccsit.project.guidelines');
-Route::get('/college-of-computing-sciences-and-it/project-templates', [TmuController::class, 'ccsit_project_templates'])->name('ccsit.project.templates');
-Route::get('/college-of-computing-sciences-and-it/time-table', [TmuController::class, 'ccsit_timetable'])->name('ccsit.timetable');
-Route::get('/college-of-computing-sciences-and-it/anti-ragging-committee', [TmuController::class, 'ccsit_anti_ragging'])->name('ccsit.anti.ragging');
-Route::get('/college-of-computing-sciences-and-it/kaaryashala', [TmuController::class, 'ccsit_karyashala'])->name('ccsit.karyashala');
-Route::get('/college-of-computing-sciences-and-it/event-magazine', [TmuController::class, 'ccsit_event_magazine'])->name('ccsit.event.magazine');
-Route::get('/college-of-computing-sciences-and-it/guest-lecture', [TmuController::class, 'ccsit_guest_lecture'])->name('ccsit.guest.lecture');
-Route::get('/college-of-computing-sciences-and-it/contact-us', [TmuController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
-Route::get('/college-of-computing-sciences-and-it/syllabus', [TmuController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
+Route::get('/college-of-computing-sciences-and-it', [CcsitController::class, 'index'])->name('ccsit.home');
+Route::get('/college-of-computing-sciences-and-it/about-us', [CcsitController::class, 'ccsit_overview'])->name('ccsit.about.us');
+Route::get('/college-of-computing-sciences-and-it/college-highlight', [CcsitController::class, 'ccsit_highlights'])->name('ccsit.highlights');
+Route::get('/college-of-computing-sciences-and-it/principal', [CcsitController::class, 'ccsit_principal'])->name('ccsit.principal');
+Route::get('/college-of-computing-sciences-and-it/college-gallery', [CcsitController::class, 'ccsit_gallery'])->name('ccsit.gallery');
+Route::get('/college-of-computing-sciences-and-it/academic-calendar', [CcsitController::class, 'ccsit_academic_calendar'])->name('ccsit.academic.calendar');
+Route::get('/college-of-computing-sciences-and-it/corporate-advisory-board', [CcsitController::class, 'ccsit_corporate_advisory'])->name('ccsit.corporate.advisory');
+Route::get('/college-of-computing-sciences-and-it/placement-calendar', [CcsitController::class, 'ccsit_placement_calendar'])->name('ccsit.placement.calendar');
+Route::get('/college-of-computing-sciences-and-it/placement-brochure', [CcsitController::class, 'ccsit_placement_brochure'])->name('ccsit.placement.brochure');
+Route::get('/college-of-computing-sciences-and-it/placement-news', [CcsitController::class, 'ccsit_placement_news'])->name('ccsit.placement.news');
+Route::get('/college-of-computing-sciences-and-it/project-guidelines', [CcsitController::class, 'ccsit_project_guidelines'])->name('ccsit.project.guidelines');
+Route::get('/college-of-computing-sciences-and-it/project-templates', [CcsitController::class, 'ccsit_project_templates'])->name('ccsit.project.templates');
+Route::get('/college-of-computing-sciences-and-it/time-table', [CcsitController::class, 'ccsit_timetable'])->name('ccsit.timetable');
+Route::get('/college-of-computing-sciences-and-it/anti-ragging-committee', [CcsitController::class, 'ccsit_anti_ragging'])->name('ccsit.anti.ragging');
+Route::get('/college-of-computing-sciences-and-it/kaaryashala', [CcsitController::class, 'ccsit_karyashala'])->name('ccsit.karyashala');
+Route::get('/college-of-computing-sciences-and-it/event-magazine', [CcsitController::class, 'ccsit_event_magazine'])->name('ccsit.event.magazine');
+Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitController::class, 'ccsit_guest_lecture'])->name('ccsit.guest.lecture');
+Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
+Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
 
 
 
 // Medical College
-Route::get('/medical-college-and-research-centre', [TmuController::class, 'medical_home'])->name('medical.home');
-Route::get('/medical-college-and-research-centre/about-us', [TmuController::class, 'medical_about_us'])->name('medical.about.us');
-Route::get('/medical-college-and-research-centre/college-information', [TmuController::class, 'medical_college_info'])->name('medical.college.info');
-Route::get('/medical-college-and-research-centre/infrastructure', [TmuController::class, 'medical_infra'])->name('medical_infra');
-Route::get('/medical-college-and-research-centre/citizen-charter', [TmuController::class, 'medical_citizens'])->name('medical.citizens');
-Route::get('/medical-college-and-research-centre/college-highlight', [TmuController::class, 'medical_highlights'])->name('medical.highlights');
-Route::get('/medical-college-and-research-centre/principal', [TmuController::class, 'medical_principal'])->name('medical.principal');
-Route::get('/medical-college-and-research-centre/ms', [TmuController::class, 'medical_supritendent'])->name('medical.supritendent');
-Route::get('/medical-college-and-research-centre/affiliation', [TmuController::class, 'medical_affliation'])->name('medical.affliation');
-Route::get('/medical-college-and-research-centre/govt-approval', [TmuController::class, 'medical_approvals'])->name('medical_approvals');
-Route::get('/medical-college-and-research-centre/sanctioned-intake', [TmuController::class, 'medical_sanctioned_intake'])->name('medical.sanctioned.intake');
-Route::get('/medical-college-and-research-centre/department', [TmuController::class, 'medical_departements'])->name('medical.departements');
-Route::get('/medical-college-and-research-centre/foundation-course', [TmuController::class, 'medical_foundation'])->name('medical.foundation');
-Route::get('/medical-college-and-research-centre/learning-objective', [TmuController::class, 'medical_learning'])->name('medical.learning');
-Route::get('/medical-college-and-research-centre/academic-calendar', [TmuController::class, 'medical_academic_calendar'])->name('medical.academic.calendar');
-Route::get('/medical-college-and-research-centre/aebas-attendance', [TmuController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
-Route::get('/medical-college-and-research-centre/stipend', [TmuController::class, 'medical_stipend'])->name('medical.stipend');
-Route::get('/medical-college-and-research-centre/student-details', [TmuController::class, 'medical_students_details'])->name('medical.students.details');
-Route::get('/medical-college-and-research-centre/time-table', [TmuController::class, 'medical_timetable'])->name('medical.timetable');
-Route::get('/medical-college-and-research-centre/teaching-schedule', [TmuController::class, 'medical_tecahing'])->name('medical.tecahing');
-Route::get('/medical-college-and-research-centre/best-practices', [TmuController::class, 'medical_bestpractice'])->name('medical.bestpractice');
-Route::get('/medical-college-and-research-centre/anti-ragging-committee', [TmuController::class, 'medical_anti_ragg'])->name('medical.anti.ragg');
-Route::get('/medical-college-and-research-centre/gender-harassment-committee', [TmuController::class, 'medical_ghc'])->name('medical.ghc');
-Route::get('/medical-college-and-research-centre/gallery', [TmuController::class, 'medical_gallery'])->name('medical.gallery');
-Route::get('/medical-college-and-research-centre/contact-us', [TmuController::class, 'medical_contactus'])->name('medical.contactus');
+Route::get('/medical-college-and-research-centre', [MedicalController::class, 'index'])->name('medical.home');
+Route::get('/medical-college-and-research-centre/about-us', [MedicalController::class, 'medical_about_us'])->name('medical.about.us');
+Route::get('/medical-college-and-research-centre/college-information', [MedicalController::class, 'medical_college_info'])->name('medical.college.info');
+Route::get('/medical-college-and-research-centre/infrastructure', [MedicalController::class, 'medical_infra'])->name('medical_infra');
+Route::get('/medical-college-and-research-centre/citizen-charter', [MedicalController::class, 'medical_citizens'])->name('medical.citizens');
+Route::get('/medical-college-and-research-centre/college-highlight', [MedicalController::class, 'medical_highlights'])->name('medical.highlights');
+Route::get('/medical-college-and-research-centre/principal', [MedicalController::class, 'medical_principal'])->name('medical.principal');
+Route::get('/medical-college-and-research-centre/ms', [MedicalController::class, 'medical_supritendent'])->name('medical.supritendent');
+Route::get('/medical-college-and-research-centre/affiliation', [MedicalController::class, 'medical_affliation'])->name('medical.affliation');
+Route::get('/medical-college-and-research-centre/govt-approval', [MedicalController::class, 'medical_approvals'])->name('medical_approvals');
+Route::get('/medical-college-and-research-centre/sanctioned-intake', [MedicalController::class, 'medical_sanctioned_intake'])->name('medical.sanctioned.intake');
+Route::get('/medical-college-and-research-centre/department', [MedicalController::class, 'medical_departements'])->name('medical.departements');
+Route::get('/medical-college-and-research-centre/foundation-course', [MedicalController::class, 'medical_foundation'])->name('medical.foundation');
+Route::get('/medical-college-and-research-centre/learning-objective', [MedicalController::class, 'medical_learning'])->name('medical.learning');
+Route::get('/medical-college-and-research-centre/academic-calendar', [MedicalController::class, 'medical_academic_calendar'])->name('medical.academic.calendar');
+Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
+Route::get('/medical-college-and-research-centre/stipend', [MedicalController::class, 'medical_stipend'])->name('medical.stipend');
+Route::get('/medical-college-and-research-centre/student-details', [MedicalController::class, 'medical_students_details'])->name('medical.students.details');
+Route::get('/medical-college-and-research-centre/time-table', [MedicalController::class, 'medical_timetable'])->name('medical.timetable');
+Route::get('/medical-college-and-research-centre/teaching-schedule', [MedicalController::class, 'medical_tecahing'])->name('medical.tecahing');
+Route::get('/medical-college-and-research-centre/best-practices', [MedicalController::class, 'medical_bestpractice'])->name('medical.bestpractice');
+Route::get('/medical-college-and-research-centre/anti-ragging-committee', [MedicalController::class, 'medical_anti_ragg'])->name('medical.anti.ragg');
+Route::get('/medical-college-and-research-centre/gender-harassment-committee', [MedicalController::class, 'medical_ghc'])->name('medical.ghc');
+Route::get('/medical-college-and-research-centre/gallery', [MedicalController::class, 'medical_gallery'])->name('medical.gallery');
+Route::get('/medical-college-and-research-centre/contact-us', [MedicalController::class, 'medical_contactus'])->name('medical.contactus');
 
 // Dental
-Route::get('/dental-college-and-research-centre', [TmuController::class, 'dental_home'])->name('dental.home');
-Route::get('/dental-college-and-research-centre/about-us', [TmuController::class, 'dental_overview'])->name('dental.overview');
-Route::get('/dental-college-and-research-centre/college-highlight', [TmuController::class, 'dental_college_highlight'])->name('dental.college.highlight');
-Route::get('/dental-college-and-research-centre/principal', [TmuController::class, 'dental_principal'])->name('dental.principal');
-Route::get('/dental-college-and-research-centre/college-advisory-board', [TmuController::class, 'dental_college_advisory_board'])->name('dental.college.advisory.board');
-Route::get('/dental-college-and-research-centre/department', [TmuController::class, 'dental_department'])->name('dental.department');
-Route::get('/dental-college-and-research-centre/syllabus', [TmuController::class, 'dental_syllabus'])->name('dental_syllabus');
-Route::get('/dental-college-and-research-centre/academic-calendar', [TmuController::class, 'dental_academic_calendar'])->name('dental.academic.calendar');
-Route::get('/dental-college-and-research-centre/time-table', [TmuController::class, 'dental_timetable'])->name('dental.timetable');
-Route::get('/dental-college-and-research-centre/anti-ragging-committee', [TmuController::class, 'dental_anti_ragging'])->name('dental.anti.ragging');
-Route::get('/dental-college-and-research-centre/guest-lecture', [TmuController::class, 'dental_guest_lecture'])->name('dental.guest.lecture');
-Route::get('/dental-college-and-research-centre/gallery', [TmuController::class, 'dental_gallery'])->name('dental.gallery');
-Route::get('/dental-college-and-research-centre/contact-us', [TmuController::class, 'dental_contact_us'])->name('dental.contact.us');
-Route::get('/dental-college-and-research-centre/iqac', [TmuController::class, 'dental_iqac'])->name('dental.iqac');
-Route::get('/dental-college-and-research-centre/conservative-dentistry-endodontics', [TmuController::class, 'dental_conservative_dentistry_endodontics'])->name('dental.conservative.dentistry.endodontics');
-Route::get('/dental-college-and-research-centre/oral-maxillofacial-surgery', [TmuController::class, 'dental_oral_maxillofacial_surgery'])->name('dental.oral.maxillofacial.surgery');
-Route::get('/dental-college-and-research-centre/orthodontics-dentofacial-orthopedics', [TmuController::class, 'dental_orthodontics'])->name('dental.orthodontics');
-Route::get('/dental-college-and-research-centre/prosthodontics-crown-bridge', [TmuController::class, 'dental_Prosthodontics'])->name('dental.Prosthodontics');
-Route::get('/dental-college-and-research-centre/paedodontics-preventive-dentistry', [TmuController::class, 'dental_paedodontics'])->name('dental.paedodontics');
-Route::get('/dental-college-and-research-centre/periodontology', [TmuController::class, 'dental_periodontology'])->name('dental.periodontology');
-Route::get('/dental-college-and-research-centre/public-health-dentistry', [TmuController::class, 'dental_public_health'])->name('dental.public.health');
-Route::get('/dental-college-and-research-centre/oral-medicine-radiology', [TmuController::class, 'dental_oral_medicine'])->name('dental.oral.medicine');
-Route::get('/dental-college-and-research-centre/oral-pathology-microbiology', [TmuController::class, 'dental_oral_pathology'])->name('dental.oral.pathology');
+Route::get('/dental-college-and-research-centre', [DentalController::class, 'index'])->name('dental.home');
+Route::get('/dental-college-and-research-centre/about-us', [DentalController::class, 'dental_overview'])->name('dental.overview');
+Route::get('/dental-college-and-research-centre/college-highlight', [DentalController::class, 'dental_college_highlight'])->name('dental.college.highlight');
+Route::get('/dental-college-and-research-centre/principal', [DentalController::class, 'dental_principal'])->name('dental.principal');
+Route::get('/dental-college-and-research-centre/college-advisory-board', [DentalController::class, 'dental_college_advisory_board'])->name('dental.college.advisory.board');
+Route::get('/dental-college-and-research-centre/department', [DentalController::class, 'dental_department'])->name('dental.department');
+Route::get('/dental-college-and-research-centre/syllabus', [DentalController::class, 'dental_syllabus'])->name('dental_syllabus');
+Route::get('/dental-college-and-research-centre/academic-calendar', [DentalController::class, 'dental_academic_calendar'])->name('dental.academic.calendar');
+Route::get('/dental-college-and-research-centre/time-table', [DentalController::class, 'dental_timetable'])->name('dental.timetable');
+Route::get('/dental-college-and-research-centre/anti-ragging-committee', [DentalController::class, 'dental_anti_ragging'])->name('dental.anti.ragging');
+Route::get('/dental-college-and-research-centre/guest-lecture', [DentalController::class, 'dental_guest_lecture'])->name('dental.guest.lecture');
+Route::get('/dental-college-and-research-centre/gallery', [DentalController::class, 'dental_gallery'])->name('dental.gallery');
+Route::get('/dental-college-and-research-centre/contact-us', [DentalController::class, 'dental_contact_us'])->name('dental.contact.us');
+Route::get('/dental-college-and-research-centre/iqac', [DentalController::class, 'dental_iqac'])->name('dental.iqac');
+Route::get('/dental-college-and-research-centre/conservative-dentistry-endodontics', [DentalController::class, 'dental_conservative_dentistry_endodontics'])->name('dental.conservative.dentistry.endodontics');
+Route::get('/dental-college-and-research-centre/oral-maxillofacial-surgery', [DentalController::class, 'dental_oral_maxillofacial_surgery'])->name('dental.oral.maxillofacial.surgery');
+Route::get('/dental-college-and-research-centre/orthodontics-dentofacial-orthopedics', [DentalController::class, 'dental_orthodontics'])->name('dental.orthodontics');
+Route::get('/dental-college-and-research-centre/prosthodontics-crown-bridge', [DentalController::class, 'dental_Prosthodontics'])->name('dental.Prosthodontics');
+Route::get('/dental-college-and-research-centre/paedodontics-preventive-dentistry', [DentalController::class, 'dental_paedodontics'])->name('dental.paedodontics');
+Route::get('/dental-college-and-research-centre/periodontology', [DentalController::class, 'dental_periodontology'])->name('dental.periodontology');
+Route::get('/dental-college-and-research-centre/public-health-dentistry', [DentalController::class, 'dental_public_health'])->name('dental.public.health');
+Route::get('/dental-college-and-research-centre/oral-medicine-radiology', [DentalController::class, 'dental_oral_medicine'])->name('dental.oral.medicine');
+Route::get('/dental-college-and-research-centre/oral-pathology-microbiology', [DentalController::class, 'dental_oral_pathology'])->name('dental.oral.pathology');
 
 // Physiotherapy
-Route::get('/department-of-physiotherapy', [TmuController::class, 'physiotherapy_home'])->name('physiotherapy.home');
-Route::get('/department-of-physiotherapy/about-us', [TmuController::class, 'physiotherapy_about_us'])->name('physiotherapy.about.us');
-Route::get('/department-of-physiotherapy/college-highlight', [TmuController::class, 'physiotherapy_college_highlights'])->name('physiotherapy.college.highlights');
-Route::get('/department-of-physiotherapy/principal', [TmuController::class, 'physiotherapy_hod'])->name('physiotherapy.hod');
-Route::get('/department-of-physiotherapy/labs', [TmuController::class, 'physiotherapy_labs'])->name('physiotherapy.labs');
-Route::get('/department-of-physiotherapy/syllabus', [TmuController::class, 'physiotherapy_syllabus'])->name('physiotherapy.syllabus');
-Route::get('/department-of-physiotherapy/academic-calendar', [TmuController::class, 'physiotherapy_academic_calendar'])->name('physiotherapy.academic.calendar');
-Route::get('/department-of-physiotherapy/time-table', [TmuController::class, 'physiotherapy_timetable'])->name('physiotherapy.timetable');
-Route::get('/department-of-physiotherapy/anti-ragging-committee', [TmuController::class, 'physiotherapy_anti_ragging'])->name('physiotherapy.anti.ragging');
-Route::get('/department-of-physiotherapy/gallery', [TmuController::class, 'physiotherapy_gallery'])->name('physiotherapy.gallery');
-Route::get('/department-of-physiotherapy/contact-us', [TmuController::class, 'physiotherapy_contact_us'])->name('physiotherapy.contact.us');
-Route::get('/department-of-physiotherapy/labs/electrotherapy-lab', [TmuController::class, 'physiotherapy_electro_lab'])->name('physiotherapy.electro.lab');
-Route::get('/department-of-physiotherapy/labs/exercise-therapy-lab', [TmuController::class, 'physio_exercise_lab'])->name('physio.exercise.lab');
-Route::get('/department-of-physiotherapy/labs/physiotherapy-opd', [TmuController::class, 'physio_opd'])->name('physio.opd');
-Route::get('/department-of-physiotherapy/labs/research-lab', [TmuController::class, 'physio_research_lab'])->name('physio.research.lab');
-Route::get('/department-of-physiotherapy/magazine', [TmuController::class, 'physiotherapy_magazine'])->name('physiotherapy.magazine');
-Route::get('/department-of-physiotherapy/iqac', [TmuController::class, 'physiotherapy_iqac'])->name('physiotherapy.iqac');
-Route::get('/department-of-physiotherapy/sanctioned-intake', [TmuController::class, 'physiotherapy_intake'])->name('physiotherapy.intake');
+Route::get('/department-of-physiotherapy', [PhysiotherapyController::class, 'index'])->name('physiotherapy.home');
+Route::get('/department-of-physiotherapy/about-us', [PhysiotherapyController::class, 'physiotherapy_about_us'])->name('physiotherapy.about.us');
+Route::get('/department-of-physiotherapy/college-highlight', [PhysiotherapyController::class, 'physiotherapy_college_highlights'])->name('physiotherapy.college.highlights');
+Route::get('/department-of-physiotherapy/principal', [PhysiotherapyController::class, 'physiotherapy_hod'])->name('physiotherapy.hod');
+Route::get('/department-of-physiotherapy/labs', [PhysiotherapyController::class, 'physiotherapy_labs'])->name('physiotherapy.labs');
+Route::get('/department-of-physiotherapy/syllabus', [PhysiotherapyController::class, 'physiotherapy_syllabus'])->name('physiotherapy.syllabus');
+Route::get('/department-of-physiotherapy/academic-calendar', [PhysiotherapyController::class, 'physiotherapy_academic_calendar'])->name('physiotherapy.academic.calendar');
+Route::get('/department-of-physiotherapy/time-table', [PhysiotherapyController::class, 'physiotherapy_timetable'])->name('physiotherapy.timetable');
+Route::get('/department-of-physiotherapy/anti-ragging-committee', [PhysiotherapyController::class, 'physiotherapy_anti_ragging'])->name('physiotherapy.anti.ragging');
+Route::get('/department-of-physiotherapy/gallery', [PhysiotherapyController::class, 'physiotherapy_gallery'])->name('physiotherapy.gallery');
+Route::get('/department-of-physiotherapy/contact-us', [PhysiotherapyController::class, 'physiotherapy_contact_us'])->name('physiotherapy.contact.us');
+Route::get('/department-of-physiotherapy/labs/electrotherapy-lab', [PhysiotherapyController::class, 'physiotherapy_electro_lab'])->name('physiotherapy.electro.lab');
+Route::get('/department-of-physiotherapy/labs/exercise-therapy-lab', [PhysiotherapyController::class, 'physio_exercise_lab'])->name('physio.exercise.lab');
+Route::get('/department-of-physiotherapy/labs/physiotherapy-opd', [PhysiotherapyController::class, 'physio_opd'])->name('physio.opd');
+Route::get('/department-of-physiotherapy/labs/research-lab', [PhysiotherapyController::class, 'physio_research_lab'])->name('physio.research.lab');
+Route::get('/department-of-physiotherapy/magazine', [PhysiotherapyController::class, 'physiotherapy_magazine'])->name('physiotherapy.magazine');
+Route::get('/department-of-physiotherapy/iqac', [PhysiotherapyController::class, 'physiotherapy_iqac'])->name('physiotherapy.iqac');
+Route::get('/department-of-physiotherapy/sanctioned-intake', [PhysiotherapyController::class, 'physiotherapy_intake'])->name('physiotherapy.intake');
 
 // Pharmacy
-Route::get('/college-of-pharmacy', [TmuController::class, 'pharmacy_home'])->name('pharmacy.home');
-Route::get('/college-of-pharmacy/about-us', [TmuController::class, 'pharmacy_about_us'])->name('pharmacy.about.us');
-Route::get('/college-of-pharmacy/college-highlight', [TmuController::class, 'pharmacy_college_highlights'])->name('pharmacy.college.highlights');
-Route::get('/college-of-pharmacy/principal', [TmuController::class, 'pharmacy_principal'])->name('pharmacy.principal');
-Route::get('/college-of-pharmacy/infrastructure', [TmuController::class, 'pharmacy_infrastructure'])->name('pharmacy.infrastructure');
-Route::get('/college-of-pharmacy/syllabus', [TmuController::class, 'pharmacy_syllabus'])->name('pharmacy.syllabus');
-Route::get('/college-of-pharmacy/academic-calendar', [TmuController::class, 'pharmacy_academic_calendar'])->name('pharmacy.academic.calendar');
-Route::get('/college-of-pharmacy/time-table', [TmuController::class, 'pharmacy_timetable'])->name('pharmacy.timetable');
-Route::get('/college-of-pharmacy/anti-ragging-committee', [TmuController::class, 'pharmacy_anti_ragging'])->name('pharmacy.anti.ragging');
-Route::get('/college-of-pharmacy/gallery', [TmuController::class, 'pharmacy_gallery'])->name('pharmacy.gallery');
-Route::get('/college-of-pharmacy/contact-us', [TmuController::class, 'pharmacy_contact_us'])->name('pharmacy.contact.us');
-Route::get('/college-of-pharmacy/college-advisory-board', [TmuController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
-Route::get('/college-of-pharmacy/iqac', [TmuController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
+Route::get('/college-of-pharmacy', [PharmacyController::class, 'index'])->name('pharmacy.home');
+Route::get('/college-of-pharmacy/about-us', [PharmacyController::class, 'pharmacy_about_us'])->name('pharmacy.about.us');
+Route::get('/college-of-pharmacy/college-highlight', [PharmacyController::class, 'pharmacy_college_highlights'])->name('pharmacy.college.highlights');
+Route::get('/college-of-pharmacy/principal', [PharmacyController::class, 'pharmacy_principal'])->name('pharmacy.principal');
+Route::get('/college-of-pharmacy/infrastructure', [PharmacyController::class, 'pharmacy_infrastructure'])->name('pharmacy.infrastructure');
+Route::get('/college-of-pharmacy/syllabus', [PharmacyController::class, 'pharmacy_syllabus'])->name('pharmacy.syllabus');
+Route::get('/college-of-pharmacy/academic-calendar', [PharmacyController::class, 'pharmacy_academic_calendar'])->name('pharmacy.academic.calendar');
+Route::get('/college-of-pharmacy/time-table', [PharmacyController::class, 'pharmacy_timetable'])->name('pharmacy.timetable');
+Route::get('/college-of-pharmacy/anti-ragging-committee', [PharmacyController::class, 'pharmacy_anti_ragging'])->name('pharmacy.anti.ragging');
+Route::get('/college-of-pharmacy/gallery', [PharmacyController::class, 'pharmacy_gallery'])->name('pharmacy.gallery');
+Route::get('/college-of-pharmacy/contact-us', [PharmacyController::class, 'pharmacy_contact_us'])->name('pharmacy.contact.us');
+Route::get('/college-of-pharmacy/college-advisory-board', [PharmacyController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
+Route::get('/college-of-pharmacy/iqac', [PharmacyController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
 
 
 // Paramedical
-Route::get('/college-of-paramedical-sciences', [TmuController::class, 'paramedical_home'])->name('paramedical.home');
+Route::get('/college-of-paramedical-sciences', [ParamedicalController::class, 'index'])->name('paramedical.home');
 
-Route::get('/college-of-paramedical-sciences/about-us', [TmuController::class, 'paramedical_about_us'])->name('paramedical.about.us');
-Route::get('/college-of-paramedical-sciences/college-highlight', [TmuController::class, 'paramedical_college_highlights'])->name('paramedical.college.highlights');
-Route::get('/college-of-paramedical-sciences/principal', [TmuController::class, 'paramedical_principal'])->name('paramedical.principal');
-Route::get('/college-of-paramedical-sciences/college-advisory-board', [TmuController::class, 'paramedical_college_advisory_board'])->name('paramedical.college.advisory.board');
-Route::get('/college-of-paramedical-sciences/syllabus', [TmuController::class, 'paramedical_syllabus'])->name('paramedical.syllabus');
-Route::get('/college-of-paramedical-sciences/time-table', [TmuController::class, 'paramedical_timetable'])->name('paramedical.timetable');
-Route::get('/college-of-paramedical-sciences/anti-ragging-committee', [TmuController::class, 'paramedical_anti_ragging'])->name('paramedical.anti.ragging');
-Route::get('/college-of-paramedical-sciences/academic-calendar', [TmuController::class, 'paramedical_academic_calendar'])->name('paramedical.academic.calendar');
-Route::get('/college-of-paramedical-sciences/guest-lecture', [TmuController::class, 'paramedical_guest_lecture'])->name('paramedical.guest.lecture');
-Route::get('/college-of-paramedical-sciences/contact-us', [TmuController::class, 'paramedical_contact_us'])->name('paramedical.contact.us');
-Route::get('/college-of-paramedical-sciences/gallery', [TmuController::class, 'paramedical_gallery'])->name('paramedical.gallery');
-Route::get('/college-of-paramedical-sciences/iqac', [TmuController::class, 'paramedical_iqac'])->name('paramedical_iqac');
+Route::get('/college-of-paramedical-sciences/about-us', [ParamedicalController::class, 'paramedical_about_us'])->name('paramedical.about.us');
+Route::get('/college-of-paramedical-sciences/college-highlight', [ParamedicalController::class, 'paramedical_college_highlights'])->name('paramedical.college.highlights');
+Route::get('/college-of-paramedical-sciences/principal', [ParamedicalController::class, 'paramedical_principal'])->name('paramedical.principal');
+Route::get('/college-of-paramedical-sciences/college-advisory-board', [ParamedicalController::class, 'paramedical_college_advisory_board'])->name('paramedical.college.advisory.board');
+Route::get('/college-of-paramedical-sciences/syllabus', [ParamedicalController::class, 'paramedical_syllabus'])->name('paramedical.syllabus');
+Route::get('/college-of-paramedical-sciences/time-table', [ParamedicalController::class, 'paramedical_timetable'])->name('paramedical.timetable');
+Route::get('/college-of-paramedical-sciences/anti-ragging-committee', [ParamedicalController::class, 'paramedical_anti_ragging'])->name('paramedical.anti.ragging');
+Route::get('/college-of-paramedical-sciences/academic-calendar', [ParamedicalController::class, 'paramedical_academic_calendar'])->name('paramedical.academic.calendar');
+Route::get('/college-of-paramedical-sciences/guest-lecture', [ParamedicalController::class, 'paramedical_guest_lecture'])->name('paramedical.guest.lecture');
+Route::get('/college-of-paramedical-sciences/contact-us', [ParamedicalController::class, 'paramedical_contact_us'])->name('paramedical.contact.us');
+Route::get('/college-of-paramedical-sciences/gallery', [ParamedicalController::class, 'paramedical_gallery'])->name('paramedical.gallery');
+Route::get('/college-of-paramedical-sciences/iqac', [ParamedicalController::class, 'paramedical_iqac'])->name('paramedical_iqac');
 
 
 // Education 
-Route::get('/faculty-of-education', [TmuController::class, 'education_home'])->name('education.home');
-Route::get('/faculty-of-education/principal', [TmuController::class, 'education_principal'])->name('education.principal');
-Route::get('/faculty-of-education/college-highlight', [TmuController::class, 'education_college_highlight'])->name('education.college.highlight');
-Route::get('/faculty-of-education/syllabus', [TmuController::class, 'education_syllabus'])->name('education.syllabus');
-Route::get('/faculty-of-education/academic-calendar', [TmuController::class, 'education_academic_calendar'])->name('education.academic.calendar');
-Route::get('/faculty-of-education/time-table', [TmuController::class, 'education_timetable'])->name('education.timetable');
-Route::get('/faculty-of-education/anti-ragging-committee', [TmuController::class, 'education_anti_ragging'])->name('education.anti.ragging');
-Route::get('/faculty-of-education/guest-lecture', [TmuController::class, 'education_guest_lecture'])->name('education.guest.lecture');
-Route::get('/faculty-of-education/gallery', [TmuController::class, 'education_gallery'])->name('education.gallery');
-Route::get('/faculty-of-education/contact-us', [TmuController::class, 'education_contact_us'])->name('education.contact.us');
-Route::get('/faculty-of-education/iqac', [TmuController::class, 'education_iqac'])->name('education.iqac');
+Route::get('/faculty-of-education', [EducationController::class, 'index'])->name('education.home');
+Route::get('/faculty-of-education/principal', [EducationController::class, 'education_principal'])->name('education.principal');
+Route::get('/faculty-of-education/college-highlight', [EducationController::class, 'education_college_highlight'])->name('education.college.highlight');
+Route::get('/faculty-of-education/syllabus', [EducationController::class, 'education_syllabus'])->name('education.syllabus');
+Route::get('/faculty-of-education/academic-calendar', [EducationController::class, 'education_academic_calendar'])->name('education.academic.calendar');
+Route::get('/faculty-of-education/time-table', [EducationController::class, 'education_timetable'])->name('education.timetable');
+Route::get('/faculty-of-education/anti-ragging-committee', [EducationController::class, 'education_anti_ragging'])->name('education.anti.ragging');
+Route::get('/faculty-of-education/guest-lecture', [EducationController::class, 'education_guest_lecture'])->name('education.guest.lecture');
+Route::get('/faculty-of-education/gallery', [EducationController::class, 'education_gallery'])->name('education.gallery');
+Route::get('/faculty-of-education/contact-us', [EducationController::class, 'education_contact_us'])->name('education.contact.us');
+Route::get('/faculty-of-education/iqac', [EducationController::class, 'education_iqac'])->name('education.iqac');
 
 
 // Agriculture
-Route::get('/college-of-agriculture-sciences', [TmuController::class, 'agriculture_home'])->name('agriculture.home');
-Route::get('/college-of-agriculture-sciences/academic-calendar', [TmuController::class, 'agriculture_academic_calendar'])->name('agriculture.academic.calendar');
-Route::get('/college-of-agriculture-sciences/anti-ragging-committee', [TmuController::class, 'agriculture_anti_ragging'])->name('agriculture.anti.ragging');
-Route::get('/college-of-agriculture-sciences/corporate-advisory-board', [TmuController::class, 'agriculture_cab'])->name('agriculture.cab');
-Route::get('/college-of-agriculture-sciences/agri-choupal-magzine', [TmuController::class, 'agriculture_choupal'])->name('agriculture.choupal');
-Route::get('/college-of-agriculture-sciences/college-highlight', [TmuController::class, 'agriculture_college_highlight'])->name('agriculture.college.highlight');
-Route::get('/college-of-agriculture-sciences/contact-us', [TmuController::class, 'agriculture_contact_us'])->name('agriculture.contact.us');
-Route::get('/college-of-agriculture-sciences/dean-desk', [TmuController::class, 'agriculture_dean'])->name('agriculture.dean');
-Route::get('/college-of-agriculture-sciences/gallery', [TmuController::class, 'agriculture_gallery'])->name('agriculture.gallery');
-Route::get('/college-of-agriculture-sciences/guest-lecture', [TmuController::class, 'agriculture_guest_lecture'])->name('agriculture.guest.lecture');
-Route::get('/college-of-agriculture-sciences/iqac', [TmuController::class, 'agriculture_iqac'])->name('agriculture.iqac');
-Route::get('/college-of-agriculture-sciences/orientation-programme', [TmuController::class, 'agriculture_orientation'])->name('agriculture.orientation');
-Route::get('/college-of-agriculture-sciences/about-us', [TmuController::class, 'agriculture_overview'])->name('agriculture_overview');
-Route::get('/college-of-agriculture-sciences/placement-calendar', [TmuController::class, 'agriculture_placement_calendar'])->name('agriculture.placement.calendar');
-Route::get('/college-of-agriculture-sciences/placement-news', [TmuController::class, 'agriculture_placement_news'])->name('agriculture.placement.news');
-Route::get('/college-of-agriculture-sciences/syllabus', [TmuController::class, 'agriculture_syllabus'])->name('agriculture.syllabus');
-Route::get('/college-of-agriculture-sciences/time-table', [TmuController::class, 'agriculture_timetable'])->name('agriculture.timetable');
-Route::get('/college-of-agriculture-sciences/training-placement-cell', [TmuController::class, 'agriculture_tpc'])->name('agriculture.tpc');
+Route::get('/college-of-agriculture-sciences', [AgricultureController::class, 'index'])->name('agriculture.home');
+Route::get('/college-of-agriculture-sciences/academic-calendar', [AgricultureController::class, 'agriculture_academic_calendar'])->name('agriculture.academic.calendar');
+Route::get('/college-of-agriculture-sciences/anti-ragging-committee', [AgricultureController::class, 'agriculture_anti_ragging'])->name('agriculture.anti.ragging');
+Route::get('/college-of-agriculture-sciences/corporate-advisory-board', [AgricultureController::class, 'agriculture_cab'])->name('agriculture.cab');
+Route::get('/college-of-agriculture-sciences/agri-choupal-magzine', [AgricultureController::class, 'agriculture_choupal'])->name('agriculture.choupal');
+Route::get('/college-of-agriculture-sciences/college-highlight', [AgricultureController::class, 'agriculture_college_highlight'])->name('agriculture.college.highlight');
+Route::get('/college-of-agriculture-sciences/contact-us', [AgricultureController::class, 'agriculture_contact_us'])->name('agriculture.contact.us');
+Route::get('/college-of-agriculture-sciences/dean-desk', [AgricultureController::class, 'agriculture_dean'])->name('agriculture.dean');
+Route::get('/college-of-agriculture-sciences/gallery', [AgricultureController::class, 'agriculture_gallery'])->name('agriculture.gallery');
+Route::get('/college-of-agriculture-sciences/guest-lecture', [AgricultureController::class, 'agriculture_guest_lecture'])->name('agriculture.guest.lecture');
+Route::get('/college-of-agriculture-sciences/iqac', [AgricultureController::class, 'agriculture_iqac'])->name('agriculture.iqac');
+Route::get('/college-of-agriculture-sciences/orientation-programme', [AgricultureController::class, 'agriculture_orientation'])->name('agriculture.orientation');
+Route::get('/college-of-agriculture-sciences/about-us', [AgricultureController::class, 'agriculture_overview'])->name('agriculture_overview');
+Route::get('/college-of-agriculture-sciences/placement-calendar', [AgricultureController::class, 'agriculture_placement_calendar'])->name('agriculture.placement.calendar');
+Route::get('/college-of-agriculture-sciences/placement-news', [AgricultureController::class, 'agriculture_placement_news'])->name('agriculture.placement.news');
+Route::get('/college-of-agriculture-sciences/syllabus', [AgricultureController::class, 'agriculture_syllabus'])->name('agriculture.syllabus');
+Route::get('/college-of-agriculture-sciences/time-table', [AgricultureController::class, 'agriculture_timetable'])->name('agriculture.timetable');
+Route::get('/college-of-agriculture-sciences/training-placement-cell', [AgricultureController::class, 'agriculture_tpc'])->name('agriculture.tpc');
 
 // Nursing
-Route::get('/college-of-nursing', [TmuController::class, 'nursing_home'])->name('nursing.home');
-Route::get('/college-of-nursing/academic-calendar', [TmuController::class, 'nursing_academic_calednar'])->name('nursing.academic.calednar');
-Route::get('/college-of-nursing/anti-ragging-committee', [TmuController::class, 'nursing_anti_ragging'])->name('nursing.anti.ragging');
-Route::get('/college-of-nursing/college-advisory-board', [TmuController::class, 'nursing_college_advisory_board'])->name('nursing.college.advisory.board');
-Route::get('/college-of-nursing/college-highlight', [TmuController::class, 'nursing_college_highlight'])->name('nursing.college.highlight');
-Route::get('/college-of-nursing/department/community-health-nursing', [TmuController::class, 'nursing_community_health'])->name('nursing.community.health');
-Route::get('/college-of-nursing/contact-us', [TmuController::class, 'nursing_contact_us'])->name('nursing.contact.us');
-Route::get('/college-of-nursing/corporate-advisory_board', [TmuController::class, 'nursing_corporate_advisory_board'])->name('nursing.corporate.advisory.board');
-Route::get('/college-of-nursing/dean', [TmuController::class, 'nursing_dean'])->name('nursing.dean');
-Route::get('/college-of-nursing/department', [TmuController::class, 'nursing_department'])->name('nursing.department');
-Route::get('/college-of-nursing/department/fundamental-nursing', [TmuController::class, 'nursing_fundamentals'])->name('nursing.fundamentals');
-Route::get('/college-of-nursing/gallery', [TmuController::class, 'nursing_gallery'])->name('nursing.gallery');
-Route::get('/college-of-nursing/guest-lecture', [TmuController::class, 'nursing_guest_lecture'])->name('nursing.guest.lecture');
-Route::get('/college-of-nursing/department/obg-nursing', [TmuController::class, 'nursing_gynaeo'])->name('nursing_gynaeo');
-Route::get('/college-of-nursing/iqac', [TmuController::class, 'nursing_iqac'])->name('nursing.iqac');
-Route::get('/college-of-nursing/department/medical-surgical-nursing', [TmuController::class, 'nursing_medical_surgical'])->name('nursing.medical.surgical');
-Route::get('/college-of-nursing/about-us', [TmuController::class, 'nursing_overview'])->name('nursing.overview');
-Route::get('/college-of-nursing/department/paediatric-nursing', [TmuController::class, 'nursing_paediatric'])->name('nursing.paediatric');
-Route::get('/college-of-nursing/placement-calendar', [TmuController::class, 'nursing_placement_calendar'])->name('nursing.placement.calendar');
-Route::get('/college-of-nursing/placement-news', [TmuController::class, 'nursing_placement_news'])->name('nursing.placement.news');
-Route::get('/college-of-nursing/principal', [TmuController::class, 'nursing_principal'])->name('nursing.principal');
-Route::get('/college-of-nursing/department/psychiatric-nursing', [TmuController::class, 'nursing_psychiatric'])->name('nursing.psychiatric');
-Route::get('/college-of-nursing/syllabus', [TmuController::class, 'nursing_syllabus'])->name('nursing.syllabus');
-Route::get('/college-of-nursing/time-table', [TmuController::class, 'nursing_timetable'])->name('nursing.timetable');
-Route::get('/college-of-nursing/training-placement-cell', [TmuController::class, 'nursing_tpc'])->name('nursing.tpc');
-Route::get('/college-of-nursing/vice-principal', [TmuController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
+Route::get('/college-of-nursing', [NursingController::class, 'index'])->name('nursing.home');
+Route::get('/college-of-nursing/academic-calendar', [NursingController::class, 'nursing_academic_calednar'])->name('nursing.academic.calednar');
+Route::get('/college-of-nursing/anti-ragging-committee', [NursingController::class, 'nursing_anti_ragging'])->name('nursing.anti.ragging');
+Route::get('/college-of-nursing/college-advisory-board', [NursingController::class, 'nursing_college_advisory_board'])->name('nursing.college.advisory.board');
+Route::get('/college-of-nursing/college-highlight', [NursingController::class, 'nursing_college_highlight'])->name('nursing.college.highlight');
+Route::get('/college-of-nursing/department/community-health-nursing', [NursingController::class, 'nursing_community_health'])->name('nursing.community.health');
+Route::get('/college-of-nursing/contact-us', [NursingController::class, 'nursing_contact_us'])->name('nursing.contact.us');
+Route::get('/college-of-nursing/corporate-advisory_board', [NursingController::class, 'nursing_corporate_advisory_board'])->name('nursing.corporate.advisory.board');
+Route::get('/college-of-nursing/dean', [NursingController::class, 'nursing_dean'])->name('nursing.dean');
+Route::get('/college-of-nursing/department', [NursingController::class, 'nursing_department'])->name('nursing.department');
+Route::get('/college-of-nursing/department/fundamental-nursing', [NursingController::class, 'nursing_fundamentals'])->name('nursing.fundamentals');
+Route::get('/college-of-nursing/gallery', [NursingController::class, 'nursing_gallery'])->name('nursing.gallery');
+Route::get('/college-of-nursing/guest-lecture', [NursingController::class, 'nursing_guest_lecture'])->name('nursing.guest.lecture');
+Route::get('/college-of-nursing/department/obg-nursing', [NursingController::class, 'nursing_gynaeo'])->name('nursing_gynaeo');
+Route::get('/college-of-nursing/iqac', [NursingController::class, 'nursing_iqac'])->name('nursing.iqac');
+Route::get('/college-of-nursing/department/medical-surgical-nursing', [NursingController::class, 'nursing_medical_surgical'])->name('nursing.medical.surgical');
+Route::get('/college-of-nursing/about-us', [NursingController::class, 'nursing_overview'])->name('nursing.overview');
+Route::get('/college-of-nursing/department/paediatric-nursing', [NursingController::class, 'nursing_paediatric'])->name('nursing.paediatric');
+Route::get('/college-of-nursing/placement-calendar', [NursingController::class, 'nursing_placement_calendar'])->name('nursing.placement.calendar');
+Route::get('/college-of-nursing/placement-news', [NursingController::class, 'nursing_placement_news'])->name('nursing.placement.news');
+Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_principal'])->name('nursing.principal');
+Route::get('/college-of-nursing/department/psychiatric-nursing', [NursingController::class, 'nursing_psychiatric'])->name('nursing.psychiatric');
+Route::get('/college-of-nursing/syllabus', [NursingController::class, 'nursing_syllabus'])->name('nursing.syllabus');
+Route::get('/college-of-nursing/time-table', [NursingController::class, 'nursing_timetable'])->name('nursing.timetable');
+Route::get('/college-of-nursing/training-placement-cell', [NursingController::class, 'nursing_tpc'])->name('nursing.tpc');
+Route::get('/college-of-nursing/vice-principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
 
 // Law
-Route::get('/college-of-law-and-legal-studies', [TmuController::class, 'law_home'])->name('law.home');
-Route::get('/college-of-law-and-legal-studies/about-us', [TmuController::class, 'law_overview'])->name('law.overview');
-Route::get('/college-of-law-and-legal-studies/academic-calendar', [TmuController::class, 'law_academic_calendar'])->name('law.academic.calendar');
-Route::get('/college-of-law-and-legal-studies/anti-ragging-committee', [TmuController::class, 'law_anti_ragging'])->name('law.anti.ragging');
-Route::get('/college-of-law-and-legal-studies/college-highlight', [TmuController::class, 'law_college_highlight'])->name('law.college.highlight');
-Route::get('/college-of-law-and-legal-studies/contact-us', [TmuController::class, 'law_contact_us'])->name('law.contact.us');
-Route::get('/college-of-law-and-legal-studies/gallery', [TmuController::class, 'law_gallery'])->name('law.gallery');
-Route::get('/college-of-law-and-legal-studies/guest-lecture', [TmuController::class, 'law_time_table'])->name('law.time.table');
-Route::get('/college-of-law-and-legal-studies/iqac', [TmuController::class, 'law_iqac'])->name('law.iqac');
-Route::get('/college-of-law-and-legal-studies/syllabus', [TmuController::class, 'law_syllabus'])->name('law.syllabus');
-Route::get('/college-of-law-and-legal-studies/principal', [TmuController::class, 'law_principal'])->name('law.principal');
-Route::get('/college-of-law-and-legal-studies/dean', [TmuController::class, 'law_dean'])->name('law.dean');
-Route::get('/college-of-law-and-legal-studies/crills', [TmuController::class, 'law_crills'])->name('law.crills');
+Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');
+Route::get('/college-of-law-and-legal-studies/about-us', [LawController::class, 'law_overview'])->name('law.overview');
+Route::get('/college-of-law-and-legal-studies/academic-calendar', [LawController::class, 'law_academic_calendar'])->name('law.academic.calendar');
+Route::get('/college-of-law-and-legal-studies/anti-ragging-committee', [LawController::class, 'law_anti_ragging'])->name('law.anti.ragging');
+Route::get('/college-of-law-and-legal-studies/college-highlight', [LawController::class, 'law_college_highlight'])->name('law.college.highlight');
+Route::get('/college-of-law-and-legal-studies/contact-us', [LawController::class, 'law_contact_us'])->name('law.contact.us');
+Route::get('/college-of-law-and-legal-studies/gallery', [LawController::class, 'law_gallery'])->name('law.gallery');
+Route::get('/college-of-law-and-legal-studies/guest-lecture', [LawController::class, 'law_time_table'])->name('law.time.table');
+Route::get('/college-of-law-and-legal-studies/iqac', [LawController::class, 'law_iqac'])->name('law.iqac');
+Route::get('/college-of-law-and-legal-studies/syllabus', [LawController::class, 'law_syllabus'])->name('law.syllabus');
+Route::get('/college-of-law-and-legal-studies/principal', [LawController::class, 'law_principal'])->name('law.principal');
+Route::get('/college-of-law-and-legal-studies/dean', [LawController::class, 'law_dean'])->name('law.dean');
+Route::get('/college-of-law-and-legal-studies/crills', [LawController::class, 'law_crills'])->name('law.crills');
 
 // Physical Education
-Route::get('/tmimt-college-of-physical-education', [TmuController::class, 'physical_education_home'])->name('physical_education.home');
-Route::get('/tmimt-college-of-physical-education/about-us', [TmuController::class, 'physical_education_about_us'])->name('physical.education.about.us');
-Route::get('/tmimt-college-of-physical-education/academic-calendar', [TmuController::class, 'physical_education_academic_calendar'])->name('physical.education.academic.calendar');
-Route::get('/tmimt-college-of-physical-education/anti-ragging-committee', [TmuController::class, 'physical_education_anti_ragging'])->name('physical.education.anti.ragging');
-Route::get('/tmimt-college-of-physical-education/college-highlight', [TmuController::class, 'physical_education_college_highlight'])->name('physical.education.college.highlight');
-Route::get('/tmimt-college-of-physical-education/contact-us', [TmuController::class, 'physical_education_contact_us'])->name('physical.education.contact.us');
-Route::get('/tmimt-college-of-physical-education/gallery', [TmuController::class, 'physical_education_gallery'])->name('physical.education.gallery');
-Route::get('/tmimt-college-of-physical-education/guest-lecture', [TmuController::class, 'physical_education_guest_lecture'])->name('physical.education.guest.lecture');
-Route::get('/tmimt-college-of-physical-education/iqac', [TmuController::class, 'physical_education_iqac'])->name('physical.education.iqac');
-Route::get('/tmimt-college-of-physical-education/syllabus', [TmuController::class, 'physical_education_syllabus'])->name('physical.education.syllabus');
-Route::get('/tmimt-college-of-physical-education/principal', [TmuController::class, 'physical_education_principal'])->name('physical.education.principal');
-Route::get('/tmimt-college-of-physical-education/time-table', [TmuController::class, 'physical_education_timetable'])->name('physical.education.timetable');
+Route::get('/tmimt-college-of-physical-education', [PhysicaleducationController::class, 'index'])->name('physical_education.home');
+Route::get('/tmimt-college-of-physical-education/about-us', [PhysicaleducationController::class, 'physical_education_about_us'])->name('physical.education.about.us');
+Route::get('/tmimt-college-of-physical-education/academic-calendar', [PhysicaleducationController::class, 'physical_education_academic_calendar'])->name('physical.education.academic.calendar');
+Route::get('/tmimt-college-of-physical-education/anti-ragging-committee', [PhysicaleducationController::class, 'physical_education_anti_ragging'])->name('physical.education.anti.ragging');
+Route::get('/tmimt-college-of-physical-education/college-highlight', [PhysicaleducationController::class, 'physical_education_college_highlight'])->name('physical.education.college.highlight');
+Route::get('/tmimt-college-of-physical-education/contact-us', [PhysicaleducationController::class, 'physical_education_contact_us'])->name('physical.education.contact.us');
+Route::get('/tmimt-college-of-physical-education/gallery', [PhysicaleducationController::class, 'physical_education_gallery'])->name('physical.education.gallery');
+Route::get('/tmimt-college-of-physical-education/guest-lecture', [PhysicaleducationController::class, 'physical_education_guest_lecture'])->name('physical.education.guest.lecture');
+Route::get('/tmimt-college-of-physical-education/iqac', [PhysicaleducationController::class, 'physical_education_iqac'])->name('physical.education.iqac');
+Route::get('/tmimt-college-of-physical-education/syllabus', [PhysicaleducationController::class, 'physical_education_syllabus'])->name('physical.education.syllabus');
+Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationController::class, 'physical_education_principal'])->name('physical.education.principal');
+Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
 
 
 // CRC Placement

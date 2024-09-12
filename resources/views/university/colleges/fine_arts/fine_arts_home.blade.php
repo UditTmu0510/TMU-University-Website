@@ -671,8 +671,9 @@
         </div>
 
 </section><!-- #content end -->
-
+<!-- 
 <div class="container mb-5 mt-5">
+
     <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
     <hr class="horizontal-line">
 
@@ -787,6 +788,7 @@
     </div>
     <hr class="horizontal-line">
 </div>
+
 
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
