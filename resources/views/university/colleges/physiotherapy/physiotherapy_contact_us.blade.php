@@ -49,7 +49,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span>principal.physiotherapy@<br>tmu.ac.in</span>
+                                <span>principal.physiotherapy@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>

@@ -49,7 +49,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span>principal.nursing@<br>tmu.ac.in</span>
+                                <span>principal.nursing@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>
