@@ -240,7 +240,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 				</div>
 
 				<div class="col-md-6 text-center text-md-end">
-					<div class="d-flex justify-content-center justify-content-md-end mb-2">
+					<div class="d-xs-flex justify-content-center justify-content-md-end mb-2">
 						<a href="#" class="social-icon border-transparent si-small h-bg-facebook">
 							<i class="fa-brands fa-facebook-f"></i>
 							<i class="fa-brands fa-facebook-f"></i>

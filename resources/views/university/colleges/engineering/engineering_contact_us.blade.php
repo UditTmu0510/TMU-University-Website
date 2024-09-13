@@ -50,7 +50,7 @@
                                 <!-- <img src="email-icon.png" alt="Email Icon"> -->
                                 <div>
                                     <span>Email</span>
-                                    <span>principal.engineering@<br>tmu.ac.in</span>
+                                    <span>principal.engineering@tmu.ac.in</span>
                                 </div>
                             </div>
                             <div>
