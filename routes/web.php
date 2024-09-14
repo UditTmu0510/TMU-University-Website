@@ -212,6 +212,9 @@ Route::get('/tmu/disciplinary-rules', [TmuController::class, 'disciplinary_rules
 Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_sports_calendar'])->name('university.sports.calendar');
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
+Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
+Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
+Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
@@ -404,6 +407,26 @@ Route::get('/medical-college-and-research-centre/anti-ragging-committee', [Medic
 Route::get('/medical-college-and-research-centre/gender-harassment-committee', [MedicalController::class, 'medical_ghc'])->name('medical.ghc');
 Route::get('/medical-college-and-research-centre/gallery', [MedicalController::class, 'medical_gallery'])->name('medical.gallery');
 Route::get('/medical-college-and-research-centre/contact-us', [MedicalController::class, 'medical_contactus'])->name('medical.contactus');
+Route::get('/medical-college-and-research-centre/anatomy', [MedicalController::class, 'medical_anatomy'])->name('medical.anatomy');
+Route::get('/medical-college-and-research-centre/physiology', [MedicalController::class, 'medical_physiology'])->name('medical.physiology');
+Route::get('/medical-college-and-research-centre/biochemistry', [MedicalController::class, 'medical_biochemistry'])->name('medical.biochemistry');
+Route::get('/medical-college-and-research-centre/pathology', [MedicalController::class, 'medical_pathology'])->name('medical.pathology');
+Route::get('/medical-college-and-research-centre/microbiology', [MedicalController::class, 'medical_microbiology'])->name('medical.microbiology');
+Route::get('/medical-college-and-research-centre/pharmacology', [MedicalController::class, 'medical_pharmacology'])->name('medical.pharmacology');
+Route::get('/medical-college-and-research-centre/forensic-medicine', [MedicalController::class, 'medical_forensic_medicine'])->name('medical.forensic.medicine');
+Route::get('/medical-college-and-research-centre/community-medicine', [MedicalController::class, 'medical_community_medicine'])->name('medical.community.medicine');
+Route::get('/medical-college-and-research-centre/general-medicine', [MedicalController::class, 'medical_general_medicine'])->name('medical.general.medicine');
+Route::get('/medical-college-and-research-centre/pulmonary-medicine', [MedicalController::class, 'medical_pulmonary_medicine'])->name('medical.pulmonary.medicine');
+Route::get('/medical-college-and-research-centre/psychiatry', [MedicalController::class, 'medical_psychiatry'])->name('medical.psychiatry');
+Route::get('/medical-college-and-research-centre/dermatology', [MedicalController::class, 'medical_dermatology'])->name('medical.dermatology');
+Route::get('/medical-college-and-research-centre/paediatrics', [MedicalController::class, 'medical_paediatrics'])->name('medical.paediatrics');
+Route::get('/medical-college-and-research-centre/anesthesiology', [MedicalController::class, 'medical_anesthesiology'])->name('medical.anesthesiology');
+Route::get('/medical-college-and-research-centre/radiology', [MedicalController::class, 'medical_radiology'])->name('medical.radiology');
+Route::get('/medical-college-and-research-centre/general-surgery', [MedicalController::class, 'medical_general_surgery'])->name('medical.general.surgery');
+Route::get('/medical-college-and-research-centre/orthopaedics', [MedicalController::class, 'medical_orthopaedics'])->name('medical.orthopaedics');
+Route::get('/medical-college-and-research-centre/ent', [MedicalController::class, 'medical_ent'])->name('medical.ent');
+Route::get('/medical-college-and-research-centre/ophthalmology', [MedicalController::class, 'medical_ophthalmology'])->name('medical.ophthalmology');
+Route::get('/medical-college-and-research-centre/obstetrics-gynaecology', [MedicalController::class, 'medical_obstetrics_gynaecology'])->name('medical.obstetrics.gynaecology');
 
 // Dental
 Route::get('/dental-college-and-research-centre', [DentalController::class, 'index'])->name('dental.home');
@@ -586,6 +609,16 @@ Route::get('/tmu/industrial-collaborations', [TmuController::class, 'crc_collabo
 Route::get('/tmu/corporate-testimonials', [TmuController::class, 'crc_corporate_testi'])->name('crc.corporate.testi');
 Route::get('/tmu/student-testimonials', [TmuController::class, 'crc_student_testi'])->name('crc.student.testi');
 
-
+//Alumni
+Route::get('/alumni', [TmuController::class, 'alumni_home'])->name('alumni.home');
+Route::get('/alumni/overview', [TmuController::class, 'alumni_overview'])->name('alumni.overview');
+Route::get('/alumni/president-message', [TmuController::class, 'alumni_president_message'])->name('alumni.president.message');
+Route::get('/alumni/alumni-association', [TmuController::class, 'alumni_association'])->name('alumni.association');
+Route::get('/alumni/coordination-cell', [TmuController::class, 'alumni_coordination'])->name('alumni.coordination');
+Route::get('/alumni/alumni-event-calendar', [TmuController::class, 'alumni_event_calendar'])->name('alumni.event.calendar');
+Route::get('/alumni/alumni-donation', [TmuController::class, 'alumni_donation'])->name('alumni.donation');
+Route::get('/alumni/gallery', [TmuController::class, 'alumni_gallery'])->name('alumni.gallery');
+Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.faq');
+Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
 
 // End of the Sarvagya ROutes

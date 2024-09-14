@@ -133,5 +133,104 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.medical_contactus');
     }
+    public function medical_anatomy()
+    {
+        return view('university.colleges.medical.anatomy');
+    }
+
+    public function medical_physiology()
+    {
+        return view('university.colleges.medical.physiology');
+    }
+
+    public function medical_biochemistry()
+    {
+        return view('university.colleges.medical.biochemistry');
+    }
+
+    public function medical_pathology()
+    {
+        return view('university.colleges.medical.pathology');
+    }
+
+    public function medical_microbiology()
+    {
+        return view('university.colleges.medical.microbiology');
+    }
+
+    public function medical_pharmacology()
+    {
+        return view('university.colleges.medical.pharmacology');
+    }
+
+    public function medical_forensic_medicine()
+    {
+        return view('university.colleges.medical.forensic_medicine');
+    }
+
+    public function medical_community_medicine()
+    {
+        return view('university.colleges.medical.community_medicine');
+    }
+
+    public function medical_general_medicine()
+    {
+        return view('university.colleges.medical.general_medicine');
+    }
+
+    public function medical_pulmonary_medicine()
+    {
+        return view('university.colleges.medical.pulmonary_medicine');
+    }
+
+    public function medical_psychiatry()
+    {
+        return view('university.colleges.medical.psychiatry');
+    }
+
+    public function medical_dermatology()
+    {
+        return view('university.colleges.medical.dermatology');
+    }
+
+    public function medical_paediatrics()
+    {
+        return view('university.colleges.medical.paediatrics');
+    }
+
+    public function medical_anesthesiology()
+    {
+        return view('university.colleges.medical.anesthesiology');
+    }
+
+    public function medical_radiology()
+    {
+        return view('university.colleges.medical.radiology');
+    }
+
+    public function medical_general_surgery()
+    {
+        return view('university.colleges.medical.general_surgery');
+    }
+
+    public function medical_orthopaedics()
+    {
+        return view('university.colleges.medical.orthopaedics');
+    }
+
+    public function medical_ent()
+    {
+        return view('university.colleges.medical.ent');
+    }
+
+    public function medical_ophthalmology()
+    {
+        return view('university.colleges.medical.ophthalmology');
+    }
+
+    public function medical_obstetrics_gynaecology()
+    {
+        return view('university.colleges.medical.obstetrics_gynaecology');
+    }
 
 }

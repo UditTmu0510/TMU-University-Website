@@ -1393,7 +1393,18 @@ class TmuController extends Controller
     {
         return view('university.quick_links.guest_house');
     }
-
+    public function tmu_faqs()
+    {
+        return view('university.quick_links.tmu_faqs');
+    }
+    public function tmu_convocation()
+    {
+        return view('university.quick_links.convocation');
+    }
+    public function tmu_publication()
+    {
+        return view('university.quick_links.journal');
+    }
 
 
 
@@ -1768,7 +1779,47 @@ class TmuController extends Controller
 
 
 
-// College Homepages 
+// alumni  
+public function alumni_home()
+    {
+        return view('university.alumni.alumni');
+    }
+    public function alumni_overview()
+    {
+        return view('university.alumni.alumni_about');
+    }
+    public function alumni_president_message()
+    {
+        return view('university.alumni.alumni_president');
+    }
+    public function alumni_association()
+    {
+        return view('university.alumni.alumni_association');
+    }
+    public function alumni_coordination()
+    {
+        return view('university.alumni.alumni_coordination');
+    }
+    public function alumni_event_calendar()
+    {
+        return view('university.alumni.alumni_event_calendar');
+    }
+    public function alumni_donation()
+    {
+        return view('university.alumni.alumni_donation');
+    }
+    public function alumni_gallery()
+    {
+        return view('university.alumni.alumni_gallery');
+    }
+    public function alumni_faq()
+    {
+        return view('university.alumni.alumni_faq');
+    }
+    public function alumni_contactus()
+    {
+        return view('university.alumni.alumni_contact_us');
+    }
 
 
 
