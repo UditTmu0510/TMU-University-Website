@@ -5,49 +5,49 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
-            <a href="{{route('law.overview')}}" class="custom-menu-item active">
+            <a href="{{ route('law.overview') }}" class="custom-menu-item {{ Route::is('law.overview') ? 'active' : '' }}">
                 <p>Overview</p>
             </a>
-            <a href="{{route('law.college.highlight')}}" class="custom-menu-item">
+            <a href="{{ route('law.college.highlight') }}" class="custom-menu-item {{ Route::is('law.college.highlight') ? 'active' : '' }}">
                 <p>College Highlight</p>
             </a>
-            <a href="{{route('law.dean')}}" class="custom-menu-item">
+            <a href="{{ route('law.dean') }}" class="custom-menu-item {{ Route::is('law.dean') ? 'active' : '' }}">
                 <p>Dean</p>
             </a>
-            <a href="{{route('law.principal')}}" class="custom-menu-item">
+            <a href="{{ route('law.principal') }}" class="custom-menu-item {{ Route::is('law.principal') ? 'active' : '' }}">
                 <p>Principal</p>
             </a>
-            <a href="{{route('law.gallery')}}" class="custom-menu-item">
+            <a href="{{ route('law.gallery') }}" class="custom-menu-item {{ Route::is('law.gallery') ? 'active' : '' }}">
                 <p>Gallery</p>
             </a>
         </div>
         <h2>Academics</h2>
         <div class="account-section">
-            <a href="{{route('law.syllabus')}}" class="custom-menu-item">
+            <a href="{{ route('law.syllabus') }}" class="custom-menu-item {{ Route::is('law.syllabus') ? 'active' : '' }}">
                 <p>Syllabus</p>
             </a>
-            <a href="{{route('law.academic.calendar')}}" class="custom-menu-item">
+            <a href="{{ route('law.academic.calendar') }}" class="custom-menu-item {{ Route::is('law.academic.calendar') ? 'active' : '' }}">
                 <p>Academic Calendar</p>
             </a>
         </div>
         <h2>Student Corner</h2>
         <div class="account-section">
-            <a href="{{route('law.time.table')}}" class="custom-menu-item">
+            <a href="{{ route('law.time.table') }}" class="custom-menu-item {{ Route::is('law.time.table') ? 'active' : '' }}">
                 <p>Time-Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
-            <a href="{{route('law.anti.ragging')}}" class="custom-menu-item">
+            <a href="{{ route('law.anti.ragging') }}" class="custom-menu-item {{ Route::is('law.anti.ragging') ? 'active' : '' }}">
                 <p>Anti-Ragging Committee</p>
             </a>
         </div>
         <h2>Quick Link</h2>
         <div class="account-section">
-            <a href="{{route('law.contact.us')}}" class="custom-menu-item">
+            <a href="{{ route('law.contact.us') }}" class="custom-menu-item {{ Route::is('law.contact.us') ? 'active' : '' }}">
                 <p>Contact Us</p>
             </a>
-            <a href="{{route('law.iqac')}}" class="custom-menu-item">
+            <a href="{{ route('law.iqac') }}" class="custom-menu-item {{ Route::is('law.iqac') ? 'active' : '' }}">
                 <p>College IQAC</p>
             </a>
         </div>
