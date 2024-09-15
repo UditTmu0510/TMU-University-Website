@@ -13,18 +13,18 @@
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral </span><span>
 							Pathology & Microbiology</span></h1>
-					<p class="about-p mb-4">The diseases of the mouth ("oral cavity" or "stoma"), jaws ("gnath"), and associated tissues such as salivary glands, temporomandibular joints, facial muscles, and perioral skin are referred to as oral and maxillofacial pathology. The branch of oral and maxillofacial pathology is concerned with the diagnosis and investigation of illnesses affecting the oral and maxillofacial area, as well as their causes and consequences. It is sometimes regarded a dental and pathological speciality.
+					<p class="about-p mb-4 text-justify">The diseases of the mouth ("oral cavity" or "stoma"), jaws ("gnath"), and associated tissues such as salivary glands, temporomandibular joints, facial muscles, and perioral skin are referred to as oral and maxillofacial pathology. The branch of oral and maxillofacial pathology is concerned with the diagnosis and investigation of illnesses affecting the oral and maxillofacial area, as well as their causes and consequences. It is sometimes regarded a dental and pathological speciality.
 						Oral Pathology is a field that attempts to link human biology to disease signs and symptoms.
 					</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="{{asset('/assets/img/college_departments/dental/opm/banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/dental/opm/opm_banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
-					<p class="about-p mb-4">The Department of Oral Pathology and Microbiology is responsible for teaching Dental Anatomy, Embryology, and Oral Histology to first-year BDS students, as well as Oral Pathology and Microbiology to second and third-year BDS students.</p>
-					<p class="about-p mb-4">Postgraduate students in the fields of oral and maxillofacial pathology and microbiology are trained by the department. The department features cutting-edge facilities, for undergraduate and postgraduate teaching, as well as a diagnostic histopathology laboratory and research lab. A practical laboratory for undergraduate students, a seminar room for postgraduates and undergraduate students, a museum showing diverse specimens of Dental Anatomy and Oral Pathology, as well as a departmental library, research room, and histopathology lab are all available in the department.</p>
-					<p class="about-p mb-4">The histopathology lab has a semi-automatic microtome, and is well equipped for routine as well as special staining procedures. We have a comprehensive clinical laboratory set up in addition to our histopathology lab for standard and advanced laboratory studies</p>
-					<p class="about-p mb-2">A research microscope with fluorescence, polarising, phase contrast, and dark field illumination attachments, as well as competent photomicrography setup and image analyzer software, are available at our research lab. A penta-head microscope is available in the department for teaching and discussion by postgraduates and students. Routine haematological studies, punch biopsies, Fine needle aspiration cytology, and Exfoliative cytology are among the diagnostic techniques done in the department. We accept biopsy and tissue specimens for histopathological evaluation and diagnosis from other dental departments and private dental clinics.</p>
+					<p class="about-p mb-4 text-justify">The Department of Oral Pathology and Microbiology is responsible for teaching Dental Anatomy, Embryology, and Oral Histology to first-year BDS students, as well as Oral Pathology and Microbiology to second and third-year BDS students.</p>
+					<p class="about-p mb-4 text-justify">Postgraduate students in the fields of oral and maxillofacial pathology and microbiology are trained by the department. The department features cutting-edge facilities, for undergraduate and postgraduate teaching, as well as a diagnostic histopathology laboratory and research lab. A practical laboratory for undergraduate students, a seminar room for postgraduates and undergraduate students, a museum showing diverse specimens of Dental Anatomy and Oral Pathology, as well as a departmental library, research room, and histopathology lab are all available in the department.</p>
+					<p class="about-p mb-4 text-justify">The histopathology lab has a semi-automatic microtome, and is well equipped for routine as well as special staining procedures. We have a comprehensive clinical laboratory set up in addition to our histopathology lab for standard and advanced laboratory studies</p>
+					<p class="about-p mb-2 text-justify">A research microscope with fluorescence, polarising, phase contrast, and dark field illumination attachments, as well as competent photomicrography setup and image analyzer software, are available at our research lab. A penta-head microscope is available in the department for teaching and discussion by postgraduates and students. Routine haematological studies, punch biopsies, Fine needle aspiration cytology, and Exfoliative cytology are among the diagnostic techniques done in the department. We accept biopsy and tissue specimens for histopathological evaluation and diagnosis from other dental departments and private dental clinics.</p>
 				</div>
 			</div>
 		</section>
@@ -33,10 +33,11 @@
 			<h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
 			<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
 			<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/32.jpg')}}" alt="Gallery Thumb 1"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/33.jpg')}}" alt="Gallery Thumb 2"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/34.jpg')}}" alt="Gallery Thumb 3"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/35.jpg')}}" alt="Gallery Thumb 5"></a>
+				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" alt="Gallery Thumb 1"></a>
+				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" alt="Gallery Thumb 2"></a>
+				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" alt="Gallery Thumb 3"></a>
+				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" alt="Gallery Thumb 5"></a>
+				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" alt="Gallery Thumb 5"></a>
 			</div>
 			<h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
 			<div class="row">
