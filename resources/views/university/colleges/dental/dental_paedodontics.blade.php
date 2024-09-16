@@ -13,15 +13,15 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Paedodontics & </span><span>
                             Preventive Dentistry </span></h1>
-                    <p class="about-p mb-4">The department of Paedodontics and Preventive Dentistry at Teerthanker
+                    <p class="about-p mb-4 text-justify">The department of Paedodontics and Preventive Dentistry at Teerthanker
                         Mahaveer University is a place where total dental care is provided to children from birth
                         through adolescence including those children with special health care needs. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/ppd/37.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/ppd/ppd_banner.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4">Undergraduates are trained to develop necessary clinical skills for
+                    <p class="about-p mb-4 text-justify">Undergraduates are trained to develop necessary clinical skills for
                         providing basic dental care to children with emphasis on preventive dentistry. Postgraduates
                         are trained in all aspects of advanced paediatric dentistry including care of very young
                         children and special children.</p>
@@ -47,7 +47,7 @@
                 <div class="col-md-6 mb-3">
                     <div class="section-box p-3 ">
                         <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
-                        <p class="mb-2">The Department of Paedodontics & Preventive Dentistry offers MDS course which has an intake capacity of five students per year.
+                        <p class="mb-2 text-justify">The Department of Paedodontics & Preventive Dentistry offers MDS course which has an intake capacity of five students per year.
                             Various in-vivo, in-vitro studies and surveys dealing with the various treatment modalities and advances in the specialization are conducted in our department.
                             Interesting researches and original studies undertaken by the post graduate students and staff members are regularly been published in the leading national and international journals.
                             Post graduate students attend national and state conferences, convention and various CDE programs held every year.
@@ -77,10 +77,9 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/32.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/33.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/34.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/35.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/ppd4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/ppd4.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/ppd5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/ppd5.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/ppd/ppd6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/ppd/ppd6.jpg')}}" alt="Gallery Thumb 3"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

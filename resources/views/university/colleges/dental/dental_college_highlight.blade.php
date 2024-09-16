@@ -88,20 +88,20 @@
                     <h3 class="tmu-text-primary mb-0"><span> Amroha Satellite </span><span> Centre</span></h3>
                     <div class="col-md-3 col-sm-6 mt-1">
                         <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/dental/1.jpg')}}" alt="Gallery Thumb 1">
+                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" alt="Gallery Thumb 1">
                             <div class="bg-overlay">
                                 <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/gallery/collegegallery/dental/1.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 ">
                         <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/dental/2.jpg')}}" alt="Gallery Thumb 2">
+                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" alt="Gallery Thumb 2">
                             <div class="bg-overlay">
                                 <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/gallery/collegegallery/dental/2.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -110,20 +110,20 @@
                     <h3 class="tmu-text-primary mb-0 mt-md-3"><span>Haryana Satellite </span><span> Centre</span></h3>
                     <div class="col-md-3 col-sm-6 mt-1">
                         <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/dental/1.jpg')}}" alt="Gallery Thumb 1">
+                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" alt="Gallery Thumb 1">
                             <div class="bg-overlay">
                                 <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/gallery/collegegallery/dental/1.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 ">
                         <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/dental/2.jpg')}}" alt="Gallery Thumb 2">
+                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" alt="Gallery Thumb 2">
                             <div class="bg-overlay">
                                 <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/gallery/collegegallery/dental/2.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
                                 </div>
                             </div>
                         </div>

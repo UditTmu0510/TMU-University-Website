@@ -12,12 +12,12 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Prosthodontics and </span><span>
                             Crown & Bridge </span></h1>
-                    <p class="about-p mb-4">TThe Department of Prosthodontics is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
+                    <p class="about-p mb-4 text-justify">TThe Department of Prosthodontics is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/pcb/37.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb_banner.jpg')}}" alt="">
                 </div>
-                <div class="container p-3">
+                <div class="container p-3 text-justify">
                     <p class="about-p mb-4">The department provides specialized dental treatment for patients aspiring artificial replacement of teeth and other structures in the head and neck region. It is a very vast department covering various fields like Complete Denture, Removable partial Denture, Fixed Partial Denture, Maxillo-Facial Prosthodontics and Implantology. In addition to these, the subject of Dental Materials is also taught in the department to the BDS students.</p>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <div class="section-box p-3" height="600px">
                         <h3 class="tmu-text-primary mb-2"><span>Specialized Equipment and </span><span> Specialized
                                 Treatment</span></h3>
-                        <p class="mb-2">The Department of Prosthodontics is very well equipped with all instruments and machineries to provide complete perfect care to all patients under one roof.
+                        <p class="mb-2 text-justify">The Department of Prosthodontics is very well equipped with all instruments and machineries to provide complete perfect care to all patients under one roof.
                             Various laboratory procedures are done in respective fields like Dental Plaster lab, Acrylic Lab, Casting lab, Ceramic lab.
                             Most advanced treatments like Implants and Maxillo-facial prosthesis are carried out in the department by highly specialized staff.</p>
                     </div>
@@ -36,7 +36,7 @@
                 <div class="col-md-6">
                     <div class="section-box p-3 ">
                         <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
-                        <p class="mb-2">The Department of Prosthodontics has post-graduation(M.D.S) intake of five per each year, which sums up to a total of 15 post graduate students pursuing MDS course at one time.
+                        <p class="mb-2 text-justify">The Department of Prosthodontics has post-graduation(M.D.S) intake of five per each year, which sums up to a total of 15 post graduate students pursuing MDS course at one time.
                             Various in-vitro and in-vivoresearch studies are conducted in the department on various materials, implants, fixed partial dentures etc. Scientific forums are conducted by the department oftenly about innovative studies to enlighten the knowledge of students.
                             Seminars and Journal Clubs are conducted at regular intervals to update the student’s knowledge on research, innovative studies and recent trendz.</p>
                     </div>
@@ -77,10 +77,16 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/32.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/33.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/34.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/35.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb1.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb2.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb3.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb4.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb5.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb6.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb7.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb8.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb8.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb9.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb9.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb10.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb10.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">
