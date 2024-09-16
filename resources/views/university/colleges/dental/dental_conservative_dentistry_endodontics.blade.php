@@ -9,7 +9,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Conservative </span><span>
                             Dentistry & Endodontics </span></h1>
-                    <p class="about-p mb-4">The Department of Conservative Dentistry and Endodontics is the largest
+                    <p class="about-p mb-4 text-justify">The Department of Conservative Dentistry and Endodontics is the largest
                         outpatient department of the college. The Department has both undergraduate and
                         Post-graduate sections. The department provides quality education right from the first year
                         of BDS, with emphasis on quality & comfortable treatment to the patients. The students are
@@ -18,14 +18,14 @@
                         BDS students for pre-clinical activities. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/cde/cde_banner.png')}}" alt="">
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4">Department provides specialized dental treatment which includes amalgam
+                    <p class="about-p mb-4 text-justify">Department provides specialized dental treatment which includes amalgam
                         restorations, GIC fillings, composite restorations (laminates and veneers), root canal
                         treatment, post and core, crowns, endodontic surgeries, and the most modern esthetic make-up
                         of the teeth etc. </p>
-                    <p class="about-p mb-4">The department covers fields like conservative dentistry and
+                    <p class="about-p mb-4 text-justify" >The department covers fields like conservative dentistry and
                         endodontics. In addition to these, the subject of Dental Materials is also taught in the
                         department to the BDS students. The emphasis is given on microscopic restorative as well as
                         surgical training, also latest root canal treatment procedures are also taught to students
@@ -39,8 +39,8 @@
                     <div class="section-box p-3">
                         <h3 class="tmu-text-primary mb-2"><span>Specialized Equipment and </span><span> Specialized
                                 Treatment</span></h3>
-                        <p class="mb-2">The Department of conservative dentistry and endodontics is very well equipped with all instruments and machineries to provide complete perfect care to all patients under one roof.</p>
-                        <p class="">The department has latest materials to provide quality services to the patients at very nominal prices. Most of the Amalgam restorations, GIC fillings are done by undergraduate students.
+                        <p class="about-p mb-2 text-justify">The Department of conservative dentistry and endodontics is very well equipped with all instruments and machineries to provide complete perfect care to all patients under one roof.</p>
+                        <p class="about-p mb-2 text-justify">The department has latest materials to provide quality services to the patients at very nominal prices. Most of the Amalgam restorations, GIC fillings are done by undergraduate students.
                             Composite restorations are specifically done by interns, postgraduates as well as staffs. Advanced stage treatments are done by post-graduates and staffs like root canal treatment, post and core, endodontic surgeries etc.
                             The department is equipped with highly specialized staff to guide undergraduates as well as post-graduates.</p>
                     </div>
@@ -48,10 +48,10 @@
                 <div class="col-md-6">
                     <div class="section-box p-3">
                         <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
-                        <p class="mb-2">The Department of conservative dentistry and endodontics has post-graduation (M.D.S), having an intake of five each year, which sums up to a total of 15 post graduate students pursuing MDS course at one time. </p>
-                        <p class="mb-2">Various in-vitro and in-vivo research studies are conducted in the department on various materials like root-end filling materials including MTA, Biodentine etc.
+                        <p class="about-p mb-2 text-justify">The Department of conservative dentistry and endodontics has post-graduation (M.D.S), having an intake of five each year, which sums up to a total of 15 post graduate students pursuing MDS course at one time. </p>
+                        <p class="about-p mb-2 text-justify">Various in-vitro and in-vivo research studies are conducted in the department on various materials like root-end filling materials including MTA, Biodentine etc.
                             Scientific forums are conducted by the department very often about innovative studies to enlighten the students. </p>
-                        <p>Seminars and Journal Clubs are conducted at regular intervals to update the student’s knowledge on research, innovative studies and recent trends.</p>
+                        <p class="about-p mb-2 text-justify">Seminars and Journal Clubs are conducted at regular intervals to update the student’s knowledge on research, innovative studies and recent trends.</p>
                     </div>
                 </div>
             </div>
@@ -60,10 +60,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/32.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/33.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/34.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/35.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/cde1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/cde1.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/cde2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/cde2.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/cde3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/cde3.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/cde/cde4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/cde/cde4.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

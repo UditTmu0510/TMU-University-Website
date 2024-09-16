@@ -8,7 +8,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <!-- Card -->
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/cde.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Conservative Dentistry & Endodontics</h4>
@@ -25,7 +25,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/1.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/oms.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="mb-2">Oral & Maxillofacial Surgery</h4>
 
@@ -42,7 +42,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/2.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/odo.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Orthodontics & Dentofacial Orthopedics</h4>
@@ -58,7 +58,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/4.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/pcb.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Prosthodontics and Crown & Bridge</h4>
@@ -74,7 +74,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/7.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/ppd.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Paedodontics & Preventive Dentistry</h4>
@@ -90,7 +90,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/3.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/pgy.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Periodontology</h4>
@@ -106,7 +106,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/6.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/phd.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Public Health Dentistry</h4>
@@ -122,7 +122,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/8.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/omr.png')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Oral Medicine & Radiology</h4>
@@ -138,7 +138,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments">
-                    <img src="{{asset('/assets/img/college_departments/dental/9.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/opm.png')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Oral Pathology & Microbiology</h4>

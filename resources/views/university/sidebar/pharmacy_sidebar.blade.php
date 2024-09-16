@@ -47,7 +47,7 @@
         </div>
         <h2>Quick Link</h2>
         <div class="account-section">
-            <a href="#" class="custom-menu-item">
+            <a href="{{route('tmu.publication')}}" class="custom-menu-item">
                 <p>Pharmacoaerena</p>
             </a>
             <a href="{{ route('pharmacy.contact.us') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.contact.us') ? 'active' : '' }}">

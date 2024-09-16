@@ -3,43 +3,35 @@
         "University Glimpse": {
             "About University": { "link": "/tmu/about-us" },
             "Vision And Mission": { "link": "/tmu/vision-mission" },
-            "Accolades": { "link": "/tmu/awards-recognition" },
+            "Statutory Approvals": { "link": "/tmu/statutory-approvals" },
+            "Rating/Awards/Recognition": { "link": "/tmu/awards-recognition" },
             "Governance": { "link": "/tmu/university-governance" },
             "Organogram": { "link": "/tmu/university-organogram" },
             "Administration": { "link": "/tmu/university-administration" },
-            "Statutory Approvals": { "link": "/tmu/statutory-approvals" }
+            "Policies": { "link": "/tmu/policies-sops" },
+            "Circulars": { "link": "/tmu/cbcs-circulars" }
         },
         "Executive Desk": {
             "Chancellor": { "link": "/tmu/chancellor" },
             "Founder Chancellor": { "link": "/tmu/founder-vicechancellor" },
             "Vice Chancellor": { "link": "/tmu/vicechancellor" }
-        },
-        "Campus Policies": {
-            "IIC": { "link": "/innovation-startup" },
-            "NSS": { "link": "/nss-about" },
-            "IQAC": { "link": "/tmu/iqac-cell/iqac" }
-        },
-        "Highlights": {
-            "Past Events": { "link": "" },
-            "Media Coverage": { "link": "" },
-            "Convocation": { "link": "" }
         }
     },
     "8": {
         "MEDICAL": { "link": "/medical-college-and-research-centre" },
-        "ENGINEERING": { "link": "/faculty-of-engineering" },
-        "CCSIT": { "link": "/college-of-computing-sciences-and-it" },
-        "TMIMT": { "link": "/tmimt-college-of-management" },
-        "AGRICULTURE": { "link": "/college-of-agriculture-sciences" },
         "DENTAL": { "link": "/dental-college-and-research-centre" },
         "NURSING": { "link": "/college-of-nursing" },
         "PHARMACY": { "link": "/college-of-pharmacy" },
         "PARAMEDICAL": { "link": "/college-of-paramedical-sciences" },
         "PHYSIOTHERAPY": { "link": "/department-of-physiotherapy" },
-        "FINE ARTS": { "link": "/college-of-fine-arts" },
+        "TMIMT": { "link": "/tmimt-college-of-management" },
         "LAW": { "link": "/college-of-law-and-legal-studies" },
+        "CCSIT": { "link": "/college-of-computing-sciences-and-it" },
+        "ENGINEERING": { "link": "/faculty-of-engineering" },
+        "FINE ARTS": { "link": "/college-of-fine-arts" },
+        "EDUCATION": { "link": "/faculty-of-education" },
         "PHYSICAL EDUCATION": { "link": "/tmimt-college-of-physical-education"},
-        "EDUCATION": { "link": "/faculty-of-education" }
+        "AGRICULTURE": { "link": "/college-of-agriculture-sciences" }
     },
     "9": {
         "undergraduate": {
@@ -282,9 +274,9 @@
         },
         "Admission Notice": { "link": "/tmu/phd-admission-notice" },
         "Instructions for Apply": { "link": "/tmu/phd-how-to-apply" },
+        "Ph.D. Process": { "link": "/tmu/phd-process" },
         "Checklist of Documents": { "link": "/tmu/checklist" },
         "Application Form": { "link": "/tmu/phd-application-form" },
-        "Ph.D. Process": { "link": "/tmu/phd-process" },
         "Fee Structure": { "link": "/tmu/phd-fee-structure" },
         "Result": { "link": "/tmu/result" }
     },
@@ -293,8 +285,7 @@
         "Ordinance": { "link": "/tmu/exam-ordinance" },
         "Result": { "link": "http://portal.tmu.ac.in/onlineresult.aspx" },
         "Syllabus": { "link": "/tmu/syllabus" },
-        "Open Elective Courses(CBCS)": { "link": "/tmu/cbcs" },
-        "NAD": { "link": "https://cvl.nad.co.in/NAD/home.action" }
+        "Open Elective Courses(CBCS)": { "link": "/tmu/cbcs" }
     },
     "12": {
         "CTLD": { "link": "/tmu/centre-for-teaching-learning-and-development" },
@@ -305,10 +296,10 @@
         },
         "Disciplinary Rules": { "link": "/tmu/disciplinary-rules" },
         "Admission & Refund Policy": {
-            "link": "https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf"
+            "link": "/assets/pdf/TMU_Admission_Policy_&_Refund_Policy_2024.pdf"
         },
         "Anti-Ragging Policy": {
-            "link": "https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf"
+            "link": "/assets/pdf/anti_ragging_policy/anti-ragging-policy.pdf"
         },
         "Anti-Ragging Committee": { "link": "/tmu/anti-ragging-committee" },
         "University Academic Calender": {
@@ -319,6 +310,7 @@
         },
         "NSS UNit": { "link": "/nss-about" },
         "NEP 2020": { "link": "/tmu/nep-ordinance" },
-        "Convocation": { "link": "" }
+        "Publications": { "link": "/tmu/publication" },
+        "Convocation": { "link": "/tmu/convocation" }
     }
 }

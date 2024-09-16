@@ -29,6 +29,12 @@
             <a href="{{ route('university.sports.calendar') }}" class="custom-menu-item {{ Request::routeIs('university.sports.calendar') ? 'active' : '' }}">
                 <p>University Sports Calendar</p>
             </a>
+            <a href="{{route('tmu.faqs')}}" class="custom-menu-item">
+                <p>FAQ's</p>
+            </a>
+            <a href="{{route('tmu.convocation')}}" class="custom-menu-item">
+                <p>Convocation</p>
+            </a>
         </div>
     </div>
 </div>

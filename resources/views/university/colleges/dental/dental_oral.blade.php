@@ -13,13 +13,13 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral & </span><span>
                             Maxillofacial Surgery </span></h1>
-                    <p class="about-p mb-4">The specialty of Oral and Maxillofacial Surgery (OMFS) is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
+                    <p class="about-p mb-4 text-justify">The specialty of Oral and Maxillofacial Surgery (OMFS) is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/oms/oms_banner.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Jaw Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
+                    <p class="about-p mb-4 text-justify">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Jaw Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
                 </div>
             </div>
         </section>
@@ -28,13 +28,13 @@
                 <div class="col-md-6 mb-3">
                     <div>
                         <h3 class="tmu-text-primary mb-2"><span>Specialized Equipment and </span><span> Specialized Treatment</span></h3>
-                        <p class="mb-2">The department of Oral and Maxillofacial Surgery, which is making its presence felt more and more in the medical world can have no better place to show its potential than the esteemed TMU University with its world class Super-specialty Hospital and state of the art healthcare system in the country. The Department is responsible for management of the maxillofacial trauma in the 880 bedded medical center and hospital. Round the clock service, outpatient inpatient and emergency service is provided by a team of experienced maxillofacial surgeons working as 2 units providing expert service 24 X 7 X 365 not to mention the extra day on the Leap year.</p>
+                        <p class="mb-2 text-justify">The department of Oral and Maxillofacial Surgery, which is making its presence felt more and more in the medical world can have no better place to show its potential than the esteemed TMU University with its world class Super-specialty Hospital and state of the art healthcare system in the country. The Department is responsible for management of the maxillofacial trauma in the 880 bedded medical center and hospital. Round the clock service, outpatient inpatient and emergency service is provided by a team of experienced maxillofacial surgeons working as 2 units providing expert service 24 X 7 X 365 not to mention the extra day on the Leap year.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
-                    <p class="mb-2">The Department of Oral and Maxillofacial Surgery offers MDS course which has an intake capacity of five students per year. Numerous clinical trials, in-vitro studies and surveys dealing with the various treatment modalities and advances in the subject are conducted in our department. Interesting researches and original studies undertaken by the post graduate students and staff members are regularly been published in the leading national and international journals. Post graduate students attend national and state conferences, convention and various CDE programs held every year. </p>
-                    <p class="mb-2">Scientific forum is conducted by the department once every year where post graduate students and staff make presentation about the current and ongoing advances in our specialty to enlighten the knowledge of postgraduates from other specialty department and under graduate students. Seminars, journal clubs, pedagogy, case presentations and tests are conducted for the post graduate students on regularly according to the schedule prepared on a monthly basis. </p>
+                    <p class="mb-2 text-justify">The Department of Oral and Maxillofacial Surgery offers MDS course which has an intake capacity of five students per year. Numerous clinical trials, in-vitro studies and surveys dealing with the various treatment modalities and advances in the subject are conducted in our department. Interesting researches and original studies undertaken by the post graduate students and staff members are regularly been published in the leading national and international journals. Post graduate students attend national and state conferences, convention and various CDE programs held every year. </p>
+                    <p class="mb-2 text-justify">Scientific forum is conducted by the department once every year where post graduate students and staff make presentation about the current and ongoing advances in our specialty to enlighten the knowledge of postgraduates from other specialty department and under graduate students. Seminars, journal clubs, pedagogy, case presentations and tests are conducted for the post graduate students on regularly according to the schedule prepared on a monthly basis. </p>
                 </div>
             </div>
             <div class="row">
@@ -66,10 +66,10 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/31.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/35.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/32.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/33.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/oms1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/oms1.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/oms2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/oms2.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/oms3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/oms3.jpg')}}" alt="Gallery Thumb 3"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/oms/oms4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/oms/oms4.jpg')}}" alt="Gallery Thumb 5"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

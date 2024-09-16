@@ -427,6 +427,27 @@ Route::get('/medical-college-and-research-centre/orthopaedics', [MedicalControll
 Route::get('/medical-college-and-research-centre/ent', [MedicalController::class, 'medical_ent'])->name('medical.ent');
 Route::get('/medical-college-and-research-centre/ophthalmology', [MedicalController::class, 'medical_ophthalmology'])->name('medical.ophthalmology');
 Route::get('/medical-college-and-research-centre/obstetrics-gynaecology', [MedicalController::class, 'medical_obstetrics_gynaecology'])->name('medical.obstetrics.gynaecology');
+Route::get('/medical-college-and-research-centre/anatomy/infrastructure', [MedicalController::class, 'medical_anatomy_infra'])->name('medical.anatomy.infra');
+Route::get('/medical-college-and-research-centre/physiology/infrastructure', [MedicalController::class, 'medical_physiology_infra'])->name('medical.physiology.infra');
+Route::get('/medical-college-and-research-centre/biochemistry/infrastructure', [MedicalController::class, 'medical_biochemistry_infra'])->name('medical.biochemistry.infra');
+Route::get('/medical-college-and-research-centre/pathology/infrastructure', [MedicalController::class, 'medical_pathology_infra'])->name('medical.pathology.infra');
+Route::get('/medical-college-and-research-centre/microbiology/infrastructure', [MedicalController::class, 'medical_microbiology_infra'])->name('medical.microbiology.infra');
+Route::get('/medical-college-and-research-centre/pharmacology/infrastructure', [MedicalController::class, 'medical_pharmacology_infra'])->name('medical.pharmacology.infra');
+Route::get('/medical-college-and-research-centre/forensic-medicine/infrastructure', [MedicalController::class, 'medical_forensic_medicine_infra'])->name('medical.forensic.medicine.infra');
+Route::get('/medical-college-and-research-centre/community-medicine/infrastructure', [MedicalController::class, 'medical_community_medicine_infra'])->name('medical.community.medicine.infra');
+Route::get('/medical-college-and-research-centre/general-medicine/infrastructure', [MedicalController::class, 'medical_general_medicine_infra'])->name('medical.general.medicine.infra');
+Route::get('/medical-college-and-research-centre/pulmonary-medicine/infrastructure', [MedicalController::class, 'medical_pulmonary_medicine_infra'])->name('medical.pulmonary.medicine.infra');
+Route::get('/medical-college-and-research-centre/psychiatry/infrastructure', [MedicalController::class, 'medical_psychiatry_infra'])->name('medical.psychiatry.infra');
+Route::get('/medical-college-and-research-centre/dermatology/infrastructure', [MedicalController::class, 'medical_dermatology_infra'])->name('medical.dermatology.infra');
+Route::get('/medical-college-and-research-centre/paediatrics/infrastructure', [MedicalController::class, 'medical_paediatrics_infra'])->name('medical.paediatrics.infra');
+Route::get('/medical-college-and-research-centre/anesthesiology/infrastructure', [MedicalController::class, 'medical_anesthesiology_infra'])->name('medical.anesthesiology.infra');
+Route::get('/medical-college-and-research-centre/radiology/infrastructure', [MedicalController::class, 'medical_radiology_infra'])->name('medical.radiology.infra');
+Route::get('/medical-college-and-research-centre/general-surgery/infrastructure', [MedicalController::class, 'medical_general_surgery_infra'])->name('medical.general.surgery.infra');
+Route::get('/medical-college-and-research-centre/orthopaedics/infrastructure', [MedicalController::class, 'medical_orthopaedics_infra'])->name('medical.orthopaedics.infra');
+Route::get('/medical-college-and-research-centre/ent/infrastructure', [MedicalController::class, 'medical_ent_infra'])->name('medical.ent.infra');
+Route::get('/medical-college-and-research-centre/ophthalmology/infrastructure', [MedicalController::class, 'medical_ophthalmology_infra'])->name('medical.ophthalmology.infra');
+Route::get('/medical-college-and-research-centre/obg/infrastructure', [MedicalController::class, 'medical_obstetrics_gynaecology_infra'])->name('medical.obstetrics.gynaecology.infra');
+
 
 // Dental
 Route::get('/dental-college-and-research-centre', [DentalController::class, 'index'])->name('dental.home');

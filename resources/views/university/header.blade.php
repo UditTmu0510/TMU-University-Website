@@ -170,7 +170,7 @@
                                 <a href="{{route('all_blogs')}}">Blogs</a>
                             </div>
                             <div class="col-4 mb-3">
-                                <a href="">Allumni</a>
+                                <a href="{{route('alumni.home')}}">Alumni</a>
                             </div>
                             <div class="col-4 mb-3">
                                 <a href="{{route('crc.about.us')}}">Placement</a>
@@ -217,7 +217,7 @@
                                         <a class="nav-link" href="{{route('all_blogs')}}">Blogs</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Allumni</a>
+                                        <a class="nav-link" href="{{route('alumni.home')}}">Alumni</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('crc.about.us')}}">Placement</a>
