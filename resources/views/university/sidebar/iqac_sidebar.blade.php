@@ -5,61 +5,61 @@
     <div class="custom-menu-section">
         <h2>IQAC AT A Glance</h2>
         <div class="account-section">
-            <a href="{{route('iqac.about')}}" class="custom-menu-item active">
+            <a href="{{ route('iqac.about') }}" class="custom-menu-item {{ Route::is('iqac.about') ? 'active' : '' }}">
                 <p>About IQAC</p>
             </a>
-            <a href="{{route('iqac.quality.policy')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ Route::is('iqac.quality.policy') ? 'active' : '' }}">
                 <p>Quality Policy</p>
             </a>
-            <a href="{{route('iqac.composition')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.composition') }}" class="custom-menu-item {{ Route::is('iqac.composition') ? 'active' : '' }}">
                 <p>Composition</p>
             </a>
-            <a href="{{route('iqac.mom.and.action.taken.reports')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.mom.and.action.taken.reports') }}" class="custom-menu-item {{ Route::is('iqac.mom.and.action.taken.reports') ? 'active' : '' }}">
                 <p>MOM & Action<br>Taken Report</p>
             </a>
-            <a href="{{route('aqar.report')}}" class="custom-menu-item">
+            <a href="{{ route('aqar.report') }}" class="custom-menu-item {{ Route::is('aqar.report') ? 'active' : '' }}">
                 <p>AQAR Report</p>
             </a>
-            <a href="{{route('sss.report')}}" class="custom-menu-item">
+            <a href="{{ route('sss.report') }}" class="custom-menu-item {{ Route::is('sss.report') ? 'active' : '' }}">
                 <p>SSS Report</p>
             </a>
-            <a href="{{route('annual.report')}}" class="custom-menu-item active">
+            <a href="{{ route('annual.report') }}" class="custom-menu-item {{ Route::is('annual.report') ? 'active' : '' }}">
                 <p>Annual Reports</p>
             </a>
-            <a href="{{route('iqac.awards.achievement')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.awards.achievement') }}" class="custom-menu-item {{ Route::is('iqac.awards.achievement') ? 'active' : '' }}">
                 <p>Awards & Achievements</p>
             </a>
-			<a href="https://www.tmu.ac.in/pdf/university_achievements_report.pdf" class="custom-menu-item">
+            <a href="https://www.tmu.ac.in/pdf/university_achievements_report.pdf" class="custom-menu-item">
                 <p>University Achievement Report</p>
             </a>
-            <a href="{{route('iqac.quality.policy')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ Route::is('iqac.quality.policy') ? 'active' : '' }}">
                 <p>Strategic Plan</p>
             </a>
-            <a href="{{route('gender.equity.initiative')}}" class="custom-menu-item">
-                <p>Insitutional Values</p>
+            <a href="{{ route('gender.equity.initiative') }}" class="custom-menu-item {{ Route::is('gender.equity.initiative') ? 'active' : '' }}">
+                <p>Institutional Values</p>
             </a>
-            <a href="{{route('iqac.best.practices')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.best.practices') }}" class="custom-menu-item {{ Route::is('iqac.best.practices') ? 'active' : '' }}">
                 <p>Best Practices</p>
             </a>
-            <a href="{{route('iqac.academic.calendar')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.academic.calendar') }}" class="custom-menu-item {{ Route::is('iqac.academic.calendar') ? 'active' : '' }}">
                 <p>Academic Calendar</p>
             </a>
-            <a href="{{route('iqac.student.feedback')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.student.feedback') }}" class="custom-menu-item {{ Route::is('iqac.student.feedback') ? 'active' : '' }}">
                 <p>Student Feedback</p>
             </a>
-            <a href="{{route('naac.home')}}" class="custom-menu-item">
+            <a href="{{ route('naac.home') }}" class="custom-menu-item {{ Route::is('naac.home') ? 'active' : '' }}">
                 <p>NAAC</p>
             </a>
-             <a href="{{route('nirf.home')}}" class="custom-menu-item">
+            <a href="{{ route('nirf.home') }}" class="custom-menu-item {{ Route::is('nirf.home') ? 'active' : '' }}">
                 <p>NIRF</p>
             </a>
-            <a href="{{route('iqac.policies.and.sops')}}" class="custom-menu-item">
-                <p>Policies & Sops</p>
+            <a href="{{ route('iqac.policies.and.sops') }}" class="custom-menu-item {{ Route::is('iqac.policies.and.sops') ? 'active' : '' }}">
+                <p>Policies & SOPs</p>
             </a>
-             <a href="{{route('iqac.quality.policy')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ Route::is('iqac.quality.policy') ? 'active' : '' }}">
                 <p>ERP</p>
             </a>
-            <a href="{{route('iqac.contact.us')}}" class="custom-menu-item">
+            <a href="{{ route('iqac.contact.us') }}" class="custom-menu-item {{ Route::is('iqac.contact.us') ? 'active' : '' }}">
                 <p>Contact Us</p>
             </a>
         </div>

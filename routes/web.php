@@ -448,6 +448,7 @@ Route::get('/medical-college-and-research-centre/ent/infrastructure', [MedicalCo
 Route::get('/medical-college-and-research-centre/ophthalmology/infrastructure', [MedicalController::class, 'medical_ophthalmology_infra'])->name('medical.ophthalmology.infra');
 Route::get('/medical-college-and-research-centre/obg/infrastructure', [MedicalController::class, 'medical_obstetrics_gynaecology_infra'])->name('medical.obstetrics.gynaecology.infra');
 
+
 // Dental
 Route::get('/dental-college-and-research-centre', [DentalController::class, 'index'])->name('dental.home');
 Route::get('/dental-college-and-research-centre/about-us', [DentalController::class, 'dental_overview'])->name('dental.overview');

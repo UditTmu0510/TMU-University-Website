@@ -13,24 +13,24 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Orthodontics & </span><span>
                             Dentofacial Orthopedics </span></h1>
-                    <p class="about-p mb-4">Welcome to the Teerthanker Mahaveer Dental College and Research Centre’s
+                    <p class="about-p mb-4 text-justify">Welcome to the Teerthanker Mahaveer Dental College and Research Centre’s
                         Department of Orthodontics and Dentofacial Orthopaedics. It stands out as one of the most
                         prestigious and best dental colleges in UP. Experience superior clinical care and
                         exceptional quality treatment along with top-notch dental education.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/odo/36.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/odo/odo_banner.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4">Equipped with cutting-edge technology and led by renowned professionals,
+                    <p class="about-p mb-4 text-justify">Equipped with cutting-edge technology and led by renowned professionals,
                         the department is dedicated to providing exceptional orthodontic training to both
                         postgraduate and undergraduate students.</p>
-                    <p class="about-p mb-4">Our goal is to nurture competent and astute orthodontists who will make
+                    <p class="about-p mb-4 text-justify">Our goal is to nurture competent and astute orthodontists who will make
                         a positive impact in society. Prof. Dr Manish Goyal, college principal, leads the team,
                         while Prof. Dr Mukesh Kumar provides valuable support. Together, we drive the department's
                         growth and success. With their expertise, we proudly supervise seven PhD scholars, advancing
                         orthodontics.</p>
-                    <p class="about-p mb-4">The orthodontics department at TMU specialises in the diagnosis and
+                    <p class="about-p mb-4 text-justify">The orthodontics department at TMU specialises in the diagnosis and
                         treatment of malocclusions and dentofacial deformities. We cater to a diverse range of
                         cases, from simple malocclusions to complex orthodontic problems, orthognathic cases, and
                         cleft care. Thus, we ensure the highest level of precision and effectiveness in patient
@@ -44,9 +44,9 @@
                     <div>
                         <h3 class="tmu-text-primary mb-2"><span>Orthodontics & Dentofacial Orthopedics </span><span>
                                 Specialized Equipment and Treatment</span></h3>
-                        <p class="mb-2">At TMU’s Orthodontics Department, you can experience cutting-edge technology
+                        <p class="mb-2 text-justify">At TMU’s Orthodontics Department, you can experience cutting-edge technology
                             and advanced facilities. Equipped with fully automatic dental</p>
-                        <p class="mb-2">chairs and state-of-the-art cephalometric software like Nemoceph, we ensure
+                        <p class="mb-2 text-justify">chairs and state-of-the-art cephalometric software like Nemoceph, we ensure
                             precision and accuracy in every treatment. Our world-class infrastructure includes
                             essential equipment such as the Hydrosolder unit, Electropolisher, Sand Blaster,
                             Photographic Room, Mini Implant Kit (TSAD), Thermoforming Machine, Digital Camera, and
@@ -59,30 +59,30 @@
                 </div>
                 <div class="col-md-12">
                     <h3 class="tmu-text-primary mb-2"><span>Research </span><span> Academic Activities</span></h3>
-                    <p class="mb-2">The Department of Orthodontics and Dentofacial Orthopaedics at TMDC&RC offers
+                    <p class="mb-2 text-justify">The Department of Orthodontics and Dentofacial Orthopaedics at TMDC&RC offers
                         MDS courses with an annual intake capacity of five students, approved by the Dental Council
                         of India (DCI). A majority of our
                         current postgraduate students have achieved scores above 300 marks in NEET PG. Additionally,
                         we provide orthodontic education to numerous undergraduate students in their third and final
                         year. </p>
-                    <p class="mb-2"> Our focus lies in fostering clinical and presentation skills among our
+                    <p class="mb-2 text-justify"> Our focus lies in fostering clinical and presentation skills among our
                         students, adhering to international standards. We conduct a wide range of research studies,
                         including clinical trials, in-vitro and in-vivo studies, FEM studies, C.B.C.T. studies, and
                         surveys, exploring various treatment modalities and advancements in the field.
                         Postgraduate students actively participate in national and state conferences, conventions,
                         and various CDE programs organised annually.</p>
-                    <p class="mb-2"> Our department takes pride in regularly publishing a diverse array of research,
+                    <p class="mb-2 text-justify"> Our department takes pride in regularly publishing a diverse array of research,
                         including original studies, case reports, and other interesting findings in leading national
                         and international journals such as the American Journal of Orthodontics and Dentofacial
                         Orthopedics and the Journal of Clinical Orthodontics.
                         Furthermore, our students and faculty actively engage in reviewing esteemed international
                         journals.</p>
-                    <p class="mb-2"> To promote knowledge sharing and advancement in our specialty, we organise a
+                    <p class="mb-2 text-justify"> To promote knowledge sharing and advancement in our specialty, we organise a
                         scientific forum once a year, where postgraduate students and staff present on the latest
                         developments. This forum aims to enlighten students from other specialty departments.
                         Additionally, we conduct seminars, journal clubs, pedagogy sessions, case presentations, and
                         regular assessments for our postgraduate students, following a monthly schedule.</p>
-                    <p class="mb-2"> We work to advance orthodontics through research, collaboration, and knowledge
+                    <p class="mb-2 text-justify"> We work to advance orthodontics through research, collaboration, and knowledge
                         sharing.</p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                     <div>
                         <h3 class="tmu-text-primary mb-2"><span>Treatment Provided in </span><span> the Department
                             </span></h3>
-                        <p class="mb-2">TMU Hospital is a state-of-the-art medical facility that operates round the
+                        <p class="mb-2 text-justify">TMU Hospital is a state-of-the-art medical facility that operates round the
                             clock, offering 24*7 medical services. With its expansive infrastructure and more than
                             800 beds, the hospital provides specialised healthcare services to a large population of
                             Uttar Pradesh. Thus, catering to people’s diverse medical needs and ensuring their
@@ -157,11 +157,11 @@
                 </div>
                 <div class="col-md-12">
                     <h3 class="tmu-text-primary mb-2"><span>Other </span><span> Activities</span></h3>
-                    <p class="mb-2">The department is dedicated to enhancing the knowledge and expertise in the
+                    <p class="mb-2 text-justify">The department is dedicated to enhancing the knowledge and expertise in the
                         field of orthodontics. To fulfil this commitment, we regularly organise a wide range of
                         academic programs, such as Continuing Dental Education (CDE) programs, hands-on workshops,
                         and various other educational activities. </p>
-                    <p class="mb-2"> Stay informed about our upcoming programs and join us to enhance your
+                    <p class="mb-2 text-justify"> Stay informed about our upcoming programs and join us to enhance your
                         orthodontic skills at the best dental college in Uttar Pradesh. Be at the forefront of the
                         latest advancements in the field and unlock your potential in orthodontics.</p>
                 </div>
@@ -172,10 +172,9 @@
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
             <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/32.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/32.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/33.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/33.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/34.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/34.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/35.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/35.jpg')}}" alt="Gallery Thumb 5"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/odo1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/odo1.jpg')}}" alt="Gallery Thumb 1"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/odo2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/odo2.jpg')}}" alt="Gallery Thumb 2"></a>
+                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/odo/odo3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/odo/odo3.jpg')}}" alt="Gallery Thumb 3"></a>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">
