@@ -14,7 +14,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/agriculture/ED_5.pdf"
+                                    <a href="{{asset('/assets/pdf/agriculture/ED_5.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('assets/img/magazines/agriculture/1.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -28,7 +28,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/agriculture/ED_4.pdf"
+                                    <a href="{{asset('/assets/pdf/agriculture/ED_4.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('assets/img/magazines/agriculture/2.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -42,7 +42,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/agriculture/ED_3.pdf"
+                                    <a href="{{asset('/assets/pdf/agriculture/ED_3.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('assets/img/magazines/agriculture/3.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -54,7 +54,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/agriculture/ED_2.pdf"
+                                    <a href="{{asset('/assets/pdf/agriculture/ED_2.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('assets/img/magazines/agriculture/4.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -66,7 +66,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/agriculture/ED_1.pdf"
+                                    <a href="{{asset('/assets/pdf/agriculture/ED_1.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('assets/img/magazines/agriculture/5.webp')}}"
                                             alt="Book Cover Image"></a>
