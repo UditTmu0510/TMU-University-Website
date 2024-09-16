@@ -33,52 +33,114 @@
                     <span> Superintendent</span>
                 </div>
             </div>
-            <div class="col-lg-12">
-                <div class="table-responsive" style="margin-left:10px">
-                    <table class="table table-bordered">
+            <div class="col-lg-12 col-sm-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
                         <tbody>
                             <tr>
-                                <td>Name</td>
+                                <td class="fw-bold">Name</td>
                                 <td>:</td>
                                 <td style="text-align:left">Dr. Vishvanayak</td>
                             </tr>
                             <tr>
-                                <td>Designation</td>
+                                <td class="fw-bold">Designation</td>
                                 <td>:</td>
                                 <td style="text-align:left">Medical Superintendent, Professor (Orthopaedics)</td>
                             </tr>
                             <tr>
-                                <td>Office Address</td>
+                                <td class="fw-bold">Office Address</td>
                                 <td>:</td>
                                 <td style="text-align:left">Teerthankar Mahaveer Medical College Hospital,
                                     Teerthankar Mahaveer University, Delhi Road, Moradabad – 244001 (U.P.)</td>
                             </tr>
                             <tr>
-                                <td>Contact No.</td>
+                                <td class="fw-bold">Contact No.</td>
                                 <td>:</td>
                                 <td style="text-align:left">+91 9453426467</td>
                             </tr>
                             <tr>
-                                <td>Fax No.</td>
+                                <td class="fw-bold">Fax No.</td>
                                 <td>:</td>
                                 <td style="text-align:left">0591-2476815</td>
                             </tr>
                             <tr>
-                                <td>E-Mail ID</td>
+                                <td class="fw-bold">E-Mail ID</td>
                                 <td>:</td>
                                 <td style="text-align:left">ms@tmu.ac.in</td>
                             </tr>
                             <tr>
-                                <td>Date of Birth</td>
+                                <td class="fw-bold">Date of Birth</td>
                                 <td>:</td>
                                 <td style="text-align:left">03-09-1957</td>
                             </tr>
                             <tr>
-                                <td>Academic Qualification</td>
+                                <td class="fw-bold">Academic Qualification</td>
                                 <td>:</td>
                                 <td style="text-align:left">
-                                    <ul style="text-align:justify;list-style:disc;margin-left:15px">
+                                    <ul class="m-ol-list ps-3 fs-14">
                                         <li>M.D. (Medicine), S. N. Medical College, Agra University, Agra (U.P)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="table-responsive" style="margin-left:10px">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td>Professional Synopsis</td>
+                                <td>:</td>
+                                <td>
+                                    <ul class="m-ol-list ps-3 fs-14 mb-1">
+                                        <li><b class="fs-14">Professor & Head, Department of Medicine</b>, Teerthanker Mahaveer Medical College & Research Centre, TMU, Moradabad from November 2015 to October 2022.</li>
+                                        <li><b class="fs-14">Officer Incharge Medical Division</b> 159 General Hospital, Military Hospital Blood Bank in Ferozpur, Punjab.</li>
+                                        <li><b class="fs-14">Officer Incharge Medical Division</b> Military Hospital Pune.</li>
+                                        <li>Members of various committee in College level and university level of Teerthanker Mahaveer University</li>
+                                    </ul>
+                                    <h3 class="tmu-text-primary mb-1 mt-1"><span>External </span><span> Examiner</span></h5>
+                                        <ul class="m-ol-list ps-3 fs-14">
+                                            <li>External Examiner for Final Practical and Viva-Voce examination of BDS of Mahatma Gandhi Medical College & Hospital on 2022.</li>
+                                            <li>External Examiner for 3rd Prof. Part - 2 Practical and Viva-Voce examination of MBBS Batch of Mahatma Gandhi Medical College & Hospital on March 2022.</li>
+                                            <li>Evaluation of PG Thesis of General Medicine 2019, Mahatma Gandhi University.</li>
+                                            <li>External Examiner for Final IInd Prof. Practical and Viva-Voce examination of MBBS Batch of JNMC, AMU, Aligarh on 2018.</li>
+                                            <li>External Examiner for Final IInd Prof. Practical and Viva-Voce examination of MBBS Batch of Mahatma Gandhi Medical College & Hospital on 2018.</li>
+                                            <li>Certificate of External Examiner for Final Year MD Medicine of JNMC, AMU, Aligarh on 22rd Oct 2017.</li>
+                                            <li>External Examiner for Final IInd Prof. Practical and Viva-Voce examination of MBBS Batch of Mahatma Gandhi Medical College & Hospital on 21th July 2016.</li>
+                                        </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Publications & Research/Conference Papers</td>
+                                <td>:</td>
+                                <td>
+                                    <ul class="m-ol-list ps-3 fs-14">
+                                        <li>More than 20 publications in various specialties.</li>
+                                        <li>Attended more than 75 conferences/workshops/symposia/etc.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Awards & Honors</td>
+                                <td>:</td>
+                                <td>
+                                    <ul class="m-ol-list ps-3 fs-14">
+                                        <li>Kaushla Nandan Sahay Silver Medal 1981 for obtaining highest marks in ophthalmology</li>
+                                        <li>Tukaram elhence silver Medal 1981 for highest marks in ophthalmology and gynaecology.</li>
+                                        <li>Special prize for medical debate, SN Medical College, Agra in 1983</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Professional Body Memberships</td>
+                                <td>:</td>
+                                <td style="text-align:justify">
+                                    <ul class="m-ol-list ps-3 fs-14">
+                                        <li>Association of Physicians of India (No. L.M. 4469)</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -90,6 +152,5 @@
     </div>
 </div>
 </div>
-
 
 @endsection

@@ -3,14 +3,10 @@
 
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
                     Dean</span></h1>
 
-            <!--<div class="col-md-4 text-center img-container">-->
-            <!--    <img src="https://www.tmu.ac.in/uploads/college/tmph_head.jpg"-->
-            <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
-            <!--</div>-->
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
                 <img src="{{asset('/assets/img/principal/agriculture/agriculture_principal.jpg')}}"
                     alt="praveen-dean-desk"  width="400">
@@ -19,7 +15,7 @@
                 <p class="mb-2 text-justify">Indian agriculture has witnessed a significant transformation in recent years, with the adoption of the latest trends and technologies. Precision farming, organic farming, biotechnology, and mechanization are some of the latest trends in Indian agriculture. These innovations help farmers increase crop yields, improve product quality, and reduce environmental impact. As India modernises its agricultural practices, it is poised to become a global leader in sustainable agriculture.</p>
                 <p class="mb-2 text-justify">We, at the <span class="highlight"><a href="{{route('agriculture.home')}}" target="blank"> TMU’s College of Agricultural Sciences</a></span>, the top private agricultural college in UP, embrace the potential of modern agricultural technology and blend it with traditional knowledge to create innovative solutions. Our curriculum equips students with in-demand skills along with global opportunities to pursue a range of career paths. We believe that agriculture is an avenue for us to contribute to the environment and make a positive difference......</p>
             </div>
-            <div class="col-md-12">
+            <div class="col-lg-12 col-md-8">
                 <p class="mb-2 text-justify">Our prime aim is to provide a pragmatic approach to agriculture education. This enables our graduates to tackle farm problems in both the corporate and unorganized sectors, including the village level. Besides, we provide our students with specialized training in fields and Agro-based industries. The curriculum is designed adopting the holistic approach of learning based upon guidelines of <span class="highlight"><a href="https://icar.org.in/" target="blank">ICAR</a></span> and <span class="highlight"><a href="https://www.tmu.ac.in/blog/tmu-organizes-education-conclave-2021-to-discuss-nep-2020">NEP2020</a></span>.</p>
                 <p class="mb-2 text-justify">The College of Agriculture Sciences at <span class="highlight"><a href="{{route('about.us')}}" target="blank"> TMU Moradabad</a></span> boasts an abundance of advantages. These include experienced teachers and substantial farming acreage for hands-on learning. </p>
                 <p class="mb-2 text-justify">Furthermore, we have a greenhouse and polyhouse facility with trips to renowned agri-institutes. Additionally, the college has well-established modern laboratories equipped with the latest scientific equipment. Besides, students get a dynamic campus atmosphere, making us one of the top private agriculture colleges in Uttar Pradesh.</p>
@@ -32,8 +28,21 @@
             </div>
 
 
-        </div>
+        </div> -->
+        <div class="">
+            <h2 class="tmu-text-primary text-center mt-4"><span>Message from the </span><span>Dean's Desk</span></h2>
+            <div class="quote-box mx-auto">
+              <div class="profile-image">
+                <img src="{{asset('/assets/img/principal/agriculture/agriculture_principal.jpg')}}" alt="Profile Image">
+              </div>
+              <div class="quote-text mt-4 mt-md-0">
+                <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that harmonious development of the society can be achieved by enlightenment of the individual heart, mind and soul. This has become a prerequisite in today’s fast changing world where material gains have out-placed basic human values.</h4>
 
+                <p class="mt-3">- Shri Suresh Jain</p>
+                <p>Chancellor</p>
+              </div>
+            </div>
+        </div>
 
 
     </div>
