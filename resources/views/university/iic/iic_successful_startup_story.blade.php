@@ -13,7 +13,7 @@
                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                     <p class="description">Successful startup initiative by the students</p>
                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                        href="https://www.tmu.ac.in/pdf/Successful startup initiative by the students.pdf">View PDF</a>
+                        href="{{asset('/assets/pdf/Successful startup initiative by the students.pdf')}}">View PDF</a>
                 </div>
             </div>
         </div>
