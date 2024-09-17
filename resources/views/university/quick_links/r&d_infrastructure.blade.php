@@ -10,31 +10,52 @@
     <div class="row mx-0">
       <h1 class=" tmu-text-primary tmu-page-heading mb-4 pt-md-5"><span> RDC </span><span>
           Infrastructure</span></h1>
+      <div class="row gutter-30 col-mb-5 mb-5">
 
-      <div class="row justify-content-center gutter-30 col-mb-5">
-        <div class="col-sm-4 col-md-4">
-          <div
-            class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+      <div class="col-sm-4 col-md-4">
+          <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}" alt="rdc">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}" class="col-4"
+                alt="">
+            </div>
+            <div class="team-desc p-2">
+              <div class="team-title pt-0">
+                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                    class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}"> Download Geo Tag Image</div>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col-sm-4 col-md-4">
-          <div
-            class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+          <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}" alt="rdc3">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}" class="col-4"
+                alt="">
+            </div>
+            <div class="team-desc p-2">
+              <div class="team-title pt-0">
+                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                    class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}"> Download Geo Tag Image</div>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col-sm-4 col-md-4">
-          <div
-            class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+          <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}" alt="rdc2" height="260">
+              <img src="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}" class="col-4" height="270"
+                alt="">
+            </div>
+            <div class="team-desc p-2">
+              <div class="team-title pt-0">
+                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                    class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}"> Download Geo Tag Image</div>
+              </div>
             </div>
           </div>
         </div>
