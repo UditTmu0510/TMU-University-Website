@@ -24,29 +24,35 @@
                                 semester system</td>
                             <td>Upto Academic Session 2012-13</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/Examination_Ordinance.pdf"
-                                    target="_blank" data-original-title="View">Read More!</a></td>
+                                    href="{{asset('/assets/pdf/policy/Examination_Ordinance.pdf')}}"
+                                    target="_blank" data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/Examination_Ordinance.pdf"
-                                    download="Examination_Ordinance.pdf" data-original-title="Download">Download</a></td>
+                                    href="{{asset('/assets/pdf/policy/Examination_Ordinance.pdf')}}"
+                                    download="Examination_Ordinance.pdf')}}" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
                             <td class="text-center">2</td>
                             <td>Notifications to Detained students</td>
                             <td>Upto Academic Session 2012-13</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="#!" target="_blank" data-original-title="View">Read More!</a></td>
+                                    href="#!" target="_blank" data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="#!" download="" data-original-title="Download">Download</a></td>
+                                    href="#!" download="" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
                             <td class="text-center">3</td>
                             <td>Amended Examination Ordinance applicable w.e.f. Session 2013-14 Semester System</td>
                             <td>From Academic session 2013-14</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="#!" target="_blank" data-original-title="View">Read More!</a></td>
+                                    href="#!" target="_blank" data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="#!" download="" data-original-title="Download">Download</a></td>
+                                    href="#!" download="" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
                             <td class="text-center">4</td>
@@ -55,11 +61,13 @@
                                 Academic Session 2016-17</td>
                             <td>Upto Academic Session 2016-17</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/Examination_Ordinance1.pdf"
-                                    target="_blank" data-original-title="View">Read More!</a></td>
+                                    href="{{asset('/assets/pdf/policy/Examination_Ordinance1.pdf')}}"
+                                    target="_blank" data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/Examination_Ordinance1.pdf"
-                                    download="Examination_Ordinance1.pdf" data-original-title="Download">Download</a></td>
+                                    href="{{asset('/assets/pdf/policy/Examination_Ordinance1.pdf')}}"
+                                    download="Examination_Ordinance1.pdf')}}" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
                             <td class="text-center">5</td>
@@ -67,11 +75,13 @@
                                 Bachelor’s/Master’s Degrees in Nursing</td>
                             <td>With effect from Academic Session 2016-17</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/nursing_ordinance.pdf" target="_blank"
-                                    data-original-title="View">Read More!</a></td>
+                                    href="{{asset('/assets/pdf/policy/nursing_ordinance.pdf')}}" target="_blank"
+                                    data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/policy/nursing_ordinance.pdf"
-                                    download="nursing_ordinance.pdf" data-original-title="Download">Download</a></td>
+                                    href="{{asset('/assets/pdf/policy/nursing_ordinance.pdf')}}"
+                                    download="nursing_ordinance.pdf')}}" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
                             <td class="text-center">6</td>
@@ -83,11 +93,13 @@
                             </td>
                             <td>With effect from Academic Session 2019-20</td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/Academic_Ordinance_2022.pdf" target="_blank"
-                                    data-original-title="View">Read More!</a></td>
+                                    href="{{asset('/assets/pdf/Academic_Ordinance_2022.pdf')}}" target="_blank"
+                                    data-original-title="View"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
-                                    href="https://www.tmu.ac.in/pdf/Academic_Ordinance_2022.pdf"
-                                    download="Academic_Ordinance_2022.pdf" data-original-title="Download">Download</a></td>
+                                    href="{{asset('/assets/pdf/Academic_Ordinance_2022.pdf')}}"
+                                    download="Academic_Ordinance_2022.pdf')}}" data-original-title="Download"><i
+                                            class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                     </tbody>
                 </table>
