@@ -13,7 +13,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/magazine/jigyasa_magazine_final.pdf"
+                                    <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/ctld/1.jpg')}}"
                                             alt="Book Cover Image"></a>
@@ -27,7 +27,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/magazine/Jigyasa_final_magazine_2023.pdf"
+                                    <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_final_magazine_2023.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/ctld/2.jpg')}}"
                                             alt="Book Cover Image"></a>
@@ -41,7 +41,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/magazine/Jigyasa_3.O.pdf"
+                                    <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/ctld/3.jpg')}}"
                                             alt="Book Cover Image"></a>

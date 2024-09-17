@@ -29,7 +29,7 @@
             <a href="{{ route('ctld.magazine') }}" class="custom-menu-item {{ Route::is('ctld.magazine') ? 'active' : '' }}">
                 <p>Magazine</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/CTLD_brochure/ctld-brochure.pdf" class="custom-menu-item">
+            <a href="{{asset('assets/pdf/CTLD_brochure/ctld-brochure.pdf')}}" class="custom-menu-item">
                 <p>Brochure</p>
             </a>
             <a href="{{ route('ctld.events') }}" class="custom-menu-item {{ Route::is('ctld.events') ? 'active' : '' }}">
