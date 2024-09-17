@@ -407,6 +407,7 @@ Route::get('/medical-college-and-research-centre/anti-ragging-committee', [Medic
 Route::get('/medical-college-and-research-centre/gender-harassment-committee', [MedicalController::class, 'medical_ghc'])->name('medical.ghc');
 Route::get('/medical-college-and-research-centre/gallery', [MedicalController::class, 'medical_gallery'])->name('medical.gallery');
 Route::get('/medical-college-and-research-centre/contact-us', [MedicalController::class, 'medical_contactus'])->name('medical.contactus');
+Route::get('/medical-college-and-research-centre/syllabus', [MedicalController::class, 'medical_syllabus'])->name('medical.syllabus');
 Route::get('/medical-college-and-research-centre/anatomy', [MedicalController::class, 'medical_anatomy'])->name('medical.anatomy');
 Route::get('/medical-college-and-research-centre/physiology', [MedicalController::class, 'medical_physiology'])->name('medical.physiology');
 Route::get('/medical-college-and-research-centre/biochemistry', [MedicalController::class, 'medical_biochemistry'])->name('medical.biochemistry');

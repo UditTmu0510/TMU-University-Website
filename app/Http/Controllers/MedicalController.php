@@ -133,6 +133,10 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.medical_contactus');
     }
+    public function medical_syllabus()
+    {
+        return view('university.colleges.medical.medical_syllabus');
+    }
     public function medical_anatomy()
     {
         return view('university.colleges.medical.anatomy');
