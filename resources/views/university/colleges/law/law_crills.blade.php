@@ -11,7 +11,7 @@
                         <p class="about-p mb-4 text-justify">Teerthanker Mahaveer University’s College of Law and Legal Studies has introduced a novel platform popularly known as CRILLS. The Center for Research in Law and Legal Studies or CRILLS strives to create a forum for academicians and students to engage in high-quality research/scholarly activity, allowing them to obtain advanced knowledge in specialised areas of law. Besides, CRILLS conducts studies on current legal issues and executes research initiatives based on the academic agenda.</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="assets/img/banner/law/law-img.jpg" alt="Law about us image">
+                        <img src="{{asset('assets/img/banner_overview/law/law-img.jpg')}}" alt="Law about us image">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4 text-justify">The Center holds seminars, conferences, and workshops on several legal subjects, thus benefiting the legal community at large. It also intends to pursue interdisciplinary study in fields such as law and society, law and medicine, law and economics, and so on.</p>
