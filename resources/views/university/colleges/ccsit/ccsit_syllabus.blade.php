@@ -58,11 +58,15 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <object data="assets/pdf/BTECH-001_2023-24.pdf" type="application/pdf" width="100%" height="1150px">
-                            <p>Your web browser doesn't have a PDF plugin. Instead you can</p>
-                            <center><a type="button" class="btn btn-success btn-lg btn-rounded text-lg waves-effect waves-light" href="assets/pdf/BTECH-001_2023-24.pdf" download type="assets/pdf/BSC-Anatom_2022-23.pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
-                        </object>
+                    <div class="container d-none d-sm-block">
+                        <div style="text-align:center">
+                            <iframe src="{{asset('assets/pdf/BTECH-001_2023-24.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                        </div>
+                    </div>
+                    <div class="container d-block d-sm-none mb-3">
+                        <div style="text-align:center">
+                            <a href="{{asset('assets/pdf/BTECH-001_2023-24.pdf')}}" class="tmu-btn btn-4" download>Download PDF</a>
+                        </div>
                     </div>
                 </form>
             </div>

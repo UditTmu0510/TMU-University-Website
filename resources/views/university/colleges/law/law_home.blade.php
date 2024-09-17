@@ -128,7 +128,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
+                <h2 class="college-main-heading">College of Law & Legal Studies: Among the Top Best Colleges for Law in India</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5"> 
                         <p style="text-align: justify;">College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <a href="https://www.tmu.ac.in/blog/top-10-law-colleges-in-india" target="_blank">best private colleges for law in India</a> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>

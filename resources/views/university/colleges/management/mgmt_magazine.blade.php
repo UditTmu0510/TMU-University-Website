@@ -13,7 +13,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/magazine_january_june_2023.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_january_june_2023.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/jan23-ju23.jpg')}}" height="266px;"
                                             alt="Book Cover Image"></a>
@@ -27,7 +27,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/magazine_june_december_2022.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_june_december_2022.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/jun22-dec22.jpg')}}" height="266px;"
                                             alt="Book Cover Image"></a>
@@ -41,7 +41,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/magazine_january_may_2022.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_january_may_2022.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/may21-dec21.jpg')}}" height="266px;"
                                             alt="Book Cover Image"></a>
@@ -53,7 +53,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/magazine_january_may_2022.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_january_may_2022.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/may21-dec21.jpg')}}" height="266px;"
                                             alt="Book Cover Image"></a>
@@ -65,7 +65,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/magazine_may_december_2021.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_may_december_2021.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/may20-apr21.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -87,7 +87,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/event-may-april-2021.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/event-may-april-2021.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/jan20.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -99,7 +99,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/Magzine/TMIMT/event-january-june-2020.pdf"
+                                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/event-january-june-2020.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/management/aug19-dec19.webp')}}"
                                             alt="Book Cover Image"></a>

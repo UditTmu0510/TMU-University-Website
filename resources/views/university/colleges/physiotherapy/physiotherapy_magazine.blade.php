@@ -15,7 +15,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="assets/pdf/magazines/ENTHESES.pdf"
+                                    <a href="{{asset('/assets/pdf/magzine/physiotherapy/ENTHESES.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/magazines/physiotherapy/magazine.jpg')}}"
                                             alt="Book Cover Image"></a>

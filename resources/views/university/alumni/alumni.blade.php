@@ -277,7 +277,7 @@
             <div class="row">
                 <div class="col-12 px-2 px-md-5">
                     <p style="text-align: justify;">Welcome to the Teerthankar Mahaveer University (TMU) Alumni Page! Our alumni community is a vibrant network of professionals who are making a difference in various fields around the world. We are proud of our graduates and their achievements. This page is designed to help you stay connected with the university and fellow alumni.</p>
-                    <p style="text-align: justify;">Here, you can find updates on alumni events, share your success stories, and access resources to support your ongoing career development. Join us in celebrating the legacy of TMU and contribute to the growth of our global alumni network. Stay in touch, stay inspired, and continue to make an impact!</p>
+                    <p style="text-align: justify;">Here, you can find updates on alumni events, share your success stories, and access resources to support your ongoing career development. Join us in celebrating the legacy of TMU and contribute to the growth of our global alumni network. Stay in touch, stay inspired, and continue to make an impact!</p><br>
                     <a href="{{route('alumni.overview')}}" class="tmu-btn btn-1 py-2 mt-4 ms-2 mt-2" title="Know More">Know More</a>
 
                 </div>

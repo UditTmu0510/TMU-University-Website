@@ -13,7 +13,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement_brochure_2022_23.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement_brochure_2022_23.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_22_23.jpg')}}"
                                             alt="Book Cover Image"></a>
@@ -27,7 +27,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2021-22.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2021-22.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_21_22.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -41,7 +41,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2020-21.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2020-21.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_20_21.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -53,7 +53,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2019-20.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2019-20.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_19_20.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -65,7 +65,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2018-19.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2018-19.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_18_19.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -87,7 +87,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2017-18.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2017-18.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_17_18.webp')}}"
                                             alt="Book Cover Image"></a>
@@ -99,7 +99,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="https://www.tmu.ac.in/pdf/placement_brochure/TMIMT/placement-brochure-2016-17.pdf"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement-brochure-2016-17.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/management/brochure_16_17.webp')}}"
                                             alt="Book Cover Image"></a>

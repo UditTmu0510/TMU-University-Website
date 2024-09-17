@@ -236,7 +236,6 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.obstetrics_gynaecology');
     }
-   
 
     public function medical_anatomy_infra() 
     {

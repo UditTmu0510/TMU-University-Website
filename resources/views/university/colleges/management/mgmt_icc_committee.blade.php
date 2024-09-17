@@ -8,12 +8,12 @@
 
         <div class="container">
             <div class="row">
-                <object data="https://www.tmu.ac.in/pdf/tmimt/ICC.pdf" type="application/pdf" width="100%"
+                <object data="{{asset('/assets/pdf/tmimt/ICC.pdf')}}" type="application/pdf" width="100%"
                     height="1120px">
                     <p>Your web browser doesn't have a PDF plugin. Instead you can</p>
                     <center><a type="button"
                             class="tmu-btn btn-1 m-0 py-1 px-2 mb-3"
-                            href="https://www.tmu.ac.in/pdf/tmimt/ICC.pdf" download="" data-uw-pdf-br="2"
+                            href="{{asset('/assets/pdf/tmimt/ICC.pdf')}}" download="" data-uw-pdf-br="2"
                             data-uw-pdf-doc=""><i class="fa fa-download fa-2x pr-2"
                                 aria-hidden="true"></i>Click here to download PDF file.</a></center>
                 </object>
