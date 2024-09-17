@@ -63,27 +63,20 @@
                 <button class="careers-accordion">HANDBOOK on Sexual Harassment of Woman at Workplace
                     <span class="icon">+</span></button>
                 <div class="panel active">
-                    <div class="container d-none d-sm-block">
-                        <div style="text-align:center">
-                            <iframe src="https://www.tmu.ac.in/pdf/medical/Handbook_onsexual_harassment.pdf"
-                                frameborder="0" height="800px" width="100%"></iframe>
+                    <div class="col-md-12">
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('assets/pdf/medical/Handbook_onsexual_harassment.pdf')}}"
+                                    frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
-                        <div style="text-align:center">
-                            <a href="https://www.tmu.ac.in/pdf/medical/Handbook_onsexual_harassment.pdf"
+                        <div style="text-align:center" class="">
+                            <a href="{{asset('assets/pdf/medical/Handbook_onsexual_harassment.pdf')}}"
                                 class="tmu-btn btn-4" download>Download PDF</a>
                         </div>
                     </div>
-                    <!--<object data="https://www.tmu.ac.in/pdf/medical/Handbook_onsexual_harassment.pdf"-->
-                    <!--    type="application/pdf" width="100%" height="1100px">-->
-                    <!--    <p>Your web browser doesn't have a PDF plugin. Instead you can</p>-->
-                    <!--    <center><a type="button"-->
-                    <!--            class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light"-->
-                    <!--            href="https://www.tmu.ac.in/pdf/medical/Handbook_onsexual_harassment.pdf"-->
-                    <!--            download type="application/pdf"><i class="fa fa-download fa-2x pr-2"-->
-                    <!--                aria-hidden="true"></i>Click here to download PDF file.</a></center>-->
-                    <!--</object>-->
                 </div>
                 <hr class="horizontal-line">
                 <button class="careers-accordion">SOP For ICC TMMC&RC <span class="icon">+</span></button>
@@ -92,13 +85,13 @@
                         <div class="col-md-12">
                             <div class="container d-none d-sm-block">
                                 <div style="text-align:center">
-                                    <iframe src="https://www.tmu.ac.in/pdf/SOP_FOR_ICC_TMMC&RC.pdf" frameborder="0"
+                                    <iframe src="{{asset('/assets/pdf/medical/SOP_FOR_ICC_TMMC&RC.pdf')}}" frameborder="0"
                                         height="800px" width="100%"></iframe>
                                 </div>
                             </div>
                             <div class="container d-block d-sm-none mb-3">
                                 <div style="text-align:center">
-                                    <a href="https://www.tmu.ac.in/pdf/SOP_FOR_ICC_TMMC&RC.pdf"
+                                    <a href="{{asset('/assets/pdf/medical/SOP_FOR_ICC_TMMC&RC.pdf')}}"
                                         class="tmu-btn btn-4" download>Download PDF</a>
                                 </div>
                             </div>

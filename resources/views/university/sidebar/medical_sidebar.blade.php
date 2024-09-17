@@ -44,6 +44,9 @@
             <a href="{{ route('medical.departements') }}" class="custom-menu-item {{ Route::is('medical.departements') ? 'active' : '' }}">
                 <p>Departments</p>
             </a>
+            <a href="{{ route('medical.syllabus') }}" class="custom-menu-item {{ Route::is('medical.syllabus') ? 'active' : '' }}">
+                <p>Syllabus</p>
+            </a>
             <a href="{{ route('medical.learning') }}" class="custom-menu-item {{ Route::is('medical.learning') ? 'active' : '' }}">
                 <p>Learning Objectives</p>
             </a>
@@ -62,6 +65,9 @@
         </div>
         <h2>Student's Corner</h2>
         <div class="account-section">
+            <a href="{{ route('medical.students.details') }}" class="custom-menu-item {{ Route::is('medical.students.details') ? 'active' : '' }}">
+                <p>Student Details</p>
+            </a>
             <a href="{{ route('medical.timetable') }}" class="custom-menu-item {{ Route::is('medical.timetable') ? 'active' : '' }}">
                 <p>Time Table</p>
             </a>
