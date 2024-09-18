@@ -366,19 +366,35 @@
 					</div>
 				</div>
 				<hr class="horizontal-line">
-				<button class="careers-accordion">Department wise list of Faculty Members<span class="icon">+</span> </button>
+				<button class="careers-accordion">List of Faculty Members<span class="icon">+</span> </button>
 				<div class="panel">
-					<object data="https://www.tmu.ac.in/pdf/medical/department_wise_faculty_list.pdf" type="application/pdf" width="100%" height="1180px">
+					<object data="{{asset('/assets/pdf/medical/27-05-2024/1_List_of_faculty.pdf')}}" type="application/pdf" width="100%" height="1180px">
 						<p>Your web browser doesn't have a PDF plugin. Instead you can</p>
-						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="https://www.tmu.ac.in/pdf/pdf/department_wise_faculty_list.pdf" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
+						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="{{asset('/assets/pdf/medical/27-05-2024/1_List_of_faculty.pdf')}}" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
 					</object>
 				</div>
 				<hr class="horizontal-line">
-				<button class="careers-accordion">Publication Details<span class="icon">+</span> </button>
+				<button class="careers-accordion">Department wise list of Faculty Members<span class="icon">+</span> </button>
 				<div class="panel">
-					<object data="https://www.tmu.ac.in/pdf/medical/publication_and_other_details.pdf" type="application/pdf" width="100%" height="1180px">
+					<object data="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" type="application/pdf" width="100%" height="1180px">
 						<p>Your web browser doesn't have a PDF plugin. Instead you can</p>
-						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="https://www.tmu.ac.in/pdf/pdf/publication_and_other_details.pdf" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
+						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
+					</object>
+				</div>
+				<hr class="horizontal-line">
+				<button class="careers-accordion">Details of Publication in Vancouver Refrencing Style - TMMC&RC<span class="icon">+</span> </button>
+				<div class="panel">
+					<object data="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" type="application/pdf" width="100%" height="1180px">
+						<p>Your web browser doesn't have a PDF plugin. Instead you can</p>
+						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
+					</object>
+				</div>
+				<hr class="horizontal-line">
+				<button class="careers-accordion">List of non-teaching staff<span class="icon">+</span> </button>
+				<div class="panel">
+					<object data="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" type="application/pdf" width="100%" height="1180px">
+						<p>Your web browser doesn't have a PDF plugin. Instead you can</p>
+						<center><a type="button" class="tmu-btn btn-1 btn-lg btn-rounded text-lg waves-effect waves-light" href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
 					</object>
 				</div>
 				<hr class="horizontal-line">
