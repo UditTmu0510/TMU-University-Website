@@ -215,6 +215,7 @@ Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_ant
 Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
+Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
 
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');

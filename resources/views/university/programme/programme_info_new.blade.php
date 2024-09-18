@@ -17,6 +17,15 @@
      visibility: hidden;
     }
 }
+
+.programme-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 20px 0 20px 0;
+}
+
+
 .t3{
     font-size: 24px;
     font-weight: 500;
@@ -30,6 +39,11 @@
     font-weight: 400;
     line-height: 30px;
     }
+}
+
+strong {
+    font-weight: bolder;
+    font-size: 1rem;
 }
 </style>
 <div class="container">
@@ -83,13 +97,13 @@ $programme_banner_path = $programme->programme_banner_path;
 <!-- Scholarship code start -->
 <div class="container mt-2">
     <div class="row justify-content-center ">
-        <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-            <h2 class="tmu-text-primary"><span>About</span> <span>{{$programme->prog_name}}</span></h2>
+        <div class="col-xl-10 col-lg-10 text-center mt-4">
+            <h2 class="tmu-text-primary programme-heading"><span>About</span> <span>{{$programme->prog_name}}</span></h2>
         </div>
 
     </div>
 
-<p style="text-align:center;">
+<p style="text-align:justify;">
     @php echo $programme->about_prog @endphp
     </p>
     
@@ -101,7 +115,7 @@ $programme_banner_path = $programme->programme_banner_path;
 <div class="container">
     <div class="row justify-content-center ">
         <div class="col-xl-10 col-lg-10 text-center mt-4">
-            <h2 class="tmu-text-primary"><span>Fee Structure for </span><span>{{$programme->prog_name}}</span></h2>
+            <h2 class="tmu-text-primary programme-heading"><span>Fee Structure for </span><span>{{$programme->prog_name}}</span></h2>
 
         </div>
     </div>
@@ -168,8 +182,8 @@ $programme_banner_path = $programme->programme_banner_path;
 <!-- Scholarship code start -->
 <div class="container">
     <div class="row justify-content-center ">
-        <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-            <h2 class="tmu-text-primary"><span>{{$programme->prog_name}}</span> <span> Scholarships 2024 </span></h2>
+        <div class="col-xl-10 col-lg-10 text-center mt-4">
+            <h2 class="tmu-text-primary programme-heading"><span>{{$programme->prog_name}}</span> <span> Scholarships 2024 </span></h2>
         </div>
 
     </div>
@@ -297,84 +311,6 @@ echo $programme->scholarship_scheme;
 
 <!-- Section for recruiter end -->
 
-
-<!-- Section for FAQ start -->
-<!-- <div class="section my-0 bg-transparent">
-    <div class="container" style="margin-top: 15px; margin-bottom: 12px;">
-        <div class="row justify-content-center gy-5" style="--bs-gutter-x: 60px">
-            <div class="col-lg-12 mt-lg-5.5">
-                <div class="row justify-content-center ">
-                    <div class="col-xl-10 col-lg-10 text-center">
-                        <h2 class="tmu-text-primary"><span>B.Tech CSE </span><span> Frequently Asked Questions </span></h2>
-
-                    </div>
-                </div>
-                <div class="px-lg-6 p-5 rounded" style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .15), rgba(216, 220, 232, .3) 70% );">
-                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                        <div class="toggle-header align-items-center">
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi-check-lg"></i>
-                                <i class="toggle-open bi-check-lg"></i>
-                            </div>
-                            <div class="toggle-title fw-semibold">
-                                What is the Master's in Data Science with TMU?
-                            </div>
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                            </div>
-                        </div>
-                        <div class="toggle-content fs-6">The Master's degree is an engaging yet rigorous 18-month online program designed specifically for working professionals to develop practical knowledge and skills, establish a professional network, and accelerate entry into data science careers.
-                        </div>
-                    </div>
-
-                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                        <div class="toggle-header align-items-center">
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi-credit-card"></i>
-                                <i class="toggle-open bi-credit-card"></i>
-                            </div>
-                            <div class="toggle-title fw-semibold">
-                                What should I expect from the Master's Degree in Data Science?
-                            </div>
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                            </div>
-                        </div>
-                        <div class="toggle-content fs-6">Expect to carry out several industry-relevant projects simulated as per the actual workplace, making you a skilled data science professional at par with leading industry standards.</div>
-                    </div>
-
-                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                        <div class="toggle-header align-items-center">
-                            <div class="toggle-title fw-semibold">
-                                What should I NOT expect from the Master's Degree in Data Science?
-                            </div>
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                            </div>
-                        </div>
-                        <div class="toggle-content fs-6">The program is NOT going to be easy. It will be requiring at least 15 hours of time commitment per week, applying new concepts and executing industry relevant projects.</div>
-                    </div>
-
-                    <div class="toggle toggle-lg py-4 mb-0">
-                        <div class="toggle-header align-items-center">
-                            <div class="toggle-title fw-semibold">
-                                Which topics are going to be covered as part of the program?
-                            </div>
-                            <div class="toggle-icon">
-                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                            </div>
-                        </div>
-                        <div class="toggle-content fs-6">The program is designed for working professionals looking for a transition or growth into the data domain. Considering the requirements of different data roles in the industry, the curriculum is divided into five tracks. These five tracks will have a common curriculum running for approximately 5-6 months that everyone will go through after which they have to do one specialization course and a capstone project in the remaining 6-7 months. The topics that are going to be covered as a part of the common curriculum and each of the five specializations are as follows:Common Curriculum: Basics of SQL, Python, Statistics and EDA, Basic Machine Learning Models Deep Learning Specialization: Advanced Machine Learning, Neural NetworksNatural Language Processing Specialization: Advanced Machine Learning, Natural Language ProcessingBusiness Analytics: Advanced Machine Learning, Storytelling and Advanced Business Problem SolvingBusiness Intelligence/Data Analytics: Advanced SQL and NoSQL Databases, Storytelling with Advanced VisualizationData Engineering: Data Modelling and Data Warehousing, Building Data Pipelines, Data Streaming and Processing</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 
 <section class="my-5">
