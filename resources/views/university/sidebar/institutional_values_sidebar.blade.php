@@ -3,40 +3,40 @@
         <span class="close-btn" id="closeSidebar">&times;</span>
     </div>
     <div class="custom-menu-section">
-        <h2>Grievances Cell</h2>
+         <h2>Institutional Values</h2>
         <div class="account-section">
-            <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ Route::is('greviances.about') ? 'active' : '' }}">
-                <p>About Cell</p>
+            <a href="{{route('gender.equity.initiative')}}" class="custom-menu-item">
+                <p>Gender Equity Inititaives</p>
             </a>
-            <a href="{{ route('greviance.submit.suggestion') }}" class="custom-menu-item {{ Route::is('greviance.submit.suggestion') ? 'active' : '' }}">
-                <p>Submit Suggestion/Grievance</p>
+            <a href="{{route('environmental.consciousness.and.sustainability')}}" class="custom-menu-item ">
+                <p>Environmental Consciousness</p>
             </a>
-        </div>
-        <h2>Quick Links</h2>
-        <div class="account-section">
-            <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ Route::is('greviances.about') ? 'active' : '' }}">
-                <p>Grievance Portal</p>
+            <a href="{{route('waste.management.initiative')}}" class="custom-menu-item">
+                <p>Waste Managment Inititaives</p>
             </a>
-            <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ Route::is('disciplinary.rules') ? 'active' : '' }}">
-                <p>Disciplinary Rules</p>
+            <a href="{{route('iqac.water.conservate.initiative')}}" class="custom-menu-item">
+                <p>Water Conservation Initiatives</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf" class="custom-menu-item">
-                <p>Admission Refund Policy</p>
+            <a href="{{route('green.initiative')}}" class="custom-menu-item">
+                <p>Green Campus Initiatives</p>
             </a>
-            <a href="{{ route('university.anti.ragging.committee') }}" class="custom-menu-item {{ Route::is('university.anti.ragging.committee') ? 'active' : '' }}">
-                <p>Anti Ragging Committee</p>
+            <a href="{{route('environment.and.energy.audits')}}" class="custom-menu-item">
+                <p>Environmental & Energy Audit</p>
             </a>
-            <a href="{{ route('university.academic.calendar') }}" class="custom-menu-item {{ Route::is('university.academic.calendar') ? 'active' : '' }}">
-                <p>University Academic Calendar</p>
+             <a href="{{route('pwd.facilities')}}" class="custom-menu-item active">
+                <p>PWD Facilities</p>
             </a>
-            <a href="{{ route('nss.about') }}" class="custom-menu-item {{ Route::is('nss.about') ? 'active' : '' }}">
-                <p>NSS Unit</p>
+            <a href="{{route('inclusive.environmnet.activities')}}" class="custom-menu-item">
+                <p>Inclusion & Situatedness</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf" class="custom-menu-item">
-                <p>Anti Ragging Policy</p>
+            <a href="{{route('professional.ethics')}}" class="custom-menu-item">
+                <p>Human & Professional Ethics</p>
             </a>
-            <a href="{{ route('university.sports.calendar') }}" class="custom-menu-item {{ Route::is('university.sports.calendar') ? 'active' : '' }}">
-                <p>University Sports Calendar</p>
+            <a href="{{route('code.of.conduct')}}" class="custom-menu-item">
+                <p>Code of Conduct</p>
+            </a>
+            <a href="{{route('commemorative.days')}}" class="custom-menu-item">
+                <p>Comemorative Days</p>
             </a>
         </div>
     </div>

@@ -25,21 +25,21 @@
 									<td>1.</td>
 									<td>Green Audit</td>
 									<td class="text-center"><a
-											href="https://www.tmu.ac.in/pdf/environment_and_energy_audit/green-audit-report.pdf"><i
+											href="{{asset('assets/pdf/environment_and_energy_audit/green-audit-report.pdf')}}"><i
 												class="fa-solid fa-file-pdf"></i></a></td>
 								</tr>
 								<tr>
 									<td>2.</td>
 									<td>Engergy Audit Report</td>
 									<td class="text-center"><a
-											href="https://www.tmu.ac.in/pdf/environment_and_energy_audit/energy-audit-report.pdf"><i
+											href="{{asset('assets/pdf/environment_and_energy_audit/energy-audit-report.pdf')}}"><i
 												class="fa-solid fa-file-pdf"></i></a></td>
 								</tr>
 								<tr>
 									<td>3.</td>
 									<td>Environment Audit Report</td>
 									<td class="text-center"><a
-											href="https://www.tmu.ac.in/pdf/environment_and_energy_audit/environment-audit-report.pdf"><i
+											href="{{asset('assets/pdf/environment_and_energy_audit/environment-audit-report.pdf')}}"><i
 												class="fa-solid fa-file-pdf"></i></a></td>
 								</tr>
 							</tbody>

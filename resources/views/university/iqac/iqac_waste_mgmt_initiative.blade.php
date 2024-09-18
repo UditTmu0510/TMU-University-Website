@@ -147,7 +147,7 @@
 
         <button class="careers-accordion"> Biomedical Waste Management<span class="icon">+</span></button>
         <div class="panel">
-          <p>The University has signed MoU with <a href="https://www.tmu.ac.in/pdf/mou_sp%20green.pdf">SP
+          <p>The University has signed MoU with <a href="{{asset('assets/pdf/mou_sp%20green.pdf')}}">SP
               Green Light Environment Waste Management LLP</a>, 1st Floor, Tiwari Market, Opp Ram Janki Mandir,
             Bareilly – 243001 for the collection & disposal of biomedical waste.</p>
         </div>
@@ -155,7 +155,7 @@
 
         <button class="careers-accordion"> E-Waste Management<span class="icon">+</span></button>
         <div class="panel py-3">
-          <p class="text-justify">The University has signed the <span class="highlight"><a href="https://www.tmu.ac.in/pdf/mous/mou_ewaste_management.pdf">MoU </a></span> with Govt. authorized
+          <p class="text-justify">The University has signed the <span class="highlight"><a href="{{asset('assets/pdf/mous/mou_ewaste_management.pdf')}}">MoU </a></span> with Govt. authorized
             vendor  namely Exigo Recycling Private Limited, 2nd floor, S-16, Greater Kailash- 1, New Delhi 110046
             for the disposal Electronic Waste. The company ensures use of best available technology for the
             management of  electronic waste disposal and also abides with the laws as being issued by the government from
@@ -217,7 +217,7 @@
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
 						<p class="description">(AERB): Registration Certificate</p>
-						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/publications/materials/iqac_report/AERB_Registration_Certificate.pdf">View PDF</a>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/publications/AERB_Registration_Certificate.pdf')}}">View PDF</a>
 					</div>
 				</div>
 			</div>
