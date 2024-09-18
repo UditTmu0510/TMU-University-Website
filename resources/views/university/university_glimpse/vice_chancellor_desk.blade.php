@@ -1,6 +1,15 @@
 @extends('layouts.university.departments.about_tmu_with_sidebar')
 @section('content')
 
+<style>
+    @media screen and (max-width: 912px) {
+        .img-112 {
+            max-height: 300px !important;
+            width: auto !important;
+            object-fit: contain; /* Ensures the image maintains aspect ratio without stretching */
+        }
+    }
+</style>
 
 <div class="main-content">
     <div class="container">
@@ -9,10 +18,10 @@
                             <h2 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Vice </span> 
                                 <span>Chancellor Desk</span>
                             </h2>
-                            <div class="col-md-4 mb-3 text-center img-container">
-                                <img src="{{asset('/assets/image/vc.png')}}" class="w-100" alt="">
+                            <div class="col-lg-4 col-md-12 col-sm-12 mb-3 text-center ">
+                                <img src="{{asset('/assets/img/aboutus/administration/vc.png')}}" class="w-100 img-112 mx-auto d-block" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-lg-8 col-md-12 col-sm-12">
                                 <p class="person-quote text-justify px-4 px-md-5">
                                     The statement<span class="highlight">"your future will be decided by what you do
                                         today" </span>is so apt for everyone joining TMU. Your destiny will be shaped by
