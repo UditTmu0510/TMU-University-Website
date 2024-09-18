@@ -47,12 +47,12 @@
 					<div class="col-md-12">
 						<div class="container d-none d-sm-block">
 							<div style="text-align:center">
-								<iframe src="{{asset('/assets/pdf/syllabus/physiotherapy/PT-001_2022-23.pdf')}}" frameborder="0" height="700px" width="100%"></iframe>
+								<iframe src="{{asset('/assets/pdf/syllabus/PT-001_2022-23.pdf')}}" frameborder="0" height="700px" width="100%"></iframe>
 							</div>
 						</div>
 						<div class="container d-block d-sm-none mb-3">
 							<div style="text-align:center" class="mt-sm-5">
-								<a href="{{asset('/assets/pdf/syllabus/physiotherapy/PT-001_2022-23.pdf')}}" class="tmu-btn btn-4" download>Download PDF</a>
+								<a href="{{asset('/assets/pdf/syllabus/PT-001_2022-23.pdf')}}" class="tmu-btn btn-4" download>Download PDF</a>
 							</div>
 						</div>
 					</div>
