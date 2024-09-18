@@ -29,10 +29,10 @@
             <a href="{{ route('iqac.awards.achievement') }}" class="custom-menu-item {{ Route::is('iqac.awards.achievement') ? 'active' : '' }}">
                 <p>Awards & Achievements</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/university_achievements_report.pdf" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/university_achievements_report.pdf')}}" class="custom-menu-item">
                 <p>University Achievement Report</p>
             </a>
-            <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ Route::is('iqac.quality.policy') ? 'active' : '' }}">
+            <a href="{{ route('iqac.strategic.plan') }}" class="custom-menu-item {{ Route::is('iqac.strategic.plan') ? 'active' : '' }}">
                 <p>Strategic Plan</p>
             </a>
             <a href="{{ route('gender.equity.initiative') }}" class="custom-menu-item {{ Route::is('gender.equity.initiative') ? 'active' : '' }}">
@@ -56,7 +56,7 @@
             <a href="{{ route('iqac.policies.and.sops') }}" class="custom-menu-item {{ Route::is('iqac.policies.and.sops') ? 'active' : '' }}">
                 <p>Policies & SOPs</p>
             </a>
-            <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ Route::is('iqac.quality.policy') ? 'active' : '' }}">
+            <a href="{{ route('iqac.erp') }}" class="custom-menu-item {{ Route::is('iqac.erp') ? 'active' : '' }}">
                 <p>ERP</p>
             </a>
             <a href="{{ route('iqac.contact.us') }}" class="custom-menu-item {{ Route::is('iqac.contact.us') ? 'active' : '' }}">

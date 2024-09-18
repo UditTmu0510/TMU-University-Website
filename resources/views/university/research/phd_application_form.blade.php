@@ -14,7 +14,7 @@
 					============================================= -->
       <div class="row mt-2 text-center g-5 mb-3 m-0 p-0">
         <div class="section-contact col-lg-4 col-md-6">
-          <div class=" rounded-6">
+          <div class="rounded-6">
             <i class="i-plain i-large mx-auto mb-4 icon-featured fa fa-keyboard-o"></i>
             <h3 class="mb-2" style="font-size:16px; font-family:'poppins';">APPLY ONLINE</h3>
             <span class="mb-4">Apply Online, Upload Documents, Pay Online</span><br>
@@ -27,7 +27,7 @@
           <div class=" rounded-6">
             <i class="i-plain i-large mx-auto mb-4 uil-download-alt"></i>
             <h3 class="mb-2" style="font-size:16px; font-family:'poppins';">Download Form</h3>
-            <span class="mb-4">Download Application Form for offline submission</span><br>
+            <span class="mb-4">Download Application Form for offline submission</span><br><br>
             <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4"> <span>Download Form</span></a>
           </div>
         </div>
@@ -100,7 +100,7 @@
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary custom-btn" style="background-color:#FF7900;"
                     data-bs-dismiss="modal">Close</button>
-                  <a href="https://www.tmu.ac.in/pdf/research/phd_application_form.pdf"><button type="button"
+                  <a href="{{asset('/assets/pdf/research/phd_application_form.pdf"><button type="button"
                       class="btn btn-secondary custom-btn"Get it <i
                         class="uil-download-alt"></i></button></a>
                 </div>

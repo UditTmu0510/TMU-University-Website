@@ -9,7 +9,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading mb-0 pt-md-5"><span>Quality Policy of</span> <span> the
               University</span></h1>
-          <iframe src="https://www.tmu.ac.in/pdf/quality_policy.pdf" frameborder="0" height="800px" width="100%"
+          <iframe src="{{asset('/assets/pdf/quality_policy.pdf')}}" frameborder="0" height="800px" width="100%"
             class="mt-3"></iframe>
         </div>
       </div>
@@ -17,7 +17,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading mb-5 pt-md-5"><span>Quality Policy of</span> <span> the
               University</span></h1>
-          <a href="https://www.tmu.ac.in/pdf/quality_policy.pdf" class="tmu-btn btn-4 pt-md-4" download>Download PDF</a>
+          <a href="{{asset('/assets/pdf/quality_policy.pdf')}}" class="tmu-btn btn-4 pt-md-4" download>Download PDF</a>
         </div>
       </div>
     </div>

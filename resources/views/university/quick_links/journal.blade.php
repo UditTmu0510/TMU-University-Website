@@ -203,7 +203,7 @@
 
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/A_R_2021-22.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/1.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/1.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_20_21.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_20_21.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" alt="Book Cover Image"></a>
                                 <!-- <p class="num-up">84</p>
                         <p class="num-down">1</p>
                         <p class="author">George Orwell</p> -->
@@ -233,7 +233,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/A_R_2019-20.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/3.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_19_20.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/3.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -246,7 +246,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/A_R_2018-19.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/4.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_18_19.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/4.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_17_18.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/5.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_17_18.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/5.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_16_17.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/6.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_16_17.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/6.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -292,7 +292,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_15_16.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/7.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_15_16.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/7.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -306,7 +306,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_14_15.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/8.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_14_15.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/8.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -320,7 +320,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_13_14.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/9.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_13_14.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/9.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -334,7 +334,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_11_12.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/10.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_11_12.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/10.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -348,7 +348,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_10_11.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/11.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_10_11.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/11.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -362,7 +362,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_09_10.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/12.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_09_10.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/12.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -376,7 +376,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/annual_report/annual_report_08_09.pdf" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/13.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/annual_report/annual_report_08_09.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/annual_report/13.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -398,7 +398,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/TJBAC_vol_1_for_Upload.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/1.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/TJBAC_vol_1_for_Upload.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/1.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -412,7 +412,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/TJBAC_vol_2_2022.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/2.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/TJBAC_vol_2_2022.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/2.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -426,7 +426,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/TJBAC-Vol.-3,-2023-Final_compressed.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/3.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/TJBAC-Vol.-3,-2023-Final_compressed.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/3.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -440,7 +440,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/S & T_2020.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/4.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/S & T_2020.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/4.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -454,7 +454,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/S & T_2021.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/5.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/S & T_2021.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/5.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -468,7 +468,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/S&T_journal,Issue_july_2022to_June_2023.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/6.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/S&T_journal,Issue_july_2022to_June_2023.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/6.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/s_and_t_final_merged.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/7.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/s_and_t_final_merged.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/7.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -499,7 +499,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/viewpoint_jan_july_2021_1.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/8.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/viewpoint_jan_july_2021_1.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/8.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -513,7 +513,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/jnrl/viewpoint_July_Dec_2021_2.pdf" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/9.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/viewpoint_July_Dec_2021_2.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/9.jpg')}}" alt="Book Cover Image"></a>
                             </div>
                         </div>
                         <div class="left-side">
@@ -571,7 +571,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/annual_report_15_16.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/1.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/ncmi-20.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/1.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -585,7 +585,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/Proceedings-NCMD-2020.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/2.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/Proceedings-NCMD-2020.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/2.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -599,7 +599,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/annual_report_13_14.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/3.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/sustainable_development.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/3.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -613,7 +613,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/resurging-india-myths-and-realities.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/4.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/resurging-india-myths-and-realities.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/4.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -627,7 +627,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/annual_report_10_11.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/5.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/rmtsi.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/5.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -641,7 +641,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="assets/pdf/confe_pro/Proceddings_RTGAST-2021 for Website.pdf" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/6.jpg')}}" alt="Book Cover Image"></a>
+                                <a href="{{asset('/assets/pdf/journals/Proceddings_RTGAST-2021 for Website.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/confe_pro/6.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
                         </div>
@@ -662,7 +662,7 @@
 
 
         <section class="d-block d-sm-none">
-        <h2 class="tmu-text-primary mb-2 mt-2"><span>Annual</span><span> Reports</span></h2>
+        <h2 class="tmu-text-primary mb-3 mt-3 text-center"><span>Annual</span><span> Reports</span></h2>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
@@ -691,7 +691,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" />
+                                            <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -889,7 +889,7 @@
 
 
 
-            <h2 class="tmu-text-primary mb-2 mt-2"><span>Journals</span><span></span></h2>
+            <h2 class="tmu-text-primary mb-3 mt-5 text-center"><span>Journals</span><span></span></h2>
 
             <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
 
@@ -1098,7 +1098,7 @@
             </div>
 
 
-            <h2 class="tmu-text-primary mb-2 mt-2"><span>Conference</span><span> Proceedings</span></h2>
+            <h2 class="tmu-text-primary mb-3 mt-5 text-center"><span>Conference</span><span> Proceedings</span></h2>
 
             <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
 

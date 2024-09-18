@@ -73,7 +73,7 @@
                 </div>
 
                 <p class="mb-1 mt-1"><b> *Amended w.e.f. January 01, 2020, as per UGC <a
-                            href="https://www.tmu.ac.in/pdf/research/DO-NO-F-1-12018_compressed.pdf"> D.O.
+                            href="{{asset('/assets/pdf/research/DO-NO-F-1-12018_compressed.pdf')}}"> D.O.
                             No. F-1-1/2018 (Journal/CARE)(Click here to view)</a></b></p>
                 <div class="card mb-3 mt-2">
                     <div class="card-body">
@@ -444,12 +444,12 @@
 
             <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                    <iframe src="https://www.tmu.ac.in/pdf/research/nursing_syllabus.pdf" frameborder="0" height="800px" width="100%"></iframe>
+                    <iframe src="{{asset('/assets/pdf/research/nursing_syllabus.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                 </div>
             </div>
             <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                    <a href="https://www.tmu.ac.in/pdf/research/nursing_syllabus.pdf" class="tmu-btn btn-4" download>Download PDF</a>
+                    <a href="{{asset('/assets/pdf/research/nursing_syllabus.pdf')}}" class="tmu-btn btn-4" download>Download PDF</a>
 
                 </div>
             </div>

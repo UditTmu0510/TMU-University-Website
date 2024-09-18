@@ -29,7 +29,7 @@
                 <tr>
                   <th style="width:2%;text-align:center">S.No</th>
                   <th style="width:18%;text-align:center">Date & Month</th>
-                  <th style="text-align:center">Planed Activities Name</th>
+                  <th class="text-center">Planed Activities Name</th>
                 </tr>
               </thead>
               <tbody>
@@ -92,8 +92,8 @@
                 <tr>
                   <th style="width:2%;text-align:center">#</th>
                   <th style="width:18%;text-align:center">Conducted Date & Month</th>
-                  <th style="text-align:center">Conducted Activities Name </th>
-                  <th style="text-align:center">Read More</th>
+                  <th class="text-center">Conducted Activities Name </th>
+                  <th class="text-center">Read More</th>
                 </tr>
               </thead>
               <tbody>
@@ -102,8 +102,7 @@
                   <td>26-Aug-22</td>
                   <td>Women's Equality Day</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_01_1.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_01_1.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
                 </tr>
                 <tr>
@@ -111,8 +110,7 @@
                   <td>26-Sep-22</td>
                   <td>Gender Equality (Awareness Session)</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_03_2.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_03_2.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -121,8 +119,7 @@
                   <td>26-Sep-22</td>
                   <td>Child Health Care</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_04_3.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_04_3.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -131,8 +128,7 @@
                   <td>24-Jan-23</td>
                   <td>National Girl Child Day (Awareness Skit)</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_05_2.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_05_2.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -141,8 +137,7 @@
                   <td>28-Jan-23</td>
                   <td>Two Week Training Program For Girls Students</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_6_1.jpg" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_6_1.jpg')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -151,8 +146,8 @@
                   <td>20 Feb 2023 </td>
                   <td>Awareness on Personal Hygien</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Awareness_on_Personal_Hygiene_1.jpg"
-                        target="_blank"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Awareness_on_Personal_Hygiene_1.jpg')}}"
+                        target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -161,8 +156,8 @@
                   <td>25 Feb 2023</td>
                   <td>Awareness on Personal Hygien</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Awareness_on_Personal_Hygiene_2.jpg"
-                        target="_blank"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Awareness_on_Personal_Hygiene_2.jpg')}}"
+                        target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -171,8 +166,7 @@
                   <td>4-Mar-23</td>
                   <td>International Women’s Day</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_07_1.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_07_1.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -181,8 +175,7 @@
                   <td>3-Apr-23</td>
                   <td>International Women’s Day</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_08_1.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_08_1.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -191,8 +184,7 @@
                   <td>5-Jun-23</td>
                   <td>Care In Pregnancy And Female Hygiene</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_09_3.jpg" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_09_3.jpg')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -201,8 +193,7 @@
                   <td>5-Jun-23</td>
                   <td>Hariyali Teej</td>
                   <td>
-                    <center><a href="https://www.tmu.ac.in/img/iqac/Sr_N_10-1.JPG" target="_blank"><i
-                          class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></center>
+                    <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_10-1.jfif')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
 
                 </tr>
@@ -290,7 +281,7 @@
               <th>S. No.</th>
               <th>Date</th>
               <th>Activities Name</th>
-              <th>Read More</th>
+              <th class="text-center">Read More</th>
             </thead>
             <tbody>
               <tr>
@@ -298,100 +289,87 @@
                 <td>14-06-2021</td>
                 <td>Women's Entrepreneurship Development Program</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/news/women-entrepreneurship-development-programme-2021"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://tmuhospital.com/news/women-entrepreneurship-development-programme-2021">View More</a></td>
               </tr>
               <tr>
                 <td>2.</td>
                 <td>12-08-2021</td>
                 <td>Teej Festival</td>
-                <td class="text-center"><a href="https://www.tmu.ac.in/news/teej-festival-2021"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                <td class="text-center"><a href="https://tmuhospital.com/news/teej-festival-2021">View More</a></td>
               </tr>
               <tr>
                 <td>3.</td>
                 <td>26-08-2021</td>
                 <td>Right to Equality for Men & Women</td>
-                <td class="text-center"><a href="https://www.tmu.ac.in/news/right-to-equality-for-men-and-women"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                <td class="text-center"><a href="https://tmuhospital.com/news/right-to-equality-for-men-and-women">View More</a></td>
               </tr>
               <tr>
                 <td>4.</td>
                 <td>28-09-2021</td>
                 <td>Beti Padhao Beti Bachao</td>
-                <td class="text-center"><a href="https://www.tmu.ac.in/news/beti-bachao-beti-padhao"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                <td class="text-center"><a href="https://tmuhospital.com/news/beti-bachao-beti-padhao">View More</a></td>
               </tr>
               <tr>
                 <td>5.</td>
                 <td>20-10-2021</td>
                 <td>Mission Shakti</td>
-                <td class="text-center"><a href="https://www.tmu.ac.in/news/mission-shakti-2021"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                <td class="text-center"><a href="https://tmuhospital.com/news/mission-shakti-2021">View More</a></td>
               </tr>
               <tr>
                 <td>6.</td>
                 <td>25-10-2021</td>
                 <td>Breast cancer awareness programme</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/6_Breast_Cancer_Awareness_Programme.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/6_Breast_Cancer_Awareness_Programme.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>7.</td>
                 <td>04-02-2022</td>
                 <td>World Cancer Day</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/7_World_Cancer_Day.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/7_World_Cancer_Day.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>8.</td>
                 <td>08-03-2022</td>
                 <td>International Women’s Day 2022 poster Competition</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/8_International_Womens_Day.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/8_International_Womens_Day.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>9.</td>
                 <td>08-03-2022</td>
                 <td>Naari Shakti Award Ceremony (Humanities)</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/9_Naari_Shakti.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/9_Naari_Shakti.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>10.</td>
                 <td>21-04-2022</td>
                 <td>Mehndi competition</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/10_Mehandi_Competition.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/10_Mehandi_Competition.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>11.</td>
                 <td>21-06-2022</td>
                 <td>International Yoga Day</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/11_International_Yoga_Day.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/11_International_Yoga_Day.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>12.</td>
                 <td>18-08-2022</td>
                 <td>Women Safety in Current Scenario</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/12_Women_Safety_in_Current_Scenario.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/12_Women_Safety_in_Current_Scenario.pdf">View More</a></td>
               </tr>
               <tr>
                 <td>13.</td>
                 <td>26-08-2022</td>
                 <td>Women’s Equality Day Poster Competition</td>
                 <td class="text-center"><a
-                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/13._Women_Equality_Day_Poster.pdf"><i
-                      class="fa-solid fa-file-pdf"></i></a></td>
+                    href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-VII/Key-Indicator-7.1/Metric-7.1.1/news/13._Women_Equality_Day_Poster.pdf">View More</a></td>
               </tr>
             </tbody>
           </table>
@@ -458,7 +436,7 @@
                 <th>S. No.</th>
                 <th>Date</th>
                 <th>Activities Name</th>
-                <th>Read More</th>
+                <th class="text-center">Read More</th>
               </thead>
               <tbody>
                 <tr>
@@ -466,23 +444,20 @@
                   <td>14-03-21</td>
                   <td>Self Defence Training for women's using Judo</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/self-defence-training-for-womens-using-judo"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/self-defence-training-for-womens-using-judo">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>14-03-21</td>
                   <td>Self Defense techniques for Women</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/self-defense-techniques-for-women"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/self-defense-techniques-for-women">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>8-03-21</td>
                   <td>Girls students were given the responsibility of the Principal.</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/girls-students-were-given-the-responsibility-of-the-principal"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/girls-students-were-given-the-responsibility-of-the-principal">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
@@ -490,31 +465,27 @@
                   <td>On women’s Day celebration, women were felicitated and awarded for their path breaking efforts
                   </td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/on-womens-day-celebration-women-were-felicitated-and-awarded-for-their-path-breaking-efforts"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/on-womens-day-celebration-women-were-felicitated-and-awarded-for-their-path-breaking-efforts">view More</a></td>
                 </tr>
                 <tr>
                   <td>5.</td>
                   <td>23-10-20</td>
                   <td>MBBS Girls were taught the techniques of self defence</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/mbbs-girls-were-taught-the-techniques-of-self-defence-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/mbbs-girls-were-taught-the-techniques-of-self-defence-">view More</a></td>
                 </tr>
                 <tr>
                   <td>6.</td>
                   <td>23-10-20</td>
                   <td>Mission Shakti</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/mission-shakti"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/mission-shakti">view More</a></td>
                 </tr>
                 <tr>
                   <td>7.</td>
                   <td>21-10-20</td>
                   <td>Self Defence classes were organised on the Occasion of Womens Day</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/self-defence-classes-were-organised-on-the-occasion-of-womens-day"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/self-defence-classes-were-organised-on-the-occasion-of-womens-day">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -588,74 +559,65 @@
                 <th>S. No.</th>
                 <th>Date</th>
                 <th>Activities Name</th>
-                <th>Read More</th>
+                <th class="text-center">Read More</th>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
                   <td>8-Mar-20</td>
                   <td>International Women's Day Celebration</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/international-womens-day-celebration"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/international-womens-day-celebration">view More</a></td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>8-Mar-20</td>
                   <td>The Faculty of Engineering celebrated Women’s Day</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/the-faculty-of-engineering-celebrated-womens-day-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/the-faculty-of-engineering-celebrated-womens-day-">view More</a></td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>7-Mar-20</td>
                   <td>International Women's Day Celebration 2020</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/international-womens-day-celebration-2020--"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/international-womens-day-celebration-2020--">view More</a></td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>9-Aug-19</td>
                   <td>TMU’s Sanya became the Teej Queen</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/tmus-sanya-became-the-teej-queen"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/tmus-sanya-became-the-teej-queen">view More</a></td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>3-Aug-19</td>
                   <td>Women's Day</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/women-s-day"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/women-s-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>3-Aug-19</td>
                   <td>Awareness Program on Women's Day</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/awareness-program-on-womens-day"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/awareness-program-on-womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>7</td>
                   <td>3-Aug-19</td>
                   <td>Poster Competition on Women's Day</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/poster-competition-on-womens-day"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/poster-competition-on-womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>8</td>
                   <td>2-Aug-19</td>
                   <td>Breastfeeding Day Organised at TMU’s Medical College</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/breastfeeding-day-organised--at-tmus-medical-college-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/breastfeeding-day-organised--at-tmus-medical-college-">view More</a></td>
                 </tr>
                 <tr>
                   <td>9</td>
                   <td>2-Aug-19</td>
                   <td>Debate on Gender Equality</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/debate-on-gender-equality"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/debate-on-gender-equality">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -727,37 +689,33 @@
                 <th>S. No.</th>
                 <th>Date</th>
                 <th>Activities Name</th>
-                <th>Read More</th>
+                <th class="text-center">Read More</th>
               </thead>
               <tbody>
                 <tr>
                   <td>1.</td>
                   <td>8-Mar-19</td>
                   <td>Womens Day celebration</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-day-celebration"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-day-celebration">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>8-Mar-19</td>
                   <td>Womens Day</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-day"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>18-Aug-18</td>
                   <td>Ms. Farewell & Ms. Talented were selected at the farewell function</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/ms-farewell--ms-talented-were-selected-at-the-farewell-function-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/ms-farewell--ms-talented-were-selected-at-the-farewell-function-">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>14-Aug-18 </td>
                   <td>Womens at TMU celebrated "Teej"</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-at-tmu-celebrated-teej-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-at-tmu-celebrated-teej-">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -818,7 +776,7 @@
                 <th>S. No.</th>
                 <th>Date</th>
                 <th>Activities Name</th>
-                <th>Read More</th>
+                <th class="text-center">Read More</th>
               </thead>
               <tbody>
                 <tr>
@@ -826,31 +784,27 @@
                   <td>8-Mar-18</td>
                   <td>International Women’s Day was celebrated with enthusiasm at TIMIT College</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/international-womens-day-was-celebrated-with-enthusiasm-at-timit-college"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/international-womens-day-was-celebrated-with-enthusiasm-at-timit-college">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>27-Feb-18</td>
                   <td>A Play on importance of girl child education in the family as well as in the society</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/a-play-on-importance-of-girl-child-education-in-the-family-as-well-as-in-the-society"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/a-play-on-importance-of-girl-child-education-in-the-family-as-well-as-in-the-society">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>25-July-17</td>
                   <td>TMU celebrates the festival of Teej</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/tmu-celebrates-the-festival-of-teej"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/tmu-celebrates-the-festival-of-teej">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>25-July-17</td>
                   <td>TMUs Women Empowerment Cell organised the event Hariyali Teej</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/tmus-women-empowerment-cell--organised-the-event-hariyali-teej"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/tmus-women-empowerment-cell--organised-the-event-hariyali-teej">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -917,7 +871,7 @@
                 <th>S. No.</th>
                 <th>Date</th>
                 <th>Activities Name</th>
-                <th>Read More</th>
+                <th class="text-center">Read More</th>
               </thead>
               <tbody>
                 <tr>
@@ -925,55 +879,48 @@
                   <td>8-03-17 </td>
                   <td>International Women’s Day Celebration held at TMU.</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/international-womens-day-celebration-held-at-tmu-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/international-womens-day-celebration-held-at-tmu-">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>4-03-17 </td>
                   <td>Power Angel Club Meeting held at TMU</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/power-angel-club-meeting-held-at-tmu-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/power-angel-club-meeting-held-at-tmu-">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>27-02-17</td>
                   <td>Teerthanker Mahaveer University Intercollegiate Championship</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/teerthanker-mahaveer-university-intercollegiate-championship-"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/teerthanker-mahaveer-university-intercollegiate-championship-">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>27-02-17</td>
                   <td>Women Kabaddi organised at TMU</td>
-                  <td class="text-center"><a href="https://www.tmu.ac.in/news/women-kabaddi-organised--at-tmu"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                  <td class="text-center"><a href="https://tmuhospital.com/news/women-kabaddi-organised--at-tmu">view More</a></td>
                 </tr>
                 <tr>
                   <td>5.</td>
                   <td>27-02-17</td>
                   <td>TMUs Physical Education bagged the trophy in Kabaddi match in both women and men Category</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/tmus-physical-education-bagged-the-trophy-in-kabaddi-match-in-both-women-and-men-category"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/tmus-physical-education-bagged-the-trophy-in-kabaddi-match-in-both-women-and-men-category">view More</a></td>
                 </tr>
                 <tr>
                   <td>6.</td>
                   <td>15-01-17</td>
                   <td>Lohri Celebration held at TMUs Old Girls Hostel</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/lohri-celebration-held-at-tmus-old-girls-hostel"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/lohri-celebration-held-at-tmus-old-girls-hostel">view More</a></td>
                 </tr>
                 <tr>
                   <td>7.</td>
                   <td>10-08-16</td>
                   <td>Teerthanker Mahaveer University Celebrates National Breastfeeding week</td>
                   <td class="text-center"><a
-                      href="https://www.tmu.ac.in/news/teerthanker-mahaveer-university-celebrates-national-breastfeeding-week"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                      href="https://tmuhospital.com/news/teerthanker-mahaveer-university-celebrates-national-breastfeeding-week">view More</a></td>
                 </tr>
               </tbody>
             </table>

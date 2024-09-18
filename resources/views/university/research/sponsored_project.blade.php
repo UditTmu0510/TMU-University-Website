@@ -32,8 +32,8 @@
 								<td class="text-center">DST</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">19.61</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>2</td>
@@ -42,8 +42,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.50</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>3</td>
@@ -52,8 +52,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.50</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>4</td>
@@ -62,8 +62,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.20</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/4.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/4.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>5</td>
@@ -72,8 +72,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2018</td>
 								<td class="text-center">0.50</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/5.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/5.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>6</td>
@@ -82,8 +82,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2018</td>
 								<td class="text-center">0.50</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/6.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/6.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>7</td>
@@ -92,8 +92,8 @@
 								<td class="text-center">SERB</td>
 								<td class="text-center">2017</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/7.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/7.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>8</td>
@@ -102,8 +102,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2017</td>
 								<td class="text-center">0.20</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/8.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/8.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>9</td>
@@ -112,8 +112,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2017</td>
 								<td class="text-center">0.20</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/9.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/9.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td>10</td>
@@ -122,8 +122,8 @@
 								<td class="text-center">ICMR</td>
 								<td class="text-center">2017</td>
 								<td class="text-center">0.20</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/gov_project/10.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/gov_project/10.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 						</tbody>
 					</table>
@@ -154,8 +154,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="2">2</td>
@@ -166,8 +166,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="3">3</td>
@@ -177,8 +177,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="4">4</td>
@@ -188,8 +188,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="5">5</td>
@@ -200,8 +200,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="6">6</td>
@@ -212,8 +212,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="7">7</td>
@@ -223,8 +223,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="8">8</td>
@@ -234,8 +234,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="9">9</td>
@@ -245,8 +245,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="10">10</td>
@@ -256,8 +256,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="11">11</td>
@@ -268,8 +268,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="12">12</td>
@@ -280,8 +280,8 @@
 								<td>Shree Jee Biotech</td>
 								<td class="text-center">2021</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-3.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="13">13</td>
@@ -291,8 +291,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="14">14</td>
@@ -302,8 +302,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="15">15</td>
@@ -314,8 +314,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="16">16</td>
@@ -326,8 +326,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="17">17</td>
@@ -338,8 +338,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="18">18</td>
@@ -351,8 +351,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="19">19</td>
@@ -363,8 +363,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="20">20</td>
@@ -375,8 +375,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="21">21</td>
@@ -386,8 +386,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="22">22</td>
@@ -397,8 +397,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="23">23</td>
@@ -409,8 +409,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="24">24</td>
@@ -421,8 +421,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="25">25</td>
@@ -433,8 +433,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="26">26</td>
@@ -446,8 +446,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="27">27</td>
@@ -458,8 +458,8 @@
 								<td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.5</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-1.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="28">28</td>
@@ -470,8 +470,8 @@
 								<td>Vircare Pharma Pvt. Ltd.</td>
 								<td class="text-center">2020</td>
 								<td class="text-center">0.75</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/MEDICAL_0001-2.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="29">29</td>
@@ -480,8 +480,8 @@
 								<td>TB Association of India</td>
 								<td class="text-center">2019</td>
 								<td class="text-center" sdval="0.25">0.25</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/8.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/8.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="30">30</td>
@@ -490,8 +490,8 @@
 								<td>TB Association of India</td>
 								<td class="text-center">2019</td>
 								<td class="text-center">0.3</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/9.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/9.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="31">31</td>
@@ -500,8 +500,8 @@
 								<td>TB Association of India</td>
 								<td class="text-center">2019</td>
 								<td class="text-center">0.4</td>
-								<td><a href="https://www.tmu.ac.in/pdf/sponsored_project/non_gov_project/10.pdf"
-										target="_blank">Read More!</a></td>
+								<td><a href="{{asset('/assets/pdf/sponsored_project/non_gov_project/10.pdf')}}"
+										target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
 							</tr>
 						</tbody>
 					</table>

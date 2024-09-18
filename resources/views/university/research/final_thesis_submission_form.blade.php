@@ -11,7 +11,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Final Thesis </span><span> Submission Form
             </span> </h1>
-          <iframe src="https://www.tmu.ac.in/pdf/research/provisional_degree_certificate_proforma.pdf" frameborder="0"
+          <iframe src="{{asset('/assets/pdf/research/provisional_degree_certificate_proforma.pdf')}}" frameborder="0"
             height="800px" width="100%"></iframe>
         </div>
       </div>
@@ -19,7 +19,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Final Thesis </span><span> Submission Form
             </span> </h1>
-          <a href="https://www.tmu.ac.in/pdf/research/provisional_degree_certificate_proforma.pdf"
+          <a href="{{asset('/assets/pdf/research/provisional_degree_certificate_proforma.pdf')}}"
             class="tmu-btn btn-4" download>Download PDF</a>
 
         </div>

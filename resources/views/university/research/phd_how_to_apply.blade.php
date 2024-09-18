@@ -9,7 +9,7 @@
           Programme</span> </h1>
 
       <ol class="ps-5 m-ol-list text-justify">
-        <li>Download the <span class="highlight"><a href="https://www.tmu.ac.in/pdf/research/phd_application_form.pdf"
+        <li>Download the <span class="highlight"><a href="{{asset('/assets/pdf/research/phd_application_form.pdf')}}"
               target="_blank">Application Form</a></span> for the Ph.D programme</li>
         <li>Take a print-out of the application form downloaded as above and fill in complete
           details.</li>

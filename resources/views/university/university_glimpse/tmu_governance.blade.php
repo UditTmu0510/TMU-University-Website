@@ -24,7 +24,7 @@
           <button class="careers-accordion">GOVERNING BODY<span class="icon">+</span></button>
           <div class="panel active">
             <div class="table-responsive mb-3">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-striped">
               <thead>
                 <tr class="text-center">
                   <th class="text-center">Name</th>
@@ -131,7 +131,7 @@
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 01st Meeting of the Governing Body | Nov 10, 2020</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/governing_body_minutes/mom_1st_meeting.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/governing_body_minutes/mom_1st_meeting.pdf')}}">View PDF</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@
 
           <button class="careers-accordion">EXECUTIVE COUNCIL<span class="icon">+</span></button>
           <div class="panel"><div class="table-responsive mb-3">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-striped">
               <thead>
                 <tr class="text-center">
                   <th class="text-center">Name</th>
@@ -235,27 +235,27 @@
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 20th Meeting of the Executive Council | May 14, 2022</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC20_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC20_minutes.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 19th Meeting of the Executive Council | June 12, 2021</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC19_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC19_minutes.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 18th Meeting of the Executive Council | August 17, 2020
                   </p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC18_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC18_minutes.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 17th Meeting of the Executive Council | August 17, 2019
                   </p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC17_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC17_minutes.pdf')}}">View PDF</a>
                 </div>
               </div>
             </div>
@@ -265,21 +265,21 @@
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 16th Meeting of the Executive Council | May 25, 2019</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC16_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC16_minutes.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 15th Meeting of the Executive Council | March 10, 2018
                   </p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC15_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC15_minutes.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 14th Meeting of the Executive Council | November 11, 2017
                   </p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ec_minutes/EC14_minutes.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ec_minutes/EC14_minutes.pdf')}}">View PDF</a>
                 </div>
               </div>
             </div>
@@ -288,7 +288,7 @@
 
           <button class="careers-accordion">ACADEMIC COUNCIL<span class="icon">+</span></button>
           <div class="panel"><div class="table-responsive mb-3">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-striped">
               <thead>
                 <tr class="text-center">
                   <th class="text-center">Name</th>
@@ -507,7 +507,7 @@
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of the 21st meeting of Academic Council | September 14, 2023</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/21st_MOM_IQAC_compressed_new.pdf">View
+                    href="{{asset('/assets/pdf/academic_council_minutes/21st_MOM_IQAC_compressed_new.pdf')}}">View
                     PDF</a>
                 </div>
                 <div class="card-pdf">
@@ -515,21 +515,21 @@
                   <p class="description">Minutes of Meeting of 19th Meeting (Online Mode) of the Academic Council |
                     April 27, 2022</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/april_2022.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/april_2022.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 18th Meeting (Online Mode) of the Academic Council |
                     March 20, 2021</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/april_2021_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/april_2021_compressed.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 17th Meeting (Online Mode) of the Academic Council | July
                     30, 2020</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/july_2020_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/july_2020_compressed.pdf')}}">View PDF</a>
                 </div>
               </div>
             </div>
@@ -540,28 +540,28 @@
                   <p class="description">Minutes of Meeting of 16th Meeting (Online Mode) of the Academic Council |
                     August 17, 2019</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/august_2019_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/august_2019_compressed.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 15th Meeting (Online Mode) of the Academic Council | May
                     25, 2019</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/may_2019_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/may_2019_compressed.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 14th Meeting (Online Mode) of the Academic Council |
                     November 02, 2018</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/november_2018_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/november_2018_compressed.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 13th Meeting (Online Mode) of the Academic Council |
                     March 10, 2018</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/march_2018_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/march_2018_compressed.pdf')}}">View PDF</a>
                 </div>
               </div>
             </div>
@@ -572,21 +572,21 @@
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 16th Meeting of the Executive Council | May 25, 2019</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/september_2017_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/september_2017_compressed.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 12th Meeting (Online Mode) of the Academic Council |
                     September 25, 2017 </p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/ac_minutes/AC11_0001.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/ac_minutes/AC11_0001.pdf')}}">View PDF</a>
                 </div>
                 <div class="card-pdf">
                   <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                   <p class="description">Minutes of Meeting of 10th Meeting (Online Mode) of the Academic Council |
                     February 13, 2016</p>
                   <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                    href="https://www.tmu.ac.in/pdf/academic_council_minutes/february_2016_compressed.pdf">View PDF</a>
+                    href="{{asset('/assets/pdf/academic_council_minutes/february_2016_compressed.pdf')}}">View PDF</a>
                 </div>
 
               </div>
@@ -597,7 +597,7 @@
           <button class="careers-accordion">FINANCE COMMITTEE<span class="icon">+</span></button>
           <div class="panel">
           <div class="table-responsive mb-3">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-striped">
               <thead>
                 <tr class="text-center">
                   <th class="text-center">Name</th>
@@ -665,7 +665,7 @@
           <button class="careers-accordion">PLANNING BOARD<span class="icon">+</span></button>
           <div class="panel">
             <div class="table-responsive mb-3">
-            <table class="table table-bordered">
+            <table class="table table-bordered table-striped">
               <thead>
                 <tr class="text-center">
                   <th class="text-center">Name</th>
@@ -751,7 +751,7 @@
           <button class="careers-accordion">BOARD OF STUDIES<span class="icon">+</span></button>
           <div class="panel">
             <div class="table-responsive mb-3">
-              <table class="table table-bordered">
+              <table class="table table-bordered table-striped">
                 <thead>
                   <tr>
                     <th rowspan="2" style="text-align:center;vertical-align: text-top;">#
@@ -780,57 +780,57 @@
                     </td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/bos_composition_medical.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_medical.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Biochemistry.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Biochemistry.pdf')}}"
                           target="_blank">View(Biochemistry)</a></center><br>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/TB_&_Chest_Board_of_Studies.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/TB_&_Chest_Board_of_Studies.pdf')}}"
                           target="_blank">View(TB_&_Chest)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Radiology_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Radiology_BOS.pdf')}}"
                           target="_blank">View(Radiology)</a></center><br></center>
                       <br>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Psychiatry_Board_of_Studies.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Psychiatry_Board_of_Studies.pdf')}}"
                           target="_blank">View(Psychiatry)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Pediatrics_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Pediatrics_BOS.pdf')}}"
                           target="_blank">View(Pediatrics)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Pathology_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Pathology_BOS.pdf')}}"
                           target="_blank">View(Pathology)</a></center><br>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Orthopaedics_Board_of_studies_meeting2.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Orthopaedics_Board_of_studies_meeting2.pdf')}}"
                           target="_blank">View(Orthopaedics-2)</a></center><br>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Orthopaedics_Board_of_studies_meeting.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Orthopaedics_Board_of_studies_meeting.pdf')}}"
                           target="_blank">View(Orthopaedics)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/ENT_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/ENT_BOS.pdf')}}"
                           target="_blank">View(ENT)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Anaesthesiology_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Anaesthesiology_BOS.pdf')}}"
                           target="_blank">View(Anaesthesiology)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Physiology.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Physiology.pdf')}}"
                           target="_blank">View(Physiology)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/pediatrics.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/pediatrics.pdf')}}"
                           target="_blank">View(Pediatrics)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Anatomy.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Anatomy.pdf')}}"
                           target="_blank">View(Anatomy)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/BOS_CM.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/BOS_CM.pdf')}}"
                           target="_blank">View(Community Medicine)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2023-24/Microbiology.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Microbiology.pdf')}}"
                           target="_blank">View(Microbiology)</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2021-22/tmmcrc_2021_22.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2021-22/tmmcrc_2021_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/2019-20/medical_bos.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2019-20/medical_bos.pdf')}}"
                           target="_blank">View</a><br><br><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Medical/ms_medical/2019-20/BOS_0004_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Medical/ms_medical/2019-20/BOS_0004_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -848,37 +848,37 @@
                     <td>Dental College &amp; Research Centre</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/bos_composition_dental.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_dental.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2023-24/BOS_minutes_29_april_2023"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Dental/2023-24/BOS_minutes_29_april_2023.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2020-21/BOS_0002_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Dental/2020-21/BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2019-20/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Dental/2019-20/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2018-19/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Dental/2018-19/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Dental/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Dental/2016-17/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Dental/2016-17/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -887,22 +887,22 @@
                     <td>College of Nursing</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/nursing.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/nursing.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2023-24/BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2023-24/BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2021-22/bos_nursing_21_22.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2021-22/bos_nursing_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -910,15 +910,15 @@
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2018-19/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Nursing/2018-19/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Nursing/2016-17/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2016-17/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -927,15 +927,15 @@
                     <td>College of Pharmacy</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/pharmacy.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/pharmacy.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2023-24/Pharmacy_BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2023-24/Pharmacy_BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2021-22/bos_pharmacy_21_22.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2021-22/bos_pharmacy_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -943,23 +943,23 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2019-20/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2019-20/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2018-19/BOS_0001_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2018-19/BOS_0001_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Pharmacy/2016-17/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2016-17/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -968,17 +968,17 @@
                     <td>College of Paramedical Sciences</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/bos_composition_paramedical.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_paramedical.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2023-24/MOM_BOS_and_BOF_2023.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Paramedical/2023-24/MOM_BOS_and_BOF_2023.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2021-22/bos_paramedical_21_22.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Paramedical/2021-22/bos_paramedical_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -986,19 +986,19 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2020-21/BOS_16.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Paramedical/2020-21/BOS_16.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2019-20/BOS_20.07.2019.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Paramedical/2019-20/BOS_20.07.2019.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2018-19/BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Paramedical/2018-19/BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Paramedical/2017-18/BOS_1.09.2017.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Paramedical/2017-18/BOS_1.09.2017.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -1010,17 +1010,17 @@
                     <td>Department of Physiotherapy</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/physiotherapy.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/physiotherapy.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2023-24/BOS_Physiotherapy_2023_24.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2023-24/BOS_Physiotherapy_2023_24.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2021-22/bos_physiotherapy_21_22.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2021-22/bos_physiotherapy_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1028,23 +1028,23 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2020-21/Scan_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2020-21/Scan_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2019-20/Scan_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2019-20/Scan_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2018-19/bos physiotherapy 18-19_0001.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2018-19/bos physiotherapy 18-19_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Physiotherapy/2016-17/Scan_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2016-17/Scan_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1053,16 +1053,16 @@
                     <td>College of Management</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/tmimt.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/tmimt.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2023-24/BOS_MOM_Management_31.07.2023.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Managment/2023-24/BOS_MOM_Management_31.07.2023.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2021-22/bos_tmimt_21_22.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Managment/2021-22/bos_tmimt_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1070,24 +1070,24 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2020-21/BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Managment/2020-21/BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2019-20/BOS 1.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Managment/2019-20/BOS 1.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2018-19/Bos 2_BOS 3_BOS_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Managment/2018-19/Bos 2_BOS 3_BOS_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2017-18/BOS_0001_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Managment/2017-18/BOS_0001_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Managment/2016-17/BOS 17.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Managment/2016-17/BOS 17.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1096,15 +1096,15 @@
                     <td>College of Law &amp; Legal Studies</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/law.pdf" target="_blank">View</a>
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/law.pdf')}}" target="_blank">View</a>
                       </center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2023-24/BOS_Law_college_2023_24.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2023-24/BOS_Law_college_2023_24.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2021-22/bos_law_21_22.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2021-22/bos_law_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1115,19 +1115,19 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2019-20/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2019-20/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2018-19/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2018-19/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Law/2016-17/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2016-17/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1136,12 +1136,12 @@
                     <td>College of Computing Sciences &amp; IT</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/ccsit.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/ccsit.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2023-24/Minutes_of_Meeting_of_the_BOS.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/CCSIT/2023-24/Minutes_of_Meeting_of_the_BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -1149,23 +1149,23 @@
                     </td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2019-20/BOS_0001_BOS_0002_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2019-20/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2018-19/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2018-19/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/CCSIT/2016-17/BoS -2016 ccsit.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2016-17/BoS -2016 ccsit.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1174,49 +1174,49 @@
                     <td>Faculty of Engineering</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/engineering.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/engineering.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/Chemistry.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Chemistry.pdf')}}"
                           target="_blank">View(Chemistry)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/Civil.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Civil.pdf')}}"
                           target="_blank">View(Civil)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/EC.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/EC.pdf')}}"
                           target="_blank">View(EC)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/EE.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/EE.pdf')}}"
                           target="_blank">View(EE)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/Mathematics.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Mathematics.pdf')}}"
                           target="_blank">View(Mathematics)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/ME.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/ME.pdf')}}"
                           target="_blank">View(ME)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/Mathematics.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Mathematics.pdf')}}"
                           target="_blank">View(Mathematics)</a></center><br>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2023-24/Physics.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Physics.pdf')}}"
                           target="_blank">View(Physics)</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2021-22/engineering_merged_2021_22_compressed.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/FOE/2021-22/engineering_merged_2021_22_compressed.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2019-20/BOS CIVIL_0001_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2019-20/BOS CIVIL_0001_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2018-19/bos_2018-19.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2018-19/bos_2018-19.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2017-18/BOS Mechanical_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2017-18/BOS Mechanical_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/FOE/2016-17/BOS CIVIL_0001_merged.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2016-17/BOS CIVIL_0001_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1225,35 +1225,35 @@
                     <td>College of Fine Arts</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/bos_composition_fine_arts.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_fine_arts.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2023-24/BOS.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2023-24/BOS.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2021-22/fine_arts_2021_22_compressed.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2021-22/fine_arts_2021_22_compressed.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2019-20/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2019-20/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2017-18/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2017-18/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Fine Arts/2016-17/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2016-17/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1262,16 +1262,16 @@
                     <td>Faculty of Education</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/education.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/education.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/education/2023-24/MOM_of_BOS_24.06.2023"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/education/2023-24/MOM_of_BOS_24.06.2023.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/education/2021-22/bos_fo_education_21_22.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/education/2021-22/bos_fo_education_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1279,24 +1279,24 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/education/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/education/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/education/2019-20/BOS_0002.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/education/2019-20/BOS_0002.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/education/2018-19/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/education/2018-19/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/education/2017-18/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/education/2017-18/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/education/2016-17/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/education/2016-17/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1305,17 +1305,17 @@
                     <td>TMIMT College of Physical Education</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/2022/physical_education.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/2022/physical_education.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physical Education/2023-24/BOS_Physical Education-2023-24.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physical Education/2023-24/BOS_Physical Education-2023-24.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physical Education/2021-22/bos_physical_edu_21_22.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physical Education/2021-22/bos_physical_edu_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1323,7 +1323,7 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Physical Education/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Physical Education/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -1331,7 +1331,7 @@
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physical Education/2018-19/BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physical Education/2018-19/BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -1339,7 +1339,7 @@
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Physical Education/2016-17/BOS_0001_BOS_0002_merged.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Physical Education/2016-17/BOS_0001_BOS_0002_merged.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                   </tr>
@@ -1348,16 +1348,16 @@
                     <td>College of Agriculture Sciences</td>
 
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_composition/bos_composition_agriculture.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_agriculture.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Agriculture/2023-24/BOS_COAS_APRIL2023.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2023-24/BOS_COAS_APRIL2023.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center><a
-                          href="https://www.tmu.ac.in/pdf/bos_minutes/Agriculture/2021-22/bos_agriculture_21_22.pdf"
+                          href="{{asset('/assets/pdf/bos_minutes/Agriculture/2021-22/bos_agriculture_21_22.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
 
@@ -1365,18 +1365,18 @@
                       <center>-----</center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Agriculture/2020-21/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2020-21/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Agriculture/2019-20/BOS_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2019-20/BOS_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
                       <center>-----
                     </td>
                     <td>
-                      <center><a href="https://www.tmu.ac.in/pdf/bos_minutes/Agriculture/2017-18/Scan_0001.pdf"
+                      <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2017-18/Scan_0001.pdf')}}"
                           target="_blank">View</a></center>
                     </td>
                     <td>
@@ -1388,6 +1388,7 @@
               </table>
             </div>
           </div>
+          <hr class="horizontal-line">
         </div>
       </div>
     </div>

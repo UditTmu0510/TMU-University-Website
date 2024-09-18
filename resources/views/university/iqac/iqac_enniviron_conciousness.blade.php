@@ -423,7 +423,7 @@
 
         <button class="careers-accordion"> Wheeling to the Grid<span class="icon">+</span></button>
         <div class="panel">
-          <p>An <span class="highlight"><a href="https://www.tmu.ac.in/pdf/mous/wheeling_to_grid.pdf"> agreement</a></span> has been signed with
+          <p>An <span class="highlight"><a href="{{asset('assets/pdf/mous/wheeling_to_grid.pdf')}}"> agreement</a></span> has been signed with
             Uttar Pradesh Power Corporation Limited (UPPCL) in regard with energy export to the grid and they provided
             net metering system to record the solar energy generation in campus.</p>
         </div>

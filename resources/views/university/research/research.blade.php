@@ -4,7 +4,13 @@
 
 <link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
 
-
+<style>
+    @media screen and (min-width: 1000px) {
+        .container {
+            max-width: 70vw !important;
+        }
+    }
+</style>
 
 <div class="main-content">
     <div class="coontainer">
@@ -20,6 +26,9 @@
                             provide a friendly mechanism to the students to report their grievances and the faster
                             disposal of the same. It shall also provide a platform to the students to come forward with
                             constructive suggestions for more efficient and effective teaching-learning atmosphere</p>
+                            <p class="about-p mb-4 text-justify">Students and faculty members are encouraged to contribute towards research and participate in national and
+                    international conferences and seminars. The faculty members publish quality research papers which go a long way
+                    in contributing towards the promotion of research in varied disciplines.</p>
                     </div>
                 </div>
             </section>
@@ -33,7 +42,7 @@
 
                         <div class="front">
                             <div class="cover">
-                                <a href="https://upgrade.tmu.ac.in/assets/pdf/jnrl/viewpoint_jan_july_2021_1.pdf" target="_blank"><img
+                                <a href="https://upgrade.tmu.ac.in/assets/pdf/jnrl/viewpoint_jan_july_2021_1.pdf')}}')}}" target="_blank"><img
                                         src="{{asset('/assets/img/magazines/research/8.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
@@ -127,7 +136,9 @@
                 </div>
 
             </div>
+
         </div>
+
         <section class="d-block d-sm-none">
             <p class="about-p mb-2 text-justify p-3">The University publishes the following journals on periodic basis:</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -244,11 +255,6 @@
             </div>
 
         </section>
-        <div class="row mt-3 p-3">
-            <p>Students and faculty members are encouraged to contribute towards research and participate in national and
-                international conferences and seminars. The faculty members publish quality research papers which go a long way
-                in contributing towards the promotion of research in varied disciplines.</p>
-        </div>
     </div>
 </div>
 </div>
