@@ -39,13 +39,13 @@
             <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
               <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                  <iframe src="https://www.tmu.ac.in/pdf/research/consultancy_research_project_policy.pdf"
+                  <iframe src="{{asset('/assets/pdf/research/consultancy_research_project_policy.pdf')}}"
                     frameborder="0" height="1000px" width="100%"></iframe>
                 </div>
               </div>
               <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                  <a href="https://www.tmu.ac.in/pdf/research/consultancy_research_project_policy.pdf"
+                  <a href="{{asset('/assets/pdf/research/consultancy_research_project_policy.pdf')}}"
                     class="tmu-btn btn-4 mt-5 mt-5" download>Download PDF</a>
                 </div>
               </div>
@@ -53,13 +53,13 @@
             <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
               <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                  <iframe src="https://www.tmu.ac.in/pdf/research/seed_money_policy.pdf" frameborder="0" height="1000px"
+                  <iframe src="{{asset('/assets/pdf/research/seed_money_policy.pdf')}}" frameborder="0" height="1000px"
                     width="100%"></iframe>
                 </div>
               </div>
               <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                  <a href="https://www.tmu.ac.in/pdf/research/seed_money_policy.pdf" class="tmu-btn btn-4 mt-5"
+                  <a href="{{asset('/assets/pdf/research/seed_money_policy.pdf')}}" class="tmu-btn btn-4 mt-5"
                     download>Download PDF</a>
                 </div>
               </div>
@@ -68,13 +68,13 @@
             <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
               <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                  <iframe src="https://www.tmu.ac.in/pdf/research/incentive_policy.pdf" frameborder="0" height="1000px"
+                  <iframe src="{{asset('/assets/pdf/research/incentive_policy.pdf')}}" frameborder="0" height="1000px"
                     width="100%"></iframe>
                 </div>
               </div>
               <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                  <a href="https://www.tmu.ac.in/pdf/research/incentive_policy.pdf" class="tmu-btn btn-4 mt-5"
+                  <a href="{{asset('/assets/pdf/research/incentive_policy.pdf')}}" class="tmu-btn btn-4 mt-5"
                     download>Download PDF</a>
                 </div>
               </div>
@@ -82,13 +82,13 @@
             <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
               <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                  <iframe src="https://www.tmu.ac.in/pdf/research/ipr_policy.pdf" frameborder="0" height="1000px"
+                  <iframe src="{{asset('/assets/pdf/research/ipr_policy.pdf')}}" frameborder="0" height="1000px"
                     width="100%"></iframe>
                 </div>
               </div>
               <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                  <a href="https://www.tmu.ac.in/pdf/research/ipr_policy.pdf" class="tmu-btn btn-4 mt-5" download>Download
+                  <a href="{{asset('/assets/pdf/research/ipr_policy.pdf')}}" class="tmu-btn btn-4 mt-5" download>Download
                     PDF</a>
                 </div>
               </div>
@@ -97,13 +97,13 @@
             <div class="tab-pane fade" id="Tab5" role="tabpanel" aria-labelledby="tab4-tab">
               <div class="container d-none d-sm-block">
                 <div style="text-align:center">
-                  <iframe src="https://www.tmu.ac.in/pdf/research/innovation_fund.pdf" frameborder="0" height="1000px"
+                  <iframe src="{{asset('/assets/pdf/research/innovation_fund.pdf')}}" frameborder="0" height="1000px"
                     width="100%"></iframe>
                 </div>
               </div>
               <div class="container d-block d-sm-none mb-3">
                 <div style="text-align:center">
-                  <a href="https://www.tmu.ac.in/pdf/research/innovation_fund.pdf" class="tmu-btn btn-4 mt-5"
+                  <a href="{{asset('/assets/pdf/research/innovation_fund.pdf')}}" class="tmu-btn btn-4 mt-5"
                     download>Download PDF</a>
                 </div>
               </div>

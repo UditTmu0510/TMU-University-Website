@@ -28,13 +28,13 @@
           <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
             <div class="container d-none d-sm-block">
               <div style="text-align:center">
-                <iframe src="https://www.tmu.ac.in/pdf/code_of_ethics/publication_ethics_course.pdf" frameborder="0"
-                  height="800px" width="100%"></iframe>
+                <iframe src="{{asset('/assets/pdf/code_of_ethics/publication_ethics_course.pdf')}}" frameborder="0"
+                  height="1200" width="100%"></iframe>
               </div>
             </div>
             <div class="container d-block d-sm-none mb-3">
               <div style="text-align:center">
-                <a href="https://www.tmu.ac.in/pdf/code_of_ethics/publication_ethics_course.pdf" class="tmu-btn btn-4"
+                <a href="{{asset('/assets/pdf/code_of_ethics/publication_ethics_course.pdf')}}" class="tmu-btn btn-4"
                   download>Download PDF</a>
               </div>
             </div>
@@ -42,13 +42,13 @@
           <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
             <div class="container d-none d-sm-block">
               <div style="text-align:center">
-                <iframe src="https://www.tmu.ac.in/pdf/code_of_ethics/research_ethics_committee.pdf" frameborder="0"
-                  height="800px" width="100%"></iframe>
+                <iframe src="{{asset('/assets/pdf/code_of_ethics/research_ethics_committee.pdf')}}" frameborder="0"
+                  height="1200" width="100%"></iframe>
               </div>
             </div>
             <div class="container d-block d-sm-none mb-3">
               <div style="text-align:center">
-                <a href="https://www.tmu.ac.in/pdf/code_of_ethics/research_ethics_committee.pdf" class="tmu-btn btn-4"
+                <a href="{{asset('/assets/pdf/code_of_ethics/research_ethics_committee.pdf')}}" class="tmu-btn btn-4"
                   download>Download PDF</a>
               </div>
             </div>
@@ -56,13 +56,13 @@
           <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
             <div class="container d-none d-sm-block">
               <div style="text-align:center">
-                <iframe src="https://www.tmu.ac.in/pdf/code_of_ethics/publication_guidence_committee.pdf"
-                  frameborder="0" height="800px" width="100%"></iframe>
+                <iframe src="{{asset('/assets/pdf/code_of_ethics/publication_guidence_committee.pdf')}}"
+                  frameborder="0" height="1200" width="100%"></iframe>
               </div>
             </div>
             <div class="container d-block d-sm-none mb-3">
               <div style="text-align:center">
-                <a href="https://www.tmu.ac.in/pdf/code_of_ethics/publication_guidence_committee.pdf"
+                <a href="{{asset('/assets/pdf/code_of_ethics/publication_guidence_committee.pdf')}}"
                   class="tmu-btn btn-4" download>Download PDF</a>
               </div>
             </div>

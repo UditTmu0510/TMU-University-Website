@@ -40,13 +40,14 @@
                                                 08/08/2009]</i></b></br></td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2009.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2009.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2009.pdf"
-                                            download="phd_ordinance_2009.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2009.pdf')}}"
+                                            download="phd_ordinance_2009.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -57,13 +58,14 @@
                                                 dated 25/03/2017]</i></b></br></td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2017.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2017.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2017.pdf"
-                                            download="phd_ordinance_2017.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2017.pdf')}}"
+                                            download="phd_ordinance_2017.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -76,13 +78,14 @@
                                                 dated 25/03/2017]</i></b></br></td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2017_revised.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2017_revised.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2017_revised.pdf"
-                                            download="phd_ordinance_2017_revised.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2017_revised.pdf')}}"
+                                            download="phd_ordinance_2017_revised.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -96,13 +99,14 @@
                                                 20/03/2021]</i></b></br></td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2021-22.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2021-22.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/phd_ordinance_2021-22.pdf"
-                                            download="phd_ordinance_2017_revised.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/phd_ordinance_2021-22.pdf')}}"
+                                            download="phd_ordinance_2017_revised.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -113,11 +117,12 @@
                                     <td>University Ordinance for Promotion of Academic Integrity and
                                         Prevention of Plagiarism</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom" target="_blank"
-                                            href="https://www.tmu.ac.in/pdf/research/ordinance_prevention_of_plagiarism.pdf"
-                                            data-original-title="View">Read More!</a></td>
+                                            href="{{asset('/assets/pdf/research/ordinance_prevention_of_plagiarism.pdf')}}"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/ordinance_prevention_of_plagiarism.pdf"
-                                            download="ordinance_prevention_of_plagiarism.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/ordinance_prevention_of_plagiarism.pdf')}}"
+                                            download="ordinance_prevention_of_plagiarism.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a></td>
                                 </tr>
                                 <tr>
@@ -125,13 +130,14 @@
                                     <td>Standard Operating Procedure for the award of Ph.D. Degree</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/sop_award_of_degree.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/sop_award_of_degree.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/sop_award_of_degree.pdf"
-                                            download="sop_award_of_degree.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/sop_award_of_degree.pdf')}}"
+                                            download="sop_award_of_degree.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -141,13 +147,13 @@
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/research_fellowship.pdf" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a>
+                                            href="{{asset('/assets/pdf/research/research_fellowship.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/research_fellowship.pdf"
-                                            download="research_fellowship.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/research_fellowship.pdf')}}"
+                                            download="research_fellowship.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -157,13 +163,14 @@
                                         Performance Monitoring</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/sop-registration_coursework_progress monitoring.pdf"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/sop-registration_coursework_progress monitoring.pdf')}}"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/sop-registration_coursework_progress monitoring.pdf"
-                                            download="sop-registration_coursework_progress monitoring.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/sop-registration_coursework_progress monitoring.pdf')}}"
+                                            download="sop-registration_coursework_progress monitoring.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -176,13 +183,14 @@
                                                 30/07/2020]</i></b></br></td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/Approved_PhD_SOPs_2020.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/Approved_PhD_SOPs_2020.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/Approved_PhD_SOPs_2020.pdf"
-                                            download="Approved_PhD_SOPs_2020.pdf" data-original-title="Download"><i
+                                            href="{{asset('/assets/pdf/research/Approved_PhD_SOPs_2020.pdf')}}"
+                                            download="Approved_PhD_SOPs_2020.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -210,12 +218,12 @@
                                     <td>Application for Pre-Thesis Submission Presentation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_1.pdf" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a>
+                                            href="{{asset('/assets/pdf/research/annexure_1.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_1.pdf" download="annexure_1.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_1.pdf')}}" download="annexure_1.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -226,12 +234,13 @@
                                         Presentation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_2.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_2.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_2.pdf" download="annexure_2.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_2.pdf')}}" download="annexure_2.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -242,12 +251,13 @@
                                         Pre-Thesis Submission Presentation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_3.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_3.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_3.pdf" download="annexure_3.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_3.pdf')}}" download="annexure_3.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -257,12 +267,12 @@
                                     <td>General guidelines for Pre-Thesis Submission Presentation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_4.pdf" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a>
+                                            href="{{asset('/assets/pdf/research/annexure_4.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_4.pdf" download="annexure_4.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_4.pdf')}}" download="annexure_4.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -272,12 +282,13 @@
                                     <td>Report of CRC-DRC on Pre-Thesis Submission Presentation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_5.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_5.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_5.pdf" download="annexure_5.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_5.pdf')}}" download="annexure_5.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -287,12 +298,12 @@
                                     <td>Thesis Submission Form for External Evaluation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_6.pdf" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a>
+                                            href="{{asset('/assets/pdf/research/annexure_6.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_6.pdf" download="annexure_6.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_6.pdf')}}" download="annexure_6.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -303,12 +314,12 @@
                                         co-supervisor </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_7.pdf" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a>
+                                            href="{{asset('/assets/pdf/research/annexure_7.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_7.pdf" download="annexure_7.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_7.pdf')}}" download="annexure_7.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -318,12 +329,13 @@
                                     <td>Thesis Evaluation Forwarding Letter by COE</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_8.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_8.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_8.pdf" download="annexure_8.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_8.pdf')}}" download="annexure_8.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -333,12 +345,13 @@
                                     <td>Assessment Proforma for review of Literature</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_9.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_9.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_9.pdf" download="annexure_9.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_9.pdf')}}" download="annexure_9.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -348,12 +361,13 @@
                                     <td>Renumeration Bill for Ph.D. Thesis Evaluation</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_10a.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_10a.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_10a.pdf" download="annexure_10a.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_10a.pdf')}}" download="annexure_10a.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -365,12 +379,13 @@
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_10b.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_10b.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_10b.pdf" download="annexure_10b.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_10b.pdf')}}" download="annexure_10b.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -381,12 +396,13 @@
                                     <td>Report of the Oral Defence Committee</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_11.pdf" target="_blank"
-                                            data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_11.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_11.pdf" download="annexure_11.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_11.pdf')}}" download="annexure_11.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -396,12 +412,13 @@
                                     <td>Provisional Degree Certificate Proforma</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_12.pdf" data-original-title="View">
-                                            Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_12.pdf')}}" data-original-title="View">
+                                            <i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_12.pdf" download="annexure_12.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_12.pdf')}}" download="annexure_12.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -411,11 +428,12 @@
                                     <td>Final Thesis Submission Form</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_13.pdf" data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_13.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_13.pdf" download="annexure_13.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_13.pdf')}}" download="annexure_13.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -426,11 +444,12 @@
                                     <td>Ph.D. File Submission for Evaluation of Thesis</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_14.pdf" data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_14.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_14.pdf" download="annexure_14.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_14.pdf')}}" download="annexure_14.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>
@@ -441,11 +460,12 @@
                                     <td>Honorarium Proforma for Supervisors/Co-Supervisors</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom" targte="_blank"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_15_phd.pdf" data-original-title="View">Read More!</a>
+                                            href="{{asset('/assets/pdf/research/annexure_15_phd.pdf')}}" data-original-title="View"><i
+                        class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
-                                            href="https://www.tmu.ac.in/pdf/research/annexure_15_phd.pdf" download="annexure_15_phd.pdf"
+                                            href="{{asset('/assets/pdf/research/annexure_15_phd.pdf')}}" download="annexure_15_phd.pdf')}}"
                                             data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
                                     </td>
                                 </tr>

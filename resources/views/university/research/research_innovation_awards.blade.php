@@ -29,7 +29,7 @@
                 <td style="text-align:center;">2022</td>
                 <td>
                   <center><a
-                      href="https://www.tmu.ac.in/assets/data/naac-data/Criterion-III/Key-Indicator-3.3/Metric-3.3.2/03-02-2023/1_0001_1.pdf"
+                      href="{{asset('/assets/data/naac-data/Criterion-III/Key-Indicator-3.3/Metric-3.3.2/03-02-2023/1_0001_1.pdf')}}"
                       target="_blank"><i class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -40,7 +40,7 @@
                 <td>MESCO Institute of Pharmacy, Amroha</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/1.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/1.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -51,7 +51,7 @@
                 <td>MESCO Institute of Pharmacy, Amroha</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/2.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/2.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -62,7 +62,7 @@
                 <td>MESCO Institute of Pharmacy, Amroha</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/3.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/3.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -73,7 +73,7 @@
                 <td>MESCO Institute of Pharmacy, Amroha</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/4.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/4.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -84,7 +84,7 @@
                 <td>VDGood Professional Association</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/5.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/5.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -95,7 +95,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/6.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/6.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -106,7 +106,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/7.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/7.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -117,7 +117,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/8.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/8.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -128,7 +128,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/9.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/9.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -139,7 +139,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/10.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/10.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -150,7 +150,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/11.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/11.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -161,7 +161,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/12.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/12.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -172,7 +172,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/13.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/13.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -183,7 +183,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/14.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/14.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -194,7 +194,7 @@
                 <td>Indian Society of Pedodontics &amp; Preventive Dentistry</td>
                 <td style="text-align:center;"> 2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/15.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/15.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -205,7 +205,7 @@
                 <td>Magnus Group Conference</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/16.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/16.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -216,7 +216,7 @@
                 <td>Goa Dental College &amp; Hospital, Goa</td>
                 <td style="text-align:center;">2022</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/17.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/17.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -230,7 +230,7 @@
                   Applications, 22th &ndash; 24th Dec. 2021</td>
                 <td style="text-align:center;">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/18.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/18.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -244,7 +244,7 @@
                   Applications, 22th &ndash; 24th Dec. 2021</td>
                 <td style="text-align:center;">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2022/19.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2022/19.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -256,7 +256,7 @@
                 <td>Rein Labs, Delhi</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/101.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/101.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -268,7 +268,7 @@
                 <td>E &amp; ICT Academy, IIT Kanpur &amp;MeitY</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/1.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/1.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -279,7 +279,7 @@
                 <td>IEEE UP Section (India)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/2.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/2.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -291,7 +291,7 @@
                 <td>Global Outreach Medical and Health Association (Delhi/Jaipur)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/3.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/3.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -302,7 +302,7 @@
                 <td>Global Outreach Medical and Health Association (Delhi/Jaipur)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/4.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/4.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -313,7 +313,7 @@
                 <td>MoE's Innovation Cell (Govt. of India) New Delhi </td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/5.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/5.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -324,7 +324,7 @@
                 <td>MoE's Innovation Cell (Govt. of India) New Delhi </td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/6.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/6.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -335,7 +335,7 @@
                 <td>Ministry of Education, Govt. of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/7.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/7.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -346,7 +346,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/8.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/8.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -357,7 +357,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/9.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/9.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -368,7 +368,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/10.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/10.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -379,7 +379,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/11.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/11.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -390,7 +390,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/12.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/12.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -401,7 +401,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/13.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/13.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -412,7 +412,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/14.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/14.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -423,7 +423,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/15.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/15.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -434,7 +434,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/16.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/16.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -445,7 +445,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/17.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/17.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -456,7 +456,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/18.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/18.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -467,7 +467,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/19.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/19.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -478,7 +478,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/20.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/20.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -489,7 +489,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/21.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/21.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -500,7 +500,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/22.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/22.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -511,7 +511,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/23.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/23.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -522,7 +522,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/24.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/24.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -533,7 +533,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/25.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/25.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -544,7 +544,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/26.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/26.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -555,7 +555,7 @@
                 <td>Ministry of Education, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/27.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/27.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -566,7 +566,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/28.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/28.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -577,7 +577,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/29.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/29.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -588,7 +588,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/30.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/30.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -599,7 +599,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/31.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/31.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -610,7 +610,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/32.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/32.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -621,7 +621,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/33.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/33.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -632,7 +632,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/34.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/34.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -644,7 +644,7 @@
                 <td>Global outreach medical and health association (Delhi/ Jaipur)</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/35.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/35.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -655,7 +655,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/36.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/36.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -666,7 +666,7 @@
                 <td>Spoken Tutorials, IIT Bombay</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/37.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/37.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -677,7 +677,7 @@
                 <td>Banaras Hindu University, U.P.</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/38.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/38.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -688,7 +688,7 @@
                 <td>APP 10th Annual International Virtual Convention</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/39.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/39.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -699,7 +699,7 @@
                 <td>APP 10th Annual International Virtual Convention</td>
                 <td style="text-align:center">2021</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/40.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/40.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -710,7 +710,7 @@
                 <td>Stem research society (New Delhi, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/41.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/41.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -721,7 +721,7 @@
                 <td>Global Outreach Medical and Health Association, (Delhi/ Jaipur)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/42.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/42.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -732,7 +732,7 @@
                 <td>Global Outreach Medical and Health Association (Delhi/ Jaipur)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/43.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/43.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -743,7 +743,7 @@
                 <td>G-Town society (Private Agency) (Banglore, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/44.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/44.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -754,7 +754,7 @@
                 <td>Innovation Cell, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/45.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/45.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -765,7 +765,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/46.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/46.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -776,7 +776,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/47.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/47.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -787,7 +787,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/48.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/48.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -798,7 +798,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/49.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/49.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -809,7 +809,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/50.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/50.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -820,7 +820,7 @@
                 <td>Innovation Cell, Ministry of HRD</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/51.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/51.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -831,7 +831,7 @@
                 <td>Apeejay College Of Fina Arts, Jalandhar</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/52.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/52.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -842,7 +842,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/53.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/53.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -853,7 +853,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/54.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/54.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -864,7 +864,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/55.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/55.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -875,7 +875,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/56.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/56.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -886,7 +886,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/57.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/57.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -897,7 +897,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/58.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/58.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -908,7 +908,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/59.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/59.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -919,7 +919,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/60.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/60.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -930,7 +930,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/61.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/61.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -941,7 +941,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/62.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/62.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -952,7 +952,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/63.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/63.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -963,7 +963,7 @@
                 <td>AICTE, Ministry of HRD, Ministry of Education</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/64.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/64.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -974,7 +974,7 @@
                 <td>MHRD, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/65.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/65.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -985,7 +985,7 @@
                 <td>MHRD, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/66.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/66.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -996,7 +996,7 @@
                 <td>MHRD, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/67.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/67.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1007,7 +1007,7 @@
                 <td>MHRD, Govt. Of India (New Delhi, Online)</td>
                 <td style="text-align:center">2020</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/68.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/68.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1018,7 +1018,7 @@
                 <td>Indian association of dental student</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/69.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/69.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1030,7 +1030,7 @@
                   Agriculture University)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/70.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/70.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1042,7 +1042,7 @@
                   UP/2020/0263654)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/71.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/71.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1054,7 +1054,7 @@
                 <td>Agro Environmental Development Society</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/72.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/72.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1065,7 +1065,7 @@
                 <td>Pierre Fauchard Academy USA</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/73.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/73.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1077,7 +1077,7 @@
                   formed under Uttarakhand State)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/74.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/74.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1088,7 +1088,7 @@
                 <td>University of Royal college of surgeon, England (UK)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/75.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/75.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1099,7 +1099,7 @@
                 <td>United Lightening Vision Association, Banglore, Karnataka</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/76.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/76.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1110,7 +1110,7 @@
                 <td>University of Royal college of surgeon, England UK</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/77.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/77.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1122,7 +1122,7 @@
                   No. 1024/61550- M/2015-16)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/78.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/78.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1133,7 +1133,7 @@
                 <td>Agricultural Technology Development Society, Ghaziabad (U P)</td>
                 <td style="text-align:center">2019</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/79.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/79.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1144,7 +1144,7 @@
                 <td>Govt. of Tamil Nadu</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/80.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/80.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1156,7 +1156,7 @@
                   276-2009-2010)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/81.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/81.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1168,7 +1168,7 @@
                 <td>Indian Academy of Oral Medicine and Radiology, Bengaluru</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/82.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/82.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1181,7 +1181,7 @@
                   Reg.N0.211341.U01403DL2010NPL211341)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/83.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/83.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1192,7 +1192,7 @@
                 <td>Innovation cell, Ministry of HRD</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/84.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/84.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1203,7 +1203,7 @@
                 <td>Society for Science and Nature, Uttra Pradesh (Reg. No.03/2004-05)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/85.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/85.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1215,7 +1215,7 @@
                   No. 111/2002)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/86.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/86.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1227,7 +1227,7 @@
                 <td>Medical Council of India (Renamed and NMC), New Delhi </td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/87.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/87.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1239,7 +1239,7 @@
                   276-2009-2010)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/88.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/88.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1250,7 +1250,7 @@
                 <td>Clinics of Contemporary Dentistry, Mullana(Ambala)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/89.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/89.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1262,7 +1262,7 @@
                   ((CIN) U74999UP2016PTC085030 (Reg. No. is 85030)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/90.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/90.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1274,7 +1274,7 @@
                   its Reg. No. 123969</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/91.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/91.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1285,7 +1285,7 @@
                 <td>Madhumitha Foundation, Telangana (Unique ID: TS/2017/167695)</td>
                 <td style="text-align:center">2018</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/92.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/92.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1296,7 +1296,7 @@
                 <td>Fellowship International Medical Sciences Academy (FIMSA), New Delhi </td>
                 <td style="text-align:center">2017</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/93.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/93.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1308,7 +1308,7 @@
                 <td>Indian Academy of Oral Medicine and Radiology, Bengaluru</td>
                 <td style="text-align:center">2017</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/94.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/94.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1320,7 +1320,7 @@
                   No. 1024/61550- M/2015-16)</td>
                 <td style="text-align:center">2017</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/95.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/95.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1331,7 +1331,7 @@
                 <td>Manipal University, Manipal, Karnataka</td>
                 <td sdval="2016">2016</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/96.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/96.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1342,7 +1342,7 @@
                 <td>International College of Dentist, USA</td>
                 <td sdval="2016">2016</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/97.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/97.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1353,7 +1353,7 @@
                 <td>Pierre Fauchard Academy, USA </td>
                 <td style="text-align:center">2016</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/98.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/98.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1364,7 +1364,7 @@
                 <td>University of Royal college of surgeon, Edinburg UK</td>
                 <td style="text-align:center">2016</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/99.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/99.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
@@ -1376,7 +1376,7 @@
                   No.38/2014-15)</td>
                 <td style="text-align:center">2016</td>
                 <td>
-                  <center><a href="https://www.tmu.ac.in/pdf/research_innovation_award/100.pdf" target="_blank"><i
+                  <center><a href="{{asset('/assets/pdf/research_innovation_award/100.pdf')}}" target="_blank"><i
                         class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
