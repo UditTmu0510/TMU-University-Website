@@ -1405,6 +1405,10 @@ class TmuController extends Controller
     {
         return view('university.quick_links.journal');
     }
+    public function tmu_transport()
+    {
+        return view('university.quick_links.transport');
+    }
 
 
 
