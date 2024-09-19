@@ -1410,6 +1410,11 @@ class TmuController extends Controller
         return view('university.quick_links.transport');
     }
 
+    public function tmu_hostel()
+    {
+        return view('university.quick_links.hostel');
+    }
+
 
 
 
