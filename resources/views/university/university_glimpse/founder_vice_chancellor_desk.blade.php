@@ -1,7 +1,15 @@
 @extends('layouts.university.departments.about_tmu_with_sidebar')
 @section('content')
 
-
+<style>
+    @media screen and (max-width: 912px) {
+        .img-112 {
+            max-height: 350px !important;
+            width: auto !important;
+            object-fit: contain; /* Ensures the image maintains aspect ratio without stretching */
+        }
+    }
+</style>
 
 
 <div class="main-content">
@@ -10,10 +18,10 @@
                         <div class="row">
                             <h2 class="tmu-text-primary tmu-page-heading pt-md-5">
                                <span>Founder Vice</span> <span>Chancellor Desk</span></h2>
-                            <div class="col-md-4 mb-3">
-                                <img src="{{asset('/assets/image/pvc.PNG')}}" class="w-100" alt="">
+                            <div class="col-lg-4 col-md-12 col-sm-12 mb-3 ">
+                                <img src="{{asset('/assets/img/aboutus/administration/pvc.PNG')}}" class="w-100 img-112 mx-auto d-block" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-lg-8 col-md-12 col-sm-12">
                                 <p class="person-quote px-4 px-md-5">
                                     The challenge before the educationists today is to channelize the intelligent,
                                     creative and enthusiastic youth of the country into the <span
