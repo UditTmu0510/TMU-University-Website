@@ -4057,6 +4057,28 @@ Search bar css ends here
             display: block;
             border-radius: 20px;
           }
+
+          @media screen and (max-width:500px) {
+            .crc-slider-text h3{
+                font-size: 1.8rem;
+            }
+            .crc-slider-text h2{
+                margin-bottom: 0px;
+                font-size: 1rem;
+                line-height: 1.2rem;
+              }
+              .crc-slider-gradient {
+                padding: 50px;
+              }
+
+              .crc-slide img {
+                border-radius: 10px;
+              }
+
+              .crc-slider-gradient {
+                border-radius: 10px;
+              }
+        }
           /* CRC Banner css end */
 
           /* CRC package section css start */
@@ -4078,7 +4100,7 @@ Search bar css ends here
           
           .crc-highest-package-section p {
             font-size: 1rem;
-            font-weight: 700;
+            font-weight: 600;
             letter-spacing: 1px;
             color: #001055;
           }
@@ -4094,6 +4116,23 @@ Search bar css ends here
           .row .col-md-3:last-child {
             border-right: none; /* Remove the border for the last column */
           }
+
+          @media screen and (max-width:767px) {
+            .crc-highest-package-section h3 {
+                font-size: 1rem;
+              }
+
+              .crc-highest-package-section .display-4 {
+                font-size: 1.5rem; /* Adjust as needed */
+              }
+
+              .crc-highest-package-section p {
+                font-size: 0.8rem;
+                font-weight: 500;
+              }
+
+          }
+
           /* CRC package section css ends */
 
           /* Carousel container */
@@ -4111,3 +4150,15 @@ Search bar css ends here
             height: auto;
             margin: 0 auto;
         }
+
+        @media screen and (min-width:541px) {
+            .star-logo-carousel {
+                display: block;
+              }
+            }
+
+        @media screen and (max-width:575px) {
+                .star-logo-carousel {
+                    display: block;
+                  }
+                }
