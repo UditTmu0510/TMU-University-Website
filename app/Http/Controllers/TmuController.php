@@ -1741,6 +1741,11 @@ class TmuController extends Controller
 
     // CRC Placement
 
+    public function crc_home()
+    {
+        return view('university.crc.crc_home');
+    }
+
     public function crc_about_us()
     {
         return view('university.crc.crc_about_us');

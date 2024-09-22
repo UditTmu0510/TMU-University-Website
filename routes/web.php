@@ -622,8 +622,10 @@ Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationC
 Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
 
 
+
 // CRC Placement
-Route::get('/tmu/corporate-resource-centre', [TmuController::class, 'crc_about_us'])->name('crc.about.us');
+Route::get('/tmu/corporate-resource-centre', [TmuController::class, 'crc_home'])->name('crc.home');
+Route::get('/tmu/about-crc', [TmuController::class, 'crc_about_us'])->name('crc.about.us');
 Route::get('/tmu/aims-and-objectives-crc', [TmuController::class, 'aims_and_objectives_crc'])->name('aims.and.objectives.crc');
 Route::get('tmu/directors-desk-crc', [TmuController::class, 'directors_desk_crc'])->name('directors.desk.crc');
 Route::get('/tmu/placement-rules', [TmuController::class, 'placement_rules'])->name('placement.rules');

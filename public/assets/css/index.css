@@ -3854,6 +3854,12 @@ Search bar css ends here
     }
 }
 
+@media screen and (min-width:900px) {
+    .main-content{
+        max-width:75vw!important;
+    }
+}
+
 
 .custom-menu-section {
     margin-bottom: 16px;
@@ -3968,4 +3974,140 @@ Search bar css ends here
             font-weight: bold;
             margin-right: 0.5rem;
 
+        }
+
+        /* CRC Banner css start */
+        .crc-slider-container {
+            position: relative;
+            width: 100%;
+            max-height: 350px;
+            display: flex;
+          }
+      
+          .crc-slider-arrow {
+            cursor: pointer;
+            color: #fff;
+            font-size: 40px;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+          }
+      
+          .crc-slider-arrow-left {
+            left: 0;
+          }
+      
+          .crc-slider-arrow-right {
+            right: 0;
+          }
+      
+          .crc-slider-content {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+          }
+      
+          .crc-slider-gradient {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 80%;
+            background: linear-gradient(to right, rgb(255 121 0), #00000000);
+            color: white;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            padding: 80px;
+            border-radius: 20px;
+          }
+      
+          .crc-slider-text {
+            z-index: 3;
+          }
+
+          .crc-slider-text h2{
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            line-height: 2rem;
+          }
+
+          .crc-slider-text h3{
+            color: #001055;
+            margin-bottom: 10px;
+            font-size: 3rem;
+            font-weight: 900;
+          }
+      
+          .crc-slider-slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+          }
+      
+          .crc-slide {
+            min-width: 100%;
+            position: relative;
+          }
+      
+          .crc-slide img {
+            width: 100%;
+            display: block;
+            border-radius: 20px;
+          }
+          /* CRC Banner css end */
+
+          /* CRC package section css start */
+
+          .crc-highest-package-section {
+            /* background-color: #f5f5f5; /* Adjust this to match your background */
+            background-image: url('background-pattern.png'); /* Use a pattern or gradient like in your screenshot */
+            background-size: cover;
+            background-position: center;
+          }
+          
+          .crc-highest-package-section h3 {
+            font-weight: bold;
+          }
+          
+          .crc-highest-package-section .display-4 {
+            font-size: 2.5rem; /* Adjust as needed */
+          }
+          
+          .crc-highest-package-section p {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #001055;
+          }
+          
+          .crc-highest-package-section .container {
+            max-width: 1200px;
+          }
+          
+          .crc-border-right {
+            border-right: 1px solid #001055; /* White vertical line with transparency */
+          }
+          
+          .row .col-md-3:last-child {
+            border-right: none; /* Remove the border for the last column */
+          }
+          /* CRC package section css ends */
+
+          /* Carousel container */
+        .star-logo-carousel {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Styling individual logos */
+        .star-logo-carousel .item img {
+            display: block;
+            width: 150px;
+            /* Adjust size */
+            height: auto;
+            margin: 0 auto;
         }

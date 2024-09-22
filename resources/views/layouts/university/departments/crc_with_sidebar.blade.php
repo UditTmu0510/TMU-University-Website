@@ -2,7 +2,7 @@
 
 
 <div class="d-flex">
-  
+
 @include('university.sidebar.crc_sidebar')
 @hasSection('content')
 @yield('content')

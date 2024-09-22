@@ -734,7 +734,7 @@ document.addEventListener("DOMContentLoaded", function() {
             button.classList.remove('expanded');
             button.classList.add('minimized');
         });
-    }, 5000);
+    }, 2000);
 
     // Expand buttons on hover
     buttons.forEach(button => {
@@ -1262,4 +1262,23 @@ document.getElementById('success-stories-popup').addEventListener('click', funct
 });
 // Success Stories js end
 
-    
+$(document).ready(function(){
+    $('.star-logo-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000, // Time between slides (2 seconds)
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2 // Number of logos on small screens
+            },
+            600: {
+                items: 3 // Number of logos on medium screens
+            },
+            1000: {
+                items: 5 // Number of logos on large screens
+            }
+        }
+    });
+});
