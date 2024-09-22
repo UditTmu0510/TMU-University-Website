@@ -11,10 +11,14 @@
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{asset('/assets/img/infrastructure/campus_view/Campus-Banner.webp')}}" class="d-block w-100" alt="...">
+          <img src="{{asset('/assets/img/infrastructure/library/Banner.webp')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('/assets/img/infrastructure/library/Banner2.webp')}}" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -28,10 +32,11 @@
     </div>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span> View</span></h2>
+      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Library </span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">Teerthanker Mahaveer University is a dream destination, where modern infrastructure, world-class facilities, and a supportive community create the perfect backdrop for your academic journey. Every corner of TMU is thoughtfully designed to inspire and support you, fostering a dynamic environment that complements your academic and personal growth. We offer a vibrant campus experience that blends learning with fun. From the moment you step onto our campus, you'll feel a sense of purpose, the joy of discovery, and the warmth of belonging.
+          <p class="text-justify mb-2 mt-1">
+          At TMU, our library is a hub of knowledge and discovery. With a vast collection of books, journals, and digital resources, students have access to a world of information at their fingertips. The library offers quiet spaces for focused study, along with group discussion areas that encourage interactive learning. Equipped with high-speed internet and advanced technology, students can seamlessly conduct research and study. Our dedicated staff and modern facilities create a comfortable and enriching learning experience, ensuring a welcoming and supportive environment for all students.
           </p>
         </div>
       </div>
@@ -46,24 +51,27 @@
         <div class="d-flex flex-wrap">
             
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-1.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/1.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-2.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/2.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-3.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/3.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-4.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/4.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-5.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/5.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-6.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/library/6.webp')}}" class="img-fluid" alt="Image 1">
             </div>
-            
+            <div class="col-md-4 img-grid p-2">
+                <img src="{{asset('/assets/img/infrastructure/library/8.webp')}}" class="img-fluid" alt="Image 1">
+            </div>
+
             
         </div>
     </div>

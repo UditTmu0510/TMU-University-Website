@@ -1344,6 +1344,11 @@ class TmuController extends Controller
         return view('university.quick_links.campus_view');
     }
 
+    public function library()
+    {
+        return view('university.quick_links.library');
+    }
+
     public function how_to_apply()
     {
         return view('university.quick_links.how_to_apply');
@@ -1359,6 +1364,11 @@ class TmuController extends Controller
         return view('university.quick_links.gym');
     }
 
+    public function sports()
+    {
+        return view('university.quick_links.sports');
+    }
+
     public function auditorium()
     {
         return view('university.quick_links.auditorium');
@@ -1369,9 +1379,9 @@ class TmuController extends Controller
         return view('university.quick_links.jinalaya');
     }
 
-    public function yoga_and_meditation_hall()
+    public function yoga_and_meditation()
     {
-        return view('university.quick_links.yoga_and_meditation_hall');
+        return view('university.quick_links.yoga_and_meditation');
     }
 
     public function music_and_dance_room()
