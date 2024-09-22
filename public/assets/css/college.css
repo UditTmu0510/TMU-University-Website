@@ -93,7 +93,7 @@
     border-radius: 10px;
     }
     
-    #testimonialModal .tmu-testimonial .testimonial>p:nth-child(2) {
+    #testimonialModal .tmu-testimonial .testimonial .testimonial-content {
     max-height: 50vh;
     overflow: auto;
     text-align: justify;

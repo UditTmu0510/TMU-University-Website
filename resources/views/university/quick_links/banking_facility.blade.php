@@ -11,10 +11,14 @@
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{asset('/assets/img/infrastructure/campus_view/Campus-Banner.webp')}}" class="d-block w-100" alt="...">
+          <img src="{{asset('/assets/img/infrastructure/banking_facility/Banner.webp')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('/assets/img/infrastructure/banking_facility/Banner2.webp')}}" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -28,11 +32,12 @@
     </div>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span> View</span></h2>
+      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Banking </span><span> Facility</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">Teerthanker Mahaveer University is a dream destination, where modern infrastructure, world-class facilities, and a supportive community create the perfect backdrop for your academic journey. Every corner of TMU is thoughtfully designed to inspire and support you, fostering a dynamic environment that complements your academic and personal growth. We offer a vibrant campus experience that blends learning with fun. From the moment you step onto our campus, you'll feel a sense of purpose, the joy of discovery, and the warmth of belonging.
-          </p>
+          <p class="text-justify mb-2 mt-1">
+          TMU’s campus banking facility is designed to offer hassle-free financial services to students, faculty, and visitors. With a full-service branch located on campus, individuals can handle their day-to-day banking needs. The facility also features round-the-clock ATMs, ensuring access to cash and essential banking services at any time. The convenience of on-site banking allows everyone to stay focused on their studies or work without the distraction of off-campus errands.          
+        </p>
         </div>
       </div>
     </div>
@@ -46,24 +51,14 @@
         <div class="d-flex flex-wrap">
             
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-1.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/banking_facility/1.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-2.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/banking_facility/2.webp')}}" class="img-fluid" alt="Image 1">
             </div>
             <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-3.webp')}}" class="img-fluid" alt="Image 1">
+                <img src="{{asset('/assets/img/infrastructure/banking_facility/3.webp')}}" class="img-fluid" alt="Image 1">
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-4.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-5.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-6.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            
             
         </div>
     </div>
