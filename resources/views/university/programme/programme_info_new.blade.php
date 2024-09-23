@@ -83,7 +83,7 @@ $programme_banner_path = $programme->programme_banner_path;
     </div> -->
 </div>
 @endif
-<div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url('http://127.0.0.1:8000/demos/saas-2/images/hero7.jpg');">
+<div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url('{{asset('assets/img/agriculture/Agriculture-N.webp')}}');">
     <div class="ban-text">
         <div class="col-xs-6 ban-text">
             <h1 class="display-4 fw-bolder ls-n-1 text-light fs-5 mb-3 mt-3 text-center">Build Your Future with {{$programme->prog_name}}e</h1>

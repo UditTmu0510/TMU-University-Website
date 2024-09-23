@@ -296,7 +296,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 <!-- JavaScripts
 							============================================= -->
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="{{asset('js/functions.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
@@ -306,6 +306,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="{{asset('js/components/bs-datatable.js')}}"></script>
 <script src="{{asset('assets/js/index.js')}}"></script>
+
 
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->

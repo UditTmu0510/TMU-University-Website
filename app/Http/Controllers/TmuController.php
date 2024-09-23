@@ -1112,6 +1112,11 @@ class TmuController extends Controller
 
     // CTLD
 
+    public function ctld_home()
+    {
+        return view('university.ctld.ctld_home');
+    }
+
     public function ctld_about()
     {
         return view('university.ctld.about_ctld');
@@ -1750,6 +1755,11 @@ class TmuController extends Controller
 
 
     // CRC Placement
+
+    public function crc_home()
+    {
+        return view('university.crc.crc_home');
+    }
 
     public function crc_about_us()
     {

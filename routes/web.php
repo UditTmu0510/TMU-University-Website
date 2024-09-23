@@ -159,7 +159,8 @@ Route::get('/tmu/nep-ability-enhancement-courses', [TmuController::class, 'nep_a
 Route::get('/tmu/nep-skill-enhancement-course', [TmuController::class, 'nep_skill_enhancement'])->name('nep.skill.enhancement');
 Route::get('/tmu/nep-immplementation-committee', [TmuController::class, 'nep_implementation_committee'])->name('nep.implementation.committee');
 // CTLD
-Route::get('/tmu/centre-for-teaching-learning-and-development', [TmuController::class, 'ctld_about'])->name('ctld.about');
+Route::get('/tmu/centre-for-teaching-learning-and-development', [TmuController::class, 'ctld_home'])->name('ctld.home');
+Route::get('/tmu/about-ctld', [TmuController::class, 'ctld_about'])->name('ctld.about');
 Route::get('/tmu/ctld-aims-and-objective', [TmuController::class, 'ctld_aims_and_objectives'])->name('ctld.aims.and.objectives');
 Route::get('/tmu/ctld-director-desk', [TmuController::class, 'ctld_director_desk'])->name('ctld.director.desk');
 Route::get('/tmu/ctld-our-team', [TmuController::class, 'ctld_team'])->name('ctld.team');
@@ -624,8 +625,10 @@ Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationC
 Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
 
 
+
 // CRC Placement
-Route::get('/tmu/corporate-resource-centre', [TmuController::class, 'crc_about_us'])->name('crc.about.us');
+Route::get('/tmu/corporate-resource-centre', [TmuController::class, 'crc_home'])->name('crc.home');
+Route::get('/tmu/about-crc', [TmuController::class, 'crc_about_us'])->name('crc.about.us');
 Route::get('/tmu/aims-and-objectives-crc', [TmuController::class, 'aims_and_objectives_crc'])->name('aims.and.objectives.crc');
 Route::get('tmu/directors-desk-crc', [TmuController::class, 'directors_desk_crc'])->name('directors.desk.crc');
 Route::get('/tmu/placement-rules', [TmuController::class, 'placement_rules'])->name('placement.rules');
