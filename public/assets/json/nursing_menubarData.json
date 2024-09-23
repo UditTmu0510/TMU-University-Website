@@ -5,8 +5,8 @@
             "link": "/college-of-nursing/college-highlight" },
         "Dean's Desk": {
             "link": "/college-of-nursing/dean" },
-        "Principal's Desk": {
-            "link": "/college-of-nursing/principal" },
+        "Vice Principal's Desk": {
+            "link": "/college-of-nursing/vice-principal" },
         "Gallery": { "link": "/college-of-nursing/gallery" },
         "College Advisory Board": { "link": "/college-of-nursing/college-advisory-board" }
     },
@@ -346,7 +346,7 @@
         "University Sports Calender": {
             "link": "/tmu/university-sport-calender"
         },
-        "NSS UNit": { "link": "/nss-about" },
+        "NSS Unit": { "link": "/nss-about" },
         "NEP 2020": { "link": "/tmu/nep-ordinance" },
         "Publications": { "link": "/tmu/publication" },
         "Convocation": { "link": "/tmu/convocation" }
