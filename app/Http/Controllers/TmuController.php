@@ -1112,6 +1112,11 @@ class TmuController extends Controller
 
     // CTLD
 
+    public function ctld_home()
+    {
+        return view('university.ctld.ctld_home');
+    }
+
     public function ctld_about()
     {
         return view('university.ctld.about_ctld');

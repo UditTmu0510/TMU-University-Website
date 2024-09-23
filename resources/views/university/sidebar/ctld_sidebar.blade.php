@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About Department</h2>
         <div class="account-section">
+            <a href="{{ route('ctld.home') }}" class="custom-menu-item {{ Route::is('ctld.home') ? 'active' : '' }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ Route::is('ctld.about') ? 'active' : '' }}">
                 <p>Overview</p>
             </a>
