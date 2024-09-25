@@ -114,6 +114,7 @@ Route::get('/tmu/statutory-approvals', [TmuController::class, 'statutory_approva
 Route::get('/tmu/awards-recognition', [TmuController::class, 'awards_and_recognition'])->name('awards.and.recognition');
 Route::get('/tmu/university-governance', [TmuController::class, 'university_governance'])->name('university.governance');
 Route::get('/tmu/university-organogram', [TmuController::class, 'university_organogram'])->name('university.organogram');
+Route::get('/tmu/why-tmu', [TmuController::class, 'why_tmu'])->name('why.tmu');
 Route::get('/tmu/university-administration', [TmuController::class, 'university_administration'])->name('university.administration');
 Route::get('/tmu/chancellor', [TmuController::class, 'chancellor_desk'])->name('chancellor.desk');
 Route::get('/tmu/founder-vicechancellor', [TmuController::class, 'founder_vice_chancellor_desk'])->name('founder.vice.chancellor.desk');

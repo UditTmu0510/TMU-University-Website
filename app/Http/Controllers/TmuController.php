@@ -928,6 +928,11 @@ class TmuController extends Controller
         return view('university.university_glimpse.tmu_organogram');
     }
 
+    public function why_tmu()
+    {
+        return view('university.university_glimpse.why_tmu');
+    }
+
     public function university_administration()
     {
         return view('university.university_glimpse.administration');
