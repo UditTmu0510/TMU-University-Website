@@ -11,7 +11,11 @@
                 <!-- <img src="./assets/image/banner-poster.jpg" alt="" id="banner-tmu-img"> -->
                 <!-- <video muted loop autoplay id="main-banner-vid" class="d-none" poster="./assets/image/banner-poster.jpg" src="#"> -->
                 <!-- </video> -->
-                <video muted autoplay loop>
+                <video muted autoplay loop class="w-100 d-block d-sm-none">
+                    <source src="{{asset('assets/img/home/banner/tmu_final_mobile_video.mp4')}}">
+                </video>
+
+                <video muted autoplay loop class="d-none d-sm-block">
                     <source src="{{asset('assets/img/home/banner/tmu_final_video.mp4')}}">
                 </video>
             </div>
