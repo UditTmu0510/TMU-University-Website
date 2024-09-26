@@ -5,10 +5,12 @@ use App\Http\Controllers\TmuController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\InstructorController;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\NewsController;
+use App\Http\Controllers\NewsFrontController;
 use App\Http\Controllers\Backend\BlogsController;
 use App\Http\Controllers\Backend\ProgrammesController;
+use App\Http\Controllers\Backend\SyllabusController;
+use App\Http\Controllers\Backend\MetaController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
@@ -26,6 +28,7 @@ use App\Http\Controllers\ParamedicalController;
 use App\Http\Controllers\PharmacyController;
 use App\Http\Controllers\PhysicaleducationController;
 use App\Http\Controllers\PhysiotherapyController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,11 +73,13 @@ Route::get('/clear-event', function() {
 
 
 
+
+
+
 Route::get('/', [TmuController::class, 'index'])->name('tmuhome');
 Route::post('/programmes/fetch-programs',[TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
+Route::post('/programmes/fetch-programs-bylevel',[TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
-
-
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
 Route::get('news/{slug}', [NewsController::class, 'news_info']);
 Route::get('programme/{slug}', [TmuController::class, 'programme']);
@@ -85,18 +90,14 @@ Route::get('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
 
 
-// Instructor  Group Middleware Starts
-
-Route::middleware(['auth','roles:instructor'])->group(function(){
-    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
-    
-});
-
 Route::post('/search/',[App\Http\Controllers\MetasController::class,'search'])->name('search');
+Route::post('/getacademicyears', [App\Http\Controllers\Backend\SyllabusController::class, 'getAcademicYears'])->name('getacademicyears');
+Route::post('/getsyllabus', [App\Http\Controllers\Backend\SyllabusController::class, 'getSyllabuses'])->name('getsyllabuses');
+Route::post('/search_blog_slug', [BlogsController::class, 'searchBlogSlug'])->name('search_blog_slug');
+Route::post('/search_meta_slug', [MetaController::class, 'CheckMetaUrl'])->name('search_meta_slug');
 
 //Route::get('/search/{query}',[App\Http\Controllers\SearchController::class,'autocomplete']);
 // Instructor  Group Middleware Ends
-
 
 
 
@@ -124,6 +125,7 @@ Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.care
 
 Route::get('/innovation-startup', [TmuController::class, 'iic_home'])->name('iic.home');
 Route::get('/innovation-startup/about-cell', [TmuController::class, 'iic_about_cell'])->name('iic.cell.about');
+Route::get('/tmu/why-tmu', [TmuController::class, 'why_choose_tmu'])->name('tmu.why_tmu');
 Route::get('/innovation-startup/policy', [TmuController::class, 'iic_policy'])->name('iic.policy');
 Route::get('innovation-startup/iic-research-policy', [TmuController::class, 'iic_research_policy'])->name('iic.research.policy');
 Route::get('/innovation-startup/committee', [TmuController::class, 'iic_committee'])->name('iic.committee');
@@ -217,7 +219,6 @@ Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
-Route::get('/tmu/hostel', [TmuController::class, 'tmu_hostel'])->name('tmu.hostel');
 
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
@@ -238,6 +239,9 @@ Route::get('/tmu/banking-facility', [TmuController::class, 'banking_facility'])-
 Route::get('/tmu/faculty-accomodation', [TmuController::class, 'faculty_accomodation'])->name('faculty.accomodation');
 Route::get('/tmu/guest-house', [TmuController::class, 'guest_house'])->name('guest.house');
 Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
+Route::get('/tmu/scholarship', [TmuController::class, 'university_scholarship'])->name('tmu.scholarship');
+Route::get('/tmu/education-loan', [TmuController::class, 'university_education_loan'])->name('tmu.loan');
+
 
 
 
@@ -305,7 +309,7 @@ Route::get('/tmimt-college-of-management', [ManagementController::class, 'index'
 Route::get('/tmimt-college-of-management/about-us', [ManagementController::class, 'mgmt_overview'])->name('mgmt.overview');
 Route::get('/tmimt-college-of-management/college-highlight', [ManagementController::class, 'mgmt_highlight'])->name('mgmt.highlight');
 Route::get('/tmimt-college-of-management/principal', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
-// Route::get('/tmimt-college-of-management/syllabus', [TmuController::class, '#'])->name('mgmt.overview');
+Route::get('/tmimt-college-of-management/syllabus', [ManagementController::class, 'mgmt_syllabus'])->name('mgmt.syllabus');
 Route::get('/tmimt-college-of-management/academic-calendar', [ManagementController::class, 'mgmt_academic_calendar'])->name('mgmt.academic.calendar');
 Route::get('/tmimt-college-of-management/training-placement-cell', [ManagementController::class, 'training_placements_cell'])->name('mgmt.tpc');
 Route::get('/tmimt-college-of-management/corporate-advisory-board', [ManagementController::class, 'corporate_advisory_board'])->name('mgmt.ca.board');
@@ -623,7 +627,6 @@ Route::get('/tmimt-college-of-physical-education/iqac', [PhysicaleducationContro
 Route::get('/tmimt-college-of-physical-education/syllabus', [PhysicaleducationController::class, 'physical_education_syllabus'])->name('physical.education.syllabus');
 Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationController::class, 'physical_education_principal'])->name('physical.education.principal');
 Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
-
 
 
 // CRC Placement
