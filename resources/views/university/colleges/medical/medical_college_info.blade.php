@@ -5,7 +5,7 @@
 	<div class="container">
 		<h1 class="tmu-text-primary tmu-page-heading"><span>College</span><span> information</span></h1>
 		<div class="row">
-			<img class="col-md-10 d-block mx-auto mb-4" src="{{asset('/assets/img/banner_overview/medical/medical_college_info.jpg')}}" alt="Card image cap">
+			<img class="col-md-10 d-block mx-auto mb-4" src="{{asset('/assets/img/medical/about/college_information.jpg')}}" alt="Card image cap">
 		</div>
 
 		<div class="row">

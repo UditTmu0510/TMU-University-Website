@@ -1,18 +1,10 @@
 @extends('layouts.university.departments.iic_with_sidebar')
 @section('content')
 
-<style>
-@media screen and (min-width: 1000px) {
-    .container {
-        max-width: 70vw !important;
-    }
-}
-	
-</style>
 
 <div class="main-content">
-	<div class="container">
 
+	<div class="container" style="max-width: 70vw !important;">
 		<h1 class="tmu-text-primary tmu-page-heading"><span> Welcome to</span> <span>TMU IIC</span></h1>
 
 		<p>

@@ -1,6 +1,5 @@
-@extends('layouts.university.journal')
+@extends('layouts.university.departments.quicklinks_with_sidebar')
 @section('content')
-
 
 <style>
     .team-desc>.team-title>* {

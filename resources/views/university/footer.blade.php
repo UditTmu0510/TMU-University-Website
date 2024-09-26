@@ -117,10 +117,10 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 						<div class="row col-mb-30">
 
 
-							<div class="col-lg-4 widget_links">
+							<div class="col-lg-6 widget_links">
 								<div class="widget">
 
-									<img style="width: 60%;" alt="Teertahnker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}">
+									<img style="width: 40%;" alt="Teertahnker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}">
 
 
 									<!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
@@ -134,7 +134,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 									<br>
 									<div style="margin-top:30px;">
 										<address>
-											<strong style="font-weight: 400;">TMU stands committed to the ideals of Lord Mahaveer - Right
+											<strong style="font-weight: 300;">TMU stands committed to the ideals of Lord Mahaveer - Right
 												Philosophy, Right Knowledge and Right Conduct in all spheres of
 												activity and aspires to be the ultimate destination for
 												world-class education.</strong>
@@ -153,40 +153,42 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Apply Now</h4>
 								<ul>
-									<li><a href="#">Application Form</a></li>
-									<li><a href="#">Entrance Test</a></li>
-									<li><a href="#">Education Loan</a></li>
-									<li><a href="#">Scholarships</a></li>
-									<li><a href="#">How to Apply</a></li>
-									<li><a href="#">Brochure</a></li>
-									<li><a href="#">Campus View</a></li>
-									<li><a href="#">FAQs</a></li>
+									<li><a href="{{route('application.form')}}">Application Form</a></li>
+									<!--<li><a href="#">Entrance Test</a></li>-->
+									<li><a href="{{route('tmu.loan')}}">Education Loan</a></li>
+									<li><a href="{{route('tmu.scholarship')}}">Scholarships</a></li>
+									<li><a href="{{route('how.to.apply')}}">How to Apply</a></li>
+							
+									<li><a href="{{route('campus.view')}}">Campus View</a></li>
+									<li><a href="{{route('tmu.faqs')}}">FAQs</a></li>
 
 								</ul>
 							</div>
 
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Programmes</h4>
-								<ul>
-									<li><a href="#">Under Graduate</a></li>
-									<li><a href="#">Post Graduate</a></li>
-									<li><a href="#">Doctratre Programs</a></li>
-									<li><a href="#">Diploma Programs</a></li>
-								</ul>
-							</div>
+							<!--<div class="col-6 col-lg-2 widget_links">-->
+							<!--	<h4>Programmes</h4>-->
+							<!--	<ul>-->
+							<!--		<li><a href="#">Under Graduate</a></li>-->
+							<!--		<li><a href="#">Post Graduate</a></li>-->
+							<!--		<li><a href="#">Doctratre Programs</a></li>-->
+							<!--		<li><a href="#">Diploma Programs</a></li>-->
+							<!--	</ul>-->
+							<!--</div>-->
 
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="#">University Campus</a></li>
-									<li><a href="#">Hostels</a></li>
-									<li><a href="#">Gym</a></li>
-									<li><a href="#">Transportation</a></li>
-									<li><a href="#">Sports</a></li>
-									<li><a href="#">Auditorium</a></li>
-									<li><a href="#">Mahaveer Ji Jainalya</a></li>
-									<li><a href="#">Food Plaza</a></li>
-									<li><a href="#">Hospital</a></li>
+									<li><a href="{{route('campus.view')}}">University Campus</a></li>
+									<li><a href="{{route('faculty.accomodation')}}">Faculty Accomodation</a></li>
+									<li><a href="{{route('guest.house')}}">Guest House</a></li>
+									<li><a href="{{route('banking.facility')}}">Banking Facility</a></li>
+									<li><a href="{{route('sports')}}">Sports</a></li>
+									<li><a href="{{route('auditorium')}}">Auditorium</a></li>
+									<li><a href="{{route('jinalaya')}}">Mahaveer Ji Jainalya</a></li>
+									<li><a href="{{route('yoga.and.meditation')}}">Yoga & Meditation</a></li>
+									<li><a href="https://hospital.tmu.ac.in/" target="_blank">Hospital</a></li>
+									<li><a href="{{route('library')}}">Library</a></li>
+											<li><a href="{{route('music.and.dance.room')}}">Music & Dance</a></li>
 
 								</ul>
 							</div>
@@ -194,16 +196,16 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Useful Links</h4>
 								<ul>
-									<li><a href="#">Convocation</a></li>
-									<li><a href="#">Gallery</a></li>
-									<li><a href="#">News</a></li>
-									<li><a href="#">Join TMU</a></li> <!--- CAREERS -->
+									<li><a href="{{route('tmu.convocation')}}">Convocation</a></li>
+						
+									<li><a href="{{route('all_news')}}">News</a></li>
+									<li><a href="{{route('tmu.careers')}}">Join TMU</a></li> <!--- CAREERS -->
 									<!-- <li><a href="#">About City</a></li> -->
-									<li><a href="#">IQAC</a></li>
-									<li><a href="#">ERP Login</a></li>
-									<li><a href="#">Blogs</a></li>
+									<li><a href="{{route('all_news')}}">IQAC</a></li>
+									<li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
+									<li><a href="{{route('all_blogs')}}">Blogs</a></li>
 									<li><a href="#">Sitemap</a></li>
-									<li><a href="#">Feedback</a></li>
+									<li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
 								</ul>
 							</div>
 						</div>
@@ -234,41 +236,33 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 			<div class="row justify-content-between col-mb-30">
 				<div class="col-12 col-lg-auto text-center text-lg-start">
 					<div class="copyrights-menu copyright-links">
-						<a href="#">Anti Ragging</a>/<a href="#">Contact</a>/<a href="#">Disclaimer</a>/<a href="#">NIRF</a>/<a href="#">NAAC</a>/<a href="#">Privacy</a>
-					</div>
+						<a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a href="{{route('nirf.home')}}">NIRF</a>/<a href="{{route('naac.home')}}">NAAC</a>/<a href="{{route('ctld.home')}}">CTLD</a>/<a href="{{route('crc.home')}}">Placement</a>/<a href="{{route('iqac.about')}}">IQAC</a>
+						</div>
 					Copyrights &copy; 2023 All Rights Reserved by Teerthanker Mahaveer University,Moradabad.
 				</div>
 
 				<div class="col-md-6 text-center text-md-end">
-					<div class="d-xs-flex justify-content-center justify-content-md-end mb-2">
-						<a href="#" class="social-icon border-transparent si-small h-bg-facebook">
+					<div class="d-flex justify-content-center justify-content-md-end mb-2">
+						<a target="_blank" href="https://www.facebook.com/tmumbd/" class="social-icon border-transparent si-small h-bg-facebook">
 							<i class="fa-brands fa-facebook-f"></i>
 							<i class="fa-brands fa-facebook-f"></i>
 						</a>
 
 
 
-						<a href="#" class="social-icon border-transparent si-small h-bg-twitter">
+						<a target="_blank" href="https://x.com/Tmumbd" class="social-icon border-transparent si-small h-bg-twitter">
 							<i class="fa-brands fa-twitter"></i>
 							<i class="fa-brands fa-twitter"></i>
 						</a>
 
-						<a href="#" class="social-icon border-transparent si-small h-bg-google">
-							<i class="fa-brands fa-google"></i>
-							<i class="fa-brands fa-google"></i>
-						</a>
-
-						<a href="#" class="social-icon border-transparent si-small me-0 h-bg-linkedin">
+						<a target="_blank" href="https://www.linkedin.com/school/tmuuni/" class="social-icon border-transparent si-small me-0 h-bg-linkedin">
 							<i class="fa-brands fa-linkedin"></i>
 							<i class="fa-brands fa-linkedin"></i>
 						</a>
 
-						<a href="#" class="social-icon border-transparent si-small me-0 h-bg-quora">
-							<i class="fa-brands fa-quora"></i>
-							<i class="fa-brands fa-quora"></i>
-						</a>
+				
 
-						<a href="#" class="social-icon border-transparent si-small me-0 h-bg-youtube">
+						<a target="_blank" href="https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow" class="social-icon border-transparent si-small me-0 h-bg-youtube">
 							<i class="fa-brands fa-youtube"></i>
 							<i class="fa-brands fa-youtube"></i>
 						</a>
@@ -296,7 +290,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 <!-- JavaScripts
 							============================================= -->
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script src="{{asset('js/functions.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
@@ -308,11 +302,10 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 <script src="{{asset('assets/js/index.js')}}"></script>
 
 
-
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 
+</div>
 
-<!-- Geo Taged Image download button Script -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const downloadButtons = document.querySelectorAll('.download-btn');
@@ -353,9 +346,6 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
       });
   }
 </script>
-
-</div>
-
 
 </body>
 

@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
     <!-- managemt college css -->
-    <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
+    <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}">
     <!-- Document Title
 	============================================= -->
     <title>TMU | New Website</title>
@@ -135,7 +135,7 @@
                     <ul class="university-nav sw-none"></ul>
 
                     <div class="container mobile-inner-nav d-block d-lg-none">
-                        <div class="row p-0 m-0">
+                       <div class="row p-0 m-0">
                              <div class="col-4 mb-3">
                                 <a href="{{route('tmuhome')}}">Home</a>
                             </div>
@@ -146,7 +146,7 @@
                                 <a href="{{route('iqac.about')}}">IQAC</a>
                             </div>
                             <div class="col-4 mb-3">
-                                <a href="">Blogs</a>
+                                <a  href="{{route('all_blogs')}}">Blogs</a>
                             </div>
                             <div class="col-4 mb-3">
                                 <a href="">Allumni</a>
@@ -193,7 +193,7 @@
                                         <a class="nav-link" href="{{route('iqac.about')}}">IQAC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Blogs</a>
+                                        <a class="nav-link" href="{{route('all_blogs')}}">Blogs</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Allumni</a>

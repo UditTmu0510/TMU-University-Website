@@ -5,46 +5,46 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
-            <a href="{{ route('education.college.highlight') }}" class="custom-menu-item {{ Route::is('education.college.highlight') ? 'active' : '' }}">
+            <a href="{{ route('education.college.highlight') }}" class="custom-menu-item {{ setActive('education.college.highlight') }}">
                 <p>College Highlight</p>
             </a>
-            <a href="{{ route('education.principal') }}" class="custom-menu-item {{ Route::is('education.principal') ? 'active' : '' }}">
-                <p>Dean's Desk</p>
+            <a href="{{ route('education.principal') }}" class="custom-menu-item {{ setActive('education.principal') }}">
+                <p>Principal's Desk</p>
             </a>
-            <a href="{{ route('education.gallery') }}" class="custom-menu-item {{ Route::is('education.gallery') ? 'active' : '' }}">
+            <a href="{{ route('education.gallery') }}" class="custom-menu-item {{ setActive('education.gallery') }}">
                 <p>Gallery</p>
             </a>
         </div>
         <h2>Academics</h2>
         <div class="account-section">
-            <a href="{{ route('education.syllabus') }}" class="custom-menu-item {{ Route::is('education.syllabus') ? 'active' : '' }}">
+            <a href="{{ route('education.syllabus') }}" class="custom-menu-item {{ setActive('education.syllabus') }}">
                 <p>Syllabus</p>
             </a>
-            <a href="{{ route('education.academic.calendar') }}" class="custom-menu-item {{ Route::is('education.academic.calendar') ? 'active' : '' }}">
+            <a href="{{ route('education.academic.calendar') }}" class="custom-menu-item {{ setActive('education.academic.calendar') }}">
                 <p>Academic Calendar</p>
             </a>
         </div>
         <h2>Student Corner</h2>
         <div class="account-section">
-            <a href="{{ route('education.timetable') }}" class="custom-menu-item {{ Route::is('education.timetable') ? 'active' : '' }}">
+            <a href="{{ route('education.timetable') }}" class="custom-menu-item {{ setActive('education.timetable') }}">
                 <p>Time-Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
-            <a href="{{ route('education.anti.ragging') }}" class="custom-menu-item {{ Route::is('education.anti.ragging') ? 'active' : '' }}">
+            <a href="{{ route('education.anti.ragging') }}" class="custom-menu-item {{ setActive('education.anti.ragging') }}">
                 <p>Anti-Ragging Committee</p>
             </a>
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="{{ route('education.guest.lecture') }}" class="custom-menu-item {{ Route::is('education.guest.lecture') ? 'active' : '' }}">
+            <a href="{{ route('education.guest.lecture') }}" class="custom-menu-item {{ setActive('education.guest.lecture') }}">
                 <p>Guest Lecture</p>
             </a>
-            <a href="{{ route('education.contact.us') }}" class="custom-menu-item {{ Route::is('education.contact.us') ? 'active' : '' }}">
+            <a href="{{ route('education.contact.us') }}" class="custom-menu-item {{ setActive('education.contact.us') }}">
                 <p>Contact Us</p>
             </a>
-            <a href="{{ route('education.iqac') }}" class="custom-menu-item {{ Route::is('education.iqac') ? 'active' : '' }}">
+            <a href="{{ route('education.iqac') }}" class="custom-menu-item {{ setActive('education.iqac') }}">
                 <p>College IQAC</p>
             </a>
         </div>

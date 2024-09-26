@@ -104,8 +104,10 @@
                             market.
                         </p>
                     </div>
-                    <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2"
-                        title="Read More">Read More</a>
+                 <div class="text-center">
+    <a href="{{route('crc.about.us')}}" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
+</div>
+
                 </div>
             </div>
         </section>
@@ -127,12 +129,12 @@
                                             <br>MBA (2023 - 2024), <br> Data Engineer at Aventra Group
                                             <br>
                                             <span>
-                                                <a href="https://www.linkedin.com/in/udit-gupta-ug0510/"
+                                                <a href="#"
                                                     class=" px-2 py-1 linkedin-text">Linkedin <i
                                                         class="bi bi-linkedin"></i></a>
                                             </span>
                                         </p>
-                                        <p>For decades I have been trying to enhance my personality but as a doctor I
+                                        <p class="testimonial-content47">For decades I have been trying to enhance my personality but as a doctor I
                                             found it difficult at certain levels to make time to work upon myself. CTLD
                                             (Centre for Teaching Learning &development) programme helped me to overcome
                                             with my weak areas. It helped me to enhance my communication skills, mental
@@ -162,12 +164,12 @@
                                             <br>MCA (2020 - 2022), <br> Quality Analyst at Cloud Analogy
                                             <br>
                                             <span>
-                                                <a href="https://www.linkedin.com/in/udit-gupta-ug0510/"
+                                                <a href="#"
                                                     class=" px-2 py-1 linkedin-text">Linkedin <i
                                                         class="bi bi-linkedin"></i></a>
                                             </span>
                                         </p>
-                                        <p>I would like to thank the CTLD department. With the efforts and dedication of
+                                        <p class="testimonial-content47">I would like to thank the CTLD department. With the efforts and dedication of
                                             the trainers here, I have achieved big success for me today. The confidence
                                             that I have built up today is only because of the wonderful teachers who
                                             have been a part of this journey.After getting training from the CTLD
@@ -205,12 +207,12 @@
                                             <br>BCA (2018 - 2021), <br> Data Engineer at Aventra Group
                                             <br>
                                             <span>
-                                                <a href="https://www.linkedin.com/in/udit-gupta-ug0510/"
+                                                <a href="#"
                                                     class=" px-2 py-1 linkedin-text">Linkedin <i
                                                         class="bi bi-linkedin"></i></a>
                                             </span>
                                         </p>
-                                        <p>Teerthanker Mahaveer University is a place that gave wings to my dreams. At
+                                        <p class="testimonial-content47">Teerthanker Mahaveer University is a place that gave wings to my dreams. At
                                             the very outset I would like to express my heartiest thanks to the CTLD
                                             (Centre for Teaching, Learning and Development) department for polishing and
                                             showcasing my skills during my final year of BCA. It gave me a platform to
@@ -239,7 +241,9 @@
                         </div>
 
                     </div>
+                      <div class="text-center">
                     <a href="{{ route('crc.student.testi') }}" class="tmu-btn btn-1 py-2 mt-4 ms-2 mt-5">View More</a>
+                    </div>
                 </div>
             </div>
 
@@ -275,28 +279,28 @@
         </div>
 
 
-        <section class="crc-highest-package-section">
-            <div class="container-xl tmu-testimonial  mb-3">
+        <!--<section class="crc-highest-package-section">-->
+        <!--    <div class="container-xl tmu-testimonial  mb-3">-->
 
-                <h2 class="tmu-text-primary my-0 pt-2 mb-3"> <span>Star Recruiters</span></h2>
-                <div class="star-logo-carousel owl-carousel">
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/1.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/2.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/3.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/4.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/5.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/6.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/7.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/8.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/9.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/10.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/11.jpg')}}"></div>
-                    <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/12.jpg')}}"></div>
-                </div>
+        <!--        <h2 class="tmu-text-primary my-0 pt-2 mb-3"> <span>Star Recruiters</span></h2>-->
+        <!--        <div class="star-logo-carousel owl-carousel">-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/1.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/2.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/3.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/4.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/5.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/6.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/7.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/8.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/9.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/10.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/11.jpg')}}"></div>-->
+        <!--            <div class="item"><img src="{{asset('assets/img/recruiters/star_recruiters/12.jpg')}}"></div>-->
+        <!--        </div>-->
 
 
-            </div>
-        </section>
+        <!--    </div>-->
+        <!--</section>-->
 
 
 
@@ -305,26 +309,26 @@
 </div>
 
 <script>
-$(document).ready(function() {
-    $('.star-logo-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 2000, // Time between slides (2 seconds)
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 2 // Number of logos on small screens
-            },
-            600: {
-                items: 3 // Number of logos on medium screens
-            },
-            1000: {
-                items: 5 // Number of logos on large screens
-            }
-        }
-    });
-});
+// $(document).ready(function() {
+//     $('.star-logo-carousel').owlCarousel({
+//         loop: true,
+//         margin: 10,
+//         autoplay: true,
+//         autoplayTimeout: 2000, // Time between slides (2 seconds)
+//         autoplayHoverPause: true,
+//         responsive: {
+//             0: {
+//                 items: 2 // Number of logos on small screens
+//             },
+//             600: {
+//                 items: 3 // Number of logos on medium screens
+//             },
+//             1000: {
+//                 items: 5 // Number of logos on large screens
+//             }
+//         }
+//     });
+// });
 </script>
 
 @endsection

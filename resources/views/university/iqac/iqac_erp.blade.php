@@ -54,7 +54,7 @@
                   <li>Miscellaneous Events Notification</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/academic-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_academic_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -76,7 +76,7 @@
                   <li>Principal and HOD Approve and Finalize Detainee List</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/faculty-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_employee_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -97,7 +97,7 @@
                   <li>Mess Attendance</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/hostel-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_hostel_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -116,7 +116,7 @@
                   <li>Tyre & Battery Maintenance</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/transport-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_transport_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -130,7 +130,7 @@
                   <li>Placement Schedule</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/placement-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_placement_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -150,7 +150,7 @@
                   <li>Employee Taxation Planning</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/hr-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_hr_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -166,14 +166,14 @@
                   <li>Tour Claims</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/employee-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_employee_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
               <td>---------</td>
               <td>---------</td>
               <td><b>Security</b></td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/security-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_security_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -194,7 +194,7 @@
                   <li>Fee payment linked to Student Portal</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/fee-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_fee_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -209,7 +209,7 @@
                   <li>Approval for Departments</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/purchase-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_purchase_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -227,7 +227,7 @@
                   <li>Analysis from inquiry till registration</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/admissions-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_admission_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -244,7 +244,7 @@
                   <li>Syllabus</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/student-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_student_module.pdf')}}">View More!</a></td>
             </tr>
 
             <tr>
@@ -274,7 +274,7 @@
                   <li>Result Analysis</li>
                 </ul>
               </td>
-              <td class="text-center"><a href="https://www.tmu.ac.in/tmu/iqac-cell/erp/examination-module">View More!</a></td>
+              <td class="text-center"><a href="{{asset('/assets/pdf/erp_exam_module.pdf')}}">View More!</a></td>
             </tr>
           </tbody>
         </table>
@@ -286,19 +286,19 @@
           <div class="card-pdf">
             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP Policies</p>
-            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_policy.pdf">View
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_policy.pdf')}}">View
               PDF</a>
           </div>
           <div class="card-pdf">
             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP License</p>
-            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_license.pdf">View
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_license.pdf')}}">View
               PDF</a>
           </div>
           <div class="card-pdf">
             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
             <p class="description">ERP Modules</p>
-            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_modules.pdf">View
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/erp_modules.pdf')}}">View
               PDF</a>
           </div>
         </div>

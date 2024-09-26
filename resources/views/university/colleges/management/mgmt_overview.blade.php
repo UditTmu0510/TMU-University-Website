@@ -62,7 +62,7 @@
                         <p class="about-p mb-4 text-justify">Teerthanker Mahaveer Institute of Management and Technology (TMIMT) is the seed that has grown into a big Banyan tree in the form of Teerthanker Mahaveer University. This top management college, established in 2001, has been contributing to the development of management education, by fostering leadership, nurturing entrepreneurial talent and stimulating research since its inception. Join the 21-years legacy of graduates shaping the business landscape, with the assistance of the exceptionally qualified faculties.</p>
                     </div>
                     <div class="image-content text-center p-4">
-                        <img src="{{asset('assets/img/112.jpg')}}" alt="Law about us image">
+                        <img src="{{asset('assets/img/aboutus/tmimt/tmimt_about_us.jpg')}}" alt="Law about us image">
                     </div>
                     <div class="container p-3">
                         <p class="about-p mb-4 text-justify">TMIMT College of Management consists of two departments namely the Department of Management Studies and the Department of Commerce. The departments are led and mentored by a number of experienced academicians with core industry experience. The Training & Placement cell works around the clock to guarantee that students are placed in credible companies at advantageous terms across a variety of industries. Numerous reputable companies have partnered with TMIMT in order to provide the best industry-sponsored courses and lab facilities in recognition of TMIMT’s high ranking as the premier B-School in Uttar Pradesh and North India.</p>

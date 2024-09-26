@@ -26,7 +26,7 @@
 				<strong class="d-block mt-3">TMU with its very famous tag line ensures to bring out the best in 'U' through
 					TMU.</strong>
 			</p>
-			<img src="{{asset('/assets/img/banner_overview/crc/placement-proces.png')}}" class="w-75 d-block mx-auto mb-5" alt="">
+	
 		</div>
 
 	</div>

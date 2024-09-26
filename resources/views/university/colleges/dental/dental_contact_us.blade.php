@@ -48,7 +48,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span>principal.dental@tmu.ac.in</span>
+                                <span>principal.dental@<br>tmu.ac.in</span>
                             </div>
                         </div>
                         <div>

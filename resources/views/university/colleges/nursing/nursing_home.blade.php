@@ -257,212 +257,67 @@
 		</div>
 
 		<!-----Courses section Start-->
-		<section id="content" class="prog-bm">
-			<div class="content-wrap py-0" style="overflow: visible;">
-				<!-- Code for the Desktop view -->
-				<div class="container d-none d-lg-block">
+	<section id="content" class="prog-bm">
+            <div class="content-wrap py-0" style="overflow: visible;">
+                <!-- Code for the Desktop view -->
+                <div class="container d-none d-lg-block">
 
-					<div class="col-xl-12 col-xl-10 text-center">
-						<h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
-							PROGRAMMES<span class="color:##FF7900"> OFFERED</span></h2>
-					</div>
+                    <div class="col-xl-12 col-xl-10 text-center">
+                        <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
+                            PROGRAMMES<span class="color:##FF7900"> OFFERED</span></h2>
+                    </div>
 
-					<div class="row ">
-						<div class="col-md-3">
-							<div class="list-group" id="list-tab" role="tablist">
-								<a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate Programmes
-									&nbsp;<span class="badge rounded-pill">14</span>
-								</a>
-								<a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate Programmes
-									&nbsp;<span class="badge rounded-pill">10</span></a>
-								<a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate Programmes
-									&nbsp;<span class="badge rounded-pill">12</span></a>
-								<!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                   
+                                </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                   </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                  </a>
+                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
-							</div>
-						</div>
-						<div class="col-md-9">
-							<div class="tab-content" id="nav-tabContent">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="tab-content" id="nav-tabContent">
 
-								<!-- Home Tab starts here -->
-								<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <!-- Home Tab starts here -->
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
 
-									<div class="row">
+                                </div>
 
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm ">
-												<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">B.Sc. Nursing</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
+                                <!-- Home Tab  Ends  here -->
 
 
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm">
-												<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/NCAI-program.png" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">B.Sc. Nursing (Post Basic Nursing)
-													</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<!-- Home Tab  Ends  here -->
-
-
-								<!--  Home tab panel 2 Starts Here  --
+                                <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
-								<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-									<div class="row">
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
 
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm">
-												<img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">M.Sc. Nursing (Medical Surgical Nursing)</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm">
-												<img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">M.Sc. Nursing (Paediatric Nursing)</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm">
-												<img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">M.Sc. Nursing (Obstetrics and Gynaecology Nursing)</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm progcard">
-												<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/mit-data-science-machine-learning-program.jpg" height="178px" class="card-img-top" alt="...">
-												<div class="card-body progcardbody">
-
-													<h4 class="mb-2">M.Sc. Nursing (Community Health Nursing)
-													</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-
-										<div class="col-md-4">
-											<!-- Card -->
-											<div class="card shadow-sm">
-												<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px" class="card-img-top" alt="...">
-												<div class="card-body">
-
-													<h4 class="mb-2">M.Sc. Nursing (Psychiatry Nursing)</h4>
-
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-														More</a>
-												</div>
-											</div>
-										</div>
-
-
-									</div>
-
-								</div>
-								<!-- 
+                                </div>
+                                <!-- 
 									/////Home tab 2 Ends Here/////
 								 -->
 
-								<!-- 
+                                <!-- 
 									/////Home tab 3 Starts Here/////
 								 -->
 
-								<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-									<div class="row">
-										<div class="col-md-4">
-											<div class="card shadow-sm">
-												<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px">
-												<div class="card-body progcardbody">
-													<h4 class="mb-2">Phd Nursing
-													</h4>
-												</div>
-												<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-													<div>
-													</div>
-													<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View More</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
+                                </div>
 
-								<!-- 
+                                <!-- 
 									/////Home tab 3 Ends Here/////
 										 -->
 
-								<!-- 
+                                <!-- 
 											/////Home tab 4 Starts Here/////
 								 	-->
-								<!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="card shadow-sm">
@@ -514,218 +369,61 @@
                                     </div>
                                 </div> -->
 
-								<!-- 
+                                <!-- 
 									/////Home tab 4 Ends Here/////
 								 -->
-							</div>
-						</div>
-					</div>
+                            </div>
+                        </div>
+                    </div>
 
-				</div>
+                </div>
 
-				<!-- Code for the Desktop view Ends -->
-
-
-
-
-				<!-- Code for the Mobile View Starts Here -->
-				<div class="container d-block d-lg-none">
+                <!-- Code for the Desktop view Ends -->
 
 
 
 
-
-					<div class="container mb-5 mt-5">
-						<div class="col-xl-12 col-lg-10 text-center">
-							<h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
-								<span>Programmes</span> <span>Offered</span>
-							</h1>
-						</div>
-
-						<button class="careers-accordion"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
-						<div class="panel">
-							<ul class="progul">
-								<li class="progli">
-									<div class="card shadow-sm progcard">
-										<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" class="card-img-top" alt="...">
-										<div class="card-body progcardbody">
-
-											<h5 class="mb-2">B.Sc. Nursing</h5>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-								</li>
-
-
-								<li class="progli">
-
-									<div class="card shadow-sm progcard">
-										<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/NCAI-program.png" class="card-img-top" alt="...">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">B.Sc. Nursing (Post Basic Nursing)
-											</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-
-								</li>
+                <!-- Code for the Mobile View Starts Here -->
+                <div class="container d-block d-lg-none">
 
 
 
-								<!-- <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Btech Computer Science (Cyber Security)</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li> -->
-
-							</ul>
-						</div>
-						<!-- Add the horizontal line here -->
-						<hr class="horizontal-line">
-
-						<button class="careers-accordion"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
-						<div class="panel">
-							<ul class="progul">
-								<li class="progli">
-									<div class="card shadow-sm progcard">
-										<img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVjaGFuaWNhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" height="178px" class="card-img-top" alt="Engineering image ">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">M.Sc. Nursing (Medical Surgical Nursing)</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-								</li>
 
 
-								<li class="progli">
+                    <div class="container mb-5 mt-5">
+                        <div class="col-xl-12 col-lg-10 text-center">
+                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                                <span>Programmes</span> <span>Offered</span>
+                            </h1>
+                        </div>
 
-									<div class="card shadow-sm progcard">
-										<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/program/applications-of-ai-domestic.jpeg" height="178px" class="card-img-top" alt="...">
-										<div class="card-body progcardbody">
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeUG">
+                                
 
-											<h4 class="mb-2">M.Sc. Nursing (Paediatric Nursing)
-											</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
 
-								</li>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmePG">
+                                
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeDoctoral">
+                                
 
-
-
-								<li class="progli">
-
-									<div class="card shadow-sm progcard">
-										<img src="https://e1.pxfuel.com/desktop-wallpaper/775/611/desktop-wallpaper-ece-study-materials-and-projects-ebooks-campus-preparations-ece-engineering-thumbnail.jpg" height="178px">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">M.Sc. Nursing (Obstetrics and Gynaecology Nursing)</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-
-								</li>
-
-								<li class="progli">
-
-									<div class="card shadow-sm progcard">
-										<img src="https://e1.pxfuel.com/desktop-wallpaper/775/611/desktop-wallpaper-ece-study-materials-and-projects-ebooks-campus-preparations-ece-engineering-thumbnail.jpg" height="178px">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">M.Sc. Nursing (Community Health Nursing)</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-
-								</li>
-								<li class="progli">
-
-									<div class="card shadow-sm progcard">
-										<img src="https://e1.pxfuel.com/desktop-wallpaper/775/611/desktop-wallpaper-ece-study-materials-and-projects-ebooks-campus-preparations-ece-engineering-thumbnail.jpg" height="178px">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">M.Sc. Nursing (Psychiatry Nursing)</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-
-								</li>
-							</ul>
-						</div>
-						<!-- Add the horizontal line here -->
-						<hr class="horizontal-line">
-						<button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate Programmes</span> <span class="icon">+</span></button>
-						<div class="panel">
-							<ul class="progul">
-								<li class="progli">
-									<div class="card shadow-sm progcard">
-										<img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" height="178px" class="card-img-top" alt="Management  image ">
-										<div class="card-body progcardbody">
-
-											<h4 class="mb-2">Phd Nursing</h4>
-										</div>
-										<div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-											<div>
-											</div>
-											<a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-												More</a>
-										</div>
-									</div>
-								</li>
-
-							</ul>
-						</div>
-						<!-- Add the horizontal line here -->
-						<!-- <hr class="horizontal-line">
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">
                             <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law</span> <span class="icon">+</span></button>
                         <div class="panel">
@@ -787,121 +485,89 @@
 
                             </ul>
                         </div> -->
-						<!-- Below code is sample if you need to add new column -->
-						<!-- <hr class="horizontal-line">
+                        <!-- Below code is sample if you need to add new column -->
+                        <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">Are there opportunities for international students to study at the college?<span class="icon">+</span></button>
                         <div class="panel">
                             <p>Yes, the College welcomes applications from international students and offers various programmes and services to support their academic and personal success. International students are encouraged to reach out to the college's admissions office for more information on the application process and available resources.</p>
                         </div> -->
-						<!-- Add the horizontal line here -->
-						<hr class="horizontal-line">
-					</div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                    </div>
 
 
 
-					<!-- Code for the Mobile View Ends Here -->
+                    <!-- Code for the Mobile View Ends Here -->
 
-				</div>
-		</section>
+                </div>
+        </section>
 		<!-----Courses section completed-->
 
 
+	<section>
+        <div class="container-fluid mt-5 ">
+            <h2 class="tmu-text-primary text-center">
+                <span>Our </span><span> Recruiters</span>
+            </h2>
+            <div class="marquee my-5 py-5 pt-4">
+                
+            
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+            </div>
+        </div>
+    </section>
 
-		</style>
+	
+ <section>
+            <div class="container-xl tmu-testimonial mt-5 mb-3">
 
-		<section>
-			<div class="container-xl tmu-testimonial mt-5 mb-3">
+                <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
 
-				<h2 class="tmu-text-primary my-0 mb-3"> <span>Students </span> <span>Testimonial</span></h2>
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
-				<div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
-					<div class="oc-item text-start">
-						<div class="media ">
-							<img src="https://www.tmu.ac.in/uploads/testimonial/Nidhi.jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Nidhi Choudhary</b>, B.Sc. Nursing</p>
-									<p>My time at TMU has been truly wonderful. It&#39;s been 5 incredible years since I joined Teerthaker Mahaveer College of Nursing, and the experience has been life-changing. I&#39;ve learned so much, not just academically but in every aspect of my career growth. The faculty members have been like support pillars, always motivating and guiding me. I&#39;m proud to be a part of the TMU family.
-									</p>
-								</div>
-							</div>
-							<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+                            <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
 
-						</div>
-					</div>
+                </div>
 
-					<div class="oc-item text-start">
-						<div class="media">
-							<img src="https://www.tmu.ac.in/uploads/testimonial/akansha_upadhyay_(1).jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Akansha Upadhyay</b>, B.Sc. Nursing</p>
-									<p>I've been part of TMU since 2021 when I started my journey as a nursing student. I joined for my BSc Nursing where I learned a lot about different subjects. The best part was the hands-on training at TMU Hospital, where I spent 6 months in clinical areas. I even got to do BLS Training, which was a great experience. TMU's focus on practical training really helped me become a better nurse.</p>
-								</div>
-								<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="media">
-							<img src="https://www.tmu.ac.in/uploads/testimonial/Nishika_sharma.jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Nishika Sharma</b>, B.Sc. Nursing</p>
-									<p>Being a third-year student at TMU’s Nursing College, I&#39;m learning so much about nursing, and the lecturers are really supportive. We get to practice what we learn in real hospitals, which is super cool. I feel like I&#39;m on the right path to becoming a great nurse, and I&#39;m proud to be a part of TMU’s Nursing College.
-									</p>
-								</div>
-								<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="media">
-							<img src="https://www.tmu.ac.in/uploads/alumni_speak/Cindrella_Burge1.jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Cindrella Burge</b>, M.Sc. Nursing (Psychiatry Nursing)</p>
-									<p>If nursing is your professional choice I will recommend you to be a part of this institute. TMU owns a super specialty hospital where nursing professionals explore experiential learning through practical exposure to patients according to the specialty. The mentors and faculty members are understanding and helpful making the students be free and explore more in their specialties. </p>
-								</div>
-								<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="oc-item text-start">
-						<div class="media">
-							<img src="https://www.tmu.ac.in/uploads/alumni_speak/Bhawna_Upadhyay.jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Bhawna Upadhyay</b>, M.Sc. Nursing (Psychiatry Nursing)</p>
-									<p>As a Masters pursuing student I am so glad that I am a part of TMU's Nursing College (TMCON) where I am getting a lot of clinical exposure as TMU hospital has a comprehensive unit inside its premises. Adding on, the college arranges academic meets with prominent industry experts, orientation sessions, cultural sports and what not to ensure the overall development of the student. My time here has been a ride of growth as a professional and fun as a student.
-									</p>
-								</div>
-								<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-					<div class="oc-item text-start">
-						<div class="media">
-							<img src="https://www.tmu.ac.in/uploads/alumni_speak/Shagufta_Naaz.jpg" class="mr-3" alt="">
-							<div class="media-body">
-								<div class="testimonial">
-									<p class="overview mb-3"><b>Shagufta Naaz</b>, Post Basic B.Sc. Nursing</p>
-									<p>My first year here at TMU Campus and it's Nursing College (TMCON) has been thrilling & memorable. The college provides a uniquely positive environment for the students to grow in all spheres and make us understand the beauty of our profession. The compassion that our profession needs is what the university inherits and extends to all the professions of the university. I love my college and find it a great place to pursue nursing studies.</p>
-								</div>
-								<button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section>
-
+            </div>
+     
 		<!-- Testimonial Modal -->
 		<div id="testimonialModal" class="tmu-modal">
 			<div class="overlay" onclick="closeTestimonialModal()"></div>
@@ -1049,4 +715,121 @@
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 4,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 4,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 @endsection

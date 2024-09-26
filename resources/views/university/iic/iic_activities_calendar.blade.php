@@ -17,13 +17,13 @@
                             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                             <p class="description">IIC Calendar Activities for Academic Year 2022-23</p>
                             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                href="{{asset('assets/pdf/iic_calendars/iic_activity_calendar_2022-23.pdf')}}">View PDF</a>
+                                href="https://www.tmu.ac.in/pdf/iic_calendars/iic_activity_calendar_2022-23.pdf">View PDF</a>
                         </div>
                         <div class="card-pdf">
                             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                             <p class="description">IIC Calendar Activities for Academic Year 2021-22</p>
                             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                href="{{asset('assets/pdf/iic_calendars/iic_activity_calendar_2021-22.pdf')}}">View PDF</a>
+                                href="https://www.tmu.ac.in/pdf/iic_calendars/iic_activity_calendar_2021-22.pdf">View PDF</a>
                         </div>
                     </div>
                 </div>

@@ -205,8 +205,8 @@
             </div>
         </div>
 
-        <!-----Courses section Start-->
-        <section id="content" class="prog-bm">
+        <!----- Start-->
+         <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
                 <div class="container d-none d-lg-block">
@@ -215,139 +215,27 @@
                         <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
                             PROGRAMMES<span class="color:##FF7900"> OFFERED</span></h2>
                     </div>
+
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active"
-                                    id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab"
-                                    aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                    &nbsp;<span class="badge rounded-pill">04</span>
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                    
                                 </a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2"
-                                    id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab"
-                                    aria-controls="list-profile"><i
-                                        class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;postgraduate
-                                    &nbsp;<span class="badge rounded-pill">25</span></a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                  </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                   </a>
+                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
+                                    &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="tab-content" id="nav-tabContent">
 
                                 <!-- Home Tab starts here -->
-                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                                    aria-labelledby="list-home-list">
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
 
-                                    <div class="row">
-
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm">
-                                                <img src="assets/img/programme_stock_img/medical/26.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h5 class="mb-0 text-center">B.Com. (Fintech & Blockchain Technologies with whizack
-                                                Technologies)</h5>
-                                                </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm">
-                                                <img src="assets/img/programme_stock_img/medical/26.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h5 class="mb-0 text-center">B.Sc. Medical Anatomy (From Session
-                                                        2023-24
-                                                        Onwards)</h5>
-                                                </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm">
-                                                <img src="assets/img/programme_stock_img/medical/27.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h5 class="mb-0 text-center">B.Sc. Medical Biochemistry (From
-                                                        Session 2023-24
-                                                        Onwards)</h5>
-                                                </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm progcard">
-                                                <img src="assets/img/programme_stock_img/medical/28.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h5 class="mb-0 text-center">B.SC. Medical Physiology (From Session
-                                                        2023-24
-                                                        Onwards)</h5>
-                                                </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm progcard">
-                                                <img src="assets/img/programme_stock_img/medical/28.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h5 class="mb-0 text-center">B.SC. Medical Physiology (From Session
-                                                        2023-24
-                                                        Onwards)</h5>
-                                                </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
                                 </div>
 
                                 <!-- Home Tab  Ends  here -->
@@ -355,366 +243,302 @@
 
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
-                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                                    aria-labelledby="list-profile-list">
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
+
+                                </div>
+                                <!-- 
+									/////Home tab 2 Ends Here/////
+								 -->
+
+                                <!-- 
+									/////Home tab 3 Starts Here/////
+								 -->
+
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
+                                </div>
+
+                                <!-- 
+									/////Home tab 3 Ends Here/////
+										 -->
+
+                                <!-- 
+											/////Home tab 4 Starts Here/////
+								 	-->
+                                <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                                     <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card shadow-sm">
+                                                <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="Law image ">
+                                                <div class="card-body progcardbody">
 
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm">
-                                                <img src="assets/img/programme_stock_img/medical/27.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h5 class="mb-0 text-center">B.Sc. Medical Biochemistry (From
-                                                        Session 2023-24
-                                                        Onwards)</h5>
+                                                    <h4 class="mb-2">BA - LLB (Hons.)</h4>
                                                 </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                                     <div>
                                                     </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
+                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                                         More</a>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm progcard">
-                                                <img src="assets/img/programme_stock_img/medical/28.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
+                                        <div class="col-md-4">
+                                            <div class="card shadow-sm progcard">
+                                                <img src="https://thumbs.dreamstime.com/b/compliance-rules-law-regulation-policy-business-technology-concept-compliance-rules-law-regulation-policy-business-technology-112471593.jpg?w=768" height="178px" class="card-img-top" alt="...">
                                                 <div class="card-body progcardbody">
 
-                                                    <h5 class="mb-0 text-center">B.SC. Medical Physiology (From Session
-                                                        2023-24
-                                                        Onwards)</h5>
+                                                    <h4 class="mb-2">BBA - LLB (Hons.)</h4>
                                                 </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                                     <div>
                                                     </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
+                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                                         More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 mb-2">
-                                            <!-- Card -->
-                                            <div class="card card-sz shadow-sm progcard">
-                                                <img src="assets/img/programme_stock_img/medical/28.jpg" height="178px"
-                                                    class="card-img-top" alt="...">
+
+                                        <div class="col-md-4">
+                                            <div class="card shadow-sm">
+                                                <img src="https://img.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9097.jpg?size=626&ext=jpg&ga=GA1.2.718553843.1681214208&semt=ais" height="178px">
                                                 <div class="card-body progcardbody">
 
-                                                    <h5 class="mb-0 text-center">B.SC. Medical Physiology (From Session
-                                                        2023-24
-                                                        Onwards)</h5>
+                                                    <h4 class="mb-2">LLM</h4>
                                                 </div>
-                                                <div
-                                                    class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                                                     <div>
                                                     </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2"
-                                                        style="font-size:12px">View
+                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                                                         More</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
+                                <!-- 
+									/////Home tab 4 Ends Here/////
+								 -->
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-            </div>
-
-            <!-- Code for the Desktop view Ends -->
+                <!-- Code for the Desktop view Ends -->
 
 
 
 
-            <!-- Code for the Mobile View Starts Here -->
-            <div class="container d-block d-lg-none">
-                <div class="container mb-5 mt-5">
-                    <div class="col-xl-12 col-lg-10 text-center">
-                        <h1 class="h1 fw-bold tmu-text-primary text-uppercase"
-                            style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
-                            <span>Programmes</span> <span>Offered</span>
-                        </h1>
+                <!-- Code for the Mobile View Starts Here -->
+                <div class="container d-block d-lg-none">
+
+
+
+
+
+                    <div class="container mb-5 mt-5">
+                        <div class="col-xl-12 col-lg-10 text-center">
+                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                                <span>Programmes</span> <span>Offered</span>
+                            </h1>
+                        </div>
+
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeUG">
+                                
+
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmePG">
+                                
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeDoctoral">
+                                
+
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <!-- <hr class="horizontal-line">
+                        <button class="careers-accordion">
+                            <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul">
+                                <li class="progli">
+                                    <div class="card shadow-sm progcard">
+                                        <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="Law image ">
+                                        <div class="card-body progcardbody">
+
+                                            <h4 class="mb-2">BA - LLB (Hons.)</h4>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="progli">
+
+                                    <div class="card shadow-sm progcard">
+                                        <img src="https://thumbs.dreamstime.com/b/compliance-rules-law-regulation-policy-business-technology-concept-compliance-rules-law-regulation-policy-business-technology-112471593.jpg?w=768" height="178px" class="card-img-top" alt="...">
+                                        <div class="card-body progcardbody">
+
+                                            <h4 class="mb-2">BBA - LLB (Hons.)</h4>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+
+                                <li class="progli">
+
+                                    <div class="card shadow-sm progcard">
+                                        <img src="https://img.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9097.jpg?size=626&ext=jpg&ga=GA1.2.718553843.1681214208&semt=ais" height="178px">
+                                        <div class="card-body progcardbody">
+
+                                            <h4 class="mb-2">LLM</h4>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+                        </div> -->
+                        <!-- Below code is sample if you need to add new column -->
+                        <!-- <hr class="horizontal-line">
+                        <button class="careers-accordion">Are there opportunities for international students to study at the college?<span class="icon">+</span></button>
+                        <div class="panel">
+                            <p>Yes, the College welcomes applications from international students and offers various programmes and services to support their academic and personal success. International students are encouraged to reach out to the college's admissions office for more information on the application process and available resources.</p>
+                        </div> -->
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
                     </div>
 
-                    <button class="careers-accordion"><span> <i
-                                class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate </span> <span class="icon">+</span></button>
-                    <div class="panel">
-                        <ul class="progul">
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/9.jpg" class="card-img-top"
-                                        alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Sc. (Mathematics Honors)</h5>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/34.jpg" class="card-img-top"
-                                        alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-ME-Mechatronics (In collaboration with
-                                            TCS iON)</h5>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/13.jpg" class="card-img-top"
-                                        alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Computer & Comm. Engg.(CCE)</h5>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/5.jpg" class="card-img-top"
-                                        alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Electrical Engineering (EE)</h5>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Add the horizontal line here -->
-                    <hr class="horizontal-line">
-
-                    <button class="careers-accordion"><span><i
-                                class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate
-                            Programmes</span> <span class="icon">+</span></button>
-                    <div class="panel">
-                        <ul class="progul">
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/19.jpg" height="178px"
-                                        class="card-img-top" alt="Engineering image ">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Sc. (Mathematics)</h4>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/3.jpg" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Electrical Power & Energy System.</h4>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="assets/img/programme_stock_img/medical/5.jpg" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Structural And Construction Engineering.</h4>
-                                    </div>
-                                    <div
-                                        class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
 
 
-                        </ul>
-                    </div>
-                    <hr class="horizontal-line">
+                    <!-- Code for the Mobile View Ends Here -->
+
                 </div>
-
-
-
-                <!-- Code for the Mobile View Ends Here -->
-
-            </div>
         </section>
         <!-----Courses section completed-->
 
-        </style>
-
-        <section>
-            <div class="container-xl tmu-testimonial mt-5 mb-3">
-
-                <h2 class="tmu-text-primary my-0 mb-3"> <span>Students </span> <span>Testimonial</span></h2>
-
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/1.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Chetan Sharma</b>, Pharm.D.	</p>
-                                    <p>Teerthanker Mahaveer University has proven to be the perfect choice for me to follow my passion for pharmacy. The faculty and staff at the university have been pillars of support throughout my academic journey. The Drug Information Center provided me with an immersive learning experience. So here’s to Teerthanker Mahaveer University, a place of learning and abundant opportunities.
-                                    </p>
-                                </div>
-                            </div>
-                            <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-
-                        </div>
+	<section>
+        <div class="container-fluid mt-5 ">
+            <h2 class="tmu-text-primary text-center">
+                <span>Our </span><span> Recruiters</span>
+            </h2>
+            <div class="marquee my-5 py-5 pt-4">
+                
+            
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
                     </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/2.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Vaibhav Dangwal</b>,  B.Sc. B.Pharm. </p>
-                                    <p>Teerthanker Mahaveer College of Pharmacy stands as the epitome of quality education. The state-of-the-art infrastructure combined with the extremely qualified faculty and management serves as a breeding ground for talented youths to excel in the field of pharmacy and promote the holistic development of scholars. I feel privileged to be a part of this esteemed institution and wholeheartedly recommend TMU as the perfect place to embark on your journey of professional and personal growth.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
+                   @endforeach
+                </section>
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
                     </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Aqsa_Shoab.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Aqsa Shoaib</b>,  B.Pharm. </p>
-                                    <p>I extend my heartfelt gratitude to my alma matter TMU for providing me the knowledge, good purpose and absolute guidance through my educational journey. I am indebted to my parents for enrolling me here & to my teachers, and my university that has carved a good professional out of me.
-                                    </p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Priya_Jain.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Priya Jain</b>, B.Pharm.</p>
-                                    <p>TMCOP - a beautiful campus with competent, eminent, & scholarly faculty and state-of-the-art infrastructure, & great placement assistance that's what Teerthanker Mahaveer College of Pharmacy is! </p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Konain_Iqbal.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Konain Iqbal</b>, B.Pharm.</p>
-                                    <p>I owe my deepest sense of gratitude to TMU for making me achieve this milestone. When I feel blessed about my achievement, my mind automatically takes me to my beneficiaries that have enabled me to outshine in my career.
-                                    </p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Jubair.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Mohd. Jubair </b>,  B.Pharm.</p>
-                                    <p>Thank you TMU & College of Pharmacy for the immense efforts, the management and staff puts in for us students, a huge heart felt thank you to you all. All the practice at laboratories, exercise at the indoor stadium and theory classes at the classrooms have grown me and made me an active and fit person. I am happy that with careful guidance I have achieved my dream into reality and all thanks to TMCOP.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonial Modal -->
-        <div id="testimonialModal" class="tmu-modal">
-            <div class="overlay" onclick="closeTestimonialModal()"></div>
-            <div class="tmu-modal-box">
-                <div class="close-btn" onclick="closeTestimonialModal()">x</div>
-                <div class="tmu-testimonial bg-light">
-                    <div class="media">
-                        <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/abdul_india_mart_mba.webp" class="mr-3" alt="">
-                        <div class="media-body">
-                            <div class="testimonial">
-                                <p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA</p>
-                                <p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
-                                    were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
-                                    environment where theories met practical challenges. It's a journey where I honed the
-                                    skills that set me apart in the dynamic landscape of business and management.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                   @endforeach
+                </section>
             </div>
         </div>
-</section><!-- #content end -->
+    </section>
+
+   <section>
+            <div class="container-xl tmu-testimonial mt-5 mb-3">
+
+                <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
+
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
+
+
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+                             <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
+
+                </div>
+
+            </div>
+     
+		<!-- Testimonial Modal -->
+		<div id="testimonialModal" class="tmu-modal">
+			<div class="overlay" onclick="closeTestimonialModal()"></div>
+			<div class="tmu-modal-box">
+				<div class="close-btn" onclick="closeTestimonialModal()">x</div>
+				<div class="tmu-testimonial bg-light">
+					<div class="media">
+						<img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/abdul_india_mart_mba.webp" class="mr-3" alt="">
+						<div class="media-body">
+							<div class="testimonial">
+								<p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA</p>
+								<p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
+									were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
+									environment where theories met practical challenges. It's a journey where I honed the
+									skills that set me apart in the dynamic landscape of business and management.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <div class="container mb-5 mt-5">
@@ -841,4 +665,121 @@
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 5,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 5,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 @endsection

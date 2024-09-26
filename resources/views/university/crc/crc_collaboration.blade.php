@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/oracle.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/oracle.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Workforce Development Program</span></h3>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3" height="250px!important">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/ccna.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/ccna.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Networking Fundamentals</span></h3>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3" height="250px!important">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/redhat.png')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/redhat.png')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> System Administration - I </span></h3>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/net.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/net.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Visual Studio <br> 2010</span></h3>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/ilfs.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/ilfs.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> CNC Technology</span></h3>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/cadd.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/cadd.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Training in Auto CAD</span></h3>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/oracle.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/oracle.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Workforce Development Program</span></h3>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/ccna.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/ccna.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Networking Fundamentals</span></h3>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/redhat.png')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/redhat.png')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> System Administration - I </span></h3>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/prolific.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/prolific.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Training in ABB</span></h3>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/java.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/java.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Core Java</span></h3>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/onskill.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/onskill.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Solar PV Design</span></h3>
@@ -185,7 +185,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/inurture.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/inurture.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0 "><span> Training on Cloud Computing</span></h3>
@@ -198,7 +198,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/safeducate.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/safeducate.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span>2 year MBA in Supply Chain Management</span></h3>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/department/crc/collaboration/qai.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/collaboration/crc/qai.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <hr>
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Certified Professional in Software Testing</span></h3>

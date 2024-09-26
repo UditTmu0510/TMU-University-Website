@@ -17,7 +17,7 @@
                                 <tbody>
                                     <tr>
                                         <td class="text-center">1.</td>
-                                        <td>Prof. Raghuvir Singh, Vice Chancellor</td>
+                                        <td>Prof. V.K Jain, Vice Chancellor</td>
                                         <td>Chairperson</td>
                                     </tr>
                                     <tr>

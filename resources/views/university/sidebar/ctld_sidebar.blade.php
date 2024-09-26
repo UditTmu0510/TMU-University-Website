@@ -5,43 +5,43 @@
     <div class="custom-menu-section">
         <h2>About Department</h2>
         <div class="account-section">
-            <a href="{{ route('ctld.home') }}" class="custom-menu-item {{ Route::is('ctld.home') ? 'active' : '' }}">
+                                <a href="{{ route('ctld.home') }}" class="custom-menu-item {{ setActive('ctld.home') }}">
                 <p>Home</p>
             </a>
-            <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ Route::is('ctld.about') ? 'active' : '' }}">
+            <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ setActive('ctld.about') }}">
                 <p>Overview</p>
             </a>
-            <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ Route::is('ctld.aims.and.objectives') ? 'active' : '' }}">
+            <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ setActive('ctld.aims.and.objectives') }}">
                 <p>Aims & Objective</p>
             </a>
-            <a href="{{ route('ctld.director.desk') }}" class="custom-menu-item {{ Route::is('ctld.director.desk') ? 'active' : '' }}">
+            <a href="{{ route('ctld.director.desk') }}" class="custom-menu-item {{ setActive('ctld.director.desk') }}">
                 <p>Director's Desk</p>
             </a>
-            <a href="{{ route('ctld.team') }}" class="custom-menu-item {{ Route::is('ctld.team') ? 'active' : '' }}">
+            <a href="{{ route('ctld.team') }}" class="custom-menu-item {{ setActive('ctld.team') }}">
                 <p>Our Team</p>
             </a>
         </div>
         <h2>Testimonials</h2>
         <div class="account-section">
-            <a href="{{ route('ctld.students.testimonials') }}" class="custom-menu-item {{ Route::is('ctld.students.testimonials') ? 'active' : '' }}">
+            <a href="{{ route('ctld.students.testimonials') }}" class="custom-menu-item {{ setActive('ctld.students.testimonials') }}">
                 <p>Student's Testimonial</p>
             </a>
         </div>
         <h2>Happenings Hub</h2>
         <div class="account-section">
-            <a href="{{ route('ctld.magazine') }}" class="custom-menu-item {{ Route::is('ctld.magazine') ? 'active' : '' }}">
+            <a href="{{ route('ctld.magazine') }}" class="custom-menu-item {{ setActive('ctld.magazine') }}">
                 <p>Magazine</p>
             </a>
             <a href="{{asset('assets/pdf/CTLD_brochure/ctld-brochure.pdf')}}" class="custom-menu-item">
                 <p>Brochure</p>
             </a>
-            <a href="{{ route('ctld.events') }}" class="custom-menu-item {{ Route::is('ctld.events') ? 'active' : '' }}">
+            <a href="{{ route('ctld.events') }}" class="custom-menu-item {{ setActive('ctld.events') }}">
                 <p>Events</p>
             </a>
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="#" class="custom-menu-item {{ Route::is('contact.us') ? 'active' : '' }}">
+            <a href="#" class="custom-menu-item {{ setActive('contact.us') }}">
                 <p>Contact Us</p>
             </a>
         </div>

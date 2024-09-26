@@ -14,39 +14,39 @@
 					============================================= -->
       <div class="row mt-2 text-center g-5 mb-3 m-0 p-0">
         <div class="section-contact col-lg-4 col-md-6">
-          <div class="rounded-6">
+          <div class=" rounded-6 p-3 shadow">
             <i class="i-plain i-large mx-auto mb-4 icon-featured fa fa-keyboard-o"></i>
             <h3 class="mb-2" style="font-size:16px; font-family:'poppins';">APPLY ONLINE</h3>
             <span class="mb-4">Apply Online, Upload Documents, Pay Online</span><br>
-            <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4">
+            <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4 d-block">
              <span>Apply Online</span></a>
           </div>
         </div>
 
         <div class="section-contact col-lg-4 col-md-6">
-          <div class=" rounded-6">
+          <div class=" rounded-6 p-3 shadow">
             <i class="i-plain i-large mx-auto mb-4 uil-download-alt"></i>
             <h3 class="mb-2" style="font-size:16px; font-family:'poppins';">Download Form</h3>
-            <span class="mb-4">Download Application Form for offline submission</span><br><br>
-            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4"> <span>Download Form</span></a>
+            <span class="mb-4">Download Application Form for offline submission</span><br>
+            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4 d-block"> <span>Download Form</span></a>
           </div>
         </div>
 
         <div class="section-contact col-lg-4 col-md-6">
-          <div class=" rounded-6">
+          <div class=" rounded-6 p-3 shadow">
             <i class="i-plain i-large mx-auto mb-4 icon-featured fa fa-inr"></i>
             <h3 class="mb-2" style="font-size:16px; font-family:'poppins';">BUY APPLICATION PACK</h3>
             <span class="mb-4">Buy application pack from Campus/Information Centers</span><br>
-            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4"> <span>BUY APPLICATION PACK</span></a>
+            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4 d-block"> <span>BUY APPLICATION PACK</span></a>
           </div>
         </div>
 
         <div class="section-contact col-lg-4 col-md-6">
-          <div class=" rounded-6">
+          <div class=" rounded-6 p-3 shadow">
             <i class="i-plain i-large mx-auto mb-4 fa fa-undo"></i>
             <h3 class="mb-5" style="font-size:16px; font-family:'poppins';">Application Form Fee Refund Policy</h3>
             <br>
-            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4"> <span>Refund Policy</span></a>
+            <a href="#" class="tmu-btn btn-1 py-2 mt-4 mb-4 ms-2 mt-4 d-block"> <span>Refund Policy</span></a>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary custom-btn" style="background-color:#FF7900;"
                     data-bs-dismiss="modal">Close</button>
-                  <a href="{{asset('/assets/pdf/research/phd_application_form.pdf"><button type="button"
+                  <a href="https://www.tmu.ac.in/pdf/research/phd_application_form.pdf"><button type="button"
                       class="btn btn-secondary custom-btn"Get it <i
                         class="uil-download-alt"></i></button></a>
                 </div>

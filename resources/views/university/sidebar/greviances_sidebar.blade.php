@@ -5,37 +5,34 @@
     <div class="custom-menu-section">
         <h2>Grievances Cell</h2>
         <div class="account-section">
-            <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ Route::is('greviances.about') ? 'active' : '' }}">
+            <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ setActive('greviances.about') }}">
                 <p>About Cell</p>
             </a>
-            <a href="{{ route('greviance.submit.suggestion') }}" class="custom-menu-item {{ Route::is('greviance.submit.suggestion') ? 'active' : '' }}">
+            <a href="{{ route('greviance.submit.suggestion') }}" class="custom-menu-item {{ setActive('greviance.submit.suggestion') }}">
                 <p>Submit Suggestion/Grievance</p>
             </a>
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ Route::is('greviances.about') ? 'active' : '' }}">
-                <p>Grievance Portal</p>
-            </a>
-            <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ Route::is('disciplinary.rules') ? 'active' : '' }}">
+            <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ setActive('disciplinary.rules') }}">
                 <p>Disciplinary Rules</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/TMU_Admission_Policy_&_Refund_Policy_2024.pdf')}}" class="custom-menu-item">
                 <p>Admission Refund Policy</p>
             </a>
-            <a href="{{ route('university.anti.ragging.committee') }}" class="custom-menu-item {{ Route::is('university.anti.ragging.committee') ? 'active' : '' }}">
+            <a href="{{ route('university.anti.ragging.committee') }}" class="custom-menu-item {{ setActive('university.anti.ragging.committee') }}">
                 <p>Anti Ragging Committee</p>
             </a>
-            <a href="{{ route('university.academic.calendar') }}" class="custom-menu-item {{ Route::is('university.academic.calendar') ? 'active' : '' }}">
+            <a href="{{ route('university.academic.calendar') }}" class="custom-menu-item {{ setActive('university.academic.calendar') }}">
                 <p>University Academic Calendar</p>
             </a>
-            <a href="{{ route('nss.about') }}" class="custom-menu-item {{ Route::is('nss.about') ? 'active' : '' }}">
+            <a href="{{ route('nss.about') }}" class="custom-menu-item {{ setActive('nss.about') }}">
                 <p>NSS Unit</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/anti_ragging_policy/anti-ragging-policy.pdf')}}" class="custom-menu-item">
                 <p>Anti Ragging Policy</p>
             </a>
-            <a href="{{ route('university.sports.calendar') }}" class="custom-menu-item {{ Route::is('university.sports.calendar') ? 'active' : '' }}">
+            <a href="{{ route('university.sports.calendar') }}" class="custom-menu-item {{ setActive('university.sports.calendar') }}">
                 <p>University Sports Calendar</p>
             </a>
         </div>

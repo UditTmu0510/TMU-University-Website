@@ -1,7 +1,13 @@
 @extends('layouts.university.departments.institutional_values_with_sidebar')
 @section('content')
 
-
+<style>
+    @media screen and (min-width: 1000px) {
+        .container {
+            max-width: 75vw !important;
+        }
+    }
+</style>
 
 
 <div class="main-content">

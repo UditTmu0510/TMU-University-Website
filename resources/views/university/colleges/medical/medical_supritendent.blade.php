@@ -1,38 +1,54 @@
 @extends('layouts.university.colleges.medical_with_sidebar')
 @section('content')
 
+
+
+<style>
+    @media (max-width: 767.98px) {
+        .quote-box {
+            width: 100%;
+            background-color: transparent;
+            box-shadow: none;
+            padding: 0;
+        }
+    }
+</style>
+
 <div class="main-content">
     <div class="container">
         <div class="row">
+            
+
+            <div class="mb-4">
             <h1 class="tmu-text-primary tmu-page-heading"><span>From the Desk </span><span> of Medical
                     Superintendent </span></h1>
-
-            <div class="col-lg-4 text-center img-container mb-3">
-                <img src="{{asset('/assets/img/principal/medical/superintendent_medical.jpg')}}" alt="Vishvanayakji"
-                    height="400" width="400">
-            </div>
-            <div class="col-lg-8">
-                <p class="mb-3">I feel a sense of great pride and accomplishment in holding the onerous office of
+            <div class="quote-box mx-auto">
+                <div class="profile-image mb-2">
+                    <img src="{{asset('/assets/img/principal/medical/superintendent_medical.jpg')}}" alt="Profile Image">
+                </div>
+                <div class="quote-text mt-4 mt-md-0">
+                <p class="text-justify text-dark fs-14 mb-2">I feel a sense of great pride and accomplishment in holding the onerous office of
                     the Medical Superintendent of Teerthanker Mahaveer Medical College & Research Centre.</p>
-                <p class="mb-3">Our hospital was established in the year 2008 with just 520 beds which have expanded
+                <p class="text-justify text-dark fs-14 mb-2">Our hospital was established in the year 2008 with just 520 beds which have expanded
                     to one thousand today. Progressing at a phenomenal pace, we boast of ultramodern, Modular
                     Operation Theatres, Intensive Care Units, Private and General Wards besides other conveniences.
                     We claim to have the best in line MRI, C.T. D.S.A., Mammography machines and offer the facility
                     of a wide range of pathological investigations and a highly equipped Blood Bank.</p>
-                <p class="mb-3">The true gauge of our progress is the numbers of satisfied patients visiting our
+                <p class="text-justify text-dark fs-14 mb-2">The true gauge of our progress is the numbers of satisfied patients visiting our
                     hospital. Our team of dedicated and competent doctors treat up to 2000 patients in the O.P.D.
                     everyday with an I.P.D. occupancy of 500 to 700 patients and 30-40 operations are performed
                     daily.</p>
-                <p class="mb-3">It would not be an exaggeration to proclaim that all specialized and super-specialty
+                <p class="text-justify text-dark fs-14 mb-2">It would not be an exaggeration to proclaim that all specialized and super-specialty
                     services being provided are of very high quality at a very reasonable cost. We have never
                     wavered from our mission of providing excellent health care at affordable prices to the ailing
                     humanity and God willing, we shall collectively work to take this hospital to greater heights.
                 </p>
-                <p class="mb-3 fw-bold">Jai Hind!!</p>
-                <div class="person-details ps-0">Dr. Vishvanayak<br>
-                    <span> Superintendent</span>
+                    <p class="text-justify text-dark fs-14 mb-2"> <b>Jai Hind!!</b></p>
+                    <p class="mt-3">- Dr. Vishvanayak </p>
+                    <p>Superintendent</p>
                 </div>
             </div>
+        </div>
             <div class="col-lg-12 col-sm-12">
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
@@ -76,11 +92,7 @@
                             <tr>
                                 <td class="fw-bold">Academic Qualification</td>
                                 <td>:</td>
-                                <td style="text-align:left">
-                                    <ul class="m-ol-list ps-3 fs-14">
-                                        <li>M.D. (Medicine), S. N. Medical College, Agra University, Agra (U.P)</li>
-                                    </ul>
-                                </td>
+                                <td style="text-align:left">M.D. (Medicine), S. N. Medical College, Agra University, Agra (U.P)</td>
                             </tr>
                         </tbody>
                     </table>

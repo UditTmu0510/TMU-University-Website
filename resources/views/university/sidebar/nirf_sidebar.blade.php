@@ -5,7 +5,10 @@
     <div class="custom-menu-section">
         <h2>NIRF 2024</h2>
         <div class="account-section">
-             <a href="#overall" class="custom-menu-item active">
+            <a href="{{route('iqac.about')}}" class="custom-menu-item {{ setActive('iqac.about') }}">
+   <i class="bi bi-arrow-left-circle" style="color:tmu-color-blue; font-size:20px; padding-top:2px;"></i><p>Back to IQAC Page</p>
+</a>
+             <a href="#overall" class="custom-menu-item">
                 <p>NIRF 2024 Overall Data</p>
             </a>
             <a href="#medical" class="custom-menu-item">

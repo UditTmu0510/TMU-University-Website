@@ -7,7 +7,7 @@
 <style>
     @media screen and (min-width: 1000px) {
         .container {
-            max-width: 70vw !important;
+            max-width: 75vw !important;
         }
     }
 </style>
@@ -26,9 +26,9 @@
                             provide a friendly mechanism to the students to report their grievances and the faster
                             disposal of the same. It shall also provide a platform to the students to come forward with
                             constructive suggestions for more efficient and effective teaching-learning atmosphere</p>
-                            <p class="about-p mb-4 text-justify">Students and faculty members are encouraged to contribute towards research and participate in national and
-                    international conferences and seminars. The faculty members publish quality research papers which go a long way
-                    in contributing towards the promotion of research in varied disciplines.</p>
+                        <p class="about-p mb-4 text-justify">Students and faculty members are encouraged to contribute towards research and participate in national and
+                            international conferences and seminars. The faculty members publish quality research papers which go a long way
+                            in contributing towards the promotion of research in varied disciplines.</p>
                     </div>
                 </div>
             </section>
@@ -36,13 +36,13 @@
 
         <div class="container mt-2 p-3">
             <div class="box d-none d-sm-block md-block">
-                <p class="about-p mb-2 text-justify">The University publishes the following journals on periodic basis:</p>
+                <p class="about-p mb-2 text-justify">The University publishes the following <a href="{{route('tmu.publication')}}">journals</a> on periodic basis:</p>
                 <div class="container">
                     <div class="book">
 
                         <div class="front">
                             <div class="cover">
-                                <a href="https://upgrade.tmu.ac.in/assets/pdf/jnrl/viewpoint_jan_july_2021_1.pdf')}}')}}" target="_blank"><img
+                                <a href="{{asset('/assets/pdf/journals/viewpoint_jan_july_2021_1.pdf')}}" target="_blank"><img
                                         src="{{asset('/assets/img/magazines/research/8.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
@@ -57,7 +57,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="https://www.tmu.ac.in/img/research/pharmacoaerena.jpg" target="_blank"><img
+                                <a href="{{route('tmu.publication')}}" target="_blank"><img
                                         src="{{asset('/assets/img/magazines/research/10.jpg')}}" alt="Book Cover Image"></a>
                                 <!-- <p class="num-up">84</p>
                         <p class="num-down">1</p>
@@ -74,7 +74,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="https://www.tmu.ac.in/tmu/publication" target="_blank"><img
+                                <a href="{{route('tmu.publication')}}" target="_blank"><img
                                         src="{{asset('/assets/img/magazines/research/s&treview.jpg')}}" alt="Book Cover Image"
                                         style="width:200px; height:275px;"></a>
 
@@ -119,7 +119,7 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
-                                <a href="https://www.tmu.ac.in/tmu/publication" target="_blank"><img
+                                <a href="{{route('tmu.publication')}}" target="_blank"><img
                                         src="{{asset('/assets/img/magazines/research/ijrtcsit.jpg')}}" alt="Book Cover Image"
                                         style="width:200px; height:275px;"></a>
 
@@ -140,7 +140,7 @@
         </div>
 
         <section class="d-block d-sm-none">
-            <p class="about-p mb-2 text-justify p-3">The University publishes the following journals on periodic basis:</p>
+            <p class="about-p mb-2 text-justify p-3">The University publishes the following <a href="{{route('tmu.publication')}}">journals</a> on periodic basis:</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
                 <div class="carousel-inner">
@@ -151,11 +151,13 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/img/research/s&treview.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="{{asset('/assets/pdf/journals/viewpoint_jan_july_2021_1.pdf')}}" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/magazines/research/8.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -167,11 +169,13 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://upgrade.tmu.ac.in/assets/img/jnrl/10.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="{{route('tmu.publication')}}" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/magazines/research/10.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -183,11 +187,13 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/img/research/s&treview.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="{{route('tmu.publication')}}" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/magazines/research/s&treview.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -199,11 +205,13 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://upgrade.tmu.ac.in/assets/img/jnrl/11.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="https://tmujdent.co.in/archive.php" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/magazines/research/11.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -215,11 +223,13 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://upgrade.tmu.ac.in/assets/img/jnrl/12.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="https://journals.lww.com/amit/pages/default.aspx" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/magazines/research/12.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -231,11 +241,14 @@
                                 <div class="main-book-wrap">
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="https://www.tmu.ac.in/img/research/ijrtcsit.jpg" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
-                                        </div>
+                                        <a href="{{route('tmu.publication')}}" target="_blank">
+                                            <div class="book-image">
+                                                <img src="{{ asset('/assets/img/magazines/research/ijrtcsit.jpg') }}" alt="Research Magazine" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </a>
+
                                     </div>
                                 </div>
                             </div>

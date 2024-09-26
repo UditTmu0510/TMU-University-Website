@@ -388,7 +388,7 @@
 
 
         <!-----Courses section Start-->
-        <section id="content" class="prog-bm">
+      <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
                 <div class="container d-none d-lg-block">
@@ -401,80 +401,44 @@
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Undergraduate Programmes
-                                    &nbsp;&nbsp;<span class="badge rounded-pill">12</span></a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Postgraduate Programmes
-                                    &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a>
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                  
+                                </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                  </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                  </a>
+                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
+                                    &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="tab-content" id="nav-tabContent">
 
+                                <!-- Home Tab starts here -->
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
+
+                                </div>
+
+                                <!-- Home Tab  Ends  here -->
+
+
+                                <!--  Home tab panel 2 Starts Here  --
+								       ----------------------------- -->
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
+
+                                </div>
+                                <!-- 
+									/////Home tab 2 Ends Here/////
+								 -->
+
                                 <!-- 
 									/////Home tab 3 Starts Here/////
 								 -->
 
-                                <div class="tab-pane active" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" height="178px" class="card-img-top" alt="Management  image ">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">BBA International Business & Entrepreneurship
-                                                        (Collab with UR Services)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="https://images.pexels.com/photos/286565/pexels-photo-286565.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">BBA (Marketing, HR, IB, Finance)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/Corporates/esdst-dba.png" height="178px">
-                                                <div class="card-body progcardbody">
-                                                    <h4 class="mb-2">MBA Handicraft Export Management (Collab with EPCH)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
                                 </div>
 
                                 <!-- 
@@ -484,13 +448,9 @@
                                 <!-- 
 											/////Home tab 4 Starts Here/////
 								 	-->
-
-                                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-
+                                <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                                     <div class="row">
-
                                         <div class="col-md-4">
-                                            <!-- Card -->
                                             <div class="card shadow-sm">
                                                 <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="Law image ">
                                                 <div class="card-body progcardbody">
@@ -506,9 +466,7 @@
                                             </div>
                                         </div>
 
-
                                         <div class="col-md-4">
-                                            <!-- Card -->
                                             <div class="card shadow-sm progcard">
                                                 <img src="https://thumbs.dreamstime.com/b/compliance-rules-law-regulation-policy-business-technology-concept-compliance-rules-law-regulation-policy-business-technology-112471593.jpg?w=768" height="178px" class="card-img-top" alt="...">
                                                 <div class="card-body progcardbody">
@@ -524,9 +482,7 @@
                                             </div>
                                         </div>
 
-
                                         <div class="col-md-4">
-                                            <!-- Card -->
                                             <div class="card shadow-sm">
                                                 <img src="https://img.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9097.jpg?size=626&ext=jpg&ga=GA1.2.718553843.1681214208&semt=ais" height="178px">
                                                 <div class="card-body progcardbody">
@@ -541,11 +497,8 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
                                     </div>
-
-                                </div>
+                                </div> -->
 
                                 <!-- 
 									/////Home tab 4 Ends Here/////
@@ -574,73 +527,36 @@
                                 <span>Programmes</span> <span>Offered</span>
                             </h1>
                         </div>
-                        <hr class="horizontal-line">
-                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
+
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/great-learning-career-academy.png" height="178px" class="card-img-top" alt="Management  image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">BBA International Business & Entrepreneurship
-                                                (Collab with UR Services)</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://images.pexels.com/photos/286565/pexels-photo-286565.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">BBA (Marketing, HR, IB, Finance)</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
-
-
-
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/Corporates/esdst-dba.png" height="178px">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">MBA Handicraft Export Management (Collab with EPCH)
-                                            </h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-
-                                </li>
+                            <ul class="progul" id="programmeUG">
+                                
 
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
+
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmePG">
+                                
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeDoctoral">
+                                
+
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">
-                            <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
+                            <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul">
                                 <li class="progli">
@@ -699,7 +615,7 @@
                                 </li>
 
                             </ul>
-                        </div>
+                        </div> -->
                         <!-- Below code is sample if you need to add new column -->
                         <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">Are there opportunities for international students to study at the college?<span class="icon">+</span></button>
@@ -717,111 +633,67 @@
                 </div>
         </section>
         <!-----Courses section completed-->
+	<section>
+        <div class="container-fluid mt-5 ">
+            <h2 class="tmu-text-primary text-center">
+                <span>Our </span><span> Recruiters</span>
+            </h2>
+            <div class="marquee my-5 py-5 pt-4">
+                
+            
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+            </div>
+        </div>
+    </section>
 
-
-        <section>
+               <section>
+                   
+                   
             <div class="container-xl tmu-testimonial mt-5 mb-3">
 
                 <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
 
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+     <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
 
-
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
-
-
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -1069,5 +941,124 @@
 
 
 <script src="{{asset('assets/js/tmimt.js')}}"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 8,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 8,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 
 @endsection

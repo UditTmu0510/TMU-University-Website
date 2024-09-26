@@ -5,31 +5,31 @@
     <div class="custom-menu-section">
         <h2 class="fs-16">NSS</h2>
         <div class="account-section">
-            <a href="{{ route('nss.about') }}" class="custom-menu-item {{ Request::routeIs('nss.about') ? 'active' : '' }}">
+            <a href="{{ route('nss.about') }}" class="custom-menu-item {{ setActive('nss.about') }}">
                 <p>About NSS</p>
             </a>
-            <a href="{{ route('nss.aims') }}" class="custom-menu-item {{ Request::routeIs('nss.aims') ? 'active' : '' }}">
+            <a href="{{ route('nss.aims') }}" class="custom-menu-item {{ setActive('nss.aims') }}">
                 <p>Aims & Objectives</p>
             </a>
-            <a href="{{ route('nss.badge') }}" class="custom-menu-item {{ Request::routeIs('nss.badge') ? 'active' : '' }}">
+            <a href="{{ route('nss.badge') }}" class="custom-menu-item {{ setActive('nss.badge') }}">
                 <p>Logo & Badge</p>
             </a>
-            <a href="{{ route('nss.day.and.song') }}" class="custom-menu-item {{ Request::routeIs('nss.day.and.song') ? 'active' : '' }}">
+            <a href="{{ route('nss.day.and.song') }}" class="custom-menu-item {{ setActive('nss.day.and.song') }}">
                 <p>NSS Day & Song</p>
             </a>
-            <a href="{{ route('nss.activities') }}" class="custom-menu-item {{ Request::routeIs('nss.activities') ? 'active' : '' }}">
+            <a href="{{ route('nss.activities') }}" class="custom-menu-item {{ setActive('nss.activities') }}">
                 <p>Regular Activities</p>
             </a>
-            <a href="{{ route('nss.volunteers') }}" class="custom-menu-item {{ Request::routeIs('nss.volunteers') ? 'active' : '' }}">
+            <a href="{{ route('nss.volunteers') }}" class="custom-menu-item {{ setActive('nss.volunteers') }}">
                 <p>NSS Volunteer</p>
             </a>
-            <a href="{{ route('nss.internationalday') }}" class="custom-menu-item {{ Request::routeIs('nss.internationalday') ? 'active' : '' }}">
+            <a href="{{ route('nss.internationalday') }}" class="custom-menu-item {{ setActive('nss.internationalday') }}">
                 <p>International Days</p>
             </a>
-            <a href="{{ route('nss.events') }}" class="custom-menu-item {{ Request::routeIs('nss.events') ? 'active' : '' }}">
+            <a href="{{ route('nss.events') }}" class="custom-menu-item {{ setActive('nss.events') }}">
                 <p>NSS Events</p>
             </a>
-            <a href="{{ route('nss.contactus') }}" class="custom-menu-item {{ Request::routeIs('nss.contactus') ? 'active' : '' }}">
+            <a href="{{ route('nss.contactus') }}" class="custom-menu-item {{ setActive('nss.contactus') }}">
                 <p>Contact Us</p>
             </a>
         </div>

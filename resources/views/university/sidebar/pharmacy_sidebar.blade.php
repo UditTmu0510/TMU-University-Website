@@ -5,43 +5,43 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
-            <a href="{{ route('pharmacy.about.us') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.about.us') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.about.us') }}" class="custom-menu-item {{ setActive('pharmacy.about.us') }}">
                 <p>About Us</p>
             </a>
-            <a href="{{ route('pharmacy.college.highlights') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.college.highlights') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.college.highlights') }}" class="custom-menu-item {{ setActive('pharmacy.college.highlights') }}">
                 <p>College Highlights</p>
             </a>
-            <a href="{{ route('pharmacy.principal') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.principal') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.principal') }}" class="custom-menu-item {{ setActive('pharmacy.principal') }}">
                 <p>Principal Desk</p>
             </a>
-            <a href="{{ route('pharmacy.college.advisory.board') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.college.advisory.board') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.college.advisory.board') }}" class="custom-menu-item {{ setActive('pharmacy.college.advisory.board') }}">
                 <p>College Advisory Board</p>
             </a>
-            <a href="{{ route('pharmacy.gallery') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.gallery') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.gallery') }}" class="custom-menu-item {{ setActive('pharmacy.gallery') }}">
                 <p>Gallery</p>
             </a>
-            <a href="{{ route('pharmacy.infrastructure') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.infrastructure') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.infrastructure') }}" class="custom-menu-item {{ setActive('pharmacy.infrastructure') }}">
                 <p>Infrastructure</p>
             </a>
         </div>
         <h2>Academics</h2>
         <div class="account-section">
-            <a href="{{ route('pharmacy.syllabus') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.syllabus') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.syllabus') }}" class="custom-menu-item {{ setActive('pharmacy.syllabus') }}">
                 <p>Syllabus</p>
             </a>
-            <a href="{{ route('pharmacy.academic.calendar') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.academic.calendar') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.academic.calendar') }}" class="custom-menu-item {{ setActive('pharmacy.academic.calendar') }}">
                 <p>Academic Calendar</p>
             </a>
         </div>
         <h2>Student Corner</h2>
         <div class="account-section">
-            <a href="{{ route('pharmacy.timetable') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.timetable') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.timetable') }}" class="custom-menu-item {{ setActive('pharmacy.timetable') }}">
                 <p>Time Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
-            <a href="{{ route('pharmacy.anti.ragging') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.anti.ragging') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.anti.ragging') }}" class="custom-menu-item {{ setActive('pharmacy.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
             </a>
         </div>
@@ -50,12 +50,12 @@
             <a href="{{route('tmu.publication')}}" class="custom-menu-item">
                 <p>Pharmacoaerena</p>
             </a>
-            <a href="{{ route('pharmacy.contact.us') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.contact.us') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.contact.us') }}" class="custom-menu-item {{ setActive('pharmacy.contact.us') }}">
                 <p>Contact Us</p>
             </a>
         </div>
         <div class="account-section">
-            <a href="{{ route('pharmacy.iqac') }}" class="custom-menu-item {{ Request::routeIs('pharmacy.iqac') ? 'active' : '' }}">
+            <a href="{{ route('pharmacy.iqac') }}" class="custom-menu-item {{ setActive('pharmacy.iqac') }}">
                 <p>College IQAC</p>
             </a>
             <a href="{{ asset('/assets/pdf/publications/reports/sif-report-2021.pdf') }}" class="custom-menu-item">

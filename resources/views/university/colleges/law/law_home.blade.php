@@ -128,7 +128,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Law & Legal Studies: Among the Top Best Colleges for Law in India</h2>
+                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5"> 
                         <p style="text-align: justify;">College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <a href="https://www.tmu.ac.in/blog/top-10-law-colleges-in-india" target="_blank">best private colleges for law in India</a> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
@@ -198,6 +198,7 @@
             </div>
         </div>
 
+
         <!-----Courses section Start-->
         <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
@@ -212,13 +213,13 @@
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate Programmes
-                                    &nbsp;<span class="badge rounded-pill">03</span>
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                    
                                 </a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span></a>
-                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctorate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span></a> -->
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                   </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                    </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -227,61 +228,8 @@
                             <div class="tab-content" id="nav-tabContent">
 
                                 <!-- Home Tab starts here -->
-                                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
 
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm ">
-                                                <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.A.-LL.B.(Hons.)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm ">
-                                                <img src="https://img.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9097.jpg?size=626&ext=jpg&ga=GA1.2.718553843.1681214208&semt=ais" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.Com.-LL.B.(Hons.)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm ">
-                                                <img src="https://thumbs.dreamstime.com/b/compliance-rules-law-regulation-policy-business-technology-concept-compliance-rules-law-regulation-policy-business-technology-112471593.jpg?w=768" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.B.A.-LL.B.(Hons.)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <!-- Home Tab  Ends  here -->
@@ -289,26 +237,8 @@
 
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
-                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">LL.M.</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
 
                                 </div>
                                 <!-- 
@@ -319,23 +249,9 @@
 									/////Home tab 3 Starts Here/////
 								 -->
 
-                                <!-- <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px">
-                                                <div class="card-body progcardbody">
-                                                    <h4 class="mb-2">Phd in Dental</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
+                                </div>
 
                                 <!-- 
 									/////Home tab 3 Ends Here/////
@@ -424,104 +340,31 @@
                             </h1>
                         </div>
 
-                        <button class="careers-accordion"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
+                            <ul class="progul" id="programmeUG">
+                                
 
-                                            <h5 class="mb-2">B.A.-LL.B. (Hons.)</h5>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://img.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9097.jpg?size=626&ext=jpg&ga=GA1.2.718553843.1681214208&semt=ais" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h5 class="mb-2">B.Com.-LL.B. (Hons.)</h5>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://thumbs.dreamstime.com/b/compliance-rules-law-regulation-policy-business-technology-concept-compliance-rules-law-regulation-policy-business-technology-112471593.jpg?w=768" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
-
-                                            <h5 class="mb-2">B.B.A.-LL.B. (Hons.)</h5>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=1600" height="178px" class="card-img-top" alt="Engineering image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">LL.M.</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
+                            <ul class="progul" id="programmePG">
+                                
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
-                        <!-- <hr class="horizontal-line">
-                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate Programmes</span> <span class="icon">+</span></button>
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="assets/img/dentalcollege/course-img/1.jpg" height="178px" class="card-img-top" alt="Management  image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Phd Physiotherapy</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
+                            <ul class="progul" id="programmeDoctoral">
+                                
 
                             </ul>
-                        </div> -->
+                        </div>
                         <!-- Add the horizontal line here -->
                         <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">
@@ -602,97 +445,67 @@
                 </div>
         </section>
         <!-----Courses section completed-->
-
-
-
-        </style>
+	<section>
+        <div class="container-fluid mt-5 ">
+            <h2 class="tmu-text-primary text-center">
+                <span>Our </span><span> Recruiters</span>
+            </h2>
+            <div class="marquee my-5 py-5 pt-4">
+                
+            
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+            </div>
+        </div>
+    </section>
 
         <section>
             <div class="container-xl tmu-testimonial mt-5 mb-3">
 
-                <h2 class="tmu-text-primary my-0 mb-3"> <span>Students </span> <span>Testimonial</span></h2>
+                <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
 
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/ANYA_GUPTA_(B_COM__LL_B_)_2019-2024.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>ANYA GUPTA</b>, B.Com.-LL.B.</p>
-                                    <p>TMU's College of Law and Legal Studies is one of the top-tier legal educational colleges. It is well-known for its academic excellence and commitment to developing skilled lawyers who can drive social, political, and economic change. To achieve this, the college relies on a team of dedicated experts who are passionate about the legal profession. Throughout the year, the college hosts stimulating events and competitions
-                                        that encourage students to share their ideas and engage in thoughtful discussions.</p>
-                                </div>
-                            </div>
-                            <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
 
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/kajal-gupta.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>KAJAL GUPTA</b>, B.B.A.-LL.B. </p>
-                                    <p>Attending this college has been the wisest decision I have made. The institution has created an environment that goes beyond textbooks and lectures, providing opportunities for real-world applications and practice. Investing in knowledge is always worthwhile, and being part of TMU Law College has made my path easier.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/MITALI_(B_COM__LL_B_)_2022-2022.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>MITALI</b>, B.Com.-LL.B.</p>
-                                    <p>At TMU's College of Law and Legal Studies, I found my dream combination of academic and professional development opportunities. From moot courts to seminars, the college offers a variety of opportunities to build confidence and gain practical experience. The staff and instructors are supportive, and the campus library is a valuable resource. Overall, it's been a great experience.
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Muskan_Tandon.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Muskan Tandon</b>, B.B.A.-LL.B. (Hons.) </p>
-                                    <p>The decisions that a law professional makes changes the world. Being a law student, the college enabled me to widen my horizon and acquire those important skills of righteousness and develop my inter-personal skills and hence I feel glad about being a part of this college.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Aman_Kumar.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Aman Kumar</b>, B.B.A.-LL.B. (Hons.)</p>
-                                    <p>Appropriate conduct to the professionalism and belief of justice in a law professional is instilled at the College of Law & Legal Studies. It's alumni network serving at high courts and supreme courts frequent the college and guide us students. Teachers, digital library facilities all help us widen our knowledge but what I like the most is the practical activities organized by the college i.e. legal quiz, moot courts, legal clinic, Lok Adalat, legal games etc. these activities have taught me how to be vocal and how to present them. Isn't that what law colleges should teach to confidently share opinion and analytically think?</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/testimonial/SIDDARTH_KUMAR_(B_A__LL_B_)2018-2023.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>SIDDARTH KUMAR</b>, B.A.-LL.B.</p>
-                                    <p>Teerthankar Mahaveer University is an ocean of opportunities and I was lauded with one such fine opportunity through the student exchange program at Malaysia where I represented our college & country. I am just in my second year and my journey here has been nothing less but phenomenal and an enriching ride. </p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+                              <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
                 </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
+
+                </div>
+
             </div>
         </section>
 
@@ -912,7 +725,125 @@
     </div>
     <hr class="horizontal-line">
 </div>
+
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 9,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 9,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 @endsection

@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="heading-block fancy-title border-bottom-0 title-bottom-border mb-2 mt-2">
-        <h4>1. Stratergies<span></span></h4>
+        <h4>1. Strategies<span></span></h4>
       </div>
       <ol class="m-ol-list ps-5 mb-2 text-justify">
         <li>To ensure progressive and efficient performance of academic, administrative, and financial tasks in a timely

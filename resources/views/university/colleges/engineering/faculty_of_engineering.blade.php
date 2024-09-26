@@ -222,6 +222,70 @@
         </div>
 
 
+
+        <!-- <section id="content">
+            <div class="content-wrap py-0" style="background-color: #001055;">
+                <main1>
+                    <div>
+                        <p class="tmimt-awards-heading"><span>Awards <span class="symbol">&</span> Excellence</span>
+                    </div>
+                    <div class="swiper swiper-management-awards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide--one"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+                            <div class="swiper-slide swiper-slide--two"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+                            <div class="swiper-slide swiper-slide--three"> -->
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+
+                            <div class="swiper-slide swiper-slide--four"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+
+                            <div class="swiper-slide swiper-slide--seven"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Shark" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+                            <div class="swiper-slide swiper-slide--six"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Octopus" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+
+                            <div class="swiper-slide swiper-slide--five"> -->
+
+        <!-- <div>
+                                                <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
+                                            </div> -->
+        <!-- </div>
+                        </div> -->
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div>
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
+                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+                    </main>
+            </div>
+        </section> -->
+
+
         <!-- Section for collaborators -->
         <!-- <div class="container industry-collaborators mt-5">
             <h2 class="text-center mb-0" style="font-weight:700; color:#001055">Top Industry Academic Partners and <span style="color:#FF7A00"> Collaborative Programmes at TMU</span></h2> -->
@@ -434,7 +498,7 @@
         </div>
 
         <!-----Courses section Start-->
-        <section id="content" class="prog-bm">
+         <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
                 <div class="container d-none d-lg-block">
@@ -447,13 +511,13 @@
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                    &nbsp;<span class="badge rounded-pill">11</span>
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                   
                                 </a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
-                                    &nbsp;<span class="badge rounded-pill">07</span></a>
-                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctorate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span></a> -->
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                   </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                  </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -462,205 +526,8 @@
                             <div class="tab-content" id="nav-tabContent">
 
                                 <!-- Home Tab starts here -->
-                                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
 
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/9.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.Sc. (Mathematics Honors)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/30.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.Sc. (Chemistry Honors)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/32.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">B.Sc. (Physics Honors)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/33.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Mechanical Engineering (ME)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/34.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Computer & Comm. Engg.(CCE)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/13.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Computer Science & Engineering (CSE)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/25.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-ME-Mechatronics (In collaboration with TCS iON)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/18.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Electronics & Communication Engineering (ECE)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/21.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-ECE-Internet of Things (IoT) (In collaboration with TCS iON)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/3.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Civil Engineering (CE)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/5.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">B.Tech (AICTE Approved)-Electrical Engineering (EE)
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <!-- Home Tab  Ends  here -->
@@ -668,171 +535,30 @@
 
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
-                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                                    <div class="row">
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
 
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/9.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">M.Sc. (Mathematics)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/30.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">M.Sc. (Physics)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/32.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">M.Sc. (Chemistry)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/33.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">M.Tech. - Machine Learning & Data Science.
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/34.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">M.Tech. - Additive Manufacturing.
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/13.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">M.Tech. - Electrical Power & Energy System.
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm progcard">
-                                                <img src="{{asset('assets/img/programme_stock_img/ccsit/25.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body progcardbody">
-
-                                                    <h4 class="mb-2">M.Tech. - Structural And Construction Engineering.
-                                                    </h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
                                 </div>
-
-                            </div>
-                            <!-- 
+                                <!-- 
 									/////Home tab 2 Ends Here/////
 								 -->
 
-                            <!-- 
+                                <!-- 
 									/////Home tab 3 Starts Here/////
 								 -->
 
-                            <!-- <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px">
-                                                <div class="card-body progcardbody">
-                                                    <h4 class="mb-2">Phd in Dental</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
+                                </div>
 
-                            <!-- 
+                                <!-- 
 									/////Home tab 3 Ends Here/////
 										 -->
 
-                            <!-- 
+                                <!-- 
 											/////Home tab 4 Starts Here/////
 								 	-->
-                            <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                <!-- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="card shadow-sm">
@@ -884,365 +610,61 @@
                                     </div>
                                 </div> -->
 
-                            <!-- 
+                                <!-- 
 									/////Home tab 4 Ends Here/////
 								 -->
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
-            </div>
-
-            <!-- Code for the Desktop view Ends -->
+                <!-- Code for the Desktop view Ends -->
 
 
 
 
-            <!-- Code for the Mobile View Starts Here -->
-            <div class="container d-block d-lg-none">
-                <div class="container mb-5 mt-5">
-                    <div class="col-xl-12 col-lg-10 text-center">
-                        <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
-                            <span>Programmes</span> <span>Offered</span>
-                        </h1>
-                    </div>
-
-                    <button class="careers-accordion"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
-                    <div class="panel">
-                        <ul class="progul">
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/9.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Sc. (Mathematics Honors)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/13.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Sc. (Physics Honors)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/16.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Sc. (Chemistry Honors)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/19.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Computer Science & Engineering (CSE)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/1.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Mechanical Engineering (ME)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/34.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-ME-Mechatronics (In collaboration with TCS iON)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/13.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Computer & Comm. Engg.(CCE)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/25.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Electronics & Communication Engineering (ECE)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/21.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-ECE-Internet of Things (IoT) (In collaboration with TCS iON)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/3.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Civil Engineering (CE)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/5.jpg')}}" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h5 class="mb-2">B.Tech (AICTE Approved)-Electrical Engineering (EE)</h5>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Add the horizontal line here -->
-                    <hr class="horizontal-line">
-
-                    <button class="careers-accordion"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
-                    <div class="panel">
-                        <ul class="progul">
-                            <li class="progli">
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/19.jpg')}}" height="178px" class="card-img-top" alt="Engineering image ">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Sc. (Mathematics)</h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
+                <!-- Code for the Mobile View Starts Here -->
+                <div class="container d-block d-lg-none">
 
 
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/33.jpg')}}" height="178px" class="card-img-top" alt="...">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Sc. (Physics)
-                                        </h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/34.jpg')}}" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Sc. (Chemistry)</h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="({{asset('assets/img/programme_stock_img/ccsit/13.jpg')}}" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Machine Learning & Data Science.</h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/25.jpg')}}" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Additive Manufacturing. </h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/3.jpg')}}" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Electrical Power & Energy System.</h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="progli">
-
-                                <div class="card shadow-sm progcard">
-                                    <img src="{{asset('assets/img/programme_stock_img/ccsit/5.jpg')}}" height="178px">
-                                    <div class="card-body progcardbody">
-
-                                        <h4 class="mb-2">M.Tech. - Structural And Construction Engineering.</h4>
-                                    </div>
-                                    <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                        <div>
-                                        </div>
-                                        <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                            More</a>
-                                    </div>
-                                </div>
-                            </li>
 
 
-                        </ul>
-                    </div>
-                    <!-- Add the horizontal line here -->
-                    <!-- <hr class="horizontal-line">
-                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate Programmes</span> <span class="icon">+</span></button>
+
+                    <div class="container mb-5 mt-5">
+                        <div class="col-xl-12 col-lg-10 text-center">
+                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                                <span>Programmes</span> <span>Offered</span>
+                            </h1>
+                        </div>
+
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="assets/img/programme_stock_img/ccsit/1.jpg" height="178px" class="card-img-top" alt="Management  image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Phd Physiotherapy</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
+                            <ul class="progul" id="programmeUG">
+                                
 
                             </ul>
-                        </div> -->
-                    <!-- Add the horizontal line here -->
-                    <!-- <hr class="horizontal-line">
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmePG">
+                                
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        <div class="panel">
+                            <ul class="progul" id="programmeDoctoral">
+                                
+
+                            </ul>
+                        </div>
+                        <!-- Add the horizontal line here -->
+                        <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">
                             <span><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law</span> <span class="icon">+</span></button>
                         <div class="panel">
@@ -1304,106 +726,46 @@
 
                             </ul>
                         </div> -->
-                    <!-- Below code is sample if you need to add new column -->
-                    <!-- <hr class="horizontal-line">
+                        <!-- Below code is sample if you need to add new column -->
+                        <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">Are there opportunities for international students to study at the college?<span class="icon">+</span></button>
                         <div class="panel">
                             <p>Yes, the College welcomes applications from international students and offers various programmes and services to support their academic and personal success. International students are encouraged to reach out to the college's admissions office for more information on the application process and available resources.</p>
                         </div> -->
-                    <!-- Add the horizontal line here -->
-                    <hr class="horizontal-line">
+                        <!-- Add the horizontal line here -->
+                        <hr class="horizontal-line">
+                    </div>
+
+
+
+                    <!-- Code for the Mobile View Ends Here -->
+
                 </div>
-
-
-
-                <!-- Code for the Mobile View Ends Here -->
-
-            </div>
         </section>
         <!-----Courses section completed-->
 
 
-        <section>
+       	<section>
         <div class="container-fluid mt-5 ">
             <h2 class="tmu-text-primary text-center">
                 <span>Our </span><span> Recruiters</span>
             </h2>
             <div class="marquee my-5 py-5 pt-4">
-                <section class="marquee-content">
+                
+            
+                <section class="marquee-content more-content">
+                        @foreach($recruiters as $recruiter)
                     <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/face_academy.png')}}" alt="face academy visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
                     </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Tata%20Motors.png')}}" alt="Tata motors visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Cetpa.png')}}" alt="cetpa visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Tosha%20International.png')}}" alt="tosha inernational visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/tci.png')}}" alt="TCI visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/wipro.png')}}" alt="Wipro visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/torrent_gas.png')}}" alt="Torrent gas visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/munjal_auto.png')}}" alt="munjal auto visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/smart_brain.png')}}" alt="smart brain visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/infosys.png')}}" alt="infosys visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/ford-logo.png')}}" alt="ford visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/tech_mahindra.png')}}" alt="tech mahindra visit TMU for recruitment"></a>
-                    </div>
+                   @endforeach
                 </section>
-                <section class="marquee-content">
+                <section class="marquee-content more-content">
+                        @foreach($recruiters as $recruiter)
                     <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/face_academy.png')}}" alt="face academy visit TMU for recruitment"></a>
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
                     </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Tata%20Motors.png')}}" alt="Tata motors visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Cetpa.png')}}" alt="cetpa visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/Tosha%20International.png')}}" alt="tosha inernational visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/tci.png')}}" alt="TCI visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/wipro.png')}}" alt="Wipro visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/torrent_gas.png')}}" alt="Torrent gas visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/munjal_auto.png')}}" alt="munjal auto visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/smart_brain.png')}}" alt="smart brain visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/infosys.png')}}" alt="infosys visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/ford-logo.png')}}" alt="ford visit TMU for recruitment"></a>
-                    </div>
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset('/assets/img/recruiters/engineering/tech_mahindra.png')}}" alt="tech mahindra visit TMU for recruitment"></a>
-                    </div>
+                   @endforeach
                 </section>
             </div>
         </div>
@@ -1416,104 +778,34 @@
 
                 <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
 
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+                       <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
 
-
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/monaco/assets/image/testimonials/rashmi_raj_bcom.webp" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3 fs-14"><b class="fs-16">Rashmi Raj</b> <br>B.Com (2020 - 2024), <br> Data Engineer at Aventra Group <br>
-                                        <span>
-                                            <a href="https://www.linkedin.com/in/udit-gupta-ug0510/" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                    <p>For me TMU wasn't just a place of study, it was where I discovered the artistry in
-                                        business. Professors here were mentors who helped me navigate the complexities of
-                                        creativity. TMU, to me, isn't just an educational space; it's the place where my journey
-                                        in the world of commerce became a fascinating and personal expedition.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                                <button class="tmu-btn btn-3 py-2 d-block pe-3 " onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-                            </div>
-
-
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -1690,4 +982,120 @@
 <br /><br />
 <script src="{{asset('assets/js/tmimt.js')}}"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 11,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 11,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 @endsection

@@ -15,7 +15,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/421_title_image.webp')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/421_title_image.webp"
 									alt="Event-1">
 							</a>
 						</div>
@@ -38,7 +38,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/272_Tittle.jpg')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/272_Tittle.jpg"
 									alt="Event-1">
 							</a>
 						</div>
@@ -61,7 +61,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/261_Tittle.jpg')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/261_Tittle.jpg"
 									alt="Event-1">
 							</a>
 						</div>
@@ -83,7 +83,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/262_Tittle.jpg')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/262_Tittle.jpg"
 									alt="Event-1">
 							</a>
 						</div>
@@ -105,7 +105,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/263_Tittle.jpg')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/263_Tittle.jpg"
 									alt="Event-1">
 							</a>
 						</div>
@@ -127,7 +127,7 @@
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="{{asset('/assets/img/department/nss/265_Tittle.jpg')}}"
+								<img src="https://www.tmu.ac.in/uploads/events/past_event/265_Tittle.jpg"
 									alt="Event-1">
 							</a>
 						</div>

@@ -19,7 +19,7 @@
           <p class="about-p mb-3">The <span class="highlight">The National Service Scheme (NSS)</span> is an Indian government- sponsored public service program conducted by the Department of Youth Affairs and Sports of the Government of India. Popularly known as NSS, the scheme was launched in Gandhiji’s Centenary year, 1969. Aimed at developing student’s personality through community service, NSS is a voluntary association of young people in Colleges, Universities and at +2 level working for a campus-community linkage. The cardinal principle of the NSS programme is that it is organized by the students themselves, and both students and teachers through their combined participation in community service, get a sense of involvement in the tasks of nation building.</p>
         </div>
         <div class="image-content text-center p-4">
-          <img src="{{asset('/assets/img/banner_overview/nss/112.jpg')}}" alt="NSS image">
+          <img src="{{asset('/assets/img/banner_department/nss/112.jpg')}}" alt="NSS image">
         </div>
         <div class="container p-3">
           <p class="about-p mb-4">The post independence era was marked by an urge for introducing social service for students, both as a measure of educational reform and as a means to improve the quality of educated man-power. The University Grants Commission headed by Dr. Radhakrishnan recommended introduction of national service in the academic institutions on a voluntary basis with a view to developing healthy contacts between the students and teachers on the one hand and establishing a constructive linkage between the campus and the community on the other hand.</p>

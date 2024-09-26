@@ -11,7 +11,7 @@
                             <i class="fas fa-file-pdf fa-4x mb-3" style="color:#FF7900; "></i>
                             <h5 class="card-title" style="font-family:'Poppins';font-size:14px;">Upto
                                 Academic Session 2012-13</h5>
-                            <a href="{{asset('assets/pdf/policy/Examination_Ordinance.pdf')}}"
+                            <a href="https://www.tmu.ac.in/pdf/policy/Examination_Ordinance.pdf"
                                 class="more-link fst-normal ms-2"
                                 style="font-family:'Poppins';font-size:12px;">View pdf <i
                                     class="bi-arrow-right"></i></a>
@@ -39,7 +39,7 @@
                             <i class="fas fa-file-pdf fa-4x mb-3" style="color:#FF7900; "></i>
                             <h5 class="card-title" style="font-family:'Poppins';font-size:14px;">From
                                 Academic session 2013-14</h5>
-                            <a href="{{asset('assets/pdf/Academic-Calendar-2020-21-First-Year_compressed.pdf')}}"
+                            <a href="https://www.tmu.ac.in/academic_calendars/Academic-Calendar-2020-21-First-Year_compressed.pdf"
                                 class="more-link fst-normal ms-2"
                                 style="font-family:'Poppins';font-size:12px;">View pdf <i
                                     class="bi-arrow-right"></i></a>
@@ -53,7 +53,7 @@
                             <i class="fas fa-file-pdf fa-4x mb-3" style="color:#FF7900; "></i>
                             <h5 class="card-title" style="font-family:'Poppins';font-size:14px;">Upto
                                 Academic Session 2016-17</h5>
-                            <a href="{{asset('assets/pdf/Academic-Calendar-2020-21-Except_First-Year_compressed.pdf')}}"
+                            <a href="https://www.tmu.ac.in/academic_calendars/Academic-Calendar-2020-21-Except_First-Year_compressed.pdf"
                                 class="more-link fst-normal ms-2"
                                 style="font-family:'Poppins';font-size:12px;">View pdf <i
                                     class="bi-arrow-right"></i></a>
@@ -67,7 +67,7 @@
                             <i class="fas fa-file-pdf fa-4x mb-3" style="color:#FF7900; "></i>
                             <h5 class="card-title" style="font-family:'Poppins';font-size:14px;">With effect
                                 from Academic Session 2016-17</h5>
-                            <a href="{{asset('assets/pdf/University-Academic-Calendar-2019-20.pdf')}}"
+                            <a href="https://www.tmu.ac.in/academic_calendars/University-Academic-Calendar-2019-20.pdf"
                                 class="more-link fst-normal ms-2"
                                 style="font-family:'Poppins';font-size:12px;">View pdf <i
                                     class="bi-arrow-right"></i></a>
@@ -81,7 +81,7 @@
                             <i class="fas fa-file-pdf fa-4x mb-3" style="color:#FF7900; "></i>
                             <h5 class="card-title" style="font-family:'Poppins';font-size:14px;">With effect
                                 from Academic Session 2019-20</h5>
-                            <a href="{{asset('assets/pdf/University-Academic-Calendar-2018-19.pdf')}}"
+                            <a href="https://www.tmu.ac.in/academic_calendars/University-Academic-Calendar-2018-19.pdf"
                                 class="more-link fst-normal ms-2"
                                 style="font-family:'Poppins';font-size:12px;">View pdf <i
                                     class="bi-arrow-right"></i></a>

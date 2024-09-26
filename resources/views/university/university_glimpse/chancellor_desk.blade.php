@@ -1,15 +1,7 @@
 @extends('layouts.university.departments.about_tmu_with_sidebar')
 @section('content')
 
-<style>
-    @media screen and (max-width: 912px) {
-        .img-112 {
-            max-height: 300px !important;
-            width: auto !important;
-            object-fit: contain; /* Ensures the image maintains aspect ratio without stretching */
-        }
-    }
-</style>
+
 <div class="main-content">
     <div class="container">
                     
@@ -18,10 +10,10 @@
                                 <span> Desk</span>
                             </h1>
 
-                            <div class="col-lg-4 col-md-12 col-sm-12 text-center mb-3">
-                                <img src="{{asset('/assets/img/aboutus/administration/chancellor-image.png')}}" class="w-100 img-112 mx-auto d-block" alt="">
+                            <div class="col-md-4 text-center mb-3 img-container">
+                                <img src="{{asset('assets/img/aboutus/administration/chancellor-image.png')}}" class="w-100" alt="">
                             </div>
-                            <div class="col-lg-8 col-md-12 col-sm-12">
+                            <div class="col-md-8">
                                 <p class="person-quote px-4 px-md-5">
                                     <!-- <i class="bi bi-quote"></i> -->
                                     <!-- &emsp;&emsp; -->

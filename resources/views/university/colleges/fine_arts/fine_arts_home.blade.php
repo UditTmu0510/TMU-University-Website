@@ -241,13 +241,13 @@
                     <div class="row ">
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
-                                <a class="pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span>
+                                <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
+                                   
                                 </a>
-                                <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span></a>
-                                <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctorate Programmes
-                                    &nbsp;<span class="badge rounded-pill">01</span></a> -->
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
+                                   </a>
+                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
+                                  </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -256,27 +256,8 @@
                             <div class="tab-content" id="nav-tabContent">
 
                                 <!-- Home Tab starts here -->
-                                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="tab-pane fade show programmes-data" id="UG" role="tabpanel" aria-labelledby="Undergraduate">
 
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm ">
-                                                <img src="images/stock_images/ccsit/2.jpg" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">BFA (Bachelor's of Fine Arts)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <!-- Home Tab  Ends  here -->
@@ -284,26 +265,8 @@
 
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
-                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                                    <div class="row">
-
-                                        <div class="col-md-4">
-                                            <!-- Card -->
-                                            <div class="card shadow-sm">
-                                                <img src="images/stock_images/ccsit/2.jpg" height="178px" class="card-img-top" alt="...">
-                                                <div class="card-body">
-
-                                                    <h4 class="mb-2">MFA (Master's of Fine Arts)</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                        More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
+                                
 
                                 </div>
                                 <!-- 
@@ -314,23 +277,9 @@
 									/////Home tab 3 Starts Here/////
 								 -->
 
-                                <!-- <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card shadow-sm">
-                                                <img src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/security-plus-bootcamp.png" height="178px">
-                                                <div class="card-body progcardbody">
-                                                    <h4 class="mb-2">Phd in Dental</h4>
-                                                </div>
-                                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                                    <div>
-                                                    </div>
-                                                    <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
+                                
+                                </div>
 
                                 <!-- 
 									/////Home tab 3 Ends Here/////
@@ -419,73 +368,31 @@
                             </h1>
                         </div>
 
-                        <button class="careers-accordion"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate Programmes</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="images/stock_images/ccsit/2.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body progcardbody">
+                            <ul class="progul" id="programmeUG">
+                                
 
-                                            <h5 class="mb-2">BFA (Bachelor's of Fine Arts)</h5>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate Programmes</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-
-                                    <div class="card shadow-sm progcard">
-                                        <img src="images/stock_images/ccsit/2.jpg" height="178px">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">MFA (Master's of Fine Arts)</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
+                            <ul class="progul" id="programmePG">
+                                
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
-                        <!-- <hr class="horizontal-line">
-                        <button class="careers-accordion"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate Programmes</span> <span class="icon">+</span></button>
+                        <hr class="horizontal-line">
+                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
                         <div class="panel">
-                            <ul class="progul">
-                                <li class="progli">
-                                    <div class="card shadow-sm progcard">
-                                        <img src="assets/img/dentalcollege/course-img/1.jpg" height="178px" class="card-img-top" alt="Management  image ">
-                                        <div class="card-body progcardbody">
-
-                                            <h4 class="mb-2">Phd Physiotherapy</h4>
-                                        </div>
-                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
-                                            <div>
-                                            </div>
-                                            <a href="#" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
-                                                More</a>
-                                        </div>
-                                    </div>
-                                </li>
+                            <ul class="progul" id="programmeDoctoral">
+                                
 
                             </ul>
-                        </div> -->
+                        </div>
                         <!-- Add the horizontal line here -->
                         <!-- <hr class="horizontal-line">
                         <button class="careers-accordion">
@@ -566,84 +473,68 @@
                 </div>
         </section>
         <!-----Courses section completed-->
+	<section>
+        <div class="container-fluid mt-5 ">
+            <h2 class="tmu-text-primary text-center">
+                <span>Our </span><span> Recruiters</span>
+            </h2>
+            <div class="marquee my-5 py-5 pt-4">
+                
+            
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+                <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                    <div class="marquee-block">
+                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                    </div>
+                   @endforeach
+                </section>
+            </div>
+        </div>
+    </section>
 
 
-
-        </style>
-
-        <section>
+         <section>
             <div class="container-xl tmu-testimonial mt-5 mb-3">
 
-                <h2 class="tmu-text-primary my-0 mb-3"> <span>Students </span> <span>Testimonial</span></h2>
+                <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
 
-                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="200000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
-
-                    <div class="oc-item text-start">
-                        <div class="media ">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Ahmed_Khizar.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ahmed Khizar</b>, BFA (Bachelor's of Fine Arts) </p>
-                                    <p>"Choosing the College of Fine Arts at TMU was the best decision I made for my academic and creative growth. The UGC-approved accreditation and NAAC A rating gave me confidence in the quality of education offered. The modern facilities and the university's commitment to continuous improvement made my learning experience truly enriching. TMU provides an environment that fosters creativity and ensures that students meet high academic standards.</p>
-                                </div>
-                            </div>
-                            <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-
-                        </div>
-                    </div>
+                <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Ayushi_Pragya-N.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ayushi Pragya</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>"The experiential learning approach at TMU's College of Fine Arts has been a game-changer for me. The highly qualified faculty members, with their real-world industry experience, guided me through workshops, seminars, and hands-on projects that prepared me for the challenges of the art world. It wasn't just theoretical learning; we were encouraged to explore and experiment, making the most of every opportunity for artistic growth."</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Ayushi_Jaiswal-N1.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ayushi Jaiswal</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>TMU's College of Fine Arts has opened doors to global opportunities I never imagined. The comprehensive Teaching, Learning, and Development Center is a hub of creativity, where I collaborated with peers and faculty on innovative projects. The global career prospects and partnerships with international organizations helped me secure internships abroad, giving me invaluable exposure to different artistic cultures and practices. TMU has truly prepared me for a successful career in the international art industry."</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Meghna_Bhargava.jpg" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Meghna Bhargava</b>, MFA (Master's of Fine Arts)</p>
-                                    <p>The faculty at TMU’s College of Fine Arts have transformed my artistic journey. Their deep industry experience combined with practical teaching methods has provided me with hands-on learning through workshops and seminars. They have encouraged me to push creative boundaries and apply real-world techniques, making my education truly experiential."</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="oc-item text-start">
-                        <div class="media">
-                            <img src="https://www.tmu.ac.in/uploads/alumni_speak/Rishab_Bhardwaj-N.JPG" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Rishabhb Bhardwaj </b>, BFA (Bachelor's of Fine Arts)</p>
-                                    <p>Teerthanker Mahaveer University's College of Fine Arts, with its UGC-approved accreditation and NAAC A rating, truly stands as a beacon of excellence. The quality of education here is unmatched, as it not only meets the highest academic standards but also fosters continuous improvement in the field of fine arts. Being part of such a prestigious institution has greatly enriched my learning experience."</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
+@foreach($testimonials as $testimonial)
+    <div class="oc-item text-start">
+        <div class="media">
+            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+            <div class="media-body">
+                <div class="testimonial">
+                    <p class="overview mb-3 fs-14">
+                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                        <span>
+                               <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                Linkedin <i class="bi bi-linkedin"></i>
+                            </a>
+                        </span>
+                    </p>
+                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
                 </div>
+            </div>
+            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+@endforeach
+
+                </div>
+
             </div>
         </section>
 
@@ -671,9 +562,8 @@
         </div>
 
 </section><!-- #content end -->
-<!-- 
-<div class="container mb-5 mt-5">
 
+<div class="container mb-5 mt-5">
     <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
     <hr class="horizontal-line">
 
@@ -789,8 +679,124 @@
     <hr class="horizontal-line">
 </div>
 
-
 <br /><br />
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+
+$(document).ready(function() {
+    // Click event for navbar buttons
+    $('.programme-fetch-button').click(function() {
+        
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 14,
+                programme_level:programme_level 
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                    if ((i % 3 == 0) && (i != 0)) {
+                        programListHtml += `</div><div class="row">`;
+                    } else if (i == 0) {
+                        programListHtml += `<div class="row">`; 
+                    }
+
+                        programListHtml += `
+                    <div class="col-md-4">
+                                    <div class="card card-sz shadow-sm ">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
+                                            <h5>${program.prog_name}</h5>
+                                        </div>
+                                        <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                            <div>
+                                            </div>
+                                            <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>`;
+
+            
+                
+                                i++;
+                });
+                $('#'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+    $('.programme-fetch-button:first').addClass('active').click();
+    $('.programmes-data:first').addClass('active');
+
+// Programme fetch code for the mobile view starts here
+
+    $('.careers-accordion').click(function() {
+        var programme_level = this.getAttribute('data-ProgrammeLevel');
+        // Ajax call to fetch programs of selected type
+        $.ajax({
+            url: '{{ route("fetch_programmes_by_level") }}',
+            type: 'POST',
+            data: {
+                _token: '{{ csrf_token() }}',
+                cd_id: 14,
+                programme_level: programme_level
+            },
+            success: function(response) {
+                // Handle JSON response and populate program list
+                console.log(response);
+                var programs = response.programs;
+                var programListHtml = '';
+                let i =0;
+                programs.forEach(function(program) {
+                 
+                        programListHtml += `<li class="progli">
+                        <div class="card shadow-sm progcard card-sz">
+                            <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                            <div class="card-body progcardbody">
+
+                                <h5 class="mb-2">${program.prog_name}</h5>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                <div>
+                                </div>
+                                <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                                    More</a>
+                            </div>
+                        </div>
+                    </li>`;
+ i++;
+                });
+                $('#programme'+programme_level).html(programListHtml);
+            },
+            error: function(xhr, status, error) {
+              
+                console.log('the error is'+error);
+            }
+        });
+    });
+
+// Programme fetch code for the mobile view ends here
+
+});
+
+</script>
 @endsection
