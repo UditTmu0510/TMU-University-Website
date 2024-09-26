@@ -3,6 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonials;
+use App\Models\Recruiters;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\DB;
+use Exception;
+use Illuminate\Support\Str;
+use App\Models\Programmes;
+
 
 class FineartsController extends Controller
 {
@@ -10,7 +18,19 @@ class FineartsController extends Controller
 
     public function index()
     {
-        return view('university.colleges.fine_arts.fine_arts_home');
+              $testimonials = Testimonials::where('cd_id', 14)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+            
+                 $recruiters = Recruiters::where('cd_id', 14)
+    ->where('display_college_main', 'Y')
+    ->where('status', 'Y')
+    ->orderBy('recruiter_id', 'desc')
+    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+    ->get();
+        return view('university.colleges.fine_arts.fine_arts_home', compact('testimonials','recruiters'));
     }
 
     public function fine_arts_academic_calendar()
@@ -52,7 +72,8 @@ class FineartsController extends Controller
 
     public function fine_arts_syllabus()
     {
-        return view('university.colleges.fine_arts.fine_arts_syllabus');
+           $programmes = Programmes::where('cd_id',14)->where('status','Y')->get();
+        return view('university.colleges.fine_arts.fine_arts_syllabus',compact('programmes'));
     }
 
     public function fine_arts_timetable()

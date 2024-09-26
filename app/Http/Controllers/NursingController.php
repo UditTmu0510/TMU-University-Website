@@ -3,13 +3,28 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Recruiters;
+use App\Models\Testimonials;
+use App\Models\Programmes;
 
 class NursingController extends Controller
 {
     
 public function index()
 {
-    return view('university.colleges.nursing.nursing_home');
+    
+         $testimonials = Testimonials::where('cd_id', 4)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+      $recruiters = Recruiters::where('cd_id', 4)
+    ->where('display_college_main', 'Y')
+    ->where('status', 'Y')
+    ->orderBy('recruiter_id', 'desc')
+    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+    ->get();
+    return view('university.colleges.nursing.nursing_home',compact('recruiters','testimonials'));
 }
 
     
@@ -120,7 +135,8 @@ public function index()
 
     public function nursing_syllabus()
     {
-        return view('university.colleges.nursing.nursing_syllabus');
+        $programmes = Programmes::where('cd_id',4)->where('status','Y')->get();
+        return view('university.colleges.nursing.nursing_syllabus',compact('programmes'));
     }
 
     public function nursing_timetable()

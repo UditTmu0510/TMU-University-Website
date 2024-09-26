@@ -3,12 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonials;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\DB;
+use Exception;
+use Illuminate\Support\Str;
+use App\Models\Programmes;
 
 class DentalController extends Controller
 {
     public function index()
     {
-        return view('university.colleges.dental.dental_home');
+         $testimonials = Testimonials::where('cd_id', 3)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+        return view('university.colleges.dental.dental_home', compact('testimonials'));
     }
     
     public function dental_overview()
@@ -38,7 +49,8 @@ class DentalController extends Controller
 
     public function dental_syllabus()
     {
-        return view('university.colleges.dental.dental_syllabus');
+           $programmes = Programmes::where('cd_id',3)->where('status','Y')->get();
+        return view('university.colleges.dental.dental_syllabus',compact('programmes'));
     }
 
     public function dental_timetable()

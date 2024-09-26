@@ -3,13 +3,32 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonials;
+use App\Models\Recruiters;
+use App\Models\Programmes;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\DB;
+use Exception;
+use Illuminate\Support\Str;
 
 class AgricultureController extends Controller
 {
     
     public function index()
     {
-        return view('university.colleges.agriculture.agriculture_home');
+         $testimonials = Testimonials::where('cd_id', 16)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+  $recruiters = Recruiters::where('cd_id', 16)
+    ->where('display_college_main', 'Y')
+    ->where('status', 'Y')
+    ->orderBy('recruiter_id', 'desc')
+    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+    ->get();
+
+        return view('university.colleges.agriculture.agriculture_home',compact('testimonials','recruiters'));
     }
     
     public function agriculture_academic_calendar()
@@ -82,7 +101,8 @@ class AgricultureController extends Controller
     }
     public function agriculture_syllabus()
     {
-        return view('university.colleges.agriculture.agriculture_syllabus');
+        $programmes = Programmes::where('cd_id',16)->where('status','Y')->get();
+        return view('university.colleges.agriculture.agriculture_syllabus',compact('programmes'));
     }
 
     public function agriculture_timetable()

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonials;
+use App\Models\Programmes;
 
 class MedicalController extends Controller
 {
@@ -11,7 +13,12 @@ class MedicalController extends Controller
     
     public function index()
     {
-        return view('university.colleges.medical.medical_home');
+          $testimonials = Testimonials::where('cd_id', 2)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+        return view('university.colleges.medical.medical_home',compact('testimonials'));
     }
 
     public function medical_about_us()
@@ -133,9 +140,10 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.medical_contactus');
     }
-    public function medical_syllabus()
+     public function medical_syllabus()
     {
-        return view('university.colleges.medical.medical_syllabus');
+        $programmes = Programmes::where('cd_id',2)->where('status','Y')->get();
+        return view('university.colleges.medical.medical_syllabus',compact('programmes'));
     }
     public function medical_anatomy()
     {

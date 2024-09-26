@@ -3,13 +3,28 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Recruiters;
+use App\Models\Testimonials;
+use App\Models\Programmes;
 
 class PharmacyController extends Controller
 {
     
     public function index()
     {
-        return view('university.colleges.pharmacy.pharmacy_home');
+        
+          $testimonials = Testimonials::where('cd_id', 5)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+          $recruiters = Recruiters::where('cd_id', 5)
+    ->where('display_college_main', 'Y')
+    ->where('status', 'Y')
+    ->orderBy('recruiter_id', 'desc')
+    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+    ->get();
+        return view('university.colleges.pharmacy.pharmacy_home',compact('recruiters','testimonials'));
     }
     
 
@@ -35,7 +50,8 @@ class PharmacyController extends Controller
 
     public function pharmacy_syllabus()
     {
-        return view('university.colleges.pharmacy.pharmacy_syllabus');
+            $programmes = Programmes::where('cd_id',5)->where('status','Y')->get();
+        return view('university.colleges.pharmacy.pharmacy_syllabus',compact('programmes'));
     }
 
 

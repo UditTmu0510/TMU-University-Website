@@ -3,15 +3,33 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonials;
+use App\Models\Recruiters;
+use App\Models\Programmes;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\DB;
+use Exception;
+use Illuminate\Support\Str;
 
 class EngineeringController extends Controller
 {
     
-    public function index()
+     public function index()
     {
-        return view('university.colleges.engineering.faculty_of_engineering');
-    }
+        $testimonials = Testimonials::where('cd_id', 11)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('story_id', 'ASC')
+            ->get();
+              $recruiters = Recruiters::where('cd_id', 11)
+    ->where('display_college_main', 'Y')
+    ->where('status', 'Y')
+    ->orderBy('recruiter_id', 'desc')
+    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+    ->get();
 
+        return view('university.colleges.engineering.faculty_of_engineering', compact('testimonials','recruiters'));
+    }
    
     public function engineering_about_us()
     {
@@ -100,6 +118,7 @@ class EngineeringController extends Controller
 
     public function engineering_syllabus()
     {
-        return view('university.colleges.engineering.engineering_syllabus');
+           $programmes = Programmes::where('cd_id',11)->where('status','Y')->get();
+        return view('university.colleges.engineering.engineering_syllabus',compact('programmes'));
     }
 }

@@ -26,7 +26,6 @@ class NewsController extends Controller
 
 
 
-
    public function news_info($slug)
    {
       $news = News::where('n_slug', $slug)->where('status', 1)->firstOrFail();
@@ -95,4 +94,8 @@ class NewsController extends Controller
 
       return view('university.news.all_news', compact('news_categories', 'colleges', 'news_post'));
    }
+   
+   // Sankit Code ends here
+
+
 }

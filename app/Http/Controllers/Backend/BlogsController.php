@@ -9,28 +9,29 @@ use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 use Illuminate\Support\Facades\Session;
 use App\Models\User;
+use App\Models\Colleges;
 use App\Models\BlogsCategory;
+use App\Models\Blogs;
 use Illuminate\Validation\ValidationException;
 use App\Exports\PermissionExport;
 use Maatwebsite\Excel\Facades\Excel;
-use App\Imports\PermissionImport;
 use Illuminate\Support\Facades\DB;
-use Exception;
-use App\Models\Post;
 use Intervention\Image\Laravel\Facades\Image;
 use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Response;
 use Carbon\Carbon;
-
 
 class BlogsController extends Controller
 {
+  
 
-    public function blog_info($slug)
+// Sankit Code Starts Here
+
+  public function blog_info($slug)
     {
         try {
             // Fetch the blog post from the 'post' table using the slug
-            $blog = Post::where('n_slug', $slug)->where('status', 1)->firstOrFail();
+            $blog = Blogs::where('n_slug', $slug)->where('status', 1)->firstOrFail();
 
             // Fetch comments related to the blog post using a join
             $allComments = DB::table('post_comments')
@@ -52,7 +53,7 @@ class BlogsController extends Controller
             $blog_categories = BlogsCategory::latest()->get();
 
             // Fetch top 5 recent posts
-            $recentPosts = Post::where('status', 1)
+            $recentPosts = Blogs::where('status', 1)
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
                 ->get()
@@ -61,7 +62,7 @@ class BlogsController extends Controller
                     return $post;
                 });
 
-            $popularPosts = Post::where('status', 1)
+            $popularPosts = Blogs::where('status', 1)
                 ->orderBy('popular_priority', 'DESC')
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
@@ -71,13 +72,13 @@ class BlogsController extends Controller
                     return $post;
                 });
 
-            $previousPost = Post::where('status', 1)
+            $previousPost = Blogs::where('status', 1)
                 ->where('id', '<', $blog->id)
                 ->orderBy('id', 'DESC')
                 ->first();
 
             // Fetch the next post (post with the next higher id)
-            $nextPost = Post::where('status', 1)
+            $nextPost = Blogs::where('status', 1)
                 ->where('id', '>', $blog->id)
                 ->orderBy('id', 'ASC')
                 ->first();
@@ -130,7 +131,7 @@ class BlogsController extends Controller
             session()->forget(['blogs_category', 'from_date', 'to_date']);
 
             // Initialize query builder without any filters
-            $query = Post::where('status', 1);
+            $query = Blogs::where('status', 1);
         } else {
             if (!$request->hasAny(['blogs_category', 'from_date', 'to_date'])) {
                 // Clear all filter session data
@@ -138,7 +139,7 @@ class BlogsController extends Controller
             }
         
             // Initialize query builder for posts
-            $query = Post::where('status', 1);
+            $query = Blogs::where('status', 1);
 
             // Apply filters if present
             if ($request->has('blogs_category') && $request->blogs_category != '') {
@@ -175,4 +176,7 @@ class BlogsController extends Controller
 
         return view('university.blogs.all_blogs', compact('blog_categories', 'blog_post'));
     }
+// Sankit Code Ends Here
+    
 }
+
