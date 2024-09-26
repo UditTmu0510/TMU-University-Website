@@ -131,7 +131,7 @@
 				<!-- Add the horizontal line here -->
 				<hr class="horizontal-line">
 
-				<button class="careers-accordion">Working environment<span class="icon">+</span></button>
+				<button class="careers-accordion">Working Environment<span class="icon">+</span></button>
 				<div class="panel">
 					<table class="table table-bordered table-striped">
 						<thead>

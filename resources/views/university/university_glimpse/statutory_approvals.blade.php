@@ -110,7 +110,7 @@
                   <p class="text-justify">To be a World Leader in the integration of teaching and learning, advancement
                     of the knowledge base through research & leadership in service and outreach. Its visit to
                     Teerthanker Mahaveer University to assess and evaluate its propels in accordance with UGC
-                    (Establishment of and Maintenance of Standards in Private University) Regulations, 2003.</p>
+                    (Establishment and Maintenance of Standards in Private University) Regulations, 2003.</p>
                 </div>
               </div>
               <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center p-3">

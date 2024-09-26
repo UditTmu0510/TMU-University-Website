@@ -39,7 +39,7 @@
                 <p>Code of Conduct</p>
             </a>
             <a href="{{route('commemorative.days')}}" class="custom-menu-item {{ setActive('commemorative.days') }}">
-                <p>Comemorative Days</p>
+                <p>Commemorative Days</p>
             </a>
         </div>
     </div>

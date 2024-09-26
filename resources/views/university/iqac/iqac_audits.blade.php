@@ -30,7 +30,7 @@
 								</tr>
 								<tr>
 									<td>2.</td>
-									<td>Engergy Audit Report</td>
+									<td>Energy Audit Report</td>
 									<td class="text-center"><a
 											href="{{asset('assets/pdf/environment_and_energy_audit/energy-audit-report.pdf')}}"><i
 												class="fa-solid fa-file-pdf"></i></a></td>
@@ -81,7 +81,7 @@
 								<div class="team-desc p-2">
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
-											class="fa-solid fa-location-dot"></i> Ginnaur Deya Mafi, <br> Uttar Pradhesh</span>
+											class="fa-solid fa-location-dot"></i> Ginnaur Deya Mafi, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/Ginnaur1.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -99,7 +99,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Gajgola Nanak Bari, <br> Uttar Pradhesh</span>
+											Gajgola Nanak Bari, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/gajgola1.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -117,7 +117,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Aurangabad, Moradabad <br> Uttar Pradhesh</span>
+											Aurangabad, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/aurangabad1.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -135,7 +135,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Ginnaur Deya Mafi, <br> Uttar Pradhesh</span>
+											Ginnaur Deya Mafi, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/Ginnaur2.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -153,7 +153,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Gajgola Nanak Bari, <br> Uttar Pradhesh</span>
+											Gajgola Nanak Bari, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/gajgola2.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -171,7 +171,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Manoharpur, Moradabad <br> Uttar Pradhesh</span>
+											Manoharpur, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/manohapur1.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -189,7 +189,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-												Ginnaur Deya Mafi, <br> Uttar Pradhesh</span>
+												Ginnaur Deya Mafi, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/Ginnaur3.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -207,7 +207,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-												Aurangabad, Moradabad <br> Uttar Pradhesh</span>
+												Aurangabad, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/aurangabad2.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -225,7 +225,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At </h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-												Manoharpur, Moradabad <br> Uttar Pradhesh</span>
+												Manoharpur, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/manohapur2.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -243,7 +243,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-												Gajgola Nanak Bari, <br> Uttar Pradhesh</span>
+												Gajgola Nanak Bari, <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/gajgola3.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -261,7 +261,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-											Aurangabad, Moradabad <br> Uttar Pradhesh</span>
+											Aurangabad, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/aurangabad3.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>
@@ -279,7 +279,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Activities At</h4><span class="fst-normal fs-12 mb-2"><i
 												class="fa-solid fa-location-dot"></i>
-												Manoharpur, Moradabad <br> Uttar Pradhesh</span>
+												Manoharpur, Moradabad <br> Uttar Pradesh</span>
 											<div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/energy_audit/download/manohapur1.jpeg')}}"> Download Geo Tag Image</div>
 									</div>
 								</div>

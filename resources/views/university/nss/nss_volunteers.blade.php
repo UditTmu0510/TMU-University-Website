@@ -6,7 +6,7 @@
   <div class="container">
     <h1 class="tmu-text-primary tmu-page-heading">
       <span>NSS </span>
-      <span> Vounteers</span>
+      <span> Volunteer</span>
     </h1>
     <div class="row mb-3">
       <p class="mb-3"><b>Who can enroll:</b> Any person who is enroll himself / herself as a regular student in any undergraduate course at +2 stage affiliated to the Universities recognized by UGC / State Government. Only for NSS open unit at the University level any person who is socially oriented and in willing to devote his / her time for social service can enroll himself / herself.</li>

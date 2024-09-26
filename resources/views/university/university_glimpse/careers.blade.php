@@ -31,11 +31,11 @@
                                 <li>Serve as a bridge between students, faculty, and administration.</li>
                                 <li>Implement effective systems for continuous assessment and evaluation.</li>
                                 <li>Contribute to the development of academic policies to improve accreditation & ranking framework. Suggest and upgrade the existing programme, structure, course content, etc.</li>
-                                <li>in alignment with NEP-2020.</li>
+                                <li>In alignment with NEP-2020.</li>
                                 <li>Regular monitoring and effective conduct of classes by teaching faculty.</li>
                                 <li>Students' Feedback - collection, analysis and proper action to be taken thereof.</li>
                                 <li> Encourage Industry- Institution Partnership Programs to facilitate Industrial collaborations, training and MoUs with various Research Institutes, Universities and Centre of Excellence in India and Abroad.</li>
-                                <li>VACANCY</li>
+                                <!-- <li>VACANCY</li> -->
                                 <li>Lead improvement in technology enabled learning and suggest innovative pedagogical tools & techniques.</li>
                              </ol>
                         <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"><a href="https://www.tmu.ac.in/assets/img/associate_dean_academics.jpeg" target="blank">Read More</a></button>
@@ -189,7 +189,7 @@
                         <div class="card counter-card">
                             <div class="card-body">
                                 <h4 class="card-title-job" style="text-align: justify;">Community and Social Responsibility </h4>
-                                <p class="card-text text-color" style="text-align: justify;">Engage in meaningful community service and sustainability initiatives. TMU is committed to social responsibility and offers various platforms for staff to contribute to societal improvement.</p>
+                                <p class="card-text text-color" style="text-align: justify;">Engage in meaningful community service and sustainability initiatives. TMU is committed to social responsibility and offers various platforms for staff to contribute to social improvement.</p>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
     <button class="careers-accordion">Does University provide transport?<span class="icon">+</span></button>
     <div class="panel">
         <p>Yes, Teerthanker Mahaveer University offers pick and drop facility to students and staff coming from within
-            the radial distance of 100 Kms. For added safety, the buses have camera surveillance inside it too.</p>
+            the radial distance of 100 Km. For added safety, the buses have camera surveillance inside it too.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">

@@ -14,7 +14,7 @@
     <section class="about-section bg-light mt-4">
       <div class="container">
         <div class="text-content p-3">
-          <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Greviances
+          <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Grievances
               Portal</span></h1>
           <p class="about-p mb-4 text-justify">In order to promote a responsive and conducive academic
             environment on the campus, each College/Independent Teaching Department shall establish a
@@ -98,7 +98,7 @@
                 </tr>
                 <tr>
                   <td>(iv)</td>
-                  <td>Dy. Registrar or Asstt. Registrar or Administrative Officer
+                  <td>Deputy Registrar, Assistant Registrar, or Administrative Officer
                     <br>OR
                     <br>A person not below the rank of an Asstt. Professor (to be
                     nominated by the Principal)

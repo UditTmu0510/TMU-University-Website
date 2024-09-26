@@ -38,7 +38,7 @@
         <li>Development and application of quality benchmarks for various academic and administrative activities of
           various departments and colleges and thus of the University.</li>
         <li>Facilitating creation of a student-centric environment which is conducive to quality education.</li>
-        <li>Creating awareness amongst the faculty members to adopt the required knowledge and technology for
+        <li>Create awareness among the faculty members to adopt the required knowledge and technology for
           participatory teaching and learning processes.</li>
         <li>Arrangement for feedback response from students, parents, and other stakeholders on quality-related
           University processes.</li>

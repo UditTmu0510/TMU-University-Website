@@ -53,7 +53,7 @@
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">Battery Operted Golf Cart</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
+                    <h4 class="fs-14">Battery Operated Golf Cart</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
                     <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/battery_power_vehicle1.jpeg')}}"> Download Geo Tag Image</div>
 
                   </div>
@@ -189,7 +189,7 @@
                   <div class="team-title pt-0">
                     <h4 class="fs-14">Pedestrian-Friendly Pathways</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/pedestrain1.jpeg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/pedestrian1.jpeg')}}"> Download Geo Tag Image</div>
 
                   </div>
                 </div>
@@ -205,7 +205,7 @@
                   <div class="team-title pt-0">
                     <h4 class="fs-14">Pedestrian-Friendly Pathways</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/pedestrain2.jpeg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/pedestrian2.jpeg')}}"> Download Geo Tag Image</div>
 
                   </div>
                 </div>
@@ -321,7 +321,7 @@
 
         <button class="careers-accordion"> Landscaping<span class="icon">+</span></button>
         <div class="panel">
-          <p>The University has planned an attractive landscaping scheme through which lawns and grounds are maintained. In the last five years University has taken the initiation & large no of trees & plants are implanted in the grounds & road side area. Different constituent’s college/ departments celebrates the World Environment Day every year, on 5thjune.
+          <p>The University has planned an attractive landscaping scheme through which lawns and grounds are maintained. In the last five years University has taken the initiation & large no of trees & plants are implanted in the grounds & road side area. Different constituent’s college/ departments celebrates the World Environment Day every year, on 5th June.
             In 2019 the tree plantation campaign was inaugurated by Mohd. Shami, Member-Indian Cricket Team</p>
 
           <div class="row gutter-30 col-mb-5 mb-3">
@@ -460,7 +460,7 @@
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
-                    <h4 class="fs-14">plantation by Mohd. Shami, Memeber-Indian Cricekt Team</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
+                    <h4 class="fs-14">plantation by Mohd. Shami, Member - Indian Cricket Team</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
                       <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/green_campus/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
                   </div>

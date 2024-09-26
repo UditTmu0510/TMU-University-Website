@@ -42,7 +42,7 @@
 						<h3 class="fw-bold tmu-text-primary mt-4 mb-0"><span>Our  </span><span> Focus </span></h3>
 						
 						<p>In our quest to make the university an ultimate destination for world-class education,
-							following nine-fold priority areas have been identified for actions:</p>
+							the following nine-fold priority areas have been identified for action:</p>
 					</div>
 					<div class="container mb-5">
 						<div class="row mt-4">
@@ -120,7 +120,7 @@
 								<div class="media d-flex">
 									<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 									<div class="media-body">
-										<h4 class="mb-1 font-body mt-1">Enterpreneurial Culture</h4>
+										<h4 class="mb-1 font-body mt-1">Entrepreneurial Culture</h4>
 										<p class="mb-2">Nurture entrepreneurial capabilities to accelerate growth.</p>
 									</div>
 								</div>

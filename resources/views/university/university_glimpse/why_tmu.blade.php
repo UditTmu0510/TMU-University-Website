@@ -11,7 +11,7 @@
         <div class="container mt-5 mb-5">
             <h1 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>World Class </span><span
                     class="d-block d-sm-inline">INFRASTRUCTURE</span></h1>
-            <div class="row">
+            <div class ="row">
                 <div class="col-12 col-lg-6">
                     <p class="person-quote mb-3 mt-3">TMU's campus, spanning over 130 acres, is a showcase of modern
                         infrastructure and state-of-the-art facilities. It houses 14 specialized colleges, offering a
@@ -93,7 +93,7 @@
 
 
         <div class="container mt-5 mb-5">
-            <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Super Speciality</span><span
+            <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Super Specialty</span><span
                     class="d-block d-sm-inline"> Hospital</span></h2>
             <div class="row">
 
@@ -184,7 +184,7 @@
             </div>
 
             <p class="person-quote mb-3 mt-5">Understanding that 88% of a candidate's appeal in corporate interviews is
-                based on soft skills, the Centre for Teaching Learning and Development at TMU emphasises developing
+                based on soft skills, the Centre for Teaching, Learning, and Development at TMU emphasises developing
                 essential life skills alongside academic knowledge. It offers training in quantitative, reasoning, and
                 verbal abilities, as well as enhancing interpersonal skills like communication and teamwork. This
                 approach ensures students are well-rounded and ready for the demands of their future workplaces, making

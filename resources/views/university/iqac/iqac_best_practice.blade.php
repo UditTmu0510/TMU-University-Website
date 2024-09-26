@@ -15,7 +15,7 @@
                 <p>Establishment of Centre for Teaching, Learning and Development (CTLD).</p>
 
                 <ol class="ps-5 m-ol-list">
-                    <li><b>Objective of the Prcatice:</b> To develop student’s personality, enhance placement possibilities and prospects.</li>
+                    <li><b>Objective of the Practice:</b> To develop student’s personality, enhance placement possibilities and prospects.</li>
                     <li style="margin-top:10px;"><b>The Context:</b> In TMU large numbers of students are from rural and Hindi medium background, so it is decided to ensure the requisite soft skills (SS) and quantitative attitude (QA) in students.</li>
                     <li style="margin-top:10px;"><b>The Practice:</b> CTLD offers three soft skills and six QA courses:</li>
                     <li style="margin-top:10px;"><b>Evidence of Success:</b>Good Placements despite of pandemic situation and students successfully cleared the competitive examinations.</li>
@@ -29,7 +29,7 @@
             <p>Incentivization Schemes for Research Promotion (ISRP).</p>
 
             <ol class="ps-5 m-ol-list">
-                <li><b>Objective of the Prcatice:</b> To encourage the faculty for quality research publications, seminars & Workshop.</li>
+                <li><b>Objective of the Practice:</b> To encourage the faculty for quality research publications, seminars & Workshop.</li>
                 <li style="margin-top:10px;"><b>The Context:</b>To improve overall research performance and promote research activities.</li>
                 <li style="margin-top:10px;"><b>The Practice:</b><br>1. Faculty Participation in Conferences/Seminars/Workshops/FDPs.
                     <br> 2. Incentives for Research publications.

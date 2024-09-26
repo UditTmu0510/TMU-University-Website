@@ -67,7 +67,7 @@
               </tr>
               <tr>
                 <td>12</td>
-                <td>Swacchh Bharat Abhiyan Program</td>
+                <td>Swachh Bharat Abhiyan Program</td>
               </tr>
               <tr>
                 <td>13</td>

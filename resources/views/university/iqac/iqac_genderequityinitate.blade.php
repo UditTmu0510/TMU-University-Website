@@ -20,7 +20,7 @@
         <h3 class="tmu-text-primary"><span> Session 2022-23 (01<sup>st</sup> July 2022 </span><span> TO
             30<sup>th</sup> June 2022)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Anual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel active">
           <div class="table-responsive">
@@ -29,7 +29,7 @@
                 <tr>
                   <th style="width:2%;text-align:center">S.No</th>
                   <th style="width:18%;text-align:center">Date & Month</th>
-                  <th class="text-center">Planed Activities Name</th>
+                  <th class="text-center">Planned Activities Name</th>
                 </tr>
               </thead>
               <tbody>
@@ -76,14 +76,14 @@
                 <tr>
                   <td>9</td>
                   <td>June-23</td>
-                  <td>Care In Pregnancy and Female Hygiene</td>
+                  <td>Care in Pregnancy and Female Hygiene</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Anual Gender Sensitization Activities Conducted<span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Conducted<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -182,7 +182,7 @@
                 <tr>
                   <td>10</td>
                   <td>5-Jun-23</td>
-                  <td>Care In Pregnancy And Female Hygiene</td>
+                  <td>Care in Pregnancy And Female Hygiene</td>
                   <td>
                     <center><a href="{{asset('/assets/img/department/iqac/gender_equity_initiative/Sr_N_09_3.jpg')}}" target="_blank"><i class="fas fa-image"></i></a></center>
                   </td>
@@ -206,7 +206,7 @@
         <h3 class="tmu-text-primary"><span>Session 2021-22 (01<sup>st</sup> June 2021 </span><span> TO 31<sup>st</sup>
             August 2022)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Anual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -214,7 +214,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -273,7 +273,7 @@
         </div>
 
         <hr class="horizontal-line">
-        <button class="careers-accordion"> Anual Gender Sensitization Activities Conducted<span
+        <button class="careers-accordion"> Annual Gender Sensitization Activities Conducted<span
             class="icon">+</span></button>
         <div class="panel">
           <table class="table table-bordered table-striped">
@@ -379,7 +379,7 @@
         <h3 class="tmu-text-primary"><span>Session 2020-21 (01<sup>st</sup> July 2020 </span><span> TO 30<sup>th</sup>
             June 2021)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion"> Annual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion"> Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -387,7 +387,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -496,7 +496,7 @@
         <h3 class="tmu-text-primary"><span>Session 2019-20 (01<sup>st</sup> July 2019 </span><span> TO 30<sup>th</sup>
             June 2020)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Annual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -504,7 +504,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -628,7 +628,7 @@
         <h3 class="tmu-text-primary"><span>Session 2018-19 (01<sup>st</sup> July 2018 </span><span> TO 30<sup>th</sup>
             June 2019)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion"> Anual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion"> Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -636,7 +636,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -726,7 +726,7 @@
         <h3 class="tmu-text-primary"><span>Session 2017-18 (01<sup>st</sup> July 2017 </span><span> TO 30<sup>th</sup>
             June 2018)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion"> Anual Gender Sensitization Activities Planed<span
+        <button class="careers-accordion"> Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -734,7 +734,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -815,7 +815,7 @@
         <h3 class="tmu-text-primary"><span>Session 2016-17 (01<sup>st</sup> July 2016 </span><span> TO 30<sup>th</sup>
             June 2017)</span></h3>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Anual Gender Sensitization Activities Planed <span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Planned <span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">
@@ -823,7 +823,7 @@
               <thead>
                 <th>S. No.</th>
                 <th>Activities Month</th>
-                <th>Planed Activities Name</th>
+                <th>Planned Activities Name</th>
               </thead>
               <tbody>
                 <tr>
@@ -862,7 +862,7 @@
           </div>
         </div>
         <hr class="horizontal-line">
-        <button class="careers-accordion">Anual Gender Sensitization Activities Conducted <span
+        <button class="careers-accordion">Annual Gender Sensitization Activities Conducted <span
             class="icon">+</span></button>
         <div class="panel">
           <div class="table-responsive">

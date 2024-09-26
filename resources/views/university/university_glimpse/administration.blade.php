@@ -9,14 +9,14 @@
 <div class="main-content">
     <div class="container">
 
-          <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>aboutus</span><span> Administration</span></h1>
+          <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Our </span><span> Administration</span></h1>
           <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
               <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/suresh.jpg')}}" class="card-img-top" alt="Suesh Jain Sir">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri. Suresh Jain</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Suresh Jain</span></h5>
                     <p class="card-text fs-14">Chancellor</p>
                     <p class="card-text fs-14">chancellor@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-591-2360000</p>
@@ -27,7 +27,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/chairman.jpg')}}" class="card-img-top" alt="Manish Jain Sir">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri. Manish Jain</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Manish Jain</span></h5>
                     <p class="card-text fs-14">Group Vice Chairman</p>
                     <p class="card-text fs-14">vc@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-591-2360888</p>
@@ -38,7 +38,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/akshat.jpg')}}" class="card-img-top" alt="Akshat Jain Sir">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Akshat Jain</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>ShriAkshat Jain</span></h5>
                     <p class="card-text fs-14">Executive Director</p>
                     <p class="card-text fs-14">akshat.jain@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-591-2360000</p>
@@ -71,7 +71,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/abhishek.jpg')}}" class="card-img-top" alt="Abhishek Sir">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Abhishek kapoor</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>ShriAbhishek kapoor</span></h5>
                     <p class="card-text fs-14">Director (Administration)</p>
                     <p class="card-text fs-14">director.admin@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-9917100544</p>
@@ -104,7 +104,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/sag1.jpg')}}" class="card-img-top" alt="Ajay Sir">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Ajay Garg</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>ShriAjay Garg</span></h5>
                     <p class="card-text fs-14">Director (Hospital Administration)</p>
                     <p class="card-text fs-14">dir.ha@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-9568626444</p>
@@ -137,7 +137,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/avneeshsir.jpg')}}" class="card-img-top" alt="Avnish Kumar">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Avnish Kumar</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>ShriAvnish Kumar</span></h5>
                     <p class="card-text fs-14">Director Admissions</p>
                     <p class="card-text fs-14">jd.admissions@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-7060508828</p>
@@ -182,7 +182,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/srpg.png')}}" class="card-img-top" alt=" R. P. Gupta">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri. R. P. Gupta</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri R. P. Gupta</span></h5>
                     <p class="card-text fs-14">Jt. Director (Security)</p>
                     <p class="card-text fs-14">dy.dir.ssw@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-9639236666</p>
@@ -228,7 +228,7 @@
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
                     <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Jyoti Puri</span></h5>
                     <p class="card-text fs-14">Associate Dean (Ph.D Cell)</p>
-                    <p class="card-text fs-14">joint.registrar@tmu.ac.i</p>
+                    <p class="card-text fs-14">joint.registrar@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-9837016031</p>
                   </div>
                 </div>
@@ -294,7 +294,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/vipinjain.jpg')}}" class="card-img-top" alt="Vipin Jain">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri. Vipin Jain</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Vipin Jain</span></h5>
                     <p class="card-text fs-14">Chief Warden</p>
                     <p class="card-text fs-14">dy.dir.hh@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-9837763888</p>
@@ -305,7 +305,7 @@
                 <div class="card card-animation admin-cards">
                   <img src="{{asset('/assets/img/aboutus/administration/gauravsir.png')}}" class="card-img-top" alt="Gaurav Agarwal">
                   <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri. Gaurav Agarwal</span></h5>
+                    <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Shri Gaurav Agarwal</span></h5>
                     <p class="card-text fs-14">Deputy Director (Accounts)</p>
                     <p class="card-text fs-14">dy.dir.accounts@tmu.ac.in</p>
                     <p class="card-text fs-14">+91-591-2478551</p>

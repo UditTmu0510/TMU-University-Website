@@ -11,7 +11,7 @@
     <div class="container mb-3 mt-3">
       <hr class="horizontal-line">
 
-      <button class="careers-accordion"> Inclusive Environmnet Activities<span class="icon">+</span></button>
+      <button class="careers-accordion"> Inclusive Environment Activities<span class="icon">+</span></button>
       <div class="panel active">
         <div class="row justify-content-center gutter-30 col-mb-2">
           <div class="col-sm-8">
@@ -148,7 +148,7 @@
       <button class="careers-accordion"> ROCK-ON (A CULTURAL FEST)<span class="icon">+</span></button>
       <div class="panel pt-2">
         <p>The university has been organizing cultural extravaganza Rock-On. In the past eminent performers like Shaan,
-          Sunidhi Chauhan, Sukhwinder Singh, Mika, Sonu Nigam, Band of Boys, Amaal Malik &Armaan Malik and many others
+          Sunidhi Chauhan, Sukhwinder Singh, Mika, Sonu Nigam, Band of Boys, Amaal Malik & Armaan Malik and many others
           have graced the shows.</p>
       </div>
 
@@ -220,21 +220,21 @@
               <td>8</td>
               <td>27/10/2015</td>
               <td>10:30 PM</td>
-              <td>Goti Pok Fock</td>
+              <td>Goti Pok Folk</td>
               <td>Sh. Vijoy Sahu & Group</td>
             </tr>
             <tr>
               <td>9</td>
               <td>27/10/2015</td>
               <td>10:00 AM</td>
-              <td>Goti Pok Fock</td>
+              <td>Goti Pok Folk</td>
               <td>Sh. Vijoy Sahu & Group</td>
             </tr>
             <tr>
               <td>10</td>
               <td>29/10/2015</td>
               <td>2:00 PM</td>
-              <td>Goti Pok Fock</td>
+              <td>Goti Pok Folk</td>
               <td>Sh. Vijoy Sahu & Group</td>
             <tr>
               <td>11</td>
@@ -303,35 +303,35 @@
               <td>20</td>
               <td>21/11/2018</td>
               <td>10:00 AM</td>
-              <td>Rajasthan Fock Dance</td>
+              <td>Rajasthan Folk Dance</td>
               <td>Sh. Rose Khan & Group</td>
             </tr>
             <tr>
               <td>21</td>
               <td>21/11/2018</td>
               <td>2:00 PM</td>
-              <td>Rajasthan Fock Dance</td>
+              <td>Rajasthan Folk Dance</td>
               <td>Sh. Rose Khan & Group</td>
             </tr>
             <tr>
               <td>22</td>
               <td>22/11/2018</td>
               <td>2:00 PM</td>
-              <td>Rajasthan Fock Dance</td>
+              <td>Rajasthan Folk Dance</td>
               <td>Sh. Rose Khan & Group</td>
             </tr>
             <tr>
               <td>23</td>
               <td>27/11/2018</td>
               <td>10:00 AM</td>
-              <td>Rajasthan Fock Dance</td>
+              <td>Rajasthan Folk Dance</td>
               <td>Sh. Rose Khan & Group</td>
             </tr>
             <tr>
               <td>24</td>
               <td>27/11/2018</td>
               <td>2:00 PM</td>
-              <td>Rajasthan Fock Dance</td>
+              <td>Rajasthan Folk Dance</td>
               <td>Sh. Rose Khan & Group</td>
             </tr>
             <tr>

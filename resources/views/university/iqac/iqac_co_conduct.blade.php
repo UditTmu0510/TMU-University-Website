@@ -18,7 +18,7 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td>Prof. V.K Jain, Vice Chancellor</td>
+              <td>Prof. V. K. Jain, Vice Chancellor</td>
               <td>Chairperson</td>
             </tr>
             <tr>
@@ -77,7 +77,7 @@
           <li style="margin-top:10px;">Use of cell phone is strictly prohibited in university teaching areas. The cell phone will be confiscated, if found being used in prohibited area.</li>
           <li style="margin-top:10px;">Smoking, chewing pan, pan-masala, gutka, gambling, consumption of alcoholic drinks and use of hallucinogenic drugs and other illegal substances, or the possession of such substances, anywhere in the University campus, is strictly forbidden.</li>
           <li style="margin-top:10px;">Carrying any explosive/fire arm, and/or weapon inside the campus is strictly prohibited.</li>
-          <li style="margin-top:10px;">Non-vegetarian food is strictly prohibited in the campus.</li>
+          <li style="margin-top:10px;">Non-vegetarian food is strictly prohibited on the campus.</li>
           <li style="margin-top:10px;">Students are advised not to indulge in any prohibited, illegal and unethical, immoral activities inside and/or outside the College/University campus, or else, they will be liable for punishment as per University rules.</li>
           <li style="margin-top:10px;">Safety of all personal valuables/belongings will be the responsibility of the student.</li>
           <li style="margin-top:10px;">If the student is found involved in activities resulting in direct or indirect loss/damage to the College/ University, the same shall be borne by the student. He/ She will be asked to compensate the university for the same.</li>

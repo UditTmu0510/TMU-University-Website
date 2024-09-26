@@ -61,7 +61,7 @@
                       <div class="col-lg-6 col-xl-4">
                         <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
                           <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
-                          <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
+                          <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Research Centre</li></a>
                           <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
                           <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Pharmacy</li></a>
                           <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Paramedical Sciences</li></a>
@@ -200,7 +200,7 @@
                           <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                         </td>
                         <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Law & Legal Studies</b><br>
-                          Established in 2010, the College attracts bright minds aspiring to contribute meaningfully to the legal profession, offering integrated LL.B. programmes and a Ph.D. in law.
+                          Established in 2010, the College attracts bright minds aspiring to contribute meaningfully to the legal profession, offering integrated LL.B. programmes and a Ph.D. in Law.
                       </tr>
                       <tr>
                         <td>
