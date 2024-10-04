@@ -16,6 +16,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+.DS_Store
 # Ignore all files and folders in the public directory
 /public/*
 
