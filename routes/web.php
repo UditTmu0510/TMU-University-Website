@@ -266,7 +266,34 @@ Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
 Route::get('/tmu/scholarship', [TmuController::class, 'university_scholarship'])->name('tmu.scholarship');
 Route::get('/tmu/education-loan', [TmuController::class, 'university_education_loan'])->name('tmu.loan');
 
+//Teaching Facilities
+Route::get('/tmu/teaching-facility', [TmuController::class, 'teaching_facility'])->name('teaching.facility');
+Route::get('/tmu/central-instrumental-facilities', [TmuController::class, 'central_instrument_facility'])->name('central.instrument.facility');
+Route::get('/tmu/simulation-lab', [TmuController::class, 'simulation_lab'])->name('simulation.lab');
+Route::get('/tmu/skill-lab', [TmuController::class, 'skill_lab'])->name('skill.lab');
+Route::get('/tmu/media-laboratory-studio', [TmuController::class, 'media_laboratory_studio'])->name('media.laboratory.studio');
+Route::get('/tmu/museum', [TmuController::class, 'museum'])->name('museum');
+Route::get('/tmu/business-lab', [TmuController::class, 'business_lab'])->name('business.lab');
+Route::get('/tmu/animal-house', [TmuController::class, 'animal_house'])->name('animal.house');
+Route::get('/tmimt-college-of-management/eresources-studio-lab', [TmuController::class, 'eresources_studio_lab'])->name('eresources.studio.lab');
+Route::get('/tmimt-college-of-management/business-lab', [TmuController::class, 'tmimt_business_lab'])->name('tmimt.business.lab');
+Route::get('/tmu/dst-nanotechnology-lab', [TmuController::class, 'dst_nanotechnology_lab'])->name('dst.nanotechnology.lab');
 
+//classroom
+Route::get('/tmu/teaching-facility/class-room/medical', [TmuController::class, 'class_room_medical'])->name('class.room.medical');
+Route::get('/tmu/teaching-facility/class-room/nursing', [TmuController::class, 'class_room_nursing'])->name('class.room.nursing');
+Route::get('/tmu/teaching-facility/class-room/paramedical', [TmuController::class, 'class_room_paramedical'])->name('class.room.paramedical');
+Route::get('/tmu/teaching-facility/class-room/physicaleducation', [TmuController::class, 'class_room_physicaleducation'])->name('class.room.physicaleducation');
+Route::get('/tmu/teaching-facility/class-room/physiotherapy', [TmuController::class, 'class_room_physiotherapy'])->name('class.room.physiotherapy');
+Route::get('/tmu/teaching-facility/class-room/pharmacy', [TmuController::class, 'class_room_pharmacy'])->name('class.room.pharmacy');
+Route::get('/tmu/teaching-facility/class-room/education', [TmuController::class, 'class_room_education'])->name('class.room.education');
+Route::get('/tmu/teaching-facility/class-room/agriculture', [TmuController::class, 'class_room_agriculture'])->name('class.room.agriculture');
+Route::get('/tmu/teaching-facility/class-room/finearts', [TmuController::class, 'class_room_finearts'])->name('class.room.finearts');
+Route::get('/tmu/teaching-facility/class-room/management', [TmuController::class, 'class_room_management'])->name('class.room.management');
+Route::get('/tmu/teaching-facility/class-room/ccsit', [TmuController::class, 'class_room_ccsit'])->name('class.room.ccsit');
+Route::get('/tmu/teaching-facility/class-room/engineering', [TmuController::class, 'class_room_engineering'])->name('class.room.engineering');
+Route::get('/tmu/teaching-facility/class-room/dental', [TmuController::class, 'class_room_dental'])->name('class.room.dental');
+Route::get('/tmu/teaching-facility/class-room/law', [TmuController::class, 'class_room_law'])->name('class.room.law');
 
 
 // RDC_QUICK_LINKS
