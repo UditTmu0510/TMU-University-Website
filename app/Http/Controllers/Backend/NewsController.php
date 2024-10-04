@@ -24,6 +24,299 @@ use Illuminate\Support\Str;
 class NewsController extends Controller
 {
 
+  // News Category Controller Starts
+    public function AllNewsCategory()
+    {
+        $id = Auth::user()->id;
+        $profileData = User::find($id);
+        $category = NewsCategory::latest()->get();
+        return view('admin.backend.pages.newscategory.news_category',compact('category','profileData'));
+    } // End Method
+
+
+    public function AddNewsCategory(Request $request)
+    {
+     try{
+        $validateData = $request->validate([
+             'category_name' => 'required|max:255',
+             'category_slug' => 'required',
+             'category_status' => 'required'
+        ]);
+      
+        NewsCategory::create([
+             'category_name' => $validateData['category_name'],
+             'category_slug' => $validateData['category_slug'],
+             'category_status' => $validateData['category_status']
+        ]);
+       Session::flash('success','News Category Added Successfully');
+
+
+
+     }catch(ValidationException $e)
+     {
+        Session::flash('error','Validation Error in Adding News Category'.$e->getMessage());
+
+        
+     }catch(Exception $e)
+     {
+        Session::flash('error','Error in Adding News Category'.$e->getMessage());
+     
+     }
+
+     return redirect()->route('news.category');
+
+    }
+
+    public function EditNewsCategory($id)
+    {
+       $id_profile = Auth::user()->id;
+       $profileData = User::find($id_profile);
+       $news_category = NewsCategory::find($id);
+       return view('admin.backend.pages.newscategory.edit_news_category',compact('profileData','news_category'));
+
+    }
+
+public function UpdateNewsCategory(Request $request)
+{
+   try{
+$news_id = $request->id;
+$validateData = $request->validate([
+'category_name' => 'required',
+'category_status' => 'required',
+'category_slug' => 'required'
+]);
+
+NewsCategory::find($news_id)->update([
+'category_name' =>$validateData['category_name'],
+'category_status' => $validateData['category_status'],
+'category_slug' => $validateData['category_slug']
+]);
+
+Session::flash('success','Category Updated Successfully');
+
+   }catch(ValidationException $e){
+      Session::flash('error','Validation Error in Updating Category'.$e->getMessage());
+
+   }catch(Exception $e){
+      Session::flash('error','Error in Updating Category'.$e->getMessage());
+
+   }
+    return redirect()->route('news.category');
+}
+
+
+public function DeleteNewsCategory($category_id)
+{
+try{
+NewsCategory::find($category_id)->delete();
+Session::flash('success','Category Deleted Successfully');
+}catch(Exception $e){
+
+Session::flash('error','Error in deleting Category'.$e->getMessage());
+}
+return redirect()->route('news.category');
+}
+
+public function AllNews()
+{
+$id_profile = Auth::user()->id;
+$profileData = User::find($id_profile);
+$news = News::latest()->get();
+return view('admin.backend.pages.news.all_news',compact('news','profileData'));
+}
+
+public function AddNewsPost()
+{
+$news_cat = NewsCategory::latest()->get();
+$colleges = Colleges::latest()->get();
+$id_profile = Auth::user()->id;
+$profileData = User::find($id_profile);
+return view('admin.backend.pages.news.add_news_post',compact('profileData','news_cat','colleges'));
+}
+
+
+
+public function storeNewsPost(Request $request)
+{
+try{
+DB::beginTransaction();
+$validateData = $request->validate([
+   'cd_id' => 'required',
+   'event_date' => 'required',
+   'event_title' => 'required',
+   'category' => 'required',
+   'area' => 'required',
+   'display_main' => 'required',
+   'status' => 'required',
+   'ti_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+   'title_image_tag' => 'required',
+   'ei1_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+   'event_image1_tag' => 'required'
+]);
+
+$filePaths = [];
+
+$fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
+
+foreach ($fileFields as $field) {
+   if ($request->hasFile($field)) {
+       $file = $request->file($field);
+       // Generate Unique Filename
+       $timestamp = now()->timestamp;
+       $filename = $timestamp . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
+       $filePaths[$field] = $file->storeAs('news_images', $filename);
+   }
+}
+
+
+$slug = Str::slug($request->event_title);
+date_default_timezone_set('Asia/Kolkata');
+$data = [
+   'cd_id' => $request->cd_id,
+   'event_date' => $request->event_date,
+   'event_title' => $request->event_title,
+   'title_image_tag' => $request->title_image_tag,
+   'category' => $request->category,
+   'event_full_description' => $request->area,
+   'display_main' => $request->display_main,
+   'status' => $request->status,
+   'event_image1_tag' => $request->event_image1_tag,
+   'event_image2_tag' => $request->event_image1_tag, // Are you sure this is intended?
+   'event_image3_tag' => $request->event_image3_tag,
+   'event_image4_tag' => $request->event_image4_tag,
+   'event_image5_tag' => $request->event_image5_tag,
+   'event_image6_tag' => $request->event_image6_tag,
+   'n_slug' => $slug
+];
+
+News::create($data + $filePaths);
+
+DB::commit();
+Session::flash('success', 'News Uploaded Successfully !');
+
+}catch(ValidationException $e)
+{
+   DB::rollBack();
+   Session::flash('error', 'Validation Error in Uploading News'.$e->getMessage());
+}catch(Exception $e)
+{
+   DB::rollBack();
+   Session::flash('error', 'Error in Uploading News'.$e->getMessage());
+}
+return redirect()->route('all.news');
+}
+
+
+public function EditNewsPost($id)
+{
+$id_profile = Auth::User()->id;
+$profileData = User::find( $id_profile);
+$news_cat = NewsCategory::latest()->get();
+$colleges = Colleges::latest()->get();
+$news = News::find($id);
+return view('admin.backend.pages.news.edit_news_post',compact('profileData','news','news_cat','colleges'));
+
+}
+
+public function UpdateNewsPost(Request $request)
+{
+    try {
+        DB::beginTransaction();
+
+        $id = $request->news_id;
+        $news = News::findOrFail($id);
+
+        // Validate request data
+        $request->validate([
+            'cd_id' => 'required',
+            'event_date' => 'required',
+            'event_title' => 'required',
+            'category' => 'required',
+            'area' => 'required',
+            'display_main' => 'required',
+            'status' => 'required',
+            'ti_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'title_image_tag' => 'required',
+            'ei1_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'event_image1_tag' => 'required'
+        ]);
+        date_default_timezone_set('Asia/Kolkata');
+        // Handle file uploads
+        $filePaths = [];
+        $fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
+        foreach ($fileFields as $field) {
+            if ($request->hasFile($field)) {
+                $file = $request->file($field);
+                $filename = time() . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
+                $filePaths[$field] = $file->storeAs('news_images', $filename);
+            }
+        }
+
+
+
+        $slug = Str::slug($request->event_title);
+
+        // Update news
+        $news->update([
+            'cd_id' => $request->cd_id,
+            'event_date' => $request->event_date,
+            'event_title' => $request->event_title,
+            'title_image_tag' => $request->title_image_tag,
+            'category' => $request->category,
+            'event_full_description' => $request->area,
+            'display_main' => $request->display_main,
+            'status' => $request->status,
+            'event_image1_tag' => $request->event_image1_tag,
+            'event_image2_tag' => $request->event_image1_tag, // Confirm if this is intended
+            'event_image3_tag' => $request->event_image3_tag,
+            'event_image4_tag' => $request->event_image4_tag,
+            'event_image5_tag' => $request->event_image5_tag,
+            'event_image6_tag' => $request->event_image6_tag,
+            'n_slug' => $slug
+        ] + $filePaths);
+
+        DB::commit();
+        Session::flash('success', 'News Updated Successfully !');
+    } catch (Exception $e) {
+        DB::rollBack();
+        Session::flash('error', 'Error in Updating News: ' . $e->getMessage());
+    }
+    return redirect()->route('all.news');
+}
+
+
+public function DeleteNewsPost($news_id)
+{
+  try{
+News::find($news_id)->delete();
+Session::flash('success','News Deleted Successfully');
+  }catch(Exception $e){
+Session::flash('error','Error in deleting News'.$e->getMessage());
+}
+return redirect()->route('all.news');
+}
+
+
+// public function news_info($slug)
+// {
+// $news = News::where('n_slug',$slug)->where('status',1)->firstOrFail();
+// return view('university.news.news_info',compact('news'));
+// }
+
+// public function all_news(){   
+//   $news_post = News::where('status',1)
+//   ->latest()
+//   ->orderBy('id', 'DESC')
+//   ->paginate(10);
+
+//   $news_categories = NewsCategory::latest()->get();
+//   $colleges = Colleges::latest()->get();
+//   return view('university.news.all_news',compact('news_categories','colleges','news_post'));
+
+// }
+
+
+//Sankit Code Starts here 
 
 
    public function news_info($slug)

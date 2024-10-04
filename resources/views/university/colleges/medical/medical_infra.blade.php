@@ -21,22 +21,22 @@
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td>Community Health Centers</td>
+							<td>Community Health Centre</td>
 							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">2</td>
-							<td>Primary Health Centers</td>
+							<td>Primary Health Centre</td>
 							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
-							<td>Rural Health Centers</td>
+							<td>Rural Health Centre</td>
 							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
-							<td>Urban Health Centers</td>
+							<td>Urban Health Centre</td>
 							<!-- <td>
 								<a href="#" target="_blank">Click Here to View</a>
 
@@ -67,7 +67,7 @@
 						<tr>
 							<td class="text-center">268-272, 274, 276-277</td>
 							<td class="text-center">-</td>
-							<td class="text-center">Bagarpur, Post Pakwada, Delhi Road, Moradabad</td>
+							<td class="text-center">Bagadpur, Post Pakwada, Delhi Road, Moradabad</td>
 							<td class="text-center">25.89 (Acre)</td>
 							<td class="text-center"> Campus is Unitary</td>
 						</tr>
@@ -88,7 +88,7 @@
 							<td>20317.73 sq.mt</td>
 						</tr>
 						<tr>
-							<td>Hospital (includ ing OPD)</td>
+							<td>Hospital (including OPD)</td>
 							<td class="text-center">:</td>
 							<td>65436.00 sq.mt.</td>
 						</tr>
@@ -149,7 +149,7 @@
 						<tr>
 							<td>Water Supply</td>
 							<td class="text-center">:</td>
-							<td>Through Bore wells</td>
+							<td>Through Bore Wells</td>
 						</tr>
 						<tr>
 							<td>Electric supply</td>
@@ -212,7 +212,7 @@
 						</tr>
 						<tr>
 							<td class="text-center">6</td>
-							<td>Intercom & Public address system in the College</td>
+							<td>Intercom & Public Address System in the College</td>
 							<td class="text-center">:</td>
 							<td class="text-center">Available</td>
 						</tr>
@@ -402,15 +402,15 @@
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
-							<td style="width:30%">Messing & Canteen arrangement (Dining hall should have accommodation for 25% of the occupants at a given time.)</td>
+							<td style="width:30%">Mess & Canteen arrangement (Dining hall have accommodation for 25% of the occupants at a given time.)</td>
 							<td class="text-center">:</td>
 							<td>Proper Mess & Canteen facilities are available</td>
 						</tr>
 						<tr>
 							<td class="text-center">5</td>
-							<td style="width:30%">Availability of visitors room, Reading room, TT Table room / TV room and indoor games.</td>
+							<td style="width:30%">Availability of visitors' room, reading room, TT table room, TV room, and indoor games.</td>
 							<td class="text-center">:</td>
-							<td>Visitors room, Reading room recreation room with T.T. Table and other indoor games and T.V. rooms are available in both boys and girls hostels.</td>
+							<td>Visitors' room, Reading room, and Recreation room with T.T. Table and other indoor games, and TV room are available in both boys' and girls' hostels.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -486,7 +486,7 @@
 							<td class="text-center">2</td>
 							<td>Gymnasium facilities and arrangement</td>
 							<td class="text-center">:</td>
-							<td>Gymn asium facility available</td>
+							<td>Gymnasium facility available</td>
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
@@ -559,12 +559,12 @@
 								<li>Pulse Oxymeter</li>
 								<li>Nebulizer</li>
 								<li>Syringe Infusion Pump</li>
-								<li>Ambubag</li>
+								<li>Ambu bag</li>
 								<li>Fully equipped disaster trolleys</li>
 							</ul>
 						</td>
 						<td><br>:<br>:<br>:<br>:<br><br>:<br>:<br>:<br>:<br><br>:</td>
-						<td><br>Centralized<br>Available<br>Available<br>Available<br><br>Available<br>Available<br>Available<br>Available<br><br>Available</td>
+						<td><br>Centralised<br>Available<br>Available<br>Available<br><br>Available<br>Available<br>Available<br>Available<br><br>Available</td>
 					</tr>
 					<tr>
 						<td class="text-center">(f)</td>
@@ -595,7 +595,7 @@
 							<td></td>
 							<td style="width:30%">Number</td>
 							<td class="text-center">:</td>
-							<td>12 (Fully air-conditioned modular OT with central gases & sucti on facility) including 1 in casualty.</td>
+							<td>12 (Fully air-conditioned modular OT with central gases & suction facility) including 1 in casualty.</td>
 						</tr>
 						<tr>
 							<td></td>
@@ -603,13 +603,13 @@
 							<td></td>
 							<td>Arrangement & Distribution</td>
 							<td class="text-center">:</td>
-							<td>The operation theatre arrangements are being jointly managed by HOD Anesthesia &HOD Surgery.</td>
+							<td>The operation theatre arrangements are being jointly managed by HOD Anaesthesia & HOD Surgery.</td>
 						</tr>
 						<tr>
 							<td></td>
 							<td>(c)</td>
 							<td></td>
-							<td>Equipments (including Anest hesia equipments)</td>
+							<td>Equipments (including Anaesthesia equipments)</td>
 							<td class="text-center">:</td>
 							<td>List of Major O.T. Equipments is enclosed</td>
 						</tr>
@@ -747,7 +747,7 @@
 							<td></td>
 							<td>Resuscitation facilities and special equipments</td>
 							<td class="text-center">:</td>
-							<td>Ventilators, Defibrillators, Ambu bags and resuscitation f acilities are available</td>
+							<td>Ventilators, Defibrillators, Ambu bags and resuscitation facilities are available</td>
 						</tr>
 						<tr>
 							<td></td>
@@ -766,12 +766,12 @@
 										<tr>
 											<td>ICCU</td>
 											<td>10</td>
-											<td>Ventilator(2); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (1); ECG machi ne (1); ABG Machine (1); Drip Infusion Pump (3); Nebulizers (1); Multipara monitors (10); Central Cardiac Monitor Console (1); Syringe Infusion Pump (3); Crash Cart (1); Ambubag (1); Central Gas supply</td>
+											<td>Ventilator(2); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (1); ECG machine (1); ABG Machine (1); Drip Infusion Pump (3); Nebulizers (1); Multipara monitors (10); Central Cardiac Monitor Console (1); Syringe Infusion Pump (3); Crash Cart (1); Ambu bag (1); Central Gas supply</td>
 										</tr>
 										<tr>
 											<td>MICU/ ICU</td>
 											<td>15</td>
-											<td>Ventilator (8); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (2); ECG machine (1); Syringe Infusion Pump (4); Crash Cart (1); Ambubag (1); Nebulizers (6); Multipara Monitors (15)</td>
+											<td>Ventilator (8); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (2); ECG machine (1); Syringe Infusion Pump (4); Crash Cart (1); Ambu bag (1); Nebulizers (6); Multipara Monitors (15)</td>
 										</tr>
 										<tr>
 											<td>SICU</td>
@@ -781,7 +781,7 @@
 										<tr>
 											<td>RICU</td>
 											<td>5</td>
-											<td>ECG Machine (1); Multipara Monitors (5); Ventilator (2); Defibrillator (1); Syringe Infusion Pump (2); Portable X-Ray (1); Nebulizer (1); Crash Cart (1); Ambubag (1); BIPAP Machine (2); ABG Machine (1); Central Gas Supply and Central Gas Suction</td>
+											<td>ECG Machine (1); Multipara Monitors (5); Ventilator (2); Defibrillator (1); Syringe Infusion Pump (2); Portable X-Ray (1); Nebulizer (1); Crash Cart (1); Ambu bag (1); BIPAP Machine (2); ABG Machine (1); Central Gas Supply and Central Gas Suction</td>
 										</tr>
 										<tr>
 											<td>Burn ICU</td>
@@ -791,12 +791,12 @@
 										<tr>
 											<td>Pediatrics Intensive Care Area</td>
 											<td>10 & 05</td>
-											<td>Multipara Monitors (15); Ventilator (2); Crash Cart (3); Ambubag (2); Difibrilator (1); Radiant Heat Warmer (20); Incubator (2); Syringe Infusion Pump (4); Nebulizers (2); Phototherapy Unit (9); Euro Bag Suction (1); C.Pap (1); Central Gas Supply and Central Gas Suction</td>
+											<td>Multipara Monitors (15); Ventilator (2); Crash Cart (3); Ambu bag (2); Defibrillator (1); Radiant Heat Warmer (20); Incubator (2); Syringe Infusion Pump (4); Nebulizers (2); Phototherapy Unit (9); Euro Bag Suction (1); C.Pap (1); Central Gas Supply and Central Gas Suction</td>
 										</tr>
 										<tr>
 											<td>OBG ICU</td>
 											<td>05</td>
-											<td>Multipara Monitors (5); Ventilator (2), Defibrillator (1); Syringe Infusion Pump (1); Nebulizer (1); Crash Cart (1); Ambubag (1); Pulse Oxymeter (2); Central Gas Supply and Central Gas Suction</td>
+											<td>Multipara Monitors (5); Ventilator (2), Defibrillator (1); Syringe Infusion Pump (1); Nebulizer (1); Crash Cart (1); Ambu bag (1); Pulse Oxymeter (2); Central Gas Supply and Central Gas Suction</td>
 										</tr>
 										<tr>
 											<td>Labor Rooms</td>
@@ -987,7 +987,7 @@
 						</tr>
 						<tr>
 							<td></td>
-							<td>Adequate per BARC Specification / Inadequate</td>
+							<td>Per BARC Specification (Adequate/ Inadequate)</td>
 							<td class="text-center">:</td>
 							<td>Adequate</td>
 						</tr>
@@ -1016,7 +1016,7 @@
 						<tr>
 							<td>No. of other Staff</td>
 							<td class="text-center">:</td>
-							<td>Pharmacist (6); Attendants (8) & Computer Operator(6)</td>
+							<td>Pharmacists (6); Attendants (8) & Computer Operators (6)</td>
 						</tr>
 						<tr>
 							<td>
@@ -1046,7 +1046,7 @@
 							<td>
 								Equipment
 								<ul class="m-ol-list ps-4">
-									<li>Mechanized – Bulk washing machine, Hydro extractor, Flat & Rolley steam press.</li>
+									<li>Mechanised – Bulk washing machine, Hydro extractor, Flat & Rolley steam press.</li>
 									<li>Manual</li>
 								</ul>
 							</td>
@@ -1107,7 +1107,7 @@
 							<td>(c)</td>
 							<td>Daily no. of meals</td>
 							<td class="text-center">:</td>
-							<td>Food is provided to 500-600 indoor patients Everyday (as per need of the patients) free of charges.</td>
+							<td>Food is provided to 500-600 inpatients every day (as per patients' needs) free of charge.</td>
 						</tr>
 						<tr>
 							<td>(d)</td>
@@ -1146,12 +1146,12 @@
 							<td>Self Service</td>
 						</tr>
 						<tr>
-							<td>Whether Subsidized?</td>
+							<td>Whether Subsidised?</td>
 							<td class="text-center">:</td>
 							<td>Partially Subsidized.</td>
 						</tr>
 						<tr>
-							<td>For staff only or for other also</td>
+							<td>For staff only or for others also</td>
 							<td class="text-center">:</td>
 							<td>For All</td>
 						</tr>
@@ -1163,7 +1163,7 @@
 
 		<button class="careers-accordion">Incinerator <span class="icon">+</span> </button>
 		<div class="panel">
-			<p class="mb-2">Tie up with M/s Medicare Environmental Management Pvt. Ltd. of Ghaziabad, for collection of Bio Medical Waste from the Hospital Valid upto 31.10.2020.</p>
+			<p class="mb-2">Tie up with M/s Medicare Environmental Management Pvt. Ltd., Ghaziabad, for the collection of biomedical waste from the hospital, valid until 31st October 2020.</p>
 		</div>
 		<hr class="horizontal-line">
 	</div>

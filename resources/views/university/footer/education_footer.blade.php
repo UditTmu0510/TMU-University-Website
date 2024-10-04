@@ -29,74 +29,102 @@
   
   </script>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script>
-  $(document).ready(function() {
-          $('#searchInput').on('keyup', function() {
-
-              let query = $(this).val();
-              console.log(query);
-              if (query.length > 2) {
-                  $.ajax({
-                      url: '{{ route("search") }}',
-                      type: 'post',
-                      data: {
-                          _token: '{{ csrf_token() }}',
-                          query: query
-                      },
-                      dataType: 'json',
-                      success: function(response) {
-                          let suggestions = $('#suggestions');
-                          suggestions.empty();
-                          if (response.error) {
-                              console.error('Search Error:', response.error);
-                          } else {
-							
-                              $.each(response, function(index, data) {
-								let url = 'https://tmuhospital.com/';
-let final_slug;
-let slug1 = data.slug1;
-let slug2 = data.slug2;
-let slug3 = data.slug3;
-let slug4 = data.slug4;
-let slug5 = data.slug5;
-
-// Helper function to check if a slug is valid
-function isValidSlug(slug) {
-    return slug !== undefined && slug !== null && slug !== '' && slug !== 'na';
-}
-
-if (isValidSlug(slug1) && !isValidSlug(slug2)) {
-    final_slug = `${url}${slug1}`;
-} else if (isValidSlug(slug1) && isValidSlug(slug2) && !isValidSlug(slug3)) {
-    final_slug = `${url}${slug1}/${slug2}`;
-} else if (isValidSlug(slug1) && isValidSlug(slug2) && isValidSlug(slug3) && !isValidSlug(slug4)) {
-    final_slug = `${url}${slug1}/${slug2}/${slug3}`;
-} else if (isValidSlug(slug1) && isValidSlug(slug2) && isValidSlug(slug3) && isValidSlug(slug4) && !isValidSlug(slug5)) {
-    final_slug = `${url}${slug1}/${slug2}/${slug3}/${slug4}`;
-}
-
-
-if (final_slug) {
-
-   if ($.trim(data.disp_attribute_1) !== '' && $.trim(data.disp_attribute_2) !== '') {
-suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><span style="font-size:12px;">${data.disp_attribute_2}</span></div></a>`);
-                            }
-}
-                              });
-                          }
-                      },
-                      error: function(xhr, status, error) {
-                          console.error('AJAX Error:', error);
-                      }
-                  });
-              } else {
-                  $('#suggestions').empty();
-              }
-          });
-      });
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var activePanel = document.querySelector('.panel.active');
+        if (activePanel) {
+            var activeAccordion = activePanel.previousElementSibling;
+            activePanel.style.display = "block";
+            activeAccordion.querySelector(".icon").innerHTML = "-";
+            activeAccordion.classList.add("clicked");
+        }
+    });
+</script>
   
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <script>
+    $(document).ready(function() {
+        let searchRequest = null; // Store the current AJAX request
+
+        $('#searchInput').on('keyup', function() {
+            let query = $(this).val();
+            console.log(query);
+
+            let suggestions = $('#suggestions');
+            suggestions.empty(); // Clear suggestions immediately
+
+            // If query length is 0, stop further processing
+            if (query.length === 0) {
+                suggestions.empty(); // Clear results
+                return;
+            }
+
+            // Abort previous request if it's still in progress
+            if (searchRequest !== null) {
+                searchRequest.abort();
+            }
+
+            if (query.length > 2) {
+                searchRequest = $.ajax({
+                    url: '{{ route("search") }}',
+                    type: 'post',
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                        query: query
+                    },
+                    dataType: 'json',
+                    success: function(response) {
+                        // Check if input value still matches query before showing results
+                        if ($('#searchInput').val() !== query) {
+                            return;
+                        }
+
+                        if (response.error) {
+                            console.error('Search Error:', response.error);
+                        } else {
+                            $.each(response, function(index, data) {
+                                let url = 'https://tmuhospital.com/';
+                                let final_slug;
+                                let slug1 = data.slug1;
+                                let slug2 = data.slug2;
+                                let slug3 = data.slug3;
+                                let slug4 = data.slug4;
+                                let slug5 = data.slug5;
+
+                                function isValidSlug(slug) {
+                                    return slug !== undefined && slug !== null && slug !== '' && slug !== 'na';
+                                }
+
+                                if (isValidSlug(slug1) && !isValidSlug(slug2)) {
+                                    final_slug = `${url}${slug1}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) && !isValidSlug(slug3)) {
+                                    final_slug = `${url}${slug1}/${slug2}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) && isValidSlug(slug3) && !isValidSlug(slug4)) {
+                                    final_slug = `${url}${slug1}/${slug2}/${slug3}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) && isValidSlug(slug3) && isValidSlug(slug4) && !isValidSlug(slug5)) {
+                                    final_slug = `${url}${slug1}/${slug2}/${slug3}/${slug4}`;
+                                }
+
+                                if (final_slug) {
+                                    if ($.trim(data.disp_attribute_1) !== '' && $.trim(data.disp_attribute_2) !== '') {
+                                        suggestions.append(`<a href="${final_slug}"><div style="font-weight:600">${data.disp_attribute_1}<br><span style="font-size:12px;font-weight:400">${data.disp_attribute_2}</span></div></a>`);
+                                    }
+                                }
+                            });
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        if (status !== 'abort') {
+                            console.error('AJAX Error:', error);
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+
 <footer id="footer" class="dark" style="background-color: #001055;margin-top:0 !important;">
 	<div class="container">
 		<!-- Footer Widgets
@@ -188,6 +216,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 									<li><a href="https://hospital.tmu.ac.in/" target="_blank">Hospital</a></li>
 									<li><a href="{{route('library')}}">Library</a></li>
 											<li><a href="{{route('music.and.dance.room')}}">Music & Dance</a></li>
+													<li><a href="{{route('tmu.transport')}}">Transport</a></li>
 
 								</ul>
 							</div>
@@ -200,7 +229,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 									<li><a href="{{route('all_news')}}">News</a></li>
 									<li><a href="{{route('tmu.careers')}}">Join TMU</a></li> <!--- CAREERS -->
 									<!-- <li><a href="#">About City</a></li> -->
-									<li><a href="{{route('all_news')}}">IQAC</a></li>
+									<li><a href="{{route('iqac.about')}}">IQAC</a></li>
 									<li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
 									<li><a href="{{route('all_blogs')}}">Blogs</a></li>
 									<li><a href="#">Sitemap</a></li>
@@ -240,7 +269,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 					Copyrights &copy; 2023 All Rights Reserved by Teerthanker Mahaveer University,Moradabad.
 				</div>
 
-				<div class="col-md-6 text-center text-md-end">
+				<div class="col-md-6 text-center text-md-end pb-5 pb-md-2 mb-5 mb-md-0">
 					<div class="d-flex justify-content-center justify-content-md-end mb-2">
 						<a target="_blank" href="https://www.facebook.com/tmumbd/" class="social-icon border-transparent si-small h-bg-facebook">
 							<i class="fa-brands fa-facebook-f"></i>

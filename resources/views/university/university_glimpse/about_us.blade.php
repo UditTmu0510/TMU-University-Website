@@ -61,7 +61,7 @@
                       <div class="col-lg-6 col-xl-4">
                         <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
                           <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
-                          <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Research Centre</li></a>
+                          <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
                           <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
                           <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Pharmacy</li></a>
                           <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Paramedical Sciences</li></a>
@@ -200,7 +200,7 @@
                           <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                         </td>
                         <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Law & Legal Studies</b><br>
-                          Established in 2010, the College attracts bright minds aspiring to contribute meaningfully to the legal profession, offering integrated LL.B. programmes and a Ph.D. in Law.
+                          Established in 2010, the College attracts bright minds aspiring to contribute meaningfully to the legal profession, offering integrated LL.B. programmes and a Ph.D. in law.
                       </tr>
                       <tr>
                         <td>
@@ -302,11 +302,11 @@
                     <!-- Content for Solar Energy -->
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
-                        <a href="#" class="entry-image mb-0 h-100">
+                        
                           <img src="{{asset('/assets/img/aboutus/campus_facilities/Water_Recycling_System.webp')}}" alt="Water Recycling System at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
-                        </a>
+                        
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
@@ -325,11 +325,11 @@
                     <!-- Content for Waste Recycling System -->
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
-                        <a href="#" class="entry-image mb-0 h-100">
+                        
                           <img src="{{asset('/assets/img/aboutus/campus_facilities/solar_energy.webp')}}" alt="Solar energy at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
-                        </a>
+                        
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
@@ -347,11 +347,11 @@
                     <!-- Content for Waste Recycling System -->
                     <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                       <div class="col-md-4 col-sm-12 mb-md-0">
-                        <a href="#" class="entry-image mb-0 h-100">
+                        
                           <img src="{{asset('/assets/img/aboutus/campus_facilities/eco_green_campus.webp')}}" alt="Eco green campus at TMU" class="rounded-2 h-100 object-cover">
                           <div class="bg-overlay">
                           </div>
-                        </a>
+                        
                       </div>
                       <div class="col-md-8 col-sm-12 p-4">
                         <div class="entry-title nott">
@@ -387,58 +387,58 @@
             <div class="container d-none d-md-block">
               <div class="row justify-content-center">
                 <div class="col-md-3 text-center">
-                  <a href="">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Hospital_02.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span>Hospital Services</span></h4>
                   <p>Access to Comprehensive Medical Care</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Hostel.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span>Hostel Accommodation</span></h4>
                   <p>Comfortable Residency for Students</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Faculty_Residences.webp')}}" alt="Image">
-                  </a>
+                 
                   <h4 class="mb-0 tmu-text-primary"><span>Faculty Residences</span></h4>
                   <p>Faculty Accommodation Within Campus</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Indoor.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span>Indoor Stadiums</span></h4>
                   <p>Modern Sports Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Gym.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span>Gym Facilities (for Both Girls and Boys)</span></h4>
                   <p>Fitness Centres and Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/Outdoor.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span> Outdoor Stadiums</span></h4>
                   <p>Modern Sports Facilities</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/CCTV.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary"><span>24/7 Surveillance System</span></h4>
                   <p>Ensuring Safety with more than 3600 Night Vision Cameras</p>
                 </div>
                 <div class="col-md-3 text-center">
-                  <a href="#">
+                  
                     <img class="img-fluid mb-2" src="{{asset('/assets/img/aboutus/campus_facilities/E_lobby.webp')}}" alt="Image">
-                  </a>
+                  
                   <h4 class="mb-0 tmu-text-primary mt-2"><span>E-Lobby (Food Court)</span></h4>
                   <p>Varied Dining Choices at E-Lobby</p>
                 </div>
@@ -461,11 +461,11 @@
                         <!-- Content for Solar Energy -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-12 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Hospital_02.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-12 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -482,11 +482,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Hostel.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -502,11 +502,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Faculty_Residences.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -522,11 +522,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Indoor.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -542,11 +542,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Gym.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -562,11 +562,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/Outdoor.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -582,11 +582,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/CCTV.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                            
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">
@@ -602,11 +602,11 @@
                         <!-- Content for Waste Recycling System -->
                         <div class="grid-inner row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                           <div class="col-md-4 col-sm-12 mb-md-0">
-                            <a href="#" class="entry-image mb-0 h-100">
+                            
                               <img src="{{asset('/assets/img/aboutus/campus_facilities/E_lobby.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
                               <div class="bg-overlay">
                               </div>
-                            </a>
+                           
                           </div>
                           <div class="col-md-8 col-sm-12 p-4">
                             <div class="entry-title nott">

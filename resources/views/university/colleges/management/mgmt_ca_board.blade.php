@@ -46,8 +46,8 @@ th, td {
                     <div class="container">
                         <p class="text-justify mb-2">For any professional institution the interaction with academic and corporate world is of
                                 great importance. College has Corporate Advisory Board including Principal (as Chair Person),
-                                Head Training & Placement and members from the industries. The Board members provides advice and
-                                guidance on academic program to the college as a whole or to individual academic departments. This helps
+                                Head Training & Placement and members from the industries. The Board members provide advice and
+                                guidance on academic programs to the college as a whole or to individual academic departments. This helps
                                 ensure our curricula remain relevant and rigorous. Corporate Advisory Board members also interact with
                                 faculty & Students (SPCC members) as mentors and as guest speakers in classes, and provide internship and
                                 job opportunities to our students.</p>

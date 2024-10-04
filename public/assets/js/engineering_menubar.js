@@ -1,4 +1,4 @@
-const path = "http://127.0.0.1:8000/assets/json/engineering_menubarData.json";
+const path = "https://tmuhospital.com/assets/json/engineering_menubarData.json";
 
 // Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
@@ -427,7 +427,7 @@ function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
     ulElement.innerHTML = `
     <h2 class="nav-headings " >Faculty of engineering</h2>
-    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
+   <li > <h1 class="underline__effect"><a href="/faculty-of-engineering">
         <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
         Home </h1> </a></li>
     <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
@@ -445,7 +445,7 @@ function resetMainMenubar() {
     <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
         <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
         Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
+  <li > <h1 class="underline__effect"><a href="/faculty-of-engineering/iqac">
         <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
         College IQAC </h1> </a></li>
 

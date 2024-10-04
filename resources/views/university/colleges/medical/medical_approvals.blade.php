@@ -9,11 +9,11 @@
 		<button class="careers-accordion">Detailed Status of permissions of UG Programme (MBBS) <span class="icon">+</span> </button>
 		<div class="panel active">
 			<div class="table-responsive">
-				<table class="table table-bordered table-striped table-condensed mb-none">
+				<table class="table table-bordered table-striped">
 					<thead>
 						<tr>
 							<th class="text-center">Sl. No.</th>
-							<th>Letters of Permission / Recognition (Year-wise from College Inception)</th>
+							<th>Letters of permissions / Recognition (Year-wise from College Inception)</th>
 							<th>Academic Year</th>
 							<th class="text-center">Read</th>
 							<th class="text-center">Download</th>
@@ -39,14 +39,14 @@
 
 						<tr>
 							<td class="text-center">3</td>
-							<td>Renewal of permission for admission of 5<sup>th</sup> Batch of MBBS students against increased intake from 100-150 at Teerthanker Mahaveer Medical College & Research Centre, Moradabad vide letter No: U.12012/58/2017-ME.I[FTS.3131079] dated 10/01/2018.</td>
+							<td>Renewal of permissions for admission of 5<sup>th</sup> Batch of MBBS students against increased intake from 100-150 at Teerthanker Mahaveer Medical College & Research Centre, Moradabad vide letter No: U.12012/58/2017-ME.I[FTS.3131079] dated 10/01/2018.</td>
 							<td>2018-19<br><b>(UPR-2018)</b></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2018-19.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2018-19.pdf')}}" download="2018-19.pdf" data-original-title="Download">Download</a></td>
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
-							<td>Renewal of permission for admission of 4<sup>th</sup> Batch of MBBS students against increased intake i.e. from 100-150 at Teerthanker Mahaveer Medical College & Research Centre, Moradabad vide letter No: U.12012/120/2016-ME.I[FTS.3088815] dated 20/02/2017.</td>
+							<td>Renewal of permissions for admission of 4<sup>th</sup> Batch of MBBS students against increased intake i.e. from 100-150 at Teerthanker Mahaveer Medical College & Research Centre, Moradabad vide letter No: U.12012/120/2016-ME.I[FTS.3088815] dated 20/02/2017.</td>
 							<td>2017-18<br><b>(UPR-2017)</b></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2017-18.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2017-18.pdf')}}" download="2017-18.pdf" data-original-title="Download">Download</a></td>

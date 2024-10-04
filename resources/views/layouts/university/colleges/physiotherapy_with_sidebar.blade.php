@@ -1,6 +1,6 @@
 @include('university.header')
 
-<div class="d-flex">
+<div class="custom-flex-block">
 
 @include('university.sidebar.physiotherapy_sidebar')
 @hasSection('content')

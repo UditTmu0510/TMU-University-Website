@@ -48,7 +48,7 @@
                   <td>Member</td>
                 </tr>
                 <tr>
-                  <td>Prof. Raghuvir Singh</td>
+                  <td>Prof. (Dr.) V K Jain</td>
                   <td>Vice Chancellor</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member</td>
@@ -152,7 +152,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Prof. Raghuvir Singh</td>
+                  <td>Prof. (Dr.) V K Jain</td>
                   <td>Vice Chancellor</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Chairperson</td>
@@ -614,7 +614,7 @@
                   <td>Chairperson</td>
                 </tr>
                 <tr>
-                  <td>Prof. Raghuvir Singh</td>
+                  <td>Prof. (Dr.) V K Jain</td>
                   <td>Vice Chancellor</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member</td>
@@ -682,7 +682,7 @@
                   <td>Chairperson</td>
                 </tr>
                 <tr>
-                  <td>Prof. Raghuvir Singh</td>
+                  <td>Prof. (Dr.) V K Jain</td>
                   <td>Vice Chancellor</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member</td>

@@ -1009,16 +1009,21 @@
         <div class="row mb-5">
             <div class="col-md-12">
                 <div class="masonry-thumbs grid-container row row-cols-5" data-big="" data-lightbox="gallery">
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/1.jpg')}}" alt="Gallery Thumb 1"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/2.jpg')}}" alt="Gallery Thumb 2"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/3.jpg')}}" alt="Gallery Thumb 3"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/4.jpg')}}" alt="Gallery Thumb 4"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/6.jpg')}}" alt="Gallery Thumb 6"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/9.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/9.jpg')}}" alt="Gallery Thumb 9"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/10.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/10.jpg')}}" alt="Gallery Thumb 10"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/13.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/13.webp')}}" alt="Gallery Thumb 1"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/14.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/14.webp')}}" alt="Gallery Thumb 2"></a>
-                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/ccsit/15.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/ccsit/15.webp')}}" alt="Gallery Thumb 3"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th1.png')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th1.png')}}" alt="Gallery Thumb 1"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th2.png')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th2.png')}}" alt="Gallery Thumb 2"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th3.jpg')}}" alt="Gallery Thumb 3"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th4.jpg')}}" alt="Gallery Thumb 4"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th5.jpg')}}" alt="Gallery Thumb 4"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th6.jpg')}}" alt="Gallery Thumb 6"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th7.jpg')}}" alt="Gallery Thumb 6"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th9.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th9.webp')}}" alt="Gallery Thumb 9"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th10.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th10.webp')}}" alt="Gallery Thumb 10"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th11.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th11.webp')}}" alt="Gallery Thumb 1"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th12.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th12.webp')}}" alt="Gallery Thumb 2"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th8.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th8.webp')}}" alt="Gallery Thumb 3"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th13.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th13.jpg')}}" alt="Gallery Thumb 3"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th14.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th14.jpg')}}" alt="Gallery Thumb 3"></a>
+                    <a class="grid-item" href="{{asset('/assets/img/gallery/collegegallery/alumni/th15.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/gallery/collegegallery/alumni/th15.jpg')}}" alt="Gallery Thumb 3"></a>
                 </div>
             </div>
         </div>

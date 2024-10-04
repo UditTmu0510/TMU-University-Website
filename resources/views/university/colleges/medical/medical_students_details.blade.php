@@ -9,7 +9,7 @@
 
             <div class="col-md-12">
                 <hr class="horizontal-line">
-                <button class="careers-accordion">Details of Students admitted in UG Programme<span
+                <button class="careers-accordion">Details of Students Admitted in UG Programme<span
                         class="icon">+</span></button>
                 <div class="panel active">
                     <div class="table-responsive mb-0">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <hr class="horizontal-line">
-                <button class="careers-accordion">Details of Students admitted in PG Programme <span
+                <button class="careers-accordion">Details of Students Admitted in PG Programme <span
                         class="icon">+</span></button>
                 <div class="panel">
                     <div class="table-responsive mb-0">

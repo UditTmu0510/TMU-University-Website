@@ -265,19 +265,19 @@
 							============================================= -->
 
 
-<script src="{{asset('/js/functions.js')}}"></script>
-<script src="{{asset('/assets/js/main.js')}}"></script>
-<script src="{{asset('/assets/js/swipe-content.js')}}"></script>
-<script src="{{asset('/assets/js/util.js')}}"></script>
+<script src="{{asset('js/functions.js')}}"></script>
+<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{asset('assets/js/swipe-content.js')}}"></script>
+<script src="{{asset('assets/js/util.js')}}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
 
 <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
-<script src="{{asset('/assets/js/owl_slider.js')}}"></script>
+<script src="{{asset('assets/js/owl_slider.js')}}"></script>
 <script src="{{asset('js/components/bs-datatable.js')}}"></script>
 
-<script src="{{asset('/assets/js/tmimt_menubar.js')}}"></script>
+<script src="{{asset('assets/js/tmimt_menubar.js')}}"></script>
 
 
 

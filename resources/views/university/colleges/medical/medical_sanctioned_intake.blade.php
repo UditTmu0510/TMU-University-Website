@@ -3,7 +3,7 @@
 
 <div class="main-content">
 					<div class="container">
-						<h1 class="tmu-text-primary tmu-page-heading"><span>Sanctioned Intake </span><span> of Medical Program</span></h1>
+						<h1 class="tmu-text-primary tmu-page-heading"><span>Sanctioned Intake </span><span> of Medical Programme </span></h1>
 
 						<div class="table-responsive">
 							<table class="table table-bordered table-striped">
@@ -23,17 +23,17 @@
 									<tr>
 										<td class="text-center">2</td>
 										<td>B.Sc. Medical Anatomy (From Session 2023-24 Onwards)</td>
-										<td class="text-center">0</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">3</td>
 										<td>B.Sc. Medical Biochemistry (From Session 2023-24 Onwards)</td>
-										<td class="text-center">0</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">4</td>
-										<td>B.SC. Medical Physiology (From Session 2023-24 Onwards)</td>
-										<td class="text-center">0</td>
+										<td>B.Sc. Medical Physiology (From Session 2023-24 Onwards)</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">5</td>
@@ -57,7 +57,7 @@
 									</tr>
 									<tr>
 										<td class="text-center">9</td>
-										<td>M.Sc. Medical Microbiology</td>
+										<td>MS (ENT/Otorhinolaryngology)</td>
 										<td class="text-center">10</td>
 									</tr>
 									<tr>
@@ -77,13 +77,13 @@
 									</tr>
 									<tr>
 										<td class="text-center">13</td>
-										<td>MS (Orthopeadics)</td>
+										<td>MS (Orthopaedics)</td>
 										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">14</td>
 										<td>MS (Obstetrics and Gynaecology)</td>
-										<td class="text-center">10</td>
+										<td class="text-center">8</td>
 									</tr>
 									<tr>
 										<td class="text-center">15</td>
@@ -117,7 +117,7 @@
 									</tr>
 									<tr>
 										<td class="text-center">21</td>
-										<td>MD (Anesthesiology)</td>
+										<td>MD (Anaesthesiology)</td>
 										<td class="text-center">11</td>
 									</tr>
 									<tr>

@@ -11,7 +11,7 @@
                         <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Minutes of the Meeting of the IQAC held on December 10, 2022</p>
                         <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                            href="https://www.tmu.ac.in/pdf/iqac_minutes/coe/2nd_IQAC_MoM_10_Dec_2022.pdf">View
+                            href="{{asset('assets/pdf/iqac_minutes/coe/2nd_IQAC_MoM_10_Dec_2022.pdf')}}">View
                             PDF</a>
                     </div>
                 </div>

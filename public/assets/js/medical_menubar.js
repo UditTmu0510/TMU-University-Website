@@ -1,5 +1,5 @@
 // Enable dropdown on hover in Menubar 
-const path = "http://127.0.0.1:8000/assets/json/medical_menubarData.json";
+const path = "https://tmuhospital.com/assets/json/medical_menubarData.json";
 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
@@ -442,6 +442,9 @@ function resetMainMenubar() {
     <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
         <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
         Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+            <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
     <li > <h1 class="underline__effect"><a href="/medical-college-and-research-centre/gallery">
         <span><img class="fs-18" src="assets/img/nav_logo/gallery.svg" width="70%" alt=""></span>
         Gallery </h1> </a></li>

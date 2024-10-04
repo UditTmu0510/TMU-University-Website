@@ -159,14 +159,14 @@
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>Affiliated with UGC, AICTE, and NBA.</li>
                         <li>IEEE received activities based on the Branch Incentive Award 2022”.</li>
-                        <li>We ranked 71 among top Government & Private Engineering Colleges in India by “DATAQUEST- 2022”.</li>
+                        <li>We ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
-                            <li>Ranked 14 in Engineering Colleges of Excellence, India by “CSR-GHRDC Engineering College ranking-2021”.</li>
-                            <li>Ranked 10 in Engineering Colleges in Uttar Pradesh by “CSR-GHRDC Engineering College ranking-2021”.</li>
-                            <li>Ranked 84 in Top Engineering Colleges, India by “DataQuest-2021”.</li>
-                            <li>Ranked 58 in Top Engineering Colleges in all over India by “Digital Learning-2021”.</li>
+                            <li>Ranked 14th among Engineering Colleges of Excellence in India by "CSR-GHRDC Engineering College Ranking-2021".</li>
+                            <li>Ranked 10th among Engineering Colleges in Uttar Pradesh by "CSR-GHRDC Engineering College Ranking-2021”.</li>
+                            <li>Ranked 84th in Top Engineering Colleges, India by “DataQuest-2021”.</li>
+                            <li>Ranked 58th in Top Engineering Colleges in all over India by “Digital Learning-2021”.</li>
                         </ul>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
@@ -192,12 +192,14 @@
                     <p>Join FOE College, the epitome of excellence and the best private engineering college in Uttar Pradesh. Unleash your potential and build a rewarding future with us!</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li><strong>Experience Skill Enhancement: </Strong>Our curriculum encompasses value-added courses and hands-on lab work, aligning with industry trends to enhance your skills and complement your learning journey.</li>
-                        <li><strong>Professional Industry Connections: </Strong> Benefit from our strong ties, as we provide opportunities to connect with experts through workshops, seminars, and guest lectures. We have two Centre of Excellence, namely</li>
+                        <li><strong>Future-Ready Engineering Education: </Strong>We prepare you to thrive as competent engineers in the ever-evolving landscape, equipping you with the necessary tech skills to excel in your career.</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
-                            <li><strong>Centre of Excellence: </strong>Ultra-Tech. It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
-                            <li><strong>Future-Ready Engineering Education: </Strong>We prepare you to thrive as competent engineers in the ever-evolving landscape, equipping you with the necessary tech skills to excel in your career.</li>
+                            <li><strong>Professional Industry Connections: </Strong> Benefit from our strong ties, as we provide opportunities to connect with experts through workshops, seminars, and guest lectures. We have two Centres of Excellence, namely</li>
+                            <ul class="m-ol-list ps-4">
+                                <li><strong>Centre of Excellence: </strong>Ultra-Tech. It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
+                            </ul>
                         </ul>
                         <p>Join us at our prestigious institution, where your engineering aspirations will flourish, paving the way for a successful future. Together, let's make your mark in the engineering world! We are proud to be the best private engineering college in UP.</p>
                     </div>
@@ -397,13 +399,7 @@
 
                             <div class="card-body">
                                 <h3 class="collab-card-title">TCS iON - B.Tech (CSE) Data Science</h3>
-                                <p class="collab-card-text ">Under this collaborative program, the students are trained
-                                    and taught
-                                    by trainers from TCS ION. The program is helping students to get trained from the
-                                    industry
-                                    experts and to gain insight into the work culture in the industry acquiring the
-                                    skills needed for
-                                    enhancing chances of employment.
+                                <p class="collab-card-text ">In this collaborative program, students receive training from industry experts at TCS iON, gaining valuable insights into real-world industry practices and acquiring the skills needed for better employment opportunities.
                                 </p>
                                 <button
                                     class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
@@ -462,9 +458,7 @@
                                 alt="TMU collaboration with safeducate">
                             <div class="card-body">
                                 <h3 class="collab-card-title">M.Sc. In collaboration with Aivancity, France</h3>
-                                <p class="collab-card-text">Under this collaborative program, students are taught by
-                                    trainers at TMU during the first year and by trainers from Aivancity, France,
-                                    during the second year.</p>
+                                <p class="collab-card-text">This collaborative program provides students with training from TMU trainers in the first year, followed by expert training from Aivancity, France, in the second year.</p>
                                 <button
                                     class="tmu-btn btn-3 py-2 px-3 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
                                     onclick="showCollabModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -498,7 +492,7 @@
         </div>
 
         <!-----Courses section Start-->
-         <section id="content" class="prog-bm">
+        <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
                 <div class="container d-none d-lg-block">
@@ -512,12 +506,12 @@
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
                                 <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                   
+
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
-                                   </a>
+                                </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -536,7 +530,7 @@
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
                                 <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
-                                
+
 
                                 </div>
                                 <!-- 
@@ -548,7 +542,7 @@
 								 -->
 
                                 <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
-                                
+
                                 </div>
 
                                 <!-- 
@@ -641,17 +635,17 @@
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeUG">
-                                
+
 
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmePG">
-                                
+
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
@@ -659,7 +653,7 @@
                         <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
-                                
+
 
                             </ul>
                         </div>
@@ -745,31 +739,31 @@
         <!-----Courses section completed-->
 
 
-       	<section>
-        <div class="container-fluid mt-5 ">
-            <h2 class="tmu-text-primary text-center">
-                <span>Our </span><span> Recruiters</span>
-            </h2>
-            <div class="marquee my-5 py-5 pt-4">
-                
-            
-                <section class="marquee-content more-content">
+        <section>
+            <div class="container-fluid mt-5 ">
+                <h2 class="tmu-text-primary text-center">
+                    <span>Our </span><span> Recruiters</span>
+                </h2>
+                <div class="marquee my-5 py-5 pt-4">
+
+
+                    <section class="marquee-content more-content">
                         @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-                <section class="marquee-content more-content">
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                    <section class="marquee-content more-content">
                         @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
@@ -781,30 +775,30 @@
                 <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-@foreach($testimonials as $testimonial)
-    <div class="oc-item text-start">
-        <div class="media">
-            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
-            <div class="media-body">
-                <div class="testimonial">
-                    <p class="overview mb-3 fs-14">
-                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
-                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
-                       <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
-                                Linkedin <i class="bi bi-linkedin"></i>
-                            </a>
-                        </span>
-                    </p>
-                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
-                </div>
-            </div>
-            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-            </div>
-        </div>
-    </div>
-@endforeach
+                    @foreach($testimonials as $testimonial)
+                    <div class="oc-item text-start">
+                        <div class="media">
+                            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3 fs-14">
+                                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                                        <span>
+                                            <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                                Linkedin <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </span>
+                                    </p>
+                                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
 
                 </div>
 
@@ -837,7 +831,7 @@
 
 
         <section>
-            <div class="container hh1">
+            <div class="container mb-5 mt-5">
                 <h2 Class="tmu-text-primary text-center"><span> Frequently Asked </span><span> Questions</span></h2>
                 <div class="row">
                     <div class="col-md-12">
@@ -846,16 +840,16 @@
                             <button class="careers-accordion"> Faculty of Engineering, among the top colleges in India for Engineering<span
                                     class="icon">+</span></button>
                             <div class="panel active">
-                                <p class="mb-2">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech CS&E programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global</p>
+                                <p class="mb-2">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech in CS&E is accredited under the tier-1 category by the National Board of Accreditation (NBA). We provide 100% placement assistance and foster global exposure.</p>
                             </div>
                             <hr class="horizontal-line">
 
                             <button class="careers-accordion"> Why TMU is the Best Choice for You <span class="icon">+</span></button>
                             <div class="panel">
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🏆 UGC-Approved with </span><span> NAAC-A Accreditation</span></h3>
-                                <p class="mb-2">TMU’s Faculty of Engineering is recognised for its high academic standards, ensuring you receive a quality education that meets global benchmarks.</p>
+                                <p class="mb-2">TMU’s Faculty of Engineering is recognized for its high academic standards, ensuring you receive an education that meets global benchmarks.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 👩‍🏫 Experiential Learning by </span><span> Highly Qualified Faculties </span></h3>
-                                <p class="mb-2">Our expert faculty members are dedicated to providing hands-on practical knowledge through innovative teaching methods, extensive research opportunities, and industry collaborations.</p>
+                                <p class="mb-2">Our expert faculty members are dedicated to providing practical, hands-on knowledge through innovative teaching methods, extensive research opportunities, and industry collaborations.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🌐 Strong Industry </span><span> Connections</span></h3>
                                 <p class="mb-2">We have established partnerships with top companies like Tata Consultancy Services (TCS), Larsen & Toubro (L&T), Bosch, and many more. These connections ensure excellent placement opportunities and real-world exposure for our students.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>💼 100% Placement </span><span> Assistance </span></h3>
@@ -863,7 +857,7 @@
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>📚 Academic </span><span> Collaborations </span></h3>
                                 <p class="mb-2">Collaborate with prestigious institutions like IIT Kharagpur and benefit from academic partnerships with Extramarks, which enhance your learning experience with world-class resources and cutting-edge technologies.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🏠 On-Campus </span><span> Hostel Facilities</span></h3>
-                                <p class="mb-2">Enjoy comfortable and secure accommodation within the campus, making your stay convenient and fostering a conducive learning environment.</p>
+                                <p class="mb-2">Enjoy comfortable, secure accommodation on campus, making your stay convenient and fostering a conducive learning environment.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>💰 Scholarship </span><span> Assistance</span></h3>
                                 <p class="mb-2">We offer 100% scholarship assistance to help you achieve your academic goals without financial worries, ensuring that your focus remains on your education and personal development.</p>
                             </div>
@@ -880,13 +874,13 @@
                             <hr class="horizontal-line">
                             <button class="careers-accordion">The Essence of Our Campus <span class="icon">+</span></button>
                             <div class="panel">
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Modern Classrooms and </span><span> Engineering Labs </span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Learn in Modern Classrooms </span><span>and Engineering Labs</span></h3>
                                 <p class="mb-2">Our state-of-the-art facilities provide interactive and practical learning experiences, equipped with advanced technology and resources to support your academic journey.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Engineering Clubs and </span><span> Sports Championships</span></h3>
-                                <p class="mb-2">Engage in various engineering clubs and sports activities to enhance your overall development, leadership skills, and teamwork abilities</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Fitness Centre, Cafeterias, and </span><span> Shopping Stores</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Participate in Engineering Clubs </span><span>and Sports Championships</span></h3>
+                                <p class="mb-2">Engage in various engineering clubs and sports activities to enhance your overall development, leadership skills, and teamwork abilities.</p>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Socialize at the Fitness Centre, Cafeterias,</span><span> and Shopping Stores</span></h3>
                                 <p class="mb-2">Comprehensive amenities are available to cater to your lifestyle and well-being, ensuring a balanced and fulfilling campus life.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Engineering Events, Tech Fests, and </span><span>Workshops</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Engage in Engineering Events, Tech Fests, </span><span>and Workshops</span></h3>
                                 <p class="mb-2">Participate in events that foster innovation and creativity, such as tech fests, workshops, and seminars led by industry experts and academic leaders.</p>
                             </div>
                             <hr class="horizontal-line">
@@ -959,7 +953,7 @@
                             <hr class="horizontal-line">
                             <button class="careers-accordion">FAQs:<span class="icon">+</span></button>
                             <div class="panel">
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered at TMU's Faculty of Engineering?</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered by TMU's Faculty of Engineering?</span></h3>
                                 <p class="mb-2">We offer a range of programs including Polytechnic, B.Tech, M.Tech, and Ph.D. with diverse specialisations tailored to meet industry demands.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 2. How is the placement assistance at TMU?</span></h3>
                                 <p class="mb-2">We provide 100% placement assistance with an excellent track record. Our Corporate Resource Centre (CRC) works year-round to secure placement and training opportunities for our students, ensuring they are well-prepared for their careers.</p>
@@ -984,35 +978,33 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+    $(document).ready(function() {
+        // Click event for navbar buttons
+        $('.programme-fetch-button').click(function() {
 
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
 
-$(document).ready(function() {
-    // Click event for navbar buttons
-    $('.programme-fetch-button').click(function() {
-        
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 11,
-                programme_level:programme_level 
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                    if ((i % 3 == 0) && (i != 0)) {
-                        programListHtml += `</div><div class="row">`;
-                    } else if (i == 0) {
-                        programListHtml += `<div class="row">`; 
-                    }
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 11,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+                        if ((i % 3 == 0) && (i != 0)) {
+                            programListHtml += `</div><div class="row">`;
+                        } else if (i == 0) {
+                            programListHtml += `<div class="row">`;
+                        }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -1031,42 +1023,42 @@ $(document).ready(function() {
                                     </div>
                                 </div>`;
 
-            
-                
-                                i++;
-                });
-                $('#'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+
+
+                        i++;
+                    });
+                    $('#' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
-    });
-    $('.programme-fetch-button:first').addClass('active').click();
-    $('.programmes-data:first').addClass('active');
+        $('.programme-fetch-button:first').addClass('active').click();
+        $('.programmes-data:first').addClass('active');
 
-// Programme fetch code for the mobile view starts here
+        // Programme fetch code for the mobile view starts here
 
-    $('.careers-accordion').click(function() {
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 11,
-                programme_level: programme_level
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                 
+        $('.careers-accordion').click(function() {
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 11,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -1082,20 +1074,19 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </li>`;
- i++;
-                });
-                $('#programme'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+                        i++;
+                    });
+                    $('#programme' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
+
+        // Programme fetch code for the mobile view ends here
+
     });
-
-// Programme fetch code for the mobile view ends here
-
-});
-
 </script>
 @endsection

@@ -15,7 +15,7 @@
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
                             <div class="timeline-date">2008</div>
-                            <p>Founded in 2008, the Medical College offers MBBS, MD/MS, M.Sc. Medical, and Ph.D. programmes, shaping future medical professionals.</p>
+                            <p>Founded in 2008, the Medical College offers MBBS, MD/MS, M.Sc. Medical, and PhD programmes, shaping future medical professionals.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
@@ -46,7 +46,7 @@
                     <div class="timeline-item left wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Journals & E-Journals</div>
-                            <p>Teerthanker Mahaveer Medical College & Research Centre provides access to 97(National and International) journals and 1733 e-joournals.</p>
+                            <p>Teerthanker Mahaveer Medical College & Research Centre provides access to 97 (National and International) journals and 1733 e-journals.</p>
                         </div>
                     </div>
                 </div>
@@ -97,13 +97,13 @@
                                 <li><b class="fs-14">Psychiatry</b></li>
                                 <li><b class="fs-14">Dermatology</b></li>
                                 <li><b class="fs-14">Pulmonary Medicine</b></li>
-                                <li><b class="fs-14">Pediatrics</b></li>
+                                <li><b class="fs-14">Paediatrics</b></li>
                                 <li><b class="fs-14">General Surgery</b></li>
-                                <li><b class="fs-14">Orthopedics</b></li>
+                                <li><b class="fs-14">Orthopaedics</b></li>
                                 <li><b class="fs-14">Otorhinolaryngology (ENT)</b></li>
                                 <li><b class="fs-14">Ophthalmology</b></li>
-                                <li><b class="fs-14">Obstetrics and Gynecology</b></li>
-                                <li><b class="fs-14">Anesthesia</b></li>
+                                <li><b class="fs-14">Obstetrics and Gynaecology</b></li>
+                                <li><b class="fs-14">Anaesthesia</b></li>
                                 <li><b class="fs-14">Radiodiagnosis</b></li>
                             </ul>
                         </div>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Operation Theaters</div>
+                            <div class="timeline-date">Operation Theatres</div>
                             <ul class="m-ol-list ps-3 mb-0">
                                 <li><b class="fs-14">Major</b>: 12</li>
                                 <li><b class="fs-14">Minor</b>: 5</li>
@@ -129,15 +129,15 @@
                         <div class="timeline-text">
                             <div class="timeline-date">Super Departments</div>
                             <ul class="m-ol-list ps-3 mb-0">
-                                <li><b class="fs-14">Pediatric Surgery</b></li>
+                                <li><b class="fs-14">Paediatric Surgery</b></li>
                                 <li><b class="fs-14">Neuro Surgery</b></li>
                                 <li><b class="fs-14">Joint Replacement Surgery</b></li>
-                                <li><b class="fs-14">G.I. Surgery</b></li>
+                                <li><b class="fs-14">GI Surgery</b></li>
                                 <li><b class="fs-14">Reconstructive Surgery</b></li>
                                 <li><b class="fs-14">Urology</b></li>
                                 <li><b class="fs-14">Plastic Surgery</b></li>
                                 <li><b class="fs-14">Cancer Detection</b></li>
-                                <li><b class="fs-14">IVF (Obstetrics & Gynecology)</b></li>
+                                <li><b class="fs-14">IVF (Obstetrics & Gynaecology)</b></li>
                                 <li><b class="fs-14">Burn Unit</b></li>
                                 <li><b class="fs-14">Cardiology and Cardiac Surgery including Open-Heart Surgery (with invasive and non-invasive procedures)</b></li>
                             </ul>
@@ -149,7 +149,7 @@
                     <div class="timeline mt-0">
                         <div class="timeline-item right wow slideInRight">
                             <div class="timeline-text">
-                                <div class="timeline-date">Teaching Center</div>
+                                <div class="timeline-date">Teaching Centre</div>
                                 <ul class="m-ol-list ps-3 mb-0">
                                     <li><b class="fs-14">Rural Health Centre: </b>3</li>
                                     <li><b class="fs-14">Urban Health Centre: </b>1</li>
@@ -171,7 +171,7 @@
                                     <li><b class="fs-14">BERA</b></li>
                                     <li><b class="fs-14">TMT</b></li>
                                     <li><b class="fs-14">Digital X-Ray with IITV</b></li>
-                                    <li><b class="fs-14">Color Doppler</b></li>
+                                    <li><b class="fs-14">Colour Doppler</b></li>
                                     <li><b class="fs-14">Bronchoscope</b></li>
                                     <li><b class="fs-14">Endoscope</b></li>
                                     <li><b class="fs-14">Audiometer</b></li>

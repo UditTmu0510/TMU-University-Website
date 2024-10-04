@@ -3,10 +3,107 @@
     --cnvs-themecolor: #FF7900;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-BlackItalic.ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
 html,
 body {
     -webkit-text-size-adjust: 100%;
 }
+
+/* Table d-flex fixing style */
+.custom-flex-block{
+    display:flex;
+}
+
+@media screen and (max-width:540px){
+    .custom-flex-block{
+        display:block;
+    }
+}
+/* Finish it */
 
 /* Define font sizes using rem units */
 h2 {
@@ -62,12 +159,6 @@ p {
 }
 .fs-16{
     font-size: 16px !important;
-}
-.fs-18{
-    font-size: 18px !important;
-}
-.fs-22{
-    font-size: 22px !important;
 }
 .fs-24{
     font-size: 24px !important;
@@ -432,7 +523,7 @@ p {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    user-select: none;
+    /*user-select: none;*/
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     /* Transparent tap highlight */
 }
@@ -3264,6 +3355,14 @@ Chancellor Desk Page CSS start
     color: #FF7900;
     font-weight: 600;
 }
+
+.highlight-url {
+    background-color: transparent;
+    color: #001055;
+    font-weight: 600;
+    font-size:14px;
+}
+
 @media screen and (max-width:786px) {
     .person-quote i {
         color: #555;
@@ -3618,6 +3717,10 @@ Principal desk css end
 Search bar css starts here
 ----------------------------
 */
+#searchModal{
+    background-color: #00000060;
+    backdrop-filter: blur(2px);
+}
 
 .search-icon {
     position: absolute;
@@ -3629,11 +3732,11 @@ Search bar css starts here
 
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
     .search-icon {
         position: absolute;
         right: 20vw;
-        top: 30px;
+        top: 3vh;
         font-size: 24px;
         cursor: pointer;
         z-index: 1000;
@@ -3662,14 +3765,14 @@ Search bar css starts here
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
     .modal-search {
 
-    top: 20vh;
+    padding-top:15vh;
 
 }
 }
@@ -3678,39 +3781,39 @@ Search bar css starts here
     background-color: white;
     margin: 15% auto;
     padding: 20px;
-    border: 2px solid #001055;
-    /* min-width: 20vw;
-    max-width: 60vw; */
-    width:80vw;
+    border: none;
+    box-shadow: 0px 0px 10px 5px #00000090;
+    min-width: 20vw;
+    max-width: 50vw;
     position: relative;
+    border-radius: 5px;
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .modal-search-content {
         min-width: 20vw;
         max-width: 80vw;
     }
-} */
+}
 
 .modal-search-close {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 5px;
+    top: -5px;
     font-size: 24px;
     cursor: pointer;
 }
 
 #searchInput {
-    width: 90%;
-    display: block;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
-    margin-bottom: 10px;
-    margin:auto;
-    /* border: 2px solid #001055; */
+    margin-bottom: 1rem;
+    margin:10px auto;
+    /* border: 2px solid #001055;  */
     border:none;
     background-color: #00105510;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 
@@ -3719,25 +3822,48 @@ Search bar css starts here
 
 .suggestions {
  
-    max-height: 200px;
+    max-height: 50vh;
     overflow-y: auto;
     min-width:30vw;
+    padding-right: 0.5rem;
+    /* margin-top: 0.5rem; */
+}
+/* WebKit Browsers (Chrome, Safari, etc.) */
+.suggestions::-webkit-scrollbar {
+    width: 7px;  /* Width of the scrollbar */
 }
 
+.suggestions::-webkit-scrollbar-thumb {
+    background-color: #ff7900; /* Orange scrollbar color */
+    border-radius: 10px;  /* Rounded corners */
+}
+
+.suggestions::-webkit-scrollbar-track {
+    background: #f0f0f0;  /* Light background for the scrollbar track */
+}
+
+/* Firefox */
+.suggestions {
+    scrollbar-width: thin;  /* Makes scrollbar thinner in Firefox */
+    scrollbar-color: #ff7900 #f0f0f0;  /* Color of scrollbar and track in Firefox */
+}
 .suggestions div {
-    padding: 10px;
+    padding: 8px 10px;
     cursor: pointer;
     margin: 10px auto;
-    border: 2px solid #001055;
+    font-size: 14px;
+    line-height: 1.2;
+    /* border: 2px solid #001055; */
     border:none;
-    background-color: #001055;
-    color: white;
+    background-color: #00000020;
+    color: black;
+    border-radius: 5px;
 }
 
 .suggestions div:hover {
     background-color: #FF7900;
+    color:white;
 }
-
 /*
 ----------------------------
 Search bar css ends here 
@@ -3838,12 +3964,15 @@ Search bar css ends here
 }
 
 .close-btn {
-    display: none;
+    display: block;
     cursor: pointer;
     font-size: 2.5rem;
     position: absolute;
     top: 20px;
     right: 20px;
+}
+#closeSidebar {
+    display: none;
 }
 
 
@@ -3851,17 +3980,14 @@ Search bar css ends here
     .close-btn {
         display: block;
     }
+    #closeSidebar{
+        display: block;
+    }
 }
 
 @media (min-width: 901px) {
     .toggle-btn {
         display: none;
-    }
-}
-
-@media screen and (min-width:900px) {
-    .main-content{
-        max-width:75vw!important;
     }
 }
 
@@ -3980,8 +4106,8 @@ Search bar css ends here
             margin-right: 0.5rem;
 
         }
-
-        /* CRC Banner css start */
+        
+  /* CRC Banner css start */
         .crc-slider-container {
             position: relative;
             width: 100%;
@@ -4138,7 +4264,7 @@ Search bar css ends here
 
           }
 
-          /* CRC package section css ends */
+       
 
           /* Carousel container */
         .star-logo-carousel {
@@ -4167,3 +4293,11 @@ Search bar css ends here
                     display: block;
                   }
                 }
+                
+                @media screen and (min-width:1000px) {
+            .main-content{
+                max-width:75vw!important;
+            }
+        }
+
+   /* CRC package section css ends */

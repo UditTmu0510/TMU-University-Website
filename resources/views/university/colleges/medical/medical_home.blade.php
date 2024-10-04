@@ -10,11 +10,11 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to the <br> <span
-                            style="font-weight:700!important;">TMMC</span>&RC</h1>
+                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to <br> <span
+                            style="font-weight:700!important;">TMMC&RC</span></h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none"
-                        style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
-                        Welcome to the <span>TMMC&RC</span>&RC</h1>
+                        style="colour:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
+                        Welcome to <span>TMMC&RC</span></h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -36,7 +36,7 @@
                     <div class="card text-center py-3 rounded-0 fw-semibold ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Ranked 1st</span>
                             <br>
-                            <h5>Private MBBS College in UP</h5>
+                            <h5>Among Private MBBS Colleges in UP</h5>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Ranked 1st</span>
                                         <br>
-                                        <span class="d-block pt-1">Private MBBS College in UP</span>
+                                        <span class="d-block pt-1">Among Private MBBS <br>Colleges in UP</span>
                                     </div>
                                 </div>
                             </div>
@@ -119,6 +119,7 @@
                                         <span>Guidance</span>
                                         <br>
                                         <span class="d-block pt-1">from Expert Faculty</span>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +196,7 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#Tab1"
                         type="button" role="tab" aria-controls="Tab1" aria-selected="true"><i
-                            class="fas fa-lightbulb"></i> Approved by
-                        MCI</button>
+                            class="fas fa-lightbulb"></i> Approved by MCI</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#Tab2" type="button"
@@ -217,7 +217,7 @@
             </ul>
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <h3 class="mb-1">Approved by MCI</h3>
+                    <h3 class="mb-1">Approved by Medical Council of India</h3>
                     <p>It conducts Post Graduate degree (MD/MS) in Pre-Clinical subjects (Anatomy, Physiology,
                         Biochemistry),
                         Para-clinical subjects (Pathology, Microbiology, Pharmacology, Forensic Sciences) and
@@ -234,9 +234,9 @@
                     <p>Hospital facilities of the Medical College and Research Centre provide modern health care
                         including critical care and emergency services to the population at large. In a short span
                         of
-                        time, the hospital has developed into 1000 bed tertiary teaching care hospital with
+                        time, the hospital has developed into 900+ beds tertiary care teaching hospital with
                         facilities
-                        to save lives. An emergency section and Intensive care units with various sub-specialties
+                        to save lives. An emergency section and Intensive care units with various sub-specialities
                         like
                         ICCU, ICU, RICU, NICU, PICU, Obstetrics and Gynaecology, and Burn treatment have been added.
                     </p>
@@ -245,7 +245,7 @@
                     <h3 class="mb-1">General Surgery</h3>
                     <p>Department of General Surgery provides facilities for Endoscopic Studies and Surgeries.
                         Department of Medicine facilitates Echocardiography, TMT and Cath lab. The hospital is also
-                        equipped with facilities for Pediatric Surgery, Neuro Surgery, Urology, Cardiology, Cardiac
+                        equipped with facilities for Paediatric Surgery, Neuro Surgery, Urology, Cardiology, Cardiac
                         Surgery like Bypass Surgery, Valve Replacement, and Congenital Heart Disease, G I . Surgery,
                         Reconstructive Surgery, Joint Replacement Surgery, Cancer detection, Sterility Clinic, IVF
                         etc.
@@ -253,10 +253,10 @@
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3 class="mb-1">Radiology</h3>
-                    <p>Department of Radiology provides Fluoroscopy, facilities for Ultrasound and Color Doppler
+                    <p>Department of Radiology provides Fluoroscopy, facilities for Ultrasound and colour Doppler
                         Studies, Digital X-Rays, CT scan, MRI and Mammography. The hospital is well equipped with
                         modern
-                        Modular operation theaters for General Surgery, Orthopedics, Ophthalmology, ENT and
+                        Modular operation theaters for General Surgery, orthopaedics, Ophthalmology, ENT and
                         Obstetrics
                         and Gynaecology. Central Laboratory services are available for Pathological, Clinical
                         Biochemistry, Microbiology and Histopathology investigations.</p>
@@ -323,8 +323,8 @@
                 <div class="container d-none d-lg-block">
 
                     <div class="col-xl-12 col-xl-10 text-center">
-                        <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
-                            PROGRAMMES<span class="color:##FF7900"> OFFERED</span></h2>
+                        <h2 style=" line-height: 64px; colour:#001055;" class="mb-5 w-100">
+                            PROGRAMMES<span class="colour:##FF7900"> OFFERED</span></h2>
                     </div>
 
                     <div class="row ">
@@ -452,7 +452,7 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; colour:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
                             </h1>
                         </div>
@@ -564,19 +564,19 @@
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Top Programs Offered with Diverse Specializations<span class="icon">+</span></button>
+            <button class="careers-accordion">Top Programmes Offered with Diverse Specialisationns<span class="icon">+</span></button>
             <div class="panel">
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>TMMC&RC offers a variety of programs catering to</span><span> different interests and career aspirations in the medical field:</span></h3>
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>TMMC&RC offers a variety of Programme catering to</span><span> different interests and career aspirations in the medical field:</span></h3>
                 <br>
                 <h3 class="tmu-text-primary fs-16 mb-0">MBBS</h3>
                 <ul class="m-ol-list ps-4 text-justify">
-                    <li>Comprehensive undergraduate program</li>
+                    <li>Comprehensive undergraduate Programme</li>
                     <li>Strong emphasis on clinical skills and patient care</li>
                 </ul>
 
                 <h3 class="tmu-text-primary fs-16 mb-0">BSc</h3>
                 <ul class="m-ol-list ps-4 text-justify">
-                    <li>Specializations in Nursing, Medical Laboratory Technology, and more</li>
+                    <li>Specialisationns in Nursing, Medical Laboratory Technology, and more</li>
                     <li>Focus on practical and theoretical knowledge</li>
                 </ul>
                 <h3 class="tmu-text-primary fs-16 mb-0">MSc</h3>
@@ -630,7 +630,7 @@
             <button class="careers-accordion">Academic Partners
                 <span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">TMMC&RC collaborates with prestigious institutions like IIT Kharagpur and Extramarks, enhancing the academic experience through joint research projects and advanced learning programs.</p>
+                <p class="text-justify">TMMC&RC collaborates with prestigious institutions like IIT Kharagpur and Extramarks, enhancing the academic experience through joint research projects and advanced learning Programme.</p>
 
             </div>
             <!-- Add the horizontal line here -->
@@ -705,10 +705,10 @@
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Post Graduate Programs<span class="icon">+</span></button>
+            <button class="careers-accordion">Post Graduate Programme<span class="icon">+</span></button>
             <div class="panel">
                 <h3 class="tmu-text-primary fs-16 mb-0">
-                    <p>TMMC&RC offers postgraduate programs (MD/MS) in various disciplines, including: different interests and career aspirations in the medical field:</p>
+                    <p>TMMC&RC offers postgraduate Programme (MD/MS) in various disciplines, including: different interests and career aspirations in the medical field:</p>
                 </h3>
                 <br>
                 <h3 class="tmu-text-primary fs-16 mb-0">Pre-Clinical Subjects</h3>
@@ -741,7 +741,7 @@
                     <li>Radio-diagnosis</li>
                 </ul>
                 <h3 class="tmu-text-primary fs-16 mb-0">Advanced Medical Services</h3>
-                <p>The hospital offers advanced medical services and has major equipment such as CT scans, MRI, and mammography. Specialised treatments are available in various fields, including pediatric surgery, neurosurgery, urology, cardiology, and reconstructive surgery.</p>
+                <p>The hospital offers advanced medical services and has major equipment such as CT scans, MRI, and mammography. Specialised treatments are available in various fields, including Paediatric surgery, neurosurgery, urology, cardiology, and reconstructive surgery.</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
@@ -755,7 +755,7 @@
                 <h3 class="tmu-text-primary fs-16 mb-0">3. Anesthesiologist</h3>
                 <p>Anesthesiologists are responsible for administering anaesthesia to patients undergoing surgery. They manage pain control and monitor patients’ vital signs during procedures, ensuring their safety and comfort.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0">4. Paediatrician</h3>
-                <p>Pediatricians specialise in the medical care of infants, children, and adolescents. They manage a wide range of health</p>
+                <p>Paediatricians specialise in the medical care of infants, children, and adolescents. They manage a wide range of health</p>
                 <h3 class="tmu-text-primary fs-16 mb-0">5. Psychiatrist</h3>
                 <p>Psychiatrists diagnose and treat mental health disorders. They use a combination of therapy, medication, and other treatments to help patients manage conditions such as depression, anxiety, and schizophrenia.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0">6. Obstetrician/Gynecologist</h3>
@@ -778,8 +778,8 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">FAQs<span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify"><strong>Q. What programs are offered at TMMC&RC?</strong></p>
-                <p class="text-justify">Ans: TMMC&RC offers programs such as MBBS, BSc, MSc, MD, and MS with various specialisations. </p>
+                <p class="text-justify"><strong>Q. What Programmes are offered at TMMC&RC?</strong></p>
+                <p class="text-justify">Ans: TMMC&RC offers Programmes such as MBBS, BSc, MSc, MD, and MS with various specialisations. </p>
 
                 <p class="text-justify"><strong>Q. Is TMMC&RC accredited?</strong></p>
                 <p class="text-justify">Ans: Yes, TMMC&RC is UGC-approved and has received an 'A' grade accreditation from NAAC. </p>

@@ -1,4 +1,4 @@
-const path = "http://127.0.0.1:8000/assets/json/pharmacy_menubarData.json";
+const path = "https://tmuhospital.com/assets/json/pharmacy_menubarData.json";
 // Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {

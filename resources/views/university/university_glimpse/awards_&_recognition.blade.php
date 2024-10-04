@@ -2,438 +2,214 @@
 @section('content')
 
 
+<style>
+.carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+}
+</style>
+
+
 <div class="main-content">
     <div class="container">
-      <div class="row mx-0">
-        <h1 class="tmu-text-primary tmu-page-heading"><span>Award & </span><span>Recognitions</span>
-        </h1>
+        <div class="row mx-0">
+            <h1 class="tmu-text-primary tmu-page-heading"><span>Award & </span><span>Recognitions</span>
+            </h1>
 
-        <div class="col-md-12 high-pack">
-          <div class="row impe-plac-row mb-4">
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/OBE_2024_Diamond_Band.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/OBE_2024_Diamond_Band.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>OBE </span><span> Ranking 2024</span>
-                </h3>
 
-              </div>
+            <!-- Grid row -->
+            <div class="row row-cols-1 row-cols-sm-6 align-items-sm-end gutter-10 mt-5 mx-1" data-lightbox="gallery">
+
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/1.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/1.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/2.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/2.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/3.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/3.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/4.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/4.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/5.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/5.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/6.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/6.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/7.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/7.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/8.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/8.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/9.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/9.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/10.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/10.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/11.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/11.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/12.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/12.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/13.png')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/13.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/14.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/14.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/15.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/15.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/16.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/16.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/17.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/17.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/18.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/18.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/19.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/19.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/20.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/20.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/21.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/21.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/22.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/22.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/23.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/23.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/24.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/24.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/25.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/25.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/26.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/26.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/27.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/27.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/28.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/28.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/29.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/29.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/30.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/30.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/31.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/31.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/32.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/32.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/33.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/33.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/34.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/34.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="{{asset('/assets/img/awards/awards_original/35.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid mb-2 h-op-09 op-ts"
+                            src="{{asset('/assets/img/awards/awards_section/35.png')}}" alt="Image">
+                    </a>
+                    <a href="{{asset('/assets/img/awards/awards_original/36.jpg')}}" data-lightbox="gallery-item">
+                        <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/36.png')}}"
+                            alt="Image">
+                    </a>
+                </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/IIC.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/IIC.jpg')}}" height="200" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>IIC </span><span> Certificate</span>
-                </h3>
-              </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="https://www.tmu.ac.in/img/award/green_ranking.jpg" data-lightbox="image"
-                   data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="https://www.tmu.ac.in/img/award/green_ranking.jpg" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Green Ranking </span><span> 2023</span>
-                </h3>
 
-              </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/NAAC.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/NAAC.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>NAAC </span><span> Accreditation</span></h3>
 
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/SIRO.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/SIRO.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>SIRO'S </span><span> Recognition</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/untitled_design.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/untitled_design.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>UGC </span><span> Inspection</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/UNAI.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/UNAI.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>UNAI Member</span><span> Certificate</span>
-                </h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/assocham.jpg')}}" data-lightbox="image" data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/assocham.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>GEM</span><span> Certificate</span>
-                </h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/GEETA.jpg')}}" data-lightbox="image"
-                  title="The Great India Teachers Award" data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/GEETA.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>The Great India </span><span> Teachers
-                    Award</span></h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/quality_management_certificate.jpg')}}"
-                  data-lightbox="image" data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/quality_management_certificate.jpg')}}" height="400"
-                      width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>QMS </span><span> Certificate</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/best_education_award.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/best_education_award.jpg')}}" height="400" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Best Education </span><span> Award</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/hindustran_siksha_award.jpg')}}"
-                  data-lightbox="image" data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/hindustran_siksha_award.jpg')}}" height="400" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Certificate of </span><span> Excellence</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/ht_media.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/ht_media.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Education Founder </span><span> Series</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/up_brand_leadership.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/up_brand_leadership.jpg')}}" height="400" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Brand Leadership </span><span> Award</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/aitmc.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/aitmc.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>AITMC </span><span> Award</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/ietc.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/ietc.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>IETE </span><span> Certificate</span>
-                </h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/survey_2016.jpg')}}" data-lightbox="image"
-                   data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/survey_2016.jpg')}}" height="200" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Top B-School </span><span> Ranking</span>
-                </h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/csi.jpg')}}" data-lightbox="image"
-                   data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/csi.jpg')}}" height="200" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Certificate of </span><span>
-                    Institutional Accrediation</span></h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/rajiv_gandhi.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/rajiv_gandhi.jpg')}}" height="200" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>4th Rajiv Gandhi</span><span> Excellence
-                    Award</span></h3>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/career_options.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/career_options.jpg')}}" height="400" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Career Option </span><span> Award</span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/mba.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/mba.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Certificate of </span><span> Excellence </span></h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/ici.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/ici.jpg')}}" height="400" width="300" alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>ICI Organisation Life Member</span><span> Certificate</span>
-                </h3>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mb-0">
-              <div class="border-box-iqac">
-                <a class="colmd-4" href="{{asset('/assets/img/aboutus/awards/rishav_dev.jpg')}}" data-lightbox="image"
-                  data-zoom="true">
-                  <div class="grid-inner mb-2">
-                    <img src="{{asset('/assets/img/aboutus/awards/rishav_dev.jpg')}}" height="400" width="300"
-                      alt="Single Image">
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content dark">
-                        <i class="uil uil-plus h4 mb-0" data-hover-animate="fadeIn"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <h3 class="tmu-text-primary mb-1"><span>Bhagwan Rishabh Dev </span><span> International Award </span>
-                </h3>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
+</div>
+
 
 @endsection

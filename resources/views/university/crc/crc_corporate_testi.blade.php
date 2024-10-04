@@ -23,7 +23,7 @@
                                     <p class="overview mb-3"><b>Ishant Raheja</b><br> <span class="tmu-color-blue">HR-Lead, <br> HL
                                             MANDO SOFTECH PVT.
                                             LTD.</span></p>
-                                    <p>It’s been a very good experience on my visit to Teerthanker Mahaveer
+                                    <p class="testimonial-content47">It’s been a very good experience on my visit to Teerthanker Mahaveer
                                         University. Dedicated faculty & staff, well-disciplined students,
                                         must say intelligent minds. They produce quality students for our
                                         industry every year. Keep up the hard work. Stay Associated!</p>
@@ -41,7 +41,7 @@
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Deen D</b><br> <span class="tmu-color-blue">Sr. HR Manager, <br> MAX
                                             HEALTHCARE</span></p>
-                                    <p>Students at Teerthanker Mahaveer University are hard-working and
+                                    <p class="testimonial-content47">Students at Teerthanker Mahaveer University are hard-working and
                                         shown the huge interest in the opportunity provided at our platform,
                                         we wish them to keep learning and growing." <br> "Management and
                                         Corporate Resource Centre is quite supportive in organising the
@@ -61,7 +61,7 @@
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Aditya Kumar</b><br> <span class="tmu-color-blue">HR Manager, <br> VIVO
                                             INDIA </span></p>
-                                    <p>It is a wonderful experience coming to Teerthanker Mahaveer
+                                    <p class="testimonial-content47">It is a wonderful experience coming to Teerthanker Mahaveer
                                         University; students are very talented and creative. We are thankful
                                         to Placement Cell and Management of TMU for inviting us in our hunt
                                         for finding creative talent for VIVO India.</p>
@@ -81,7 +81,7 @@
                                     <p class="overview mb-3"><b>BALI SINGH</b><br> <span class="tmu-color-blue">Managing Director, <br>
                                             ECO-ENERGIES PVT.
                                             LTD.</span></p>
-                                    <p>We were highly impressed with the professionalism exhibited by TMU
+                                    <p class="testimonial-content47">We were highly impressed with the professionalism exhibited by TMU
                                         faculty and the students during the entire process of Campus
                                         Placement. The overall mental caliber of students has been very good
                                         with excellent potential to develop the business leaders. The
@@ -103,7 +103,7 @@
                                 <div class="testimonial">
                                     <p class="overview mb-3"><b>Saumya Srivastava</b><br> <span class="tmu-color-blue">Head- HR, <br>
                                             REMOTESTATE</span></p>
-                                    <p>I find that Teerthanker Mahaveer University students are adaptable
+                                    <p class="testimonial-content47">I find that Teerthanker Mahaveer University students are adaptable
                                         and are eager to adjust to the environment, the company appreciate
                                         all the effort the University takes to make the students ready for
                                         the corporate world. Our regular interactions with the Placement
@@ -125,7 +125,7 @@
                                     <p class="overview mb-3"><b>Mr. Manish Kumar Tewari</b><br> <span class="tmu-color-blue">Manager,
                                             <br> ICICI Prudential
                                             Ltd.</span></p>
-                                    <p>It was a pleasure interacting with the students and faculty. There
+                                    <p class="testimonial-content47">It was a pleasure interacting with the students and faculty. There
                                         was lot of josh & enthusiasm among the students for placements. Wish
                                         to take the relationship further……. All the Best to the Institution!
                                     </p>
@@ -144,7 +144,7 @@
                                     <p class="overview mb-3"><b>Ms. Megha Agarwal</b><br> <span class="tmu-color-blue">Senior Manager
                                             Recruitments, <br>
                                             Naukri.com (Info Edge India Limited)</span></p>
-                                    <p> TMIMT shows excellent way to make new generation learners about
+                                    <p class="testimonial-content47"> TMIMT shows excellent way to make new generation learners about
                                         different fields of their interest. Every year we have recruited
                                         students of TMIMT and found excellent employees from its pool. I
                                         wish all the very best to the entire management team of TMU for
@@ -164,7 +164,7 @@
                                     <p class="overview mb-3"><b>Mr. Akhilesh Sharma</b><br> <span class="tmu-color-blue">IFBI, <br> NIIT
                                             Ltd. New Delhi </span>
                                     </p>
-                                    <p> I was really GREAT to visit TMU, Moradabad. I am feeling awesome to
+                                    <p class="testimonial-content47"> I was really GREAT to visit TMU, Moradabad. I am feeling awesome to
                                         see the efforts of TMIMT TMU doing to the student community in this
                                         region. HATS OFF. Keep up the good work, would certainly love to
                                         visit and interact with students again Thank you so much for
@@ -185,7 +185,7 @@
                                             Transport Corporation
                                             of India Ltd.</span>
                                     </p>
-                                    <p> It was a good experience altogether we hired maximum no. of students
+                                    <p class="testimonial-content47"> It was a good experience altogether we hired maximum no. of students
                                         from the college looking forward for next year Placement. TMIMT has
                                         groomed its student as per our hiring criteria.</p>
                                 </div>
@@ -204,7 +204,7 @@
                                             <br> Justdail Ltd.
                                         </span>
                                     </p>
-                                    <p> Indeed it was a pleasure to interact with young management
+                                    <p class="testimonial-content47"> Indeed it was a pleasure to interact with young management
                                         professionals. We have hired very good students who are performing
                                         excellent and delivering delight. Good hospitality.</p>
                                 </div>

@@ -8,28 +8,24 @@
 <section id="content">
   <div class="content-wrap py-0">
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{{asset('/assets/img/infrastructure/library/Banner.webp')}}" class="d-block w-100" alt="...">
+ <div class="container-fluid  my-0 px-2">
+      <div class="row ps-4">
+        <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
+          <h1 class=" mt-5 mb-5 d-none d-md-block " style="font-weight:700!important; font-size:48px!important;">Welcome to Teerthanker Mahaveer <br> <span>Central Library and Knowledge Resourse Centre  </span></h1>
+          <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to Teerthanker Mahaveer <br> <span>Central Library and Knowledge Resourse Centre  </span></h1>
+
         </div>
-        <div class="carousel-item">
-          <img src="{{asset('/assets/img/infrastructure/library/Banner2.webp')}}" class="d-block w-100" alt="...">
+        <div class="col-12 col-md-6">
+          <div class="pe-lg-4 position-relative p-0">
+            <div style="z-index: 2;">
+              <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
+              <img src="{{asset('assets/img/banner/library/library.webp')}}" alt="" class="p-0 m-0">
+            </div>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+    
 
     <div class="container">
       <h2 Class="tmu-text-primary mb-2 mt-5"><span>Library </span></h2>

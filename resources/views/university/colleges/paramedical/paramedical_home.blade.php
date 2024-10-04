@@ -12,7 +12,7 @@
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Paramedical</span> College in UP</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Paramedical</span> College in UP,</h1>
-                    <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
+                    <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -27,44 +27,50 @@
         </div>
 
         <div class="container my-3 d-none d-md-block">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-stretch">
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
-                            <br>
-                            <span class="d-block pt-1">Placement Rate</span>
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                            <!-- First span at the top -->
+                            <span>Recognised By</span>
+
+                            <!-- Second span centered vertically -->
+                            <span class="d-block pt-1 mt-auto">Quality Council of India</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
                             <span>100%</span>
-                            <br>
-                            <span class="d-block pt-1">Placement Assistance</span>
+
+                            <span class="d-block pt-1 mt-auto">Placement Assistance</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>60 LPA</span>
-                            <br>
-                            <span class="d-block pt-1">Highest Package</span>
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                            <span>Hands-On Experience</span>
+
+                            <span class="d-block pt-1 mt-auto">at TMU Hospital</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>100+</span>
-                            <br>
-                            <span class="d-block pt-1">Global Collaborations</span>
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                            <span>20+</span>
+
+                            <span class="d-block pt-1 mt-auto">Programme Specialisations</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
 
         <div class="container my-2 d-block d-md-none">
             <div id="under-banner-carouselExample" class="carousel slide">
@@ -78,9 +84,9 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Recognised By</span>
                                         <br>
-                                        <span class="d-block pt-1">Placement Rate</span>
+                                        <span class="d-block pt-1">Quality Council of India</span>
                                     </div>
                                 </div>
                             </div>
@@ -100,18 +106,18 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>60 LPA</span>
+                                        <span>Hands-On Experience</span>
                                         <br>
-                                        <span class="d-block pt-1">Highest Package</span>
+                                        <span class="d-block pt-1">at TMU Hospital</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>100+</span>
+                                        <span>20+</span>
                                         <br>
-                                        <span class="d-block pt-1">Global Collaborations</span>
+                                        <span class="d-block pt-1">Programme Specialisations</span>
                                     </div>
                                 </div>
                             </div>
@@ -164,57 +170,71 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</span></h3>
                     <p>The College of Paramedical Sciences offers specialised training in four disciplines, delivered by qualified professionals.</p>
-                    <ul class="m-ol-list ps-4">
+                    <ul class="m-ol-list ps-4 mb-0">
                         <li>
                             <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span>It is a hub of academic research and consultancy that grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes with the knowledge and skills necessary to excel in the ever-evolving pharmacy field.</p>
                         </li>
-                        <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> Develop proficiency in radiological imaging techniques. Such as X-Ray, Color Doppler, Ultrasound, CT-SCAN, and MRI.</p>
-                        </li>
-                        <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> Become a specialised health care professional that provides comprehensive eye care, examining the eyes and structures for defects or abnormalities.</p>
-                        </li>
-                        <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span> Gain valuable exposure and practical industrial training for both faculty and students alike.</p>
-                        </li>
                     </ul>
+                    <div class="read-more-content mt-0">
+                        <ul class="m-ol-list ps-4 pt-0 mb-0">
+                            <li>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> Develop proficiency in radiological imaging techniques, such as X-Ray, Color Doppler, Ultrasound, CT-SCAN, and MRI.</p>
+                            </li>
+                            <li>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> Become a specialised health care professional that provides comprehensive eye care, examining the eyes and structures for defects or abnormalities.</p>
+                            </li>
+                            <li>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span> Gain valuable exposure and practical industrial training for both faculty and students alike.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</span></h3>
                     <p>Paramedical College stands out for exceptional placement and internship opportunities for students in their respective fields.
                         <br>
-                        With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings. Enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce. Here’s our stellar placement
+                        With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings. Enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce.
                     </p>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</span></h3>
                     <p>Teerthanker Mahaveer College of Paramedical Sciences offers a comprehensive curriculum designed to equip paramedical students with the necessary skills and training required in the healthcare field. Our courses cover a wide range of topics, including anatomy, optics, microbiology, psychology, physiology, forensic serology, toxicology, pharmacology, and medical ethics, among others. We also offer clinical rotations in a variety of healthcare settings, allowing students to gain hands-on experience working with patients.</p>
-                    <br>
-                    Additionally, we have MOUs with industry experts and academic institutions.
-                    <ul class="m-ol-list ps-4">
-                        <li>Pioneer Centre of Bioscience It aims to encourage bioscience-related research, product development and skill development, which will bridge the gap between academics and industries.</li>
-                        <li>DNA Labs It aims to provide a learning platform for Medical Laboratory Techniques through internships, project work and training.</li>
-                        <li>Hawk-Eye Forensic It aims to provide industrial training and assist with student project work, final-year dissertations, etc.</li>
-                    </ul>
+                    <div class="read-more-content mt-0">
+                        <br />
+                        <p>Additionally, we have MOUs with industry experts and academic institutions.</p>
+                        <ul class="m-ol-list ps-4">
+                            <li>Pioneer Centre of Bioscience It aims to encourage bioscience-related research, product development and skill development, which will bridge the gap between academics and industries.</li>
+                            <li>DNA Labs It aims to provide a learning platform for Medical Laboratory Techniques through internships, project work and training.</li>
+                            <li>Hawk-Eye Forensic It aims to provide industrial training and assist with student project work, final-year dissertations, etc.</li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</span></h3>
                     <p>Our college boasts a variety of well-equipped laboratories that adhere to the UP State medical standards. It also meets international benchmarks. Our state-of-the-art facilities includes:</p>
-                    <ul class="m-ol-list ps-4">
+                    <ul class="m-ol-list ps-4 mb-0">
                         <li>
                             <p class="p-0 m-0"><b>Medical Laboratory Techniques:</b> includes spectrophotometer, colorimeter, ELISA reader, semi auto analyser, PH metre and Autoclaves.</p>
                         </li>
-                        <li>
-                            <p class="p-0 m-0"><b>Radiological & Imaging Techniques: </b>include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p>
-                        </li>
-                        <li>
-                            <p class="p-0 m-0"><b>Optometry:</b> includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p>
-                        </li>
-                        <li>
-                            <p class="p-0 m-0"><b>Forensic Science:</b>includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p>
-                        </li>
                     </ul>
-                    <p>These cutting-edge laboratories provide students with a world-class learning experience, ensuring they receive hands-on training on par with global standards.</p>
+                    <div class="read-more-content mt-0">
+                        <ul class="m-ol-list ps-4 mb-0">
+                            <li>
+                                <p class="p-0 m-0"><b>Radiological & Imaging Techniques: </b>include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p>
+                            </li>
+                            <li>
+                                <p class="p-0 m-0"><b>Optometry:</b> includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p>
+                            </li>
+                            <li>
+                                <p class="p-0 m-0"><b>Forensic Science:</b>includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p>
+                            </li>
+                        </ul>
+                        <br/>
+                        <p>These cutting-edge laboratories provide students with a world-class learning experience, ensuring they receive hands-on training on par with global standards.</p>
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
             </div>
         </div>
@@ -234,12 +254,12 @@
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
                                 <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                   
+
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
-                                   </a>
+                                </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -258,7 +278,7 @@
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
                                 <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
-                                
+
 
                                 </div>
                                 <!-- 
@@ -270,7 +290,7 @@
 								 -->
 
                                 <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
-                                
+
                                 </div>
 
                                 <!-- 
@@ -363,17 +383,17 @@
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeUG">
-                                
+
 
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmePG">
-                                
+
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
@@ -381,7 +401,7 @@
                         <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
-                                
+
 
                             </ul>
                         </div>
@@ -467,34 +487,34 @@
         <!-----Courses section completed-->
 
 
-	<section>
-        <div class="container-fluid mt-5 ">
-            <h2 class="tmu-text-primary text-center">
-                <span>Our </span><span> Recruiters</span>
-            </h2>
-            <div class="marquee my-5 py-5 pt-4">
-                
-            
-                <section class="marquee-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-                <section class="marquee-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-            </div>
-        </div>
-    </section>
- 
+        <section>
+            <div class="container-fluid mt-5 ">
+                <h2 class="tmu-text-primary text-center">
+                    <span>Our </span><span> Recruiters</span>
+                </h2>
+                <div class="marquee my-5 py-5 pt-4">
 
-              <section>
+
+                    <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                    <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
             <div class="container-xl tmu-testimonial mt-5 mb-3">
 
                 <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
@@ -502,30 +522,30 @@
                 <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-@foreach($testimonials as $testimonial)
-    <div class="oc-item text-start">
-        <div class="media">
-            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
-            <div class="media-body">
-                <div class="testimonial">
-                    <p class="overview mb-3 fs-14">
-                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
-                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
-                           <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
-                                Linkedin <i class="bi bi-linkedin"></i>
-                            </a>
-                        </span>
-                    </p>
-                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
-                </div>
-            </div>
-            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-            </div>
-        </div>
-    </div>
-@endforeach
+                    @foreach($testimonials as $testimonial)
+                    <div class="oc-item text-start">
+                        <div class="media">
+                            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3 fs-14">
+                                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                                        <span>
+                                            <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                                Linkedin <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </span>
+                                    </p>
+                                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
 
                 </div>
 
@@ -630,10 +650,10 @@
     <button class="careers-accordion">Top 10 Careers in the Paramedical Field: <span class="icon">+</span></button>
     <div class="panel">
         <h3 class="tmu-text-primary mb-0 fs-16"><span>1. Medical Laboratory </span><span> Assistance</span></h3>
-        <p class="text-justify">Medical lab assistants perform various laboratory tests to help diagnose, treat, and prevent diseases. They analyse body fluids, tissues, and cells to provide crucial information to healthcare professionals.</p>
+        <p class="text-justify">Medical Lab Assistants perform various laboratory tests to help diagnose, treat, and prevent diseases. They analyse body fluids, tissues, and cells to provide crucial information to healthcare professionals.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Radiologic </span><span> Technologist</span></h3>
-        <p class="text-justify">Radiologic technologists operate imaging equipment such as X-ray machines, CT scanners, and MRI machines to create images of the body for diagnostic purposes. They play a vital role in helping physicians diagnose and treat medical conditions. TMU offers BSc/MSc Radiology courses and diploma courses in Radiology.</p>
+        <p class="text-justify">Radiologic Technologists operate imaging equipment such as X-ray machines, CT scanners, and MRI machines to create images of the body for diagnostic purposes. They play a vital role in helping physicians diagnose and treat medical conditions. TMU offers BSc/MSc Radiology courses and diploma courses in Radiology.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>3. Emergency Medical </span><span> Technician (EMT)</span></h3>
         <p class="text-justify">EMTs provide emergency medical care to patients in critical situations, such as accidents, injuries, or sudden illnesses. They assess patients' conditions, administer necessary treatments, and transport them to medical facilities for further care.</p>
@@ -642,22 +662,22 @@
         <p class="text-justify">Paramedics are advanced EMTs trained to provide more comprehensive medical care in emergency situations. They can administer medications, perform advanced medical procedures, and make critical decisions to stabilise patients before they reach the hospital.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>5. Respiratory </span><span> Therapist</span></h3>
-        <p class="text-justify">Respiratory therapists specialise in treating patients with respiratory disorders, such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. They assess patients' lung function, administer breathing treatments, and provide respiratory care in emergency situations.</p>
+        <p class="text-justify">Respiratory Therapists specialise in treating patients with respiratory disorders, such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. They assess patients' lung function, administer breathing treatments, and provide respiratory care in emergency situations.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>6. Occupational </span><span> Therapy Assistant</span></h3>
-        <p class="text-justify">Occupational therapy assistants work under the supervision of occupational therapists to help patients develop, recover, and improve the skills needed for daily living and working. They assist patients with therapeutic exercises, activities, and adaptive equipment.</p>
+        <p class="text-justify">Occupational Therapy Assistants work under the supervision of occupational therapists to help patients develop, recover, and improve the skills needed for daily living and working. They assist patients with therapeutic exercises, activities, and adaptive equipment.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>7. Physical </span><span> Therapy Assistant</span></h3>
-        <p class="text-justify">Physical therapy assistants assist physical therapists in providing rehabilitative services to patients with injuries or disabilities. They help patients perform therapeutic exercises, use therapeutic modalities, and improve mobility and function.</p>
+        <p class="text-justify">Physical Therapy Assistants assist physical therapists in providing rehabilitative services to patients with injuries or disabilities. They help patients perform therapeutic exercises, use therapeutic modalities, and improve mobility and function.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>8. Cardiac </span><span> Technician</span></h3>
-        <p class="text-justify">Cardiac technicians perform diagnostic tests to evaluate patients' heart function and identify cardiac abnormalities. They conduct electrocardiograms (ECGs), stress tests, and Holter monitoring to assist cardiologists in diagnosing and treating heart conditions.</p>
+        <p class="text-justify">Cardiac Technicians perform diagnostic tests to evaluate patients' heart function and identify cardiac abnormalities. They conduct electrocardiograms (ECGs), stress tests, and Holter monitoring to assist cardiologists in diagnosing and treating heart conditions.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>9. Surgical </span><span> Technologist</span></h3>
-        <p class="text-justify">Surgical technologists assist surgeons and nurses in operating rooms by preparing surgical instruments, equipment, and supplies for procedures. They also assist during surgeries by passing instruments to surgeons, maintaining a sterile field, and ensuring patient safety.</p>
+        <p class="text-justify">Surgical Technologists assist surgeons and nurses in operating rooms by preparing surgical instruments, equipment, and supplies for procedures. They also assist during surgeries by passing instruments to surgeons, maintaining a sterile field, and ensuring patient safety.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>10. Dialysis </span><span> Technician</span></h3>
-        <p class="text-justify">Dialysis technicians operate dialysis machines to remove waste and excess fluid from patients' blood when their kidneys are no longer able to function properly. They monitor patients during dialysis treatments and provide emotional support and education to patients and their families.</p>
+        <p class="text-justify">Dialysis Technicians operate dialysis machines to remove waste and excess fluid from patients' blood when their kidneys are no longer able to function properly. They monitor patients during dialysis treatments and provide emotional support and education to patients and their families.</p>
 
     </div>
     <hr class="horizontal-line">
@@ -672,7 +692,7 @@
         <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Extracurricular </span><span> Activities:</span></h3>
         <p class="text-justify">
             In addition to academics, students have the opportunity to participate in a variety of extracurricular activities, including
-            sports, cultural events, and student clubs and organizations.
+            sports, cultural events, and student clubs and organisations.
         </p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>3. State-of-the-Art </span><span> Facilities:</span></h3>
@@ -699,7 +719,7 @@
     <div class="panel">
         <h3 class="tmu-text-primary mb-0 fs-16"><span>1. Laboratories:</span></h3>
         <p class="text-justify">
-            The college is equipped with state-of-the-art laboratories for practical training in medical laboratory technology, radiography, and other paramedical disciplines.
+        The college is equipped with state-of-the-art laboratories for practical training in Medical Laboratory Technology, Radiography, and other Paramedical disciplines.
         </p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>2. Hospital </span><span> Training:</span></h3>
@@ -733,12 +753,10 @@
     <div class="panel">
         <p class="text-justify"><strong>Q1. What makes TMU's College of Paramedical Sciences unique?</strong></p>
         <p class="text-justify"><strong>Ans:</strong> TMU's College of Paramedical Sciences stands out for its hands-on training, global opportunities, and strong industry connections, ensuring that students receive a comprehensive education that prepares them for success in the paramedical field.</p>
-
         <p class="text-justify"><strong>Q2. How does TMU support students' career aspirations?</strong></p>
         <p class="text-justify"><strong>Ans:</strong> TMU offers 100% placement assistance, with a track record of excellent placements in leading healthcare organisations. Additionally, the university provides students with opportunities for international internships and exposure to real-world industry practices.</p>
-        </p>
         <p class="text-justify"><strong>Q3. What facilities does TMU provide for students' accommodation?</strong></p>
-        <p class="text-justify"><strong>Ans:</strong> TMU offers comfortable hostel facilities on campus, ensuring that students have a conducive environment for learning and personal growth. The university prioritises students' well-being and provides a supportive community environment.</p>
+        <p class="text-justify"><strong>Ans:</strong> TMU provides comfortable on-campus hostel facilities that foster both learning and personal growth. The university prioritises students' well-being and provides a supportive community environment.</p>
         <p class="text-justify"><strong>Q4. What sets TMU's faculty apart?</strong></p>
         <p class="text-justify"><strong>Ans:</strong> TMU's faculty members are highly qualified experts in their respective fields, with extensive experience in academia and industry. They are dedicated to providing students with practical knowledge and skills that are essential for success in the paramedical field.</p>
         <p class="text-justify"><strong>Q5. How does TMU foster innovation and entrepreneurship?</strong></p>
@@ -755,35 +773,33 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+    $(document).ready(function() {
+        // Click event for navbar buttons
+        $('.programme-fetch-button').click(function() {
 
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
 
-$(document).ready(function() {
-    // Click event for navbar buttons
-    $('.programme-fetch-button').click(function() {
-        
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 6,
-                programme_level:programme_level 
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                    if ((i % 3 == 0) && (i != 0)) {
-                        programListHtml += `</div><div class="row">`;
-                    } else if (i == 0) {
-                        programListHtml += `<div class="row">`; 
-                    }
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 6,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+                        if ((i % 3 == 0) && (i != 0)) {
+                            programListHtml += `</div><div class="row">`;
+                        } else if (i == 0) {
+                            programListHtml += `<div class="row">`;
+                        }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -802,42 +818,42 @@ $(document).ready(function() {
                                     </div>
                                 </div>`;
 
-            
-                
-                                i++;
-                });
-                $('#'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+
+
+                        i++;
+                    });
+                    $('#' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
-    });
-    $('.programme-fetch-button:first').addClass('active').click();
-    $('.programmes-data:first').addClass('active');
+        $('.programme-fetch-button:first').addClass('active').click();
+        $('.programmes-data:first').addClass('active');
 
-// Programme fetch code for the mobile view starts here
+        // Programme fetch code for the mobile view starts here
 
-    $('.careers-accordion').click(function() {
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 6,
-                programme_level: programme_level
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                 
+        $('.careers-accordion').click(function() {
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 6,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -853,20 +869,19 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </li>`;
- i++;
-                });
-                $('#programme'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+                        i++;
+                    });
+                    $('#programme' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
+
+        // Programme fetch code for the mobile view ends here
+
     });
-
-// Programme fetch code for the mobile view ends here
-
-});
-
 </script>
 @endsection

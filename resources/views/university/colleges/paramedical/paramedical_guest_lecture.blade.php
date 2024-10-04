@@ -16,74 +16,41 @@
         <div class="container">
             <div class="row">
                 <div class="clear"></div>
-                <div class="entry event col-lg-4 col-md-6 col-sm-6 ">
-                    <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
-                        <div class="entry-image">
-                            <a href="#">
-                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/497_title_image.webp')}}"
-                                    alt="Event-1">
-                            </a>
-                        </div>
-                        <div class="entry-meta mb-1">
-                            <ul>
-                                <li><span class="badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>February 28<sup>th</sup>, 2024</span></li>
-                            </ul>
-                        </div>
-                        <div class="entry-title title-sm ">
-                            <h3 class="tmu-text-primary fs-16"><span>Guest Lecture on cutting edge instrumentation in forensic Science</span></h3>
-                        </div>
-                        <div class="entry-content mt-1" style="text-align: right;">
-                            <a href=""
-                                class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                        </div>
-                    </div>
-                </div>
+
+                @foreach($guest_lectures as $guest_lecture)
+
+
 
                 <div class="entry event col-lg-4 col-md-6 col-sm-6 ">
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/452_title_image.webp')}}"
+                                <img src="{{asset($guest_lecture->ei1_path)}}"
                                     alt="Event-1">
                             </a>
                         </div>
                         <div class="entry-meta mb-1">
                             <ul>
-                                <li><span class="badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>February 28<sup>th</sup>, 2024</span></li>
+                                <li>
+                                    <span class="badge bg-warning text-dark py-1 px-2">
+                                        <i class="uil-calendar-alt"></i>{{ $guest_lecture->formatted_date }}
+                                    </span>
+                                </li>
                             </ul>
                         </div>
-                        <div class="entry-title title-sm ">
+                        <div class="entry-title title-sm">
+                            <h3 class="tmu-text-primary fs-16">
+                                <span>{{ $guest_lecture->event_title }}</span>
+                            </h3>
+                        </div>
+                        <div class="entry-content mt-1" style="text-align: right;">
+                            <a href="{{ url('news/' . $guest_lecture->n_slug) }}"
+                                class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
 
-                            <h3 class="tmu-text-primary fs-16"><span>Paramedical College organized a guest lecture on HPV Vaccine</span></h3>
-                        </div>
-                        <div class="entry-content mt-1" style="text-align: right;">
-                            <a href=""
-                                class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="entry event col-lg-4 col-md-6 col-sm-6 ">
-                    <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
-                        <div class="entry-image">
-                            <a href="#">
-                                <img src="{{asset('/assets/img/guest_lecturer/paramedical/388_title_image.webp')}}"
-                                    alt="Event-1">
-                            </a>
-                        </div>
-                        <div class="entry-meta mb-1">
-                            <ul>
-                                <li><span class="badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>February 28<sup>th</sup>, 2024</span></li>
-                            </ul>
-                        </div>
-                        <div class="entry-title title-sm ">
-                            <h3 class="tmu-text-primary fs-16"><span>Guest Lecture on Forensic Ballistic and Crime Scene investigation held at TMU</span></h3>
-                        </div>
-                        <div class="entry-content mt-1" style="text-align: right;">
-                            <a href=""
-                                class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

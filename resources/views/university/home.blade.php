@@ -9,9 +9,17 @@
         <div class="container-fluid p-0">
             <div class="video-banner">
        
-      <video muted autoplay loop>
+            <video muted autoplay loop playsinline class="d-none d-md-block" preload="auto">
                     <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
+
+                <video muted autoplay loop playsinline class="d-block d-md-none w-100" preload="auto">
+                    <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
+                </video>
+       
+      <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
+      <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
+      <!--          </video>-->
 
             </div>
             <div class="banner-text">
@@ -21,6 +29,8 @@
         </div>
     </div>
 </section>
+
+
 <!-- video banner End -->
 <!-- <div class="container-sideb">
     <a href="#" class="side-button">CDOE</a>
@@ -194,7 +204,7 @@
                     @endphp
  @foreach ($colleges as $college)
 
-<h4 class="mb-1"><a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm" id="{{$college->cd_code}}" data-collegeId="{{$college->cd_id}}" data-bs-toggle="list" href="#{{$college->cd_id}}" role="tab" aria-controls="{{$college->cd_id}}">&nbsp;{{$college->short_name}}
+<h4 class="mb-1"><a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm" id="{{$college->cd_code}}" data-collegeId="{{$college->cd_id}}" data-bs-toggle="list" href="#{{$college->cd_id}}" role="tab" aria-controls="{{$college->cd_id}}"><img src="{{ asset($college->icon_path) }}" alt="Icon" class="float-start">&nbsp;&nbsp;{{$college->short_name}}
   </a></h4>
 
 
@@ -291,31 +301,29 @@ $i++;
                             <div class="owl-carousel" id="owl-carousel2">
                                
 
-                                @foreach ($news as $event)                                
+                 @foreach ($news as $event)
                                 <div class="item">
 
                                     <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
-                                        <div class="entry-image mb-0">
-                                            <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                                <div class="flexslider">
-                                                    <div class="slider-wrap">
-                                                        <div class="slide">
-                                                            <a href="{{ $event->n_slug}}" data-lightbox="gallery-item" style="background: url('{{ $event->monaco_image_path }}') no-repeat center bottom; background-size: cover; height: 200px;">
-                                                            </a>
-                                                        </div>                                                        
-                                                        <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-2.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-2.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                        <!--</div>-->
-                                                        <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-3.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-3.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                        <!--</div>-->
+                                        <a href="{{ url('news/' . $event->n_slug) }}" target="_blank">
+                                            <div class="entry-image mb-0">
+                                                <div class="fslider" data-arrows="false" data-lightbox="gallery">
+                                                    <div class="flexslider">
+                                                        <div class="slider-wrap">
+                                                            <div class="slide" style="background: url('{{ $event->monaco_image_path }}') no-repeat center bottom; background-size: cover; height: 200px;">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
+
+
                                         <div class="p-2">
                                             <div class="entry-title">
-                                                <a herf="" style="font-size: 18px; font-weight: 500; ">{{$event->event_title}}</a>
+                                                <a href="{{'news/'.$event->n_slug}}" target="_blank" style="font-size: 18px; font-weight: 500; ">{{ Str::limit($event->event_title, 70) }}</a>
                                             </div>
-                                            <div class="entry-meta">
+                                            <div class="entry-meta pt-2">
                                                 <ul>
                                                     <li><i class="uil uil-schedule"></i> {{$event->event_date}}</li>
                                                     <li><a href="{{'news/'.$event->n_slug}}" target="_blank">Read More</a></li>
@@ -325,7 +333,7 @@ $i++;
                                         </div>
                                     </div>
                                 </div>
-@endforeach
+                                @endforeach
 
                                
 
@@ -387,12 +395,12 @@ $i++;
                     <!-- 
 														Blog Carousel Starts Here
 														-->
+														
+														
+														
                 </main>
-                <!-- 
-												Side Menu Code start here
-											 -->
-
-
+                
+                
                 <aside class="sidebar col-md-12 d-block d-sm-none" style="margin-bottom: 35px;">
                     <div class="sidebar-widgets-wrap bg-white rounded-5 p-4 shadow-sm">
 
@@ -402,114 +410,34 @@ $i++;
                             <hr>
                             <div class="posts-sm row col-mb-30" id="post-list-sidebar" style="margin-top: -0.25rem;">
 
-
-
+                                @foreach($activeBlogs as $blog)
                                 <div class="entry col-12">
                                     <div class="grid-inner row g-0">
                                         <div class="col-auto">
                                             <div class="entry-image">
-                                                <a href="#"><img src="{{asset('assets/img/blog-thumb/bfa.jpg')}}" alt="Image"></a>
+                                                <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image"></a>
                                             </div>
                                         </div>
                                         <div class="col ps-3">
                                             <div class="entry-title">
-                                                <h4><a href="#">BFA Course Details, Full Form, Admission, Fees, Syllabus, Top Colleges, Career</a></h4>
+                                                <h4><a href="{{ url('blog/' . $blog->n_slug) }}">{{$blog->post_title}}</a></h4>
                                             </div>
                                             <div class="entry-meta">
                                                 <ul>
-                                                    <li>10th July 2021</li>
+                                                    <li>{{ $blog->formatted_date }}</li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            @endforeach
 
-                                <div class="entry col-12">
-                                    <div class="grid-inner row g-0">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img src="{{asset('assets/img/blog-thumb/bpt.jpg')}}" alt="Image"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col ps-3">
-                                            <div class="entry-title">
-                                                <h4><a href="#">BPT Course Details, Full Form, Admission, Fees, Syllabus, Top Colleges, Career</a></h4>
-                                            </div>
-                                            <div class="entry-meta">
-                                                <ul>
-                                                    <li>10th July 2021</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="entry col-12">
-                                    <div class="grid-inner row g-0">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img src="{{asset('assets/img/blog-thumb/blog_thumbnail.jpg')}}" alt="Image"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col ps-3">
-                                            <div class="entry-title">
-                                                <h4><a href="#">Top 10 Engineering colleges in india</a></h4>
-                                            </div>
-                                            <div class="entry-meta">
-                                                <ul>
-                                                    <li>10th July 2021</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="entry col-12">
-                                    <div class="grid-inner row g-0">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img src="{{asset('assets/img/blog-thumb/blog_thumbnail4.jpg')}}" alt="Image"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col ps-3">
-                                            <div class="entry-title">
-                                                <h4><a href="#">Top 100 Universities in india</a></h4>
-                                            </div>
-                                            <div class="entry-meta">
-                                                <ul>
-                                                    <li>10th July 2021</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="entry col-12">
-                                    <div class="grid-inner row g-0">
-                                        <div class="col-auto">
-                                            <div class="entry-image">
-                                                <a href="#"><img src="{{asset('assets/img/blog-thumb/llm.jpg')}}" alt="Image"></a>
-                                            </div>
-                                        </div>
-                                        <div class="col ps-3">
-                                            <div class="entry-title">
-                                                <h4><a href="#">LLM Course Details, Full Form, Admission, Syllabus, Top Colleges, Career</a></h4>
-                                            </div>
-                                            <div class="entry-meta">
-                                                <ul>
-                                                    <li>10th July 2021</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </aside>
 
-
-                <aside class="sidebar col-lg-4 col-md-12">
+			<aside class="sidebar col-lg-4 col-md-12">
                     <div class="notice-board">
                         <div class="notice-header">NOTICE BOARD</div>
                         <div class="notice-body">
@@ -523,9 +451,9 @@ $i++;
                                         organise International Women's Day</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 09,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 09,
                                         March</span>
                                 </div>
                             </div>
@@ -539,9 +467,9 @@ $i++;
                                         Technology" in association with ESTC Ramnagar.</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 15,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 15,
                                         March</span>
                                 </div>
                             </div>
@@ -555,9 +483,9 @@ $i++;
                                         Poster Competition on the topic "Mera Pehla Vote-Desh ke liye</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 21,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21,
                                         March</span>
                                 </div>
                             </div>
@@ -571,9 +499,9 @@ $i++;
                                         of Colors".</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 20,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20,
                                         March</span>
                                 </div>
                             </div>
@@ -587,9 +515,9 @@ $i++;
                                         organised by the Techno Club (CCSIT).</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         Auditorium</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 14,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14,
                                         March</span>
                                 </div>
                             </div>
@@ -603,9 +531,9 @@ $i++;
                                         activities and competitions</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         LT-6, CCSIT </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 28,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
                                         February</span>
                                 </div>
                             </div>
@@ -619,47 +547,20 @@ $i++;
                                         Lecture on "Process of Innovation & Technology Readiness Level".</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         LT-6, FOE</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 24,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24,
                                         February</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
-                            <!--<div class="notice">-->
-                            <!--    <div class="notice-pub">-->
-                            <!--        <span>01, April</span>-->
-                            <!--    </div>-->
-                            <!--    <div class="notice-content">-->
-                            <!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros eget nunc-->
-                            <!--            tincidunt vestibulum.</p>-->
-                            <!--    </div>-->
-                            <!--    <div class="notice-meta">-->
-                            <!--        <span style="margin-right: 15px;"><img src="assets/img/icons/placeholder.svg" width="20px" height="20px">-->
-                            <!--            Conference Room</span>-->
-                            <!--        <span><img src="assets/img/icons/calendar.svg" width="20px" height="20px"> 5,-->
-                            <!--            April</span>-->
-                            <!--    </div>-->
-                            <!--</div>-->
-                            <!--<hr class="notice-separator">-->
-                            <!--<div class="notice">-->
-                            <!--    <div class="notice-pub">-->
-                            <!--        <span>01, April</span>-->
-                            <!--    </div>-->
-                            <!--    <div class="notice-content">-->
-                            <!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros eget nunc-->
-                            <!--            tincidunt vestibulum.</p>-->
-                            <!--    </div>-->
-                            <!--    <div class="notice-meta">-->
-                            <!--        <span>01, April</span>-->
-                            <!--        <span><img src="assets/img/icons/placeholder.svg" width="15px" height="15px"> Conference Room</span>-->
-                            <!--        <span><img src="assets/img/icons/calendar.svg" width="15px" height="15px"> 5, April</span>-->
-                            <!--    </div>-->
-                            <!--</div>-->
-                            <!-- Add more notices here -->
+                    
                         </div>
                     </div>
-                </aside>
+                </aside>							
+
+
+               
             </div>
             <!-- 
 												Side Menu Code Ends Here
@@ -689,9 +590,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
-                        <span>
-                            <a href="#" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                        </span>
+        
                     </div>
 
                 </div>
@@ -705,9 +604,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
-                        <span>
-                            <a href="#" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                        </span>
+                    
                     </div>
 
                 </div>
@@ -720,9 +617,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
-                        <span>
-                            <a href="#" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                        </span>
+                 
                     </div>
 
                 </div>
@@ -735,9 +630,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
-                        <span>
-                            <a href="#" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                        </span>
+                    
                     </div>
 
                 </div>
@@ -749,9 +642,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
-                        <span>
-                            <a href="#" class=" px-2 py-1 linkedin-text">Linkedin <i class="bi bi-linkedin"></i></a>
-                        </span>
+                   
                     </div>
 
                 </div>
@@ -772,7 +663,6 @@ $i++;
     </div>
 </div>
 <!-- Success Stories Popup Modal code end -->
-
 <div class="container mb-5 mt-5">
     <hr class="horizontal-line">
 
@@ -788,76 +678,77 @@ $i++;
 
     <button class="careers-accordion">TMU’s Impressive Placement Records<span class="icon">+</span></button>
     <div class="panel">
-        <h3 class="mb-2 tmu-color accord">82% Outstanding Placement Rate</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>82% Outstanding </span><span> Placement Rate</h3>
         <p>One of the key indicators of a university'ssuccess is its placement records. TMU boasts an outstanding placement rate of 82% in the academic year 2022-23.</p>
-        <h3 class="mb-2 tmu-color accord">Highest Package Offered - 60 LPA</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Highest Package </span><span> Offered - 60 LPA</h3>
         <p>The university's commitment to providing quality education is evident in the remarkable achievement of a 60 LPA package offered to TMU students, showcasing the recognition and demand for graduates from the university.</p>
-        <h3 class="mb-2 tmu-color accord">National and International Collaborations</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>National and </span><span> International Collaborations</h3>
         <p>With over 100 collaborations with national and international organizations, TMU ensures that its students have access to diverse and enriching opportunities.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
     <button class="careers-accordion">Awards and Recognitions of Teerthanker Mahaveer University<span class="icon">+</span></button>
     <div class="panel">
-        <h3 class="mb-2 tmu-color accord">NIRF Innovation Category</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>NIRF Innovation </span><span> Category</h3>
         <p>TMU secured a position in the 51-100 rank band in the NIRF innovation category, highlighting its commitment to fostering innovation in education.</p>
-        <h3 class="mb-2 tmu-color accord">Excellence in Skills Development</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Excellence in </span><span> Skills Development</h3>
         <p>Acknowledgement from Observe Now and LinkedIn Talent Solutions for Excellence in Skills Development further solidifies TMU's standing.</p>
-        <h3 class="mb-2 tmu-color accord">Outlook India Ranking</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Outlook </span><span> India Ranking</h3>
         <p>TMU holds the 45th rank among the Top 50 State Private Universities by Outlook India, a testament to its overall excellence.</p>
-        <h3 class="mb-2 tmu-color accord">Notable Alumni Network</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Notable </span><span> Alumni Network</h3>
         <p>With over 28,000 alumni, TMU has created a robust network of successful individuals contributing to various fields globally.</p>
-        <h3 class="mb-2 tmu-color accord">Diverse Academic Programmes</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Diverse </span><span> Academic Programmes</h3>
         <p>TMU offers over 150 programmes across 14 on-campus colleges and independent departments, catering to a wide range of academic interests.</p>
-        <h3 class="mb-2 tmu-color accord">Cutting-Edge Infrastructure</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Cutting-Edge </span><span> Infrastructure</h3>
         <p>The university's lush green campus spanning over 130 acres provides a conducive environment for learning. State-of-the-art facilities, including sports complexes and libraries, contribute to a holistic educational experience.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
     <button class="careers-accordion">Innovation and Research Achievements at TMU<span class="icon">+</span></button>
     <div class="panel">
-        <h3 class="mb-2 tmu-color accord">Patent Success and Recognition</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Patent Success </span><span> and Recognition</h3>
         <p>TMU ranks 6th nationally in patent filings among all universities, showcasing a commitment to academic excellence. The Business Incubation Centre's recognition by the UP state government further emphasizes TMU's success in fostering innovation.</p>
-        <h3 class="mb-2 tmu-color accord">Industry Collaborations</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Industry </span><span> Collaborations</h3>
         <p>TMU has established strong ties with leading industries, providing students with valuable insights and opportunities. Collaborations with IBM, AutoCAD, TCS-iON, and others enhance the practical exposure students receive.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
     <button class="careers-accordion">TMU’s Commitment to Quality Education<span class="icon">+</span></button>
     <div class="panel">
-        <h3 class="mb-2 tmu-color accord">Adherence to National Education Policy (NEP) 2020</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Adherence to National </span><span> Education Policy (NEP) 2020</h3>
         <p>TMU is strategically aligning with the future of education by implementing NEP 2020, adopting a national credit framework and redesigning the curriculum.</p>
-        <h3 class="mb-2 tmu-color accord">Outcome-Based Education (OBE)</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Outcome-Based </span><span> Education (OBE)</h3>
         <p>TMU's focus on OBE enhances the overall quality of learning, preparing students for the challenges of the future. TMU is actively contributing to the idea of a self-reliant India by creating a hub for startups, an Entrepreneurship Development Cell, and aligning its activities with the vision of an Aatmanirbhar Bharat through the Institution Innovation Council.</p>
-        <h3 class="mb-2 tmu-color accord">Strategic Initiatives for Skill Development</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Strategic Initiatives </span><span> for Skill Development</h3>
         <p>The university prioritizes skill development through various initiatives, including a Centre for Teaching Learning & Development, global internship opportunities, and live projects.</p>
-        <h3 class="mb-2 tmu-color accord">Recognitions and Accreditations</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Recognitions and </span><span> Accreditations</h3>
         <p>TMU's numerous accreditations, including NAAC-A, NBA, and ICAR, reflect its commitment to maintaining high-quality standards in education.</p>
-        <h3 class="mb-2 tmu-color accord">Global Outreach and Collaborations</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Outreach </span><span> and Collaborations</h3>
         <p>TMU's affiliation with the United Nations Academic Impact (UNAI) and global collaborations contribute to creating a culturally diverse community.</p>
-        <h3 class="mb-2 tmu-color accord">Commitment to Social Responsibility</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Commitment to </span><span> Social Responsibility</h3>
         <p>TMU's involvement in social initiatives, including NSS units and support for sustainable institutions, highlights its commitment to social responsibility.</p>
-        <h3 class="mb-2 tmu-color accord">Your Future Awaits</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>Your Future </span><span> Awaits</h3>
         <p>Teerthanker Mahaveer University's consistent commitment to excellence, innovation, and holistic development has propelled it into the league of top universities in India. The impressive placement records, accolades, and a focus on quality education make TMU a preferred choice for aspiring students.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
     <button class="careers-accordion">Frequently Asked Questions (FAQs)<span class="icon">+</span></button>
     <div class="panel">
-        <h4 class="mb-2 tmu-color">1. What sets TMU apart from other universities?</h4>
+        <p><strong>1. What sets TMU apart from other universities?</strong><p>
         <p>TMU's commitment to excellence, innovation, and holistic development sets it apart. The university's impressive placement records and global collaborations contribute to its distinguished status.</p>
-        <h4 class="mb-2 tmu-color">2. How does TMU support entrepreneurship?</h4>
+        <p><strong>2. How does TMU support entrepreneurship?</strong><p>
         <p>TMU actively fosters entrepreneurship through its Business Incubation Centre, strategic initiatives aligned with Aatmanirbhar Bharat, and a strong industry-university interface.</p>
-        <h4 class="mb-2 tmu-color">3. What is the significance of TMU's accreditations?</h4>
+        <p><strong>3. What is the significance of TMU's accreditations?</strong><p>
         <p>Accreditations like NAAC-A, NBA, and ICAR reflect TMU's adherence to high-quality standards, ensuring students receive a top-notch education.</p>
-        <h4 class="mb-2 tmu-color">4. How does TMU contribute to social responsibility?</h4>
+        <p><strong>4. How does TMU contribute to social responsibility?</strong><p>
         <p>TMU engages in various social initiatives, including NSS units and support for sustainable institutions, showcasing its commitment to social responsibility.</p>
-        <h4 class="mb-2 tmu-color">5. How can I get admission to TMU?</h4>
+        <p><strong>5. How can I get admission to TMU?</strong><p>
         <p>To get admission to Teerthanker Mahaveer University, visit the <a href="https://admissions.tmu.ac.in/">admission page</a> or contact 18002701490</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
 </div>
+
 
 
 

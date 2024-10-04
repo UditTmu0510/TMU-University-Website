@@ -1,5 +1,5 @@
 // Enable dropdown on hover in Menubar 
-const path = "http://127.0.0.1:8000/assets/json/tmimt_menubarData.json";
+const path = "https://tmuhospital.com/assets/json/tmimt_menubarData.json";
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
         const _d = this.querySelector('.dropdown-menu');

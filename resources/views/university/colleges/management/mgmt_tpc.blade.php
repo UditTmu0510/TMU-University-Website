@@ -7,10 +7,10 @@
             <section class="mt-4">
                 <div class="container">
                     <div class="text-content p-4">
-                        <h1 class="tmu-text-primary tmu-page-heading"><span>Training & </span><span>Placement Cell </span></h1>
+                        <h1 class="tmu-text-primary tmu-page-heading"><span>Training and </span><span>Placement Cell </span></h1>
                     </div>
                     <div class="container">
-                        <p class="text-justify mb-2 mt-0">A Unique academia-industry interface platform for all students of <span class="highlight">TMIMT – CORPORATE RESOURCE CENTRE (Placement Cell)</span> where students and reputed MNCs can come together & explore opportunities for employment.Many top rated companies& MNC’s have visited the campus helping the students in achieving tremendous placements. The CRC works round the year towards generating placement, training, internship & industrial visit opportunities for the students. Reputed industrial houses across the country visit TMIMT regularly for conducting the campus recruitment programmes. The prime objective of the CRC is to facilitate the graduating students and industry by providing a common meeting ground where the prospective employers can identify suitable candidates for joining their organization. To achieve 100% employment of our students and to assist students in securing best available job opportunities, the CRC follows two fold approaches:</p>
+                        <p class="text-justify mb-2 mt-0">A Unique academia-industry interface platform for all students of <span class="highlight">TMIMT – CORPORATE RESOURCE CENTRE (Placement Cell)</span> where students and reputed MNCs can come together and explore opportunities for employment.Many top rated companies and MNC’s have visited the campus helping the students in achieving tremendous placements. The CRC works round the year towards generating placement, training, internship and industrial visit opportunities for the students. Reputed industrial houses across the country visit TMIMT regularly for conducting the campus recruitment programmes. The prime objective of the CRC is to facilitate the graduating students and industry by providing a common meeting ground where the prospective employers can identify suitable candidates for joining their organization. To achieve 100% employment of our students and to assist students in securing best available job opportunities, the CRC follows two fold approaches:</p>
                         <ul class="m-ol-list ps-4">
                             <li>Ensures that the students are ready for selection processes and its stages.</li>
                             <li>Inviting companies to the campus and acting as an interface between students and industry thereby facilitating the selection process of potential employers.</li>
@@ -20,7 +20,7 @@
                                 <div class="col-md-12 mb-3">
                                     <div class="section-box p-3">
                                         <h3 class="tmu-text-primary mb-2"><span>Personality Development </span><span> Program</span></h3>
-                                        <p>Development of the personality of a student is heavily influenced by the environment in which a student spends most of his time. CRC Undertake various Personality Development Programmes for the overall development of the student viz; Verbal & Written Communication Skills, Group Discussion workshops & mock Practices, Aptitude, Attitude, Competencies, Assessments, Interests, Personality IQ/EQ Development and interview techniques of the modern recruitment best practices.</p>
+                                        <p>Development of the personality of a student is heavily influenced by the environment in which a student spends most of his time. CRC Undertake various Personality Development Programmes for the overall development of the student viz; Verbal and Written Communication Skills, Group Discussion workshops and mock Practices, Aptitude, Attitude, Competencies, Assessments, Interests, Personality IQ/EQ Development and interview techniques of the modern recruitment best practices.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
@@ -43,8 +43,8 @@
                                             <li>TMIMT has a strong pool of esteemed corporate and companies to hire our students.</li>
                                             <li>TMIMT also has a strong network of Alumni spread over the globe to assist and guide our students in fulfilling their dream careers.</li>
                                             <li>TMIMT offers nearly 90-100 % Placement to all eligible and interested students in various fields of their desired industries.</li>
-                                            <li>TMIMT offers consistent excellent placements in various sectors like E-Commerce, Logistics & Shipping, Telecom, FMCG, Retail, Banking & Finance, Hospitality service sector and much more to offer.</li>
-                                            <li>Many students are bestowed with 3-5 job offers in hand before they pass out.</li>
+                                            <li>TMIMT offers consistent excellent placements in various sectors like E-Commerce, Logistics and Shipping, Telecom, FMCG, Retail, Banking and Finance, Hospitality service sector and much more to offer.</li>
+                                            <li>Many students receive 3-5 job offers before they graduate.</li>
                                         </ul>
                                     </div>
                                 </div>

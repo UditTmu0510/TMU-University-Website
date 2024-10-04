@@ -14,7 +14,7 @@
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Pharmacy</span> College in UP</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Pharmacy</span> College in UP,</h1>
-                    <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
+                    <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -131,9 +131,9 @@
                 <h1 class="college-main-heading">College of Pharmacy, Among the Top Colleges for Pharmacy Courses/Programmes</h1>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes, equipping the students with innovative techniques to resolve problems in drug industries and clinical areas.</p>
+                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes, equipping students with innovative techniques to solve problems in the pharmaceutical industry and clinical settings.</p>
                         <div class="read-more-content mt-0">
-                        <p style="text-align: justify;">Welcome to the College of Pharmacy at Teerthanker Mahaveer University (TMU), where academic excellence meets practical experience to shape the future leaders of the pharmaceutical world. Recognised as one of the top colleges for pharmacy courses in India, we offer a unique blend of theoretical knowledge and hands-on training, preparing our students for successful careers in the dynamic field of pharmacy.
+                        <p style="text-align: justify;">Welcome to the College of Pharmacy at Teerthanker Mahaveer University (TMU), where academic excellence meets practical experience to shape the future leaders of the pharmaceutical world. Recognised as one of the top colleges for pharmacy courses in India, the College provides a unique blend of theoretical knowledge and hands-on training, preparing our students for successful careers in the dynamic field of pharmacy.
                         </p>
                     </div>
                     <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
@@ -164,7 +164,7 @@
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4">
                         <li>
-                            <p class="p-0 m-0">It is a hub of academic research and consultancy that grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes with the knowledge and skills necessary to excel in the ever-evolving pharmacy field.</p>
+                            <p class="p-0 m-0">It is a hub for academic research and consultancy, fostering expertise by offering a wide range of programmes that equip students with the knowledge and skills needed to excel in the ever-evolving field of pharmacy.</p>
                         </li>
                         <li>
                             <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevating the standards of pharmacy education and preparing graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
@@ -180,7 +180,7 @@
                         <br><br>
                         Center for Teaching, Learning & Development (CTLD) provides comprehensive career guidance and counselling services to our students in the field of innovation and entrepreneurship.
                         <br><br>
-                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training our students are well-equipped to showcase their skills and abilities to potential employers.                        
+                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training, our students are well-equipped to showcase their skills and abilities to potential employers.                        
                         <br><br>
                     </p>
                 </div>
@@ -189,7 +189,7 @@
                     <ul class="m-ol-list ps-4">
                         <li><p class="p-0 m-0">Programmes are approved by the Pharmacy Council of India.</p></li>
                         <li><p class="p-0 m-0">A meticulously designed curriculum with deliberations from top professionals and academic bodies to nurture an industry-ready employable workforce.</p></li>
-                        <li><p class="p-0 m-0">Emphasis on independent thinking, creativity, intellectual thinking, and innovation.</p></li>
+                        <li><p class="p-0 m-0">Emphasis on independent thinking, creativity, and innovation.</p></li>
                         <li><p class="p-0 m-0">A highly disciplined and motivated environment with an extensive focus on practical based learning of our students.</p></li>
                     </ul>
                 </div>
@@ -549,9 +549,9 @@
             <div class="panel">
             <ul class="m-ol-list ps-4 text-justify">
     <li>🏆 UGC-Approved with NAAC A Accreditation: Our programs are recognized by the University Grants Commission (UGC) and accredited by the National Assessment and Accreditation Council (NAAC) with an A grade, ensuring high academic standards.</li>
-    <li>👩‍⚕️ Experiential Learning by Highly Qualified Faculties: Learn from experienced professionals who bring real-world insights into the classroom.</li>
+    <li>👩‍⚕️ Experiential Learning by Highly Qualified Faculties: Students learn from experienced professionals who bring real-world insights into the classroom.</li>
     <li>✨ 1st Private University in UP with a Drug Information Centre: Gain access to the only Drug Information Centre in Uttar Pradesh, providing essential drug-related information to healthcare professionals and consumers.</li>
-    <li>🏥 Hands-on Training in TMU Hospital: Benefit from practical training in our state-of-the-art hospital, bridging the gap between theory and practice.</li>
+    <li>🏥 Hands-on Training in TMU Hospital: Benefit from practical training in our Hospital with advanced medical facilities, bridging the gap between theory and practice.</li>
     <li>🔬 Central Instrumentation Lab (CIL): Utilize advanced equipment and technologies for cutting-edge research and practical training.</li>
     <li>💉 Well-equipped Laboratories and Medical Technology for Practical Training: Engage in hands-on learning with our sophisticated lab facilities.</li>
     <li>✈️ Global Opportunities: Explore international exposure and collaborations with leading global pharmaceutical companies.</li>
@@ -623,7 +623,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">Join us at the College of Pharmacy, TMU, and embark on a transformative educational journey that prepares you for a successful career in pharmacy. For more details, visit <span class="highlight"><a href="https://www.tmu.ac.in/college-of-pharmacy" target="_blank"> TMU College of Pharmacy</a></span>.</p>
+                <p class="text-justify">Join us, College of Pharmacy at TMU and embark on a transformative educational journey that prepares you for a successful career in the ever-evolving field of pharmacy. <span class="highlight"><a href="https://admissions.tmu.ac.in/" target="_blank">Apply today</a></span> and take the first step toward shaping the future of healthcare.</p>
             </div>
             <hr class="horizontal-line">
             <button class="careers-accordion">FAQs<span class="icon">+</span></button>
@@ -644,7 +644,7 @@
             <p class="text-justify"><strong>Ans:</strong> We offer specialisations in Pharmaceutics, Pharmacology, Pharmacognosy, and Pharmaceutical Analysis.</p>
 
             <p class="text-justify"><strong>Q: Are there global opportunities for TMU pharmacy graduates?</strong></p>
-            <p class="text-justify"><strong>Ans:</strong> Yes, we have strong global connections and offer opportunities for international exposure and collaboration.</p>
+            <p class="text-justify"><strong>Ans:</strong> Yes, TMU has established strong global networks, offering students opportunities for international exposure and collaborative research.</p>
 
             <p class="text-justify"><strong>Q: What facilities are available on campus?</strong></p>
             <p class="text-justify"><strong>Ans:</strong> Our campus features modern classrooms, well-equipped labs, a hospital for practical training, a gym, hostels, shopping stores, cafeterias, and a Wi-Fi-enabled environment.</p>

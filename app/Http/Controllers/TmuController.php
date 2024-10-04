@@ -11,6 +11,7 @@ use App\Models\Blogs;
 use App\Models\Testimonials;
 use App\Models\Recruiters;
 use App\Models\ProgrameeFee;
+use App\Models\Employees;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Exception;
@@ -174,9 +175,20 @@ return view('university.quick_links.tmu_loan');
         return view('university.university_glimpse.tmu_organogram');
     }
 
-    public function university_administration()
+     public function university_administration()
     {
-        return view('university.university_glimpse.administration');
+        
+        $administrators = Employees::orderBy('priority','ASC')->where('status','Y')->where('cd_id',0)->where('is_head','Y')->get();
+        $principals = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',2)->get();
+        $vice_principals = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',29)->get();
+        $deans = Employees::orderBy('priority', 'ASC')
+        ->where('status', 'Y')
+        ->where('designation_id', 3)
+        ->where('cd_id', '!=', 0)
+        ->get();
+    
+        $hods = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',30)->get();
+        return view('university.university_glimpse.administration',compact('administrators','principals','vice_principals','deans','hods'));
     }
 
     public function chancellor_desk()
@@ -380,7 +392,8 @@ public function ctld_home()
 
     public function ctld_team()
     {
-        return view('university.ctld.ctld_team');
+        $employees = Employees::orderBy('designation_id','ASC')->where('department_id',22)->where('status','Y')->get();
+        return view('university.ctld.ctld_team',compact('employees'));
     }
 
     public function ctld_students_testimonials()
@@ -1027,7 +1040,9 @@ public function campus_view()
 
     public function crc_team()
     {
-        return view('university.crc.crc_team');
+        $employees = Employees::orderBy('designation_id','ASC')->where('department_id',21)->where('status','Y')->get();
+        
+        return view('university.crc.crc_team',compact('employees'));
     }
 
     public function our_recruiters()

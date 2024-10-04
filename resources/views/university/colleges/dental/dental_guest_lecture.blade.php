@@ -17,26 +17,41 @@
         <div class="container">
             <div class="row">
                 <div class="clear"></div>
+
+                @foreach($guest_lectures as $guest_lecture)
+
+
+
                 <div class="entry event col-lg-4 col-md-6 col-sm-6 ">
                     <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
                         <div class="entry-image">
                             <a href="#">
-                                <img src="{{asset('/assets/img/guest_lecturer/dental/222_title_image.jpg')}}" alt="Event-1">
+                                <img src="{{asset($guest_lecture->ei1_path)}}"
+                                    alt="Event-1">
                             </a>
                         </div>
                         <div class="entry-meta mb-1">
                             <ul>
-                                <li><span class="badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>January 19<sup>th</sup>, 2024</span></li>
+                                <li>
+                                    <span class="badge bg-warning text-dark py-1 px-2">
+                                        <i class="uil-calendar-alt"></i>{{ $guest_lecture->formatted_date }}
+                                    </span>
+                                </li>
                             </ul>
                         </div>
-                        <div class="entry-title title-sm ">
-                            <h3 class="tmu-text-primary fs-16"><span>Contnuing dental education program (CDE) - M. ORTH</span></h3>
+                        <div class="entry-title title-sm">
+                            <h3 class="tmu-text-primary fs-16">
+                                <span>{{ $guest_lecture->event_title }}</span>
+                            </h3>
                         </div>
                         <div class="entry-content mt-1" style="text-align: right;">
-                            <a href="" class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
+                            <a href="{{ url('news/' . $guest_lecture->n_slug) }}"
+                                class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
                         </div>
                     </div>
                 </div>
+                @endforeach
+
             </div>
         </div>
     </div>

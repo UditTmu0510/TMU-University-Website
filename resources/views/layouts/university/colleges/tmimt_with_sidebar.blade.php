@@ -1,5 +1,5 @@
 @include('university.header')
-<div class="d-flex">
+<div class="custom-flex-block">
 @include('university.sidebar.tmimt_sidebar')
 @hasSection('content')
 @yield('content')

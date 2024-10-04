@@ -50,7 +50,7 @@
                             <div class="timeline-item right wow slideInRight">
                                 <div class="timeline-text">
                                     <div class="timeline-date">Books & Journals</div>
-                                    <p>The College of Law & Legal Studies' library houses 5,585 books and subscribes to 5 journals and reports.</p>
+                                    <p>The College of Law & Legal Studies' library holds a collection of 5,585 books and subscribes to 5 journals and reports.</p>
                                 </div>
                             </div>
                             <div class="timeline-item left wow slideInLeft">

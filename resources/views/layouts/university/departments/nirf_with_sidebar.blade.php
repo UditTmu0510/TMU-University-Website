@@ -2,7 +2,7 @@
 
 
 
-      <div class="d-flex">
+<div class="custom-flex-block">
 @include('university.sidebar.nirf_sidebar')
 @hasSection('content')
 @yield('content')

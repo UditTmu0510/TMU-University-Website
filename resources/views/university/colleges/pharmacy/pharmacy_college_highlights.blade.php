@@ -76,7 +76,7 @@
                         <div class="timeline-item left wow slideInLeft mb-3">
                             <div class="timeline-text">
                                 <div class="timeline-date">Hospital Attachment</div>
-                                <p> Clinical exposure at 1000 bedded Teerthanker Mahaveer multi super-specialty Hospital &
+                                <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi super-specialty Hospital &
                                     Research Centre, and in various super - specialty Hospitals across the India.</p>
                             </div>
                         </div>

@@ -14,7 +14,7 @@
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
 					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to <br> <span style="font-weight:700!important;">College of Agriculture</span> Sciences</h1>
 					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to <span> College of Agriculture</span> Sciences</h1>
-					<a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
+				
 					<a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
@@ -136,10 +136,10 @@
 				<h1 class="college-main-heading">Teerthanker Mahaveer College of Agriculture Sciences</h1>
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
-						<p style="text-align: justify;">The College of Agriculture Sciences established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the realm of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
-						<p style="text-align: justify;">Guided by the recommendations of the Vth Deans Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum comprising each aspect of Agriculture. It is with great pride that we proclaim our accreditation by ICAR, which is a mark of quality and excellence in the field of agricultural education.</p>
+						<p style="text-align: justify;">The College of Agricultural Sciences, established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the field of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
+						<p style="text-align: justify;">Guided by the recommendations of the Vth Deans' Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum covering every aspect of agriculture. We take great pride in our ICAR accreditation, which serves as a mark of quality and excellence in agricultural education.</p>
 
-						<button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
+						<a href="{{ route('agriculture_overview') }}" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2">Know More!</a>
 
 					</div>
 
@@ -165,7 +165,7 @@
 			<div class="tab-content second ps-5 px-md-5" id="myTabContent">
 				<div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
 					<h3>Key Highlights</h3>
-					<p>Being an ICAR accredited Private University in UP, the Teerthanker Mahaveer University offers B.Sc. (Hons.) Agriculture and M.Sc. Agronomy.
+					<p>Being an ICAR accredited Private University in UP, the Teerthanker Mahaveer University offers B.Sc. (Hons.) Agriculture ,M.Sc. Agronomy ,M.Sc. Plant Pathology and M.Sc. Soil Science.
 						<br><br>
 						The college always emphasizes research and innovation in agriculture. Faculty members and students actively engage in research projects, focusing on sustainable agricultural practices, crop improvement, soil health, pest management, and other relevant areas.
 						<br><br>

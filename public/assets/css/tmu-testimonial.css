@@ -53,7 +53,7 @@
 	line-height: 54px;
 	position: absolute;
 	left: 15px;
-	top: 2rem;
+	top: 7rem;
 }
 .tmu-testimonial .overview{
 	text-align: center;
@@ -74,7 +74,7 @@
 	height: 4px;
 	/* border-radius: 30px; */
 	margin: 1px 5px;
-	box-sizing: border-box;
+
 }
 .tmu-testimonial .carousel-indicators button {
 	background: #E2E2E2;
@@ -87,10 +87,19 @@
 	/* background: #FFF; */
 	/* border: 5px double; */
 }
-.tmu-testimonial .testimonial>p:nth-child(2)
+.tmu-testimonial .testimonial .testimonial-content47
 {
 	max-height: 4rem;
 	overflow: hidden;
+
+}
+
+.testimonial .overview>span
+{
+    display:block;
+}
+.testimonial-content{
+    text-align:justify;
 }
 
 

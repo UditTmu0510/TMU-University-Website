@@ -14,7 +14,7 @@
                 <div class="container">
                     <div class="text-content p-4">
                         <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Faculty of Engineering</span></h1>
-                        <p class="about-p mb-4">The <span class="highlight">Faculty of Engineering (FOE)</span>, an AICTE-approved institute with academic excellence in Engineering, Technology, and Sciences is a unique place for competent engineers. Our student-centric approach emphasises hands-on training blended with comprehensive, industry-relevant skills. 100% Placement assistance, industry collaborations, and international internship opportunity, among others, gives students an edge, thus making us the Best Private Engineering College at UP.</p>
+                        <p class="about-p mb-4">The <span class="highlight">Faculty of Engineering (FOE)</span>, an AICTE-approved institute with academic excellence in Engineering, Technology, and Sciences is a unique place for competent engineers. Our student-centric approach emphasises hands-on training blended with comprehensive, industry-relevant skills. 100% Placement assistance, industry collaborations, and international internship opportunities, among others, give students an edge, thus making us the Best Private Engineering College at UP.</p>
                     </div>
                     <div class="image-content text-center p-4">
                         <img src="{{asset('assets/img/aboutus/foe/foe_about_us.jpg')}}" alt="Learning and Teaching">

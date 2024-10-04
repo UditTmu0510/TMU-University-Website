@@ -1,24 +1,4 @@
-const path = "http://localhost:8000/assets/json/nursing_menubarData.json";
-
-
-    // Extract the college name from the URL path
-    function getCollegeNameFromURL() {
-        const path = window.location.pathname;
-        // Extract the last segment of the path, which is the college name
-        const segments = path.split('/');
-        return segments[1];
-    }
-
-    // Set the path to the JSON file based on the college name
-    function getJSONPath(collegeName) {
-        const basePath = "http://127.0.0.1:8000/assets/json/"; // Adjust base path if needed
-        return `${basePath}${collegeName}_menubarData.json`;
-    }
-    document.addEventListener("DOMContentLoaded", function() {
-    console.log("answer",getCollegeNameFromURL());
-    });
-
-
+const path = "https://tmuhospital.com/assets/json/nursing_menubarData.json";
 // Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {

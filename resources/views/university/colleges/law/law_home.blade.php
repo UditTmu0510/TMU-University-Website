@@ -14,7 +14,7 @@
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Law</span> College <br>in UP</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Law</span> College <br> in UP,</h1>
-                    <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
+                    <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -128,10 +128,10 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
+                <h2 class="college-main-heading">College of Law and Legal Studies (CLLS): Among the Top Law Colleges</h2>
                 <div class="row">
-                    <div class="col-12 px-2 px-md-5"> 
-                        <p style="text-align: justify;">College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <a href="https://www.tmu.ac.in/blog/top-10-law-colleges-in-india" target="_blank">best private colleges for law in India</a> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
+                    <div class="col-12 px-2 px-md-5">
+                        <p style="text-align: justify;">College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">CLLS nurtures the professional skills of the students while teaching them their rightful duties, and crucial moral values to be a good law professional.</p>
                         </div>
@@ -161,7 +161,7 @@
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
-                    <p>The college has been rewarding the legal sector with consistently good professionals and has been rated in high regards in the top law colleges in UP.</p>
+                    <p>The college has been contributing to the legal sector with consistently good professionals and has been rated in high regards in the top law colleges in UP.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>A multicultural environment for our students from different nations and continents allows them to interact, learn from their peers, and make long-term professional associations.</li>
                         <li>100% placement assistance in leading law firms, corporate houses, and NGOs. While one can also pursue their career as a Professor / Judge / Law Officers in academics, judicial services & public offices, respectively.</li>
@@ -180,7 +180,7 @@
                     <h3>Internship and Job Placement Opportunities:</h3>
                     <p>The department will have multiple collaborations with industries/research institutions across the globe to provide the best exposure to students and make them ready not only for Indian but International Legal Markets. (IN CASE OF SPECIFIC COMPANIES, FIRM'S NAMES please add)</p>
                     <div class="read-more-content mt-1">
-                        <h3>Global Perspective and International Exchanges:</h3>
+                        <h3 class="mt-3">Global Perspective and International Exchanges:</h3>
                         <p>The international law is being strengthened by various national and international forums and with the correct guidance the college aims to serve not just the courtry but the world as a whole.
                             <br><br>Hence College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
                         </p>
@@ -188,8 +188,13 @@
                     <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                    <h3>curriculum</h3>
-                    <p>The curriculum is a road map of the academic journey, and the appropriate importance is leveraged through it. The curriculum is aligned with the latest industry knowledge and emphasizes the holistic development of the students. Recently the University has been implementing NEP 2020 policy guidelines, legal framework, OBE's guidelines, etc., to ensure that the educational framework is at par with the global standards. Moreover, to expose the students to broader industry knowledge, national and international repute dignitaries are invited to guide them and nurture their entrepreneurial talent, stimulate research, foster leadership skills, and contribute to the modern business world. Also, the curriculum is BCI approved.</p>
+                    <h3 class="text-justify">Curriculum</h3>
+                    <p>The curriculum is a road map of the academic journey, and the appropriate importance is leveraged through it. The curriculum is aligned with the latest industry knowledge and emphasizes the holistic development of the students. Recently the University has been implementing NEP 2020 policy guidelines, legal framework, OBE's guidelines, etc., to ensure that the educational framework is at par with the global standards.</p>
+                    <div class="read-more-content mt-1">
+                        <p> Moreover, to expose the students to broader industry knowledge, national and international repute dignitaries are invited to guide them and nurture their entrepreneurial talent, stimulate research, foster leadership skills, and contribute to the modern business world. Also, the curriculum is BCI approved.
+                        </p>
+                    </div>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
@@ -214,12 +219,12 @@
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
                                 <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                    
+
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
-                                   </a>
+                                </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                    </a>
+                                </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -238,7 +243,7 @@
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
                                 <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
-                                
+
 
                                 </div>
                                 <!-- 
@@ -250,7 +255,7 @@
 								 -->
 
                                 <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
-                                
+
                                 </div>
 
                                 <!-- 
@@ -343,17 +348,17 @@
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeUG">
-                                
+
 
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmePG">
-                                
+
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
@@ -361,7 +366,7 @@
                         <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
-                                
+
 
                             </ul>
                         </div>
@@ -445,31 +450,31 @@
                 </div>
         </section>
         <!-----Courses section completed-->
-	<section>
-        <div class="container-fluid mt-5 ">
-            <h2 class="tmu-text-primary text-center">
-                <span>Our </span><span> Recruiters</span>
-            </h2>
-            <div class="marquee my-5 py-5 pt-4">
-                
-            
-                <section class="marquee-content">
+        <section>
+            <div class="container-fluid mt-5 ">
+                <h2 class="tmu-text-primary text-center">
+                    <span>Our </span><span> Recruiters</span>
+                </h2>
+                <div class="marquee my-5 py-5 pt-4">
+
+
+                    <section class="marquee-content">
                         @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-                <section class="marquee-content">
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                    <section class="marquee-content">
                         @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
         <section>
             <div class="container-xl tmu-testimonial mt-5 mb-3">
@@ -479,30 +484,30 @@
                 <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-@foreach($testimonials as $testimonial)
-    <div class="oc-item text-start">
-        <div class="media">
-            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
-            <div class="media-body">
-                <div class="testimonial">
-                    <p class="overview mb-3 fs-14">
-                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
-                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
-                              <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
-                                Linkedin <i class="bi bi-linkedin"></i>
-                            </a>
-                        </span>
-                    </p>
-                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
-                </div>
-            </div>
-            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-            </div>
-        </div>
-    </div>
-@endforeach
+                    @foreach($testimonials as $testimonial)
+                    <div class="oc-item text-start">
+                        <div class="media">
+                            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3 fs-14">
+                                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                                        <span>
+                                            <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                                Linkedin <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </span>
+                                    </p>
+                                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
 
                 </div>
 
@@ -539,7 +544,7 @@
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
 
-    <button class="careers-accordion">Why TMU is the Best Choice for You:<span class="icon">+</span></button>
+    <button class="careers-accordion">Why TMU is the Best Choice for You<span class="icon">+</span></button>
     <div class="panel">
         <p class="text-justify">In the bustling landscape of legal education in India, the College of Law and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
         <ul class="m-ol-list ps-5 mb-1">
@@ -582,28 +587,30 @@
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Educational Trips to Courts & </span><span>Advocate Chambers</span></h3>
         <p class="text-justify">Learning extends beyond the classroom at CLLS. Our educational trips to courts and advocate chambers offer students firsthand exposure to the legal profession, enriching their understanding of legal practices.</p>
-
-        <h3 class="tmu-text-primary mb-2 fs-16"><span>The Essence of </span><span>Our Campus:</span></h3>
-
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Modern Classrooms for </span><span>Interactive Sessions</span></h4>
+    </div>
+    <!-- Add the horizontal line here -->
+    <hr class="horizontal-line">
+    <button class="careers-accordion">The Essence of Our Campus<span class="icon">+</span></button>
+    <div class="panel">
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Modern Classrooms for </span><span>Interactive Sessions</span></h3>
         <p class="text-justify">CLLS boasts modern classrooms equipped with state-of-the-art technology, fostering interactive learning experiences that engage and inspire students.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Electrifying Concerts and </span><span> Dynamic Events</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Electrifying Concerts and </span><span> Dynamic Events</span></h3>
         <p class="text-justify">Our vibrant campus life goes beyond academics. From electrifying concerts to dynamic events, CLLS provides a platform for students to explore their talents and passions.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Anti-Ragging </span><span> Campus</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Anti-Ragging </span><span> Campus</span></h3>
         <p class="text-justify">We prioritize the safety and well-being of our students. CLLS maintains a strict anti-ragging policy, ensuring a supportive and respectful campus environment.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Comfortable Hostel </span><span> Facilities</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Comfortable Hostel </span><span> Facilities</span></h3>
         <p class="text-justify">Our hostel facilities offer students a home away from home, providing comfortable living spaces and amenities to support their academic journey.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Gym and </span><span> Fitness Centre</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Gym and </span><span> Fitness Centre</span></h3>
         <p class="text-justify">At CLLS, we believe in nurturing both the mind and body. Our gym and fitness centre encourage students to maintain a healthy lifestyle, promoting overall well-being.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Shopping Stores and</span><span> Cafeterias</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Shopping Stores and</span><span> Cafeterias</span></h3>
         <p class="text-justify">Convenience is key at TMU. With on-campus shopping stores and cafeterias, students have easy access to essential amenities and delicious meals.</p>
 
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>Wi-Fi Enabled </span><span> Campus</span></h4>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Wi-Fi Enabled </span><span> Campus</span></h3>
         <p class="text-justify">In the digital age, connectivity is crucial. CLLS provides a Wi-Fi-enabled campus, ensuring seamless access to online resources and information.</p>
     </div>
     <!-- Add the horizontal line here -->
@@ -634,7 +641,7 @@
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
-    <button class="careers-accordion">Top 10 Careers in Law: <span class="icon">+</span></button>
+    <button class="careers-accordion">Top 10 Careers in Law<span class="icon">+</span></button>
     <div class="panel">
         <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Corporate </span><span> Lawyer</span></h4>
         <p class="text-justify">Specializing in business law, corporate lawyers provide legal advice to corporations on various matters such as mergers, acquisitions, contracts, and compliance.</p>
@@ -668,7 +675,7 @@
 
     </div>
     <hr class="horizontal-line">
-    <button class="careers-accordion">Campus Life at College of Law and Legal Studies: <span class="icon">+</span></button>
+    <button class="careers-accordion">Campus Life at College of Law and Legal Studies <span class="icon">+</span></button>
     <div class="panel">
         <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Academic </span><span> Excellence</span></h4>
         <p class="text-justify">The College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
@@ -688,25 +695,7 @@
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
-    <button class="careers-accordion">Facilities Available at College of Paramedical Sciences: <span class="icon">+</span></button>
-    <div class="panel">
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>1. State-of-the-Art</span><span> Laboratories</span></h4>
-        <p class="text-justify">The College of Paramedical Sciences is equipped with state-of-the-art laboratories, offering students hands-on training and practical experience in various medical disciplines.</p>
-
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Clinical </span><span>Training Facilities</span></h4>
-        <p class="text-justify">Students have access to clinical training facilities, including simulation labs and healthcare institutions, where they can apply theoretical knowledge in real-world healthcare settings under supervision.</p>
-
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>3. Library and </span><span>Research Resources</span></h4>
-        <p class="text-justify">The college maintains a well-stocked library with a vast collection of medical literature, journals, and research resources, providing students with access to up-to-date information and scholarly materials.</p>
-
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>4. Faculty</span><span> Expertise</span></h4>
-        <p class="text-justify">The faculty members at the College of Paramedical Sciences are highly qualified and experienced professionals in their respective fields, providing students with expert guidance and mentorship.</p>
-
-        <h4 class="tmu-text-primary mb-0 fs-16"><span>5. Career Development</span><span> Support</span></h4>
-        <p class="text-justify">The college offers career development support services, including internships, placements, and workshops, to help students explore career options, gain practical experience, and prepare for their future in the healthcare industry.</p>
-
-    </div>
-    <hr class="horizontal-line">
+    
     <button class="careers-accordion">FAQs<span class="icon">+</span></button>
     <div class="panel">
         <p class="text-justify"><strong>Q1:- How do I apply for admission to CLLS?</strong></p>
@@ -732,35 +721,33 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+    $(document).ready(function() {
+        // Click event for navbar buttons
+        $('.programme-fetch-button').click(function() {
 
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
 
-$(document).ready(function() {
-    // Click event for navbar buttons
-    $('.programme-fetch-button').click(function() {
-        
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 9,
-                programme_level:programme_level 
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                    if ((i % 3 == 0) && (i != 0)) {
-                        programListHtml += `</div><div class="row">`;
-                    } else if (i == 0) {
-                        programListHtml += `<div class="row">`; 
-                    }
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 9,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+                        if ((i % 3 == 0) && (i != 0)) {
+                            programListHtml += `</div><div class="row">`;
+                        } else if (i == 0) {
+                            programListHtml += `<div class="row">`;
+                        }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -779,42 +766,42 @@ $(document).ready(function() {
                                     </div>
                                 </div>`;
 
-            
-                
-                                i++;
-                });
-                $('#'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+
+
+                        i++;
+                    });
+                    $('#' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
-    });
-    $('.programme-fetch-button:first').addClass('active').click();
-    $('.programmes-data:first').addClass('active');
+        $('.programme-fetch-button:first').addClass('active').click();
+        $('.programmes-data:first').addClass('active');
 
-// Programme fetch code for the mobile view starts here
+        // Programme fetch code for the mobile view starts here
 
-    $('.careers-accordion').click(function() {
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 9,
-                programme_level: programme_level
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                 
+        $('.careers-accordion').click(function() {
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 9,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -830,20 +817,19 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </li>`;
- i++;
-                });
-                $('#programme'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+                        i++;
+                    });
+                    $('#programme' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
+
+        // Programme fetch code for the mobile view ends here
+
     });
-
-// Programme fetch code for the mobile view ends here
-
-});
-
 </script>
 @endsection

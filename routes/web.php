@@ -5,12 +5,19 @@ use App\Http\Controllers\TmuController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\InstructorController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\NewsController;
 use App\Http\Controllers\NewsFrontController;
 use App\Http\Controllers\Backend\BlogsController;
 use App\Http\Controllers\Backend\ProgrammesController;
 use App\Http\Controllers\Backend\SyllabusController;
+use App\Http\Controllers\Backend\TestimonialsController;
+use App\Http\Controllers\Backend\RecruitersController;
+use App\Http\Controllers\Backend\FaqsController;
 use App\Http\Controllers\Backend\MetaController;
+use App\Http\Controllers\Backend\DepartmentsController;
+use App\Http\Controllers\Backend\DesignationsController;
+use App\Http\Controllers\Backend\EmployeesController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
@@ -28,6 +35,8 @@ use App\Http\Controllers\ParamedicalController;
 use App\Http\Controllers\PharmacyController;
 use App\Http\Controllers\PhysicaleducationController;
 use App\Http\Controllers\PhysiotherapyController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\JainStudiesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +53,7 @@ use App\Http\Controllers\PhysiotherapyController;
 //     return view('welcome');
 // });
 
-
+Route::get('centre-of-jain-studies', [JainStudiesController::class, 'jain_studies_home'])->name('jain.studies.home');
 
 Route::get('/clear-cache', function() {
     Artisan::call('cache:clear');
@@ -72,7 +81,10 @@ Route::get('/clear-event', function() {
 });
 
 
-
+Route::get('/department-of-physiotherapy/guest-lecture', [PhysiotherapyController::class, 'physiotherapy_guest_lecture'])->name('physiotherapy.guest.lecture');
+Route::get('/medical-college-and-research-centre/guest-lecture', [MedicalController::class, 'medical_guest_lecture'])->name('medical.guest.lecture');
+// Route::get('college-of-pharmacy/guest-lecture', [PharmacyController::class, 'pharmacy_guest_lecture'])->name('pharmacy.guest.lecture');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 
@@ -80,15 +92,27 @@ Route::get('/', [TmuController::class, 'index'])->name('tmuhome');
 Route::post('/programmes/fetch-programs',[TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
 Route::post('/programmes/fetch-programs-bylevel',[TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
 Route::get('news/{slug}', [NewsController::class, 'news_info']);
 Route::get('programme/{slug}', [TmuController::class, 'programme']);
 Route::get('/news', [NewsController::class, 'all_news'])->name('all_news');
 Route::post('/news', [NewsController::class, 'all_news'])->name('all_news.post');
 Route::get('/blog/{slug}', [BlogsController::class, 'blog_info'])->name('blog_info');;
-Route::get('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs');
-Route::post('/blogs', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
+Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
+Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
+require __DIR__.'/auth.php';
 
+// Instructor  Group Middleware Starts
+
+Route::middleware(['auth','roles:instructor'])->group(function(){
+    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');   
+});
 
 Route::post('/search/',[App\Http\Controllers\MetasController::class,'search'])->name('search');
 Route::post('/getacademicyears', [App\Http\Controllers\Backend\SyllabusController::class, 'getAcademicYears'])->name('getacademicyears');

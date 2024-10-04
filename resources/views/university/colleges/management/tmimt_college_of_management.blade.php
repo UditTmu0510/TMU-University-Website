@@ -129,7 +129,7 @@
                 <h2 class="college-main-heading">TMIMT College of Management, Among the Top Colleges for BBA/MBA</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Teerthanker Mahaveer Institute of Management and Technology (TMIMT) is the seed that has grown into a big Banyan tree in the form of Teerthanker Mahaveer University. This top management college, established in 2001, has been contributing to the development of management education, by fostering leadership, nurturing entrepreneurial talent and stimulating research since its inception.</p>
+                        <p style="text-align: justify;">TMIMT, established in 2001, has grown into a key institute within Teerthanker Mahaveer University (TMU), contributing significantly to management education through leadership development, entrepreneurship, and research. This top management college, established in 2001, has been contributing to the development of management education, by fostering leadership, nurturing entrepreneurial talent and stimulating research since its inception.</p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">TMIMT is part of Teerthanker Mahaveer University. It is one of the top colleges for BBA/MBA programmes. Let's delve into why TMU is your ideal choice for higher education in management.</p>
                         </div>
@@ -174,7 +174,7 @@
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4">
                             <li>
-                                <p class="p-0 m-0">Domestic and international extrusions tours for better national and global connections</p>
+                                <p class="p-0 m-0">Domestic and international excursion tours for better national and global connections</p>
                             </li>
                             <li>
                                 <p class="p-0 m-0">Regular mentoring and counseling sessions by trained industry professionals.</p>
@@ -885,7 +885,7 @@
             </li>
             <li><strong>Cafeteria and Dining Facilities:</strong>
                 <ul class="m-ol-list ps-5 mb-1">
-                    <li>The cafeteria serves a variety of healthy and clean meals, snacks, and drinks to match students' dietary preferences and tastes.</li>
+                    <li>The cafeteria serves a variety of healthy and hygienic meals, snacks, and drinks to match students' dietary preferences and tastes.</li>
                     <li>Dining facilities offer a relaxed, social space where students can unwind and refuel between classes.</li>
                 </ul>
             </li>
