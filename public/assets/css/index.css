@@ -3732,11 +3732,11 @@ Search bar css starts here
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
     .search-icon {
         position: absolute;
-        right: 20vw;
-        top: 3vh;
+        right: 18vw;
+        top: 35px;
         font-size: 24px;
         cursor: pointer;
         z-index: 1000;
@@ -3748,7 +3748,7 @@ Search bar css starts here
     .search-icon {
     position: absolute;
     right: 20vw;
-    top: 3vh;
+    top: 3.8vh;
     font-size: 24px;
     cursor: pointer;
     z-index: 1000;
