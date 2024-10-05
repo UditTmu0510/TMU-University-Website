@@ -32,13 +32,98 @@
 		<div class="container">
 			<h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
 			<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-			<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
+			<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" alt="Gallery Thumb 1"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" alt="Gallery Thumb 2"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" alt="Gallery Thumb 3"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" alt="Gallery Thumb 5"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" alt="Gallery Thumb 5"></a>
-			</div>
+			</div> -->
+			<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> Department of Oral Pathology & Microbiology </h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm4.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> PG Section<br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm5.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section<br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm6.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">UG Section <br/>&nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm7.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">UG Section <br/>&nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm8.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 			<h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
 			<div class="row">
 				<div class="col-md-6">

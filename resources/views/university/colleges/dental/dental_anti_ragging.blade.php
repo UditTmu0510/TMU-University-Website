@@ -12,60 +12,52 @@
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th class="text-center">Sl. No.</th>
+                            <th class="text-center">Sr. No.</th>
                             <th>Name</th>
                             <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th>Position</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1.</td>
-                            <td>Dr. Manish Goyal</td>
+                            <td>Dr. Pradeep Tangade</td>
+                            <td>Principal &amp; Professor &amp; Head (Public Health Dentistry)</td>
                             <td>Chairperson</td>
-                            <td>9917256222</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">2.</td>
-                            <td>Dr. Upender Malik</td>
+                            <td>Dr. Ankita Jain</td>
+                            <td>Vice Principal &amp; Professor (Public Health Dentistry)</td>
                             <td>Member</td>
-                            <td>7895085379</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">3.</td>
-                            <td>Dr. D.S. Gupta</td>
+                            <td>Dr. Upender Malik</td>
+                            <td>Professor (Oral Medicine)</td>
                             <td>Member</td>
-                            <td>9144696393</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">4.</td>
-                            <td>Dr. Akash Gopi</td>
+                            <td>Dr. Rajeev Pathak</td>
+                            <td>Professor (Periodontology)</td>
                             <td>Member</td>
-                            <td>9368196956</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">5.</td>
-                            <td>Dr. Geetanshu Dawar</td>
-                            <td>Member Secretary & FIP</td>
-                            <td>9927979111</td>
-
+                            <td>*Dr. Pooja Walia</td>
+                            <td>Reader (Periodontology)</td>
+                            <td>First Information Person</td>
                         </tr>
 
-                        <tr>
-                            <td class="text-center">6.</td>
-                            <td>Dr. Pooja Walia</td>
-                            <td>Member</td>
-                            <td>9901727437</td>
-
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -93,15 +85,15 @@
                             <th class="text-center">Sl. No. </th>
                             <th>Name</th>
                             <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th>Position</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1.</td>
-                            <td>Dr. Manish Goyal</td>
+                            <td>Dr. Pradeep Tangade</td>
+                            <td>Principal &amp; Professor &amp; Head (Public Health Dentistry)</td>
                             <td>Chairperson</td>
-                            <td>9917256222</td>
                         </tr>
 
                         <tr>
@@ -113,23 +105,23 @@
 
                         <tr>
                             <td class="text-center">3.</td>
-                            <td>Dr. D. S. Gupta</td>
+                            <td>Dr. Ankita Jain</td>
+                            <td>Vice Principal &amp; Professor (Public Health Dentistry)</td>
                             <td>Member</td>
-                            <td>9411696393</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">4.</td>
-                            <td>Dr. Amrita</td>
-                            <td>Member</td>
-                            <td>7895699516</td>
+                            <td>Dr. Upender Malik</td>
+                            <td>Professor (Oral Medicine)</td>
+                            <td>Proctor</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">5.</td>
                             <td>Dr. Rajeev Pathak</td>
-                            <td>Member Secretary & FIP</td>
-                            <td>9565157319</td>
+                            <td>Professor (Periodontology)</td>
+                            <td>Member</td>
                         </tr>
                     </tbody>
                 </table>

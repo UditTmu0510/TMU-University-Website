@@ -3,32 +3,27 @@
 
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
-        <div class="row">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
-                    Vice Principal</span></h1>
 
-            <div class="col-md-12 col-lg-4 text-center img-container mb-3" style="height:fit-content;">
-                <img src="{{asset('/assets/img/principal/nursing/nursing_vice_principal.jpg')}}"
-                    alt="jaslin-vp-nursing" height="450" width="450">
-            </div>
-            <div class="col-md-8">
-                <blockquote class="zitat1">
-                    "I am only one; but still I am one. I cannot do everything; but still I can do something. ..."
-                    <!-- <cite>Peter Drucker</cite> -->
-                </blockquote>
-                <p class="mb-2">As the Vice Principal of this esteemed Teerthanker Mahaveer College of Nursing, I wanted to take a moment to address all of you and share my heartfelt gratitude for your unwavering dedication and commitment to excellence.</p>
-                <p class="mb-2">We offer programs starting from Auxiliary nurse midwife, GNM, B.Sc. Nursing and post-graduate programs like M.Sc. Nursing and also PhD in nursing. Our college has recognition from UP State Nursing Council and the Indian Nursing Council (INC).</p>
-                <p class="mb-2">I want to express my deepest appreciation to our exceptional faculty members, who demonstrate extraordinary professionalism and adaptability in transitioning and grooming nursing students into competent healthcare professionals. To all our exceptional students and their unwavering passion for nursing and commitment to caring for others have made us proud. The adaptability and perseverance in navigating the ever-changing healthcare landscape have been truly remarkable.</p>
-                <p class="mb-2">I have immense faith in the practices the college ensures to teach students the true essence of being a healthcare professional. We have seen and shaped professionals that have made significant contributions to the nursing profession and positively impact the lives of countless individuals.</p>
-                <p class="mb-3">As we move forward, let us continue to embrace change, pursue knowledge, and strive for excellence. Together, we can overcome any obstacle that comes our way and continue to provide compassionate and competent care to those in need.</p>
-                <div class="person-details">Dr. (Prof). Jasline. M <br>
-                    <span>Vice Principal</span>
+
+
+        <div class="">
+            <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Vice Principal's Desk</span></h1>
+            <div class="quote-box mx-auto">
+                <div class="profile-image mb-2">
+                    <img src="{{asset('/assets/img/principal/nursing/nursing_vice_principal.jpg')}}" alt="Profile Image">
+                </div>
+                <div class="quote-text mt-4 mt-md-0">
+                    <p class="text-justify text-dark fs-14 mb-2"><i class="bi bi-quote" style="font-size:30px; color: #737373;"></i>Caring is the essence of nursing, and learning is the path to care better...... </p>
+                    <p class="text-justify text-dark fs-14 mb-2">As Vice Principal of the esteemed Teerthanker Mahaveer College of Nursing, I would like to take a moment to address all of you and express my heartfelt gratitude for your unwavering dedication and commitment to excellence.</p>
+                <p class="text-justify text-dark fs-14 mb-2">We offer programmes ranging from Auxiliary Nurse Midwife (ANM), General Nursing and Midwifery (GNM), BSc Nursing, and postgraduate programmes like MSc Nursing and PhD in Nursing. Our college is recognised by the UP State Nursing Council and the Indian Nursing Council (INC).</p>
+                <p class="text-justify text-dark fs-14 mb-2">I want to express my deepest appreciation to our exceptional faculty members, who demonstrate extraordinary professionalism and adaptability in transitioning and grooming nursing students into competent healthcare professionals. To all our exceptional students, your unwavering passion for nursing and commitment to caring for others have made us proud. Their adaptability and perseverance in navigating the ever-changing healthcare landscape have been truly remarkable.</p>
+                <p class="text-justify text-dark fs-14 mb-2">I have immense faith in the college’s practices that instil in students the true essence of being healthcare professionals. We have nurtured and shaped professionals who have made significant contributions to the nursing profession and positively impacted the lives of countless individuals.</p>
+                <p class="text-justify text-dark fs-14 mb-2">As we move forward, let us continue to embrace change, pursue knowledge, and strive for excellence. Together, we can overcome any obstacles that come our way and continue providing compassionate and competent care to those in need.</p>
+                    <p class="mt-3">- Dr (Prof) Jaslin M </p>
+                    <p>Vice Principal</p>
                 </div>
             </div>
-
-
         </div>
-
 
 
     </div>

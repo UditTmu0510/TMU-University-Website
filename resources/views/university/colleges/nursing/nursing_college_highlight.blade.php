@@ -33,7 +33,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Labs</div>
-                                <p>The TMU Nursing College offers seven specialized labs: <br>Nursing Foundation
+                                <p>The TMU Nursing College offers seven specialised labs: <br>Nursing Foundation
                                     Lab, Community
                                     Health Nursing Lab, Maternal and Child Health Nursing Lab
                                     Nutrition Lab, Pre-clinical Lab, A.V. Aids Room, Simulation Lab, OSCE Lab
@@ -86,9 +86,9 @@
                             <div class="timeline-item left wow slideInLeft">
                                 <div class="timeline-text">
                                     <div class="timeline-date">Hospital Attachment</div>
-                                    <p> Clinical exposure at 1000 bedded Teerthanker Mahaveer multi
-                                        super-specialty Hospital &
-                                        Research Centre, and in various super - specialty Hospitals across the
+                                    <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi
+                                        super-speciality Hospital &
+                                        Research Centre, and in various super - speciality Hospitals across the
                                         India.</p>
                                 </div>
                             </div>

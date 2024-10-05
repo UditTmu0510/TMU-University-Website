@@ -34,14 +34,14 @@
                             <ul>
                                 <li>
                                     <span class="badge bg-warning text-dark py-1 px-2">
-                                        <i class="uil-calendar-alt"></i>{{ $guest_lecture->formatted_date }}
+                                        <i class="uil-calendar-alt"></i>{{ \Carbon\Carbon::parse($guest_lecture->event_date)->format('F jS, Y') }}
                                     </span>
                                 </li>
                             </ul>
                         </div>
                         <div class="entry-title title-sm">
                             <h3 class="tmu-text-primary fs-16">
-                                <span>{{ $guest_lecture->event_title }}</span>
+                                <span>{{ Str::limit(html_entity_decode($guest_lecture->event_title), 45) }}</span>
                             </h3>
                         </div>
                         <div class="entry-content mt-1" style="text-align: right;">

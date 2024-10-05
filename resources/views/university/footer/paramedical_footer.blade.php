@@ -202,7 +202,7 @@
 								<h4>Student Life</h4>
 								<ul>
 									<li><a href="{{route('campus.view')}}">University Campus</a></li>
-									<li><a href="{{route('faculty.accomodation')}}">Faculty Accomodation</a></li>
+									<li><a href="{{route('faculty.accomodation')}}">Faculty Accommodation</a></li>
 									<li><a href="{{route('guest.house')}}">Guest House</a></li>
 									<li><a href="{{route('banking.facility')}}">Banking Facility</a></li>
 									<li><a href="{{route('sports')}}">Sports</a></li>

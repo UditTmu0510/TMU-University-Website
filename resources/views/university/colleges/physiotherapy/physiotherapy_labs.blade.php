@@ -3,7 +3,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Laborartories </span><span> Fcailities</span>
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Laboratories </span><span> Facilities</span>
         </h1>
         <div class="row col-mb-15">
             <div class="col-lg-3 col-md-6 col-sm-6">

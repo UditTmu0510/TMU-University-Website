@@ -10,14 +10,8 @@
 
         <div class="container ">
             <div class="row mb-2">
-                <p class="text-justify mb-2 mt-1">For any professional institution the interaction with
-                    academic and corporate world is of great importance. College has Corporate Advisory
-                    Board including Principal (as Chair Person), Head Training & Placement and members
-                    from the industries. The Board members provides advice and guidance on academic
-                    program to the college as a whole or to individual academic departments. This helps
-                    ensure our curricula remain relevant and rigorous. Corporate Advisory Board members
-                    also interact with faculty & Students (SPCC members) as mentors and as guest
-                    speakers in classes, and provide internship and job opportunities to our students.
+                <p class="text-justify mb-2 mt-1">For any premier university, interaction with the academic and corporate worlds is of great importance. CThe College has a Corporate Advisory Board that includes the Principal (as Chairperson), the Head of Training & Placement, and members from various leading industries. The Board Members provide advice and guidance on academic programmes to the College as a whole or to individual academic departments. This helps
+                    ensure our curricula remain relevant and rigorous. Corporate Advisory Board members also interact with faculty and students (SPCC members) as mentors and guest speakers in classes, providing internship and job opportunities to our students.
                 </p>
             </div>
             <div class="row">
@@ -26,19 +20,14 @@
                         class="icon">+</span> </button>
                 <div class="panel active">
                     <ul class="m-ol-list ps-4 mt-2">
-                        <li>Helps in revising the curriculum and teaching methodology as per corporate
-                            need.</li>
-                        <li>Participate in our Employability Enhancement Training Programs available
-                            with us.</li>
-                        <li>Conducting faculty development projects with well-designed timelines.</li>
-                        <li>Support in conducting various national level Seminars / Conferences /
-                            Workshops.</li>
-                        <li>Advising us on value-added courses as per the growing needs of the industry.
-                        </li>
-                        <li>Developing entrepreneurial abilities by providing projects that engage
-                            students in ‘design to delivery solution’ to improve the quality.</li>
-                        <li>Setting up ‘labs’ within the institute to get research and innovation.</li>
-                        <li>Advising and helping us on better placements and internships.</li>
+                        <li>Helps revise the curriculum and teaching methodology according to corporate needs.</li>
+                        <li>Participates in our Employability Enhancement Training Programmes.</li>
+                        <li>Conducts faculty development projects with well-defined timelines.</li>
+                        <li>Supports the conducting of various national-level seminars, conferences, and workshops.</li>
+                        <li>Advises us on value-added programmes in line with the growing needs of the industry.</li>
+                        <li>Develops entrepreneurial abilities by providing projects that engage students in 'design-to-delivery solutions' to improve quality.</li>
+                        <li>Sets up labs within the university to foster research and innovation.</li>
+                        <li>Advises and helps us with improved placements and internships.</li>
                     </ul>
                 </div>
                 <hr class="horizontal-line">
