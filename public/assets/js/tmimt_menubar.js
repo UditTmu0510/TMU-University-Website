@@ -1,6 +1,21 @@
 // Enable dropdown on hover in Menubar 
-const path = "https://test.tmuhospital.com/assets/json/tmimt_menubarData.json";
-document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
+let path = "https://test.tmuhospital.com/assets/json/tmimt_menubarData.json";
+
+try {
+    // Fetch the domain name from the current URL
+    let domainName = window.location.hostname;
+    if(domainName == 'localhost' || domainName == "127.0.0.1")
+    {
+        path = "http://"+domainName + ":8000"+"/assets/json/tmimt_menubarData.json";
+       
+    }
+    else{
+        path = "https://"+domainName+"/assets/json/tmimt_menubarData.json";
+    }
+    
+} catch (error) {
+    console.error("Error fetching the domain name:", error);
+}document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
         const _d = this.querySelector('.dropdown-menu');
         _d.classList.add('show');
