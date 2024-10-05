@@ -1113,7 +1113,121 @@ public function alumni_home()
     }
 
 
+// Teaching Facilities 
 
+public function teaching_facility()
+{
+    return view('university.teaching_facility.teaching_facility');
+}
+public function central_instrument_facility()
+{
+    return view('university.teaching_facility.central_instrument_facility');
+}
+public function simulation_lab()
+{
+    return view('university.teaching_facility.simulation_lab');
+}
+public function skill_lab()
+{
+    return view('university.teaching_facility.skill_lab');
+}
+public function media_laboratory_studio()
+{
+    return view('university.teaching_facility.media_laboratory_studio');
+}
+public function museum()
+{
+    return view('university.teaching_facility.museum');
+}
+public function business_lab()
+{
+    return view('university.teaching_facility.business_lab');
+}
+public function animal_house()
+{
+    return view('university.teaching_facility.animal_house');
+}
+public function eresources_studio_lab()
+{
+    return view('university.teaching_facility.eresources_studio_lab');
+}
+public function tmimt_business_lab()
+{
+    return view('university.teaching_facility.tmimt_business_lab');
+}
+public function dst_nanotechnology_lab()
+{
+    return view('university.teaching_facility.dst_nanotechnology_lab');
+}
+
+public function class_room_medical()
+{
+    return view('university.teaching_facility.classroom_medical');
+}
+    public function class_room_nursing()
+    {
+        return view('university.teaching_facility.classroom_nursing');
+    }
+
+    public function class_room_paramedical()
+    {
+        return view('university.teaching_facility.classroom_paramedical');
+    }
+
+    public function class_room_physicaleducation()
+    {
+        return view('university.teaching_facility.classroom_physicaleducation');
+    }
+
+    public function class_room_physiotherapy()
+    {
+        return view('university.teaching_facility.classroom_physiotherapy');
+    }
+
+    public function class_room_pharmacy()
+    {
+        return view('university.teaching_facility.classroom_pharmacy');
+    }
+
+    public function class_room_education()
+    {
+        return view('university.teaching_facility.classroom_education');
+    }
+
+    public function class_room_agriculture()
+    {
+        return view('university.teaching_facility.classroom_agriculture');
+    }
+
+    public function class_room_finearts()
+    {
+        return view('university.teaching_facility.classroom_finearts');
+    }
+
+    public function class_room_management()
+    {
+        return view('university.teaching_facility.classroom_management');
+    }
+
+    public function class_room_ccsit()
+    {
+        return view('university.teaching_facility.classroom_ccsit');
+    }
+
+    public function class_room_engineering()
+    {
+        return view('university.teaching_facility.classroom_engineering');
+    }
+
+    public function class_room_dental()
+    {
+        return view('university.teaching_facility.classroom_dental');
+    }
+
+    public function class_room_law()
+    {
+        return view('university.teaching_facility.classroom_law');
+    }
 
 
 
