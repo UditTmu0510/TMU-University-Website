@@ -69,53 +69,14 @@ class DentalController extends Controller
         return view('university.colleges.dental.dental_anti_ragging');
     }
 
-public function dental_guest_lecture()
+    public function dental_guest_lecture()
     {
         $guest_lectures = News::where('cd_id', 3)
-            ->where('status', '1')
-            ->where('category', 'Guest-Lecture')
+        ->where('status', '1')
+        ->where('category', 'Guest-Lecture')
+        ->orderBy('id', 'DESC')
+        ->get();
 
-
-            ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
-            ->orderBy('id', 'DESC')
-            ->get();
-
-
-        // Function to get ordinal suffix for the day (1st, 2nd, 3rd, etc.)
-        function getOrdinalSuffix($day)
-        {
-            if (!in_array(($day % 100), array(11, 12, 13))) {
-                switch ($day % 10) {
-                    case 1:
-                        return $day . 'st';
-                    case 2:
-                        return $day . 'nd';
-                    case 3:
-                        return $day . 'rd';
-                }
-            }
-            return $day . 'th';
-        }
-
-
-        // Loop through guest lectures and add formatted date
-        foreach ($guest_lectures as $lecture) {
-            // Format the event date
-            $day = getOrdinalSuffix($lecture->event_day);
-            $month = $lecture->event_month_name;
-            $year = $lecture->event_year;
-
-
-            // Add formatted date to each lecture object
-            $lecture->formatted_date = "{$day} {$month} , {$year}";
-        }
-
-
-
-
-
-
-       
         return view('university.colleges.dental.dental_guest_lecture', compact('guest_lectures'));
     }
 
