@@ -132,13 +132,13 @@
 
 		<div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">TMU Nursing College, Among the top Nursing Colleges</h2>
+                <h2 class="college-main-heading">Teerthanker Mahaveer College of Nursing, Among the top Nursing Colleges</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">College of Nursing, Teerthanker Mahaveer University was established in 2009. College of Nursing is committed to grooming competent nursing professionals according to the latest industry standards of the ever-evolving healthcare sector with UG, PG and doctoral nursing programmes. Join the bandwagon of the best nursing college in UP to excel beyond your imagination.</p>
+                        <p style="text-align: justify;">College of Nursing, Teerthanker Mahaveer University was established in 2009. It is committed to grooming competent nursing professionals in line with the latest industry standards of the ever-evolving healthcare sector, offering UG, PG, and doctoral nursing programmes. Join the leading nursing college in UP to excel beyond your expectations.</p>
                         <div class="read-more-content mt-0">
-                        <p style="text-align: justify;">Nursing professionals are one of the most vital members of the healthcare industry. Their significant contribution towards the betterment of the patient is incomparable. Hence nursing professionals are also called caregivers. TMU’s College of Nursing understands the essence of the profession. It aids in nurturing refined, compassionate healthcare professionals with the right blend of academic and practical training, making us the top choice among aspiring Nursing candidates.</p>
-						<p style="text-align: justify;">Choosing the right nursing college can shape your career in profound ways. TMU Nursing College stands out as a premier institution, offering a blend of academic excellence, practical training, and holistic development. Here's why TMU Nursing College is the best choice for your nursing education.</p>
+                        <p style="text-align: justify;">Nursing professionals are among the most vital members of the healthcare industry. Their significant contributions to patient care are incomparable, which is why they are often referred to as caregivers. TMU’s College of Nursing understands the essence of the profession. It nurtures refined, compassionate healthcare professionals with the right blend of academic and practical training, making us the top choice for aspiring nursing candidates.</p>
+						<p style="text-align: justify;">Choosing the right nursing college can profoundly shape your career. The College of Nursing stands out as a premier college, offering a blend of academic excellence, practical training, and holistic development. Here’s why the TMU College of Nursing is the ideal choice for your nursing education..</p>
                     </div>
                     <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
@@ -165,74 +165,73 @@
 			</ul>
 			<div class="tab-content second ps-5 px-md-5" id="myTabContent">
 				<div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
-					<h3>Key Highlights</h3>
+					<h3 class="mb-1">Key Highlights</h3>
 					<ul class="m-ol-list ps-4">
-						<li>
+                    <li>
 							<p class="p-0 m-0">Highly qualified & experienced faculty members.</p>
 						</li>
 						<li>
 							<p class="p-0 m-0">American Heart Association (AHA) International Training Center for Basic Life Support & Advanced Cardiac Life Support.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">American Heart Association certified Instructors for delivering training.</p>
+							<p class="p-0 m-0">American Heart Association certified instructors for practical training.</p>
 						</li>
 						<li>
 							<p class="p-0 m-0">Smart classroom with advanced technology.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">800+ Bedded parent hospital for providing enriched clinical experience for nursing students.</p>
+							<p class="p-0 m-0">900+ bedded parent hospital for providing enriched clinical experience for nursing students.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">We have well-equipped Advanced Simulation and OSCE labs and various skill labs for training/induction to nursing students before they go to the hospital.</p>
+							<p class="p-0 m-0">We have well-equipped advanced simulation and OSCE labs, along with various skill labs, for the training and induction of nursing students before they are assigned to the hospital.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">Digitalized & Centralized Library facility with 8830 books, 813 e-books, 11 national journals, 5 international journals & 322 e-journals.</p>
+							<p class="p-0 m-0">Digitised and centralised library facility with 8,830 books, 813 e-books, 11 national journals, 5 international journals, and 322 e-journals.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">In Campus placement of students in pan India corporate hospital.</p>
+							<p class="p-0 m-0">On-campus placement of students in pan-India corporate hospitals.</p>
 						</li>
 						<li>
-							<p class="p-0 m-0">Learning management system (LMS) for the students.</p>
+							<p class="p-0 m-0">Learning Management System (LMS) for students.</p>
 						</li>
 					</ul>
 				</div>
 				<div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
-					<h3>Placement/Internship</h3>
-					<p>College of Nursing takes great pride in achieving a 100% placement rate. Our dedicated placement cell and training programs in Uttar Pradesh (UP) ensure that our students are well-prepared for successful careers in the healthcare industry. Alongside their academic studies, we offer comprehensive soft skill training, English language proficiency courses, and value-added programs, including BLAS certification.
+					<h3 class="mb-1">Placement/Internship</h3>
+					<p>College of Nursing takes great pride in achieving a 82% placement rate. Our dedicated placement cell and training programmes in Uttar Pradesh (UP) ensure that our students are well-prepared for successful careers in the healthcare industry. Alongside their academic studies, we offer comprehensive soft skills training, English language proficiency courses, and value-added programmes, including BLAS certification.
 						<br><br>
 						Our commitment to providing holistic education and professional development enables our students to meet the high standards set by the top healthcare institutions in our city; including Paras Hospital, Medanta Hospital, Fortis Hospital, SGRCH Hospital, Max Healthcare Hospital, and CK Birla Hospital.
 						These hospitals represent the pinnacle of healthcare excellence in our region, and our graduates are equipped to contribute effectively to their teams.
 						<br><br>
 						We are dedicated to nurturing our students' potential and providing them with the tools they need to succeed in their professional journeys. With a focus on academic excellence and industry relevance, TMIMT College of Management continues to shape the leaders of tomorrow and empower them for successful and fulfilling careers.
 						<br><br>
-						Furthermore, we are proud to have established partnerships with renowned international recruiters from top healthcare institutions in the United Kingdom (UK). This global exposure and recognition allow our students to explore international career prospects and broaden their horizons.
-						At our institution, we strive to empower our students with the necessary knowledge, skills, and linguistic competence to thrive in the healthcare sector, both locally and internationally.
+						Furthermore, we are proud to have established partnerships with renowned international recruiters from top healthcare institutions in the United Kingdom (UK). This global exposure and recognition allows our students to explore international career prospects and broaden their horizons. At our college, we strive to empower our students with the necessary knowledge, skills, and linguistic competence to thrive in the healthcare sector, both locally and internationally.
 					</p>
 				</div>
 				<div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-					<h3>Curriculum</h3>
-					<p>The College offers value-added courses with the help of highly experienced faculty. For each course, VAC Coordinator is designated who takes responsibility for the smooth conduction of the course. The objective of the value-added courses is to help the students to enrich their professional standards.
+					<h3 class="mb-1">Curriculum</h3>
+					<p>The College offers value-added programmes with the help of its highly experienced faculty. For each programme, a VAC Coordinator is designated, taking responsibility for the smooth delivery of the programme.
 						<br><br>
-						Value-added courses are intended to provide the students with advanced skills that will be useful in their curriculum and placement. The college also offers CTLD Courses with the help of outside experts and experienced in-house faculty.
+						The objective of the value-added courses is to help students enhance their professional standards. The College has a Centre for Teaching, Learning, and Development, dedicated to fostering students' personality development and holistic growth.
 						<br><br>
-						CTLD focuses on developing quantitative ability, reasoning ability and verbal ability and developing the students' personalities by encouraging and nurturing their soft skills to be productive to meet the demands of the employers and clearing the placement interview, which will pave the way to their dream company. These training programs also upgrade the students; social and professional skills, which are required for their future workspace.
+						CTLD focuses on developing quantitative, reasoning, and verbal abilities. It also enhances students' development by nurturing their soft skills, making them more productive and better equipped to meet employer demands and succeed in placement interviews, paving the way to their dream company. CTLD focuses on developing quantitative, reasoning, and verbal abilities. It also enhances students' development by nurturing their soft skills, making them more productive and better equipped to meet employer demands and succeed in placement interviews, paving the way to their dream company.
 						<br><br>
-						Choice-Based Credit System (CBCS) is promoted so that the College of Nursing should offer different open elective courses. This interdisciplinary learning allows open elective courses for students providing them with learning awareness and job-oriented benefits.
+						The Choice-Based Credit System (CBCS) is promoted, allowing the College of Nursing to offer a variety of open elective programmes. This interdisciplinary approach offers students open elective courses, providing them with broader learning opportunities and job-oriented benefits.
 					</p>
 				</div>
 				<div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
-					<h3>Simulation Lab:</h3>
-					<p>The College of Nursing has a Simulation lab equipped with the latest simulators to provide training in critical nursing skills that mirrors real-situation and scenarios. This enables the nursing students to apply knowledge and skills into practice not just by reading books on theory or listening to lectures but through physical, hands-on activity, “learning by doing.”
+					<h3 class="mb-1">Simulation Lab:</h3>
+					<p>The College of Nursing has a Simulation Lab equipped with the latest simulators to provide training in critical nursing skills that mirror real situations and scenarios. This enables nursing students to apply knowledge and skills in practice, not just through reading or lectures, but through hands-on learning, or 'learning by doing.'
 						<br><br>
-					<h3>Labs:</h3>
-					Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-clinical lab, A.V. Aids room, Simulation Lab, and OSCE Lab-Objective Structured Clinical Examination. Labs are well equipped with the latest articles and Simulators, which provide conducive practical learning to students with what they have learned theoretically under constant guidance.
+					<h3 class="mb-1">Labs:</h3>
+					Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-Clinical Lab, A.V. Aids Room, Simulation Lab, and OSCE Lab (Objective Structured Clinical Examination). The labs are well equipped with the latest equipment and simulators, providing a conducive environment for students to apply what they have learned theoretically under constant guidance.
 					<br><br>
-					<h3>Library:</h3>
-					The College of Nursing has a spacious in-house library with numerous nursing books, National & International research journals, and periodicals that provide information related to recent advancements in Nursing. There is a free Wi-Fi facility for all the students inside the library.The e-Library with EBESCO database imbibed with Med-line, CINAHL enables students and research scholars to refer to e-journals for citation and research work and development.
+					<h3 class="mb-1">Library:</h3>
+					The College of Nursing has a spacious in-house library with numerous nursing books, national and international research journals, and periodicals that cover recent advancements in nursing. The College of Nursing has a spacious in-house library with numerous nursing books, national and international research journals, and periodicals that cover recent advancements in nursing. Free Wi-Fi is available to all students in the library. The e-Library, which includes the EBESCO database with Medline and CINAHL, enables students and research scholars to access e-journals for citations and research purposes.
 					<br><br>
-					<h3>Hospital:</h3>
+					<h3 class="mb-1">Hospital:</h3>
 					Hands-on training is given to the nursing students at our 1000-bedded super-speciality hospital of the University Medical College and allied urban and rural health centres. Nursing students attend OPD sessions in the hospital. During these visits, students visit different places under community connect and provide primary health services. Students actively participate in health awareness programs as well.
-					The College of Nursing is also an inceptor of an authorized International Training Centre (ITC) in collaboration with GHPL (Medanta the Medicity) for the American Heart Association with initiatives aimed at training the healthcare fraternity on Basic Life Support (BLS) & Advanced Cardiovascular Life Support (ACLS). Students regularly interact with faculty members, doctors, and students from medical, dental, and management colleges to hone their technical and managerial skills and are groomed as competent nurses.
+					The College of Nursing is also the founder of an authorised International Training Centre (ITC) in collaboration with GHPL (Medanta the Medicity) for the American Heart Association, with initiatives aimed at training healthcare professionals in Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS).
 					Labs (Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-clinical lab, A.V. Aids room, Simulation Lab, OSCE Lab-Objective Structured Clinical Examination Lab).
 					</p>
 				</div>
@@ -598,15 +597,15 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why TMU is the Best Choice for You <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>UGC-Approved with </span><span> NAAC A Accreditation</span></h3> 
-			<p>TMU Nursing College is UGC-approved and has received NAAC A accreditation, a mark of excellence and quality in education. This recognition ensures that the college meets high standards in teaching, research, and infrastructure.</p>
+			<p>Teerthanker Mahaveer College of Nursing is UGC-approved and has received NAAC A accreditation, a mark of excellence and quality in education. This recognition ensures that the college meets high standards in teaching, research, and infrastructure.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Experiential Learning by </span><span> Highly Qualified Faculties</span></h3> 
 			<p>The college prides itself on its team of highly qualified faculties who bring a wealth of experience and knowledge to the classroom. They focus on experiential learning, ensuring that students gain hands-on experience that is crucial in the nursing field.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3> 
 			<p>The Centre for Teaching, Learning, and Development at TMU fosters an environment of continuous improvement and innovation in teaching methods. It supports faculty development and ensures that students receive the best possible education.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Global Career </span><span> Prospects</span></h3> 
-			<p>Graduating from TMU Nursing College opens doors to global career opportunities. The college&rsquo;s strong industry connections and international collaborations help students secure placements and internships worldwide.</p>
+			<p>Graduating from Teerthanker Mahaveer College of Nursing opens doors to global career opportunities. The college&rsquo;s strong industry connections and international collaborations help students secure placements and internships worldwide.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>On-Campus </span><span> Hostel Facilities</span></h3> 
 			<p>TMU offers comfortable on-campus hostel facilities, providing a home away from home for students. The hostels are well-maintained and equipped with all the necessary amenities, ensuring a comfortable living environment.</p>
 
@@ -625,7 +624,7 @@
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
-            <button class="careers-accordion">Campus Life at TMU Nursing College <span class="icon">+</span></button>
+            <button class="careers-accordion">Campus Life at Teerthanker Mahaveer College of Nursing <span class="icon">+</span></button>
             <div class="panel">
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Extracurricular </span><span> Clubs</span></h3>
 			<p>Extracurricular activities are a vital part of student life at TMU. The college has a variety of clubs that cater to different interests, helping students develop well-rounded personalities and leadership skills.</p>
@@ -645,7 +644,7 @@
             <button class="careers-accordion">Placement and Career Opportunities <span class="icon">+</span></button>
             <div class="panel">
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Explore Top-Notch </span><span>Placement Opportunities</span></h3>
-			<p>TMU Nursing College offers top-notch placement opportunities, with a dedicated placement cell that works tirelessly to ensure that students secure positions in reputed organizations.</p>
+			<p>Teerthanker Mahaveer College of Nursing offers top-notch placement opportunities, with a dedicated placement cell that works tirelessly to ensure that students secure positions in reputed organizations.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>100% Placement Assistance with </span><span> an Outstanding Track Record</span></h3>
 			<p>The college boasts a 100% placement assistance record, with graduates finding positions in leading healthcare institutions and organizations. The outstanding track record speaks volumes about the quality of education and training provided.</span></p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Strong Industry Connections</span><span> with Top Companies</span></h3>
@@ -665,7 +664,7 @@
             <button class="careers-accordion">Global Exposure and Opportunities <span class="icon">+</span></button>
             <div class="panel">
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>International Nursing </span><span> Internships</span></h3>
-			<p>TMU Nursing College provides opportunities for international internships, allowing students to gain global exposure and experience different healthcare systems.</p>
+			<p>Teerthanker Mahaveer College of Nursing provides opportunities for international internships, allowing students to gain global exposure and experience different healthcare systems.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Placement Opportunities in </span><span> Leading Nursing Industries</span></h3>
 			<p>The college&rsquo;s placement cell works diligently to secure opportunities in leading nursing industries, ensuring that graduates find positions that match their skills and aspirations.</p>
 			<h3 class="tmu-text-primary fs-16 mb-1"><span>Global Nursing </span><span> Research Opportunities</span></h3>
@@ -692,19 +691,19 @@
 			<hr class="horizontal-line">
             <button class="careers-accordion">Conclusion <span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">TMU Nursing College offers a comprehensive education experience, combining academic excellence, practical training, and a vibrant campus life. With state-of-the-art facilities, global opportunities, and strong industry connections, TMU Nursing College is the best choice for aspiring nurses. The college’s commitment to quality education, student support, and holistic development ensures that graduates are well-prepared for successful careers in nursing.</p>
+                <p class="text-justify">Teerthanker Mahaveer College of Nursing offers a comprehensive education experience, combining academic excellence, practical training, and a vibrant campus life. With state-of-the-art facilities, global opportunities, and strong industry connections, Teerthanker Mahaveer College of Nursing is the best choice for aspiring nurses. The college’s commitment to quality education, student support, and holistic development ensures that graduates are well-prepared for successful careers in nursing.</p>
             </div>
             <hr class="horizontal-line">
             <button class="careers-accordion">FAQs<span class="icon">+</span></button>
             <div class="panel">
-            <p><strong>Q1: What accreditation does TMU Nursing College have?</strong></p>
-			<p><strong>Ans:</strong> TMU Nursing College is UGC-approved and has received NAAC A accreditation, indicating high standards in education, research, and infrastructure.</p>
-			<p><strong>Q2: Are there on-campus accommodation facilities at TMU Nursing College?</strong></p>
+            <p><strong>Q1: What accreditation does Teerthanker Mahaveer College of Nursing have?</strong></p>
+			<p><strong>Ans:</strong> Teerthanker Mahaveer College of Nursing is UGC-approved and has received NAAC A accreditation, indicating high standards in education, research, and infrastructure.</p>
+			<p><strong>Q2: Are there on-campus accommodation facilities at Teerthanker Mahaveer College of Nursing?</strong></p>
 			<p><strong>Ans: </strong>Yes, TMU provides comfortable on-campus hostel facilities equipped with all necessary amenities.</p>
-			<p><strong>Q3: What are the global opportunities available for TMU Nursing College students?</strong></p>
-			<p><strong>Ans: </strong>Students at TMU Nursing College have access to international internships, global nursing research opportunities, and placement opportunities in leading nursing industries.</p>
-			<p><strong>Q4: How does TMU Nursing College support student placement?</strong></p>
-			<p><strong>Ans: </strong>TMU Nursing College offers 100% placement assistance with an outstanding track record, strong industry connections, and a dedicated placement cell that ensures students secure positions in reputed organizations.</p>
+			<p><strong>Q3: What are the global opportunities available for Teerthanker Mahaveer College of Nursing students?</strong></p>
+			<p><strong>Ans: </strong>Students at Teerthanker Mahaveer College of Nursing have access to international internships, global nursing research opportunities, and placement opportunities in leading nursing industries.</p>
+			<p><strong>Q4: How does Teerthanker Mahaveer College of Nursing support student placement?</strong></p>
+			<p><strong>Ans: </strong>Teerthanker Mahaveer College of Nursing offers 100% placement assistance with an outstanding track record, strong industry connections, and a dedicated placement cell that ensures students secure positions in reputed organizations.</p>
 
             </div>
             <hr class="horizontal-line">
