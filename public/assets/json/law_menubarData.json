@@ -11,6 +11,7 @@
     },
     "2": {
         "Syllabus": { "link": "/college-of-law-and-legal-studies/syllabus" },
+        "Time Table":{"link":"college-of-law-and-legal-studies/time-table"},
         "Academic Calendar": { "link": "college-of-law-and-legal-studies/academic-calendar" }
     },
 
@@ -26,7 +27,6 @@
     },
     "5": {
 
-        "Guest Lecture": { "link": "/college-of-law-and-legal-studies/guest-lecture" },
         "Contact Us": { "link": "/college-of-law-and-legal-studies/contact-us" }
     },
    "7": {
