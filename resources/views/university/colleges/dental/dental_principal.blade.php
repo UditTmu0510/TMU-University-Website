@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="mb-4">
-                <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Vice Principal's Desk</span></h1>
+                <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span> Principal's Desk</span></h1>
                 <div class="quote-box mx-auto">
                     <div class="profile-image mb-2">
                         <img src="{{asset('/assets/img/principal/dental/5.png')}}" alt="Profile Image">
