@@ -26,11 +26,115 @@
 					</ul>
 					<p class="about-p mb-4">The department observes significant days, educational and health related programmes, field visits, camp’s in collorabtion with various departments. Standard procedure’s manuals and protocols are in practice and updates as per the current scenario in the changing patterns of health care delivery system and advancement in paediatric care.</p>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-					<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
+					<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
 						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab1.jpg')}}" alt="Gallery Thumb 1"></a>
 						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
 						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab6.jpg')}}" alt="Gallery Thumb 3"></a>
 						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab2.jpg')}}" alt="Gallery Thumb 5"></a>
+					</div> -->
+					<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/Lab1.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Simulation Lab</h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/Lab1.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/Lab2.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Simulation Lab </h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/Lab2.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/lab3.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Simulation Lab</h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/lab3.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/lab4.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Simulation Lab</h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/lab4.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/lab5.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Paediatric Lab</h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/lab5.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4">
+							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+								<div class="team-image">
+									<img src="{{asset('/assets/img/college_departments/nursing/pdn/lab6.jpg')}}" height="150px" alt="">
+								</div>
+								<div class="team-desc p-2">
+									<div class="team-title pt-0">
+										<h4 class="fs-14">Paediatric Lab</h4>
+										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/pdn/geotag/lab6.jpg')}}" download>
+											Download Geo Tag Image
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 
 
