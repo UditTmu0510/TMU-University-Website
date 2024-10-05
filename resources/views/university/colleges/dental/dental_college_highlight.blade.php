@@ -11,7 +11,7 @@
                 <header class="section-header text-center wow zoomIn">
                     <h1 class="tmu-text-primary tmu-page-heading mb-sm-5 mt-md-4"><span>College </span><span> Highlights</span></h1>
                 </header>
-                <div class="timeline ">
+                <div class="timeline">
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
                             <div class="timeline-date">2005</div>
@@ -28,26 +28,26 @@
                     </div>
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Fully Equipped Specialty Clinics </div>
-                            <p>The TMU Dental College & Research Centre has nine (9) fully equipped specialty clinics.</p>
+                            <div class="timeline-date">Fully Equipped Speciality Clinics</div>
+                            <p>The TMU Dental College & Research Centre has nine (9) fully equipped speciality clinics.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft">
                         <div class="timeline-text">
-                            <div class="timeline-date">Satelite Clinic</div>
+                            <div class="timeline-date">Satellite Clinic</div>
                             <p>The TMU Dental College & Research Centre operates three (3) satellite clinics: two in rural areas and one in a medical hospital.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Mobile Dental Van </div>
+                            <div class="timeline-date">Mobile Dental Van</div>
                             <p>The TMU Dental College & Research Centre has two mobile dental vans, each equipped with four dental chairs.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Labs</div>
-                            <p>The TMU Dental College & Research Centre has the following labs: (i) Pre-Clinical Labs: 4, (ii) Ceramic & Casting Labs: 4 </p>
+                            <p>The TMU Dental College & Research Centre has the following labs: (i) Pre-Clinical Labs: 4, (ii) Ceramic & Casting Labs: 4</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Professional Membership</div>
-                                <p>The TMU Dental College & Research Centre is affiliated with the Indian Dental Association and the Restorative Association of Nine Specialties of Dentistry.</p>
+                                <p>The TMU Dental College & Research Centre is affiliated with the Indian Dental Association and the Restorative Association of Nine Specialities of Dentistry.</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 ">
+                    <div class="col-md-3 col-sm-6">
                         <div class="position-relative">
                             <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" alt="Gallery Thumb 2">
                             <div class="bg-overlay">
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 ">
+                    <div class="col-md-3 col-sm-6">
                         <div class="position-relative">
                             <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" alt="Gallery Thumb 2">
                             <div class="bg-overlay">
@@ -130,9 +130,11 @@
                     </div>
                 </div>
             </div>
-            <!-- Job Experience End -->
         </div>
+
+        <!-- Job Experience End -->
     </div>
+</div>
 </div>
 </div>
 
