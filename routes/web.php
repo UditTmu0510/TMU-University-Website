@@ -658,7 +658,7 @@ Route::get('/college-of-law-and-legal-studies/anti-ragging-committee', [LawContr
 Route::get('/college-of-law-and-legal-studies/college-highlight', [LawController::class, 'law_college_highlight'])->name('law.college.highlight');
 Route::get('/college-of-law-and-legal-studies/contact-us', [LawController::class, 'law_contact_us'])->name('law.contact.us');
 Route::get('/college-of-law-and-legal-studies/gallery', [LawController::class, 'law_gallery'])->name('law.gallery');
-Route::get('/college-of-law-and-legal-studies/guest-lecture', [LawController::class, 'law_time_table'])->name('law.time.table');
+Route::get('/college-of-law-and-legal-studies/time-table', [LawController::class, 'law_time_table'])->name('law.time.table');
 Route::get('/college-of-law-and-legal-studies/iqac', [LawController::class, 'law_iqac'])->name('law.iqac');
 Route::get('/college-of-law-and-legal-studies/syllabus', [LawController::class, 'law_syllabus'])->name('law.syllabus');
 Route::get('/college-of-law-and-legal-studies/principal', [LawController::class, 'law_principal'])->name('law.principal');
