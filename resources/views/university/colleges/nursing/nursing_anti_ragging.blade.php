@@ -13,43 +13,50 @@
                                             <th class="text-center">Sl. No.</th>
                                             <th>Name</th>
                                             <th>Designation</th>
+                                            <th>Status</th>
                                             <th>Contact No.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td>Dr. Poonam Sharma </td>
+                                            <td>Prof. (Dr) S P Subashini </td>
+                                            <td>Dean</td>
                                             <td>Chairperson</td>
-                                            <td>9568526444</td>
+                                            <td>6399000660</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td>Prof. Jasline. M</td>
+                                            <td>Prof. (Dr) Jasline M</td>
+                                            <td>Vice - Principal</td>
                                             <td>Coordinator</td>
                                             <td>8279816167</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td>Mr. Jitendra Singh</td>
-                                            <td>Member Secretary & FIP</td>
-                                            <td>9108623430</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td class="text-center">4</td>
                                             <td>Mr. Yasir Javed</td>
+                                            <td>Assistant Registrar</td>
                                             <td>Member</td>
                                             <td>9045700335</td>
                                         </tr>
 
                                         <tr>
-                                            <td class="text-center">5</td>
-                                            <td>Mr. Ramniwas</td>
+                                            <td class="text-center">4</td>
+                                            <td>Mr. Jitendra Singh</td>
+                                            <td>Professor</td>
                                             <td>Member</td>
-                                            <td>9548658247</td>
+                                            <td>9108623430</td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td class="text-center">5</td>
+                                            <td>Prof. Vijimol</td>
+                                            <td>Professor</td>
+                                            <td>Member Secretary</td>
+                                            <td>8894126177</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -61,7 +68,7 @@
                                 <div class="col-md-8 mb-3 mb-sm-0" style="background-color: #001055;">
                                     <div class="card border-light my-3">
                                         <div class="card-body text-center">
-                                            <h4 class="card-title tmu-text-primary"><span>TOLL FREE ANTI RAGGING </span></h4>
+                                        <h3 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h3>
                                             <p class="card-text"><span class="highlight">HELPLINE NO. 1800-180-5522 </span></p>
                                         </div>
                                     </div>
@@ -73,61 +80,54 @@
                             <h2 class="tmu-text-primary tmu-page-heading"><span> Proctorial </span><span>Board</span></h2>
                             <div class="table-responsive">
                                 <table class="table table-bordered table-striped">
-                                    <thead>
-                                         <tr>
+                                <thead>
+                                        <tr>
                                             <th class="text-center">Sl. No.</th>
                                             <th>Name</th>
                                             <th>Designation</th>
+                                            <th>Status</th>
                                             <th>Contact No.</th>
-
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td>Dr. Poonam Sharma </td>
+                                            <td>Prof. (Dr) S P Subashini </td>
+                                            <td>Dean</td>
                                             <td>Chairperson</td>
-                                            <td>9568526444</td>
-
+                                            <td>6399000660</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td>Prof. Jasline. M</td>
-                                            <td>Coordinator</td>
+                                            <td>Prof. (Dr) Jasline M</td>
+                                            <td>Vice - Principal</td>
+                                            <td>Proctor</td>
                                             <td>8279816167</td>
-
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td>Mr. Ramniwas</td>
+                                            <td>Mr. Yasir Javed</td>
+                                            <td>Assistant Registrar</td>
                                             <td>Member</td>
-                                            <td>9548658247</td>
-
+                                            <td>9045700335</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">4</td>
-                                            <td>Mr.Jitendra Singh</td>
-                                            <td>Member Secretary & FIP</td>
-                                            <td>7976426526</td>
-
+                                            <td>Mr. Jitendra Singh</td>
+                                            <td>Professor</td>
+                                            <td>Member</td>
+                                            <td>9108623430</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">5</td>
-                                            <td>Mrs. Vijimol</td>
-                                            <td>Member Secretary & FIP</td>
-                                            <td>8894126177</td>
-
-                                        </tr>
-
-                                        <tr>
-                                            <td class="text-center">6</td>
-                                            <td>Mr. Yasir Javed</td>
-                                            <td>Member</td>
-                                            <td>9045700335</td>
+                                            <td>Prof. Lincy Joseph</td>
+                                            <td>Professor</td>
+                                            <td>Member Secretary</td>
+                                            <td>9899755712</td>
                                         </tr>
                                     </tbody>
                                 </table>
