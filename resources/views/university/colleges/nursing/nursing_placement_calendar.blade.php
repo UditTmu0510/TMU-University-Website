@@ -17,10 +17,8 @@
                                 <td> July</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li>Analysis of placement statistics for passed out
-                                            batches.</li>
-                                        <li>Identification of areas of Improvement and training
-                                            requirements.</li>
+                                        <li>Analysis of placement statistics for graduated batches.</li>
+                                        <li>Identification of areas of improvement and training requirements.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -29,8 +27,7 @@
                                 <td>July- August</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li>Fixation of placement drivestentative schedules for passing
-                                            out batches of all colleges.</li>
+                                        <li>Finalisation of placement drives' tentative schedules for graduating batches of all colleges.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -39,12 +36,10 @@
                                 <td>August -September&nbsp;</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li>Websiteupdating onplacement data.</li>
-                                        <li>Sending invitations to corporate for placement
-                                            drive.&nbsp;&nbsp;</li>
-                                        <li>Campus Placement session begins for final year</li>
-                                        <li>Guest / Expert Lectures plan and execution of one lecture
-                                            per course.</li>
+                                        <li>Website updating on placement data.</li>
+                                        <li>Sending invitations to corporates for placement drives.&nbsp;&nbsp;</li>
+                                        <li>Campus placement session begins for the final year.</li>
+                                        <li>Planning and execution of Guest/Expert Lectures, with one lecture per programme</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -53,13 +48,11 @@
                                 <td>October</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li>Industry Visit for Engineering branches and basic
-                                            Sciences.</li>
+                                        <li>Industry visit for Engineering branches and Basic Sciences.</li>
                                         <li>Industry Visit for Management College.</li>
-                                        <li>Industry Visit for Nursing &amp; Pharmacy Courses.
-                                        </li>
+                                        <li>Industry Visit for Nursing &amp; Pharmacy Courses.</li>
                                         <li>Expert Lectures as per the plan.</li>
-                                        <li>Campus Placement Executions</li>
+                                        <li>Campus placement execution.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -70,8 +63,7 @@
                                     <ul class="m-ol-list ps-4">
                                         <li aria-level="1">Review of training plan with
                                             CTLD.</li>
-                                        <li aria-level="1">Organizing the Annual HR
-                                            Conclave</li>
+                                        <li aria-level="1">Organising the Annual HR Conclave.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -80,9 +72,7 @@
                                 <td>December&nbsp;</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li aria-level="1">Preparation for next phase of placement
-                                            drives starting from January&amp;
-                                            scheduling companies in pipeline.</li>
+                                        <li aria-level="1">Preparation for the next phase of placement drives starting from January & scheduling companies in the pipeline.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -91,12 +81,8 @@
                                 <td>January &ndash;June</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li aria-level="1">Extensive industry visit especially
-                                            companies in Delhi/NCR and other job
-                                            industry zones.</li>
-                                        <li aria-level="1">Explore possibilities of summer
-                                            internships, live projectsand work assignments
-                                            for pre final year students.&nbsp;</li>
+                                        <li aria-level="1">Extensive industry visits, especially to companies in Delhi/NCR and other job industry zones.</li>
+                                        <li aria-level="1">Explore possibilities of summer internships, live projects, and work assignments for pre-final year students.&nbsp;</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -105,21 +91,16 @@
                                 <td>January-June</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li aria-level="1">Conducting campus recruitment drives
-                                            focusing on high package companies for
-                                            students.</li>
+                                        <li aria-level="1">Conducting campus recruitment drives focusing on companies offering high salary packages for students.</li>
                                     </ul>
-                                    (April &ndash; June month activity)</>
+                                    <b>(Activity scheduled for April – June)</b>
                                     <ul class="m-ol-list ps-4">
                                         <li aria-level="1">Organizing remaining Expert
                                             Lectures.</li>
                                         <li aria-level="1">Collection of the student&rsquo;s data
                                             for the coming batch and submitting the
                                             placement brochure to the stake holders.</li>
-                                        <li aria-level="1">Student- Placement Orientation sessions
-                                            with the CRC- Director &amp; Team for
-                                            the pre-final year students regarding Internship&amp;
-                                            Placement Guidance.</li>
+                                        <li aria-level="1">Student Placement Orientation sessions with the CRC Director & Team for pre-final year students regarding Internship & Placement Guidance.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -128,11 +109,8 @@
                                 <td>Year Round&nbsp; Activities</td>
                                 <td>
                                     <ul class="m-ol-list ps-4">
-                                        <li aria-level="1">Offer letter / Appointment Letters
-                                            distribution by companies- for Placed
-                                            Batch.</li>
-                                        <li aria-level="1">Thanks letters to Companies and sharing
-                                            of feedback.</li>
+                                        <li aria-level="1">Offer Letters/Appointment Letters distribution by companies for the placed batch.</li>
+                                        <li aria-level="1">Thank-you letters to companies and sharing of feedback.</li>
                                         <li aria-level="1">Database Updating for next year
                                             placements.</li>
                                         <li>Joining of Students.</li>
