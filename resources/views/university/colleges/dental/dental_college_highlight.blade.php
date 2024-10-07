@@ -95,7 +95,7 @@
                                 <div class="team-title pt-0">
                                     <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
                                     <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
-                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/3.jpeg')}}" download>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/3.jpeg')}}" download>
                                         Download Geo Tag Image
                                     </a>
                                 </div>
@@ -111,7 +111,7 @@
                                 <div class="team-title pt-0">
                                     <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
                                     <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
-                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/4.jpeg')}}" download>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/4.jpeg')}}" download>
                                         Download Geo Tag Image
                                     </a>
                                 </div>
@@ -132,7 +132,7 @@
                                 <div class="team-title pt-0">
                                     <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
                                     <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
-                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/1.jpeg')}}" download>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/1.jpeg')}}" download>
                                         Download Geo Tag Image
                                     </a>
                                 </div>
@@ -148,15 +148,13 @@
                                 <div class="team-title pt-0">
                                     <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
                                     <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
-                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/2.jpeg')}}" download>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/2.jpeg')}}" download>
                                         Download Geo Tag Image
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                
                 </div>
             </div>
         </div>

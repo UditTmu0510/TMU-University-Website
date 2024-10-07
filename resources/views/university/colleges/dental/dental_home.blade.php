@@ -128,10 +128,10 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">TMU Dental College, Among the Top Dental Colleges in India</h2>
+                <h2 class="college-main-heading">Teerthanker Mahaveer Dental College & Research Centre: Among the Top Dental Colleges in India.</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Teerthanker Mahaveer Dental College and Research Centre, established in the year 2005, is one of the most prestigious and accredited dental institutes. The college is actively involved in quality teaching and research practices in oral health care which makes it a centre of excellence for providing world-class education.</p>
+                        <p style="text-align: justify;">Teerthanker Mahaveer Dental College and Research Centre, established in 2005, is one of the most prestigious and accredited dental colleges. The college is actively involved in high-quality teaching and research in oral health care, making it a centre of excellence for providing world-class education.</p>
                         <div class="read-more-content mt-0">
                         <p style="text-align: justify;">Choosing the right dental college is crucial for aspiring dentists. Teerthanker Mahaveer Dental College and Research Centre (TMDC&RC) stands out as one of the premier institutions in India. With a focus on academic excellence, practical knowledge, and global career opportunities, TMU Dental College offers a holistic educational experience that prepares students for a successful dental career.
                         </p>
