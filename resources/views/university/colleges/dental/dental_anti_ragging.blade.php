@@ -80,7 +80,7 @@
             <h2 class="tmu-text-primary tmu-page-heading"><span> Proctorial </span><span>Board</span></h2>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
-                    <thead>
+                <thead>
                         <tr>
                             <th class="text-center">Sl. No. </th>
                             <th>Name</th>
@@ -98,29 +98,29 @@
 
                         <tr>
                             <td class="text-center">2.</td>
-                            <td>Dr. Upender Malik</td>
-                            <td>Member</td>
-                            <td>7895085379</td>
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">3.</td>
                             <td>Dr. Ankita Jain</td>
                             <td>Vice Principal &amp; Professor (Public Health Dentistry)</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">4.</td>
+                            <td class="text-center">3.</td>
                             <td>Dr. Upender Malik</td>
                             <td>Professor (Oral Medicine)</td>
                             <td>Proctor</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">5.</td>
+                            <td class="text-center">4.</td>
                             <td>Dr. Rajeev Pathak</td>
                             <td>Professor (Periodontology)</td>
+                            <td>Member</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">5.</td>
+                            <td>Dr. Madhurima Sharma</td>
+                            <td>Professor (Prosthodontics)</td>
                             <td>Member</td>
                         </tr>
                     </tbody>
