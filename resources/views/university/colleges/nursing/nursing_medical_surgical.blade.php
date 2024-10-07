@@ -109,24 +109,6 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4 col-md-4">
-							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-								<div class="team-image">
-									<img src="{{asset('/assets/img/college_departments/nursing/msn/lab6.jpg')}}" height="150px" alt="">
-								</div>
-								<div class="team-desc p-2">
-									<div class="team-title pt-0">
-										<h4 class="fs-14">Pediatric lab</h4>
-										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
-										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/msn/geotag/lab6.jpg')}}" download>
-											Download Geo Tag Image
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
 					</div>
 
 
