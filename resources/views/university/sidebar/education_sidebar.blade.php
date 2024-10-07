@@ -6,7 +6,7 @@
         <h2>About College</h2>
         <div class="account-section">
             <a href="{{ route('education.college.highlight') }}" class="custom-menu-item {{ setActive('education.college.highlight') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('education.principal') }}" class="custom-menu-item {{ setActive('education.principal') }}">
                 <p>Principal's Desk</p>

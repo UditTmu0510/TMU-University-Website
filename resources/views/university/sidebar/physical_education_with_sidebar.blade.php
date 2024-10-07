@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{ route('physical.education.college.highlight') }}" class="custom-menu-item {{ setActive('physical.education.college.highlight') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('physical.education.principal') }}" class="custom-menu-item {{ setActive('physical.education.principal') }}">
                 <p>Principal</p>

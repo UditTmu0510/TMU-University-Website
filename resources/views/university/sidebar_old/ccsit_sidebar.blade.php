@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{route('ccsit.highlights')}}" class="custom-menu-item">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{route('ccsit.principal')}}" class="custom-menu-item">
                 <p>Principal</p>

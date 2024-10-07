@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{route('agriculture.college.highlight')}}" class="custom-menu-item">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{route('agriculture.dean')}}" class="custom-menu-item">
                 <p>Dean's Desk</p>

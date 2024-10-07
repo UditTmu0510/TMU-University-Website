@@ -50,7 +50,7 @@
             <section class="">
                 <div class="container">
                     <div class="text-content">
-                        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Corporate </span><span>Advsiory Board </span></h1>
+                        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Corporate </span><span>Advisory Board </span></h1>
                     </div>
                     <div class="container">
                         <p class="text-justify mb-2">For any professional institution the interaction with academic and corporate world is of great importance. College has Corporate Advisory Board including Principal (as Chair Person), Head Training & Placement and members from the industries.

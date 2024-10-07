@@ -18,7 +18,7 @@
                 <p>Citizen's Charter</p>
             </a>
             <a href="{{ route('medical.highlights') }}" class="custom-menu-item {{ setActive('medical.highlights') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('medical.principal') }}" class="custom-menu-item {{ setActive('medical.principal') }}">
                 <p>Principal Desk</p>
