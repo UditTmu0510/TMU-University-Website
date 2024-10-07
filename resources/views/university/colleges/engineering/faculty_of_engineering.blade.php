@@ -818,8 +818,8 @@
                             <div class="testimonial">
                                 <p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA</p>
                                 <p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
-                                    were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
-                                    environment where theories met practical challenges. It's a journey where I honed the
+                                    were forged. Beyond textbooks and case studies, TMU offers a dynamic learning
+                                    environment where theories meet practical challenges. It was a journey where I honed the
                                     skills that set me apart in the dynamic landscape of business and management.
                                 </p>
                             </div>
@@ -892,7 +892,7 @@
                                 <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Dedicated Corporate </span><span> Resource Centre (CRC)</span></h3>
                                 <p class="mb-2">Our CRC works tirelessly to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career and have access to top employers.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement</span><span>Record</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement </span><span>Record</span></h3>
                                 <p class="mb-2">With an 89% placement track record, we take pride in our exceptional placement services, striving to assist all our students in securing the best available jobs in their respective fields.</p>
 
                             </div>
