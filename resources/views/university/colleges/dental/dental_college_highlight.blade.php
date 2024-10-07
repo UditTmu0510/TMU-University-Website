@@ -86,48 +86,77 @@
                 <h2 class="tmu-text-primary tmu-page-heading mt-md-5 mb-md-5"><span>Community-based </span><span> Learning Facilities</span></h2>
                 <div class="row gutter-10 mt-md-4" data-lightbox="gallery">
                     <h3 class="tmu-text-primary mb-0"><span> Amroha Satellite </span><span> Centre</span></h3>
-                    <div class="col-md-3 col-sm-6 mt-1">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" alt="Gallery Thumb 1">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/3.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" alt="Gallery Thumb 2">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/4.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
+                    
                     <br />
+                    
                     <h3 class="tmu-text-primary mb-0 mt-md-3"><span>Haryana Satellite </span><span> Centre</span></h3>
-                    <div class="col-md-3 col-sm-6 mt-1">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" alt="Gallery Thumb 1">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/1.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" alt="Gallery Thumb 2">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/geotag/satellite/2.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
+                
                 </div>
             </div>
         </div>
