@@ -37,6 +37,7 @@ use App\Http\Controllers\PhysicaleducationController;
 use App\Http\Controllers\PhysiotherapyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JainStudiesController;
+use App\Http\Controllers\JobformController;
 
 /*
 |--------------------------------------------------------------------------
@@ -144,6 +145,8 @@ Route::get('/tmu/chancellor', [TmuController::class, 'chancellor_desk'])->name('
 Route::get('/tmu/founder-vicechancellor', [TmuController::class, 'founder_vice_chancellor_desk'])->name('founder.vice.chancellor.desk');
 Route::get('/tmu/vicechancellor', [TmuController::class, 'vice_chancellor_desk'])->name('vice.chancellor.desk');
 Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.careers');
+Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
+Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
 
 // IIC
 
