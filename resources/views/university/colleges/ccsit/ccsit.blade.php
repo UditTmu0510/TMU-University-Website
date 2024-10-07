@@ -789,8 +789,8 @@
                             <p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA
                             </p>
                             <p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
-                                were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
-                                environment where theories met practical challenges. It's a journey where I honed the
+                                were forged. Beyond textbooks and case studies, TMU offers a dynamic learning
+                                environment where theories meet practical challenges. It was a journey where I honed the
                                 skills that set me apart in the dynamic landscape of business and management.
                             </p>
                         </div>
@@ -834,7 +834,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">On-Campus Hostel Facilities and Scholarship Assistance<span class="icon">+</span></button>
             <div class="panel">
-                <p>We understand that a conducive living environment is essential for holistic growth. That's why CCSIT offers comfortable on-campus hostel facilities, ensuring that students feel at home even away from home. Additionally, our commitment to making quality education accessible is reflected in our 100% placement assistance.</p>
+                <p>We understand that a conducive living environment is essential for holistic growth. CCSIT offers comfortable on-campus hostel facilities, ensuring that students feel at home even away from home. Additionally, our commitment to making quality education accessible is reflected in our 100% placement assistance.</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
