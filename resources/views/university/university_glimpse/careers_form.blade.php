@@ -86,8 +86,8 @@
 
             @if(session('success'))
             <div class="alert alert-success">
-                {{session('success')}}
-                {{session('application_id')}}
+                {{session('success')}} <br>
+                Please carefully note this Reference number: {{ session('application_id') }}
             </div>
             @endif
 
