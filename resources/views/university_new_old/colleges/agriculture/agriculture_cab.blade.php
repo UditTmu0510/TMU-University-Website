@@ -5,7 +5,7 @@
         <section class="mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Corporate </span><span>Advsiory Board </span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Corporate </span><span>Advisory Board </span></h1>
                 </div>
                 <div class="container">
                     <p class="text-justify mb-2 mt-0">For any professional institution the interaction with academic and corporate world is of great importance. College has Corporate Advisory Board including Principal (as Chair Person), Head Training & Placement and members from the industries. The Board members provides advice and guidance on academic program to the college as a whole or to individual academic departments. This helps ensure our curricula remain relevant and rigorous. Corporate Advisory Board members also interact with faculty & Students (SPCC members) as mentors and as guest speakers in classes, and provide internship and job opportunities to our students.</p>
@@ -21,7 +21,7 @@
                         <li>Advising and helping us on better placements and internships.</li>
                     </ul>
 
-                    <h3 class="tmu-text-primary"><span>Member of </span><span>Corporate Advsiory Board </span></h3>
+                    <h3 class="tmu-text-primary"><span>Member of </span><span>Corporate Advisory Board </span></h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped">
                             <thead>
