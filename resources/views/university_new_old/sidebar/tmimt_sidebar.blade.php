@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{route('mgmt.highlight')}}" class="custom-menu-item">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{route('mgmt.principal')}}" class="custom-menu-item">
                 <p>Principal's Desk</p>

@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{route('law.college.highlight')}}" class="custom-menu-item">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{route('law.dean')}}" class="custom-menu-item">
                 <p>Dean</p>
