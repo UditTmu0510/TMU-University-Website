@@ -48,7 +48,7 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{ route('agriculture.timetable') }}" class="custom-menu-item {{ setActive('agriculture.timetable') }}">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="https://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
