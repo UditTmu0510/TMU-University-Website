@@ -11,11 +11,11 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to College Of<span
+                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to College of<span
                             style="font-weight:700!important;"> Computing Sciences & IT </span>(CCSIT)</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none"
                         style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
-                        Welcome to <span>College Of</span> Computing Sciences & IT (CCSIT)</h1>
+                        Welcome to <span>College of</span> Computing Sciences & IT (CCSIT)</h1>
                         <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -36,7 +36,7 @@
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span>AA+</span>
                             <br>
-                            <h5>Rated Top B-school by <br> Careers360</h5>
+                            <h5>Rated Top B-School by <br> Careers360</h5>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>AA+</span>
                                         <br>
-                                        <span class="d-block pt-1">Rated Top B-school by <br> Careers360</span>
+                                        <span class="d-block pt-1">Rated Top B-School by <br> Careers360</span>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                             and visionaries</p>
                         <p style="text-align: justify;">In today's digitally driven world, the demand for skilled professionals in the field of computer sciences is 
                             soaring higher than ever before. Amidst this surge, Teerthanker Mahaveer University's College of Computing Sciences & IT 
-                            (CCSIT) stands out as a beacon of excellence, offering a comprehensive blend of academic rigour and practical exposure. 
+                            (CCSIT) stands out as a beacon of excellence, offering a comprehensive blend of academic rigor and practical exposure. 
                             Let's delve into why CCSIT at TMU is not just a college but a transformative journey for aspiring IT enthusiasts.</p>
 
                     </div>
@@ -246,7 +246,7 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <p>CCS&IT provides a conducive environment to provide quality education and support to both students
-                        and faculty members. The college boasts</p>
+                        and faculty members. The College boasts</p>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4">
                             <li>
