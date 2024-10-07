@@ -4301,3 +4301,23 @@ Search bar css ends here
         }
 
    /* CRC package section css ends */
+
+   /* CSS for animation on carrer button , fade in animation */
+
+    .fade-animation{
+        animation: fade-in-out 1s ease infinite alternate-reverse;
+    }
+    .fade-animation:hover{
+        animation: none;
+    }
+
+    @keyframes fade-in-out {
+        0%{
+            scale: 1;
+        }
+        100%{
+            /* opacity: 0.7; */
+            scale: 1.1;
+        }
+    }
+

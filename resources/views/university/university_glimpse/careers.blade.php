@@ -16,6 +16,7 @@
 
 <div class="container hh1">
     <h2 Class="tmu-text-primary text-center mb-5"><span>JOB </span><span> OPENINGS</span></h2>
+    <div class="container">
     <div class="row">
         <div class="col-md-6">
             <div class="card-body">
@@ -73,39 +74,19 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
 
 
-<div class="container form-container">
+<div class="container ">
     <div class="row">
-        <div class="col-md-7">
-            <div class="image-container">
-                <img src="/assets/img/job.jpg" class="img-fluid" alt="Image">
-            </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 form-container">
+            <h2 Class="tmu-text-primary text-center  fs-28 mb-0 pb-0"><span>Ready to take </span><span>the next step?</span></h2>
+            <p class="fs-14 mt-0 pt-0 text-center ">Click the button below to upload your resume and complete your application</p>
+            <a href="/tmu/career-form" target="_blank" class="mx-auto tmu-btn btn-1 py-2 d-block w-fit-content mt-3 fade-animation" title="Apply Now">Apply Now</a>
         </div>
-        <div class="col-md-5">
-            <h2 Class="tmu-text-primary text-center"><span>Didn't find </span><span>what you're looking for?</span></h2>
-            <p class="fs-12">Please fill out the form below and upload your CV.</p>
-            <form action="submit_career_form.php" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" class="form-control" id="full-name" name="full-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="cv">Upload CV: </label>
-                    <input type="file" class="form-control-file" id="cv" name="cv" required>
-                </div>
-                <button type="submit" class="tmu-btn btn-1 px-5  py-2">Submit</button>
-            </form>
-        </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 
