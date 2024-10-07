@@ -112,12 +112,12 @@
                         </div>
                         <div class="col-md-3 col-sm-6  ">
                             <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/7.jpg')}}"
+                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/7.JPG')}}"
                                     alt="Gallery Thumb 2">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark justify-content-end align-items-end"
                                         data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/7.jpg')}}"
+                                        <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/7.JPG')}}"
                                             class="overlay-trigger-icon size-sm bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
                                             data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
@@ -129,12 +129,12 @@
                         </div>
                         <div class="col-md-3 col-sm-6  ">
                             <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/8.jpg')}}"
+                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/8.JPG')}}"
                                     alt="Gallery Thumb 2">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark justify-content-end align-items-end"
                                         data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/8.jpg')}}"
+                                        <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/8.JPG')}}"
                                             class="overlay-trigger-icon size-sm bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
                                             data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
