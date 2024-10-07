@@ -149,6 +149,10 @@ return view('university.quick_links.tmu_loan');
         return view('university.university_glimpse.why_tmu');
     }
 
+    public function virtual_tour(){
+        return view('university.university_glimpse.virtual_tour');
+    }
+
     public function vision_and_mission()
     {
         return view('university.university_glimpse.tmu_vision_mission');

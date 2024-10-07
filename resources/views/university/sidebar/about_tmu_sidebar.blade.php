@@ -29,7 +29,7 @@
             <a href="{{ route('university.administration') }}" class="custom-menu-item {{ setActive('university.administration') }}">
                 <p>University Administration</p>
             </a>
-            <a href="#" class="custom-menu-item">
+            <a href="{{ route('tmu.virtual_tour') }}" class="custom-menu-item {{ setActive('tmu.virtual_tour') }}">
                 <p>Campus Map & Location</p>
             </a>
         </div>
