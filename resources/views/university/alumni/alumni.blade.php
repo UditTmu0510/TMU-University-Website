@@ -254,10 +254,10 @@
         <div class="row ps-4">
             <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                 <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to <span
-                        style="font-weight:700!important;"> Alumni Association </span></h1>
+                        style="font-weight:700!important;">the Alumni Association </span></h1>
                 <h1 class=" mt-5 mb-3 d-block d-md-none"
                     style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
-                    Welcome to <span>College Of</span> Computing Sciences & IT (CCSIT)</h1>
+                    Welcome to <span></span>the Alumni Association</h1>
                 <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
             </div>
             <div class="col-12 col-md-6">
@@ -1121,98 +1121,101 @@
     });
 
     const reviews = [{
-            name: "Speaks about TMIMT",
-            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            name: "Speaks about College of Computing Sciences & IT",
+            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
+            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-                name: "Shobhit Jain",
+                name: "Rajeev Mishra",
                 link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-                designation: "Head",
-                company: "Saudi German Hospitals Group, Dubai, UAE",
-                course: "MBA",
-                graduationYear: "2011",
-            },
-        },
-        {
-            name: "Speaks about CCSIT",
-            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
-                designation: "Technical Architect",
-                course: "Bearing Point, Germany",
-                location: "Technical Architect Bearing Point",
-            },
-        },
-        {
-            name: "Speaks about Medical College & Research Centre",
-            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-                name: "Radhika Mathur",
-                link: "#",
-                designation: "Clinical Research Coordinator",
-                company: "Ann & Robert H. Lurie Children's Hospital, chicago",
-                course: "MBBS",
-                graduationYear: "2019",
-            },
-        },
-        {
-            name: "Speaks about TMIMT",
-            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-                name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-                designation: "Head",
-                company: "Saudi German Hospitals Group, Dubai, UAE",
-                course: "MBA",
-                graduationYear: "2011",
-            },
-        },
-        {
-            name: "Speaks about CCSIT",
-            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
-                designation: "Technical Architect",
-                course: "Bearing Point, Germany",
-                location: "Technical Architect Bearing Point",
-            },
-        },
-        {
-            name: "Speaks about Medical College & Research Centre",
-            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-                name: "Radhika Mathur",
-                link: "#",
-                designation: "Clinical Research Coordinator",
-                company: "Ann & Robert H. Lurie Children's Hospital, chicago",
-                course: "MBBS",
-                graduationYear: "2019",
-            },
-        },
-        {
-            name: "Speaks about CCSIT",
-            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
-                designation: "Technical Architect",
+                designation: "Technology Architect",
                 company: "Bearing Point, Germany",
-                course: "Technical Architect Bearing Point",
+                course: "B.Tech CSE",
+                graduationYear: "2014",
+            },
+        },
+        {
+            name: "Speaks about TMIMT College of Management",
+            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                name: "Shobhit Jain",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Group Director - Talent Acquisition",
+                company: "Saudi German Hospitals Group",
+                 course:"MBA",
+                graduationYear: "2011",
+            },
+        },
+        {
+            name: "Speaks about Medical College & Research Centre",
+            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
+            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+                name: "Radhika Mathur",
+                link: "#",
+                designation: "Resident Physician",
+                company: "HCA Florida Oak Hill Hospital",
+                course: "MBBS",
+                graduationYear: "2019",
+            },
+        },
+        {
+            name: "Speaks about College of Computing Sciences & IT",
+            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
+            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+                name: "Rajeev Mishra",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
+                designation: "Technology Architect",
+                company: "Bearing Point, Germany",
+                course: "B.Tech CSE",
+                graduationYear: "2014",
+            },
+        },
+        {
+            name: "Speaks about TMIMT College of Management",
+            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                name: "Shobhit Jain",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Group Director - Talent Acquisition",
+                company: "Saudi German Hospitals Group",
+                 course:"MBA",
+                graduationYear: "2011",
+            },
+        },
+        {
+            name: "Speaks about Medical College & Research Centre",
+            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
+            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+                name: "Radhika Mathur",
+                link: "#",
+                designation: "Resident Physician",
+                company: "HCA Florida Oak Hill Hospital",
+                course: "MBBS",
+                graduationYear: "2019",
+            },
+        },
+        {
+            name: "Speaks about TMIMT College of Management",
+            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                name: "Shobhit Jain",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Group Director - Talent Acquisition",
+                company: "Saudi German Hospitals Group",
+                 course:"MBA",
+                graduationYear: "2011",
             },
         },
     ];
