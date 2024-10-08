@@ -14,9 +14,6 @@
             <a href="{{ route('dental.principal') }}" class="custom-menu-item {{ setActive('dental.principal') }}">
                 <p>Principal Desk</p>
             </a>
-            <a href="{{ route('dental.college.advisory.board') }}" class="custom-menu-item {{ setActive('dental.college.advisory.board') }}">
-                <p>College Advisory Board</p>
-            </a>
             <a href="{{ route('dental.gallery') }}" class="custom-menu-item {{ setActive('dental.gallery') }}">
                 <p>Gallery</p>
             </a>
