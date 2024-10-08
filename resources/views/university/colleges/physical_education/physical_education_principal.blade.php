@@ -18,7 +18,7 @@
                 </blockquote>
                 <p class="mb-3">Physical Education aims to provide learning experiences to every age group, enabling them to develop the knowledge, motivation, and competence to live physically active lives. We aim to develop the wholesome personality of the students. After completing their courses at our College, students can choose from various career options in sports academies, health clubs, and sports marketing. Also, there are opportunities as a commentator, sports trainer, school/college teacher, and many more.</p>
                 <p class="mb-3">Here, at our College, we have ample scope and tremendous opportunities to develop a good human being, a good leader, as well as a creative professional because the purpose is not to complete the decided curriculum only but to guide every aspect of students’ grooming in a professional/practical manner.</p>
-                <p class="mb-3">If they rectify their mistakes here only by practicing them repeatedly, they will inculcate a habit of ensuring quality in whatever they do in their professional and personal life. Also, through this rigorous hands-on experience, their confidence level automatically boosts up.</p>
+                <p class="mb-3">If they rectify their mistakes here only by practising them repeatedly, they will inculcate a habit of ensuring quality in whatever they do in their professional and personal life. Also, through this rigorous hands-on experience, their confidence level automatically boosts up.</p>
                 
             </div>
             <div class="col-md-12">

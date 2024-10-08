@@ -114,9 +114,9 @@
 													<h3 class="fs-2 mb-3 fw-bolder">Objective</h3>
 													<!-- <i class="fa-solid fa-coins"></i> -->
 													<ul style="list-style:disc; font-size: 14px;">
-														<li>Follow the Outcome-based education and Psycho-motor skills.</li>
+														<li>Follow Outcome-based education and Psycho-motor skills..</li>
 														<li>Qualified, committed and competent educators to shape the personalities of teacher trainees into successful professionals.</li>
-														<li>The College has spacious, furnished classrooms, Classrooms with ICT facilities, contemporary laboratories, a library etc. with modern equipment for learning and research purposes.</li>
+														<li>The college has spacious, furnished classrooms with ICT facilities, contemporary laboratories, a library, and modern equipment for learning and research purposes.</li>
 														<li>Excellent indoor facilities are available for table tennis, basketball, volleyball, badminton, gymnastics, yoga, squash and skating.</li>
 														
 													</ul>
@@ -157,7 +157,7 @@
 												</div>
 												<h3 class="fs-2 mb-3 fw-bolder">Curriculum</h3>
 												<!-- <i class="fa-solid fa-coins"></i> -->
-												<p class="op-09 mb-5" style="font-size: 14px;">TMIMT College of Physical Education ensures a good academic journey follows an Outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality.</p>
+												<p class="op-09 mb-5" style="font-size: 14px;">TMIMT College of Physical Education ensures a good academic journey that follows an outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through a feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality.</p>
 												<!-- <div>
 													<a href="#" class="button button-large button-border button-dark button-black rounded-pill m-0">Customize Now</a>
 												</div> -->
