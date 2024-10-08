@@ -59,6 +59,15 @@
             <a href="{{ route('iqac.erp') }}" class="custom-menu-item {{ setActive('iqac.erp') }}">
                 <p>ERP</p>
             </a>
+            <a href="{{ route('teachers.feedback.form') }}" class="custom-menu-item {{ setActive('teachers.feedback.form') }}">
+                <p>Teacher Feedback Form</p>
+            </a>
+            <a href="{{ route('alumni.feedback.form') }}" class="custom-menu-item {{ setActive('alumni.feedback.form') }}">
+                <p>Alumni Feedback Form</p>
+            </a>
+            <a href="{{ route('employer.feedback.form') }}" class="custom-menu-item {{ setActive('employer.feedback.form') }}">
+                <p>Employer Feedback Form</p>
+            </a>
             <a href="{{ route('iqac.contact.us') }}" class="custom-menu-item {{ setActive('iqac.contact.us') }}">
                 <p>Contact Us</p>
             </a>

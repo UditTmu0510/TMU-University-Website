@@ -490,6 +490,21 @@ public function ctld_home()
         return view('university.iqac.iqac_contactus');
     }
 
+    public function alumni_feedback_form()
+    {
+        return view('university.iqac.alumni_feedback_form');
+    }
+
+    public function teachers_feedback_form()
+    {
+        return view('university.iqac.teachers_feedback_form');
+    }
+
+    public function employer_feedback_form()
+    {
+        return view('university.iqac.employer_feedback_form');
+    }
+
 
     // NAAC
 
