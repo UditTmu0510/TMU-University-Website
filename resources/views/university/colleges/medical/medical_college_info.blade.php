@@ -307,7 +307,7 @@
 								</tr>
 								<tr>
 									<td class="text-center">14</td>
-									<td>MD &ndash; Anesthesiology </td>
+									<td>MD &ndash; Anaesthesiology </td>
 									<td class="text-center">2014</td>
 									<td class="text-center">11</td>
 									<td class="text-center">11</td>
@@ -339,7 +339,7 @@
 								</tr>
 								<tr>
 									<td class="text-center">18</td>
-									<td>MS &ndash; Otorhinolaryngology (ENT)</td>
+									<td>MS &ndash; Oto-Rhinolaryngology (ENT)</td>
 									<td class="text-center">2014</td>
 									<td class="text-center">4</td>
 									<td class="text-center">4</td>
