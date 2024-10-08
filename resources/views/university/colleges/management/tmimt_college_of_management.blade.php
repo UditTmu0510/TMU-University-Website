@@ -8,7 +8,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Management</span> College in UP,TMIMT</h1>
+                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to<br> <span style="font-weight:700!important;">TMIMT College </span> <br> of Management</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Management</span> College in UP,TMIMT</h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-5">Apply Now</a>
                     <!-- <a href="#" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a> -->
@@ -167,7 +167,7 @@
                             <p class="p-0 m-0">The college offers a wide range of specializations in BBA / B. Com/ MBA including Block Chain Technology, Marketing, Logistics and Supply Chain Management, International Business, Human Resources, Finance, Financial Market, Cyber Security, Agricultural Management, Hospital Management, etc.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">Dedicated Incubation and Entrepreneurship Cell with a focus on establishing an innovation and entrepreneurship-based ecosystem that will help in converting ideas into sustainable start-ups.</p>
+                            <p class="p-0 m-0">Dedicated Incubation and Entrepreneurship Cell with a focus on establishing an innovative and entrepreneurship-based ecosystem that will help in converting ideas into sustainable start-ups.</p>
                         </li>
                     </ul>
 
@@ -177,7 +177,7 @@
                                 <p class="p-0 m-0">Domestic and international excursion tours for better national and global connections</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0">Regular mentoring and counseling sessions by trained industry professionals.</p>
+                                <p class="p-0 m-0">Regular mentoring and counselling sessions by trained industry professionals.</p>
                             </li>
                             <li>
                                 <p class="p-0 m-0">Implementation of NEP-2020 through a vigorous academic environment supported by various FDPs, MOOCs, Workshops, Conferences, Industry Competitions, Guest Talks, and Seminars.</p>
@@ -194,7 +194,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p class="mb-0">The college has established strong ties with national and international institutions, allowing students to gain valuable work experience through internships and co-op programs. Additionally, the college provides robust job placement assistance and career counseling services to help students secure rewarding employment opportunities.
+                    <p class="mb-0">The college has established strong ties with national and international institutions, allowing students to gain valuable work experience through internships and co-op programs. Additionally, the college provides robust job placement assistance and career counselling services to help students secure rewarding employment opportunities.
 
                     <div class="read-more-content mt-0">
                         <br>
@@ -211,7 +211,7 @@
                     <h3>Curriculum</h3>
                     <p>The curriculum of this top management college is thoughtfully designed as per the National Education Policy (NEP 2020) to impart a well-rounded education that equips students with the knowledge and skills necessary to excel in the dynamic business world. The curriculum is continuously updated to stay relevant and in sync with the latest industry trends.
                         <br><br>
-                        Through a mix of theoretical learning and practical applications, students gain a comprehensive understanding of business dynamics, problem-solving abilities, and effective decision-making skills. Moreover, our curriculum emphasizes the importance of experiential learning, case studies, industry projects, and internships, ensuring that students are well-prepared to tackle real-world challenges and adapt to the ever-evolving industry landscape.
+                        Through a mix of theoretical learning and practical applications, students gain a comprehensive understanding of business dynamics, problem-solving abilities, and effective decision-making skills. Moreover, our curriculum emphasises the importance of experiential learning, case studies, industry projects, and internships, ensuring that students are well-prepared to tackle real-world challenges and adapt to the ever-evolving industry landscape.
                         <br><br>
                     </p>
                 </div>
@@ -845,7 +845,7 @@
             <li><strong>Student Support Services:</strong>
                 <ul class="m-ol-list ps-5 mb-1">
                     <li>TMIMT offers a range of student support services to ensure that every student has the resources needed to thrive academically, personally, and professionally.</li>
-                    <li>Support services include academic advising, career counseling, mental health support, and disability services, reflecting the college's commitment to students' overall well-being.</li>
+                    <li>Support services include academic advising, career counselling, mental health support, and disability services, reflecting the college's commitment to students' overall well-being.</li>
                 </ul>
             </li>
         </ul>
@@ -891,7 +891,7 @@
             </li>
             <li><strong>Medical and Health Services:</strong>
                 <ul class="m-ol-list ps-5 mb-1">
-                    <li>TMIMT provides access to medical facilities, first aid services, and counseling on campus, valuing the health and well-being of its students.</li>
+                    <li>TMIMT provides access to medical facilities, first aid services, and counselling on campus, valuing the health and well-being of its students.</li>
                     <li>Qualified medical professionals and counselors are available to address health concerns, promote wellness, and provide timely assistance.</li>
                 </ul>
             </li>
