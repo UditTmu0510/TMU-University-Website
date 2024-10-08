@@ -11,6 +11,8 @@ use App\Models\ExamsQualified;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Session;
+use App\Mail\JobApplicationMail;
+use Illuminate\Support\Facades\Mail;
 
 class JobformController extends Controller
 {
@@ -181,6 +183,15 @@ class JobformController extends Controller
                     }
 
                     DB::commit();
+                    $emailData = [
+                        'name' => $personal_details->name,
+                        'application_id' => $applicationId,
+                        'email' => $personal_details->email
+                    ];
+
+
+                    // Send confirmation email
+                    Mail::to($personal_details->email)->send(new JobApplicationMail($emailData));
                     Session::flash('success','Application Submitted Successfully');
                     Session::flash('application_id',$applicationId);
                     return redirect()->route('job.form');
