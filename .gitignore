@@ -22,11 +22,16 @@ yarn-error.log
 
 # Except for the assets directory
 !/public/assets/
+!/public/css/
 
 # Ignore everything in the assets directory
 /public/assets/*
+/public/css/*
 
 # Except for the CSS and JS folders
 !/public/assets/css/
 !/public/assets/js/
 !/public/assets/json/
+
+# Ensure custom.css is included
+!/public/css/custom.css
