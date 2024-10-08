@@ -193,8 +193,7 @@
 		/* program card styles in Mobile Devices Ends */
 
 		/* <!-------- TMU City In itself start------> */
-		/* css-figma.txt Displaying css-figma.txt */
-		 *{
+		css-figma.txt Displaying css-figma.txt. * {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
@@ -872,7 +871,7 @@ h1 {
 	border-radius: 40px;
 }
 
-.table-wrapper::-webkit-scrollbar-track {
+.table-wrapper::::-webkit-scrollbar-track {
 	background: var(--white);
 	border-radius: 40px;
 }

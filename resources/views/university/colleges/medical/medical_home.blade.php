@@ -11,7 +11,7 @@
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to <br> <span
-                            style="font-weight:700!important;">TMMC&RC</span></h1>
+                            style="font-weight:700!important;">Teerthanker Mahaveer </span> Medical College and Research Centre</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none"
                         style="colour:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
                         Welcome to <span>TMMC&RC</span></h1>
@@ -630,7 +630,7 @@
             <button class="careers-accordion">Academic Partners
                 <span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">TMMC&RC collaborates with prestigious institutions like IIT Kharagpur and Extramarks, enhancing the academic experience through joint research projects and advanced learning Programme.</p>
+                <p class="text-justify">TMMC&RC collaborates with prestigious institutions like IIT Kharagpur and Extramarks, enhancing the academic experience through joint research projects and advanced learning Programmes.</p>
 
             </div>
             <!-- Add the horizontal line here -->
