@@ -12,8 +12,8 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Pharmacy</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Pharmacy</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to <br> <span style="font-weight:700!important;">College of Pharmacy</span></h1>
+                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to <br> <span style="font-weight:700!important;">College of Pharmacy</span></h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -131,7 +131,7 @@
                 <h1 class="college-main-heading">College of Pharmacy, Among the Top Colleges for Pharmacy Courses/Programmes</h1>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes, equipping students with innovative techniques to solve problems in the pharmaceutical industry and clinical settings.</p>
+                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas and graduate, post-graduate and doctorate-level programmes, equipping students with innovative techniques to solve problems in the pharmaceutical industry and clinical settings.</p>
                         <div class="read-more-content mt-0">
                         <p style="text-align: justify;">Welcome to the College of Pharmacy at Teerthanker Mahaveer University (TMU), where academic excellence meets practical experience to shape the future leaders of the pharmaceutical world. Recognised as one of the top colleges for pharmacy courses in India, the College provides a unique blend of theoretical knowledge and hands-on training, preparing our students for successful careers in the dynamic field of pharmacy.
                         </p>

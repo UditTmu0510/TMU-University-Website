@@ -262,13 +262,13 @@
                         alt="...">
                     <div class="card-body">
 
-                        <h4 class="mb-2">ANESTHESIOLOGY</h4>
+                        <h4 class="mb-2">Anaesthesiology</h4>
                     </div>
                     <div
                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                         <div>
                         </div>
-                        <a href="{{ route('medical.anesthesiology') }}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                        <a href="{{ route('medical.Anaesthesiology') }}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                             More</a>
                     </div>
                 </div>

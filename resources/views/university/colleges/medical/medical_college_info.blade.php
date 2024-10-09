@@ -70,7 +70,7 @@
 							<tr>
 								<td class="text-center" sdval="10">10</td>
 								<td>Number of Beds</td>
-								<td>920</td>
+								<td>900+</td>
 							</tr>
 							<tr>
 								<td class="text-center" sdval="11">11</td>

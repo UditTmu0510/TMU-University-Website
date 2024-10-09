@@ -43,7 +43,7 @@
                         <div class="timeline-item left wow slideInLeft mb-0">
                             <div class="timeline-text">
                                 <div class="timeline-date">Seminar Halls</div>
-                                <p>TMU Paramedical Sciences College has two seminar halls.</p>
+                                <p>TMU Paramedical College has (02) seminar halls.</p>
                             </div>
                         </div>
                     </div>
@@ -67,10 +67,8 @@
                             <div class="timeline-item right wow slideInLeft">
                                 <div class="timeline-text">
                                     <div class="timeline-date">Hospital Attachment</div>
-                                    <p> Clinical exposure at 1000 bedded Teerthanker Mahaveer multi
-                                        super-specialty Hospital &
-                                        Research Centre, and in various super - specialty Hospitals across the
-                                        India.</p>
+                                    <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi
+                                        super-speciality Hospital & Research Centre and in various super-specialty Hospitals across India.</p>
                                 </div>
                             </div>
                         </div>
