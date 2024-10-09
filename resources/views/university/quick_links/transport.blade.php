@@ -57,21 +57,21 @@
 
                     <div class="row ps-4 pe-5 mb-3">
                         <p><span class="highlight">The College transportation is equipped with the following facilities lay down
-                                by University norms and RTO department.</span></p>
+                                by University norms and the RTO department.</span></p>
                         <div class="col-md-6">
                             <ol class="m-ol-list ps-4 mb-0">
-                                <li>College buses are spacious with a required capacity to accommodate students.</li>
-                                <li>Every bus has a attender to ensure proper discipline & safety of students.</li>
-                                <li>College bus drivers are responsible to pick & drop the students to their respective stops
+                                <li>College buses are spacious with the required capacity to accommodate students.</li>
+                                <li>Every bus has an attendee to ensure proper discipline & safety of students.</li>
+                                <li>College bus drivers are responsible to picking & droping the students to their respective stops
                                     within an hour of the college starting and getting over.</li>
                             </ol>
                         </div>
 
                         <div class="col-md-6">
                             <ol class="m-ol-list ps-4">
-                                <li>For ensuring additional safety of our students, speed governor is installed in buses with
+                                <li>To ensure the additional safety of our students, a speed governor is installed in buses with a
                                     speed limit set at 40kms/hr.</li>
-                                <li>The College is also in process of installing navigation system in the buses helping parents
+                                <li>The College is also in the process of installing a navigation system in the buses helping parents
                                     to know the exact location of the bus at any given time.</li>
                             </ol>
                         </div>
