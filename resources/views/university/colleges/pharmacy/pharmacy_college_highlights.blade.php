@@ -69,15 +69,14 @@
                             <div class="timeline-text">
                                 <div class="timeline-date">E-Journals & E-Books</div>
                                 <p>The TMU Nursing College provides access to a vast collection of electronic resources,
-                                    including 65 e-journals through EBSCO, 32 e-journals through DELNET Database, and 627
+                                    including 65 e-journals through EBSCO, 32 e-journals through the DELNET Database, and 627
                                     e-journals through Clinical Key.</p>
                             </div>
                         </div>
                         <div class="timeline-item left wow slideInLeft mb-3">
                             <div class="timeline-text">
                                 <div class="timeline-date">Hospital Attachment</div>
-                                <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi super-specialty Hospital &
-                                    Research Centre, and in various super - specialty Hospitals across the India.</p>
+                                <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi super-speciality Hospital & Research Centre and in various super-speciality Hospitals across India.</p>
                             </div>
                         </div>
                     </div>
