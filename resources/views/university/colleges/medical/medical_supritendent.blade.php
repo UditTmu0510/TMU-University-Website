@@ -55,8 +55,8 @@
                             </tr>
                             <tr>
                                 <td class="fw-bold">Office Address</td>
-                                <td style="text-align:left">Teerthankar Mahaveer Medical College Hospital,
-                                    Teerthankar Mahaveer University, Delhi Road, Moradabad – 244001 (U.P.)</td>
+                                <td style="text-align:left">Teerthanker Mahaveer Medical College Hospital,
+                                    Teerthanker Mahaveer University, Delhi Road, Moradabad – 244001 (U.P.)</td>
                             </tr>
                             <tr>
                                 <td class="fw-bold">Contact No.</td>

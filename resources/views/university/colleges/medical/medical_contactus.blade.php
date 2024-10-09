@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Get In Touch </span></h1>
-            <h3 class="text-white">For any query related to College of medical, you may drop message or contact the
+            <h3 class="text-white">For any query related to Teerthanker Mahaveer Medical College & Research Centre., you may drop message or contact the
                 officials at college.</h3>
         </div>
 

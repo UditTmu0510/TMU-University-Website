@@ -57,12 +57,12 @@
 									</tr>
 									<tr>
 										<td class="text-center">9</td>
-										<td>MS (ENT/Otorhinolaryngology)</td>
+										<td>M.Sc. Medical Microbiology</td>
 										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">10</td>
-										<td>MS (ENT/Oto-Rhinlaryngology)</td>
+										<td>MS (ENT/Oto-Rhinolaryngology)</td>
 										<td class="text-center">4</td>
 									</tr>
 									<tr>
@@ -72,7 +72,7 @@
 									</tr>
 									<tr>
 										<td class="text-center">12</td>
-										<td>MS (Opthalomology)</td>
+										<td>MS (Ophthalmology)</td>
 										<td class="text-center">4</td>
 									</tr>
 									<tr>

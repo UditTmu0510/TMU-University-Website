@@ -22,15 +22,15 @@
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td>Recognization / Approval of Teerthanker Mahaveer Medical College & Research Centre, Moradabad for the award of MBBS degree granted by Teerthanker Mahaveer University, Moradabad against the increased intake from 100 to 150 seats vide letter No: U.12012/190/2019-ME.I[FTS.8006335] dated 09/05/2019.</td>
+							<td>recognition / Approval of Teerthanker Mahaveer Medical College & Research Centre, Moradabad for the award of MBBS degree granted by Teerthanker Mahaveer University, Moradabad against the increased intake from 100 to 150 seats vide letter No: U.12012/190/2019-ME.I[FTS.8006335] dated 09/05/2019.</td>
 							<td>2019-20<br><b>(UPR-2019)</b></td>
-							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2019-20_with_recognization.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
-							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2019-20_with_recognization.pdf')}}" download="2019-20_with_recognization.pdf" data-original-title="Download">Download</a></td>
+							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2019-20_with_recognition.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
+							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2019-20_with_recognition.pdf')}}" download="2019-20_with_recognition.pdf" data-original-title="Download">Download</a></td>
 						</tr>
 
 						<tr>
 							<td class="text-center">2</td>
-							<td>Continuance of recognization of MBBS degree granted by Teerthanker Mahaveer University, in respect of students being trained at Teerthanker Mahaveer Medical College & Research Centre vide letter No: MCI-34(41)(UG)/2018/Med./127287 dated 02/08/2018.</td>
+							<td>Continuance of recognition of MBBS degree granted by Teerthanker Mahaveer University, in respect of students being trained at Teerthanker Mahaveer Medical College & Research Centre vide letter No: MCI-34(41)(UG)/2018/Med./127287 dated 02/08/2018.</td>
 							<td>2018-19<br><b>(UPR-2018)</b></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/100 seats recoginition renewal.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
 							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/100 seats recoginition renewal.pdf')}}" download="100 seats recoginition renewal.pdf" data-original-title="Download">Download</a></td>
@@ -74,10 +74,10 @@
 						</tr>
 						<tr>
 							<td class="text-center">8</td>
-							<td>Recognization of 100 Seats in MBBS Course at Teerthanker Mahaveer Medical College & Research Centare, Moradbad vide letter No:U.12012/500/2007-ME.(PII) dated 11.03.2013.</td>
+							<td>recognition of 100 Seats in MBBS Course at Teerthanker Mahaveer Medical College & Research Centare, Moradbad vide letter No:U.12012/500/2007-ME.(PII) dated 11.03.2013.</td>
 							<td>2013-14<br><b>(UPR-2013)</b></td>
-							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2013-14_with_recognization.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
-							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2013-14_with_recognization.pdf')}}" download="2013-14_with_recognization.pdf" data-original-title="Download">Download</a></td>
+							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2013-14_with_recognition.pdf')}}" target="_blank" data-original-title="View">Read More!</a></td>
+							<td class="text-center"><a data-tooltip="" data-placement="bottom" href="{{asset('/assets/pdf/medical/ug/2013-14_with_recognition.pdf')}}" download="2013-14_with_recognition.pdf" data-original-title="Download">Download</a></td>
 						</tr>
 						<tr>
 							<td class="text-center">9</td>
