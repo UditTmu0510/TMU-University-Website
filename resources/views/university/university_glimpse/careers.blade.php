@@ -84,7 +84,7 @@
         <div class="col-md-8 form-container">
             <h2 Class="tmu-text-primary text-center  fs-28 mb-0 pb-0"><span>Ready to take </span><span>the next step?</span></h2>
             <p class="fs-14 mt-0 pt-0 text-center ">Click the button below to upload your resume and complete your application</p>
-            <a href="/tmu/career-form" target="_blank" class="mx-auto tmu-btn btn-1 py-2 d-block w-fit-content mt-3 fade-animation" title="Apply Now">Apply Now</a>
+            <a href="{{ route('job.form') }}" target="_blank" class="mx-auto tmu-btn btn-1 py-2 d-block w-fit-content mt-3 fade-animation" title="Apply Now">Apply Now</a>
         </div>
         <div class="col-md-2"></div>
     </div>
