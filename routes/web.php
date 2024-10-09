@@ -38,6 +38,7 @@ use App\Http\Controllers\PhysiotherapyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JainStudiesController;
 use App\Http\Controllers\JobformController;
+use App\Http\Controllers\TeachersfeedbackController;
 
 /*
 |--------------------------------------------------------------------------
@@ -214,7 +215,11 @@ Route::get('/tmu/iqac-cell/student-feedback', [TmuController::class, 'iqac_stude
 Route::get('/tmu/policies-sops', [TmuController::class, 'iqac_policies_and_sops'])->name('iqac.policies.and.sops');
 Route::get('/tmu/iqac-cell/contact-us', [TmuController::class, 'iqac_contact_us'])->name('iqac.contact.us');
 Route::get('/tmu/iqac-cell/alumni-feedback-form', [TmuController::class, 'alumni_feedback_form'])->name('alumni.feedback.form');
-Route::get('/tmu/iqac-cell/teachers-feedback-form', [TmuController::class, 'teachers_feedback_form'])->name('teachers.feedback.form');
+Route::get('/tmu/iqac-cell/teachers-feedback-form', [TeachersfeedbackController::class, 'createTeachersFeedbackForm'])->name('teachers.feedback.form');
+Route::post('/tmu/iqac-cell/submit-teachers-feedback-form', [TeachersfeedbackController::class, 'storeFeedback'])->name('store.teachers.Feedback');
+
+
+
 Route::get('/tmu/iqac-cell/employer-feedback-form', [TmuController::class, 'employer_feedback_form'])->name('employer.feedback.form');
 
 
