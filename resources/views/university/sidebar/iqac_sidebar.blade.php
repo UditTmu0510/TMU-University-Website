@@ -70,7 +70,7 @@
             </a>
             <a href="{{ route('iqac.contact.us') }}" class="custom-menu-item {{ setActive('iqac.contact.us') }}">
                 <p>Contact Us</p>
-            </a>
+            </a> 
         </div>
     </div>
 </div>
