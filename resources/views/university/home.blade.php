@@ -142,7 +142,7 @@
             <div class="row pt-5">
 
                 <div class="col-md-3">
-                    <h2 class="tmu-text-primary dark tmu--world-carousel"><span>TMU </span> <span>A WORLD WITHIN</span></h2>
+                    <h2 class="tmu-text-primary dark tmu--world-carousel"><span>TMU </span> <span>A WORL WITHIN</span></h2>
 
                 </div>
                 <div class="col-md-9">
