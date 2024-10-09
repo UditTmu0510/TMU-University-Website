@@ -41,7 +41,7 @@
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>80%</span>
                     <br>
                     <span class="d-block pt-1">Placement Rate</span>
                 </div>
