@@ -586,7 +586,7 @@ $i++;
         <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.jpg" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
@@ -600,7 +600,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.jpg" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
@@ -613,7 +613,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
@@ -626,7 +626,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.jpg" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.webp" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
@@ -638,7 +638,7 @@ $i++;
             </div>
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.jpg')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..."></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
