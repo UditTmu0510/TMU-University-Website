@@ -22,7 +22,7 @@
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. KAMAL PANT</span></h5>
                         <p class="card-text fs-14 "><b>Associate Professor & Head (Optometry)</b></p>
-                        <p class="card-text fs-14 ">U.P.University of Medical Science, Saifai, Etawah</p>
+                        <p class="card-text fs-14 ">U.P University of Medical Science, Saifai, Etawah</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. KAPIL DEV</span></h5>
                         <p class="card-text fs-14 "><b>Deputy Director (Forensic)</b></p>
-                        <p class="card-text fs-14 ">Incharge Forensic Lab Moradabad</p>
+                        <p class="card-text fs-14 ">Incharge Forensic Lab, Moradabad</p>
                         <p class="card-text fs-14">&nbsp;</p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>DR. NAROTAM SHARMA </span></h5>
                         <p class="card-text fs-14 "><b>Scientist & Head</b></p>
-                        <p class="card-text fs-14 ">DNA Labs (NABL & ICMR Accredation ) Dehradun (UK)</p>
+                        <p class="card-text fs-14 ">DNA Labs (NABL & ICMR Accreditation ) Dehradun (UK)</p>
                     </div>
                 </div>
             </div>
