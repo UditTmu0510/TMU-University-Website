@@ -471,6 +471,7 @@ Route::get('/medical-college-and-research-centre/learning-objective', [MedicalCo
 Route::get('/medical-college-and-research-centre/academic-calendar', [MedicalController::class, 'medical_academic_calendar'])->name('medical.academic.calendar');
 Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
 Route::get('/medical-college-and-research-centre/stipend', [MedicalController::class, 'medical_stipend'])->name('medical.stipend');
+Route::get('/medical-college-and-research-centre/result', [MedicalController::class, 'medical_result'])->name('medical.result');
 Route::get('/medical-college-and-research-centre/student-details', [MedicalController::class, 'medical_students_details'])->name('medical.students.details');
 Route::get('/medical-college-and-research-centre/time-table', [MedicalController::class, 'medical_timetable'])->name('medical.timetable');
 Route::get('/medical-college-and-research-centre/teaching-schedule', [MedicalController::class, 'medical_tecahing'])->name('medical.tecahing');

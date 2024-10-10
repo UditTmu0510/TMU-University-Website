@@ -29,7 +29,7 @@
                 <td style="text-align:center;">2022</td>
                 <td>
                   <center><a
-                      href="{{asset('/assets/data/naac-data/Criterion-III/Key-Indicator-3.3/Metric-3.3.2/03-02-2023/1_0001_1.pdf')}}"
+                      href="{{asset('/assets/pdf/research_innovation_award/2022/1_0001_1.pdf')}}"
                       target="_blank"><i class="fa-solid fa-file-pdf"></i></a></center>
                 </td>
               </tr>
