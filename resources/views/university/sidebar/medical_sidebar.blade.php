@@ -62,6 +62,9 @@
             <a href="{{ route('medical.aebas.attendance') }}" class="custom-menu-item {{ setActive('medical.aebas.attendance') }}">
                 <p>Aebas Attendance</p>
             </a>
+            <a href="{{ route('medical.result') }}" class="custom-menu-item {{ setActive('medical.result') }}">
+                <p>Result</p>
+            </a>
         </div>
         <h2>Student's Corner</h2>
         <div class="account-section">
