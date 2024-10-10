@@ -23,27 +23,27 @@
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Faculty Strength</div>
-                            <p> The TMU Paramedical College boasts a robust faculty strength of 11 (Eleven) highly
+                            <p> The Department of Physiotherapy boasts a robust faculty strength of 11 (Eleven) highly
                                 qualified and experienced members.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
-                            <div class="timeline-date">Computer Laboratory</div>
-                            <p>The TMU Paramedical College features one computer laboratory equipped with 30
+                            <div class="timeline-date">Computer Laboratories</div>
+                            <p>The Department of Physiotherapy features one computer laboratory equipped with 30
                                 computers and peripherals.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Laboratories </div>
-                            <p> The TMU Paramedical College has six (06) Laboratories.</p>
+                            <p> The Department of Physiotherapy has six (06) Laboratories.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft mb-0">
                         <div class="timeline-text">
-                            <div class="timeline-date">Seminar Hall</div>
-                            <p>TMU Paramedical Sciences College has one seminar hall.</p>
+                            <div class="timeline-date">Seminar Halls</div>
+                            <p>TMU Department of Physiotherapy has one seminar hall.</p>
                         </div>
                     </div>
                 </div>
@@ -53,23 +53,23 @@
                         <div class="timeline-item right wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Books & Journals</div>
-                                <p>The TMU Paramedical College's library is well-stocked with 3036 books. It
+                                <p>The Department of Physiotherapy's library is well-stocked with 3036 books. It
                                     also subscribes to 7 journals.</p>
                             </div>
                         </div>
                         <div class="timeline-item left wow slideInRight">
                             <div class="timeline-text">
                                 <div class="timeline-date">E-Journals & E-Books</div>
-                                <p>The TMU Paramedical College provides access to a vast collection of
+                                <p>The TMU Department of Physiotherapy provides access to a vast collection of
                                     electronic resources, including EBSCO & DELNET Database</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Hospital Attachment</div>
-                                <p> Clinical exposure at 900+ bedded Teerthanker Mahaveer multi
-                                    super-speciality Hospital &
-                                    Research Centre, and in various super - speciality Hospitals across the
+                                <p> Practical exposure at 900+ bedded Teerthanker Mahaveer multi
+                                    super-specialty Hospital &
+                                    Research Centre, and in various super - specialty Hospitals across the
                                     India.</p>
                             </div>
                         </div>
