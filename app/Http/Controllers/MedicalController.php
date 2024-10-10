@@ -151,6 +151,10 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.medical_stipend');
     }
+    public function medical_result()
+    {
+        return view('university.colleges.medical.medical_result');
+    }
 
     public function medical_students_details()
     {
