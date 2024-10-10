@@ -2,38 +2,38 @@
 @section('content')
 
 <style>
-.feedback-form {
-    background-color: white;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+    .feedback-form {
+        background-color: white;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
 
-.feedback-form h5 {
-    font-weight: bold;
-}
+    .feedback-form h5 {
+        font-weight: bold;
+    }
 
-.form-control {
-    background-color: #f7f9fc;
-}
+    .form-control {
+        background-color: #f7f9fc;
+    }
 
-.btn-primary {
-    background-color: #fe8d00;
-    border-color: #fe8d00;
-}
+    .btn-primary {
+        background-color: #fe8d00;
+        border-color: #fe8d00;
+    }
 
-.was-validated .form-control:invalid,
-.was-validated .form-select:invalid {
-    border-color: #dc3545;
-}
+    .was-validated .form-control:invalid,
+    .was-validated .form-select:invalid {
+        border-color: #dc3545;
+    }
 
-.required-label::after {
-    content: "*";
-    color: red;
-    margin-left: 5px;
-    font-size: 16px;
-    vertical-align: top;
-}
+    .required-label::after {
+        content: "*";
+        color: red;
+        margin-left: 5px;
+        font-size: 16px;
+        vertical-align: top;
+    }
 </style>
 
 
@@ -41,11 +41,11 @@
 <div class="main-content">
     <div class="container">
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1> 
+        <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
                 <form class="feedback-form p-4 needs-validation" novalidate>
-                    
+
                     <hr>
                     <!-- Alumni Name -->
                     <div class="mb-3">
@@ -450,25 +450,25 @@
 </div>
 
 <script>
-// Example JavaScript to enable Bootstrap's client-side validation
-(function() {
-    'use strict'
+    // Example JavaScript to enable Bootstrap's client-side validation
+    (function() {
+        'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-        .forEach(function(form) {
-            form.addEventListener('submit', function(event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
-                form.classList.add('was-validated')
-            }, false)
-        })
-})()
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
 </script>
 
 @endsection
