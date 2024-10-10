@@ -2,38 +2,38 @@
 @section('content')
 
 <style>
-    .feedback-form {
-        background-color: white;
-        border-radius: 8px;
-        padding: 30px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
+.feedback-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-    .feedback-form h5 {
-        font-weight: bold;
-    }
+.feedback-form h5 {
+    font-weight: bold;
+}
 
-    .form-control {
-        background-color: #f7f9fc;
-    }
+.form-control {
+    background-color: #f7f9fc;
+}
 
-    .btn-primary {
-        background-color: #fe8d00;
-        border-color: #fe8d00;
-    }
+.btn-primary {
+    background-color: #fe8d00;
+    border-color: #fe8d00;
+}
 
-    .was-validated .form-control:invalid,
-    .was-validated .form-select:invalid {
-        border-color: #dc3545;
-    }
+.was-validated .form-control:invalid,
+.was-validated .form-select:invalid {
+    border-color: #dc3545;
+}
 
-    .required-label::after {
-        content: "*";
-        color: red;
-        margin-left: 5px;
-        font-size: 16px;
-        vertical-align: top;
-    }
+.required-label::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+    font-size: 16px;
+    vertical-align: top;
+}
 </style>
 
 
@@ -41,16 +41,26 @@
 <div class="main-content">
     <div class="container">
 
-        <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1> 
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
-                <form class="feedback-form p-4 needs-validation" novalidate>
-
+            <form action="{{ route('store.alumni.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
+                    
                     <hr>
+                    @csrf
+                    <!-- College Name -->
+
+                    @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                    @endif
+
+
                     <!-- Alumni Name -->
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Name of the Alumni</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="name" required>
                         <div class="invalid-feedback">Please enter your name.</div>
                     </div>
 
@@ -59,7 +69,7 @@
                         <label for="facultyName" class="form-label required-label">Name of the Current Organization
                             Employed
                             in</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="current_organization" required>
                         <div class="invalid-feedback">Please enter your Organization Name.</div>
                     </div>
 
@@ -67,7 +77,7 @@
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Designation in the
                             Organization</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="current_designation" required>
                         <div class="invalid-feedback">Please enter your Designation.</div>
                     </div>
 
@@ -76,25 +86,11 @@
                         <label for="college" class="form-label required-label">Name of the College the Alumni
                             studied in
                             TMU</label>
-                        <select class="form-select" id="college" required>
-                            <option value="" disabled selected>Select college</option>
-                            <option>Teerthanker Mahaveer Medical College & Research Centre</option>
-                            <option>Teerthanker Mahaveer Dental College & Research Centre</option>
-                            <option>Teerthanker Mahaveer College of Nursing</option>
-                            <option>Teerthanker Mahaveer College of Pharmacy</option>
-                            <option>College of Paramedical Sciences</option>
-                            <option>Department of Physiotherapy</option>
-                            <option>TMIMT College of Management</option>
-                            <option>College of Law & Legal Studies</option>
-                            <option>College of Computing Sciences & IT</option>
-                            <option>Faculty of Engineering</option>
-                            <option>College of Fine Arts</option>
-                            <option>Faculty of Education</option>
-                            <option>TMIMT College of Physical Education</option>
-                            <option>College of Agriculture Sciences</option>
-                            <option>Teerthanker Parshvnath College of Nursing</option>
-                            <option>Centre for Jain Studies</option>
-                            <option>Centre for Teaching Learning & Development</option>
+                            <select class="form-select" id="college" name="cd_id" required>
+                            <option value="" disabled selected>Select your college</option>
+                            @foreach($colleges as $college)
+                            <option value="{{ $college->cd_id }}">{{ $college->cd_name }}</option>
+                            @endforeach
                         </select>
                         <div class="invalid-feedback">Please select college.</div>
                     </div>
@@ -104,7 +100,7 @@
                         <label for="facultyName" class="form-label required-label">Name of the Programme the Alumni
                             studied
                             in TMU</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="prog_studied_in_tmu" required>
                         <div class="invalid-feedback">Programme Name.</div>
                     </div>
 
@@ -112,35 +108,35 @@
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Year of Passing Out form the
                             Programme</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="prog_passout_year" required>
                         <div class="invalid-feedback">Passing Year.</div>
                     </div>
 
                     <!-- Enrolment Number -->
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Enrolment Number</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="cd_enroll_no" required>
                         <div class="invalid-feedback">Enter your Enrolment Number.</div>
                     </div>
 
                     <!-- email id -->
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Email ID</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="email" required>
                         <div class="invalid-feedback">Please enter Email ID.</div>
                     </div>
 
                     <!-- Mobile No -->
                     <div class="mb-3">
                         <label for="facultyName" class="form-label required-label">Mobile No</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" required>
+                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="contact_no" required>
                         <div class="invalid-feedback">Please enter Mobile No.</div>
                     </div>
 
                     <!-- Academic Year -->
                     <div class="mb-3">
                         <label for="academicYear" class="form-label required-label">Academic Year</label>
-                        <select class="form-select" id="academicYear" required>
+                        <select class="form-select" id="academicYear" name="academic_year" required>
                             <option value="" disabled selected>Select academic year</option>
                             <option>2024-25 (Odd Semester)</option>
                             <option>2024-25 (Even Semester)</option>
@@ -425,17 +421,29 @@
                     <div class="mb-3">
                         <label for="topicsBeyondSyllabus" class="form-label required-label">Suggestions for
                             modifications in
-                            the syllabi (Mention the course name/code)</label>
-                        <textarea class="form-control" id="topicsBeyondSyllabus" rows="2" required></textarea>
+                            the syllabus (Mention the course name/code)</label>
+                        <textarea class="form-control" id="topicsBeyondSyllabus" rows="2" name="topics_beyond_syllabus" required></textarea>
                         <div class="invalid-feedback"></div>
                     </div>
 
                     <div class="mb-3">
                         <label for="topicsToDelete" class="form-label required-label">Any other
                             comments/suggestions</label>
-                        <textarea class="form-control" id="topicsToDelete" rows="2" required></textarea>
+                        <textarea class="form-control" id="topicsToDelete" rows="2" name="suggestions" required></textarea>
                         <div class="invalid-feedback"></div>
                     </div>
+
+
+
+                    @if($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    @endif
 
                     <!-- Submit Button -->
                     <button class="tmu-btn btn-4 w-100" type="submit">Submit Feedback</button>
@@ -450,25 +458,25 @@
 </div>
 
 <script>
-    // Example JavaScript to enable Bootstrap's client-side validation
-    (function() {
-        'use strict'
+// Example JavaScript to enable Bootstrap's client-side validation
+(function() {
+    'use strict'
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.querySelectorAll('.needs-validation')
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
 
-        // Loop over them and prevent submission
-        Array.prototype.slice.call(forms)
-            .forEach(function(form) {
-                form.addEventListener('submit', function(event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-                    form.classList.add('was-validated')
-                }, false)
-            })
-    })()
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function(form) {
+            form.addEventListener('submit', function(event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+})()
 </script>
 
 @endsection

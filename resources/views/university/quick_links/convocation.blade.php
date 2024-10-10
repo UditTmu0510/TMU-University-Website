@@ -411,29 +411,29 @@
 			<div class="col-12">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center align-items-center">
-						<div class="yt-frame shadow my-4" id="hr-yt-frame" onclick="playHrVideo(this)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+						<div class="yt-frame shadow my-4" id="hr-yt-frame" onclick="playHrVideo(this,0)">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
 						</div>
 					</div>
 					<div class="col-12">
 						<div class="d-flex position-relative p-1" id="m-event-box">
-							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,0)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 shadow event-btn">
+							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,1)">
+								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,1)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,2)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/4.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,3)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/5.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/4.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,4)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/6.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/5.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,5)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/6.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,6)">
 								<img src="{{asset('/assets/img/department/convocation/thumb/7.jpg')}}" alt="" class="w-100 shadow event-btn">
@@ -474,10 +474,10 @@
 					<div class="col-12">
 						<div class="d-flex position-relative p-1" id="m-event-box">
 							<div class="m-1 m-sm-3 event-box active" onclick="toggleActivate(this,0)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box" onclick="toggleActivate(this,1)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box" onclick="toggleActivate(this,2)">
 								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 event-btn">
@@ -505,7 +505,7 @@
 					</div>
 					<div class="col-12 d-flex justify-content-center align-items-center">
 						<div class="yt-frame " id="hr-yt-frame2" onclick="playHrVideo(this)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
 						</div>
 					</div>
 				</div>
@@ -553,13 +553,13 @@
 
 		switch (id) {
 			case '1':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sR9XL1_1P-s?autoplay=1" allow='autoplay' title="Mr. Anshul Sharma, AGM HR, UFLEX Group | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/H15nsymKUXs?si=2EIsIa0ElJNk1P_u&controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '2':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-se2pKx6_G8?autoplay=1" allow='autoplay' title="Mr. Asheesh Shukla, Head HR, Dhampur Group (DSML), was a part of the Mega HR Conclave held at TMU." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=bKii0LxoNDLoKqaO?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '3':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-Li9H0yLmCI?autoplay=1" allow='autoplay' title="Ms. Debjani Roy, CHRO, Kromozones Software Pvt. Ltd., was a part of the Mega HR Conclave held at TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100" height="100" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=_FftLxcKUrdwQqh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '4':
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jJ9v__La3ps?autoplay=1" allow='autoplay' title="Mega HR Conclave | Mr. Krishna Kumar, Head HR, Maruti Suzuki India | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
@@ -568,7 +568,7 @@
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zSBp1I82jZY?autoplay=1" allow='autoplay' title="Dr. P.K Rajput, Vertical Head, Cadila Pharmaceuticals Ltd. | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 				break;
 			case '6':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lYV_yq57NQo?autoplay=1" allow='autoplay' title="Mr. Viney Kaushik, CHRO, Nuberg Engineering Ltd. | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/GLDZHn8SEY8?si=QUxfiD8bDiSbAPCz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 		}
 

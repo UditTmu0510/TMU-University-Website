@@ -220,8 +220,8 @@ Route::get('/tmu/iqac-cell/teachers-feedback-form', [TeachersfeedbackController:
 Route::post('/tmu/iqac-cell/submit-teachers-feedback-form', [TeachersfeedbackController::class, 'storeFeedback'])->name('store.teachers.Feedback');
 
 
-Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::class, 'createTeachersFeedbackForm'])->name('alumni.feedback.form');
-Route::get('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
+Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::class, 'createAlumniFeedbackForm'])->name('alumni.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
 
 
 
