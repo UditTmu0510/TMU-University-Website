@@ -723,4 +723,6 @@ Route::get('/alumni/gallery', [TmuController::class, 'alumni_gallery'])->name('a
 Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.faq');
 Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
 
-// End of the Sarvagya ROutes
+// End of the Sarvagya Routes
+
+//thisnis comment 
