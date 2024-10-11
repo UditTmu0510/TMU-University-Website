@@ -1127,7 +1127,7 @@
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
                 name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
                 designation: "Technology Architect",
                 company: "Bearing Point, Germany",
                 course: "B.Tech CSE",
@@ -1141,7 +1141,7 @@
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
                 name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
                 designation: "Group Director - Talent Acquisition",
                 company: "Saudi German Hospitals Group",
                  course:"MBA",
@@ -1169,7 +1169,7 @@
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
                 name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
                 designation: "Technology Architect",
                 company: "Bearing Point, Germany",
                 course: "B.Tech CSE",
@@ -1183,7 +1183,7 @@
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
                 name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
                 designation: "Group Director - Talent Acquisition",
                 company: "Saudi German Hospitals Group",
                  course:"MBA",
@@ -1211,7 +1211,7 @@
             profile: {
                 img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
                 name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
                 designation: "Group Director - Talent Acquisition",
                 company: "Saudi German Hospitals Group",
                  course:"MBA",
