@@ -28,7 +28,7 @@
                 <div class="card shadow-sm college_departments mb-4">
                     <img src="{{asset('/assets/img/labs/physiotherapy/exercise_therapy/1.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="mb-2">Execercise Therapy Lab</h4>
+                        <h4 class="mb-2">Exercise Therapy Lab</h4>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                         <div>
