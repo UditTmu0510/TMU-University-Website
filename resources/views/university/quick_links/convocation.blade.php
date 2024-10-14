@@ -351,42 +351,7 @@
 					The Convocation Ceremony at Teerthanker Mahaveer University is a distinguished event where we gather to honour the academic accomplishments of our graduates. This significant occasion marks the culmination of years of hard work, dedication, and academic excellence. During the ceremony, we confer degrees, recognise outstanding achievements, and provide a platform for esteemed speakers to offer guidance to our graduating class. It is a momentous occasion that symbolises the transition of our students into alumni. </h4>
 				<!-- <p class="min-text d-block mx-auto">(Click icons below to fill forms)</p> -->
 
-				<!-- Cards -->
 
-				<!-- <div class="row">
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/2231/2231449.png" alt="">
-								<span>Convocation Guidelines</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/2991/2991109.png" alt="">
-								<span>Convocation Registration Form</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/6462/6462790.png" alt="">
-								<span>MISCELLANEOUS FORM</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="">
-								<span>CONVOCATION HELPLINE</span>
-							</div>
-						</a>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -597,77 +562,26 @@
 			<div class="col-lg-8">
 				<div class="dotted-bg" style="--cnvs-dotted-opacity: .5; --cnvs-dotted-top: -10px; --cnvs-dotted-size: 150px; "></div>
 				<div id="owl-demo" class="owl-carousel ">
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">May 21, 2012</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">First Convocation of the University</a></h3>
-						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
+
+					@foreach($convocation_newses as $convocation_news)
 
 					<div class="item entry mx-2">
 						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/fourth_convocation.jpg')}}" alt="...">
+							<img src="{{asset($convocation_news->ei1_path)}}" alt="...">
 						</div>
 						<div class="entry-meta mb-2 fw-normal">
 							<ul>
-								<li><a href="#">Apr 13, 2021</a></li>
+								<li><a href="#" {{ $convocation_news->formatted_date }}</a></li>
 							</ul>
 						</div>
 						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Fourth Convocation of Teerthanker Mahaveer University</a></h3>
+							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">{{ $convocation_news->event_title }}</a></h3>
 						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-special-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
+						<a href="{{ url('news/' . $convocation_news->n_slug) }}" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
 					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">May 21, 2012</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">First Convocation of the University</a></h3>
-						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_special.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">Dec 03, 2021</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">1<sup>st</sup> special Convocation of the University</a></h3>
-						</div>
-						<a href="#" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/fourth_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">Apr 13, 2021</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Fourth Convocation of Teerthanker Mahaveer University</a></h3>
-						</div>
-						<a href="#" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
+					@endforeach
+
+
 				</div>
 
 				<a href="/block-content-blog.html" class="text-center d-block d-md-none  m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4 tmu-btn btn-1">View all Posts</a>

@@ -258,7 +258,15 @@ Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
 Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
+<<<<<<< Updated upstream
+Route::get('/tmu/disclaimer', [TmuController::class, 'tmu_disclaimer'])->name('tmu.disclaimer');
+Route::get('/tmu/privacy-policy', [TmuController::class, 'tmu_privacy_policy'])->name('tmu.privacy.policy');
+=======
+
+>>>>>>> Stashed changes
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
+
+
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
 
@@ -723,4 +731,6 @@ Route::get('/alumni/gallery', [TmuController::class, 'alumni_gallery'])->name('a
 Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.faq');
 Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
 
-// End of the Sarvagya ROutes
+// End of the Sarvagya Routes
+
+//thisnis comment 

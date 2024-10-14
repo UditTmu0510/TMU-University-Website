@@ -31,54 +31,49 @@
                                         <tbody>
                                             <tr>
                                                 <td class="text-center">1.</td>
-                                                <td class="text-center">02.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/02-sept-24.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">01.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/1st-October-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">2.</td>
                                                 <td class="text-center">03.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/03.10.2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/3rd-October-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">3.</td>
                                                 <td class="text-center">04.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/04.10.2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/4th-October-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">4.</td>
                                                 <td class="text-center">05.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/5-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/5th-October-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">5.</td>
-                                                <td class="text-center">06.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/6th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">07.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/7th-October-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">6.</td>
-                                                <td class="text-center">07.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/7th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">08.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/8th-October-2024-min.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">7.</td>
                                                 <td class="text-center">09.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/9th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/9th-october-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">8.</td>
                                                 <td class="text-center">10.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/10th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/10th-october-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            <tr>
+                                            <!-- <tr>
                                                 <td class="text-center">9.</td>
-                                                <td class="text-center">11.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/11th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">10.</td>
                                                 <td class="text-center">12.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/september/12th-September-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
-                                            </tr>
+                                                <td class="text-center"><a href="{{asset('assets/pdf/aebas-attendance/october/12th-october-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr> -->
                                             <!-- <tr>
                                                 <td class="text-center">11.</td>
                                                 <td class="text-center">13.09.2024</td>
