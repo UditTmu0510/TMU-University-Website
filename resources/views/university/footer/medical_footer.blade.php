@@ -231,6 +231,8 @@
 									<li><a href="{{route('all_blogs')}}">Blogs</a></li>
 									<li><a href="#">Sitemap</a></li>
 									<li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
+									<li><a href="{{route('tmu.disclaimer')}}">Disclaimer</a></li>
+									<li><a href="{{route('tmu.privacy.policy')}}">Privacy Policy</a></li>
 								</ul>
 							</div>
 						</div>
