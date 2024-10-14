@@ -696,6 +696,15 @@ public function campus_view()
     {
         return view('university.quick_links.convocation');
     }
+
+    public function tmu_disclaimer()
+    {
+        return view('university.quick_links.tmu_disclaimer');
+    }
+    public function tmu_privacy_policy()
+    {
+        return view('university.quick_links.tmu_privacy_policy');
+    }
     public function tmu_publication()
     {
         return view('university.quick_links.journal');
