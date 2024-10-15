@@ -250,22 +250,6 @@ $(document).ready(function() {
 
 								</ul>
 							</div>
-
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Useful Links</h4>
-								<ul>
-									<li><a href="{{route('tmu.convocation')}}">Convocation</a></li>
-						
-									<li><a href="{{route('all_news')}}">News</a></li>
-									<li><a href="{{route('tmu.careers')}}">Join TMU</a></li> <!--- CAREERS -->
-									<!-- <li><a href="#">About City</a></li> -->
-									<li><a href="{{route('iqac.about')}}">IQAC</a></li>
-									<li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
-									<li><a href="{{route('all_blogs')}}">Blogs</a></li>
-									<li><a href="#">Sitemap</a></li>
-									<li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
-								</ul>
-							</div>
 						</div>
 
                     </div>
