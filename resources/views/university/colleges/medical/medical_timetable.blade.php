@@ -14,19 +14,19 @@
 					<table class="table table-striped">
 						<tbody>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/pdf/Medical_TT_23_24.pdf')}}">Click here to view</a> the academic session 2023-24 timetable</td>
+								<td><a href="{{asset('/assets/pdf/pdf/Medical_TT_23_24.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2023-24 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1_2022-23.pdf')}}">Click here to view</a> the academic session 2022-23 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1_2022-23.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2022-23 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1_2021-22.pdf')}}">Click here to view</a> the academic session 2021-22 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1_2021-22.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2021-22 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1.pdf')}}">Click here to view</a> the academic session 2020-21 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-phase1.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2020-21 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/Phase%20I%20MBBS_2019-20.pdf')}}">Click here to view</a> the academic session 2019-20 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/Phase%20I%20MBBS_2019-20.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2019-20 timetable</td>
 							</tr>
 						</tbody>
 					</table>
@@ -40,16 +40,19 @@
 					<table class="table table-striped">
 						<tbody>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/time_table/Phase%202%20(batch%202022-23).pdf')}}">Click here to view</a> the academic session 2022-23 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/timetable/TT_Phase_2_Batch_2024-25.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2024-25 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II_2022-23.pdf')}}">Click here to view</a> the academic session 2021-22 timetable</td>
+								<td><a href="{{asset('/assets/pdf/time_table/Phase%202%20(batch%202022-23).pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2023-24 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/Phase%20II%20MBBS_2020-21.pdf')}}">Click here to view</a> the academic session 2020-21 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II_2022-23.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2022-23 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-phase2.pdf')}}">Click here to view</a> the academic session 2019-20 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/Phase%20II%20MBBS_2020-21.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2020-21 timetable</td>
+							</tr>
+							<tr>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-phase2.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2019-20 timetable</td>
 							</tr>
 						</tbody>
 					</table>
@@ -64,13 +67,13 @@
 					<table class="table table-striped">
 						<tbody>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/Phase-3_Part-1.pdf')}}">Click here to view</a> the academic session 2023-24 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/Phase-3_Part-1.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2023-24 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(1)_2022-23.pdf')}}">Click here to view</a> the academic session 2022-23 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(1)_2022-23.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2022-23 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time_table_phase_iii.pdf')}}">Click here to view</a> the academic session 2019-20 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time_table_phase_iii.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2019-20 timetable</td>
 							</tr>
 						</tbody>
 					</table>
@@ -85,18 +88,19 @@
 					<table class="table table-striped">
 						<tbody>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/Phase3_Part2.pdf')}}">Click here to view</a> the academic session 2023-24 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/Phase3_Part2.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2023-24 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(2)_2022-23.pdf')}}">Click here to view</a> the academic session 2022-23 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(2)_2022-23.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2022-23 timetable</td>
 							</tr>
 							<tr>
-								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(2)_2022-23.pdf')}}">Click here to view</a> the academic session 2021-22 timetable</td>
+								<td><a href="{{asset('/assets/pdf/medical/time-table-Phase%20II(2)_2022-23.pdf')}}"><span class="highlight">Click here to view</span></a> the academic session 2021-22 timetable</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
+			<hr class="horizontal-line">
 		</div>
 	</div>
 </div>
