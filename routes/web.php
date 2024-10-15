@@ -263,6 +263,7 @@ Route::get('/tmu/privacy-policy', [TmuController::class, 'tmu_privacy_policy'])-
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
+Route::get('/tmu/infrastructure', [TmuController::class, 'infrastructure'])->name('infrastructure');
 
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
