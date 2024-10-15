@@ -595,6 +595,11 @@ public function ctld_home()
 
     // QUICK_LINKS
 
+    public function infrastructure()
+    {
+        return view('university.quick_links.infrastructure');
+    }
+
     public function disciplinary_rules()
     {
         return view('university.quick_links.disciplinary_rules');
