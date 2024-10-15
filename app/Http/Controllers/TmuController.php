@@ -705,6 +705,10 @@ public function campus_view()
     {
         return view('university.quick_links.tmu_privacy_policy');
     }
+    public function media_cover()
+    {
+        return view('university.quick_links.media_cover');
+    }
     public function tmu_publication()
     {
         return view('university.quick_links.journal');
@@ -760,7 +764,13 @@ public function campus_view()
 
     public function conferences()
     {
-        return view('university.research.conferences');
+        $news = News::where('status', 1)
+            ->where('category', 'Conference-Seminar')
+            ->select('event_title', 'event_full_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
+            ->orderBy('id', 'desc')
+            ->get();
+
+        return view('university.research.conferences', compact('news'));
     }
 
     public function research_publication()
