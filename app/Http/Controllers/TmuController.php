@@ -16,6 +16,7 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Exception;
 use Illuminate\Support\Str;
+use App\Models\JobOpening;
 
 
 class TmuController extends Controller
@@ -214,7 +215,14 @@ class TmuController extends Controller
 
     public function tmu_careers()
     {
-        return view('university.university_glimpse.careers');
+        $academicJobs = JobOpening::where('category', 'Academic')->get();
+        $adminJobs = JobOpening::where('category', 'Administration')->get();
+
+        if ($academicJobs->isEmpty() || $adminJobs->isEmpty()) {
+            dd('No jobs found');
+        }
+    
+        return view('university.university_glimpse.careers', compact('academicJobs', 'adminJobs'));
     }
 
     //IIC
