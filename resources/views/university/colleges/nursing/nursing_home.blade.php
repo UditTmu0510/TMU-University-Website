@@ -12,8 +12,8 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Nursing</span> College in UP</h1>
-					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Nursing</span> College in UP,</h1>
+					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Teerthanker Mahaveer </span> College of Nursing</h1>
+					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Teerthanker Mahaveer </span> College of Nursing</h1>
 					<a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
 					<a href="https://admissions.tmu.ac.in/" target="blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
@@ -132,7 +132,8 @@
 
 		<div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">Teerthanker Mahaveer College of Nursing, Among the top Nursing Colleges</h2>
+                <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer College of Nursing, Among the top Nursing Colleges</h2>
+                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Nursing: </span><span> Among the top Nursing Colleges.</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">College of Nursing, Teerthanker Mahaveer University was established in 2009. It is committed to grooming competent nursing professionals in line with the latest industry standards of the ever-evolving healthcare sector, offering UG, PG, and doctoral nursing programmes. Join the leading nursing college in UP to excel beyond your expectations.</p>
