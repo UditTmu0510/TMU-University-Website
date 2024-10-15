@@ -702,14 +702,43 @@ class TmuController extends Controller
 
     public function tmu_convocation()
     {
-        $convocation_newses = News::where('cd_id', 3)->get()
+        // Apply all conditions and orderBy methods before calling get()
+        $convocation_newses = News::where('cd_id', 1)
             ->where('status', '1')
-            ->where('category', 'Guest-Lecture');
+            ->where('category', 'Convocation')
+            ->orderBy('event_date', 'DESC')
+            ->orderBy('id', 'DESC')
+            ->get();
 
-           
+        function getOrdinalSuffix($day)
+        {
+            if (!in_array(($day % 100), array(11, 12, 13))) {
+                switch ($day % 10) {
+                    case 1:
+                        return $day . 'st';
+                    case 2:
+                        return $day . 'nd';
+                    case 3:
+                        return $day . 'rd';
+                }
+            }
+            return $day . 'th';
+        }
+
+
+        // Loop through guest lectures and add formatted date
+        foreach ($convocation_newses as $convocation_news) {
+            // Format the event date
+            $day = getOrdinalSuffix($convocation_news->event_day);
+            $month = $convocation_news->event_month_name;
+            $year = $convocation_news->event_year;
+
+
+            // Add formatted date to each lecture object
+            $convocation_news->formatted_date = "{$day} {$month} , {$year}";
+        }
 
         // Pass the data to the view
-
         return view('university.quick_links.convocation', compact('convocation_newses'));
     }
 

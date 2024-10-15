@@ -70,7 +70,7 @@
                 <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                     <span>100+</span>
                     <br>
-                    <span class="d-block pt-1">Global Collaborations</span>
+                    <span class="d-block pt-1"> Collaborations</span>
                 </div>
             </div>
         </div>

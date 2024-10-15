@@ -141,6 +141,21 @@
 
 <!-- CSS FOR CONVOCATION CARD -->
 <style>
+	.entry-title {
+		height: 60px;
+		/* Adjust the height based on your design */
+		overflow: hidden;
+		/* Hide any overflowing text */
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		/* Limits to 2 lines */
+		-webkit-box-orient: vertical;
+		text-overflow: ellipsis;
+		/* Adds "..." to cut-off text */
+		white-space: normal;
+		/* Ensures proper text wrapping */
+	}
+
 	.big-card {
 		width: 70vw;
 		box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
@@ -555,8 +570,6 @@
 
 				<h2 class="tmu-text-primary fw-bold news-title"><span>CONVOCATION</span> <span>NEWS</span></h2>
 
-				<!-- <p class="font-primary fw-light text-black">Interactively seize bricks-and-clicks channels before empowered users.</p> -->
-				<a href="/block-content-blog.html" class="tmu-btn btn-1 m-0 px-4 py-2 mx-auto mx-md-1 d-none d-md-block text-center" style="max-width:200px;">View all Posts</a>
 			</div>
 
 			<div class="col-lg-8">
@@ -571,7 +584,7 @@
 						</div>
 						<div class="entry-meta mb-2 fw-normal">
 							<ul>
-								<li><a href="#" {{ $convocation_news->formatted_date }}</a></li>
+								<li> <b> <a href="#">{{ \Carbon\Carbon::parse($convocation_news->event_date)->format('F d, Y') }}</a> </b> </li>
 							</ul>
 						</div>
 						<div class="entry-title title-sm mb-3">
