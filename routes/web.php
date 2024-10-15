@@ -220,8 +220,8 @@ Route::get('/tmu/iqac-cell/teachers-feedback-form', [TeachersfeedbackController:
 Route::post('/tmu/iqac-cell/submit-teachers-feedback-form', [TeachersfeedbackController::class, 'storeFeedback'])->name('store.teachers.Feedback');
 
 
-Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::class, 'createTeachersFeedbackForm'])->name('alumni.feedback.form');
-Route::get('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
+Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::class, 'createAlumniFeedbackForm'])->name('alumni.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
 
 
 
@@ -258,10 +258,15 @@ Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
 Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
+
 Route::get('/tmu/disclaimer', [TmuController::class, 'tmu_disclaimer'])->name('tmu.disclaimer');
 Route::get('/tmu/privacy-policy', [TmuController::class, 'tmu_privacy_policy'])->name('tmu.privacy.policy');
+
 Route::get('/media-coverage', [TmuController::class, 'media_cover'])->name('tmu.media.cover');
+
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
+
+
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
 Route::get('/tmu/infrastructure', [TmuController::class, 'infrastructure'])->name('infrastructure');
