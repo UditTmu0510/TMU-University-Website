@@ -106,9 +106,12 @@ Route::get('news/{slug}', [NewsController::class, 'news_info']);
 Route::get('programme/{slug}', [TmuController::class, 'programme']);
 Route::get('/news', [NewsController::class, 'all_news'])->name('all_news');
 Route::post('/news', [NewsController::class, 'all_news'])->name('all_news.post');
+Route::get('/blog/all', [BlogsController::class, 'blogs_active'])->name('blogs.active');
 Route::get('/blog/{slug}', [BlogsController::class, 'blog_info'])->name('blog_info');;
+Route::get('/blog/category/{category}', [BlogsController::class, 'blogs_Category'])->name('blogs.category');
 Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
+Route::post('/blog/{id}/comments', [BlogsController::class, 'submitComment'])->name('blog.comments');
 require __DIR__.'/auth.php';
 
 // Instructor  Group Middleware Starts
