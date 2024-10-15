@@ -72,7 +72,7 @@
 
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper">
+    <div id="wrapper" style="display: block; visibility: hidden;">
         <section style="background-color: #001055;">
             <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
                 <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.png')}}" alt="" class="navbar-logo"></a>
@@ -268,7 +268,7 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" style="display: none;">
+        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block"> Menu</span>
         </div>
