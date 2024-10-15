@@ -32,38 +32,37 @@
         <div class="container my-3 d-none d-md-block">
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>AA+</span>
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
+                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"><span>AAA</span>
                             <br>
-                            <h5>Rated Top B-School by <br> Careers360</h5>
+                            <span class="d-block pt-1">rating by career 360</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>India's 1st</span>
+                            <span>Apple</span>
                             <br>
-                            <h5>Centre of Excellence in Cybersecurity</h5>
+                            <span class="d-block pt-1">Authorised lab</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>5 B-Schools</span>
+                            <span>Training Opportunity</span>
                             <br>
-                            <h5>Among the Top 5 B-Schools in North India<h5>
+                            <span class="d-block pt-1">in the ISRO START program</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>IACBE</span>
+                            <span>Certified CSI Member</span>
                             <br>
-                            <h5>Member of IACBE<br>&nbsp;</h5>
+                            <span class="d-block pt-1">(Computer Society of India)</span>
                         </div>
                     </div>
                 </div>
@@ -82,21 +81,20 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-6">
+                        <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>AA+</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>AAA </span>
                                         <br>
-                                        <span class="d-block pt-1">Rated Top B-School by <br> Careers360</span>
+                                        <span class="d-block pt-1">rating by career 360</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>India's 1st</span>
+                                        <span>Apple</span>
                                         <br>
-                                        <span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+                                        <span class="d-block pt-1">Authorised lab</span>
                                     </div>
                                 </div>
                             </div>
@@ -107,22 +105,22 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>5 B-Schools</span>
+                                        <span>Certified </span>
                                         <br>
-                                        <span class="d-block pt-1">Among the Top 5 B-Schools in North India</span>
+                                        <span class="d-block pt-1">CSI Member</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>IACBE</span>
+                                        <span>Training Opportunity</span>
                                         <br>
-                                        <span class="d-block pt-1">Member of IACBE</span>
-                                        &nbsp;&nbsp;
+                                        <span class="d-block pt-1">in ISRO START Program</span>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
