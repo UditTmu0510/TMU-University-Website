@@ -597,6 +597,11 @@ class TmuController extends Controller
 
     // QUICK_LINKS
 
+    public function infrastructure()
+    {
+        return view('university.quick_links.infrastructure');
+    }
+
     public function disciplinary_rules()
     {
         return view('university.quick_links.disciplinary_rules');
@@ -708,7 +713,7 @@ class TmuController extends Controller
         return view('university.quick_links.convocation', compact('convocation_newses'));
     }
 
-<<<<<<< Updated upstream
+
     public function tmu_disclaimer()
     {
         return view('university.quick_links.tmu_disclaimer');
@@ -717,9 +722,12 @@ class TmuController extends Controller
     {
         return view('university.quick_links.tmu_privacy_policy');
     }
-=======
 
->>>>>>> Stashed changes
+    public function media_cover()
+    {
+        return view('university.quick_links.media_cover');
+    }
+
     public function tmu_publication()
     {
         return view('university.quick_links.journal');
@@ -775,7 +783,13 @@ class TmuController extends Controller
 
     public function conferences()
     {
-        return view('university.research.conferences');
+        $news = News::where('status', 1)
+            ->where('category', 'Conference-Seminar')
+            ->select('event_title', 'event_full_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
+            ->orderBy('id', 'desc')
+            ->get();
+
+        return view('university.research.conferences', compact('news'));
     }
 
     public function research_publication()
