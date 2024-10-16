@@ -1141,7 +1141,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			document.querySelector(".preloader").style.display = "none";
 
 			// Show menu button
-			document.getElementById('menubar--open--button').style.display = 'flex';
+			document.getElementById('menubar--open--button').style.visibility = 'visible';
 
 			// Making body accessible
 			document.querySelector('body').style.height = 'auto';
@@ -1150,7 +1150,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			const wrapper = document.getElementById('wrapper');
 
 			if (wrapper) {
-				wrapper.style.display = 'block';
+				wrapper.style.visibility = 'visible';
 			}
 
 
