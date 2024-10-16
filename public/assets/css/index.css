@@ -3643,14 +3643,14 @@ Principal desk css end
 
 /* Video banner css */
 .video-banner{
-    height: auto;
+    height: 90vh;
 }
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
     .video-banner{
         height: 90vh;
     }
-}
+} */
 
 
 /* Success Stories Css begin  */
