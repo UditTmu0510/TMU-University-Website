@@ -85,7 +85,7 @@
     <div id="wrapper" style="display: block; visibility: hidden;">
         <section style="background-color: #001055;">
             <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
-                <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.png')}}" alt="" class="navbar-logo"></a>
+                <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.webp')}}" alt="" class="navbar-logo"></a>
             </div>
         </section>
 
@@ -148,7 +148,7 @@
                 <!-- Left Section of header -->
                 <div class="left-section">
                     <div class="nav-logo-container mt-4">
-                        <a href="{{route('tmuhome')}}"><img src="{{asset('logo.png')}}" alt="" class="main-nav-logo"></a>
+                        <a href="{{route('tmuhome')}}"><img src="{{asset('logo.webp')}}" alt="" class="main-nav-logo"></a>
 
                     </div>
 
