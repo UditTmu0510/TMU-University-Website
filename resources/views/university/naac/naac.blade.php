@@ -18,6 +18,12 @@
 						<div class="iqac-card">
 							<div class="card-pdf">
 								<img src="{{asset('assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+								<p class="description">SSR-2024</p>
+								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"  href="https://docs.google.com/viewer?url={{asset('/assets/pdf/sss-reports/SSR_2024_TMU.pdf') }}&embedded=true">View PDF</a>
+								<!-- <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"  href="https://docs.google.com/viewer?url=https://www.tmu.ac.in/pdf/SSR_TMU.pdf&embedded=true">View PDF</a> -->
+							</div>
+							<div class="card-pdf">
+								<img src="{{asset('assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
 								<p class="description">SSR with DVV clarifications </p>
 								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://www.tmu.ac.in/pdf/SSR_TMU.pdf">View PDF</a>
 							</div>
