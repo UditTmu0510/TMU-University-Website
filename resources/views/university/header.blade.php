@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="{{asset('assets/css/default/bootstrap.min.css')}}">
 
 
+    <!-- css added as per google analytics speed test to improve performance  -->
+    
+    <link rel="stylesheet" href="{{asset('assets/css/default/fontawesome6.2.1.all.min.css')}}">
+
+
     <!-- Core Style -->
     <link rel="stylesheet" href="{{asset('style.css')}}">
 
@@ -60,7 +65,8 @@
 
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+    <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
 
