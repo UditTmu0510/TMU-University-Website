@@ -28,8 +28,8 @@
                       <p class="text-justify fs-14">As a multi-disciplinary varsity, we offer
                         career-oriented programmes
                         at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
-                        <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank">Polytechnic</a>,
-                        <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>,<a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="#" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
+                        <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank"> Polytechnic</a>,
+                        <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="#" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
                       </p>
 
                       <p class="text-justify fs-14">TMU provides a unique environment for students to
@@ -158,14 +158,14 @@
                           <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                         </td>
                         <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Establishment of Teerthanker Mahaveer University</b><br>
-                          Established in 2008, the College of Pharmacy offers a diverse array of programmes, equipping students with skills for patient care and healthcare systems.
+                        The Teerthanker Mahaveer University was established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh and was approved by the University Grants Commission (UGC), since inception in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October, 2008.
                       </tr>
                       <tr>
                         <td>
                           <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                         </td>
                         <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Pharmacy</b><br>
-                          Inaugurated in 2008, the Faculty offers AICTE-approved programmes in various engineering disciplines, fostering academic excellence and innovation.
+                        Established in 2008, the College of Pharmacy offers a diverse array of programmes, equipping students with skills for patient care and healthcare systems.
                       </tr>
                       <tr>
                         <td>

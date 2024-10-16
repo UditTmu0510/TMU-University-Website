@@ -40,6 +40,7 @@ use App\Http\Controllers\JainStudiesController;
 use App\Http\Controllers\JobformController;
 use App\Http\Controllers\TeachersfeedbackController;
 use App\Http\Controllers\AlumnifeedbackController;
+use App\Http\Controllers\JobOpeningController;
 
 /*
 |--------------------------------------------------------------------------
@@ -152,6 +153,8 @@ Route::get('/tmu/vicechancellor', [TmuController::class, 'vice_chancellor_desk']
 Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.careers');
 Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
 Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
+
+
 
 // IIC
 
