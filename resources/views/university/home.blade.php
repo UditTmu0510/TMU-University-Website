@@ -16,6 +16,8 @@
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" preload="auto">
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video>
+
+
        
       <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
       <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
