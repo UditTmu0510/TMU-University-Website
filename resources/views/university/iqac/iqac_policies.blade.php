@@ -224,6 +224,24 @@
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description">Research Excellence Awards</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_16_for_Research_Excellence_Award.pdf')}}">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description">Conduction of Pre-thesis Submission Presentation and Oral Defense Examination/Final Viva-Voce</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_17_CPTSP_ODE.pdf')}}">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description">Financial Assistance to Students & Research Scholars for the Promotion of Research</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_018_FAS&RSPOR.pdf')}}">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description">Identification of Slow and Advanced Learners (Process and Outcome)</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/Identifying_Slow_and_Advanced_Learners.pdf')}}">View
             PDF</a>
