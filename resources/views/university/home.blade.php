@@ -24,10 +24,10 @@
       <!--          </video>-->
 
             </div>
-            <!-- <div class="banner-text">
+            <div class="banner-text">
                 <h1>This is TMU</h1>
                 <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
-            </div> -->
+            </div>
         </div>
     </div>
 </section>
