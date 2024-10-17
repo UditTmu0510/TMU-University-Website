@@ -133,6 +133,7 @@
             <div class="box">
             <h2 class="college-main-heading d-none d-md-block">Welcome to Central Library</h2>
             <h3 class="tmu-text-primary d-block d-md-none"><span>Welcome to the  </span><span> Central Library</span></h3>
+
                 <div class="row">
                     <div class="col-12 px-2 px-md-5"> 
                         <p style="text-align: justify;">The Knowledge Resource Centre (KRC) of Teerthanker Mahaveer University consists of a Central Library with four major branches situated in different Academic Blocks. These are well established modern libraries catering to the information needs of the academic community. For a closer view of advances in technology, new discoveries in the fields of medical and engineering, These libraries have more than two lakh books on varied subjects and have subscription to print version of 289 national and international journals besides access to a host of e-journals. The University has subscribed the EBSCOhost, lexis Nexis and DELNET database providing access to full text research articles and sector specific reports in different disciplines.</p>
