@@ -245,7 +245,7 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" style="display: none;">
+        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block"> Menu</span>
         </div>
