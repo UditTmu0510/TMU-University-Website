@@ -1133,15 +1133,15 @@ window.addEventListener('scroll', function () {
 
 
 
-window.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('DOMContentLoaded', function() {
     // Simulate a delay (e.g., 2000 milliseconds or 2 seconds)
-    setTimeout(function () {
+    setTimeout(function() {
 
         // Fade Preloader
         document.querySelector(".preloader").style.display = "none";
 
         // Show menu button
-        document.getElementById('menubar--open--button').style.display = 'flex';
+        document.getElementById('menubar--open--button').style.visibility = 'visible';
 
         // Making body accessible
         document.querySelector('body').style.height = 'auto';
@@ -1150,7 +1150,7 @@ window.addEventListener('DOMContentLoaded', function () {
         const wrapper = document.getElementById('wrapper');
 
         if (wrapper) {
-            wrapper.style.display = 'block';
+            wrapper.style.visibility = 'visible';
         }
 
 
