@@ -1156,6 +1156,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 
+    
 	$(document).ready(function() {
 		$("#owl-demo").owlCarousel({
 			loop: true,
