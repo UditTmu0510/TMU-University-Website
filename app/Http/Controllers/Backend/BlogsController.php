@@ -31,7 +31,7 @@ class BlogsController extends Controller
     {
         try {
             // Fetch the blog post from the 'post' table using the slug
-            $blog = blogs::where('n_slug', $slug)->where('status', 1)->firstOrFail();
+            $blog = Blogs::where('n_slug', $slug)->where('status', 1)->firstOrFail();
 
             // Fetch comments related to the blog post using a join
             $allComments = DB::table('post_comments')
@@ -53,7 +53,7 @@ class BlogsController extends Controller
             $blog_categories = Blogs::select('category_new')->distinct()->get();
 
             // Fetch top 5 recent posts
-            $recentPosts = blogs::where('status', 1)
+            $recentPosts = Blogs::where('status', 1)
                 ->orderBy('posted_at', 'DESC')
                 ->limit(3)
                 ->get()
@@ -62,7 +62,7 @@ class BlogsController extends Controller
                     return $post;
                 });
 
-            $popularPosts = blogs::where('status', 1)
+            $popularPosts = Blogs::where('status', 1)
                 ->orderBy('popular_priority', 'DESC')
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
@@ -72,7 +72,7 @@ class BlogsController extends Controller
                     return $post;
                 });
 
-            $relatedPosts = blogs::where('status', 1)
+            $relatedPosts = Blogs::where('status', 1)
                 ->where('category_new', $blog->category_new)
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
@@ -82,13 +82,13 @@ class BlogsController extends Controller
                     return $post;
                 });
 
-            $previousPost = blogs::where('status', 1)
+            $previousPost = Blogs::where('status', 1)
                 ->where('id', '<', $blog->id)
                 ->orderBy('id', 'DESC')
                 ->first();
 
             // Fetch the next post (post with the next higher id)
-            $nextPost = blogs::where('status', 1)
+            $nextPost = Blogs::where('status', 1)
                 ->where('id', '>', $blog->id)
                 ->orderBy('id', 'ASC')
                 ->first();
@@ -161,7 +161,7 @@ class BlogsController extends Controller
     public function all_blogs(Request $request)
     {
         // Fetch all active blogs (status = 1) and sort by 'posted_at' and 'id' in descending order
-        $activeBlogs = blogs::where('status', 1)
+        $activeBlogs = Blogs::where('status', 1)
             ->orderBy('posted_at', 'DESC')
             ->orderBy('id', 'DESC')
             ->get();
@@ -177,7 +177,7 @@ class BlogsController extends Controller
     }
     public function blogs_active()
     {
-        $allBlogs = blogs::where('status', 1)
+        $allBlogs = Blogs::where('status', 1)
             ->orderBy('posted_at', 'desc')
             ->orderBy('id', 'desc')
             ->get();
@@ -189,7 +189,7 @@ class BlogsController extends Controller
         // Replace hyphens with spaces
         $category = Str::replace('-', ' ', $category);
 
-        $categoryBlogs = blogs::where('category_new', $category)
+        $categoryBlogs = Blogs::where('category_new', $category)
             ->where('status', 1)
             ->orderBy('posted_at', 'desc')
             ->orderBy('id', 'desc')
