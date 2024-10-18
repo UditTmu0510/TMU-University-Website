@@ -2,7 +2,7 @@
 @section('content')
 
 
-<div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
+<!-- <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
         <div class="row justify-content-center">
             <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
@@ -45,6 +45,56 @@
             </div>
         </div>
 
+    </div>
+</div>
+</div> -->
+
+<style>
+    @media (max-width: 767.98px) {
+        .quote-box {
+            width: 100%;
+            background-color: transparent;
+            box-shadow: none;
+            padding: 0;
+        }
+    }
+</style>
+<div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
+    <div class="container">
+        <div class="">
+            <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Director's Desk</span></h1>
+            <div class="quote-box mx-auto">
+                <div class="profile-image mb-2">
+                    <img src="{{asset('/assets/img/principal/ctld/ctld-director.jpg')}}" alt="Profile Image">
+                </div>
+                <div class="quote-text mt-4 mt-md-0">
+                    <p class="text-justify text-dark fs-14 mb-2"><i class="bi bi-quote" style="font-size:30px; color: #737373;"></i><span class="highlight fs-12" style="color: #ff7900;"></span></p>
+                    <p class="text-justify text-dark fs-14 mb-2">Teerthanker Mahaveer University is providing yeoman service to its beloved
+                    students by establishing the Centre for Teaching Learning and Development
+                    (CTLD). This was really the need of the hour, as the future of any education
+                    institution will depend a lot on transforming students who are capable of
+                    creativity and innovation for the organisation they work for. Creativity and
+                    Innovations are possible when the employees work in teams where members are
+                    confident, highly motivated, dedicated, determined while being emotionally &
+                    socially intelligent. At CTLD these are the qualities we develop in
+                    students.</p>
+                    <p class="text-justify text-dark fs-14 mb-2">As the university not just comprises of students the CTLD
+                    department is also responsible for the development of the staff & faculty
+                    members through continuous Faculty Development Programmes (FDPs) and staff
+                    development programmes (SDP). TMU’s CTLD has recruited sufficient master
+                    trainers to cater to the training need of university’s more than 1300 employees
+                    and more than 14000 students.</p>
+                    <p class="text-justify text-dark fs-14 mb-2">Some of the trainers are specialised in soft, social, emotional skills while
+                    others are specialised in quantitative aptitude, reasoning ability and verbal
+                    ability along with having a good amount of experience in their field of
+                    specialisation. Dear students, I wholeheartedly welcome all of you to join
+                    this world-class University. I assure that we will go all out to prepare you as
+                    a future world-class Leaders, Technocrats, Engineers and the finest human being.</p>
+                    <p class="mt-3">- Dr. Pankaj Kumar Singh</p>
+                    <p>Director</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </div>
