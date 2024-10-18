@@ -288,9 +288,16 @@
                                     <option value="NET">NET</option>
                                     <option value="SLET">SLET</option>
                                     <option value="CSIR">CSIR</option>
+                                    <option value="Other">Other</option>
 
                                 </select>
                                 <div class="invalid-feedback">Exam is required</div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6" id="other-exam-name-field" style="display: none;">
+                                <label for="other_exam_name" class="form-label">Other Exam Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Exam Name" name="other_exam_name" id="other_exam_name">
+                                <div class="invalid-feedback">Exam name is required</div>
                             </div>
 
                             <div class="col-md-3 col-sm-6">
@@ -527,88 +534,100 @@
         });
     });
 
-    document.getElementById('addExamQualifiedField').addEventListener('click', function() {
-        qualificationCounter++;
-        const qualificationsSection = document.getElementById('exam-qualified-section');
-        const newFieldExamQualified = document.createElement('div');
-        newFieldExamQualified.classList.add('qualification-box');
-        newFieldExamQualified.innerHTML = `
-        <div class="row mb-3 col-md-12">
-            <div class="col-md-3 col-sm-6">
-                <label for="exam_qualified_name" class="form-label">Exam Qualified</label>
-                <select class="form-select exam-qualified-name" name="exam_qualified_name[]" >
-                    <option value="" disabled selected>Select Exam</option>
-                    <option value="NET">NET</option>
-                    <option value="SLET">SLET</option>
-                    <option value="CSIR">CSIR</option>
-                    <option value="Other">Other</option>
-                </select>
-                <div class="invalid-feedback">Exam is required</div>
-            </div>
+    // Exam Qualified
 
-            <div class="col-md-3 col-sm-6">
-                <label for="exam_qualified_passing_year" class="form-label">Passing Year</label>
-                <input type="text" class="form-control exam-passing-year" placeholder="Year of Passing" name="exam_qualified_passing_year[]" id="exam_qualified_passing_year">
-                <div class="invalid-feedback">Passing Year is required</div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <label for="exam_qualified_subject" class="form-label">Subject</label>
-                <input type="text" class="form-control exam-subject" placeholder="Subject" name="exam_qualified_subject[]" id="exam_qualified_subject">
-                <div class="invalid-feedback">Subject name is required</div>
-            </div>
-            <div class="col-md-3">
-                <button type="button" class="red-btn delete-btn-exam-qualified">X</button>
-            </div>
-        </div>`;
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to handle the "Other" option selection
+        function handleOtherExamOption(examSelect) {
+            examSelect.addEventListener('change', function(e) {
+                const selectedValue = e.target.value;
+                const qualificationBox = e.target.closest('.qualification-box');
+                let otherExamField = qualificationBox.querySelector('.other-exam-name-container');
 
-        qualificationsSection.appendChild(newFieldExamQualified);
-        highlightNewField(newFieldExamQualified); // Highlight the newly added field
+                if (selectedValue === 'Other') {
+                    // Create a new input field for "Other" exam name if it doesn't exist
+                    if (!otherExamField) {
+                        otherExamField = document.createElement('div');
+                        otherExamField.classList.add('row', 'mb-3', 'col-md-12', 'other-exam-name-container');
+                        otherExamField.innerHTML = `
+                        <div class="col-md-3 col-sm-6">
+                            <label for="other_exam_name" class="form-label">Other Exam Name</label>
+                            <input type="text" class="form-control other-exam-name" placeholder="Enter Exam Name" name="other_exam_name[]" required>
+                            <div class="invalid-feedback">Exam name is required</div>
+                        </div>
+                    `;
+                        // Append the new field after the current row
+                        e.target.closest('.row').after(otherExamField);
+                    }
+                } else if (otherExamField) {
+                    // Remove the "Other" exam field if it exists
+                    otherExamField.remove();
+                }
+            });
+        }
 
-        // Apply validation for the dynamically added exam passing year fields
-        newFieldExamQualified.querySelectorAll('.exam-passing-year').forEach(function(input) {
-            input.addEventListener('input', function(e) {
-                e.target.value = e.target.value.replace(/\D/g, '').slice(0, 4); // Allow only digits and limit to 4 characters
+        // Add the event listener to the initial dropdown
+        const initialExamSelect = document.getElementById('exam_qualified_name');
+        if (initialExamSelect) {
+            handleOtherExamOption(initialExamSelect);
+        }
+
+        // Add event listener for the "Add Exam" button
+        document.getElementById('addExamQualifiedField').addEventListener('click', function() {
+            qualificationCounter++;
+            const qualificationsSection = document.getElementById('exam-qualified-section');
+            const newFieldExamQualified = document.createElement('div');
+            newFieldExamQualified.classList.add('qualification-box');
+            newFieldExamQualified.innerHTML = `
+            <div class="row mb-3 col-md-12">
+                <div class="col-md-3 col-sm-6">
+                    <label for="exam_qualified_name" class="form-label">Exam Qualified</label>
+                    <select class="form-select exam-qualified-name" name="exam_qualified_name[]" >
+                        <option value="" disabled selected>Select Exam</option>
+                        <option value="NET">NET</option>
+                        <option value="SLET">SLET</option>
+                        <option value="CSIR">CSIR</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="invalid-feedback">Exam is required</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <label for="exam_qualified_passing_year" class="form-label">Passing Year</label>
+                    <input type="text" class="form-control exam-passing-year" placeholder="Year of Passing" name="exam_qualified_passing_year[]" id="exam_qualified_passing_year">
+                    <div class="invalid-feedback">Passing Year is required</div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <label for="exam_qualified_subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control exam-subject" placeholder="Subject" name="exam_qualified_subject[]" id="exam_qualified_subject">
+                    <div class="invalid-feedback">Subject name is required</div>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="red-btn delete-btn-exam-qualified">X</button>
+                </div>
+            </div>`;
+
+            qualificationsSection.appendChild(newFieldExamQualified);
+            highlightNewField(newFieldExamQualified); // Highlight the newly added field
+
+            // Apply validation for the dynamically added exam passing year fields
+            newFieldExamQualified.querySelectorAll('.exam-passing-year').forEach(function(input) {
+                input.addEventListener('input', function(e) {
+                    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 4); // Allow only digits and limit to 4 characters
+                });
+            });
+
+            // Add the event listener for the "Other" option in the newly added dropdown
+            const examSelect = newFieldExamQualified.querySelector('.exam-qualified-name');
+            handleOtherExamOption(examSelect);
+
+            // Add event listener for the delete button
+            newFieldExamQualified.querySelector('.delete-btn-exam-qualified').addEventListener('click', function() {
+                newFieldExamQualified.remove();
             });
         });
-
-        // Add event listener for "Other" option in Select Exam
-        const examSelect = newFieldExamQualified.querySelector('.exam-qualified-name');
-        examSelect.addEventListener('change', function(e) {
-            const selectedValue = e.target.value;
-            const otherExamField = document.createElement('div');
-            otherExamField.classList.add('row', 'mb-3', 'col-md-12');
-            if (selectedValue === 'Other') {
-                // Create a new input field for "Other" exam name
-                otherExamField.innerHTML = `
-                <div class="col-md-3 col-sm-6">
-                    <label for="other_exam_name" class="form-label">Other Exam Name</label>
-                    <input type="text" class="form-control other-exam-name" placeholder="Enter Exam Name" required>
-                    <div class="invalid-feedback">Exam name is required</div>
-                </div>
-            `;
-                // Append the new field after the current row
-                e.target.closest('.row').after(otherExamField);
-
-                // Update the original exam_qualified_name[] field with the "Other" value
-                const otherExamInput = otherExamField.querySelector('.other-exam-name');
-                otherExamInput.addEventListener('input', function() {
-                    // When user types in the "Other" field, update the select field's value
-                    examSelect.querySelector('option[value="Other"]').value = otherExamInput.value;
-                });
-            } else {
-                // Remove any existing "Other" exam field if it's already appended
-                const existingOtherExamField = newFieldExamQualified.querySelector('.other-exam-name');
-                if (existingOtherExamField) {
-                    existingOtherExamField.closest('.row').remove();
-                }
-            }
-        });
-
-        // Add event listener for the delete button
-        newFieldExamQualified.querySelector('.delete-btn-exam-qualified').addEventListener('click', function() {
-            newFieldExamQualified.remove();
-        });
     });
+
 
 
 
@@ -761,9 +780,6 @@
     document.getElementById('expectedSalary').addEventListener('input', function(e) {
         e.target.value = formatToIndianCurrency(e.target.value);
     });
-
-
-    
 </script>
 
 
