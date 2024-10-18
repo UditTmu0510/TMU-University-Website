@@ -11,7 +11,7 @@
             </h1>
 
             <div class="col-md-12 mb-3">
-                <img class="card-img-top" src="	https://www.tmu.ac.in/pdf/research/Ph.D_ADVT_July_2024.jpg"
+                <img class="card-img-top" src="{{asset('/assets/pdf/research/phd_admissions_notice_2024_25.jpg')}}"
                     alt="Card image cap">
                 <a href="#!">
                     <div class="mask rgba-white-slight"></div>
