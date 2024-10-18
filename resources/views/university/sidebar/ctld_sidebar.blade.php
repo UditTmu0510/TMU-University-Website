@@ -8,6 +8,7 @@
                                 <a href="{{ route('ctld.home') }}" class="custom-menu-item {{ setActive('ctld.home') }}">
                 <p>Home</p>
             </a>
+            
             <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ setActive('ctld.about') }}">
                 <p>Overview</p>
             </a>

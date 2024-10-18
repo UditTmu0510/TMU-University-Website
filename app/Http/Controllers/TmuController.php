@@ -393,6 +393,10 @@ class TmuController extends Controller
     {
         return view('university.ctld.about_ctld');
     }
+    public function ctld_benefits()
+    {
+        return view('university.ctld.benefits');
+    }
 
     public function ctld_aims_and_objectives()
     {
