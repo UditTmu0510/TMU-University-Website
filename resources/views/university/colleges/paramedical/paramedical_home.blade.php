@@ -136,7 +136,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
+                <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCES COLLEGES</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
@@ -174,19 +174,19 @@
                     <p>The College of Paramedical Sciences offers specialised training in four disciplines, delivered by qualified professionals.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span>It is a hub of academic research and consultancy that provides professionals with diplomas and graduate, post-graduate and doctorate-level programmes with the knowledge and skills necessary to excel in the ever-evolving pharmacy field.</p>
+                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span> A centre for academic research and expert consultation, offers diploma, graduate, post-graduate, and doctorate-level programmes which are designed to equip students with the in-depth knowledge and practical skills required to thrive in the constantly evolving field of Paramedical.</p>
                         </li>
                     </ul>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4 pt-0 mb-0">
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> Develop proficiency in radiological imaging techniques, such as X-Ray, Colour Doppler, Ultrasound, CT-SCAN, and MRI.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> It equips students with proficiency in Radiological Imaging Techniques, encompassing advanced methodologies like X-ray, Color Doppler, Ultrasound, CT Scan, and MRI, that refine skills to work with advanced imaging technologies.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> Become a specialised health care professional that provides comprehensive eye care, examining the eyes and structures for defects or abnormalities.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> It helps students to become specialised healthcare professionals who are proficient in comprehensive eye care, examining the eyes and associated structures to detect abnormalities or disorders with precision.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span>Gain valuable exposure and practical industrial training to develop expertise in forensic analysis, investigation, and evidence collection.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span> Provides valuable exposure and hands-on industrial training to students honing their expertise in forensic investigation, evidence analysis, and crime scene reconstruction to become a leading authority in forensic science.</p>
                             </li>
                         </ul>
                     </div>
