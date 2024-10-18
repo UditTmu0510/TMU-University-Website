@@ -534,6 +534,8 @@
         });
     });
 
+    // Exam Qualified
+
     document.addEventListener('DOMContentLoaded', function() {
         // Function to handle the "Other" option selection
         function handleOtherExamOption(examSelect) {
