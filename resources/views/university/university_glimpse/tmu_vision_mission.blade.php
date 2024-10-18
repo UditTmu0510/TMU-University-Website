@@ -11,14 +11,14 @@
 
 
 							<h3 class="fw-bold tmu-text-primary mb-1"><span>About </span><span>TMU University</span></h3>
-							<p class="mb-3">On National Highway 9, 144 Km from New Delhi, TMU stands committed to the ideals of Lord
+							<p class="p-1 mb-3">On National Highway 9, 144 Km from New Delhi, TMU stands committed to the ideals of Lord
 								Mahaveer - Right Philosophy, Right Knowledge and Right Conduct in all spheres of
 								activity and aspires to be the ultimate destination for world-class education.</p>
-							<p class="mb-3">As a multi-disciplinary varsity, we offer career-oriented programmes at all levels, i.e.,
-								UG, PG, and Doctoral degrees across diverse streams <span class="highlight"><a href="https://www.tmu.ac.in/medical-college-and-research-centre" target="_blank">Medical</a>, <a href="https://www.tmu.ac.in/dental-college-and-research-centre" target="_blank">Dental</a>, <a href="https://www.tmu.ac.in/college-of-pharmacy" target="_blank">Pharmacy</a>, <a href="https://www.tmu.ac.in/college-of-nursing" target="_blank">Nursing</a>, <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences</a>, <a href="https://www.tmu.ac.in/department-of-physiotherapy" target="_blank">Physiotherapy</a>, <a href="https://www.tmu.ac.in/tmimt-college-of-management" target="_blank">Hospital
-									Administration</a>, <a href="https://www.tmu.ac.in/tmimt-college-of-physical-education" target="_blank">Physical Education</a>, <a href="https://www.tmu.ac.in/tmimt-college-of-management" target="_blank">Management</a>, <a href="https://www.tmu.ac.in/faculty-of-engineering" target="_blank">Engineering</a>,
-								<a href="https://www.tmu.ac.in/faculty-of-engineering" target="_blank">Polytechnic</a>,
-								<a href="https://www.tmu.ac.in/college-of-law-and-legal-studies" target="_blank">Law</a>, <a href="https://www.tmu.ac.in/college-of-fine-arts" target="_blank">Fine Arts</a>, <a href="https://www.tmu.ac.in/college-of-agriculture-sciences" target="_blank">Agriculture</a> and <a href="https://www.tmu.ac.in/centre-of-jain-studies" target="_blank">Jain Studies</a></span>
+							<p class="p-1 mb-3">As a multi-disciplinary varsity, we offer career-oriented programmes at all levels, i.e.,
+								UG, PG, and Doctoral degrees across diverse streams <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="{{route('tmimt.home')}}" target="_blank">Hospital
+									Administration</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,
+								<a href="{{route('engineering.home')}}" target="_blank">Polytechnic</a>,
+								  <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span>
 								to meet rising aspirations of the youth.
 							</p>
 						</div>
@@ -26,13 +26,13 @@
 					<!-- Write content for right side here  -->
 					<div class="text-justify mx-auto mb-0 mt">
 						<h3 class="fw-bold tmu-text-primary mt-2 mb-0"><span>Our </span><span> Vision</span></h3>
-						<p class="p-1 m-1">To be recognized as a premier institution of excellence providing high quality education,
+						<p class="p-1 ">To be recognized as a premier institution of excellence providing high quality education,
 							research and consultancy services to the society.</p>
 					</div>
 
 					<div class="text-justify mx-auto mb-0">
 						<h3 class="fw-bold tmu-text-primary mt-4 mb-0"><span>Our </span><span> Mission</span></h3>
-						<p class="p-1 m-1">Our endeavour is to impart knowledge and develop critical skills necessary to succeed both in
+						<p class="p-1 ">Our endeavour is to impart knowledge and develop critical skills necessary to succeed both in
 							professional and personal life by promoting learning supported by world-class faculty,
 							infrastructure, technology, curricula and collaborative teaching and research with premier
 							institutions in India and abroad.</p>
@@ -41,7 +41,7 @@
 					<div class="text-justify mx-auto mb-0">
 						<h3 class="fw-bold tmu-text-primary mt-4 mb-0"><span>Our  </span><span> Focus </span></h3>
 						
-						<p>In our quest to make the university an ultimate destination for world-class education,
+						<p class="p-1" >In our quest to make the university an ultimate destination for world-class education,
 							the following nine-fold priority areas have been identified for action:</p>
 					</div>
 					<div class="container mb-5">

@@ -216,5 +216,10 @@
   </div>
 </div>
 </div>
-
+<script>
+  document.addEventListener('hidden.bs.modal', function () {
+    document.body.classList.remove('modal-open'); // Ensure scroll is enabled
+    document.body.style.overflowY = "scroll"; // Restore scroll behavior
+  });
+</script>
 @endsection

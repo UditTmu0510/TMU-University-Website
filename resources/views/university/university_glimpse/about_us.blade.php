@@ -59,7 +59,7 @@
                     <h2 class="text-center text-uppercase text-white mt-4">Our Colleges</h2>
                     <div class="row">
                       <div class="col-lg-6 col-xl-4">
-                        <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
+                        <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
                           <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
                           <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
                           <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
@@ -68,7 +68,7 @@
                         </ul>
                       </div>
                       <div class="col-lg-6 col-xl-4">
-                        <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
+                        <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
                           <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
                           <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
                           <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
@@ -77,12 +77,12 @@
                         </ul>
                       </div>
                       <div class="col-lg-6 col-xl-4">
-                        <ul class="custom-list" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
+                        <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
                           <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Fine Arts</li></a>
                           <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Education</li></a>
                           <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Physical Education</li></a>
                           <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Agriculture Sciences</li></a>
-                          <li><a href="#"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
+                          <li><a href="{{route('jain.studies.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
                         </ul>
                       </div>
                     </div>

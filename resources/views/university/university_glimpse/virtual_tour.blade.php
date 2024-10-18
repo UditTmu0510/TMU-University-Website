@@ -7,7 +7,7 @@
 <div class="main-content">
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="height: 20vh; background-color: #001055;">
-            <h2 style="color: #fff; padding:1.5rem;">Why Tmu</h2>
+            <h2 style="color: #fff; padding:1.5rem;">Campus Map & Location</h2>
         </div>
 
 
