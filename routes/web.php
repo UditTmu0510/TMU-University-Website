@@ -199,6 +199,7 @@ Route::get('/tmu/nep-immplementation-committee', [TmuController::class, 'nep_imp
 // CTLD
 Route::get('/tmu/centre-for-teaching-learning-and-development', [TmuController::class, 'ctld_home'])->name('ctld.home');
 Route::get('/tmu/about-ctld', [TmuController::class, 'ctld_about'])->name('ctld.about');
+Route::get('/tmu/benefits-of-ctld', [TmuController::class, 'ctld_benefits'])->name('ctld.benefits');
 Route::get('/tmu/ctld-aims-and-objective', [TmuController::class, 'ctld_aims_and_objectives'])->name('ctld.aims.and.objectives');
 Route::get('/tmu/ctld-director-desk', [TmuController::class, 'ctld_director_desk'])->name('ctld.director.desk');
 Route::get('/tmu/ctld-our-team', [TmuController::class, 'ctld_team'])->name('ctld.team');
