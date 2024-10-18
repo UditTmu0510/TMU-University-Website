@@ -1,54 +1,6 @@
 @extends('layouts.university.departments.ctld_with_sidebar')
 @section('content')
 
-
-<!-- <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
-                    Director</span></h1>
-
-            <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="{{asset('/assets/img/aboutus/administration/ctld_head1.jpg')}}"
-                    alt="krishnia_principal" >
-            </div>
-            <div class="col-md-8">
-                <p class="mb-2 text-justify">Teerthanker Mahaveer University is providing yeoman service to its beloved
-                    students by establishing the Centre for Teaching Learning and Development
-                    (CTLD). This was really the need of the hour, as the future of any education
-                    institution will depend a lot on transforming students who are capable of
-                    creativity and innovation for the organisation they work for. Creativity and
-                    Innovations are possible when the employees work in teams where members are
-                    confident, highly motivated, dedicated, determined while being emotionally &
-                    socially intelligent. At CTLD these are the qualities we develop in
-                    students.</p>
-                <p class="mb-2 text-justify">As the university not just comprises of students the CTLD
-                    department is also responsible for the development of the staff & faculty
-                    members through continuous Faculty Development Programmes (FDPs) and staff
-                    development programmes (SDP).</p>
-                </p>
-                <p class="mb-2 text-justify">TMU’s CTLD has recruited sufficient master
-                    trainers to cater to the training need of university’s more than 1300 employees
-                    and more than 14000 students..</p>
-            </div>
-            <div class="col-md-8 col-lg-12 col-sm-12" > 
-                <p class="mb-2 text-justify">Some of the trainers are specialised in soft, social, emotional skills while
-                    others are specialised in quantitative aptitude, reasoning ability and verbal
-                    ability along with having a good amount of experience in their field of
-                    specialisation.</p>
-                <p class="mb-2 text-justify">Dear students, I wholeheartedly welcome all of you to join
-                    this world-class University. I assure that we will go all out to prepare you as
-                    a future world-class Leaders, Technocrats, Engineers and the finest human being.</p>
-                <div class="person-details">Prof. (Dr.) R. N. Krishnia<br>
-                    <span> Director</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-</div> -->
-
 <style>
     @media (max-width: 767.98px) {
         .quote-box {
@@ -68,28 +20,11 @@
                     <img src="{{asset('/assets/img/principal/ctld/ctld-director.jpg')}}" alt="Profile Image">
                 </div>
                 <div class="quote-text mt-4 mt-md-0">
-                    <p class="text-justify text-dark fs-14 mb-2"><i class="bi bi-quote" style="font-size:30px; color: #737373;"></i><span class="highlight fs-12" style="color: #ff7900;"></span></p>
-                    <p class="text-justify text-dark fs-14 mb-2">Teerthanker Mahaveer University is providing yeoman service to its beloved
-                    students by establishing the Centre for Teaching Learning and Development
-                    (CTLD). This was really the need of the hour, as the future of any education
-                    institution will depend a lot on transforming students who are capable of
-                    creativity and innovation for the organisation they work for. Creativity and
-                    Innovations are possible when the employees work in teams where members are
-                    confident, highly motivated, dedicated, determined while being emotionally &
-                    socially intelligent. At CTLD these are the qualities we develop in
-                    students.</p>
-                    <p class="text-justify text-dark fs-14 mb-2">As the university not just comprises of students the CTLD
-                    department is also responsible for the development of the staff & faculty
-                    members through continuous Faculty Development Programmes (FDPs) and staff
-                    development programmes (SDP). TMU’s CTLD has recruited sufficient master
-                    trainers to cater to the training need of university’s more than 1300 employees
-                    and more than 14000 students.</p>
-                    <p class="text-justify text-dark fs-14 mb-2">Some of the trainers are specialised in soft, social, emotional skills while
-                    others are specialised in quantitative aptitude, reasoning ability and verbal
-                    ability along with having a good amount of experience in their field of
-                    specialisation. Dear students, I wholeheartedly welcome all of you to join
-                    this world-class University. I assure that we will go all out to prepare you as
-                    a future world-class Leaders, Technocrats, Engineers and the finest human being.</p>
+                    <!-- <p class="text-justify text-dark fs-14 mb-2"><i class="bi bi-quote" style="font-size:30px; color: #737373;"></i><span class="highlight fs-12" style="color: #ff7900;"></span></p> -->
+                    <p class="text-justify text-dark fs-14 mb-2">At Teerthanker Mahaveer University, the Centre for Teaching, Learning, and Development (CTLD) is dedicated to nurturing well-rounded professionals who can excel in a dynamic global environment. I am honoured to lead this centre, building on a strong foundation of excellence.</p>
+                    <p class="text-justify text-dark fs-14 mb-2">With over 30 years of experience in academia, training, and career guidance, my vision for CTLD is to continue fostering a culture of continuous learning, personal growth, and professional development. At the core of CTLD's mission is our commitment to empowering both students and faculty to reach new heights of academic excellence, innovation, and leadership. By combining agile teaching methodologies with career development programmes, we aim to ensure that TMU’s students and staff are equipped with the skills and mindset needed to succeed in today's competitive landscape.</p>
+                    <p class="text-justify text-dark fs-14 mb-2">Our focus at CTLD extends beyond academic achievement, emphasising key qualities such as emotional intelligence, teamwork, and adaptability, which are essential for success in any field. Through an array of workshops, seminars, faculty development programmes (FDPs), and staff development initiatives, we strive to cultivate an environment that supports growth at every level. Whether it's preparing students for prestigious institutions or helping faculty members enhance their teaching strategies, we are committed to making a meaningful impact.</p>
+                    <p class="text-justify text-dark fs-14 mb-2">I warmly welcome students and staff to engage with CTLD and explore the opportunities we offer. Together, we will work towards shaping the leaders, innovators, and responsible citizens of tomorrow.</p>
                     <p class="mt-3">- Dr. Pankaj Kumar Singh</p>
                     <p>Director</p>
                 </div>
