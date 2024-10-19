@@ -89,7 +89,7 @@
                         <div class="row">
                             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch mt-4">
                                 <hr class="horizontal-line">
-                                <button class="careers-accordion">Route 1 A<span class="icon">+</span></button>
+                                <button class="careers-accordion">Route 1 <span class="icon">+</span></button>
                                 <div class="panel active">
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-striped">
@@ -97,33 +97,49 @@
                                                 <th>Sl. No.</th>
                                                 <th>Route Name</th>
                                                 <th>KM.</th>
-                                                <th>Timing</th>
+                                                
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
                                                     <td>Amroha</td>
-                                                    <td>26km</td>
-                                                    <td>08:15 AM</td>
+                                                    <td>35km</td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>Hasanpur</td>
-                                                    <td>46km</td>
-                                                    <td>07:00 AM</td>
+                                                    <td>Chandpur</td>
+                                                    <td>55km</td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Kashipur</td>
-                                                    <td>75km</td>
-                                                    <td>06:45 AM</td>
+                                                    <td>Gajraula</td>
+                                                    <td>30km</td>
+                                                    
                                                 </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Dhanaura</td>
+                                                    <td>40km</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Sambhal</td>
+                                                    <td>45km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Babral</td>
+                                                    <td>40km</td>
+                                                </tr>                                               
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                                 <hr class="horizontal-line">
-                                <button class="careers-accordion">Route 1 B <span class="icon">+</span></button>
+                                <button class="careers-accordion">Route 2 <span class="icon">+</span></button>
                                 <div class="panel">
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-striped">
@@ -131,33 +147,91 @@
                                                 <th>Sl. No.</th>
                                                 <th>Route Name</th>
                                                 <th>KM.</th>
-                                                <th>Timing</th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>Amroha</td>
-                                                    <td>26km</td>
-                                                    <td>08:15 AM</td>
+                                                    <td>Peetal Nagri, Moradabad</td>
+                                                    <td>15km</td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>Hasanpur</td>
-                                                    <td>46km</td>
-                                                    <td>07:00 AM</td>
+                                                    <td>Shahbad and Kundarki </td>
+                                                    <td>25km</td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Kashipur</td>
-                                                    <td>75km</td>
-                                                    <td>06:45 AM</td>
+                                                    <td>Rampur</td>
+                                                    <td>30km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Moonda Pandey</td>
+                                                    <td>35km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Bilari</td>
+                                                    <td>30km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Adampur</td>
+                                                    <td>30km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Aichora</td>
+                                                    <td>50Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Milak</td>
+                                                    <td>40Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>Shahzad Nagar</td>
+                                                    <td>50Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>Dhampur</td>
+                                                    <td>60Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>Seohara</td>
+                                                    <td>55Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>Sherkot</td>
+                                                    <td>65Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>Afzalgarh</td>
+                                                    <td>80Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>Bareilly</td>
+                                                    <td>70Km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15</td>
+                                                    <td>Chandausi</td>
+                                                    <td>70Km</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                                 <hr class="horizontal-line">
-                                <button class="careers-accordion">Route 1 C <span class="icon">+</span></button>
+                                <button class="careers-accordion">Route 3 <span class="icon">+</span></button>
                                 <div class="panel">
                                     <div class="table-responsive">
                                         <table class="table table-bordered table-striped">
@@ -165,100 +239,34 @@
                                                 <th>Sl. No.</th>
                                                 <th>Route Name</th>
                                                 <th>KM.</th>
-                                                <th>Timing</th>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>Amroha</td>
-                                                    <td>26km</td>
-                                                    <td>08:15 AM</td>
+                                                    <td>Kashipur</td>
+                                                    <td>76km</td>
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>Hasanpur</td>
-                                                    <td>46km</td>
-                                                    <td>07:00 AM</td>
+                                                    <td>Bajpur</td>
+                                                    <td>85km</td>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Kashipur</td>
-                                                    <td>75km</td>
-                                                    <td>06:45 AM</td>
+                                                    <td>Jaspur</td>
+                                                    <td>87km</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Thakurdwara</td>
+                                                    <td>76km</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                                 <hr class="horizontal-line">
-                                <button class="careers-accordion">Route 2 A<span class="icon">+</span></button>
-                                <div class="panel">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-striped">
-                                            <thead>
-                                                <th>Sl. No.</th>
-                                                <th>Route Name</th>
-                                                <th>KM.</th>
-                                                <th>Timing</th>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Amroha</td>
-                                                    <td>26km</td>
-                                                    <td>08:15 AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Hasanpur</td>
-                                                    <td>46km</td>
-                                                    <td>07:00 AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Kashipur</td>
-                                                    <td>75km</td>
-                                                    <td>06:45 AM</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <hr class="horizontal-line">
-                                <button class="careers-accordion">Route 2 B<span class="icon">+</span></button>
-                                <div class="panel">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-striped">
-                                            <thead>
-                                                <th>Sl. No.</th>
-                                                <th>Route Name</th>
-                                                <th>KM.</th>
-                                                <th>Timing</th>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Amroha</td>
-                                                    <td>46km</td>
-                                                    <td>08:15 AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Hasanpur</td>
-                                                    <td>46km</td>
-                                                    <td>07:00 AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Kashipur</td>
-                                                    <td>75km</td>
-                                                    <td>06:45 AM</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <hr class="horizontal-line">
+                                
                             </div>
                         </div>
                     </div>
