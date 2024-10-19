@@ -21,7 +21,7 @@
                                     <img src="{{asset('/assets/img/advisory_board/pharmacy/Kamla_Pathak.jpg')}}" class="card-img-top"
                                         alt="Image 2">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
-                                        <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof. Kamla Pathak</span></h5>
+                                        <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof. Anita Sharma</span></h5>
                                         <p class="card-text fs-14 ">Dean and Professor</p>
                                         <p class="card-text fs-14 ">Faculty of Pharmacy, Uttar Pradesh University of Medical Sciences, Saifai, Etawah, Uttar Pradesh, India</p>
                                     </div>
@@ -85,7 +85,7 @@
                                     <img src="	{{asset('/assets/img/advisory_board/pharmacy/Manjeet_Sinha.jpg')}}" class="card-img-top"
                                         alt="Image 1">
                                     <div class="card-body text-center"> <!-- Added 'texmb-0t-center' class -->
-                                        <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Yogendra Singh</span></h5>
+                                        <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Manjeet Sinha</span></h5>
                                         <p class="card-text fs-14 "><b>Vice President (Institutional Business)</b></p>
                                         <p class="card-text fs-14 ">Multani Pharmaceuticals Limited, New Delhi</p>
                                         <p class="card-text fs-14">&nbsp;</p>
