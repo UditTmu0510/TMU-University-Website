@@ -84,16 +84,16 @@
                                                 <td class="text-center">17.10.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/Attendance-17.10.2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
-                                            <!-- <tr>
-                                                <td class="text-center">11.</td>
-                                                <td class="text-center">17.09.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/17th-September-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
-                                            </tr>
                                             <tr>
                                                 <td class="text-center">12.</td>
                                                 <td class="text-center">18.09.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/september/18th-September-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
-                                            </tr> -->
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/18th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">13.</td>
+                                                <td class="text-center">19.09.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/19th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
                                             
                                         </tbody>
                                     </table>
