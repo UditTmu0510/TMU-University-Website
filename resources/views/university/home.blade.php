@@ -43,7 +43,7 @@
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>80%</span>
+                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
                     <br>
                     <span class="d-block pt-1">Placement Rate</span>
                 </div>
@@ -295,7 +295,7 @@ $i++;
                 </div>
             </div>
             <div class="row col-mb-37">
-                <main class="postcontent col-lg-8 col-md-9">
+                <main class="postcontent col-lg-8 col-md-12">
                     <div class="row g-4">
 
 
@@ -669,7 +669,7 @@ $i++;
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why Teerthanker Mahaveer University(TMU) is Among the Top Private Universities in India?<span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <p>Teerthanker Mahaveer University (TMU) has emerged as a prominent
             educational institution, garnering attention for various reasons.
             Let's explore the factors that contribute to TMU's status as one
