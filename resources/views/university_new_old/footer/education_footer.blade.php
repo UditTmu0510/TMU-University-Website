@@ -304,7 +304,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 {{-- <script src="{{asset('assets/js/owl_slider.js')}}"></script> --}}
-<script src="{{asset('js/components/bs-datatable.js')}}"></script>
+<script src="{{asset('js/components/bs-datatable.js')}}" defer></script>
 
 <script src="{{asset('assets/js/education_menubar.js')}}"></script>
 
