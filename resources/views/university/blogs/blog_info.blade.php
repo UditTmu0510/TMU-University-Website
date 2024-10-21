@@ -85,12 +85,21 @@
         scroll-behavior: smooth;
     }
 
-    h2,
-    h3,
-    h4 {
+    #blogs69 h2,
+    #blogs69 h4 {
         scroll-margin-top: 80px;
+        padding-top: 5px;
         /* Adjust the margin as per your desired distance */
     }
+    #blogs69 h3{
+        scroll-margin-top: 80px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 0px!important;
+    }
+    #blogs69 p {
+    padding-bottom: 10px;
+}
 
     /* Table of Contents styles */
     .toc {
@@ -244,6 +253,9 @@
             /* Equivalent to gx-5 in Bootstrap */
         }
     }
+
+    
+
 </style>
 
 
@@ -291,7 +303,7 @@
                                 <li style="margin: 0 0 8px 0;">
                                     <i class="uil uil-folder-open"></i>
                                     <!-- Link to trigger the form submission -->
-                                    <a href="{{ url('blog/category/' . $blog->category_new) }}" class="category-link">{{ $blog->category_new }}</a>
+                                    <a href="{{ url('blog/category/' . $blog->category) }}" class="category-link">{{ $blog->category }}</a>
                                 </li>
 
                             </ul>
@@ -314,7 +326,7 @@
                         <!-- Entry Content -->
                         <div class="entry-content mt-0">
 
-                            <div style="text-align:justify" id="blogs69">
+                            <div id="blogs69">
                                 @php
                                 echo nl2br(html_entity_decode($blog->full_post));
                                 @endphp
@@ -461,9 +473,9 @@
                         <h4>Categories</h4>
                         <div class="tagcloud">
                             @foreach ($blog_categories as $blog_category)
-                            @if (!empty($blog_category->category_new))
-                            <a href="{{ url('blog/category/' . $blog_category->category_new) }}" class="category-link" data-category="{{ $blog_category->category_new }}">
-                                {{ $blog_category->category_new }}
+                            @if (!empty($blog_category->category))
+                            <a href="{{ url('blog/category/' . $blog_category->category) }}" class="category-link" data-category="{{ $blog_category->category }}">
+                                {{ $blog_category->category}}
                             </a>
                             @endif
                             @endforeach
@@ -548,7 +560,7 @@
                                     <div class="card-body text-center">
                                         <!-- Post Date and Category -->
                                         <small class="text-muted d-block mb-1">
-                                            {{ $post->posted_at->format('M j') }} | {{ $post->category_new ?? 'Uncategorized' }}
+                                            {{ $post->posted_at->format('M j') }} | {{ $post->category ?? 'Uncategorized' }}
                                         </small>
 
                                         <!-- Post Title -->
@@ -578,7 +590,7 @@
                                     <div class="card-body text-center">
                                         <!-- Post Date and Category -->
                                         <small class="text-muted d-block mb-1">
-                                            {{ $post->posted_at->format('M j') }} | {{ $post->category_new ?? 'Uncategorized' }}
+                                            {{ $post->posted_at->format('M j') }} | {{ $post->category ?? 'Uncategorized' }}
                                         </small>
 
                                         <!-- Post Title -->
