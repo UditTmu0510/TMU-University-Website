@@ -13,7 +13,7 @@
                     <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to <br> <span
                             style="font-weight:700!important;">Teerthanker Mahaveer </span> Medical College and Research Centre</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none"
-                        style="colour:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
+                        style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
                         Welcome to <span>TMMC&RC</span></h1>
                     
                 </div>
@@ -323,7 +323,7 @@
                 <div class="container d-none d-lg-block">
 
                     <div class="col-xl-12 col-xl-10 text-center">
-                        <h2 style=" line-height: 64px; colour:#001055;" class="mb-5 w-100">
+                        <h2 style=" line-height: 64px; color:#001055;" class="mb-5 w-100">
                             PROGRAMMES<span class="colour:##FF7900"> OFFERED</span></h2>
                     </div>
 
@@ -452,7 +452,7 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; colour:#000000; margin-bottom: 19px;">
+                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
                             </h1>
                         </div>
