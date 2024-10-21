@@ -8,14 +8,14 @@
     <div class="slider-inner">
         <div class="container-fluid p-0">
             <div class="video-banner">
-       
+<!--        
             <video muted autoplay loop playsinline class="d-none d-md-block" preload="auto">
                     <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
 
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" preload="auto">
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
-                </video>
+                </video> -->
 
 
        
