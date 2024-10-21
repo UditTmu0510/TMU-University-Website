@@ -43,9 +43,9 @@
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>80%</span>
+                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
                     <br>
-                    <span class="d-block pt-1">Placement Rate</span>
+                    <span class="d-block pt-1">Students</span>
                 </div>
             </div>
         </div>
@@ -91,9 +91,9 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
                                 <br>
-                                <span class="d-block pt-1">Placement Rate</span>
+                                <span class="d-block pt-1">Students</span>
                             </div>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ $i++;
                 </div>
             </div>
             <div class="row col-mb-37">
-                <main class="postcontent col-lg-8 col-md-9">
+                <main class="postcontent col-lg-8 col-md-12">
                     <div class="row g-4">
 
 
@@ -446,113 +446,198 @@ $i++;
 
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>20, October</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Women Empowerment Cell, Faculty of Engineering, and CCSIT are going to
-                                        organise International Women's Day</p>
+                                    <p>The Alumni Relations Cell is organising a session on 'Future Investment Insights: Grow Your Wealth Wisely,' featuring esteemed alumni and industry experts. All faculty members and students of CCSIT and FoE are invited to attend.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 09,
-                                        March</span>
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>17, October</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Department of Mechanical Engineering is hosting a one-day workshop on "Drone
-                                        Technology" in association with ESTC Ramnagar.</p>
+                                    <p>CCSIT is organising IEEE Day TechnoFest 2k24, a 3-day event featuring expert sessions & competitions. Students from all disciplines are invited to participate and learn various technical and professional skills.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 15,
-                                        March</span>
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>09, September</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Computer Science and Engineering Department is organising a Digital/Physical
-                                        Poster Competition on the topic "Mera Pehla Vote-Desh ke liye</p>
+                                    <p>CCSIT is organising a fest to celebrate Navratri. All faculty and staff members are cordially invited to attend the event.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>08, October</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Poster/Animation Competition to celebrate 'Colours of Vijayadashami'. All CCSIT students and members are invited to participate.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>03, October</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Drawing Competition with the theme 'Anime Character.' All CCSIT students are invited to participate and win exciting prizes. For any queries, contact 9410253656.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>20, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>IQAC, FOE is organising an Information Session on GATE & JAM Exams for Masters, in collaboration with IIT Roorkee, featuring Prof. Ankik Kumar Giri, Dept. of Mathematics, IIT Roorkee. All 3rd & final-year B.Tech/B.Sc students are invited.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>20, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Department of BCA and MCA, CCSIT is organising an online guest lecture on 'Digital Marketing & Social Media Strategies' by Mr Vikas Nain, Co-Founder of The Triad and Assistant Professor of Digital Marketing at PIET.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>15, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g"><p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p></a>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                        TMU Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                            <div class="notice-pub">
+                                    <span>12, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Mentorship-Mentee Programme in various skills, featuring Master Classes under the banner of the IEEE Student Branch, to promote IEEE awareness and skill development among students.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21,
-                                        March</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 13 to 17, September</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, September</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Cultural Club of CCSIT is organisng a student fest for Holi, "SPLASH-The Joy
-                                        of Colors".</p>
+                                    <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20,
-                                        March</span>
+                                    TMU Campus </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
+                                        September </span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>29, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>Students may register for the 14th edition of Mega Quiz Khoj-2024 which is being
-                                        organised by the Techno Club (CCSIT).</p>
+                                    <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Auditorium</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14,
-                                        March</span>
+                                        Paramedical College</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Department of Physics is going to organise National Science Day with various
-                                        activities and competitions</p>
+                                    <p>TMU's NSS Unit is organising the 3rd Tiranga Yatra at 01:30 pm to celebrate India's 78th Independence Day. All students, teaching and non-teaching staff are requested to participate and make the event memorable.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        LT-6, CCSIT </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
-                                        February</span>
+                                    TMU Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Electronics and Communication Engineering Department is organising a Guest
-                                        Lecture on "Process of Innovation & Technology Readiness Level".</p>
+                                    <p>The Department of Physiotherapy is organising an event titled 'AI & Independence Extravaganza,' featuring Mr Shivam Kashyap, a Soft Skill Trainer, as the speaker.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        LT-6, FOE</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24,
-                                        February</span>
+                                    Dept. of Physiotherapy </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>08, August</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Free Thinkers Club, Department of Humanities, is organising a Speech Competition and Poem Recitation on the occasion of Independence Day. Register by 8th August. Contact us for more details.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                        CCSIT Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
@@ -669,7 +754,7 @@ $i++;
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why Teerthanker Mahaveer University(TMU) is Among the Top Private Universities in India?<span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <p>Teerthanker Mahaveer University (TMU) has emerged as a prominent
             educational institution, garnering attention for various reasons.
             Let's explore the factors that contribute to TMU's status as one
