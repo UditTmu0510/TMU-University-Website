@@ -1,7 +1,22 @@
 @extends('layouts.university.departments.ctld_with_sidebar')
 @section('content')
 
-    <link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
+<link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
+
+<style>
+    .cover {
+        width: 100%;    /* Ensures the div is responsive */
+        height: 100%;   /* You can adjust this based on the desired height */
+        overflow: hidden;
+    }
+
+    .cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Makes the image cover the div, maintaining aspect ratio */
+    }
+</style>
+
 
 <div class="main-content">
     <div class="container ps-3">
@@ -128,7 +143,3 @@
 
 
 @endsection
-
-
-
-

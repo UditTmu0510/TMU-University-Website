@@ -50,7 +50,7 @@ class BlogsController extends Controller
             // Organize comments into a hierarchical structure
             $comments = $this->organizeComments($allComments);
 
-            $blog_categories = Blogs::select('category_new')->distinct()->get();
+            $blog_categories = Blogs::select('category')->distinct()->get();
 
             // Fetch top 5 recent posts
             $recentPosts = Blogs::where('status', 1)
@@ -73,7 +73,7 @@ class BlogsController extends Controller
                 });
 
             $relatedPosts = Blogs::where('status', 1)
-                ->where('category_new', $blog->category_new)
+                ->where('category', $blog->category)
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
                 ->get()
@@ -167,7 +167,7 @@ class BlogsController extends Controller
             ->get();
 
         // Group blogs by their category
-        $groupedBlogs = $activeBlogs->groupBy('category_new');
+        $groupedBlogs = $activeBlogs->groupBy('category');
 
         // Return the view with both the grouped blogs and all active blogs
         return view('university.blogs.blognew', [
@@ -189,7 +189,7 @@ class BlogsController extends Controller
         // Replace hyphens with spaces
         $category = Str::replace('-', ' ', $category);
 
-        $categoryBlogs = Blogs::where('category_new', $category)
+        $categoryBlogs = Blogs::where('category', $category)
             ->where('status', 1)
             ->orderBy('posted_at', 'desc')
             ->orderBy('id', 'desc')
