@@ -4,13 +4,13 @@
 
 <div class="main-content">
 
-	<div class="container" style="max-width: 70vw !important;">
+	<div class="container">
 		<h1 class="tmu-text-primary tmu-page-heading"><span> Welcome to</span> <span>TMU IIC</span></h1>
 
-		<p>
+		<p class="mb-2 text-justify">
 			Ministry of Education (MoE), Govt. of India has established ‘MoE’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are in formative years.
 		</p>
-		<p class="mb-3">
+		<p class="mb-3 text-justify">
 			MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs will be established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses. <br>
 		<h3 class="mb-2 pb-0 fw-bold tmu-text-primary"><span>Major focus </span><span>of IIC</span> </h3>
 		<ol class="m-ol-list ps-5">
@@ -71,36 +71,109 @@
 
 		<!-- Certificates section -->
 		<div class="container">
-			<h2 class="mt-3 mt-lg-5 mb-lg-0 tmu-text-primary text-center"><span>Certification </span><span>Gallery</span></h2>
+			<h2 class="mt-3 mt-lg-5 mb-lg-0 tmu-text-primary text-center">
+				<span>Certification </span><span>Gallery</span>
+			</h2>
 
-			<div class="row d-none d-md-flex">
-				<!-- <h2 class="mb-0">Certification Gallery</h2> -->
-
+			<div class="row d-none d-md-flex" data-lightbox="gallery"> 
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate1.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate1.jpg') }}" alt="Gallery Thumb 1">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate1.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate2.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate2.jpg') }}" alt="Gallery Thumb 2">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate2.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate3.webp')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate3.webp') }}" alt="Gallery Thumb 3">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate3.webp') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate4.webp')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate4.webp') }}" alt="Gallery Thumb 4">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate4.webp') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate5.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate5.jpg') }}" alt="Gallery Thumb 5">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate5.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate6.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate6.jpg') }}" alt="Gallery Thumb 6">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate6.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate7.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate7.jpg') }}" alt="Gallery Thumb 7">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate7.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
-					<img src="{{asset('/assets/img/department/iic/certificates/certificate8.jpg')}}" alt="">
+					<div class="position-relative">
+						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate8.jpg') }}" alt="Gallery Thumb 8">
+						<div class="bg-overlay">
+							<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+								<a href="{{ asset('/assets/img/department/iic/certificates/certificate8.jpg') }}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item">
+									<i class="uil uil-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+
 
 			<div class="owl-carousel d-block d-md-none" id="owl-certificate">
 				<div class="item"><img src="{{asset('/assets/img/department/iic/certificates/certificate1.jpg')}}" alt="Certificate"></div>

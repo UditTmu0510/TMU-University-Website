@@ -33,7 +33,7 @@
                     <section id="info-utile" class="bg-white py-4">
                         <div class="container">
                             <hr class="horizontal-line">
-                            <button class="careers-accordion">2020 <span class="icon">+</span></button>
+                            <button class="careers-accordion ps-2"> 2020 <span class="icon">+</span></button>
                             <div class="panel active">
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-striped">
@@ -555,7 +555,7 @@
                             </div>
 
                             <hr class="horizontal-line">
-                            <button class="careers-accordion">2019 <span class="icon">+</span></button>
+                            <button class="careers-accordion ps-2">2019 <span class="icon">+</span></button>
                             <div class="panel">
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-striped">
