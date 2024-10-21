@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About Us</h2>
         <div class="account-section">
+            <a href="{{ route('iic.home') }}" class="custom-menu-item {{ setActive('iic.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('iic.cell.about') }}" class="custom-menu-item {{ setActive('iic.cell.about') }}">
                 <p>About Cell</p>
             </a>
@@ -43,9 +46,6 @@
             <h2>Quick Links</h2>
             <a href="{{ route('iic.successful.startup.story') }}" class="custom-menu-item {{ setActive('iic.successful.startup.story') }}">
                 <p>Successful Startup Story</p>
-            </a>
-            <a href="{{ route('iic.contact') }}" class="custom-menu-item {{ setActive('iic.contact') }}">
-                <p>Contact Us</p>
             </a>
         </div>
     </div>
