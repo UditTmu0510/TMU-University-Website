@@ -27,7 +27,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Labs</div>
-                                <p>The College of Fine Arts offers three specialized labs: an Art & Graphics Lab, a Clay Modeling Lab, and a Print Making Lab. These labs provide students with the resources and environment to explore various artistic techniques and media.</p>
+                                <p>The College of Fine Arts offers three specialised labs: an Art & Graphics Lab, a Clay Modeling Lab, and a Print Making Lab. These labs provide students with the resources and environment to explore various artistic techniques and media.</p>
                             </div>
                         </div>
                             <div class="timeline-item right wow slideInRight">
