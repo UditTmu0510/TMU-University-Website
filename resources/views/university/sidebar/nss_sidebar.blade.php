@@ -29,9 +29,6 @@
             <a href="{{ route('nss.events') }}" class="custom-menu-item {{ setActive('nss.events') }}">
                 <p>NSS Events</p>
             </a>
-            <a href="{{ route('nss.contactus') }}" class="custom-menu-item {{ setActive('nss.contactus') }}">
-                <p>Contact Us</p>
-            </a>
         </div>
     </div>
 </div>
