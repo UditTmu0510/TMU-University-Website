@@ -77,8 +77,8 @@
                                         <td>
                                             <p><strong>One nominee each from Employers/Industrialists/Stakeholders</strong></p>
                                             <ul class="m-ol-list ps-4">
-                                                <li>Mr. Rachit Agarwal, U.R. Services Pvt Ltd.</li>
-                                                <li>Dr. Deepak Mehdiratta, Director, JAARDS Agriclinic & AgriBusiness Centre, Moradabad</li>
+                                                <li>Mr. Aditya Kumar, Campus Lead, Vivo India.</li>
+                                                <li> Mr. Bali Singh (MD), Eco-Energies Pvt Ltd. </li>
                                             </ul>
                                         </td>
                                         <td></td>
@@ -88,10 +88,10 @@
                                         <td>
                                             <p><strong>One of the Senior Teachers/Administrator as the Coordinator/Director of the IQAC</strong></p>
                                             <ul class="m-ol-list ps-4">
-                                                <li>Dr. Aditya Sharma, Registrar</li>
+                                                <li>Dr. Aditya Sharma, Registrar </li>
                                             </ul>
                                         </td>
-                                        <td>Coordinator-IQAC</td>
+                                        <td>Director-IQAC</td>
                                     </tr>
                                 </tbody>
                             </table>
