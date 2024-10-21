@@ -326,9 +326,9 @@
 
 
 
-<script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js" defer></script>
 <script src="{{asset('assets/js/owl_slider.js')}}"></script>
-<script src="{{asset('js/components/bs-datatable.js')}}"></script>
+<script src="{{asset('js/components/bs-datatable.js')}}" defer></script>
 
 <script src="{{asset('assets/js/medical_menubar.js')}}"></script>
 
