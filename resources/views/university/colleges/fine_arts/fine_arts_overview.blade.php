@@ -7,7 +7,7 @@
 </style> 
     <div class="main-content">
         <div class="container">
-            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>About  </span><span>  US </span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>About  </span><span>  Us </span></h1>
             <div class="container">
                 <div class="row position-relative">
                     <img class="col-md-10 d-block mx-auto mb-4" src="{{asset('/assets/img/banner_overview/fine_arts/banner.jpg')}}" alt="Card image cap">
