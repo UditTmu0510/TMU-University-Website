@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\DB;
 use Exception;
 use Illuminate\Support\Str;
 use App\Models\JobOpening;
+use Carbon\Carbon;
 
 
 class TmuController extends Controller
@@ -221,7 +222,7 @@ class TmuController extends Controller
         if ($academicJobs->isEmpty() || $adminJobs->isEmpty()) {
             dd('No jobs found');
         }
-    
+
         return view('university.university_glimpse.careers', compact('academicJobs', 'adminJobs'));
     }
 
@@ -331,7 +332,44 @@ class TmuController extends Controller
 
     public function nss_events()
     {
-        return view('university.nss.nss_events');
+        $news = News::where('status', 1)
+            ->where('organised_by', 'NSS Wing')
+            ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
+            ->get();
+
+        // Convert all dates to a standard format (YYYY-MM-DD) and handle trailing data
+        $news = $news->map(function ($item) {
+            // Trim the event_date to remove any unwanted characters
+            $eventDate = trim($item->event_date);
+
+            // Initialize the formatted date
+            $formattedDate = null;
+
+            // Try to parse as YYYY-MM-DD first
+            try {
+                $formattedDate = Carbon::createFromFormat('Y-m-d', $eventDate)->format('Y-m-d');
+            } catch (\Exception $e) {
+                // If the above fails, try DD-MM-YYYY
+                try {
+                    $formattedDate = Carbon::createFromFormat('d-m-Y', $eventDate)->format('Y-m-d');
+                } catch (\Exception $e) {
+                    // Optionally, log the error or handle invalid dates
+                    $formattedDate = null;  // Handle invalid date formats
+                }
+            }
+
+            // Set the formatted date if successful, otherwise default to null
+            $item->formatted_event_date = $formattedDate;
+
+            return $item;
+        });
+
+        // Now sort by the unified date
+        $sortedNews = $news->filter(function ($item) {
+            return $item->formatted_event_date !== null;  // Filter out invalid dates
+        })->sortByDesc('formatted_event_date');
+
+        return view('university.nss.nss_events', compact('sortedNews'));
     }
 
     public function nss_contactus()
