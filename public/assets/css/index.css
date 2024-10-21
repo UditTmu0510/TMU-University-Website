@@ -225,7 +225,7 @@ p {
     font-size: 24px;
     text-align: center;
     z-index: 1;
-    /* font-family: "Canela Deck Bold"; */
+    font-family: "Canela Deck Bold";
 }
 
 .banner-text h1 {
@@ -240,7 +240,7 @@ p {
     min-width: 90vw;
     /* Text color */
 
-    /* font-family: "Canela Deck Bold"; */
+    font-family: "Canela Deck Bold";
 }
 
 .banner-text p {
