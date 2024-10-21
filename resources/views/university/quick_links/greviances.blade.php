@@ -46,7 +46,7 @@
             <h3 class="mb-3 pb-0 mt-2 tmu-text-primary"><span> Objective</span></h3>
             <ol class="ps-3">
               <li><b>Student's Help Desk</b></li>
-              <ul class="m-ol-list ps-4 mb-3">
+              <ul class="m-ol-list ps-4 mb-3 text-justify">
                 <li>To guide a student about the procedure and officers/offices to be approached to
                   address any
                   query/grievance related to an academic or administrative matter</li>
@@ -55,7 +55,7 @@
                   students grievances.</li>
               </ul>
               <li><b>Student's Grievance Redressal Cell</b></li>
-              <ul class="m-ol-list ps-4 mb-3">
+              <ul class="m-ol-list ps-4 mb-3 text-justify">
                 <li>Providing a free and fair environment to students so that they can express their
                   difficulties problems without any apprehension.</li>
                 <li>To ensure early and effective solution to a student’s problem and
@@ -141,15 +141,15 @@
         <div class="col-md-6 mb-3">
           <div class="section-box p-3">
             <h3 class="mb-3 pb-0 tmu-text-primary"><span>Scope</span></h3>
-            <p class="mb-3">The Students' Grievance Redressal Cell shall strive to resolve all types of
+            <p class="mb-3 text-justify">The Students' Grievance Redressal Cell shall strive to resolve all types of
               grievances
               of routine nature raised by the students of the respective College/Department, except
               those
               mentioned in the ‘Exclusion’ clause or the ones that infringe upon the working of any
               other Authority.</p>
-            <p class="mb-3">As such, the 'Cell' shall deal with the following types of
+            <p class="mb-3 text-justify">As such, the 'Cell' shall deal with the following types of
               grievances/suggestions (the list is only indicative in nature):</p>
-            <ol class="ps-4 m-ol-list">
+            <ol class="ps-4 m-ol-list text-justify">
               <li><b>Academic:</b> Identity Card, Marks Sheet, Duplicate Marks Sheet, Migration
                 Certificate, Enrollment number, Degree Certificate, Character certificate, Internal
                 assessment, Attendance, Laboratory, Workshop.</li>
@@ -164,7 +164,7 @@
           <div class="section-box p-3">
             <h3 class="mb-3 pb-0 tmu-text-primary"><span>Procedure to file a </span><span>
                 Grievance/Suggestion</span></h3>
-            <ol class="ps-4 m-ol-list mb-3">
+            <ol class="ps-4 m-ol-list mb-3 text-justify">
               <li>A student may approach the Students' Grievance Redressal Cell in person and file
                 her/his
                 grievance/suggestion.</li>
@@ -193,7 +193,7 @@
         <div class="col-md-12 mb-3">
           <div class="section-box p-3">
             <h3 class="mb-3 pb-0 tmu-text-primary"><span>Complaint </span><span> Processing</span></h3>
-            <ol class="ps-5 m-ol-list">
+            <ol class="ps-4 m-ol-list text-justify">
               <li>Suggestion/Grievance Box maintained at the College/Department will be opened every
                 Monday &
                 Thursday by the Member Secretary of the Cell.</li>
@@ -229,10 +229,10 @@
         <div class="col-md-6 mb-3">
           <div class="section-box p-3">
             <h3 class="mb-3 pb-0 tmu-text-primary"><span>Exclusion</span></h3>
-            <p>The Students' Grievance Redressal Cell or Students’ Help Desk shall not entertain the
+            <p class="text-justify">The Students' Grievance Redressal Cell or Students’ Help Desk shall not entertain the
               grievance
               arising out of any of the following:</p>
-            <ol class="ps-5 m-ol-list mb-3">
+            <ol class="ps-4 pt-2 m-ol-list mb-3 text-justify">
               <li>Decisions of the Executive Council, Academic Council, University Court, Planning
                 Board, Finance
                 Committee.</li>
@@ -251,7 +251,7 @@
             <h3 class="mb-3 pb-0 tmu-text-primary"><span>Appellate authority & power to
               </span><span>remove
                 Difficulties</span></h3>
-            <ol class="ps-5 m-ol-list mb-3">
+            <ol class="ps-4 m-ol-list mb-3 text-justify">
               <li>The Vice Chancellor of the University shall be the Appellate Authority, whose
                 decision shall be
                 final and binding on all.</li>
