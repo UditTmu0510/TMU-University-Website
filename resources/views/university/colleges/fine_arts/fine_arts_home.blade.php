@@ -12,8 +12,8 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Fine Arts</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Fine Arts</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to <br> <span style="font-weight:700!important;">College of </span>Fine Arts</h1>
+                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to<span>College of </span>Fine Arts</h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -127,7 +127,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Fine Arts, among the top Colleges for Fine Arts Courses</h2>
+                <h2 class="college-main-heading">College of Fine Arts, among the top Colleges for Fine Arts </h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5"> 
                         <p style="text-align: justify;">College of Fine Arts established in 2011 at Teerthanker Mahaveer University (TMU), is renowned for its exceptional offerings in fine arts education.</p>
@@ -217,7 +217,7 @@
                             <p class="p-0 m-0">Teerthanker Mahaveer College of Fine Arts offers several unique facilities to all its students like smart classes, computer lab, spacious art and graphic studio, 3D clay modelling lab, wifi facility, stationary, easels and drawing boards available to all the students.
                         </li>
                         <li>
-                            <p class="p-0 m-0">This top fine arts college facilities library and resource centre that house an extensive collection of art books, reference materials, digital resources, and archives. These facilities provide students and faculty with access to a wide range of artistic literature, research materials, and historical references, supporting their academic pursuits and artistic development.
+                            <p class="p-0 m-0">This top fine arts college facilities library and resource centre that houses an extensive collection of art books, reference materials, digital resources, and archives. These facilities provide students and faculty with access to a wide range of artistic literature, research materials, and historical references, supporting their academic pursuits and artistic development.
                         </li>
                     </ul>
                 </div>
@@ -574,11 +574,11 @@
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
         <p class="text-justify">At TMU, learning extends beyond textbooks. Our faculty comprises highly qualified professionals with extensive industry experience. They not only impart theoretical knowledge but also facilitate hands-on learning through workshops, seminars, and industry collaborations.</p>
 
-        <h3 class="tmu-text-primary mb-0 fs-16"><span>Comprehensive Teaching, </span><span>Learning, and Development Center</span></h3>
-        <p class="text-justify">The College of Fine Arts houses a dedicated center for teaching, learning, and development, equipped with state-of-the-art facilities to foster creativity and innovation among students. This center serves as a hub for artistic experimentation, research, and interdisciplinary collaboration.</p>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Comprehensive Teaching, </span><span>Learning, and Development Centre</span></h3>
+        <p class="text-justify">The College of Fine Arts houses a dedicated centre for teaching, learning, and development, equipped with state-of-the-art facilities to foster creativity and innovation among students. This centre serves as a hub for artistic experimentation, research, and interdisciplinary collaboration.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Global Career </span><span> Prospects</span></h3>
-        <p class="text-justify">TMU offers global career prospects to its fine arts graduates. Through strategic partnerships with renowned art organizations and international internship opportunities, students gain invaluable exposure to diverse cultural contexts and real-world artistic practices, preparing them for a successful career in the global art industry.</p>
+        <p class="text-justify">TMU offers global career prospects to its fine arts graduates. Through strategic partnerships with renowned art organisations and international internship opportunities, students gain invaluable exposure to diverse cultural contexts and real-world artistic practices, preparing them for a successful career in the global art industry.</p>
 
     </div>
     <hr class="horizontal-line">
@@ -600,7 +600,7 @@
         <p class="text-justify">TMU features modern classrooms designed to facilitate interactive learning sessions. Equipped with advanced technology and conducive to collaborative learning, these classrooms enhance the overall academic experience of students.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Educational Seminars and </span><span> Conferences</span></h3>
-        <p class="text-justify">The College of Fine Arts regularly organizes educational seminars and conferences, inviting industry experts and scholars to share insights and trends in the field of fine arts. These events enrich students' knowledge and broaden their perspectives on contemporary art practices.</p>
+        <p class="text-justify">The College of Fine Arts regularly organises educational seminars and conferences, inviting industry experts and scholars to share insights and trends in the field of fine arts. These events enrich students' knowledge and broaden their perspectives on contemporary art practices.</p>
 
     </div>
     <!-- Add the horizontal line here -->
@@ -651,7 +651,7 @@
     <button class="careers-accordion">Specialisations Offered <span class="icon">+</span></button>
     <div class="panel">
         <h3 class="tmu-text-primary fs-16 mb-1"><span> BFA, MFA, and </span><span>PhD Programmes</span></h3>
-        <p class="text-justify">TMU provides a range of specialized programmes including Bachelor of Fine Arts (BFA), Master of Fine Arts (MFA), and PhD in Fine Arts. These programmes cater to diverse interests and career aspirations, offering comprehensive training in specific areas of artistic expertise.</p>
+        <p class="text-justify">TMU provides a range of specialised programmes including Bachelor of Fine Arts (BFA), Master of Fine Arts (MFA), and PhD in Fine Arts. These programmes cater to diverse interests and career aspirations, offering comprehensive training in specific areas of artistic expertise.</p>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">

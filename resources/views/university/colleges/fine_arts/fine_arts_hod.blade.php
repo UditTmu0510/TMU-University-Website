@@ -27,18 +27,18 @@
                         Our results have been extremely encouraging, and our students are placed in a variety of
                         esteemed creative fields in the industry, like Advertising, Art Direction, Interface Design,
                         E-learning, Web Design, Exhibition Design, Product Design, Merchandising, Branding, Motion
-                        Graphics, Photography, Profession Artist , Teaching in Art Profession etc.
+                        Graphics, Photography, Profession Artist, Teaching in Art Profession etc.
                     </p>
                     <p class="mb-3">
-                        Many of our students pursue higher education, and get admitted in internationally acclaimed
+                        Many of our students pursue higher education and get admitted to internationally acclaimed
                         design institutions in India as well as abroad. This shows the commitment of our staff as well
                         as students towards imparting international education to provide global career for our students.
                     </p>
-                    <p class="mb-3">I hope as HoD to continue to grow such excellence, and I appreciate guidance of our
+                    <p class="mb-3">I hope as HoD to continue to grow with such excellence, and I appreciate guidance of our
                         management and participation of staff and students in the endeavor towards excellence.
                     </p>
                     <p class="mb-3">
-                        As HoD I am very proud of the College achievements and I am absolutely confident that at TMU
+                        As HoD I am very proud of the College's achievements and I am absolutely confident that at TMU
                         College of Fine Arts we not only educate every student, but cater for individual needs and a
                         highly sustainable future, thus ensuring good citizens of India.</p>
                     <div class="person-details ps-0">Ravindra Dev <br><span>(HoD)</span>

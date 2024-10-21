@@ -43,9 +43,10 @@
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+           
+                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
                     <br>
-                    <span class="d-block pt-1">Placement Rate</span>
+                    <span class="d-block pt-1">Students</span>
                 </div>
             </div>
         </div>
@@ -91,9 +92,9 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
                                 <br>
-                                <span class="d-block pt-1">Placement Rate</span>
+                                <span class="d-block pt-1">Students</span>
                             </div>
                         </div>
                     </div>
@@ -151,19 +152,19 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
 
-                            <div class="swiper-slide"><img src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
 
                         </div>
                         <!-- Add pagination -->
@@ -356,7 +357,7 @@ $i++;
                                     <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
                                         <div class="col-md-5 mb-md-0">
                                             <a href="{{ url('blog/' . $blog->n_slug) }}" class="entry-image mb-0 h-100">
-                                                <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover">
+                                                <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover" loading="lazy">
                                                 <div class="bg-overlay">
                                                     <div class="bg-overlay-content justify-content-start align-items-start">
                                                         <div class="badge bg-light text-dark rounded-pill">Latest Blog</div>
@@ -417,7 +418,7 @@ $i++;
                                     <div class="grid-inner row g-0">
                                         <div class="col-auto">
                                             <div class="entry-image">
-                                                <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image"></a>
+                                                <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image" loading="lazy"></a>
                                             </div>
                                         </div>
                                         <div class="col ps-3">
@@ -446,113 +447,198 @@ $i++;
 
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>20, October</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Women Empowerment Cell, Faculty of Engineering, and CCSIT are going to
-                                        organise International Women's Day</p>
+                                    <p>The Alumni Relations Cell is organising a session on 'Future Investment Insights: Grow Your Wealth Wisely,' featuring esteemed alumni and industry experts. All faculty members and students of CCSIT and FoE are invited to attend.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 09,
-                                        March</span>
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>17, October</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Department of Mechanical Engineering is hosting a one-day workshop on "Drone
-                                        Technology" in association with ESTC Ramnagar.</p>
+                                    <p>CCSIT is organising IEEE Day TechnoFest 2k24, a 3-day event featuring expert sessions & competitions. Students from all disciplines are invited to participate and learn various technical and professional skills.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 15,
-                                        March</span>
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>09, September</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Computer Science and Engineering Department is organising a Digital/Physical
-                                        Poster Competition on the topic "Mera Pehla Vote-Desh ke liye</p>
+                                    <p>CCSIT is organising a fest to celebrate Navratri. All faculty and staff members are cordially invited to attend the event.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>08, October</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Poster/Animation Competition to celebrate 'Colours of Vijayadashami'. All CCSIT students and members are invited to participate.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>03, October</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Drawing Competition with the theme 'Anime Character.' All CCSIT students are invited to participate and win exciting prizes. For any queries, contact 9410253656.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>20, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>IQAC, FOE is organising an Information Session on GATE & JAM Exams for Masters, in collaboration with IIT Roorkee, featuring Prof. Ankik Kumar Giri, Dept. of Mathematics, IIT Roorkee. All 3rd & final-year B.Tech/B.Sc students are invited.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>20, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Department of BCA and MCA, CCSIT is organising an online guest lecture on 'Digital Marketing & Social Media Strategies' by Mr Vikas Nain, Co-Founder of The Triad and Assistant Professor of Digital Marketing at PIET.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>15, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g"><p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p></a>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                        TMU Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, September</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                            <div class="notice-pub">
+                                    <span>12, September</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>CCSIT is organising a Mentorship-Mentee Programme in various skills, featuring Master Classes under the banner of the IEEE Student Branch, to promote IEEE awareness and skill development among students.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21,
-                                        March</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 13 to 17, September</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, September</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Cultural Club of CCSIT is organisng a student fest for Holi, "SPLASH-The Joy
-                                        of Colors".</p>
+                                    <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20,
-                                        March</span>
+                                    TMU Campus </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
+                                        September </span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>29, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>Students may register for the 14th edition of Mega Quiz Khoj-2024 which is being
-                                        organised by the Techno Club (CCSIT).</p>
+                                    <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Auditorium</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14,
-                                        March</span>
+                                        Paramedical College</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Department of Physics is going to organise National Science Day with various
-                                        activities and competitions</p>
+                                    <p>TMU's NSS Unit is organising the 3rd Tiranga Yatra at 01:30 pm to celebrate India's 78th Independence Day. All students, teaching and non-teaching staff are requested to participate and make the event memorable.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        LT-6, CCSIT </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
-                                        February</span>
+                                    TMU Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>01, April</span>
+                                    <span>14, August</span>
                                 </div>
                                 <div class="notice-content">
-                                    <p>The Electronics and Communication Engineering Department is organising a Guest
-                                        Lecture on "Process of Innovation & Technology Readiness Level".</p>
+                                    <p>The Department of Physiotherapy is organising an event titled 'AI & Independence Extravaganza,' featuring Mr Shivam Kashyap, a Soft Skill Trainer, as the speaker.</p>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        LT-6, FOE</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24,
-                                        February</span>
+                                    Dept. of Physiotherapy </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>08, August</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Free Thinkers Club, Department of Humanities, is organising a Speech Competition and Poem Recitation on the occasion of Independence Day. Register by 8th August. Contact us for more details.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                        CCSIT Campus</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, August</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
@@ -588,7 +674,7 @@ $i++;
         <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
@@ -602,7 +688,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
@@ -615,7 +701,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
@@ -628,7 +714,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
@@ -640,7 +726,7 @@ $i++;
             </div>
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
