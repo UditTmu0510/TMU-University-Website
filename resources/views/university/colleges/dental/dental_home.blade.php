@@ -15,7 +15,7 @@
                     <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to  <br> <span style="font-weight:700!important;">the Dental College  </span> & Research Centre</h1>
                     <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to  <span> the Dental College  </span> & Research Centre</h1>
               
-                    <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
+                    
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
