@@ -147,7 +147,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
+                <h1 class="college-main-heading">Faculty of Education, One of the top Education Colleges</h1>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: center;"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
@@ -182,7 +182,7 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li>Get guidance and attend practice sessions for various competitive exams,including TGT, PGT, CTET, Super TET, NET, JRF, and more.</li>
+                        <li>Get guidance and attend practice sessions for various competitive exams, including TGT, PGT, CTET, Super TET, NET, JRF, and more.</li>
                         <li>Participate in Scouts and Guides along with National Service Scheme (NSS) activities.</li>
                         <li>Attend classes to enhance your soft skills and communication skills, preparing you for a successful career.</li>
                     </ul>
@@ -605,7 +605,7 @@
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Enhancing Skills Beyond the</span><span> Classroom</span></h3>
                 <p class="text-justify">TMU's Centre for Teaching, Learning, and Development is a hub of innovative programs aimed at enhancing students' skills beyond traditional academic learning.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Innovative Programmes and</span><span> Workshops</span></h3>
-                <p class="text-justify">From workshops on pedagogical techniques to seminars on educational trends, our center provides opportunities for students to engage in continuous professional development, ensuring they stay ahead in the dynamic field of education.</p>
+                <p class="text-justify">From workshops on pedagogical techniques to seminars on educational trends, our centre provides opportunities for students to engage in continuous professional development, ensuring they stay ahead in the dynamic field of education.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Hands-On Learning</span><span> Initiatives</span></h3>
                 <p class="text-justify">Practical teaching demonstrations, collaborative projects, and community engagement initiatives are integral parts of our curriculum, offering students hands-on experience and fostering critical thinking and problem-solving skills.</p>
             </div>
@@ -927,7 +927,7 @@
                 <p class="text-justify">Ans: TMU provides comprehensive support to international students, including visa assistance, accommodation options, cultural orientation programs, and access to global internships. Our inclusive campus environment welcomes students from around the world, fostering cross-cultural understanding and collaboration.</p>
 
                 <p class="text-justify"><strong>Q. What facilities does TMU offer for practical learning?</strong></p>
-                <p class="text-justify">Ans: TMU boasts state-of-the-art laboratories, modern classrooms with advanced technology, and dedicated centers for teaching, learning, and development. These facilities enable students to gain hands-on experience, conduct research, and participate in practical teaching demonstrations, enhancing their skills and knowledge.</p>
+                <p class="text-justify">Ans: TMU boasts state-of-the-art laboratories, modern classrooms with advanced technology, and dedicated centres for teaching, learning, and development. These facilities enable students to gain hands-on experience, conduct research, and participate in practical teaching demonstrations, enhancing their skills and knowledge.</p>
 
                 <p class="text-justify"><strong>Q. Can students participate in extracurricular activities at TMU?</strong></p>
                 <p class="text-justify">Ans: Yes, TMU encourages students to engage in extracurricular clubs, sports championships, cultural events, and community service initiatives. These activities contribute to holistic development, leadership skills, and a vibrant campus life experience.</p>
