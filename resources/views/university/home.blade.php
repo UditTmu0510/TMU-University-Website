@@ -151,19 +151,19 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
 
-                            <div class="swiper-slide"><img src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
-                            <div class="swiper-slide"><img src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
 
                         </div>
                         <!-- Add pagination -->
@@ -356,7 +356,7 @@ $i++;
                                     <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
                                         <div class="col-md-5 mb-md-0">
                                             <a href="{{ url('blog/' . $blog->n_slug) }}" class="entry-image mb-0 h-100">
-                                                <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover">
+                                                <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover" loading="lazy">
                                                 <div class="bg-overlay">
                                                     <div class="bg-overlay-content justify-content-start align-items-start">
                                                         <div class="badge bg-light text-dark rounded-pill">Latest Blog</div>
@@ -417,7 +417,7 @@ $i++;
                                     <div class="grid-inner row g-0">
                                         <div class="col-auto">
                                             <div class="entry-image">
-                                                <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image"></a>
+                                                <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image" loading="lazy"></a>
                                             </div>
                                         </div>
                                         <div class="col ps-3">
@@ -453,9 +453,9 @@ $i++;
                                         organise International Women's Day</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 09,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 09,
                                         March</span>
                                 </div>
                             </div>
@@ -469,9 +469,9 @@ $i++;
                                         Technology" in association with ESTC Ramnagar.</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         Conference Room</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 15,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 15,
                                         March</span>
                                 </div>
                             </div>
@@ -485,9 +485,9 @@ $i++;
                                         Poster Competition on the topic "Mera Pehla Vote-Desh ke liye</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 21,
                                         March</span>
                                 </div>
                             </div>
@@ -501,9 +501,9 @@ $i++;
                                         of Colors".</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 20,
                                         March</span>
                                 </div>
                             </div>
@@ -517,9 +517,9 @@ $i++;
                                         organised by the Techno Club (CCSIT).</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         Auditorium</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 14,
                                         March</span>
                                 </div>
                             </div>
@@ -533,9 +533,9 @@ $i++;
                                         activities and competitions</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         LT-6, CCSIT </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 28,
                                         February</span>
                                 </div>
                             </div>
@@ -549,9 +549,9 @@ $i++;
                                         Lecture on "Process of Innovation & Technology Readiness Level".</p>
                                 </div>
                                 <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
                                         LT-6, FOE</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24,
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px" loading="lazy"> 24,
                                         February</span>
                                 </div>
                             </div>
@@ -588,7 +588,7 @@ $i++;
         <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
@@ -602,7 +602,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
@@ -615,7 +615,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
@@ -628,7 +628,7 @@ $i++;
 
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.webp" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(0)"><img src="./assets/img/university/testimonial-thumbnail/saloni-jain.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
@@ -640,7 +640,7 @@ $i++;
             </div>
             <div class="item">
                 <div class="card shadow-sm mb-2">
-                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..."></a>
+                    <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
