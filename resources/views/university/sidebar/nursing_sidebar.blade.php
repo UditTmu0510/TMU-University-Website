@@ -14,8 +14,8 @@
             <a href="{{ route('nursing.dean') }}" class="custom-menu-item {{ setActive('nursing.dean') }}">
                 <p>Dean's Desk</p>
             </a>
-            <a href="{{ route('nursing.viceprincipal') }}" class="custom-menu-item {{ setActive('nursing.viceprincipal') }}">
-                <p>Vice Principal's Desk</p>
+            <a href="{{ route('nursing.viceprincipal') }}" class="custom-menu-item {{ setActive('nursing_viceprincipal') }}">
+                <p>Principal's Desk</p>
             </a>
             <a href="{{ route('nursing.college.advisory.board') }}" class="custom-menu-item {{ setActive('nursing.college.advisory.board') }}">
                 <p>College Advisory Board</p>
