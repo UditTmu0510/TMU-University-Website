@@ -34,7 +34,7 @@
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Better Placement </div>
-                            <p class="text-justify">CTLD has a strong team of 17 trainers, who have long experience of preparing students for placements into world-class companies. They are always aware of current skills requirements of the companies; hence, they prepare students in planned and systematic way. After creation of CTLD, the placements of TMU have improved phenomenally.</p>
+                            <p class="text-justify">CTLD has a strong team of 18 trainers, who have long experience of preparing students for placements into world-class companies. They are always aware of current skills requirements of the companies; hence, they prepare students in planned and systematic way. After creation of CTLD, the placements of TMU have improved phenomenally.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft ">
