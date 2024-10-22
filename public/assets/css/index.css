@@ -1294,46 +1294,7 @@ CSS For Mobile View
         display: none;
     }
 
-    #main--menubar>.left-section ul>i {
-        position: absolute;
-        bottom: 2rem;
-        right: 1rem;
-        color: white;
-        font-size: 1.6rem;
-        animation: moving 3s ease infinite, fade 3s ease infinite alternate-reverse;
-    }
-
-    .super-fade {
-        display: none;
-    }
-
-    @keyframes fade {
-        0% {
-            opacity: 0.3;
-        }
-
-        50% {
-            opacity: 1;
-        }
-
-        100% {
-            opacity: 0.3;
-        }
-    }
-
-    @keyframes moving {
-        0% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(100%);
-        }
-
-        100% {
-            transform: translateY(0);
-        }
-    }
+    
 
 
 
@@ -1388,7 +1349,68 @@ CSS For Mobile View
 
 
 }
+.university-nav{
+    position: relative;
+}
+#main--menubar>.left-section ul>i {
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    color: white;
+    font-size: 1.6rem;
+    animation: moving 3s ease infinite, fade 3s ease infinite alternate-reverse;
+}
 
+.super-fade {
+    display: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes moving {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#main--menubar>.left-section ul>i>span{
+
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+
+    #main--menubar>.left-section ul>i {
+        
+        right: 3rem;
+        font-size: 1.2rem;
+    }
+    #main--menubar>.left-section ul>i>span{
+        font-size: 10px;
+        display: block;
+    }
+    
+}
 /* <!-- ---------------Main Navbar CSS COMPLETED----------- --> */
 
 
