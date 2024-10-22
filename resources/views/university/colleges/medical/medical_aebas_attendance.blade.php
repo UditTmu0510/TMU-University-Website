@@ -86,13 +86,23 @@
                                             </tr>
                                             <tr>
                                                 <td class="text-center">12.</td>
-                                                <td class="text-center">18.09.2024</td>
+                                                <td class="text-center">18.10.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/18th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">13.</td>
-                                                <td class="text-center">19.09.2024</td>
+                                                <td class="text-center">19.10.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/19th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">14.</td>
+                                                <td class="text-center">21.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/21st-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">15.</td>
+                                                <td class="text-center">22.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/22nd-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
                                             
                                         </tbody>
