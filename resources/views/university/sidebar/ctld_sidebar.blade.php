@@ -43,12 +43,12 @@
                 <p>Events</p>
             </a>
         </div>
-        <h2>Quick Links</h2>
+        <!-- <h2>Quick Links</h2>
         <div class="account-section">
             <a href="#" class="custom-menu-item {{ setActive('contact.us') }}">
                 <p>Contact Us</p>
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="toggle-btn" style="color: #fff;" id="sidebarToggle"><i class="fas fa-bars" style="transform: rotate(90deg);"></i></div>

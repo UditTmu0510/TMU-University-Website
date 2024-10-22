@@ -278,7 +278,7 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;">
+        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;" title="This button provides access to both the college and university menus. Click here to explore the available options.">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block"> Menu</span>
         </div>
