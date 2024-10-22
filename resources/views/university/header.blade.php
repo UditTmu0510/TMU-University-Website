@@ -94,7 +94,7 @@
                 <div class="expandable-button d-none d-sm-block" id="button1">
                     <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
-                    <span class="text">Enquire Now</span>
+                    <span class="text">Admissions Open</span>
                 </div>
             </a>
             <!-- <a href="tel:18002701490" target="blank">
@@ -107,7 +107,7 @@
             <a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="blank">
                 <div class="expandable-button d-none d-sm-block" id="button3">
                     <img src="{{asset('assets/img/icons/whatsapp-side.svg')}}" width="25px" alt="Icon 1">
-                    <span class="text">Whatsapp</span>
+                    <span class="text">Whatsapp Chat</span>
                 </div>
             </a>
         </div>

@@ -2823,7 +2823,7 @@ body {
     padding: 8px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 200px;
+    width: 205px;
     height: 40px;
     display: flex;
     justify-content: flex-start;
@@ -2840,8 +2840,8 @@ body {
 
 .expandable-button .text {
     white-space: nowrap;
-    margin-left: 20px;
-    padding: 10px;
+    margin-left: 6px;
+    padding: 4px;
     color: #ff7900;
 }
 
@@ -2850,7 +2850,7 @@ body {
 }
 
 .expandable-button:hover {
-    width: 200px;
+    width: 205px;
 }
 
 
