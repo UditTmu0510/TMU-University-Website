@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="main-content">
-  <div class="container" style="max-width: 70vw !important;">
+  <div class="container" >
     <h1 class="tmu-text-primary tmu-page-heading"><span>List of Open Elective Courses </span><span> under Choice Based Credit System</span></h1>
     <div class="table-responsive mb-3">
       <table class="table table-bordered table-striped">
