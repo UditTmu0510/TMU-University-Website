@@ -423,7 +423,7 @@ function addSuperFadeClass(element) {
 
 // Event listener for scrolling
 document.querySelector('.university-nav').addEventListener('scroll', function () {
-    var icon = this.querySelector('.bi-chevron-double-down');
+    var icon = this.querySelector('.scroll-down-icon');
     addSuperFadeClass(icon);
 });
 
@@ -481,7 +481,10 @@ function resetMainMenubar() {
         <span><img class="fs-18" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
         Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>
 
-    <i class="bi bi-chevron-double-down" onclick="scrollToBottom(this)"></i>
+    <i class="text-center scroll-down-icon" onclick="scrollToBottom(this)">
+        <span>Scroll for University menu</span>
+        <i class="bi bi-chevron-double-down"></i>
+    </i>
 						
 					`;
 
