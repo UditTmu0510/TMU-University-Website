@@ -174,7 +174,15 @@
 
     .box {
         background-color: #EFEFEF;
+        width: 90vw;
         max-width: 1200px;
+    }
+
+    @media screen and (min-width: 901px) {
+        .box {
+            width: 70vw;
+        }
+
     }
 </style>
 
@@ -189,7 +197,7 @@
 <!-- Content
 		============================================= -->
 <div class="main-content">
-    <div class="container">
+    <div class="container justify-content-center">
 
         <div class="row justify-content-center">
 
@@ -268,6 +276,13 @@
                             </h2>
                         </div>
                     </div>
+                    <!-- Repeat the above book structure for additional books -->
+                    <!-- ... -->
+                </div>
+
+                <div class="container">
+                    <div class="bookshelf"></div>
+
                     <div class="book">
                         <div class="front">
                             <div class="cover">
@@ -282,12 +297,6 @@
                         </div>
                     </div>
 
-                    <!-- Repeat the above book structure for additional books -->
-                    <!-- ... -->
-                </div>
-
-                <div class="container">
-                    <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">
                             <div class="cover">
@@ -344,6 +353,10 @@
                             </h2>
                         </div>
                     </div>
+
+                </div>
+                <div class="container">
+                    <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">
                             <div class="cover">
@@ -386,6 +399,8 @@
                             </h2>
                         </div>
                     </div>
+
+
                 </div>
 
                 <h2 class="tmu-text-primary mb-2 mt-5"><span>Journals</span><span></span></h2>
@@ -661,7 +676,7 @@
 
 
         <section class="d-block d-sm-none">
-        <h2 class="tmu-text-primary mb-3 mt-3 text-center"><span>Annual</span><span> Reports</span></h2>
+            <h2 class="tmu-text-primary mb-3 mt-3 text-center"><span>Annual</span><span> Reports</span></h2>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
@@ -690,7 +705,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank"/>
+                                            <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
