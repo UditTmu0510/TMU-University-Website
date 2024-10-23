@@ -322,7 +322,6 @@
 }
 </style>
 
-
 <!-- Page Title -->
 <section class="news-page-title page-title bg-transparent">
     <div class="container">
@@ -743,9 +742,9 @@
                                 <div class="form-widget">
                                     <div id="success-message" class="alert alert-success" style="display: none;"></div>
 
-                                    <form class="mb-0" id="comment-form" name="comment-form" method="post" action="{{ route('blog.comments', $post->id) }}">
+                                    <form class="mb-0" id="comment-form" name="comment-form" method="post" >
                                         @csrf
-                                        <input type="hidden" name="post_id" value="{{ $post->id }}">
+                                        <input type="hidden" name="post_id" value="{{ $blog->id }}">
                                         <input type="hidden" name="parent_id" value="0">
 
                                         <div class="form-process" style="display: none;">
@@ -935,43 +934,48 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('comment-form');
-        const spinner = document.querySelector('.form-process');
-        const successMessage = document.getElementById('success-message');
+    const form = document.getElementById('comment-form');
+    const spinner = document.querySelector('.form-process');
+    const successMessage = document.getElementById('success-message');
+    const submitButton = form.querySelector('button[type="submit"]');
 
-        form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent default form submission
-            spinner.style.display = 'block'; // Show the spinner
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        spinner.style.display = 'block'; // Show the spinner
+        submitButton.disabled = true; // Disable the button to prevent double submission
 
-            // Create a FormData object
-            const formData = new FormData(form);
+        // Create a FormData object
+        const formData = new FormData(form);
+        const url = "{{ route('blog.comments', $blog->id) }}";
 
-            // Send the AJAX request
-            fetch(form.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                })
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    spinner.style.display = 'none'; // Hide the spinner
-                    if (data.success) {
-                        successMessage.textContent = data.message;
-                        successMessage.style.display = 'block'; // Show success message
-                        form.reset(); // Reset the form
-                    }
-                })
-                .catch(error => {
-                    spinner.style.display = 'none'; // Hide the spinner
-                    console.error('Error:', error);
-                });
-        });
+        // Send the AJAX request
+        fetch(url, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                spinner.style.display = 'none'; // Hide the spinner
+                if (data.success) {
+                    successMessage.textContent = data.message;
+                    successMessage.style.display = 'block'; // Show success message
+                    form.reset(); // Reset the form
+                }
+            })
+            .catch(error => {
+                spinner.style.display = 'none'; // Hide the spinner
+                console.error('Error:', error);
+            })
+            .finally(() => {
+                submitButton.disabled = false; // Re-enable the button after the request is complete
+            });
     });
+});
+
 </script>
 
 
