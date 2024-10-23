@@ -5,6 +5,10 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{route('exam.overview')}}" class="custom-menu-item {{ setActive('iqac.about') }}">
+                <i class="bi bi-arrow-left-circle" style="color:tmu-color-blue; font-size:20px; padding-top:2px;"></i>
+                <p>Back to Examination Page</p>
+            </a>
             <a href="{{ route('cbcs.home') }}" class="custom-menu-item {{ setActive('cbcs.home') }}">
                 <p>Overview</p>
             </a>
