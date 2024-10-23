@@ -15,9 +15,7 @@
           <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About </span><span>University</span></h1>
 
           <div class="col-lg-12">
-            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">On National Highway 9, 144 Km from New
-              Delhi, TMU stands committed to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge and Right Conduct in all spheres
-              of activity and aspires to be the ultimate destination for world-class education.</h4>
+            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Located 144 km from New Delhi along National Highway 9, TMU upholds the ideals of Lord Mahaveer—Right Philosophy, Right Knowledge, and Right Conduct in every aspect of its activities. The university is a leading destination for world-class education.</h4>
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -25,18 +23,18 @@
                 <a class="grid-item" href="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" class="d-block mx-auto" alt="Gallery Thumb 1"></a>
               </div>
               <div class="col-lg-8 mt-2 mb-2">
-                <p class="text-justify fs-14">As a multi-disciplinary varsity, we offer
+                <p class="text-justify fs-14 mb-2">As a multi-disciplinary varsity, we offer
                   career-oriented programmes
                   at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams of <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
                     <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank"> Polytechnic</a>,
                     <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="#" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
                 </p>
 
-                <p class="text-justify fs-14">TMU provides a unique environment for students to
+                <p class="text-justify fs-14 mb-2">TMU provides a unique environment for students to
                   grow under the guidance of experienced academicians and acquire the creative and technical skills demanded to make them industry ready. Our brilliant faculty and staff form a dedicated team committed to the
                   mission of the University. Being a dynamic, research-oriented University devoted to developing life-saving discoveries to address some of the most pressing global challenges.</p>
 
-                <p class="text-justify fs-14">Education at TMU is not just about books and
+                <p class="text-justify fs-14 mb-2">Education at TMU is not just about books and
                   classrooms, but also about personality development and honing special skills. We provide an environment conducive to
                   teaching and learning supported by innovative practices. </p>
                 <p class="text-justify fs-14 mb-4"> Being one of the best private university, we have state-of-the-art laboratories and research facilities, well-planned residential space, and an excellent ecosystem for extra-curricular activities. The campus is wi-fi enabled and uses advanced technology to
