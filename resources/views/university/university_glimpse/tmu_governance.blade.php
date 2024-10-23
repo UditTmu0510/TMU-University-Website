@@ -780,13 +780,13 @@
             <table class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th rowspan="2" style="text-align:center;vertical-align: text-top;">#
+                  <th rowspan="2">#
                   </th>
-                  <th rowspan="2" style="text-align:center;vertical-align: text-top;">
+                  <th rowspan="2">
                     College / Department Name</th>
-                  <th rowspan="2" style="text-align:center;vertical-align: text-top;">
+                  <th rowspan="2">
                     Composition</th>
-                  <th colspan="5" class="text-center"><strong>Minutes of
+                  <th colspan="9" class="text-center"><strong>Minutes of
                       Meeting</strong></th>
                 </tr>
                 <tr class="text-center">
@@ -797,6 +797,7 @@
                   <th class="text-center">2018-19</th>
                   <th class="text-center">2017-18</th>
                   <th class="text-center">2016-17</th>
+                  <th class="text-center">2015-16</th>
                 </tr>
               </thead>
               <tbody>
@@ -804,10 +805,8 @@
                   <td class="text-center">1</td>
                   <td>Medical College &amp; Research Centre<br><br>M.Sc. Medical Programme
                   </td>
-
                   <td>
-                    <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_medical.pdf')}}"
-                        target="_blank">View</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_medical.pdf')}}" target="_blank">View</a></center>
                   </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Biochemistry.pdf')}}"
@@ -850,6 +849,7 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2021-22/tmmcrc_2021_22.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td></td>
                   <td>
                     <center>-----</center>
                   </td>
@@ -907,6 +907,7 @@
                         href="{{asset('/assets/pdf/bos_minutes/Dental/2016-17/BOS_0001_BOS_0002_merged.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td class="text-center">3</td>
@@ -1194,6 +1195,7 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/CCSIT/2016-17/BoS -2016 ccsit.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td class="text-center">10</td>
@@ -1245,6 +1247,7 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2016-17/BOS CIVIL_0001_merged.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td class="text-center">11</td>
@@ -1282,6 +1285,7 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2016-17/BOS_0001.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td class="text-center">12</td>

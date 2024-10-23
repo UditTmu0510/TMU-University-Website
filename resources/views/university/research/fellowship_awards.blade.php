@@ -26,108 +26,108 @@
               <tbody>
 
                 <tr>
-                  <td>1</td>
+                  <td class="text-center">1</td>
                   <td>Bishnanand Dubey</td>
                   <td>Letter of Appreciation in 2nd National Virtual Moot Court
                     Competiotion</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>2</td>
+                  <td class="text-center">2</td>
                   <td>Dr. Piyush Mittal</td>
                   <td>Collaborative Research</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>3</td>
+                  <td class="text-center">3</td>
                   <td>Dr. Medha Roy</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>4</td>
+                  <td class="text-center">4</td>
                   <td>Dr. Anubha Jain</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>5</td>
+                  <td class="text-center">5</td>
                   <td>Dr. Ayushi Agarwal</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>6</td>
+                  <td class="text-center">6</td>
                   <td>Dr. Ritu Kumari</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>7</td>
+                  <td class="text-center">7</td>
                   <td>Dr. Malvika Agarwal</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>8</td>
+                  <td class="text-center">8</td>
                   <td>Dr. Aarti</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>9</td>
+                  <td class="text-center">9</td>
                   <td>Dr. Sushma Singh</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>10</td>
+                  <td class="text-center">10</td>
                   <td>Dr. Sweety Singh</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
                 <tr>
-                  <td>11</td>
+                  <td class="text-center">11</td>
                   <td>Dr. Manan Phalke</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>12</td>
+                  <td class="text-center">12</td>
                   <td>Dr. Zainab Khan</td>
                   <td>Certificate of Appreciation</td>
-                  <td>2022</td>
+                  <td class="text-center">2022</td>
                 </tr>
 
                 <tr>
-                  <td>13</td>
+                  <td class="text-center">13</td>
                   <td>Dr. Diwaker Pathak</td>
                   <td>Best paper award (overall) in Gold Category on the paper &ldquo;An
                     IoT based
                     Real-Time detection and Notification System for an Economical Solar
                     MPPT
                     Model&rdquo;&nbsp;</td>
-                  <td>2021</td>
+                  <td class="text-center">2021</td>
                 </tr>
 
                 <tr>
-                  <td>14</td>
+                  <td class="text-center">14</td>
                   <td>Dr. Diwaker Pathak</td>
                   <td>Best paper award (in Track) on the paper &ldquo;A Comprehensive
                     Study of Various
                     Bypass Switches and their Applications on PV array for Hotspot
                     Reduction&rdquo;</td>
-                  <td>2021</td>
+                  <td class="text-center">2021</td>
                 </tr>
                 <tr>
                   <td class="text-center" sdval="1">15</td>
