@@ -1,20 +1,70 @@
-let path = "https://test.tmuhospital.com/assets/json/pharmacy_menubarData.json";
+let path = "https://test.tmuhospital.com/assets/json/engineering_menubarData.json";
+let subDirectory = "";
 
 try {
     // Fetch the domain name from the current URL
     let domainName = window.location.hostname;
-    if(domainName == 'localhost' || domainName == "127.0.0.1")
-    {
-        path = "http://"+domainName + ":8000"+"/assets/json/pharmacy_menubarData.json";
-       
+    // Split the domain by '/' and filter out sub-directory
+    let segments = window.location.href.split('/').filter(segment => segment);
+
+    // Get the college name
+    subDirectory = segments[2];
+
+    // Get json name according to it's directory name
+    let jsonName = subDirectoryFinder(subDirectory);
+
+    console.log(jsonName);
+
+    if (domainName == 'localhost' || domainName == "127.0.0.1") {
+        path = "http://" + domainName + ":8000" + "/assets/json/"+ jsonName +".json";
+
     }
-    else{
-        path = "https://"+domainName+"/assets/json/pharmacy_menubarData.json";
+    else {
+        path = "https://" + domainName + "/assets/json/"+ jsonName +".json";
     }
-    
+
 } catch (error) {
     console.error("Error fetching the domain name:", error);
-}// Enable dropdown on hover in Menubar 
+}
+
+//function to return json file name depending on the sub-directory
+function subDirectoryFinder(subDirectory) {
+
+    switch (subDirectory) {
+        case 'medical-college-and-research-centre':
+            return 'medical_menubarData';
+        case 'dental-college-and-research-centre':
+            return 'dental_menubarData';
+        case 'college-of-nursing':
+            return 'nursing_menubarData';
+        case 'college-of-paramedical-sciences':
+            return 'paramedical_menubarData';
+        case 'department-of-physiotherapy':
+            return 'physiotherapy_menubarData';
+        case 'tmimt-college-of-management':
+            return 'tmimt_menubarData';
+        case 'college-of-pharmacy':
+            return 'pharmacy_menubarData';
+        case 'college-of-law-and-legal-studies':
+            return 'law_menubarData';
+        case 'college-of-computing-sciences-and-it':
+            return 'ccsit_menubarData';
+        case 'faculty-of-engineering':
+            return 'engineering_menubarData';
+        case 'college-of-fine-arts':
+            return 'finearts_menubarData';
+        case 'faculty-of-education':
+            return 'education_menubarData';
+        case 'tmimt-college-of-physical-education':
+            return 'physical_education_menubarData';
+        case 'college-of-agriculture-sciences':
+            return 'agriculture_menubarData';
+        default: 
+            return 'menubarData';
+    }
+}
+
+// Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
         const _d = this.querySelector('.dropdown-menu');
@@ -433,37 +483,7 @@ function scrollToBottom(element) {
     addSuperFadeClass(element);
 }
 
-
-
-// Function to reset Main Menubar
-function resetMainMenubar() {
-    const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
-    ulElement.innerHTML = `
-    <h2 class="nav-headings " >College of Pharmacy</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/infrastructure">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Infrastructure </h1> </a></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    <h2 class="nav-headings">University</h2>
+let universityMenuBase = `<h2 class="nav-headings">University</h2>
     <li onclick="showMenuContent(7,this)" ><h1 class="underline__effect">
         <span><img class="fs-18" src="/assets/img/nav_logo/university.svg" width="70%" alt=""></i></span>
         About TMU </h1><i class="bi bi-caret-right-fill"></i></li>
@@ -481,15 +501,28 @@ function resetMainMenubar() {
         Examination</h1><i class="bi bi-caret-right-fill"></i></li>
     <li onclick="showMenuContent(12,this)"><h1 class="underline__effect">
         <span><img class="fs-18" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>
+        Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>`
 
-    <i class="text-center scroll-down-icon" onclick="scrollToBottom(this)">
-        <span>Scroll for University menu</span>
-        <i class="bi bi-chevron-double-down"></i>
-    </i>
-						
-					`;
 
+
+// Function to reset Main Menubar
+function resetMainMenubar() {
+    const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
+    // ulElement.innerHTML =
+
+    let html = menubarFirstview[subDirectory] || '1';
+
+    if(html === '1')
+    {
+        html = universityMenuBase;
+    }
+    else{
+        html = html + universityMenuBase + `<i class="text-center scroll-down-icon onclick="scrollToBottom(this)"> <span>Scroll for University menu</span> <i class="bi bi-chevron-double-down"></i></i>`;
+    }
+
+
+
+    ulElement.innerHTML = html;
 
     removeSuperActiveClass();
 }
@@ -1136,9 +1169,9 @@ window.addEventListener('scroll', function () {
 
 
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
     // Simulate a delay (e.g., 2000 milliseconds or 2 seconds)
-    setTimeout(function() {
+    setTimeout(function () {
 
         // Fade Preloader
         document.querySelector(".preloader").style.display = "none";
@@ -1256,3 +1289,393 @@ jQuery(document).ready(function () {
 // -------------------------------------------------------
 // Javascript for cbcs circular (data tables) function implementation End
 // -------------------------------------------------------
+
+
+
+
+
+// complete html for all pages
+const menubarFirstview = {
+    "faculty-of-engineering": `
+    <h2 class="nav-headings " >Faculty of engineering</h2>
+   <li > <h1 class="underline__effect"><a href="/faculty-of-engineering">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+  <li > <h1 class="underline__effect"><a href="/faculty-of-engineering/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-pharmacy":
+    `
+    <h2 class="nav-headings " >College of Pharmacy</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/infrastructure">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Infrastructure </h1> </a></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`     ,
+    "medical-college-and-research-centre":`
+    <h2 class="nav-headings " >Medical College and Research Centre</h2>
+    <li > <h1 class="underline__effect"><a href="/medical-college-and-research-centre">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Approvals </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+            <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/medical-college-and-research-centre/gallery">
+        <span><img class="fs-18" src="assets/img/nav_logo/gallery.svg" width="70%" alt=""></span>
+        Gallery </h1> </a></li>
+
+    
+						
+					`
+    ,
+    "dental-college-and-research-centre":
+    `
+    <h2 class="nav-headings " >Dental College & Research Centre</h2>
+    <li > <h1 class="underline__effect"><a href="/dental-college-and-research-centre">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/dental-college-and-research-centre/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-nursing":
+    `
+    <h2 class="nav-headings " >College of Nursing</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-nursing">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="college-of-nursing/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-paramedical-sciences":
+    `
+    <h2 class="nav-headings " >college of Paramedical Sciences</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-paramedical-sciences">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-paramedical-sciences/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "department-of-physiotherapy":
+    `
+    <h2 class="nav-headings " >Department of Physiotherapy</h2>
+    <li > <h1 class="underline__effect"><a href="/department-of-physiotherapy">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/department-of-physiotherapy/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "tmimt-college-of-management":
+    `
+    <h2 class="nav-headings " >TMIMT COLLEGE OF MANAGEMENT</h2>
+    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="#">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-law-and-legal-studies":
+    `
+    <h2 class="nav-headings " >college of Law & Legal Studies</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        CRILLS </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-computing-sciences-and-it":
+    `
+    <h2 class="nav-headings " >college of computing sciences and it</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-computing-sciences-and-it">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-fine-arts":
+    `
+    <h2 class="nav-headings " >college of Fine Arts</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-fine-arts">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-fine-arts/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "faculty-of-education":
+    `
+    <h2 class="nav-headings " >Faculty Of Education</h2>
+    <li > <h1 class="underline__effect"><a href="/faculty-of-education">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/faculty-of-education/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "tmimt-college-of-physical-education":
+    `
+    <h2 class="nav-headings " >TMIMT college of Physical Education</h2>
+    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-physical-education">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`,
+    "college-of-agriculture-sciences":
+    `
+    <h2 class="nav-headings " >College of Agriculture Sciences</h2>
+    <li > <h1 class="underline__effect"><a href="/college-of-agriculture-sciences">
+        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
+        Home </h1> </a></li>
+    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
+        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
+        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
+        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
+        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
+        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
+        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
+    <li > <h1 class="underline__effect"><a href="/college-of-agriculture-sciences/iqac">
+        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
+        College IQAC </h1> </a></li>
+
+    
+						
+					`                        
+    
+
+}
