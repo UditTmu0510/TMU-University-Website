@@ -8,7 +8,7 @@
             <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> From the Desk </span><span> of Joint Director</span></h1>
 
             <div class="col-sm-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
-                <img src="{{asset('/assets/img/our_team/crc/MR_SIDHARTH_SINGH.jpg')}}"
+                <img src="{{asset('/assets/img/college_departments/CRC/MR_SIDHARTH_SINGH.png')}}"
                     alt="Tangade_dental_principal" height="" width="450">
             </div>
             <div class="col-md-8">
