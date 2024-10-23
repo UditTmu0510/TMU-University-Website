@@ -186,29 +186,28 @@
         /* Set font size */
         line-height: 1.5;
         /* Control line height */
-        color: #333;
+        color: #001055;
         /* Set text color */
         padding-left: 5px;
         /* Space between bullet and text */
     }
 
     #tocList a:hover {
-        color: #007bff;
+        color: #FF7900;
         /* Change color on hover */
     }
 
     /* Ensure default color for visited links */
     #tocList a {
-        color: #333;
+        color: #001055;
         /* Original link color */
         text-decoration: none;
     }
 
     /* Ensure visited links don't change color */
-    #tocList a:visited {
-        color: #333;
-        /* Same as the original color */
-    }
+    /* #tocList a:visited {
+        color: #001055;
+    } */
 
 
     .collapsed {
@@ -258,14 +257,79 @@
 
 </style>
 
+<style>
+    .entry-title h1 {
+    font-size: 1.875rem!important;
+    margin-top: 15px!important;
+    margin-bottom: 20px!important;
+    color: #000!important;
+    line-height: 2.25rem; /* Adjusted for readability */
+    font-weight: 600!important;
+    text-transform: none;
+}
+
+#blogs69 h3 {
+    font-size: 1.25rem!important;
+    margin-top: 8px!important;
+    margin-bottom: 10px!important;
+    color: #434343!important;
+    text-transform: capitalize!important;
+    line-height: 1.75rem; /* Slightly increased */
+}
+
+#blogs69 h2 {
+    font-size: 1.5rem!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    color: #000!important;
+    line-height: 2.25rem; /* Adjusted for better readability */
+    font-weight: 700!important;
+    text-transform: none;
+}
+
+#blogs69 h4 {
+    font-size: 18px!important;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+    color: #000!important;
+    text-transform: capitalize!important;
+    line-height: 1.3rem; /* Increased from 1rem */
+}
+
+#blogs69 p {
+    font-size: 1rem!important;
+    margin-bottom: 6px!important;
+    color: #000!important;
+    text-align: justify;
+}
+
+#blogs69 ul {
+    font-size: 1rem!important;
+    margin-bottom: 10px!important;
+    color: #000!important;
+    list-style-type: disc!important;
+    padding-left: 20px!important; 
+    
+}
+
+#ug747e47 h2 {
+    font-size: 3rem!important;
+    margin-top: 15px!important;
+    margin-bottom: 20px!important;
+    line-height: 2.2rem; /* Increased to match heading size */
+    font-weight: 700!important;
+    text-transform: none;
+}
+</style>
+
 
 <!-- Page Title -->
 <section class="news-page-title page-title bg-transparent">
     <div class="container">
         <div class="page-title-row">
 
-            <div>
-                <h1 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3 pt-3"><span>TMU </span><span> Blogs</span></h1>
+            <div id="ug747e47">
+                <h2 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3 pt-3"><span>TMU </span><span> Blogs</span></h2>
                 <!-- <h2 class="news-page-title-text">TMU Blog</h2> -->
             </div>
 
@@ -286,14 +350,14 @@
     <div class="container">
         <div class="row custom-row2557">
 
-            <main class="col-lg-9 pt-4 ">
+            <main class="col-lg-9 pt-4">
                 <div class="single-post mb-0">
                     <!-- Single Post -->
                     <div class="entry">
 
                         <!-- Entry Title -->
                         <div class="entry-title mb-3">
-                            <h2 class="tmu-text-primary "><span>{{$blog->post_title}}</span><span></span></h2>
+                            <h1 class="tmu-text-primary "><span>{{$blog->post_title}}</span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta -->
