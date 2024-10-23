@@ -8,4 +8,4 @@
 @endif
 <script src="{{asset('js/plugins.min.js')}}"></script>
 <script src="{{asset('js/functions.bundle.js')}}"></script>
-@include('university.footer.tmimt_footer')
+@include('university.footer_college')

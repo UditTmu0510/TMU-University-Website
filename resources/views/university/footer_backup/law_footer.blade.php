@@ -327,7 +327,7 @@
 {{-- <script src="{{asset('assets/js/owl_slider.js')}}"></script> --}}
 <script src="{{asset('js/components/bs-datatable.js')}}"></script>
 
-<script src="{{asset('assets/js/law_menubar.js')}}"></script>
+<script src="{{asset('assets/js/college_menubar.js')}}"></script>
 
 
 
