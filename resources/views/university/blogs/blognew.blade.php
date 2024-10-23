@@ -135,7 +135,17 @@
 	}
 
 
-
+	@media (min-width: 576px) {
+    .blog-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* Limit the title to 2 lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-clamp: 2; /* For non-webkit browsers */
+        height: 3em; /* Set a fixed height, adjust as necessary */
+    }
+}
 
 	#blog_box {
 		cursor: pointer;
@@ -206,7 +216,7 @@
 	@if ($allBlogs->count() > 0)
 	<div class="container container-56789 my-4">
 		<div class="row p-2 mb-3 snipcss0-0-0-1 snipcss-o1qON style-pe7mR" id="style-pe7mR">
-			<div class="fw-bolder fs-5 snipcss0-1-1-2 pt-2">All Blogs</div>
+			<div class="fw-bolder fs-5 snipcss0-1-1-2 pt-2 text-center text-sm-start ">All Blogs</div>
 			<div class="row justify-content-center">
 				@foreach ($allBlogs->take(4) as $item)
 				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">
@@ -225,7 +235,7 @@
 								@endif
 
 								<div class="blog-content">
-									<div class="blog-title">{{ Str::limit($item->post_title, 38) }}</div>
+									<div class="blog-title">{{ $item->post_title }}</div>
 									<div class="blog-description">{{ Str::limit($item->post_description, 40) }}</div>
 								</div>
 							</div>
@@ -250,7 +260,7 @@
 	@if ($blogs->isNotEmpty())
 	<div class="container container-56789 my-4">
 		<div class="row p-2 mb-3 snipcss0-0-0-1 snipcss-o1qON style-pe7mR" id="style-pe7mR">
-			<div class="fw-bolder fs-5 snipcss0-1-1-2 pt-2">{{ $category }}</div>
+			<div class="fw-bolder fs-4 snipcss0-1-1-2 pt-2 text-center text-sm-start">{{ $category }}</div>
 			<div class="row ">
 				@foreach ($blogs->take(4) as $item)
 				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">

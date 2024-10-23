@@ -1,4 +1,3 @@
-
 @extends('layouts.university.main')
 @section('content')
 
@@ -120,8 +119,18 @@
 
 	<div class="row">
 		<div class="col-12">
-			<h2 class="fw-bolder fs-4">Blogs in {{ ucfirst($category) }}</h2>
+
+			@if($category == 'general topics and guides')
+			<h2 class="fw-bolder tmu-text-primary" style="font-size:2rem;line-height:2.25rem;">
+				<span>Blogs in</span><span> {{ ucfirst($category) }}</span>
+			</h2>
+			@else
+			<h2 class="fw-bolder tmu-text-primary" style="font-size:2.5rem;line-height:2.75rem;">
+				<span>Blogs in</span><span> {{ ucfirst($category) }}</span>
+			</h2>
+			@endif
 		</div>
+
 	</div>
 	<div class="row justify-content-center">
 		@foreach ($categoryBlogs as $item)
