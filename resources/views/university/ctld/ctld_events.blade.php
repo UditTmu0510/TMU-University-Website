@@ -172,7 +172,7 @@
                                             <p class="mb-0 text-justify">@php echo $final_string @endphp</p>
                                         </div>
 
-                                        <a href="{{'news/'.$item->n_slug}}" class="tmu-btn btn-1 m-0 py-1 px-2">Read More</a>
+                                        <a href="{{url('news/'.$item->n_slug)}}" class="tmu-btn btn-1 m-0 py-1 px-2">Read More</a>
                                     </div>
                                 </div>
                                 </article>
