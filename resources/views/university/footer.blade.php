@@ -144,7 +144,7 @@ $(document).ready(function() {
                                 <div class="widget">
 
                                     <img style="width: 40%;" alt="Teertahnker mahaveer university logo with name"
-                                        class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}">
+                                        class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}" loading="lazy">
 
 
                                     <!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
