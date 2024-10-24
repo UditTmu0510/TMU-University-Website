@@ -51,7 +51,7 @@
 	============================================= -->
     <title>TMU | New Website</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script> -->
 
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
@@ -77,6 +77,10 @@
 </head>
 
 <body class="stretched is-expanded-menu" data-menu-breakpoint="1200">
+
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
 
 
     <!-- Document Wrapper
