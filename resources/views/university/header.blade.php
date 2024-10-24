@@ -20,17 +20,41 @@
     <link rel="stylesheet" href="{{asset('assets/css/default/bootstrap.min.css')}}">
 
 
-    <!-- css added as per google analytics speed test to improve performance  -->
-    
-    <link rel="preload" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"></noscript>
+    <script>
+  // Function to load a stylesheet
+  function loadStyleSheet(href) {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    document.head.appendChild(link);
+  }
 
+  // Load Font Awesome CSS
+  var fontAwesomeLink = document.createElement('link');
+  fontAwesomeLink.rel = 'preload';
+  fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
+  fontAwesomeLink.as = 'style';
+  fontAwesomeLink.onload = function() {
+    this.rel = 'stylesheet';
+  };
+  document.head.appendChild(fontAwesomeLink);
 
+  // Load Core Style CSS
+  var coreStyleLink = document.createElement('link');
+  coreStyleLink.rel = 'preload';
+  coreStyleLink.href = 'style.css';
+  coreStyleLink.as = 'style';
+  coreStyleLink.onload = function() {
+    this.onload = null; // Avoid calling onload multiple times
+    this.rel = 'stylesheet';
+  };
+  document.head.appendChild(coreStyleLink);
+</script>
 
-    <!-- Core Style -->
-    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
-
+<noscript>
+  <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
+  <link rel="stylesheet" href="style.css">
+</noscript>
 
     <!-- Font Icons -->
     <link rel="stylesheet" href="{{asset('css/font-icons.css')}}">
