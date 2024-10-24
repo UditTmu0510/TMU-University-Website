@@ -1126,10 +1126,6 @@ document.addEventListener("DOMContentLoaded", function() {
 			if (wrapper) {
 				wrapper.style.visibility = 'visible';
 			}
-            var faScript = document.createElement('script');
-            faScript.src = "https://kit.fontawesome.com/0fb07c839c.js";
-            faScript.crossOrigin = "anonymous";
-            document.body.appendChild(faScript);
 
 
 		});
