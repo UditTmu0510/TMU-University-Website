@@ -26,7 +26,9 @@
 
 
     <!-- Core Style -->
-    <link rel="stylesheet" href="{{asset('style.css')}}">
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+
 
     <!-- Font Icons -->
     <link rel="stylesheet" href="{{asset('css/font-icons.css')}}">
