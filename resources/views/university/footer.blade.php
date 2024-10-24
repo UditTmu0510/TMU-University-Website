@@ -349,7 +349,6 @@ $(document).ready(function() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="{{asset('js/components/bs-datatable.js')}}"></script>
 <script src="{{asset('assets/js/index.js')}}"></script>
-<script src="https://kit.fontawesome.com/0fb07c839c.js" defer></script>
 
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
@@ -408,12 +407,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-    // window.addEventListener('load', function () {
-    //     var faScript = document.createElement('script');
-    //     faScript.src = "https://kit.fontawesome.com/0fb07c839c.js";
-    //     faScript.crossOrigin = "anonymous";
-    //     document.body.appendChild(faScript);
-    // });
+    window.addEventListener('load', function () {
+        var faScript = document.createElement('script');
+        faScript.src = "https://kit.fontawesome.com/0fb07c839c.js";
+        faScript.crossOrigin = "anonymous";
+        document.body.appendChild(faScript);
+    });
 
 </script>
 
