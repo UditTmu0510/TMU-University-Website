@@ -22,7 +22,9 @@
 
     <!-- css added as per google analytics speed test to improve performance  -->
     
-    <link rel="stylesheet" href="{{asset('assets/css/default/fontawesome6.2.1.all.min.css')}}">
+    <link rel="preload" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"></noscript>
+
 
 
     <!-- Core Style -->
