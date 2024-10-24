@@ -2070,7 +2070,7 @@ main1>div>a:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    animation: spin 0.5s linear infinite;
+    animation: spin 0s linear infinite;
     margin: 0 auto;
 }
 
