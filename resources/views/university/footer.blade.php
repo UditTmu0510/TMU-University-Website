@@ -416,6 +416,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const mobileVideo = document.getElementById('mobileVideo');
+        const desktopVideo = document.getElementById('desktopVideo');
+
+        if (window.innerWidth < 768) { // Mobile breakpoint (adjust as necessary)
+            mobileVideo.setAttribute('preload', 'auto');
+            desktopVideo.removeAttribute('preload');
+        } else {
+            desktopVideo.setAttribute('preload', 'auto');
+            mobileVideo.removeAttribute('preload');
+        }
+    });
+</script>
+
 </body>
 
 </html>
