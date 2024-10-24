@@ -78,10 +78,6 @@
 
 <body class="stretched is-expanded-menu" data-menu-breakpoint="1200">
 
-    <div class="preloader">
-        <div class="loader"></div>
-    </div>
-
 
     <!-- Document Wrapper
 	============================================= -->
