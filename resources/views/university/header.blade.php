@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 
 <head>
- <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="author" content="SemiColonWeb">
@@ -74,7 +74,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     </noscript>
 
-   
+
 
 
 
@@ -109,7 +109,7 @@
     <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
 
     <!-- <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" rel="stylesheet"> -->
-    
+
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
     <!-- Bootstrap Bundle with Popper -->
@@ -119,12 +119,12 @@
 
     <!-- commenting the below js because no content to call -->
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-     
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
     <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+
 
 
 
@@ -136,15 +136,17 @@
         <div class="loader"></div>
     </div>
 
+    <section style="background-color: #001055;" id="menubar44567">
+        <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
+            <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.webp')}}" alt="" class="navbar-logo"></a>
+        </div>
+    </section>
+
 
     <!-- Document Wrapper
 	============================================= -->
     <div id="wrapper" style="display: block; visibility: hidden;">
-        <section style="background-color: #001055;">
-            <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
-                <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.webp')}}" alt="" class="navbar-logo"></a>
-            </div>
-        </section>
+
 
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
@@ -225,7 +227,7 @@
 
                     <div class="container mobile-inner-nav d-block d-lg-none">
                         <div class="row p-0 m-0">
-                             <div class="col-4 mb-3">
+                            <div class="col-4 mb-3">
                                 <a href="{{route('tmuhome')}}">Home</a>
                             </div>
                             <div class="col-4 mb-3">
@@ -237,7 +239,7 @@
                             <div class="col-4 mb-3">
                                 <a href="{{route('all_blogs')}}">Blogs</a>
                             </div>
-                    <div class="col-4 mb-3">
+                            <div class="col-4 mb-3">
                                 <a href="{{route('alumni.home')}}">Alumni</a>
                             </div>
                             <div class="col-4 mb-3">
@@ -265,9 +267,9 @@
                             <i class="fa-regular fa-circle-xmark"></i>
                         </span>
                     </div>
-                    
-                    
-                     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom d-none d-lg-block">
+
+
+                    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom d-none d-lg-block">
                         <div class="container-fluid">
 
                             <div class="collapse navbar-collapse" id="navbarNav">
@@ -284,10 +286,10 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('all_blogs')}}">Blogs</a>
                                     </li>
-                                          <li class="nav-item">
+                                    <li class="nav-item">
                                         <a class="nav-link" href="{{route('alumni.home')}}">Alumni</a>
                                     </li>
-                           
+
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('crc.home')}}">Placement</a>
                                     </li>
@@ -341,10 +343,10 @@
         </div>
         <!-- Menubar Open Button Completed -->
 
-        
-           <!-- Searchbar code starts here -->
 
-           <div class="search-icon" id="searchIcon">
+        <!-- Searchbar code starts here -->
+
+        <div class="search-icon" id="searchIcon">
             <i class="uil uil-search" style="color:white;"></i>
         </div>
 
