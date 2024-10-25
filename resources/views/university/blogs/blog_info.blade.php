@@ -186,14 +186,14 @@
         /* Set font size */
         line-height: 1.5;
         /* Control line height */
-        color: #001055;
+        color: #001055
         /* Set text color */
         padding-left: 5px;
         /* Space between bullet and text */
     }
 
     #tocList a:hover {
-        color: #FF7900;
+        color: #ff7900;
         /* Change color on hover */
     }
 
@@ -205,9 +205,10 @@
     }
 
     /* Ensure visited links don't change color */
-    /* #tocList a:visited {
+    #tocList a:visited {
         color: #001055;
-    } */
+        /* Same as the original color */
+    }
 
 
     .collapsed {
@@ -497,41 +498,6 @@
                             @endforeach
                         </div>
                     </div>
-                    <!-- <div class="widget">
-                        <h4 class="text-uppercase tmu-text-primary text-start mb-1 mb-md-3 pt-3" style="font-size:24px!important;"><span>Related </span><span> Blogs</span></h4>
-                        <div class="posts-sm" id="related-post-list-sidebar">
-                            @foreach($relatedPosts as $post)
-                            <div class="entry mb-3 d-flex justify-content-between align-items-center"> -->
-                    <!-- Right Content: Image -->
-                    <!-- <div class="entry-image">
-                                    <a href="{{url('blog/'.$post->n_slug)}}">
-                                        <img src="{{asset($post->post_thumb_path)}}" alt="Image" style="width: 50px; height: 50px; object-fit: cover;">
-                                    </a>
-                                </div> -->
-
-                    <!-- Left Content: Title and Date -->
-                    <!-- <div class="entry-content pe-3"> -->
-                    <!-- Blog Title -->
-                    <!-- <h5 class="mb-1" style="font-size: 16px;">
-                                        <a href="{{url('blog/'.$post->n_slug)}}" class="text-dark">
-                                            {{ Str::limit($post->post_title, 50) }}
-                                        </a>
-                                    </h5> -->
-                    <!-- Blog Date -->
-                    <!-- <small class="text-muted" style="font-size: 14px;">
-                                        {{ $post->posted_at->format('jS F Y') }}
-                                    </small>
-                                </div>
-
-
-                            </div>
-                            @endforeach
-                        </div>
-                    </div> -->
-
-
-
-
                     <div class="widget">
                         <h4>Categories</h4>
                         <div class="tagcloud">

@@ -254,8 +254,6 @@ $i++;
                     <h2 class="tmu-text-primary my-3"><span>PROGRAMMES</span> <span>OFFERED</span></h2>
                 </div>
             </div>
-
-
             <!--Accordion code starts here -->
 @foreach ($colleges as $college)
 <button class="careers-accordion" data-collegeId="{{$college->cd_id}}"><span> <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{$college->cd_name}}</span> <span class="icon">+</span></button>
@@ -658,6 +656,54 @@ $i++;
         </div>
     </div>
 </section><!-- #content end -->
+
+
+    <section class="container">
+    <div class="row justify-content-center ">
+                <div class="col-xl-10 col-lg-10 text-center">
+                    <h2 class="tmu-text-primary my-3"><span>Alumni</span> <span>Testimonial</span></h2>
+                </div>
+            </div>
+
+        <div class="testimonial-container">
+            <div class="image-container">
+                <div class="navigation">
+                    <span class="nav-arrow" onclick="showPreviousReview()">&#10094;</span>
+                    <span class="nav-arrow" onclick="showNextReview()">&#10095;</span>
+                </div>
+                <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
+                <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="profile-section">
+                <img id="profile-picture" class="profile-picture" src="" alt="Profile Image" />
+                <div class="profile-details">
+                    <h2 id="profile-name"></h2>
+                    <a id="profile-link" href="#">LinkedIn
+                        <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" /></a>
+                    <div class="profile-info">
+                        <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" /><span id="profile-designation"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" /><span id="profile-company"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" /><span id="profile-course"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" /><span id="profile-graduationYear"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div id="testimonial-wrapper" class="text">
+                    <div class="quote"></div>
+                    <div class="testimonial-title">Rediscovering Dreams with upGrad Campus</div>
+                    <div class="testimonial-text review-text">"I always wanted to be a game developer, so I began searching for universities related to my interest. I found one in Japan and applied. My happiness ..."</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

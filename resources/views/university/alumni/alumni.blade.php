@@ -321,7 +321,7 @@
             </div>
             <div class="col-md-4 text-center text-md-start">
                 <h4>Search and <strong>network</strong> with alums across programs and batches</h4>
-                <a href="#" class="tmu-btn btn-4 py-2 mt-4 ms-2 mt-2">Login / SignUp</a>
+                <a href="http://portal.tmu.ac.in/" class="tmu-btn btn-4 py-2 mt-4 ms-2 mt-2">Login / SignUp</a>
             </div>
         </div>
     </div>
@@ -348,12 +348,12 @@
                 <div class="profile-details">
                     <h2 id="profile-name"></h2>
                     <a id="profile-link" href="#">LinkedIn
-                        <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="icon" /></a>
+                        <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" /></a>
                     <div class="profile-info">
-                        <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="icon" /><span id="profile-designation"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="icon" /><span id="profile-company"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="icon" /><span id="profile-course"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="icon" /><span id="profile-graduationYear"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" /><span id="profile-designation"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" /><span id="profile-company"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" /><span id="profile-course"></span></p>
+                        <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" /><span id="profile-graduationYear"></span></p>
                     </div>
                 </div>
             </div>
@@ -682,48 +682,6 @@
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>14, August</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>TMU's NSS Unit is organising the 3rd Tiranga Yatra at 01:30 pm to celebrate India's 78th Independence Day. All students, teaching and non-teaching staff are requested to participate and make the event memorable.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            TMU Campus</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>14, August</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Department of Physiotherapy is organising an event titled 'AI & Independence Extravaganza,' featuring Mr Shivam Kashyap, a Soft Skill Trainer, as the speaker.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            Dept. of Physiotherapy </span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>08, August</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Free Thinkers Club, Department of Humanities, is organising a Speech Competition and Poem Recitation on the occasion of Independence Day. Register by 8th August. Contact us for more details.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT Campus</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, August</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
 
                             </div>
                         </div>
@@ -866,225 +824,4 @@
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        Highcharts.mapChart('container', {
-            chart: {
-                map: 'custom/world'
-            },
-            title: {
-                text: 'Our Alumni in different Contries'
-            },
-            subtitle: {
-                text: 'text'
-            },
-            mapNavigation: {
-                enabled: true,
-                buttonOptions: {
-                    verticalAlign: 'bottom'
-                }
-            },
-            colorAxis: {
-                min: 0
-            },
-            series: [{
-                data: [
-                    ['us', 6],
-                    ['gb', 1],
-                    ['fr', 2],
-                    ['jp', 3],
-                    ['cn', 4],
-                    ['in', 5]
-                ],
-                name: 'Random data',
-                states: {
-                    hover: {
-                        color: '#BADA55'
-                    }
-                },
-                dataLabels: {
-                    enabled: false,
-                    format: '{point.name}'
-                }
-            }, {
-                type: 'mappoint',
-                name: 'Cities',
-                color: 'blue',
-                dataLabels: {
-                    useHTML: true,
-                    format: '{point.name}'
-                },
-                data: [{
-                        name: 'New York',
-                        lat: 40.7128,
-                        lon: -74.0060
-                    },
-                    {
-                        name: 'Paris',
-                        lat: 48.8566,
-                        lon: 2.3522
-                    },
-                    {
-                        name: 'Tokyo',
-                        lat: 35.6895,
-                        lon: 139.6917
-                    },
-                    {
-                        name: 'London',
-                        lat: 51.5074,
-                        lon: -0.1278
-                    },
-                    {
-                        name: 'Sydney',
-                        lat: -33.8688,
-                        lon: 151.2093
-                    }
-                ],
-                dataLabels: {
-                    format: '{point.name}'
-                },
-                tooltip: {
-                    pointFormat: '{point.name}: {point.lat}, {point.lon}'
-                }
-            }]
-        });
-    });
-
-    const reviews = [{
-            name: "Speaks about College of Computing Sciences & IT",
-            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-                name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
-                designation: "Technology Architect",
-                company: "Bearing Point, Germany",
-                course: "B.Tech CSE",
-                graduationYear: "2014",
-            },
-        },
-        {
-            name: "Speaks about TMIMT College of Management",
-            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-                designation: "Group Director - Talent Acquisition",
-                company: "Saudi German Hospitals Group",
-                course: "MBA",
-                graduationYear: "2011",
-            },
-        },
-        {
-            name: "Speaks about Medical College & Research Centre",
-            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-                name: "Radhika Mathur",
-                link: "#",
-                designation: "Resident Physician",
-                company: "HCA Florida Oak Hill Hospital",
-                course: "MBBS",
-                graduationYear: "2019",
-            },
-        },
-        {
-            name: "Speaks about College of Computing Sciences & IT",
-            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-                name: "Rajeev Mishra",
-                link: "https://www.linkedin.com/in/rajeevmishra20/",
-                designation: "Technology Architect",
-                company: "Bearing Point, Germany",
-                course: "B.Tech CSE",
-                graduationYear: "2014",
-            },
-        },
-        {
-            name: "Speaks about TMIMT College of Management",
-            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-                designation: "Group Director - Talent Acquisition",
-                company: "Saudi German Hospitals Group",
-                course: "MBA",
-                graduationYear: "2011",
-            },
-        },
-        {
-            name: "Speaks about Medical College & Research Centre",
-            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-                name: "Radhika Mathur",
-                link: "#",
-                designation: "Resident Physician",
-                company: "HCA Florida Oak Hill Hospital",
-                course: "MBBS",
-                graduationYear: "2019",
-            },
-        },
-        {
-            name: "Speaks about TMIMT College of Management",
-            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-                name: "Shobhit Jain",
-                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-                designation: "Group Director - Talent Acquisition",
-                company: "Saudi German Hospitals Group",
-                course: "MBA",
-                graduationYear: "2011",
-            },
-        },
-    ];
-
-    let currentReviewIndex = 0;
-
-    function showReview(index) {
-        const review = reviews[index];
-        document.querySelector('.testimonial-title').innerText = review.name;
-        document.querySelector('.review-text').innerText = review.text;
-        document.getElementById('profile-picture').src = review.profile.img;
-        document.getElementById('profile-name').innerText = review.profile.name;
-        document.getElementById('profile-link').href = review.profile.link;
-        document.getElementById('profile-designation').innerText = review.profile.designation;
-        document.getElementById('profile-company').innerText = review.profile.company;
-        document.getElementById('profile-course').innerText = review.profile.course;
-        document.getElementById('profile-graduationYear').innerText = review.profile.graduationYear;
-
-        document.querySelectorAll('.thumb').forEach((thumb, i) => {
-            thumb.classList.toggle('active-thumb', i === index);
-        });
-    }
-
-    function showNextReview() {
-        currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
-        showReview(currentReviewIndex);
-    }
-
-    function showPreviousReview() {
-        currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
-        showReview(currentReviewIndex);
-    }
-
-    function displayReviewByIndex(index) {
-        currentReviewIndex = index;
-        showReview(currentReviewIndex);
-    }
-
-    showReview(currentReviewIndex);
-</script>
-
 @endsection

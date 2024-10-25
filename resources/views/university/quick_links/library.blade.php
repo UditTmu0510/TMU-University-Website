@@ -246,7 +246,7 @@
                         and a large number of text books related to the courses being run in the University. Besides
                         this, the students/ faculty/ staff can access the resources of National Digital Library of India
                         (NDL) which consist of > 7 lakh books, 3 lakh research papers, 95.000 + theses. Can be accessed
-                        at https://ndl.iitkgp.ac.in/
+                        at <a href="https://ndl.iitkgp.ac.in/" target="blank">https://ndl.iitkgp.ac.in/</a>
                     </p>
                 </div>
             </div>
@@ -258,7 +258,8 @@
                 <div class="col-12">
                     <div class="p-5 bg-light border rounded text-center">
                         <h2 class="mb-3">E-Resources remote access</h2>
-                        <a href="https://idp.tmu.ac.in/#res" target="blank"><button type="button"  class="tmu-btn btn-4 btn-lg w-100">Click Me</button></a>
+                        <a href="https://idp.tmu.ac.in/#res" target="blank"><button type="button"
+                                class="tmu-btn btn-4 btn-lg w-100">Click Me</button></a>
                     </div>
                 </div>
             </div>
@@ -294,28 +295,27 @@
             </ul>
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                    <h3>Key Highlights</h3>
-                    <h4>The main objectives of Central Library of Teerthanker Mahaveer University are stated as the
-                        following:</h4>
-                    <ul class="m-0">
-                        <li>Academic library is dynamic instruments of education. They support the faculty in teaching
-                            and research programmes. The primary objective of the library is conservation and
-                            preservation of knowledge</li>
-                        <li>Helping the faculty and students to achieve highest academic honour and lifetime good
-                            reading.</li>
-                    </ul>
+                    <h3>KRC Objective</h3>
+                    <p>The Knowledge Resource Centre (KRC) of Teerthanker Mahaveer University consists of a Central
+                        Library with various major branches situated in different Academic Blocks. These are well
+                        established modern libraries catering to the information needs of the academic community. For a
+                        closer view of advances in technology, new discoveries in the fields of medical and engineering,
+                        These libraries have more than three lakh books on varied subjects and have subscription to
+                        print version of 289 national and international journals besides access to a host of e-journals.
+                        The University has subscribed the EBSCOhost, Manupatra, UptoDate and DELNET database providing
+                        access to full text research articles and sector specific reports in different disciplines.</p>
                     <div class="read-more-content m-0">
-                        <ul>
-                            <li>To educate and assist students and staff in the identification and effective use of
-                                information resources</li>
-                            <li>To preserve all collections/materials and maintain/upgrade infrastructure to enhance the
-                                quality of services</li>
-                            <li>To collect library materials in all formats, broaden and update all collections to meet
-                                the needs of programs and support teaching, research, innovation, and training</li>
-                            <li>To automate complete function of all process of the library using ICT</li>
-                            <li>To provide current library materials and databases that support academic curriculum.
-                            </li>
-                        </ul>
+                        <p class="mt-3">The Central Library is fully automated with KOHA open source library management software
+                            which connects all computers of the library and the different departments, colleges, and
+                            faculty of the University. Books are issued through bar-coded membership cards to the
+                            students and faculty members of the University from the circulation section. The books and
+                            other reading materials are issued to the students for reading room study from the issue
+                            counter. The Catalogue of the Central Library is available on internet/intranet for search.
+                            The CCTV cameras are installed to ensure safety of the Library materials. The Central
+                            Library is also equipped with Fire Alarm Control Panel and manually operated fire
+                            extinguishers. Approx. 1800 students, teachers and other members visit the Library almost
+                            every day. Automated footfall recorded is maintained in the library and the visitor must
+                            scan his/her valid identity card at the entrance.</p>
                     </div>
                     <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2"
                         title="Read More">Read More</a>
@@ -323,7 +323,7 @@
 
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
-                    <h3>Placement/Internship</h3>
+                    <h3>Library Rules</h3>
 
 
 

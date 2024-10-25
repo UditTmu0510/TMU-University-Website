@@ -691,6 +691,11 @@ class TmuController extends Controller
         return view('university.quick_links.library');
     }
 
+    public function tmu_hospital()
+    {
+        return view('university.quick_links.tmu_hospital');
+    }
+
     public function how_to_apply()
     {
         return view('university.quick_links.how_to_apply');
