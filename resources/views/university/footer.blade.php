@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
+<script>
 $(document).ready(function() {
     let searchRequest = null; // Store the current AJAX request
 
