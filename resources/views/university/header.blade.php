@@ -15,54 +15,68 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
+
+    <script>
+        // Function to load a stylesheet
+        function loadStyleSheet(href) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
+
+        // Load Font Awesome CSS
+        var fontAwesomeLink = document.createElement('link');
+        fontAwesomeLink.rel = 'preload';
+        fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
+        fontAwesomeLink.as = 'style';
+        fontAwesomeLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(fontAwesomeLink);
+
+        // Load Core Style CSS
+        var coreStyleLink = document.createElement('link');
+        coreStyleLink.rel = 'preload';
+        coreStyleLink.href = 'style.css';
+        coreStyleLink.as = 'style';
+        coreStyleLink.onload = function() {
+            this.onload = null; // Avoid calling onload multiple times
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(coreStyleLink);
+
+        // Load Bootstrap CSS
+        var bootstrapLink = document.createElement('link');
+        bootstrapLink.rel = 'preload';
+        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        bootstrapLink.as = 'style';
+        bootstrapLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(bootstrapLink);
+
+        var owlCarouselLink = document.createElement('link');
+        owlCarouselLink.rel = 'preload';
+        owlCarouselLink.href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css";
+        owlCarouselLink.as = 'style';
+        owlCarouselLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(owlCarouselLink);
+    </script>
+
+    <noscript>
+        <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </noscript>
+
    
 
-        <script>
-  // Function to load a stylesheet
-  function loadStyleSheet(href) {
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = href;
-    document.head.appendChild(link);
-  }
 
-  // Load Font Awesome CSS
-  var fontAwesomeLink = document.createElement('link');
-  fontAwesomeLink.rel = 'preload';
-  fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
-  fontAwesomeLink.as = 'style';
-  fontAwesomeLink.onload = function() {
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(fontAwesomeLink);
 
-  // Load Core Style CSS
-  var coreStyleLink = document.createElement('link');
-  coreStyleLink.rel = 'preload';
-  coreStyleLink.href = 'style.css';
-  coreStyleLink.as = 'style';
-  coreStyleLink.onload = function() {
-    this.onload = null; // Avoid calling onload multiple times
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(coreStyleLink);
-
-  // Load Bootstrap CSS
-  var bootstrapLink = document.createElement('link');
-  bootstrapLink.rel = 'preload';
-  bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
-  bootstrapLink.as = 'style';
-  bootstrapLink.onload = function() {
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(bootstrapLink);
-</script>
-
-<noscript>
-  <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-</noscript>
 
 
     <!-- Canela Deck font  -->
@@ -78,7 +92,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
