@@ -873,7 +873,7 @@ $(document).ready(function() {
                         programListHtml += `
                     <div class="col-md-4">
                                     <div class="card card-sz shadow-sm ">
-                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="..." loading="lazy">
                                         <div class="card-body">
                                             <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
                                             <h5>${program.prog_name}</h5>
