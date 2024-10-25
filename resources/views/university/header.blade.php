@@ -48,7 +48,7 @@
         // Load Core Style CSS
         var coreStyleLink = document.createElement('link');
         coreStyleLink.rel = 'preload';
-        coreStyleLink.href = 'style.css';
+        coreStyleLink.href = "{{asset('style.css')}}";
         coreStyleLink.as = 'style';
         coreStyleLink.onload = function() {
             this.onload = null; // Avoid calling onload multiple times
