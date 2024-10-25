@@ -841,7 +841,7 @@ $i++;
 
 
 
-
+<script>
 $(document).ready(function() {
     // Click event for navbar buttons
     $('.programme-fetch-button').click(function() {
