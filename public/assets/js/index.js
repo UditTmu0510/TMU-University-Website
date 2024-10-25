@@ -1108,6 +1108,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 	window.addEventListener('DOMContentLoaded', function() {
+
+        document.getElementById('menubar44567').style.visibility = 'visible';
 		// Simulate a delay (e.g., 2000 milliseconds or 2 seconds)
 		setTimeout(function() {
 
