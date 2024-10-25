@@ -30,6 +30,9 @@
 	}
 
 
+	.h1{
+		font-size: 50px;
+	}
 
 	.image-container889,
 	.blog-card img {
