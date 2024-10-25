@@ -181,7 +181,7 @@
         box-shadow: 0 4px 8px rgba(0 40 255 / 25%);
         text-align: left;
         width: 650px;
-        height: 270px;
+        /* max-height: 270px; */
         position: relative;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -247,6 +247,14 @@
     }
 
     /*alumni testimonial css end*/
+
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        padding: 0rem 0;
+    }
+   
+
 </style>
 <section id="content">
 
@@ -264,7 +272,7 @@
                 <div class="pe-lg-4 position-relative p-0">
                     <div style="z-index: 2;">
                         <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
-                        <img src="{{asset('/assets/img/banner/alumni/banner.png')}}" alt="" class="p-0 m-0">
+                        <img src="{{asset('/assets/img/banner/alumni/Alumni.webp')}}" alt="" class="p-0 m-0">
                     </div>
                 </div>
             </div>
@@ -359,268 +367,110 @@
         </div>
     </section>
 
-
     <section id="content">
         <div class="content-wrap">
             <div class="container" style="margin-bottom: 10px;">
-
-
                 <div class="row justify-content-center ">
                     <div class="col-xl-10 col-lg-10 text-center">
                         <h2 class="tmu-text-primary my-4 mb-5"><span>TMU </span> <span>HIGHLIGHTS</span></h2>
                     </div>
                 </div>
                 <div class="row col-mb-37">
-                    <main class="postcontent col-lg-8 col-md-9">
+                    <main class="postcontent col-lg-8 col-md-12">
                         <div class="row g-4">
 
 
                             <div class=" mb-0 entry col-lg-12 col-md-12">
                                 <div class="owl-carousel" id="owl-carousel2">
+
+
+                                    @foreach ($news as $event)
                                     <div class="item">
 
                                         <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
-                                            <div class="entry-image mb-0">
-                                                <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                                    <div class="flexslider">
-                                                        <div class="slider-wrap">
-                                                            <div class="slide"><a href="{{asset('/images/news/ccsit/News_05.jpg')}}" data-lightbox="gallery-item" style="background: url('/images/news/ccsit/News_05.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>
+                                            <a href="{{ url('news/' . $event->n_slug) }}" target="_blank">
+                                                <div class="entry-image mb-0">
+                                                    <div class="fslider" data-arrows="false" data-lightbox="gallery">
+                                                        <div class="flexslider">
+                                                            <div class="slider-wrap">
+                                                                <div class="slide" style="background: url('{{ $event->monaco_image_path }}') no-repeat center bottom; background-size: cover; height: 200px;">
+                                                                </div>
                                                             </div>
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-2.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-2.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-3.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-3.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </a>
+
+
                                             <div class="p-2">
                                                 <div class="entry-title">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">TMU's Educational
-                                                        Odyssey to Narora Atomic Power Station</a>
+                                                    <a href="{{'news/'.$event->n_slug}}" target="_blank" style="font-size: 18px; font-weight: 500; ">{{ Str::limit($event->event_title, 70) }}</a>
                                                 </div>
-                                                <div class="entry-meta">
+                                                <div class="entry-meta pt-2">
                                                     <ul>
-                                                        <li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                                        <li><a href="blog-single.html#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
+                                                        <li><i class="uil uil-schedule"></i> {{$event->event_date}}</li>
+                                                        <li><a href="{{'news/'.$event->n_slug}}" target="_blank">Read More</a></li>
+                                                        {{-- <li><a href="blog-single.html#comments"><i class="uil uil-comments-alt"></i> 13</a></li> --}}
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="item">
-
-                                        <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
-                                            <div class="entry-image mb-0">
-                                                <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                                    <div class="flexslider">
-                                                        <div class="slider-wrap">
-                                                            <div class="slide"><a href="{{asset('/images/news/ccsit/News_04.jpg')}}" data-lightbox="gallery-item" style="background: url('/images/news/ccsit/News_04.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>
-                                                            </div>
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-2.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-2.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-3.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-3.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="p-2">
-                                                <div class="entry-title">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">TMU's Faculty of
-                                                        Education Marks 24th Vijay Diwas.</a>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                                        <li><a href="blog-single.html#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
 
 
-                                    <div class="item">
 
-                                        <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
-                                            <div class="entry-image mb-0">
-                                                <div class="fslider" data-arrows="false" data-lightbox="gallery">
-                                                    <div class="flexslider">
-                                                        <div class="slider-wrap">
-                                                            <div class="slide"><a href="{{asset('/images/news/ccsit/News_01.jpg')}}" data-lightbox="gallery-item" style="background: url('/images/news/ccsit/News_01.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>
-                                                            </div>
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-2.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-2.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
-                                                            <!--<div class="slide"><a href="demos/modern-blog/images/items/lightbox/4-3.jpg" data-lightbox="gallery-item" style="background: url('demos/modern-blog/images/items/4-3.jpg') no-repeat center bottom; background-size: cover; height: 200px;"></a>-->
-                                                            <!--</div>-->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="p-2">
-                                                <div class="entry-title">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">CTLD's Faculty
-                                                        Development Programme Empowers Educators</a>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li><i class="uil uil-schedule"></i> 10th Feb 2021</li>
-                                                        <li><a href="blog-single.html#comments"><i class="uil uil-comments-alt"></i> 13</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
 
                         <!-- Blog Carousel Starts Here -->
 
-                        <div class="row g-4 mb-0 d-none d-sm-block">
+                        <div class="row g-4 mb-0 d-none d-sm-block mt-4 ">
 
                             <div class="owl-carousel" id="owl-carousel3">
-                                <div class="item ">
-
-                                    <article class="mb-0 entry event col-12 ">
-                                        <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
-                                            <div class="col-md-4 mb-md-0">
-                                                <a href="#" class="entry-image mb-0 h-100">
-                                                    <img src="{{asset('/images/blogs/Uni_03.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
-                                                    <div class="bg-overlay">
-                                                        <div class="bg-overlay-content justify-content-start align-items-start">
-                                                            <div class="badge bg-light text-dark rounded-pill">
-                                                                Latest Blog</div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-8 p-4">
-                                                <div class="entry-meta no-separator mb-1 mt-0">
-                                                    <ul>
-                                                        <li><a href="#" class="text-uppercase fw-medium">Mon, Feb 12
-                                                                @
-                                                                3:00PM</a></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="entry-title nott">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">Scope and
-                                                        Opportunity through Non-Clinical Medical</a>
-                                                </div>
-                                                <div class="entry-content my-3">
-                                                    <p style="font-size: 14px;">Explore the diverse opportunities in
-                                                        non-clinical medical programs like MD Biochemistry, Physiology,[...]
-                                                    </p>
-                                                </div>
-
-                                                <div class="entry-meta no-separator">
-                                                    <ul>
-                                                        <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                                Chiang Mai,
-                                                                Thailand</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-
-
+                                @foreach($activeBlogs as $blog)
                                 <div class="item">
-
-                                    <article class="mb-0 entry event col-12 ">
+                                    <article class="mb-0 entry event col-12">
                                         <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
-                                            <div class="col-md-4 mb-md-0">
-                                                <a href="#" class="entry-image mb-0 h-100">
-                                                    <img src="{{asset('/images/blogs/Uni_01.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
+                                            <div class="col-md-5 mb-md-0">
+                                                <a href="{{ url('blog/' . $blog->n_slug) }}" class="entry-image mb-0 h-100">
+                                                    <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover" loading="lazy">
                                                     <div class="bg-overlay">
                                                         <div class="bg-overlay-content justify-content-start align-items-start">
-                                                            <div class="badge bg-light text-dark rounded-pill">
-                                                                Latest Blog</div>
+                                                            <div class="badge bg-light text-dark rounded-pill">Latest Blog</div>
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col-md-8 p-4">
+                                            <div class="col-md-7 p-4 pt-0 pb-0">
                                                 <div class="entry-meta no-separator mb-1 mt-0">
                                                     <ul>
-                                                        <li><a href="#" class="text-uppercase fw-medium">Mon, Feb 12
-                                                                @
-                                                                3:00PM</a></li>
+                                                        <li><a href="#" class="text-uppercase fw-medium">{{ $blog->formatted_date }}</a></li>
                                                     </ul>
                                                 </div>
 
                                                 <div class="entry-title nott">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">Top 10
-                                                        engineering colleges in India</a>
-                                                </div>
-                                                <div class="entry-content my-3">
-                                                    <p style="font-size: 14px;">Explore the top 10 Engineering colleges in
-                                                        India and the top 10 things to consider while choosing a [...]</p>
+                                                    <a href="{{ url('blog/' . $blog->n_slug) }}" style="font-size: 18px; font-weight: 500;">{{ Str::limit($blog->post_title, 70) }}</a>
                                                 </div>
 
+                                                <div class="entry-content my-3">
+                                                    <p style="font-size: 14px;">{{ Str::limit($blog->post_description, 90) }}</p>
+                                                </div>
                                                 <div class="entry-meta no-separator">
                                                     <ul>
                                                         <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                                Chiang Mai,
-                                                                Thailand</a></li>
+                                                                TMU,
+                                                                Moradabad</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-
-
-
-                                <div class="item">
-
-                                    <article class="mb-0 entry event col-12 ">
-                                        <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
-                                            <div class="col-md-4 mb-md-0">
-                                                <a href="#" class="entry-image mb-0 h-100">
-                                                    <img src="{{asset('/images/blogs/Uni_02.webp')}}" alt="Inventore voluptates velit totam ipsa tenetur" class="rounded-2 h-100 object-cover">
-                                                    <div class="bg-overlay">
-                                                        <div class="bg-overlay-content justify-content-start align-items-start">
-                                                            <div class="badge bg-light text-dark rounded-pill">
-                                                                Latest Blog</div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-8 p-4">
-                                                <div class="entry-meta no-separator mb-1 mt-0">
-                                                    <ul>
-                                                        <li><a href="#" class="text-uppercase fw-medium">Mon, Feb 12
-                                                                @
-                                                                3:00PM</a></li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="entry-title nott">
-                                                    <a herf="" style="font-size: 18px; font-weight: 500; ">Top 100
-                                                        Universities in India</a>
-                                                </div>
-                                                <div class="entry-content my-3">
-                                                    <p style="font-size: 14px;">Get guidance on India's top 100
-                                                        universities, offering comprehensive insights into diverse
-                                                        education[...]</p>
-                                                </div>
-
-                                                <div class="entry-meta no-separator">
-                                                    <ul>
-                                                        <li><a href="#" class="fw-normal"><i class="uil uil-map-marker"></i>
-                                                                Chiang Mai,
-                                                                Thailand</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
+                                @endforeach
 
 
                             </div>
@@ -628,10 +478,10 @@
                         <!-- 
 														Blog Carousel Starts Here
 														-->
+
+
+
                     </main>
-                    <!-- 
-												Side Menu Code start here
-											 -->
 
 
                     <aside class="sidebar col-md-12 d-block d-sm-none" style="margin-bottom: 35px;">
@@ -643,112 +493,32 @@
                                 <hr>
                                 <div class="posts-sm row col-mb-30" id="post-list-sidebar" style="margin-top: -0.25rem;">
 
-
-
+                                    @foreach($activeBlogs as $blog)
                                     <div class="entry col-12">
                                         <div class="grid-inner row g-0">
                                             <div class="col-auto">
                                                 <div class="entry-image">
-                                                    <a href="#"><img src="{{asset('/assets/img/blog-thumb/bfa.jpg')}}" alt="Image"></a>
+                                                    <a href="{{ url('blog/' . $blog->n_slug) }}"><img src="{{ asset($blog->monaco_image_path) }}" alt="Image" loading="lazy"></a>
                                                 </div>
                                             </div>
                                             <div class="col ps-3">
                                                 <div class="entry-title">
-                                                    <h4><a href="#">BFA Course Details, Full Form, Admission, Fees, Syllabus, Top Colleges, Career</a></h4>
+                                                    <h4><a href="{{ url('blog/' . $blog->n_slug) }}">{{$blog->post_title}}</a></h4>
                                                 </div>
                                                 <div class="entry-meta">
                                                     <ul>
-                                                        <li>10th July 2021</li>
+                                                        <li>{{ $blog->formatted_date }}</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
 
-                                    <div class="entry col-12">
-                                        <div class="grid-inner row g-0">
-                                            <div class="col-auto">
-                                                <div class="entry-image">
-                                                    <a href="#"><img src="{{asset('/assets/img/blog-thumb/bpt.jpg')}}" alt="Image"></a>
-                                                </div>
-                                            </div>
-                                            <div class="col ps-3">
-                                                <div class="entry-title">
-                                                    <h4><a href="#">BPT Course Details, Full Form, Admission, Fees, Syllabus, Top Colleges, Career</a></h4>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li>10th July 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="entry col-12">
-                                        <div class="grid-inner row g-0">
-                                            <div class="col-auto">
-                                                <div class="entry-image">
-                                                    <a href="#"><img src="{{asset('/assets/img/blog-thumb/blog_thumbnail.jpg')}}" alt="Image"></a>
-                                                </div>
-                                            </div>
-                                            <div class="col ps-3">
-                                                <div class="entry-title">
-                                                    <h4><a href="#">Top 10 Engineering colleges in india</a></h4>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li>10th July 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="entry col-12">
-                                        <div class="grid-inner row g-0">
-                                            <div class="col-auto">
-                                                <div class="entry-image">
-                                                    <a href="#"><img src="{{asset('/assets/img/blog-thumb/blog_thumbnail4.jpg')}}" alt="Image"></a>
-                                                </div>
-                                            </div>
-                                            <div class="col ps-3">
-                                                <div class="entry-title">
-                                                    <h4><a href="#">Top 100 Universities in india</a></h4>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li>10th July 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="entry col-12">
-                                        <div class="grid-inner row g-0">
-                                            <div class="col-auto">
-                                                <div class="entry-image">
-                                                    <a href="#"><img src="{{asset('/assets/img/blog-thumb/llm.jpg')}}" alt="Image"></a>
-                                                </div>
-                                            </div>
-                                            <div class="col ps-3">
-                                                <div class="entry-title">
-                                                    <h4><a href="#">LLM Course Details, Full Form, Admission, Syllabus, Top Colleges, Career</a></h4>
-                                                </div>
-                                                <div class="entry-meta">
-                                                    <ul>
-                                                        <li>10th July 2021</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </aside>
-
 
                     <aside class="sidebar col-lg-4 col-md-12">
                         <div class="notice-board">
@@ -757,119 +527,168 @@
 
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>01, April</span>
+                                        <span>20, October</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Women Empowerment Cell, Faculty of Engineering, and CCSIT are going to
-                                            organise International Women's Day</p>
+                                        <p>The Alumni Relations Cell is organising a session on 'Future Investment Insights: Grow Your Wealth Wisely,' featuring esteemed alumni and industry experts. All faculty members and students of CCSIT and FoE are invited to attend.</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
-                                            Conference Room</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 09,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>01, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Department of Mechanical Engineering is hosting a one-day workshop on "Drone
-                                            Technology" in association with ESTC Ramnagar.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
-                                            Conference Room</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 15,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>01, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Computer Science and Engineering Department is organising a Digital/Physical
-                                            Poster Competition on the topic "Mera Pehla Vote-Desh ke liye</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                             CCSIT</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 21,
-                                            March</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>01, April</span>
+                                        <span>17, October</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Cultural Club of CCSIT is organisng a student fest for Holi, "SPLASH-The Joy
-                                            of Colors".</p>
+                                        <p>CCSIT is organising IEEE Day TechnoFest 2k24, a 3-day event featuring expert sessions & competitions. Students from all disciplines are invited to participate and learn various technical and professional skills.</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                             CCSIT</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 20,
-                                            March</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>01, April</span>
+                                        <span>09, September</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>Students may register for the 14th edition of Mega Quiz Khoj-2024 which is being
-                                            organised by the Techno Club (CCSIT).</p>
+                                        <p>CCSIT is organising a fest to celebrate Navratri. All faculty and staff members are cordially invited to attend the event.</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
-                                            Auditorium</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 14,
-                                            March</span>
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>01, April</span>
+                                        <span>08, October</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Department of Physics is going to organise National Science Day with various
-                                            activities and competitions</p>
+                                        <p>CCSIT is organising a Poster/Animation Competition to celebrate 'Colours of Vijayadashami'. All CCSIT students and members are invited to participate.</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
-                                            LT-6, CCSIT </span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 28,
-                                            February</span>
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            CCSIT </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>01, April</span>
+                                        <span>03, October</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Electronics and Communication Engineering Department is organising a Guest
-                                            Lecture on "Process of Innovation & Technology Readiness Level".</p>
+                                        <p>CCSIT is organising a Drawing Competition with the theme 'Anime Character.' All CCSIT students are invited to participate and win exciting prizes. For any queries, contact 9410253656.</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('/assets/img/icons/placeholder.svg')}}" width="20px" height="20px">
-                                            LT-6, FOE</span>
-                                        <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="20px" height="20px"> 24,
-                                            February</span>
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>20, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>IQAC, FOE is organising an Information Session on GATE & JAM Exams for Masters, in collaboration with IIT Roorkee, featuring Prof. Ankik Kumar Giri, Dept. of Mathematics, IIT Roorkee. All 3rd & final-year B.Tech/B.Sc students are invited.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>20, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The Department of BCA and MCA, CCSIT is organising an online guest lecture on 'Digital Marketing & Social Media Strategies' by Mr Vikas Nain, Co-Founder of The Triad and Assistant Professor of Digital Marketing at PIET.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>15, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g">
+                                            <p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p>
+                                        </a>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            TMU Campus</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>12, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>CCSIT is organising a Mentorship-Mentee Programme in various skills, featuring Master Classes under the banner of the IEEE Student Branch, to promote IEEE awareness and skill development among students.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 13 to 17, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>14, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            TMU Campus </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
+                                            September </span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>29, August</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            Paramedical College</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+
                             </div>
                         </div>
                     </aside>
+
+
+
                 </div>
                 <!-- 
 												Side Menu Code Ends Here
@@ -1005,8 +824,4 @@
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
-<script>
-    
-</script>
-
 @endsection

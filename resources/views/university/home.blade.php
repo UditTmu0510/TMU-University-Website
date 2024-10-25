@@ -9,11 +9,11 @@
         <div class="container-fluid p-0">
             <div class="video-banner">
        
-            <video muted autoplay loop playsinline class="d-none d-md-block" preload="auto">
+            <video muted autoplay loop playsinline class="d-none d-md-block" >
                     <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
 
-                <video muted autoplay loop playsinline class="d-block d-md-none w-100" preload="auto">
+                <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video>
 
@@ -887,7 +887,7 @@ $i++;
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
 
 

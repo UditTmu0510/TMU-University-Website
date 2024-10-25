@@ -1214,7 +1214,26 @@ class TmuController extends Controller
     // alumni  
     public function alumni_home()
     {
-        return view('university.alumni.alumni');
+        $news = News::where('status', 1)
+            ->where('category','Alumni')
+            ->whereNotNull('monaco_image_path')
+            ->where('monaco_image_path', '!=', '')
+            ->select('event_title', 'event_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
+            ->orderBy('id', 'desc')
+            ->limit(5)
+            ->get();
+
+        $activeBlogs = Blogs::where('status', 1)
+            ->orderBy('posted_at', 'DESC')
+            ->orderBy('id', 'DESC')
+            ->take(6)
+            ->get();
+
+        // Format the date and pass blogs to the view
+        foreach ($activeBlogs as $blog) {
+            $blog->formatted_date = \Carbon\Carbon::parse($blog->posted_at)->format('D, M d'); // Format date as Mon, Feb 12
+        }
+        return view('university.alumni.alumni', compact( 'news', 'activeBlogs'));
     }
     public function alumni_overview()
     {

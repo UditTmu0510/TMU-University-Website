@@ -13,7 +13,7 @@
                                 <img src="{{asset('/assets/image/vc.png')}}" class="w-100" alt="">
                             </div>
                             <div class="col-md-8">
-                                <p class="person-quote text-justify px-4 px-md-5">
+                                <p class="person-quote text-justify px-4 px-md-5 mb-2">
                                     The statement<span class="highlight">"your future will be decided by what you do
                                         today" </span>is so apt for everyone joining TMU. Your destiny will be shaped by
                                     what you do during the years you are with us. It's important to differentiate
@@ -22,7 +22,8 @@
                                         class="highlight">"the purpose of education is to develop thinking"</span> and
                                     similarly Herbert Simon stated,<span class="highlight"> "learning occurs from what
                                         the student does & thinks"</span>.
-                                    <br><br>
+                                    <br></p>
+                                    <p class="person-quote text-justify px-4 px-md-5 mb-2">
                                     The biggest challenge for both, institutions and students is to take a detour from
                                     the traditional approach of <span class="highlight">rote learning & written
                                         examination</span> which emphasized, for too long, <span
@@ -30,7 +31,8 @@
                                     well-structured & creativity in universities. For decades, we have been functioning
                                     in classrooms like a trans-receiver system and evaluating students through "<span
                                         class="highlight">direct & single correct answer</span>" questions which never
-                                    tested learning & thinking. It was a test of memory.<br> We can assure you a
+                                    tested learning & thinking. It was a test of memory.<br></p>
+                                    <p class="person-quote text-justify px-4 px-md-5 mb-2"> We can assure you a
                                     different experience in TMU where you will deal with <span
                                         class="highlight">real-life problem situations</span>. You will spend good
                                     amount of time in <span class="highlight">doing and thinking</span>. The academic
@@ -39,7 +41,7 @@
                                     programme delivery mechanism that assures learning and well rounded personality. I
                                     am sure your experience will be unique & quite enriching thus preparing you to face
                                     <span class="highlight">real-life challenges in the future</span>.<br>
-                                    Wishing you all the best!
+                                    Wishing you all the best!</p>
                                 <div class="person-details float-right">Prof. (Dr.) V K Jain <br><span>(कुलपति)</span>
                                 </div>
 

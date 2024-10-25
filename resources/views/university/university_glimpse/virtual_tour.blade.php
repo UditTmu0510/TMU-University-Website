@@ -6,9 +6,12 @@
 
 <div class="main-content">
     <div class="container">
-        <div class="banner text-white text-center p-4 rounded" style="height: 20vh; background-color: #001055;">
-            <h2 style="color: #fff; padding:1.5rem;">Campus Map & Location</h2>
-        </div>
+    <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
+    <div class="d-flex align-items-center">
+        <h2 class="text-white m-0">Campus Map & Location</h2>
+    </div>
+</div>
+  
 
 
         <div class="container mt-4 mb-4">
@@ -30,15 +33,16 @@
                 while picking a campus.</p>
             <p style="text-align:justify;color:black;">TMU is easily accessible irrespective of your choice of mode of
                 transport. Be it by air, rail or road, you can reach us quite easily and comfortably.</p>
-            <p style="text-align:justify;color:black;"><span class="mt-3" style="font-weight:bold;color:black;">By Air</span>
-                <br /><br />
-                <span style="color:black;">Take a flight and reach Delhi airport.</span><br />
-                <span style="color:black;">Distance from Delhi airport to TMU campus - 165 km</span>
+            <p style="text-align:justify;color:black;" class="mt-3 mb-2"><span class="mt-3" style="font-weight:bold;color:black;">By Air</span>
+                <br />
             </p>
-            <p style="text-align:justify;color:black;">
+            <p style="text-align:justify;color:black;" class="mb-2">
+                Take a flight and reach Delhi airport.<br />
+                Distance from Delhi airport to TMU campus - 165 km</p>
+            <p style="text-align:justify;color:black;" class="mb-2">
                 Take a flight and reach Dehradun airport.<br />
                 Distance from Dehradun airport to TMU campus - 198 km</p>
-            <p style="text-align:justify;color:black;">Take a flight and reach Pantnagar airport.<br />
+            <p style="text-align:justify;color:black;" class="mb-2">Take a flight and reach Pantnagar airport.<br />
                 Distance from Pantnagar airport to TMU campus - 100 km</p>
             <p class="mt-3" style="font-weight:bold;color:black;color:black;">Major cities distance from Moradabad (in kms)</p>
            

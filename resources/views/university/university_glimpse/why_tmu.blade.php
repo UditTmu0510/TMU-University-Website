@@ -4,14 +4,17 @@
 
 <div class="main-content">
     <div class="container">
-        <div class="banner text-white text-center p-4 rounded" style="height: 20vh; background-color: #001055;">
-            <h2 style="color: #fff; padding:1.5rem;">Why Tmu</h2>
+        <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
+            <div class="d-flex align-items-center">
+                <h2 class="text-white m-0">Why Tmu</h2>
+            </div>
         </div>
+
 
         <div class="container mt-5 mb-5">
             <h1 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>World Class </span><span
                     class="d-block d-sm-inline">INFRASTRUCTURE</span></h1>
-            <div class ="row">
+            <div class="row">
                 <div class="col-12 col-lg-6">
                     <p class="person-quote mb-3 mt-3">TMU's campus, spanning over 130 acres, is a showcase of modern
                         infrastructure and state-of-the-art facilities. It houses 14 specialized colleges, offering a
@@ -223,17 +226,17 @@
                 creating a supportive ecosystem to transform ideas into sustainable businesses, thus driving economic
                 growth and fostering self-reliance.</p>
 
-                <p class="font-weight-semibold text-3 mb-4 appear-animation ps-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
-				<strong >Key Features-</strong><br>
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Mentorship for startup development.<br>
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Registration assistance for Start in UP, DPIIT, and Startup India.<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Co-working spaces within the University.<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Access to specialised labs.<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Business model development and prototype support.<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Fundraising assistance.<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Connecting with Angel investors for potential funding opportunities<br> 
-				<span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Frequent entrepreneurial workshops and events.<br>
-			</p>
+            <p class="font-weight-semibold text-3 mb-4 appear-animation ps-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+                <strong>Key Features-</strong><br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Mentorship for startup development.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Registration assistance for Start in UP, DPIIT, and Startup India.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Co-working spaces within the University.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Access to specialised labs.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Business model development and prototype support.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Fundraising assistance.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Connecting with Angel investors for potential funding opportunities<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Frequent entrepreneurial workshops and events.<br>
+            </p>
         </div>
 
     </div>

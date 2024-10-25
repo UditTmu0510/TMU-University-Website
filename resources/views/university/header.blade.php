@@ -15,18 +15,73 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="{{asset('assets/css/default/bootstrap.min.css')}}">
+
+    <script>
+        // Function to load a stylesheet
+        function loadStyleSheet(href) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
+
+        // Load Font Awesome CSS
+        var fontAwesomeLink = document.createElement('link');
+        fontAwesomeLink.rel = 'preload';
+        fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
+        fontAwesomeLink.as = 'style';
+        fontAwesomeLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(fontAwesomeLink);
+
+        // Load Bootstrap CSS
+        var bootstrapLink = document.createElement('link');
+        bootstrapLink.rel = 'preload';
+        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        bootstrapLink.as = 'style';
+        bootstrapLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(bootstrapLink);
+
+        // Load Core Style CSS
+        var coreStyleLink = document.createElement('link');
+        coreStyleLink.rel = 'preload';
+        coreStyleLink.href = "{{asset('style.css')}}";
+        coreStyleLink.as = 'style';
+        coreStyleLink.onload = function() {
+            this.onload = null; // Avoid calling onload multiple times
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(coreStyleLink);
+
+        //Load Owl-Carousel
+        var owlCarouselLink = document.createElement('link');
+        owlCarouselLink.rel = 'preload';
+        owlCarouselLink.href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css";
+        owlCarouselLink.as = 'style';
+        owlCarouselLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(owlCarouselLink);
+    </script>
+
+    <noscript>
+        <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </noscript>
+
+   
 
 
-    <!-- css added as per google analytics speed test to improve performance  -->
-    
-    <link rel="stylesheet" href="{{asset('assets/css/default/fontawesome6.2.1.all.min.css')}}">
 
 
-    <!-- Core Style -->
-    <link rel="stylesheet" href="{{asset('style.css')}}">
+
+    <!-- Canela Deck font  -->
+    <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'">
 
     <!-- Font Icons -->
     <link rel="stylesheet" href="{{asset('css/font-icons.css')}}">
@@ -38,7 +93,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
@@ -49,13 +103,13 @@
 	============================================= -->
     <title>TMU | New Website</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script> -->
 
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
 
-    <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold"
-        rel="stylesheet">
+    <!-- <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" rel="stylesheet"> -->
+    
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
     <!-- Bootstrap Bundle with Popper -->
@@ -63,11 +117,14 @@
     <!-- Replacing the cdn with downloaded js for bootstrap -->
     <script href="{{asset('assets/js/default/bootstrap.min.js')}}"></script>
 
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- commenting the below js because no content to call -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+     
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
     <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
 
 
 
@@ -264,7 +321,7 @@
 
                         <div id="nav-banner">
                             <!-- <img src="https://www.hindustantimes.com/ht-img/img/2023/08/08/550x309/Screenshot_2023-08-08_183058_1691499721701_1691499729400.png" class="w-100" alt=""> -->
-                            <img src="{{asset('assets/image/navbar-banner.webp')}}" alt="" class="w-100">
+                            <img src="{{asset('assets/image/navbar-banner.webp')}}" alt="" class="w-100" loading="lazy">
                             <div class="blue-overlay"></div>
                         </div>
 
@@ -278,7 +335,7 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;">
+        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;" title="This button provides access to both the college and university menus. Click here to explore the available options.">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block"> Menu</span>
         </div>

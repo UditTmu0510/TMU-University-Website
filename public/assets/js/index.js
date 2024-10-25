@@ -423,7 +423,7 @@ function addSuperFadeClass(element) {
 
 // Event listener for scrolling
 document.querySelector('.university-nav').addEventListener('scroll', function () {
-    var icon = this.querySelector('.bi-chevron-double-down');
+    var icon = this.querySelector('.scroll-down-icon');
     addSuperFadeClass(icon);
 });
 

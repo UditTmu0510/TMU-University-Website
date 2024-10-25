@@ -1,5 +1,15 @@
 @extends('layouts.university.departments.research_cell_with_sidebar')
 @section('content')
+<style>
+.entry-title h3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 3rem;
+}
+</style>
 
 
 

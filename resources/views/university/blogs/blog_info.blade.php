@@ -258,14 +258,78 @@
 
 </style>
 
+<style>
+    .entry-title h1 {
+    font-size: 1.875rem!important;
+    margin-top: 15px!important;
+    margin-bottom: 20px!important;
+    color: #000!important;
+    line-height: 2.25rem; /* Adjusted for readability */
+    font-weight: 600!important;
+    text-transform: none;
+}
+
+#blogs69 h3 {
+    font-size: 1.25rem!important;
+    margin-top: 8px!important;
+    margin-bottom: 10px!important;
+    color: #434343!important;
+    text-transform: capitalize!important;
+    line-height: 1.75rem; /* Slightly increased */
+}
+
+#blogs69 h2 {
+    font-size: 1.5rem!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    color: #000!important;
+    line-height: 2.25rem; /* Adjusted for better readability */
+    font-weight: 700!important;
+    text-transform: none;
+}
+
+#blogs69 h4 {
+    font-size: 18px!important;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+    color: #000!important;
+    text-transform: capitalize!important;
+    line-height: 1.3rem; /* Increased from 1rem */
+}
+
+#blogs69 p {
+    font-size: 1rem!important;
+    margin-bottom: 6px!important;
+    color: #000!important;
+    text-align: justify;
+}
+
+#blogs69 ul {
+    font-size: 1rem!important;
+    margin-bottom: 10px!important;
+    color: #000!important;
+    list-style-type: disc!important;
+    padding-left: 20px!important; 
+    
+}
+
+#ug747e47 h2 {
+    font-size: 3rem!important;
+    margin-top: 15px!important;
+    margin-bottom: 20px!important;
+    line-height: 2.2rem; /* Increased to match heading size */
+    font-weight: 700!important;
+    text-transform: none;
+}
+</style>
 
 <!-- Page Title -->
 <section class="news-page-title page-title bg-transparent">
     <div class="container">
         <div class="page-title-row">
 
-            <div>
-                <h1 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3 pt-3"><span>TMU </span><span> Blogs</span></h1>
+            <div id="ug747e47">
+                <h2 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3 pt-3"><span>TMU </span><span> Blogs</span></h2>
                 <!-- <h2 class="news-page-title-text">TMU Blog</h2> -->
             </div>
 
@@ -286,14 +350,14 @@
     <div class="container">
         <div class="row custom-row2557">
 
-            <main class="col-lg-9 pt-4 ">
+            <main class="col-lg-9 pt-4">
                 <div class="single-post mb-0">
                     <!-- Single Post -->
                     <div class="entry">
 
                         <!-- Entry Title -->
                         <div class="entry-title mb-3">
-                            <h2 class="tmu-text-primary "><span>{{$blog->post_title}}</span><span></span></h2>
+                            <h1 class="tmu-text-primary "><span>{{$blog->post_title}}</span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta -->
@@ -644,9 +708,9 @@
                                 <div class="form-widget">
                                     <div id="success-message" class="alert alert-success" style="display: none;"></div>
 
-                                    <form class="mb-0" id="comment-form" name="comment-form" method="post" action="{{ route('blog.comments', $post->id) }}">
+                                    <form class="mb-0" id="comment-form" name="comment-form" method="post" >
                                         @csrf
-                                        <input type="hidden" name="post_id" value="{{ $post->id }}">
+                                        <input type="hidden" name="post_id" value="{{ $blog->id }}">
                                         <input type="hidden" name="parent_id" value="0">
 
                                         <div class="form-process" style="display: none;">
@@ -836,43 +900,48 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('comment-form');
-        const spinner = document.querySelector('.form-process');
-        const successMessage = document.getElementById('success-message');
+    const form = document.getElementById('comment-form');
+    const spinner = document.querySelector('.form-process');
+    const successMessage = document.getElementById('success-message');
+    const submitButton = form.querySelector('button[type="submit"]');
 
-        form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent default form submission
-            spinner.style.display = 'block'; // Show the spinner
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        spinner.style.display = 'block'; // Show the spinner
+        submitButton.disabled = true; // Disable the button to prevent double submission
 
-            // Create a FormData object
-            const formData = new FormData(form);
+        // Create a FormData object
+        const formData = new FormData(form);
+        const url = "{{ route('blog.comments', $blog->id) }}";
 
-            // Send the AJAX request
-            fetch(form.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                })
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    spinner.style.display = 'none'; // Hide the spinner
-                    if (data.success) {
-                        successMessage.textContent = data.message;
-                        successMessage.style.display = 'block'; // Show success message
-                        form.reset(); // Reset the form
-                    }
-                })
-                .catch(error => {
-                    spinner.style.display = 'none'; // Hide the spinner
-                    console.error('Error:', error);
-                });
-        });
+        // Send the AJAX request
+        fetch(url, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                spinner.style.display = 'none'; // Hide the spinner
+                if (data.success) {
+                    successMessage.textContent = data.message;
+                    successMessage.style.display = 'block'; // Show success message
+                    form.reset(); // Reset the form
+                }
+            })
+            .catch(error => {
+                spinner.style.display = 'none'; // Hide the spinner
+                console.error('Error:', error);
+            })
+            .finally(() => {
+                submitButton.disabled = false; // Re-enable the button after the request is complete
+            });
     });
+});
+
 </script>
 
 

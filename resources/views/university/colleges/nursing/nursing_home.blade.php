@@ -5,6 +5,56 @@
 <link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}">
 <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
+<style>
+    .card-body span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 1.5rem;
+}
+#h-5421{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 3rem;
+}
+
+@media only screen and (max-width:1200px) and (min-width:992px)  {
+    .card-body span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 3rem;
+}
+}
+
+@media screen and (max-width:480px)  {
+    .card-body span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 3.2rem;
+}
+#h-5421{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 2rem;
+}
+}
+
+</style>
+
 <!-- Content
 		============================================= -->
 <section id="content">
@@ -14,7 +64,6 @@
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
 					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Teerthanker Mahaveer </span> College of Nursing</h1>
 					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Teerthanker Mahaveer </span> College of Nursing</h1>
-					<a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>
 					<a href="https://admissions.tmu.ac.in/" target="blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
@@ -32,36 +81,36 @@
 			<div class="row justify-content-center">
 				<div class="col-6 col-lg-3 px-1">
 					<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-						<div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
+						<div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Practical Exposure</span>
 							<br>
-							<span class="d-block pt-1">Placement Rate</span>
+							<span class="d-block pt-1" id="h-5421">at TMU Hospital</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3 px-1">
 					<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 						<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-							<span>100%</span>
+							<span>Advanced Simulation </span>
 							<br>
-							<span class="d-block pt-1">Placement Assistance</span>
+							<span class="d-block pt-1" id="h-5421">& OSCE Labs</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3 px-1">
 					<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 						<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-							<span>60 LPA</span>
+							<span>American Heart  </span>
 							<br>
-							<span class="d-block pt-1">Highest Package</span>
+							<span class="d-block pt-1 text-break" id="h-5421">Association Certified Instructors</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6 col-lg-3 px-1">
 					<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 						<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-							<span>100+</span>
+							<span>A-Grade Recognition</span>
 							<br>
-							<span class="d-block pt-1">Global Collaborations</span>
+							<span class="d-block pt-1" id="h-5421">by the Quality Council of India</span>
 						</div>
 					</div>
 				</div>
@@ -80,18 +129,16 @@
 						<div class="row">
 							<div class="col-6">
 								<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-									<div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>82%</span>
-										<br>
-										<span class="d-block pt-1">Placement Rate</span>
+									<div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Practical Exposure</span>
+										<span class="d-block pt-1" id="h-5421">at TMU Hospital</span>
 									</div>
 								</div>
 							</div>
 							<div class="col-6">
 								<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-										<span>100%</span>
-										<br>
-										<span class="d-block pt-1">Placement Assistance</span>
+										<span>Advanced Simulation </span>
+										<span class="d-block pt-1" id="h-5421">& OSCE Labs</span>
 									</div>
 								</div>
 							</div>
@@ -102,18 +149,17 @@
 							<div class="col-6">
 								<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-										<span>60 LPA</span>
-										<br>
-										<span class="d-block pt-1">Highest Package</span>
+										<span>American Heart </span>
+										<span class="d-block pt-1 text-break" id="h-5421">Association Certified <br>Instructors</span>
 									</div>
 								</div>
 							</div>
 							<div class="col-6">
 								<div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
-										<span>100+</span>
-										<br>
-										<span class="d-block pt-1">Global Collaborations</span>
+										<span>A-Grade Recognition</span>
+										
+										<span class="d-block pt-1 text-break" id="h-5421">by the Quality Council of India</span>
 									</div>
 								</div>
 							</div>

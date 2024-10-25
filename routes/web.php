@@ -679,12 +679,12 @@ Route::get('/college-of-nursing/about-us', [NursingController::class, 'nursing_o
 Route::get('/college-of-nursing/department/paediatric-nursing', [NursingController::class, 'nursing_paediatric'])->name('nursing.paediatric');
 Route::get('/college-of-nursing/placement-calendar', [NursingController::class, 'nursing_placement_calendar'])->name('nursing.placement.calendar');
 Route::get('/college-of-nursing/placement-news', [NursingController::class, 'nursing_placement_news'])->name('nursing.placement.news');
-Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_principal'])->name('nursing.principal');
+// Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_principal'])->name('nursing.principal');
 Route::get('/college-of-nursing/department/psychiatric-nursing', [NursingController::class, 'nursing_psychiatric'])->name('nursing.psychiatric');
 Route::get('/college-of-nursing/syllabus', [NursingController::class, 'nursing_syllabus'])->name('nursing.syllabus');
 Route::get('/college-of-nursing/time-table', [NursingController::class, 'nursing_timetable'])->name('nursing.timetable');
 Route::get('/college-of-nursing/training-placement-cell', [NursingController::class, 'nursing_tpc'])->name('nursing.tpc');
-Route::get('/college-of-nursing/vice-principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
+Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
 
 // Law
 Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');

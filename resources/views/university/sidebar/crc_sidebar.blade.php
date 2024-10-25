@@ -35,9 +35,6 @@
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="#" class="custom-menu-item {{ setActive('contact.us') }}">
-                <p>Contact Us</p>
-            </a>
             <a href="{{ route('our.recruiters') }}" class="custom-menu-item {{ setActive('our.recruiters') }}">
                 <p>Our Recruiters</p>
             </a>

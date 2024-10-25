@@ -17,6 +17,9 @@
             <a href="http://portal2.tmu.ac.in/" class="custom-menu-item">
                 <p>Online Examination Form</p>
             </a>
+            <a href="{{ route('exam.syllabus') }}" class="custom-menu-item {{ setActive('exam.syllabus') }}">
+                <p>Syllabus</p>
+            </a>
             <a href="https://cvl.nad.co.in/NAD/home.action" class="custom-menu-item">
                 <p>NAD</p>
             </a>
