@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 
 <head>
- <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="author" content="SemiColonWeb">
@@ -15,54 +15,63 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
-   
 
-        <script>
-  // Function to load a stylesheet
-  function loadStyleSheet(href) {
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = href;
-    document.head.appendChild(link);
-  }
 
-  // Load Font Awesome CSS
-  var fontAwesomeLink = document.createElement('link');
-  fontAwesomeLink.rel = 'preload';
-  fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
-  fontAwesomeLink.as = 'style';
-  fontAwesomeLink.onload = function() {
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(fontAwesomeLink);
+    <script>
+        // Function to load a stylesheet
+        function loadStyleSheet(href) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
 
-  // Load Core Style CSS
-  var coreStyleLink = document.createElement('link');
-  coreStyleLink.rel = 'preload';
-  coreStyleLink.href = 'style.css';
-  coreStyleLink.as = 'style';
-  coreStyleLink.onload = function() {
-    this.onload = null; // Avoid calling onload multiple times
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(coreStyleLink);
+        // Load Font Awesome CSS
+        var fontAwesomeLink = document.createElement('link');
+        fontAwesomeLink.rel = 'preload';
+        fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
+        fontAwesomeLink.as = 'style';
+        fontAwesomeLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(fontAwesomeLink);
 
-  // Load Bootstrap CSS
-  var bootstrapLink = document.createElement('link');
-  bootstrapLink.rel = 'preload';
-  bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
-  bootstrapLink.as = 'style';
-  bootstrapLink.onload = function() {
-    this.rel = 'stylesheet';
-  };
-  document.head.appendChild(bootstrapLink);
-</script>
+        // Load Core Style CSS
+        var coreStyleLink = document.createElement('link');
+        coreStyleLink.rel = 'preload';
+        coreStyleLink.href = 'style.css';
+        coreStyleLink.as = 'style';
+        coreStyleLink.onload = function() {
+            this.onload = null; // Avoid calling onload multiple times
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(coreStyleLink);
 
-<noscript>
-  <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-</noscript>
+        // Load Bootstrap CSS
+        var bootstrapLink = document.createElement('link');
+        bootstrapLink.rel = 'preload';
+        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        bootstrapLink.as = 'style';
+        bootstrapLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(bootstrapLink);
+
+        var owlCarouselLink = document.createElement('link');
+        owlCarouselLink.rel = 'preload';
+        owlCarouselLink.href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css";
+        owlCarouselLink.as = 'style';
+        owlCarouselLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(owlCarouselLink);
+    </script>
+
+    <noscript>
+        <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    </noscript>
 
 
     <!-- Canela Deck font  -->
@@ -78,7 +87,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
@@ -95,7 +104,7 @@
     <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
 
     <!-- <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" rel="stylesheet"> -->
-    
+
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
     <!-- Bootstrap Bundle with Popper -->
@@ -208,7 +217,7 @@
 
                     <div class="container mobile-inner-nav d-block d-lg-none">
                         <div class="row p-0 m-0">
-                             <div class="col-4 mb-3">
+                            <div class="col-4 mb-3">
                                 <a href="{{route('tmuhome')}}">Home</a>
                             </div>
                             <div class="col-4 mb-3">
@@ -220,7 +229,7 @@
                             <div class="col-4 mb-3">
                                 <a href="{{route('all_blogs')}}">Blogs</a>
                             </div>
-                    <div class="col-4 mb-3">
+                            <div class="col-4 mb-3">
                                 <a href="{{route('alumni.home')}}">Alumni</a>
                             </div>
                             <div class="col-4 mb-3">
@@ -248,9 +257,9 @@
                             <i class="fa-regular fa-circle-xmark"></i>
                         </span>
                     </div>
-                    
-                    
-                     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom d-none d-lg-block">
+
+
+                    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom d-none d-lg-block">
                         <div class="container-fluid">
 
                             <div class="collapse navbar-collapse" id="navbarNav">
@@ -267,10 +276,10 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('all_blogs')}}">Blogs</a>
                                     </li>
-                                          <li class="nav-item">
+                                    <li class="nav-item">
                                         <a class="nav-link" href="{{route('alumni.home')}}">Alumni</a>
                                     </li>
-                           
+
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('crc.home')}}">Placement</a>
                                     </li>
@@ -324,10 +333,10 @@
         </div>
         <!-- Menubar Open Button Completed -->
 
-        
-           <!-- Searchbar code starts here -->
 
-           <div class="search-icon" id="searchIcon">
+        <!-- Searchbar code starts here -->
+
+        <div class="search-icon" id="searchIcon">
             <i class="uil uil-search" style="color:white;"></i>
         </div>
 
