@@ -40,6 +40,7 @@ use App\Http\Controllers\JainStudiesController;
 use App\Http\Controllers\JobformController;
 use App\Http\Controllers\TeachersfeedbackController;
 use App\Http\Controllers\AlumnifeedbackController;
+use App\Http\Controllers\EmployerFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 
 /*
@@ -59,27 +60,27 @@ use App\Http\Controllers\JobOpeningController;
 
 Route::get('centre-of-jain-studies', [JainStudiesController::class, 'jain_studies_home'])->name('jain.studies.home');
 
-Route::get('/clear-cache', function() {
+Route::get('/clear-cache', function () {
     Artisan::call('cache:clear');
     return 'Application cache cleared';
 });
 
-Route::get('/clear-config', function() {
+Route::get('/clear-config', function () {
     Artisan::call('config:clear');
     return 'Configuration cache cleared';
 });
 
-Route::get('/clear-route', function() {
+Route::get('/clear-route', function () {
     Artisan::call('route:clear');
     return 'Route cache cleared';
 });
 
-Route::get('/clear-view', function() {
+Route::get('/clear-view', function () {
     Artisan::call('view:clear');
     return 'View cache cleared';
 });
 
-Route::get('/clear-event', function() {
+Route::get('/clear-event', function () {
     Artisan::call('event:clear');
     return 'Event cache cleared';
 });
@@ -93,8 +94,8 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 
 
 Route::get('/', [TmuController::class, 'index'])->name('tmuhome');
-Route::post('/programmes/fetch-programs',[TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
-Route::post('/programmes/fetch-programs-bylevel',[TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
+Route::post('/programmes/fetch-programs', [TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
+Route::post('/programmes/fetch-programs-bylevel', [TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -113,15 +114,15 @@ Route::get('/blog/category/{category}', [BlogsController::class, 'blogs_Category
 Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
 Route::post('/blog/{id}/comments', [BlogsController::class, 'submitComment'])->name('blog.comments');
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 // Instructor  Group Middleware Starts
 
-Route::middleware(['auth','roles:instructor'])->group(function(){
-    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');   
+Route::middleware(['auth', 'roles:instructor'])->group(function () {
+    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
 });
 
-Route::post('/search/',[App\Http\Controllers\MetasController::class,'search'])->name('search');
+Route::post('/search/', [App\Http\Controllers\MetasController::class, 'search'])->name('search');
 Route::post('/getacademicyears', [App\Http\Controllers\Backend\SyllabusController::class, 'getAcademicYears'])->name('getacademicyears');
 Route::post('/getsyllabus', [App\Http\Controllers\Backend\SyllabusController::class, 'getSyllabuses'])->name('getsyllabuses');
 Route::post('/search_blog_slug', [BlogsController::class, 'searchBlogSlug'])->name('search_blog_slug');
@@ -233,7 +234,8 @@ Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackControl
 
 
 
-Route::get('/tmu/iqac-cell/employer-feedback-form', [TmuController::class, 'employer_feedback_form'])->name('employer.feedback.form');
+Route::get('/tmu/iqac-cell/employer-feedback-form', [EmployerFeedbackController::class, 'createEmployerFeedbackForm'])->name('employer.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-employer-feedback-form', [EmployerFeedbackController::class, 'storeFeedback'])->name('store.employer.feedback.form');
 
 
 // NAAC
