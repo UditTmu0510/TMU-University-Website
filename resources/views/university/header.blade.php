@@ -132,9 +132,9 @@
 
 <body class="stretched is-expanded-menu" data-menu-breakpoint="1200">
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader"></div>
-    </div>
+    </div> -->
 
     <section style="background-color: #001055;" id="menubar44567">
         <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
@@ -146,7 +146,7 @@
 
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper" style="display: block; visibility: hidden;">
+    <div id="wrapper" style="display: block;">
 
 
         <div class="side-button-container">
