@@ -9,7 +9,7 @@
             <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Aims & Objectives </span><span> of CRC</span></h1>
             <p class="text-justify">
 
-                The aims and objectives of a Corporate Resource Centre of Teerthanker Mahaveer University is to assist its
+                The aims and objectives of Corporate Resource Centre of Teerthanker Mahaveer University are to assist its
                 students in their career development and facilitate their transition from academia to the professional world.
             </p>
             <h3 class="tmu-text-primary mt-3 mb-2"><span>The Aims & Objectives of</span><span> CRC includes:</span></h3>
@@ -32,7 +32,7 @@
                     writing, interview preparation, and personal branding.</li>
                 <li style="margin-top:10px;"><b>Networking Events:</b> The Corporate Resource Centre (CRC) organizes
                     networking events such as HR Conclaves, industry-specific interactions/guest lectures to connect students
-                    with professionals and employers, Industry visits for practical exposures. These events provide students
+                    with professionals and employers, and Industrial visits for practical exposure. These events provide students
                     with opportunities to showcase their skills, learn from industry experts, and expand their professional
                     network.</li>
                 <li style="margin-top:10px;"><b>Continuous Monitoring and Feedback:</b> The Corporate Resource Centre (CRC)
