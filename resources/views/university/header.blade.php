@@ -54,18 +54,8 @@
         <meta name="robots" content="noodp, noydir">
     @endif
 @else
-    @if($metaData->no_index_status === 'Y')
-        <meta name="robots" content="noindex">
-    @else
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="robots" content="noarchive" />
-        <meta name="revisit-after" content="1 days">
-        <meta name="googlebot" content="noodp">
-        <meta name="msnbot" content="noodp">
-        <meta name="slurp" content="noodp, noydir">
-        <meta name="teoma" content="noodp">
-        <meta name="robots" content="noodp, noydir">
-    @endif
+  
+
     <title>TMU Moradabad – Best Private University in UP, India.</title>
     <meta name="description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
     <meta name="keywords" content="Best private University in UP,Top Private University in up,Best University in India,Top Rated University,Best University in Moradabad,Best Engineering University in UP,Best Law University in up,Best management University in UP." />
@@ -78,7 +68,8 @@
         <meta name="msnbot" content="noodp">
         <meta name="slurp" content="noodp, noydir">
         <meta name="teoma" content="noodp">
-        <meta name="robots" content="noodp, noydir">
+
+
         
 		<script type="application/ld+json">
 {
