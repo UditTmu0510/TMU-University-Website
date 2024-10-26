@@ -2,12 +2,334 @@
 <html dir="ltr" lang="en-US">
 
 <head>
-    <meta name="robots" content="noindex">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="author" content="SemiColonWeb">
-    <meta name="description"
-        content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+    @php
+    // Build the full URL
+    $currentUrl = request()->fullUrl();
+
+    // Get URI segments
+    $uriData = [
+        Request::segment(1),
+        Request::segment(2),
+        Request::segment(3),
+        Request::segment(4),
+        Request::segment(5)
+    ];
+
+    // Assuming the `news_model` is available through dependency injection or a service, replace this with the appropriate call
+    $metaData = app(\App\Models\Metas::class)->fetchMetaTagsBySlug($uriData);
+@endphp
+
+@if($metaData)
+    <title>{{ $metaData->meta_title }}</title>
+    <meta name="description" content="{{ $metaData->meta_description }}" />
+    <meta name="keywords" content="{{ $metaData->meta_keywords }}" />
+    <meta property="og:title" content="{{ $metaData->meta_title }}" />
+    <meta property="og:description" content="{{ $metaData->meta_description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TMU" />
+    <meta property="og:url" content="{{ $currentUrl }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Tmumbd" />
+    <meta name="twitter:title" content="{{ $metaData->meta_title }}" />
+    <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
+
+    @if(!empty($metaData->canonical_tag))
+        <link rel="canonical" href="{{ $metaData->canonical_tag }}" />
+    @endif
+
+    {!! $metaData->schema_markup ?? '' !!}
+
+    @if($metaData->no_index_status === 'Y')
+        <meta name="robots" content="noindex">
+    @else
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="robots" content="noarchive" />
+        <meta name="revisit-after" content="1 days">
+        <meta name="googlebot" content="noodp">
+        <meta name="msnbot" content="noodp">
+        <meta name="slurp" content="noodp, noydir">
+        <meta name="teoma" content="noodp">
+        <meta name="robots" content="noodp, noydir">
+    @endif
+@else
+    @if($metaData->no_index_status === 'Y')
+        <meta name="robots" content="noindex">
+    @else
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="robots" content="noarchive" />
+        <meta name="revisit-after" content="1 days">
+        <meta name="googlebot" content="noodp">
+        <meta name="msnbot" content="noodp">
+        <meta name="slurp" content="noodp, noydir">
+        <meta name="teoma" content="noodp">
+        <meta name="robots" content="noodp, noydir">
+    @endif
+    <title>TMU Moradabad – Best Private University in UP, India.</title>
+    <meta name="description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
+    <meta name="keywords" content="Best private University in UP,Top Private University in up,Best University in India,Top Rated University,Best University in Moradabad,Best Engineering University in UP,Best Law University in up,Best management University in UP." />
+    <meta property="og:title" content="TMU Moradabad – Best Private University in UP, India." />
+    <meta property="og:description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
+      <meta name="robots" content="noindex">
+        <meta name="robots" content="noarchive" />
+        <meta name="revisit-after" content="1 days">
+        <meta name="googlebot" content="noodp">
+        <meta name="msnbot" content="noodp">
+        <meta name="slurp" content="noodp, noydir">
+        <meta name="teoma" content="noodp">
+        <meta name="robots" content="noodp, noydir">
+        
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "TEERTHANKER MAHAVEER UNIVERSITY",
+  "url": "https://www.tmu.ac.in/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.tmu.ac.in/tmu/all-programmes{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollegeOrUniversity",
+  "name": "Teerthanker Mahaveer University",
+  "alternateName": "TMU",
+  "url": "https://www.tmu.ac.in/",
+  "logo": "https://www.tmu.ac.in/monaco/assets/image/tmu%20logo.png",
+  "sameAs": [
+    "https://www.facebook.com/tmumbd/",
+    "https://twitter.com/Tmumbd",
+    "https://www.instagram.com/tmu_mbd/",
+    "https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow",
+    "https://www.linkedin.com/school/tmuuni/",
+    "https://en.wikipedia.org/wiki/Teerthanker_Mahaveer_University"
+  ]
+}
+</script>
+<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "VideoObject",
+  "name": "Admissions Open for session 2023-2024 At Best Private University In UP | TMU Moradabad",
+  "description": "Teerthanker Mahaveer University (TMU) is the best private university in Moradabad, Uttar Pradesh (UP) and is well known for its Jain philosophy. The university stands determined to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge, and Right Conduct. The university has formed alliances with recognised institutions like- IBM, i-Nurture, NIVIDIA, BOSCH, Bombay Stock Exchange, Talentedge, UR Services, Safeducate, Future Group, TCS- ION etc so that students can get training on the latest technologies used in the industry. The university has world-class infrastructure, sports facilities, 24x7 security, mess, libraries, banking facilities, study rooms, gymnasium and much more. It also has a state-of-the-art Apple iMac lab, ventilated classrooms, and an air-conditioned auditorium. TMU is a multidisciplinary centre for higher education with NAAC ‘A’ Grade accreditation. It is the best private university in Uttar Pradesh because of its reputation for providing high-quality placements, affordable tuition costs, and a comprehensive learning environment.  Why is TMU the best private university in UP? ● 1000+ well qualified & experienced faculty ● 150+ academic programmes ● 82% placements ● 130+ acres of campus ● 48 LPA highest placement offer  In just over a decade, TMU has become one of the important centres of learning in northern India and aspires to be one of the top private global universities as each programme focuses on in-depth knowledge and the development of practical skills.  Opportunities are Waiting for You! Admissions are open at the best private university in UP. Enrol Now: www.tmu.ac.in Must Watch: TMU Convocation 2023 | Yogi Adityanath Ji | Chief Guest | Teerthanker Mahaveer University, Moradabad: https://www.youtube.com/watch?v=MgfmQzo_HrQ&amp;t=0s Must Watch: Rock-On VIII | Guru Randhawa Live Performance At TMU Moradabad: https://www.youtube.com/watch?v=DbQ9RaMZsHU&amp;t=0s Read all the latest news here: https://www.tmu.ac.in/news Subscribe the TMU’s official Youtube channel for more videos and all the latest updates: https://www.youtube.com/c/TeerthankerMahaveerUniversity  Get in Touch- Facebook: https://www.facebook.com/tmumbd/ Twitter: https://twitter.com/Tmumbd?ref_src=tw… Instagram: https://www.instagram.com/accounts/lo… LinkedIn: https://www.linkedin.com/school/tmuuni/ Pinterest: https://in.pinterest.com/tmumbd/ Official Website: https://www.tmu.ac.in/   #privateuniversity #university #bestprivateuniversity #admission #admission2023",
+  "thumbnailUrl": "https://i.ytimg.com/vi/tDkqPksIsxQ/default.jpg",
+  "uploadDate": "2023-03-24T05:11:55Z",
+  "duration": "PT32S",
+  "embedUrl": "https://www.youtube.com/embed/tDkqPksIsxQ",
+  "interactionCount": "80288"
+}</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TEERTHANKER MAHAVEER UNIVERSITY",
+  "alternateName": "TMU",
+  "url": "https://www.tmu.ac.in/",
+  "logo": "https://www.tmu.ac.in/monaco/assets/image/tmu%20logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "1800-270-1490",
+    "contactType": "technical support",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://www.facebook.com/tmumbd/",
+    "https://twitter.com/Tmumbd",
+    "https://www.instagram.com/tmu_mbd/",
+    "https://www.youtube.com/@TeerthankerMahaveerUniversity",
+    "https://www.linkedin.com/school/tmuuni/",
+    "https://en.wikipedia.org/wiki/Teerthanker_Mahaveer_University",
+    "https://www.tmu.ac.in/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Is the University recognised/approved by UGC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Teerthanker Mahaveer University is recognized and approved by the University Grants Commission (UGC). After a thorough inspection of our physical and academic infrastructure, we have been granted registration under Section 2(f) of the UGC Act 1956."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is TMU NAAC accredited?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Teerthanker Mahaveer University (TMU) has received accreditation from the National Assessment and Accreditation Council (NAAC). The university has been awarded the NAAC A grade, indicating its compliance with quality standards set by the council."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is Orientation mandatory?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, it is highly recommended for students to attend the orientation as it will provide you with information about various rules, regulations, and policies of the university."
+    }
+  },{
+    "@type": "Question",
+    "name": "What activities can I pursue at TMU?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "From Sports (Indoor and Outdoor) to dance, drama to debates, quizzes to more, TMU students have a plethora of activities to do in the University campus. The campus life at TMU is amazing."
+    }
+  }]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ArchiveOrganization",
+  "name": "TEERTHANKER MAHAVEER UNIVERSITY",
+  "image": "https://www.tmu.ac.in/img/facilities/university%20campus.webp",
+  "@id": "",
+  "url": "https://www.tmu.ac.in/",
+  "telephone": "1800-270-1490",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "N.H.-9, Delhi Road",
+    "addressLocality": "Moradabad",
+    "postalCode": "244001",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.241020,
+    "longitude": 86.962112
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/tmumbd/",
+    "https://twitter.com/Tmumbd",
+    "https://www.instagram.com/tmu_mbd/",
+    "https://www.youtube.com/@TeerthankerMahaveerUniversity",
+    "https://www.linkedin.com/school/tmuuni/",
+    "",
+    "https://en.wikipedia.org/wiki/Teerthanker_Mahaveer_University",
+    "https://www.tmu.ac.in/"
+  ] 
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "TEERTHANKER MAHAVEER UNIVERSITY",
+  "url": "https://www.tmu.ac.in/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.tmu.ac.in/tmu/all-programmes{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "VideoObject",
+  "name": "Admissions Open for session 2023-2024 At Best Private University In UP | TMU Moradabad",
+  "description": "Teerthanker Mahaveer University (TMU) is the best private university in Moradabad, Uttar Pradesh (UP) and is well known for its Jain philosophy. The university stands determined to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge, and Right Conduct. The university has formed alliances with recognised institutions like- IBM, i-Nurture, NIVIDIA, BOSCH, Bombay Stock Exchange, Talentedge, UR Services, Safeducate, Future Group, TCS- ION etc so that students can get training on the latest technologies used in the industry. The university has world-class infrastructure, sports facilities, 24x7 security, mess, libraries, banking facilities, study rooms, gymnasium and much more. It also has a state-of-the-art Apple iMac lab, ventilated classrooms, and an air-conditioned auditorium. TMU is a multidisciplinary centre for higher education with NAAC ‘A’ Grade accreditation. It is the best private university in Uttar Pradesh because of its reputation for providing high-quality placements, affordable tuition costs, and a comprehensive learning environment.  Why is TMU the best private university in UP? ● 1000+ well qualified & experienced faculty ● 150+ academic programmes ● 82% placements ● 130+ acres of campus ● 48 LPA highest placement offer  In just over a decade, TMU has become one of the important centres of learning in northern India and aspires to be one of the top private global universities as each programme focuses on in-depth knowledge and the development of practical skills.  Opportunities are Waiting for You! Admissions are open at the best private university in UP. Enrol Now: www.tmu.ac.in Must Watch: TMU Convocation 2023 | Yogi Adityanath Ji | Chief Guest | Teerthanker Mahaveer University, Moradabad: https://www.youtube.com/watch?v=MgfmQzo_HrQ&amp;t=0s Must Watch: Rock-On VIII | Guru Randhawa Live Performance At TMU Moradabad: https://www.youtube.com/watch?v=DbQ9RaMZsHU&amp;t=0s Read all the latest news here: https://www.tmu.ac.in/news Subscribe the TMU’s official Youtube channel for more videos and all the latest updates: https://www.youtube.com/c/TeerthankerMahaveerUniversity  Get in Touch- Facebook: https://www.facebook.com/tmumbd/ Twitter: https://twitter.com/Tmumbd?ref_src=tw… Instagram: https://www.instagram.com/accounts/lo… LinkedIn: https://www.linkedin.com/school/tmuuni/ Pinterest: https://in.pinterest.com/tmumbd/ Official Website: https://www.tmu.ac.in/   #privateuniversity #university #bestprivateuniversity #admission #admission2024",
+  "thumbnailUrl": "https://i.ytimg.com/vi/tDkqPksIsxQ/default.jpg",
+  "uploadDate": "2023-03-24T05:11:55Z",
+  "duration": "PT32S",
+  "embedUrl": "https://www.youtube.com/embed/tDkqPksIsxQ",
+  "interactionCount": "80288"
+}</script>
+
+<script type="application/ld+json" class="saswp-custom-schema-markup-output">   {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Teerthanker Mahaveer College of Law and Legal Studies",
+        "aggregateRating":
+        {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "ratingCount": "4248"
+        }
+     }
+</script>
+<script type="application/ld+json" class="schemantra.com">{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "Teerthanker Mahaveer University",
+  "additionalType": "https://www.tmu.ac.in/",
+  "address": "NH 9, Delhi Road, Moradabad, Uttar Pradesh",
+  "alternateName": "tmumbd",
+  "image": "https://www.tmu.ac.in/monaco/assets/image/tmu%20logo.png"
+}</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Gurudev Sri Sri Ravi Shankar Youth Meet",
+  "description": "Join the inspiring session with Gurudev Sri Sri Ravi Shankar at Teerthanker Mahaveer University. This youth meet will focus on inner peace, leadership, and mindfulness for young minds.",
+  "image": "https://www.tmu.ac.in/monaco/assets/image/banner/Ravi_shankerji_desktop.webp",
+  "startDate": "2024-09-16T11:00",
+  "endDate": "2024-09-16T14:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {		
+    "@type": "Place",
+    "name": "Teerthanker Mahaveer University",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Teerthanker Mahaveer University",
+      "addressLocality": "Moradabad",
+      "postalCode": "244001",
+      "addressCountry": "IN"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Sri Sri Ravi Shankar"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Teerthanker Mahaveer University",
+    "url": "https://www.tmu.ac.in"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://bit.ly/youthmeet",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": " https://bit.ly/youthmeet ",
+    "validFrom": "2024-09-16T09:00"
+  }
+}
+</script>
+
+@endif
+
 
     <!-- Font Imports -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
