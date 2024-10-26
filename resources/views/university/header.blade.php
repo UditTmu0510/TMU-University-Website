@@ -143,6 +143,7 @@
     </section>
 
 
+
     <!-- Document Wrapper
 	============================================= -->
     <div id="wrapper" style="display: block; visibility: hidden;">
@@ -345,9 +346,11 @@
 
 
         <!-- Searchbar code starts here -->
+
         <div class="search-icon" id="searchIcon">
             <i class="uil uil-search" style="color:white;"></i>
         </div>
+
 
 
         <div class="modal-search" id="searchModal">
