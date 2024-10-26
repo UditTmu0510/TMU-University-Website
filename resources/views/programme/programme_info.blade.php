@@ -14,7 +14,7 @@
         outline: none;
         transition: background-color 0.3s ease;
         font-size: 16px;
-        font-weight: 500;=
+        font-weight: 500;
         display: flex;
         /* Added */
         align-items: center;
