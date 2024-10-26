@@ -1109,25 +1109,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	window.addEventListener('DOMContentLoaded', function() {
 
-        document.getElementById('menubar44567').style.visibility = 'visible';
+        // document.getElementById('menubar44567').style.visibility = 'visible';
 		// Simulate a delay (e.g., 2000 milliseconds or 2 seconds)
 		setTimeout(function() {
 
 			// Fade Preloader
-			document.querySelector(".preloader").style.display = "none";
+			// document.querySelector(".preloader").style.display = "none";
 
 			// Show menu button
-			document.getElementById('menubar--open--button').style.visibility = 'visible';
+			// document.getElementById('menubar--open--button').style.visibility = 'visible';
 
 			// Making body accessible
 			document.querySelector('body').style.height = 'auto';
 			document.querySelector('body').style.overflowY = 'scroll';
 
-			const wrapper = document.getElementById('wrapper');
+			// const wrapper = document.getElementById('wrapper');
 
-			if (wrapper) {
-				wrapper.style.visibility = 'visible';
-			}
+			// if (wrapper) {
+			// 	wrapper.style.visibility = 'visible';
+			// }
 
 
 		});
