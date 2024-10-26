@@ -17,22 +17,22 @@
                                 <p class="person-quote px-4 px-md-5 pb-2">
                                     <!-- <i class="bi bi-quote"></i> -->
                                     <!-- &emsp;&emsp; -->
-                                    It is my firm belief that harmonious development of the society can be achieved by
-                                    <span class="highlight">enlightenment of the individual heart, mind and soul</span>.
-                                    This has become a prerequisite in today’s fast changing world where material gains
+                                    It is my firm belief that the harmonious development of society can be achieved by
+                                    <span class="highlight">the enlightenment of the individual heart, mind and soul</span>.
+                                    This has become a prerequisite in today’s fast-changing world where material gains
                                     have out-placed basic human values. I am of the firm opinion that education as a
-                                    powerful instrument of socio-economic change can transform the attitude, thinking
-                                    and life style of the people and society. <span class="highlight">Education enables
+                                    powerful instrument of socioeconomic change can transform the attitude, thinking
+                                    and lifestyle of the people and society. <span class="highlight">Education enables
                                         flexible thinking and better decision making capabilities in
                                         individuals</span>.<br></p>
                                         <p class="person-quote px-4 px-md-5 pb-2">
-                                    I have always dreamt of empowering the society with enlightened, skillful and
+                                    I have always dreamt of empowering society with enlightened, skilful and
                                     socially relevant citizens, which can be possible only by educating the masses. As
                                     such, we initiated in this benign task of reconstructing the social order by
-                                    providing educational establishments, thus contributing to the development of nation
+                                    providing educational establishments, thus contributing to the development of the nation
                                     in our own humble way. <span class="highlight">Teerthanker Mahaveer University has
                                         taken the task of developing human capital in tune with the requirements of
-                                        industry and the society</span> by integrating the basic principles of Right
+                                        industry and society</span> by integrating the basic principles of Right
                                     Philosophy, Right Knowledge and Right Conduct in its policies and programmes.<br></p>
                                     <p class="person-quote px-4 px-md-5 pb-2">
                                     The University stands for humanism, tolerance, reason, adventure of ideas and the
@@ -46,9 +46,9 @@
                                     <span class="highlight">sports and extracurricular activities</span>, which are
                                     integral components of the learning process.<br></p>
                                     <p class="person-quote px-4 px-md-5 pb-2">
-                                    I extend my best wishes to all the aspirants and assure that under the mentorship of
+                                    I extend my best wishes to all the aspirants and assure them that under the mentorship of
                                     dedicated faculty of this prestigious University, they shall be able to <span
-                                        class="highlight">take full advantage of opportunities offered to them</span>.
+                                        class="highlight">take full advantage of the opportunities offered to them</span>.
                                     </p>
 
                                     <!-- <br> -->

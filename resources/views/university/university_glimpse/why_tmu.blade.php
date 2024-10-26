@@ -96,7 +96,7 @@
 
 
         <div class="container mt-5 mb-5">
-            <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Super Specialty</span><span
+            <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Super speciality</span><span
                     class="d-block d-sm-inline"> Hospital</span></h2>
             <div class="row">
 
@@ -160,12 +160,12 @@
                     </article>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <p class="person-quote mb-3 mt-5">TMU Hospital is a leading center for safety and advanced
+                    <p class="person-quote mb-3 mt-5">TMU Hospital is a leading centre for safety and advanced
                         healthcare,
-                        offering a wide range of super-specialty services. It provides comprehensive primary, secondary,
+                        offering a wide range of super-speciality services. It provides comprehensive primary, secondary,
                         and tertiary care, serving as a crucial healthcare resource for the community.</p>
 
-                    <p class="person-quote mb-3">The hospital operates 24/7, with an 800+ bed super-specialty facility
+                    <p class="person-quote mb-3">The hospital operates 24/7, with an 800+ bed super-speciality facility
                         on campus, ensuring round-the-clock medical care. It also offers hands-on practical training for
                         medical, nursing, and allied health students, allowing them to gain real-world experience in a
                         professional environment.</p>
@@ -180,7 +180,7 @@
 
         <div class="container">
             <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Centre for </span><span
-                    class="d-block d-sm-inline">Teaching ,Learning & Development</span></h2>
+                    class="d-block d-sm-inline">Teaching, Learning & Development</span></h2>
 
             <div class="slide"><a href="portfolio-single-gallery.html"><img
                         src="{{asset('assets/img/aboutus/info_1.png')}}" alt="Morning Dew"></a>
@@ -201,7 +201,7 @@
 
             <p class="person-quote mb-3 mt-5">The Corporate Resource Centre (CRC) at TMU is a specialised unit focused
                 on enhancing students' career prospects. It functions as a bridge between academic learning and
-                professional opportunities, offering services like career counseling, internship placements, and job
+                professional opportunities, offering services like career counselling, internship placements, and job
                 search assistance. It prepares students for the competitive job market by providing resources and
                 support for their career development, ensuring they are ready to excel in their chosen fields upon
                 graduation. Its success is reflected in its impressive 82% placement rate, showcasing its effectiveness

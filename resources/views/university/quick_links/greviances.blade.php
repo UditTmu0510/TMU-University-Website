@@ -19,20 +19,20 @@
           <p class="about-p mb-4 text-justify">In order to promote a responsive and conducive academic
             environment on the campus, each College/Independent Teaching Department shall establish a
             '<span class="highlight">Students' Grievance Redressal Cell</span>'. The ‘Cell’ shall
-            provide a friendly mechanism to the students to report their grievances and the faster
+            provide a friendly mechanism for the students to report their grievances and the faster
             disposal of the same. It shall also provide a platform to the students to come forward with
-            constructive suggestions for more efficient and effective teaching-learning atmosphere</p>
+            constructive suggestions for a more efficient and effective teaching-learning atmosphere</p>
         </div>
         <div class="container p-2">
           <p class="about-p mb-4 text-justify">Further, the University has established a <span
-              class="highlight">Students' Help Desk</span> at the Administrative Block with an
-            objective of guiding the university students to the appropriate Office/Officer for
-            addressing their queries or resolving a difficulty. The ‘Help Desk’ shall also advise the
+              class="highlight">Students' Help Desk</span> at the Administrative Block with the
+            objective of guiding the university students to the appropriate Office/Officer to
+            address their queries or resolv a difficulty. The ‘Help Desk’ shall also advise the
             students about the procedure involved in the matter. It may also facilitate in resolving any
             grievance of a student remaining unattended at the College/Department level.</p>
           <p class="about-p mb-4 text-justify"><span class="highlight">NOTE:</span> The term “Grievance”
-            refers to a difficulty, problem, or a feeling of discontent at individual student level due
-            to an act/omission of the staff of University or College or Department]</p>
+            refers to a difficulty, problem, or a feeling of discontent at the individual student level due
+            to an act/omission of the staff of University/College/Department]</p>
           <!--<p class="about-p mb-2 text-justify"></p>-->
           <!--<p class="about-p mb-2 text-justify"></p>-->
         </div>
@@ -50,21 +50,20 @@
                 <li>To guide a student about the procedure and officers/offices to be approached to
                   address any
                   query/grievance related to an academic or administrative matter</li>
-                <li>To co-ordinate with College Department Section Division of the University in
-                  resolving the
-                  students grievances.</li>
+                <li>To co-ordinate with College/Department/Section/Division of the University in
+                  resolving the students' grievances.</li>
               </ul>
               <li><b>Student's Grievance Redressal Cell</b></li>
               <ul class="m-ol-list ps-4 mb-3 text-justify">
                 <li>Providing a free and fair environment to students so that they can express their
-                  difficulties problems without any apprehension.</li>
+                  difficulties and problems without any apprehension.</li>
                 <li>To ensure early and effective solution to a student’s problem and
                   provide suggest ways and
                   means so that such an issue does not arise in future.</li>
                 <li>Counseling the students to maintain dignity and decorum, and to exercise
                   restraint and
                   patience as per demand of the situation.</li>
-                <li>Ensuring friendly environment in the College/Department by promoting cordial
+                <li>Ensuring a friendly environment in the College/Department by promoting cordial
                   Student-Student
                   and Student-Staff relations.</li>
                 <li>Training the staff to be more responsive, courteous, and service oriented.</li>
@@ -75,7 +74,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 mb-3">
-          <h3 class="mb-3 pb-0 tmu-text-primary"><span>Constitution of the student's
+          <h3 class="mb-3 pb-0 tmu-text-primary"><span>Constitution of the Student's
             </span><span>Grievance Redressal Cell</span></h3>
           <h4 class="mb-3 pb-0 tmu-text-primary"><span>1. Members</span></h4>
           <div class="table-responsive mb-3">
@@ -151,7 +150,7 @@
               grievances/suggestions (the list is only indicative in nature):</p>
             <ol class="ps-4 m-ol-list text-justify">
               <li><b>Academic:</b> Identity Card, Marks Sheet, Duplicate Marks Sheet, Migration
-                Certificate, Enrollment number, Degree Certificate, Character certificate, Internal
+                Certificate, Enrollment number, Degree Certificate, Character Certificate, Internal
                 assessment, Attendance, Laboratory, Workshop.</li>
               <li><b>Financial: </b> Fee/Dues, Fine</li>
               <li><b>Administrative:</b> Discipline, Transport, Security, and Information/Query</li>
@@ -197,7 +196,7 @@
               <li>Suggestion/Grievance Box maintained at the College/Department will be opened every
                 Monday &
                 Thursday by the Member Secretary of the Cell.</li>
-              <li>In case of the University the Suggestion/Grievance Box shall be opened by an
+              <li>In the case of the University, the Suggestion/Grievance Box shall be opened by an
                 authorized
                 representative of the Registrar.</li>
               <li>The Suggestions/Grievances so received shall be entered in serial order with a
@@ -209,16 +208,16 @@
                 the concerned Cell/Desk.</li>
               <li>The Students Grievance Redressal Cell shall ensure urgent meeting(s) as are
                 necessary to ensure
-                early resolution of grievance(s), such that the students can find early solution to
+                early resolution of grievance(s), such that the students can find early solutions to
                 the
                 difficulties faced by them, thus generating higher confidence into the system.</li>
               <li>It is desirable that the ‘Cell’ resolves all the issues within seven working days
-                from date of
-                its registering.</li>
-              <li>The action taken with date against each grievance/suggestion shall be recorded in
+                from the date of
+                its registration.</li>
+              <li>The action taken with the date against each grievance/suggestion shall be recorded in
                 the above
                 register.</li>
-              <li>Minutes of meeting of the ‘Cell’ shall be maintained by the respective College/
+              <li>Minutes of meetings of the ‘Cell’ shall be maintained by the respective College/
                 Department.</li>
               <li>A monthly report of the above shall be sent to the office of the Registrar along
                 with other
@@ -239,9 +238,9 @@
               <li>Decisions of the Board of Studies, Board of Faculty, any other Administrative or
                 Academic
                 Committees constituted by the University.</li>
-              <li>Decisions taken by the University Authorities with regard to disciplinary matter and
+              <li>Decisions taken by the University Authorities with regard to disciplinary matters and
                 conduct of
-                student.</li>
+                students.</li>
               <li>Decisions of the competent authority on assessment and examination results.</li>
             </ol>
           </div>
