@@ -34,11 +34,11 @@
                                     tested learning & thinking. It was a test of memory.<br></p>
                                     <p class="person-quote text-justify px-4 px-md-5 mb-2"> We can assure you a
                                     different experience in TMU where you will deal with <span
-                                        class="highlight">real-life problem situations</span>. You will spend good
+                                        class="highlight">real-life problem situations</span>. You will spend a good
                                     amount of time in <span class="highlight">doing and thinking</span>. The academic
-                                    processes in TMU will equip you with <span class="highlight">skills & thinking to
-                                        deal with both professional & personal lives</span>. We have a well structured
-                                    programme delivery mechanism that assures learning and well rounded personality. I
+                                    processes at TMU will equip you with <span class="highlight">skills & thinking to
+                                        deal with both professional & personal lives</span>. We have a well-structured
+                                    programme delivery mechanism that assures learning and well-rounded personality. I
                                     am sure your experience will be unique & quite enriching thus preparing you to face
                                     <span class="highlight">real-life challenges in the future</span>.<br>
                                     Wishing you all the best!</p>
