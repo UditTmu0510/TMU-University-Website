@@ -24,8 +24,7 @@ return new class extends Migration
             $table->string('contact_no');
             $table->string('academic_year');
             $table->integer('overall_rating');
-            $table->text('topics_beyond_syllabus');
-            $table->text('topics_to_delete');
+            $table->text('syllabus_modification');
             $table->text('suggestions');
             $table->enum('q1', ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree']);
             $table->enum('q2', ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree']);

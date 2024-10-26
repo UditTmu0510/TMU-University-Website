@@ -427,6 +427,28 @@
 
 
     
+    document.getElementById('employeeCode').addEventListener('input', function () {
+    // Convert the input to uppercase
+    this.value = this.value.toUpperCase();
+
+    // Limit the input to a maximum of 8 characters
+    if (this.value.length > 8) {
+        this.value = this.value.slice(0, 8);
+    }
+
+    const employeeCodePattern = /^[A-Z0-9]{8}$/;
+
+    // Validate the input
+    if (!employeeCodePattern.test(this.value)) {
+        this.setCustomValidity("Must be exactly 8 characters, uppercase letters and numbers only.");
+    } else {
+        this.setCustomValidity(""); // Clear the error message if valid
+    }
+});
+
+  
+
+
     
 </script>
 
