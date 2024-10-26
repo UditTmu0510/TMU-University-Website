@@ -81,15 +81,15 @@
 
           <!-- Contact Number (Whatsapp) -->
           <div class="mb-3">
-            <label for="facultyName" class="form-label required-label">Contact Number (Whatsapp)</label>
-            <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="contact_no" required>
+            <label for="phone_no" class="form-label required-label">Contact Number (Whatsapp)</label>
+            <input type="text" class="form-control" id="phone_no" placeholder="Enter your name" name="contact_no" required>
             <div class="invalid-feedback">Please enter Contact Number.</div>
           </div>
 
           <!-- email id -->
           <div class="mb-3">
-            <label for="facultyName" class="form-label required-label">Email ID</label>
-            <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="email" required>
+            <label for="email" class="form-label required-label">Email ID</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your name" name="email" required>
             <div class="invalid-feedback">Please enter Email ID.</div>
           </div>
 
@@ -282,6 +282,38 @@
         }, false)
       })
   })()
+
+// email Validation
+
+document.getElementById('email').addEventListener('input', function() {
+        const emailPattern = /@.+\./; // Regex to check for "@" followed by at least one character and then a "."
+
+        // Validate if the input contains "@" and "." in the correct format
+        if (!emailPattern.test(this.value)) {
+            this.setCustomValidity("Please enter a valid email address with '@' and '.' characters.");
+        } else {
+            this.setCustomValidity(""); // Clear the error message if valid
+        }
+    });
+
+    // Phone number Valiation
+    document.getElementById('phone_no').addEventListener('input', function () {
+    // Remove any non-numeric characters
+    this.value = this.value.replace(/\D/g, '');
+
+    // Limit the input to a maximum of 10 digits
+    if (this.value.length > 10) {
+        this.value = this.value.slice(0, 10);
+    }
+
+    // Validate if the input is exactly 10 digits
+    if (this.value.length !== 10) {
+        this.setCustomValidity("Please enter exactly 10 numeric digits.");
+    } else {
+        this.setCustomValidity(""); // Clear the error message if valid
+    }
+});
+
 </script>
 
 @endsection
