@@ -136,11 +136,18 @@
         <div class="loader"></div>
     </div> -->
 
-    <section style="background-color: #001055;" id="menubar44567">
+    <section style="background-color: #001055;" >
         <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
             <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.webp')}}" alt="" class="navbar-logo"></a>
         </div>
     </section>
+
+
+     <!-- Searchbar code starts here -->
+
+     <div class="search-icon" id="searchIcon">
+            <i class="uil uil-search" style="color:white;"></i>
+        </div>
 
 
 
@@ -338,18 +345,14 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" style="visibility: hidden;" title="This button provides access to both the college and university menus. Click here to explore the available options.">
+        <div id="menubar--open--button" onclick="showMenubar()" title="This button provides access to both the college and university menus. Click here to explore the available options.">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block"> Menu</span>
         </div>
         <!-- Menubar Open Button Completed -->
 
 
-        <!-- Searchbar code starts here -->
-
-        <div class="search-icon" id="searchIcon">
-            <i class="uil uil-search" style="color:white;"></i>
-        </div>
+       
 
 
 
