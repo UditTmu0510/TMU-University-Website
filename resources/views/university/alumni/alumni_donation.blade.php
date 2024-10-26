@@ -10,9 +10,9 @@
             <div class="container">
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> TMU Alumni </span><span> Donation </span></h1>
-                    <p class="about-p mb-4">The Teerthanker Mahaveer University seeks substantial contribution from its alumni by raising resources urgently needed by the University. The alumni can contribute for the initiatives of the University listed below.</p>
+                    <p class="about-p mb-4">The Teerthanker Mahaveer University seeks substantial contributions from its alumni by raising resources urgently needed by the University. The alumni can contribute to the initiatives of the University listed below.</p>
                     <ul class="m-ol-list ps-5">
-                        <li>Developing infrastructure such as construction of Class Rooms, Laboratories, etc.</li>
+                        <li>Developing infrastructure such as construction of Classrooms, Laboratories, etc.</li>
                         <li>Construction of smart Class Rooms.</li>
                         <li>Providing substantial scholarships to deserving meritorious students.</li>
                         <li>Increasing the research activities and establishment of an innovation club.</li>
