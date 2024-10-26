@@ -141,9 +141,7 @@
             <a href="{{route('tmuhome')}}"> <img src="{{asset('logo.webp')}}" alt="" class="navbar-logo"></a>
         </div>
     </section>
-    <div class="search-icon" id="searchIcon">
-        <i class="uil uil-search" style="color:white;"></i>
-    </div>
+
 
 
     <!-- Document Wrapper
@@ -348,6 +346,10 @@
 
 
         <!-- Searchbar code starts here -->
+
+        <div class="search-icon" id="searchIcon">
+            <i class="uil uil-search" style="color:white;"></i>
+        </div>
 
 
 
