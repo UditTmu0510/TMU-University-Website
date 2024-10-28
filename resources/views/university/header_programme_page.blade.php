@@ -66,7 +66,7 @@
         <meta name="msnbot" content="noodp">
         <meta name="slurp" content="noodp, noydir">
         <meta name="teoma" content="noodp">
-        <meta name="robots" content="noodp, noydir">." />
+        <meta name="robots" content="noodp, noydir">
         
 		<script type="application/ld+json">
 {
