@@ -8,16 +8,16 @@
 		<h1 class="tmu-text-primary tmu-page-heading"><span> Welcome to</span> <span>TMU IIC</span></h1>
 
 		<p class="mb-2 text-justify">
-			Ministry of Education (MoE), Govt. of India has established ‘MoE’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are in formative years.
+			Ministry of Education (MoE), Govt. of India has established ‘MoE’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes while they are in their formative years.
 		</p>
 		<p class="mb-3 text-justify">
-			MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs will be established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses. <br>
-		<h3 class="mb-2 pb-0 fw-bold tmu-text-primary"><span>Major focus </span><span>of IIC</span> </h3>
+			MIC has envisioned encouraging the creation of ‘Institution’s Innovation Council (IICs)’ across selected HEIs. A network of these IICs will be established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses. <br>
+		<h3 class="mb-2 pb-0 fw-bold tmu-text-primary"><span>The Major focus </span><span>of IIC</span> </h3>
 		<ol class="m-ol-list ps-5">
 			<li>To create a vibrant local innovation ecosystem.</li>
 			<li>Start-up supporting mechanism in HEIs.</li>
 			<li>Prepare institute for Atal Ranking of institutions on innovation achievements framework.</li>
-			<li>Establish function ecosystem for scouting ideas and pre-incubation of ideas.</li>
+			<li>Establish a functional ecosystem for scouting ideas and pre-incubation of ideas.</li>
 			<li>Develop better cognitive ability for technology students.</li>
 		</ol>
 
@@ -27,8 +27,8 @@
 			<li>Identify and reward innovations and share success stories.</li>
 			<li>Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, professionals and create a mentor pool for student innovators.</li>
 			<li>Network with peers and national entrepreneurship development organizations.</li>
-			<li>Create an Institution’s Innovation portal to highlight innovative projects carried out by institution’s faculty and students.</li>
-			<li>Organize Hackathons, idea competition, mini-challenges etc.</li>
+			<li>Create an Institution’s Innovation portal to highlight innovative projects carried out by the institution’s faculty and students.</li>
+			<li>Organise Hackathons, idea competitions, mini-challenges etc.</li>
 		</ol>
 
 
@@ -38,7 +38,7 @@
 					<a href="https://www.tmu.ac.in/pdf/Innovation%20and%20Startup%20Policy%202019.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/5968/5968746.png" alt="">
-							<span>Innovation and Startup policy</span>
+							<span>Innovation and Startup Policy</span>
 						</div>
 					</a>
 				</div>
@@ -46,7 +46,7 @@
 					<a href="https://www.tmu.ac.in/pdf/research/innovation_fund.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/2991/2991109.png" alt="">
-							<span>Vice Chancellor innovation fund </span>
+							<span>Vice Chancellor Innovation Fund </span>
 						</div>
 					</a>
 				</div>
@@ -54,7 +54,7 @@
 					<a href="https://upgrade.tmu.ac.in/research_publication.php" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/6462/6462790.png" alt="">
-							<span>Research publication</span>
+							<span>Research Publication</span>
 						</div>
 					</a>
 				</div>
@@ -62,7 +62,7 @@
 					<a href="https://upgrade.tmu.ac.in/patent.php" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/2874/2874808.png" alt="">
-							<span>patenting information</span>
+							<span>Patenting Information</span>
 						</div>
 					</a>
 				</div>
