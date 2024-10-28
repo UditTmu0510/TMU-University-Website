@@ -273,7 +273,7 @@ $(document).ready(function() {
     <div id="copyrights">
         <div class="container">
 
-            <div class="row justify-content-between col-mb-30">
+            <div class="row justify-content-between">
                 <div class="col-12 col-lg-auto text-center text-lg-start">
                     <div class="copyrights-menu copyright-links">
                         <a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a
