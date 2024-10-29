@@ -117,12 +117,12 @@
                                             <tr>
                                                 <td class="text-center">18.</td>
                                                 <td class="text-center">25.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/26.10.2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/25th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">19.</td>
                                                 <td class="text-center">26.10.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/22nd-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/26.10.2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
                                             
                                         </tbody>
