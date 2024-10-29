@@ -185,13 +185,14 @@ $(document).ready(function() {
                                     <li><a href="{{route('tmu.convocation')}}">Convocation</a></li>
 
                                     <li><a href="{{route('all_news')}}">News</a></li>
+                                    <li><a href="{{route('tmu.media.cover')}}">Media Coverage</a></li>
                                     <li><a href="{{route('tmu.careers')}}">Join TMU</a></li>
                                     <!--- CAREERS -->
                                     <!-- <li><a href="#">About City</a></li> -->
                                     <li><a href="{{route('iqac.about')}}">IQAC</a></li>
                                     <li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
                                     <li><a href="{{route('all_blogs')}}">Blogs</a></li>
-                                    <li><a href="#">Sitemap</a></li>
+                                    <li><a href="{{route('teaching.facility')}}">Teaching Facility</a></li>
                                     <li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
                                 </ul>
                             </div>
@@ -207,6 +208,7 @@ $(document).ready(function() {
 
                                     <li><a href="{{route('campus.view')}}">Campus View</a></li>
                                     <li><a href="{{route('tmu.faqs')}}">FAQs</a></li>
+                                    <li><a href="{{route('tmu.privacy.policy')}}">Privacy Policy</a></li>
 
                                 </ul>
                             </div>
@@ -279,7 +281,7 @@ $(document).ready(function() {
                         <a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a
                             href="{{route('nirf.home')}}">NIRF</a>/<a href="{{route('naac.home')}}">NAAC</a>/<a
                             href="{{route('ctld.home')}}">CTLD</a>/<a href="{{route('crc.home')}}">Placement</a>/<a
-                            href="{{route('iqac.about')}}">IQAC</a>
+                            href="{{route('iqac.about')}}">IQAC</a>/<a href="{{route('tmu.disclaimer')}}">Disclaimer</a>
                     </div>
                     Copyrights &copy; 2024 All Rights Reserved by Teerthanker Mahaveer University,Moradabad.
                 </div>
