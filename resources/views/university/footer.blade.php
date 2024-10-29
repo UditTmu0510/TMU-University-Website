@@ -313,6 +313,12 @@ $(document).ready(function() {
                             <i class="fa-brands fa-youtube"></i>
                             <i class="fa-brands fa-youtube"></i>
                         </a>
+
+                        <a target="_blank" href="https://www.instagram.com/tmu.updates/"
+                            class="social-icon border-transparent si-small me-0 h-bg-youtube">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
                     </div>
 
                 </div>
