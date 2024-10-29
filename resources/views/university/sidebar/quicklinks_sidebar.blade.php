@@ -41,6 +41,9 @@
             <a href="{{route('tmu.transport')}}" class="custom-menu-item {{ setActive('tmu.transport') }}">
                 <p>Transportation</p>
             </a>
+            <a href="{{route('tmu.media.cover')}}" class="custom-menu-item {{ setActive('tmu.media.cover') }}">
+                <p>Media Coverage</p>
+            </a>
         </div>
     </div>
 </div>
