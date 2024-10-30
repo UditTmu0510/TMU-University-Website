@@ -1679,3 +1679,19 @@ const menubarFirstview = {
     
 
 }
+
+
+
+// Menubar tooltip js
+const menuButton = document.querySelector('.menu-button');
+const tooltip = document.getElementById('menu-tooltip');
+
+menuButton.addEventListener('mouseenter', () => {
+    tooltip.style.visibility = 'visible';
+    tooltip.style.opacity = '1';
+});
+
+menuButton.addEventListener('mouseleave', () => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = '0';
+});

@@ -656,11 +656,12 @@
 
         <!-- Header Code Section Completed -->
 
-
+  
         <!-- Menubar Open Button Code  -->
-        <div id="menubar--open--button" onclick="showMenubar()" title="This button provides access to both the college and university menus. Click here to explore the available options.">
+        <div id="menubar--open--button" class="menu-container"  onclick="showMenubar()" >
             <i class="fa-solid fa-bars"></i>
-            <span class="d-none d-md-block"> Menu</span>
+            <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
+            <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
         <!-- Menubar Open Button Completed -->
 

@@ -4528,3 +4528,51 @@ Search bar css ends here
     }
 
     /*alumni testimonial css end*/
+
+
+
+    /* menubar tooltip css */
+    .menu-container {
+        position: relative; /* Position relative to the button */
+        display: inline-block; /* Allows positioning of the tooltip */
+    }
+    
+    .menu-button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .tooltip {
+        visibility: hidden; /* Initially hidden */
+        opacity: 0; /* Start with opacity 0 */
+        transition: opacity 0.3s ease, visibility 0s 0.3s; /* Transition for smooth effect */
+        background-color: #ebe1e1; /* Dark background */
+        color: #000 !important; /* White text */
+        padding: 5rem 2rem;
+        border-radius: 2px;
+        font-size: 12px !important;
+        position: absolute;
+        top:110%; /* Position above the button */
+        left: 100%;
+        transform: translateX(-100%); /* Center the tooltip */
+        z-index: 100; /* Ensure it appears above other elements */
+        white-space: nowrap; /* Prevent line breaks */
+    }
+    .tooltip::before{
+        content: url('');
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 50%;
+        top:0;
+        background-color: #ebe1e1;
+        transform: rotateZ(45deg) translate(-50%,-20%);
+    }
+    
+    .menu-container:hover .tooltip {
+        visibility: visible; /* Show on hover */
+        opacity: 1; /* Fade in */
+        transition: opacity 0.3s ease; /* Smooth transition */
+    }
+    
