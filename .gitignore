@@ -27,6 +27,8 @@ yarn-error.log
 # Ignore everything in the assets directory
 /public/assets/*
 
+!/public/poster
+
 # Except for the CSS and JS folders
 !/public/assets/css/
 !/public/assets/js/

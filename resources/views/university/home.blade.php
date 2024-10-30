@@ -1,6 +1,8 @@
 @extends('layouts.main')
 @section('content')
 
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+
 
 <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
 <!-----video banner start-->
@@ -9,15 +11,14 @@
         <div class="container-fluid p-0">
             <div class="video-banner">
        
-            <video muted autoplay loop playsinline class="d-none d-md-block" >
+            <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
                     <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
 
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
-                </video>
-
-
+                </video> -->
+                <video id="videoPlayer89" muted autoplay loop playsinline class="w-100"></video>
        
       <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
       <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
@@ -998,6 +999,19 @@ $(document).ready(function() {
 
 });
 
+</script>
+
+<script>
+    let wd = window.innerWidth;
+    var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
+
+    if (wd <= 540) {
+        url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
+        document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
+    }
+
+    var player = dashjs.MediaPlayer().create();
+    player.initialize(document.querySelector("#videoPlayer89"), url, true);
 </script>
 
 
