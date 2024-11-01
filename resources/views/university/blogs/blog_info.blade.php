@@ -502,9 +502,9 @@
                         <h4>Categories</h4>
                         <div class="tagcloud">
                             @foreach ($blog_categories as $blog_category)
-                            @if (!empty($blog_category->category))
-                            <a href="{{ url('blog/category/' . $blog_category->category) }}" class="category-link" data-category="{{ $blog_category->category }}">
-                                {{ $blog_category->category}}
+                            @if (!empty($blog_category->category_name))
+                            <a href="{{ url($blog_category->category_slug) }}" class="category-link" data-category="{{ $blog_category->category_name }}">
+                                {{ $blog_category->category_name}}
                             </a>
                             @endif
                             @endforeach
@@ -589,7 +589,7 @@
                                     <div class="card-body text-center">
                                         <!-- Post Date and Category -->
                                         <small class="text-muted d-block mb-1">
-                                            {{ $post->posted_at->format('M j') }} | {{ $post->category ?? 'Uncategorized' }}
+                                            {{ $post->posted_at->format('M j') }} | {{ $post->category_name->category_name ?? 'Uncategorized' }}
                                         </small>
 
                                         <!-- Post Title -->
