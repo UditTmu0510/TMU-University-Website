@@ -4547,10 +4547,12 @@ Search bar css ends here
         visibility: hidden; /* Initially hidden */
         opacity: 0; /* Start with opacity 0 */
         transition: opacity 0.3s ease, visibility 0s 0.3s; /* Transition for smooth effect */
-        background-color: #ebe1e1; /* Dark background */
+        background-color: white; /* Dark background */
         color: #000 !important; /* White text */
+        color: #ff7900 !important;
+        font-weight: 500;
         padding: 5rem 2rem;
-        border-radius: 2px;
+        border-radius: 5px;
         font-size: 12px !important;
         position: absolute;
         top:110%; /* Position above the button */
@@ -4558,6 +4560,7 @@ Search bar css ends here
         transform: translateX(-100%); /* Center the tooltip */
         z-index: 100; /* Ensure it appears above other elements */
         white-space: nowrap; /* Prevent line breaks */
+        border:1px solid #ff7900;
     }
     .tooltip::before{
         content: url('');
@@ -4566,7 +4569,9 @@ Search bar css ends here
         position: absolute;
         right: 50%;
         top:0;
-        background-color: #ebe1e1;
+        background-color: white;
+        border-top: 1px solid #ff7900;
+        border-left: 1px solid #ff7900;
         transform: rotateZ(45deg) translate(-50%,-20%);
     }
     
