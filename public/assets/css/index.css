@@ -221,27 +221,26 @@ p {
     transform: translate(-50%, -50%);
     /*-webkit-text-stroke: 2px #001055;*/
     /* Webkit browsers */
-    color: #000;
+    color: #fff;
     font-size: 92px;
     text-align: center;
     z-index: 1;
     font-family: "Canela Deck Bold", Arial, sans-serif;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
-.font-loaded .banner-text {
+/* .font-loaded .banner-text {
     visibility: visible;
-}
+} */
 
 .banner-text h1 {
     font-size: 92px;
     line-height: 92px;
-    color: #fff;
     margin-bottom: 15px;
     font-weight: 800;
-    color: white;
     width: fit-content;
     text-wrap: nowrap;
     min-width: 90vw;
+    color: #fff;
     /* Text color */
 
     font-family: "Canela Deck Bold";
@@ -250,10 +249,8 @@ p {
 .banner-text p {
     font-size: 22px;
     line-height: 26px;
-    color: #fff;
     font-weight: 500;
     width: fit-content;
-    color: white;
     min-width: 90vw;
     /* Text color */
 
