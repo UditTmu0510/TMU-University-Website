@@ -25,12 +25,6 @@
                 <!--          </video>-->
 
             </div>
-            <style>
-                .banner-text h1,
-                .banner-text p {
-                    color: #000;
-                }
-            </style>
             <div class="banner-text">
                 <h1>This is TMU</h1>
                 <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
@@ -898,12 +892,12 @@
 </div>
 
 
-<script>
+<!-- <script>
 
     document.fonts.load('1em "Canela Deck Bold"').then(() => {
         document.body.classList.add('font-loaded');
     });
-</script>
+</script> -->
 
 
 <script>
@@ -935,7 +929,7 @@
                         programListHtml += `
                     <div class="col-md-4">
                                     <div class="card card-sz shadow-sm ">
-                                        <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                        <img src="${program.programme_image_path}" class="card-img-top" alt="..." loading="lazy">
                                         <div class="card-body">
                                             <!--<span class="badge bg-info1 text-light mb-2 fw-normal px-2 py-1">New</span>-->
                                             <h5>${program.prog_name}</h5>
