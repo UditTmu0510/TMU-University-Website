@@ -346,7 +346,7 @@ $(document).ready(function() {
 							============================================= -->
 
 
-<script src="{{asset('js/functions.js')}}"></script>
+<script src="{{asset('js/functions.js')}}" defer></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
 <script src="{{asset('assets/js/util.js')}}"></script>
