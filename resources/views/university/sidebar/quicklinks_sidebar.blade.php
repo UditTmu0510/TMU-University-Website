@@ -11,7 +11,7 @@
             <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ setActive('disciplinary.rules') }}">
                 <p>Disciplinary Rules</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf" class="custom-menu-item">
+            <a href="https://www.tmu.ac.in/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf" target="_blank" class="custom-menu-item">
                 <p>Admission Refund Policy</p>
             </a>
             <a href="{{ route('university.anti.ragging.committee') }}" class="custom-menu-item {{ setActive('university.anti.ragging.committee') }}">
@@ -23,7 +23,7 @@
             <a href="{{ route('nss.about') }}" class="custom-menu-item {{ setActive('nss.about') }}">
                 <p>NSS Unit</p>
             </a>
-            <a href="https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf" class="custom-menu-item {{ Request::is('https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf')  }}">
+            <a href="https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf" target="_blank" class="custom-menu-item {{ Request::is('https://www.tmu.ac.in/pdf/anti_ragging_policy/anti-ragging-policy.pdf')  }}">
                 <p>Anti Ragging Policy</p>
             </a>
             <a href="{{ route('university.sports.calendar') }}" class="custom-menu-item {{ setActive('university.sports.calendar') }}">
