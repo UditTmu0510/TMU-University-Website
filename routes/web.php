@@ -729,6 +729,7 @@ Route::get('/tmu/our-recruiters', [TmuController::class, 'our_recruiters'])->nam
 Route::get('/tmu/industrial-collaborations', [TmuController::class, 'crc_collaboration'])->name('crc.collaboration');
 Route::get('/tmu/corporate-testimonials', [TmuController::class, 'crc_corporate_testi'])->name('crc.corporate.testi');
 Route::get('/tmu/student-testimonials', [TmuController::class, 'crc_student_testi'])->name('crc.student.testi');
+Route::get('/tmu/industrial-visits', [TmuController::class, 'crc_industry_visits'])->name('crc.industry.visits');
 
 //Alumni
 Route::get('/alumni', [TmuController::class, 'alumni_home'])->name('alumni.home');
