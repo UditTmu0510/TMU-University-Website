@@ -10,8 +10,8 @@
     <div class="slider-inner">
         <div class="container-fluid p-0">
             <div class="video-banner">
-       
-            <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
+
+                <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
                     <source src="{{asset('poster/tmu_final_video.mp4')}}">
                 </video>
 
@@ -19,12 +19,18 @@
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video> -->
                 <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto"></video>
-       
-      <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
-      <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
-      <!--          </video>-->
+
+                <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
+                <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
+                <!--          </video>-->
 
             </div>
+            <style>
+                .banner-text h1,
+                .banner-text p {
+                    color: #000;
+                }
+            </style>
             <div class="banner-text">
                 <h1>This is TMU</h1>
                 <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
@@ -44,7 +50,7 @@
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-           
+
                 <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
                     <br>
                     <span class="d-block pt-1">Students</span>
@@ -82,7 +88,7 @@
 </div>
 
 <div class="container my-2 mt-4 d-block d-md-none">
-  <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div id="under-banner-carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#under-banner-carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -205,18 +211,18 @@
                     <div class="list-group" id="list-tab" role="tablist">
                         @php
                         $i = 1;
-                    @endphp
- @foreach ($colleges as $college)
+                        @endphp
+                        @foreach ($colleges as $college)
 
-<h4 class="mb-1"><a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm" id="{{$college->cd_code}}" data-collegeId="{{$college->cd_id}}" data-bs-toggle="list" href="#{{$college->cd_id}}" role="tab" aria-controls="{{$college->cd_id}}"><img src="{{ asset($college->icon_path) }}" alt="Icon" class="float-start">&nbsp;&nbsp;{{$college->short_name}}
-  </a></h4>
+                        <h4 class="mb-1"><a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm" id="{{$college->cd_code}}" data-collegeId="{{$college->cd_id}}" data-bs-toggle="list" href="#{{$college->cd_id}}" role="tab" aria-controls="{{$college->cd_id}}"><img src="{{ asset($college->icon_path) }}" alt="Icon" class="float-start">&nbsp;&nbsp;{{$college->short_name}}
+                            </a></h4>
 
 
-@php
-$i++;
-@endphp
+                        @php
+                        $i++;
+                        @endphp
 
- @endforeach
+                        @endforeach
 
 
                     </div>
@@ -231,12 +237,12 @@ $i++;
                         <div class="tab-pane fade show programmes-data" id="{{$college->cd_id}}" role="tabpanel" aria-labelledby="{{$college->cd_code}}">
 
                         </div>
-                         @endforeach
+                        @endforeach
 
 
-               
 
-                    
+
+
                     </div>
                 </div>
             </div>
@@ -256,20 +262,20 @@ $i++;
                 </div>
             </div>
             <!--Accordion code starts here -->
-@foreach ($colleges as $college)
-<button class="careers-accordion" data-collegeId="{{$college->cd_id}}"><span> <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{$college->cd_name}}</span> <span class="icon">+</span></button>
-<div class="panel">
-<ul class="progul" id="programme{{$college->cd_id}}">
-              
+            @foreach ($colleges as $college)
+            <button class="careers-accordion" data-collegeId="{{$college->cd_id}}"><span> <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{$college->cd_name}}</span> <span class="icon">+</span></button>
+            <div class="panel">
+                <ul class="progul" id="programme{{$college->cd_id}}">
 
 
-                   
-</ul>
-</div>
-<hr class="horizontal-line">
-@endforeach
+
+
+                </ul>
+            </div>
+            <hr class="horizontal-line">
+            @endforeach
             <!-- Add the horizontal line here -->
-         
+
 
             <!-- Accordion code ends here -->
         </div>
@@ -301,9 +307,9 @@ $i++;
 
                         <div class=" mb-0 entry col-lg-12 col-md-12">
                             <div class="owl-carousel" id="owl-carousel2">
-                               
 
-                 @foreach ($news as $event)
+
+                                @foreach ($news as $event)
                                 <div class="item">
 
                                     <div class="grid-inner shadow-sm card newsheight" style="height: 300px;">
@@ -337,10 +343,10 @@ $i++;
                                 </div>
                                 @endforeach
 
-                               
 
 
-                               
+
+
                             </div>
                         </div>
                     </div>
@@ -397,12 +403,12 @@ $i++;
                     <!-- 
 														Blog Carousel Starts Here
 														-->
-														
-														
-														
+
+
+
                 </main>
-                
-                
+
+
                 <aside class="sidebar col-md-12 d-block d-sm-none" style="margin-bottom: 35px;">
                     <div class="sidebar-widgets-wrap bg-white rounded-5 p-4 shadow-sm">
 
@@ -432,14 +438,14 @@ $i++;
                                         </div>
                                     </div>
                                 </div>
-                            @endforeach
+                                @endforeach
 
                             </div>
                         </div>
                     </div>
                 </aside>
 
-			<aside class="sidebar col-lg-4 col-md-12">
+                <aside class="sidebar col-lg-4 col-md-12">
                     <div class="notice-board">
                         <div class="notice-header">NOTICE BOARD</div>
                         <div class="notice-body">
@@ -453,7 +459,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
                                 </div>
                             </div>
@@ -467,7 +473,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
                                 </div>
                             </div>
@@ -481,7 +487,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
                                 </div>
                             </div>
@@ -495,7 +501,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT </span>
+                                        CCSIT </span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
                                 </div>
                             </div>
@@ -509,7 +515,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
                                 </div>
                             </div>
@@ -523,7 +529,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
                                 </div>
                             </div>
@@ -537,7 +543,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    CCSIT</span>
+                                        CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
                                 </div>
                             </div>
@@ -547,7 +553,9 @@ $i++;
                                     <span>15, September</span>
                                 </div>
                                 <div class="notice-content">
-                                    <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g"><p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p></a>
+                                    <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g">
+                                        <p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p>
+                                    </a>
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
@@ -557,7 +565,7 @@ $i++;
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
-                            <div class="notice-pub">
+                                <div class="notice-pub">
                                     <span>12, September</span>
                                 </div>
                                 <div class="notice-content">
@@ -579,7 +587,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    TMU Campus </span>
+                                        TMU Campus </span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
                                         September </span>
                                 </div>
@@ -608,7 +616,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    TMU Campus</span>
+                                        TMU Campus</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
                                 </div>
                             </div>
@@ -622,7 +630,7 @@ $i++;
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    Dept. of Physiotherapy </span>
+                                        Dept. of Physiotherapy </span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
                                 </div>
                             </div>
@@ -641,13 +649,13 @@ $i++;
                                 </div>
                             </div>
                             <hr class="notice-separator">
-                    
+
                         </div>
                     </div>
-                </aside>							
+                </aside>
 
 
-               
+
             </div>
             <!-- 
 												Side Menu Code Ends Here
@@ -659,52 +667,52 @@ $i++;
 </section><!-- #content end -->
 
 
-    <section class="container">
+<section class="container">
     <div class="row justify-content-center ">
-                <div class="col-xl-10 col-lg-10 text-center">
-                    <h2 class="tmu-text-primary my-3"><span>Alumni</span> <span>Testimonial</span></h2>
-                </div>
-            </div>
+        <div class="col-xl-10 col-lg-10 text-center">
+            <h2 class="tmu-text-primary my-3"><span>Alumni</span> <span>Testimonial</span></h2>
+        </div>
+    </div>
 
-        <div class="testimonial-container">
-            <div class="image-container">
-                <div class="navigation">
-                    <span class="nav-arrow" onclick="showPreviousReview()">&#10094;</span>
-                    <span class="nav-arrow" onclick="showNextReview()">&#10095;</span>
-                </div>
-                <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
-                <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+    <div class="testimonial-container">
+        <div class="image-container">
+            <div class="navigation">
+                <span class="nav-arrow" onclick="showPreviousReview()">&#10094;</span>
+                <span class="nav-arrow" onclick="showNextReview()">&#10095;</span>
             </div>
+            <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
+            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
         </div>
-        <div class="content-section">
-            <div class="profile-section">
-                <img id="profile-picture" class="profile-picture" src="" alt="Profile Image" />
-                <div class="profile-details">
-                    <h2 id="profile-name"></h2>
-                    <a id="profile-link" href="#">LinkedIn
-                        <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" /></a>
-                    <div class="profile-info">
-                        <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" /><span id="profile-designation"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" /><span id="profile-company"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" /><span id="profile-course"></span></p>
-                        <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" /><span id="profile-graduationYear"></span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div id="testimonial-wrapper" class="text">
-                    <div class="quote"></div>
-                    <div class="testimonial-title">Rediscovering Dreams with upGrad Campus</div>
-                    <div class="testimonial-text review-text">"I always wanted to be a game developer, so I began searching for universities related to my interest. I found one in Japan and applied. My happiness ..."</div>
+    </div>
+    <div class="content-section">
+        <div class="profile-section">
+            <img id="profile-picture" class="profile-picture" src="" alt="Profile Image" />
+            <div class="profile-details">
+                <h2 id="profile-name"></h2>
+                <a id="profile-link" href="#">LinkedIn
+                    <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" /></a>
+                <div class="profile-info">
+                    <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" /><span id="profile-designation"></span></p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" /><span id="profile-company"></span></p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" /><span id="profile-course"></span></p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" /><span id="profile-graduationYear"></span></p>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="testimonial-card">
+            <div id="testimonial-wrapper" class="text">
+                <div class="quote"></div>
+                <div class="testimonial-title">Rediscovering Dreams with upGrad Campus</div>
+                <div class="testimonial-text review-text">"I always wanted to be a game developer, so I began searching for universities related to my interest. I found one in Japan and applied. My happiness ..."</div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -725,7 +733,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
-        
+
                     </div>
 
                 </div>
@@ -739,7 +747,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
                         <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
-                    
+
                     </div>
 
                 </div>
@@ -752,7 +760,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
                         <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
-                 
+
                     </div>
 
                 </div>
@@ -765,7 +773,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Saloni Jain</p>
                         <p class="text-center mb-0">MBA(2023 - 2025)</p>
-                    
+
                     </div>
 
                 </div>
@@ -777,7 +785,7 @@ $i++;
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
                         <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
-                   
+
                     </div>
 
                 </div>
@@ -869,15 +877,20 @@ $i++;
     <hr class="horizontal-line">
     <button class="careers-accordion">Frequently Asked Questions (FAQs)<span class="icon">+</span></button>
     <div class="panel">
-        <p><strong>1. What sets TMU apart from other universities?</strong><p>
+        <p><strong>1. What sets TMU apart from other universities?</strong>
+        <p>
         <p>TMU's commitment to excellence, innovation, and holistic development sets it apart. The university's impressive placement records and global collaborations contribute to its distinguished status.</p>
-        <p><strong>2. How does TMU support entrepreneurship?</strong><p>
+        <p><strong>2. How does TMU support entrepreneurship?</strong>
+        <p>
         <p>TMU actively fosters entrepreneurship through its Business Incubation Centre, strategic initiatives aligned with Aatmanirbhar Bharat, and a strong industry-university interface.</p>
-        <p><strong>3. What is the significance of TMU's accreditations?</strong><p>
+        <p><strong>3. What is the significance of TMU's accreditations?</strong>
+        <p>
         <p>Accreditations like NAAC-A, NBA, and ICAR reflect TMU's adherence to high-quality standards, ensuring students receive a top-notch education.</p>
-        <p><strong>4. How does TMU contribute to social responsibility?</strong><p>
+        <p><strong>4. How does TMU contribute to social responsibility?</strong>
+        <p>
         <p>TMU engages in various social initiatives, including NSS units and support for sustainable institutions, showcasing its commitment to social responsibility.</p>
-        <p><strong>5. How can I get admission to TMU?</strong><p>
+        <p><strong>5. How can I get admission to TMU?</strong>
+        <p>
         <p>To get admission to Teerthanker Mahaveer University, visit the <a href="https://admissions.tmu.ac.in/">admission page</a> or contact 18002701490</p>
     </div>
     <!-- Add the horizontal line here -->
@@ -885,37 +898,39 @@ $i++;
 </div>
 
 
+<script>
 
-
+    document.fonts.load('1em "Canela Deck Bold"').then(() => {
+        document.body.classList.add('font-loaded');
+    });
+</script>
 
 
 <script>
-
-
-$(document).ready(function() {
-    // Click event for navbar buttons
-    $('.programme-fetch-button').click(function() {
-        var collegeId = this.getAttribute('data-collegeId');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programme_by_college_id") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: collegeId
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                    if ((i % 3 == 0) && (i != 0)) {
-                        programListHtml += `</div><div class="row">`;
-                    } else if (i == 0) {
-                        programListHtml += `<div class="row">`; 
-                    }
+    $(document).ready(function() {
+        // Click event for navbar buttons
+        $('.programme-fetch-button').click(function() {
+            var collegeId = this.getAttribute('data-collegeId');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programme_by_college_id") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: collegeId
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+                        if ((i % 3 == 0) && (i != 0)) {
+                            programListHtml += `</div><div class="row">`;
+                        } else if (i == 0) {
+                            programListHtml += `<div class="row">`;
+                        }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -934,41 +949,41 @@ $(document).ready(function() {
                                     </div>
                                 </div>`;
 
-            
-                
-                                i++;
-                });
-                $('#'+collegeId).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+
+
+                        i++;
+                    });
+                    $('#' + collegeId).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
-    });
-    $('.programme-fetch-button:first').addClass('active').click();
-    $('.programmes-data:first').addClass('active');
+        $('.programme-fetch-button:first').addClass('active').click();
+        $('.programmes-data:first').addClass('active');
 
-// Programme fetch code for the mobile view starts here
+        // Programme fetch code for the mobile view starts here
 
-    $('.careers-accordion').click(function() {
-        var collegeId = this.getAttribute('data-collegeId');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programme_by_college_id") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: collegeId
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                 
+        $('.careers-accordion').click(function() {
+            var collegeId = this.getAttribute('data-collegeId');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programme_by_college_id") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: collegeId
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -984,21 +999,20 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </li>`;
- i++;
-                });
-                $('#programme'+collegeId).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+                        i++;
+                    });
+                    $('#programme' + collegeId).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
+
+        // Programme fetch code for the mobile view ends here
+
     });
-
-// Programme fetch code for the mobile view ends here
-
-});
-
 </script>
 
 <script>

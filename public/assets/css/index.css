@@ -226,6 +226,10 @@ p {
     text-align: center;
     z-index: 1;
     font-family: "Canela Deck Bold", Arial, sans-serif;
+    visibility: hidden;
+}
+.font-loaded .banner-text {
+    visibility: visible;
 }
 
 .banner-text h1 {
