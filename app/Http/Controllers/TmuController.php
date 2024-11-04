@@ -1190,6 +1190,10 @@ class TmuController extends Controller
     {
         return view('university.crc.our_recruiters');
     }
+    public function crc_industry_visits()
+    {
+        return view('university.crc.crc_industry_visits');
+    }
 
     public function crc_collaboration()
     {
