@@ -153,19 +153,19 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
 
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/2-01.webp')}}" alt="Slide 6"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/3-01.webp')}}" alt="Slide 8"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/4-01.webp')}}" alt="Slide 9"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/5-01.webp')}}" alt="Slide 10"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/6-01.webp')}}" alt="Slide 11"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/7-01.webp')}}" alt="Slide 12"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/8-01.webp')}}" alt="Slide 13"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/9-01.webp')}}" alt="Slide 14"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/10-01.webp')}}" alt="Slide 15"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/11.webp')}}" alt="Slide 16"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/12.webp')}}" alt="Slide 17"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/13-01.webp')}}" alt="Slide 18"></div>
-                            <div class="swiper-slide"><img loading="lazy" src="{{asset('images/infra/14-01.webp')}}" alt="Slide 19"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/2-01.webp')}}" alt="Slide 6"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/3-01.webp')}}" alt="Slide 8"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/4-01.webp')}}" alt="Slide 9"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/5-01.webp')}}" alt="Slide 10"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/6-01.webp')}}" alt="Slide 11"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/7-01.webp')}}" alt="Slide 12"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/8-01.webp')}}" alt="Slide 13"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/9-01.webp')}}" alt="Slide 14"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/10-01.webp')}}" alt="Slide 15"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/11.webp')}}" alt="Slide 16"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/12.webp')}}" alt="Slide 17"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/13-01.webp')}}" alt="Slide 18"></div>
+                            <div class="swiper-slide"><img loading="lazy" src="{{asset('/assets/img/home/gallery/14-01.webp')}}" alt="Slide 19"></div>
 
                         </div>
                         <!-- Add pagination -->
