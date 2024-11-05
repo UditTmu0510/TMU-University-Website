@@ -151,14 +151,14 @@
                                 <article class="entry event col-12 col-md-6 col-xl-12 mb-4">
                                 <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
                                     <div class="col-12  col-xl-4 mb-md-0">
-                                        <a href="#" class="entry-image mb-0 w-100 h-100">
+                                        <a href="{{url('news/'.$item->n_slug)}}" class="entry-image mb-0 w-100 h-100">
                                             <img src="{{asset($item->ti_path)}}" alt="Inventore voluptates velit totam ipsa tenetur" class="object-cover align-items-center">
 
                                         </a>
                                     </div>
                                     <div class="col-12  col-xl-8 ps-4 pt-1">
                                         <div class="entry-title nott">
-                                            <h3><a href="#">{{$item->event_title}}</a></h3>
+                                            <h3><a href="{{url('news/'.$item->n_slug)}}">{{$item->event_title}}</a></h3>
                                         </div>
                                         <div class="entry-meta mt-3">
                                             <ul>
