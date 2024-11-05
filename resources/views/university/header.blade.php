@@ -335,6 +335,10 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
 
+
+    <!-- Canela Deck font  -->
+    <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'">
+    
     <script>
         // Function to load a stylesheet
         function loadStyleSheet(href) {
@@ -407,14 +411,6 @@
 
 
 
-
-
-    <!-- Canela Deck font  -->
-    <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'">
-
-
-
-
     <!-- Plugins/Components CSS -->
     <link rel="stylesheet" href="{{asset('css/swiper.css')}}">
     <!-- <link rel="stylesheet" href="demos/landing/landing.css"> -->
@@ -431,7 +427,8 @@
     <!-- Document Title
 	============================================= -->
     <title>TMU | New Website</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" > -->
+    <link rel="stylesheet" href="{{asset('/assets/css/default/swiper-bundle.min.css')}}" >
     <!-- <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script> -->
 
     <!-- Niche Demos -->
