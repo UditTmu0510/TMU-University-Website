@@ -287,31 +287,31 @@
                 data-items-md="2" data-items-lg="3" data-items-xl="4">
 
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/1.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/1.jpg')}}" alt="Image 1" class="rounded">
 
                 </div>
 
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/2.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/2.jpg')}}" alt="Image 1" class="rounded">
 
                 </div>
 
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/3.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/3.jpg')}}" alt="Image 1" class="rounded">
 
                 </div>
 
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/4.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/4.jpg')}}" alt="Image 1" class="rounded">
 
                 </div>
 
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/5.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/5.jpg')}}" alt="Image 1" class="rounded">
 
                 </div>
                 <div class="oc-item text-start">
-                    <img src="{{asset('/assets/img/gallery/medical/6.jpg')}}" alt="Image 1" class="rounded">
+                    <img src="{{asset('/assets/img/gallery/collegegallery/medical/6.jpg')}}" alt="Image 1" class="rounded">
                 </div>
             </div>
         </div>
@@ -552,7 +552,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why TMMC&RC is the Best Choice for You<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accredited University</span></h3>
                 <p class="text-justify">TMMC&RC is recognised by the University Grants Commission (UGC) and has been accredited with an 'A' grade by the National Assessment and Accreditation Council (NAAC). This accreditation is a testament to the quality of education and excellent infrastructure that the institution provides.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
