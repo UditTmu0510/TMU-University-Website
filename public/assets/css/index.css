@@ -4528,3 +4528,99 @@ Search bar css ends here
     }
 
     /*alumni testimonial css end*/
+
+    /* hospital counter section css start */
+
+    #hospital-counter {
+        text-align: center;
+        background: #eff6ff;
+        display: flex;
+        padding: 20px;
+        width: 100%;
+      }
+      #hospital-counter .item {
+        background: #fff;
+        padding: 3px;
+        margin: 10px;
+        height: 120px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
+      }
+      #hospital-counter .item .count {
+        color: #e8b12d;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      #hospital-counter .item h3 {
+        color: #4f4e28;
+        font-size: 1rem;
+        text-transform: capitalize;
+      }
+      
+      @media screen and (max-width: 500px) {
+          #hospital-counter {
+              padding: 10px;
+          }
+          #hospital-counter .item {
+              height: 120px;
+              padding: 10px;
+          }
+          #hospital-counter .item h3 {
+        color: #4f4e28;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+      }
+      }
+       /* hospital counter section css ends */
+
+       .department-card {
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+        color: #333;
+    }
+    .department-card:hover {
+        transform: scale(1.05);
+    }
+    .icon {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    /* Custom colors */
+    .bg-light-blue { background-color: #e0f7fa; }      /* Light blue */
+    .bg-light-pink { background-color: #ffe0e0; }      /* Light pink */
+    .bg-light-green { background-color: #e6ffe6; }     /* Light green */
+    .bg-light-purple { background-color: #e6e0ff; }    /* Light purple */
+    .bg-light-blue { background-color: #f4f6ff; 
+                     border: 2px solid #001055;}    /* Light blue */
+    .bg-light-orange { background-color: #fffcfa; 
+                       border: 2px solid #ff7900;}    /* Light orange */
+
+                       .facility-section {
+                        background-color: #001055;
+                        border-radius: 5px;
+                        padding: 15px;
+                        color: #ffffff;
+                    }
+                    .facility-section .fw-bold {
+                        color: #ffffff;
+                        font-size: 1.5rem;
+                    }
+
+                    /* hospital-counter css start */
+                    .hospital-counter {
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: #ff7900;
+                    }
+                    .hospital-counter-card {
+                        text-align: center;
+                        padding: 20px;
+                        height: 145px;
+                        border: 2px solid #ddd;
+                        border-radius: 8px;
+                    }
+                    /* hospital-counter css ends */

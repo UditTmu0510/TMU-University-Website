@@ -1284,5 +1284,3 @@ document.getElementById('success-stories-popup').addEventListener('click', funct
     }
 });
 // Success Stories js end
-
-   

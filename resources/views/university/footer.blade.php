@@ -405,7 +405,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
- // Alumni profile section in alumni page start
+ // 
+ 
 
     const reviews = [{
         name: "Speaks about College of Computing Sciences & IT",
