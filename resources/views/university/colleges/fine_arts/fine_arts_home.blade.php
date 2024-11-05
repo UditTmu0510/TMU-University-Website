@@ -567,7 +567,7 @@
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why Choose TMU for Fine Arts Education?<span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <h3 class="tmu-text-primary mb-0 fs-16"><span>UGC-Approved Accreditation and </span><span>NAAC A Rating</span></h3>
         <p class="text-justify">TMU holds the prestigious UGC approval and boasts an NAAC A accreditation, affirming its commitment to delivering high-quality education in the field of fine arts. This accreditation underscores TMU's adherence to stringent academic standards and continuous improvement in educational practices.</p>
 

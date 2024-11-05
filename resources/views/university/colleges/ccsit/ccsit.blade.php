@@ -805,7 +805,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Teerthanker Mahaveer University is the best choice for you:<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <h3 class="mb-1 tmu-color">UGC-Approved with NAAC-A Accreditation</h3>
                 <p class="text-justify">At TMU's CCSIT, quality education is not just a promise but a proven reality. 
                     With UGC approval and NAAC-A accreditation, the college upholds the highest 

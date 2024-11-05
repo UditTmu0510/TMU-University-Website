@@ -554,7 +554,7 @@
 		<hr class="horizontal-line">
 
 		<button class="careers-accordion">Why TMU is the Best Choice for You<span class="icon">+</span></button>
-		<div class="panel">
+		<div class="panel active">
 			<h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved and NAAC A</span><span> Accredited University</span></h3>
 			<p class="text-justify">TMU is UGC-approved and boasts an NAAC-A accreditation, a testament to our commitment to academic excellence and quality education. This prestigious recognition ensures that our programmes meet the highest standards in education.</p>
 			<h3 class="tmu-text-primary fs-16 mb-0"><span>Experiential Learning by</span><span> Highly Qualified Faculties</span></h3>
