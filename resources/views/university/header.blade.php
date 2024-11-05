@@ -349,14 +349,14 @@
         }
 
         // Load Font Awesome CSS
-        var fontAwesomeLink = document.createElement('link');
-        fontAwesomeLink.rel = 'preload';
-        fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
-        fontAwesomeLink.as = 'style';
-        fontAwesomeLink.onload = function() {
-            this.rel = 'stylesheet';
-        };
-        document.head.appendChild(fontAwesomeLink);
+        // var fontAwesomeLink = document.createElement('link');
+        // fontAwesomeLink.rel = 'preload';
+        // fontAwesomeLink.href = "{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}";
+        // fontAwesomeLink.as = 'style';
+        // fontAwesomeLink.onload = function() {
+        //     this.rel = 'stylesheet';
+        // };
+        // document.head.appendChild(fontAwesomeLink);
 
         // Load Bootstrap CSS
         var bootstrapLink = document.createElement('link');
@@ -398,7 +398,7 @@
     </script>
 
     <noscript>
-        <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"> -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{('style.css')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
