@@ -6,32 +6,7 @@
 
 <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
 <!-----video banner start-->
-<section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
-    <div class="slider-inner">
-        <div class="container-fluid p-0">
-            <div class="video-banner">
 
-                <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
-                    <source src="{{asset('poster/tmu_final_video.mp4')}}">
-                </video>
-
-                <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
-                    <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
-                </video> -->
-                <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto"></video>
-
-                <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
-                <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
-                <!--          </video>-->
-
-            </div>
-            <div class="banner-text">
-                <h1>This is TMU</h1>
-                <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- video banner End -->
