@@ -556,7 +556,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Choose TMIMT College of Physical Education?<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p class="text-justify">Choosing the right college is pivotal, and TMIMT College of Physical Education offers a plethora of reasons why it should be your top choice.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accredited University</span></h3>
                 <p class="text-justify">The university is UGC-approved and boasts a prestigious NAAC A Accreditation. This recognition ensures that the college meets the highest standards of education and infrastructure, providing students with an exceptional learning experience.</p>
