@@ -13,7 +13,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_22_23.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/1.webp')}}"
                                             alt="Book Cover Image">
@@ -27,7 +27,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_20_21.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/2.webp')}}"
                                             alt="Book Cover Image">
@@ -41,7 +41,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement__19_20.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/3.webp')}}"
                                             alt="Book Cover Image">
@@ -55,7 +55,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_18_19.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/4.jpg')}}"
                                             alt="Book Cover Image">
@@ -69,7 +69,7 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_17_18.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}"
                                             alt="Book Cover Image">
@@ -83,9 +83,9 @@
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
-                                    <a href="#"
+                                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_16_17.pdf')}}"
                                         target="_blank"><img
-                                            src="{{asset('/assets/img/placement_brochure/CCSIT/3.webp')}}"
+                                            src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}"
                                             alt="Book Cover Image">
                                     </a>
                                 </div>
