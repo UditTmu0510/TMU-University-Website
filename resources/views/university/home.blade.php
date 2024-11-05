@@ -1,46 +1,6 @@
 @extends('layouts.main')
 @section('content')
 
-<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-
-
-<link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
-<!-----video banner start-->
-<section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
-    <div class="container-fluid p-0">
-        <div class="banner-text">
-            <h1>This is TMU</h1>
-            <p style="color: black !important;">With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
-        </div>
-        <div class="slider-inner">
-            <div class="video-banner">
-
-                <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
-                    <source src="{{asset('poster/tmu_final_video.mp4')}}">
-                </video>
-
-                <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
-                    <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
-                </video> -->
-                <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto"></video>
-
-                <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
-                <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
-                <!--          </video>-->
-
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!-- video banner End -->
-<!-- <div class="container-sideb">
-    <a href="#" class="side-button">CDOE</a>
-    <a href="#" class="side-button">Admission Open</a>
-</div> -->
-
 <div class="container my-3  d-none d-md-block">
     <div class="row justify-content-center">
         <div class="col-6 col-lg-3 px-1">

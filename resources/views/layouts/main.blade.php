@@ -1,4 +1,4 @@
-@include('university.header')
+@include('university.header_home')
 @hasSection('content')
 @yield('content')
 @else
