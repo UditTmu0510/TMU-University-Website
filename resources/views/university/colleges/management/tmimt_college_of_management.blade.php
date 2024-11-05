@@ -729,7 +729,7 @@
     <hr class="horizontal-line">
 
     <button class="careers-accordion"> Why TMU is the best choice for you:<span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>UGC-Approved and NAAC-A </span><span>accredited University</span></h3>
         <p class="text-justify mb-0">TMU has approval from UGC. The NAAC-A has also accredited it. This ensures your degree holds value. It's recognized nationally and internationally.</p>
         <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Case-based Innovative </span><span>Teaching Pedagogy</span></h3>

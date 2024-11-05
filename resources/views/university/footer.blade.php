@@ -185,13 +185,14 @@ $(document).ready(function() {
                                     <li><a href="{{route('tmu.convocation')}}">Convocation</a></li>
 
                                     <li><a href="{{route('all_news')}}">News</a></li>
+                                    <li><a href="{{route('tmu.media.cover')}}">Media Coverage</a></li>
                                     <li><a href="{{route('tmu.careers')}}">Join TMU</a></li>
                                     <!--- CAREERS -->
                                     <!-- <li><a href="#">About City</a></li> -->
                                     <li><a href="{{route('iqac.about')}}">IQAC</a></li>
                                     <li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
                                     <li><a href="{{route('all_blogs')}}">Blogs</a></li>
-                                    <li><a href="#">Sitemap</a></li>
+                                    <li><a href="{{route('teaching.facility')}}">Teaching Facility</a></li>
                                     <li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
                                 </ul>
                             </div>
@@ -207,6 +208,7 @@ $(document).ready(function() {
 
                                     <li><a href="{{route('campus.view')}}">Campus View</a></li>
                                     <li><a href="{{route('tmu.faqs')}}">FAQs</a></li>
+                                    <li><a href="{{route('tmu.privacy.policy')}}">Privacy Policy</a></li>
 
                                 </ul>
                             </div>
@@ -273,13 +275,13 @@ $(document).ready(function() {
     <div id="copyrights">
         <div class="container">
 
-            <div class="row justify-content-between col-mb-30">
+            <div class="row justify-content-between">
                 <div class="col-12 col-lg-auto text-center text-lg-start">
                     <div class="copyrights-menu copyright-links">
                         <a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a
                             href="{{route('nirf.home')}}">NIRF</a>/<a href="{{route('naac.home')}}">NAAC</a>/<a
                             href="{{route('ctld.home')}}">CTLD</a>/<a href="{{route('crc.home')}}">Placement</a>/<a
-                            href="{{route('iqac.about')}}">IQAC</a>
+                            href="{{route('iqac.about')}}">IQAC</a>/<a href="{{route('tmu.disclaimer')}}">Disclaimer</a>
                     </div>
                     Copyrights &copy; 2024 All Rights Reserved by Teerthanker Mahaveer University,Moradabad.
                 </div>
@@ -313,6 +315,12 @@ $(document).ready(function() {
                             <i class="fa-brands fa-youtube"></i>
                             <i class="fa-brands fa-youtube"></i>
                         </a>
+
+                        <a target="_blank" href="https://www.instagram.com/tmu.updates/"
+                            class="social-icon border-transparent si-small me-0 h-bg-youtube">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
                     </div>
 
                 </div>
@@ -338,7 +346,7 @@ $(document).ready(function() {
 							============================================= -->
 
 
-<script src="{{asset('js/functions.js')}}"></script>
+<script src="{{asset('js/functions.js')}}" ></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
 <script src="{{asset('assets/js/util.js')}}"></script>
@@ -451,25 +459,25 @@ document.addEventListener('DOMContentLoaded', function() {
         },
     },
     {
-        name: "Speaks about College of Computing Sciences & IT",
-        text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+        name: "Speaks about Engineering College",
+        text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
+        img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
         profile: {
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            name: "Rajeev Mishra",
-            link: "https://www.linkedin.com/in/rajeevmishra20/",
-            designation: "Technology Architect",
-            company: "Bearing Point, Germany",
-            course: "B.Tech CSE",
-            graduationYear: "2014",
+            img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
+            name: "Ashish Bhatnagar",
+            link: "https://www.linkedin.com/in/abhatnagar83",
+            designation: "Senior Software Architect",
+            company: "HCL Software, Noida",
+            course: "MCA",
+            graduationYear: "2005",
         },
     },
     {
         name: "Speaks about TMIMT College of Management",
         text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-        img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
         profile: {
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
             name: "Shobhit Jain",
             link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
             designation: "Group Director - Talent Acquisition",
@@ -483,7 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
         text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
         img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
         profile: {
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
             name: "Radhika Mathur",
             link: "#",
             designation: "Resident Physician",
@@ -495,9 +503,9 @@ document.addEventListener('DOMContentLoaded', function() {
     {
         name: "Speaks about TMIMT College of Management",
         text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-        img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
         profile: {
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
             name: "Shobhit Jain",
             link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
             designation: "Group Director - Talent Acquisition",

@@ -41,6 +41,12 @@
             <a href="{{ route('crc.collaboration') }}" class="custom-menu-item {{ setActive('crc.collaboration') }}">
                 <p>Industrial Collaboration</p>
             </a>
+            <a href="{{asset('/assets/pdf/placement_brochure/crc/TPR-23-24.pdf') }}" class="custom-menu-item {{ setActive('/assets/pdf/placement_brochure/crc/TPR-23-24.pdf') }}">
+                <p>Placement Report</p>
+            </a>
+            <a href="{{ route('crc.industry.visits') }}" class="custom-menu-item {{ setActive('crc.industry.visits') }}">
+                <p>Industrial Interactions</p>
+            </a>
         </div>
     </div>
 </div>

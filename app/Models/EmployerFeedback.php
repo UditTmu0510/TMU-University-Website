@@ -9,7 +9,7 @@ class EmployerFeedback extends Model
 {
     use HasFactory;
 
-    protected $table = 'alumni_feedback';
+    protected $table = 'employer_feedback';
 
     protected $fillable = [
 

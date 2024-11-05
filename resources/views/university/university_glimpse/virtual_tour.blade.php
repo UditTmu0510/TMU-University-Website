@@ -26,7 +26,7 @@
 
         <div class="container mt-4 mb-4">
             <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>How to </span><span
-                    class="d-block d-sm-inline">Reach Us ?</span></h2>
+                    class="d-block d-sm-inline">Reach Us?</span></h2>
             <p style="text-align:justify;color:black;">Gone are the days when parents or students were just looking at a
                 few
                 aspects before choosing a university. Accessibility is one major thing that is taken into consideration

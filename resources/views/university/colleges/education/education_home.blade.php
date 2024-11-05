@@ -576,7 +576,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Choose TMU for Your Education Journey<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p class="text-justify">Choosing TMU means opting for an institution committed to holistic education, where academic rigor meets hands-on experience, ensuring our graduates are prepared to excel in their careers.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accreditation</span></h3><br>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>A Trusted Seal of Quality</span></h3>

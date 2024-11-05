@@ -546,7 +546,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Key Highlights of College of Pharmacy <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
             <ul class="m-ol-list ps-4 text-justify">
     <li>🏆 UGC-Approved with NAAC A Accreditation: Our programs are recognized by the University Grants Commission (UGC) and accredited by the National Assessment and Accreditation Council (NAAC) with an A grade, ensuring high academic standards.</li>
     <li>👩‍⚕️ Experiential Learning by Highly Qualified Faculties: Students learn from experienced professionals who bring real-world insights into the classroom.</li>

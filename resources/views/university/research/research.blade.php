@@ -27,7 +27,7 @@
         <div class="container mt-2 p-3">
             <div class="box d-none d-sm-block md-block" style="width:100%;">
                 <p class="about-p mb-2 text-justify">The University publishes the following <a href="{{route('tmu.publication')}}">journals</a> on periodic basis:</p>
-                <div class="container">
+                <div class="container123">
                     <div class="book">
 
                         <div class="front">

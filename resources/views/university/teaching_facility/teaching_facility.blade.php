@@ -3,14 +3,19 @@
 
 <style>
     .modal-open {
-  overflow: visible !important;
-}
+        overflow: visible !important;
+    }
 
-/* Ensure modal content stays scrollable */
-.modal {
-  overflow: auto;
-}
+    /* Ensure modal content stays scrollable */
+    .modal {
+        overflow: auto;
+    }
 </style>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <section id="content">
 
@@ -112,18 +117,18 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/11.jpg')}}" class="single-image">B-308</a>,
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/1.jpg')}}" class="single-image">B-309</a>,
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/9.jpg')}}" class="single-image">B-310</a>,
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/2.jpg')}}" class="single-image">A-408</b>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/3.jpg')}}" class="single-image">A-418</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/4.jpg')}}" class="single-image">B-408</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/5.jpg')}}" class="single-image">B-409</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/6.jpg')}}" class="single-image">A-408</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/7.jpg')}}" class="single-image">A-505</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/8.jpg')}}" class="single-image">A-511</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/9.jpg')}}" class="single-image">A-113</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/12.jpg')}}" class="single-image">B-508</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/13.jpg')}}" class="single-image">B-509</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/10.jpg')}}" class="single-image">B-515</a>,
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/11.jpg')}}" class="single-image">B-518</a>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/2.jpg')}}" class="single-image">A-408</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/3.jpg')}}" class="single-image">A-418</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/4.jpg')}}" class="single-image">B-408</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/5.jpg')}}" class="single-image">B-409</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/6.jpg')}}" class="single-image">A-408</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/7.jpg')}}" class="single-image">A-505</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/8.jpg')}}" class="single-image">A-511</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/9.jpg')}}" class="single-image">A-113</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/12.jpg')}}" class="single-image">B-508</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/13.jpg')}}" class="single-image">B-509</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/10.jpg')}}" class="single-image">B-515</a>,
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{asset('/assets/img/facilities/classroom/medical/11.jpg')}}" class="single-image">B-518</a>
                                 </td>
                                 <td class="text-center">25</td>
                                 <td class="text-center">A-214, A-501</td>
@@ -790,24 +795,24 @@
 </script> -->
 
 <script>
-  var imageModal = document.getElementById('imageModal');
+    var imageModal = document.getElementById('imageModal');
 
-  // Handle showing the modal
-  imageModal.addEventListener('show.bs.modal', function (event) {
-    var link = event.relatedTarget;
-    var imageSrc = link.getAttribute('data-bs-image');
-    var modalImage = document.getElementById('modalImage');
-    modalImage.src = imageSrc;
+    // Handle showing the modal
+    imageModal.addEventListener('show.bs.modal', function(event) {
+        var link = event.relatedTarget;
+        var imageSrc = link.getAttribute('data-bs-image');
+        var modalImage = document.getElementById('modalImage');
+        modalImage.src = imageSrc;
 
-    // Allow scrolling while the modal is open
-    document.body.classList.remove('modal-open');
-    document.body.style.overflow = 'auto'; // Ensure body overflow is set to auto
-  });
+        // Allow scrolling while the modal is open
+        document.body.classList.remove('modal-open');
+        document.body.style.overflow = 'auto'; // Ensure body overflow is set to auto
+    });
 
-  // Handle closing the modal
-  imageModal.addEventListener('hide.bs.modal', function () {
-    document.body.style.overflow = ''; // Reset overflow when modal is closed
-  });
+    // Handle closing the modal
+    imageModal.addEventListener('hide.bs.modal', function() {
+        document.body.style.overflow = ''; // Reset overflow when modal is closed
+    });
 </script>
 
 

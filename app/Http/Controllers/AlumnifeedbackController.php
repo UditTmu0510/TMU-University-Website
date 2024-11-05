@@ -34,8 +34,8 @@ class AlumnifeedbackController extends Controller
             'contact_no' => 'string',
             'academic_year' => 'string',
             'overall_rating' => 'numeric|min:1|max:5',
-            'topics_beyond_syllabus' => 'string',
-            'topics_to_delete' => 'string',
+            
+            'syllabus_modification' => 'string',
             'suggestions' => 'string',
             'q1' => 'string',
             'q2' => 'string',

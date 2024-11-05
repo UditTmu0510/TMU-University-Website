@@ -1174,20 +1174,20 @@ window.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
 
         // Fade Preloader
-        document.querySelector(".preloader").style.display = "none";
+        // document.querySelector(".preloader").style.display = "none";
 
         // Show menu button
-        document.getElementById('menubar--open--button').style.visibility = 'visible';
+        // document.getElementById('menubar--open--button').style.visibility = 'visible';
 
         // Making body accessible
         document.querySelector('body').style.height = 'auto';
         document.querySelector('body').style.overflowY = 'scroll';
 
-        const wrapper = document.getElementById('wrapper');
+        // const wrapper = document.getElementById('wrapper');
 
-        if (wrapper) {
-            wrapper.style.visibility = 'visible';
-        }
+        // if (wrapper) {
+        //     wrapper.style.visibility = 'visible';
+        // }
 
 
     });
@@ -1679,3 +1679,19 @@ const menubarFirstview = {
     
 
 }
+
+
+
+// Menubar tooltip js
+const menuButton = document.querySelector('.menu-button');
+const tooltip = document.getElementById('menu-tooltip');
+
+menuButton.addEventListener('mouseenter', () => {
+    tooltip.style.visibility = 'visible';
+    tooltip.style.opacity = '1';
+});
+
+menuButton.addEventListener('mouseleave', () => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = '0';
+});

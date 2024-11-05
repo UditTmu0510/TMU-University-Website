@@ -32,6 +32,8 @@ class BlogsController extends Controller
         try {
             // Fetch the blog post from the 'post' table using the slug
             $blog = Blogs::where('n_slug', $slug)->where('status', 1)->firstOrFail();
+            
+            $category_id = $blog->category_id;
 
             // Fetch comments related to the blog post using a join
             $allComments = DB::table('post_comments')
@@ -50,7 +52,7 @@ class BlogsController extends Controller
             // Organize comments into a hierarchical structure
             $comments = $this->organizeComments($allComments);
 
-            $blog_categories = Blogs::select('category')->distinct()->get();
+            $blog_categories = BlogsCategory::where('category_status','Y')->get();
 
             // Fetch top 5 recent posts
             $recentPosts = Blogs::where('status', 1)
@@ -73,7 +75,7 @@ class BlogsController extends Controller
                 });
 
             $relatedPosts = Blogs::where('status', 1)
-                ->where('category', $blog->category)
+                ->where('category_id',$category_id)
                 ->orderBy('posted_at', 'DESC')
                 ->limit(5)
                 ->get()
@@ -158,23 +160,27 @@ class BlogsController extends Controller
         // Redirect back with a success message
         return response()->json(['success' => true, 'message' => 'Comment sent successfully!']);
     }
-    public function all_blogs(Request $request)
-    {
-        // Fetch all active blogs (status = 1) and sort by 'posted_at' and 'id' in descending order
-        $activeBlogs = Blogs::where('status', 1)
-            ->orderBy('posted_at', 'DESC')
-            ->orderBy('id', 'DESC')
-            ->get();
+public function all_blogs(Request $request)
+{
+    // Fetch all active blogs (status = 1) with associated categories and sort by 'posted_at' and 'id' in descending order
+    $activeBlogs = Blogs::with('category_name')
+        ->where('status', 1)
+        ->orderBy('posted_at', 'DESC')
+        ->orderBy('id', 'DESC')
+        ->get();
 
-        // Group blogs by their category
-        $groupedBlogs = $activeBlogs->groupBy('category');
+    // Group blogs by their category name
+    $groupedBlogs = $activeBlogs->groupBy(function($blog) {
+        return $blog->category_name->category_name ?? 'Uncategorized';
+    });
 
-        // Return the view with both the grouped blogs and all active blogs
-        return view('university.blogs.blognew', [
-            'groupedBlogs' => $groupedBlogs,  // Blogs separated by category
-            'allBlogs' => $activeBlogs,        // All active blogs from all categories
-        ]);
-    }
+    // Return the view with both the grouped blogs and all active blogs
+    return view('university.blogs.blognew', [
+        'groupedBlogs' => $groupedBlogs,  // Blogs separated by category name
+        'allBlogs' => $activeBlogs,       // All active blogs from all categories
+    ]);
+}
+
     public function blogs_active()
     {
         $allBlogs = Blogs::where('status', 1)
@@ -186,10 +192,19 @@ class BlogsController extends Controller
     }
     public function blogs_Category($category)
     {
-        // Replace hyphens with spaces
-        $category = Str::replace('-', ' ', $category);
+        
+        $category_slug = 'blog/category/'.$category;
+        
+        
+    $blog_category = BlogsCategory::where('category_slug',$category_slug)
+    ->where('category_status', 'Y')
+    ->firstOrFail();
+    
+    $blog_category_id = $blog_category->category_id;
+    $category = $blog_category->category_name;
 
-        $categoryBlogs = Blogs::where('category', $category)
+
+        $categoryBlogs = Blogs::where('category_id', $blog_category_id)
             ->where('status', 1)
             ->orderBy('posted_at', 'desc')
             ->orderBy('id', 'desc')

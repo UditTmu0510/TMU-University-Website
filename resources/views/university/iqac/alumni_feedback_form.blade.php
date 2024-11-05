@@ -2,38 +2,38 @@
 @section('content')
 
 <style>
-.feedback-form {
-    background-color: white;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+    .feedback-form {
+        background-color: white;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
 
-.feedback-form h5 {
-    font-weight: bold;
-}
+    .feedback-form h5 {
+        font-weight: bold;
+    }
 
-.form-control {
-    background-color: #f7f9fc;
-}
+    .form-control {
+        background-color: #f7f9fc;
+    }
 
-.btn-primary {
-    background-color: #fe8d00;
-    border-color: #fe8d00;
-}
+    .btn-primary {
+        background-color: #fe8d00;
+        border-color: #fe8d00;
+    }
 
-.was-validated .form-control:invalid,
-.was-validated .form-select:invalid {
-    border-color: #dc3545;
-}
+    .was-validated .form-control:invalid,
+    .was-validated .form-select:invalid {
+        border-color: #dc3545;
+    }
 
-.required-label::after {
-    content: "*";
-    color: red;
-    margin-left: 5px;
-    font-size: 16px;
-    vertical-align: top;
-}
+    .required-label::after {
+        content: "*";
+        color: red;
+        margin-left: 5px;
+        font-size: 16px;
+        vertical-align: top;
+    }
 </style>
 
 
@@ -41,11 +41,11 @@
 <div class="main-content">
     <div class="container">
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1> 
+        <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
-            <form action="{{ route('store.alumni.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
-                    
+                <form action="{{ route('store.alumni.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
+
                     <hr>
                     @csrf
                     <!-- College Name -->
@@ -86,7 +86,7 @@
                         <label for="college" class="form-label required-label">Name of the College the Alumni
                             studied in
                             TMU</label>
-                            <select class="form-select" id="college" name="cd_id" required>
+                        <select class="form-select" id="college" name="cd_id" required>
                             <option value="" disabled selected>Select your college</option>
                             @foreach($colleges as $college)
                             <option value="{{ $college->cd_id }}">{{ $college->cd_name }}</option>
@@ -106,30 +106,30 @@
 
                     <!-- Passing Year -->
                     <div class="mb-3">
-                        <label for="facultyName" class="form-label required-label">Year of Passing Out form the
+                        <label for="passing_year" class="form-label required-label">Year of Passing Out form the
                             Programme</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="prog_passout_year" required>
+                        <input type="text" class="form-control" id="passing_year" placeholder="Enter your name" name="prog_passout_year" required>
                         <div class="invalid-feedback">Passing Year.</div>
                     </div>
 
                     <!-- Enrolment Number -->
                     <div class="mb-3">
-                        <label for="facultyName" class="form-label required-label">Enrolment Number</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="cd_enroll_no" required>
+                        <label for="enroll_num" class="form-label required-label">Enrolment Number</label>
+                        <input type="text" class="form-control" id="enroll_num" placeholder="Enter your name" name="cd_enroll_no" required>
                         <div class="invalid-feedback">Enter your Enrolment Number.</div>
                     </div>
 
                     <!-- email id -->
                     <div class="mb-3">
-                        <label for="facultyName" class="form-label required-label">Email ID</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="email" required>
+                        <label for="email" class="form-label required-label">Email ID</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your name" name="email" required>
                         <div class="invalid-feedback">Please enter Email ID.</div>
                     </div>
 
                     <!-- Mobile No -->
                     <div class="mb-3">
-                        <label for="facultyName" class="form-label required-label">Mobile No</label>
-                        <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="contact_no" required>
+                        <label for="phone_no" class="form-label required-label">Mobile No</label>
+                        <input type="text" class="form-control" id="phone_no" placeholder="Enter your name" name="contact_no" required>
                         <div class="invalid-feedback">Please enter Mobile No.</div>
                     </div>
 
@@ -458,25 +458,101 @@
 </div>
 
 <script>
-// Example JavaScript to enable Bootstrap's client-side validation
-(function() {
-    'use strict'
+    // Example JavaScript to enable Bootstrap's client-side validation
+    (function() {
+        'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-        .forEach(function(form) {
-            form.addEventListener('submit', function(event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
-                form.classList.add('was-validated')
-            }, false)
-        })
-})()
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+
+    // Passing Year validation
+    document.getElementById('passing_year').addEventListener('input', function() {
+        // Remove any non-numeric characters
+        this.value = this.value.replace(/\D/g, '');
+
+        // Limit the input to a maximum of 4 characters
+        if (this.value.length > 4) {
+            this.value = this.value.slice(0, 4);
+        }
+
+        // Validate if the input is exactly 4 digits
+        if (this.value.length !== 4) {
+            this.setCustomValidity("Please enter exactly 4 numeric digits for the year.");
+        } else {
+            this.setCustomValidity(""); // Clear the error message if valid
+        }
+    });
+
+    // Enrollment Validation
+
+
+    document.getElementById('enroll_num').addEventListener('input', function() {
+        // Convert the input to uppercase
+        this.value = this.value.toUpperCase();
+
+        // Remove any non-alphanumeric characters
+        this.value = this.value.replace(/[^A-Z0-9]/g, '');
+
+        // Limit the input to a maximum of 10 characters
+        if (this.value.length > 10) {
+            this.value = this.value.slice(0, 10);
+        }
+
+        // Validate if the input is exactly 10 characters
+        if (this.value.length !== 10) {
+            this.setCustomValidity("Please enter exactly 10 characters (uppercase letters and numbers only).");
+        } else {
+            this.setCustomValidity(""); // Clear the error message if valid
+        }
+    });
+
+
+    // email Validation
+
+    document.getElementById('email').addEventListener('input', function() {
+        const emailPattern = /@.+\./; // Regex to check for "@" followed by at least one character and then a "."
+
+        // Validate if the input contains "@" and "." in the correct format
+        if (!emailPattern.test(this.value)) {
+            this.setCustomValidity("Please enter a valid email address with '@' and '.' characters.");
+        } else {
+            this.setCustomValidity(""); // Clear the error message if valid
+        }
+    });
+
+    // Phone number Valiation
+    document.getElementById('phone_no').addEventListener('input', function () {
+    // Remove any non-numeric characters
+    this.value = this.value.replace(/\D/g, '');
+
+    // Limit the input to a maximum of 10 digits
+    if (this.value.length > 10) {
+        this.value = this.value.slice(0, 10);
+    }
+
+    // Validate if the input is exactly 10 digits
+    if (this.value.length !== 10) {
+        this.setCustomValidity("Please enter exactly 10 numeric digits.");
+    } else {
+        this.setCustomValidity(""); // Clear the error message if valid
+    }
+});
+
+
+
 </script>
 
 @endsection
