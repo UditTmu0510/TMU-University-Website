@@ -440,7 +440,7 @@
     <!-- Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
     <!-- Replacing the cdn with downloaded js for bootstrap -->
-    <script href="{{asset('assets/js/default/bootstrap.min.js')}}"></script>
+    <script href="{{asset('assets/js/default/home-bootstrap.min.js')}}"></script>
 
     <!-- commenting the below js because no content to call -->
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
