@@ -337,7 +337,7 @@
 
 
     <!-- Canela Deck font  -->
-    <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'">
+    <!-- <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'"> -->
 
     <script>
         // Function to load a stylesheet
@@ -740,8 +740,9 @@
 
                     </div>
                     <div class="banner-text">
-                        <h1>This is TMU</h1>
-                        <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
+                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
+                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
                     </div>
                 </div>
             </div>
