@@ -21,6 +21,9 @@ yarn-error.log
 # Ignore all files and folders in the public directory
 /public/*
 
+# Ignore style.css inside public
+!/public/style.css
+
 # Except for the assets directory
 !/public/assets/
 
