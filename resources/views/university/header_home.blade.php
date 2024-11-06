@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US" style="border:0;">
+<html dir="ltr" lang="en-US" style="border:none;">
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
