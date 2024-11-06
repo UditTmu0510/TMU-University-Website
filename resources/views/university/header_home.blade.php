@@ -482,7 +482,7 @@
     <div id="wrapper" style="display: block;">
 
 
-        <div class="side-button-container">
+        <!-- <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
                     <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
@@ -490,20 +490,13 @@
                     <span class="text">Admissions Open</span>
                 </div>
             </a>
-            <!-- <a href="tel:18002701490" target="blank">
-                <div class="expandable-button d-none d-sm-block" id="button2">
-                    <img class="new-arrow" id="new-menu-icon" src="assets/img/icons/call-side-orange.svg" width="25px"
-                        alt="Icon 1">
-                    <span class="text">Call</span>
-                </div>
-            </a> -->
             <a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="blank">
                 <div class="expandable-button d-none d-sm-block" id="button3">
                     <img src="{{asset('assets/img/icons/whatsapp-side.svg')}}" width="25px" alt="Icon 1">
                     <span class="text">Whatsapp Chat</span>
                 </div>
             </a>
-        </div>
+        </div> -->
 
         <div class="new-menu-container d-block d-sm-none">
             <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
@@ -721,8 +714,8 @@
 
                     </div>
                     <div class="banner-text">
-                        <h1>This is TMUU</h1>
-                        <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                        <h1 style="color: black;">This is TMUU</h1>
+                        <p style="color: black;">With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
                     </div>
                 </div>
             </div>
