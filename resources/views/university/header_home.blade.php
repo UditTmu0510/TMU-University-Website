@@ -359,14 +359,14 @@
         // document.head.appendChild(fontAwesomeLink);
 
         // Load Bootstrap CSS
-        // var bootstrapLink = document.createElement('link');
-        // bootstrapLink.rel = 'preload';
-        // bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
-        // bootstrapLink.as = 'style';
-        // bootstrapLink.onload = function() {
-        //     this.rel = 'stylesheet';
-        // };
-        // document.head.appendChild(bootstrapLink);
+        var bootstrapLink = document.createElement('link');
+        bootstrapLink.rel = 'preload';
+        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        bootstrapLink.as = 'style';
+        bootstrapLink.onload = function() {
+            this.rel = 'stylesheet';
+        };
+        document.head.appendChild(bootstrapLink);
 
         // Load Core Style CSS
         var coreStyleLink = document.createElement('link');
@@ -399,7 +399,7 @@
 
     <noscript>
         <!-- <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"> -->
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{('style.css')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
@@ -439,17 +439,23 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
+
     <!-- Replacing the cdn with downloaded js for bootstrap -->
-    <script href="{{asset('assets/js/default/home-bootstrap.min.js')}}"></script>
+    <script href="{{asset('assets/js/default/bootstrap.min.js')}}"></script>
 
     <!-- commenting the below js because no content to call -->
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+
     <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
+
     <script href="{{asset('assets/js/default/popperjs_core@2.11.6.min.js')}}"></script>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
 
@@ -713,7 +719,7 @@
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video> -->
-                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" poster="{{asset('poster/banner_video_poster.webp')}}" ></video>
+                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" poster="{{asset('poster/banner_video_poster.webp')}}"></video>
 
                         <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
                         <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
