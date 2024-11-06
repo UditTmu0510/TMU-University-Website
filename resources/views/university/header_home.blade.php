@@ -448,7 +448,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
     <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
     <script href="{{asset('assets/js/default/popperjs_core@2.11.6.min.js')}}"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
@@ -482,7 +482,7 @@
     <div id="wrapper" style="display: block;">
 
 
-        <!-- <div class="side-button-container">
+        <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
                     <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
@@ -490,13 +490,20 @@
                     <span class="text">Admissions Open</span>
                 </div>
             </a>
+            <!-- <a href="tel:18002701490" target="blank">
+                <div class="expandable-button d-none d-sm-block" id="button2">
+                    <img class="new-arrow" id="new-menu-icon" src="assets/img/icons/call-side-orange.svg" width="25px"
+                        alt="Icon 1">
+                    <span class="text">Call</span>
+                </div>
+            </a> -->
             <a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="blank">
                 <div class="expandable-button d-none d-sm-block" id="button3">
                     <img src="{{asset('assets/img/icons/whatsapp-side.svg')}}" width="25px" alt="Icon 1">
                     <span class="text">Whatsapp Chat</span>
                 </div>
             </a>
-        </div> -->
+        </div>
 
         <div class="new-menu-container d-block d-sm-none">
             <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
@@ -706,7 +713,7 @@
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video> -->
-                        <!-- <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" poster="{{asset('assets/css/swiper2.css')}}"></video> -->
+                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" ></video>
 
                         <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
                         <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
@@ -714,8 +721,8 @@
 
                     </div>
                     <div class="banner-text">
-                        <h1 style="color: black;">This is TMUU</h1>
-                        <p style="color: black;">With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                        <h1>This is TMUU</h1>
+                        <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
                     </div>
                 </div>
             </div>
