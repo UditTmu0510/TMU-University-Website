@@ -16,9 +16,44 @@
                 <div class="row mt-0">
                     <div class="col-md-12">
                         <div class="card-body">
+
+                        <hr class="horizontal-line">
+                            <button class="careers-accordion">November 2024<span class="icon">+</span></button>
+                            <div class="panel active">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Sl. No.</th>
+                                                <th class="text-center">Date</th>
+                                                <th class="text-center">View</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-center">1.</td>
+                                                <td class="text-center">04.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/4th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">2.</td>
+                                                <td class="text-center">05.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/5th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">3.</td>
+                                                <td class="text-center">06.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/6th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                           
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                             <hr class="horizontal-line">
                             <button class="careers-accordion">October 2024<span class="icon">+</span></button>
-                            <div class="panel active">
+                            <div class="panel">
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-striped">
                                         <thead>
@@ -123,6 +158,21 @@
                                                 <td class="text-center">19.</td>
                                                 <td class="text-center">26.10.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/26.10.2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">20.</td>
+                                                <td class="text-center">28.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/28th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">21.</td>
+                                                <td class="text-center">29.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/29th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">22.</td>
+                                                <td class="text-center">30.10.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/october/30th-October-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true" ></i></a></td>
                                             </tr>
                                             
                                         </tbody>
