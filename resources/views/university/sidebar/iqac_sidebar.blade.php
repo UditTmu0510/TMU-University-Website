@@ -44,6 +44,9 @@
             <a href="{{ route('iqac.academic.calendar') }}" class="custom-menu-item {{ setActive('iqac.academic.calendar') }}">
                 <p>Academic Calendar</p>
             </a>
+            <a href="{{ route('iqac.feedback.report') }}" class="custom-menu-item {{ setActive('iqac.feedback.report') }}">
+                <p>Feedback Report</p>
+            </a>
             <a href="{{ route('iqac.student.feedback') }}" class="custom-menu-item {{ setActive('iqac.student.feedback') }}">
                 <p>Student Feedback</p>
             </a>
