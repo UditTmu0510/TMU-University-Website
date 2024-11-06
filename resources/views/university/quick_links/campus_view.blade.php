@@ -28,7 +28,7 @@
     </div>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span> View</span></h2>
+      <h1 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 mt-5"><span>Campus </span><span> View</span></h1>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">Teerthanker Mahaveer University is a dream destination, where modern infrastructure, world-class facilities, and a supportive community create the perfect backdrop for your academic journey. Every corner of TMU is thoughtfully designed to inspire and support you, fostering a dynamic environment that complements your academic and personal growth. We offer a vibrant campus experience that blends learning with fun. From the moment you step onto our campus, you'll feel a sense of purpose, the joy of discovery, and the warmth of belonging.
