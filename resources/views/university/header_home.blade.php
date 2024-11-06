@@ -721,7 +721,7 @@
                     </div>
                     <div class="banner-text">
                         <h1>This is TMUU</h1>
-                        <p style="color:black !important;">With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                        <p>With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
                     </div>
                 </div>
             </div>
