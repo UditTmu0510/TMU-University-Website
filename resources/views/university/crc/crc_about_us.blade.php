@@ -6,8 +6,8 @@
 	<div class="container">
 
 		<div class="row mx-0">
-			<h2 class="tmu-text-primary tmu-page-heading pt-md-5"><span> About CRC
-				</span><span>(Corporate Resource Centre)</span></h2>
+			<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> About CRC
+				</span><span>(Corporate Resource Centre)</span></h1>
 			<p class="text-justify">
 				The Corporate Resource Centre (CRC) at TMU is a specialised unit focused on enhancing students' career
 				prospects. It functions as a bridge between academic learning and professional opportunities, offering
