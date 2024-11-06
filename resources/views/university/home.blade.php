@@ -635,27 +635,40 @@
                 <span class="nav-arrow" onclick="showPreviousReview()">&#10094;</span>
                 <span class="nav-arrow" onclick="showNextReview()">&#10095;</span>
             </div>
-            <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');"></div>
-            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');"></div>
+            <!-- Lazy loaded thumbnail images (use loading="lazy") -->
+            <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" loading="lazy"></div>
+            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" loading="lazy"></div>
         </div>
     </div>
+
     <div class="content-section">
         <div class="profile-section">
-            <img id="profile-picture" class="profile-picture" src="" alt="Profile Image" />
+            <!-- Lazy loading profile picture -->
+            <img id="profile-picture" class="profile-picture" src="" alt="Profile Image" loading="lazy" />
             <div class="profile-details">
                 <h2 id="profile-name"></h2>
                 <a id="profile-link" href="#">LinkedIn
-                    <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" /></a>
+                    <!-- Lazy load LinkedIn icon -->
+                    <img src="{{asset('/assets/img/icons/alumni/linkedin.svg')}}" alt="LinkedIn Icon" class="alumni-icon" loading="lazy" />
+                </a>
                 <div class="profile-info">
-                    <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" /><span id="profile-designation"></span></p>
-                    <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" /><span id="profile-company"></span></p>
-                    <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" /><span id="profile-course"></span></p>
-                    <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" /><span id="profile-graduationYear"></span></p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/user.svg')}}" class="alumni-icon" loading="lazy" />
+                        <span id="profile-designation"></span>
+                    </p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/office-building.svg')}}" class="alumni-icon" loading="lazy" />
+                        <span id="profile-company"></span>
+                    </p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/book.svg')}}" class="alumni-icon" loading="lazy" />
+                        <span id="profile-course"></span>
+                    </p>
+                    <p><img src="{{asset('/assets/img/icons/alumni/calendar.svg')}}" class="alumni-icon" loading="lazy" />
+                        <span id="profile-graduationYear"></span>
+                    </p>
                 </div>
             </div>
         </div>
