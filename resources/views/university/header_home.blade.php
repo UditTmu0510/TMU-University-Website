@@ -359,14 +359,14 @@
         // document.head.appendChild(fontAwesomeLink);
 
         // Load Bootstrap CSS
-        var bootstrapLink = document.createElement('link');
-        bootstrapLink.rel = 'preload';
-        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
-        bootstrapLink.as = 'style';
-        bootstrapLink.onload = function() {
-            this.rel = 'stylesheet';
-        };
-        document.head.appendChild(bootstrapLink);
+        // var bootstrapLink = document.createElement('link');
+        // bootstrapLink.rel = 'preload';
+        // bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        // bootstrapLink.as = 'style';
+        // bootstrapLink.onload = function() {
+        //     this.rel = 'stylesheet';
+        // };
+        // document.head.appendChild(bootstrapLink);
 
         // Load Core Style CSS
         var coreStyleLink = document.createElement('link');
@@ -399,7 +399,7 @@
 
     <noscript>
         <!-- <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"> -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="{{('style.css')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
