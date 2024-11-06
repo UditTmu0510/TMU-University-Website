@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US" style="border:0;">
+<html dir="ltr" lang="en-US" style="border:none;">
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -371,7 +371,7 @@
         // Load Core Style CSS
         var coreStyleLink = document.createElement('link');
         coreStyleLink.rel = 'preload';
-        coreStyleLink.href = "{{asset('style.css')}}";
+        coreStyleLink.href = "{{asset('assets/css/home-style.css')}}";
         coreStyleLink.as = 'style';
         coreStyleLink.onload = function() {
             this.onload = null; // Avoid calling onload multiple times
