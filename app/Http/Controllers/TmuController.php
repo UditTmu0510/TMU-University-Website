@@ -556,6 +556,10 @@ class TmuController extends Controller
     {
         return view('university.iqac.employer_feedback_form');
     }
+    public function iqac_feedback_report()
+    {
+        return view('university.iqac.iqac_feedback_report');
+    }
 
 
     // NAAC

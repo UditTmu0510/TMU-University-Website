@@ -223,6 +223,7 @@ Route::get('/tmu/iqac-cell/university-academic-calendars', [TmuController::class
 Route::get('/tmu/iqac-cell/student-feedback', [TmuController::class, 'iqac_student_feedback'])->name('iqac.student.feedback');
 Route::get('/tmu/policies-sops', [TmuController::class, 'iqac_policies_and_sops'])->name('iqac.policies.and.sops');
 Route::get('/tmu/iqac-cell/contact-us', [TmuController::class, 'iqac_contact_us'])->name('iqac.contact.us');
+Route::get('/tmu/iqac-cell/feedback-report', [TmuController::class, 'iqac_feedback_report'])->name('iqac.feedback.report');
 
 Route::get('/tmu/iqac-cell/teachers-feedback-form', [TeachersfeedbackController::class, 'createTeachersFeedbackForm'])->name('teachers.feedback.form');
 Route::post('/tmu/iqac-cell/submit-teachers-feedback-form', [TeachersfeedbackController::class, 'storeFeedback'])->name('store.teachers.Feedback');
