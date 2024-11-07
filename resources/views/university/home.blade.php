@@ -988,7 +988,7 @@
     var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
 
     if (wd <= 540) {
-        // url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
+        url = "#"; // Switch to mobile
         document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
     }
 
