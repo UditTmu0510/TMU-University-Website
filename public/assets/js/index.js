@@ -303,7 +303,7 @@ async function openSubMenuContent(value, menu, listItem) {
 // function to show sub-sub-sub menu (courses list)
 async function showSubMenuCourse(value, menu, subMenu, listItem) {
     try {
-        console.log('hi');
+        // console.log('hi');
         const box = document.getElementById('menubar__submenu_courses');
         box.innerHTML = '';
 
@@ -436,32 +436,40 @@ function scrollToBottom(element) {
 
 
 
-// Function to reset Main Menubar
+// Function to reset Main Menubar and fetch data from navbarData.json
 function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
-    ulElement.innerHTML = `
-    <li onclick="showMenuContent(7,this)" ><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/university.svg" width="70%" alt=""></i></span>
-    About TMU </h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(8,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/college.svg" width="70%" alt=""></span>
-    Colleges</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(9,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/programmes.svg" width="70%" alt=""></span>
-    Programmes</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(10,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/research.svg" width="70%" alt=""></span>
-    Research</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(11,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/examination.svg" width="70%" alt=""></span>
-    Examination</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(12,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/quick-links.svg" width="70%" alt=""></span>
-    Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>
-						
-					`;
 
+    // console.log(path);
 
+    let menu = path.replace('menubarData.json','navbarData.json');
+    // console.log(menu);
+
+    // Fetch the navbar data from the JSON file
+    fetch(menu)
+        .then(response => response.json())
+        .then(navbarData => {
+            // Create a new HTML structure based on the fetched data
+            ulElement.innerHTML = ''; // Clear current menu
+            navbarData.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.setAttribute('onclick', item.clickAction);
+
+                listItem.innerHTML = `
+                    <h1 class="underline__effect">
+                        <span><img class="fs-18" src="${item.imageURL}" width="70%" alt=""></span>
+                        ${item.text}
+                    </h1>
+                    <i class="${item.icon}"></i>
+                `;
+                ulElement.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching navbar data:', error);
+        });
+
+    // Optionally remove any super active classes if needed
     removeSuperActiveClass();
 }
 
@@ -665,7 +673,7 @@ async function fetchAndCacheData() {
     try {
         const response = await fetch(path);
         cachedData = await response.json();
-        console.log(cachedData);
+        // console.log(cachedData);
     } catch (err) {
         console.error('Error fetching data:', err);
     }
@@ -673,7 +681,7 @@ async function fetchAndCacheData() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Call your function here
-    console.log('called');
+    // console.log('called'); 
     fetchAndCacheData();
 });
 
@@ -1277,7 +1285,7 @@ document.getElementById('success-stories-popup').addEventListener('click', funct
     const iFrame = popup.querySelector('iframe');
     iFrame.setAttribute('src', "");
 
-    console.log(event.target);
+    // console.log(event.target);
 
     if (event.target !== popupContent) {
         popup.style.display = 'none';

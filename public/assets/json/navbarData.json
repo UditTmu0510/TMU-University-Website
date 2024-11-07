@@ -1,0 +1,45 @@
+[
+    {
+      "id": 7,
+      "text": "About TMU",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/university.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(7,this)"
+    },
+    {
+      "id": 8,
+      "text": "Colleges",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/college.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(8,this)"
+    },
+    {
+      "id": 9,
+      "text": "Programmes",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/programmes.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(9,this)"
+    },
+    {
+      "id": 10,
+      "text": "Research",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/research.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(10,this)"
+    },
+    {
+      "id": 11,
+      "text": "Examination",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/examination.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(11,this)"
+    },
+    {
+      "id": 12,
+      "text": "Quick Links",
+      "imageURL": "https://tmuhospital.com/assets/img/nav_logo/quick-links.svg",
+      "icon": "bi bi-caret-right-fill",
+      "clickAction": "showMenuContent(12,this)"
+    }
+  ]
+  

@@ -13,7 +13,7 @@ try {
     // Get json name according to it's directory name
     let jsonName = subDirectoryFinder(subDirectory);
 
-    console.log(jsonName);
+    // console.log(jsonName);
 
     if (domainName == 'localhost' || domainName == "127.0.0.1") {
         path = "http://" + domainName + ":8000" + "/assets/json/"+ jsonName +".json";
@@ -352,7 +352,6 @@ async function openSubMenuContent(value, menu, listItem) {
 // function to show sub-sub-sub menu (courses list)
 async function showSubMenuCourse(value, menu, subMenu, listItem) {
     try {
-        console.log('hi');
         const box = document.getElementById('menubar__submenu_courses');
         box.innerHTML = '';
 
@@ -482,48 +481,65 @@ function scrollToBottom(element) {
     ulElement.scrollTop = ulElement.scrollHeight;
     addSuperFadeClass(element);
 }
-
-let universityMenuBase = `<h2 class="nav-headings">University</h2>
-    <li onclick="showMenuContent(7,this)" ><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/university.svg" width="70%" alt=""></i></span>
-        About TMU </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(8,this)"><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college.svg" width="70%" alt=""></span>
-        Colleges</h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(9,this)"><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/programmes.svg" width="70%" alt=""></span>
-        Programmes</h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(10,this)"><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/research.svg" width="70%" alt=""></span>
-        Research</h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(11,this)"><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/examination.svg" width="70%" alt=""></span>
-        Examination</h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(12,this)"><h1 class="underline__effect">
-        <span><img class="fs-18" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>`
-
-
-
-// Function to reset Main Menubar
+// Function to reset Main Menubar and fetch university menu data from universityMenuData.json
 function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
-    // ulElement.innerHTML =
+ 
+    let menuPath = path.slice(0, path.lastIndexOf("\/") + 1) + "navbarData.json";
+  
+    // Fetch the university menu data from the JSON file
+    fetch(menuPath)
+        .then(response => response.json())
+        .then(menuData => {
+            let html = menubarFirstview[subDirectory] || '1';
 
-    let html = menubarFirstview[subDirectory] || '1';
+            // Check if we need to show the university menu base
+            if (html === '1') {
+                // Start with the university menu heading
+                html = `<h2 class="nav-headings">University</h2>`;
 
-    if(html === '1')
-    {
-        html = universityMenuBase;
-    }
-    else{
-        html = html + universityMenuBase + `<i class="text-center scroll-down-icon onclick="scrollToBottom(this)"> <span>Scroll for University menu</span> <i class="bi bi-chevron-double-down"></i></i>`;
-    }
+                // Loop through the menu items and dynamically create the list
+                menuData.forEach(item => {
+                    html += `
+                        <li onclick="${item.clickAction}">
+                            <h1 class="underline__effect">
+                                <span><img class="fs-18" src="${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
+                                ${item.text}
+                            </h1>
+                            <i class="${item.icon}"></i>
+                        </li>
+                    `;
+                });
+            } else {
+                // Append the university menu with scroll down option if needed
+                html = html + `<h2 class="nav-headings">University</h2>`;
 
+                menuData.forEach(item => {
+                    html += `
+                        <li onclick="${item.clickAction}">
+                            <h1 class="underline__effect">
+                                <span><img class="fs-18" src="${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
+                                ${item.text}
+                            </h1>
+                            <i class="${item.icon}"></i>
+                        </li>
+                    `;
+                });
 
+                html += `<i class="text-center scroll-down-icon" onclick="scrollToBottom(this)">
+                            <span>Scroll for University menu</span>
+                            <i class="bi bi-chevron-double-down"></i>
+                        </i>`;
+            }
 
-    ulElement.innerHTML = html;
+            // Update the HTML content of the navbar
+            ulElement.innerHTML = html;
+        })
+        .catch(error => {
+            console.error('Error fetching university menu data:', error);
+        });
 
+    // Optionally remove any super active classes if needed
     removeSuperActiveClass();
 }
 
@@ -727,7 +743,7 @@ async function fetchAndCacheData() {
     try {
         const response = await fetch(path);
         cachedData = await response.json();
-        console.log(cachedData);
+        // console.log(cachedData);
     } catch (err) {
         console.error('Error fetching data:', err);
     }
@@ -735,7 +751,7 @@ async function fetchAndCacheData() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Call your function here
-    console.log('called');
+    // console.log('called');
     fetchAndCacheData();
 });
 
