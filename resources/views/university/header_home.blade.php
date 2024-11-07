@@ -491,7 +491,7 @@
     <!-- Searchbar code starts here -->
 
     <div class="search-icon" id="searchIcon">
-        <i class="uil uil-search" style="color:white;"></i>
+        <img src="{{ asset('/assets/img/icons/search-home.svg') }}" alt="Search Icon" style="height:36px; width:24px;">
     </div>
 
 
@@ -691,7 +691,7 @@
 
         <!-- Menubar Open Button Code  -->
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
-            <i class="fa-solid fa-bars"></i>
+        <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="menu" >
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
             <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
