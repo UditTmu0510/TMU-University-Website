@@ -338,7 +338,7 @@
 
     <!-- Canela Deck font  -->
     <!-- <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'"> -->
-
+    <link rel="preload" href="{{ asset('poster/banner_video_poster.webp') }}" as="image">
     <script>
         // Function to load a stylesheet
         function loadStyleSheet(href) {
@@ -491,7 +491,7 @@
     <!-- Searchbar code starts here -->
 
     <div class="search-icon" id="searchIcon">
-        <img src="{{ asset('/assets/img/icons/search-home.svg') }}" alt="Search Icon" style="height:36px; width:24px;">
+        <i class="uil uil-search" style="color:white;"></i>
     </div>
 
 
@@ -691,7 +691,7 @@
 
         <!-- Menubar Open Button Code  -->
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
-            <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="menu">
+            <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
             <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
@@ -723,12 +723,6 @@
         <section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
             <div class="slider-inner">
                 <div class="container-fluid p-0">
-                    <div class="banner-text">
-                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
-                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
-                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
-                    </div>
-
                     <div class="video-banner">
 
                         <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
@@ -745,7 +739,11 @@
                         <!--          </video>-->
 
                     </div>
-
+                    <div class="banner-text">
+                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
+                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
+                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                    </div>
                 </div>
             </div>
         </section>
