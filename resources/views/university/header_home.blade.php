@@ -691,7 +691,7 @@
 
         <!-- Menubar Open Button Code  -->
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
-        <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="menu" >
+            <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="menu">
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
             <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
@@ -723,6 +723,12 @@
         <section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
             <div class="slider-inner">
                 <div class="container-fluid p-0">
+                    <div class="banner-text">
+                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
+                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
+                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                    </div>
+
                     <div class="video-banner">
 
                         <!-- <video muted autoplay loop playsinline class="d-none d-md-block" >
@@ -739,11 +745,7 @@
                         <!--          </video>-->
 
                     </div>
-                    <div class="banner-text">
-                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
-                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
-                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
-                    </div>
+
                 </div>
             </div>
         </section>
