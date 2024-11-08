@@ -732,7 +732,8 @@
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video> -->
-                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" poster="{{asset('poster/banner_video_poster.webp')}}"></video>
+                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto"></video>
+                        <!-- <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" poster="{{asset('poster/banner_video_poster.webp')}}"></video> -->
 
                         <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
                         <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
