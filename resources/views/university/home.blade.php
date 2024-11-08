@@ -636,13 +636,23 @@
                 <span class="nav-arrow" onclick="showNextReview()">&#10095;</span>
             </div>
             <!-- Lazy loaded thumbnail images (use loading="lazy") -->
-            <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
+            <!-- <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
             <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
             <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
             <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
             <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
             <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
+            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
+
+            <!-- Lazy loaded thumbnail images with data-bg attribute -->
+            <div class="thumb" onclick="displayReviewByIndex(0)" data-bg="{{ asset('assets/img/department/alumni/people/1.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(1)" data-bg="{{ asset('assets/img/department/alumni/people/2.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(2)" data-bg="{{ asset('assets/img/department/alumni/people/3.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(3)" data-bg="{{ asset('assets/img/department/alumni/people/4.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(4)" data-bg="{{ asset('assets/img/department/alumni/people/1.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/2.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/3.png') }}"></div>
+
         </div>
     </div>
 
@@ -996,8 +1006,7 @@
     player.initialize(document.querySelector("#videoPlayer89"), url, true);
 </script>
 <script>
-
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach((entry) => {
