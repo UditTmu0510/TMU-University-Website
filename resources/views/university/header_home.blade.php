@@ -338,7 +338,7 @@
 
     <!-- Canela Deck font  -->
     <!-- <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'"> -->
-    <link rel="preload" href="{{ asset('poster/banner_video_poster.webp') }}" as="image">
+    <link rel="preload" href="{{ asset('poster/banner_video_poster_mobile.jpg') }}" as="image">
     <script>
         // Function to load a stylesheet
         function loadStyleSheet(href) {
