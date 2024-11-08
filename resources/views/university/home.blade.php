@@ -1019,10 +1019,6 @@
         });
         lazyBackgrounds.forEach((el) => observer.observe(el));
     });
-
-    document.getElementById("videoPlayer89").addEventListener("play", function () {
-    document.querySelector(".video-banner").style.backgroundImage = "none";
-});
 </script>
 
 
