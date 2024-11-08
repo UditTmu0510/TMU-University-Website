@@ -358,7 +358,7 @@
 	<div class="container-fluid px-2 px-lg-5 pt-5">
 		<div class="big-card pb-3">
 			<div class="big-card-heading positive-relative">
-				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Convocation </span> <span> Ceremony </span></h2>
+				<h1 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Convocation </span> <span> Ceremony </span></h1>
 				<!-- <img src="./assets/image/corner-handle.png" class="w-100" alt="" style="max-width:40px; position:absolute; top:2px; right:2px; transform:scale(1,-1)"> -->
 			</div>
 			<div class="pt-5 px-4 px-md-5 text-justify">

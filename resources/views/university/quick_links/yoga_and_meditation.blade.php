@@ -32,7 +32,7 @@
     </div>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Yoga </span><span>and Meditation</span></h2>
+      <h2 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 mt-5"><span>Yoga </span><span>and Meditation</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
