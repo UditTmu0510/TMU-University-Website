@@ -119,6 +119,7 @@
 <div class="main-content">
     <div class="container">
         <section class="events_ctld">
+            <h1 class="tmu-text-primary tmu-page-heading mb-3 mt-md-4"><span>CTLD </span><span>Events</span></h1>
             <section id="content bg-dark" style="background: #f5f5f5;">
                 <div class="container">
                     <div class="content-wrap">

@@ -202,7 +202,7 @@
         <div class="row justify-content-center">
 
             <div class="box d-none d-sm-block justify-content-center">
-                <h2 class="tmu-text-primary mb-2 mt-2"><span>Annual</span><span> Report</span></h2>
+                <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Annual</span><span> Report</span></h1>
                 <div class="container">
 
                     <div class="bookshelf"></div>
