@@ -995,14 +995,16 @@
 
 <script>
     let wd = window.innerWidth;
-    var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
-
+    
     if (wd <= 540) {
         document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
         url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
         document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
     }
-
+    else{
+        document.getElementById('videoPlayer89').poster="{{asset('poster/banner_video_poster.webp')}}"
+        var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
+    }
     var player = dashjs.MediaPlayer().create();
     player.initialize(document.querySelector("#videoPlayer89"), url, true);
 </script>
