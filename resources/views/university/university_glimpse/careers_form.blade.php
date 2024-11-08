@@ -75,7 +75,7 @@
 
 <div class="container my-5">
     <div class="form-container">
-        <h2 class="text-center mb-4">Teerthanker Mahaveer University</h2>
+        <h1 class="tmu-text-primary tmu-page-heading mb-3"><span></span><span>Teerthanker Mahaveer University</span></h1>
         <h4 class="text-center mb-3">Interviewee Details Form</h4>
 
 

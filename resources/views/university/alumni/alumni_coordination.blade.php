@@ -4,12 +4,12 @@
 
     <div class="container">
         <div class="row mb-3">
-            <h2 class="tmu-text-primary tmu-page-heading"><span> Proctorial </span><span>Board</span></h2>
+            <h1 class="tmu-text-primary tmu-page-heading"><span> Proctorial </span><span>Board</span></h1>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th class="text-center">#</th>
+                            <th class="text-center">Sl. No.</th>
                             <th>Name</th>
                             <th>Designation</th>
                         </tr>

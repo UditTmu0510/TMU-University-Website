@@ -15,7 +15,7 @@
 
 
 <div class="container hh1">
-    <h1 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left text-center mb-5"><span>JOB </span><span> OPENINGS</span></h1>
+    <h1 Class="tmu-text-primary tmu-page-heading text-center mb-5"><span>JOB </span><span> OPENINGS</span></h1>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
