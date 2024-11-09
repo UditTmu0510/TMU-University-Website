@@ -527,158 +527,102 @@
 
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>20, October</span>
+                                        <span>01, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Alumni Relations Cell is organising a session on 'Future Investment Insights: Grow Your Wealth Wisely,' featuring esteemed alumni and industry experts. All faculty members and students of CCSIT and FoE are invited to attend.</p>
+                                        <p>Alumni Talk by Dr. Surbhi Priyadarshi, MDS-Gold Medalist, on 18.05.2024 at L.T. Dental College. Gain insights on careers in dental sciences and academic pathways!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            Dental College</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>01, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni Talk by Mr. Neyaz Ahmed Lone, AIIMS-NORCET-2024 rank holder, on 16.05.2024 at L.T. Nursing. Gain insights on exam preparation and time management!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                             Nursing College </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
+                                            May </span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>01, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni Talk by Mr. Rishab Sharma, Territory Manager, Adama India Pvt. Ltd., Sitapur, on 04.05.2024 at L.T. Agriculture. Join us for insights on agriculture careers!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                            Agriculture College</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 04th, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>10, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni Session: Dr. Renu Yadav on Education & Philosophy. Join us on 12.04.2024 at College of Education to learn from her inspiring journey and insights!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                             CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, April</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>17, October</span>
+                                        <span>10, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>CCSIT is organising IEEE Day TechnoFest 2k24, a 3-day event featuring expert sessions & competitions. Students from all disciplines are invited to participate and learn various technical and professional skills.</p>
+                                        <p>Alumni Talk: Dr. Nishant Johri shares his journey from TMU to City, University of London. Join us on 16.04.2024 at College of Pharmacy for valuable insights!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
+                                            Pharmacy College</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, April</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>09, September</span>
+                                        <span>20, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>CCSIT is organising a fest to celebrate Navratri. All faculty and staff members are cordially invited to attend the event.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>08, October</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>CCSIT is organising a Poster/Animation Competition to celebrate 'Colours of Vijayadashami'. All CCSIT students and members are invited to participate.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT </span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>03, October</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>CCSIT is organising a Drawing Competition with the theme 'Anime Character.' All CCSIT students are invited to participate and win exciting prizes. For any queries, contact 9410253656.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>20, September</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>IQAC, FOE is organising an Information Session on GATE & JAM Exams for Masters, in collaboration with IIT Roorkee, featuring Prof. Ankik Kumar Giri, Dept. of Mathematics, IIT Roorkee. All 3rd & final-year B.Tech/B.Sc students are invited.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>20, September</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Department of BCA and MCA, CCSIT is organising an online guest lecture on 'Digital Marketing & Social Media Strategies' by Mr Vikas Nain, Co-Founder of The Triad and Assistant Professor of Digital Marketing at PIET.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>15, September</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g">
-                                            <p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p>
+                                        <a href="">
+                                            <p>Alumni Session: Hands-on Workshop on Basic Life Support by Mr. Manas Jain, Team Leader, National Heart Institute, on 25.04.2024 at College of Nursing. Join us!</p>
                                         </a>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            TMU Campus</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, September</span>
+                                            Nursing College</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 25, April</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>12, September</span>
+                                        <span>10, March</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>CCSIT is organising a Mentorship-Mentee Programme in various skills, featuring Master Classes under the banner of the IEEE Student Branch, to promote IEEE awareness and skill development among students.</p>
+                                        <p>Alumni Session: Nishant Jain, Sr. Sales Officer at Indigo Paints, Ghaziabad, on 20.03.2024 at TMIMT. MBA/BBA students are invited to join and learn!</p>
                                     </div>
                                     <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                             CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 13 to 17, September</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>14, September</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            TMU Campus </span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
-                                            September </span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>29, August</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                            Paramedical College</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, March</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
