@@ -12,10 +12,10 @@
           Infrastructure</span></h1>
       <div class="row gutter-30 col-mb-5 mb-5">
 
-      <div class="col-sm-4 col-md-4">
+      <div class="col-sm-6 col-md-4">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}" class="col-4"
+              <img src="{{asset('/assets/img/department/rdc/1.jpg')}}" class="col-4"
                 alt="">
             </div>
             <div class="team-desc p-2">
@@ -28,10 +28,10 @@
           </div>
         </div>
 
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}" class="col-4"
+              <img src="{{asset('/assets/img/department/rdc/3.jpg')}}" class="col-4"
                 alt="">
             </div>
             <div class="team-desc p-2">
@@ -44,10 +44,10 @@
           </div>
         </div>
 
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
-              <img src="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}" class="col-4" height="270"
+              <img src="{{asset('/assets/img/department/rdc/2.jpg')}}" class="col-4"
                 alt="">
             </div>
             <div class="team-desc p-2">
