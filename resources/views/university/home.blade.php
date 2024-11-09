@@ -1002,6 +1002,7 @@
         document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
     }
     else{
+        // document.getElementById('videoPlayer89').poster="{{asset('poster/banner_video_poster.webp')}}"
         var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
     }
     var player = dashjs.MediaPlayer().create();
