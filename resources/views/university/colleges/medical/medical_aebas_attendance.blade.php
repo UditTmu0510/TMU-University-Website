@@ -42,10 +42,14 @@
                                             </tr>
                                             <tr>
                                                 <td class="text-center">3.</td>
-                                                <td class="text-center">06.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/6th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">08.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/8th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                           
+                                            <!-- <tr>
+                                                <td class="text-center">4.</td>
+                                                <td class="text-center">&nbsp;</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/9th-November-2024.pdf')}}"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr> -->
                                             
                                         </tbody>
                                     </table>
