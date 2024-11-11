@@ -95,8 +95,10 @@ class BlogsController extends Controller
                 ->orderBy('id', 'ASC')
                 ->first();
 
+            $categoryName = $blog->category_name ? $blog->category_name->category_name : 'No category';
+
             // Pass both the blog post and the comments to the view
-            return view('university.blogs.blog_info', compact('previousPost', 'nextPost', 'blog', 'comments', 'topLevelCommentsCount', 'blog_categories', 'recentPosts', 'popularPosts', 'relatedPosts'));
+            return view('university.blogs.blog_info', compact('categoryName','previousPost', 'nextPost', 'blog', 'comments', 'topLevelCommentsCount', 'blog_categories', 'recentPosts', 'popularPosts', 'relatedPosts'));
         } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
             // Redirect to the 'tmu.home' route if the blog is not found
             return redirect()->route('tmuhome');

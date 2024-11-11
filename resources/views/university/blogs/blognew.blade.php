@@ -30,7 +30,7 @@
 	}
 
 
-	.h1{
+	.h1 {
 		font-size: 50px;
 	}
 
@@ -139,16 +139,19 @@
 
 
 	@media (min-width: 576px) {
-    .blog-title {
-        display: -webkit-box;
-        -webkit-line-clamp: 2; /* Limit the title to 2 lines */
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        line-clamp: 2; /* For non-webkit browsers */
-        height: 3em; /* Set a fixed height, adjust as necessary */
-    }
-}
+		.blog-title {
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			/* Limit the title to 2 lines */
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			line-clamp: 2;
+			/* For non-webkit browsers */
+			height: 3em;
+			/* Set a fixed height, adjust as necessary */
+		}
+	}
 
 	#blog_box {
 		cursor: pointer;
@@ -172,49 +175,13 @@
 	}
 </style>
 
-
-
-<div class="container mt-5 pb-3">
-
-	<!-- @if ($allBlogs->count() > 0)
-	<div class="container">
-		<div class="row p-2 mb-3 snipcss0-0-0-1 snipcss-o1qON style-pe7mR" id="style-pe7mR">
-			<div class="fw-bolder fs-5 snipcss0-1-1-2 pt-2">All Blogs</div>
-			<div class="col-md-12 d-md-flex snipcss0-1-1-3">
-				@foreach ($allBlogs->take(4) as $item)
-				<div class="col-12 col-md-3 my-3 px-2 snipcss0-2-3-4">
-					<div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0 snipcss0-3-4-5">
-						<a href="{{ url('blog/' . $item->n_slug) }}" class="text-decoration-none text-reset snipcss0-4-5-6">
-							<div class="snipcss0-5-6-7">
-								<?php
-								$imagePath = (!empty($item->monaco_image_path) && $item->monaco_image_path !== '0')
-									? $item->monaco_image_path
-									: $item->post_path;
-								?>
-
-								<img src="{{ asset($imagePath) }}"
-									alt="{{ $item->post_title }}"
-									class="snipcss0-6-7-8 style-gikwI"
-									id="style-gikwI">
-
-							</div>
-							<div class="mt-2 mx-3 snipcss0-5-6-9">
-								<div class="fw-bolder fs-6 lh-sm mb-2 snipcss0-6-9-10">{{ Str::limit($item->post_title, 20) }}</div>
-								<div class="fs-6 lh-sm snipcss0-6-9-11">{{ Str::limit($item->post_description, 40) }}</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				@endforeach
-			</div>
-			@if ($allBlogs->count() > 4)
-			<div class="text-center col-12 col-md-12 snipcss0-1-1-36 my-4">
-				<a href="{{ route('blogs.active') }}" class="tmu-btn btn-1 px-3 py-2 fs-12"> View All </a>
-			</div>
-			@endif
-		</div>
+<div class="row">
+	<div class="col-12">
+		<h1 class="fw-bolder tmu-text-primary text-center mt-5" style="font-size:2.5rem"><span>All</span><span> Blogs</span></h1>
 	</div>
-	@endif -->
+</div>
+
+<div class="container pb-3">
 
 	@if ($allBlogs->count() > 0)
 	<div class="container container-56789 my-4">
@@ -259,58 +226,58 @@
 
 
 	{{-- Loop for each category in groupedBlogs --}}
-@php
-    $category_slug = '';
-@endphp
+	@php
+	$category_slug = '';
+	@endphp
 
-@foreach ($groupedBlogs as $category => $blogs)
-    @if ($blogs->isNotEmpty())
-        @php
-            // Retrieve the category slug from the first blog in the category group
-            $category_slug = $blogs->first()->category_name->category_slug ?? '#';
-        @endphp
+	@foreach ($groupedBlogs as $category => $blogs)
+	@if ($blogs->isNotEmpty())
+	@php
+	// Retrieve the category slug from the first blog in the category group
+	$category_slug = $blogs->first()->category_name->category_slug ?? '#';
+	@endphp
 
-        <div class="container container-56789 my-4">
-            <div class="row p-2 mb-3 snipcss0-0-0-1 snipcss-o1qON style-pe7mR" id="style-pe7mR">
-                <div class="fw-bolder fs-4 snipcss0-1-1-2 pt-2 text-center text-sm-start">{{ $category }}</div>
-                <div class="row ">
-                    @foreach ($blogs->take(4) as $item)
-                        <div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">
-                            <div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0 snipcss0-3-4-5">
-                                <a href="{{ url('blog/' . $item->n_slug) }}" class="text-decoration-none text-reset">
-                                    <div class="blog-card text-justify-centre">
-                                        
-                                        @if($item->monaco_image_path != 0 && $item->monaco_image_path != null)
-                                            <!-- Display image if monaco_image_path is available -->
-                                            <img src="{{ asset($item->monaco_image_path) }}" alt="{{ $item->post_title }}" />
-                                        @else
-                                            <!-- Display background blur effect if monaco_image_path is not available -->
-                                            <div class="image-container889">
-                                                <div class="blurred-background" style="background-image: url('{{ asset($item->post_path) }}');"></div>
-                                                <img src="{{ asset($item->post_path) }}" alt="{{ $item->post_title }}" />
-                                            </div>
-                                        @endif
+	<div class="container container-56789 my-4">
+		<div class="row p-2 mb-3 snipcss0-0-0-1 snipcss-o1qON style-pe7mR" id="style-pe7mR">
+			<div class="fw-bolder fs-4 snipcss0-1-1-2 pt-2 text-center text-sm-start">{{ $category }}</div>
+			<div class="row ">
+				@foreach ($blogs->take(4) as $item)
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">
+					<div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0 snipcss0-3-4-5">
+						<a href="{{ url('blog/' . $item->n_slug) }}" class="text-decoration-none text-reset">
+							<div class="blog-card text-justify-centre">
 
-                                        <div class="blog-content">
-                                            <div class="blog-title">{{ Str::limit($item->post_title, 38) }}</div>
-                                            <div class="blog-description">{{ Str::limit($item->post_description, 40) }}</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
+								@if($item->monaco_image_path != 0 && $item->monaco_image_path != null)
+								<!-- Display image if monaco_image_path is available -->
+								<img src="{{ asset($item->monaco_image_path) }}" alt="{{ $item->post_title }}" />
+								@else
+								<!-- Display background blur effect if monaco_image_path is not available -->
+								<div class="image-container889">
+									<div class="blurred-background" style="background-image: url('{{ asset($item->post_path) }}');"></div>
+									<img src="{{ asset($item->post_path) }}" alt="{{ $item->post_title }}" />
+								</div>
+								@endif
 
-                @if ($blogs->count() > 4)
-                    <div class="text-center col-12 col-md-12 snipcss0-1-1-36 my-4">
-                        <a href="{{ url($category_slug) }}" class="tmu-btn btn-1 px-3 py-2 fs-12"> View All </a>
-                    </div>
-                @endif
-            </div>
-        </div>
-    @endif
-@endforeach
+								<div class="blog-content">
+									<div class="blog-title">{{ Str::limit($item->post_title, 38) }}</div>
+									<div class="blog-description">{{ Str::limit($item->post_description, 40) }}</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				@endforeach
+			</div>
+
+			@if ($blogs->count() > 4)
+			<div class="text-center col-12 col-md-12 snipcss0-1-1-36 my-4">
+				<a href="{{ url($category_slug) }}" class="tmu-btn btn-1 px-3 py-2 fs-12"> View All </a>
+			</div>
+			@endif
+		</div>
+	</div>
+	@endif
+	@endforeach
 
 
 
