@@ -186,7 +186,7 @@
         /* Set font size */
         line-height: 1.5;
         /* Control line height */
-        color: #001055
+        color: #001055;
         /* Set text color */
         padding-left: 5px;
         /* Space between bullet and text */
@@ -367,7 +367,7 @@
                                 <li style="margin: 0 0 8px 0;">
                                     <i class="uil uil-folder-open"></i>
                                     <!-- Link to trigger the form submission -->
-                                    <a href="{{ url('blog/category/' . $blog->category) }}" class="category-link">{{ $blog->category }}</a>
+                                    <a href="{{ url('blog/category/' . \Illuminate\Support\Str::slug($categoryName)) }}" class="category-link">{{ $categoryName }}</a>
                                 </li>
 
                             </ul>

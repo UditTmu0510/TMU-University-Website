@@ -8,7 +8,7 @@
 
 	.blog-card {
 		display: flex;
-		flex-direction: column; 
+		flex-direction: column;
 		width: 100%;
 		max-width: 100%;
 		background-color: white;
@@ -116,9 +116,9 @@
 </style>
 
 <div class="container container-56789 my-4">
-<div class="row">
+	<div class="row">
 		<div class="col-12">
-		<h2 class="fw-bolder  tmu-text-primary text-center " style="font-size:2.5rem"><span>All</span><span> Blogs</span></h2>
+			<h1 class="fw-bolder  tmu-text-primary text-center " style="font-size:2.5rem"><span>All</span><span> Blogs</span></h1>
 		</div>
 	</div>
 	<div class="row justify-content-center">
@@ -131,7 +131,7 @@
 					<img src="{{ asset($item->monaco_image_path) }}" alt="{{ $item->post_title }}" />
 					@else
 					<!-- Background blur effect for post_path -->
-					<div class="image-container889" >
+					<div class="image-container889">
 						<div class="blurred-background" style="background-image: url('{{ asset($item->post_path) }}');"></div>
 						<img src="{{ asset($item->post_path) }}" alt="{{ $item->post_title }}" />
 					</div>
