@@ -91,7 +91,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/akus/1.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/akus/1.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/auto_expo/1.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/auto_expo/1.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/Coc/4.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/Coc/4.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/bisleri/4.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/bisleri/4.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +220,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/haier/1.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/haier/1.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -251,7 +251,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/yakult/4.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/yakult/4.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/ibm/1.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/ibm/1.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +315,7 @@
                                 <div class="fslider" data-arrows="false">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img src="{{asset('/assets/img/placement/inudustry_visit/rubico/1.jpg')}}" alt="Shake It"></a></div>
+                                            <div class="slide"><a href="#"><img src="{{asset('/assets/img/placement/inudustry_visit/rubico/1.jpg')}}" alt="Shake It"></a></div>
                                         </div>
                                     </div>
                                 </div>
