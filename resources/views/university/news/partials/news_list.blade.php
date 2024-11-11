@@ -135,7 +135,10 @@
         <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
             <div class="col-12 col-lg-4 col-xl-3 mb-md-0">
                 <a href="#" class="entry-image mb-0 w-100 h-100">
-                    <img src="{{ asset($item->ti_path) }}" alt="News Image" class="rounded-2 object-cover align-items-center">
+                    <img src="{{ file_exists(public_path($item->ti_path)) ? asset($item->ti_path) : asset('uploads/events/past_event/default_thumbnail_news.jpg') }}"
+                        alt="News Image"
+                        class="rounded-2 object-cover align-items-center">
+
                     <div class="bg-overlay">
                         <div class="bg-overlay-content justify-content-start align-items-start w-100">
                             <div class="badge px-3 py-2 fs-12 rounded-pill">{{ $item->category }}</div>
@@ -145,7 +148,8 @@
             </div>
             <div class="col-12 col-lg-8 col-xl-9 ps-4 pt-1">
                 <div class="entry-title nott">
-                    <h3><a href="{{ url('news/' . $item->n_slug) }}">{{ $item->event_title }}</a></h3>
+                    <h3><a href="{{ url('news/' . $item->n_slug) }}">{{ html_entity_decode($item->event_title) }}
+                    </a></h3>
                 </div>
                 <div class="entry-meta mt-3">
                     <ul>
