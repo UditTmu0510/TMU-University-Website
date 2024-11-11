@@ -121,13 +121,13 @@
 		<div class="col-12">
 
 			@if($category == 'general topics and guides')
-			<h2 class="fw-bolder tmu-text-primary" style="font-size:2rem;line-height:2.25rem;">
+			<h1 class="fw-bolder tmu-text-primary" style="font-size:2rem;line-height:2.25rem;">
 				<span>Blogs in</span><span> {{ ucfirst($category) }}</span>
-			</h2>
+			</h1>
 			@else
-			<h2 class="fw-bolder tmu-text-primary" style="font-size:2.5rem;line-height:2.75rem;">
+			<h1 class="fw-bolder tmu-text-primary" style="font-size:2.5rem;line-height:2.75rem;">
 				<span>Blogs in</span><span> {{ ucfirst($category) }}</span>
-			</h2>
+			</h1>
 			@endif
 		</div>
 
