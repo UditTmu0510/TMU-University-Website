@@ -245,7 +245,7 @@
 <!-----Courses Ends  Start-->
 
 
-<section id="content">
+<section id="content" class="lazy-load-section" data-loaded="false">
     <div class="content-wrap">
         <div class="container" style="margin-bottom: 10px;">
 
@@ -995,13 +995,12 @@
 
 <script>
     let wd = window.innerWidth;
-    
+
     if (wd <= 540) {
         document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
         url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
         document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
-    }
-    else{
+    } else {
         // document.getElementById('videoPlayer89').poster="{{asset('poster/banner_video_poster.webp')}}"
         var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
     }
@@ -1023,6 +1022,22 @@
         lazyBackgrounds.forEach((el) => observer.observe(el));
     });
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() { 
+                const lazySections = document.querySelectorAll('.lazy-load-section');
 
+                const observer = new IntersectionObserver(entries => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting && entry.target.getAttribute('data-loaded') === "false") {
+                                // Load content for this section
+                                entry.target.innerHTML = "@include('university.partials.news')";
+                                entry.target.setAttribute('data-loaded', 'true');
+                            }
+                        });
+                    },);
+
+                    lazySections.forEach(section => observer.observe(section));
+                });
+</script>
 
 @endsection
