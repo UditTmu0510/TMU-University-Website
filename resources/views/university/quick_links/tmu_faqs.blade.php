@@ -218,7 +218,7 @@
                     <hr class="horizontal-line">
                     <button class="careers-accordion">6. I am unable to log into the TMU ERP account, whom should I contact for assistance? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>If you are facing difficulties logging into your TMU ERP account, it is advisable to reach out to your respective class coordinators. They will be able to assist you with all your issues.Additionally, alumni can reach to <span class="highlight"><a href="alumni@tmu.ac.in">TMU Alumni</a></span>.</p>
+                        <p>If you are facing difficulties logging into your TMU ERP account, it is advisable to reach out to your respective class coordinators. They will be able to assist you with all your issues.Additionally, alumni can reach to <span class="highlight"><a href="mailto:alumni@tmu.ac.in">TMU Alumni</a></span>.</p>
                     </div>
                     <hr class="horizontal-line">
                 </div>

@@ -597,7 +597,7 @@
 
 				</div>
 
-				<a href="/block-content-blog.html" class="text-center d-block d-md-none  m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4 tmu-btn btn-1">View all Posts</a>
+				
 
 			</div>
 		</div>

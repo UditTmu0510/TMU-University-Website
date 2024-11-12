@@ -534,25 +534,24 @@
     });
 
     // Phone number Valiation
-    document.getElementById('phone_no').addEventListener('input', function () {
-    // Remove any non-numeric characters
-    this.value = this.value.replace(/\D/g, '');
+    document.getElementById('phone_no').addEventListener('input', function() {
+        // Remove any non-numeric characters
+        this.value = this.value.replace(/\D/g, '');
 
-    // Limit the input to a maximum of 10 digits
-    if (this.value.length > 10) {
-        this.value = this.value.slice(0, 10);
-    }
+        // Limit the input to a maximum of 10 digits
+        if (this.value.length > 10) {
+            this.value = this.value.slice(0, 10);
+        }
 
-    // Validate if the input is exactly 10 digits
-    if (this.value.length !== 10) {
-        this.setCustomValidity("Please enter exactly 10 numeric digits.");
-    } else {
-        this.setCustomValidity(""); // Clear the error message if valid
-    }
-});
-
-
-
+        // Validate if the input is exactly 10 digits
+        if (this.value.length !== 10) {
+            this.setCustomValidity("Please enter exactly 10 numeric digits.");
+        } else {
+            this.setCustomValidity(""); // Clear the error message if valid
+        }
+    });
 </script>
 
 @endsection
+
+

@@ -609,7 +609,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Library Management System:</h3>
-                    <p><a href="172.18.0.200:8001" target="blank">Library Management Software (LMS)</a> The Teerthanker
+                    <p><a href="#" target="blank">Library Management Software (LMS)</a> The Teerthanker
                         Mahaveer University's Library uses a comprehensively featured, scalable library management
                         system, i.e. KOHA, an integrated multi-user library management system that supports the in-house
                         operations. The software encompasses acquisition, cataloguing, circulation, serials, and OPAC
@@ -625,14 +625,14 @@
                     <div class="read-more-content m-0">
 
                         <h3>Digital Library:</h3>
-                        <p>Digital Library is a <a href="172.18.0.200:8080/jspui/" target="blank">Swadhyay Institutional
+                        <p>Digital Library is a <a href="#" target="blank">Swadhyay Institutional
                                 Repository</a> of Teerthanker Mahaveer University. We have 140 Computer systems in
                             digital
                             library including all departmental unit of Central Library. It contains scanned copy of
                             previous
                             years question papers.</p>
                         <h3>OPAC:</h3>
-                        <p><a href="172.18.0.200" target="blank">Online Public Access Catalogue (OPAC)</a> allows
+                        <p><a href="#" target="blank">Online Public Access Catalogue (OPAC)</a> allows
                             students
                             to access books, journals, magazines, and other materials online. It’s a collection of books
                             that contains all the most recent curricular books, with fresh additions made regularly. To
