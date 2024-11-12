@@ -60,7 +60,7 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
                         <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
-                            <span>20+</span>
+                            <span>20</span>
 
                             <span class="d-block pt-1 mt-auto">Programme Specialisations</span>
                         </div>
@@ -115,7 +115,7 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>20+</span>
+                                        <span>20</span>
                                         <br>
                                         <span class="d-block pt-1">Programme Specialisations</span>
                                     </div>
@@ -136,7 +136,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCES COLLEGES</h2>
+                <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCE COLLEGES</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>

@@ -17,7 +17,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">2010</div>
-                                <p> Introduced in 2010, the College offers programmes in medical lab technology, X-ray technology, optometry, forensic science, and more, catering to pre-hospital emergency services</p>
+                                <p> Introduced in 2010, the College offers programmes in medical lab technology, X-ray technology and more, catering to pre-hospital emergency services</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">
