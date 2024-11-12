@@ -39,7 +39,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-          TMU’s campus banking facility is designed to offer hassle-free financial services to students, faculty, and visitors. With a full-service branch located on campus, individuals can handle their day-to-day banking needs. The facility also features round-the-clock ATMs, ensuring access to cash and essential banking services at any time. The convenience of on-site banking allows everyone to stay focused on their studies or work without the distraction of off-campus errands.          
+          The Music and Dance Room at TMU is a vibrant, creative space designed to foster artistic expression and nurture the talents of musicians and dancers. It provides the perfect environment to explore artistic passions, collaborate with peers, and showcase talents. This state-of-the-art facility features soundproof rehearsal areas, professional-grade musical instruments, and equipment for students to hone their skills. Additionally, audio-visual recording facilities enable students to capture and refine their performances. Comfortable seating and a spacious studio create a welcoming atmosphere, inspiring creativity and productivity.          
         </p>
         </div>
       </div>

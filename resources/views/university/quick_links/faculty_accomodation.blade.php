@@ -36,11 +36,11 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-            TMU provides comfortable and thoughtfully designed semi-furnished accommodation for its faculty, nestled within beautifully landscaped surroundings. The residences offer a peaceful and convenient living environment, enabling faculty members to focus on their academic and professional responsibilities. Each accommodation is equipped with modern amenities, ensuring a comfortable lifestyle with easy access to essential services.
+          We prioritise the comfort and convenience of our faculty members. To ensure this, our exclusive faculty accommodation offers a peaceful living environment, designed to foster relaxation and productivity. Our accommodations have spacious, well-furnished apartments that are fully equipped with modern amenities, making them the ideal home away from home. Furthermore, we ensure 24/7 security, regular maintenance, and dedicated support staff.
           </p>
-          <p class="text-justify mb-2 mt-1">
+          <!-- <p class="text-justify mb-2 mt-1">
             Faculty members can enjoy a range of integrated common facilities, including sports complexes, a well-equipped hospital, an expansive library, and reliable transport services. The accommodations are backed by power backup, ensuring uninterrupted living conditions. Additionally, community halls and lush gardens provide spaces for relaxation, social interaction, and community gatherings. The serene environment fosters a perfect balance between work and personal life, making TMU faculty accommodation an ideal place for both professional growth and well-being.
-          </p>
+          </p> -->
 
         </div>
       </div>

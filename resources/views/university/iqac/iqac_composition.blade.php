@@ -15,7 +15,7 @@
                                     <th>Designation</th>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                <tr>
                                         <td class="text-center">1.</td>
                                         <td>Prof. V. K. Jain, Vice Chancellor</td>
                                         <td>Chairperson</td>
@@ -23,16 +23,22 @@
                                     <tr>
                                         <td class="text-center">2.</td>
                                         <td>
+                                            <strong>Teachers to represent all level (Three to eight)</strong>
                                             <ul class="m-ol-list ps-4">
-                                                <li>Prof. S. K. Jain, Vice Principal-TMMCRC</li>
+                                            
                                                 <li>Prof. Manjula Jain, Associate Dean (Academics)</li>
-                                                <li>Prof. Manish Goyal, Principal-TMDCRC</li>
-                                                <li>Prof. R. K. Dwivedi, Principal-CCSIT</li>
-                                                <li>Prof. Vipin Jain, Principal-TMIMT</li>
-                                                <li>Prof. Anurag Verma, Principal-Pharmacy</li>
-                                                <li>Prof. M. P. Singh, Principal-Agriculture Sciences</li>
-                                                <li>Prof. Srinath Kishan Rao Kulkarni, Principal-Nursing</li>
-                                                <li>Prof. S. R. Ali, Dept. of Civil Engineering, Faculty of Engineering</li>
+                                                <li>Prof. S. K. Jain, Vice Principal-TMMCRC</li>
+                                                <li>Prof Harbansh Dixit, Dean-Faculty of Law</li>
+                                                <li>Prof. S. P. Subashini, Dean- College of Nursing</li>
+                                                <li>Prof P K Jain, Dean-Faculty of Agriculture Sciences</li>
+                                                <li>Prof M.P. Singh, Dean Students’ Welfare</li>
+                                                <li>Prof R.K. Dwivedi, Principal-CCSIT & FoE</li>
+                                                <li>Prof Vipin Jain, Principal-TMIMT</li>
+                                                <li>Prof Pradeep Tangade, Principal-TMDCRC</li>
+                                                <li>Prof Anurag Verma, Principal-Pharmacy</li>
+                                                <li>Prof. Sheuli Sen, Principal-Nursing</li>
+                                                
+                                            
                                             </ul>
                                         </td>
                                     </tr>
@@ -50,11 +56,16 @@
                                         <td>
                                             <p><strong>Few Senior Administrative Officers</strong></p>
                                             <ul class="m-ol-list ps-4">
-                                                <li>Prof. R.N. Krishnia, Director-CTLD</li>
-                                                <li>Dr. Jyoti Puri, Joint Registrar (R&D)</li>
-                                                <li>Dr. Prashant Kumar, Deputy Registrar (HR)</li>
-                                                <li>Ms. Jasmine Stephens, Deputy Registrar (Academics)</li>
-                                                <li>Dr. Nasir Ali, Deputy Librarian</li>
+                                                
+                                                <li>Dr. Aditya Sharma, Registrar</li>
+                                                <li>Dr. Pankaj Kumar Singh, Director-CTLD</li>
+                                                <li>Mr Manoj Jain, Director-HR</li>
+                                                <li>Prof. Amit Kansal, Associate Dean (Academics)</li>
+                                                <li>Prof. Piyush Mittal, Associate Dean (R & D)</li>
+                                                <li>Prof. Jyoti Puri, Associate Dean (PhD)</li>
+                                                <li>Prof Nikhil Rastogi, Joint Registrar (Alumni Relations)</li>
+                                                <li>Dr. Neha Anand, Assistant Director (Academics)</li>
+                                                <li>Dr. Vineeta Jain, University Librarian</li>
                                             </ul>
                                         </td>
                                         <td></td>
@@ -65,9 +76,9 @@
                                             <p><strong>One nominee each from Local Society, Students and Alumni</strong></p>
                                             <ul class="m-ol-list ps-4">
                                                 <li>Mr. Anas Rehman, Alumni (TMIMT)(presently working in TCI Bangalore)</li>
-                                                <li>Mr. Akshay Saxena, MBA IVth Semester</li>
                                                 <li>Mr. Tushar Agarwal, Alumni, CCSIT, (presently working in Wipro Technologies)</li>
-                                                <li>Mr. Anshul Sharma, M.Tech (CSE) IInd Semester</li>
+                                                <li>Mr Veer Pratap Jain, MBA Ist Sem</li>
+                                                <li>Mr. Anshul Sharma, M.Tech (CSE) IIIrd Semester</li>
                                             </ul>
                                         </td>
                                         <td></td>
@@ -88,7 +99,7 @@
                                         <td>
                                             <p><strong>One of the Senior Teachers/Administrator as the Coordinator/Director of the IQAC</strong></p>
                                             <ul class="m-ol-list ps-4">
-                                                <li>Dr. Aditya Sharma, Registrar </li>
+                                                <li>Prof. (Dr.) Nishith Kumar Mishra, Director-IQAC</li>
                                             </ul>
                                         </td>
                                         <td>Director-IQAC</td>
