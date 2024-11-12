@@ -584,7 +584,7 @@
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why TMU’s College of Paramedical Sciences is the Best Choice for You <span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <h3 class="tmu-text-primary mb-0 fs-16"><span>NAAC-A Accredited and Recognised by UGC and </span><span> UP State Medical Faculty</span></h3>
         <p class="text-justify">The College of Paramedical Sciences at TMU boasts prestigious accreditations and recognitions, ensuring that your education meets the highest standards set by regulatory bodies.</p>
 
