@@ -36,7 +36,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-          We understand the importance of comfortable accommodation for our guests. Here at TMU, our guest house is designed to provide a serene and welcoming environment, with modern amenities and homely comforts. The rooms are well-furnished with air-conditioning, free Wi-Fi, and other essential facilities to ensure a pleasant stay. The lush green surroundings, peaceful atmosphere and the warm hospitality make it the perfect retreat after a busy day on campus.          </p>
+          We understand the importance of comfortable accommodation for our guests. Here at TMU, our guest house is designed to provide a serene and welcoming environment, with modern amenities and homely comforts. The rooms are well-furnished with air-conditioning, free Wi-Fi, and other essential facilities to ensure a pleasant stay. The lush green surroundings, peaceful atmosphere and warm hospitality make it the perfect retreat after a busy day on campus.</p>
         </div>
       </div>
     </div>

@@ -652,7 +652,8 @@
                                 <div class="comment-meta">
                                     <div class="comment-author vcard">
                                         <span class="comment-avatar">
-                                            <img alt='Image' src='https://www.gravatar.com/avatar/{{ md5(strtolower(trim($comment->email))) }}?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60'>
+                                        <img src="{{asset('assets/img/icons/profile_blog_comment.svg')}}" class="avatar avatar-60 photo avatar-default" height="60" width="60" style="filter: invert(56%) sepia(100%) saturate(1000%) hue-rotate(-20deg) brightness(95%) contrast(91%);">
+
                                         </span>
                                     </div>
                                 </div>
@@ -675,7 +676,7 @@
                                         <div class="comment-meta">
                                             <div class="comment-author vcard">
                                                 <span class="comment-avatar">
-                                                    <img alt='Image' src='https://www.gravatar.com/avatar/{{ md5(strtolower(trim($child->email))) }}?s=40' class='avatar avatar-40 photo' height='40' width='40'>
+                                                    <img alt='Image' src="{{asset('assets/img/icons/profile_blog_comment.svg')}}" class='avatar avatar-40 photo' height='40' width='40'>
                                                 </span>
                                             </div>
                                         </div>

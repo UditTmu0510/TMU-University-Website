@@ -34,7 +34,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-            TMU’s campus banking facility is designed to offer hassle-free financial services to students, faculty, and visitors. With a full-service branch located on campus, individuals can handle their day-to-day banking needs. The facility also features round-the-clock ATMs, ensuring access to cash and essential banking services at any time. The convenience of on-site banking allows everyone to stay focused on their studies or work without the distraction of off-campus errands.
+          TMU’s campus banking facility is designed to offer hassle-free financial services to students, faculty, and visitors. With a full-service branch located on campus, individuals can handle their day-to-day banking needs. The facility also features round-the-clock ATMs, ensuring access to cash and essential banking services at any time. The convenience of on-site banking allows everyone to stay focused on their studies or work without the distraction of off-campus errands.
           </p>
         </div>
       </div>

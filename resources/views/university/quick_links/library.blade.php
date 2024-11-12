@@ -242,11 +242,12 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
                     <p class="text-justify mb-2 mt-1">
-                        The Library Collection also includes a large section of expensive encyclopedias, reference books
+                        <!-- The Library Collection also includes a large section of expensive encyclopedias, reference books
                         and a large number of text books related to the courses being run in the University. Besides
                         this, the students/ faculty/ staff can access the resources of National Digital Library of India
                         (NDL) which consist of > 7 lakh books, 3 lakh research papers, 95.000 + theses. Can be accessed
-                        at <a href="https://ndl.iitkgp.ac.in/" target="blank">https://ndl.iitkgp.ac.in/</a>
+                        at <a href="https://ndl.iitkgp.ac.in/" target="blank">https://ndl.iitkgp.ac.in/</a> -->
+                        At TMU, our library is a hub of knowledge and discovery. With a vast collection of books, journals, and digital resources, students have access to a world of information at their fingertips. The library offers quiet spaces for focused study, along with group discussion areas that encourage interactive learning. Equipped with high-speed internet and advanced technology, students can seamlessly conduct research and study. Our dedicated staff and modern facilities create a comfortable and enriching learning experience, ensuring a welcoming and supportive environment for all students.
                     </p>
                 </div>
             </div>
@@ -257,7 +258,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="p-5 bg-light border rounded text-center">
-                        <h2 class="mb-3">E-Resources remote access</h2>
+                        <h2 class="mb-3 tmu-text-primary"><span>E-Resources </span><span> remote access</span> </h2>
                         <a href="https://idp.tmu.ac.in/#res" target="blank"><button type="button"
                                 class="tmu-btn btn-4 btn-lg w-100">Click Me</button></a>
                     </div>
