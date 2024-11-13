@@ -200,7 +200,7 @@
                     <div class="card li-card-custom">
                         <a href="https://search.ebscohost.com/Community.aspx?community=y&ugt=62E771363C1635973716353632453E6228E364D36213689361E324E334133603&authtype=ip&stsug=AnYAv5oc1OBnluR1S_E9sz_JW4eoQLMda9unHOmfUg4t5qaWw5lGJELiRaNqYq6HoeAv00rEgdhNOA9j-x6NVOzsHWAPDxJ-apPq0OBzbVThc_Ts2REPOkpQJtdspdxsFuWqlrv_ixdlaZf10nU2tyyhq69LdtaNEGCG1OayhJmsCnk&IsAdminMobile=N&encid=22D731563C5635973746359632553C07387374C372C378C371C374C374C376C33013&selectServicesToken=A3YORUNvLqecGTd3z48Fs1csrT-8Gcutshyu5PDkgCGzUDGan6v8hhIED6Uk7ZKzeN2sWL8Vc3FHkcgPqAZTp2CtrUa3lKOZInR6154TbaeKPijxsR7ukNenOxETMTapy0TMcQKvFUdmd7uDNDuQyecJ5zAxm7CNGSFFZmgKQdel8Y-QNp9WU5Mv2UnW_CA57qL-4wYNzEx8TrT98zqbuUczG59BHkMLrwmgFse0n2Ab5ZMapYc-Dekf2JU5pkjPA7tC4-TufRBkpD5ZB0naZW9HG2lQOCEO"
                             target="_blank">
-                            <img src="{{asset('assets/img/library/EBSCOhost_Flat.png')}}" class="card-img-top"
+                            <img src="{{asset('assets/img/infrastructure/library/EBSCOhost_Flat.png')}}" class="card-img-top"
                                 alt="Image 1">
                         </a>
                     </div>
@@ -210,7 +210,7 @@
                 <div class="col-auto">
                     <div class="card li-card-custom">
                         <a href="https://advance.lexis.com/in?identityprofileid=ZQ2FJT60079" target="_blank">
-                            <img src="{{asset('assets/img/library/manupatra.png')}}" class="card-img-top" alt="Image 2">
+                            <img src="{{asset('assets/img/infrastructure/library/manupatra.png')}}" class="card-img-top" alt="Image 2">
                         </a>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                 <div class="col-auto">
                     <div class="card li-card-custom">
                         <a href="https://delnet.in/" target="_blank">
-                            <img src="{{asset('assets/img/library/delnet.jpg')}}" class="card-img-top" alt="Image 3">
+                            <img src="{{asset('assets/img/infrastructure/library/delnet.jpg')}}" class="card-img-top" alt="Image 3">
                         </a>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
                 <div class="col-auto">
                     <div class="card li-card-custom">
                         <a href="https://delnet.in/" target="_blank">
-                            <img src="{{asset('assets/img/library/up_to_date.jpg')}}" class="card-img-top"
+                            <img src="{{asset('assets/img/infrastructure/library/up_to_date.jpg')}}" class="card-img-top"
                                 alt="Image 4">
                         </a>
                     </div>
