@@ -16,14 +16,7 @@
                     class="d-block d-sm-inline">INFRASTRUCTURE</span></h1>
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <p class="person-quote mb-3 mt-3">TMU's campus, spanning over 130 acres, is a showcase of modern
-                        infrastructure and state-of-the-art facilities. It houses 14 specialized colleges, offering a
-                        broad spectrum of academic programs. The campus is equipped with expansive auditoriums,
-                        well-furnished hostels, and a fully-equipped gymnasium. For sports enthusiasts, TMU provides a
-                        variety of facilities, including indoor and outdoor stadiums, catering to both individual and
-                        team sports. This comprehensive environment fosters not only academic excellence but also
-                        personal growth, creating a vibrant atmosphere where students can thrive in all aspects of their
-                        lives.
+                    <p class="person-quote mb-3 mt-3">With a campus spanning over 130 acres, Teerthanker Mahaveer University is a dream destination where modern infrastructure, world-class facilities, and a supportive community create the perfect backdrop for your academic journey. Every corner of TMU is thoughtfully designed to inspire and support you, fostering a dynamic environment that complements both your academic and personal growth. We offer a vibrant campus experience that blends learning with fun, featuring expansive auditoriums, well-furnished hostels, and a beautiful campus. TMU's 14 on-campus colleges offer a broad spectrum of academic programmes, providing a comprehensive environment where students can thrive in all aspects of their lives.
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
