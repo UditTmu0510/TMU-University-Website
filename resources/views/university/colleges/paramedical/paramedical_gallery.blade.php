@@ -287,14 +287,14 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/MOU-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="TMU Signs MoU with Atharva Laboratories">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mou-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="TMU Signs MoU with Atharva Laboratories">
                                 <div class="position-relative">
-                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/MOU-1.jpg')}}" alt="Gallery Thumb 2">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/mou-1.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
                                 <h5 class="text-center mt-2">TMU Signs MoU with Atharva Laboratories</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/MOU-2.jpg')}}" data-lightbox="gallery-item" title="TMU Signs MoU with Atharva Laboratories"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mou-2.jpg')}}" data-lightbox="gallery-item" title="TMU Signs MoU with Atharva Laboratories"></a>
                                
                             </div>
                         </div>
