@@ -5,6 +5,21 @@
 <link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}">
 <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
+<style>
+.small-text span {
+    font-size: 0.65rem; 
+}
+
+.small-text .card-body {
+    line-height: 1.2; 
+}
+
+.first-span {
+    font-size: 0.70rem!important; 
+}
+
+</style>
+
 <section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
@@ -30,18 +45,18 @@
             <div class="row justify-content-center align-items-stretch">
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <!-- First span at the top -->
                             <span>Recognised By</span>
 
                             <!-- Second span centered vertically -->
-                            <span class="d-block pt-1 mt-auto">Quality Council of India</span>
+                            <span class="d-block pt-1 mt-auto">Quality Council of India, Uttar Pradesh State Medical Faculty</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <span>100%</span>
 
                             <span class="d-block pt-1 mt-auto">Placement Assistance</span>
@@ -50,7 +65,7 @@
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <span>Hands-On Experience</span>
 
                             <span class="d-block pt-1 mt-auto">at TMU Hospital</span>
@@ -59,7 +74,7 @@
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <span>20</span>
 
                             <span class="d-block pt-1 mt-auto">Programme Specialisations</span>
@@ -82,20 +97,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
+                            
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Recognised By</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">100%</span>
                                         <br>
-                                        <span class="d-block pt-1">Quality Council of India</span>
+                                        <span class="d-block pt-1">Placement Assistance</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>100%</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">20</span>
                                         <br>
-                                        <span class="d-block pt-1">Placement Assistance</span>
+                                        <span class="d-block pt-1">Programme Specialisations</span>
                                     </div>
                                 </div>
                             </div>
@@ -105,19 +122,20 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>Hands-On Experience</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">Hands-On Experience</span>
                                         <br>
                                         <span class="d-block pt-1">at TMU Hospital</span>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>20</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text"> 
+                                        <span class="first-span">Recognised By</span>
                                         <br>
-                                        <span class="d-block pt-1">Programme Specialisations</span>
+                                        <span class="d-block pt-1">Quality Council of India, <br> Uttar Pradesh State <br>Medical Faculty</span>
                                     </div>
                                 </div>
                             </div>

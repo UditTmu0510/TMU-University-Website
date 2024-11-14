@@ -33,27 +33,37 @@
                                             <tr>
                                                 <td class="text-center">1.</td>
                                                 <td class="text-center">04.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/4th-November-2024.pdf')}}" ><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/4th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">2.</td>
                                                 <td class="text-center">05.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/5th-November-2024.pdf')}}" ><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/5th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">3.</td>
                                                 <td class="text-center">08.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/8th-November-2024.pdf')}}" ><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/8th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">4.</td>
                                                 <td class="text-center">11.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/11th-November-2024.pdf')}}" ><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/11th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center">5.</td>
                                                 <td class="text-center">12.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/12th-November-2024.pdf')}}" ><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/12th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">6.</td>
+                                                <td class="text-center">13.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/13th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">7.</td>
+                                                <td class="text-center">14.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/14th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             
                                         </tbody>
