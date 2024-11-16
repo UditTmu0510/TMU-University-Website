@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('tmimt.home') }}" class="custom-menu-item {{ setActive('tmimt.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('mgmt.overview') }}" class="custom-menu-item {{ setActive('mgmt.overview') }}">
                 <p>Overview</p>
             </a>
