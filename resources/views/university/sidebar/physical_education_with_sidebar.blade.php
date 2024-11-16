@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('physical_education.home') }}" class="custom-menu-item {{ setActive('physical_education.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('physical.education.about.us') }}" class="custom-menu-item {{ setActive('physical.education.about.us') }}">
                 <p>Overview</p>
             </a>
