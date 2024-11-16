@@ -28,16 +28,13 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Fine Arts, among the top Colleges for Fine Arts </h2>
+                <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer Hospital: Leading Multispecialty Care and Trusted Healthcare Excellence in India. </h2>
+                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer Hospital:</span><span> Leading Multispecialty Care and Trusted Healthcare Excellence in India.</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Teerthanker Mahaveer Medical College Hospital has widely
-                            expanded various clinical departments with a provision of super specialty care with growing
-                            spectrum of disease and increasing demand of such facilities. </p>
+                        <p style="text-align: justify;">TMU Hospital is a leading healthcare facility offering super-speciality care and advanced clinical services with a bed strength of 900+. It features modern diagnostic facilities, modular operation theatres, and specialised departments, including cardiology, neurology, gastroenterology, and orthopaedics. Equipped with cutting-edge technology like MRI, CT, and dialysis units, the hospital provides 24/7 emergency and trauma care, serving Moradabad and surrounding districts.  </p>
                         <div class="read-more-content mt-0">
-                            <p style="text-align: justify;">The Hospital is the apex
-                                health institution and provides tertiary care to the entire population of Moradabad and
-                                adjoining districts besides imparting clinical training to the students.</p>
+                            <p style="text-align: justify;">The hospital also boasts a modern infertility centre, a well-equipped blood bank, and a dedicated coronary care unit, ensuring comprehensive medical support on campus across various specialities. With its commitment to excellence in patient care and medical education, TMU Hospital is a beacon of healthcare in the region. It also offers hands-on practical training for medical, nursing, and allied health students, allowing them to gain real-world experience in a professional environment.</p>
                         </div>
                         <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2"
                             title="Read More">Read More</a>
