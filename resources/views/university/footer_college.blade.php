@@ -177,17 +177,17 @@
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Useful Links</h4>
 								<ul>
-									<li><a href="{{route('tmu.convocation')}}">Convocation</a></li>
+									<li><a href="{{route('tmu.convocation')}}" target="_blank">Convocation</a></li>
 						
-									<li><a href="{{route('all_news')}}">News</a></li>
-									<li><a href="{{route('tmu.careers')}}">Join TMU</a></li> <!--- CAREERS -->
+									<li><a href="{{route('all_news')}}" target="_blank">News</a></li>
+									<li><a href="{{route('tmu.careers')}}" target="_blank">Join TMU</a></li> <!--- CAREERS -->
 									<!-- <li><a href="#">About City</a></li> -->
-									<li><a href="{{route('iqac.about')}}">IQAC</a></li>
-									<li><a href="http://portal.tmu.ac.in/">ERP Login</a></li>
-									<li><a href="{{route('all_blogs')}}">Blogs</a></li>
-									<li><a href="#">Sitemap</a></li>
-									<li><a href="{{route('iqac.student.feedback')}}">Feedback</a></li>
-									<li><a href="{{route('teaching.facility')}}">Teaching Facility</a></li>
+									<li><a href="{{route('iqac.about')}}" target="_blank">IQAC</a></li>
+									<li><a href="http://portal.tmu.ac.in/" target="_blank">ERP Login</a></li>
+									<li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
+									<!-- <li><a href="#">Sitemap</a></li> -->
+									<li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
+									<li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
 									
 								</ul>
 							</div>
@@ -195,14 +195,14 @@
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Apply Now</h4>
 								<ul>
-									<li><a href="{{route('application.form')}}">Application Form</a></li>
+									<li><a href="{{route('application.form')}}" target="_blank">Application Form</a></li>
 									<!--<li><a href="#">Entrance Test</a></li>-->
-									<li><a href="{{route('tmu.loan')}}">Education Loan</a></li>
-									<li><a href="{{route('tmu.scholarship')}}">Scholarships</a></li>
-									<li><a href="{{route('how.to.apply')}}">How to Apply</a></li>
-									<li><a href="{{route('tmu.privacy.policy')}}">Privacy Policy</a></li>
-									<li><a href="{{route('campus.view')}}">Campus View</a></li>
-									<li><a href="{{route('tmu.faqs')}}">FAQs</a></li>
+									<li><a href="{{route('tmu.loan')}}" target="_blank">Education Loan</a></li>
+									<li><a href="{{route('tmu.scholarship')}}" target="_blank">Scholarships</a></li>
+									<li><a href="{{route('how.to.apply')}}" target="_blank">How to Apply</a></li>
+									<li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
+									<li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
+									<li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
 
 								</ul>
 							</div>
@@ -220,24 +220,24 @@
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="{{route('campus.view')}}">University Campus</a></li>
-									<li><a href="{{route('faculty.accomodation')}}">Faculty Accommodation</a></li>
-									<li><a href="{{route('guest.house')}}">Guest House</a></li>
-									<li><a href="{{route('banking.facility')}}">Banking Facility</a></li>
-									<li><a href="{{route('sports')}}">Sports</a></li>
-									<li><a href="{{route('auditorium')}}">Auditorium</a></li>
+									<li><a href="{{route('campus.view')}}" target="_blank">University Campus</a></li>
+									<li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
+									<li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
+									<li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
+									<li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
+									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
 								</ul>
 							</div>
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="{{route('auditorium')}}">Auditorium</a></li>
-									<li><a href="{{route('jinalaya')}}">Mahaveer Ji Jainalya</a></li>
-									<li><a href="{{route('yoga.and.meditation')}}">Yoga & Meditation</a></li>
-									<li><a href="https://hospital.tmu.ac.in/" target="_blank">Hospital</a></li>
-									<li><a href="{{route('library')}}">Library</a></li>
-											<li><a href="{{route('music.and.dance.room')}}">Music & Dance</a></li>
-													<li><a href="{{route('tmu.transport')}}">Transport</a></li>
+									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
+									<li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jainalya</a></li>
+									<li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga & Meditation</a></li>
+									<li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
+									<li><a href="{{route('library')}}" target="_blank">Library</a></li>
+											<li><a href="{{route('music.and.dance.room')}}" target="_blank">Music & Dance</a></li>
+													<li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
 
 								</ul>
 							</div>
@@ -271,7 +271,7 @@
 			<div class="row justify-content-between">
 				<div class="col-12 col-lg-auto text-center text-lg-start">
 					<div class="copyrights-menu copyright-links">
-						<a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a href="{{route('nirf.home')}}">NIRF</a>/<a href="{{route('naac.home')}}">NAAC</a>/<a href="{{route('ctld.home')}}">CTLD</a>/<a href="{{route('crc.home')}}">Placement</a>/<a href="{{route('iqac.about')}}">IQAC</a>/<a href="{{route('tmu.disclaimer')}}">Disclaimer</a>
+						<a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti Ragging</a>/<a href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
 						</div>
 					Copyrights &copy; 2024 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
 				</div>
