@@ -467,10 +467,9 @@
               <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/cultural/cr_celebration8.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
             </tr>
             <tr>
-              <td>Dandiya</td>
+              <td colspan="3" >Dandiya</td>
               <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/cultural/cr_celebration3.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
-              <td>Food Festival</td>
-              <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/cultural/cr_celebration9.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
+              
             </tr>
             <tr>
               <td>Lohri Celebration</td>
