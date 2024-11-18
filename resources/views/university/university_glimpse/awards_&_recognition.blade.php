@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="{{asset('/assets/img/awards/awards_original/a2.jpg')}}" data-lightbox="gallery-item">
+                    <a href="{{asset('/assets/img/awards/awards_original/a2.png')}}" data-lightbox="gallery-item">
                         <img class="img-fluid h-op-09 op-ts" src="{{asset('/assets/img/awards/awards_section/2.png')}}"
                             alt="Image">
                     </a>
