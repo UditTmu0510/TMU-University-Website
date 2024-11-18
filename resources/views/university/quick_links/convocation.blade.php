@@ -3,7 +3,7 @@
 
 
 <!-- Font Imports -->
-<link rel="stylesheet" href="{{asset('/https://use.typekit.net/gmv6nzn.css')}}">
+<link rel="stylesheet" href="https://use.typekit.net/gmv6nzn.css">
 
 <!-- Core Style -->
 <link rel="stylesheet" href="{{asset('/style.css')}}">

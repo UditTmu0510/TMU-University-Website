@@ -56,7 +56,7 @@
             <div class="tmu-testimonial bg-light">
 
                 <div class="media ">
-                    <img src="{{asset('/assets/img/testimonials/department/ctld/students/abdul_india_mart_mba.jpg')}}"
+                    <img src="#"
                         class="mr-3" alt="">
                     <div class="media-body">
                         <div class="testimonial">
