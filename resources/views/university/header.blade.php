@@ -7,6 +7,8 @@
     @php
     // Build the full URL
     $currentUrl = request()->fullUrl();
+    $domain = request()->getSchemeAndHttpHost();
+
 
     // Get URI segments
     $uriData = [
@@ -35,8 +37,13 @@
     <meta name="twitter:title" content="{{ $metaData->meta_title }}" />
     <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
 
-    @if(!empty($metaData->canonical_tag))
-    <link rel="canonical" href="{{ $metaData->canonical_tag }}" />
+    @if(!empty($metaData->sitemap_url))
+    @php
+$canonical =  $metaData->sitemap_url;
+$canonical =  $domain.'/'.$canonical;
+
+    @endphp
+    <link rel="canonical" href="{{$canonical}}" />
     @endif
 
     {!! $metaData->schema_markup ?? '' !!}
