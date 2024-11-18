@@ -495,9 +495,9 @@
             </tr>
             <tr>
               <td>Maa Kasam</td>
-              <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/tribute/tribute_5.jpg.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
+              <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/tribute/tribute_5.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
               <td>Ek Deep Shaheedo Ke Naam</td>
-              <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/tribute/tribute_4.jpg.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
+              <td class="text-center"><a href="{{asset('/assets/img/department/iqac/inclusion_situatedness/download/tribute/tribute_4.jpg')}}"><i class="fa-regular fa-image"></i></a></td>
             </tr>
             <tr>
               <td>Yaad Karo Qurbani</td>
