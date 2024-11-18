@@ -37,13 +37,17 @@
   <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
 
   @if(!empty($metaData->sitemap_url))
-  @php
-  $canonical = $metaData->sitemap_url;
-  $canonical = $domain.'/'.$canonical;
+    @php
+    $canonical = $metaData->sitemap_url;
+    $canonical = $domain.'/'.$canonical;
 
-  @endphp
-  <link rel="canonical" href="{{$canonical}}" />
-  @endif
+    @endphp
+    @if(($metaData->sitemap_url != 'na'))
+    <link rel="canonical" href="{{$canonical}}" />
+    @else
+    <link rel="canonical" href="{{$domain}}" />
+    @endif
+    @endif
 
   {!! $metaData->schema_markup ?? '' !!}
 
