@@ -748,6 +748,8 @@ Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.fa
 Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
 
 
+Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
+
 
 // End of the Sarvagya Routes
 
