@@ -32,7 +32,7 @@
                 <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer Hospital:</span><span> Leading Multispecialty Care and Trusted Healthcare Excellence in India.</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">TMU Hospital is a leading healthcare facility offering super-speciality care and advanced clinical services with a bed strength of 900+. It features modern diagnostic facilities, modular operation theatres, and specialised departments, including cardiology, neurology, gastroenterology, and orthopaedics. Equipped with cutting-edge technology like MRI, CT, and dialysis units, the hospital provides 24/7 emergency and trauma care, serving Moradabad and surrounding districts.  </p>
+                        <p style="text-align: justify;">TMU Hospital is a leading healthcare facility offering super-speciality care and advanced clinical services with a bed strength of 900+. It features modern diagnostic facilities, modular operation theatres, and specialised departments, including cardiology, neurology, gastroenterology, and orthopaedics. Equipped with cutting-edge technology like MRI, CT, and dialysis units, the hospital provides 24/7 emergency and trauma care, serving Moradabad and surrounding districts. </p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">The hospital also boasts a modern infertility centre, a well-equipped blood bank, and a dedicated coronary care unit, ensuring comprehensive medical support on campus across various specialities. With its commitment to excellence in patient care and medical education, TMU Hospital is a beacon of healthcare in the region. It also offers hands-on practical training for medical, nursing, and allied health students, allowing them to gain real-world experience in a professional environment.</p>
                         </div>
@@ -187,7 +187,7 @@
         </div>
 
         <section class="container my-5">
-            <h2 class="text-center mb-4">Our Departments</h2>
+            <h2 class="text-center mb-4 tmu-text-primary"><span>Our </span><span> Departments</span> </h2>
             <div class="row row-cols-2 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="department-card bg-light-blue">
@@ -372,27 +372,27 @@
 </section>
 
 <script>
-// HOSPITAL COUNTER JS START
-document.addEventListener('DOMContentLoaded', () => {
-    const counters = document.querySelectorAll('.hospital-counter');
-    counters.forEach(counter => {
-        const updateCounter = () => {
-            const target = +counter.getAttribute('data-target');
-            const count = +counter.innerText;
-            const increment = target / 200;
+    // HOSPITAL COUNTER JS START
+    document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.hospital-counter');
+        counters.forEach(counter => {
+            const updateCounter = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const increment = target / 200;
 
-            if (count < target) {
-                counter.innerText = Math.ceil(count + increment);
-                setTimeout(updateCounter, 10);
-            } else {
-                counter.innerText = target;
-            }
-        };
-        updateCounter();
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(updateCounter, 10);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            updateCounter();
+        });
     });
-});
 
-// HOSPITAL COUNTER JS END
+    // HOSPITAL COUNTER JS END
 </script>
 
 
