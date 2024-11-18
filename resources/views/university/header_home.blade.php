@@ -7,6 +7,7 @@
     @php
     // Build the full URL
     $currentUrl = request()->fullUrl();
+    $domain = request()->getSchemeAndHttpHost();
 
     // Get URI segments
     $uriData = [
@@ -35,8 +36,13 @@
     <meta name="twitter:title" content="{{ $metaData->meta_title }}" />
     <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
 
-    @if(!empty($metaData->canonical_tag))
-    <link rel="canonical" href="{{ $metaData->canonical_tag }}" />
+    @if(!empty($metaData->sitemap_url))
+    @php
+    $canonical = $metaData->sitemap_url;
+    $canonical = $domain.'/'.$canonical;
+
+    @endphp
+    <link rel="canonical" href="{{$canonical}}" />
     @endif
 
     {!! $metaData->schema_markup ?? '' !!}
@@ -491,7 +497,7 @@
     <!-- Searchbar code starts here -->
 
     <div class="search-icon" id="searchIcon">
-    <img src="{{ asset('/assets/img/icons/search-home.svg') }}" alt="Search Icon" style="height:36px;width:24px;">
+        <img src="{{ asset('/assets/img/icons/search-home.svg') }}" alt="Search Icon" style="height:36px;width:24px;">
     </div>
 
 
@@ -691,7 +697,7 @@
 
         <!-- Menubar Open Button Code  -->
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
-        <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="Search Icon" >
+            <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="Search Icon">
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
             <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
@@ -732,7 +738,7 @@
                 <video muted autoplay loop playsinline class="d-block d-md-none w-100" >
                     <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">
                 </video> -->
-                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto" ></video>
+                        <video id="videoPlayer89" muted autoplay loop playsinline class="w-100" preload="auto"></video>
 
                         <!--<video muted autoplay loop playsinline preload="auto" class="d-block d-md-none w-100">-->
                         <!--              <source src="{{asset('poster/tmu_final_mobile_video.mp4')}}">-->
