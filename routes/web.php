@@ -45,6 +45,7 @@ use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
