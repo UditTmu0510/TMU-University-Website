@@ -39,13 +39,16 @@
 
     @if(!empty($metaData->sitemap_url))
     @php
-$canonical =  $metaData->sitemap_url;
-$canonical =  $domain.'/'.$canonical;
+    $canonical = $metaData->sitemap_url;
+    $canonical = $domain.'/'.$canonical;
 
     @endphp
+    @if(($metaData->sitemap_url != 'na'))
     <link rel="canonical" href="{{$canonical}}" />
+    @else
+    <link rel="canonical" href="{{$domain}}" />
     @endif
-
+    @endif
     {!! $metaData->schema_markup ?? '' !!}
 
     @if($metaData->no_index_status === 'Y')

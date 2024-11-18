@@ -42,7 +42,11 @@
     $canonical = $domain.'/'.$canonical;
 
     @endphp
+    @if(($metaData->sitemap_url != 'na'))
     <link rel="canonical" href="{{$canonical}}" />
+    @else
+    <link rel="canonical" href="{{$domain}}" />
+    @endif
     @endif
 
     {!! $metaData->schema_markup ?? '' !!}
