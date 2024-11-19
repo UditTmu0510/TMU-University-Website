@@ -4,7 +4,7 @@
 <div class="main-content">
     <div class="container d-none d-sm-block">
         <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Open Elective Courses under CBCS
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Open Elective Courses under CBCS
                 </span><span> - College of Computing Sciences & IT</span></h1>
             <iframe src="{{asset('assets/pdf/cbcs/cbcs_ccsit.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
         </div>
