@@ -35,7 +35,7 @@
     <div class="container">
 
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Industrial </span><span> Visits</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Industrial Visits at TMU:</span><span> Practical Learning</span></h1>
 
             <h3 class="fw-bold mb-2 mt-2"><u>Industrial Visits</u></h3>
             <p class="text-justify mb-1">Teerthanker Mahaveer University, Moradabad, arranges insightful industrial visits, enabling students to gain invaluable firsthand exposure to industry dynamics. These experiences offer participants a comprehensive understanding of complex processes, advanced technologies, and integrated systems across various sectors, bridging academic knowledge with real-world industry practices and enhancing their professional acumen.</p>

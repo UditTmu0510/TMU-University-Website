@@ -5,8 +5,7 @@
     <div class="container">
         <!-- Write content for right side here  -->
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> CBCS Circular </span><span> (Announcements)</span>
-            </h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> TMU CBCS Circulars:  </span><span> Curriculum Updates</span></h1>
 
             <div class="container">
 

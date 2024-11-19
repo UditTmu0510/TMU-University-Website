@@ -4,13 +4,13 @@
 <div class="main-content">
     <div class="container d-none d-sm-block">
         <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> CBCS </span><span> - College of Agricultural Sciences</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> CBCS Agriculture Sciences: </span><span> - TMU Curriculum Guide</span></h1>
             <iframe src="{{asset('assets/pdf/cbcs/cbcs_agriculture.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
         </div>
     </div>
     <div class="container d-block d-sm-none mb-3">
         <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> CBCS </span><span> - College of Agricultural Sciences</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading"><span> CBCS Agriculture Sciences: </span><span> - TMU Curriculum Guide</span></h1>
             <a href="{{asset('assets/pdf/cbcs/cbcs_agriculture.pdf')}}" class="tmu-btn btn-4" download>Download PDF</a>
         </div>
     </div>
