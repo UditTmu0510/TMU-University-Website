@@ -141,7 +141,7 @@
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Report of the UGC Expert Committee</p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/news/9873922_TirthankarMahavirUniversity-UP0001.pdf')}}">View PDF</a>
+                  href="#">View PDF</a>
               </div>
             </div>
 
