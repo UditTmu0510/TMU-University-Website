@@ -6,7 +6,7 @@
   <div class="container">
     <!-- Write content for right side here  -->
     <div class="row mx-0">
-      <h1 class=" tmu-text-primary tmu-page-heading mb-0 pt-md-5 pb-4"><span>RDC </span><span> Faculty Profile</span></h1>
+      <h1 class=" tmu-text-primary tmu-page-heading mb-0 pt-md-5 pb-4"><span>TMU Research:  </span><span> Faculty Profiles & Expertise</span></h1>
       <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
         <div class="card card-animation">
           <img src="{{asset('assets/img/department/rdc/souvik_sur.jpg')}}" class="card-img-top" alt="Image 1" >

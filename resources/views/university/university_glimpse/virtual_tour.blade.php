@@ -6,13 +6,8 @@
 
 <div class="main-content">
     <div class="container">
-    <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
-    <div class="d-flex align-items-center">
-        <h2 class="text-white m-0">Campus Map & Location</h2>
-    </div>
-</div>
-  
 
+    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>TMU Virtual Tour:</span><span> Explore the Campus Online</span></h1>
 
         <div class="container mt-4 mb-4">
             <iframe
@@ -45,7 +40,7 @@
             <p style="text-align:justify;color:black;" class="mb-2">Take a flight and reach Pantnagar airport.<br />
                 Distance from Pantnagar airport to TMU campus - 100 km</p>
             <p class="mt-3" style="font-weight:bold;color:black;color:black;">Major cities distance from Moradabad (in kms)</p>
-           
+
 
 
 
@@ -65,7 +60,7 @@
                             <td>Bareilly</td>
                             <td>- 81</td>
                         </tr>
-                        
+
                         <tr>
                             <td>2</td>
                             <td>Meerut</td>

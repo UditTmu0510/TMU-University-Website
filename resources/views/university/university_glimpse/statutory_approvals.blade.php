@@ -7,8 +7,7 @@
       <section class="about-section bg-light mt-3">
         <div class="container">
           <div class="text-content p-2">
-            <h1 class="mb-2 tmu-text-primary tmu-page-heading pt-md-3"><span>Statutory </span><span>
-                Approvals</span>
+            <h1 class="mb-2 tmu-text-primary tmu-page-heading pt-md-3"><span>TMU Approvals:  </span><span> Statutory Compliance Details</span>
             </h1>
             <p class="about-p mb-3">The Teerthanker Mahaveer University, established by an 'Act' of the
               Government of

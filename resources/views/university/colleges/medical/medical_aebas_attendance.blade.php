@@ -70,12 +70,12 @@
                                                 <td class="text-center">16.11.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/16th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
+                                            
                                             <tr>
                                                 <td class="text-center">9.</td>
-                                                <td class="text-center">18.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/18th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">19.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/19th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            
                                         </tbody>
                                     </table>
                                 </div>
