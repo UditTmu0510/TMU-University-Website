@@ -26,28 +26,28 @@
                                 <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/1.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/2.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/3.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/4.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/5.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/6.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/7.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/infra/8.jpg')}}"
                                                         alt="Morning Dew"></a></div>
                                         </div>
@@ -100,25 +100,25 @@
                                 <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
                                     <div class="flexslider">
                                         <div class="slider-wrap">
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/1.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/2.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/3.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/4.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/5.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/6.jpg')}}"
                                                         alt="Morning Dew"></a></div>
-                                            <div class="slide"><a href="portfolio-single-gallery.html"><img
+                                            <div class="slide"><a href="#"><img
                                                         src="{{asset('assets/img/aboutus/hospital_infra/7.jpg')}}"
                                                         alt="Morning Dew"></a></div>
                                         </div>
@@ -175,7 +175,7 @@
             <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Centre for </span><span
                     class="d-block d-sm-inline">Teaching, Learning & Development</span></h2>
 
-            <div class="slide"><a href="portfolio-single-gallery.html"><img
+            <div class="slide"><a href="#"><img
                         src="{{asset('assets/img/aboutus/info_1.png')}}" alt="Morning Dew"></a>
             </div>
 
@@ -201,7 +201,7 @@
                 in guiding students toward fruitful career paths.</p>
 
 
-            <div class="slide"><a href="portfolio-single-gallery.html"><img
+            <div class="slide"><a href="#"><img
                         src="{{asset('assets/img/aboutus/info_2.png')}}" alt="Morning Dew"></a>
             </div>
 
@@ -210,7 +210,7 @@
             <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>Business Incubation</span><span
                     class="d-block d-sm-inline"> Centre</span></h2>
 
-            <div class="slide"><a href="portfolio-single-gallery.html"><img
+            <div class="slide"><a href="#"><img
                         src="{{asset('assets/img/aboutus/info_3.png')}}" alt="Morning Dew"></a>
             </div>
 
