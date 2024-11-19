@@ -175,7 +175,7 @@
                                 <td>In view of the upcoming Bareilly-Moradabad Graduate Constituency
                                     Elections 2022</td>
                                 <td class="text-center"><a
-                                        href="In view of the upcoming Bareilly-Moradabad Graduate Constituency Elections 2022"><i
+                                        href="{{asset('assets/pdf/announcement/Circulars_R_O_-2022-23_017.pdf')}}"><i
                                             class="fa-solid fa-file-pdf"></i></a></td>
                             </tr>
                             <tr>
