@@ -10,7 +10,7 @@ class SitemapController extends Controller
 {
     public function generateSitemap()
     {
-        $metas = Metas::all(['sitemap_url', 'updated_at']);
+        $metas = Metas::where('status', '!=', 'N')->get(['sitemap_url', 'updated_at']);
         $baseUrl = env('APP_URL'); // Correctly accessing the base URL from env
 
         $sitemapContent = '<?xml version="1.0" encoding="UTF-8"?>';
