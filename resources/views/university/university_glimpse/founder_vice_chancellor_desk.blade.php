@@ -8,8 +8,8 @@
     <div class="container">
                   
                         <div class="row">
-                            <h2 class="tmu-text-primary tmu-page-heading pt-md-5">
-                               <span>Founder Vice</span> <span>Chancellor Desk</span></h2>
+                            <h1 class="tmu-text-primary tmu-page-heading pt-md-5">
+                               <span>Founder Vice</span> <span>Chancellor Desk</span></h1>
                             <div class="col-md-4 mb-3">
                                 <img src="{{asset('assets/img/aboutus/administration/pvc.png')}}" class="w-100" alt="">
                             </div>
