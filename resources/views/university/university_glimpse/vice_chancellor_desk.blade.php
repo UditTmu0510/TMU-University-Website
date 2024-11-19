@@ -6,9 +6,9 @@
     <div class="container">
                     
                         <div class="row">
-                            <h2 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Vice </span> 
+                            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Vice </span> 
                                 <span>Chancellor Desk</span>
-                            </h2>
+                            </h1>
                             <div class="col-md-4 mb-3 text-center img-container">
                                 <img src="{{asset('/assets/image/vc.png')}}" class="w-100" alt="">
                             </div>

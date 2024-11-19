@@ -167,7 +167,7 @@
                     <span class="card-action">1st <br> May</span>
                     <div class="card-heading mb-4">टीएमयू दुर्लभ जैन ग्रंथों के अनुवाद में करेगी मदद
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://uttarakhandhimalaya.in/tmu-will-help-in-translation-of-rare-jain-texts/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -211,7 +211,7 @@
                     <span class="card-action">10th <br> Apr</span>
                     <div class="card-heading">तीर्थंकर महावीर यूनिवर्सिटी के सेंटर फॉर आईकेएस की ओर से रोजमार्रा की जिंदगी में अहिंसावाद की प्रासंगिकता पर आयोजित एक्सपर्ट टॉक में बतौर एक्सपर्ट बोले बहुभाषाविद डॉ. धर्मचंद जैन
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://www.nationalduniya.org/uttar-pradesh/achievement:-isro-and-tmu-will-be-academic-partners" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -222,7 +222,7 @@
                     <span class="card-action">10th <br> Apr</span>
                     <div class="card-heading mb-4">तीर्थंकर महावीर यूनिवर्सिटी में उत्साहपूर्ण मतदान महोत्सव: जिला निर्वाचन अधिकारी और विभागीय अधिकारियों की उपस्थिति में हुआ शपथग्रहणार्टनर
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://www.nationalduniya.org/uttar-pradesh/achievement:-isro-and-tmu-will-be-academic-partners" terget="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" terget="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -244,7 +244,7 @@
                     <span class="card-action">12th <br> Apr</span>
                     <div class="card-heading">उपलब्धि : इसरो और टीएमयू होंगे एकेडमिक पार्टनर
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://www.nationalduniya.org/uttar-pradesh/achievement:-isro-and-tmu-will-be-academic-partners" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -321,7 +321,7 @@
                     <span class="card-action">20th <br> Feb</span>
                     <div class="card-heading mb-4">टीएमयू एजुकेशन की इग्नाइट्स में हुनर का जलवा
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://ravivardelhi.com/tmu-educations-ignite-showcases-talent/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -365,7 +365,7 @@
                     <span class="card-action">06th <br> Feb</span>
                     <div class="card-heading mb-3">टीएमयू फार्मेसी की उन्नयन में बिखरा हुनर का जादूमिलने पर जताई खुशी
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://ravivardelhi.com/the-magic-of-talent-spread-in-the-upgrade-of-tmu-pharmacy/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -673,7 +673,7 @@
                     <span class="card-action">15th <br> Nov</span>
                     <div class="card-heading mb-3">टीएमयू के लॉ कॉलेज में आज से होगा चार दिनी फेस्ट
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://uttarakhandhimalaya.in/four-day-fest-to-be-held-in-tmu-law-college-from-today/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -783,7 +783,7 @@
                     <span class="card-action">10th <br> Sep</span>
                     <div class="card-heading">TMU Sudents got to know generation of automic electricity
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://uttarakhandhimalaya.in/tmu-students-got-to-know-generation-of-automic-electricity/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -827,7 +827,7 @@
                     <span class="card-action">1st <br> Aug</span>
                     <div class="card-heading">उत्तर प्रदेश के उप मुख्यमंत्री श्री ब्रजेश पाठक ने टीएमयू हॉस्पिटल को आयुुष्मान सेवाओं में उत्कृष्ट कार्य एवम् सराहनीय योगदान के लिए किया 
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://focusaaptak.in/archives/1257" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -860,7 +860,7 @@
                     <span class="card-action">1st <br> Aug</span>
                     <div class="card-heading">Future-Ready Graduates: TMU Moradabad's Commitment to Stellar Placements and Student
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://www.hindustantimes.com/brand-stories/futureready-graduates-tmu-moradabads-commitment-to-stellar-placements-and-student-success-101691483747911.html" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
