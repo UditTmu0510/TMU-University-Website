@@ -1,11 +1,14 @@
 let path = "https://test.tmuhospital.com/assets/json/menubarData.json";
+let domainName = '';
+
 
 try {
     // Fetch the domain name from the current URL
-    let domainName = window.location.hostname;
+    domainName = window.location.hostname;
     if(domainName == 'localhost' || domainName == "127.0.0.1")
     {
-        path = "http://"+domainName + ":8000"+"/assets/json/menubarData.json";
+        domainName += ':8000';
+        path = "http://"+domainName +"/assets/json/menubarData.json";
        
     }
     else{
@@ -457,7 +460,7 @@ function resetMainMenubar() {
 
                 listItem.innerHTML = `
                     <h1 class="underline__effect">
-                        <span><img class="fs-18" src="${item.imageURL}" width="70%" alt=""></span>
+                        <span><img class="fs-18" src="https://${domainName}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
                         ${item.text}
                     </h1>
                     <i class="${item.icon}"></i>
