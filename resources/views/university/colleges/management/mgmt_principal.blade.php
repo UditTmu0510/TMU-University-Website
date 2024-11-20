@@ -7,13 +7,9 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
         <div class="row justify-content-center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
-                    Principal</span></h1>
-
-            <!--<div class="col-md-4 text-center img-container">-->
-            <!--    <img src="https://www.tmu.ac.in/uploads/college/tmph_head.jpg"-->
-            <!--        alt="anurag-pharmacy-principal" style="height:fit-content;" height="450" width="450" alt="R.K. Dwivedi">-->
-            <!--</div>-->
+            <h1 class="tmu-text-primary tmu-page-heading"><span> Message from the </span><span> Dean's Desk
+                    </span></h1>
+            
             <div class="col-md-12 col-lg-4 text-center img-container mb-4" style="height:fit-content;">
                 <img src="{{asset('/assets/img/principal/management/management_principal.jpg')}}" alt="vipinji_mgmt_principal"
                     height="400" width="400">
@@ -35,7 +31,7 @@
                 <p class="mb-3 text-justify">The TMIMT family wishes the aspiring students an enjoyable and rewarding academic year ahead. We look forward to work as a dedicated and disciplined team.</p>
                 <p class="mb-3 text-justify">We hope you will accept the challenge of becoming a student of the college. Your only limitation will be your imagination. We hope you will make the most of your college years in TMIMT through your hard work and eagerness to grasp the opportunities. The college can get you where you want to be, whether you are a first time freshman, an existing student, or a working professional.</p>
                 <div class="person-details">Prof. (Dr.) Vipin Jain <br>
-                    <span> Director / Principal</span><br>
+                    <span> Director / Dean</span><br>
                     <span>Ph.D, FCMA, MBA(Gold Medalist), LLB, CS(Executive)</span><br>
                     <span>Department of Management Studies & Commerce</span><br>
                     <span>Teerthanker Mahaveer Institute of Management and Technology (TMIMT)</span><br>
@@ -47,7 +43,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 

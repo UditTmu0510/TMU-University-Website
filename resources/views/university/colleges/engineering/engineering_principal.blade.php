@@ -15,7 +15,7 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container">
         <div class="">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Principal's Desk</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Dean's Desk</span></h1>
             <div class="quote-box mx-auto">
                 <div class="profile-image mb-2">
                     <img src="{{asset('/assets/img/principal/CCSIT/ccsit_principal.jpg')}}" alt="Profile Image">
@@ -28,7 +28,7 @@
                     <p class="text-justify text-dark fs-14 mb-2"> Training programs with IL&FS Skills, Bharat seats, CIDC, Amtek Auto, Auto CAD are in place. We also look forward to have Volvo, Bosch, iMove and Siemens to run joint programs and also create state of art Labs in the Campus for creating industry ready manpower.</p>
                     <p class="text-justify text-dark fs-14 mb-2">To improve your exposure in Research & Innovation we are also planning an Incubation Centre and are recruiting faculty from the best of Institutes to create the ambience. I welcome you all again and hope your stay would be a learning experience which will facilitate you to be the future technocrats of this country.</p>
                     <p class="mt-3">- (Dr.) R. K. Dwivedi</p>
-                    <p>Principal</p>
+                    <p>Dean</p>
                 </div>
             </div>
         </div>

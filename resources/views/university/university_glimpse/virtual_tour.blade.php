@@ -48,7 +48,7 @@
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr class="text-center">
-                            <th class="text-center">S. No.</th>
+                            <th class="text-center">Sl. No.</th>
                             <th class="text-center">Cities</th>
                             <th class="text-center">KM</th>
                         </tr>
@@ -56,60 +56,60 @@
                     <tbody>
                         <tr>
                         <tr>
-                            <td>1</td>
-                            <td>Bareilly</td>
-                            <td>- 81</td>
+                            <td class="text-center">1.</td>
+                            <td class="text-center">Bareilly</td>
+                            <td class="text-center">- 81</td>
                         </tr>
 
                         <tr>
-                            <td>2</td>
-                            <td>Meerut</td>
-                            <td>- 132</td>
+                            <td class="text-center">2.</td>
+                            <td class="text-center">Meerut</td>
+                            <td class="text-center">- 132</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Aligarh</td>
-                            <td>- 125</td>
+                            <td class="text-center">3.</td>
+                            <td class="text-center">Aligarh</td>
+                            <td class="text-center">- 125</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>Noida</td>
-                            <td>- 160</td>
+                            <td class="text-center">4.</td>
+                            <td class="text-center">Noida</td>
+                            <td class="text-center">- 160</td>
                         </tr>
                         <tr>
-                            <td>5</td>
-                            <td>Rishikesh</td>
-                            <td>- 172</td>
+                            <td class="text-center">5.</td>
+                            <td class="text-center">Rishikesh</td>
+                            <td class="text-center">- 172</td>
                         </tr>
                         <tr>
-                            <td>6</td>
-                            <td>Gurgaon</td>
-                            <td>- 196</td>
+                            <td class="text-center">6.</td>
+                            <td class="text-center">Gurgaon</td>
+                            <td class="text-center">- 196</td>
                         </tr>
                         <tr>
-                            <td>7</td>
-                            <td>Agra</td>
-                            <td>- 198</td>
+                            <td class="text-center">7.</td>
+                            <td class="text-center">Agra</td>
+                            <td class="text-center">- 198</td>
                         </tr>
                         <tr>
-                            <td>8</td>
-                            <td>Chandigarh</td>
-                            <td>- 395</td>
+                            <td class="text-center">8.</td>
+                            <td class="text-center">Chandigarh</td>
+                            <td class="text-center">- 395</td>
                         </tr>
                         <tr>
-                            <td>9</td>
-                            <td>Gwalior</td>
-                            <td>- 343</td>
+                            <td class="text-center">9.</td>
+                            <td class="text-center">Gwalior</td>
+                            <td class="text-center">- 343</td>
                         </tr>
                         <tr>
-                            <td>10</td>
-                            <td>Kanpur</td>
-                            <td>- 382</td>
+                            <td class="text-center">10.</td>
+                            <td class="text-center">Kanpur</td>
+                            <td class="text-center">- 382</td>
                         </tr>
                         <tr>
-                            <td>11</td>
-                            <td>Lucknow</td>
-                            <td>- 346</td>
+                            <td class="text-center">11.</td>
+                            <td class="text-center">Lucknow</td>
+                            <td class="text-center">- 346</td>
                         </tr>
                     </tbody>
                 </table>

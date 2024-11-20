@@ -14,8 +14,8 @@
             <a href="{{ route('engineering.highlights') }}" class="custom-menu-item {{ setActive('engineering.highlights') }}">
                 <p>College Highlights</p>
             </a>
-            <a href="{{ route('engineering.principal') }}" class="custom-menu-item {{ setActive('engineering.principal') }}">
-                <p>Principal Desk</p>
+            <a href="{{ route('engineering.dean') }}" class="custom-menu-item {{ setActive('engineering.dean') }}">
+                <p>Dean's Desk</p>
             </a>
             <a href="{{ route('engineering.gallery') }}" class="custom-menu-item {{ setActive('engineering.gallery') }}">
                 <p>Gallery</p>
