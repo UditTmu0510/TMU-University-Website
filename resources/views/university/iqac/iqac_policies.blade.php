@@ -262,6 +262,12 @@
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description">TMU Student Clubs </p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/TMU_Student_Clubs.pdf')}}" target="_blank">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description">Identification of Slow and Advanced Learners (Process and Outcome)</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/Identifying_Slow_and_Advanced_Learners.pdf')}}" target="_blank">View
             PDF</a>
