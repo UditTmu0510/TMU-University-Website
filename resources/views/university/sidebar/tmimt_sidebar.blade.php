@@ -15,7 +15,7 @@
                 <p>College Highlights</p>
             </a>
             <a href="{{ route('mgmt.principal') }}" class="custom-menu-item {{ setActive('mgmt.principal') }}">
-                <p>Principal's Desk</p>
+                <p>Dean's Desk</p>
             </a>
         </div>
         <h2>Academics</h2>
