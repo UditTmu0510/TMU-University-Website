@@ -448,6 +448,20 @@ function resetMainMenubar() {
     let menu = path.replace('menubarData.json','navbarData.json');
     // console.log(menu);
 
+    // To take care of it to work on live as well as local system
+    let basePath = '';
+
+    if(domainName == 'localhost:8000' || domainName == '127.0.0.1:8000')
+    {
+        basePath = `http://${domainName}`;
+    }
+    else
+    {
+        basePath = `https://${domainName}`;
+    }
+
+    console.log('base',basePath);
+
     // Fetch the navbar data from the JSON file
     fetch(menu)
         .then(response => response.json())
@@ -460,7 +474,7 @@ function resetMainMenubar() {
 
                 listItem.innerHTML = `
                     <h1 class="underline__effect">
-                        <span><img class="fs-18" src="https://${domainName}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
+                        <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
                         ${item.text}
                     </h1>
                     <i class="${item.icon}"></i>
