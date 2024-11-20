@@ -133,7 +133,7 @@
 
 		<div class="box-container">
 			<div class="box">
-				<h1 class="college-main-heading">Teerthanker Mahaveer College of Agriculture Sciences</h1>
+				<h2 class="college-main-heading">Teerthanker Mahaveer College of Agriculture Sciences</h2>
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">The College of Agricultural Sciences, established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the field of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
