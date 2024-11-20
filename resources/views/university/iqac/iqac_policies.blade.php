@@ -257,7 +257,7 @@
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description">Students participation in events conducted Outside University</p>
-          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_20.01.pdf')}}" target="_blank">View
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_21.pdf')}}" target="_blank">View
             PDF</a>
         </div>
         <div class="card-pdf">
