@@ -310,7 +310,7 @@
                     <span class="card-action">20th <br> Feb</span>
                     <div class="card-heading ">तीर्थंकर महावीर यूनिवर्सिटी मुरादाबाद का रंग बिरंगी आतिशबाजी मशाल के संग मार्च पास्ट के बीच पवेलियन में भव्य शुभारंभ हुआर जताई खुशी
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://himalyakishakti.com/tirthankar-mahavir-university-moradabad-was-inaugurated-grandly-in-the-pavilion-amidst-march-past-with-colorful-fireworks-and-torches/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
@@ -332,7 +332,7 @@
                     <span class="card-action">10th <br> Feb</span>
                     <div class="card-heading mb-3">भगवान महावीर के सिद्धांतों को बढ़ाने मैं टीएमओअग्रणीर जताई खुशी
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="https://himalyakishakti.com/tmo-leader-in-promoting-the-principles-of-lord-mahavir/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
