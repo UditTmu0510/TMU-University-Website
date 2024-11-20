@@ -281,7 +281,7 @@
 
     <div class="box-container ">
         <div class="box">
-            <h1 class="college-main-heading">Welcome to TMU Alumni Association</h1>
+            <h2 class="college-main-heading">Welcome to TMU Alumni Association</h2>
             <div class="row">
                 <div class="col-12 px-2 px-md-5">
                     <p style="text-align: justify;">Welcome to the Teerthankar Mahaveer University (TMU) Alumni Page! Our alumni community is a vibrant network of professionals who are making a difference in various fields around the world. We are proud of our graduates and their achievements. This page is designed to help you stay connected with the university and fellow alumni.</p>

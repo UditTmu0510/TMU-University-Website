@@ -129,25 +129,9 @@
 
         </div>
 
-        <!-- <div class="box-container">
-            <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
-                <div class="row">
-                    <div class="col-12 px-2 px-md-5">
-                        <p class="m-0 p-0"><b></b></p>
-                        <p style="text-align: justify;"></p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> -->
-
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Faculty of Education, One of the top Education Colleges</h1>
+                <h2 class="college-main-heading">Faculty of Education, One of the top Education Colleges</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: center;"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
@@ -372,9 +356,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>

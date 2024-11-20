@@ -241,7 +241,7 @@
         </section>
 
         <div class="container">
-            <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h1>
+            <h2 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h2>
             <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                 <div class="col-md-3 col-sm-6  ">
                     <div class="position-relative">
