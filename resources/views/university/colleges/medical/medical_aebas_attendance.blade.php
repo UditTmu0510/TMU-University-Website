@@ -76,6 +76,11 @@
                                                 <td class="text-center">19.11.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/19th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
+                                            <tr>
+                                                <td class="text-center">10.</td>
+                                                <td class="text-center">21.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/21st-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
