@@ -407,6 +407,34 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>21, November</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Dept. of Physiotherapy is organizing a three-day sports event, "Physiolympic," from November 21 to November 23, 2024. Don't miss the excitement and join us for fun-filled competitions and activities!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Dept. of Physiotherapy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21 to 23, November</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>12, November</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p> Dept. of Physiotherapy is organising a session on "Advancement in Airway Clearance Techniques" with Dr. Divya M. Sharma, Safdarjung Hospital, on November 12, 2024, 10:00 am - 1:00 pm</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Dept. of Physiotherapy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, November</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>20, October</span>
                                 </div>
                                 <div class="notice-content">
