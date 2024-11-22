@@ -1,5 +1,5 @@
 {
-    "7": {
+    "7420": {
         "University Glimpse": {
             "About University": { "link": "/tmu/about-us" },
             "Vision And Mission": { "link": "/tmu/vision-mission" },
@@ -19,7 +19,7 @@
             "Vice Chancellor": { "link": "/tmu/vicechancellor" }
         }
     },
-    "8": {
+    "8420": {
         "MEDICAL": { "link": "/medical-college-and-research-centre" },
         "DENTAL": { "link": "/dental-college-and-research-centre" },
         "NURSING": { "link": "/college-of-nursing" },
@@ -36,7 +36,7 @@
         "AGRICULTURE": { "link": "/college-of-agriculture-sciences" },
         "JAIN STUDIES": { "link": "/centre-of-jain-studies" }
     },
-    "9": {
+    "9420": {
         "undergraduate": {
             "Medical": {
                 "MBBS": {
@@ -496,7 +496,7 @@
             }
         }
     },
-    "10": {
+    "10420": {
         "About Research Development Centre": { "link": "/tmu/research" },
         "Research Policy": { "link": "/tmu/research-policy" },
         "Code of Ethics": { "link": "/tmu/code-of-ethics" },
@@ -530,14 +530,14 @@
         "Fee Structure": { "link": "/tmu/phd-fee-structure" },
         "Result": { "link": "/tmu/result" }
     },
-    "11": {
+    "11420": {
         "Overview": { "link": "/tmu/exam-overview" },
         "Ordinance": { "link": "/tmu/exam-ordinance" },
         "Result": { "link": "http://portal.tmu.ac.in/onlineresult.aspx" },
         "Syllabus": { "link": "/tmu/syllabus" },
         "Open Elective Courses(CBCS)": { "link": "/tmu/cbcs" }
     },
-    "12": {
+    "12420": {
         "CTLD": { "link": "/tmu/centre-for-teaching-learning-and-development" },
         "IIC": { "link": "/innovation-startup" },
         "Grievances Portal": { "link": "/tmu/grievances-portal" },
