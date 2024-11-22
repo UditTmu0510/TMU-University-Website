@@ -470,14 +470,14 @@ function resetMainMenubar() {
             ulElement.innerHTML = ''; // Clear current menu
             navbarData.forEach(item => {
                 const listItem = document.createElement('li');
-                listItem.setAttribute('onclick', item.clickAction);
+                listItem.setAttribute('onclick', `showMenuContent(${item.id},this)`);
 
                 listItem.innerHTML = `
                     <h1 class="underline__effect">
                         <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
                         ${item.text}
                     </h1>
-                    <i class="${item.icon}"></i>
+                    <i class="bi bi-caret-right-fill"></i>
                 `;
                 ulElement.appendChild(listItem);
             });
