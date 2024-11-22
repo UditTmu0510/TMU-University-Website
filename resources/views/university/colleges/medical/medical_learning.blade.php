@@ -3,7 +3,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span>LEARNING OBJECTIVES </span><span> UG W.E.F. AUGUST, 2019
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>LEARNING OBJECTIVES </span><span> UG W.E.F. AUGUST, 2019
             </span></h1>
             <div class="iqac-container">
             <div class="iqac-card">
