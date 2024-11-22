@@ -1,9 +1,11 @@
 let path = "https://test.tmuhospital.com/assets/json/engineering_menubarData.json";
 let subDirectory = "";
+let domainName = "";
+let basePath = '';
 
 try {
     // Fetch the domain name from the current URL
-    let domainName = window.location.hostname;
+    domainName = window.location.hostname;
     // Split the domain by '/' and filter out sub-directory
     let segments = window.location.href.split('/').filter(segment => segment);
 
@@ -16,16 +18,25 @@ try {
     // console.log(jsonName);
 
     if (domainName == 'localhost' || domainName == "127.0.0.1") {
-        path = "http://" + domainName + ":8000" + "/assets/json/"+ jsonName +".json";
+        domainName += ':8000';
+    }
 
+    // setting up the basepath
+
+    if (domainName == 'localhost:8000' || domainName == '127.0.0.1:8000') {
+        basePath = `http://${domainName}`;
     }
     else {
-        path = "https://" + domainName + "/assets/json/"+ jsonName +".json";
+        basePath = `https://${domainName}`;
     }
+
+    // initializing path
+    path = basePath + "/assets/json/" + jsonName + ".json";
 
 } catch (error) {
     console.error("Error fetching the domain name:", error);
 }
+
 
 //function to return json file name depending on the sub-directory
 function subDirectoryFinder(subDirectory) {
@@ -59,9 +70,170 @@ function subDirectoryFinder(subDirectory) {
             return 'physical_education_menubarData';
         case 'college-of-agriculture-sciences':
             return 'agriculture_menubarData';
-        default: 
+        default:
             return 'menubarData';
     }
+}
+
+// Javascript to fetch menubarData json file started
+
+let cachedData;
+
+// Function to fetch and cache JSON data during page load
+async function fetchAndCacheData() {
+    try {
+
+        let cache = getCacheWithExpiry(`${subDirectory}menubarjson`);
+        if(cache)
+        {
+            return cache;
+        }
+        // Fetch the data
+        let response = await fetch(path);
+        const collegeData = await response.json(); // Parse the JSON data
+        
+        console.log('before',path);
+        // Assuming you want the 'menubarData.json' to be located relative to the current path
+        let mainPath = path.slice(0, path.lastIndexOf('/'));
+        console.log('after',path);
+        mainPath += '/menubarData.json';
+        const response2 = await fetch(mainPath);
+        const universityData = await response2.json();
+
+        // Assuming you want to store 'mainPath' within 'cachedData'
+        cachedData = { ...collegeData, ...universityData };  // Correct way to add mainPath to cachedData
+        
+        // saving it in local cache 
+        setCacheWithExpiry(`${subDirectory}menubarjson`,cachedData,3600000);
+        
+        // Log the cached data for debugging
+        console.log(cachedData);
+
+        
+        
+        return cachedData;
+    } catch (err) {
+        console.error('Error fetching data:', err);
+    }
+}
+
+fetchAndCacheData();
+
+function setCacheWithExpiry(key, value, ttl) {
+    const now = new Date();
+
+    // `ttl` is the time-to-live in milliseconds
+    const expiry = now.getTime() + ttl;
+
+    const data = {
+        value: value,
+        expiry: expiry
+    };
+
+    localStorage.setItem(key, JSON.stringify(data));
+}
+
+function getCacheWithExpiry(key) {
+    const data = JSON.parse(localStorage.getItem(key));
+
+    if (!data) {
+        return null;  // Cache miss
+    }
+
+    const now = new Date();
+
+    // Check if the cached data has expired
+    if (now.getTime() > data.expiry) {
+        localStorage.removeItem(key);  // Clear expired data
+        return null;  // Cache miss (expired)
+    }
+
+    return data.value;  // Return the cached value
+}
+
+
+
+// Javascript to fetch menubarData json file end
+
+let menubarFirstview = {};
+
+// IIFE function to fetch the outer json of desired college
+(async function () {
+
+    // adding the college name as key 
+    menubarFirstview[subDirectory] = {};
+
+    // adding the data in the json to show outer json
+
+    let fileName = subDirectoryFinder(subDirectory);
+
+    fileName += '_outer.json';
+
+    let jsonPath = basePath + '/assets/json/college_outer_navbar/' + fileName;
+
+    
+
+    await fetch(jsonPath)
+        .then(response => response.json())
+        .then(async (response) => {
+
+            let collegeName = subDirectory.replaceAll('-',' ');
+            let htmlString = `<h2 class="nav-headings " >${collegeName}</h2>`;
+
+            // let json = response.json();
+            console.log(response);
+
+            htmlString += await convertJsonToHtml(response);
+
+            menubarFirstview[subDirectory] = htmlString
+
+        })
+        .catch(e => {
+            console.error(e);
+        })
+
+
+
+
+})();
+
+// Function to convert JSON data into HTML format
+async function convertJsonToHtml(jsonData) {
+
+    let htmlString = ``;
+
+    let category = cachedData? cachedData : await fetchAndCacheData();
+    
+    jsonData.forEach(item => {
+                const listItem = document.createElement('li');
+
+                // Check if the current item is a link
+                if(category[item.id]  && category[item.id].link !== undefined)
+                {
+                     listItem.innerHTML = `
+                     <a href="${category[item.id].link}">
+                    <h1 class="underline__effect">
+                        <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
+                        ${item.text}
+                    </h1>
+                    </a>
+                `;
+                }
+                else{
+                    listItem.setAttribute('onclick', `showMenuContent(${item.id},this)`);
+                    listItem.innerHTML = `
+                    <h1 class="underline__effect">
+                        <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
+                        ${item.text}
+                    </h1>
+                    <i class="bi bi-caret-right-fill"></i>
+                `;
+                }
+                
+                htmlString += listItem.outerHTML;
+            });
+
+    return htmlString;
 }
 
 // Enable dropdown on hover in Menubar 
@@ -184,10 +356,8 @@ function closeMenubar() {
 
 
 
-
 // function to show subcategories of menubar
 async function showSubCategories(value) {
-
 
     try {
         const box = document.getElementById('menubar--subcategories');
@@ -195,14 +365,7 @@ async function showSubCategories(value) {
         box.innerHTML = '';
 
         //fetching the json for data
-        let categoryList;
-        if (cachedData) {
-            categoryList = cachedData;
-        } else {
-            const response = await fetch(path);
-            categoryList = await response.json();
-        }
-
+        let categoryList = await fetchAndCacheData();
 
         // variable to store htmlContent
         let htmlContent = '';
@@ -314,8 +477,7 @@ async function openSubMenuContent(value, menu, listItem) {
 
         let htmlContent = '';
 
-        const response = await fetch(path);
-        const catalogue = await response.json();
+        const catalogue = cachedData ? cachedData : await fetchAndCacheData();
 
         for (let item in catalogue[value][menu]) {
             if (catalogue[value][menu][item].link) {
@@ -366,11 +528,7 @@ async function showSubMenuCourse(value, menu, subMenu, listItem) {
         let htmlContent = '';
 
         // Load data from the JSON file
-        const response = await fetch(path);
-        const data = await response.json();
-
-
-
+        const data = cachedData ? cachedData : await fetchAndCacheData();
 
         // Check if the submenu exists in the JSON
         if (data[value] && data[value][menu] && data[value][menu][subMenu]) {
@@ -415,8 +573,7 @@ async function showSubMenuCourseMobile(value, menu, subMenu) {
         let htmlContent = '';
 
         // Load data from the JSON file
-        const response = await fetch(path);
-        const data = await response.json();
+        const data = cachedData ? cachedData : await fetchAndCacheData();
 
         // Check if the submenu exists in the JSON
         if (data[value] && data[value][menu] && data[value][menu][subMenu]) {
@@ -484,9 +641,11 @@ function scrollToBottom(element) {
 // Function to reset Main Menubar and fetch university menu data from universityMenuData.json
 function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
- 
-    let menuPath = path.slice(0, path.lastIndexOf("\/") + 1) + "navbarData.json";
-  
+
+    // let menuPath = path.slice(0, path.lastIndexOf("\/") + 1) + "navbarData.json";
+
+    let menuPath = basePath + '/assets/json/navbarData.json';
+
     // Fetch the university menu data from the JSON file
     fetch(menuPath)
         .then(response => response.json())
@@ -501,12 +660,12 @@ function resetMainMenubar() {
                 // Loop through the menu items and dynamically create the list
                 menuData.forEach(item => {
                     html += `
-                        <li onclick="${item.clickAction}">
+                        <li onclick="showMenuContent(${item.id},this)">
                             <h1 class="underline__effect">
-                                <span><img class="fs-18" src="${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
+                                <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
                                 ${item.text}
                             </h1>
-                            <i class="${item.icon}"></i>
+                            <i class="bi bi-caret-right-fill"></i>
                         </li>
                     `;
                 });
@@ -516,12 +675,12 @@ function resetMainMenubar() {
 
                 menuData.forEach(item => {
                     html += `
-                        <li onclick="${item.clickAction}">
+                        <li onclick="showMenuContent(${item.id},this)">
                             <h1 class="underline__effect">
-                                <span><img class="fs-18" src="${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
+                                <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="${item.imageWidth || '70%'}" alt=""></span>
                                 ${item.text}
                             </h1>
-                            <i class="${item.icon}"></i>
+                            <i class="bi bi-caret-right-fill"></i>
                         </li>
                     `;
                 });
@@ -556,8 +715,7 @@ async function openSubMenuContentMobile(value, menu) {
         ulBox.innerHTML = '';
         let htmlContent = '';
 
-        const response = await fetch(path);
-        const catalogue = await response.json();
+        const catalogue = cachedData ? cachedData : await fetchAndCacheData();
 
         for (let item in catalogue[value][menu]) {
             if (catalogue[value][menu][item].link) {
@@ -689,8 +847,7 @@ async function handleMainMenubar(value, listItem) {
         }
     } else {
         // If there's no nested <ul>, fetch and add the data
-        const response = await fetch(path);
-        const categoryList = await response.json();
+        const categoryList = cachedData ? cachedData : await fetchAndCacheData();
 
         let htmlContent = '';
         if (categoryList[value] && typeof categoryList[value] === 'object') {
@@ -734,28 +891,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-// Javascript to fetch menubarData json file started
 
-let cachedData;
-
-// Function to fetch and cache JSON data during page load
-async function fetchAndCacheData() {
-    try {
-        const response = await fetch(path);
-        cachedData = await response.json();
-        // console.log(cachedData);
-    } catch (err) {
-        console.error('Error fetching data:', err);
-    }
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Call your function here
-    // console.log('called');
-    fetchAndCacheData();
-});
-
-// Javascript to fetch menubarData json file end
 
 
 // mobile view tray start 
@@ -1305,397 +1441,6 @@ jQuery(document).ready(function () {
 // -------------------------------------------------------
 // Javascript for cbcs circular (data tables) function implementation End
 // -------------------------------------------------------
-
-
-
-
-
-// complete html for all pages
-const menubarFirstview = {
-    "faculty-of-engineering": `
-    <h2 class="nav-headings " >Faculty of engineering</h2>
-   <li > <h1 class="underline__effect"><a href="/faculty-of-engineering">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-  <li > <h1 class="underline__effect"><a href="/faculty-of-engineering/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-pharmacy":
-    `
-    <h2 class="nav-headings " >College of Pharmacy</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/infrastructure">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Infrastructure </h1> </a></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-pharmacy/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`     ,
-    "medical-college-and-research-centre":`
-    <h2 class="nav-headings " >Medical College and Research Centre</h2>
-    <li > <h1 class="underline__effect"><a href="/medical-college-and-research-centre">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Approvals </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-            <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/medical-college-and-research-centre/gallery">
-        <span><img class="fs-18" src="assets/img/nav_logo/gallery.svg" width="70%" alt=""></span>
-        Gallery </h1> </a></li>
-
-    
-						
-					`
-    ,
-    "dental-college-and-research-centre":
-    `
-    <h2 class="nav-headings " >Dental College & Research Centre</h2>
-    <li > <h1 class="underline__effect"><a href="/dental-college-and-research-centre">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/dental-college-and-research-centre/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-nursing":
-    `
-    <h2 class="nav-headings " >College of Nursing</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-nursing">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="college-of-nursing/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-paramedical-sciences":
-    `
-    <h2 class="nav-headings " >college of Paramedical Sciences</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-paramedical-sciences">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-paramedical-sciences/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "department-of-physiotherapy":
-    `
-    <h2 class="nav-headings " >Department of Physiotherapy</h2>
-    <li > <h1 class="underline__effect"><a href="/department-of-physiotherapy">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/department-of-physiotherapy/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "tmimt-college-of-management":
-    `
-    <h2 class="nav-headings " >TMIMT COLLEGE OF MANAGEMENT</h2>
-    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="#">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-law-and-legal-studies":
-    `
-    <h2 class="nav-headings " >college of Law & Legal Studies</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        CRILLS </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-computing-sciences-and-it":
-    `
-    <h2 class="nav-headings " >college of computing sciences and it</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-computing-sciences-and-it">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-management">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-fine-arts":
-    `
-    <h2 class="nav-headings " >college of Fine Arts</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-fine-arts">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-fine-arts/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "faculty-of-education":
-    `
-    <h2 class="nav-headings " >Faculty Of Education</h2>
-    <li > <h1 class="underline__effect"><a href="/faculty-of-education">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/faculty-of-education/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "tmimt-college-of-physical-education":
-    `
-    <h2 class="nav-headings " >TMIMT college of Physical Education</h2>
-    <li > <h1 class="underline__effect"><a href="/tmimt-college-of-physical-education">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-law-and-legal-studies/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`,
-    "college-of-agriculture-sciences":
-    `
-    <h2 class="nav-headings " >College of Agriculture Sciences</h2>
-    <li > <h1 class="underline__effect"><a href="/college-of-agriculture-sciences">
-        <span><img class="fs-18" src="/assets/img/nav_logo/home.svg" width="70%" alt=""></span>
-        Home </h1> </a></li>
-    <li onclick="showMenuContent(1,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/about-college.svg" width="70%" alt=""></span>
-        About College</h1> <i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(2,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/academics.svg" width="70%" alt=""></span>
-        Academics </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(3,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/placement.svg" width="70%" alt=""></span>
-        Placement Cell </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(4,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/student-corner.svg" width="70%" alt=""></i></span>
-        Student Corner </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li onclick="showMenuContent(5,this)"><h1 class="underline__effect">
-        <span><img class="nav-logo" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
-        Quick Link </h1><i class="bi bi-caret-right-fill"></i></li>
-    <li > <h1 class="underline__effect"><a href="/college-of-agriculture-sciences/iqac">
-        <span><img class="fs-18" src="/assets/img/nav_logo/college-iqac.svg" width="70%" alt=""></span>
-        College IQAC </h1> </a></li>
-
-    
-						
-					`                        
-    
-
-}
-
 
 
 // Menubar tooltip js
