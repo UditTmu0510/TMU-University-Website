@@ -3,7 +3,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span> Deaprtments</span><span> </span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> Deaprtments</span><span> </span></h1>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 mb-3 ">
                 <!-- Card -->

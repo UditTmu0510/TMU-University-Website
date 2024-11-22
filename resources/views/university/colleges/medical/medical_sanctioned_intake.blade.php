@@ -3,7 +3,7 @@
 
 <div class="main-content">
 					<div class="container">
-						<h1 class="tmu-text-primary tmu-page-heading"><span>Sanctioned Intake </span><span> of Medical Programme </span></h1>
+						<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Sanctioned Intake </span><span> of Medical Programme </span></h1>
 
 						<div class="table-responsive">
 							<table class="table table-bordered table-striped">
