@@ -15,7 +15,7 @@
                     <p class="about-p mb-4">Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/medical/about/about_us.jpg')}}" alt="Learning and Teaching">
+                    <img src="{{asset('/assets/img/banner/medical/about_us.jpg')}}" alt="Learning and Teaching">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">It conducts Post Graduate degrees <span class="highlight">(MD/MS) in Pre-Clinical subjects (Anatomy, Physiology, Biochemistry), Para-clinical subjects (Pathology, Microbiology, Pharmacology, Forensic Sciences) and Clinical subjects (Community Medicine, General Medicine, Psychiatry, Dermatology, Respiratory Medicine, Paediatrics, General Surgery, Orthopaedics, Otorhinolaryngology (ENT), Ophthalmology, Obstetrics & Gynaecology, Anaesthesia, and Radio-diagnosis)</span> with an intake of 126 seats approved by the Medical Council of India.</p>

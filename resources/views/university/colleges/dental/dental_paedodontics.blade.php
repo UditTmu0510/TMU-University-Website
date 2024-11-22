@@ -13,8 +13,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Paedodontics & </span><span>
                             Preventive Dentistry </span></h1>
-                    <p class="about-p mb-4 text-justify">The department of Paedodontics and Preventive Dentistry at Teerthanker
-                        Mahaveer University is a place where total dental care is provided to children from birth
+                    <p class="about-p mb-4 text-justify">The department of Paedodontics and Preventive Dentistry at <a href="{{ route('dental.home') }}">Teerthanker Mahaveer Dental College and Research Centre</a>  is a place where total dental care is provided to children from birth
                         through adolescence including those children with special health care needs. </p>
                 </div>
                 <div class="image-content text-center p-4">

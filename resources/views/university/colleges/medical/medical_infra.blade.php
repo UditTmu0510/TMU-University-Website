@@ -3,14 +3,14 @@
 
 <div class="main-content">
 	<div class="container">
-		<h1 class="tmu-text-primary tmu-page-heading"><span>Infra</span><span>structure</span></h1>
+		<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Infra</span><span>structure</span></h1>
 		<div class="row">
 		</div>
 		<hr class="horizontal-line">
 		<button class="careers-accordion"> Community Based Learning <span class="icon">+</span> </button>
-		<div class="panel">
+		<div class="panel active">
 			<div class="table-responsive">
-				<table class="table table-bordered">
+				<table class="table table-bordered table-striped">
 					<thead>
 						<tr>
 							<th class="text-center">Sl. No.</th>
