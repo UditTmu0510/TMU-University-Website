@@ -38,7 +38,40 @@
             "link": "/medical-college-and-research-centre/sanctioned-intake"
         },
         "Departments": {
-            "link": "/medical-college-and-research-centre/department"
+         "Principal & MS": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/1-Principal-and-MS.pdf" },
+         "Anatomy": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/2-Anatomy.pdf" },
+         "Physiology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/3-Physiology.pdf" },
+         "Biochemistry": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/4-Biochemistry.pdf" },
+         "Pathology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/5-Pathology.pdf" },
+         "Microbiology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/6-Microbiology.pdf" },
+         "Pharmacology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/7_Pharmacology.pdf" },
+         "Forensic Medicine": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/8-Forensic-Medicine.pdf" },
+         "Community Medicine": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/9_Community_Medicine.pdf" },
+         "General Medicine": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/10_General_Medicine.pdf" },
+         "Respiratory Medicine": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/11_Respiratory_Medicine.pdf" },
+         "Psychiarty": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/13_Psychiatry.pdf" },
+         "Dermatology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/12-Dermatology-Venereology.pdf" },
+         "Paediatric": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/14_Paediatrics.pdf" },
+         "Anesthesiology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/19_Anaesthesiology.pdf" },
+         "Radiology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/20_Radio_Diagnosis.pdf" },
+         "General Surgery": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/15_General_Surgery.pdf" },
+         "Orthopaedics": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/16_Orthopaedics.pdf" },
+         "ENT": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/18_Otorhinolaryngology.pdf" },
+         "Ophthalmology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/17_Ophthalmology.pdf" },
+         "Obstetrics and Gynaecology": { "link": "/assets/pdf/medical/faculty_details/department_detail_nov/21-Obstetrics-and-Gynaecology.pdf" }
+       }
+    },
+"7": {
+        "University Glimpse": {
+            "About University": { "link": "/tmu/about-us" },
+            "Vision And Mission": { "link": "/tmu/vision-mission" },
+            "Statutory Approvals": { "link": "/tmu/statutory-approvals" },
+            "Rating/Awards/Recognition": { "link": "/tmu/awards-recognition" },
+            "Governance": { "link": "/tmu/university-governance" },
+            "Organogram": { "link": "/tmu/university-organogram" },
+            "Administration": { "link": "/tmu/university-administration" },
+            "Policies": { "link": "/tmu/policies-sops" },
+            "Circulars": { "link": "/tmu/cbcs-circulars" }
         },
         "Foundation Course": {
             "link": "/medical-college-and-research-centre/foundation-course"
