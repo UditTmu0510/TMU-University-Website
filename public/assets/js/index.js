@@ -1,11 +1,14 @@
 let path = "https://test.tmuhospital.com/assets/json/menubarData.json";
+let domainName = '';
+
 
 try {
     // Fetch the domain name from the current URL
-    let domainName = window.location.hostname;
+    domainName = window.location.hostname;
     if(domainName == 'localhost' || domainName == "127.0.0.1")
     {
-        path = "http://"+domainName + ":8000"+"/assets/json/menubarData.json";
+        domainName += ':8000';
+        path = "http://"+domainName +"/assets/json/menubarData.json";
        
     }
     else{
@@ -445,6 +448,20 @@ function resetMainMenubar() {
     let menu = path.replace('menubarData.json','navbarData.json');
     // console.log(menu);
 
+    // To take care of it to work on live as well as local system
+    let basePath = '';
+
+    if(domainName == 'localhost:8000' || domainName == '127.0.0.1:8000')
+    {
+        basePath = `http://${domainName}`;
+    }
+    else
+    {
+        basePath = `https://${domainName}`;
+    }
+
+    console.log('base',basePath);
+
     // Fetch the navbar data from the JSON file
     fetch(menu)
         .then(response => response.json())
@@ -453,14 +470,14 @@ function resetMainMenubar() {
             ulElement.innerHTML = ''; // Clear current menu
             navbarData.forEach(item => {
                 const listItem = document.createElement('li');
-                listItem.setAttribute('onclick', item.clickAction);
+                listItem.setAttribute('onclick', `showMenuContent(${item.id},this)`);
 
                 listItem.innerHTML = `
                     <h1 class="underline__effect">
-                        <span><img class="fs-18" src="${item.imageURL}" width="70%" alt=""></span>
+                        <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
                         ${item.text}
                     </h1>
-                    <i class="${item.icon}"></i>
+                    <i class="bi bi-caret-right-fill"></i>
                 `;
                 ulElement.appendChild(listItem);
             });
