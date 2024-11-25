@@ -4,10 +4,11 @@
 
     <div class="main-content">
         <div class="container">
-            <div class="banner text-white text-center p-4 rounded"
-                style="height: 20vh; background-color: #001055;">
-                <h2 style="color: #fff; padding:1.5rem;">College Overview</h2>
+        <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
+            <div class="d-flex align-items-center">
+                <h2 class="text-white m-0">Alumni Cell Overview</h2>
             </div>
+        </div>
 
             <section class="about-section mt-4">
                 <div class="container">
