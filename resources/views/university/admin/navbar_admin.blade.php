@@ -704,10 +704,12 @@
                     // Fetch the item for path 0
                     console.log(category);
                     const item = fetchOuterNav(category);
-
+                    let basePath = String(window.location.href);
+                    let index = basePath.indexOf('navbar-admin');
+                    basePath = basePath.slice(0,index);
                     // Create the image element and set its source
                     const image = document.createElement('img');
-                    image.setAttribute('src', `http://localhost:8000/assets/img/nav_logo/${item.img}`);
+                    image.setAttribute('src', `${basePath}assets/img/nav_logo/${item.img}`);
                     image.setAttribute('style', `width:2rem`);
 
                     // Append the image first
