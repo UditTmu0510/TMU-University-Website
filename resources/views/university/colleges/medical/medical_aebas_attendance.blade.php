@@ -86,6 +86,21 @@
                                                 <td class="text-center">22.11.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/22nd-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
+                                            <tr>
+                                                <td class="text-center">11.</td>
+                                                <td class="text-center">23.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/23rd-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">12.</td>
+                                                <td class="text-center">25.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/25th-Novemebr-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="text-center">12.</td>
+                                                <td class="text-center">26.11.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/23rd-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr> -->
                                         </tbody>
                                     </table>
                                 </div>

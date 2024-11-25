@@ -1,59 +1,15 @@
 @extends('layouts.university.colleges.tmimt_with_sidebar')
 @section('content')
 
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    th,
-    td {
-        padding: 8px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-
-    @media screen and (max-width: 600px) {
-
-        table,
-        thead,
-        tbody,
-        th,
-        td,
-        tr {
-            display: block;
-            text-align: center;
-        }
-
-        th,
-        td {
-            box-sizing: border-box;
-            display: block;
-            width: 100%;
-        }
-
-        th,
-        td:before {
-            content: attr(data-label);
-            float: left;
-            font-weight: bold;
-        }
-
-        tr {
-            margin-bottom: 1em;
-        }
-    }
-</style>
-
 <link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
 
 <div class="main-content">
         <div class="container">
-            <div class="banner text-white text-center p-4 rounded"
-                style="height: 20vh; background-color: #001055;">
-                <h2 style="color: #fff; padding:1.5rem!important;">College Overview</h2>
+        <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
+            <div class="d-flex align-items-center">
+                <h2 class="text-white m-0">College Overview</h2>
             </div>
+        </div>
 
             <section class="about-section bg-light mt-4">
                 <div class="container">
