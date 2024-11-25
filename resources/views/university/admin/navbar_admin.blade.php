@@ -538,6 +538,8 @@
 
         function fetchOuterNav(id) {
 
+            console.log('outer',outerJson);
+
             let item = outerJson.find(item => item.id == id);
             console.log('id',id,'item',item);
 
