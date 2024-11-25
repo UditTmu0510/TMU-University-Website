@@ -703,7 +703,6 @@
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
             <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="Search Icon">
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
-            <div class="tooltip px-3 py-2" id="menu-tooltip"> * Includes University & College Menu</div>
         </div>
         <!-- Menubar Open Button Completed -->
 
