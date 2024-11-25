@@ -16,13 +16,7 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f7fa;
-            color: #333;
-        }
-
-        .container {
+        .container3489 {
             max-width: 1200px;
             margin: 50px auto;
             padding: 20px;
@@ -30,7 +24,7 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .header {
+        .header3489 {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -283,12 +277,12 @@
         let param = "{{ $college }}";
     </script>
 
-    <div class="container">
-        <div class="header">
+    <div class="container3489">
+        <div class="header3489">
             <h1>University Hierarchy</h1>
             <button id="addNewCategory" class="add-category-btn">+ Add New Category</button>
         </div>
-        <div id="hierarchy" class="hierarchy" style="overflow-x:scroll;">
+        <div id="hierarchy" class="hierarchy">
             <!-- Dynamic content will be injected here by JavaScript -->
         </div>
         <div class="mt-3 d-flex justify-content-center align-item-center">
@@ -508,7 +502,6 @@
         async function fetchOuterNavFromServer(id) {
 
             const collegeName = subDirectoryFinder(param);
-            console.log('cc',collegeName);
 
             try {
                 await fetch('/navbar-items', {
@@ -524,8 +517,6 @@
                     .then(response => response.json())
                     .then(response => {
                         outerJson = response;
-
-                        console.log(outerJson);
                     })
                     .catch(e => console.error(e));
             } catch (e) {
@@ -538,11 +529,7 @@
 
         function fetchOuterNav(id) {
 
-            console.log('outer',outerJson);
-
             let item = outerJson.find(item => item.id == id);
-            console.log('id',id,'item',item);
-
             return {
                 title: item.text,
                 img: item.imageURL
@@ -573,7 +560,6 @@
                 }
 
                 const items = await response.json();
-                console.log(items);
                 innerJson = items; // Assign response data to innerJson
 
                 // Optionally refresh the menubar or other UI elements
@@ -593,8 +579,6 @@
             const method = 'POST'; // HTTP method`
             const collegeName = subDirectoryFinder(param);
 
-            console.log(collegeName);
-
             // Make the fetch request
             fetch(url, {
                     method: method,
@@ -611,7 +595,6 @@
                 .then(data => {
                     // If update is successful, refresh the navbar items
                     resetMenubar();
-                    console.log(data);
                     toastr.success('Navbar item updated successfully!'); // Show success message
                 })
                 .catch(error => {
@@ -666,10 +649,6 @@
         // Generate the hierarchy
         function generateHierarchy(data, parentElement, path = [], level = 0) {
 
-
-            console.log(data);
-
-
             // Iterate over each key in the data object
             for (const category in data) {
                 const categoryElement = document.createElement('div');
@@ -702,7 +681,6 @@
 
                 } else {
                     // Fetch the item for path 0
-                    console.log(category);
                     const item = fetchOuterNav(category);
                     let basePath = String(window.location.href);
                     let index = basePath.indexOf('navbar-admin');
@@ -1157,7 +1135,6 @@
         //function to refresh the menubar after update
         function resetMenubar() {
             hierarchyElement.innerHTML = '';
-            console.log(innerJson);
             generateHierarchy(innerJson, hierarchyElement);
         }
 
