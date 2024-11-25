@@ -43,7 +43,7 @@ use App\Http\Controllers\AlumnifeedbackController;
 use App\Http\Controllers\EmployerFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
-
+use App\Http\Controllers\NavbarJsonController;
 
 
 /*
@@ -60,6 +60,24 @@ use App\Http\Controllers\SitemapController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+// Route to fetch navbar data for outside json(GET request)
+Route::post('/navbar-items', [NavbarJsonController::class, 'getNavbarItems']); 
+// Route to update navbar data (POST request) - Accepts modified JSON data
+Route::post('/navbar-items/update', [NavbarJsonController::class, 'update']); 
+                         
+// Route to fetch Inner Json for navbar 
+Route::post('/university-inner-navbar', [NavbarJsonController::class, 'getNavbarInnerItems']);
+
+// Route to update the Inner Json for navbar 
+Route::post('/university-inner-navbar/update', [NavbarJsonController::class, 'updateInner']);
+
+
+// Route to fetch the University admin panel page
+Route::get('/navbar-admin/{college}', function ($college) {
+    // Pass the college name to the view
+    return view('/university/admin/navbar_admin', compact('college'));
+});
 
 Route::get('centre-of-jain-studies', [JainStudiesController::class, 'jain_studies_home'])->name('jain.studies.home');
 
