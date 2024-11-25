@@ -15,8 +15,6 @@ try {
     // Get json name according to it's directory name
     let jsonName = subDirectoryFinder(subDirectory);
 
-    // console.log(jsonName);
-
     if (domainName == 'localhost' || domainName == "127.0.0.1") {
         domainName += ':8000';
     }
@@ -92,10 +90,8 @@ async function fetchAndCacheData() {
         let response = await fetch(path);
         const collegeData = await response.json(); // Parse the JSON data
         
-        console.log('before',path);
         // Assuming you want the 'menubarData.json' to be located relative to the current path
         let mainPath = path.slice(0, path.lastIndexOf('/'));
-        console.log('after',path);
         mainPath += '/menubarData.json';
         const response2 = await fetch(mainPath);
         const universityData = await response2.json();
@@ -105,11 +101,6 @@ async function fetchAndCacheData() {
         
         // saving it in local cache 
         setCacheWithExpiry(`${subDirectory}menubarjson`,cachedData,60000);
-        
-        // Log the cached data for debugging
-        console.log(cachedData);
-
-        
         
         return cachedData;
     } catch (err) {
@@ -179,12 +170,7 @@ let menubarFirstview = {};
 
             let collegeName = subDirectory.replaceAll('-',' ');
             let htmlString = `<h2 class="nav-headings " >${collegeName}</h2>`;
-
-            // let json = response.json();
-            console.log(response);
-
             htmlString += await convertJsonToHtml(response);
-
             menubarFirstview[subDirectory] = htmlString
 
         })
@@ -401,9 +387,7 @@ async function showSubCategories(value) {
 
             box.innerHTML = `<ul>${htmlContent}</ul>`;
 
-        } else {
-            console.log("Category not found or not in the expected format.");
-        }
+        } 
     } catch (err) {
         console.error(err);
     }
@@ -507,7 +491,7 @@ async function openSubMenuContent(value, menu, listItem) {
         listItem.classList.remove('underline__effect');
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -560,7 +544,7 @@ async function showSubMenuCourse(value, menu, subMenu, listItem) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -616,7 +600,7 @@ async function showSubMenuCourseMobile(value, menu, subMenu) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -752,7 +736,7 @@ async function openSubMenuContentMobile(value, menu) {
 
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 

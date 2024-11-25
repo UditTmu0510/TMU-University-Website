@@ -192,9 +192,7 @@ async function showSubCategories(value) {
 
             box.innerHTML = `<ul>${htmlContent}</ul>`;
 
-        } else {
-            console.log("Category not found or not in the expected format.");
-        }
+        } 
     } catch (err) {
         console.error(err);
     }
@@ -299,14 +297,13 @@ async function openSubMenuContent(value, menu, listItem) {
         listItem.classList.remove('underline__effect');
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
 // function to show sub-sub-sub menu (courses list)
 async function showSubMenuCourse(value, menu, subMenu, listItem) {
     try {
-        // console.log('hi');
         const box = document.getElementById('menubar__submenu_courses');
         box.innerHTML = '';
 
@@ -357,7 +354,7 @@ async function showSubMenuCourse(value, menu, subMenu, listItem) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -414,7 +411,7 @@ async function showSubMenuCourseMobile(value, menu, subMenu) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -443,10 +440,7 @@ function scrollToBottom(element) {
 function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
 
-    // console.log(path);
-
     let menu = path.replace('menubarData.json','navbarData.json');
-    // console.log(menu);
 
     // To take care of it to work on live as well as local system
     let basePath = '';
@@ -459,8 +453,6 @@ function resetMainMenubar() {
     {
         basePath = `https://${domainName}`;
     }
-
-    console.log('base',basePath);
 
     // Fetch the navbar data from the JSON file
     fetch(menu)
@@ -541,7 +533,7 @@ async function openSubMenuContentMobile(value, menu) {
 
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -690,7 +682,6 @@ async function fetchAndCacheData() {
     try {
         const response = await fetch(path);
         cachedData = await response.json();
-        // console.log(cachedData);
     } catch (err) {
         console.error('Error fetching data:', err);
     }
@@ -698,7 +689,6 @@ async function fetchAndCacheData() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Call your function here
-    // console.log('called'); 
     fetchAndCacheData();
 });
 
@@ -1301,8 +1291,6 @@ document.getElementById('success-stories-popup').addEventListener('click', funct
     const popupContent = document.querySelector('.popup-content');
     const iFrame = popup.querySelector('iframe');
     iFrame.setAttribute('src', "");
-
-    // console.log(event.target);
 
     if (event.target !== popupContent) {
         popup.style.display = 'none';
