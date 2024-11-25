@@ -9,8 +9,6 @@
             "Organogram": { "link": "/tmu/university-organogram" },
             "Administration": { "link": "/tmu/university-administration" },
             "Policies": { "link": "/tmu/policies-sops" },
-            "Why Choose TMU": { "link": "/tmu/why-tmu" },
-            "Campus Map & Location": { "link": "/tmu/virtual-tour" },
             "Circulars": { "link": "/tmu/cbcs-circulars" }
         },
         "Executive Desk": {
@@ -33,11 +31,11 @@
         "FINE ARTS": { "link": "/college-of-fine-arts" },
         "EDUCATION": { "link": "/faculty-of-education" },
         "PHYSICAL EDUCATION": { "link": "/tmimt-college-of-physical-education"},
-        "AGRICULTURE": { "link": "/college-of-agriculture-sciences" },
-        "JAIN STUDIES": { "link": "/centre-of-jain-studies" }
+        "AGRICULTURE": { "link": "/college-of-agriculture-sciences" }
     },
     "9420": {
         "undergraduate": {
+
             "Medical": {
                 "MBBS": {
                     "link": "/programme/mbbs"
@@ -51,72 +49,73 @@
                 "B.Sc. Medical in Biochemistry": {
                     "link": "/programme/BSc-Medical-in-Biochemistry"
                 }
+
             },
             "Dental": {
-                "Bachelor of Dental Surgery (BDS)": {
+                "BDS (Bachelor of Dental Surgery)": {
                     "link": "/programme/BDS-course-details"
                 }
             },
             "Computer Sciences & IT": {
-                "BCA": {
-                    "link": "/programme/bachelor-of-computer-application-programme"
+                "":{
+                        "link":"/programme/"
                 },
-                "B.Tech. (Computer Science & Engineering)": {
-                    "link": "/programme/b-tech-in-computer-science-and-engineering"
+                
+                
+                "BCA Bachelor of Computer Applications in Cloud Technology and Information Security":{
+                        "link":"/programme/bca-in-cloud-technology-information-security-programme-in-collaboration-with-i-nurture-programme"
+                },
+                "BCA Bachelor of Computer Applications in Digital Marketing":{
+                        "link":"/programme/bca-in-digital-marketing"
+                },
+                "BCA Bachelor Of Computer Applications":{
+                        "link":"/programme/bachelor-of-computer-application-programme"
                 },
                 "B.Tech. (Computer Science & Engineering) with specialisation in Data Science (In collaboration with TCS- iON)": {
                     "link": "/programme/b-tech-cse-in-data-science-collaboration-with-tcs-ion-programme"
                 },
-                "B.Tech. CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
+                "B.Tech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
                     "link": "/programme/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning"
                 },
-                
-                "B.Tech. CSE with specialisation in Application Development using Cloud and Analytics Platforms (In collaboration with IBM)": {
-                    "link": "/programme/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
+
+                "B.Tech CSE with specialisation in Application Development using Cloud and Analytical Platform (In collaboration with IBM)":{
+                        "link":"/programme/b-tech-cse-in-application-development-using-cloud-and-analytical-platform"
                 },
-                "B.Sc. (H) Computer Science with Research": {
-                    "link": "/programme/bsc-hons-computer-science-with-research"
+                "B.Tech CSE with specialisation in Cloud Analytics Platform":{
+                        "link":"/programme/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
                 },
-                "B.Sc. (Animation)": {
-                    "link": "/programme/bsc-in-animation"
+
+                "B.Sc.-(H) Computer Science with Research": {
+                    "link": "/programme/b-sc-hons-in-computer-science-programme"
                 },
-                "BCA with specialisation in Cloud Technology & Information Security (In Collaboration with iNurture) - (Offered till 2023-2024)": {
-                    "link": "#"
+                "B.Sc.-(H) Computer Science": {
+                    "link": "/programme/b-sc-hons-in-computer-science-programme"
                 },
-                "BCA with specialisation in Mobile Application & Web Technology (In collaboration with iNurture) - (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "B.Tech. CSE with specialisation in Artificial Intelligence (In collaboration with iNurture) - (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "B.Tech CSE with specialisation in Cloud Technology & Information Security  (In collaboration with iNurture) - (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "B.Tech. (Computer Science & Engineering)  with specialisation in Data Science ( In collaboration with i-Nurture) - (Offered till 2023-2024)": {
-                    "link": "#"
-                }
+                "B.Sc. (Animation) ": { "link": "/programme/bsc-in-animation" }
             },
             "Agriculture Science": {
-                "B.Sc. (H) Agriculture": {
+                "B.Sc.(H) Agriculture": {
                     "link": "/programme/bsc-hons-agriculture"
                 }
             },
             "Pharmacy": {
-                "B.Pharm.": {
+                "B. Pharm. (Bachelor of Pharmacy": {
                     "link": "/programme/bachelor-of-pharmacy"
                 }
             },
             "Nursing": {
-                "B.Sc. (N)": {
+                "B.Sc. Nursing": {
                     "link": "/programme/bsc-nursing"
                 }
+
             },
             "Education": {
-                "B.Ed.": {
-                    "link": "/programme/bachelor-of-education-b-ed"
-                }
-                
-            },
+                "B.Ed. (Bachelor of Education)": { "link": "/programme/bachelor-of-education-b-ed"},
+                "B.Sc. (ZBC with PCM)": { "link": "/programme/bsc-pcm-zbc" },
+                "B.A. Bachelor of Art": { "link":"programme/bachelor-of-arts-programme"},
+                "B.El.ED":{ "link":"programme/b-el-ed-programme"}
+                },
+            
             "Engineering": {
                 "B.Tech. (Mechanical Engineering)": {
                     "link": "/programme/b-tech-in-mechanical-engineering"
@@ -130,29 +129,30 @@
                 "B.Tech. (Civil Engineering)": {
                     "link": "/programme/b-tech-in-civil-engineering-programme"
                 },
-                "B.Tech. Computer & Communication Engineering": {
-                    "link": "/programme/btech-computer-and-communication-engineering"
+                "B.Tech. (Computer & Communication Engineering)" :{
+                    "link":"/programme/btech-computer-and-communication-engineering"
                 },
-                "B.Tech. ECE - Internet of Things (IoT) (In collaboration with TCS iON)": {
-                    "link": "/programme/btech-ece-internet-of-things"
-                },
-                "B.Sc. (Hons.) (Physics) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "B.Sc. (Hons.) (Chemistry) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "B.Sc. (Hons.) ( Mathematics) (Offered till 2023-2024)": {
-                    "link": "#"
+                "B.Tech. (ECE Internet of Things) (in Collaboration with TCS iON)" :{
+                    "link":"/programme/btech-ece-internet-of-things"
                 }
             },
             "Fine Arts": {
-                "Bachelor of Fine Arts (B.F.A.)": {
+                "BFA (Bachelor of Fine Arts)": {
                     "link": "/programme/bachelor-of-fine-arts-programme"
                 }
             },
             "Management": {
-                "B.Com. (Hons.)": {
+
+                "B.Com. (Hons) with Research in Business Analytics":{
+                   "link": "/programme/BCom-in-business-analytics" 
+                },
+                "B.Com. (Hons) with Research in Tax Law & Ethics":{
+                   "link": "/programme/bcom-in-text-laws" 
+                },
+                "B.Com. (Hons) with Research in Finance":{
+                   "link": "/programme/bcom-hons-research-finance" 
+                },
+                "B.Com. (Hons.) ": {
                     "link": "/programme/bachelor-of-commerce-b-com-honours-programme"
                 },
                 "B.Com. Fintech & Blockchain Technologies with Whizhack Technologies": {
@@ -161,57 +161,58 @@
                 "B.Com. (Pass)": {
                     "link": "/programme/bcom-pass"
                 },
-                "B.B.A. in Data Analytics": {
-                    "link": "/programme/bba-in-data-analytics"
+                "BBA (Hons) with Research in Marketing": {
+                    "link":"/programme/bba-in-research-marketing"
                 },
-                "B.B.A.": {
-                    "link": "/programme/bachelor-of-business-administration-bba"
+                "BBA (Hons) with Research in HR": {
+                    "link":"/programme/bba-human-resources"
                 },
-                "BBA in International Business & Entrepreneurship": {
+                "BBA (Hons) with Research in Finance": {
+                    "link":"/programme/bba-hons-in-finance"
+                },
+                "BBA (Hons) with Research in Digital Marketing": {
+                    "link":"/programme/bba-in-digital-marketing"
+                },
+                "BBA in International Business & Entreprenuership": {
                     "link": "/programme/bba-in-international-business-entrepreneurship-programme"
                 },
-                "B.Com. (Hons.) (Offered till 2023-2024)": {
-                    "link": "#"
+                "BBA in Data Anlytics ": {
+                    "link": "/programme/bba-in-data-analytics"
                 },
-                "B.Com.(H) in Financial Markets in collaboration with BSE (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "BBA- with specialisation in International Business &Entrepreneurship(In Collaboration With UR Services) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "BBA in Brand Management & communication in collaboration with iNurture (Offered till 2023-2024)": {
-                    "link": "#"
+                "BBA (Bachelor of Business Administration":{
+                    "link": "/programme/bachelor-of-business-administration-bba"
                 }
             },
+
             "Paramedical": {
-                "Bachelor of Optometry": {
+                "B.Optom. (Bachelor of Optometry)": {
                     "link": "/programme/bachelor-of-optometry-b-optom"
                 },
-                "B.Sc. in Forensic Sciences": {
+                "B.Sc (Forensic Sciences) Postmortem Facility": {
                     "link": "/programme/bsc-forensic-science"
                 },
-                "B.Sc. in Medical Laboratory Techniques ": {
-                    "link": "/programme/bsc-in-medical-lab-technique"
+                "BMLT (B.SC. IN Medical Lab Technology)": {
+                    "link": "/programme/bsc-in-medical-lab-technology"
                 },
-                "B.Sc. in Medical Radiology Imaging Techniques ": {
+                "BRIT (B.SC. IN Medical Radiography Imaging Techniques)": {
                     "link": "/programme/bsc-in-radiology"
                 }
             },
+
             "Physical Education": {
-                "B.P.E.S": {
+                "B.P.ES (Bachelor of Physical Education & Sports)": {
                     "link": "/programme/bpes-programme"
                 },
-                "B.P.Ed.": {
+                "B.P.ED (Bachelor of Physical Education)": {
                     "link": "/programme/bachelor-of-physical-education-bped-programme"
                 }
             },
             "Physiotherapy": {
-                "Bachelor of Physiotherapy (BPT)": {
+                "BPT (Bachelor of Physiotherapy)": {
                     "link": "/programme/bachelor-of-physiotherapy-programme"
                 }
             }
         },
-
         "postgraduate": {
             "Medical": {
                 "M.Sc. Medical in Anatomy": {
@@ -229,70 +230,70 @@
                 "M.Sc. Medical in Microbiology": {
                     "link": "/programme/MSc-Medical-in-Microbiology"
                 },
-                "MS (ENT/Oto-Rhinolaryngology)": {
+                "MS Medical in ENT/Oto-Rhinolaryngology": {
                     "link": "/programme/ms-ent-oto-rhinlaryngology"
                 },
-                "MS (General Surgery)": {
+                "MS Medical in General Surgery": {
                     "link": "/programme/ms-general-surgery"
                 },
-                "MS (Ophthalmology)": {
+                "MS Medical in Ophthalmology": {
                     "link": "/programme/ms-ophthalomology"
                 },
-                "MS (Orthopaedics)": {
+                "MS Medical in Orthopaedics": {
                     "link": "/programme/ms-orthopaedics"
                 },
-                "MD (Radio-Diagnosis/Radiology)": {
+                "MD Radio-Diagnosis/Radiology": {
                     "link": "/programme/md-radio-diagnosis-radiology"
                 },
-                "MD (Dermatology, Venereology & Leprosy)": {
+                "MD (Dermatology, Venereology & Leprosy": {
                     "link": "/programme/md-dermatology-venereology-and-leprosy"
                 },
-                "MD (General Medicine)": {
+                "MD General Medicine": {
                     "link": "/programme/md-general-medicine"
                 },
-                "MD (Paediatrics)": {
+                "MD Paediatrics": {
                     "link": "/programme/md-paediatrics"
                 },
-                "MD (Respiratory Medicine/TB & Chest)": {
+                "MD Respiratory Medicine/TB & Chest": {
                     "link": "/programme/md-respiratory-medicine-tb-and-chest"
                 },
-                "MD (Psychiatry)": {
+                "MD Psychiatry": {
                     "link": "/programme/md-psychiatry"
                 },
-                "MD (Anesthesiology)": {
+                "MD Anesthesiology": {
                     "link": "/programme/md-anesthesiology"
                 },
-                "MD (Pathology)": {
+                "MD Pathology": {
                     "link": "/programme/md-pathology"
                 },
-                "MD (Biochemistry)": {
+                "MD Biochemistry": {
                     "link": "/programme/md-biochemistry"
                 },
-                "MD (Microbiology)": {
+                "MD Microbiology": {
                     "link": "/programme/md-microbiology"
                 },
-                "MD (Community Medicine)": {
+                "MD Community Medicine": {
                     "link": "/programme/md-community-medicine"
                 },
-                "MD (Pharmacology)": {
+                "MD Pharmacology": {
                     "link": "/programme/md-pharmacology"
                 },
-                "MD (Anatomy)": {
+                "MD Anatomy": {
                     "link": "/programme/md-anatomy"
                 },
-                "MD (Physiology)": {
+                "MD Physiology": {
                     "link": "/programme/md-physiology"
                 },
-                "MD (Forensic Medicine)": {
+                "MD Forensic Medicine": {
                     "link": "/programme/md-forensic-medicine"
                 }
             },
-
+            
             "Dental": {
                 "MDS (Conservative Dentistry and Endodontics)": {
                     "link": "/programme/mds-conservation-dentistry-programme"
                 },
-                "MDS (Oral and Maxillo facial Surgery)": {
+                "MDS (Oral and Maxillofacial Surgery)": {
                     "link": "/programme/mds-oral-maxillofacial-surgery"
                 },
                 "MDS (Orthodontics and Dentofacial Orthopedics)": {
@@ -319,155 +320,138 @@
             },
 
             "Nursing": {
-                "M.Sc.(N) in Medical Surgical Nursing": {
+                "M.Sc. Nursing in Medical Surging": {
                     "link": "/programme/msc-medical-surgical-nursing"
                 },
-                "M.Sc.(N) in Paediatrics Nursing": {
+                "M.Sc. Nursing in Paediatrics": {
                     "link": "/programme/msc-in-paediatric-nursing"
                 },
-                "M.Sc.(N) in Obstectrics & Gynecology Nursing": {
+                "M.Sc. Nursing in Medical Surging Obstectrics & Gynecology": {
                     "link": "/programme/msc-in-gynaecology"
                 },
-                "M.Sc.(N) in Communty Health Nursing": {
+                "M.Sc. Nursing in Communty Health": {
                     "link": "/programme/msc-in-community-health-nursing"
                 },
-                "M.Sc.(N) in Psychiatry Nursing": {
+                "M.Sc. Nursing in Psychiatry": {
                     "link": "/programme/msc-in-psychiatry-nursing"
                 }
             },
 
             "Computing Sciences & IT": {
+                "Master of Computer Applications (MCA) in Software Development ": {
+                    "link": "/programme/master-of-computer-application-in-software-development"
+                },
+                "Master of Computer Applications (MCA) in Machine Learning": {
+                    "link": "programme/mca-in-machine-learning"
+                },
+                "Master of Computer Applications (MCA) in Network Technologies ": {
+                    "link": "/programme/mca-in-network-technologies"
+                },
+                "Master of Computer Applications (MCA) in Data Science & Analytics ": {
+                    "link": "/programme/MCA-in-Data-Science"
+                },
+                "Master of Computer Applications (MCA) in Advance Technologies": {
+                    "link": "/programme/MCA-advance-technologies"
+                },
                 "Master of Computer Applications (MCA) ": {
                     "link": "/programme/mca-programme"
                 },
                 "M. Tech. (Computer Science & Engineering)": {
                     "link": "/programme/mtech-computer-science-engineering"
                 }
+                
             },
 
             "Engineering": {
-                "M.tech. in (Additive Manufacturing)": {
+                "Master of Technology (M.tech.) in Additive Manufacturing": {
                     "link": "/programme/mtech-additive-manufacturing"
                 },
-                "M.tech. in (Machine Learning & Data Science)": {
+                "Master of Technology (M.tech.) in Machine Learning & Data Science": {
                     "link": "/programme/mtech-machine-learning-data-science"
                 },
-                "M.tech. in (Electrical Power & Energy System)": {
+                "Master of Technology (M.tech.) in Electrical Power & Energy System": {
                     "link": "/programme/mtech-electrical-power-energy-system"
                 },
-                "M.tech. in (Structural & Construction)": {
+                "Master of Technology (M.tech.) in Structural & Construction": {
                     "link": "/programme/mtech-structural-and-construction-engineering"
-                },
-                "M.Sc. (Hons.) (Physics) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "M.Sc. (Hons.) (Chemistry) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "M.Sc. (Hons.) ( Mathematics) (Offered till 2023-2024)": {
-                    "link": "#"
                 }
             },
 
             "Education": {
-                "M.Ed. ": {
+                "M.Ed. (Master of Education)": {
                     "link": "/programme/masters-of-education-m-ed"
                 }
             },
 
             "Fine Arts": {
-                "Masters of Fine Arts (M.F.A.)": {
+                "MFA (Masters of Fine Arts)": {
                     "link": "/programme/MFA-Program"
                 }
             },
             "Management": {
-                "Master of Business Administration (Specialization in Agri-Business Management) ": {
-                    "link": "/programme/mba-in-agri-business"
-                },
-                "MBA Hospital Management ": {
-                    "link": "/programme/mba-in-hospital-management-mba-programme"
-                },
-                "MBA Cyber Security with Whizack Technologies": {
-                    "link": "/programme/mba-cyber-security"
-                },
-                "MBA in Various Specialisation": {
-                    "link": "/programme/mba-marketing-hr-ib-finance"
-                },
-                "MBA with specialisation in Handicraft Export Management (in Collaboration with EPCH) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "MBA-(Corporate) (In collaboration with UR services) (Offered till 2023-2024)": {
-                    "link": "#"
-                },
-                "MBA with specialisation in Logistics & Supply Chain Management (In collaboration with safeducate) (Offered till 2023-2024)": {
-                    "link": "#"
-                }
+                "Master of Business Administration (MBA) in Marketing": { "link": "/programme/mba-in-marketing-programme" },
+                "Master of Business Administration (MBA) in HR": { "link": "/programme/mba-in-hr" },
+                "Master of Business Administration (MBA) in International Business": { "link": "/programme/mba-international-business" },
+                "Master of Business Administration (MBA) in Finance": { "link": "/programme/mba-in-finance" },
+                "Master of Business Administration (Specialization in Agri-Business Management) ": { "link": "/programme/mba-in-agri-business" },
+                "Master of Business Administration Hospital Management ": {"link": "/programme/mba-in-hospital-management-mba-programme"},
+                "Master of Business Administration Cyber Security (in Collaboration with Whizack Technologies)":{ "link":"/programme/mba-cyber-security"},
+                "Master of Business Administration Coporate with Global Exposure (Free Tablet)":{ "link":"/programme/mba-in-industry-integrated-with-global-exposure-programme"},
+                "MBA in Various Specialisation":{ "link":"/programme/mba-marketing-hr-ib-finance"},
+                "Master of Business Administration (MBA) in Handicraft Export Management":{ "link":"/programme/mba-in-handicraft-export-management-programme"},
+                "Master of Business Administration (MBA) in Evening":{ "link":"/programme/master-of-business-administration-mba-executive-programme"},
+                "Master of Business Administration (MBA) in Executive":{ "link":"/programme/master-of-business-administration-mba-evening-programme"}
             },
 
             "Paramedical": {
-                "M.Sc. in Forensic Science": {
+                "M.Sc (Forensic Science)": {
                     "link": "/programme/MSc-Forensic-Science"
                 },
-                "M.Sc. in Medical Laboratory Techniques": {
+                "M.Sc (Medical Laboratory Techniques)": {
                     "link": "/programme/msc-medical-lab-technology"
                 },
-                "M.Sc. in Optometry": { "link": "/programme/msc-in-optometry" },
-                "M.Sc. in Radiological & Imaging Techniques": {
+                "M.Sc (Optometry)": { "link": "/programme/msc-in-optometry" },
+                "M.Sc (Radiological Imaging Techniques)": {
                     "link": "/programme/msc-in-radiology"
                 }
             },
             "Pharmacy": {
-                "Pharm.D. PB": {
+                "Pharm.D. Post Baccalaureate": {
                     "link": "/programme/pharm-d-pb-post-baccalaureate"
                 },
-                "M. Pharm. - Pharmacology": {
+                "M. Pharm. in Pharmacology": {
                     "link": "/programme/m-pharm-pharmacology"
                 },
-                "M. Pharm. - Pharmacognosy": {
+                "M. Pharm. in Pharmacognosy": {
                     "link": "/programme/M-pharm-pharmacognosy"
                 },
-                "M. Pharm.- Pharmaceutical Analysis": {
+                "M. Pharm. in Pharmacuetical Analysis": {
                     "link": "/programme/m-pharm-pharmaceutical-analysis"
                 }
             },
             "Physical Education": {
-                "M.P.Ed": {
+                "M.P.ED (Bachelor of Physical Education)": {
                     "link": "/programme/mped-programme"
                 }
             },
             "Physiotherapy": {
-                "Master of Physiotherapy (Orthopaedics)": {
-                    "link": "/programme/mpt-in-orthopaedics"
-                },
-                "Master of Physiotherapy (Neurosciences)": {
-                    "link": "/programme/mpt-in-neurosciences"
-                },
-                "Master of Physiotherapy (Cardiopulmonary)": {
-                    "link": "/programme/mpt-in-cardiopulmonary"
-                },
-                "Master of Physiotherapy (Sports)": {
-                    "link": "/programme/mpt-in-Sports"
-                },
-                "Master of Physiotherapy (Paediatrics)": {
-                    "link": "/programme/MPT-or-Master-of-Physiotherapy-Gynaecology"
-                },
-                "Master of Physiotherapy (Gynaecology)": {
-                    "link": "/programme/mpt-or-Master-of-physiotherapy-Paediatrics"
+                "MPT (Masters of Physiotherapy)": {
+                    "link": "/programme/master-of-physiotherapy-mpt-programme"
                 }
             },
             "Agriculture": {
-                "M.Sc. - Agronomy": {
+                "M.Sc. (Master of Science in Agronomy )": {
                     "link": "/programme/master-of-science-in-agronomy-programme"
                 },
-                "M.Sc. - Plant Pathology": {
-                    "link": "/programme/msc-plant-pathology"
+                "M.Sc. (Master of Science in Plant Pathology )":{
+                    "link":"/programme/msc-plant-pathology"
                 },
-                "M.Sc. - Soil Science": {
-                    "link": "/programme/msc-soil-science"
+                "M.Sc. (Master of Science in Soil Sciences )":{
+                    "":"/programme/msc-soil-science"
                 }
             },
             "Law": {
-                "LL.M.": {
+                "LLM (Masters of Law )": {
                     "link": "/programme/masters-of-law-llm-programme"
                 }
             }
@@ -475,14 +459,11 @@
 
         "integrated": {
             "Education": {
-                "B.A.-B.Ed. (4 years Integrated)": {
+                "B.A-B.ED (Integrated)": {
                     "link": "/programme/ba-bed-integrated"
                 },
-                "B.Sc.-B.Ed. (4 years Integrated)": {
+                "B.SC-B.ED (Integrated)": {
                     "link": "/programme/b-sc-b-ed-integrated-programme"
-                },
-                "B.El.Ed.": {
-                    "link": "/programme/b-el-ed-programme"
                 }
             },
             "Law & Legal Studies": {
@@ -552,10 +533,10 @@
             "link": "/assets/pdf/anti_ragging_policy/anti-ragging-policy.pdf"
         },
         "Anti-Ragging Committee": { "link": "/tmu/anti-ragging-committee" },
-        "University Academic Calendar": {
+        "University Academic Calender": {
             "link": "/tmu/university-academic-calender"
         },
-        "University Sports Calendar": {
+        "University Sports Calender": {
             "link": "/tmu/university-sport-calender"
         },
         "NSS Unit": { "link": "/nss-about" },

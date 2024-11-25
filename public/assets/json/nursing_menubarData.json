@@ -1,72 +1,72 @@
 {
     "1": {
-        "link": "/college-of-nursing"
+        "link": "\/college-of-nursing"
     },
     "2": {
         "Overview": {
-            "link": "/college-of-nursing/about-us"
+            "link": "\/college-of-nursing\/about-us"
         },
         "College Highlights": {
-            "link": "/college-of-nursing/college-highlight"
+            "link": "\/college-of-nursing\/college-highlight"
         },
         "Dean's Desk": {
-            "link": "/college-of-nursing/dean"
+            "link": "\/college-of-nursing\/dean"
         },
         "Principal's Desk": {
-            "link": "/college-of-nursing/principal"
+            "link": "\/college-of-nursing\/principal"
         },
         "Gallery": {
-            "link": "/college-of-nursing/gallery"
+            "link": "\/college-of-nursing\/gallery"
         },
         "College Advisory Board": {
-            "link": "/college-of-nursing/college-advisory-board"
+            "link": "\/college-of-nursing\/college-advisory-board"
         }
     },
     "3": {
         "Syllabus": {
-            "link": "/college-of-nursing/syllabus"
+            "link": "\/college-of-nursing\/syllabus"
         },
         "Academic Calendar": {
-            "link": "/college-of-nursing/academic-calendar"
+            "link": "\/college-of-nursing\/academic-calendar"
         },
         "Department": {
-            "link": "/college-of-nursing/department"
+            "link": "\/college-of-nursing\/department"
         }
     },
     "4": {
         "Training Placement Cell": {
-            "link": "/college-of-nursing/training-placement-cell"
+            "link": "\/college-of-nursing\/training-placement-cell"
         },
         "Corporate Advisory Board": {
-            "link": "/college-of-nursing/corporate-advisory_board"
+            "link": "\/college-of-nursing\/corporate-advisory_board"
         },
         "Placements Calender": {
-            "link": "/college-of-nursing/placement-calendar"
+            "link": "\/college-of-nursing\/placement-calendar"
         },
         "Placements News": {
-            "link": "/college-of-nursing/placement-news"
+            "link": "\/college-of-nursing\/placement-news"
         }
     },
     "5": {
         "Time Table": {
-            "link": "/college-of-nursing/time-table"
+            "link": "\/college-of-nursing\/time-table"
         },
         "Old Exam Papers": {
-            "link": "https://library.tmu.ac.in/"
+            "link": "https:\/\/library.tmu.ac.in\/"
         },
         "Anti Ragging Committee": {
-            "link": "/college-of-nursing/anti-ragging-committee"
+            "link": "\/college-of-nursing\/anti-ragging-committee"
         }
     },
     "6": {
         "Guest lecture": {
-            "link": "/college-of-nursing/guest-lecture"
+            "link": "\/college-of-nursing\/guest-lecture"
         },
         "Contact Us": {
-            "link": "/college-of-nursing/contact-us"
+            "link": "\/college-of-nursing\/contact-us"
         }
     },
     "7": {
-        "link": "/college-of-nursing/iqac"
+        "link": "\/college-of-nursing\/iqac"
     }
 }

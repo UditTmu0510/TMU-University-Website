@@ -104,7 +104,7 @@ async function fetchAndCacheData() {
         cachedData = { ...collegeData, ...universityData };  // Correct way to add mainPath to cachedData
         
         // saving it in local cache 
-        setCacheWithExpiry(`${subDirectory}menubarjson`,cachedData,3600000);
+        setCacheWithExpiry(`${subDirectory}menubarjson`,cachedData,60000);
         
         // Log the cached data for debugging
         console.log(cachedData);
