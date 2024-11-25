@@ -7,7 +7,7 @@
             <h1 class="tmu-text-primary tmu-page-heading"><span>Message from the </span><span>Principal's Desk</span></h1>
             <div class="quote-box mx-auto">
                 <div class="profile-image mb-2">
-                    <img src="{{asset('/assets/img/principal/paramedical/7.png')}}" alt="Profile Image">
+                    <img src="{{asset('/assets/img/principal/paramedical/navneet.jpg')}}" alt="Profile Image">
                 </div>
                 <div class="quote-text mt-4 mt-md-0">
                     <p class="text-justify text-dark fs-14 mb-2">Paramedical Sciences is an integral part of the health care system. Our college is equipped with efficient training faculties to make the students reach a level of competency that is par with the best in the region.
