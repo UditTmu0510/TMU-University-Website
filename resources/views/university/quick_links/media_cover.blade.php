@@ -10,6 +10,102 @@
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/ieee.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                        टीएमयू आईईईई के टेक्नोफ़ेस्ट में हुनर का जलवा
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="https://samarsaleel.com/talent-shines-in-tmu-ieee-technofest/427015" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/physiolympic.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                    टीएमयू में फिजियो ओलंपिक का रंगारंग शुभारंभ
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/samarsaleel.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                    रुखसाद अहमद बने भाग्यशाली विजेता, आज मिलेगा स्मार्टफोन
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="https://epaper.livehindustan.com/Home/ShareArticle?OrgId=1910c99c631b" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/cybertips.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                    साइबर सुरक्षा के क्षेत्र में कॅरिअर के <br> दिए टिप्स
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/mushayera.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                    टीएमयू में किया गया मुशायरे का <br> आयोजन
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/distedu.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">18th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                    टीएमयू में डिस्टेंस एजुकेशन को यूजीसी की हरी झंडी
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/rajaward.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">16th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                        टीएमयू के प्रो. राजुल रस्तोगी की झोली में दो इंटरनेशनल अवार्ड
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
+                        <img src="{{asset('/assets/img/media_coverage/aluaurt.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action">14th <br> Nov</span>
+                    <div class="card-heading mb-4">
+                         एल्युमिनाई शुभम छाबड़ा ने टीएमयू से रिजर्व बैंक ऑफ ऑस्ट्रेलिया तक अनुभव किए साझा
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                <div class="card-sl h-100">
+                    <div class="card-image">
                         <img src="{{asset('/assets/img/media_coverage/sp-convoc.jpg')}}" alt="Media Image" />
                     </div>
                     <span class="card-action">18th <br> Sep</span>
@@ -825,7 +921,7 @@
                         <img src="{{asset('/assets/img/media_coverage/focusaaptak.jpg')}}" alt="Media Image" />
                     </div>
                     <span class="card-action">1st <br> Aug</span>
-                    <div class="card-heading">उत्तर प्रदेश के उप मुख्यमंत्री श्री ब्रजेश पाठक ने टीएमयू हॉस्पिटल को आयुुष्मान सेवाओं में उत्कृष्ट कार्य एवम् सराहनीय योगदान के लिए किया 
+                    <div class="card-heading">उत्तर प्रदेश के उप मुख्यमंत्री श्री ब्रजेश पाठक ने टीएमयू हॉस्पिटल को आयुुष्मान सेवाओं में उत्कृष्ट कार्य एवम् सराहनीय योगदान के लिए किया
                     </div>
                     <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
@@ -1001,7 +1097,7 @@
                         <img src="{{asset('/assets/img/media_coverage/TMU_partners_with_Edu_Brain_Overseas_The_Print_News.jpeg')}}" alt="Media Image" />
                     </div>
                     <span class="card-action">24th <br> Aug</span>
-                    <div class="card-heading mb-3">Teerthanker Mahaveer University and Edu Brain Overseas UAE join hands to empower students 
+                    <div class="card-heading mb-3">Teerthanker Mahaveer University and Edu Brain Overseas UAE join hands to empower students
                     </div>
                     <div class="justify-content-center text-center mb-2"><a href="https://theprint.in/ani-press-releases/teerthanker-mahaveer-university-and-edu-brain-overseas-uae-join-hands-to-empower-students-through-international-internship-opportunities/721190/" target="_blank" class="card-button">Read More!</a></div>
                 </div>
