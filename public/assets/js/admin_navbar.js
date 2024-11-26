@@ -335,6 +335,11 @@ function handleSaveClick() {
     let path = element.getAttribute('data-path');
     let pathArray = JSON.parse(path);
 
+    if (pathArray.length == 0) {
+        createNewCategory(isLink);
+        return;
+    }
+
     if (isLink) {
         let name = document.getElementById('linkName').value;
         let url = document.getElementById('linkURL').value;
@@ -368,10 +373,14 @@ function handleSaveClick() {
 
 // The addCategoryModal function
 function addCategoryModal(element) {
+
+    $('#imageFields').hide();
+
     // Reset the modal fields in case we are adding a new category
     document.getElementById('optionName').value = '';
     document.getElementById('linkName').value = '';
     document.getElementById('linkURL').value = '';
+    document.getElementById('imageUrl').value = '';
     document.getElementById('optionOrLinkToggle').checked = false; // Set to Option by default
 
     // Check if the 'element' is passed (i.e., editing an existing category)
@@ -742,5 +751,66 @@ function updateOrPrintLink(jsonData, pathArray, newLinkValue = null) {
 
     // recursive call to go in given path 
     return updateOrPrintLink(jsonData[val], pathArray, newLinkValue);
+
+}
+
+const addNewCategory = document.getElementById('addNewCategory');
+const cE = `<div class="category" data-path="[]" data-level="0"></div>`;
+addNewCategory.onclick = () => {
+    addCategoryModal(cE);
+    $('#imageFields').show();  
+};
+
+
+// function to create new category in the outer json
+function createNewCategory(isLink) {
+
+    console.log(isLink);
+
+    let ids = outerJson.map(item => item.id);
+
+    let newId = Math.max(...ids) + 1;
+
+    // Ensure the new ID is unique by checking if the id already exists in the array
+    while (ids.includes(newId)) {
+        newId++;
+    }
+
+    let imgURL = document.getElementById('imageUrl').value;
+    console.log('before',imgURL);
+    imgURL = (String(imgURL)).trim();
+    imgURL = imgURL ? imgURL : 'university.svg';
+    console.log('after',imgURL);
+
+    if (isLink) {
+        let name = document.getElementById('linkName').value;
+        let url = document.getElementById('linkURL').value;
+
+        // Add the new Id to outer Json
+        outerJson.push({
+            "id": newId,
+            "text": name,
+            "imageURL": imgURL
+        })
+
+        innerJson[newId] = {
+            "link":url
+        }
+    }
+    else {
+        let name = document.getElementById('optionName').value;
+          // Add the new Id to outer Json
+          outerJson.push({
+            "id": newId,
+            "text": name,
+            "imageURL": imgURL
+        })
+
+        innerJson[newId] = {}
+    }
+
+    resetMenubar();
+    // Close modal after saving
+    $('#addOptionModal').modal('hide');
 
 }

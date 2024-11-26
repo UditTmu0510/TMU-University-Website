@@ -398,7 +398,13 @@
                         </div>
                     </div>
 
-
+                    <div id="imageFields" style="display: none;">
+                        <div class="mb-3">
+                            <label for="imageUrl" class="form-label">Image URL</label>
+                            <input type="url" class="form-control" id="imageUrl" placeholder="default: (university.svg)">
+                        </div>
+                    </div>
+                    
                     <div id="extrainfoModel"></div>
 
                 </div>

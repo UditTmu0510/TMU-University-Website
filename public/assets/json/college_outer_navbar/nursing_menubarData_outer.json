@@ -40,5 +40,20 @@
         "text": "College IQAC",
         "imageURL": "college-iqac.svg",
         "order": 6
+    },
+    {
+        "id": 8,
+        "text": "newone",
+        "imageURL": "university.svg"
+    },
+    {
+        "id": 9,
+        "text": "newlink",
+        "imageURL": "university.svg"
+    },
+    {
+        "id": 10,
+        "text": "Thisone",
+        "imageURL": "home.svg"
     }
 ]
