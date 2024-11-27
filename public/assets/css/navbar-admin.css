@@ -235,3 +235,67 @@ button.edit:hover {
 #linkFields {
     display: none;
 }
+
+
+
+/* Basic Styles for Category Container */
+#sortable-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic Category Styling */
+.category {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: move;
+}
+
+/* Styling for the Title */
+.category-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #eaeaea;
+    border-radius: 3px;
+}
+
+/* Subcategories */
+.subcategory {
+    margin-left: 20px;
+    display: none; /* Hide subcategories by default */
+}
+
+/* Button Group */
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+/* Toggle Button */
+.toggle {
+    background: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Add Button */
+.add, .edit, .edit-link, .delete {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Dragging State */
+.dragging {
+    opacity: 0.5;
+}

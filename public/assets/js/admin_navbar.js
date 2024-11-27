@@ -325,6 +325,65 @@ function generateHierarchy(data, parentElement, path = [], level = 0) {
     }
 }
 
+// Function to convert the DOM back to JSON
+function convertDOMToJSON(parentElement) {
+    const result = {};
+
+    // Traverse each category element
+    parentElement.querySelectorAll('.category').forEach(categoryElement => {
+        const path = JSON.parse(categoryElement.getAttribute('data-path')); // Get the path from data attribute
+        const level = parseInt(categoryElement.getAttribute('data-level')); // Get the level of the category
+
+        // Find the category name (the first child span or link inside category-title)
+        const categoryTitle = categoryElement.querySelector('.category-title');
+        const categoryName = categoryTitle.querySelector('a') ? categoryTitle.querySelector('a').innerText : categoryTitle.querySelector('span').innerText;
+
+        // Initialize category object
+        let categoryData = {};
+
+        // Check if the category has a link (for those with links, link property should be included)
+        const link = categoryTitle.querySelector('a') ? categoryTitle.querySelector('a').href : null;
+        if (link) {
+            let url = link;
+            const parts = url.split('/');
+            categoryData.link = "/" + parts.slice(3).join('/');
+        }
+
+        // Find subcategories (if any) and recursively process them
+        const subcategoryElement = categoryElement.querySelector('.subcategory');
+        if (subcategoryElement && subcategoryElement.style.display !== 'none') {
+            categoryData = { ...categoryData, ...convertDOMToJSON(subcategoryElement) };
+        }
+
+        // Create a nested structure for categories
+        let currentLevel = result;
+        path.forEach((pathSegment, index) => {
+            if (!currentLevel[pathSegment]) {
+                currentLevel[pathSegment] = (index === path.length - 1) ? categoryData : {};
+            }
+            currentLevel = currentLevel[pathSegment];
+        });
+    });
+
+    return result;
+}
+
+// Usage example: Call the function and log the result
+function logUpdatedJson() {
+    const container = document.getElementById('hierarchy');
+    const updatedJson = convertDOMToJSON(container);
+    console.log(JSON.stringify(updatedJson, null, 2)); // Pretty print the JSON
+}
+
+
+setTimeout(() => {
+
+
+
+    logUpdatedJson();
+
+
+}, 1000);
 
 // Define the handleSaveClick function outside the modal logic
 function handleSaveClick() {
@@ -758,7 +817,7 @@ const addNewCategory = document.getElementById('addNewCategory');
 const cE = `<div class="category" data-path="[]" data-level="0"></div>`;
 addNewCategory.onclick = () => {
     addCategoryModal(cE);
-    $('#imageFields').show();  
+    $('#imageFields').show();
 };
 
 
@@ -777,10 +836,10 @@ function createNewCategory(isLink) {
     }
 
     let imgURL = document.getElementById('imageUrl').value;
-    console.log('before',imgURL);
+    console.log('before', imgURL);
     imgURL = (String(imgURL)).trim();
     imgURL = imgURL ? imgURL : 'university.svg';
-    console.log('after',imgURL);
+    console.log('after', imgURL);
 
     if (isLink) {
         let name = document.getElementById('linkName').value;
@@ -794,13 +853,13 @@ function createNewCategory(isLink) {
         })
 
         innerJson[newId] = {
-            "link":url
+            "link": url
         }
     }
     else {
         let name = document.getElementById('optionName').value;
-          // Add the new Id to outer Json
-          outerJson.push({
+        // Add the new Id to outer Json
+        outerJson.push({
             "id": newId,
             "text": name,
             "imageURL": imgURL
