@@ -60,7 +60,7 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>30+ </span>
+                            <span>25+ </span>
                             <br>
                             <span class="d-block pt-1">Labs</span>
                         </div>
@@ -113,7 +113,7 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>30+ </span>
+                                        <span>25+ </span>
                                         <br>
                                         <span class="d-block pt-1">Labs</span>
                                     </div>
@@ -167,20 +167,20 @@
                             <p class="p-0 m-0">It is a hub for academic research and consultancy, fostering expertise by offering a wide range of programmes that equip students with the knowledge and skills needed to excel in the ever-evolving field of pharmacy.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevating the standards of pharmacy education and preparing graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
+                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevate the standards of pharmacy education and prepare graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">The college takes pride in its fully functional Drug Information Centre, which is one of its kind in the state of Uttar Pradesh. This centre serves as a valuable resource and offers an ideal platform for students to enhance their knowledge and develop skills in drug information retrieval and analysis</p>
+                            <p class="p-0 m-0">The college takes pride in its fully functional Drug Information Centre, which is one of its kind in the state of Uttar Pradesh. This centre serves as a valuable resource and offers an ideal platform for students to enhance their knowledge in pharmacovigilance and develop skills in drug information retrieval and analysis.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>The college has a proven track record of successful placements. Our graduates have secured positions in diverse roles and settings, including community pharmacies, hospital pharmacies, pharmaceutical companies, research institutions, regulatory agencies, and academia.
+                    <p class="text-justify">The college has a proven track record of successful placements. Our graduates have secured positions in diverse roles and settings, including community pharmacies, hospital pharmacies, pharmaceutical companies, research institutions, regulatory agencies, and academia.
                         <br><br>
                         Center for Teaching, Learning & Development (CTLD) provides comprehensive career guidance and counselling services to our students in the field of innovation and entrepreneurship.
                         <br><br>
-                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training, our students are well-equipped to showcase their skills and abilities to potential employers.                        
+                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training, our students are well-equipped to showcase their skills and abilities to potential employers.                       
                         <br><br>
                     </p>
                 </div>
@@ -196,7 +196,7 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4">
-                        <li><p class="p-0 m-0">The College of Pharmacy has well-equipped laboratories for General Pharmaceutics, Microbiology, Pharmacology and Toxicology as well as Pharmacognosy and Herbal Medicine with access to sophisticated instruments.</p></li>
+                        <li><p class="p-0 m-0">The College of Pharmacy has well-equipped laboratories for Pharmaceutics, Microbiology, Pharmacology, Analysis and Pharmaceutical Chemistry as well as Pharmacognosy and Herbal Medicine with access to sophisticated instruments.</p></li>
                         <li><p class="p-0 m-0">The major equipment available in this college are IR Spectrophotometer, HPLC, Lyophilizer, Rotary tablet punch, Digital Dissolution apparatus, Brookfield Rheometer, Nephelometer and Plethysmometer.</p></li>
                         <li><p class="p-0 m-0">The smart classrooms with advanced technology and cutting-edge facilities enhance the learning experience, enabling instructors to deliver engaging presentations and interactive sessions.</p></li>
                         <li><p class="p-0 m-0">The college library is a treasure house of pharmaceutical literature and resources. Students have access to an extensive collection of books, journals, research papers, and e-resources, enabling them to stay updated with the latest advancements in the field.</p></li>
