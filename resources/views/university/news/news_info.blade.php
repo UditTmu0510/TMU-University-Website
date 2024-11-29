@@ -140,7 +140,7 @@
 							============================================= -->
                     <div class="entry-image mb-5">
                         <a href="#">
-                            <img src="{{ file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}" alt="Blog Single">
+                        <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}" alt="Blog Single">
                         </a>
                     </div><!-- .entry-image end -->
 
