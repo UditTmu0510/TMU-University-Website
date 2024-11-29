@@ -9,15 +9,34 @@
         </a>
         
         <div class="account-section">
-            <a href="{{ route('pharmacy.home') }}" class="custom-menu-item {{ setActive('pharmacy.home') }}">
-                <p>Home</p>
+            <a href="#about" class="custom-menu-item">
+                <p>About Journal</p>
             </a>
         
-        
-            <a href="{{ route('pharmacy.syllabus') }}" class="custom-menu-item {{ setActive('pharmacy.syllabus') }}">
-                <p>Syllabus</p>
+            <a href="#policies" class="custom-menu-item">
+                <p>Policies</p>
             </a>
-
+            <a href="#editorialboard" class="custom-menu-item">
+                <p>Ediotrial Board</p>
+            </a>
+            <a href="#publications" class="custom-menu-item">
+                <p>Publication Ethics</p>
+            </a>
+            <a href="#authors" class="custom-menu-item">
+                <p>Author Guidelines</p>
+            </a>
+            <a href="#indexing" class="custom-menu-item">
+                <p>Indexing</p>
+            </a>
+            <a href="#issues" class="custom-menu-item">
+                <p>Issues</p>
+            </a>
+            <a href="#manuscript" class="custom-menu-item">
+                <p>Manuscript Submission</p>
+            </a>
+            <a href="#contactus" class="custom-menu-item">
+                <p>Contact Us</p>
+            </a>
         </div>
 
     </div>
