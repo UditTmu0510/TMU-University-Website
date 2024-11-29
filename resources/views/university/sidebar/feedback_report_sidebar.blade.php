@@ -8,7 +8,7 @@
             <a href="{{route('iqac.about')}}" class="custom-menu-item {{ setActive('iqac.about') }}">
    <i class="bi bi-arrow-left-circle" style="color:tmu-color-blue; font-size:20px; padding-top:2px;"></i><p>Back to IQAC Page</p>
 </a>
-             <a href="#FA&ATR" class="custom-menu-item">
+             <a href="#FA-ATR" class="custom-menu-item">
                 <p>Feedback Analysis & ATR</p>
             </a>
             <a href="#FAR" class="custom-menu-item">
