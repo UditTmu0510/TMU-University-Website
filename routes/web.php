@@ -629,6 +629,7 @@ Route::get('/college-of-pharmacy/gallery', [PharmacyController::class, 'pharmacy
 Route::get('/college-of-pharmacy/contact-us', [PharmacyController::class, 'pharmacy_contact_us'])->name('pharmacy.contact.us');
 Route::get('/college-of-pharmacy/college-advisory-board', [PharmacyController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
 Route::get('/college-of-pharmacy/iqac', [PharmacyController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
+Route::get('/college-of-pharmacy/tjpbs', [PharmacyController::class, 'about_tjpbs'])->name('about.tjpbs');
 
 
 // Paramedical

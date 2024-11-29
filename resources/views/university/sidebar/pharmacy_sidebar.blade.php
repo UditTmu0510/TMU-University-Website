@@ -47,6 +47,9 @@
             <a href="{{ route('pharmacy.anti.ragging') }}" class="custom-menu-item {{ setActive('pharmacy.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
             </a>
+            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item {{ setActive('about.tjpbs') }}">
+                <p>Journal</p>
+            </a>
         </div>
         <h2>Quick Link</h2>
         <div class="account-section">
