@@ -1,11 +1,17 @@
 @extends('layouts.university.departments.feedback_report_with_sidebar')
 @section('content')
 
+<style>
+	html {
+    scroll-behavior: smooth!important;
+}
+</style>
+
 <div class="main-content">
 	<div class="container">
 
 		<div class="row mx-0">
-			<h1 class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 pt-md-5" id="FA&ATR"><span>Feedback Analysis & </span><span>
+			<h1 class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 pt-md-5" id="FA-ATR"><span>Feedback Analysis & </span><span>
 					Action Taken Report</span></h1>
 
 			<div class="iqac-container">
@@ -90,7 +96,7 @@
 					</div>
 				</div>
 			</div>
-			<h2 class="tmu-text-primary mb-2 pt-md-5" id="FAR"><span> Feedback Analysis </span><span> Report 2022-21</span></h2>
+			<h2 class="tmu-text-primary mb-2 pt-md-5" ><span> Feedback Analysis </span><span> Report 2022-21</span></h2>
 			<div class="iqac-container">
 				<div class="iqac-card">
 					<div class="card-pdf">
@@ -125,7 +131,7 @@
 					</div>
 				</div>
 			</div>
-			<h2 class="tmu-text-primary mb-2 pt-md-5" id="FAR"><span> Feedback Analysis </span><span> Report 2020-21</span></h2>
+			<h2 class="tmu-text-primary mb-2 pt-md-5" ><span> Feedback Analysis </span><span> Report 2020-21</span></h2>
 			<div class="iqac-container">
 				<div class="iqac-card">
 					<div class="card-pdf">
@@ -160,7 +166,7 @@
 					</div>
 				</div>
 			</div>
-			<h2 class="tmu-text-primary mb-2 pt-md-5" id="FAR"><span> Feedback Analysis </span><span> Report 2019-20</span></h2>
+			<h2 class="tmu-text-primary mb-2 pt-md-5" ><span> Feedback Analysis </span><span> Report 2019-20</span></h2>
 			<div class="iqac-container">
 				<div class="iqac-card">
 					<div class="card-pdf">
@@ -195,7 +201,7 @@
 					</div>
 				</div>
 			</div>
-			<h2 class="tmu-text-primary mb-2 pt-md-5" id="FAR"><span> Feedback Analysis </span><span> Report 2018-19</span></h2>
+			<h2 class="tmu-text-primary mb-2 pt-md-5" ><span> Feedback Analysis </span><span> Report 2018-19</span></h2>
 			<div class="iqac-container">
 				<div class="iqac-card">
 					<div class="card-pdf">
@@ -269,6 +275,33 @@
 	</div>
 </div>
 </div>
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select all sidebar links
+        const sidebarLinks = document.querySelectorAll(".custom-menu-item a");
+
+        sidebarLinks.forEach(link => {
+            link.addEventListener("click", function (e) {
+                // Prevent default behavior
+                e.preventDefault();
+
+                // Get the target element's ID from href
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    // Smoothly scroll to the target element
+                    targetElement.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+                }
+            });
+        });
+    });
+</script> -->
+
 
 
 
