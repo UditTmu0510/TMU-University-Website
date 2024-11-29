@@ -89,4 +89,9 @@ class PharmacyController extends Controller
     {
         return view('university.colleges.pharmacy.pharmacy_iqac');
     }
+
+    public function about_tjpbs()
+    {
+        return view('university.colleges.pharmacy.about_tjpbs');
+    }
 }
