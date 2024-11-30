@@ -2,35 +2,38 @@
 @section('content')
 <link rel="stylesheet" href="{{asset('assets/css/course.css')}}">
 <style>
-    .t2{
-    font-size: 0px;
-    font-weight: 0;
-    line-height: 0px;
-    text-align:center;
- visibility: hidden;
-}
-@media screen and (max-width: 770px) {
     .t2 {
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 35px;
-     visibility: hidden;
+        font-size: 0px;
+        font-weight: 0;
+        line-height: 0px;
+        text-align: center;
+        visibility: hidden;
     }
-}
-.t3{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 35px;
-    color: #ff8c00;
-    margin-bottom: 5px;
-}
-@media screen and (max-width: 770px) {
+
+    @media screen and (max-width: 770px) {
+        .t2 {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 35px;
+            visibility: hidden;
+        }
+    }
+
     .t3 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 35px;
+        color: #ff8c00;
+        margin-bottom: 5px;
     }
-}
+
+    @media screen and (max-width: 770px) {
+        .t3 {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
 </style>
 <div class="container">
     <div class="sidebar-contact">
@@ -61,7 +64,7 @@ $programme_brochure_path = $programme->programme_brochure_path;
     <img class="d-none d-sm-block" src="{{asset($programme->programme_banner_path)}}" style="width:100%">
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{$programme->prog_name}}</h1>
-        <p class="mb-3" >Build Your Future with {{$programme->prog_name}}</p>
+        <p class="mb-3">Build Your Future with {{$programme->prog_name}}</p>
         <!-- <a href="#" class="tmu-btn btn-4 px-3 py-2 ms-5">Download Brocher</a> -->
         <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-4 px-5 py-2 ms-5">Apply Now</a>
     </div>
@@ -95,9 +98,9 @@ $programme_brochure_path = $programme->programme_brochure_path;
     </div>
 
 
-{!!$programme->about_prog !!}
+    {!!$programme->about_prog !!}
 
-    
+
 </div>
 @endif
 
@@ -111,56 +114,56 @@ $programme_brochure_path = $programme->programme_brochure_path;
         </div>
     </div>
     <center>
-    <div class="table-wrapper ">
-        <table>
-            <thead>
-                <tr>
-                    <th>S.No</th>
-                    <th>Fee Details</th>
-                    <th>Amount</th>
-                </tr>
-            </thead>
-            <tbody>
-               
-                @php
-                $i = 1;
-          @endphp
-          @foreach ($fee_details as $fee_detail)
-          @php
-        
-              $fee_description = $fee_detail->fee_description;
-              $fee_amount = $fee_detail->fee_amount;
-              $fee_payment_schedule = $fee_detail->fee_payment_schedule;
-          @endphp
-          <tr>
-              <td>{{$i}}</td>
-              <td class="fee_details_fetch">
-                  <span>
-                      <span class="fi fi-af"></span>
-                  </span>
-                  <span>{{$fee_description}}</span>
-              </td>
-              <td class="fee_details_fetch">Rs {{$fee_amount}} /- (
-                  @if($fee_payment_schedule == 'Semester')
-                      per Semester
-                  @elseif ($fee_payment_schedule == 'Year')
-                      per Year
-                  @elseif ($fee_payment_schedule == 'One Time')
-                      One Time
-                  @else
-                      Unknown Payment Schedule
-                  @endif
-                  )</td>
-          </tr>
-          @php
-              $i++;
-          @endphp
-      @endforeach
-      
-            </tbody>
-        </table>
-    </div>
-</center>
+        <div class="table-wrapper ">
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Fee Details</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @php
+                    $i = 1;
+                    @endphp
+                    @foreach ($fee_details as $fee_detail)
+                    @php
+
+                    $fee_description = $fee_detail->fee_description;
+                    $fee_amount = $fee_detail->fee_amount;
+                    $fee_payment_schedule = $fee_detail->fee_payment_schedule;
+                    @endphp
+                    <tr>
+                        <td>{{$i}}</td>
+                        <td class="fee_details_fetch">
+                            <span>
+                                <span class="fi fi-af"></span>
+                            </span>
+                            <span>{{$fee_description}}</span>
+                        </td>
+                        <td class="fee_details_fetch">Rs {{$fee_amount}} /- (
+                            @if($fee_payment_schedule == 'Semester')
+                            per Semester
+                            @elseif ($fee_payment_schedule == 'Year')
+                            per Year
+                            @elseif ($fee_payment_schedule == 'One Time')
+                            One Time
+                            @else
+                            Unknown Payment Schedule
+                            @endif
+                            )</td>
+                    </tr>
+                    @php
+                    $i++;
+                    @endphp
+                    @endforeach
+
+                </tbody>
+            </table>
+        </div>
+    </center>
 </div>
 
 <!-- Fee Structure code end -->
@@ -178,10 +181,10 @@ $programme_brochure_path = $programme->programme_brochure_path;
         </div>
 
     </div>
-@php
-echo $programme->scholarship_scheme;
-@endphp
-    
+    @php
+    echo $programme->scholarship_scheme;
+    @endphp
+
 </div>
 @endif
 
@@ -193,7 +196,7 @@ echo $programme->scholarship_scheme;
 
 <!-- Eligiblity code start
 		============================================= -->
-        @if(($programme->eligibility_section_flag == 'Y') && !empty($programme->eligibility) && !empty($programme->criteria_merit))
+@if(($programme->eligibility_section_flag == 'Y') && !empty($programme->eligibility) && !empty($programme->criteria_merit))
 <section>
 
     <div class="container" style="margin-top: 12px; margin-bottom: 8px;">
@@ -210,10 +213,10 @@ echo $programme->scholarship_scheme;
                     <div class="col-sm-6">
                         <div class="feature-box fbox-plain fbox-sm flex-column">
                             <div class="fbox-content">
-                                <h3 class="text-transform-none ls-0 fw-bold">Eligiblity</h3>
+                                <h3 class="text-transform-none ls-0 fw-bold">Eligibility</h3>
                                 @php
                                 echo $programme->eligibility;
-                            @endphp
+                                @endphp
                             </div>
                         </div>
                     </div>
@@ -224,7 +227,7 @@ echo $programme->scholarship_scheme;
                                 <h3 class="text-transform-none ls-0 fw-bold">Selection</h3>
                                 @php
                                 echo $programme->criteria_merit;
-                            @endphp
+                                @endphp
                             </div>
                         </div>
                     </div>
@@ -241,32 +244,32 @@ echo $programme->scholarship_scheme;
 
 
 @if(($programme->our_recruiters_section_flag == 'Y'))
-       	<section>
-        <div class="container-fluid mt-5 ">
-            <h2 class="tmu-text-primary text-center">
-                <span></span><span> Recruiters</span>
-            </h2>
-            <div class="marquee my-5 py-5 pt-4">
-                
-            
-                <section class="marquee-content more-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-                <section class="marquee-content more-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-            </div>
+<section>
+    <div class="container-fluid mt-5 ">
+        <h2 class="tmu-text-primary text-center">
+            <span></span><span> Recruiters</span>
+        </h2>
+        <div class="marquee my-5 py-5 pt-4">
+
+
+            <section class="marquee-content more-content">
+                @foreach($recruiters as $recruiter)
+                <div class="marquee-block">
+                    <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                </div>
+                @endforeach
+            </section>
+            <section class="marquee-content more-content">
+                @foreach($recruiters as $recruiter)
+                <div class="marquee-block">
+                    <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                </div>
+                @endforeach
+            </section>
         </div>
-    </section>
-    @endif
+    </div>
+</section>
+@endif
 <!-- Section for recruiter end -->
 
 
@@ -355,15 +358,29 @@ echo $programme->scholarship_scheme;
 
 
         <div class="row mx-0">
+        @foreach ($faqs as $index => $faq)
+        <button class="careers-accordion {{ $index == 0 ? 'active' : '' }}">
+            <span>
+                <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{$faq->faq_question}}
+            </span>
+            <span class="icon">+</span>
+        </button>
+        <div class="panel {{ $index == 0 ? 'active' : '' }} text-justif">
+            @php echo $faq->faq_answer @endphp
+        </div>
+        <hr class="horizontal-line">
+        @endforeach
+        </div>
+
+        <!-- <div class="row mx-0">
             @foreach ($faqs as $faq)
             <button class="careers-accordion"><span> <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{$faq->faq_question}}</span> <span class="icon">+</span></button>
-            <div class="panel"> @php echo $faq->faq_answer @endphp</div>  
-             <hr class="horizontal-line">
-             @endforeach
-        </div>
+            <div class="panel {{ $index == 0 ? 'active' : '' }}"> @php echo $faq->faq_answer @endphp</div>
+            <hr class="horizontal-line">
+            @endforeach
+        </div> -->
     </div>
 </section>
 @endif
 <!-- Section for FAQ end -->
 @endsection
-
