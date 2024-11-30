@@ -407,6 +407,21 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>02, December</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Department of Electrical Engineering is organizing an expert lecture on "Power Quality: Introduction and Improvement Techniques" on 2nd December 2024.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   College of Pharmacy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 30, November</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>22, November</span>
                                 </div>
                                 <div class="notice-content">
