@@ -365,7 +365,7 @@ $programme_brochure_path = $programme->programme_brochure_path;
             </span>
             <span class="icon">+</span>
         </button>
-        <div class="panel {{ $index == 0 ? 'active' : '' }}">
+        <div class="panel {{ $index == 0 ? 'active' : '' }} text-justif">
             @php echo $faq->faq_answer @endphp
         </div>
         <hr class="horizontal-line">
