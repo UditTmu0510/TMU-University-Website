@@ -29,13 +29,13 @@
                                                 <th class="text-center">View</th>
                                             </tr>
                                         </thead>
-                                        <!-- <tbody>
+                                        <tbody>
                                             <tr>
                                                 <td class="text-center">1.</td>
-                                                <td class="text-center">04.11.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/4th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">02.12.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/2nd-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            <tr>
+                                            <!-- <tr>
                                                 <td class="text-center">2.</td>
                                                 <td class="text-center">05.11.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/november/5th-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
