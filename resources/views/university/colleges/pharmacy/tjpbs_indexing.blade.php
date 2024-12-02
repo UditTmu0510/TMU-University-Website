@@ -13,7 +13,7 @@
         --bs-table-color-state: inherit !important;
         box-shadow: none !important;
         /* Remove the inset shadow effect */
-        padding: 0!important;
+        padding: 0 !important;
     }
 
 
@@ -86,14 +86,13 @@
         box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
     }
 
-    .table567{
-        padding: .3rem!important;
+    .table567 {
+        padding: .3rem !important;
     }
 
     a {
-    color: #001055;
-}
-
+        color: #FF7900;
+    }
 </style>
 <div class="main-content">
     <div class="container">
@@ -110,56 +109,56 @@
                     <div class="highlightj524"></div>
                     <div class="table-content ">
                         <p class="mb-0">
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date">  Jun 27, 2018</span> | 
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018</span> |
                             <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id">  ID: KW7Q3fxfAB</span> | 
-                            <i class="bi-book" aria-hidden="true"></i><span class="edition">  Edition</span>
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
                         <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
-                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i>  Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>  
-                        Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date">  Jun 27, 2018 </span> | 
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
                             <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id">  ID: KW7Q3fxfAB</span> | 
-                            <i class="bi-book" aria-hidden="true"></i><span class="edition">  Edition</span>
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
                         <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
-                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i>  Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>  
-                        Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date">  Jun 27, 2018 </span> | 
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
                             <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id">  ID: KW7Q3fxfAB</span> | 
-                            <i class="bi-book" aria-hidden="true"></i><span class="edition">  Edition</span>
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
                         <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
-                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i>  Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>  
-                        Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date">  Jun 27, 2018 </span> | 
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
                             <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id">  ID: KW7Q3fxfAB</span> | 
-                            <i class="bi-book" aria-hidden="true"></i><span class="edition">  Edition</span>
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
                         <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
-                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i>  Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>  
-                        Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                        <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
                     </div>
                 </div>
             </div>
