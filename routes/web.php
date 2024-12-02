@@ -44,6 +44,7 @@ use App\Http\Controllers\EmployerFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
+use App\Http\Controllers\ManuscriptFormController;
 
 
 /*
@@ -629,7 +630,17 @@ Route::get('/college-of-pharmacy/gallery', [PharmacyController::class, 'pharmacy
 Route::get('/college-of-pharmacy/contact-us', [PharmacyController::class, 'pharmacy_contact_us'])->name('pharmacy.contact.us');
 Route::get('/college-of-pharmacy/college-advisory-board', [PharmacyController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
 Route::get('/college-of-pharmacy/iqac', [PharmacyController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
-Route::get('/college-of-pharmacy/tjpbs', [PharmacyController::class, 'about_tjpbs'])->name('about.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/about-us', [PharmacyController::class, 'about_tjpbs'])->name('about.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/editorial-board', [PharmacyController::class, 'tjpbs_editorial_board'])->name('tjpbs.editorial.board');
+Route::get('/college-of-pharmacy/tjpbs/reviewer-board', [PharmacyController::class, 'tjpbs_reviewer_board'])->name('tjpbs.reviewer.board');
+Route::get('/college-of-pharmacy/tjpbs/publication-ethics', [PharmacyController::class, 'tjpbs_publication_ethics'])->name('tjpbs.publication.ethics');
+Route::get('/college-of-pharmacy/tjpbs/authors-guidelines', [PharmacyController::class, 'tjpbs_authors_guidelines'])->name('tjpbs.authors.guidelines');
+Route::get('/college-of-pharmacy/tjpbs/indexing', [PharmacyController::class, 'tjpbs_indexing'])->name('tjpbs.indexing');
+Route::get('/college-of-pharmacy/tjpbs/current-issues', [PharmacyController::class, 'tjpbs_current_issues'])->name('tjpbs.current.issues');
+Route::get('/college-of-pharmacy/tjpbs/archives', [PharmacyController::class, 'tjpbs_archives'])->name('tjpbs.archives');
+Route::get('/college-of-pharmacy/tjpbs/manuscript-submission', [PharmacyController::class, 'manuscript_form_tjpbs'])->name('manuscript.form.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/contact-us', [PharmacyController::class, 'tjpbs_contact_us'])->name('tjpbs.contact.us');
+Route::POST('/manuscript-form', [ManuscriptFormController::class, 'store'])->name('manuscript_form.store');
 
 
 // Paramedical

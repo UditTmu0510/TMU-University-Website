@@ -9,24 +9,24 @@ use App\Models\Programmes;
 
 class PharmacyController extends Controller
 {
-    
+
     public function index()
     {
-        
-          $testimonials = Testimonials::where('cd_id', 5)
+
+        $testimonials = Testimonials::where('cd_id', 5)
             ->where('display_college_main', 'Y')
             ->where('status', 'Y')
             ->orderBy('story_id', 'ASC')
             ->get();
-          $recruiters = Recruiters::where('cd_id', 5)
-    ->where('display_college_main', 'Y')
-    ->where('status', 'Y')
-    ->orderBy('recruiter_id', 'desc')
-    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
-    ->get();
-        return view('university.colleges.pharmacy.pharmacy_home',compact('recruiters','testimonials'));
+        $recruiters = Recruiters::where('cd_id', 5)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('recruiter_id', 'desc')
+            ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+            ->get();
+        return view('university.colleges.pharmacy.pharmacy_home', compact('recruiters', 'testimonials'));
     }
-    
+
 
     public function pharmacy_about_us()
     {
@@ -50,8 +50,8 @@ class PharmacyController extends Controller
 
     public function pharmacy_syllabus()
     {
-            $programmes = Programmes::where('cd_id',5)->where('status','Y')->get();
-        return view('university.colleges.pharmacy.pharmacy_syllabus',compact('programmes'));
+        $programmes = Programmes::where('cd_id', 5)->where('status', 'Y')->get();
+        return view('university.colleges.pharmacy.pharmacy_syllabus', compact('programmes'));
     }
 
 
@@ -90,8 +90,55 @@ class PharmacyController extends Controller
         return view('university.colleges.pharmacy.pharmacy_iqac');
     }
 
-    public function about_tjpbs()
+    public function about_tjpbs(Request $request)
     {
-        return view('university.colleges.pharmacy.about_tjpbs');
+        return view('university.colleges.pharmacy.tjpbs_about');
+    }
+    
+    public function tjpbs_editorial_board()
+    {
+        return view('university.colleges.pharmacy.tjpbs_editorial_board');
+    }
+
+    public function tjpbs_reviewer_board()
+    {
+        return view('university.colleges.pharmacy.tjpbs_reviewer_board');
+    }
+
+    public function tjpbs_publication_ethics()
+    {
+        return view('university.colleges.pharmacy.tjpbs_publication_ethics');
+    }
+
+    public function tjpbs_authors_guidelines()
+    {
+        return view('university.colleges.pharmacy.tjpbs_authors_guidelines');
+    }
+
+    public function tjpbs_indexing()
+    {
+        return view('university.colleges.pharmacy.tjpbs_indexing');
+    }
+
+    public function tjpbs_current_issues()
+    {
+        return view('university.colleges.pharmacy.tjpbs_current_issues');
+    }
+
+    public function tjpbs_archives()
+    {
+        return view('university.colleges.pharmacy.tjpbs_archives');
+    }
+
+
+
+    public function manuscript_form_tjpbs()
+    {
+        return view('university.colleges.pharmacy.manuscript_form_tjpbs');
+    }
+
+    public function tjpbs_contact_us()
+    {
+        return view('university.colleges.pharmacy.tjpbs_contact_us');
     }
 }
