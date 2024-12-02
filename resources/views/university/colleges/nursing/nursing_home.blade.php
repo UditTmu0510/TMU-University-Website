@@ -62,8 +62,7 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Teerthanker Mahaveer </span> College of Nursing</h1>
-					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Teerthanker Mahaveer </span> College of Nursing</h1>
+					<h1 class=" mt-5 mb-5  banner-main-heading">Welcome to  <span style="font-weight:700!important;">Teerthanker Mahaveer </span> College of Nursing</h1>
 					<a href="https://admissions.tmu.ac.in/" target="blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
