@@ -188,31 +188,66 @@
 
 
             <hr>
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Figures</span></h3>
-            <ul class="m-ol-list ps-5 mb-4">
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Figures</span></h3>
+            <ul class="m-ol-list ps-5 mb-0">
                 <li>Figures should be numbered consecutively with Arabic numerals (i.e. Figure 1, 2, 3, etc.).</li>
                 <li>Provide a brief legend for each figure.</li>
                 <li>Figures should be inserted in the text where they were first described.</li>
                 <li>File formats accepted are:</li>
-                <ul class="ps-5">
-                    <li>Microsoft Word (figures must be a single page)</li>
-                    <li>PowerPoint (figures must be a single page)</li>
-                    <li>PNG</li>
-                    <li>JPEG</li>
-                    <li>TIFF</li>
-                    <li>BMP</li>
-                    <li>CDX (ChemDraw)</li>
-                    <li>TGF (ISIS/Draw)</li>
-                </ul>
+            </ul>
+            <ul class="ps-6 mb-0 fs-14" style="list-style-type:lower-roman;">
+                <li>Microsoft Word (figures must be a single page)</li>
+                <li>PowerPoint (figures must be a single page)</li>
+                <li>PNG</li>
+                <li>JPEG</li>
+                <li>TIFF</li>
+                <li>BMP</li>
+                <li>CDX (ChemDraw)</li>
+                <li>TGF (ISIS/Draw)</li>
+            </ul>
+            <ul class="m-ol-list ps-5 mb-4">
                 <li>Permission has been obtained for use of copyrighted material from other sources (including the web).</li>
             </ul>
 
 
+
             <hr>
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Tables</span></h3>
-            <p class="about-p pb-4 text-justify">
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Tables</span></h3>
+            <p class="about-p pb-2 text-justify">
                 Tables should be editable text and numbered consecutively. Each table must have a title, with notes below the body. Avoid vertical lines; use minimal horizontal lines.
             </p>
+            <ul class="m-ol-list ps-4 mb-2">
+                <li>Tables should be submitted as editable text and not as images.</li>
+                <li>Tables should be numbered consecutively with Arabic numerals (e.g., Table 1, Table 2, etc.).</li>
+                <li>Each table should be inserted in the text where they are first described.</li>
+                <li>Each table must have a title, and any table notes should be placed below the table body.</li>
+                <li>Tables should be created using Microsoft Word's table formatting tools.</li>
+                <li>Vertical rules (lines) should not be used in tables.</li>
+                <li>The use of horizontal lines in tables should be kept to a minimum.</li>
+            </ul>
+            <div class="table-responsive p-2">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Sl. No.</th>
+                            <th>Heading</th>
+                            <th>Heading 1</th>
+                            <th>Heading 2</th>
+                            <th>Heading 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
 
 
             <hr>
