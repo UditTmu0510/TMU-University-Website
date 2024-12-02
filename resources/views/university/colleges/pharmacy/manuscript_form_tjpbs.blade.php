@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Manuscript Submission Form </span></h1>
-            <h3 class="text-white">Divide your article into clearly defined sections. Heading should be typed in upper case, bold. Sub-headings should be typed in sentence case, italics. Each heading should appear on its own separate section.</h3>
+            <h3 class="text-white fs-16">Divide your article into clearly defined sections. Heading should be typed in upper case, bold. Sub-headings should be typed in sentence case, italics. Each heading should appear on its own separate section.</h3>
 
 
 
@@ -17,7 +17,7 @@
                 <div class="col-md-12">
 
                     <div class="tmu-text-primary">
-                        <h3 style="text-align: justify;"> <a href="{{ route('contact.store') }}" target="_blank"> [Click here] </a> to view the complete Manuscript Submission Form guidelines.</h3>
+                        <h3 style="text-align: justify;"> <a href="{{ route('tjpbs.authors.guidelines') }}" target="_blank"> [Click here] </a> to view the complete Manuscript Submission Form guidelines.</h3>
                     </div>
 
                     <form action="{{ route('manuscript_form.store') }}" method="POST" enctype="multipart/form-data">
