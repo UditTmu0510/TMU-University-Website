@@ -1,6 +1,15 @@
 @extends('layouts.university.colleges.pharmacy_tjpbs_with_sidebar')
 @section('content')
-
+<style>
+    hr {
+        width: 40%;
+        /* Sets the width to 30% of the parent container */
+        margin: 0 auto;
+        /* Centers the <hr> horizontally */
+        border: 1px solid black;
+        /* Optional: defines the thickness and color */
+    }
+</style>
 <div class="main-content">
     <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Publication </span><span>Ethics</span></h1>
     <section class="about-section bg-light mt-4 p-3">
@@ -18,7 +27,8 @@
                 kind of editorial malpractice.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Ethical guidelines</span> <span>for the reviewers</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Ethical guidelines</span> <span>for the reviewers</span></h3>
             <p class="about-p pb-4 text-justify">
                 The reviewers shall follow guidelines laid down by the journal in order to maintain the
                 scientific integrity and selection of high-quality articles. The reviewers are expected to read
@@ -27,7 +37,8 @@
                 must disclose the conflict of interest at the earliest, if any.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Ethical guidelines</span> <span>for the authors</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Ethical guidelines</span> <span>for the authors</span></h3>
             <p class="about-p pb-4 text-justify">
                 Authors are required to follow the author guidelines of the journal before submitting the
                 manuscript. Authors are recommended to adhere to the ethical guidelines by ICMJE
@@ -36,7 +47,8 @@
                 manuscript involving the human subject’s research in India.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Ethical guidelines</span> <span>for the publisher</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Ethical guidelines</span> <span>for the publisher</span></h3>
             <p class="about-p pb-4 text-justify">
                 The publisher is supposed to protect the intellectual property and copyright of the contents
                 submitted by the authors. We respect privacy and personal data, especially for authors and
@@ -45,7 +57,8 @@
                 process.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Acknowledgment and</span> <span>funding sources</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Acknowledgment and</span> <span>funding sources</span></h3>
             <p class="about-p pb-4 text-justify">
                 Only the funding related to the submitted work should be mentioned and authors are NOT
                 required to provide the complete list of every single grant that supports them. Authors are
@@ -54,7 +67,8 @@
                 influential in determining the nature of the reported work.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Publishing</span> <span>ethics issues</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Publishing</span> <span>ethics issues</span></h3>
             <ul class="m-ol-list ps-5 mb-4">
                 <li>
                     <b>Monitoring:</b> The committee must ensure to establish the mechanism for monitoring and
@@ -91,7 +105,8 @@
                 </li>
             </ul>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Redundant or duplicate</span> <span>submission/publication</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Redundant or duplicate</span> <span>submission/publication</span></h3>
             <p class="about-p pb-4 text-justify">
                 The same manuscript (or the same data) submitted simultaneously to multiple journals is
                 known as a duplicate or redundant submission. Readers must be able to be sure that what they
@@ -103,13 +118,15 @@
                 was unaware of the violation and the article has already been published.
             </p>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Preclude business needs from</span> <span>compromising intellectual and ethical standards</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Preclude business needs from</span> <span>compromising intellectual and ethical standards</span></h3>
             <p class="about-p pb-4 text-justify">
                 The author's findings and decision-making should not be influenced by the funding agencies
                 and sponsors. The editor must ensure the academic record's integrity, prevent business requirements from compromising intellectual and ethical standards, and be prepared to
                 publish corrections, clarifications, retractions, and apologies as necessary.
             </p>
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size"><span>Misconduct</span> <span>and sanctions</span></h3>
+            <hr>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Misconduct</span> <span>and sanctions</span></h3>
             <p class="about-p pb-4 text-justify">
                 Alleged violations of our publication ethics policies, whether prior to or subsequent to
                 publication, along with issues pertaining to research ethics, must be communicated to the
