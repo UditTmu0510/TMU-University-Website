@@ -9,10 +9,10 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Conservative </span><span>
                             Dentistry & Endodontics </span></h1>
-                    <p class="about-p mb-4 text-justify">The Department of Conservative Dentistry and Endodontics is the largest
+                    <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/mds-conservation-dentistry-programme') }}">The Department of Conservative Dentistry and Endodontics</a>  is the largest
                         outpatient department of the college. The Department has both undergraduate and
                         Post-graduate sections. The department provides quality education right from the first year
-                        of BDS, with emphasis on quality & comfortable treatment to the patients. The students are
+                        of <a href="https://test.tmuhospital.com/programme/BDS-course-details">BDS</a> , with emphasis on quality & comfortable treatment to the patients. The students are
                         well groomed in the subject with dummy work and preclinical education before they enter into
                         the clinical work in third year of BDS. Specialized phantom head laboratory is available for
                         BDS students for pre-clinical activities. </p>

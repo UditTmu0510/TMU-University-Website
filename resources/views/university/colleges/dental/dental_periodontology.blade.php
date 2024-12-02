@@ -13,7 +13,7 @@
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of </span><span>
 							Periodontology </span></h1>
-					<p class="about-p mb-4 text-justify">Department of Periodontology deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
+					<p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Periodontology') }}">Department of Periodontology</a>  deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
 				</div>
 				<div class="image-content text-center p-4">
 					<img src="{{asset('/assets/img/college_departments/dental/pgy/pgy_banner.jpg')}}" alt="" style="height:auto;" >

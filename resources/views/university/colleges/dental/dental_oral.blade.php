@@ -13,7 +13,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral & </span><span>
                             Maxillofacial Surgery </span></h1>
-                    <p class="about-p mb-4 text-justify">The specialty of Oral and Maxillofacial Surgery (OMFS) is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
+                    <p class="about-p mb-4 text-justify">The specialty of <a href="{{ url('/programme/mds-oral-maxillofacial-surgery') }}">Oral and Maxillofacial Surgery (OMFS) </a>  is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
                 </div>
                 <div class="image-content text-center p-4">
                     <img src="{{asset('/assets/img/college_departments/dental/oms/oms_banner.jpg')}}" alt="" style="height:auto;" >

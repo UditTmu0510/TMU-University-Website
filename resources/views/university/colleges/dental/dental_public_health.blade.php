@@ -13,7 +13,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Public </span><span>
                             health Dentistry </span></h1>
-                    <p class="about-p mb-4">Public health dentistry is an area of dentistry concerned with the evaluation of dental health needs and how the practice of dental healthcare meets those needs. Department of Public Health Dentistry is that part of dentistry providing leadership and expertise in population-based dentistry, oral health surveillance, policy development, community-based disease prevention and health promotion, and the maintenance of the dental safety net.
+                    <p class="about-p mb-4"> <a href="{{ url('/programme/MDS-Public-Health-Dentistry') }}">Public health dentistry</a>  is an area of dentistry concerned with the evaluation of dental health needs and how the practice of dental healthcare meets those needs. Department of Public Health Dentistry is that part of dentistry providing leadership and expertise in population-based dentistry, oral health surveillance, policy development, community-based disease prevention and health promotion, and the maintenance of the dental safety net.
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
