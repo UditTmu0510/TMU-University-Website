@@ -14,7 +14,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral </span><span>
                             Medicine & Radiology</span></h1>
-                    <p class="about-p mb-4 text-justify">Department of Oral Medicine and Radiology is a unique amalgamation of
+                    <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Oral-Medicine-Radiology') }}">Department of Oral Medicine and Radiology</a>  is a unique amalgamation of
                         Oral Medicine and Radiology. It acts as a bridge between dentistry and medicine. It provides
                         specialized training in clinical care for managing head and neck medical diseases. As the
                         old medical acronym goes; “Oral cavity is the mirror of all systemic diseases”, thus

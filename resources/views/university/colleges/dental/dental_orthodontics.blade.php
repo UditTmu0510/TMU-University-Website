@@ -14,7 +14,7 @@
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Orthodontics & </span><span>
                             Dentofacial Orthopedics </span></h1>
                     <p class="about-p mb-4 text-justify">Welcome to the Teerthanker Mahaveer Dental College and Research Centre’s
-                        Department of Orthodontics and Dentofacial Orthopaedics. It stands out as one of the most
+                        <a href="{{ url('/programme/mds-orthodontics-dentofacial-orthopedics') }}">Department of Orthodontics and Dentofacial Orthopaedics.</a>It stands out as one of the most
                         prestigious and best dental colleges in UP. Experience superior clinical care and
                         exceptional quality treatment along with top-notch dental education.</p>
                 </div>
