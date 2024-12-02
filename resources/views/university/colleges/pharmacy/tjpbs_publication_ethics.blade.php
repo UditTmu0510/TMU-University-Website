@@ -4,9 +4,9 @@
     hr {
         width: 40%;
         /* Sets the width to 30% of the parent container */
-        margin: 0 auto;
+        margin: 20px auto;
         /* Centers the <hr> horizontally */
-        border: 1px solid black;
+        border: 1px solid #000000b5;
         /* Optional: defines the thickness and color */
     }
 </style>
@@ -70,13 +70,13 @@
             <hr>
             <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Publishing</span> <span>ethics issues</span></h3>
             <ul class="m-ol-list ps-5 mb-4">
-                <li>
+                <li class="text-justify">
                     <b>Monitoring:</b> The committee must ensure to establish the mechanism for monitoring and
                     safeguarding publishing ethics. All the complaints received from the reviewers or the authors
                     or anybody else should be taken into proper consideration and appropriate action should be
                     taken promptly for such complaints.
                 </li>
-                <li>
+                <li class="text-justify">
                     <b>Article withdrawal:</b> Authors are expected to adhere to best practices in publication ethics
                     and maintain high standards in the quality of their articles. To prevent the withdrawal of
                     articles, we request that the corresponding author address issues concerning authorship,
@@ -89,7 +89,7 @@
                     manuscripts list. The manuscript numbers of withdrawn articles are ineligible for system use
                     and resubmission.
                 </li>
-                <li>
+                <li class="text-justify">
                     <b>Retraction and corrections:</b> Published articles will be retracted if there is unequivocal proof
                     of erroneous findings. The retraction may stem from scientific malfeasance or an inadvertent
                     mistake. To preserve the integrity of the scientific record, the retracted paper will remain on
@@ -143,9 +143,9 @@
                 upon the degree of the wrongdoing;
             </p>
             <ul class="m-ol-list ps-5 mb-4">
-                <li>Not allowing submission for 1–3 years.</li>
-                <li>A prohibition from acting as an editor or reviewer.</li>
-                <li>Reporting the misconduct to the author's institutions, employers, and, their funding
+                <li class="text-justify">Not allowing submission for 1–3 years.</li>
+                <li class="text-justify">A prohibition from acting as an editor or reviewer.</li>
+                <li class="text-justify">Reporting the misconduct to the author's institutions, employers, and, their funding
                     agencies.</li>
             </ul>
             <p class="about-p pb-4 text-justify">
