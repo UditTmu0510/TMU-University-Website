@@ -226,7 +226,7 @@
                 <li>The use of horizontal lines in tables should be kept to a minimum.</li>
             </ul>
             <div class="table-responsive p-2">
-                <table class="table table-striped">
+                <table class="table ">
                     <thead>
                         <tr>
                             <th>Sl. No.</th>
@@ -239,6 +239,15 @@
                     <tbody>
                         <tr>
                             <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>2</td>
                             <td></td>
                             <td></td>
                             <td></td>
