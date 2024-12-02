@@ -3,7 +3,7 @@
         <span class="close-btn" id="closeSidebar">&times;</span>
     </div>
     <div class="custom-menu-section">
-        <a href="{{route('pharmacy.home')}}" class="custom-menu-item {{ setActive('pharmacy.home') }}">
+        <a href="{{route('pharmacy.about.us')}}" class="custom-menu-item {{ setActive('pharmacy.about.us') }}">
             <i class="bi bi-arrow-left-circle" style="color:tmu-color-blue; font-size:20px; padding-top:2px;"></i>
             <p>Back to Pharmacy College</p>
         </a>
