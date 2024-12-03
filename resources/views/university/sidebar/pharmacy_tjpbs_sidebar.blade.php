@@ -10,17 +10,11 @@
 
         <h2>About Journal</h2>
         <div class="account-section">
-            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item scroll-link" >
+            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item {{ setActive('about.tjpbs') }} " >
                 <p>About TJPBS</p>
             </a>
-            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item scroll-link" >
-                <p>Aims & Scopes</p>
-            </a>
-            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item scroll-link" >
-                <p>Open Access Policy</p>
-            </a>
-            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item scroll-link" >
-                <p>Peer Review Policy</p>
+            <a href="{{ route('tjpbs.policies') }}" class="custom-menu-item {{ setActive('tjpbs.policies') }}" >
+                <p>Policies</p>
             </a>
         </div>
         <h2>Boards & Guidelines</h2>

@@ -631,6 +631,7 @@ Route::get('/college-of-pharmacy/contact-us', [PharmacyController::class, 'pharm
 Route::get('/college-of-pharmacy/college-advisory-board', [PharmacyController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
 Route::get('/college-of-pharmacy/iqac', [PharmacyController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
 Route::get('/college-of-pharmacy/tjpbs/about-us', [PharmacyController::class, 'about_tjpbs'])->name('about.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/policies', [PharmacyController::class, 'tjpbs_policies'])->name('tjpbs.policies');
 Route::get('/college-of-pharmacy/tjpbs/editorial-board', [PharmacyController::class, 'tjpbs_editorial_board'])->name('tjpbs.editorial.board');
 Route::get('/college-of-pharmacy/tjpbs/reviewer-board', [PharmacyController::class, 'tjpbs_reviewer_board'])->name('tjpbs.reviewer.board');
 Route::get('/college-of-pharmacy/tjpbs/publication-ethics', [PharmacyController::class, 'tjpbs_publication_ethics'])->name('tjpbs.publication.ethics');

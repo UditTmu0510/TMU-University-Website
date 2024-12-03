@@ -54,7 +54,7 @@
         /* Initially hidden */
         transform-origin: top;
         /* Start animation from the top */
-        transition: transform 0.5s ease, background-color 0.3s ease;
+        transition: transform 0.5s ease, background-color 0.5s ease;
     }
 
     .table-row:hover .highlightj524 {
@@ -100,7 +100,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded d-flex justify-content-center mb-4" style="height: 16vh; background-color: #001055;">
             <div class="d-flex align-items-center">
-                <h2 class="text-white m-0">TJPBS Index</h2>
+                <h2 class="text-white m-0">TJPBS Current Issue</h2>
             </div>
         </div>
         <!-- <h1 class="tmu-text-primary tmu-page-heading"><span> TJPBS </span><span> Index</span></h1> -->

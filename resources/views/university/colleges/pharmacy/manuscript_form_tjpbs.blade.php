@@ -1,5 +1,10 @@
 @extends('layouts.university.colleges.pharmacy_tjpbs_with_sidebar')
 @section('content')
+<style>
+    .colored3456{
+        color:red;
+    }
+</style>
 
 <div class="main-content">
     <div class="container">
@@ -72,14 +77,14 @@
 
                         </div>
 
-                        <div class="form-section row mb-3">
+                        <div class="form-section row mb-1">
                             <div class="col-md-12">
                                 <label for="uploadImage" class="form-label">Upload File</label>
-                                <input class="form-control" type="file" id="applicantfilepath" name="applicant_file_path" required>
+                                <input class="form-control" type="file" id="applicantfilepath" name="applicant_file_path" required accept="application/pdf">
                                 <div class="invalid-feedback">Please upload Manuscript file</div>
                             </div>
                         </div>
-
+                        <span class="pt-0 pb-4 fs-12 colored3456">* PDF Accepted Only</span>
                         <!-- Hidden field to capture college name -->
                         <input type="hidden" name="cd_id" value="5">
 
