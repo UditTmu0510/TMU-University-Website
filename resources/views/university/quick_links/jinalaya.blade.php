@@ -12,9 +12,7 @@
   <div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 d-none d-md-block " style="font-weight:700!important; font-size:48px!important;" >Welcome to <br> <span >Teerthanker Mahaveer Jinalaya </span></h1>
-					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to <span >Teerthanker Mahaveer Jinalaya </span></h1>
-					
+        <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Teerthanker Mahaveer Jinalaya</span></h1>				
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="pe-lg-4 position-relative p-0">

@@ -7,7 +7,7 @@
 <div class="main-content">
     <div class="container">
 
-    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>TMU Virtual Tour:</span><span> Explore the Campus Online</span></h1>
+    <h1 class=" mt-5 mb-5 banner-main-heading">TMU Virtual Tour: <span style="font-weight:700!important;">Explore the Campus Online </span></h1>
 
         <div class="container mt-4 mb-4">
             <iframe
@@ -20,8 +20,8 @@
 
 
         <div class="container mt-4 mb-4">
-            <h1 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>How to </span><span
-                    class="d-block d-sm-inline">Reach Us?</span></h1>
+            <h2 class="mb-2 tmu-text-primary tmu-page-heading mt-md-5"><span>How to </span><span
+                    class="d-block d-sm-inline">Reach Us?</span></h2>
             <p style="text-align:justify;color:black;">Gone are the days when parents or students were just looking at a
                 few
                 aspects before choosing a university. Accessibility is one major thing that is taken into consideration
