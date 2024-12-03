@@ -90,9 +90,14 @@ class PharmacyController extends Controller
         return view('university.colleges.pharmacy.pharmacy_iqac');
     }
 
-    public function about_tjpbs(Request $request)
+    public function about_tjpbs()
     {
         return view('university.colleges.pharmacy.tjpbs_about');
+    }
+
+    public function tjpbs_policies()
+    {
+        return view('university.colleges.pharmacy.tjpbs_policies');
     }
     
     public function tjpbs_editorial_board()
