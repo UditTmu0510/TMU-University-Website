@@ -1,8 +1,8 @@
 @extends('layouts.university.colleges.pharmacy_tjpbs_with_sidebar')
 @section('content')
 <style>
-    .colored3456{
-        color:red;
+    .colored3456 {
+        color: red;
     }
 </style>
 
@@ -84,11 +84,12 @@
                                 <div class="invalid-feedback">Please upload Manuscript file</div>
                             </div>
                         </div>
-                        <span class="pt-0 pb-4 fs-12 colored3456">* PDF Accepted Only</span>
+                        <div><span class="pt-0 mb-1 fs-12 colored3456">* PDF Accepted Only</span></div>
                         <!-- Hidden field to capture college name -->
                         <input type="hidden" name="cd_id" value="5">
+                        
 
-                        <div class="form-check mb-3">
+                        <div class="form-check pt-2 mb-3">
                             <input type="checkbox" class="form-check-input" id="privacyPolicy" required>
                             <label class="form-check-label" for="privacyPolicy">I hereby confirm that all guidelines for manuscript submission have been thoroughly reviewed and fully complied with.</label>
                         </div>
