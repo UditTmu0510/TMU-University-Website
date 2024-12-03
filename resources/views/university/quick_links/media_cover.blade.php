@@ -1033,7 +1033,7 @@
                     <span class="card-action">14th <br>Aug </span>
                     <div class="card-heading">सूफी कव्वाली और शास्त्रीय संगीत के संगम से निजामी बंधु ने सजाई टीएमयू की शाम
                     </div>
-                    <div class="justify-content-center text-center mb-2"><a href="http://loveindianational.com/india/8222/" target="_blank" class="card-button">Read More!</a></div>
+                    <div class="justify-content-center text-center mb-2"><a href="#" target="_blank" class="card-button">Read More!</a></div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
