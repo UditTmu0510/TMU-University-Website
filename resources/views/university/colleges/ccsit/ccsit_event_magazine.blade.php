@@ -161,7 +161,7 @@
                             <div class="book">
                                 <div class="front">
                                     <div class="cover">
-                                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/27.pdf')}}" target="_blank"><img
+                                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/26.pdf')}}" target="_blank"><img
                                                 src="{{asset('/assets/img/magazines/CCSIT/12.webp')}}"
                                                 alt="Book Cover Image"></a>
 
@@ -738,7 +738,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/27.pdf')}}" target="_blank">
+                                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/26.pdf')}}" target="_blank">
                                             <img src="{{asset('/assets/img/magazines/CCSIT/12.webp')}}" />
                                             </a>
                                             
