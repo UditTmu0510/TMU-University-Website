@@ -38,7 +38,7 @@
                                              <tr>
                                                 <td class="text-center">2.</td>
                                                 <td class="text-center">03.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/3rd-November-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/3rd-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <!--<tr>
                                                 <td class="text-center">3.</td>
