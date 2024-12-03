@@ -24,7 +24,7 @@
             <h1 class="tmu-text-primary tmu-page-heading"><span>Annual </span><span> Magazine</span></h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="book">
                             <div class="front">
                                 <div class="cover">
@@ -81,9 +81,8 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/magazines/ctld/1.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                        <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
+                                        target="_blank"><img src="{{asset('/assets/img/magazines/ctld/1.jpg')}}" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -97,9 +96,8 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/magazines/ctld/2.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                        <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_final_magazine_2023.pdf')}}"
+                                        target="_blank"><img src="{{asset('/assets/img/magazines/ctld/2.jpg')}}" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,9 +111,9 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/magazines/ctld/3.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                        <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
+                                        target="_blank"><img src="{{asset('/assets/img/magazines/ctld/3.jpg')}}" /></a>
+                                            
                                         </div>
                                     </div>
                                 </div>

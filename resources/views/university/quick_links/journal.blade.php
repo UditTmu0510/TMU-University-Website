@@ -6,7 +6,7 @@
         font-family: 'poppins' !important;
     }
 
-    .container {
+    .container .container-jrnl{
         z-index: 1;
         perspective: 3000px;
         display: flex;
@@ -203,7 +203,7 @@
 
             <div class="box d-none d-sm-block justify-content-center">
                 <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Annual</span><span> Report</span></h1>
-                <div class="container">
+                <div class="container container-jrnl">
 
                     <div class="bookshelf"></div>
                     <div class="book">
@@ -280,7 +280,7 @@
                     <!-- ... -->
                 </div>
 
-                <div class="container">
+                <div class="container container-jrnl">
                     <div class="bookshelf"></div>
 
                     <div class="book">
@@ -355,7 +355,7 @@
                     </div>
 
                 </div>
-                <div class="container">
+                <div class="container container-jrnl">
                     <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">
@@ -407,7 +407,7 @@
 
 
 
-                <div class="container">
+                <div class="container container-jrnl">
                     <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">
@@ -494,7 +494,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container container-jrnl">
                     <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">
@@ -580,7 +580,7 @@
 
                 <h2 class="tmu-text-primary mb-2 mt-5"><span>Conference</span><span> Proceedings</span></h2>
 
-                <div class="container">
+                <div class="container container-jrnl">
                     <div class="bookshelf"></div>
                     <div class="book">
                         <div class="front">

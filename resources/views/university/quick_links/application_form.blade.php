@@ -29,7 +29,7 @@
       <div class="iqac-card">
         <div class="card-pdf">
           <!-- <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon"> -->
-          <i style="font-size:40px;line-height:0px; background-color:lightgray; padding: 2.4rem 1.4rem; border-radius:50%;" class="icon-featured fa fa-keyboard-o"></i>
+          <i style="font-size:40px;line-height:0px; background-color:lightgray; padding: 2.4rem 1.4rem; border-radius:50%;" class="icon-featured fa-solid fa-keyboard"></i>
           <h5 class="mt-4 mb-2 fw-bold tmu-color">APPLY ONLINE</h5>
           <p class="description mt-0 pt-0">Upload Documents, Pay Online and Get Admitted!</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
