@@ -1,9 +1,8 @@
 @extends('layouts.university.main')
 @section('content')
 
-<!-- <link rel="stylesheet" href="{{asset('/assets/css/tmu-testimonial.css')}}"> -->
-<!-- <link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}"> -->
-<!-- <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}"> -->
+
+<link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
 
 
@@ -32,15 +31,8 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block "
-                        style="font-weight:700!important; font-size:48px!important;">Welcome to Teerthanker Mahaveer
-                        <br> <span>Central Library and Knowledge Resourse Centre </span>
-                    </h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none"
-                        style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
-                        Welcome to Teerthanker Mahaveer <br> <span>Central Library and Knowledge Resourse Centre </span>
-                    </h1>
 
+                <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to Teerthanker Mahaveer <span style="font-weight:700!important;">Central Library and Knowledge Resourse Centre</span></h1>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">

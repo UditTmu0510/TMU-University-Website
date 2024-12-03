@@ -125,7 +125,7 @@
     </div>
 
 
-    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>TMU </span><span> Sops </span></h1>
+    <h2 class="tmu-text-primary tmu-page-heading mt-md-5"><span>TMU </span><span> Sops </span></h2>
     <div class="iqac-container">
       <div class="iqac-card">
         <div class="card-pdf">
