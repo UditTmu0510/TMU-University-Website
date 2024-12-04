@@ -17,7 +17,7 @@
                         known as Department of Computer Applications, established in the year 2001).</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/banner_overview/CCSIT/CCS IT-IMG.png')}}" alt="Learning and Teaching">
+                    <img src="{{asset('assets/img/banner_overview/ccsit/ccsit-about.png')}}" alt="Learning and Teaching">
                     <!-- <img src="{{asset('assets/img/banner_overview/banner.jpg')}}" alt="Learning and Teaching"> -->
                 </div>
                 <div class="container p-3">
