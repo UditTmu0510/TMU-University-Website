@@ -5,7 +5,7 @@
         font-family: 'poppins' !important;
     }
 
-    .container {
+    .container .container-jnrl{
         z-index: 1;
         perspective: 3000px;
         display: flex;
@@ -188,7 +188,7 @@
     <div class="container">
         <div class="box d-none d-sm-block">
             <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Event </span><span> Magazines</span></h1>
-            <div class="container">
+            <div class="container container-jnrl">
                 <div class="bookshelf"></div>
 
 
@@ -203,7 +203,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
 
     <div class="container">
         <div class="box d-none d-sm-block">
-            <div class="container">
+            <div class="container container-jnrl">
 
                 <div class="bookshelf"></div>
 
@@ -298,7 +298,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -315,7 +315,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -463,7 +463,7 @@
                             </div>
                         </div>
                     </div>
-</a>
+                </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
