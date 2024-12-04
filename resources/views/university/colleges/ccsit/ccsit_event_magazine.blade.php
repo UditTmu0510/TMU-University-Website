@@ -840,6 +840,7 @@
     </div>
 
     <section class="d-block d-sm-none">
+        <h2 class="tmu-text-primary mt-md-3 text-center"><span>Event </span><span> magazine</span></h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
