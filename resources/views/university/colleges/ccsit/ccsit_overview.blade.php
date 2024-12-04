@@ -45,11 +45,11 @@
             <div class="row impe-plac-row my-2">
                 <div class="col-md-6 text-center my-4">
                     <div class="border-box ">
-                        <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate1.jpg')}}"
+                        <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate-I.jpg')}}"
                             data-lightbox="image"
                             data-zoom="true">
                             <div class="grid-inner mb-2">
-                                <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate1.jpg')}}" height="300"
+                                <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate-I.jpg')}}" height="300"
                                     width="450" alt="Single Image">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark">
@@ -64,10 +64,10 @@
 
                 <div class="col-md-6 text-center my-4">
                     <div class="border-box">
-                        <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate2.jpg')}}"
+                        <a class="col-md-4" href="{{asset('assets/img/banner_overview/ccsit/iic_certificate-II.jpg')}}"
                             data-lightbox="image" data-zoom="true">
                             <div class="grid-inner mb-2">
-                                <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate2.jpg')}}" height="300"
+                                <img src="{{asset('assets/img/banner_overview/ccsit/iic_certificate-II.jpg')}}" height="300"
                                     width="450" alt="Single Image">
                                 <div class="bg-overlay">
                                     <div class="bg-overlay-content dark">
