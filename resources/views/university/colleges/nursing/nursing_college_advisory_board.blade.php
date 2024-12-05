@@ -3,6 +3,7 @@
 
         <div class="main-content">
                     <div class="container">
+                        <h1 class="tmu-text-primary tmu-page-heading mb-3 mt-md-5"><span>College Advisory</span><span> Board</span></h1>
                         <h3 class="tmu-text-primary mb-2 mt-2"><span> Academic </span><span> Experts</span></h3>
                         <div class="row row-cols-1 row-cols-md-3 g-4 mt-0">
                             <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
@@ -24,7 +25,6 @@
                                         <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>PROF.(DR.) RENUKA K</span></h5>
                                         <p class="card-text fs-14 ">Principal & CNO</p>
                                         <p class="card-text fs-14 ">ACAD-COLLEGE OF NURSING, AIIMS GORAKHPUR</p>
-                                        <p class="card-text fs-14">&nbsp;</p>
                                     </div>
                                 </div>
                             </div>
