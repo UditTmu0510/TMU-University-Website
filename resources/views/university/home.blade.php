@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>06 to 07, December</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Join the 13th IEEE Scopus Indexed SMART-2024 on 6th-7th December 2024 at TMU, Moradabad. With over 100 delegates, this premier event will showcase global advancements in computational sciences and system modelling. Don’t miss this opportunity to connect with experts. Visit the <a href="https://smart2024.tmu.ac.in/" target="_blank">SMART-2024</a> Website for details.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   College of Pharmacy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, December</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>02, December</span>
                                 </div>
                                 <div class="notice-content">
