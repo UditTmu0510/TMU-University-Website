@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="row">
-			<p class="text-center mt-2 mb-4 fs-16 tmu-color"><strong>Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</strong></p>
+			<p class="text-center mt-2 mb-4 fs-16 tmu-color"><strong>Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 150 MBBS students, which has been increased to 250 from the Academic Session 2024-25.</strong></p>
 
 			<div class="col-md-12 mb-4">
 				<div class="table-responsive">
@@ -70,7 +70,7 @@
 							<tr>
 								<td>10</td>
 								<td>Number of Beds</td>
-								<td>1090</td>
+								<td>1095</td>
 							</tr>
 							<tr>
 								<td>11</td>
