@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to Teerthanker Mahaveer Medical College & </span><span> Research Centre</span></h1>
-                    <p class="about-p mb-4">Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</p>
+                    <p class="about-p mb-4">Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 150 MBBS students, which has been increased to 250 from the Academic Session 2024-25.</p>
                 </div>
                 <div class="image-content text-center p-4">
                     <img src="{{asset('/assets/img/banner/medical/about_us.jpg')}}" alt="Learning and Teaching">
