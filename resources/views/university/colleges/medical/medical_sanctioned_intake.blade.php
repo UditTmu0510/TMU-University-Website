@@ -18,7 +18,7 @@
 									<tr>
 										<td class="text-center">1</td>
 										<td>MBBS (Bachelor of Medicine and Bachelor of Surgery)</td>
-										<td class="text-center">150</td>
+										<td class="text-center">250</td>
 									</tr>
 									<tr>
 										<td class="text-center">2</td>
@@ -83,7 +83,7 @@
 									<tr>
 										<td class="text-center">14</td>
 										<td>MS (Obstetrics and Gynaecology)</td>
-										<td class="text-center">8</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">15</td>
