@@ -380,6 +380,7 @@ Route::get('/tmu/phd-ordinance', [TmuController::class, 'phd_ordinance'])->name(
 Route::get('/tmu/phd-intake', [TmuController::class, 'phd_intake'])->name('phd.intake');
 Route::get('/tmu/research-scholar', [TmuController::class, 'research_scholar'])->name('research.scholar');
 Route::get('/tmu/syllabus-course-work', [TmuController::class, 'syllabus_course_work'])->name('syllabus.course.work');
+Route::get('/tmu/syllabi-for-discipline-specific-courses', [TmuController::class, 'syllabi_for_discipline'])->name('syllabi.for.discipline');
 Route::get('/tmu/phd-faq', [TmuController::class, 'phd_faq'])->name('phd.faq');
 Route::get('/tmu/phd-admission-notice', [TmuController::class, 'phd_admission_notice'])->name('phd.admission.notice');
 Route::get('/tmu/phd-process', [TmuController::class, 'phd_process'])->name('phd.process');
