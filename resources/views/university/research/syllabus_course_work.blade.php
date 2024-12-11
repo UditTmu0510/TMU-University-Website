@@ -84,7 +84,7 @@
                         No. F-1-1/2018 (Journal/CARE)</b><br><span class="highlight p-0">
                         <a href="{{asset('/assets/pdf/research/DO-NO-F-1-12018_compressed.pdf')}}"> (Click here to view)</a></span></p>
                 <hr class="mb-3">
-                <div class="card mb-3 mt-2">
+                <div class="card mb-4 mt-2">
                     <div class="card-body">
                         <p class="text-center"><b>EVALUATION OF REVIEW OF LITERATURE (RMGT171)</b></p>
                         <p style="text-align:justify">The research scholar shall submit a draft copy of the
@@ -104,7 +104,7 @@
                 </div>
             </div>
 
-            <h3 class="tmu-text-primary mb-2"><span>Syllabus for Coursework (Research Methodology) </span><span> COURSE CODE: RRMD101</span></h3>
+            <h3 class="tmu-text-primary mb-2 mt-3"><span>Syllabus for Coursework (Research Methodology) </span><span> COURSE CODE: RRMD101</span></h3>
 
             <hr class="horizontal-line">
             <button class="careers-accordion">Objective <span class="icon">+</span></button>
