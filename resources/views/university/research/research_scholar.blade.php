@@ -839,21 +839,18 @@
         <div class="panel">
             <h4 class="tmu-text-primary"><span>Registered </span><span>Scholar</span></h4>
             <div class="table-responsive mb-4 mt-0">
-                <table class="table table-bordered table-striped">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Sl. No.</th>
-                            <th>Name of Scholar</th>
-                            <th>Discipline</th>
-                            <th>Registration No.</th>
-                            <th>Date of Registration</th>
-                            <th>Topic</th>
-                            <th>Supervisor (s)</th>
+                            <th style="width:2%;text-align:center">#</th>
+                            <th style="text-align:center">Name of Scholar</th>
+                            <th style="text-align:center">Discipline</th>
+                            <th style="text-align:center">Registration No.</th>
+                            <th style="text-align:center">Date of Registration</th>
+                            <th style="width:30%;text-align:center">Topic</th>
+                            <th style="width:20%;text-align:center;">Supervisor (s)</th>
                     </thead>
                     <tbody>
-
-
-
                         <tr>
                             <td>1</td>
                             <td>Kajal Sharma</td>
@@ -926,21 +923,8 @@
                             <td>Coursework Period</td>
                             <td>Dr. Satyendra Arya</td>
                         </tr>
-
-
-
-
                         <tr>
                             <td>9</td>
-                            <td>Charul Verma</td>
-                            <td>Management</td>
-                            <td>TMG 20 Ph.D./228</td>
-                            <td>22.03.2021</td>
-                            <td>Course Work Period</td>
-                            <td>Prof. Vipin Jain</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
                             <td>Manisha Jain</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./226</td>
@@ -949,7 +933,7 @@
                             <td>Prof. Raghuvir Singh</td>
                         </tr>
                         <tr>
-                            <td>11</td>
+                            <td>10</td>
                             <td>Saksham</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./206</td>
@@ -958,7 +942,7 @@
                             <td>Prof. Raghuvir Singh</td>
                         </tr>
                         <tr>
-                            <td>12</td>
+                            <td>11</td>
                             <td>Surabhi Vashishtha</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./196</td>
@@ -967,7 +951,7 @@
                             <td>Prof. Raghuvir Singh<br />Dr. Satyendra Arya</td>
                         </tr>
                         <tr>
-                            <td>13</td>
+                            <td>12</td>
                             <td>Roma Khanna</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./192</td>
@@ -976,7 +960,7 @@
                             <td>Prof. Raghuvir Singh<br />Dr. Himanshu Jain</td>
                         </tr>
                         <tr>
-                            <td>14</td>
+                            <td>13</td>
                             <td>Anand Joshi</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./191</td>
@@ -986,7 +970,7 @@
                             <td>Prof. Vipin Jain<br />Prof. Ashish Mehra</td>
                         </tr>
                         <tr>
-                            <td>15</td>
+                            <td>14</td>
                             <td>Ayushi Raj</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./189</td>
@@ -995,7 +979,7 @@
                             <td>Prof. Vaishali Dhingra</td>
                         </tr>
                         <tr>
-                            <td>16</td>
+                            <td>15</td>
                             <td>Navneet Kumar Vishnoi</td>
                             <td>Management</td>
                             <td>TMG 20 Ph.D./188</td>
@@ -1004,7 +988,7 @@
                             <td>Prof. Raghuvir Singh</td>
                         </tr>
                         <tr>
-                            <td>17</td>
+                            <td>16</td>
                             <td>Megha Rastogi</td>
                             <td>Management</td>
                             <td>TMG 18 Ph.D./21</td>
@@ -1013,8 +997,10 @@
                                 Uttar Pradesh</td>
                             <td>Dr. Vaishali Dhingra</td>
                         </tr>
+
+
                         <tr>
-                            <td>18</td>
+                            <td>17</td>
                             <td>Vikram Singh Tyagi</td>
                             <td>Management</td>
                             <td>TMG 17 Ph.D./151</td>
@@ -1024,7 +1010,7 @@
                             <td>Prof. Rakesh K. Mudgal</td>
                         </tr>
                         <tr>
-                            <td>19</td>
+                            <td>18</td>
                             <td>Firasat Ali</td>
                             <td>Management</td>
                             <td>TMG 16 Ph.D./144</td>
@@ -1034,7 +1020,7 @@
                             <td>Prof. Rakesh K. Mudgal</td>
                         </tr>
                         <tr>
-                            <td>20</td>
+                            <td>19</td>
                             <td>Namita Nath</td>
                             <td>Management</td>
                             <td>TMG 14 Ph.D./95</td>
@@ -1047,29 +1033,30 @@
             </div>
             <h4 class="tmu-text-primary"><span>Degree </span><span>Awarded</span></h4>
             <div class="table-responsive mb-4 mt-0">
-                <table class="table table-bordered table-striped">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Sl. No.</th>
-                            <th>Name of Scholar</th>
-                            <th>Discipline</th>
-                            <th>Registration No.</th>
-                            <th>Date of Award</th>
-                            <th>Topic</th>
-                            <th>Supervisor (s)</th>
+                            <th style="width:2%;text-align:center">#</th>
+                            <th style="text-align:center">Name of Scholar</th>
+                            <th style="text-align:center">Discipline</th>
+                            <th style="text-align:center">Registration No.</th>
+                            <th style="text-align:center">Date of Award</th>
+                            <th style="width:30%;text-align:center">Topic</th>
+                            <th style="width:20%;text-align:center;">Supervisor (s)</th>
                         </tr>
                     </thead>
                     <tbody>
+
                         <tr>
                             <td>1</td>
-                            <td>Sandeep Kr Bharti</td>
+                            <td>Charul Verma</td>
                             <td>Management</td>
-                            <td>TMG 18 Ph.D./18</td>
-                            <td>21/08/2024</td>
-                            <td>Comparative Study of Customer Behaviour In Public v/s Private Sector Banks
-                                in India (with special reference to Delhi and NCR)</td>
+                            <td>TMG 20 Ph.D./228</td>
+                            <td>02.12.2024</td>
+                            <td>"Impact of Digital Marketing and Promotional Strategies on the Admission Preference of Students in Private Universities"</td>
                             <td>Prof. Vipin Jain</td>
                         </tr>
+
                         <tr>
                             <td>2</td>
                             <td>Neeraj Khera</td>
@@ -1351,6 +1338,17 @@
                             <td>Prof. Vipin Jain Principal TMIMT, Teerthanker Mahaveer University,
                                 Moradabad<br>Prof. Vaishali Dhingra Dean Faculty of Commerce & Management
                                 Rama University, Kanpur</td>
+                        </tr>
+
+                        <tr>
+                            <td>26</td>
+                            <td>Sandeep Kr Bharti</td>
+                            <td>Management</td>
+                            <td>TMG 18 Ph.D./18</td>
+                            <td>21/08/2024</td>
+                            <td>Comparative Study of Customer Behaviour In Public v/s Private Sector Banks
+                                in India (with special reference to Delhi and NCR)</td>
+                            <td>Prof. Vipin Jain</td>
                         </tr>
                     </tbody>
                 </table>
@@ -2771,29 +2769,21 @@
         <div class="panel">
             <h4 class="tmu-text-primary"><span>Registered </span><span>Scholar</span></h4>
             <div class="table-responsive mb-4 mt-0">
-                <table class="table table-bordered table-striped">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Sl. No.</th>
-                            <th>Name of Scholar</th>
-                            <th>Discipline</th>
-                            <th>Registration No.</th>
-                            <th>Date of Registration</th>
-                            <th>Topic</th>
-                            <th>Supervisor (s)</th>
+                            <th style="width:2%;text-align:center">#</th>
+                            <th style="text-align:center">Name of Scholar</th>
+                            <th style="text-align:center">Discipline</th>
+                            <th style="text-align:center">Registration No.</th>
+                            <th style="text-align:center">Date of Registration</th>
+                            <th style="width:30%;text-align:center">Topic</th>
+                            <th style="width:20%;text-align:center;">Supervisor (s)</th>
                         </tr>
                     </thead>
                     <tbody>
 
-                        <tr>
-                            <td>8</td>
-                            <td>Ravindra Nath Singh</td>
-                            <td>Physical Education</td>
-                            <td></td>
-                            <td></td>
-                            <td>Physical and Psychological Profile of Squash Players</td>
-                            <td>Dr. Sartaj Khan</td>
-                        </tr>
+
                         <tr>
                             <td>1</td>
                             <td>Mukesh Kumar</td>
@@ -2830,55 +2820,55 @@
                             <td>Course Work Period</td>
                             <td>Dr. Manu Mishra</td>
                         </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Amandeep Kaur</td>
-                            <td>Physical Education</td>
-                            <td>TPE 20 Ph.D./224</td>
-                            <td>17.03.2021</td>
-                            <td>Course Work Period</td>
-                            <td>Dr. Sneh Lata</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Pratyush Gupta</td>
-                            <td>Physical Education</td>
-                            <td>TPE 20 Ph.D./200</td>
-                            <td>22.10.2020</td>
-                            <td>Course Work Period</td>
-                            <td>Dr. Sneh Lata</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Yash Chandra Gangwar</td>
-                            <td>Physical Education</td>
-                            <td>TPE 19 Ph.D./164</td>
-                            <td>07.01.2020</td>
-                            <td>Comparison of Suicidal Attitude and Mental Health among Sports, Semi-Sports
-                                and Non-Sports Students</td>
-                            <td>Dr. Sartaj Khan</td>
-                        </tr>
-
                     </tbody>
                 </table>
             </div>
             <h4 class="tmu-text-primary"><span>Degree </span><span>Awarded</span></h4>
             <div class="table-responsive mb-4 mt-0">
-                <table class="table table-bordered table-striped">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Sl. No.</th>
-                            <th>Name of Scholar</th>
-                            <th>Discipline</th>
-                            <th>Registration No.</th>
-                            <th>Date of Award</th>
-                            <th>Topic</th>
-                            <th>Supervisor (s)</th>
+                            <th style="width:2%;text-align:center">#</th>
+                            <th style="text-align:center">Name of Scholar</th>
+                            <th style="text-align:center">Discipline</th>
+                            <th style="text-align:center">Registration No.</th>
+                            <th style="text-align:center">Date of Award</th>
+                            <th style="width:30%;text-align:center">Topic</th>
+                            <th style="width:20%;text-align:center;">Supervisor (s)</th>
                         </tr>
                     </thead>
                     <tbody>
+
+
                         <tr>
                             <td>1</td>
+                            <td>Manish Bhatt</td>
+                            <td>Physical Education</td>
+                            <td>TPE 20 Ph.D./224</td>
+                            <td>02.12.2024</td>
+                            <td>"Two-Dimensional Kinematic Analysis of O-Goshi Among Three Different Height Groups of Judo Players"</td>
+                            <td>Dr. Yogendra Sharma</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Amandeep Kaur</td>
+                            <td>Physical Education</td>
+                            <td>TPE 20 Ph.D./224</td>
+                            <td>25.10.2024</td>
+                            <td>Psycho-Kinematical Analysis of Indian Female Javelin Throwers</td>
+                            <td>Dr. Yogendra Sharma</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Pratyush Gupta</td>
+                            <td>Physical Education</td>
+                            <td>TPE 20 Ph.D./200</td>
+                            <td>25.10.2024</td>
+                            <td>The Untold Story of Olympian Sujit Kumar Srivastava – A Case Study</td>
+                            <td>Prof. Manu Mishra</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
                             <td>Ravindra Nath Singh</td>
                             <td>Physical Education</td>
                             <td>TPE 18 Ph.D./155</td>
@@ -2886,17 +2876,19 @@
                             <td>Physical and Psychological Profile of Squash Players</td>
                             <td>Dr. Sartaj Khan</td>
                         </tr>
+
                         <tr>
-                            <td>2</td>
+                            <td>5</td>
                             <td>Yash Chandra Gangwar</td>
                             <td>Physical Education</td>
                             <td>TPE 19 Ph.D./164</td>
                             <td>11/10/2024</td>
-                            <td>Comparison of Suicidal Attitude and Mental Health among Sports, Semi-Sports and Non-Sports Students</td>
-                            <td>Prof. Manu Mishra & Dr. Sartaj Khan</td>
+                            <td>Comparison of Suicidal Attitude and Mental Health among Sports, Semi-Sports
+                                and Non-Sports Students</td>
+                            <td>Prof. Manu Mishra &amp; Dr. Sartaj Khan</td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td>6</td>
                             <td>Manu Mishra</td>
                             <td>Physical Education</td>
                             <td>TPE 17 Ph.D./148</td>

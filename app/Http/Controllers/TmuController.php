@@ -945,6 +945,11 @@ class TmuController extends Controller
         return view('university.research.syllabus_course_work');
     }
 
+    public function syllabi_for_discipline()
+    {
+        return view('university.research.syllabi_for_discipline');
+    }
+
     public function phd_faq()
     {
         return view('university.research.phd_faq');
