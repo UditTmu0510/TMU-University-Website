@@ -427,7 +427,7 @@
                             <td>5</td>
                             <td>Research and Publication Ethics (Common for all disciplines)</td>
                             <td>20 Hours</td>
-                            <td>55</td>
+                            <td>60</td>
                             <td>100</td>
                         </tr>
                     </tbody>
