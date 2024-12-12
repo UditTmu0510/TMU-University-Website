@@ -294,7 +294,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">Fcaulty of Engineering<span class="icon">+</span> </button>
             <div class="panel">
-            <div class="iqac-container">
+                <div class="iqac-container">
                     <div class="iqac-card">
                         <div class="card-pdf">
                             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
@@ -379,6 +379,32 @@
                             <p class="description"><b>Course Code - (PDS240102)</b><br><b>Subject - Physical Education</b></p>
                             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                                 href="{{asset('/assets/pdf/research/SDSC-july-2024/others-college/Physical_Education_(PDS240102).pdf')}}" download>Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="horizontal-line">
+            <button class="careers-accordion">College of Agriculture Sciences<span class="icon">+</span> </button>
+            <div class="panel">
+                <div class="iqac-container">
+                    <div class="iqac-card">
+                        <div class="card-pdf">
+                            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                            <p class="description"><b>Course Code - (PDS240149-158)</b><br><b>Subject - Agronomy</b></p>
+                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                href="{{asset('/assets/pdf/research/SDSC-july-2024/agriculture/Agriculture-Agronomy-(PDS240149-158).pdf')}}" download>Download PDF</a>
+                        </div>
+                        <div class="card-pdf">
+                            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                            <p class="description"><b>Course Code - (PDS240159-167)</b><br><b>Subject - Plant Pathology</b></p>
+                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                href="{{asset('/assets/pdf/research/SDSC-july-2024/agriculture/Agriculture-Plant-Pathology-(PDS240159-167).pdf')}}" download>Download PDF</a>
+                        </div>
+                        <div class="card-pdf">
+                            <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                            <p class="description"><b>Course Code - (PDS240168-176)</b><br><b>Subject - Soil Sciences</b></p>
+                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                href="{{asset('/assets/pdf/research/SDSC-july-2024/agriculture/Agriculture-Soil-Science-(PDS240168-176).pdf')}}" download>Download PDF</a>
                         </div>
                     </div>
                 </div>
