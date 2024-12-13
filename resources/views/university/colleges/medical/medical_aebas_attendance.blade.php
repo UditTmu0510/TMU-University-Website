@@ -81,12 +81,12 @@
                                                 <td class="text-center">12.12.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/12th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            <!-- <tr>
-                                                <td class="text-center">12.</td>
-                                                <td class="text-center">22.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/22nd-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
-                                            </tr>
                                             <tr>
+                                                <td class="text-center">12.</td>
+                                                <td class="text-center">13.12.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/13th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                            </tr>
+                                            <!---<tr>
                                                 <td class="text-center">12.</td>
                                                 <td class="text-center">23.12.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/23rd-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
