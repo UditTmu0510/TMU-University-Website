@@ -83,6 +83,7 @@
                 <p class="mt-1 text-center"><b> *Amended w.e.f. January 01, 2020, as per UGC D.O.
                         No. F-1-1/2018 (Journal/CARE)</b><br><span class="highlight p-0">
                         <a href="{{asset('/assets/pdf/research/DO-NO-F-1-12018_compressed.pdf')}}"> (Click here to view)</a></span></p>
+                        
                 <hr class="mb-3">
                 <div class="card mb-4 mt-2">
                     <div class="card-body">
@@ -116,8 +117,8 @@
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5">
-                    <li><b>Scientific Research:</b> Meaning and characteristics of scientific research,
+                <ol class="m-ol-list ps-4">
+                    <li><b class="fs-14">Scientific Research:</b> Meaning and characteristics of scientific research,
                         validity in research, phases/stages in research; types of research- qualitative,
                         quantitative, exponential, exploratory, empirical, descriptive, ex-post facto, case
                         studies, historical studies, philosophical studies, quasi-experimental; ethical
@@ -125,18 +126,18 @@
                         concept of constructs, type of variables, continuous and categorical, constructs,
                         observables and intervening variables; Review of literature- purpose of the review,
                         sources of the review, preparation of index card for reviewing and abstracting.</li>
-                    <li><b>Problem Identification and Hypothesis Formation:</b> Problem- meaning and
+                    <li><b class="fs-14">Problem Identification and Hypothesis Formation:</b> Problem- meaning and
                         characteristics of a problem, types of problem, generality and specific of problem;
                         hypothesis- meaning and characteristics of a good hypothesis, types of hypotheses,
                         formulating a hypothesis, ways of stating a hypothesis; testing experimental
                         hypothesis- standard error, test of significance, level of significance, degrees of
                         freedom, errors in hypothesis- type I, type II errors.</li>
-                    <li><b>Sampling and Research Design:</b> Meaning and types of sampling; probability and
+                    <li><b class="fs-14">Sampling and Research Design:</b> Meaning and types of sampling; probability and
                         non-probability sampling. Methods of drawing samples, requisites of a good sampling
                         method, sample size, sampling error; meaning and purpose of research design, types
                         of research design, criteria of a good research design, basic principles of
                         experimental design.</li>
-                    <li><b>Introduction to MS-Office: </b> MS-WORD, MS-EXCEL, MATLAB, LATEX.</li>
+                    <li><b class="fs-14">Introduction to MS-Office: </b> MS-WORD, MS-EXCEL, MATLAB, LATEX.</li>
                 </ol>
                 </p>
             </div>
@@ -145,7 +146,7 @@
             <button class="careers-accordion">Suggested Reading <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list">
+                <ol class="m-ol-list ps-4">
                     <li>Cooper & Schindler, Business Research Methods, Tata McGraw Hill.</li>
                     <li>Saunders, Research Methods for Business Students, Pearson Education.</li>
                     <li>Allen T Harrell, New Methods in Social Science Researchs, Praeger Publishers, New
@@ -179,12 +180,12 @@
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5">
-                    <li><b>Measurement and Scaling Techniques: </b> Measurement in research, measurement
+                <ol class="m-ol-list ps-4">
+                    <li><b class="fs-14">Measurement and Scaling Techniques: </b> Measurement in research, measurement
                         scales sources of errors in measurement, tests of second measurement, techniques of
                         developing measurement tools, meaning of scaling, scale classification bases,
                         important scaling techniques, and scale construction techniques.</li>
-                    <li><b>Data Collection, Processing and Analysis:</b> Methods of data collection –
+                    <li><b class="fs-14">Data Collection, Processing and Analysis:</b> Methods of data collection –
                         primary data, secondary data; primary data collection – observation method,
                         interview method, questionnaires, schedules, guideline for constructing
                         questionnaires/schedules, secondary data collection of, selection of appropriate
@@ -198,7 +199,7 @@
                         mean, population variance and ratio of two population variances; applications of
                         z-test, t-test, f-test and chi-square test, association of attributes and techniques
                         of testing, ANOVA.</li>
-                    <li><b>Report Writing: </b> Meaning and significance of report writing, types of report,
+                    <li><b class="fs-14">Report Writing: </b> Meaning and significance of report writing, types of report,
                         steps in writing report, layout of the research report, precaution in writing
                         research report, developing thesis report, formatting, inside citations, references
                         and bibliography, knowledge of computer, statistical software and their application,
@@ -248,8 +249,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
-                <p>
-                <ol class="m-ol-list ps-5">
+                <ol class="ps-4 fs-14 text-justify" style="list-style-type: decimal;">
                     <li>The research scholar will review the important studies conducted at the national and
                         international level either by individuals or organizations including government
                         agencies and present the methodology adopted and important findings emerged from
@@ -259,7 +259,7 @@
                     <li>The researcher is supposed to follow the pattern adopted in the standard national
                         and international research journals. However, as an illustration, the pattern for
                         reporting review of literature is as under:
-                        <ol class="m-ol-list ps-5">
+                        <ol class="m-ol-list ps-4 text-justify">
                             <li>Tiwari and Sinha (1971) gave productivity trends and factor compensation in
                                 the Indian textiles industry for the period 1946-65, comprising two
                                 sub-periods (1946-1955 and 1956-1965). The marginal productivity of capital,
@@ -287,7 +287,6 @@
                         </ol>
                     </li>
                 </ol>
-                </p>
             </div>
             <hr class="horizontal-line">
             <br>
@@ -307,7 +306,7 @@
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5 mb-2">
+                <ol class="m-ol-list ps-4 mb-2">
                     <li><strong>Pedagogy:</strong> Classroom teaching, guest lectures, group discussions,
                         and practical sessions.</li>
                     <li><strong>Evaluation:</strong> Continuous assessment will be done through tutorials,
@@ -440,7 +439,7 @@
             <p>The syllabi for both the courses shall be as prescribed by the Indian Nursing Council.</p>
             <p>The Viva-Voce (proposal defense) examination shall be conducted in presence of the panel
                 consisting of: <br>
-            <ol class="m-ol-list ps-5 text-justify">
+            <ol class="m-ol-list ps-4 text-justify">
                 <li>Two examiners (Subject Experts) appointed by the University</li>
                 <li>Supervisor/Co-Supervisor <br>The candidate shall be declared as successful in the
                     examination if he/she scores not less than 60% of marks in each course.</li>
