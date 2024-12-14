@@ -387,47 +387,47 @@
             <div class="table-responsive mb-3">
                 <table class="table table-bordered table-striped">
                     <thead>
-                        <th>Sl. No.</th>
-                        <th>Course</th>
-                        <th>Duration</th>
-                        <th>Min Qualifying Marks</th>
-                        <th>Maximum Marks</th>
+                        <th class="text-center">Sl. No.</th>
+                        <th class="text-center">Course</th>
+                        <th class="text-center">Duration</th>
+                        <th class="text-center">Min Qualifying <br>Marks</th>
+                        <th class="text-center">Maximum Marks</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Research Methodology & Applied Statistics</td>
-                            <td>90 Hours</td>
-                            <td>60</td>
-                            <td>100</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">Research Methodology & Applied Statistics</td>
+                            <td class="text-center">90 Hours</td>
+                            <td class="text-center">60</td>
+                            <td class="text-center">100</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>Seminar/Term paper in the area of research (Internal assessment)</td>
-                            <td>-----</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Seminar/Term paper in the area of research (Internal assessment)</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Viva Voce (Proposal defense)*</td>
-                            <td>-----</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Viva Voce (Proposal defense)*</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>Nursing Science and Theory Development Including Nursing Leadership</td>
-                            <td>120 Hours</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">Nursing Science and Theory Development Including Nursing Leadership</td>
+                            <td class="text-center">120 Hours</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>5</td>
-                            <td>Research and Publication Ethics (Common for all disciplines)</td>
-                            <td>20 Hours</td>
-                            <td>60</td>
-                            <td>100</td>
+                            <td class="text-center">5</td>
+                            <td class="text-center">Research and Publication Ethics (Common for all disciplines)</td>
+                            <td class="text-center">20 Hours</td>
+                            <td class="text-center">60</td>
+                            <td class="text-center">100</td>
                         </tr>
                     </tbody>
                 </table>
