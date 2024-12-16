@@ -311,7 +311,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
 Route::get('/library', [TmuController::class, 'library'])->name('library');
-Route::get('/tmu/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
+Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
 Route::get('/tmu/application-form', [TmuController::class, 'application_form'])->name('application.form');
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');

@@ -9,7 +9,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mt-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">TMU Hospital:  <span style="font-weight:700!important;"> Comprehensive Healthcare Services</span></h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">TMU Hospital: <span style="font-weight:700!important;"> Comprehensive Healthcare Services</span></h1>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
@@ -128,57 +128,45 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <div class="contcainer pt-3 mt-4">
-                        <div class="facility-section">
-                            <h5 class="fw-bold">Medical Facility to the Students:</h5>
-                            <p>All the bonafide students of various programs at the university are provided with the
-                                below
-                                complimentary medical facilities at TMU hospital as per the policy:</p>
-                            <ul style="margin-left: 20px;">
-                                <li><strong>Outdoor Patient Department (OPD) facilities:</strong> Free registration and
-                                    free
-                                    tests
-                                    (blood, stool, urine, ECG, ultrasound etc). All super specialty checkups and tests
-                                    including MRI
-                                    & CT scan are available on 20% discount.</li>
-                                <li><strong>Inpatient Department (IPD) facilities:</strong> Students can avail the
-                                    treatment
-                                    facility of maximum up to Rs 50,000/- at TMU hospital during the entire period of
-                                    the
-                                    program
-                                    that they are enrolled in at the university. All the bonafide students will also
-                                    have
-                                    the
-                                    coverage of Rs 1 lac in case of accidental death while they are studying at the
-                                    university.</li>
-                            </ul>
+                <div class="row d-flex align-items-stretch">
+                    <div class="col-md-6">
+                        <div class="container pt-3 mt-4 h-100">
+                            <div class="facility-section h-100" style="height: 100%;">
+                                <h5 class="fw-bold">Medical Facility to the Students:</h5>
+                                <p>All the bonafide students of various programs at the university are provided with the
+                                    below complimentary medical facilities at TMU hospital as per the policy:</p>
+                                <ul style="margin-left: 20px;">
+                                    <li><strong>Outdoor Patient Department (OPD) facilities:</strong> Free registration and
+                                        free tests (blood, stool, urine, ECG, ultrasound etc). All super specialty checkups and tests
+                                        including MRI & CT scan are available on 20% discount.</li>
+                                    <li><strong>Inpatient Department (IPD) facilities:</strong> Students can avail the
+                                        treatment facility of maximum up to Rs 50,000/- at TMU hospital during the entire period of
+                                        the program that they are enrolled in at the university. All the bonafide students will also
+                                        have the coverage of Rs 1 lac in case of accidental death while they are studying at the university.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container pt-3 mt-4 h-100">
+                            <div class="facility-section h-100" style="height: 100%;">
+                                <h5 class="fw-bold">In addition, following facilities are available:</h5>
+                                <ul style="margin-left: 20px;">
+                                    <li>A Dialysis unit with latest Haemodialysis machines</li>
+                                    <li>A well-developed Neurology Lab with facilities of EEG, NCV, EMG and BERA</li>
+                                    <li>An air-conditioned Ward for critically burnt patients</li>
+                                    <li>A Neurosurgery unit with backup for spiral CT Scan and ICU for Head Injury cases</li>
+                                    <li>A Urodynamic Lab</li>
+                                    <li>An Endoscopy section with facilities for upper and lower G.I. Endoscopy for the Gastroenterology Department</li>
+                                    <li>An Endocrinological Lab for Hormonal study</li>
+                                    <li>ND/ Yag Laser facilities for Ophthalmology Department</li>
+                                    <li>State-of-the-art infertility centre with facilities of IVF, ICSI, Laser hatching, TESE & PESA</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <div class="conctainer pt-3 mt-4">
-                        <div class="facility-section">
-                            <h5 class="fw-bold">In addition, following facilities are available:</h5>
-                            <ul style="margin-left: 20px;">
-                                <li>A Dialysis unit with latest Haemodialysis machines</li>
-                                <li>A well developed Neurology Lab with facilities of EEG, NCV, EMG and BERA</li>
-                                <li>An air conditioned Ward for critically burnt patients</li>
-                                <li>A Neurosurgery unit with back up for spiral CT Scan and ICU for Head Injury cases
-                                </li>
-                                <li>A Urodynamic Lab</li>
-                                <li>A Urodynamic Lab</li>
-                                <li>An Endoscopy section with facilities for upper and lower G.I. Endoscopy for the
-                                    Gastroenterology Department</li>
-                                <li>An Endocrinological Lab for Hormonal study</li>
-                                <li>ND/ Yag Laser facilities for Ophthalmology Department</li>
-                                <li>State-of-the-art infertility centre with facilities of IVF, ICSI, Laser hatching,
-                                    TESE &
-                                    PESA</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
 
@@ -237,7 +225,7 @@
         </section>
 
         <div class="container">
-            <h2 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h2>
+            <h2 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Hospital </span><span> Glimpse</span></h2>
             <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                 <div class="col-md-3 col-sm-6  ">
                     <div class="position-relative">
@@ -362,8 +350,6 @@
             </div>
         </div>
 
-
-
     </div>
 </section>
 
@@ -390,6 +376,4 @@
 
     // HOSPITAL COUNTER JS END
 </script>
-
-
 @endsection
