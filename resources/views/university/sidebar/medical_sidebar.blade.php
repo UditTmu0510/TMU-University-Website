@@ -92,67 +92,67 @@
         </div>
         <h2>Departments</h2>
         <div class="account-section">
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/1-Principal-and-MS.pdf')}}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/1-Principal-and-MS.pdf')}}" class="custom-menu-item">
                 <p>Principal & MS</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/2-Anatomy.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/2-Anatomy.pdf') }}" class="custom-menu-item">
                 <p>Anatomy</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/3-Physiology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/3-Physiology.pdf') }}" class="custom-menu-item">
                 <p>Physiology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/4-Biochemistry.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/4-Biochemistry.pdf') }}" class="custom-menu-item">
                 <p>Biochemistry</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/5-Pathology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/5-Pathology.pdf') }}" class="custom-menu-item">
                 <p>Pathology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/6-Microbiology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/6-Microbiology.pdf') }}" class="custom-menu-item">
                 <p>Microbiology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/7_Pharmacology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/7_Pharmacology.pdf') }}" class="custom-menu-item">
                 <p>Pharmacology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/8-Forensic-Medicine.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/8-Forensic-Medicine.pdf') }}" class="custom-menu-item">
                 <p>Forensic Medicine </p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/9_Community_Medicine.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/9_Community_Medicine.pdf') }}" class="custom-menu-item">
                 <p>Community Medicine</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/10_General_Medicine.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/10_General_Medicine.pdf') }}" class="custom-menu-item">
                 <p>General Medicine </p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/11_Respiratory_Medicine.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/11_Respiratory_Medicine.pdf') }}" class="custom-menu-item">
                 <p>Respiratory Medicine</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/13_Psychiatry.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/13_Psychiatry.pdf') }}" class="custom-menu-item">
                 <p>Psychiarty</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/12-Dermatology-Venereology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/12-Dermatology-Venereology.pdf') }}" class="custom-menu-item">
                 <p>Dermatology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/14_Paediatrics.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/14_Paediatrics.pdf') }}" class="custom-menu-item">
                 <p>Paediatric</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/19_Anaesthesiology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/19_Anaesthesiology.pdf') }}" class="custom-menu-item">
                 <p>Anesthesiology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/20_Radio_Diagnosis.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/20_Radio_Diagnosis.pdf') }}" class="custom-menu-item">
                 <p>Radiology </p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/15_General_Surgery.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/15_General_Surgery.pdf') }}" class="custom-menu-item">
                 <p>General Surgery</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/16_Orthopaedics.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/16_Orthopaedics.pdf') }}" class="custom-menu-item">
                 <p>Orthopaedics</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/18_Otorhinolaryngology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/18_Otorhinolaryngology.pdf') }}" class="custom-menu-item">
                 <p>ENT</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/17_Ophthalmology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/17_Ophthalmology.pdf') }}" class="custom-menu-item">
                 <p>Ophthalmology</p>
             </a>
-            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_nov/21-Obstetrics-and-Gynaecology.pdf') }}" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/21-Obstetrics-and-Gynaecology.pdf') }}" class="custom-menu-item">
                 <p>Obstetrics and Gynaecology</p>
             </a>
         </div>
