@@ -40,5 +40,10 @@
         "text": "Gallery",
         "imageURL": "gallery.svg",
         "order": 6
+    },
+    {
+        "id": 8,
+        "text": "Faculty Details",
+        "imageURL": "university.svg"
     }
 ]
