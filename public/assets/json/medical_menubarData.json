@@ -95,5 +95,70 @@
     },
     "7": {
         "link": "\/medical-college-and-research-centre\/gallery"
+    },
+    "8": {
+        "Principal & MS": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/1-Principal-and-MS.pdf"
+        },
+        "Anatomy": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/2-Anatomy.pdf"
+        },
+        "Physiology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/3-Physiology.pdf"
+        },
+        "Biochemistry": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/4-Biochemistry.pdf"
+        },
+        "Pathology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/5-Pathology.pdf"
+        },
+        "Microbiology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/6-Microbiology.pdf"
+        },
+        "Pharmacology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/7_Pharmacology.pdf"
+        },
+        "Forensic Medicine": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/8-Forensic-Medicine.pdf"
+        },
+        "Community Medicine": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/9_Community_Medicine.pdf"
+        },
+        "General Medicine": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/10_General_Medicine.pdf"
+        },
+        "Respiratory Medicine": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/11_Respiratory_Medicine.pdf"
+        },
+        "Psychiatry": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/13_Psychiatry.pdf"
+        },
+        "Dermatology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/12-Dermatology-Venereology.pdf"
+        },
+        "Paediatrics": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/14_Paediatrics.pdf"
+        },
+        "Anesthesiology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/19_Anaesthesiology.pdf"
+        },
+        "General Surgery": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/15_General_Surgery.pdf"
+        },
+        "Orthopaedics": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/16_Orthopaedics.pdf"
+        },
+        "Otorhinolaryngology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/18_Otorhinolaryngology.pdf"
+        },
+        "Ophthalmology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/17_Ophthalmology.pdf"
+        },
+        "Obstetrics and Gynaecology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/21-Obstetrics-and-Gynaecology.pdf"
+        },
+        "Radiology": {
+            "link": "assets\/pdf\/medical\/faculty_details\/department_detail_dec\/20_Radio_Diagnosis.pdf"
+        }
     }
 }
