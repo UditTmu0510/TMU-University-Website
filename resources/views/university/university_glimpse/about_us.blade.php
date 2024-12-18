@@ -256,7 +256,7 @@
         <div class="row essential-section">
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-user-graduate" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">15K+</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">16K+</div>
             <p style="color:#000;">Students</p>
           </div>
 
