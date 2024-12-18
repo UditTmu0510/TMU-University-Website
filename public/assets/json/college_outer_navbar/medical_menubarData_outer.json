@@ -36,14 +36,15 @@
         "order": 5
     },
     {
+        "id": 8,
+        "text": "Faculty Details",
+        "imageURL": "faculty.svg"
+    },
+    {
         "id": 7,
         "text": "Gallery",
         "imageURL": "gallery.svg",
         "order": 6
-    },
-    {
-        "id": 8,
-        "text": "Faculty Details",
-        "imageURL": "university.svg"
     }
+    
 ]
