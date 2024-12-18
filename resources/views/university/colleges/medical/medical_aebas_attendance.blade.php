@@ -86,22 +86,22 @@
                                                 <td class="text-center">13.12.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/13th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            <!---<tr>
-                                                <td class="text-center">12.</td>
-                                                <td class="text-center">23.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/23rd-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                           <tr>
+                                                <td class="text-center">13.</td>
+                                                <td class="text-center">16.12.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/16th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-center">12.</td>
-                                                <td class="text-center">25.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/25th-Novemebr-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">14.</td>
+                                                <td class="text-center">17.12.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/17th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-center">12.</td>
-                                                <td class="text-center">26.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/26th-Novemebr-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center">15.</td>
+                                                <td class="text-center">18.12.2024</td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/18th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
-                                            <tr>
+                                           <!--- <tr>
                                                 <td class="text-center">12.</td>
                                                 <td class="text-center">27.12.2024</td>
                                                 <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/27th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
