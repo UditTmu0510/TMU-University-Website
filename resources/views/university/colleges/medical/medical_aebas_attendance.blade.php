@@ -114,7 +114,7 @@
                                            <tr>
                                                 <td class="text-center">18.</td>
                                                 <td class="text-center">21.12.2024</td>
-                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/21th-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
+                                                <td class="text-center"><a href="{{asset('/assets/pdf/aebas-attendance/december/21st-December-2024.pdf')}}" target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a></td>
                                             </tr>
                                             <!--<tr>
                                                 <td class="text-center">15.</td>
