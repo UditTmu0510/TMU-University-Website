@@ -5,7 +5,7 @@
     <div class="container">
 
 
-        <h1 class="tmu-text-primary tmu-page-heading"><span>Corporate </span><span>Advisory Board</span>
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Corporate </span><span>Advisory Board</span>
         </h1>
 
         <div class="container ">

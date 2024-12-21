@@ -2,7 +2,7 @@
 @section('content')
 
         <div class="main-content">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Anti Ragging </span><span> Committee</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Anti Ragging </span><span> Committee</span></h1>
 
                     <div class="container">
                         <div class="row mb-3">
