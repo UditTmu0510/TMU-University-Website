@@ -38,7 +38,7 @@
 						<td>152</td>
 						<td>152</td>
 						<td>152</td>
-						<td></td>
+						<td>152</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -60,7 +60,7 @@
 						<td>119</td>
 						<td>119</td>
 						<td>119</td>
-						<td></td>
+						<td>119</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -79,7 +79,7 @@
 						<td>106</td>
 						<td>106</td>
 						<td>106</td>
-						<td></td>
+						<td>106</td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -97,7 +97,7 @@
 						<td>111</td>
 						<td>111</td>
 						<td>111</td>
-						<td></td>
+						<td>111</td>
 						<td></td>
 						<td></td>
 						<td></td>
