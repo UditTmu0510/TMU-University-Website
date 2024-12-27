@@ -234,6 +234,12 @@
             <div class="iqac-card">
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">Minutes of Meeting of 22nd Meeting of the Executive Council | August 31, 2024</p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                  href="{{asset('/assets/pdf/ec_minutes/EC_22_minutes.pdf')}}">View PDF</a>
+              </div>
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Minutes of Meeting of 20th Meeting of the Executive Council | May 14, 2022</p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="{{asset('/assets/pdf/ec_minutes/EC20_minutes.pdf')}}">View PDF</a>
@@ -258,10 +264,6 @@
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="{{asset('/assets/pdf/ec_minutes/EC17_minutes.pdf')}}">View PDF</a>
               </div>
-            </div>
-          </div>
-          <div class="iqac-container">
-            <div class="iqac-card">
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Minutes of Meeting of 16th Meeting of the Executive Council | May 25, 2019</p>
@@ -482,7 +484,7 @@
                   <td>Member</td>
                 </tr>
 
-                
+
                 <tr>
                   <td>Mr. Ravindra Dev</td>
                   <td>Associate Professor</td>
@@ -523,96 +525,90 @@
             </table>
           </div>
 
-          <h3 class="mb-2 ms-3 tmu-text-primary text-center"><span>Minutes of Meeting of </span><span> Academic
-              Council</span></h3>
+          <h3 class="mb-2 ms-3 tmu-text-primary text-center"><span>Minutes of Meeting of </span><span> Academic Council</span></h3>
           <div class="iqac-container">
             <div class="iqac-card">
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of the 21st meeting of Academic Council | September 14, 2023</p>
+                <p class="description">Minutes of the 22nd meeting of Academic Council | <b>August 16, 2024</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/21st_MOM_IQAC_compressed_new.pdf')}}">View
+                  href="{{asset('/assets/pdf/academic_council_minutes/TMU_MoM_22nd AC.pdf')}}" target="_blank">View
                   PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 19th Meeting (Online Mode) of the Academic Council |
-                  April 27, 2022</p>
+                <p class="description">Minutes of the 21st meeting of Academic Council | <b>September 14, 2023</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/april_2022.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/21st_MOM_IQAC_compressed_new.pdf')}}" target="_blank">View
+                  PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 18th Meeting (Online Mode) of the Academic Council |
-                  March 20, 2021</p>
+                <p class="description">Minutes of Meeting of 20th Meeting of Academic Council | <b>November 22, 2022</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/april_2021_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/Minutes_20AC_TMU.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 17th Meeting (Online Mode) of the Academic Council | July
-                  30, 2020</p>
+                <p class="description">Minutes of Meeting of 19th Meeting (Online Mode) of the Academic Council | <b>April 27, 2022</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/july_2020_compressed.pdf')}}">View PDF</a>
-              </div>
-            </div>
-          </div>
-          <div class="iqac-container">
-            <div class="iqac-card">
-              <div class="card-pdf">
-                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 16th Meeting (Online Mode) of the Academic Council |
-                  August 17, 2019</p>
-                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/august_2019_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/april_2022.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 15th Meeting (Online Mode) of the Academic Council | May
-                  25, 2019</p>
+                <p class="description">Minutes of Meeting of 18th Meeting (Online Mode) of the Academic Council | <b>March 20, 2021</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/may_2019_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/april_2021_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 14th Meeting (Online Mode) of the Academic Council |
-                  November 02, 2018</p>
+                <p class="description">Minutes of Meeting of 17th Meeting (Online Mode) of the Academic Council | <b>July
+                  30, 2020</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/november_2018_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/july_2020_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 13th Meeting (Online Mode) of the Academic Council |
-                  March 10, 2018</p>
+                <p class="description">Minutes of Meeting of 16th Meeting of the Academic Council | <b> August 17, 2019</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/march_2018_compressed.pdf')}}">View PDF</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="iqac-container">
-            <div class="iqac-card">
-              <div class="card-pdf">
-                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 16th Meeting of the Executive Council | May 25, 2019</p>
-                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/september_2017_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/august_2019_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 12th Meeting (Online Mode) of the Academic Council |
-                  September 25, 2017 </p>
+                <p class="description">Minutes of Meeting of 15th Meeting of the Academic Council | <b> May 25, 2019</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/ac_minutes/AC11_0001.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/may_2019_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 10th Meeting (Online Mode) of the Academic Council |
-                  February 13, 2016</p>
+                <p class="description">Minutes of Meeting of 14th Meeting of the Academic Council | <b>November 02, 2018</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/february_2016_compressed.pdf')}}">View PDF</a>
+                  href="{{asset('/assets/pdf/academic_council_minutes/november_2018_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
-
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">Minutes of Meeting of 13th Meeting of the Academic Council | <b>March 10, 2018</b></p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                  href="{{asset('/assets/pdf/academic_council_minutes/march_2018_compressed.pdf')}}" target="_blank">View PDF</a>
+              </div>
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">Minutes of Meeting of 12th Meeting of the Academic Council | <b>September 25, 2017</b></p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                  href="{{asset('/assets/pdf/academic_council_minutes/september_2017_compressed.pdf')}}" target="_blank">View PDF</a>
+              </div>
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">Minutes of Meeting of 11th Meeting of the Academic Council | <b>March 25, 2017</b></p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                  href="{{asset('/assets/pdf/academic_council_minutes/AC11_0001.pdf')}}" target="_blank">View PDF</a>
+              </div>
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">Minutes of Meeting of 10th Meeting of the Academic Council | <b>February 13, 2016</b></p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                  href="{{asset('/assets/pdf/academic_council_minutes/february_2016_compressed.pdf')}}" target="_blank">View PDF</a>
+              </div>
             </div>
           </div>
         </div>
