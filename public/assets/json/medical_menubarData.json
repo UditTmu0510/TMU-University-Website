@@ -46,9 +46,6 @@
         "Learning Objective": {
             "link": "\/medical-college-and-research-centre\/learning-objective"
         },
-        "Academic Calender": {
-            "link": "\/medical-college-and-research-centre\/academic-calendar"
-        },
         "AEBAS Dashboard": {
             "link": "\/medical-college-and-research-centre\/aebas-attendance"
         },
@@ -57,6 +54,9 @@
         },
         "Syllabus": {
             "link": "\/medical-college-and-research-centre\/syllabus"
+        },
+        "Academic Calendar": {
+            "link": "\/medical-college-and-research-centre\/academic-calendar"
         }
     },
     "5": {
