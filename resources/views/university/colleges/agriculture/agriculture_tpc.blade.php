@@ -33,9 +33,9 @@
                             <thead>
                                 <tr>
                                     <th class="text-center">Sl. No.</th>
-                                    <th class="text-center">Contact Person</th>
-                                    <th class="text-center">Designation</th>
-                                    <th class="text-center">Contact No.</th>
+                                    <th>Contact Person</th>
+                                    <th>Designation</th>
+                                    <th>Contact No.</th>
                                     <!-- <th class="text-center">Email ID</th> -->
                                 </tr>
                             </thead>

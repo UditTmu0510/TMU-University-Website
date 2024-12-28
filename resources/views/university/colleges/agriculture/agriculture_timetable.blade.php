@@ -21,18 +21,6 @@
                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                         href="{{asset('/assets/pdf/time_table/Agri_TT_24_25.pdf')}}" download>Download PDF</a>
                 </div>
-                <div class="card-pdf">
-                    <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                    <p class="description">Time Table (Academic Session 2023-24)</p>
-                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                        href="{{asset('/assets/pdf/time_table/Agriculture_TT_23_24.pdf')}}" download>Download PDF</a>
-                </div>
-                <div class="card-pdf">
-                    <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                    <p class="description">Time Table (Academic Session 2022-23)</p>
-                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                        href="{{asset('/assets/pdf/time_table/agriculture_22_23.pdf')}}" download>Download PDF</a>
-                </div>
             </div>
         </div>
     </div>
