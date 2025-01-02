@@ -7,7 +7,7 @@
         </h1>
 
         <div class="row">
-            <div class="table-responsive mb-5">
+            <div class="table-responsive mb-4">
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <h3 class="tmu-text-primary tmu-page-heading"><span>Proctorial Board </span><span> Committee</span></h3>
+            <h3 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Proctorial Board </span><span> Committee</span></h3>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
