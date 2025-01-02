@@ -12,73 +12,66 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No.</th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
 
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1</td>
-                            <td>Dr. Naveen Kumar Singh </td>
-
-                            <td>Principal</td>
-                            <td>9837848860</td>
+                            <td class="text-center">Dr. Naveen Kumar Singh </td>
+                            <td class="text-center">Principal</td>
+                            <td class="text-center">9837848860</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">2</td>
-                            <td>Dr. S. K. Jain</td>
-
-                            <td>Chief Proctor</td>
-                            <td>9997168754</td>
+                            <td class="text-center">Dr. S. K. Jain</td>
+                            <td class="text-center">Chief Proctor</td>
+                            <td class="text-center">9997168754</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td>Dr. Sadhna Singh</td>
-
-                            <td>Proctor</td>
-                            <td>9411874572</td>
+                            <td class="text-center">Dr. Sudhir Singh</td>
+                            <td class="text-center">Proctor</td>
+                            <td class="text-center">8650821817</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">4</td>
-                            <td>Dr. V.K. Singh</td>
-
-                            <td>Member</td>
-                            <td>9927033533</td>
+                            <td class="text-center">Dr. V.K. Singh</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9927033533</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">5</td>
-                            <td>Dr. Shweta Sharma</td>
-
-                            <td>Member</td>
-                            <td>9997605146</td>
+                            <td class="text-center">Dr. Shweta Sharma</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9818750928</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">6</td>
-                            <td>Dr. Ritu Adhana</td>
-
-                            <td>Member</td>
-                            <td>9927038197</td>
+                            <td class="text-center">Dr. Ritu Adhana</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9927038197</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">7</td>
-                            <td>Dr. Prithpal Singh Matreja</td>
-
-                            <td>Member Secretary & FIP</td>
-                            <td>9855001847</td>
+                            <td class="text-center">Dr. Prithpal Singh Matreja</td>
+                            <td class="text-center">Member Secretary & FIP</td>
+                            <td class="text-center">9855001847</td>
 
                         </tr>
 
@@ -105,66 +98,59 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No.</th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
 
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1</td>
-                            <td>Dr. S.K. Jain</td>
-                            <td>Chief Proctor</td>
-                            <td>9997168754</td>
+                            <td class="text-center">Dr. S.K. Jain</td>
+                            <td class="text-center">Chief Proctor</td>
+                            <td class="text-center">9997168754</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">2</td>
-                            <td>Dr. Sudhir Gupta</td>
-                            <td>Proctor</td>
-                            <td>9410527979</td>
+                            <td class="text-center">Dr. Sudhir Singh</td>
+                            <td class="text-center">Proctor</td>
+                            <td class="text-center">8650821817</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td>Dr. Umar Farooq</td>
-                            <td>Member</td>
-                            <td>9756114188</td>
+                            <td class="text-center">Dr. Ashutosh Kumar</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">7500700869</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">4</td>
-                            <td>Dr. (Mrs. ) Sadhna Singh</td>
-                            <td>Member</td>
-                            <td>8439941989</td>
+                            <td class="text-center">Dr. Sadhna Singh</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8439941989</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">5</td>
-                            <td>Dr. Ashutosh Kumar</td>
-                            <td>Member</td>
-                            <td>7500700869</td>
+                            <td class="text-center">Dr. Chintu Chaudhary</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9643099272</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">6</td>
-                            <td>Dr. Anish Prabhakar</td>
-                            <td>Member</td>
-                            <td>8900402902</td>
+                            <td class="text-center">Dr. Deepti Arora</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center"> 9105743378</td>
 
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">7</td>
-                            <td>Dr. (Mrs.) Hina Nafees</td>
-                            <td>Member</td>
-                            <td>9219825824</td>
                         </tr>
 
                     </tbody>
