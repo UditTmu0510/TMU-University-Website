@@ -563,7 +563,7 @@
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Minutes of Meeting of 17th Meeting (Online Mode) of the Academic Council | <b>July
-                  30, 2020</b></p>
+                    30, 2020</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="{{asset('/assets/pdf/academic_council_minutes/july_2020_compressed.pdf')}}" target="_blank">View PDF</a>
               </div>
@@ -776,16 +776,18 @@
             <table class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th rowspan="2">#
+                  <th rowspan="2">Sl. No.
                   </th>
                   <th rowspan="2">
                     College / Department Name</th>
                   <th rowspan="2">
                     Composition</th>
-                  <th colspan="9" class="text-center"><strong>Minutes of
+                  <th colspan="10" class="text-center"><strong>Minutes of
                       Meeting</strong></th>
                 </tr>
-                <tr class="text-center">
+                <tr>
+                  <th class="text-center">2024-25</th>
+                  <th class="text-center">2023-24</th>
                   <th class="text-center">2022-23</th>
                   <th class="text-center">2021-22</th>
                   <th class="text-center">2020-21</th>
@@ -803,6 +805,89 @@
                   </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_medical.pdf')}}" target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2024_25/Biochemistry/BOS_July_2024.pdf')}}" target="_blank">View (Biochemistry)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2024_25/Forensic Medicine/BOS_25_04_2024.pdf')}}" target="_blank">View (Forensic Medicine)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2024_25/Pharmacology/MOM_SPRCMof_CRC_8.07.2024.pdf')}}" target="_blank">View (Pharmacology)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2024_25/ortho.pdf')}}" target="_blank">View (Orthopedic)</a></center>
+                  </td>
+
+
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Biochemistry.pdf')}}"
+                        target="_blank">View(Biochemistry)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/TB&Chest_BOS.pdf')}}"
+                        target="_blank">View(TB_&_Chest)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Radiology_BOS.pdf')}}"
+                        target="_blank">View(Radiology)</a></center><br></center>
+                    <br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Psychiatry_BOS.pdf')}}"
+                        target="_blank">View(Psychiatry)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Pediatrics_BOS.pdf')}}"
+                        target="_blank">View(Pediatrics)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Pathology_BOS.pdf')}}"
+                        target="_blank">View(Pathology)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Orthopaedics-BOS.pdf')}}"
+                        target="_blank">View(Orthopaedics)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/ENT_BOS.pdf')}}"
+                        target="_blank">View(ENT)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Anaesthesiology_BOS.pdf')}}"
+                        target="_blank">View(Anaesthesiology)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Physiology.pdf')}}"
+                        target="_blank">View(Physiology)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Pediatrics_BOS.pdf')}}"
+                        target="_blank">View(Pediatrics)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Adobe_Scan_02-Aug-2023.pdf')}}"
+                        target="_blank">View(Pediatrics-1)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Adobe_Scan_02-Aug-2023-1.pdf')}}"
+                        target="_blank">View(Pediatrics-2)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Adobe_Scan_02-Aug-2023-2.pdf')}}"
+                        target="_blank">View(Pediatrics-3)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/MOM_BOS_19.09.2022.pdf')}}"
+                        target="_blank">View(Pediatrics-4)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Requirement_for_new_Proposed_VAC.xlsx')}}"
+                        target="_blank">View(Pediatrics-5)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Requirement_for_new_Proposed_VAC_for_A.Y-2023-24-1.xlsx')}}"
+                        target="_blank">View(Pediatrics-6)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/BOS_Anatomy_20.05.2023.pdf')}}"
+                        target="_blank">View(Anatomy)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/BOS_CM.pdf')}}"
+                        target="_blank">View(Community Medicine-1)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/BOS_VAC_CM.pdf')}}"
+                        target="_blank">View(Community Medicine-2)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/MD_CURRICULUM_0001.pdf')}}"
+                        target="_blank">View(Microbiology-1)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Attendence Sheet_0001.pdf')}}"
+                        target="_blank">View(Microbiology-2)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/CBME CURRICULUM_0001.pdf')}}"
+                        target="_blank">View(Microbiology-3)</a></center><br>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Medical/23-24/Dermatology_BOS.jpg')}}"
+                        target="_blank">View(Dermatology)</a></center>
                   </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Medical/2023-24/Biochemistry.pdf')}}"
@@ -874,6 +959,15 @@
                         target="_blank">View</a></center>
                   </td>
                   <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Dental/2024_25/BOS_JUNE_2024_COMPLETE.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('assets/pdf/bos_minutes/Dental/23-24/BOS_minutes_29_april_2023.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Dental/2023-24/BOS_minutes_29_april_2023.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
@@ -914,7 +1008,15 @@
                         target="_blank">View</a></center>
                   </td>
                   <td>
-                    <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2023-24/BOS.pdf')}}"
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2024_25/BOS_April.pdf')}}"
+                        target="_blank">View (April)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2024_25/BOS_july_2024.pdf')}}"
+                        target="_blank">View (July)</a></center>
+                  </td>
+
+                  <td>
+                    <center><a
+                        href="{{asset('assets/pdf/bos_minutes/Nursing/23-24/BOS.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
@@ -944,6 +1046,9 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Nursing/2016-17/BOS_0001.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+                  <td>
+                    <center>-----</center>
+                  </td>
                 </tr>
                 <tr>
                   <td class="text-center">4</td>
@@ -951,6 +1056,16 @@
 
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/pharmacy.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Pharmacy/2024_25/Pharmacy.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('assets/pdf/bos_minutes/Pharmacy/23-24/Pharmacy_BOS.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
@@ -994,6 +1109,17 @@
                     <center><a href="{{asset('/assets/pdf/bos_composition/bos_composition_paramedical.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Paramedical/2024_25/Paramedical_BOS&BOF.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Paramedical/23-24/MOM_BOS_and_BOF_2023.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
                   <td>
                     <center><a
                         href="{{asset('/assets/pdf/bos_minutes/Paramedical/2023-24/MOM_BOS_and_BOF_2023.pdf')}}"
@@ -1034,6 +1160,17 @@
 
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/physiotherapy.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/2024_25/BOS_25_Jul_2024.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Physiotherapy/23-24/BOS_Physiotherapy_2023_24.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
@@ -1081,6 +1218,16 @@
                   </td>
                   <td>
                     <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Managment/2024-25/Revised_2nd_BOS_MoM.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Managment/23-24/BOS_MOM_Management_31.07.2023.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
                         href="{{asset('/assets/pdf/bos_minutes/Managment/2023-24/BOS_MOM_Management_31.07.2023.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
@@ -1122,6 +1269,16 @@
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/law.pdf')}}" target="_blank">View</a>
                     </center>
                   </td>
+
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2024_25/BOS_23_24_EVEN.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Law/23-24/BOS_Law college-2023-24.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/Law/2023-24/BOS_Law_college_2023_24.pdf')}}"
                         target="_blank">View</a></center>
@@ -1162,6 +1319,17 @@
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/ccsit.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
+
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/CCSIT/2024_25/MOM_06_June_2024.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/CCSIT/23-24/MOM_BOS.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
                   <td>
                     <center><a
                         href="{{asset('/assets/pdf/bos_minutes/CCSIT/2023-24/Minutes_of_Meeting_of_the_BOS.pdf')}}"
@@ -1200,6 +1368,40 @@
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/engineering.pdf')}}"
                         target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024_25/BoS_Dept_of_Civil_Engg.pdf')}}" target="_blank">View (Civil)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024_25/BoS_EE_&_ECE.pdf')}}" target="_blank">View (ECE)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024_25/BoS_ME.pdf')}}" target="_blank">View (ME)</a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024_25/EE.pdf')}}" target="_blank">View (EE)</a></center>
+                  </td>
+
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/Civil.pdf')}}"
+                        target="_blank">View (Civil)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/Chemistry.pdf')}}"
+                        target="_blank">View (Chemsitry)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/EE.pdf')}}"
+                        target="_blank">View (EE)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/EC.pdf')}}"
+                        target="_blank">View (EC)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/Mathematics.pdf')}}"
+                        target="_blank">View (Mathematics)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/Physics.pdf')}}"
+                        target="_blank">View (Physics)</a></center>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/FOE/23-24/ME.pdf')}}"
+                        target="_blank">View (ME)</a></center>
+                  </td>
+
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024-25/BoS_Dept_of_Civil_Engg.pdf')}}"></a></center>
                   </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Chemistry.pdf')}}"
@@ -1243,7 +1445,6 @@
                     <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2016-17/BOS CIVIL_0001_merged.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td class="text-center">11</td>
@@ -1251,6 +1452,16 @@
 
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/TMU_BOS_FineArts.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Fine Arts/2024_25/FINE_ARTS.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Fine Arts/23-24/BOS.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
@@ -1289,6 +1500,16 @@
 
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_composition/2022/education.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/education/2024_25/BOS_MOM_19.06.2024.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/education/23-24/MOM_BOS_24.06.2023.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
@@ -1336,6 +1557,16 @@
                   </td>
                   <td>
                     <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Physical Education/2024_25/BOS_MOM_20.06.2024.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Physical Education/23-24/BOS_PE_2023_24.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
                         href="{{asset('/assets/pdf/bos_minutes/Physical Education/2023-24/BOS_Physical Education-2023-24.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
@@ -1378,7 +1609,16 @@
                         target="_blank">View</a></center>
                   </td>
                   <td>
-                    <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2023-24/BOS_COAS_APRIL2023.pdf')}}"
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2024-25/bos_1march2024_0001.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a
+                        href="{{asset('/assets/pdf/bos_minutes/Agriculture/23-24/BOS_COAS_APRIL2023.pdf')}}"
+                        target="_blank">View</a></center>
+                  </td>
+                  <td>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/Agriculture/2022-23/BOS_COAS_APRIL2023.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
