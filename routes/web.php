@@ -45,6 +45,7 @@ use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
 use App\Http\Controllers\ManuscriptFormController;
+use App\Http\Controllers\AttendanceController;
 
 
 /*
@@ -475,6 +476,7 @@ Route::get('/faculty-of-engineering/contact-us', [EngineeringController::class, 
 Route::get('/faculty-of-engineering/foe-college-gallery', [EngineeringController::class, 'engineering_gallery'])->name('engineering.gallery');
 Route::get('/faculty-of-engineering/iqac', [EngineeringController::class, 'engineering_iqac'])->name('engineering.iqac');
 Route::get('/faculty-of-engineering/syllabus', [EngineeringController::class, 'engineering_syllabus'])->name('engineering.syllabus');
+Route::get('/faculty-of-engineering/e-content', [EngineeringController::class, 'engineering_e_content'])->name('engineering.e.content');
 // Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 
 
@@ -518,7 +520,7 @@ Route::get('/medical-college-and-research-centre/department', [MedicalController
 Route::get('/medical-college-and-research-centre/foundation-course', [MedicalController::class, 'medical_foundation'])->name('medical.foundation');
 Route::get('/medical-college-and-research-centre/learning-objective', [MedicalController::class, 'medical_learning'])->name('medical.learning');
 Route::get('/medical-college-and-research-centre/academic-calendar', [MedicalController::class, 'medical_academic_calendar'])->name('medical.academic.calendar');
-Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
+// Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
 Route::get('/medical-college-and-research-centre/stipend', [MedicalController::class, 'medical_stipend'])->name('medical.stipend');
 Route::get('/medical-college-and-research-centre/result', [MedicalController::class, 'medical_result'])->name('medical.result');
 Route::get('/medical-college-and-research-centre/student-details', [MedicalController::class, 'medical_students_details'])->name('medical.students.details');
@@ -786,3 +788,6 @@ Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
 // End of the Sarvagya Routes
 
 //thisnis comment 
+Route::get('/medical-college-and-research-centre/aebas-attendance', [AttendanceController::class, 'index'])->name('medical.aebas.attendance');
+Route::get('/api/attendance', [AttendanceController::class, 'getActiveDates'])->name('attendance.active-dates');
+Route::get('/attendance/download/{id}', [AttendanceController::class, 'downloadPdf'])->name('attendance.download');

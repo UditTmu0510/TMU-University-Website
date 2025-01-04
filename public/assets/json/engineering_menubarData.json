@@ -1,42 +1,69 @@
 {
-    "1":{
-        "link":"/faculty-of-engineering"
+    "1": {
+        "link": "\/faculty-of-engineering"
     },
     "2": {
-        "Overview": { "link": "/faculty-of-engineering/about-us" },
+        "Overview": {
+            "link": "\/faculty-of-engineering\/about-us"
+        },
         "College Highlights": {
-            "link": "/faculty-of-engineering/college-highlight" },
+            "link": "\/faculty-of-engineering\/college-highlight"
+        },
         "Dean's Desk": {
-            "link": "/faculty-of-engineering/director" },
-        "Gallery": { "link": "/faculty-of-engineering/foe-college-gallery" }
+            "link": "\/faculty-of-engineering\/director"
+        },
+        "Gallery": {
+            "link": "\/faculty-of-engineering\/foe-college-gallery"
+        }
     },
     "3": {
-        
-        "Syllabus": { "link": "/faculty-of-engineering/syllabus" },
-        "Academic Calendar": { "link": "/faculty-of-engineering/academic-calendar" }
+        "Syllabus": {
+            "link": "\/faculty-of-engineering\/syllabus"
+        },
+        "Academic Calendar": {
+            "link": "\/faculty-of-engineering\/academic-calendar"
+        }
     },
     "4": {
         "Corporate Advisory Board": {
-            "link": "/faculty-of-engineering/corporate-advisory-board"
+            "link": "\/faculty-of-engineering\/corporate-advisory-board"
         },
         "Placement Calendar": {
-            "link": "/faculty-of-engineering/placement-calendar"
+            "link": "\/faculty-of-engineering\/placement-calendar"
         },
-        "Placements News/Articles": { "link": "/faculty-of-engineering/placement-news" }
+        "Placements News\/Articles": {
+            "link": "\/faculty-of-engineering\/placement-news"
+        }
     },
     "5": {
-        "Time Table": { "link": "/faculty-of-engineering/time-table" },
-        "Old Exam Papers": { "link": "https://library.tmu.ac.in/" },
-        "Anti Ragging Committee": { "link": "/faculty-of-engineering/anti-ragging-committee" },
-        "Project Guidelines": { "link": "/faculty-of-engineering/project-guidelines" }
-
+        "Time Table": {
+            "link": "\/faculty-of-engineering\/time-table"
+        },
+        "Old Exam Papers": {
+            "link": "https:\/\/library.tmu.ac.in\/"
+        },
+        "Anti Ragging Committee": {
+            "link": "\/faculty-of-engineering\/anti-ragging-committee"
+        },
+        "Project Guidelines": {
+            "link": "\/faculty-of-engineering\/project-guidelines"
+        },
+        "E-Content": {
+            "link": "\/faculty-of-engineering\/e-content"
+        }
     },
     "6": {
-        "Audited Financial Statement": { "link": "/faculty-of-engineering/financial-statement" },
-        "Gallery": { "link": "/faculty-of-engineering/foe-college-gallery" },
-        "Contact Us": { "link": "/faculty-of-engineering/contact-us" }
+        "Audited Financial Statement": {
+            "link": "\/faculty-of-engineering\/financial-statement"
+        },
+        "Gallery": {
+            "link": "\/faculty-of-engineering\/foe-college-gallery"
+        },
+        "Contact Us": {
+            "link": "\/faculty-of-engineering\/contact-us"
+        }
     },
-    "7":{
-        "link":"/faculty-of-engineering/iqac"
+    "7": {
+        "link": "\/faculty-of-engineering\/iqac"
     }
 }

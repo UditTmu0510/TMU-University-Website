@@ -115,6 +115,10 @@ class EngineeringController extends Controller
     {
         return view('university.colleges.engineering.engineering_iqac');
     }
+    public function engineering_e_content()
+    {
+        return view('university.colleges.engineering.engineering_e_content');
+    }
 
     public function engineering_syllabus()
     {
