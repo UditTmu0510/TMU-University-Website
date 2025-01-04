@@ -59,6 +59,9 @@
             <a href="{{ route('engineering.anti.ragging') }}" class="custom-menu-item {{ setActive('engineering.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
             </a>
+            <a href="{{ route('engineering.e.content') }}" class="custom-menu-item {{ setActive('engineering.e.content') }}">
+                <p>E-Content</p>
+            </a>
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">
