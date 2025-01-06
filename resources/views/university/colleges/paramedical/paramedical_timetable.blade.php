@@ -4,7 +4,7 @@
 <div class="main-content">
     <div class="container d-none d-sm-block">
         <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Time </span><span> Table</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading mt-md-3"><span>Time </span><span> Table</span></h1>
             <iframe src="{{asset('/assets/pdf/time_table/paramedical/Paramedical_TT_24_25.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
         </div>
     </div>
