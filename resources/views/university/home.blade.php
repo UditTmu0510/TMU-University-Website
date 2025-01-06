@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>06, January</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Faculty of Engineering at TMU is hosting a training session on "Enhancing Research Efficiency: Advanced Exploration of IEEE Digital Library" on 6th January 2025, from 12:00 PM to 1:00 PM at LT-2, FOE. Led by Mr Lakhpat Singh Naruka, it aims to enhance research capabilities. Attendance is encouraged.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   Faculty of Engineering</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 04, January</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>06 to 07, December</span>
                                 </div>
                                 <div class="notice-content">
