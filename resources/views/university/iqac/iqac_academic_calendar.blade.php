@@ -12,9 +12,21 @@
 				<div class="iqac-card">
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+						<p class="description">Academic Calendar 2024-25</p>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+							href="{{asset('assets/pdf/academic_calendars/University-Academic-calenders/TMU-Academic-Calendar-2024-25-R.pdf')}}">View PDF</a>
+					</div>
+					<div class="card-pdf">
+						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+						<p class="description">Academic Calendar 2023-24</p>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+							href="{{asset('assets/pdf/academic_calendars/University-Academic-calenders/University-Academic-Calendar-2023-24-1.pdf')}}">View PDF</a>
+					</div>
+					<div class="card-pdf">
+						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
 						<p class="description">Academic Calendar 2022-23</p>
 						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-							href="{{route('university.academic.calendar')}}">View More</a>
+							href="{{asset('assets/pdf/academic_calendars/University-Academic-calenders/Academic_Calendar_2022-23_R.pdf')}}">View PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
