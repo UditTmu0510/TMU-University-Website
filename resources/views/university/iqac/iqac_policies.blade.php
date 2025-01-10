@@ -125,13 +125,19 @@
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description"><b>POL(17)</b> - Admission Policy</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-            href="{{asset('/assets/pdf/TMU_Admission_Policy_2024.pdf')}}" target="_blank">View PDF</a>
+            href="{{asset('/assets/pdf/policy/TMU_Admission_Policy_2024.pdf')}}" target="_blank">View PDF</a>
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description"><b>POL(18)</b> - Scholarship Guidelines Policy</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-            href="{{asset('/assets/pdf/Circular_057_Scholarship_Guidlines.pdf')}}" target="_blank">View PDF</a>
+            href="{{asset('/assets/pdf/policy/Circular_057_Scholarship_Guidlines.pdf')}}" target="_blank">View PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>POL(18)</b> - Scholarship Guidelines Policy</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+            href="{{asset('/assets/pdf/policy/Circular_057_Scholarship_Guidlines.pdf')}}" target="_blank">View PDF</a>
         </div>
       </div>
     </div>
@@ -302,6 +308,12 @@
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description"><b>SOP(22)</b> - TMU Student Clubs </p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/TMU_Student_Clubs.pdf')}}" target="_blank">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>SOP(23)</b> - Job Responsibilities/Targets of a Research Faculty</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_23.0_Job_Responsibilities_Target_of_Research_Faculty.pdf')}}" target="_blank">View
             PDF</a>
         </div>
         
