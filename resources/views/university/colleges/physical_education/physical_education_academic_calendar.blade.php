@@ -6,7 +6,7 @@
         <div style="text-align:center">
             <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Academic</span><span> Calendar</span></h1>
             <iframe src="{{asset('assets/pdf/academic_calendars/physical_education/Academic-Calendar-24-25.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
-            <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Annual</span><span> Calendar</span></h1>
+            <h2 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Annual</span><span> Calendar</span></h2>
             <iframe src="{{asset('assets/pdf/academic_calendars/physical_education/Annual-Activity-Calendar-2024-25.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
         </div>
     </div>
