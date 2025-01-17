@@ -260,7 +260,7 @@
         <div class="row ps-4">
             <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                 <h1 class=" mt-5 mb-5  banner-main-heading">Welcome to <span
-                        style="font-weight:700!important;">the Alumni Association </span></h1>
+                        style="font-weight:700!important;">the TMU Alumni Association </span></h1>
                 <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
             </div>
             <div class="col-12 col-md-6">
