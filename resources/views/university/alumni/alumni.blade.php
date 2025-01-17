@@ -253,8 +253,6 @@
         overflow-x: hidden !important;
         padding: 0rem 0;
     }
-   
-
 </style>
 <section id="content">
 
@@ -434,7 +432,7 @@
                                         <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm blogheight">
                                             <div class="col-md-5 mb-md-0">
                                                 <a href="{{ url('blog/' . $blog->n_slug) }}" class="entry-image mb-0 h-100">
-                                                    <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover" loading="lazy">
+                                                    <img src="{{ asset($blog->monaco_image_path) }}" alt="{{ $blog->post_title }}" class="rounded-2 w-100 object-cover">
                                                     <div class="bg-overlay">
                                                         <div class="bg-overlay-content justify-content-start align-items-start">
                                                             <div class="badge bg-light text-dark rounded-pill">Latest Blog</div>
@@ -524,6 +522,91 @@
 
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>07, January</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Join Mr. Earnest Lamuel, alumnus of the College of Nursing and Mental Health Nurse at Swansea Bay University Health Board, UK, for an alumni session on navigating the UK nursing registration process. Date: 7th January 2025, Time: 12:00 PM, Venue: College of Nursing, TMU. Gain valuable insights from his inspiring journey!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            College of Nursing</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 07, January</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>28, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMIMT hosted an Alumni Talk on 28th Sept 2024 with Mr. Shobhit Jain, HR leader at Saudi German Health Group, discussing HR management in the healthcare sector.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            Management College </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 26, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>28, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU hosted an alumni session on 28th Sept 2024 at FOE with Mr. Abhinav Ranjan, Cloud Security Manager at Accenture, sharing insights on careers in cloud security.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            Fcaulty of Engineering </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 26, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>24, September</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni session on 24th Sept 2024 at TMU’s Pharmacy College featured Dr. Vibhor Agarwal, Director of Ivory Healthcare, discussing career opportunities in the medical device industry.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            College of Pharmacy </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, September</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>18, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni Talk on May 18, 2024, at TMU’s Dental College featured Dr. Surbhi Priyadarshi, MDS Gold Medalist & Assistant Professor at SGT University, inspiring students on dental career opportunities.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            Dental College </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>06, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Alumni Talk held on 16th May 2024 at TMU’s Nursing College featured Mr. Neyaz Ahmed Lone, Gold Medalist & AIIMS-NORCET 2024 AIR 74, sharing his inspiring journey.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
+                                            College of Nursing</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>01, May</span>
                                     </div>
                                     <div class="notice-content">
@@ -545,7 +628,7 @@
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                             Nursing College </span>
+                                            Nursing College </span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
                                             May </span>
                                     </div>
