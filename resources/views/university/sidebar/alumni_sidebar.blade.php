@@ -12,7 +12,7 @@
                 <p>President's Message</p>
             </a>
             <a href="{{ route('alumni.association') }}" class="custom-menu-item {{ setActive('alumni.association') }}">
-                <p>Alumni Association</p>
+                <p>Alumni Association Certificate</p>
             </a>
             <a href="{{ route('alumni.coordination') }}" class="custom-menu-item {{ setActive('alumni.coordination') }}">
                 <p>Coordination Cell</p>
