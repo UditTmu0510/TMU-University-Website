@@ -1,0 +1,28 @@
+{
+    "1":{
+        "link":"/alumni"
+    },
+    "2": {
+        "Overview": { "link": "/alumni/overview" },
+        "Alumni Association Certificate": {
+            "link": "/alumni/alumni-association" },
+        "Prsident's Message": {
+            "link": "/alumni/president-message" },
+        "Coordination Cell": { 
+            "link": "/alumni/coordination-cell" }
+    },
+    "3": {
+        
+        "Event Calendar": { "link": "/alumni/alumni-event-calendar" }
+    },
+    "4": {
+        "Donation": {
+            "link": "/alumni/alumni-donation"
+        }
+    },
+    "5": {
+        "FAQs": { "link": "/alumni/faq" },
+        "Contact Us": { "link": "/alumni/contact-us" }
+
+    }
+}

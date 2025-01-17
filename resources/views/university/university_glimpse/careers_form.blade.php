@@ -103,23 +103,30 @@
                 <h5>Openings Details</h5>
                 <div class="row mb-3">
                     <div class="col-md-6">
-                        <label for="category" class="form-label">Post Applied</label>
-                        <select class="form-select" id="category" name="category" required>
+                        <label for="category" class="form-label">Colleges</label>
+                        <select class="form-select" id="colleges" name="colleges" required>
                             <option value="">Choose...</option>
-                            <option value="Technical">Technical</option>
-                            <option value="Teacher">Teacher</option>
-                            <option value="Administrative">Administrative</option>
+                            @foreach ($colleges as $college)
+                            <option value="{{ $college->cd_id }}">{{ $college->cd_name }}</option>
+                            @endforeach
                         </select>
-                        <div class="invalid-feedback">Appling for is required</div>
+                        <div class="invalid-feedback">College is required</div>
                     </div>
                     <div class="col-md-6">
                         <label for="category" class="form-label">Department</label>
-                        <select class="form-select" id="category" name="category" required>
+                        <select class="form-select" id="departments" name="departments" required>
                             <option value="">Choose...</option>
-                            <option value="Digital Marketing">Digital Marketing</option>
-                            <option value="CCSIT">CCSIT</option>
-                            <option value="Medical">Medical</option>
-                            <option value="IOAC">IQAC</option>
+
+                        </select>
+                        <div class="invalid-feedback">Department is required</div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="category" class="form-label">Designation </label>
+                        <select class="form-select" id="designations" name="designations" required>
+                            <option value="">Choose...</option>
                         </select>
                         <div class="invalid-feedback">Department is required</div>
                     </div>
@@ -779,6 +786,66 @@
     // Apply Indian currency formatting to Expected Salary field
     document.getElementById('expectedSalary').addEventListener('input', function(e) {
         e.target.value = formatToIndianCurrency(e.target.value);
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Fetch departments on college selection
+        $('#colleges').change(function() {
+            let collegeId = $(this).val();
+            if (collegeId) {
+                $.ajax({
+                    url: "{{ route('get.departments') }}",
+                    type: "POST",
+                    data: {
+                        college_id: collegeId,
+                        _token: "{{ csrf_token() }}"
+                    },
+                    success: function(data) {
+                        $('#departments').empty().append('<option value="">Choose...</option>');
+                        $.each(data, function(key, value) {
+                            $('#departments').append('<option value="' + value.department_id + '">' + value.department_name + '</option>');
+                        });
+                        $('#designations').empty().append('<option value="">Choose...</option>'); // Reset designations
+                    },
+                    error: function(xhr) {
+                        console.error("Error fetching departments:", xhr.responseText);
+                    }
+                });
+            } else {
+                $('#departments').empty().append('<option value="">Choose...</option>');
+                $('#designations').empty().append('<option value="">Choose...</option>');
+            }
+        });
+
+        // Fetch designations on department selection
+        $('#departments').change(function() {
+            let departmentId = $(this).val();
+            if (departmentId) {
+                $.ajax({
+                    url: "{{ route('get.designations') }}",
+                    type: "POST",
+                    data: {
+                        department_id: departmentId,
+                        _token: "{{ csrf_token() }}"
+                    },
+                    success: function(data) {
+                        $('#designations').empty().append('<option value="">Choose...</option>');
+                        $.each(data, function(key, value) {
+                            $('#designations').append('<option value="' + value.designation_id + '">' + value.designation_name + '</option>');
+                        });
+                    },
+                    error: function(xhr) {
+                        console.error("Error fetching designations:", xhr.responseText);
+                    }
+                });
+            } else {
+                $('#designations').empty().append('<option value="">Choose...</option>');
+            }
+        });
     });
 </script>
 

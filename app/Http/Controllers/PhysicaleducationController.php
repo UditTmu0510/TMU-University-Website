@@ -125,7 +125,10 @@ public function physical_education_timetable()
 {
     return view('university.colleges.physical_education.physical_education_timetable');
 }
-
+public function physical_education_study_material()
+{
+    return view('university.colleges.physical_education.study_material');
+}
 
 
 }

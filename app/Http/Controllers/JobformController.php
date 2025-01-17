@@ -19,7 +19,11 @@ class JobformController extends Controller
     // Show the form (GET request)
     public function careers_form()
     {
-        return view('university.university_glimpse.careers_form');
+
+        $colleges = DB::table('cd_name')->select('cd_id', 'cd_name')->get(); // Fetch colleges
+
+
+        return view('university.university_glimpse.careers_form', compact('colleges'));
     }
 
     // Store method
@@ -28,6 +32,7 @@ class JobformController extends Controller
         if ($request->isMethod('POST')) {
             try {
                 DB::beginTransaction();
+
                 $name = $request->name;
                 $mobile_no = $request->mobile_no;
                 $email = $request->email;
@@ -51,22 +56,25 @@ class JobformController extends Controller
                 $current_salary = $request->current_salary;
                 $expected_salary = $request->expected_salary;
                 $curent_comp_name = $request->curent_comp_name;
-                    $current_comp_category = $request->current_comp_category;
-                    $current_comp_appointment = $request->current_comp_category;
-                    $current_comp_designation = $request->current_comp_designation;
-                    $current_comp_date_of_joining = $request->current_comp_date_of_joining;
-                    $current_comp_date_of_leaving = $request->current_comp_date_of_leaving;
-                    $current_comp_date_of_leaving_reason =  $request->current_comp_date_of_leaving_reason;              
-                     $maxId = Jobapplication::max('id');
+                $current_comp_category = $request->current_comp_category;
+                $current_comp_appointment = $request->current_comp_category;
+                $current_comp_designation = $request->current_comp_designation;
+                $current_comp_date_of_joining = $request->current_comp_date_of_joining;
+                $current_comp_date_of_leaving = $request->current_comp_date_of_leaving;
+                $current_comp_date_of_leaving_reason =  $request->current_comp_date_of_leaving_reason;
+                $maxId = Jobapplication::max('id');
 
                 // If there are no records yet, set $maxId to 0
                 $nextId = $maxId ? $maxId + 1 : 1;
-    
+
                 // Now you can use $nextId as the new ID or for any logic
                 // For example, creating a new application with a custom ID logic
                 $applicationId = 'TMUHR-' . $nextId;
                 // Validate the form input
                 $request->validate([
+                    'colleges' => 'required|exists:cd_name,cd_id', // Validate that the selected college exists in the `cd_name` table
+                    'departments' => 'required|exists:departments,department_id', // Validate that the selected department exists in the `departments` table
+                    'designations' => 'required|exists:designations,designation_id', // Validate that the selected designation exists in the `designations` table
                     'name' => 'required|string',
                     'mobile_no' => 'required',
                     'email' => 'required|email',
@@ -88,7 +96,7 @@ class JobformController extends Controller
                     'industrial_experience' => 'required',
                     'current_salary' => 'required',
                     'expected_salary' => 'required',
-                    'curent_comp_name'=> 'required',
+                    'curent_comp_name' => 'required',
                     'current_comp_category' => 'required',
                     'current_comp_appointment' => 'required',
                     'current_comp_designation' => 'required',
@@ -99,9 +107,13 @@ class JobformController extends Controller
 
                 // Collect personal data
                 $personalData = [
+                    'application_id' => $applicationId,
+                    'cd_id' => $request->colleges, // Store college ID
+                    'department_id' => $request->departments, // Store department ID
+                    'designation_id' => $request->designations,
                     'name' => $name,
                     'mobile_no' => $mobile_no,
-                     'application_id' => $applicationId,
+                    'application_id' => $applicationId,
                     'email' => $email,
                     'pan' => $pan,
                     'aadhar' => $aadhar,
@@ -134,7 +146,7 @@ class JobformController extends Controller
                 // File uploads (if present)
                 $filePaths = [];
                 $field_names = ['applicant_resume_path' => 'uploads/job_resumes/'];
-                
+
                 foreach ($field_names as $field => $file_path) {
                     if ($request->hasFile($field)) {
                         $file = $request->file($field);
@@ -192,25 +204,50 @@ class JobformController extends Controller
 
                     // Send confirmation email
                     Mail::to($personal_details->email)->send(new JobApplicationMail($emailData));
-                    Session::flash('success','Application Submitted Successfully');
-                    Session::flash('application_id',$applicationId);
+                    Session::flash('success', 'Application Submitted Successfully');
+                    Session::flash('application_id', $applicationId);
                     return redirect()->route('job.form');
-
                 } else {
                     DB::rollBack();
-                    Session::flash('error','Personal Details Error');
+                    Session::flash('error', 'Personal Details Error');
                     return redirect()->route('job.form');
                 }
-
             } catch (ValidationException $e) {
                 DB::rollBack();
-                Session::flash('error','Validation error in form submission'.$e->getMessage());
+                Session::flash('error', 'Validation error in form submission' . $e->getMessage());
                 return redirect()->route('job.form');
             } catch (Exception $e) {
                 DB::rollBack();
-                Session::flash('error','Error in form submission'.$e->getMessage());
+                Session::flash('error', 'Error in form submission' . $e->getMessage());
                 return redirect()->route('job.form');
             }
         }
+    }
+    public function getDepartments(Request $request)
+    {
+        $collegeId = $request->college_id;
+
+        // Fetch departments linked to the selected college
+        $departments = DB::table('departments')
+            ->where('cd_id', $collegeId)
+            ->select('department_id', 'department_name')
+            ->get();
+
+        return response()->json($departments);
+    }
+
+    // Fetch designations dynamically based on selected department
+    public function getDesignations(Request $request)
+    {
+        $departmentId = $request->department_id;
+
+        // Fetch designations linked to the selected department
+        $designations = DB::table('department_designation')
+            ->join('designations', 'department_designation.designation_id', '=', 'designations.designation_id')
+            ->where('department_designation.department_id', $departmentId)
+            ->select('designations.designation_id', 'designations.designation_name')
+            ->get();
+
+        return response()->json($designations);
     }
 }
