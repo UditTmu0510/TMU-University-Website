@@ -27,19 +27,109 @@
                         <br><span class="highlight">IFSC Code : </span>PUNB0601000
                     </p>
                 </div>
-               
-                <div class="container p-3">
-                    <h3 class="tmu-text-primary"><span>Books & Medical Equipments </span><span> donated by Alumni</span></h3>
-                    <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/2.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/2.jpeg')}}" alt="Gallery Thumb 1"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/1.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/1.jpeg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/4.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/4.jpeg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/5.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/5.jpeg')}}" alt="Gallery Thumb 5"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/6.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/6.jpeg')}}" alt="Gallery Thumb 5"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/department/alumni/donation/7.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/department/alumni/donation/7.jpeg')}}" alt="Gallery Thumb 5"></a>
+
+                <div class="container p-2">
+                    <h3 class="tmu-text-primary mb-0"><span>Books & Medical Equipments </span><span> donated by Alumni</span></h3>
+                    <div class="row gutter-30 col-mb-5 justify-content-center mt-0">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/1.jpg')}}" alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/2.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/2.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/1.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/3.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/3.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/4.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/4.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/5.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/6.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/6.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/geotagged/5.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/7.jpg')}}"
+                                        alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/7.jpeg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     </div>
 </div>

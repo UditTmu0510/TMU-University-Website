@@ -7,26 +7,26 @@
     },
     {
         "id": 2,
-        "text": "About Department",
+        "text": "About Alumni",
         "imageURL": "about-college.svg",
         "order": 1
     },
     {
         "id": 3,
         "text": "Event Calendar",
-        "imageURL": "academics.svg",
+        "imageURL": "schedule.svg",
         "order": 2
     },
     {
         "id": 4,
         "text": "Alumni Donation",
-        "imageURL": "placement.svg",
+        "imageURL": "money.svg",
         "order": 3
     },
     {
         "id": 5,
         "text": "Quick Links",
-        "imageURL": "student-corner.svg",
+        "imageURL": "quick-links.svg",
         "order": 4
     }
 ]

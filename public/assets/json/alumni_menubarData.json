@@ -12,13 +12,10 @@
             "link": "/alumni/coordination-cell" }
     },
     "3": {
-        
-        "Event Calendar": { "link": "/alumni/alumni-event-calendar" }
+        "link": "/alumni/alumni-event-calendar" 
     },
     "4": {
-        "Donation": {
-            "link": "/alumni/alumni-donation"
-        }
+        "link": "/alumni/alumni-donation"
     },
     "5": {
         "FAQs": { "link": "/alumni/faq" },
