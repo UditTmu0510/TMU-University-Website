@@ -4,7 +4,6 @@
 <div class="custom-flex-block">
 
 
-@include('university.sidebar.alumni_sidebar')
 @hasSection('content')
 @yield('content')
 @else
