@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "text": "Home",
+        "imageURL": "home.svg",
+        "order": 0
+    },
+    {
+        "id": 2,
+        "text": "About Alumni",
+        "imageURL": "about-college.svg",
+        "order": 1
+    },
+    {
+        "id": 3,
+        "text": "Event Calendar",
+        "imageURL": "schedule.svg",
+        "order": 2
+    },
+    {
+        "id": 4,
+        "text": "Alumni Donation",
+        "imageURL": "money.svg",
+        "order": 3
+    },
+    {
+        "id": 5,
+        "text": "Quick Links",
+        "imageURL": "quick-links.svg",
+        "order": 4
+    }
+]

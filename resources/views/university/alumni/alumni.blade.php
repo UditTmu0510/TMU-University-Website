@@ -1,4 +1,4 @@
-@extends('layouts.university.main')
+@extends('layouts.university.departments.alumni_without_sidebar')
 @section('content')
 
 <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
