@@ -34,7 +34,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                                 <div class="team-image">
-                                    <img src="{{asset('/assets/img/department/alumni/donation/1.jpeg')}}" alt="" height="280">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/1.jpg')}}" alt="" height="280">
                                 </div>
                                 <div class="team-desc p-2">
                                     <div class="team-title pt-0">
