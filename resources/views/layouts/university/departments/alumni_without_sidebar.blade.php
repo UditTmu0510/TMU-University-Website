@@ -1,6 +1,8 @@
 @include('university.header')
 
 
+<div class="custom-flex-block">
+
 
 @hasSection('content')
 @yield('content')
