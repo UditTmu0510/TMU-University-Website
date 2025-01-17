@@ -178,6 +178,9 @@ Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.care
 Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
 Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
 
+Route::post('/get-departments', [JobformController::class, 'getDepartments'])->name('get.departments');
+Route::post('/get-designations', [JobformController::class, 'getDesignations'])->name('get.designations');
+
 
 
 // IIC
@@ -312,6 +315,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
 Route::get('/library', [TmuController::class, 'library'])->name('library');
+Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
 Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
 Route::get('/tmu/application-form', [TmuController::class, 'application_form'])->name('application.form');
@@ -754,6 +758,7 @@ Route::get('/tmimt-college-of-physical-education/iqac', [PhysicaleducationContro
 Route::get('/tmimt-college-of-physical-education/syllabus', [PhysicaleducationController::class, 'physical_education_syllabus'])->name('physical.education.syllabus');
 Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationController::class, 'physical_education_principal'])->name('physical.education.principal');
 Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
+Route::get('/tmimt-college-of-physical-education/study-material', [PhysicaleducationController::class, 'physical_education_study_material'])->name('physical.education.study.material');
 
 
 // CRC Placement

@@ -10,6 +10,9 @@ class Jobapplication extends Model
     protected $table = 'job_applications';
     protected $fillable = [
         'application_id',
+        'cd_id',
+        'department_id',
+        'designation_id',
         'name',
         'mobile_no',
         'email',

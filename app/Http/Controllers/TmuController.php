@@ -715,6 +715,11 @@ class TmuController extends Controller
         return view('university.quick_links.gym');
     }
 
+    public function hostel()
+    {
+        return view('university.quick_links.hostel');
+    }
+
     public function sports()
     {
         return view('university.quick_links.sports');
