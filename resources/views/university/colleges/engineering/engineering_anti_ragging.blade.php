@@ -1,49 +1,5 @@
 @extends('layouts.university.colleges.engineering_with_sidebar')
 @section('content')
-<style>
-	table {
-		width: 100%;
-		border-collapse: collapse;
-	}
-
-	th,
-	td {
-		padding: 8px;
-		text-align: left;
-		border: 1px solid #ddd;
-	}
-
-	@media screen and (max-width: 600px) {
-
-		table,
-		thead,
-		tbody,
-		th,
-		td,
-		tr {
-			display: block;
-			text-align: center;
-		}
-
-		th,
-		td {
-			box-sizing: border-box;
-			display: block;
-			width: 100%;
-		}
-
-		th,
-		td:before {
-			content: attr(data-label);
-			float: left;
-			font-weight: bold;
-		}
-
-		tr {
-			margin-bottom: 1em;
-		}
-	}
-</style>
 
 <div class="main-content">
 	<div class="container">
@@ -57,117 +13,117 @@
 						<thead>
 							<tr>
 								<th class="text-center">Sl. No.</th>
-								<th>Name</th>
-								<th>Designation</th>
-								<th>Status</th>
-								<th>Contact No.</th>
+								<th class="text-center">Name</th>
+								<th class="text-center">Designation</th>
+								<th class="text-center">Status</th>
+								<th class="text-center">Contact No.</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td class="text-center">1</td>
-								<td>Prof.R.K Dwivedi</td>
-								<td>Prinicipal</td>
-								<td>Chairperson</td>
-								<td>9639266555</td>
+								<td class="text-center">Prof.R.K Dwivedi</td>
+								<td class="text-center">Prinicipal</td>
+								<td class="text-center">Chairperson</td>
+								<td class="text-center">9639266555</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">2</td>
-								<td>Mr. R. P. Gupta</td>
-								<td>Joint Director -Admin, Security & Students Welfare</td>
-								<td>Member Secretary & FIP</td>
-								<td>9639236666</td>
+								<td class="text-center">Mr. R. P. Gupta</td>
+								<td class="text-center">Joint Director -Admin, Security & Students Welfare</td>
+								<td class="text-center">Member Secretary & FIP</td>
+								<td class="text-center">9639236666</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">3</td>
-								<td>Prof. S. S. Bhatia</td>
-								<td>Local Media</td>
-								<td>Member</td>
-								<td>7500200085</td>
+								<td class="text-center">Prof. S. S. Bhatia</td>
+								<td class="text-center">Local Media</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">7500200085</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">4</td>
-								<td>Mr. Suresh K Jain</td>
-								<td>Representative of Parent</td>
-								<td>Member</td>
-								<td>9005081362</td>
+								<td class="text-center">Mr. Suresh K Jain</td>
+								<td class="text-center">Representative of Parent</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">9005081362</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">5</td>
-								<td>Mr. Rahul Vishnoi</td>
-								<td>Proctor</td>
-								<td>Member</td>
-								<td>9719004461</td>
+								<td class="text-center">Mr. Rahul Vishnoi</td>
+								<td class="text-center">Proctor</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">9719004461</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">6</td>
-								<td>Ms. Indu Tripathi</td>
-								<td>Deputy Proctor</td>
-								<td>Proctor</td>
-								<td>9837413469</td>
+								<td class="text-center">Ms. Indu Tripathi</td>
+								<td class="text-center">Deputy Proctor</td>
+								<td class="text-center">Proctor</td>
+								<td class="text-center">9837413469</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">7</td>
-								<td>Dr. Garima Goswami</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>9410835690</td>
+								<td class="text-center">Dr. Garima Goswami</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">9410835690</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">8</td>
-								<td>Dr. Zareen Farooq</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>8433270955</td>
+								<td class="text-center">Dr. Zareen Farooq</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">8433270955</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">9</td>
-								<td>Dr. Gulista Khan</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>9639888358</td>
+								<td class="text-center">Dr. Gulista Khan</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">9639888358</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">10</td>
-								<td>Mr. Arun K. Pipersenia</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>9415113543</td>
+								<td class="text-center">Mr. Arun K. Pipersenia</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">9415113543</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">11</td>
-								<td>Dr. Vipin Kumar</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>8057376965</td>
+								<td class="text-center">Dr. Vipin Kumar</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">8057376965</td>
 
 							</tr>
 
 							<tr>
 								<td class="text-center">12</td>
-								<td>Mr. Umesh K Singh</td>
-								<td>Member</td>
-								<td>Member</td>
-								<td>8279846830</td>
+								<td class="text-center">Mr. Umesh K Singh</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">Member</td>
+								<td class="text-center">8279846830</td>
 							</tr>
 						</tbody>
 					</table>
@@ -180,7 +136,7 @@
 						<div class="card border-light my-3">
 							<div class="card-body text-center">
 								<h3 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h3>
-								<p class="card-text h1 tmu-color">HELPLINE NO. 1800-180-5522 </p>
+								<p class="card-text h1 tmu-color">24X7 HELPLINE NO. 1800-180-5522 </p>
 							</div>
 						</div>
 					</div>
@@ -194,122 +150,122 @@
 						<thead>
 							<tr>
 								<th class="text-center">Sl. No. </th>
-								<th>Name</th>
-								<th>Designation</th>
-								<th>Status</th>
+								<th class="text-center">Name</th>
+								<th class="text-center">Designation</th>
+								<th class="text-center">Status</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td class="text-center">1</td>
-								<td>Mr. Rahul Vishnoi</td>
-								<td>Assistant Professor</td>
-								<td>Proctor</td>
+								<td class="text-center">Mr. Rahul Vishnoi</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Proctor</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">2</td>
-								<td>Mr. S. B. Rastogi</td>
-								<td>Assistant Professor</td>
-								<td>Proctor</td>
+								<td class="text-center">Mr. S. B. Rastogi</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Proctor</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">3</td>
-								<td>Ms. Indu Tripathi</td>
-								<td>Assistant Professor</td>
-								<td>Proctor</td>
+								<td class="text-center">Ms. Indu Tripathi</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Proctor</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">4</td>
-								<td>Dr. Zareen Farooq</td>
-								<td>Assistant Professor</td>
-								<td>Proctor</td>
+								<td class="text-center">Dr. Zareen Farooq</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Proctor</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">5</td>
-								<td>Mr. Arun Pipersenia</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Mr. Arun Pipersenia</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">6</td>
-								<td>Dr Pankaj K Goswami</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr Pankaj K Goswami</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">7</td>
-								<td>Dr Garima Goswami</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr Garima Goswami</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">8</td>
-								<td>Dr. Himansh Kumar</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Himansh Kumar</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">9</td>
-								<td>Dr. Amit Kumar Sharma</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Amit Kumar Sharma</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">10</td>
-								<td>Dr. Ajit Kumar</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Ajit Kumar</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">11</td>
-								<td>Dr. M K Chini</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. M K Chini</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">12</td>
-								<td>Dr. Gulista Khan</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Gulista Khan</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">13</td>
-								<td>Dr. Pavan K Singh</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Pavan K Singh</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">14</td>
-								<td>Mr. Ashish Simalti</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Mr. Ashish Simalti</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">15</td>
-								<td>Dr. Vipin Kumar</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Vipin Kumar</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 
 							<tr>
 								<td class="text-center">16</td>
-								<td>Dr. Shubhendra Pratap Singh</td>
-								<td>Assistant Professor</td>
-								<td>Member</td>
+								<td class="text-center">Dr. Shubhendra Pratap Singh</td>
+								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Member</td>
 							</tr>
 						</tbody>
 					</table>

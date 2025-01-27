@@ -85,12 +85,12 @@
 							<tr>
 								<td>13</td>
 								<td>Status of Recognition</td>
-								<td>RECOGNISED FOR 150 SEATS</td>
+								<td>RECOGNISED FOR 250 SEATS</td>
 							</tr>
 							<tr>
 								<td>14</td>
 								<td>Number of MBBS and PG broad specialty and super specialty students admitted in this session*</td>
-								<td>MBBS: ADMISSIONS 148 (Batch 2023-24)<br>MD/MS: ADMISSIONS 121 (Batch 2023-24) <br>DM/MCh: NOT APPLICABLE</td>
+								<td>MBBS: ADMISSIONS 250 (Batch 2024-25)<br>MD/MS: ADMISSIONS 121 (Batch 2023-24) <br>DM/MCh: NOT APPLICABLE</td>
 							</tr>
 							<tr>
 								<td>15</td>
