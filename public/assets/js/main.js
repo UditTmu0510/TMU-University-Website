@@ -1,3 +1,83 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+
+    let currentIndex = 0;
+
+    // Filtering functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.getAttribute('data-filter');
+
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            const imgSrc = item.querySelector('img').src;
+            const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+            currentIndex = index;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Set the title in the caption
+            lightbox.classList.add('active');
+        });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+        lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+
+    // Lightbox navigation
+    const updateLightboxImage = () => {
+        const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+        if (visibleItems.length > 0) {
+            currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+            const imgSrc = visibleItems[currentIndex].querySelector('img').src;
+            const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Update caption when navigating
+        }
+    };
+
+    lightboxNext.addEventListener('click', () => {
+        currentIndex++;
+        updateLightboxImage();
+    });
+
+    lightboxPrev.addEventListener('click', () => {
+        currentIndex--;
+        updateLightboxImage();
+    });
+});
+
+
+
+
 (function() {
   // Horizontal Timeline - by CodyHouse.co
   var HorizontalTimeline = function(element) {
@@ -272,3 +352,4 @@ document.getElementById("sidebarToggle").addEventListener("click", function() {
 	this.classList.toggle("expanded");
 });
 // side menu mobile view toggle button js end
+

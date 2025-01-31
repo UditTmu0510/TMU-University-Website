@@ -9,7 +9,11 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mt-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">TMU Hospital: <span style="font-weight:700!important;"> Comprehensive Healthcare Services</span></h1>
+                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">TMU Hospital:  <span
+                            style="font-weight:700!important;"> Comprehensive Healthcare Services</span></h1>
+                    <h1 class=" mt-5 mb-3 d-block d-md-none"
+                        style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
+                        TMU Hospital: <span> Comprehensive Healthcare Services</span></h1>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
@@ -128,45 +132,57 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="row d-flex align-items-stretch">
-                    <div class="col-md-6">
-                        <div class="container pt-3 mt-4 h-100">
-                            <div class="facility-section h-100" style="height: 100%;">
-                                <h5 class="fw-bold">Medical Facility to the Students:</h5>
-                                <p>All the bonafide students of various programs at the university are provided with the
-                                    below complimentary medical facilities at TMU hospital as per the policy:</p>
-                                <ul style="margin-left: 20px;">
-                                    <li><strong>Outdoor Patient Department (OPD) facilities:</strong> Free registration and
-                                        free tests (blood, stool, urine, ECG, ultrasound etc). All super specialty checkups and tests
-                                        including MRI & CT scan are available on 20% discount.</li>
-                                    <li><strong>Inpatient Department (IPD) facilities:</strong> Students can avail the
-                                        treatment facility of maximum up to Rs 50,000/- at TMU hospital during the entire period of
-                                        the program that they are enrolled in at the university. All the bonafide students will also
-                                        have the coverage of Rs 1 lac in case of accidental death while they are studying at the university.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="container pt-3 mt-4 h-100">
-                            <div class="facility-section h-100" style="height: 100%;">
-                                <h5 class="fw-bold">In addition, following facilities are available:</h5>
-                                <ul style="margin-left: 20px;">
-                                    <li>A Dialysis unit with latest Haemodialysis machines</li>
-                                    <li>A well-developed Neurology Lab with facilities of EEG, NCV, EMG and BERA</li>
-                                    <li>An air-conditioned Ward for critically burnt patients</li>
-                                    <li>A Neurosurgery unit with backup for spiral CT Scan and ICU for Head Injury cases</li>
-                                    <li>A Urodynamic Lab</li>
-                                    <li>An Endoscopy section with facilities for upper and lower G.I. Endoscopy for the Gastroenterology Department</li>
-                                    <li>An Endocrinological Lab for Hormonal study</li>
-                                    <li>ND/ Yag Laser facilities for Ophthalmology Department</li>
-                                    <li>State-of-the-art infertility centre with facilities of IVF, ICSI, Laser hatching, TESE & PESA</li>
-                                </ul>
-                            </div>
+                <div class="col-md-5">
+                    <div class="contcainer pt-3 mt-4">
+                        <div class="facility-section">
+                            <h5 class="fw-bold">Medical Facility to the Students:</h5>
+                            <p>All the bonafide students of various programs at the university are provided with the
+                                below
+                                complimentary medical facilities at TMU hospital as per the policy:</p>
+                            <ul style="margin-left: 20px;">
+                                <li><strong>Outdoor Patient Department (OPD) facilities:</strong> Free registration and
+                                    free
+                                    tests
+                                    (blood, stool, urine, ECG, ultrasound etc). All super specialty checkups and tests
+                                    including MRI
+                                    & CT scan are available on 20% discount.</li>
+                                <li><strong>Inpatient Department (IPD) facilities:</strong> Students can avail the
+                                    treatment
+                                    facility of maximum up to Rs 50,000/- at TMU hospital during the entire period of
+                                    the
+                                    program
+                                    that they are enrolled in at the university. All the bonafide students will also
+                                    have
+                                    the
+                                    coverage of Rs 1 lac in case of accidental death while they are studying at the
+                                    university.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-7">
+                    <div class="conctainer pt-3 mt-4">
+                        <div class="facility-section">
+                            <h5 class="fw-bold">In addition, following facilities are available:</h5>
+                            <ul style="margin-left: 20px;">
+                                <li>A Dialysis unit with latest Haemodialysis machines</li>
+                                <li>A well developed Neurology Lab with facilities of EEG, NCV, EMG and BERA</li>
+                                <li>An air conditioned Ward for critically burnt patients</li>
+                                <li>A Neurosurgery unit with back up for spiral CT Scan and ICU for Head Injury cases
+                                </li>
+                                <li>A Urodynamic Lab</li>
+                                <li>A Urodynamic Lab</li>
+                                <li>An Endoscopy section with facilities for upper and lower G.I. Endoscopy for the
+                                    Gastroenterology Department</li>
+                                <li>An Endocrinological Lab for Hormonal study</li>
+                                <li>ND/ Yag Laser facilities for Ophthalmology Department</li>
+                                <li>State-of-the-art infertility centre with facilities of IVF, ICSI, Laser hatching,
+                                    TESE &
+                                    PESA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -224,132 +240,117 @@
             </div>
         </section>
 
-        <div class="container">
-            <h2 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Hospital </span><span> Glimpse</span></h2>
-            <div class="row justify-content-center gutter-10" data-lightbox="gallery">
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/1.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/1.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span>Gallery</span></h2>
+                    <p class="lead">Explore our beautiful campus through these captivating images</p>
                 </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/5.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/5.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="indoor Sport">Indoor Sport</button>
+                    <button class="filter-btn" data-filter="outdoor Sport">Outdoor Sport</button>
                 </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/6.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/6.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                <div class="gallery-grid">
+                    <!-- Academic Blocks -->
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/1.jpg')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Hospital Building</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/7.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/7.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                    <div class="gallery-item" data-category="outdoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/2.jpg')}}"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Path Lab</h3>
+                            <p class="gallery-item-category">Outdoor Sport</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/8.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/8.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                    <!-- Sports -->
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/3.jpg')}}"
+                            alt="Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Reception</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/2.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/2.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/4.jpg')}}"
+                            alt="Cricket Ground">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">X-ray Lab</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/3.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/3.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                    <!-- Library -->
+                    <div class="gallery-item" data-category="outdoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/5.jpg')}}"
+                            alt="Central Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">MRI</h3>
+                            <p class="gallery-item-category">Outdoor Sport</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6  ">
-                    <div class="position-relative">
-                        <img class="d-block w-100" src="{{asset('/assets/img/gallery/hospital/4.jpg')}}"
-                            alt="Gallery Thumb 2">
-                        <div class="bg-overlay">
-                            <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                data-hover-animate="fadeIn">
-                                <a href="{{asset('/assets/img/gallery/hospital/4.jpg')}}"
-                                    class="overlay-trigger-icon size-sm bg-light text-dark"
-                                    data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
-                                    data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
-                            </div>
+
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/6.jpg')}}"
+                            alt="Digital Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">CT-scan</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
                         </div>
                     </div>
+
+                    <!-- Campus Life -->
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/7.jpg')}}"
+                            alt="Student Center">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Cardiac Catheterization</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="indoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/8.jpg')}}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Emergency Ward</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="outdoor Sport">
+                        <img src="{{asset('/assets/img/footer_pages/hospital/9.jpg')}}"
+                            alt="Hostel Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">N-ICU</h3>
+                            <p class="gallery-item-category">Outdoor Sport</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
+        </section>
 
+        <div class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-prev">&lt;</button>
+            <img src="" alt="Enlarged Image">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-next">&gt;</button>
+        </div>
     </div>
 </section>
 
@@ -376,4 +377,6 @@
 
     // HOSPITAL COUNTER JS END
 </script>
+
+
 @endsection

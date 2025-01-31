@@ -1,73 +1,353 @@
 @extends('layouts.university.main')
 @section('content')
 
-
-
-
-
 <section id="content">
-  <div class="content-wrap py-0">
+    <div class="content-wrap py-0">
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{{asset('/assets/img/infrastructure/campus_view/Campus-Banner.webp')}}" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+        <section class="hero-section">
+            <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active hero-slide">
+                        <img src="{{asset('/assets/img/footer_pages/banner/campus.jpg')}}"
+                            class="hero-image" alt="Campus View">
+                        <div class="content-overlay">
+                            <div class="container">
+                                <h1 class="section-title" style="color: white;">CAMPUS <span>VIEW</span></h1>
+                                <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
+                                    environment that provides the perfect setting for academic excellence and personal
+                                    growth.</p>
+                                <div class="stat-box">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h4>50+ Acres</h4>
+                                            <p>Campus Area</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>20+</h4>
+                                            <p>Modern Buildings</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>100%</h4>
+                                            <p>Green Campus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more carousel items as needed -->
+                </div>
+            </div>
+        </section>
 
-    <div class="container">
-      <h1 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 mt-5"><span>Campus </span><span> View</span></h1>
-      <div class="row justify-content-center">
-        <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">Teerthanker Mahaveer University is a dream destination, where modern infrastructure, world-class facilities, and a supportive community create the perfect backdrop for your academic journey. Every corner of TMU is thoughtfully designed to inspire and support you, fostering a dynamic environment that complements your academic and personal growth. We offer a vibrant campus experience that blends learning with fun. From the moment you step onto our campus, you'll feel a sense of purpose, the joy of discovery, and the warmth of belonging.</p>
+        <div class="container">
+            <h2 Class="tmu-text-primary mb-2 mt-5"><span>CAMPUS </span><span> VIEW</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-justify mb-2 mt-3">
+                    <p class="text-justify mb-2 mt-1">
+                    Teerthanker Mahaveer University is a dream destination, where modern infrastructure, 
+                    world-class facilities, and a supportive community create the perfect backdrop for 
+                    your academic journey. Every corner of TMU is thoughtfully designed to inspire and 
+                    support you, fostering a dynamic environment that complements your academic and 
+                    personal growth. We offer a vibrant campus experience that blends learning with fun. 
+                    From the moment you step onto our campus, you'll feel a sense of purpose, the joy 
+                    of discovery, and the warmth of belonging.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container mb-4">
-      <div class="mb-3 mt-2">
-        <!-- <h3 class="tmu-text-primary ps-2"><span>Gallery </span></h3> -->
-      </div>
-      <div class="container mt-2 px-0">
-        <!-- Image Grid for Desktop and Tablet -->
-        <div class="d-flex flex-wrap">
-            
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-1.webp')}}" class="img-fluid" alt="Image 1">
+        <!-- amenities section start -->
+
+
+        <section class="amenities-section">
+            <div class="container">
+                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
+                <div class="amenities-carousel">
+                    <!-- Repeat this block for each amenity -->
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-wifi"></i>
+                        </div>
+                        <p>Free WiFi</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-power"></i>
+                        </div>
+                        <p>24 x 7 Power Backup</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-house"></i>
+                        </div>
+                        <p>Well-furnished rooms</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <p>Gym</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-airplane"></i>
+                        </div>
+                        <p>Restaurant</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-bicycle"></i>
+                        </div>
+                        <p>Saloon</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-patch-check"></i>
+                        </div>
+                        <p>Shopping Complex</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <p>Mess</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-door-open"></i>
+                        </div>
+                        <p>Flexible Check-In</p>
+                    </div>
+                    <div class="amenity-item">
+                        <div class="amenities-icon">
+                            <i class="bi bi-door-open"></i>
+                        </div>
+                        <p>24/7 Security</p>
+                    </div>
+                    <!-- Add more amenities here -->
+                </div>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-2.webp')}}" class="img-fluid" alt="Image 1">
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span>Gallery</span></h2>
+                    <p class="lead">Explore our beautiful campus through these captivating images</p>
+                </div>
+
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="academic">Academic Blocks</button>
+                    <button class="filter-btn" data-filter="sports">Sports</button>
+                    <button class="filter-btn" data-filter="library">Library</button>
+                    <button class="filter-btn" data-filter="campus">Campus Life</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Academic Blocks -->
+                    <div class="gallery-item" data-category="academic">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Main Academic Block</h3>
+                            <p class="gallery-item-category">Academic Blocks</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="academic">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Engineering Block</h3>
+                            <p class="gallery-item-category">Academic Blocks</p>
+                        </div>
+                    </div>
+
+                    <!-- Sports -->
+                    <div class="gallery-item" data-category="sports">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
+                            alt="Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Sports Complex</h3>
+                            <p class="gallery-item-category">Sports</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="sports">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                            alt="Cricket Ground">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Cricket Ground</h3>
+                            <p class="gallery-item-category">Sports</p>
+                        </div>
+                    </div>
+
+                    <!-- Library -->
+                    <div class="gallery-item" data-category="library">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                            alt="Central Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Central Library</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="library">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
+                            alt="Digital Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Digital Library</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Campus Life -->
+                    <div class="gallery-item" data-category="campus">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                            alt="Student Center">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Student Center</h3>
+                            <p class="gallery-item-category">Campus Life</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="campus">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Cafeteria</h3>
+                            <p class="gallery-item-category">Campus Life</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="campus">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                            alt="Hostel Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Hostel Block</h3>
+                            <p class="gallery-item-category">Campus Life</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="academic">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                            alt="Research Center">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Research Center</h3>
+                            <p class="gallery-item-category">Academic Blocks</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="sports">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                            alt="Indoor Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Indoor Sports Complex</h3>
+                            <p class="gallery-item-category">Sports</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="campus">
+                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                            alt="Campus Garden">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Campus Garden</h3>
+                            <p class="gallery-item-category">Campus Life</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-3.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-4.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-5.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/campus_view/campus-grid-6.webp')}}" class="img-fluid" alt="Image 1">
-            </div>
-            
-            
+        </section>
+
+        <div class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-prev">&lt;</button>
+            <img src="" alt="Enlarged Image">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-next">&gt;</button>
         </div>
     </div>
-      <!-- Grid row -->
-    </div>
-  </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+
+    let currentIndex = 0;
+
+    // Filtering functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.getAttribute('data-filter');
+
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            const imgSrc = item.querySelector('img').src;
+            const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+            currentIndex = index;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Set the title in the caption
+            lightbox.classList.add('active');
+        });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+        lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+
+    // Lightbox navigation
+    const updateLightboxImage = () => {
+        const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+        if (visibleItems.length > 0) {
+            currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+            const imgSrc = visibleItems[currentIndex].querySelector('img').src;
+            const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Update caption when navigating
+        }
+    };
+
+    lightboxNext.addEventListener('click', () => {
+        currentIndex++;
+        updateLightboxImage();
+    });
+
+    lightboxPrev.addEventListener('click', () => {
+        currentIndex--;
+        updateLightboxImage();
+    });
+});
+
+</script>
 @endsection
