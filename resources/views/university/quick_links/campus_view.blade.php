@@ -8,7 +8,7 @@
             <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active hero-slide">
-                        <img src="{{asset('/assets/img/footer_pages/banner/campus.jpg')}}"
+                        <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
@@ -167,7 +167,7 @@
 
                     <!-- Sports -->
                     <div class="gallery-item" data-category="sports">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
+                        <img src="{{asset('/assets/img/footer_pages/yoga/10.jpg')}}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Sports Complex</h3>
@@ -176,17 +176,53 @@
                     </div>
 
                     <div class="gallery-item" data-category="sports">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                        <img src="{{asset('/assets/img/footer_pages/sports/6.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Cricket Ground</h3>
+                            <h3 class="gallery-item-title">Kabbadi</h3>
                             <p class="gallery-item-category">Sports</p>
                         </div>
                     </div>
 
+                    <div class="gallery-item" data-category="sports">
+                        <img src="{{asset('/assets/img/footer_pages/sports/10.jpg')}}"
+                            alt="Cricket Ground">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Race</h3>
+                            <p class="gallery-item-category">Sports</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="sports">
+                        <img src="{{asset('/assets/img/footer_pages/sports/2.jpg')}}"
+                            alt="Indoor Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Football</h3>
+                            <p class="gallery-item-category">Sports</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="sports">
+                        <img src="{{asset('/assets/img/footer_pages/sports/8.jpg')}}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Volleyball</h3>
+                            <p class="gallery-item-category">Indoor Sport</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="sports">
+                        <img src="{{asset('/assets/img/footer_pages/sports/9.jpg')}}"
+                            alt="Hostel Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Cricket</h3>
+                            <p class="gallery-item-category">Outdoor Sport</p>
+                        </div>
+                    </div>
+
+
                     <!-- Library -->
                     <div class="gallery-item" data-category="library">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
+                        <img src="{{asset('/assets/img/footer_pages/library/1.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Central Library</h3>
@@ -195,7 +231,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="library">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
+                        <img src="{{asset('/assets/img/footer_pages/library/5.jpg')}}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Digital Library</h3>
@@ -240,14 +276,7 @@
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="sports">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
-                            alt="Indoor Sports Complex">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Indoor Sports Complex</h3>
-                            <p class="gallery-item-category">Sports</p>
-                        </div>
-                    </div>
+                    
 
                     <div class="gallery-item" data-category="campus">
                         <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
