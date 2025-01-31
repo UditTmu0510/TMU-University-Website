@@ -13,39 +13,39 @@
                                     <thead>
                                         <tr>
                                             <th class="text-center">Sl. No. </th>
-                                            <th >Name</th>
-                                            <th >Designation</th>
-                                            <th >Contact No.</th>
+                                            <th class="text-center">Name</th>
+                                            <th class="text-center">Designation</th>
+                                            <th class="text-center">Contact No.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td>Prof. Manu Mishra</td>
-                                            <td >Chairperson</td>
-                                            <td >9837469801</td>
+                                            <td class="text-center">Prof. Manu Mishra</td>
+                                            <td class="text-center">Chairperson</td>
+                                            <td class="text-center">9837469801</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td>Mr. Yash Chandra Gangwar</td>
-                                            <td >Proctor</td>
-                                            <td >9410282577</td>
+                                            <td class="text-center">Mr. Yash Chandra Gangwar</td>
+                                            <td class="text-center">Proctor</td>
+                                            <td class="text-center">9410282577</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td>Mr. Touheed Akhter</td>
-                                            <td >Member Secretary & FIP</td>
-                                            <td >9568872799</td>
+                                            <td class="text-center">Mr. Touheed Akhter</td>
+                                            <td class="text-center">Member Secretary & FIP</td>
+                                            <td class="text-center">9568872799</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">4</td>
-                                            <td>Dr Yogendra Sharma</td>
-                                            <td >Member</td>
-                                            <td >7669374212</td>
+                                            <td class="text-center">Dr Yogendra Sharma</td>
+                                            <td class="text-center">Member</td>
+                                            <td class="text-center">7669374212</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -72,38 +72,38 @@
                                     <thead>
                                         <tr>
                                             <th class="text-center">Sl. No. </th>
-                                            <th >Name</th>
-                                            <th >Designation</th>
-                                            <th >Contact No.</th>
+                                            <th class="text-center">Name</th>
+                                            <th class="text-center">Designation</th>
+                                            <th class="text-center">Contact No.</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td class="text-center">1</td>
-                                            <td>Prof. Manu Mishra</td>
-                                            <td >Chairperson</td>
-                                            <td >9837469801</td>
+                                            <td class="text-center">Prof. Manu Mishra</td>
+                                            <td class="text-center">Chairperson</td>
+                                            <td class="text-center">9837469801</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">2</td>
-                                            <td>Mr. Yash Chandra</td>
-                                            <td >Member</td>
-                                            <td >9410282577</td>
+                                            <td class="text-center">Mr. Yash Chandra</td>
+                                            <td class="text-center">Member</td>
+                                            <td class="text-center">9410282577</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">3</td>
-                                            <td>Mr. Touheed Akhter</td>
-                                            <td >Proctor</td>
-                                            <td >9568872799</td>
+                                            <td class="text-center">Mr. Touheed Akhter</td>
+                                            <td class="text-center">Proctor</td>
+                                            <td class="text-center">9568872799</td>
                                         </tr>
 
                                         <tr>
                                             <td class="text-center">4</td>
-                                            <td>Dr. Yogendra Sharma</td>
-                                            <td >Member Secretary & FIP</td>
-                                            <td >7669374212</td>
+                                            <td class="text-center">Dr. Yogendra Sharma</td>
+                                            <td class="text-center">Member Secretary & FIP</td>
+                                            <td class="text-center">7669374212</td>
                                         </tr>
                                     </tbody>
                                 </table>

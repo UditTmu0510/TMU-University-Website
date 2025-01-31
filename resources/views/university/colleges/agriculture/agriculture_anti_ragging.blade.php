@@ -12,59 +12,59 @@
 					<thead>
 						<tr>
 							<th class="text-center">Sl. No.</th>
-							<th>Name</th>
-							<th>Designation</th>
-							<th>Contact No.</th>
+							<th class="text-center">Name</th>
+							<th class="text-center">Designation</th>
+							<th class="text-center">Contact No.</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td>Dr. Parveen Kumar Jain </td>
-							<td>Chairperson</td>
-							<td>8219675654</td>
+							<td class="text-center">Dr. Parveen Kumar Jain </td>
+							<td class="text-center">Chairperson</td>
+							<td class="text-center">8219675654</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">2</td>
-							<td>Dr. Ganesh Datt Bhatt</td>
-							<td>Proctor</td>
-							<td>9456374560</td>
+							<td class="text-center">Dr. Ganesh Datt Bhatt</td>
+							<td class="text-center">Proctor</td>
+							<td class="text-center">9456374560</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">3</td>
-							<td>Dr. Aushutosh Awasthi</td>
-							<td>Member</td>
-							<td>9453701515</td>
+							<td class="text-center">Dr. Aushutosh Awasthi</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9453701515</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">4</td>
-							<td>Dr. Devendra Pal Singh</td>
-							<td>Member</td>
-							<td>9013666825</td>
+							<td class="text-center">Dr. Devendra Pal Singh</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9013666825</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">5</td>
-							<td>Dr. Upasana</td>
-							<td>Member</td>
-							<td>8394885150</td>
+							<td class="text-center">Dr. Upasana</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">8394885150</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">6</td>
-							<td>Dr. Tabassum</td>
-							<td>First information Person</td>
-							<td>9761237749</td>
+							<td class="text-center">Dr. Tabassum</td>
+							<td class="text-center">First information Person</td>
+							<td class="text-center">9761237749</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">7</td>
-							<td>Dr. Sachchida Nand</td>
-							<td>Member</td>
-							<td>9415824484</td>
+							<td class="text-center">Dr. Sachchida Nand</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9415824484</td>
 						</tr>
 					</tbody>
 				</table>
@@ -77,7 +77,7 @@
 					<div class="card border-light my-3">
 						<div class="card-body text-center">
 							<h3 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h3>
-							<p class="card-text h1 tmu-color">HELPLINE NO. 1800-180-5522 </p>
+							<p class="card-text h1 tmu-color">24X7 HELPLINE NO. 1800-180-5522 </p>
 						</div>
 					</div>
 				</div>
@@ -91,59 +91,59 @@
 					<thead>
 						<tr>
 							<th class="text-center">Sl. No. </th>
-							<th>Name</th>
-							<th>Designation</th>
-							<th>Contact No.</th>
+							<th class="text-center">Name</th>
+							<th class="text-center">Designation</th>
+							<th class="text-center">Contact No.</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
-							<td>Dr. Praveen Kumar Jain</td>
-							<td>Chairperson</td>
-							<td>8219675654</td>
+							<td class="text-center">Dr. Praveen Kumar Jain</td>
+							<td class="text-center">Chairperson</td>
+							<td class="text-center">8219675654</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">2</td>
-							<td>Dr. Ganesh Datt Bhatt</td>
-							<td>Member</td>
-							<td>9456374560</td>
+							<td class="text-center">Dr. Ganesh Datt Bhatt</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9456374560</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">3</td>
-							<td>Dr. Aushutosh Awasthi</td>
-							<td>Member</td>
-							<td>9453701515</td>
+							<td class="text-center">Dr. Aushutosh Awasthi</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9453701515</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">4</td>
-							<td>Dr. Devendra Pal Singh</td>
-							<td>Proctor</td>
-							<td>9013666825</td>
+							<td class="text-center">Dr. Devendra Pal Singh</td>
+							<td class="text-center">Proctor</td>
+							<td class="text-center">9013666825</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">5</td>
-							<td>Dr. Upasna</td>
-							<td>Member</td>
-							<td>8394885150</td>
+							<td class="text-center">Dr. Upasna</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">8394885150</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">6</td>
-							<td>Dr. Anil Kumar Chaudhary</td>
-							<td>Member</td>
-							<td>9557100101</td>
+							<td class="text-center">Dr. Anil Kumar Chaudhary</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9557100101</td>
 						</tr>
 
 						<tr>
 							<td class="text-center">7</td>
-							<td>Dr. Sachchida Nand</td>
-							<td>Member</td>
-							<td>9415824484</td>
+							<td class="text-center">Dr. Sachchida Nand</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9415824484</td>
 						</tr>
 					</tbody>
 				</table>

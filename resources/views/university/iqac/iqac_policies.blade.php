@@ -316,6 +316,12 @@
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_23.0_Job_Responsibilities_Target_of_Research_Faculty.pdf')}}" target="_blank">View
             PDF</a>
         </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>SOP(24)</b> - TMU Students Council</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_24.0_TMU_Students_Council.pdf')}}" target="_blank">View
+            PDF</a>
+        </div>
         
 
       </div>
