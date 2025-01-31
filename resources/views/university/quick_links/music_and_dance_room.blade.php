@@ -1,81 +1,307 @@
-
-
-
 @extends('layouts.university.main')
 @section('content')
-
-
-
-
 
 <section id="content">
   <div class="content-wrap py-0">
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{{asset('assets/img/infrastructure/music_and_dance/1.png')}}" class="d-block w-100" alt="...">
+    <section class="hero-section">
+      <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-slide">
+            <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+              class="hero-image" alt="Campus View">
+            <div class="content-overlay">
+              <div class="container">
+                <h1 class="section-title" style="color: white;">Music &  <span> Dance</span></h1>
+                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
+                  environment that provides the perfect sitting for academic excellence and personal
+                  growth.</p> -->
+                <div class="stat-box">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4>50+ Acres</h4>
+                      <p>Campus Area</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>20+</h4>
+                      <p>Modern Buildings</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>100%</h4>
+                      <p>Green Campus</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel items as needed -->
         </div>
-        <!-- <div class="carousel-item">
-          <img src="{{asset('/assets/img/infrastructure/banking_facility/Banner2.webp')}}" class="d-block w-100" alt="...">
-        </div> -->
       </div>
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
-    </div>
+    </section>
 
     <div class="container">
-      <h1 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 mt-5"><span>Music </span><span> Room</span></h1>
+      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Music & </span><span>Dance</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-          The Music and Dance Room at TMU is a vibrant, creative space designed to foster artistic expression and nurture the talents of musicians and dancers. It provides the perfect environment to explore artistic passions, collaborate with peers, and showcase talents. This state-of-the-art facility features soundproof rehearsal areas, professional-grade musical instruments, and equipment for students to hone their skills. Additionally, audio-visual recording facilities enable students to capture and refine their performances. Comfortable seating and a spacious studio create a welcoming atmosphere, inspiring creativity and productivity.          
-        </p>
+          The Music and Dance Room at TMU is a lively hub for artistic expression and creativity. This vibrant space is equipped with professional-grade musical instruments, soundproof rehearsal rooms, and spacious studios, enabling students to refine their skills and explore their talents. Audio-visual recording facilities provide opportunities for students to document and enhance their performances. The welcoming and energetic environment allows students to develop their artistic potential to the fullest.
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="container mb-4">
-      <div class="mb-3 mt-2">
-        <!-- <h3 class="tmu-text-primary ps-2"><span>Gallery </span></h3> -->
-      </div>
-      <div class="container mt-2 px-0">
-        <!-- Image Grid for Desktop and Tablet -->
-        <div class="d-flex flex-wrap">
-            
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/1.webp')}}" class="img-fluid" alt="Image 1">
+    <!-- amenities section start -->
+
+
+    <section class="amenities-section">
+      <div class="container">
+        <h2 Class="tmu-text-primary mb-2 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
+        <div class="amenities-carousel">
+          <!-- Repeat this block for each amenity -->
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-wifi"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/2.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Free WiFi</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-power"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/3.webp')}}" class="img-fluid" alt="Image 1">
+            <p>24 x 7 Power Backup</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-house"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/4.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Well-furnished rooms</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="fas fa-running"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/5.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Gym</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-airplane"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/music_and_dance/6.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Restaurant</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-bicycle"></i>
             </div>
-            
+            <p>Saloon</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-patch-check"></i>
+            </div>
+            <p>Shopping Complex</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <p>Mess</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-door-open"></i>
+            </div>
+            <p>Flexible Check-In</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-door-open"></i>
+            </div>
+            <p>24/7 Security</p>
+          </div>
+          <!-- Add more amenities here -->
         </div>
-    </div>
-      <!-- Grid row -->
+      </div>
+    </section>
+
+    <!-- <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-header">
+          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Faculty Accomodation </span><span>Gallery</span></h2>
+          <p class="lead">Explore our beautiful campus through these captivating images</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-category="academic">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/1.jpg')}}"
+              alt="Main Academic Block">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Main Entrance</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="academic">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/2.jpg')}}"
+              alt="Engineering Block">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Reception Area</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sports">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/3.jpg')}}"
+              alt="Sports Complex">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">lobby</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sports">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/4.jpg')}}"
+              alt="Cricket Ground">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="library">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/5.jpg')}}"
+              alt="Central Library">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="library">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/6.jpg')}}"
+              alt="Digital Library">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/7.jpg')}}"
+              alt="Student Center">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/8.jpg')}}"
+              alt="Cafeteria">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/9.jpg')}}"
+              alt="Hostel Block">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room</h3>
+              <p class="gallery-item-category">Faculty Accomodation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <button class="lightbox-prev">&lt;</button>
+      <img src="" alt="Enlarged Image">
+      <div class="lightbox-caption"></div>
+      <button class="lightbox-next">&gt;</button>
     </div>
   </div>
-</section>
+</section> -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+
+    let currentIndex = 0;
+
+    // Filtering functionality
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+      item.addEventListener('click', () => {
+        const imgSrc = item.querySelector('img').src;
+        const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+        currentIndex = index;
+
+        lightboxImg.src = imgSrc;
+        lightboxCaption.textContent = imgTitle; // Set the title in the caption
+        lightbox.classList.add('active');
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove('active');
+      }
+    });
+
+    // Lightbox navigation
+    const updateLightboxImage = () => {
+      const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+      if (visibleItems.length > 0) {
+        currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+        const imgSrc = visibleItems[currentIndex].querySelector('img').src;
+        const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+
+        lightboxImg.src = imgSrc;
+        lightboxCaption.textContent = imgTitle; // Update caption when navigating
+      }
+    };
+
+    lightboxNext.addEventListener('click', () => {
+      currentIndex++;
+      updateLightboxImage();
+    });
+
+    lightboxPrev.addEventListener('click', () => {
+      currentIndex--;
+      updateLightboxImage();
+    });
+  });
+</script>
 @endsection
