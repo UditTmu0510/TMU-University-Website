@@ -239,8 +239,7 @@
                         this, the students/ faculty/ staff can access the resources of National Digital Library of India
                         (NDL) which consist of > 7 lakh books, 3 lakh research papers, 95.000 + theses. Can be accessed
                         at <a href="https://ndl.iitkgp.ac.in/" target="blank">https://ndl.iitkgp.ac.in/</a> -->
-                        At TMU, our library is a hub of knowledge and discovery. With a vast collection of books, journals, and digital resources, students have access to a world of information at their fingertips. The library offers quiet spaces for focused study, along with group discussion areas that encourage interactive learning. Equipped with high-speed internet and advanced technology, students can seamlessly conduct research and study. Our dedicated staff and modern facilities create a comfortable and enriching learning experience, ensuring a welcoming and supportive environment for all students.
-                    </p>
+                        The library at TMU is more than just a repository of books; it’s a gateway to knowledge and discovery. With an extensive collection of academic resources, including textbooks, research journals, and e-books, the library caters to diverse fields of study. Students can enjoy dedicated quiet zones for focused study or collaborative spaces for group discussions. Equipped with high-speed internet and digital tools, the library ensures seamless access to information. Friendly staff and a comfortable ambience make it an ideal place for intellectual exploration and academic success.                    </p>
                 </div>
             </div>
         </div>
@@ -935,48 +934,134 @@
             </div>
         </div>
 
-        <div class="container mb-4">
-            <div class="mb-3 mt-2">
-                <!-- <h3 class="tmu-text-primary ps-2"><span>Gallery </span></h3> -->
-            </div>
-            <div class="container mt-2 px-0">
-                <!-- Image Grid for Desktop and Tablet -->
-                <div class="d-flex flex-wrap">
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Library </span><span>Gallery</span></h2>
+                    <p class="lead">Explore our beautiful campus through these captivating images</p>
+                </div>
 
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/1.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/2.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/3.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/4.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/5.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/6.webp')}}" class="img-fluid"
-                            alt="Image 1">
-                    </div>
-                    <div class="col-md-4 img-grid p-2">
-                        <img src="{{asset('/assets/img/infrastructure/library/8.webp')}}" class="img-fluid"
-                            alt="Image 1">
+                <div class="gallery-grid">
+                    <!-- Academic Blocks -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/1.jpg')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Library Building</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
                     </div>
 
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/2.jpg')}}"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Path Lab</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Sports -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/3.jpg')}}"
+                            alt="Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Reception</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/4.jpg')}}"
+                            alt="Cricket Ground">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">X-ray Lab</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Library -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/5.jpg')}}"
+                            alt="Central Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">MRI</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/6.jpg')}}"
+                            alt="Digital Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">CT-scan</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Campus Life -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/7.jpg')}}"
+                            alt="Student Center">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Cardiac Catheterization</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/8.jpg')}}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Emergency Ward</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/9.jpg')}}"
+                            alt="Hostel Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">N-ICU</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-            <!-- Grid row -->
+        </section>
+
+        <div class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-prev">&lt;</button>
+            <img src="" alt="Enlarged Image">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-next">&gt;</button>
         </div>
     </div>
 </section>
+
+<script>
+    // Library COUNTER JS START
+    document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.Library-counter');
+        counters.forEach(counter => {
+            const updateCounter = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const increment = target / 200;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(updateCounter, 10);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            updateCounter();
+        });
+    });
+
+    // Library COUNTER JS END
+</script>
 @endsection

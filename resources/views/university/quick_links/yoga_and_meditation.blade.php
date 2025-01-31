@@ -1,79 +1,319 @@
 @extends('layouts.university.main')
 @section('content')
 
-
-
-
-
 <section id="content">
   <div class="content-wrap py-0">
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{{asset('/assets/img/infrastructure/yoga/Banner.webp')}}" class="d-block w-100" alt="...">
+    <section class="hero-section">
+      <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active hero-slide">
+            <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+              class="hero-image" alt="Campus View">
+            <div class="content-overlay">
+              <div class="container">
+                <h1 class="section-title" style="color: white;">Yoga & <span> Meditation</span></h1>
+                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
+                  environment that provides the perfect sitting for academic excellence and personal
+                  growth.</p> -->
+                <div class="stat-box">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4>50+ Acres</h4>
+                      <p>Campus Area</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>20+</h4>
+                      <p>Modern Buildings</p>
+                    </div>
+                    <div class="col-md-4">
+                      <h4>100%</h4>
+                      <p>Green Campus</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel items as needed -->
         </div>
-        <!-- <div class="carousel-item">
-          <img src="{{asset('/assets/img/infrastructure/banking_facility/Banner2.webp')}}" class="d-block w-100" alt="...">
-        </div> -->
       </div>
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
-    </div>
+    </section>
 
     <div class="container">
-      <h1 Class="tmu-text-primary tmu-page-heading tmu-page-heading-left mb-2 mt-5"><span>Yoga </span><span>and Meditation</span></h1>
+      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Yoga &</span><span> Meditation</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
-          At TMU, yoga and meditation are integral to promoting the well-being of students and staff. The university provides dedicated spaces for practicing yoga and meditation, encouraging a balanced approach to mental and physical health. Regular sessions help individuals reduce stress, improve concentration, and enhance overall fitness. These practices foster a sense of inner peace and self-awareness, supporting both academic and personal growth in a serene and nurturing environment.</p>
+          At TMU, Yoga and Meditation form an integral part of promoting physical and mental well-being. Our programmes are led by expert instructors who guide participants in techniques to enhance focus, reduce stress, and cultivate inner peace. Dedicated spaces on campus provide a peaceful environment for students and faculty to rejuvenate and recharge. These sessions not only nurture spiritual growth but also instil mindfulness, enabling individuals to navigate the challenges of academic life with clarity and balance.</p>
         </div>
       </div>
     </div>
 
-    <div class="container mb-4">
-      <div class="mb-3 mt-2">
-        <!-- <h3 class="tmu-text-primary ps-2"><span>Gallery </span></h3> -->
-      </div>
-      <div class="container mt-2 px-0">
-        <!-- Image Grid for Desktop and Tablet -->
-        <div class="d-flex flex-wrap">
-            
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/1.webp')}}" class="img-fluid" alt="Image 1">
+    <!-- amenities section start -->
+
+
+    <section class="amenities-section">
+      <div class="container">
+        <h2 Class="tmu-text-primary mb-2 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
+        <div class="amenities-carousel">
+          <!-- Repeat this block for each amenity -->
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-wifi"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/2.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Free WiFi</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-power"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/3.webp')}}" class="img-fluid" alt="Image 1">
+            <p>24 x 7 Power Backup</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-house"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/4.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Well-furnished rooms</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="fas fa-running"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/5.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Gym</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-airplane"></i>
             </div>
-            <div class="col-md-4 img-grid p-2">
-                <img src="{{asset('/assets/img/infrastructure/yoga/6.webp')}}" class="img-fluid" alt="Image 1">
+            <p>Restaurant</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-bicycle"></i>
             </div>
-            
-            
-            
+            <p>Saloon</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-patch-check"></i>
+            </div>
+            <p>Shopping Complex</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <p>Mess</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-door-open"></i>
+            </div>
+            <p>Flexible Check-In</p>
+          </div>
+          <div class="amenity-item">
+            <div class="amenities-icon">
+              <i class="bi bi-door-open"></i>
+            </div>
+            <p>24/7 Security</p>
+          </div>
+          <!-- Add more amenities here -->
         </div>
-    </div>
-      <!-- Grid row -->
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-header">
+          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Yoga </span><span>Gallery</span></h2>
+          <p class="lead">Explore our beautiful campus through these captivating images</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Academic Blocks -->
+          <div class="gallery-item" data-category="academic">
+            <img src="{{asset('/assets/img/footer_pages/yoga/1.jpg')}}"
+              alt="Main Academic Block">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Main Entrance</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="academic">
+            <img src="{{asset('/assets/img/footer_pages/yoga/2.jpg')}}"
+              alt="Engineering Block">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Reception Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <!-- Sports -->
+          <div class="gallery-item" data-category="sports">
+            <img src="{{asset('/assets/img/footer_pages/yoga/3.jpg')}}"
+              alt="Sports Complex">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">lobby</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sports">
+            <img src="{{asset('/assets/img/footer_pages/yoga/4.jpg')}}"
+              alt="Cricket Ground">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <!-- Library -->
+          <div class="gallery-item" data-category="library">
+            <img src="{{asset('/assets/img/footer_pages/yoga/5.jpg')}}"
+              alt="Central Library">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="library">
+            <img src="{{asset('/assets/img/footer_pages/yoga/6.jpg')}}"
+              alt="Digital Library">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <!-- Campus Life -->
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/yoga/7.jpg')}}"
+              alt="Student Center">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/yoga/8.jpg')}}"
+              alt="Cafeteria">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/yoga/9.jpg')}}"
+              alt="Cafeteria">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="campus">
+            <img src="{{asset('/assets/img/footer_pages/yoga/10.jpg')}}"
+              alt="Cafeteria">
+            <div class="gallery-item-info">
+              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <p class="gallery-item-category">Meditation</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <button class="lightbox-prev">&lt;</button>
+      <img src="" alt="Enlarged Image">
+      <div class="lightbox-caption"></div>
+      <button class="lightbox-next">&gt;</button>
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+
+    let currentIndex = 0;
+
+    // Filtering functionality
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+      item.addEventListener('click', () => {
+        const imgSrc = item.querySelector('img').src;
+        const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+        currentIndex = index;
+
+        lightboxImg.src = imgSrc;
+        lightboxCaption.textContent = imgTitle; // Set the title in the caption
+        lightbox.classList.add('active');
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove('active');
+      }
+    });
+
+    // Lightbox navigation
+    const updateLightboxImage = () => {
+      const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+      if (visibleItems.length > 0) {
+        currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+        const imgSrc = visibleItems[currentIndex].querySelector('img').src;
+        const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+
+        lightboxImg.src = imgSrc;
+        lightboxCaption.textContent = imgTitle; // Update caption when navigating
+      }
+    };
+
+    lightboxNext.addEventListener('click', () => {
+      currentIndex++;
+      updateLightboxImage();
+    });
+
+    lightboxPrev.addEventListener('click', () => {
+      currentIndex--;
+      updateLightboxImage();
+    });
+  });
+</script>
 @endsection
