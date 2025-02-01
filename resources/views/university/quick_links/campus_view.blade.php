@@ -266,7 +266,7 @@
 
                     <!-- Library -->
                     <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/library/1.jpg')}}"
+                        <img src="{{asset('/assets/img/footer_pages/Library/1.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Central Library</h3>
@@ -275,7 +275,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/library/5.jpg')}}"
+                        <img src="{{asset('/assets/img/footer_pages/Library/5.jpg')}}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Digital Library</h3>
