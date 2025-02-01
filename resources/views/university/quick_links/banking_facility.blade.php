@@ -8,7 +8,7 @@
       <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active hero-slide">
-            <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+            <img src="{{asset('/assets/img/footer_pages/banner/bank.jpg')}}"
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
@@ -128,14 +128,14 @@
     <section class="gallery-section">
       <div class="container">
         <div class="gallery-header">
-          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Bank Facilities </span><span>Gallery</span></h2>
+          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Bank Facility </span><span>Gallery</span></h2>
           <p class="lead">Explore our beautiful campus through these captivating images</p>
         </div>
 
         <div class="gallery-grid">
           <!-- Academic Blocks -->
           <div class="gallery-item" data-category="academic">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/1.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/1.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Main Entrance</h3>
@@ -144,7 +144,7 @@
           </div>
 
           <div class="gallery-item" data-category="academic">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/2.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Reception Area</h3>
@@ -154,7 +154,7 @@
 
           <!-- Sports -->
           <div class="gallery-item" data-category="sports">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/3.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/3.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">lobby</h3>
@@ -163,7 +163,7 @@
           </div>
 
           <div class="gallery-item" data-category="sports">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/4.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/4.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
@@ -173,7 +173,7 @@
 
           <!-- Library -->
           <div class="gallery-item" data-category="library">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/5.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/5.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room</h3>
@@ -182,7 +182,7 @@
           </div>
 
           <div class="gallery-item" data-category="library">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/6.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/6.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room</h3>
@@ -192,7 +192,7 @@
 
           <!-- Campus Life -->
           <div class="gallery-item" data-category="campus">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/7.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/7.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
@@ -201,7 +201,7 @@
           </div>
 
           <div class="gallery-item" data-category="campus">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/8.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
@@ -210,7 +210,7 @@
           </div>
 
           <div class="gallery-item" data-category="campus">
-            <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/9.jpg')}}"
+            <img src="{{asset('/assets/img/footer_pages/bank/9.jpg')}}"
               alt="Hostel Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room</h3>

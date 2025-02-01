@@ -8,11 +8,11 @@
       <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active hero-slide">
-            <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+            <img src="{{asset('/assets/img/footer_pages/banner/jinalaya.jpg')}}"
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">Mahaveer Ji <span> Jinalya</span></h1>
+                <h1 class="section-title" style="color: white;">Mahaveer Ji <span> Jinalaya</span></h1>
                 <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
                   environment that provides the perfect sitting for academic excellence and personal
                   growth.</p> -->
@@ -41,7 +41,7 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Mahaveer Ji  </span><span>Jinalya</span></h2>
+      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Mahaveer Ji  </span><span>Jinalaya</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1">
@@ -127,7 +127,7 @@
     <section class="gallery-section">
       <div class="container">
         <div class="gallery-header">
-          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Jinalya </span><span>Gallery</span></h2>
+          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Jinalaya </span><span>Gallery</span></h2>
           <p class="lead">Explore our beautiful campus through these captivating images</p>
         </div>
 
@@ -138,7 +138,7 @@
               alt="Main Academic Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Main Entrance</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -147,7 +147,7 @@
               alt="Engineering Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Reception Area</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -157,7 +157,7 @@
               alt="Sports Complex">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">lobby</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -166,7 +166,7 @@
               alt="Cricket Ground">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -176,7 +176,7 @@
               alt="Central Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -185,7 +185,7 @@
               alt="Digital Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -195,7 +195,7 @@
               alt="Student Center">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 
@@ -204,7 +204,7 @@
               alt="Cafeteria">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Jinalya</p>
+              <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
 

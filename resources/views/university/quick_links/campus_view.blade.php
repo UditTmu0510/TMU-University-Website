@@ -139,29 +139,73 @@
 
                 <div class="gallery-filters">
                     <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="academic">Academic Blocks</button>
+                    <button class="filter-btn" data-filter="infra">Infrastructure</button>
                     <button class="filter-btn" data-filter="sports">Sports</button>
                     <button class="filter-btn" data-filter="library">Library</button>
-                    <button class="filter-btn" data-filter="campus">Campus Life</button>
+                    <button class="filter-btn" data-filter="cafe">Cafeteria</button>
+
                 </div>
 
                 <div class="gallery-grid">
-                    <!-- Academic Blocks -->
-                    <div class="gallery-item" data-category="academic">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                    <!-- Infra -->
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/campus-grid-2.webp')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Main Academic Block</h3>
-                            <p class="gallery-item-category">Academic Blocks</p>
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="academic">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/6.jpg')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Hostels</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/yoga/10.jpg')}}"
+                            alt="Sports Complex">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Indoor Stadium</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/8.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Engineering Block</h3>
-                            <p class="gallery-item-category">Academic Blocks</p>
+                            <h3 class="gallery-item-title">Central Library</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/1.jpg')}}"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Hospital</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/9.jpg')}}"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Facuty Block</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="infra">
+                        <img src="{{asset('/assets/img/footer_pages/infra/19.jpg')}}"
+                            alt="Engineering Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Auditorium</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
 
@@ -239,51 +283,45 @@
                         </div>
                     </div>
 
-                    <!-- Campus Life -->
-                    <div class="gallery-item" data-category="campus">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
-                            alt="Student Center">
+                    <div class="gallery-item" data-category="cafe">
+                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/1.jpg')}}"
+                            alt="Central Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Student Center</h3>
-                            <p class="gallery-item-category">Campus Life</p>
+                            <h3 class="gallery-item-title">Bicano Restaurant</h3>
+                            <p class="gallery-item-category">Cafeteria</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="campus">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-5.webp"
-                            alt="Cafeteria">
+                    <div class="gallery-item" data-category="cafe">
+                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/2.jpg')}}"
+                            alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Cafeteria</h3>
-                            <p class="gallery-item-category">Campus Life</p>
+                            <h3 class="gallery-item-title">Rainbow Cafe</h3>
+                            <p class="gallery-item-category">Cafeteria</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="campus">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
-                            alt="Hostel Block">
+                    <div class="gallery-item" data-category="cafe">
+                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/3.jpg')}}"
+                            alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Hostel Block</h3>
-                            <p class="gallery-item-category">Campus Life</p>
+                            <h3 class="gallery-item-title">Chai Nagri</h3>
+                            <p class="gallery-item-category">Cafeteria</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="academic">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-1.webp"
-                            alt="Research Center">
+                    <div class="gallery-item" data-category="cafe">
+                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/4.jpg')}}"
+                            alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Research Center</h3>
-                            <p class="gallery-item-category">Academic Blocks</p>
+                            <h3 class="gallery-item-title">Domino's</h3>
+                            <p class="gallery-item-category">Cafeteria</p>
                         </div>
                     </div>
-
-                    
-
-                    <div class="gallery-item" data-category="campus">
-                        <img src="https://tmuhospital.com/assets/img/infrastructure/campus_view/campus-grid-2.webp"
-                            alt="Campus Garden">
+                    <div class="gallery-item" data-category="cafe">
+                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/5.jpg')}}"
+                            alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Campus Garden</h3>
-                            <p class="gallery-item-category">Campus Life</p>
+                            <h3 class="gallery-item-title">Bicano Cafe</h3>
+                            <p class="gallery-item-category">Cafeteria</p>
                         </div>
                     </div>
                 </div>
