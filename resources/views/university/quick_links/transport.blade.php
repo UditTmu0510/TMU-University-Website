@@ -8,11 +8,11 @@
             <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active hero-slide">
-                        <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+                        <img src="{{asset('/assets/img/footer_pages/banner/transport.jpg')}}"
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
-                                <h1 class="section-title" style="color: white;">Transport <span> Fcaility</span></h1>
+                                <h1 class="section-title" style="color: white;">Transport <span> Facility</span></h1>
                                 <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
                   environment that provides the perfect sitting for academic excellence and personal
                   growth.</p> -->

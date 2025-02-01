@@ -8,7 +8,7 @@
       <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active hero-slide">
-            <img src="{{asset('/assets/img/footer_pages/banner/campus.webp')}}"
+            <img src="{{asset('/assets/img/footer_pages/banner/accomodation.jpg')}}"
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
