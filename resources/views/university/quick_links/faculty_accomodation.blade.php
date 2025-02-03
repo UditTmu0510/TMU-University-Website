@@ -138,7 +138,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/1.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Main Entrance</h3>
+              <h3 class="gallery-item-title">Vaishali Apartment</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -147,7 +147,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Reception Area</h3>
+              <h3 class="gallery-item-title">Shikhar Apartment </h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -157,7 +157,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/3.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">lobby</h3>
+              <h3 class="gallery-item-title">Kailash Apartment Parking Area</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -166,7 +166,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/4.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Faculty Housing Lawn</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -176,7 +176,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/5.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Girnar and Kailash Apartment</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -185,7 +185,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/6.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Faculty Housing Lawn</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -195,7 +195,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/7.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Aerial View of Faculty Housing</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -204,7 +204,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Vaishali Apartment with Sports Complex</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
@@ -213,7 +213,7 @@
             <img src="{{asset('/assets/img/footer_pages/faculty_accomodation/9.jpg')}}"
               alt="Hostel Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Arihant Apartment</h3>
               <p class="gallery-item-category">Faculty Accomodation</p>
             </div>
           </div>
