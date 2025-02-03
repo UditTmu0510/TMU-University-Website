@@ -12,49 +12,49 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No.</th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1.</td>
-                            <td>Prof. (Dr.) Navneet Kumar</td>
-                            <td>Chairperson</td>
-                            <td>8126224041</td>
+                            <td class="text-center">Prof. (Dr.) Navneet Kumar</td>
+                            <td class="text-center">Chairperson</td>
+                            <td class="text-center">8126224041</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">2.</td>
-                            <td>Mr. Ruchi Kant</td>
-                            <td>Member</td>
-                            <td>7054133711</td>
+                            <td class="text-center">Mr. Ruchi Kant</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">7054133711</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">3.</td>
-                            <td>Mr. Raushan Kumar</td>
-                            <td>Member</td>
-                            <td>8882010542</td>
+                            <td class="text-center">Mr. Raushan Kumar</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8882010542</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">4.</td>
-                            <td>Mr. Akash Chauhan</td>
-                            <td>Member</td>
-                            <td>8191980081</td>
+                            <td class="text-center">Mr. Akash Chauhan</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8191980081</td>
 
                         </tr>
 
                         <tr>
                             <td class="text-center">5.</td>
-                            <td>Mr. Anjali Rani</td>
-                            <td>Member</td>
-                            <td>6398029319</td>
+                            <td class="text-center">Mr. Anjali Rani</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">6398029319</td>
 
                         </tr>
                     </tbody>
@@ -68,7 +68,7 @@
                     <div class="card border-light my-3">
                         <div class="card-body text-center">
                             <h4 class="card-title tmu-text-primary"><span>TOLL FREE ANTI RAGGING </span></h4>
-                            <p class="card-text"><span class="highlight">HELPLINE NO. 1800-180-5522 </span></p>
+                            <p class="card-text"><span class="highlight">24X7 HELPLINE NO. 1800-180-5522 </span></p>
                         </div>
                     </div>
                 </div>
@@ -82,45 +82,45 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No. </th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="text-center">1</td>
-                            <td>Mr. Ravi Kumar</td>
-                            <td>Chairperson</td>
-                            <td>9690444424</td>
+                            <td class="text-center">Mr. Ravi Kumar</td>
+                            <td class="text-center">Chairperson</td>
+                            <td class="text-center">9690444424</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">2</td>
-                            <td>Ms Priyanka Singh</td>
-                            <td>Member</td>
-                            <td>9536150439</td>
+                            <td class="text-center">Ms Priyanka Singh</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9536150439</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td>Mr. Rakesh Kumar Yadav</td>
-                            <td>Member</td>
-                            <td>7387184265</td>
+                            <td class="text-center">Mr. Rakesh Kumar Yadav</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">7387184265</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">4</td>
-                            <td>Mr. Baijnath Das</td>
-                            <td>Member</td>
-                            <td>8505866824</td>
+                            <td class="text-center">Mr. Baijnath Das</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8505866824</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">5</td>
-                            <td>Mr Arvind Kumar</td>
-                            <td>Member</td>
-                            <td>9458706894</td>
+                            <td class="text-center">Mr Arvind Kumar</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9458706894</td>
                         </tr>
                     </tbody>
                 </table>

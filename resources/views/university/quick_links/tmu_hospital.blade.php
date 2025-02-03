@@ -244,99 +244,93 @@
         <section class="gallery-section">
             <div class="container">
                 <div class="gallery-header">
-                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span>Gallery</span></h2>
+                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Hospital </span><span>Gallery</span></h2>
                     <p class="lead">Explore our beautiful campus through these captivating images</p>
-                </div>
-
-                <div class="gallery-filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="indoor Sport">Indoor Sport</button>
-                    <button class="filter-btn" data-filter="outdoor Sport">Outdoor Sport</button>
                 </div>
 
                 <div class="gallery-grid">
                     <!-- Academic Blocks -->
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/1.jpg')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Hospital Building</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="outdoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/2.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Path Lab</h3>
-                            <p class="gallery-item-category">Outdoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
                     <!-- Sports -->
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/3.jpg')}}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Reception</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/4.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">X-ray Lab</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
                     <!-- Library -->
-                    <div class="gallery-item" data-category="outdoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/5.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">MRI</h3>
-                            <p class="gallery-item-category">Outdoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/6.jpg')}}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">CT-scan</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
                     <!-- Campus Life -->
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/7.jpg')}}"
                             alt="Student Center">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Cardiac Catheterization</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="indoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/8.jpg')}}"
                             alt="Cafeteria">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Emergency Ward</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="outdoor Sport">
+                    <div class="gallery-item" data-category="Hospital">
                         <img src="{{asset('/assets/img/footer_pages/hospital/9.jpg')}}"
                             alt="Hostel Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">N-ICU</h3>
-                            <p class="gallery-item-category">Outdoor Sport</p>
+                            <p class="gallery-item-category">Hospital</p>
                         </div>
                     </div>
 

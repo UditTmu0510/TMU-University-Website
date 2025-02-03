@@ -13,9 +13,9 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title" style="color: white;">Guest <span>House</span></h1>
-                                <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                                    environment that provides the perfect setting for academic excellence and personal
-                                    growth.</p>
+                                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
+                                    environment that provides the perfect sitting for academic excellence and personal
+                                    growth.</p> -->
                                 <div class="stat-box">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -170,7 +170,7 @@
                         <img src="{{asset('/assets/img/footer_pages/guest_house/4.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Room Setting Area</h3>
+                            <h3 class="gallery-item-title">Room Sitting Area</h3>
                             <p class="gallery-item-category">Guest House</p>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                         <img src="{{asset('/assets/img/footer_pages/guest_house/7.jpg')}}"
                             alt="Student Center">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Room Setting Area</h3>
+                            <h3 class="gallery-item-title">Room Sitting Area</h3>
                             <p class="gallery-item-category">Guest House</p>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                         <img src="{{asset('/assets/img/footer_pages/guest_house/8.jpg')}}"
                             alt="Cafeteria">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Room Setting Area</h3>
+                            <h3 class="gallery-item-title">Room Sitting Area</h3>
                             <p class="gallery-item-category">Guest House</p>
                         </div>
                     </div>
