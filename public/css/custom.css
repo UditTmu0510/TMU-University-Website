@@ -424,3 +424,136 @@
 
 
       /* Footer page gallery section css ends */
+
+      .nss-badge{
+        height: 200px;
+        width: 200px;
+      }
+
+      .volunteer{
+        padding: 20px;
+        border: 1px solid #95959546;
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px #8d8d8d53;
+      }
+
+      /* Principle desk Css Start */
+
+      @media (max-width: 767.98px) {
+        .quote-box {
+            width: 100%;
+            background-color: transparent;
+            box-shadow: none;
+            padding: 0;
+        }
+    }
+
+      .principal-card23 {
+        background: var(--card-bg);
+        border-radius: 24px;
+        padding: 3.5rem;
+        position: relative;
+        overflow: hidden;
+        box-shadow: var(--card-shadow);
+    }
+
+    .principal-quote-icon23 {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        opacity: 0.1;
+        font-size: 3rem;
+    }
+
+    .principal-image-wrapper23 {
+        position: relative;
+        max-width: 140px;
+        max-height: 140px;
+        margin: 0 0 2rem;
+    }
+
+    .principal-image23 {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .principal-image-decoration23 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #001055;
+        border-radius: 20px;
+        top: 10px;
+        left: 10px;
+        z-index: -1;
+    }
+
+    .principal-text23 {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        font-weight: 300;
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 1;
+        color: var(--text-color);
+    }
+
+    .principal-info23 {
+        position: relative;
+        padding-top: 1.5rem;
+        margin-top: 1.5rem;
+        /* display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding-bottom:  */
+    }
+
+    .principal-info23::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0%;
+        /* transform: translateX(-50%); */
+        width: 60px;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #FF7900;
+    }
+
+    .principal-name23 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+    }
+
+    .principal-position23 {
+        font-size: 1rem;
+        color: var(--subtext-color);
+    }
+
+    @media (max-width: 768px) {
+        .principal-card23 {
+            padding: 2.5rem;
+        }
+        
+        .principal-image-wrapper23 {
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .principal-card23 {
+            padding: 2rem;
+        }
+        
+        .principal-image-wrapper23 {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    /* Principle desk Css end */

@@ -3,6 +3,22 @@
 
 
 <div class="main-content">
+<div class="crc-slider-container">
+            <div class="crc-slider-content">
+                <div class="crc-slider-slides">
+                    <div class="crc-slide">
+                        <img src="{{asset('assets/img/banner/ctld/ctld_banner.jpg')}}" alt="Slide 1">
+                        <div class="crc-slider-gradient">
+                            <div class="crc-slider-text">
+                                <h2>TMU Registered</h2>
+                                <h3>2500</h3>
+                                <p>Placement Offers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 	<div class="container">
 		<h1 class="tmu-text-primary tmu-page-heading"><span> Welcome to</span> <span>TMU IIC</span></h1>
