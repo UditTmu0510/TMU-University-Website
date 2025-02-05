@@ -13,9 +13,7 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title" style="color: white;">Guest <span>House</span></h1>
-                                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                                    environment that provides the perfect sitting for academic excellence and personal
-                                    growth.</p> -->
+                                <p class="lead mb-4 col-md-6">Our well-furnished guest house offers a comfortable and welcoming stay for visiting faculty, parents, and dignitaries, enhancing their campus experience.</p>
                                 <div class="stat-box">
                                     <div class="row">
                                         <div class="col-md-4">

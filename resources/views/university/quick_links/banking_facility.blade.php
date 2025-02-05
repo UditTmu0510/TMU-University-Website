@@ -13,9 +13,7 @@
             <div class="content-overlay">
               <div class="container">
                 <h1 class="section-title" style="color: white;">Bank <span> Facility</span></h1>
-                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                  environment that provides the perfect sitting for academic excellence and personal
-                  growth.</p> -->
+                <p class="lead mb-4 col-md-6">Enjoy easy access to banking services on campus, ensuring secure transactions and financial convenience for students and faculty alike.</p>
                 <div class="stat-box">
                   <div class="row">
                     <div class="col-md-4">
@@ -138,8 +136,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/1.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Main Entrance</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">New ATM Inauguration</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -147,8 +145,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Reception Area</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Inauguration Event</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -157,8 +155,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/3.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">lobby</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Bank Entrance</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -166,8 +164,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/4.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">PNB ATM</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -176,8 +174,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/5.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Waiting Area</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -185,8 +183,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/6.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Bank Counters</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -195,8 +193,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/7.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Bank Manager Office</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -204,8 +202,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Cash Counter</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
 
@@ -213,8 +211,8 @@
             <img src="{{asset('/assets/img/footer_pages/bank/9.jpg')}}"
               alt="Hostel Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Bank Facilities</p>
+              <h3 class="gallery-item-title">Enquiry Counter</h3>
+              <p class="gallery-item-category">Bank Facility</p>
             </div>
           </div>
         </div>

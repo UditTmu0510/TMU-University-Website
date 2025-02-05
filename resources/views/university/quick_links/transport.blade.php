@@ -13,9 +13,7 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title" style="color: white;">Transport <span> Facility</span></h1>
-                                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                  environment that provides the perfect sitting for academic excellence and personal
-                  growth.</p> -->
+                                <p class="lead mb-4 col-md-6">Experience seamless and safe travel with our well-connected university transportation, ensuring hassle-free commuting for students.</p>
                                 <div class="stat-box">
                                     <div class="row">
                                         <div class="col-md-4">

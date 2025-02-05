@@ -13,9 +13,7 @@
             <div class="content-overlay">
               <div class="container">
                 <h1 class="section-title" style="color: white;">Music &  <span> Dance</span></h1>
-                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                  environment that provides the perfect sitting for academic excellence and personal
-                  growth.</p> -->
+                <p class="lead mb-4 col-md-6">Celebrate creativity and expression with our vibrant music and dance programs, nurturing artistic talents and cultural enrichment on campus.</p>
                 <div class="stat-box">
                   <div class="row">
                     <div class="col-md-4">
@@ -136,8 +134,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/1.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Main Entrance</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Singer with Acoustic Guitar</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -145,8 +143,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Reception Area</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Kabbali</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -154,8 +152,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/3.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">lobby</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Singer with Electric Guitar</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -163,8 +161,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/4.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Cultural Fest</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -172,8 +170,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/5.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Cultural Fest</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -181,8 +179,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/6.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Bharatnatyam</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -190,8 +188,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/7.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Contemporary</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -199,8 +197,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Folk Dance</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
 
@@ -208,8 +206,8 @@
             <img src="{{asset('/assets/img/footer_pages/dance/9.jpg')}}"
               alt="Hostel Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <h3 class="gallery-item-title">Religious Drama</h3>
+              <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
         </div>
