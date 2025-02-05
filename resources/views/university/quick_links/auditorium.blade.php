@@ -13,9 +13,7 @@
             <div class="content-overlay">
               <div class="container">
                 <h1 class="section-title" style="color: white;">University <span> Auditorium</span></h1>
-                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                  environment that provides the perfect sitting for academic excellence and personal
-                  growth.</p> -->
+                <p class="lead mb-4 col-md-6">Our state-of-the-art auditorium serves as a dynamic venue for academic events, cultural programs, and conferences, inspiring creativity and intellectual exchange.</p>
                 <div class="stat-box">
                   <div class="row">
                     <div class="col-md-4">
@@ -136,7 +134,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/11.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Main Entrance</h3>
+              <h3 class="gallery-item-title">Kavi Sammelan</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -145,7 +143,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/12.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Reception Area</h3>
+              <h3 class="gallery-item-title">Guest Lecture</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -155,7 +153,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/13.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">lobby</h3>
+              <h3 class="gallery-item-title">Kavi Sammelan</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -164,7 +162,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/14.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Pharmacy Freshers Party</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -174,7 +172,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/15.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Leadership Talk Series</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -183,7 +181,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/16.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Leadership Talk Series</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -193,7 +191,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/17.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Ignite Fest</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -202,7 +200,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/18.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">University Auditorium</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -211,7 +209,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/19.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">University Auditorium</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>
@@ -220,7 +218,7 @@
             <img src="{{asset('/assets/img/footer_pages/audi/20.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Oath Ceremony</h3>
               <p class="gallery-item-category">Auditorium</p>
             </div>
           </div>

@@ -13,6 +13,7 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title" style="color: white;">Sports <span></span></h1>
+                                <p class="lead mb-4 col-md-6">Unleash your potential with our world-class sports facilities, promoting physical fitness, teamwork, and excellence in a range of indoor and outdoor games.</p>
                                 <div class="stat-box">
                                     <div class="row">
                                         <div class="col-md-4">

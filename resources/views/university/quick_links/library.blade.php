@@ -947,7 +947,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/1.jpg')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Library Building</h3>
+                            <h3 class="gallery-item-title">Book Shelves</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -956,7 +956,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/2.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Path Lab</h3>
+                            <h3 class="gallery-item-title">E-Library</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -966,7 +966,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/3.jpg')}}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Reception</h3>
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -975,7 +975,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/4.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">X-ray Lab</h3>
+                            <h3 class="gallery-item-title">E-Library</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -985,7 +985,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/5.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">MRI</h3>
+                            <h3 class="gallery-item-title">E-Library</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -994,7 +994,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/6.jpg')}}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">CT-scan</h3>
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -1004,7 +1004,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/7.jpg')}}"
                             alt="Student Center">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Cardiac Catheterization</h3>
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -1013,7 +1013,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/8.jpg')}}"
                             alt="Cafeteria">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Emergency Ward</h3>
+                            <h3 class="gallery-item-title">E-Library</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -1022,7 +1022,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/9.jpg')}}"
                             alt="Hostel Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">N-ICU</h3>
+                            <h3 class="gallery-item-title">E-Library</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>

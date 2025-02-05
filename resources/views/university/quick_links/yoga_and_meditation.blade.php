@@ -13,6 +13,7 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title" style="color: white;">Yoga and<span> Meditation</span></h1>
+                                <p class="lead mb-4 col-md-6">Enhance your well-being with our dedicated yoga and meditation spaces, promoting mindfulness, inner peace, and a balanced lifestyle.</p>
                                 <div class="stat-box">
                                     <div class="row">
                                         <div class="col-md-4">

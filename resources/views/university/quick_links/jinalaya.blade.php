@@ -13,9 +13,7 @@
             <div class="content-overlay">
               <div class="container">
                 <h1 class="section-title" style="color: white;">Mahaveer Ji <span> Jinalaya</span></h1>
-                <!-- <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
-                  environment that provides the perfect sitting for academic excellence and personal
-                  growth.</p> -->
+                <p class="lead mb-4 col-md-6">A serene place for spiritual reflection, Mahaveer Ji Jinalaya offers a peaceful ambiance for prayer, meditation, and personal growth.</p>
                 <div class="stat-box">
                   <div class="row">
                     <div class="col-md-4">
@@ -137,7 +135,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/1.jpg')}}"
               alt="Main Academic Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Main Entrance</h3>
+              <h3 class="gallery-item-title">Teerthanker Mahaveer Jinalaya</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -146,7 +144,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Reception Area</h3>
+              <h3 class="gallery-item-title">Teerthanker Mahaveer Jinalaya</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -156,7 +154,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/3.jpg')}}"
               alt="Sports Complex">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">lobby</h3>
+              <h3 class="gallery-item-title">Worship Hall</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -165,7 +163,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/4.jpg')}}"
               alt="Cricket Ground">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Riddhi Siddhi Bhawan</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -175,7 +173,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/5.jpg')}}"
               alt="Central Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Riddhi Siddhi Bhawan Stage</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -184,7 +182,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/6.jpg')}}"
               alt="Digital Library">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room</h3>
+              <h3 class="gallery-item-title">Riddhi Siddhi Bhawan Stage</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -194,7 +192,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/7.jpg')}}"
               alt="Student Center">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Dashlakshan Preparation</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
@@ -203,7 +201,7 @@
             <img src="{{asset('/assets/img/footer_pages/jinalaya/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Room Sitting Area</h3>
+              <h3 class="gallery-item-title">Mandir Renovation</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
           </div>
