@@ -7,14 +7,7 @@
             <div class="crc-slider-content">
                 <div class="crc-slider-slides">
                     <div class="crc-slide">
-                        <img src="{{asset('assets/img/banner/ctld/ctld_banner.jpg')}}" alt="Slide 1">
-                        <div class="crc-slider-gradient">
-                            <div class="crc-slider-text">
-                                <h2>TMU Registered</h2>
-                                <h3>2500</h3>
-                                <p>Placement Offers</p>
-                            </div>
-                        </div>
+                        <img src="{{asset('/assets/img/banner_overview/iic/IIC-Banner-1250-360-01.jpg')}}" alt="Slide 1">
                     </div>
                 </div>
             </div>
