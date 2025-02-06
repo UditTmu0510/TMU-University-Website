@@ -791,6 +791,7 @@ Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
 
 // pupil_academic_achievements
 Route::get('tmu/pupil-academic-achievements', [TmuController::class, 'pupil_academic_achievements'])->name('pupil.academic.achievements');
+Route::get('tmu/student-awards-achievements', [TmuController::class, 'student_awards_achievements'])->name('student.awards.achievements');
 
 
 

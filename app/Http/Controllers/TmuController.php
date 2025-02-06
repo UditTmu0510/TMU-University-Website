@@ -1112,6 +1112,15 @@ class TmuController extends Controller
         return view('university.quick_links.pupil_academic_achievements');
     }
 
+    // student-awards-achievements
+
+    public function student_awards_achievements()
+    {
+        return view('university.quick_links.student_awards_achievements');
+    }
+
+
+
 
 
 

@@ -9,9 +9,7 @@
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
-                        <!--<tr>-->
-                        <!--    <td colspan="7"><center><b>SPORTS</b></center></td>-->
-                        <!--</tr>-->
+
                         <tr>
                             <th style="width:2%;text-align:center">S. No.</th>
                             <th style="text-align:center;width:10%">Year of Qualifying</th>
@@ -31,7 +29,7 @@
                             <td>National</td>
                             <td>CAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHRUTIKANNADATE')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHRUTIKANNADATE.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -41,7 +39,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.2/new/Anchal_Yadav_24_1_2024')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.2/new/Anchal_Yadav_24_1_2024.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -51,7 +49,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HARSHIT')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HARSHIT.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -61,7 +59,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHMIJOSHI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHMIJOSHI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -70,16 +68,16 @@
                             <td>2022-23</td>
                             <td>State</td>
                             <td>CTET</td>
+                            <td> <center><a href="{{asset('/pdf/pupil_acad_.pdf')}}" target="_blank"> </a> </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>SHIVANGI BANSAL</td>
+                            <td>2022-23</td>
+                            <td>State</td>
+                            <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_')}}</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>SHIVANGI BANSAL</td>
-      <td>2022-23</td>
-      <td>State</td>
-      <td>CTET</td>
-      <td><center><a href=" {{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHIVANGIBANSAL')}}" target="_blank">View</a></center>
+                                <center><a href=" {{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHIVANGIBANSAL.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -89,7 +87,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/GUNJANMOHAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/GUNJANMOHAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -99,7 +97,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VIPULKUMAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VIPULKUMAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -109,7 +107,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVANSH_SAINI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVANSH_SAINI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -119,7 +117,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SAMRIDHISAXENA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SAMRIDHISAXENA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -129,7 +127,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUMARILUCKYSHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUMARILUCKYSHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -139,7 +137,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANIMESH_CHAUHAN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANIMESH_CHAUHAN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -149,7 +147,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DRONTYAGI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DRONTYAGI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -159,7 +157,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVAASHISHSINGH')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVAASHISHSINGH.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -169,7 +167,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RADHIKA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RADHIKA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -179,7 +177,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ROHANSINGH')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ROHANSINGH.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -189,7 +187,7 @@
                             <td>State</td>
                             <td>UPTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANSHIKA_GUPTA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANSHIKA_GUPTA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -199,7 +197,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VASUAGARWAL')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VASUAGARWAL.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -209,7 +207,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PALLAVI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PALLAVI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -219,7 +217,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRIYANSHARORA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRIYANSHARORA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -229,7 +227,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KARTIKEYPANT')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KARTIKEYPANT.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -239,7 +237,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHIVANGI SINGH')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHIVANGI SINGH.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -249,7 +247,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AKANSHA_TYAGI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AKANSHA_TYAGI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -259,7 +257,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANALIYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANALIYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -269,7 +267,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHIGUPTA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHIGUPTA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -279,7 +277,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANUJ_KUMAR_SHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANUJ_KUMAR_SHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -289,7 +287,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANJAN_MISHRA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANJAN_MISHRA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -299,7 +297,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ISHIKAVISHNOI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ISHIKAVISHNOI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -309,7 +307,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MAHEKSIDDIQUI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MAHEKSIDDIQUI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -319,7 +317,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AKASTA_VATSA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AKASTA_VATSA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -329,7 +327,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/NAINIKAGUNJAN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/NAINIKAGUNJAN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -339,7 +337,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/APOORV_KUMAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/APOORV_KUMAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -349,7 +347,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHITHAKUR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RASHITHAKUR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -359,7 +357,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANUBALA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANUBALA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -369,7 +367,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AJAY_GANGWAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/AJAY_GANGWAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -379,7 +377,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRATEEKCHAUHAN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRATEEKCHAUHAN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -389,7 +387,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TADIYAKHANAM')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TADIYAKHANAM.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -399,7 +397,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HARSHYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HARSHYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -409,7 +407,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/CHARU_YADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/CHARU_YADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -419,7 +417,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVYANSHIYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DEVYANSHIYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -429,7 +427,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUMARIJULLIYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUMARIJULLIYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -439,7 +437,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SATAKSHIPANDEY')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SATAKSHIPANDEY.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -449,7 +447,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANIMESH_JAIN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANIMESH_JAIN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -459,7 +457,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRASHANTSHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRASHANTSHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -469,7 +467,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRACHICHAUHAN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRACHICHAUHAN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -479,7 +477,7 @@
                             <td>National</td>
                             <td>IIT JAM</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUNALREDEWAL')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KUNALREDEWAL.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -489,7 +487,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHALINI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHALINI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -499,7 +497,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHREYSHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHREYSHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -509,7 +507,7 @@
                             <td>National</td>
                             <td>Civil Services</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RAJPRASHAHAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/RAJPRASHAHAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -519,7 +517,7 @@
                             <td>National</td>
                             <td>Civil Services</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TANYAMIDDHA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TANYAMIDDHA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -529,7 +527,7 @@
                             <td>National</td>
                             <td>Civil Services</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KOMALMALIK')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KOMALMALIK.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -539,7 +537,7 @@
                             <td>National</td>
                             <td>NFSU</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANTRANAJAIN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MANTRANAJAIN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -549,7 +547,7 @@
                             <td>National</td>
                             <td>NFSU</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/BHAVYA_PAL')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/BHAVYA_PAL.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -559,7 +557,7 @@
                             <td>State</td>
                             <td>PET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/NEHAYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/NEHAYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -569,7 +567,7 @@
                             <td>University</td>
                             <td>University Exam</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/6')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/6.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -579,7 +577,7 @@
                             <td>State</td>
                             <td>State Govt Exam</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/33')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/33.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -589,7 +587,7 @@
                             <td>State</td>
                             <td>GPAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/GOURITYAGI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/GOURITYAGI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -599,7 +597,7 @@
                             <td>State</td>
                             <td>UKSSSC</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.2/new/Dr.UpikaJain_24_1_2024')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.2/new/Dr.UpikaJain_24_1_2024.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -609,7 +607,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MOHDAHTESHAMKHAN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/MOHDAHTESHAMKHAN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -619,7 +617,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SONALSUBHANGI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SONALSUBHANGI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -629,7 +627,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TANNUKUMARI')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/TANNUKUMARI.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -639,7 +637,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANAMIKA_SAGAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANAMIKA_SAGAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -649,7 +647,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VINITKUMAR')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/VINITKUMAR.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -659,7 +657,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/27-05-2024/61-upika-jain')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/27-05-2024/61-upika-jain.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -669,7 +667,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HITESHYADAV')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HITESHYADAV.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -679,7 +677,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANUSHKA_JAIN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/ANUSHKA_JAIN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -689,7 +687,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHUBHAMMISHRA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SHUBHAMMISHRA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -699,7 +697,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/BAREERA_IRAM')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/BAREERA_IRAM.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -709,7 +707,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRABHATKR.SINGH')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/PRABHATKR.SINGH.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -719,7 +717,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/YASH SHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/YASH SHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -729,7 +727,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KAYKAYPUYING')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KAYKAYPUYING.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -739,7 +737,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KAUNTEYAKAMAD')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/KAUNTEYAKAMAD.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -749,7 +747,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HRITIKKAUSHALJAIN')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/HRITIKKAUSHALJAIN.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -759,7 +757,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SURBHISAXENA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/SURBHISAXENA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -769,7 +767,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/JAYANTVERMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/JAYANTVERMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -779,7 +777,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DIVYASHARMA')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.3/DIVYASHARMA.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -789,7 +787,7 @@
                             <td>National</td>
                             <td>JAM</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/1')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/1.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -799,7 +797,7 @@
                             <td>National</td>
                             <td>CAPF</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/2')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/2.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -809,7 +807,7 @@
                             <td>National</td>
                             <td>JMI</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/3')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/3.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -819,7 +817,7 @@
                             <td>State</td>
                             <td>CIVIL SERVICES (BIHAR JUDICIARY)</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/4')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/4.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -829,7 +827,7 @@
                             <td>National</td>
                             <td>CMAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/5')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/5.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -839,7 +837,7 @@
                             <td>National</td>
                             <td>CMAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/6')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/6.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -849,7 +847,7 @@
                             <td>National</td>
                             <td>UPCET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/7')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/7.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -859,7 +857,7 @@
                             <td>National</td>
                             <td>UPCET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/8')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/8.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -869,7 +867,7 @@
                             <td>National</td>
                             <td>UPCET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/9')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/9.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -879,7 +877,7 @@
                             <td>National</td>
                             <td>UPCET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/10')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/10.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -889,7 +887,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/11')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/11.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -899,7 +897,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/12')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/12.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -909,7 +907,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/13')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/13.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -919,7 +917,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/14')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/14.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -929,7 +927,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/15')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/15.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -939,7 +937,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/16')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/16.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -949,7 +947,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/17')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/17.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -959,7 +957,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/18')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/18.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -969,7 +967,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/19')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/19.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -979,7 +977,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/20')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/20.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -989,7 +987,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/21')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/21.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -999,7 +997,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/22')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/22.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1009,7 +1007,7 @@
                             <td>International</td>
                             <td>Promteric PHYSP, Physiotherapy (DHA)</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/23')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/23.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1019,7 +1017,7 @@
                             <td>National</td>
                             <td>CMAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/24')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/24.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1029,7 +1027,7 @@
                             <td>State</td>
                             <td>UPCATET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/25')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/25.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1039,7 +1037,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/26')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/26.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1049,7 +1047,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/27')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/27.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1059,7 +1057,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/28')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/28.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1069,7 +1067,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/29')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/29.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1079,7 +1077,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/30')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/30.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1089,7 +1087,7 @@
                             <td>National</td>
                             <td>PGDAC</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/31')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/31.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1099,7 +1097,7 @@
                             <td>National</td>
                             <td>JNKVV</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/32')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/32.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1109,7 +1107,7 @@
                             <td>National</td>
                             <td>JNKVV</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/33')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/33.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1119,7 +1117,7 @@
                             <td>National</td>
                             <td>JNKVV</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/34')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/34.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1129,7 +1127,7 @@
                             <td>University</td>
                             <td>TRAT- Ph.D</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/35')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/35.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1139,7 +1137,7 @@
                             <td>University</td>
                             <td>TRAT- Ph.D</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/36')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/36.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1149,7 +1147,7 @@
                             <td>University</td>
                             <td>TRAT- Ph.D</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/37')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/37.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1159,7 +1157,7 @@
                             <td>University</td>
                             <td>TRAT- Ph.D</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/38')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/38.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1169,7 +1167,7 @@
                             <td>University</td>
                             <td>TRAT- Ph.D</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/39')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/39.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1179,7 +1177,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/40')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/40.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1189,7 +1187,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/41')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/41.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1199,7 +1197,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/42')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/42.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1209,7 +1207,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/43')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/43.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1219,7 +1217,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/44')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/44.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1229,7 +1227,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/45')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/45.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1239,7 +1237,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/46')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/46.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1249,7 +1247,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/47')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/47.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1259,7 +1257,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/48')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/48.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1269,7 +1267,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/49')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/49.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1279,7 +1277,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/50')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/50.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1289,7 +1287,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/51')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/51.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1299,7 +1297,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/52')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/52.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1309,7 +1307,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/53')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/53.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1319,7 +1317,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/54')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/54.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1329,7 +1327,7 @@
                             <td>State</td>
                             <td>UKSSSC</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/55')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/55.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1339,7 +1337,7 @@
                             <td>National</td>
                             <td>ICAR</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/56')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/56.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1349,7 +1347,7 @@
                             <td>State</td>
                             <td>UPCATET </td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/57')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/57.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1359,7 +1357,7 @@
                             <td>University</td>
                             <td>CCS University</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/58')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/58.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1369,7 +1367,7 @@
                             <td>University</td>
                             <td>GGSIPU</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/59')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/59.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1379,7 +1377,7 @@
                             <td>National</td>
                             <td>ICMR</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/60')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/60.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1389,7 +1387,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/61')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/61.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1399,7 +1397,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/62')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/62.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1409,7 +1407,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/63')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/63.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1419,7 +1417,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/64')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/64.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1429,7 +1427,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/65')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/65.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1439,7 +1437,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/66')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/66.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1449,7 +1447,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/67')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/67.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1459,7 +1457,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/68')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/68.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1469,7 +1467,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/69')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/69.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1479,7 +1477,7 @@
                             <td>University</td>
                             <td>GBPUAT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/70')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/70.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1489,7 +1487,7 @@
                             <td>National</td>
                             <td>NET- CSR</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/71')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/71.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1499,7 +1497,7 @@
                             <td>University</td>
                             <td>VIT</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/72')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/72.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1509,7 +1507,7 @@
                             <td>International</td>
                             <td>USMLE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/73')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/73.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1519,7 +1517,7 @@
                             <td>State</td>
                             <td>UPCET</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/74')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/74.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1529,7 +1527,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/75')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/75.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1539,7 +1537,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/76')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/76.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1549,7 +1547,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/77')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/77.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1559,7 +1557,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/78')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/78.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1569,7 +1567,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/79')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/79.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1579,7 +1577,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/80')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/80.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1589,7 +1587,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/81')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/81.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1599,7 +1597,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/82')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/82.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1609,7 +1607,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/83')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/83.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1619,7 +1617,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/84')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/assets/data/naac-data/Criterion-V/Key-Indicator-5.2/Metric-5.2.1/individual_pdfs/84.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1629,7 +1627,7 @@
                             <td>National</td>
                             <td>NIRD</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/27')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/27.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1639,7 +1637,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/28')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/28.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1649,7 +1647,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/29')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/29.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1659,7 +1657,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/30')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/30.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1669,7 +1667,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/31')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/31.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1679,7 +1677,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/32')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/32.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1689,7 +1687,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/33')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/33.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1699,7 +1697,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/34')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/34.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1709,7 +1707,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/35')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/35.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1719,7 +1717,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/36')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/36.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1729,7 +1727,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/37')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/37.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1739,7 +1737,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/38')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/38.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1749,7 +1747,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/39')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/39.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1759,7 +1757,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/40')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/40.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1769,7 +1767,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/41')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/41.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1779,7 +1777,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/42')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/42.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1789,7 +1787,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/43')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/43.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1799,7 +1797,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/44')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/44.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1809,7 +1807,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/45')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/45.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1819,7 +1817,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/46')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/46.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1829,7 +1827,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/45')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/45.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1839,7 +1837,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/48')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/48.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1849,7 +1847,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/49')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/49.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1859,7 +1857,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/50')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/50.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1869,7 +1867,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/51')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/51.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1879,7 +1877,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/52')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/52.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1889,7 +1887,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/53')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/53.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1899,7 +1897,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/54')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/54.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1909,7 +1907,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/55')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/55.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1919,7 +1917,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/56')}}
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/56.pdf')}}
 </td>
     </tr>
     <tr>
@@ -1928,7 +1926,7 @@
       <td>2020-21</td>
       <td>State</td>
       <td>CTET</td>
-      <td><center><a href=" {{asset('/pdf/pupil_acad_certificate/57')}}" target="_blank">View</a></center>
+      <td><center><a href=" {{asset('/pdf/pupil_acad_certificate/57.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1938,7 +1936,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/58')}}  </td>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/58.pdf')}}  </td>
     </tr>
     <tr>
       <td>193</td>
@@ -1946,7 +1944,7 @@
       <td>2020-21</td>
       <td>State</td>
       <td>CTET</td>
-      <td><center><a href=" {{asset('/pdf/pupil_acad_certificate/59')}}" target="_blank">View</a></center>
+      <td><center><a href=" {{asset('/pdf/pupil_acad_certificate/59.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1956,7 +1954,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/60')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/60.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1966,7 +1964,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/61')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/61.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1976,7 +1974,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/62')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/62.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1986,7 +1984,7 @@
                             <td>State</td>
                             <td>CTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/63')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/63.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -1996,7 +1994,7 @@
                             <td>National</td>
                             <td>UGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/64')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/64.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2006,7 +2004,7 @@
                             <td>International</td>
                             <td>USMLE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/65')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/65.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2016,7 +2014,7 @@
                             <td>State</td>
                             <td>UPCATET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/66')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/66.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2026,7 +2024,7 @@
                             <td>State</td>
                             <td>UPCATET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/67')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/67.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2036,7 +2034,7 @@
                             <td>State</td>
                             <td>UPCATET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/68')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/68.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2046,7 +2044,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/69')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_ certificate/69.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2056,7 +2054,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/70')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/70.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2066,7 +2064,7 @@
                             <td>National</td>
                             <td>GPAT</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/71')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/71.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2076,7 +2074,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/72')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/72.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2086,7 +2084,7 @@
                             <td>National</td>
                             <td>IIT-JAM</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/73')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/73.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2096,7 +2094,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/74')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/74.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2106,7 +2104,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/75')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/75.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2116,7 +2114,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/76')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/76.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2126,7 +2124,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/77')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/77.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2136,7 +2134,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/78')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/78.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2146,7 +2144,7 @@
                             <td>National</td>
                             <td>CIVIL SERVICES</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/71')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/71.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2156,7 +2154,7 @@
                             <td>National</td>
                             <td>CIVIL SERVICES</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/72')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/72.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2166,7 +2164,7 @@
                             <td>National</td>
                             <td>CIVIL SERVICES</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/73')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/73.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2176,7 +2174,7 @@
                             <td>National</td>
                             <td>GPAT</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/74')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/74.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2186,7 +2184,7 @@
                             <td>National</td>
                             <td>CAT</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/75')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/75.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2196,7 +2194,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/76')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/76.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2206,7 +2204,7 @@
                             <td>International</td>
                             <td>BHUTAN CIVIL SERVICES</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/77')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/77.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2216,7 +2214,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/78')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/78.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2226,7 +2224,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/79')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/79.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2236,7 +2234,7 @@
                             <td>University</td>
                             <td>JMI</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/80')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/80.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2246,7 +2244,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/81')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/81.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2256,7 +2254,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/82')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/82.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2266,7 +2264,7 @@
                             <td>National</td>
                             <td>IIT-JAM</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/83')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/83.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2276,7 +2274,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/84')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/84.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2286,7 +2284,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/85')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/85.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2296,7 +2294,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/86')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/86.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2306,7 +2304,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/87')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/87.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2316,7 +2314,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/88')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/88.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2326,7 +2324,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/89')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/89.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2336,7 +2334,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/90')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/90.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2346,7 +2344,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/91')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/91.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2356,7 +2354,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/92')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/92.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2366,7 +2364,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/93')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/93.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2376,7 +2374,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/94')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/94.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2386,7 +2384,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/95')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/95.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2396,7 +2394,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/96')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/96.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2406,7 +2404,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/97')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/97.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2416,7 +2414,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/98')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/98.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2426,7 +2424,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/99')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/99.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2436,7 +2434,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/100')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/100.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2446,7 +2444,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/101')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/101.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2456,7 +2454,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/102')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/102.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2466,7 +2464,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/103')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/103.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2476,7 +2474,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/104')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/104.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2486,7 +2484,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/105')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/105.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2496,7 +2494,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/106')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/106.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2506,7 +2504,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/107')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/107.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2516,7 +2514,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/108')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/108.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2526,7 +2524,7 @@
                             <td>National</td>
                             <td>UPCTET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/109')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/109.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2536,7 +2534,7 @@
                             <td>National</td>
                             <td>NATIONAL REFREE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/110')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/110.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2546,7 +2544,7 @@
                             <td>International</td>
                             <td>USMLE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/111')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/111.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2556,7 +2554,7 @@
                             <td>International</td>
                             <td>USMLE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/112')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/112.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2566,7 +2564,7 @@
                             <td>International</td>
                             <td>USMLE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/113')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/113.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2576,7 +2574,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/114')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/114.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2586,7 +2584,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/115')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/115.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2596,7 +2594,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/116')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/116.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2606,7 +2604,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/117')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/117.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2616,7 +2614,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/118')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/118.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2626,7 +2624,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/120')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/120.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2636,7 +2634,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/121')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/121.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2646,7 +2644,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/122')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/122.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2656,7 +2654,7 @@
                             <td>National</td>
                             <td>CAT</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/123')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/123.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2666,7 +2664,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/124')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/124.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2676,7 +2674,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/125')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/125.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2686,7 +2684,7 @@
                             <td>University</td>
                             <td>MRIIRS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/126')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/126.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2696,7 +2694,7 @@
                             <td>National</td>
                             <td>CMAT</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/127')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/127.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2706,7 +2704,7 @@
                             <td>National</td>
                             <td>CIVIL SERVICES</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/128')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/128.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2716,7 +2714,7 @@
                             <td>National</td>
                             <td>GATE</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/129')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/129.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2726,7 +2724,7 @@
                             <td>University</td>
                             <td>JAMIA HAMDARD</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/130')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/130.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2736,7 +2734,7 @@
                             <td>National</td>
                             <td>NET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/131')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/131.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2746,7 +2744,7 @@
                             <td>International</td>
                             <td>IELTS</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/132')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/132.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2756,7 +2754,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/133')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/133.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2766,7 +2764,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/134')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/134.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2776,7 +2774,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/135')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/135.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2786,7 +2784,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/136')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/136.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2796,7 +2794,7 @@
                             <td>National</td>
                             <td>PGNEET</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/137')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/137.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2806,7 +2804,7 @@
                             <td>National</td>
                             <td>BAR COUNCIL</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/138')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/138.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2816,7 +2814,7 @@
                             <td>University</td>
                             <td>JMI</td>
                             <td>
-                                <center><a href="{{asset('/pdf/student_acad_certificate/139')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/student_acad_certificate/139.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
                         <tr>
@@ -2826,7 +2824,7 @@
                             <td>International</td>
                             <td>Seoul National Uniersity</td>
                             <td>
-                                <center><a href="{{asset('/pdf/pupil_acad_certificate/120')}}" target="_blank">View</a></center>
+                                <center><a href="{{asset('/pdf/pupil_acad_certificate/120.pdf')}}" target="_blank">View</a></center>
                             </td>
                         </tr>
 
