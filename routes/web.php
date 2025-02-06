@@ -789,6 +789,10 @@ Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->na
 
 Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
 
+// pupil_academic_achievements
+Route::get('tmu/pupil-academic-achievements', [TmuController::class, 'pupil_academic_achievements'])->name('pupil.academic.achievements');
+
+
 
 // End of the Sarvagya Routes
 

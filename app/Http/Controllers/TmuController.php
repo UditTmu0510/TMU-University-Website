@@ -1105,11 +1105,18 @@ class TmuController extends Controller
         return view('university.examination.cbcs.cbcs_agriculture');
     }
 
-    // // Management College
+    // Pupil-academic-achievements
+
+    public function pupil_academic_achievements()
+    {
+        return view('university.quick_links.pupil_academic_achievements');
+    }
 
 
 
-    // Law
+
+
+
 
 
 
