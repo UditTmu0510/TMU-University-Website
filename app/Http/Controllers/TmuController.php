@@ -1119,6 +1119,19 @@ class TmuController extends Controller
         return view('university.quick_links.student_awards_achievements');
     }
 
+    // campus-gallery
+
+    public function campus_gallery()
+    {
+        return view('university.quick_links.campus_gallery');
+    }
+
+    // Seed Money 
+
+    public function seed_money_grant_scheme()
+    {
+        return view('university.quick_links.seed_money_grant_scheme');
+    }
 
 
 

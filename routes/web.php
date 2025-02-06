@@ -794,6 +794,13 @@ Route::get('tmu/pupil-academic-achievements', [TmuController::class, 'pupil_acad
 Route::get('tmu/student-awards-achievements', [TmuController::class, 'student_awards_achievements'])->name('student.awards.achievements');
 
 
+// Campus Gallery
+Route::get('tmu/tmu-gallery', [TmuController::class, 'campus_gallery'])->name('campus.gallery');
+
+
+// seed_money_grant_scheme
+Route::get('tmu/policies-sops/seed-money-grant-scheme', [TmuController::class, 'seed_money_grant_scheme'])->name('seed.money.grant.scheme');
+
 
 // End of the Sarvagya Routes
 
