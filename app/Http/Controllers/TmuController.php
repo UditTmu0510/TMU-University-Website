@@ -1142,6 +1142,13 @@ class TmuController extends Controller
     }
 
 
+    // tmu_moot_court
+    public function tmu_moot_court()
+    {
+        return view('university.quick_links.tmu_moot_court');
+    }
+
+
 
 
 
