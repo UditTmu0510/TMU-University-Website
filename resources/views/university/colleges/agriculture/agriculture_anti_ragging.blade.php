@@ -55,9 +55,9 @@
 
 						<tr>
 							<td class="text-center">6</td>
-							<td class="text-center">Dr. Tabassum</td>
-							<td class="text-center">First information Person</td>
-							<td class="text-center">9761237749</td>
+							<td class="text-center">Dr. Anil Kumar Chaudhary</td>
+							<td class="text-center">Member</td>
+							<td class="text-center">9557100101</td>
 						</tr>
 
 						<tr>
@@ -106,28 +106,28 @@
 
 						<tr>
 							<td class="text-center">2</td>
+							<td class="text-center">Dr. Devendra Pal Singh</td>
+							<td class="text-center">Chief Proctor</td>
+							<td class="text-center">9013666825</td>
+						</tr>
+
+						<tr>
+							<td class="text-center">3</td>
 							<td class="text-center">Dr. Ganesh Datt Bhatt</td>
 							<td class="text-center">Member</td>
 							<td class="text-center">9456374560</td>
 						</tr>
 
 						<tr>
-							<td class="text-center">3</td>
-							<td class="text-center">Dr. Aushutosh Awasthi</td>
+							<td class="text-center">4</td>
+							<td class="text-center">Dr. Ashutosh Awasthi</td>
 							<td class="text-center">Member</td>
 							<td class="text-center">9453701515</td>
 						</tr>
 
 						<tr>
-							<td class="text-center">4</td>
-							<td class="text-center">Dr. Devendra Pal Singh</td>
-							<td class="text-center">Proctor</td>
-							<td class="text-center">9013666825</td>
-						</tr>
-
-						<tr>
 							<td class="text-center">5</td>
-							<td class="text-center">Dr. Upasna</td>
+							<td class="text-center">Dr. Upasana</td>
 							<td class="text-center">Member</td>
 							<td class="text-center">8394885150</td>
 						</tr>
@@ -141,7 +141,7 @@
 
 						<tr>
 							<td class="text-center">7</td>
-							<td class="text-center">Dr. Sachchida Nand</td>
+							<td class="text-center">Dr. Sachchidanand Singh</td>
 							<td class="text-center">Member</td>
 							<td class="text-center">9415824484</td>
 						</tr>
