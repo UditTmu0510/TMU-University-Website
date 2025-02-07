@@ -1,5 +1,4 @@
-@extends('layouts.university.departments.research_cell_with_sidebar')
-@section('content')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
 
 

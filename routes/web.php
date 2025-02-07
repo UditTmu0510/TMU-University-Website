@@ -802,6 +802,13 @@ Route::get('tmu/tmu-gallery', [TmuController::class, 'campus_gallery'])->name('c
 Route::get('tmu/policies-sops/seed-money-grant-scheme', [TmuController::class, 'seed_money_grant_scheme'])->name('seed.money.grant.scheme');
 
 
+
+// research_statistical_database
+Route::get('/tmu/research-statistical-database', [TmuController::class, 'research_statistical_database'])->name('research.statistical.database');
+
+
+
+
 // End of the Sarvagya Routes
 
 //thisnis comment 

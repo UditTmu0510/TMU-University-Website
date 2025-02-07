@@ -1135,6 +1135,14 @@ class TmuController extends Controller
 
 
 
+    // 
+    public function research_statistical_database()
+    {
+        return view('university.quick_links.research_statistical_database');
+    }
+
+
+
 
 
 
