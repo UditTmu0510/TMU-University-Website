@@ -12,7 +12,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Seed Money  </span><span> Grant Scheme</span>
           </h1>
-          <iframe src="{{asset('/publications/materials/sop_degree/seed_money_grant_scheme_2021.pdf')}}"
+          <iframe src="{{asset('/pdf/sop_degree/seed_money_grant_scheme_2021.pdf')}}"
             frameborder="0" height="800px" width="100%"></iframe>
         </div>
       </div>
@@ -20,7 +20,7 @@
         <div style="text-align:center">
           <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Seed Money  </span><span> Grant Scheme</span>
           </h1>
-          <a href="{{asset('/publications/materials/sop_degree/seed_money_grant_scheme_2021.pdf')}}"
+          <a href="{{asset('/pdf/sop_degree/seed_money_grant_scheme_2021.pdf')}}"
             class="tmu-btn btn-4" download>Download PDF</a>
 
         </div>
