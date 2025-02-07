@@ -48,78 +48,7 @@
       </div>
     </div>
 
-    <!-- amenities section start -->
-
-
-    <section class="amenities-section">
-      <div class="container">
-        <h2 Class="tmu-text-primary mb-2 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
-        <div class="amenities-carousel">
-          <!-- Repeat this block for each amenity -->
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-wifi"></i>
-            </div>
-            <p>Free WiFi</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-power"></i>
-            </div>
-            <p>24 x 7 Power Backup</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-house"></i>
-            </div>
-            <p>Well-furnished rooms</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="fas fa-running"></i>
-            </div>
-            <p>Gym</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-airplane"></i>
-            </div>
-            <p>Restaurant</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-bicycle"></i>
-            </div>
-            <p>Saloon</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-patch-check"></i>
-            </div>
-            <p>Shopping Complex</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-geo-alt"></i>
-            </div>
-            <p>Mess</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-door-open"></i>
-            </div>
-            <p>Flexible Check-In</p>
-          </div>
-          <div class="amenity-item">
-            <div class="amenities-icon">
-              <i class="bi bi-door-open"></i>
-            </div>
-            <p>24/7 Security</p>
-          </div>
-          <!-- Add more amenities here -->
-        </div>
-      </div>
-    </section>
+  
 
     <!-- Gallery Section -->
     <section class="gallery-section">
