@@ -1,4 +1,4 @@
-@extends('layouts.university.colleges.engineering_with_sidebar')
+@extends('layouts.university.colleges.tmimt_with_sidebar')
 @section('content')
 
 <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
