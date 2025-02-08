@@ -519,7 +519,8 @@
                     "link": "\/programme\/msc-plant-pathology"
                 },
                 "M.Sc. (Master of Science in Soil Sciences )": {
-                    "": "\/programme\/msc-soil-science"
+                    "link": "programme\/msc-soil-science"
+                    
                 }
             },
             "Law": {
