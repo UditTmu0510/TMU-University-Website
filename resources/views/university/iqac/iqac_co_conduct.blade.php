@@ -14,31 +14,127 @@
             <th>#</th>
             <th>Name & Designation</th>
             <th>Capacity</th>
+            <th>Role</th>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td>Prof. V. K. Jain, Vice Chancellor</td>
+              <td>Sh. Manoj Jain</td>
+              <td>Director-HR</td>
               <td>Chairperson</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>Prof. Manjula Jain, Associate Dean (Academics)</td>
+              <td>Prof. M.P Singh</td>
+              <td>Dean Students’ Welfare</td>
               <td>Member</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>Dr. M. P. Singh, Director (Student Welfare)</td>
+              <td>Dr. Vishwanayak</td>
+              <td>Medical Superintendent, TMU Hospital</td>
               <td>Member</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>Prof. Vipin Jain, Principal, TMIMT College of Management</td>
+              <td>Dr. Prithpal Singh Materja</td>
+              <td>Medical College & Research Centre</td>
               <td>Member</td>
             </tr>
             <tr>
               <td>5</td>
-              <td>Dr. Aditya Sharma, Registrar</td>
+              <td>Dr. Ankita Jain</td>
+              <td>Dental College & Research Centre</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Prof. Jasline .M</td>
+              <td>TM College of Nursing</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Prof. Sheuli Sen</td>
+              <td>TP College of Nursing</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Prof. Mukesh Sikarwar</td>
+              <td>College of Pharmacy</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Mr. Rakesh Yadav</td>
+              <td>College of Paramedical Sciences</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Dr. Harsish Sharma</td>
+              <td>Department of Physiotherapy</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Prof. Manoj Agarwal</td>
+              <td>TMIMT College of Management</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Prof. Sushil Kumar</td>
+              <td>College of Law & Legal Studies</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Dr. Ashendra Saxena</td>
+              <td>College of Computing Sciences & IT</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Dr. Alok Gahlot</td>
+              <td>Faculty of Engineering</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>Dr. Farha Deeba</td>
+              <td>College of Fine Arts</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>Dr. Vinod Jain</td>
+              <td>Faculty of Education</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>Dr. Manu Mishra</td>
+              <td>TMIMT College of Physical Education</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Prof. Mahesh Singh</td>
+              <td>College of Agricultural Sciences</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>Mr. Anil Gupta</td>
+              <td>Manager Administration, TMU Hospital</td>
+              <td>Member</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>Dr. Prashant Kumar</td>
+              <td>Dy. Registrar HR</td>
               <td>Member Secretary</td>
             </tr>
           </tbody>
