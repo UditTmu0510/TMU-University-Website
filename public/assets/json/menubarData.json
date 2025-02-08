@@ -507,9 +507,14 @@
                 }
             },
             "Physiotherapy": {
-                "MPT (Masters of Physiotherapy)": {
-                    "link": "\/programme\/master-of-physiotherapy-mpt-programme"
-                }
+                "Master of Physiotherapy (MPT) in Orthopaedics": {
+                    "link": "programme\/mpt-in-orthopaedics"
+                },
+                "Master of Physiotherapy (MPT) in Neurosciences": {"link":"programme/mpt-in-neurosciences"},
+                "Master of Physiotherapy(MPT) in Cardiopulmonary":{"link":"programme/mpt-in-cardiopulmonary"},
+                "Master of Physiotherapy(MPT) in Sports":{"link":"programme/mpt-in-Sports"},
+                "Master of Physiotherapy (MPT) in Gynaecology":{"link":"programme/MPT-or-Master-of-Physiotherapy-Gynaecology"},
+                "Master of Physiotherapy (MPT) in Paediatrics":{"link":"programme/mpt-or-Master-of-physiotherapy-Paediatrics"}
             },
             "Agriculture": {
                 "M.Sc. (Master of Science in Agronomy )": {
@@ -520,7 +525,6 @@
                 },
                 "M.Sc. (Master of Science in Soil Sciences )": {
                     "link": "programme\/msc-soil-science"
-                    
                 }
             },
             "Law": {
