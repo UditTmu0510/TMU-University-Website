@@ -767,6 +767,10 @@ class TmuController extends Controller
     {
         return view('university.quick_links.admission_rules');
     }
+    public function prominent_guests_comment()
+    {
+        return view('university.quick_links.prominent_guests_comment');
+    }
 
     public function tmu_convocation()
     {
