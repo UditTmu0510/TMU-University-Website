@@ -697,6 +697,9 @@
         },
         "Convocation": {
             "link": "\/tmu\/convocation"
+        },
+        "ICC": {
+            "link": "\/assets\/pdf\/pdf\/TMU_ICC.pdf"
         }
     }
 }
