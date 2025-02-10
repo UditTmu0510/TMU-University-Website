@@ -68,6 +68,8 @@ function subDirectoryFinder(subDirectory) {
             return 'physical_education_menubarData';
         case 'college-of-agriculture-sciences':
             return 'agriculture_menubarData';
+        case 'alumni':
+            return 'alumni_menubarData'
         default:
             return 'menubarData';
     }
