@@ -16,9 +16,9 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-6 mt-5 mb-1">
-                        <h4 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
-                                Scholarship</span></h4>
+                    <div class="col-lg-12 mt-2 mb-1">
+                        <h3 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
+                                Scholarship</span></h3>
                         <ol class="m-ol-list ps-5 text-justify">
                             <li>All other scholarships are additional scholarships that are added on
                                 top of the Academic Scholarship.</li>
@@ -27,13 +27,6 @@
                                 (Academic Scholarship + 3 Additional Scholarship/Concessions)</li>
                             <li>These scholarships are applied in descending order, in order to
                                 provide the maximum benefit to the<br />candidate.</li>
-                        </ol>
-                    </div>
-
-                    <div class="col-lg-6 mt-5 mb-0">
-                        <h4 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
-                                Scholarship</span></h4>
-                        <ol class="m-ol-list ps-5 text-justify">
                             <li>An additional 5% Concession on Net Tuition Fee is applicable for
                                 candidates who choose to pay their Course Fees in Annual Mode i.e.
                                 Depositing their Course Fee for an entire year together.</li>
