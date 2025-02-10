@@ -275,7 +275,7 @@
                         </ul>
                     </div>
                     <hr class="horizontal-line">
-                    <button class="careers-accordion">Scholarship for Sports - persons for the Academic Session 2024-25 <span class="icon">+</span></button>
+                    <button class="careers-accordion">Scholarship for Sports - persons for the Academic Session 2025-26 <span class="icon">+</span></button>
                     <div class="panel">
                         <h3 class="tmu-text-primary mb-3 mt-3"><span>A. Scholarship for entire </span><span> duration of program </span></h3>
                         <div class="table-responsive  mb-4">
