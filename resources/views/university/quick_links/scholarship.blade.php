@@ -263,14 +263,13 @@
                                 studying / seeking admission in the university with the condition that it will be given
                                 to the sibling whose fee is lesser and it shall be applicable only on first year
                                 tuition fee and not on subsequent years.</li>
-                            <li>20% Discount in tuition fee(through-out the duration of programme i.e- from
-                                II to IV year) to the existing polytechnic students who take admission in B.Tech
-                                programmes of the University.However,such students shall not be eligible to avail benefit
-                                of other scholarship schemes being provided by the university.</li>
-                            <li>Scholarship on case to case basis to differently-abled students will be
-                                given for entire programme.The amount of scholarship shall be such as based upon the level of
-                                disability (obtained from District Hospital) being produced.The details of the
-                                scholarship shall be shared subsequently once decided by the committee constituted for the purpose. </li>
+                            <li>20% discount in tuition fee (through-out the duration of programme i.e from II to IV year) to the existing polytechnic students who take admission in B.Tech programmes of the University. 
+                                However, such students shall not be eligible to avail benefit of other scholarship schemes being provided by the university.
+                            </li>
+                            <li>Scholarship on case to case basis to differently-abled students will be given for entire programme.
+                                 The amount of scholarship shall be such as based upon the level of disability which shall be decided on the basis of certificate of disability 
+                                 (obtained from District Hospital) being produced. The details of scholarship shall be shared subsequently once decided by 
+                                 the committee constituted for the purpose.</li>
                             <li>Multiple scholarship will not be available.</li>
                         </ul>
                     </div>
@@ -502,8 +501,8 @@
                         <div class="promo promo-light p-4 p-md-5 mb-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-lg">
-                                    <h3 class="tmu-text-primary"><span>Admissions are now open for </span><span> Academic Year 2025-26</span></h3>
-                                    <span class="fs-16"> Join us and embark on a journey of knowledge, growth, and success. </span>
+                                    <h3 class="tmu-text-primary"><span>Admissions open for </span><span> Academic Year 2025-26</span></h3>
+                                    <span class="fs-16"> Join us to begin your journey of knowledge, growth, and success through our admissions process. </span>
                                 </div>
                                 <div class="col-12 col-lg-auto mt-4 mt-lg-0">
                                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 py-2 m-0">Enroll Now!</a>
@@ -512,7 +511,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p class="mb-3 mt-2"><b class="tmu-color-blue"><i class="uil-comment-alt-notes"></i> Note:</b> In case of any clarification / combination, the decision of the Director (Admissions) will be final & binding.</p>
+                        <p class="mb-3 mt-2"><b class="tmu-color-blue"><i class="uil-comment-alt-notes"></i> Note:</b> In case of any clarification / confusion, the decision of the Director (Admissions) will be final & binding.</p>
                         <div class="col-md-4 ">
                             <button class="tmu-btn btn-3 py-2 d-block mb-4 fs-14 text-center"><a href="http://scholarship.up.gov.in/" target="blank">Scholarship for SC/ST/OBC <i class="bi-arrow-right"></i></a></button>
                         </div>
