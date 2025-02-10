@@ -17,6 +17,9 @@
             <a href="{{ route('mgmt.principal') }}" class="custom-menu-item {{ setActive('mgmt.principal') }}">
                 <p>Dean's Desk</p>
             </a>
+            <a href="{{ route('mgmt.gallery') }}" class="custom-menu-item {{ setActive('mgmt.gallery') }}">
+                <p>Gallery</p>
+            </a>
         </div>
         <h2>Academics</h2>
         
