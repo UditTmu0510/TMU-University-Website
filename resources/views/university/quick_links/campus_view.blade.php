@@ -41,7 +41,23 @@
         </section>
 
         <div class="container">
-            <h2 Class="tmu-text-primary mb-2 mt-5 d-block d-lg-none"><span>CAMPUS </span><span> VIEW</span></h2>
+            <div class="stat-box d-none d-md-inline-block">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>135+ Acre</h4>
+                        <p>Campus Area</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Wi-Fi-Enabled</h4>
+                        <p>Buildings</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Eco-Conscious</h4>
+                        <p>Recognised Institute</p>
+                    </div>
+                </div>
+            </div>
+            <h2 Class="tmu-text-primary mb-2 mt-5 d-block d-lg-none text-center"><span>CAMPUS </span><span> VIEW</span></h2>
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
                     <p class="text-justify mb-2 mt-1">
