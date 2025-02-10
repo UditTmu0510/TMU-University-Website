@@ -1401,7 +1401,7 @@
                   </td>
 
                   <td>
-                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024-25/BoS_Dept_of_Civil_Engg.pdf')}}"></a></center>
+                    <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2024_25/BoS_Dept_of_Civil_Engg.pdf')}}"></a></center>
                   </td>
                   <td>
                     <center><a href="{{asset('/assets/pdf/bos_minutes/FOE/2023-24/Chemistry.pdf')}}"
