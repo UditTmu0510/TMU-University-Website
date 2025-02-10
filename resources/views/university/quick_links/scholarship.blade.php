@@ -502,7 +502,7 @@
                         <div class="promo promo-light p-4 p-md-5 mb-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-lg">
-                                    <h3 class="tmu-text-primary"><span>Admissions are now open for </span><span> Academic Year 2024-25</span></h3>
+                                    <h3 class="tmu-text-primary"><span>Admissions are now open for </span><span> Academic Year 2025-26</span></h3>
                                     <span class="fs-16"> Join us and embark on a journey of knowledge, growth, and success. </span>
                                 </div>
                                 <div class="col-12 col-lg-auto mt-4 mt-lg-0">
