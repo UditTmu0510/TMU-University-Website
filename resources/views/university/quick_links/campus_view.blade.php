@@ -12,23 +12,23 @@
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
-                                <h1 class="section-title" style="color: white;">CAMPUS <span>VIEW</span></h1>
-                                <p class="lead mb-4 col-md-6">Discover our state-of-the-art facilities and beautiful campus
+                                <h1 class="section-title d-none d-lg-block" style="color: white;">CAMPUS <span>VIEW</span></h1>
+                                <p class="lead mb-4 col-md-6 d-none d-lg-block">Discover our state-of-the-art facilities and beautiful campus
                                     environment that provides the perfect setting for academic excellence and personal
                                     growth.</p>
-                                <div class="stat-box">
+                                <div class="stat-box d-none d-md-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <h4>50+ Acres</h4>
+                                            <h4>135+ Acre</h4>
                                             <p>Campus Area</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>20+</h4>
-                                            <p>Modern Buildings</p>
+                                            <h4>Wi-Fi-Enabled</h4>
+                                            <p>Buildings</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>100%</h4>
-                                            <p>Green Campus</p>
+                                            <h4>Eco-Conscious</h4>
+                                            <p>Recognised Institute</p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@
         </section>
 
         <div class="container">
-            <h2 Class="tmu-text-primary mb-2 mt-5"><span>CAMPUS </span><span> VIEW</span></h2>
+            <h2 Class="tmu-text-primary mb-2 mt-5 d-block d-lg-none"><span>CAMPUS </span><span> VIEW</span></h2>
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
                     <p class="text-justify mb-2 mt-1">
