@@ -263,7 +263,7 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <a href="{{asset('/assets/pdf/agriculture/ED_5.pdf')}}"
+                    <a href="{{asset('//assets/pdf/agriculture/ED_5.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -282,7 +282,7 @@
                     </a>
                 </div>    
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/agriculture/ED_4.pdf')}}"
+                    <a href="{{asset('//assets/pdf/agriculture/ED_4.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -301,7 +301,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/agriculture/ED_3.pdf')}}"
+                    <a href="{{asset('//assets/pdf/agriculture/ED_3.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -320,7 +320,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/agriculture/ED_2.pdf')}}"
+                    <a href="{{asset('//assets/pdf/agriculture/ED_2.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -339,7 +339,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/agriculture/ED_1.pdf')}}"
+                    <a href="{{asset('//assets/pdf/agriculture/ED_1.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
