@@ -16,7 +16,7 @@
                                 <p class="lead mb-4 col-md-6 d-none d-lg-block">Discover our state-of-the-art facilities and beautiful campus
                                     environment that provides the perfect setting for academic excellence and personal
                                     growth.</p>
-                                <div class="stat-box d-none d-md-inline-block">
+                                <div class="stat-box d-none d-lg-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <h4>135+ Acre</h4>
@@ -41,7 +41,7 @@
         </section>
 
         <div class="container">
-            <div class="stat-box d-none d-md-inline-block">
+            <div class="stat-box v2 d-block d-lg-none">
                 <div class="row">
                     <div class="col-md-4">
                         <h4>135+ Acre</h4>
@@ -57,10 +57,10 @@
                     </div>
                 </div>
             </div>
-            <h2 Class="tmu-text-primary mb-2 mt-5 d-block d-lg-none text-center"><span>CAMPUS </span><span> VIEW</span></h2>
+            <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>CAMPUS </span><span> VIEW</span></h2>
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
-                    <p class="text-justify mb-2 mt-1">
+                    <p class="text-justify mb-2 mt-1 m-lg-5">
                         Teerthanker Mahaveer University is a dream destination, where modern infrastructure,
                         world-class facilities, and a supportive community create the perfect backdrop for
                         your academic journey. Every corner of TMU is thoughtfully designed to inspire and
