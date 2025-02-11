@@ -18,7 +18,7 @@
                     <p class="about-p mb-4 text-justify">The College of Paramedical Sciences was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science education programme is to provide educational opportunities that develop essential skills in the paramedical field. The emphasis of the Paramedical Science education programme is on developing a cadre of small entrepreneurs, especially from girls, women & rural youth.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
+                    <img src="{{asset('assets/img/aboutus/paramedical/paramedical.webp')}}" alt="Learning and Teaching">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">Paramedics form an essential part of pre-hospital emergency services, providing primary medical and trauma care. Paramedics need to work in rotational shifts and must possess the presence of mind to make correct decisions during emergencies. Major areas of work in the field of paramedical sciences are spinal injury management, fracture management, obstetrics, management of burns and assessment, and evaluation of general incident scenes. A person working in the field of paramedicine must be well acquainted with medical equipment maintenance procedures, radio operating procedures, and emergency vehicle operations.</p>
