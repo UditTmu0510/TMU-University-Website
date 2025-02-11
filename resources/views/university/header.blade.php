@@ -427,6 +427,7 @@
     <!-- <link rel="stylesheet" href="demos/articles/articles.css"> -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
