@@ -35,7 +35,7 @@
                             </div>
                         </div>
                             <p class="principal-text23 text-justify">
-                            world has not been broken up into fragments by narrow domestic walls. Where words come out from
+                            World has not been broken up into fragments by narrow domestic walls. Where words come out from
                         the depth of truth, where tireless striving stretches its arms toward perfection. Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit
                          Where the mind is led forward by thee into ever widening thought and action. Into that heaven of freedom, my Father, LET MY COUNTRY AWAKE!<span class="highlight fs-14">Rabindranath Tagore</span>
                             <br>
