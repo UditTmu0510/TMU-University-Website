@@ -44,6 +44,9 @@
             <a href="{{route('tmu.media.cover')}}" class="custom-menu-item {{ setActive('tmu.media.cover') }}">
                 <p>Media Coverage</p>
             </a>
+            <a href="{{route('application.form')}}" class="custom-menu-item {{ setActive('application.form') }}">
+                <p>Application Form</p>
+            </a>
         </div>
     </div>
 </div>
