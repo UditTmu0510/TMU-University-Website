@@ -1,7 +1,6 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="assets/css/college_overview.css">
 
 
 <div class="main-content">
@@ -19,7 +18,7 @@
                     <p class="about-p mb-4">Nursing professionals are among the most vital members of the healthcare industry. Their significant contributions to patient care are incomparable, which is why they are often referred to as caregivers.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/112.jpg')}}" alt="Learning and Teaching">
+                    <img src="{{asset('assets/img/aboutus/nursing/nursing.webp')}}" alt="Learning and Teaching">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">TMU, understands the essence of the profession. It nurtures compassionate healthcare professionals with the right blend of academic and practical training, making us the top choice among aspiring nursing candidates.
