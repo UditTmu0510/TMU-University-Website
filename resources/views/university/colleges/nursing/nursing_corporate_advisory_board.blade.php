@@ -46,43 +46,81 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Prof .(Dr.) Poonam Sharma</td>
+                                    <td>1</td>
+                                    <td>Prof. Dr. S.P. Subashini</td>
+                                    <td>Dean Nursing</td>
+                                    <td>+91-6399000660</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:dean.nursing@tmu.ac.in"> dean.nursing@tmu.ac.in</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Prof. Dr.M Jasline</td>
                                     <td>Principal</td>
                                     <td>+91-9568526444</td>
-                                    <td><i class="fa fa-envelope"></i> principalnursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:principal.nursing@tmu.ac.in"> principal.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Prof.(Dr.) Jasline M</td>
-                                    <td>Vice Principal</td>
-                                    <td>+91-82798161167</td>
-                                    <td><i class="fa fa-envelope"></i> viceprincipal.nursing@tmu.ac.in
-                                    </td>
+                                    <td>3</td>
+                                    <td>Prof. Ramniwas</td>
+                                    <td>Vice-Principal</td>
+                                    <td>+91-9548658247</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:viceprincipal.nursing@tmu.ac.in"> viceprincipal.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
+                                    <td>4</td>
                                     <td>Prof. Vijimol G</td>
-                                    <td>Training & Placement Officer</td>
+                                    <td>Training &amp; Placment Officer</td>
                                     <td>+91-8894126177</td>
-                                    <td><i class="fa fa-envelope"></i> Vijimolg.nursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:vijimolg.nursing@tmu.ac.in"> vijimolg.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
+                                    <td>5</td>
                                     <td>Ms. Shivangi Gupta</td>
-                                    <td>Training Co-ordinator</td>
+                                    <td>Training Coordinator</td>
                                     <td>+91-7818055109</td>
-                                    <td><i class="fa fa-envelope"></i> shivangignursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:shivangig.nursing@tmu.ac.in"> shivangig.nursing@tmu.ac.in</a></td>
                                 </tr>
-
                                 <tr>
-                                    <td>Ms. Ekjot Kaur</td>
+                                    <td>6</td>
+                                    <td>Mrs. Ekjot Kaur Nanda</td>
                                     <td>Member</td>
                                     <td>+91-7011156377</td>
-                                    <td><i class="fa fa-envelope"></i>Ekjotkaur.nursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:ekjot.nursing@tmu.ac.in"> ekjot.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Ms. Aayushi Khajuriya</td>
-                                    <td rowspan="2">Student Advisor</td>
-                                    <td>+91-9520023114</td>
-                                    <td><i class="fa fa-envelope"></i> Aayushikhajuriyanumber7@gmail.com
-                                    </td>
+                                    <td>7</td>
+                                    <td>Mr. Ashutosh</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-9058518645</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:9058ashutoshsagar@gmail.com"> 9058ashutoshsagar@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Mr. Neeraj yadav</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-8207626576</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:kn6668399@gmail.com"> kn6668399@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Ms. Nishika Sharma</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-7300856367</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:snishika97@gmail.com"> snishika97@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Ms. Diksha Rani</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-9548222636</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:deekshathakurdeeksha2005@gmail.com"> deekshathakurdeeksha2005@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Ms. Vidhi Sharma</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-6397913060</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:vidisha465@gmail.com"> vidisha465@gmail.com</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -104,29 +142,60 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>1</td>
                                     <td>Prof. Vijimol G</td>
-                                    <td>Training & Placement Officer</td>
+                                    <td>Training &amp; Placment Officer</td>
                                     <td>+91-8894126177</td>
-                                    <td><i class="fa fa-envelope"></i>Vijimolg.nursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:vijimolg.nursing@tmu.ac.in"> vijimolg.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
                                     <td>Ms. Shivangi Gupta</td>
                                     <td>Training Coordinator</td>
                                     <td>+91-7818055109</td>
-                                    <td><i class="fa fa-envelope"></i> shivangignursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:shivangig.nursing@tmu.ac.in"> shivangig.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Ms. Ekjot Kaur</td>
+                                    <td>3</td>
+                                    <td>Mrs. Ekjot Kaur Nanda</td>
                                     <td>Member</td>
                                     <td>+91-7011156377</td>
-                                    <td><i class="fa fa-envelope"></i> Ekjotkaur.nursing@tmu.ac.in</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:ekjot.nursing@tmu.ac.in"> ekjot.nursing@tmu.ac.in</a></td>
                                 </tr>
                                 <tr>
-                                    <td>Ms. Aayushi Khajuriya</td>
+                                    <td>4</td>
+                                    <td>Mr. Ashutosh</td>
                                     <td>Student Advisor</td>
-                                    <td>+91-9520023114</td>
-                                    <td><i class="fa fa-envelope"></i> Aayushikhajuriyanumber7@gmail.com
-                                    </td>
+                                    <td>+91-9058518645</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:9058ashutoshsagar@gmail.com"> 9058ashutoshsagar@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Mr. Neeraj yadav</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-8207626576</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:kn6668399@gmail.com"> kn6668399@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Ms. Nishika Sharma</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-7300856367</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:snishika97@gmail.com"> snishika97@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Ms. Diksha Rani</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-9548222636</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:deekshathakurdeeksha2005@gmail.com"> deekshathakurdeeksha2005@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Ms. Vidhi Sharma</td>
+                                    <td>Student Advisor</td>
+                                    <td>+91-6397913060</td>
+                                    <td><i class="fa fa-envelope"></i><a href="mailto:vidisha465@gmail.com"> vidisha465@gmail.com</a></td>
                                 </tr>
                             </tbody>
                         </table>
