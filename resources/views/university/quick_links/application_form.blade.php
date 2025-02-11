@@ -18,7 +18,7 @@
   <div class="container">
     <div class="content-wrap py-0">
 
-      <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span> Admissions Open for </span><span> the Session 2024</span></h1>
+      <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span> Admissions Open for </span><span> the Session 2025-26</span></h1>
 
 
       <div class="container py-2 px-lg-5">
@@ -42,7 +42,7 @@
             <h5 class="mt-4 mb-2 fw-bold tmu-color">DOWNLOAD APPLICATION FORM</h5>
             <p class="description mt-0 pt-0">Download Application Form for offline submission</p>
             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-              href="{{ asset('assets/pdf/application_form/TMU_Application_Form_2024.pdf') }}">DOWNLOAD FORM</a>
+              href="{{ asset('assets/pdf/application_form/TMU_Application_Form_2025-26.pdf') }}">DOWNLOAD FORM</a>
           </div>
         </div>
       </div>
