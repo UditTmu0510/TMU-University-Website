@@ -18,6 +18,8 @@ yarn-error.log
 /.idea
 /.vscode
 .DS_Store
+vendor
+*/.DS_Store
 # Ignore all files and folders in the public directory
 /public/*
 
