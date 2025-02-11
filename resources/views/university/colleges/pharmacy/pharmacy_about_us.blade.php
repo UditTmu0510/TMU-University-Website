@@ -18,7 +18,7 @@
                     <p class="about-p mb-2">The College of Pharmacy was established in the year 2008. The college grooms professionals by providing diplomas and undergraduate, post-graduate and doctorate level programs, equipping the students with innovative techniques to resolve problems in drug industries and clinical areas.</p>
                 </div>
                 <div class="image-content text-center p-2">
-                    <img src="{{asset('/assets/img/aboutus/pharmacy/Pharmacy-colg-1.jpg')}}" alt="College of Pharmacy"  class="rounded-3">
+                    <img src="{{asset('/assets/img/aboutus/pharmacy/main-fresh.jpg')}}" alt="College of Pharmacy"  class="rounded-3">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">The College of Pharmacy is committed to excellence in pharmaceutical education, research, and practice. As the best pharmacy college in UP, we strive to shape the next generation of pharmacy professionals and equip them with innovative techniques to resolve problems in drug industries and clinical areas.</p>
