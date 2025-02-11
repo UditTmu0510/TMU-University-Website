@@ -1,8 +1,6 @@
 @extends('layouts.university.colleges.engineering_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
 <div class="main-content">
     <div class="container">
         <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
