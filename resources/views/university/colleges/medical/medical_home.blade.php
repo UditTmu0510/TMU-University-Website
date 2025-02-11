@@ -129,23 +129,7 @@
         </div>
 
 
-        <!-- admission details desktop section start -->
-        <div class="medical-container">
-            <div class="medical-box">
-                <h3>MBBS Admission 2024-25</h3>
-                <button class="medical-custom-btn" target="_blank">INFORMATION BROCHURE 2024-25</button>
-                <button class="medical-custom-btn" target="_blank">LIST OF DOCUMENTS 2024-25</button>
-            </div>
-            <div class="medical-box">
-                <h3>PG Admission 2024-25</h3>
-                <button class="medical-custom-btn" target="_blank">INFORMATION BROCHURE 2024-25</button>
-                <button class="medical-custom-btn" target="_blank">LIST OF DOCUMENTS 2024-25</button>
-            </div>
-        </div>
-        <!-- admission details desktop section end -->
-        <!-- admission details mobile section start -->
-
-        <div class="container ">
+         <div class="container ">
             <div class="medical-hide mb-3">
                 <hr class="horizontal-line">
 
