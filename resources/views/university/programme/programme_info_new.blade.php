@@ -59,22 +59,28 @@
 $programme_banner_path = $programme->programme_banner_path;
 $programme_brochure_path = $programme->programme_brochure_path;
 @endphp
+
+
 @if((!(empty($programme_banner_path))) && ($programme->video_section_flag == 'Y'))
-<div id="slider" class="slideshow-container">
-    <img class="d-none d-sm-block" src="{{asset($programme->programme_banner_path)}}" style="width:100%">
-    <div class="text d-none d-sm-block" style="color: #000000;">
-        <h1>{{$programme->prog_name}}</h1>
-        <p class="mb-3">Build Your Future with {{$programme->prog_name}}</p>
-        <!-- <a href="#" class="tmu-btn btn-4 px-3 py-2 ms-5">Download Brocher</a> -->
-        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-4 px-5 py-2 ms-5">Apply Now</a>
+    <div id="slider" class="slideshow-container">
+        <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%">
+        <div class="text d-none d-sm-block" style="color: #000000;">
+            <h1>{{ $programme->prog_name }}</h1>
+            <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
+
+            @if(in_array($programme->cd_id, [2, 3]))
+                <!-- If cd_id is 2 or 3, disable the button -->
+                
+            @else
+                <!-- If cd_id is NOT 2 or 3, show the active button -->
+                <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-4 px-5 py-2 ms-5">Apply Now</a>
+            @endif
+        </div>
     </div>
-    <!-- <div class="img-right img d-none d-sm-block w-fit-content border border-primary">
-        <img src="./assets/img/pharmacy/pharmacy.jpeg" alt=".." class="border border-success">
-    </div> -->
-</div>
 @endif
+
 @if(!empty($programme_brochure_path) && $programme->video_section_flag == 'Y')
-<div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url({{ asset($programme_brochure_path) }});">
+<div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url({{asset($programme_brochure_path)}});">
     <div class="ban-text">
         <div class="col-xs-6 ban-text">
             <h1 class="display-4 fw-bolder ls-n-1 text-light fs-5 mb-3 mt-3 text-center">
