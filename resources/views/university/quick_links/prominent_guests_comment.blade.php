@@ -8,7 +8,7 @@ body {
 }
 
 .hotel-card {
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     border: none;
     background: white;
@@ -16,21 +16,22 @@ body {
     max-width: 500px;
 }
 
-.hotel-card img {
-    width: 150px;
-    height: 130px;
+.hotel-card-img {
+    width: 170px;
+    height: 140px;
     object-fit: cover;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-radius: 5%;
+    margin: 10px;
 }
 
-.card-body {
+.prominent-card-body {
     padding: 15px;
     flex: 1;
 }
 
-.text-muted {
-    font-size: 14px;
+.prominent-text-muted {
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .location {
@@ -51,9 +52,17 @@ body {
     font-weight: 500;
 }
 
+.card-title {
+    text-align: left;
+}
+
 .rating i {
     color: #fbc02d;
     margin-right: 5px;
+}
+
+.prominent-view{
+    text-align: right;
 }
 
 .btn-book {
@@ -64,6 +73,12 @@ body {
     border-radius: 8px;
     border: none;
     transition: 0.3s;
+}
+
+.prominent-align-left {
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 .btn-book:hover {
@@ -87,27 +102,30 @@ body {
 
 <div class="main-content">
     <div class="container">
-        <div>
-            <div class="row mx-0">
-                <h1 class="mb-2 tmu-text-primary tmu-page-heading"><span>Admission Rules & </span><span
-                        class="d-block d-sm-inline">Regulations</span></h1>
-                <div class="container">
+        <div class="row mx-0">
+            <h1 class="mb-2 tmu-text-primary tmu-page-heading"><span>Admission Rules & </span><span
+                    class="d-block d-sm-inline">Regulations</span></h1>
+            <div class="container">
 
-                        <div class="hotel-card d-flex">
-                            <img src="{{asset('/assets/img/37.jpg')}}" alt="Hotel Image">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <div>
-                                    <p class="text-muted mb-1">Dr. Sonal Mansingh</p>
-                                    <h5 class="card-title">Legendary Indian Classical Dancer & Member of Parliament,
-                                        Rajya Sabha</h5>
-                                    <p class="location"> Parampara</p>
-                                    <div class="rating">
-                                        <span>15.07.2022</span>
-                                    </div>
-                                </div>
-                                <button class="btn-book mt-2">View</button>
+                <div class="hotel-card d-flex">
+                    <img src="{{asset('/assets/img/37.jpg')}}" class="hotel-card-img" alt="Hotel Image">
+                    <div class="prominent-card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <p class="prominent-text-muted mb-1">Dr. Sonal Mansingh</p>
+                            <h5 class="prominent-align-left">Legendary Indian Classical Dancer & Member of Parliament,
+                                Rajya Sabha</h5>
+                            <p class="location"> Parampara</p>
+                            <div class="row rating">
+                                <div class="col-6">
+                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px"> 15, July 2022</span>
+                            </div>
+                            <div class="col-6">
+                            <a class="prominent-view p-3">View <img src="{{asset('/assets/img/icons/arrow.svg')}}" width="16px" height="16px"></a>
+                            </div>
                             </div>
                         </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
