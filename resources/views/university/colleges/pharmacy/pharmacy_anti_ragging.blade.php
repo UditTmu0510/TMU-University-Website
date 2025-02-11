@@ -87,10 +87,10 @@
         </div>
 
         <div class="container">
-        <h2 class="tmu-text-primary tmu-page-heading pt-md-3">
-            <span>Proctorial Board </span>
-            <span> Committee</span>
-        </h2>
+            <h2 class="tmu-text-primary tmu-page-heading pt-md-3">
+                <span>Proctorial Board </span>
+                <span> Committee</span>
+            </h2>
             <div class="row">
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
@@ -104,53 +104,90 @@
                         <tbody>
                             <tr>
                                 <td class="text-center">1.</td>
-                                <td class="text-center">Dr. Bhupendra Singh</td>
+                                <td class="text-center">Dr. Prem Shankar Gupta</td>
                                 <td class="text-center">Proctor</td>
+                                <td class="text-center">7390980989</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">2.</td>
-                                <td class="text-center">Dr. Piyush Mittal</td>
+                                <td class="text-center">Dr. Ramenani Hari Babu</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">9347467131</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">3.</td>
-                                <td class="text-center">Dr. Prashant Kumar</td>
+                                <td class="text-center">Dr. Pushpendra Kumar Shukla</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">8874595718</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">4.</td>
-                                <td class="text-center">Dr. Phool Chandra</td>
+                                <td class="text-center">Dr. K. K. Sharma</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">9917778686</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">5.</td>
-                                <td class="text-center">Dr. Mukesh Sikarwar</td>
+                                <td class="text-center">Dr. Anuradha Pawar</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">9927076411</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">6.</td>
-                                <td class="text-center">Mr. Ashish Singhai</td>
+                                <td class="text-center">Dr. Siddhant Verma</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">7037663322</td>
+
                             </tr>
+
                             <tr>
                                 <td class="text-center">7.</td>
-                                <td class="text-center">Mrs. Urvashi Saxena</td>
-                                <td class="text-center">Member</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">8.</td>
                                 <td class="text-center">Dr. Abhishek Anand</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">9155190270</td>
+
                             </tr>
+
                             <tr>
-                                <td class="text-center">9.</td>
+                                <td class="text-center">8.</td>
                                 <td class="text-center">Dr. Mithul V Mammen</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">7025311718</td>
+
                             </tr>
+
+                            <tr>
+                                <td class="text-center">9.</td>
+                                <td class="text-center">Mr. Akash Verma</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">8146685112</td>
+
+                            </tr>
+
                             <tr>
                                 <td class="text-center">10.</td>
-                                <td class="text-center">Mr. Shashank Tiwari</td>
+                                <td class="text-center">Mr. Aditya Vikram Jain</td>
                                 <td class="text-center">Member</td>
+                                <td class="text-center">8081176914</td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="text-center">11.</td>
+                                <td class="text-center">Ms. Urvashi Saxena</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9760661545</td>
+
                             </tr>
                         </tbody>
                     </table>
