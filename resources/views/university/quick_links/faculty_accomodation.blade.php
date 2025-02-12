@@ -12,21 +12,20 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">Faculty <span> Accomodation</span></h1>
-                <p class="lead mb-4 col-md-6">Designed for convenience and comfort, our faculty accommodations provide a serene living space that fosters academic engagement and community bonding.</p>
-                <div class="stat-box">
+                <h1 class="section-title d-none d-lg-block" style="color: white;">Faculty <span> Accomodation</span></h1>
+                <div class="stat-box d-none d-lg-inline-block">
                   <div class="row">
                     <div class="col-md-4">
-                      <h4>50+ Acres</h4>
-                      <p>Campus Area</p>
+                      <h4>24 / 7</h4>
+                      <p>Medical Facilities</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>20+</h4>
-                      <p>Modern Buildings</p>
+                      <h4>Modern</h4>
+                      <p>Gymnasium</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>100%</h4>
-                      <p>Green Campus</p>
+                      <h4>Top Notch</h4>
+                      <p>Security</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +38,26 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Faculty </span><span>Accomodation</span></h2>
+      <div class="stat-box v2 d-block d-lg-none">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>24 / 7</h4>
+            <p>Medical Facilities</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Modern</h4>
+            <p>Gymnasium</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Top Notch</h4>
+            <p>Security</p>
+          </div>
+        </div>
+      </div>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Faculty </span><span>Accomodation</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">
+          <p class="text-justify mb-2 mt-1 m-lg-3 mt-lg-5">
             We deeply value the well-being and comfort of our faculty members. TMU offers thoughtfully designed accommodations that provide both professional productivity and personal relaxation. These spacious apartments are fully furnished with modern amenities, including high-speed internet, well-equipped kitchens, and nice interiors. Round-the-clock security ensures a safe living environment, while dedicated maintenance staff ensures all facilities are always in top condition. The serene surroundings and proximity to the campus add to the convenience, making these accommodations the perfect home for our faculty.
           </p>
         </div>
@@ -54,7 +69,7 @@
 
     <section class="amenities-section">
       <div class="container">
-        <h2 Class="tmu-text-primary mb-2 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
+        <h2 Class="tmu-text-primary mb-4 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
         <div class="amenities-carousel">
           <!-- Repeat this block for each amenity -->
           <div class="amenity-item">
@@ -79,25 +94,25 @@
             <div class="amenities-icon">
               <i class="fas fa-running"></i>
             </div>
-            <p>Gym</p>
+            <p>Vast campus offering peaceful walks</p>
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
-              <i class="bi bi-airplane"></i>
+              <i class="bi bi-basket"></i> <!-- Changed icon -->
             </div>
-            <p>Restaurant</p>
+            <p>Food Hub</p>
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
               <i class="bi bi-bicycle"></i>
             </div>
-            <p>Saloon</p>
+            <p>GYM</p>
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
               <i class="bi bi-patch-check"></i>
             </div>
-            <p>Shopping Complex</p>
+            <p>Super Speciality Hospital</p>
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
@@ -113,10 +128,11 @@
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
-              <i class="bi bi-door-open"></i>
+              <i class="bi bi-shield-lock"></i> <!-- Changed icon -->
             </div>
-            <p>24/7 Security</p>
+            <p>24/7 High Security and Surveillance</p>
           </div>
+          
           <!-- Add more amenities here -->
         </div>
       </div>
