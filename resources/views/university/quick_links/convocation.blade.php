@@ -438,7 +438,7 @@
 <section class="gallery-section">
             <div class="container">
                 <div class="gallery-header">
-                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Campus </span><span>Gallery</span></h2>
+                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Convocation </span><span>Gallery</span></h2>
                     <p class="lead">Explore our beautiful campus through these captivating images</p>
                 </div>
 
@@ -446,8 +446,6 @@
                     <button class="filter-btn active" data-filter="all">All</button>
                     <button class="filter-btn" data-filter="guest">Guest</button>
                     <button class="filter-btn" data-filter="students">students</button>
-                    <button class="filter-btn" data-filter="infra">Infrastructure</button>
-                    <button class="filter-btn" data-filter="sports">Sports</button>
 
                 </div>
 
