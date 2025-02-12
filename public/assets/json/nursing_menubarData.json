@@ -48,6 +48,29 @@
         }
     },
     "5": {
+        "IJIH About-Us": {
+            "link": "\/college-of-nursing\/ijih\/about-us"
+        },
+        "Editorial Board": {
+            "link": "\/college-of-nursing\/ijih\/editorial-board"
+        },
+        "Guidelines and Ethics": {
+            "link": "\/college-of-nursing\/ijih\/guidelines-and-ethics"
+        },
+        "Submission Process": {
+            "link": "\/college-of-nursing\/ijih\/submission-process"
+        },
+        "Manuscript Form Submission": {
+            "link": "\/college-of-nursing\/ijih\/manuscript-form-submission"
+        },"Current Issue": {
+            "link": "\/college-of-nursing\/ijih\/current-issue"
+        },
+        "Archives": {
+            "link": "\/college-of-nursing\/ijih\/archives"
+        }
+        
+    },
+    "6": {
         "Time Table": {
             "link": "\/college-of-nursing\/time-table"
         },
@@ -58,7 +81,7 @@
             "link": "\/college-of-nursing\/anti-ragging-committee"
         }
     },
-    "6": {
+    "7": {
         "Guest lecture": {
             "link": "\/college-of-nursing\/guest-lecture"
         },
@@ -66,7 +89,7 @@
             "link": "\/college-of-nursing\/contact-us"
         }
     },
-    "7": {
+    "8": {
         "link": "\/college-of-nursing\/iqac"
     }
 }
