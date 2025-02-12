@@ -444,8 +444,8 @@
 
                 <div class="gallery-filters">
                     <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="cafe">Cafeteria</button>
-                    <button class="filter-btn" data-filter="library">Library</button>
+                    <button class="filter-btn" data-filter="guest">Guest</button>
+                    <button class="filter-btn" data-filter="students">students</button>
                     <button class="filter-btn" data-filter="infra">Infrastructure</button>
                     <button class="filter-btn" data-filter="sports">Sports</button>
 
@@ -453,191 +453,249 @@
 
                 <div class="gallery-grid">
                     <!-- Infra -->
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/campus-grid-2.webp')}}"
+                    <div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/1.webp')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/6.jpg')}}"
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/2.webp')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Hostels</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/jinalaya/2.jpg')}}"
-                            alt="Engineering Block">
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/3.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Teerthanker Mahaveer Jinalaya</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/yoga/10.jpg')}}"
-                            alt="Sports Complex">
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/4.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Indoor Stadium</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/8.jpg')}}"
-                            alt="Engineering Block">
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/5.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Central Library</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/1.jpg')}}"
-                            alt="Engineering Block">
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/6.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Hospital</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/9.jpg')}}"
-                            alt="Engineering Block">
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/7.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Facuty Block</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
-                    <div class="gallery-item" data-category="infra">
-                        <img src="{{asset('/assets/img/footer_pages/infra/19.jpg')}}"
-                            alt="Engineering Block">
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/8.webp')}}"
+                            alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Auditorium</h3>
+                            <h3 class="gallery-item-title">Pavilion</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/9.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/10.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/11.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/12.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/13.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/14.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/15.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/16.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/17.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/18.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/19.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/20.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/21.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/22.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/23.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/24.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/25.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/26.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/27.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/28.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/29.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/30.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Pavilion</h3>
+                            <p class="gallery-item-category">Infrastructure</p>
+                        </div>
+                    </div>
+					
 
-                    <!-- Sports -->
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/yoga/10.jpg')}}"
-                            alt="Sports Complex">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Sports Complex</h3>
-                            <p class="gallery-item-category">Sports</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/sports/6.jpg')}}"
-                            alt="Cricket Ground">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Kabbadi</h3>
-                            <p class="gallery-item-category">Sports</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/sports/10.jpg')}}"
-                            alt="Cricket Ground">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Race</h3>
-                            <p class="gallery-item-category">Sports</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/sports/2.jpg')}}"
-                            alt="Indoor Sports Complex">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Football</h3>
-                            <p class="gallery-item-category">Sports</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/sports/8.jpg')}}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Volleyball</h3>
-                            <p class="gallery-item-category">Indoor Sport</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/sports/9.jpg')}}"
-                            alt="Hostel Block">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Cricket</h3>
-                            <p class="gallery-item-category">Outdoor Sport</p>
-                        </div>
-                    </div>
-
-
-                    <!-- Library -->
-                    <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/Library/1.jpg')}}"
-                            alt="Central Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Central Library</h3>
-                            <p class="gallery-item-category">Library</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/Library/5.jpg')}}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Digital Library</h3>
-                            <p class="gallery-item-category">Library</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="cafe">
-                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/1.jpg')}}"
-                            alt="Central Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Bicano Restaurant</h3>
-                            <p class="gallery-item-category">Cafeteria</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="cafe">
-                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/2.jpg')}}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Rainbow Cafe</h3>
-                            <p class="gallery-item-category">Cafeteria</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="cafe">
-                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/3.jpg')}}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Chai Nagri</h3>
-                            <p class="gallery-item-category">Cafeteria</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="cafe">
-                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/4.jpg')}}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Domino's</h3>
-                            <p class="gallery-item-category">Cafeteria</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="cafe">
-                        <img src="{{asset('/assets/img/footer_pages/E-Lobby/5.jpg')}}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Bicano Cafe</h3>
-                            <p class="gallery-item-category">Cafeteria</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
