@@ -133,7 +133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="contcainer pt-3 mt-4">
+                    <div class="contcainer h-100 pt-3 mt-4">
                         <div class="facility-section">
                             <h5 class="fw-bold">Medical Facility to the Students:</h5>
                             <p>All the bonafide students of various programs at the university are provided with the
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="conctainer pt-3 mt-4">
+                    <div class="conctainer h-100 pt-3 mt-4">
                         <div class="facility-section">
                             <h5 class="fw-bold">In addition, following facilities are available:</h5>
                             <ul style="margin-left: 20px;">
