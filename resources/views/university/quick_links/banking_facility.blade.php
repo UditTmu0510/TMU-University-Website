@@ -12,21 +12,20 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">Bank <span> Facility</span></h1>
-                <p class="lead mb-4 col-md-6">Enjoy easy access to banking services on campus, ensuring secure transactions and financial convenience for students and faculty alike.</p>
-                <div class="stat-box">
+                <h1 class="section-title d-none d-lg-block" style="color: white;">Bank <span> Facility</span></h1>
+                <div class="stat-box d-none d-lg-inline-block">
                   <div class="row">
                     <div class="col-md-4">
-                      <h4>50+ Acres</h4>
-                      <p>Campus Area</p>
+                      <h4>On-Campus</h4>
+                      <p>Bank</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>20+</h4>
-                      <p>Modern Buildings</p>
+                      <h4>On-Site</h4>
+                      <p>Multiple ATMs</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>100%</h4>
-                      <p>Green Campus</p>
+                      <h4>Student-Friendly</h4>
+                      <p>Services</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +38,26 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Bank </span><span>Facility</span></h2>
+    <div class="stat-box v2 d-block d-lg-none">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>On-Campus</h4>
+          <p>Bank</p>
+        </div>
+        <div class="col-md-4">
+          <h4>On-Site</h4>
+          <p>Multiple ATMs</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Student-Friendly</h4>
+          <p>Services</p>
+        </div>
+      </div>
+    </div>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Bank </span><span>Facility</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">
+          <p class="text-justify mb-2 mt-1 m-lg-5">
           TMU has a fully functional banking facility to simplify financial tasks for students, faculty, and visitors. The on-campus bank ensures all essential banking services, including deposits, withdrawals, and account management, are easily accessible. Additionally, round-the-clock ATMs provide instant cash withdrawal services, making it highly convenient for everyone. This seamless integration of financial services ensures individuals can focus on their academic or professional goals without the inconvenience of off-campus errands.
           </p>
         </div>
