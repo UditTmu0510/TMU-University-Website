@@ -71,27 +71,24 @@
                         </div>
                     @endif
 
-                    <div class="row mb-3">
-                        <div class="col">
+                    
+                        <div class="mb-3">
                             <label for="firstName" class="form-label">First Name</label>
                             <input type="text" class="form-control" id="firstName" name="first_name" placeholder="First name" required>
                         </div>
-                        <div class="col">
+                        <div class="mb-3">
                             <label for="lastName" class="form-label">Last Name</label>
                             <input type="text" class="form-control" id="lastName" name="last_name" placeholder="Last name" required>
                         </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="col">
+                        <div class="mb-3">
                             <label for="emailAddress" class="form-label">Email Address</label>
                             <input type="email" class="form-control" id="emailAddress" name="email" placeholder="Email address" required>
                         </div>
-                        <div class="col">
+                        <div class="mb-3">
                             <label for="phoneNumber" class="form-label">Phone Number</label>
                             <input type="tel" class="form-control" id="phoneNumber" name="phone_number" placeholder="Phone number" required>
                         </div>
-                    </div>
+                    
 
                     <div class="row mb-3">
                         <div class="col-md-12">
