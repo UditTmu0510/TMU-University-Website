@@ -13,9 +13,6 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title d-none d-lg-block" style="color: white;">CAMPUS <span>VIEW</span></h1>
-                                <p class="lead mb-4 col-md-6 d-none d-lg-block">Discover our state-of-the-art facilities and beautiful campus
-                                    environment that provides the perfect setting for academic excellence and personal
-                                    growth.</p>
                                 <div class="stat-box d-none d-lg-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
