@@ -12,21 +12,20 @@
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
-                                <h1 class="section-title" style="color: white;">Transport <span> Facility</span></h1>
-                                <p class="lead mb-4 col-md-6">Experience seamless and safe travel with our well-connected university transportation, ensuring hassle-free commuting for students.</p>
-                                <div class="stat-box">
+                                <h1 class="section-title d-none d-lg-block" style="color: white;">Transport <span> Facility</span></h1>
+                                <div class="stat-box d-none d-lg-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <h4>50+ Acres</h4>
-                                            <p>Campus Area</p>
+                                            <h4>GPS-Enabled</h4>
+                                            <p>Buses</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>20+</h4>
-                                            <p>Modern Buildings</p>
+                                            <h4>Extensive</h4>
+                                            <p>Transport Network</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>100%</h4>
-                                            <p>Green Campus</p>
+                                            <h4>Reasonable</h4>
+                                            <p>Transport Fees</p>
                                         </div>
                                     </div>
                                 </div>
@@ -39,10 +38,26 @@
         </section>
 
         <div class="container">
-            <h2 Class="tmu-text-primary mb-2 mt-5"><span>Transport</span><span> Facility</span></h2>
+            <div class="stat-box v2 d-block d-lg-none">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>GPS-Enabled</h4>
+                        <p>Buses</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Extensive</h4>
+                        <p>Transport Network</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Reasonable</h4>
+                        <p>Transport Fees</p>
+                    </div>
+                </div>
+            </div>
+            <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Transport</span><span> Facility</span></h2>
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
-                    <p class="text-justify mb-2 mt-1">
+                    <p class="text-justify mb-0 mt-1 m-lg-5 mb-lg-0">
                         TMU’s reliable and efficient transport system ensures seamless connectivity between the campus and surrounding areas. The university’s fleet of buses operates on well-planned routes, making it convenient for students, faculty, and staff to commute. Regular maintenance and professional drivers prioritise safety, ensuring a hassle-free travel experience. This service adds to the overall convenience of campus life, allowing everyone to focus on their academic and professional endeavours.
                 </div>
             </div>

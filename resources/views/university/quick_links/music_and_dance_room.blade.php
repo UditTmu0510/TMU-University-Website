@@ -12,21 +12,20 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">Music &  <span> Dance</span></h1>
-                <p class="lead mb-4 col-md-6">Celebrate creativity and expression with our vibrant music and dance programs, nurturing artistic talents and cultural enrichment on campus.</p>
-                <div class="stat-box">
+                <h1 class="section-title d-none d-lg-block" style="color: white;">Music &  <span> Dance</span></h1>
+                <div class="stat-box d-none d-lg-inline-block">
                   <div class="row">
                     <div class="col-md-4">
-                      <h4>50+ Acres</h4>
-                      <p>Campus Area</p>
+                      <h4>Well Equipped</h4>
+                      <p>Studio</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>20+</h4>
-                      <p>Modern Buildings</p>
+                      <h4>Annual Cultural</h4>
+                      <p>Festivals</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>100%</h4>
-                      <p>Green Campus</p>
+                      <h4>Enhancing</h4>
+                      <p>Teamwork</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +38,26 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Music & </span><span>Dance</span></h2>
+      <div class="stat-box v2 d-block d-lg-none">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Well Equipped</h4>
+            <p>Studio</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Annual Cultural</h4>
+            <p>Festivals</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Enhancing</h4>
+            <p>Teamwork</p>
+          </div>
+        </div>
+      </div>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Music & </span><span>Dance</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">
+          <p class="text-justify mb-2 mt-1 m-lg-5">
           The Music and Dance Room at TMU is a lively hub for artistic expression and creativity. This vibrant space is equipped with professional-grade musical instruments, soundproof rehearsal rooms, and spacious studios, enabling students to refine their skills and explore their talents. Audio-visual recording facilities provide opportunities for students to document and enhance their performances. The welcoming and energetic environment allows students to develop their artistic potential to the fullest.
           </p>
         </div>
