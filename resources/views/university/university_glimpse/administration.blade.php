@@ -9,7 +9,7 @@
 <div class="main-content">
     <div class="container">
 
-          <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>aboutus</span><span> Administration</span></h1>
+          <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>University</span><span> Administration</span></h1>
           <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
              
