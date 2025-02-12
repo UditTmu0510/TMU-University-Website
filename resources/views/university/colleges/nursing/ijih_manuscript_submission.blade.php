@@ -71,8 +71,6 @@
                         </div>
                     @endif
 
-                    <hr />
-
                     <div class="row mb-3">
                         <div class="col">
                             <label for="firstName" class="form-label">First Name</label>
