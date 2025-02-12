@@ -12,21 +12,20 @@
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
-                                <h1 class="section-title" style="color: white;">Sports <span></span></h1>
-                                <p class="lead mb-4 col-md-6">Unleash your potential with our world-class sports facilities, promoting physical fitness, teamwork, and excellence in a range of indoor and outdoor games.</p>
-                                <div class="stat-box">
+                                <h1 class="section-title d-none d-lg-block" style="color: white;">Sports <span></span></h1>
+                                <div class="stat-box d-none d-lg-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <h4>50+ Acres</h4>
-                                            <p>Campus Area</p>
+                                            <h4>Indoor/Outdoor</h4>
+                                            <p>Stadium</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>20+</h4>
-                                            <p>Modern Buildings</p>
+                                            <h4>BCCI-Certified</h4>
+                                            <p>Cricket Academy</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>100%</h4>
-                                            <p>Green Campus</p>
+                                            <h4>Regular Tournaments</h4>
+                                            <p>& Exposure</p>
                                         </div>
                                     </div>
                                 </div>
@@ -39,10 +38,26 @@
         </section>
 
         <div class="container">
-            <h2 Class="tmu-text-primary mb-2 mt-5"><span>Sports </span><span></span></h2>
+            <div class="stat-box v2 d-block d-lg-none">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Indoor/Outdoor</h4>
+                        <p>Stadium</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>BCCI-Certified</h4>
+                        <p>Cricket Academy</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Regular Tournaments</h4>
+                        <p>& Exposure</p>
+                    </div>
+                </div>
+            </div>
+            <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Sports </span><span></span></h2>
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
-                    <p class="text-justify mb-2 mt-1">
+                    <p class="text-justify mb-2 mt-1 m-lg-5">
                     TMU champions the importance of sports in fostering a healthy and active lifestyle. 
                     Our world-class facilities cater to a wide range of sports, including cricket, football, 
                     basketball, badminton, and table tennis. The campus features both outdoor fields and 

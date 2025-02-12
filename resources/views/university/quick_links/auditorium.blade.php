@@ -12,21 +12,20 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">University <span> Auditorium</span></h1>
-                <p class="lead mb-4 col-md-6">Our state-of-the-art auditorium serves as a dynamic venue for academic events, cultural programs, and conferences, inspiring creativity and intellectual exchange.</p>
-                <div class="stat-box">
+                <h1 class="section-title d-none d-lg-block" style="color: white;">University <span> Auditorium</span></h1>
+                <div class="stat-box d-none d-lg-inline-block">
                   <div class="row">
                     <div class="col-md-4">
-                      <h4>50+ Acres</h4>
-                      <p>Campus Area</p>
+                      <h4>550-Seater</h4>
+                      <p>Auditorium</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>20+</h4>
-                      <p>Modern Buildings</p>
+                      <h4>High-Definition</h4>
+                      <p>Projectors</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>100%</h4>
-                      <p>Green Campus</p>
+                      <h4>Acoustically</h4>
+                      <p>Designed</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +38,26 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>University </span><span>Auditorium</span></h2>
+      <div class="stat-box v2 d-block d-lg-none">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>550-Seater</h4>
+            <p>Auditorium</p>
+          </div>
+          <div class="col-md-4">
+            <h4>High-Definition</h4>
+            <p>Projectors</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Acoustically</h4>
+            <p>Designed</p>
+          </div>
+        </div>
+      </div>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>University </span><span>Auditorium</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">
+          <p class="text-justify mb-2 mt-1 m-lg-5">
           TMU’s state-of-the-art auditorium serves as the epicentre for cultural, academic, and intellectual activities. With advanced acoustics, modern lighting systems, and a spacious seating capacity, the venue is ideal for hosting a variety of events, including seminars, conferences, workshops, and performances. The auditorium fosters collaboration and creative exchange, making it a space where ideas flourish and talents shine. Its vibrant atmosphere makes every event a memorable experience for participants and audiences alike.        </div>
       </div>
     </div>
