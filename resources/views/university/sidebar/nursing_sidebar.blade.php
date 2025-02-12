@@ -66,6 +66,30 @@
                 <p>Anti Ragging Committee</p>
             </a>
         </div>
+        <h2>IJIH Journal</h2>
+        <div class="account-section">
+            <a href="{{ route('ijih.aboutus') }}" class="custom-menu-item {{ request()->routeIs('ijih.aboutus') ? 'active' : '' }}">
+                <p>About Us</p>
+            </a>
+            <a href="{{ route('ijih.edi.board') }}" class="custom-menu-item {{ request()->routeIs('ijih.edi.board') ? 'active' : '' }}">
+                <p>Editorial Board</p>
+            </a>
+            <a href="{{ route('ijih.guide.ethics') }}" class="custom-menu-item {{ request()->routeIs('ijih.guide.ethics') ? 'active' : '' }}">
+                <p>Guidelines & Ethics</p>
+            </a>
+            <a href="{{ route('ijih.submission.process') }}" class="custom-menu-item {{ request()->routeIs('ijih.submission.process') ? 'active' : '' }}">
+                <p>Submission Process</p>
+            </a>
+            <a href="{{ route('ijih.archives') }}" class="custom-menu-item {{ request()->routeIs('ijih.archives') ? 'active' : '' }}">
+                <p>Archives</p>
+            </a>
+            <a href="{{ route('ijih.current_issue') }}" class="custom-menu-item {{ request()->routeIs('ijih.current_issue') ? 'active' : '' }}">
+                <p>Current Issue</p>
+            </a>
+            <a href="{{ route('ijih.manuscript.submission') }}" class="custom-menu-item {{ request()->routeIs('ijih.manuscript.submission') ? 'active' : '' }}">
+                <p>Manuscript Submission</p>
+            </a>
+        </div>
         <h2>Quick Links</h2>
         <div class="account-section">
             <a href="{{ route('nursing.guest.lecture') }}" class="custom-menu-item {{ setActive('nursing.guest.lecture') }}">

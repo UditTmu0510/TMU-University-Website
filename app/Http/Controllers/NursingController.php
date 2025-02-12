@@ -164,5 +164,40 @@ public function index()
         return view('university.colleges.nursing.nursing_viceprincipal');
     }
 
+    public function ijih_aboutus()
+    {
+        return view('university.colleges.nursing.ijih_about_us');
+    }
+
+    public function ijih_edi_board()
+    {
+        return view('university.colleges.nursing.ijih_edi_board');
+    }
+
+    public function ijih_guide_ethics()
+    {
+        return view('university.colleges.nursing.ijih_guide_ethics');
+    }
+
+    public function ijih_submission_process()
+    {
+        return view('university.colleges.nursing.ijih_submission_process');
+    }
+
+    public function ijih_archives()
+    {
+        return view('university.colleges.nursing.ijih_archives');
+    }
+
+    public function ijih_current_issue()
+    {
+        return view('university.colleges.nursing.ijih_current_issue');
+    }
+
+    public function ijih_manuscript_submission()
+    {
+        return view('university.colleges.nursing.ijih_manuscript_submission');
+    }
+
 
 }
