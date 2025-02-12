@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="h-100 pt-3 mt-4">
-                        <div class="facility-section p-2">
+                        <div class="facility-section p-4">
                             <h5 class="fw-bold">Medical Facility to the Students:</h5>
                             <p>All the bonafide students of various programs at the university are provided with the
                                 below
@@ -162,7 +162,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="h-100 pt-3 mt-4">
-                        <div class="facility-section p-2">
+                        <div class="facility-section p-4">
                             <h5 class="fw-bold">In addition, following facilities are available:</h5>
                             <ul style="margin-left: 20px;">
                                 <li>A Dialysis unit with latest Haemodialysis machines</li>
