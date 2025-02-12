@@ -12,7 +12,8 @@
     </style>
 
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
-    <div class="container py-5">
+    <div class="container pb-5">
+    <h1 class="tmu-text-primary tmu-page-heading "><span>Chancellor</span><span> Desk</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="principal-card23">
