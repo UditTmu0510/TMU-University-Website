@@ -731,6 +731,13 @@ Route::get('/college-of-nursing/syllabus', [NursingController::class, 'nursing_s
 Route::get('/college-of-nursing/time-table', [NursingController::class, 'nursing_timetable'])->name('nursing.timetable');
 Route::get('/college-of-nursing/training-placement-cell', [NursingController::class, 'nursing_tpc'])->name('nursing.tpc');
 Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
+Route::get('/college-of-nursing/ijih/about-us', [NursingController::class, 'ijih_aboutus'])->name('ijih.aboutus');
+Route::get('/college-of-nursing/ijih/editorial-board', [NursingController::class, 'ijih_edi_board'])->name('ijih.edi.board');
+Route::get('/college-of-nursing/ijih/guidelines-and-ethics', [NursingController::class, 'ijih_guide_ethics'])->name('ijih.guide.ethics');
+Route::get('/college-of-nursing/ijih/submission-process', [NursingController::class, 'ijih_submission_process'])->name('ijih.submission.process');
+Route::get('/college-of-nursing/ijih/archives', [NursingController::class, 'ijih_archives'])->name('ijih.archives');
+Route::get('/college-of-nursing/ijih/current-issue', [NursingController::class, 'ijih_current_issue'])->name('ijih.current_issue');
+Route::get('/college-of-nursing/ijih/manuscript-form-submission', [NursingController::class, 'ijih_manuscript_submission'])->name('ijih.manuscript.submission');
 
 // Law
 Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');
