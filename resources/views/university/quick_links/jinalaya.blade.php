@@ -12,21 +12,20 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title" style="color: white;">Mahaveer Ji <span> Jinalaya</span></h1>
-                <p class="lead mb-4 col-md-6">A serene place for spiritual reflection, Mahaveer Ji Jinalaya offers a peaceful ambiance for prayer, meditation, and personal growth.</p>
-                <div class="stat-box">
+                <h1 class="section-title d-none d-lg-block" style="color: white;">Mahaveer Ji <span> Jinalaya</span></h1>
+                <div class="stat-box d-none d-lg-inline-block"">
                   <div class="row">
                     <div class="col-md-4">
-                      <h4>50+ Acres</h4>
-                      <p>Campus Area</p>
+                      <h4>Architectural</h4>
+                      <p>Grandeur</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>20+</h4>
-                      <p>Modern Buildings</p>
+                      <h4>Centre for</h4>
+                      <p>Spirituality</p>
                     </div>
                     <div class="col-md-4">
-                      <h4>100%</h4>
-                      <p>Green Campus</p>
+                      <h4>Promotes</h4>
+                      <p>Ethical Values</p>
                     </div>
                   </div>
                 </div>
@@ -39,10 +38,26 @@
     </section>
 
     <div class="container">
-      <h2 Class="tmu-text-primary mb-2 mt-5"><span>Mahaveer Ji  </span><span>Jinalaya</span></h2>
+      <div class="stat-box v2 d-block d-lg-none">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Architectural</h4>
+            <p>Grandeur</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Centre for</h4>
+            <p>Spirituality</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Promotes</h4>
+            <p>Ethical Values</p>
+          </div>
+        </div>
+      </div>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Mahaveer Ji  </span><span>Jinalaya</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
-          <p class="text-justify mb-2 mt-1">
+          <p class="text-justify mb-2 mt-1 m-lg-5">
           TMU’s Mahaveer Ji Jainalaya is a serene and spiritual haven on campus, offering students, staff, and visitors a space for reflection and prayer. Designed to embody Jain values of peace and harmony, this holy site is an ideal retreat for moments of introspection. The Jainalaya plays a vital role in fostering holistic growth, blending spiritual development with academic pursuits. Its calming environment inspires mindfulness and inner peace, enriching the TMU community’s overall well-being.          </p>
         </div>
       </div>
