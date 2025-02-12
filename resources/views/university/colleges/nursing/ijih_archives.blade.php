@@ -5,7 +5,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span> IIJH </span><span> Archives</span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading"><span> IJIH </span><span> Archives</span></h1>
         <div class="container">
             <div class="row mb-3">
                 <div class="table-responsive">
