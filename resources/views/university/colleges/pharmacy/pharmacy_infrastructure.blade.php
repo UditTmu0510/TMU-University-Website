@@ -12,7 +12,7 @@
                     <h1 class="tmu-text-primary tmu-page-heading pt-md-5 mb-2"><span> Pharmacy </span><span> Infrastructure </span></h1>
                 </div>
                 <div class="image-content text-center pt-0">
-                    <img src="{{asset('/assets/img/112.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/aboutus/pharmacy/main-fresh.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">The College of Pharmacy at Teerthanker Mahaveer University is equipped with state-of-the-art infrastructure designed to foster advanced learning and research. The Machine Room houses modern pharmaceutical machinery, enabling students to gain hands-on experience in tablet compression, capsule filling, and coating techniques. The Central Instruments Facility is outfitted with sophisticated instruments like UV-Vis spectrophotometers, HPLC, and FTIR, facilitating precise analytical and quality control studies. The Pharmacology Lab is well-equipped for drug research, offering facilities for in-vitro and in-vivo experiments to study drug actions and toxicity. Additionally, the Pharmaceutics Lab provides an environment to innovate and develop pharmaceutical formulations, with provisions for experiments on drug delivery systems and dosage forms. Together, these facilities ensure that students receive a comprehensive and practical education in pharmaceutical sciences.</p>
