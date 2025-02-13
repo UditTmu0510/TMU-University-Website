@@ -11,7 +11,7 @@
             <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ setActive('disciplinary.rules') }}">
                 <p>Disciplinary Rules</p>
             </a>
-            <a href="{{asset('/assets/pdf/TMU_Admission%20Policy%20&%20Refund%20Policy%20_2024.pdf')}}" target="_blank" class="custom-menu-item">
+            <a href="{{asset('/assets/pdf/TMU_Admission_Policy_&_Refund_Policy_2024.pdf')}}" target="_blank" class="custom-menu-item">
                 <p>Admission Refund Policy</p>
             </a>
             <a href="{{ route('university.anti.ragging.committee') }}" class="custom-menu-item {{ setActive('university.anti.ragging.committee') }}">
