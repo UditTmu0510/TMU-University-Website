@@ -762,8 +762,8 @@
             <div class="thumb" onclick="displayReviewByIndex(1)" data-bg="{{ asset('assets/img/department/alumni/people/2.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(2)" data-bg="{{ asset('assets/img/department/alumni/people/3.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(3)" data-bg="{{ asset('assets/img/department/alumni/people/4.png') }}"></div>
-            <div class="thumb" onclick="displayReviewByIndex(4)" data-bg="{{ asset('assets/img/department/alumni/people/2.png') }}"></div>
-            <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/3.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(4)" data-bg="{{ asset('assets/img/department/alumni/people/8.jpg') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
 
         </div>
     </div>
