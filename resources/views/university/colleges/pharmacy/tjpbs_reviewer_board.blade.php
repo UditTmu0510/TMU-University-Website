@@ -36,7 +36,6 @@
                         <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="{{$reviewer[0]}}">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>{{$reviewer[0]}}</span></h5>
-                            <p class="card-text tmu-text-primary fs-14 fw-bold"><span>Reviewer</span></p>
                             <p class="card-text fs-14">{{$reviewer[1]}}</p>
                             <p class="card-text fs-14">{{$reviewer[2]}}</p>
                             <p class="card-text fs-14">{{$reviewer[3]}}</p>
