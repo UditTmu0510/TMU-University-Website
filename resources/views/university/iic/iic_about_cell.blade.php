@@ -40,7 +40,7 @@
                 <li class="mb-1">Assist students in ideation and project handling at the pre-incubation and incubation stages.</li>
             </ol>
 
-            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold"><span>Functions </span><span>of IICs</span></h3>
+            <h3 class="mb-2 pb-0 tmu-text-primary fw-bold"><span>Functions </span><span>of IIC</span></h3>
             <ol class="m-ol-list ps-5 text-justify">
                 <li class="mb-1">To promote innovation in the institution through multifarious modes of learning.</li>
                 <li class="mb-1">To organise various innovation and entrepreneurial-related activities in a time-bound fashion as
