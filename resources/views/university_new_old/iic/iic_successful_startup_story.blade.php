@@ -4,7 +4,7 @@
 <div class="main-content">
     <div class="container">
 
-        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Successfull </span><span>Startup Story</span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Successful </span><span>Startup Story</span></h1>
 
 
         <div class="iqac-container">

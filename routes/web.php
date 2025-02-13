@@ -198,7 +198,7 @@ Route::get('/innovation-startup/iic-innovation-ambassador-training-series', [Tmu
 Route::get('/innovation-startup/innovation-startup-campaign-participation', [TmuController::class, 'iic_campaign_participation'])->name('iic.campaign.participation');
 Route::get('/innovation-startup/achievements', [TmuController::class, 'iic_achievements'])->name('iic.achievements');
 Route::get('/innovation-startup/iic-activities', [TmuController::class, 'iic_activities'])->name('iic.activities');
-Route::get('/innovation-startup/successfull-startup-story', [TmuController::class, 'iic_successful_startup_story'])->name('iic.successful.startup.story');
+Route::get('/innovation-startup/successful-startup-story', [TmuController::class, 'iic_successful_startup_story'])->name('iic.successful.startup.story');
 Route::get('/innovation-startup/contact-us', [TmuController::class, 'iic_contact'])->name('iic.contact');
 
 // NSS
