@@ -47,6 +47,9 @@
             <a href="{{route('application.form')}}" class="custom-menu-item {{ setActive('application.form') }}">
                 <p>Application Form</p>
             </a>
+            <a href="{{route('how.to.apply')}}" class="custom-menu-item {{ setActive('how.to.apply') }}">
+                <p>How To Apply</p>
+            </a>
         </div>
     </div>
 </div>
