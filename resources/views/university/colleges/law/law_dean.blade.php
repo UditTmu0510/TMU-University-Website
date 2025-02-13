@@ -18,6 +18,7 @@
                 <div class="principal-card23">
                     <i class="ph-bold ph-quotes principal-quote-icon23"></i>
                     <div class="row">
+                    <h1 class="tmu-text-primary tmu-page-heading "><span> From the Desk </span><span> of Dean</span></h1>
                         <div class="col-md-10 mx-auto text-center">
                             <div class="d-flex justify-content-between">
 
