@@ -49,7 +49,7 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/aboutus/administration/sidhart.jpg')}}" class="card-img-top" alt="Prof. Mayur Porwal">
+                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Prof. Mayur Porwal">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Mayur Porwal</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold "><span></span><span>Managing Editor</span></p>
@@ -60,7 +60,7 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/aboutus/administration/sidhart.jpg')}}" class="card-img-top" alt="Prof. Mukesh Singh Sikarwar">
+                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Prof. Mukesh Singh Sikarwar">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Mukesh Singh Sikarwar</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold"><span></span><span>Associate Editor</span></p>
@@ -71,7 +71,7 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/aboutus/administration/sidhart.jpg')}}" class="card-img-top" alt="Prof. Phool Chandra">
+                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Prof. Phool Chandra">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Phool Chandra</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold"><span></span><span>Associate Editor</span></p>

@@ -109,60 +109,57 @@
             <div class="table ">
                 <div class="table-row">
                     <div class="highlightj524"></div>
-                    <div class="table-content ">
+                    <div class="table-content">
                         <p class="mb-0">
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018</span> |
-                            <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> MMM DD, YYYY</span> |
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: XXX</span> |
                             <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
-                        <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
+                        <h4>Sample Article Title</h4>
                         <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
-                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                            Author1 | Author2 | Author3 </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
-                            <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> MMM DD, YYYY</span> |
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: XXX</span> |
                             <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
-                        <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
+                        <h4>Sample Article Title</h4>
                         <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
-                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                            Author1 | Author2 | Author3 </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
-                            <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> MMM DD, YYYY</span> |
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: XXX</span> |
                             <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
-                        <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
+                        <h4>Sample Article Title</h4>
                         <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
-                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                            Author1 | Author2 | Author3 </p>
                     </div>
                 </div>
                 <div class="table-row">
                     <div class="highlightj524"></div>
                     <div class="table-content">
                         <p>
-                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> Jun 27, 2018 </span> |
-                            <!-- <span class="category">Category Title</span> | -->
-                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: KW7Q3fxfAB</span> |
+                            <i class="bi-calendar" aria-hidden="true"></i><span class="date"> MMM DD, YYYY</span> |
+                            <i class="bi-bookmark" aria-hidden="true"></i><span class="id"> ID: XXX</span> |
                             <i class="bi-book" aria-hidden="true"></i><span class="edition"> Edition</span>
                         </p>
-                        <h4>4 Ways You Can Grow Your Creativity Using Technology</h4>
+                        <h4>Sample Article Title</h4>
                         <p><a href="#"> <i class="fa-solid fa-file-download" aria-hidden="true"></i> Download</a> - <i class="fa-solid fa-users" aria-hidden="true"></i>
-                            Niteesh Jaiswal | Akash Girotra | Aakash Saini </p>
+                            Author1 | Author2 | Author3 </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
