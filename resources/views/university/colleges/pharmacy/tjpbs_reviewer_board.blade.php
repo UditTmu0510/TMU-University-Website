@@ -28,7 +28,7 @@
                     ['Dr. Hina Chadha', 'Professor', 'Vishveshwarya Group of Institutions, G.B. Nagar, India', 'hodvims@gmail.com'],
                     ['Dr. Komal Sharma', 'Professor', 'Bhupal Nobles College of Pharmacy, Bhupal Nobles University, Udaipur, India', 'komalsharmagautam@yahoo.com'],
                     ['Dr. Sourav Ghosh', 'Associate Professor', 'Adamas University, Kolkata, India', 'souravcology@gmail.com'],
-                    ['Dr. Manish G.', 'Professor', '', 'manish.g@adtu.in'],
+                    ['Dr. Manish G.', 'Associate Professor', 'Assam down town University, Guwahati, Assam', 'manish.g@adtu.in'],
                     ['Dr. Kamal Kishore Maheshwari', 'Professor', 'M.J.P. Rohilkhand University, Bareilly, India', 'kamalbareilly@yahoo.com']
                 ] as $reviewer)
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
