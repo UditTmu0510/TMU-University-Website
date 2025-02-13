@@ -116,7 +116,7 @@
           </div>
           <div class="amenity-item">
             <div class="amenities-icon">
-              <i class="bi bi-geo-alt"></i>
+              <i class="bi bi-cup"></i>
             </div>
             <p>Mess</p>
           </div>
