@@ -64,8 +64,7 @@
                                 class="icon-featured fa-solid fa-file-invoice"></i>
                             <h5 class="mt-4 mb-2 fw-bold tmu-color">APPLY ONLINE</h5>
                             <p class="description mt-0 pt-0">Availability of Application Form</p>
-                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="https://admissions.tmu.ac.in">APPLY
-                                HERE</a>
+                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{ route('application.form') }}">APPLY HERE</a>
                         </div>
                 </div>
                 </div>
