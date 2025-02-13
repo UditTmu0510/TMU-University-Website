@@ -78,7 +78,7 @@
             <div class="container">
                 <div class="gallery-header">
                 <h2 Class="tmu-text-primary mb-2 mt-5"><span>yoga and Meditation</span><span> Gallery</span></h2>
-                    <p class="lead">Explore our beautiful campus through these captivating images</p>
+                    <p class="lead">Explore our Yoga & Meditation camps through these captivating images</p>
                 </div>
                 <div class="gallery-grid">
                     <!-- Academic Blocks -->
