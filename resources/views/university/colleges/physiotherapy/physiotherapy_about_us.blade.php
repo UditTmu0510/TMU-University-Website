@@ -18,7 +18,7 @@
                     <p class="about-p mb-4">Physiotherapy, as a branch of rehabilitative medicine, focuses on helping patients maintain, recover, or enhance their physical abilities. Physiotherapists remediate impairments and disabilities while promoting mobility and movement potential through provisional diagnosis and physical interventions. Recognising the growing demand for physiotherapy services in the medical sector, Teerthanker Mahaveer University's Department of Physiotherapy, established in 2010, is committed to training professionals capable of delivering these vital services.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/aboutus/physio/physio.jpg')}}" alt="Department of Physiotherapy">
+                    <img src="{{asset('assets/img/aboutus/physio/physio.jpg')}}" class="rounded-3" alt="Department of Physiotherapy">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">As the best private physiotherapy college in UP, the Department of Physiotherapy operates with a team of competent and experienced core faculty, providing specialised knowledge to students. The curriculum has been thoughtfully designed following expert guidelines in the field. Students enjoy practical exposure at the 900+ beds super-speciality TMU hospital, conveniently located on the university campus.</p>
