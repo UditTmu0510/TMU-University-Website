@@ -31,7 +31,7 @@
                                 <h4 class="principal-name23">Prof. (Dr.) V K Jain</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
-                                    (कुलपति)
+                                    Vice Chancellor
                                 </p>
                             </div>
                         </div>

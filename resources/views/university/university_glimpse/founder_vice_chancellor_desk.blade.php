@@ -31,7 +31,7 @@
                                 <h4 class="principal-name23">Prof. R. K. Mittal</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
-                                    (संस्थापक कुलपति)
+                                    Founder Vice Chancellor
                                 </p>
                             </div>
                         </div>
