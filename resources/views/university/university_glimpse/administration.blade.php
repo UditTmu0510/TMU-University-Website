@@ -84,7 +84,7 @@
            
             </div>
 
-            <h2 class="tmu-text-primary tmu-page-heading mt-4 mb-3"><span>&nbsp;&nbsp;</span><span>Hod's</span></h2>
+            <h2 class="tmu-text-primary tmu-page-heading mt-4 mb-3"><span>Heads of </span><span>Departments</span></h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 mb-4"> 
               @foreach($hods as $hod)
               <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
