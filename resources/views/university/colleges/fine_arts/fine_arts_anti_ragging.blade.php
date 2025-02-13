@@ -37,8 +37,8 @@
 									<tr>
 										<td class="text-center">3</td>
 										<td class="text-center">Mr. Ankur Dev</td>
-										<td >Assistant Professor </td>
-										<td >9837435792</td>
+										<td class="text-center">Assistant Professor </td>
+										<td class="text-center">9837435792</td>
 
 									</tr>
 
