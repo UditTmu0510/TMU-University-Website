@@ -65,7 +65,7 @@
 
         <section id="why-us" class="why-us section-bg mb-5">
             <div class="container" data-aos="fade-up">
-                <h2 class="mt-5 mb-3 tmu-text-primary tmu-page-heading-left"><span> Student</span><span>
+                <h2 class="mt-5 mb-3 tmu-text-primary tmu-page-heading-left text-center"><span> Student</span><span>
                         Shuttle</span></h2>
                 <div class="row">
                     <div class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch mt-4">
