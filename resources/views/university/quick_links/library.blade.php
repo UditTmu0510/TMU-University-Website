@@ -600,7 +600,7 @@
 
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                    <h3>Library Management System:</h3>
+                    <h3 clas="mb-2 mt-3">Library Management System:</h3>
                     <p><a href="#" target="blank">Library Management Software (LMS)</a> The Teerthanker
                         Mahaveer University's Library uses a comprehensively featured, scalable library management
                         system, i.e. KOHA, an integrated multi-user library management system that supports the in-house
@@ -608,7 +608,7 @@
                         modules. The library updates its database daily with information about the latest procurement.
                         All the faculty and staff members have migrated to the latest computerized circulation system.
                         With KOHA, the management has become impeccable and streamlined.</p>
-                    <h3>Learning Management System (LMS):</h3>
+                    <h3 clas="mb-2 mt-3">Learning Management System (LMS):</h3>
                     <p>The Teerthanker Mahaveer University’s Digital Library is an Institutional Repository. The library
                         system is equipped with 140 high-performance computer systems. Besides, it contains the research
                         articles along with faculty members’ PPTs. This facility is open 24 hours a day, seven days a
@@ -616,27 +616,27 @@
 
                     <div class="read-more-content m-0">
 
-                        <h3>Digital Library:</h3>
+                        <h3 clas="mb-2 mt-3">Digital Library:</h3>
                         <p>Digital Library is a <a href="#" target="blank">Swadhyay Institutional
                                 Repository</a> of Teerthanker Mahaveer University. We have 140 Computer systems in
                             digital
                             library including all departmental unit of Central Library. It contains scanned copy of
                             previous
                             years question papers.</p>
-                        <h3>OPAC:</h3>
+                        <h3 clas="mb-2 mt-3">OPAC:</h3>
                         <p><a href="#" target="blank">Online Public Access Catalogue (OPAC)</a> allows
                             students
                             to access books, journals, magazines, and other materials online. It’s a collection of books
                             that contains all the most recent curricular books, with fresh additions made regularly. To
                             issue the book, one must be familiar with the list of books borrowed, as well as their due
                             dates. It allows for the rapid search of the library catalogue.</p>
-                        <h3>Online Information Search:</h3>
+                        <h3 clas="mb-2 mt-3">Online Information Search:</h3>
                         <p>For Research scholars, KRC is an outstanding service. It allows students easy access to
                             previous
                             projects, paper-writing, journals, etc. The KRC staff is quite welcoming and is always ready
                             to
                             assist the scholars in delivering crucial information.</p>
-                        <h3>Sodhganga:</h3>
+                        <h3 clas="mb-2 mt-3">Sodhganga:</h3>
                         <p><a href="https://shodhganga.inflibnet.ac.in/simple-search?query=Teerthanker+Mahaveer+University&go="
                                 target="blank">"Shodhganga"</a> is the title given to the INFLIBNET Centre’s digital
                             repository of Indian Electronic Theses and Dissertations. The Shodhganga@INFLIBNET Centre
@@ -645,7 +645,7 @@
                             scholarly
                             community. The repository can capture, indexing, storing, disseminating, and preserving ETDs
                             submitted by researchers.</p>
-                        <h3>SodhSindhu:</h3>
+                        <h3 clas="mb-2 mt-3">SodhSindhu:</h3>
                         <p>The <a href="https://ess.inflibnet.ac.in/" target="blank">e-ShodhSindhu</a> primarily caters
                             to
                             the needs of Research Scholars. It provides current and archival access to over 10,000 core
@@ -655,7 +655,7 @@
                             to
                             its member institutions. It majorly includes centrally funded technical institutions,
                             universities, and colleges.</p>
-                        <h3>Inflibnet:</h3>
+                        <h3 clas="mb-2 mt-3">Inflibnet:</h3>
                         <p>The Gandhinagar based <a href="https://www.inflibnet.ac.in/index.php"
                                 target="blank">Information
                                 and Library Network (INFLIBNET) Centre</a> is an Autonomous Inter-University Center
@@ -668,7 +668,7 @@
                             in
                             the modernization of university libraries in India by utilizing innovative technologies for
                             optimal information utilization.</p>
-                        <h3>NMEICT/ NPTEL:</h3>
+                        <h3 clas="mb-2 mt-3">NMEICT/ NPTEL:</h3>
                         <p>The <a href="https://nptel.ac.in/" target="blank">National Mission on Education through
                                 Information and Communication Technology (NMEICT)</a> is envisioned as a Centrally
                             Sponsored
@@ -684,7 +684,7 @@
                             largest online repository of courses for engineering, basic sciences, selected humanities
                             and
                             social sciences students.</p>
-                        <h3>SWAYAM:</h3>
+                        <h3 clas="mb-2 mt-3">SWAYAM:</h3>
                         <p>SWAYAM, a government-initiated effort that aims to meet the three cardinal principles of
                             education policy which involve accessibility, equity, and quality. The goal of this
                             initiative
@@ -702,7 +702,7 @@
                         <p>To expand your knowledge, visit <a href="https://swayam.gov.in/" target="blank">Swayam</a>
                             now!
                         </p>
-                        <h3>e-PG Pathshala:</h3>
+                        <h3 clas="mb-2 mt-3">e-PG Pathshala:</h3>
                         <p>To avail Study-At-Home facility amid the Corona outbreak, the MHRD along with UGC started
                             E-PG
                             Pathshala, an initiative under National Mission on Education through ICT (NME-ICT). It is a
@@ -717,7 +717,7 @@
                             language editors, etc.</p>
                         <p>So, level up your knowledge by utilizing an excellent learning platform. Visit <a
                                 href="https://epathshala.nic.in/" targey="blank">e-PG Pathshala</a> right now.</p>
-                        <h3>Lending Service:</h3>
+                        <h3 clas="mb-2 mt-3">Lending Service:</h3>
                         <p>This is the key feature of library services. To issue/return the books, the students need to
                             reveal their University Identity Card. The KRC lending service allows freedom from this. It
                             is
