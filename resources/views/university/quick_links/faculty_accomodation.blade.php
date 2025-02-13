@@ -69,7 +69,7 @@
 
     <section class="amenities-section">
       <div class="container">
-        <h2 Class="tmu-text-primary mb-4 mt-5 text-center"><span>Accomodation </span><span>Amenities</span></h2>
+        <h2 Class="tmu-text-primary mb-4 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
         <div class="amenities-carousel">
           <!-- Repeat this block for each amenity -->
           <div class="amenity-item">
@@ -143,7 +143,7 @@
       <div class="container">
         <div class="gallery-header">
           <h2 Class="tmu-text-primary mb-2 mt-5"><span>Faculty Accomodation </span><span>Gallery</span></h2>
-          <p class="lead">Explore our faculty blocks through these captivating images</p>
+          <p class="lead">Explore our beautiful campus through these captivating images</p>
         </div>
 
         <div class="gallery-grid">

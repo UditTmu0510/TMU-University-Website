@@ -26,7 +26,7 @@
 		</li>
 		<hr>
 		<!-- <li><a href="#" class="text-dark fw-semibold side-head" data-filter="*">Others</a></li> -->
-		<li><a href="{{route('iic.successful.startup.story')}}" data-filter=".sf-shorts">Successfull Startup Story</a></li>
+		<li><a href="{{route('iic.successful.startup.story')}}" data-filter=".sf-shorts">Successful Startup Story</a></li>
 		<li><a href="{{route('iic.contact')}}" data-filter=".sf-trousers">Contact US</a></li>
 		<li>
 			<hr>

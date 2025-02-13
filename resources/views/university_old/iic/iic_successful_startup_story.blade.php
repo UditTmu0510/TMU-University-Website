@@ -3,7 +3,7 @@
 
 <div class="col-12 col-md-9 col-lg-10 mt-3 mt-sm-0 pt-3 pt-md-5 px-4">
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Successfull </span><span>Startup Story</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading"><span>Successful </span><span>Startup Story</span></h1>
 
 
     <div class="container">
