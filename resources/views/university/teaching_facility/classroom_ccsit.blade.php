@@ -9,7 +9,7 @@
         </div>
 
         <div class="row gutter-30 col-mb-5 justify-content-center mt-3">
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/1.jpg')}}" alt="" height="250">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/2.jpg')}}"
@@ -37,7 +37,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/3.jpg')}}"
@@ -52,7 +52,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/4.jpg')}}" alt="" height="250">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/5.jpg')}}" alt="" height="250">
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/6.jpg')}}" alt="" height="250">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/7.jpg')}}" alt="" height="250">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/8.jpg')}}" alt="" height="250">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/9.jpg')}}" alt="" height="250">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/10.jpg')}}" alt="" height="250">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/11.jpg')}}" alt="" height="250">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/12.jpg')}}" alt="" height="250">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/13.jpg')}}" alt="" height="250">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/14.jpg')}}" alt="" height="250">
@@ -187,7 +187,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/15.jpg')}}" alt="" height="250">
@@ -199,7 +199,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/16.jpg')}}" alt="" height="250">
@@ -211,7 +211,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/17.jpg')}}" alt="" height="250">
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/18.jpg')}}" alt="" height="250">
@@ -236,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/19.jpg')}}" alt="" height="250">
@@ -249,7 +249,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/20.jpg')}}" alt="" height="250">
@@ -262,7 +262,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/21.jpg')}}" alt="" height="250">
@@ -275,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/22.jpg')}}" alt="" height="250">
@@ -288,7 +288,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/23.jpg')}}" alt="" height="250">
@@ -300,7 +300,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/24.jpg')}}" alt="" height="250">
@@ -313,7 +313,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/25.jpg')}}" alt="" height="250">
@@ -325,7 +325,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/26.jpg')}}" alt="" height="250">
@@ -338,7 +338,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/27.jpg')}}" alt="" height="250">
@@ -350,7 +350,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/28.jpg')}}" alt="" height="250">
@@ -362,7 +362,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/29.jpg')}}" alt="" height="250">
@@ -375,7 +375,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/ccsit/30.jpg')}}" alt="" height="250">

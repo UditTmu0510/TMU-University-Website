@@ -9,7 +9,7 @@
         </div>
 
         <div class="row gutter-30 col-mb-5 justify-content-center mt-3">
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/1.jpg')}}" alt="" height="250">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/2.jpg')}}"
@@ -37,7 +37,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/3.jpg')}}"
@@ -52,7 +52,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/4.jpg')}}" alt="" height="250">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/5.jpg')}}" alt="" height="250">
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6>
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
                         <img src="{{asset('/assets/img/facilities/classroom/dental/6.jpg')}}" alt="" height="250">
