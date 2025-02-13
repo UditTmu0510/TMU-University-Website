@@ -392,7 +392,6 @@ document.addEventListener('DOMContentLoaded', function() {
         profile: {
             img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
             name: "Radhika Mathur",
-            link: "#",
             designation: "Resident Physician",
             company: "HCA Florida Oak Hill Hospital",
             course: "MBBS",
@@ -439,20 +438,6 @@ document.addEventListener('DOMContentLoaded', function() {
             company: "Saudi German Hospitals Group",
              course:"MBA",
             graduationYear: "2011",
-        },
-    },
-    {
-        name: "Speaks about Medical College & Research Centre",
-        text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-        img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-        profile: {
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            name: "Radhika Mathur",
-            link: "#",
-            designation: "Resident Physician",
-            company: "HCA Florida Oak Hill Hospital",
-            course: "MBBS",
-            graduationYear: "2019",
         },
     },
 ];
