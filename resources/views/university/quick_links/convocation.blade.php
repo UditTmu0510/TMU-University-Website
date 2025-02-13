@@ -539,7 +539,7 @@
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=bKii0LxoNDLoKqaO?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '3':
-				frameDiv = `<iframe width="100" height="100" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=_FftLxcKUrdwQqh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=_FftLxcKUrdwQqh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '4':
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jJ9v__La3ps?autoplay=1" allow='autoplay' title="Mega HR Conclave | Mr. Krishna Kumar, Head HR, Maruti Suzuki India | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
@@ -609,7 +609,7 @@
             <div class="container">
                 <div class="gallery-header">
                     <h2 Class="tmu-text-primary mb-2 mt-5"><span>Convocation </span><span>Gallery</span></h2>
-                    <!-- <p class="lead">Explore our beautiful campus through these captivating images</p> -->
+                    
                 </div>
 
                 <div class="gallery-filters">
