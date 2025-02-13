@@ -31,7 +31,7 @@
                                 <h4 class="principal-name23">Suresh Jain</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
-                                    (कुलाधिपति)
+                                    Chancellor
                                 </p>
                             </div>
                         </div>
