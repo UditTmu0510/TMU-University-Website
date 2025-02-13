@@ -11,7 +11,7 @@
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mt-5 mb-4">
                     <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">TMU Hospital:  <span
                             style="font-weight:700!important;"> Comprehensive Healthcare Services</span></h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none"
+                    <h1 class="mb-3 d-block d-md-none"
                         style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
                         TMU Hospital: <span> Comprehensive Healthcare Services</span></h1>
                 </div>
@@ -135,7 +135,7 @@
                 <div class="col-md-5">
                     <div class="h-100 pt-3 mt-4">
                         <div class="facility-section p-4">
-                            <h5 class="fw-bold">Medical Facility to the Students:</h5>
+                            <h5 class="fw-bold lh-sm">Medical Facility to the Students:</h5>
                             <p>All the bonafide students of various programs at the university are provided with the
                                 below
                                 complimentary medical facilities at TMU hospital as per the policy:</p>
@@ -163,7 +163,7 @@
                 <div class="col-md-7">
                     <div class="h-100 pt-3 mt-4">
                         <div class="facility-section p-4">
-                            <h5 class="fw-bold">In addition, following facilities are available:</h5>
+                            <h5 class="fw-bold lh-sm">In addition, following facilities are available:</h5>
                             <ul style="margin-left: 20px;">
                                 <li>A Dialysis unit with latest Haemodialysis machines</li>
                                 <li>A well developed Neurology Lab with facilities of EEG, NCV, EMG and BERA</li>
@@ -245,7 +245,7 @@
             <div class="container">
                 <div class="gallery-header">
                 <h2 Class="tmu-text-primary mb-2 mt-5"><span>Hospital </span><span>Gallery</span></h2>
-                    <p class="lead">Explore our beautiful campus through these captivating images</p>
+                    <p class="lead">Explore our hospital glimpse through these captivating images</p>
                 </div>
 
                 <div class="gallery-grid">
