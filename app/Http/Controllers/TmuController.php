@@ -231,7 +231,7 @@ class TmuController extends Controller
     public function iic_home()
     {
         $news = News::where('status', 1)
-            ->where('organised_by', 'iic')
+            ->where('category', 'IIC')
             ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
             ->get();
         return view('university.iic.iic', compact('news'));
