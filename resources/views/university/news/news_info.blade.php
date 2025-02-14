@@ -67,6 +67,7 @@
     }
 
 
+
     @media (max-width: 768px) {
 
         /* Tablet and Mobile view */
