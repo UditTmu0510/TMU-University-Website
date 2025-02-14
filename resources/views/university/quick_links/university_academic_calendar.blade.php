@@ -1,6 +1,15 @@
 @extends('layouts.university.departments.quicklinks_with_sidebar')
 @section('content')
 
+<style>
+    @media screen and (max-width:540px)
+    {
+        #myTabs, .tab-content.second{
+        border:none !important;
+    }
+    }
+</style>
+
 
 <div class="main-content">
     <div class="container">
@@ -9,9 +18,9 @@
         <div class="row mx-0">
             <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span> Academic Calendar for </span><span> the
                     Session 2024-25</span></h1>
-            <div class="row col-mb-50">
+            <div class="row col-mb-50 mx-auto">
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-0">
-                    <div class="container my-3 py-2">
+                    <div class="my-3 py-2">
                         <ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs"
                             role="tablist">
                             <li class="nav-item" role="presentation">
