@@ -114,7 +114,7 @@
                   <td>Member</td>
                 </tr>
                 <tr>
-                  <td>Dr. Aditya Kr. Sharma</td>
+                  <td></td>
                   <td>Registrar</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member Secretary</td>
@@ -220,10 +220,10 @@
                 </tr>
 
                 <tr>
-                  <td>Dr. Aditya Kr. Sharma</td>
+                  <td></td>
                   <td>Registrar</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                  <td>Ex-Officio Member Secretary</td>
+                  <td>Member Secretary</td>
                 </tr>
               </tbody>
             </table>
@@ -514,7 +514,7 @@
                 </tr>
 
                 <tr>
-                  <td>Dr. Aditya Kr. Sharma</td>
+                  <td></td>
                   <td>Registrar</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member Secretary</td>
@@ -663,12 +663,12 @@
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Secretary</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                   <td>Dr Aditya Sharma</td>
                   <td>Registrar</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Special Invitee</td>
-                </tr>
+                </tr> -->
                 <tr>
                   <td>Shri Ashish Jain</td>
                   <td>Internal Auditor</td>
@@ -757,12 +757,12 @@
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Member</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                   <td>Dr. Aditya Sharma</td>
                   <td>Registrar</td>
                   <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
                   <td>Ex-officio Secretary</td>
-                </tr>
+                </tr> -->
               </tbody>
               </tbody>
             </table>
