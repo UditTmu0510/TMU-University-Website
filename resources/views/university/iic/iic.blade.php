@@ -210,7 +210,7 @@
 
 						<!-- <p class="font-primary fw-light text-black">Interactively seize bricks-and-clicks channels before empowered users.</p> -->
 						<!-- <a href="/block-content-blog.html" class="button button-dark bg-dark bg-opacity-10 text-dark h-bg-color m-0 px-4 py-2 d-block mx-auto mx-md-1 d-none d-md-block">View all Posts</a> -->
-						<a href="/block-content-blog.html" class="tmu-btn btn-1 d-none d-md-block py-2 mb-3 w-fit-content mx-auto">View all Post</a>
+						<a href="{{ url('/news?category=IIC') }}" class="tmu-btn btn-1 d-none d-md-block py-2 mb-3 w-fit-content mx-auto">View all Post</a>
 					</div>
 
 					<div class="col-lg-9">
@@ -242,7 +242,7 @@
 						</div>
 
 						<!-- <a href="https://www.tmu.ac.in/news/guest-lecture-on-cutting-edge-instrumentation-in-forensic-science" class="button d-block d-md-none button-dark bg-dark bg-opacity-10 text-dark h-bg-color m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4">View all Posts</a> -->
-						<a href="" class="tmu-btn btn-1 d-block d-md-none mt-4"> View all Post</a>
+						<a href="{{ url('/news?category=IIC') }}" class="tmu-btn btn-1 d-block d-md-none mt-4"> View all Post</a>
 					</div>
 				</div>
 			</div>
