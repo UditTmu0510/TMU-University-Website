@@ -12,7 +12,7 @@
 <section id="content" class="w-100 mb-4">
   <div class="content-wrap py-0">
 
-    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span> How to </span><span> Apply</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading mt-4"><span> How to </span><span> Apply</span></h1>
 
 
     <div class="container py-2 px-lg-5">
