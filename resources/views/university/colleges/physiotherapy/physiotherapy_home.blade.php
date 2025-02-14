@@ -209,7 +209,7 @@
 		</div>
 
 		<!-----tion Start-->
-		<<section id="content" class="prog-bm">
+		<section id="content" class="prog-bm">
 			<div class="content-wrap py-0" style="overflow: visible;">
 				<!-- Code for the Desktop view -->
 				<div class="container d-none d-lg-block">
