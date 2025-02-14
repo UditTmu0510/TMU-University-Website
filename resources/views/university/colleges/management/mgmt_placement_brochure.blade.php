@@ -195,6 +195,22 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
+                            <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/Placement-Brochure-2023-24.pdf')}}"
+                                target="_blank"><img
+                                    src="{{asset('/assets/img/placement_brochure/management/Placement-Brochure-2023-24-1.jpg')}}" style="height: 100%; "
+                                    alt="Book Cover Image"></a>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <h2>
+                            <span>Placement Brochure</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="front">
+                        <div class="cover">
                             <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement_brochure_2022_23.pdf')}}"
                                 target="_blank"><img
                                     src="{{asset('/assets/img/placement_brochure/management/brochure_22_23.jpg')}}" style="height: 100%; "
@@ -328,6 +344,25 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
+                    <div class="book-wrapper">
+                        <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/Placement-Brochure-2023-24.pdf')}}"
+                            target="_blank">
+                            <div class="book-items">
+                                <div class="main-book-wrap">
+                                    <div class="book-cover">
+                                        <div class="book-inside"></div>
+                                        <div class="book-image">
+                                            <img src="{{asset('/assets/img/placement_brochure/management/Placement-Brochure-2023-24-1.jpg')}}" />
+                                            <div class="effect"></div>
+                                            <div class="light"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item ">
                     <div class="book-wrapper">
                         <a href="{{asset('/assets/pdf/placement_brochure/TMIMT/placement_brochure_2022_23.pdf')}}"
                             target="_blank">
