@@ -23,124 +23,98 @@
                             <td class="text-center">Chairperson</td>
                             <td class="text-center">9917200216</td>
                         </tr>
+
                         <tr>
-                            <td class="text-center">2</td>
+                            <td class="text-center">2.</td>
                             <td class="text-center">Dr. Chanchal Chawla</td>
                             <td class="text-center">Proctor</td>
                             <td class="text-center">9808358721</td>
-
                         </tr>
 
                         <tr>
-                            <td class="text-center">3</td>
-                            <td class="text-center">Dr. K.K.Pandey</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">4</td>
-                            <td class="text-center">Dr. Amit Kansal</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">5</td>
-                            <td class="text-center">Ms. Anshu Chauhan</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">9720008334</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">6</td>
-                            <td class="text-center">Dr. Anshul Sharma</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">7</td>
-                            <td class="text-center">Dr. Rajeev Verma</td>
-                            <td class="text-center">Member Secretary & FIP</td>
-                            <td class="text-center">9412483454</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">8</td>
-                            <td class="text-center">Dr. Mohit Rastogi</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">9456078204</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">9</td>
-                            <td class="text-center">Ms. Pankhuri Agarwal</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">8958096842</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">10</td>
-                            <td class="text-center">Mr. Anand Joshi</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">7599017428</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">11</td>
+                            <td class="text-center">3.</td>
                             <td class="text-center">Dr. Manoj Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">7417606465</td>
-
                         </tr>
 
                         <tr>
-                            <td class="text-center">12</td>
+                            <td class="text-center">4.</td>
+                            <td class="text-center">Dr. K K Pandey</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9012058327</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">5.</td>
+                            <td class="text-center">Ms. Anshu Chauhan</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9720008334</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">6.</td>
+                            <td class="text-center">Dr. Anshul Sharma</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9897865068</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">7.</td>
+                            <td class="text-center">Dr. Rajiv Verma</td>
+                            <td class="text-center">Member Secretary & FIP</td>
+                            <td class="text-center">9389658746</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">8.</td>
+                            <td class="text-center">Dr. Mohit Rastogi</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9456078204</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">9.</td>
+                            <td class="text-center">Ms. Pankhuri Agarwal</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8958096842</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">10.</td>
+                            <td class="text-center">Mr. Anand Joshi</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">7599017428</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">11.</td>
                             <td class="text-center">Dr. Pratibha Sharma</td>
                             <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
+                            <td class="text-center">9389984020</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">13</td>
+                            <td class="text-center">12.</td>
                             <td class="text-center">Dr. Nitin Kumar Agarwal</td>
                             <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
+                            <td class="text-center">8171798907</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">14</td>
-                            <td class="text-center">Dr. Ankit Kumar</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">15</td>
-                            <td class="text-center">Dr. Rahul</td>
+                            <td class="text-center">13.</td>
+                            <td class="text-center">Dr. Rahul Malhotra</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9412145230</td>
-
                         </tr>
 
                         <tr>
-                            <td class="text-center">16</td>
-                            <td class="text-center">Dr. Avinash Raj Kumar</td>
+                            <td class="text-center">14.</td>
+                            <td class="text-center">Dr. Avinash Rajkumar</td>
                             <td class="text-center">Member</td>
-                            <td class="text-center">--</td>
-                                    </tbody>
+                            <td class="text-center">9456079149</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -172,95 +146,123 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center">1</td>
+                            <td class="text-center">1.</td>
                             <td class="text-center">Prof.(Dr.) Vipin Jain</td>
                             <td class="text-center">Chairperson</td>
                             <td class="text-center">9917200216</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">2</td>
+                            <td class="text-center">2.</td>
                             <td class="text-center">Dr. Chanchal Chawla</td>
                             <td class="text-center">Proctor</td>
                             <td class="text-center">9808358721</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">3</td>
+                            <td class="text-center">3.</td>
                             <td class="text-center">Dr. K.K.Pandey</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">--</td>
 
                         </tr>
+
                         <tr>
-                            <td class="text-center">4</td>
+                            <td class="text-center">4.</td>
                             <td class="text-center">Dr. Amit Kansal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">--</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">5</td>
+                            <td class="text-center">5.</td>
                             <td class="text-center">Ms. Anshu Chauhan</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9720008334</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">6</td>
+                            <td class="text-center">6.</td>
                             <td class="text-center">Dr. Anshul Sharma</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">--</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">7</td>
+                            <td class="text-center">7.</td>
                             <td class="text-center">Dr. Mohit Rastogi</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9456078204</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">8</td>
+                            <td class="text-center">8.</td>
                             <td class="text-center">Dr. Rajeev Verma</td>
                             <td class="text-center">Member Secretary & FIP</td>
                             <td class="text-center">9412483454</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">9</td>
+                            <td class="text-center">9.</td>
                             <td class="text-center">Mr. Anand Joshi</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">7599017428</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">10</td>
+                            <td class="text-center">10.</td>
                             <td class="text-center">Dr. Nitin Kumar Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">8171798907</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">11</td>
+                            <td class="text-center">11.</td>
                             <td class="text-center">Dr. Rahul Malhotra</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9412145230</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">12</td>
+                            <td class="text-center">12.</td>
                             <td class="text-center">Ms. Pankhuri Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">8958096842</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">13</td>
+                            <td class="text-center">13.</td>
                             <td class="text-center">Dr. Manoj Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">7417606465</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">14</td>
+                            <td class="text-center">14.</td>
                             <td class="text-center">Dr. Pratibha Sharma</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">--</td>
+
                         </tr>
+
                         <tr>
-                            <td class="text-center">15</td>
+                            <td class="text-center">15.</td>
                             <td class="text-center">Dr. Ankit Kumar</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">--</td>
+
                         </tr>
                     </tbody>
                 </table>
