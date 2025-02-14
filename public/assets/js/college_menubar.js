@@ -860,7 +860,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var myTabElement = document.getElementById('myTab');
 
     if (!myTabElement) {
-        console.error("Error: Element with id 'myTab' not found.");
         return;
     }
 
@@ -1013,7 +1012,7 @@ function showSlide(index) {
         slider.style.transform = `translateX(${offset}%)`;
         currentIndex = index;
     } catch (error) {
-        console.error("Error in showSlide function:", error.message);
+        return;
     }
 }
 
@@ -1055,7 +1054,9 @@ for (i = 0; i < acc.length; i++) {
             for (var j = 0; j < allPanels.length; j++) {
                 allPanels[j].style.display = 'none';
                 var accordion = allPanels[j].previousElementSibling;
-                accordion.querySelector(".icon").innerHTML = "+";
+                const icon = accordion.querySelector(".icon")
+                if(icon)
+                    icon.innerHTML = "+";
                 accordion.classList.remove("clicked"); // Remove clicked class from other accordions
             }
             panel.style.display = "block";
@@ -1433,12 +1434,12 @@ jQuery(document).ready(function () {
 const menuButton = document.querySelector('.menu-button');
 const tooltip = document.getElementById('menu-tooltip');
 
-menuButton.addEventListener('mouseenter', () => {
+menuButton?.addEventListener('mouseenter', () => {
     tooltip.style.visibility = 'visible';
     tooltip.style.opacity = '1';
 });
 
-menuButton.addEventListener('mouseleave', () => {
+menuButton?.addEventListener('mouseleave', () => {
     tooltip.style.visibility = 'hidden';
     tooltip.style.opacity = '0';
 });

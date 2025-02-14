@@ -71,7 +71,10 @@ function closeTestimonialModal() {
 // Footer page gallery section js start
 const gallery123 = document.querySelectorAll('.gallery123 img');
 const lightbox123 = document.querySelector('.lightbox123');
-const lightboxImg123 = lightbox123.querySelector('img');
+let lightboxImg123;
+if(lightbox123)
+  lightboxImg123 = lightbox123.querySelector('img');
+
 const closeBtn123 = document.querySelector('.close-btn123');
 const prevBtn123 = document.querySelector('.prev-btn123');
 const nextBtn123 = document.querySelector('.next-btn123');
@@ -101,12 +104,18 @@ gallery123.forEach((img, index) => {
   img.addEventListener('click', () => showLightbox123(index));
 });
 
-closeBtn123.addEventListener('click', hideLightbox123);
-prevBtn123.addEventListener('click', showPrev123);
-nextBtn123.addEventListener('click', showNext123);
+if(closeBtn123)
+  closeBtn123.addEventListener('click', hideLightbox123);
+if(prevBtn123)
+  prevBtn123.addEventListener('click', showPrev123);
+if(nextBtn123)
+  nextBtn123.addEventListener('click', showNext123);
 
-lightbox123.addEventListener('click', (e) => {
-  if (e.target === lightbox123) hideLightbox123();
-});
+if(lightbox123)
+{
+  lightbox123.addEventListener('click', (e) => {
+    if (e.target === lightbox123) hideLightbox123();
+  });
+}
 
     // Footer page gallery section js end
