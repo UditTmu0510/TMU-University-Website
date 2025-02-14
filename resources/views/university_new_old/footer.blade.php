@@ -120,7 +120,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-lg-4 widget_links">
 								<div class="widget">
 
-									<img style="width: 60%;" alt="Teertahnker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}">
+									<img style="width: 60%;" alt="Teerthanker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}">
 
 
 									<!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
