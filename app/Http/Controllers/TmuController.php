@@ -384,6 +384,10 @@ class TmuController extends Controller
     {
         return view('university.nss.nss_contactus');
     }
+    public function nss_coordinator()
+    {
+        return view('university.nss.nss_our_coordinator');
+    }
 
     // NEP
 
