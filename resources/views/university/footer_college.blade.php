@@ -193,7 +193,7 @@
 							</div>
 
 							<div class="col-6 col-lg-2 widget_links">
-								<h4>Apply Now</h4>
+								<h4>Quick Links</h4>
 								<ul>
 									<li><a href="{{route('application.form')}}" target="_blank">Application Form</a></li>
 									<!--<li><a href="#">Entrance Test</a></li>-->
