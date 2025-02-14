@@ -115,7 +115,7 @@
                         <div class="row g-3">
                             <div class="col-12">
                                 <img src="{{asset('assets/img/loan/Doctoral-programmes-4.jpg')}}"
-                                    class="img-fluid" style="height: 350px; width: 100%;" alt="Property 1">
+                                    class="img-fluid" style="height: 100%; width: 100%;" alt="Property 1">
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                         <div class="row g-3">
                             <div class="col-12">
                                 <img src="{{asset('assets/img/loan/Postgraduate-programmes-thumb-1.jpg')}}"
-                                    class="img-fluid" style="height: 350px; width: 100%;" alt="Property 1">
+                                    class="img-fluid" style="height: 100%; width: 100%;" alt="Property 1">
                             </div>
                         </div>
                     </div>
