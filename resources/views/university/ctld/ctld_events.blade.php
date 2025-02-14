@@ -164,7 +164,7 @@
                                         <div class="entry-meta mt-3">
                                             <ul>
                                                 <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i> {{$item->event_date}}</li>
-                                                <li style="margin: 0 0 8px 0;"><a href="#"><i class="uil uil-user"></i> admin</a></li>
+                                                <!-- <li style="margin: 0 0 8px 0;"><a href="#"><i class="uil uil-user"></i> admin</a></li> -->
                                                 <li style="margin: 0 0 8px 0;"><i class="uil uil-folder-open"></i> <a href="#">{{$item->category}}</a>
                                                 </li>
                                             </ul>
