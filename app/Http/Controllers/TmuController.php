@@ -230,8 +230,13 @@ class TmuController extends Controller
 
     public function iic_home()
     {
-        return view('university.iic.iic');
+        $news = News::where('status', 1)
+            ->where('organised_by', 'iic')
+            ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
+            ->get();
+        return view('university.iic.iic', compact('news'));
     }
+
 
     public function iic_about_cell()
     {
@@ -1290,7 +1295,7 @@ class TmuController extends Controller
     public function alumni_home()
     {
         $news = News::where('status', 1)
-            ->where('category','Alumni')
+            ->where('category', 'Alumni')
             ->whereNotNull('monaco_image_path')
             ->where('monaco_image_path', '!=', '')
             ->select('event_title', 'event_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
@@ -1308,7 +1313,7 @@ class TmuController extends Controller
         foreach ($activeBlogs as $blog) {
             $blog->formatted_date = \Carbon\Carbon::parse($blog->posted_at)->format('D, M d'); // Format date as Mon, Feb 12
         }
-        return view('university.alumni.alumni', compact( 'news', 'activeBlogs'));
+        return view('university.alumni.alumni', compact('news', 'activeBlogs'));
     }
     public function alumni_overview()
     {
