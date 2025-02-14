@@ -54,7 +54,7 @@
                                 <p><strong>Few Senior Administrative Officers</strong></p>
                                 <ul class="m-ol-list ps-4">
 
-                                    <li>Dr. Aditya Sharma, Registrar</li>
+                                    <!-- <li>Dr. Aditya Sharma, Registrar</li> -->
                                     <li>Dr. Pankaj Kumar Singh, Director-CTLD</li>
                                     <li>Mr Manoj Jain, Director-HR</li>
                                     <li>Prof. Amit Kansal, Associate Dean (Academics)</li>
