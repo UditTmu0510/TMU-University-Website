@@ -21,7 +21,7 @@
                             <tr>
                                 <td style="text-align: center;">1.</td>
                                 <td>
-                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/1-min.pdf')}}" target="_blank">
+                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/1.pdf')}}" target="_blank">
                                         How Nursing Theory Informs Implementation Science: A Systematic Review of Evidence-Based Practices and Nurse-Led Initiatives for Sustainable Healthcare
                                     </a>
                                 </td>
@@ -30,7 +30,7 @@
                             <tr>
                                 <td style="text-align: center;">2.</td>
                                 <td>
-                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/2-min.pdf')}}" target="_blank">
+                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/2.pdf')}}" target="_blank">
                                         Evaluating the Impact of Video-Assisted Teaching on Personal Hygiene Knowledge Among School Children in Moradabad, Uttar Pradesh
                                     </a>
                                 </td>
@@ -39,7 +39,7 @@
                             <tr>
                                 <td style="text-align: center;">3.</td>
                                 <td>
-                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/3-min.pdf')}}" target="_blank">
+                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/3.pdf')}}" target="_blank">
                                         Understanding Disaster Preparedness: A Knowledge Assessment Among Agriculture Students At Teerthanker Mahaveer University, Moradabad, U.P.
                                     </a>
                                 </td>
@@ -48,7 +48,7 @@
                             <tr>
                                 <td style="text-align: center;">4.</td>
                                 <td>
-                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/4-min.pdf')}}" target="_blank">
+                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/4.pdf')}}" target="_blank">
                                         Point Prevalence of Musculoskeletal Pain Among Bankers Visiting Teerthanker Mahaveer University OPD
                                     </a>
                                 </td>
@@ -57,7 +57,7 @@
                             <tr>
                                 <td style="text-align: center;">5.</td>
                                 <td>
-                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/5-min.pdf')}}" target="_blank">
+                                    <a href="{{asset('/assets/pdf/journals/nursing/archives/5.pdf')}}" target="_blank">
                                         Patients’ Satisfaction Regarding Nurse-Patient Communication Attending a Teaching Hospital, Bharatpur, Chitwan
                                     </a>
                                 </td>
