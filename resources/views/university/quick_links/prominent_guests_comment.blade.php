@@ -294,7 +294,7 @@
             <button type="button" class="btn-close custom-close" data-bs-dismiss="modal" aria-label="Close">X</button>
             <div class="modal-body text-center">
                 <img src="/assets/img/37.jpg" class="img-fluid modal-image" alt="Guest Image">
-                <h5 class="modal-title mt-3">Guest Image</h5>
+                <!-- <h5 class="modal-title mt-3">Guest Image</h5> -->
             </div>
     </div>
 </div>
