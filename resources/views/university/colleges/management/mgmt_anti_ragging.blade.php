@@ -17,11 +17,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="text-center">1.</td>
-                            <td class="text-center">Prof.(Dr.) Vipin Jain</td>
-                            <td class="text-center">Chairperson</td>
-                            <td class="text-center">9917200216</td>
+                        <td class="text-center">1.</td>
+                        <td class="text-center">Prof.(Dr.) Vipin Jain</td>
+                        <td class="text-center">Chairperson</td>
+                        <td class="text-center">9917200216</td>
+
                         </tr>
 
                         <tr>
@@ -29,6 +29,7 @@
                             <td class="text-center">Dr. Chanchal Chawla</td>
                             <td class="text-center">Proctor</td>
                             <td class="text-center">9808358721</td>
+
                         </tr>
 
                         <tr>
@@ -36,6 +37,7 @@
                             <td class="text-center">Dr. Manoj Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">7417606465</td>
+
                         </tr>
 
                         <tr>
@@ -43,6 +45,7 @@
                             <td class="text-center">Dr. K K Pandey</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9012058327</td>
+
                         </tr>
 
                         <tr>
@@ -50,6 +53,7 @@
                             <td class="text-center">Ms. Anshu Chauhan</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9720008334</td>
+
                         </tr>
 
                         <tr>
@@ -57,6 +61,7 @@
                             <td class="text-center">Dr. Anshul Sharma</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9897865068</td>
+
                         </tr>
 
                         <tr>
@@ -64,6 +69,7 @@
                             <td class="text-center">Dr. Rajiv Verma</td>
                             <td class="text-center">Member Secretary & FIP</td>
                             <td class="text-center">9389658746</td>
+
                         </tr>
 
                         <tr>
@@ -71,6 +77,7 @@
                             <td class="text-center">Dr. Mohit Rastogi</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9456078204</td>
+
                         </tr>
 
                         <tr>
@@ -78,6 +85,7 @@
                             <td class="text-center">Ms. Pankhuri Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">8958096842</td>
+
                         </tr>
 
                         <tr>
@@ -85,6 +93,7 @@
                             <td class="text-center">Mr. Anand Joshi</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">7599017428</td>
+
                         </tr>
 
                         <tr>
@@ -92,6 +101,7 @@
                             <td class="text-center">Dr. Pratibha Sharma</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9389984020</td>
+
                         </tr>
 
                         <tr>
@@ -99,6 +109,7 @@
                             <td class="text-center">Dr. Nitin Kumar Agarwal</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">8171798907</td>
+
                         </tr>
 
                         <tr>
@@ -106,6 +117,7 @@
                             <td class="text-center">Dr. Rahul Malhotra</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9412145230</td>
+
                         </tr>
 
                         <tr>
@@ -113,6 +125,7 @@
                             <td class="text-center">Dr. Avinash Rajkumar</td>
                             <td class="text-center">Member</td>
                             <td class="text-center">9456079149</td>
+
                         </tr>
                     </tbody>
                 </table>
