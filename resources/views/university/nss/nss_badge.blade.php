@@ -14,7 +14,7 @@
           <p class="mb-3 text-justify">The symbol for the NSS has been based on the giant Rath Wheel of the world famous Konark Sun Temple (The Black Pagoda) situated in Orissa, India. The wheel portrays the cycle of creation, preservation and release and signifies the movement in life across time and space, the symbol thus stands for continuity as well as change and implies the continuous striving of NSS for social change.</p>
           
           <div class="nss-badge">
-          <img src="{{asset('assets/img/nss.jpg')}}">
+          <img src="{{asset('/assets/img/nss.jpg')}}">
           </div>
 
           <h3 class="mb-2 pb-0 tmu-text-primary fw-bold"><span>Badge of</span> <span>NSS</span></h3>
