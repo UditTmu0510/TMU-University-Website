@@ -290,6 +290,7 @@ Route::get('/tmu/iqac-cell/institutional-values/commemorative-days', [TmuControl
 
 // QUICK_LINKS
 Route::get('/tmu/disciplinary-rules', [TmuController::class, 'disciplinary_rules'])->name('disciplinary.rules');
+Route::get('/tmu/industry-academic-alliances', [TmuController::class, 'industry_academic_alliances'])->name('industry.academic.alliances');
 Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_sports_calendar'])->name('university.sports.calendar');
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
