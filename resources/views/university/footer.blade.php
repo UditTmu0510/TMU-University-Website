@@ -283,7 +283,7 @@ $(document).ready(function() {
                             href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a
                             href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
                     </div>
-                    Copyrights &copy; 2024 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
+                    Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
                 </div>
 
                 <div class="col-md-6 text-center text-md-end pb-5 pb-md-2 mb-5 mb-md-0">

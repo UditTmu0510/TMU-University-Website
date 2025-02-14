@@ -268,7 +268,7 @@
 					<div class="copyrights-menu copyright-links">
 						<a href="{{route('university.anti.ragging.committee')}}">Anti Ragging</a>/<a href="{{route('nirf.home')}}">NIRF</a>/<a href="{{route('naac.home')}}">NAAC</a>/<a href="{{route('ctld.home')}}">CTLD</a>/<a href="{{route('crc.home')}}">Placement</a>/<a href="{{route('iqac.about')}}">IQAC</a>
 						</div>
-					Copyrights &copy; 2024 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
+					Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
 				</div>
 
 				<div class="col-md-6 text-center text-md-end pb-5 pb-md-2 mb-5 mb-md-0">
