@@ -210,7 +210,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Example Cards with different images -->
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 mt-2">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
                             <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 mt-2">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
                             <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 mt-2">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
                             <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
