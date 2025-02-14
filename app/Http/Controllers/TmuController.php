@@ -656,6 +656,11 @@ class TmuController extends Controller
         return view('university.quick_links.infrastructure');
     }
 
+    public function industry_academic_alliances()
+    {
+        return view('university.quick_links.industry_academic_alliances');
+    }
+
     public function disciplinary_rules()
     {
         return view('university.quick_links.disciplinary_rules');
