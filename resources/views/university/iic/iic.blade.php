@@ -3,15 +3,15 @@
 
 
 <div class="main-content">
-<div class="crc-slider-container">
-            <div class="crc-slider-content">
-                <div class="crc-slider-slides">
-                    <div class="crc-slide">
-                        <img src="{{asset('/assets/img/banner_overview/iic/IIC-Banner-1250-360-01.jpg')}}" alt="Slide 1">
-                    </div>
-                </div>
-            </div>
-        </div>
+	<div class="crc-slider-container">
+		<div class="crc-slider-content">
+			<div class="crc-slider-slides">
+				<div class="crc-slide">
+					<img src="{{asset('/assets/img/banner_overview/iic/IIC-Banner-1250-360-01.jpg')}}" alt="Slide 1">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="container">
 		<h1 class="tmu-text-primary tmu-page-heading"><span> Welcome to</span> <span>TMU IIC</span></h1>
@@ -84,7 +84,7 @@
 				<span>Certification </span><span>Gallery</span>
 			</h2>
 
-			<div class="row d-none d-md-flex" data-lightbox="gallery"> 
+			<div class="row d-none d-md-flex" data-lightbox="gallery">
 				<div class="col-sm-6 col-md-3 p-4" style="box-sizing:border-box;">
 					<div class="position-relative">
 						<img class="d-block w-100" src="{{ asset('/assets/img/department/iic/certificates/certificate1.jpg') }}" alt="Gallery Thumb 1">
@@ -216,22 +216,29 @@
 					<div class="col-lg-9">
 						<div class="dotted-bg" style="--cnvs-dotted-opacity: .5; --cnvs-dotted-top: -10px; --cnvs-dotted-size: 150px; "></div>
 						<div id="owl-demo" class="owl-carousel ">
+							@foreach($news as $item)
 							<div class="item entry mx-2">
 								<div class="entry-image">
-									<img src="{{asset('/assets/img/department/iic/event/508_title_image.jpg')}}" alt="...">
+									<img src="{{asset($item->ti_path)}}" alt="...">
 								</div>
 								<div class="entry-meta mb-2 fw-normal">
 									<ul>
-										<li><a href="#">Feb 27, 2024</a></li>
+										<li><a href="#">{{$item->event_date}}</a></li>
 									</ul>
 								</div>
 								<div class="entry-title title-sm mb-3">
-									<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Guest Lecture on Cancer Prevention, Detection, and Management at TMU</a></h3>
+									<h3 class="text-transform-none ls-0 fw-medium font-body">
+										<a href="#">{{ Str::limit($item->event_title, 70) }}</a>
+									</h3>
 								</div>
-								<a href="" target="_blank " class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
+								<a href="{{ url('news/' . $item->n_slug) }}" target="_blank" class="stretched-link h-color h-op-08">
+									Read More <i class="bi-arrow-up-right transform-ts"></i>
+								</a>
 							</div>
+							@endforeach
 
-							
+
+
 						</div>
 
 						<!-- <a href="https://www.tmu.ac.in/news/guest-lecture-on-cutting-edge-instrumentation-in-forensic-science" class="button d-block d-md-none button-dark bg-dark bg-opacity-10 text-dark h-bg-color m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4">View all Posts</a> -->
