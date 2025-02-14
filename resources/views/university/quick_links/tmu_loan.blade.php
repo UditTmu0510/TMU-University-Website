@@ -130,7 +130,7 @@
                                 Dehradun Branch for disbursement after due verification and signing of documents.
                                 Loans are being sanctioned at a concessional rate of interest as compared to the
                                 normal scheme of PNB.
-                                The student can cover all his expenses e.g. hostel, stationary etc. while applying
+                                The student can cover all his expenses e.g. hostel, stationery etc. while applying
                                 for a loan.</p>
                         </div>
                     </div>
@@ -142,8 +142,7 @@
                             <h2 class="tmu-text-primary"><span>Government of India </span><span> Education Loan
                                     Assistance</span></h2>
                             <button class="tmu-btn btn-3 py-2 d-block mb-2 tmu-fs-14"><a
-                                    href="https://www.vidyalakshmi.co.in/Students/index" target="blank">Vidhya
-                                    Lakshmi Yojna <i class="bi-arrow-right"></i></a></button>
+                                    href="https://www.vidyalakshmi.co.in/Students/index" target="blank">Vidya Lakshmi Yojana<i class="bi-arrow-right"></i></a></button>
                         </div>
                     </div>
                     <div class="col-lg-5 ps-4 pe-4">
@@ -167,14 +166,14 @@
                         <li>Admission letter from the university detailing the year-wise fee structure, boarding and lodging expenses, along with a letter confirming any scholarship, if applicable.</li>
                         <li>Attested copies of documents for proof of age/date of birth and proof of residential
                             address.</li>
-                        <li>Passport-size photo of the applicant, co-obligates, and guarantors.</li>
+                        <li>Passport-size photo of the applicant, co-obligants, and guarantors.</li>
                         <li>Copy of mark sheet/degree certificates of previous academic qualifications.</li>
 
                     </ol>
                 </div>
                 <div class="col-md-6">
                     <ol class="m-ol-list ps-5">
-                        <li>Income proof/latest income tax return of parents/co-obligates, guarantors. (if any)</li>
+                        <li>Income proof/latest income tax return of parents/co-obligants, guarantors. (if any)</li>
                         <li>Details of collateral security along with valuation certificate of Govt approved valuer
                             (if any).</li>
                         <li>Details / statements of Bank accounts held with State Bank of India / other banks by the
