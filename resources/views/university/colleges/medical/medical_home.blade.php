@@ -5,6 +5,12 @@
 <link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}">
 <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
+<style>
+    .tmu-testimonial .testimonial::before{
+        top:4rem;
+    }
+</style>
+
 <section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
@@ -483,11 +489,11 @@
                     <p class="overview mb-3 fs-14">
                         <b class="fs-16">{{$testimonial->student_name}}</b> <br>
                         {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
+                        {{-- <span>
                          <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
                                 Linkedin <i class="bi bi-linkedin"></i>
                             </a>
-                        </span>
+                        </span> --}}
                     </p>
                     <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
                 </div>
@@ -545,7 +551,7 @@
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Top Programmes Offered with Diverse Specialisationns<span class="icon">+</span></button>
+            <button class="careers-accordion">Top Programmes Offered with Diverse Specialisations<span class="icon">+</span></button>
             <div class="panel">
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>TMMC&RC offers a variety of Programme catering to</span><span> different interests and career aspirations in the medical field:</span></h3>
                 <br>
