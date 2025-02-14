@@ -231,62 +231,7 @@
 								<a href="" target="_blank " class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
 							</div>
 
-							<div class="item entry mx-2">
-								<div class="entry-image">
-									<img src="{{asset('/assets/img/department/iic/event/488_title_image.webp')}}" alt="...">
-								</div>
-								<div class="entry-meta mb-2 fw-normal">
-									<ul>
-										<li><a href="#">Feb 21, 2024</a></li>
-									</ul>
-								</div>
-								<div class="entry-title title-sm mb-3">
-									<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Teerthanker Mahaveer University Launches Distance Education Programmes</a></h3>
-								</div>
-								<a href="" class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-							</div>
-							<div class="item entry mx-2">
-								<div class="entry-image">
-									<img src="{{asset('/assets/img/department/iic/event/513_title_image.webp')}}" alt="...">
-								</div>
-								<div class="entry-meta mb-2 fw-normal">
-									<ul>
-										<li><a href="#">Feb 03, 2024</a></li>
-									</ul>
-								</div>
-								<div class="entry-title title-sm mb-3">
-									<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Workshop on Integrating Nursing Theories into Clinical Practice</a></h3>
-								</div>
-								<a href="" target="_blank " class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-							</div>
-							<div class="item entry mx-2">
-								<div class="entry-image">
-									<img src="{{asset('/assets/img/department/iic/event/479_title_image.jpg')}}" alt="...">
-								</div>
-								<div class="entry-meta mb-2 fw-normal">
-									<ul>
-										<li><a href="#">Jan 24, 2024</a></li>
-									</ul>
-								</div>
-								<div class="entry-title title-sm mb-3">
-									<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">National Conference Held at TMIMT College of Management</a></h3>
-								</div>
-								<a href="" class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-							</div>
-							<div class="item entry mx-2">
-								<div class="entry-image">
-									<img src="{{asset('/assets/img/department/iic/event/497_title_image.webp')}}" alt="...">
-								</div>
-								<div class="entry-meta mb-2 fw-normal">
-									<ul>
-										<li><a href="#">Feb 28, 2024</a></li>
-									</ul>
-								</div>
-								<div class="entry-title title-sm mb-3">
-									<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Guest Lecture on Cutting-Edge Instrumentation in Forensic Science</a></h3>
-								</div>
-								<a href="#" class=" stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-							</div>
+							
 						</div>
 
 						<!-- <a href="https://www.tmu.ac.in/news/guest-lecture-on-cutting-edge-instrumentation-in-forensic-science" class="button d-block d-md-none button-dark bg-dark bg-opacity-10 text-dark h-bg-color m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4">View all Posts</a> -->
