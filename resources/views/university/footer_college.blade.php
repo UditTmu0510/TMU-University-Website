@@ -220,7 +220,7 @@
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="{{route('campus.view')}}" target="_blank">University Campus</a></li>
+									
 									<li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
 									<li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
 									<li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>

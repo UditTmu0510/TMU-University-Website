@@ -177,7 +177,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="#">University Campus</a></li>
+									
 									<li><a href="#">Hostels</a></li>
 									<li><a href="#">Gym</a></li>
 									<li><a href="#">Transportation</a></li>
