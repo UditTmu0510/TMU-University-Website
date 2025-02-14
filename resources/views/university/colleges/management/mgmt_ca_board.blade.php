@@ -41,96 +41,95 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Prof. Vipin Jain</td>
-                                    <td>Secretary (Principal)</td>
-                                    <td>+91-9917200216</td>
-                                    <td>
+                                    <td class="text-center">1.</td>
+                                    <td class="text-center">Prof. Vipin Jain</td>
+                                    <td class="text-center">Secretary (Principal)</td>
+                                    <td class="text-center">+91-9917200216</td>
+                                    <td class="text-center">
                                         <a href="mailto:principal.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> principal.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Mr. Akash Bhatnagar</td>
-                                    <td>Convener (Asst. Director, Corporate Relations)</td>
-                                    <td>+91-9927670666</td>
-                                    <td>
+                                    <td class="text-center">2.</td>
+                                    <td class="text-center">Mr. Akash Bhatnagar</td>
+                                    <td class="text-center">Convener (Asst. Director, Corporate Relations)</td>
+                                    <td class="text-center">+91-9927670666</td>
+                                    <td class="text-center">
                                         <a href="mailto:placementcell@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> placementcell@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>Mr. Pankaj Kumar</td>
-                                    <td>Member (Office Executive T&P)</td>
-                                    <td>+91-8449574444</td>
-                                    <td>
+                                    <td class="text-center">3.</td>
+                                    <td class="text-center">Mr. Pankaj Kumar</td>
+                                    <td class="text-center">Member (Office Executive T&P)</td>
+                                    <td class="text-center">+91-8449574444</td>
+                                    <td class="text-center">
                                         <a href="mailto:office.crc@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> office.crc@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
-                                    <td>Dr. Manoj Agarwal</td>
-                                    <td>Member (HOD-Management)</td>
-                                    <td>+91-7417606465</td>
-                                    <td>
+                                    <td class="text-center">4.</td>
+                                    <td class="text-center">Dr. Manoj Agarwal</td>
+                                    <td class="text-center">Member (HOD-Management)</td>
+                                    <td class="text-center">+91-7417606465</td>
+                                    <td class="text-center">
                                         <a href="mailto:hod.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> hod.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
-                                    <td>Mr. Mohit Kumar</td>
-                                    <td>Member (Asst. Professor)</td>
-                                    <td>+91-9897945588</td>
-                                    <td>
+                                    <td class="text-center">5.</td>
+                                    <td class="text-center">Mr. Mohit Kumar</td>
+                                    <td class="text-center">Member (Asst. Professor)</td>
+                                    <td class="text-center">+91-9897945588</td>
+                                    <td class="text-center">
                                         <a href="mailto:mohitkumar.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> mohitkumar.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>6</td>
-                                    <td>Dr. Vibhor Jain</td>
-                                    <td>Member (Associate Professor)</td>
-                                    <td>+91-7906004675</td>
-                                    <td>
+                                    <td class="text-center">6.</td>
+                                    <td class="text-center">Dr. Vibhor Jain</td>
+                                    <td class="text-center">Member (Associate Professor)</td>
+                                    <td class="text-center">+91-7906004675</td>
+                                    <td class="text-center">
                                         <a href="mailto:vibhor.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> vibhor.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>7</td>
-                                    <td>Mr. Anand Joshi</td>
-                                    <td>Member (Asst. Professor)</td>
-                                    <td>+91-9548467527</td>
-                                    <td>
+                                    <td class="text-center">7.</td>
+                                    <td class="text-center">Mr. Anand Joshi</td>
+                                    <td class="text-center">Member (Asst. Professor)</td>
+                                    <td class="text-center">+91-9548467527</td>
+                                    <td class="text-center">
                                         <a href="mailto:anand.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> anand.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>8</td>
-                                    <td>Dr. Mohit Rastogi</td>
-                                    <td>Member</td>
-                                    <td>+91-7906212508</td>
-                                    <td>
+                                    <td class="text-center">8.</td>
+                                    <td class="text-center">Dr. Mohit Rastogi</td>
+                                    <td class="text-center">Member</td>
+                                    <td class="text-center">+91-7906212508</td>
+                                    <td class="text-center">
                                         <a href="mailto:mohit.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> mohit.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
-                                <td colspan="5"><b>Note:</b> All course coordinators are the default
-                                    members of this
-                                    committee.</td>
+                                <tr>
+                                    <td colspan="5"><b>Note:</b> All course coordinators are the default members of this committee.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -148,55 +147,55 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Mr. Akash Bhatnagar</td>
-                                    <td>Secretary</td>
-                                    <td>+91-9927670666</td>
-                                    <td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Mr. Akash Bhatnagar</td>
+                                    <td class="text-center">Secretary</td>
+                                    <td class="text-center">+91-9927670666</td>
+                                    <td class="text-center">
                                         <a href="mailto:placementcell@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> placementcell@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Dr. Manoj Agarwal</td>
-                                    <td>Member</td>
-                                    <td>+91-7417606465</td>
-                                    <td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">Dr. Manoj Agarwal</td>
+                                    <td class="text-center">Member</td>
+                                    <td class="text-center">+91-7417606465</td>
+                                    <td class="text-center">
                                         <a href="mailto:hod.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> hod.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>Dr. Amit Kansal</td>
-                                    <td>Member</td>
-                                    <td>+91-8899366366</td>
-                                    <td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">Dr. Amit Kansal</td>
+                                    <td class="text-center">Member</td>
+                                    <td class="text-center">+91-8899366366</td>
+                                    <td class="text-center">
                                         <a href="mailto:amitk.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> amitk.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
-                                    <td>Mrs. Anshu Chauhan</td>
-                                    <td>Member</td>
-                                    <td>+91-9720008334</td>
-                                    <td>
+                                    <td class="text-center">4</td>
+                                    <td class="text-center">Mrs. Anshu Chauhan</td>
+                                    <td class="text-center">Member</td>
+                                    <td class="text-center">+91-9720008334</td>
+                                    <td class="text-center">
                                         <a href="mailto:anshu.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> anshu.management@tmu.ac.in
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
-                                    <td>Dr. Mohit Rastogi</td>
-                                    <td>Member</td>
-                                    <td>+91-7906212508</td>
-                                    <td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">Dr. Mohit Rastogi</td>
+                                    <td class="text-center">Member</td>
+                                    <td class="text-center">+91-7906212508</td>
+                                    <td class="text-center">
                                         <a href="mailto:mohit.management@tmu.ac.in">
                                             <i class="fa fa-envelope"></i> mohit.management@tmu.ac.in
                                         </a>
