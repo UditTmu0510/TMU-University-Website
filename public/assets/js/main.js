@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const galleryItems = document.querySelectorAll('.gallery-item');
     const lightbox = document.querySelector('.lightbox');
-    const lightboxImg = lightbox.querySelector('img');
+    const lightboxImg = lightbox?.querySelector('img');
     const lightboxClose = document.querySelector('.lightbox-close');
     const lightboxNext = document.querySelector('.lightbox-next');
     const lightboxPrev = document.querySelector('.lightbox-prev');
@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    lightboxClose.addEventListener('click', () => {
+    lightboxClose?.addEventListener('click', () => {
         lightbox.classList.remove('active');
     });
 
-    lightbox.addEventListener('click', (e) => {
+    lightbox?.addEventListener('click', (e) => {
         if (e.target === lightbox) {
             lightbox.classList.remove('active');
         }
@@ -64,12 +64,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    lightboxNext.addEventListener('click', () => {
+    lightboxNext?.addEventListener('click', () => {
         currentIndex++;
         updateLightboxImage();
     });
 
-    lightboxPrev.addEventListener('click', () => {
+    lightboxPrev?.addEventListener('click', () => {
         currentIndex--;
         updateLightboxImage();
     });
@@ -339,14 +339,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // side menu mobile view toggle button js start
-document.getElementById('sidebarToggle').addEventListener('click', function() {
+document.getElementById('sidebarToggle')?.addEventListener('click', function() {
 	document.getElementById('main-sidebar').classList.toggle('show');
 });
-document.getElementById('closeSidebar').addEventListener('click', function() {
+document.getElementById('closeSidebar')?.addEventListener('click', function() {
 	document.getElementById('main-sidebar').classList.remove('show');
 });
 
-document.getElementById("sidebarToggle").addEventListener("click", function() {
+document.getElementById("sidebarToggle")?.addEventListener("click", function() {
 	const menuContainer = document.getElementById("main-sidebar");
 	menuContainer.classList.toggle("expanded");
 	this.classList.toggle("expanded");
