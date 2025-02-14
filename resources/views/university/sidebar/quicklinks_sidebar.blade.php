@@ -50,6 +50,9 @@
             <a href="{{route('how.to.apply')}}" class="custom-menu-item {{ setActive('how.to.apply') }}">
                 <p>How To Apply</p>
             </a>
+            <a href="{{route('tmu.loan')}}" class="custom-menu-item {{ setActive('tmu.loan') }}">
+                <p>Education Loan</p>
+            </a>
         </div>
     </div>
 </div>
