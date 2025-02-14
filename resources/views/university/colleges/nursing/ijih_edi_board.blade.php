@@ -58,16 +58,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
-                    <div class="card card-animation admin-cards">
-                        <img src="{{asset('/uploads/employee_images/1727503737_0fUT2VRoA7.jpg')}}" class="card-img-top" alt="Aditya sir">
-                        <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                            <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Aditya Kr. Sharma</span></h5>
+                <!-- <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12"> -->
+                    <!-- <div class="card card-animation admin-cards"> -->
+                        <!-- <img src="{{asset('/uploads/employee_images/1727503737_0fUT2VRoA7.jpg')}}" class="card-img-top" alt="Aditya sir"> -->
+                        <!-- <div class="card-body text-center"> Added 'text-center' class -->
+                            <!-- <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Dr. Aditya Kr. Sharma</span></h5>
                             <p class="card-text fs-14">Registrar</p>
-                            <p class="card-text fs-14">Teerthankar Mahaveer University, Moradabad</p>
-                        </div>
-                    </div>
-                </div>
+                            <p class="card-text fs-14">Teerthankar Mahaveer University, Moradabad</p> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
                         <img src="{{asset('/uploads/employee_images/1727682798_r58rPplBwK.jpg')}}" class="card-img-top" alt="Manjula mam">
