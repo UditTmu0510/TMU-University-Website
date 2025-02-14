@@ -30,7 +30,7 @@
                 Intellectual Property <br> Rights Policy</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#Tab4" type="button"
+              <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#Tab5" type="button"
                 role="tab" aria-controls="Tab4" aria-selected="false"> Vice
                 Chancellor's <br> Innovation Fund</button>
             </li>
