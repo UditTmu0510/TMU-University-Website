@@ -7,12 +7,12 @@
   <div class="container">
     <!-- Write content for right side here  -->
 
-    <div class="row mx-0">
+    <div class="row justify-content-center text-center">
       <h1 class=" tmu-text-primary tmu-page-heading mb-4 pt-md-5"><span> RDC </span><span>
           Infrastructure</span></h1>
-      <div class="row gutter-30 col-mb-5 mb-5">
+      <div class="row gutter-30 col-mb-5 mb-5 justify-content-center text-center">
 
-      <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
             <div class="team-image">
               <img src="{{asset('/assets/img/department/rdc/1.jpg')}}" class="col-4"
