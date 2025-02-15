@@ -422,7 +422,7 @@
                                     <tr>
                                         <td class="text-center">33.</td>
                                         <td class="v-mid">
-                                            <img src="-" alt="" class="mou-img">
+                                            <img src="{{asset('assets/img/logo/TMU.png')}}" alt="" class="mou-img">
                                         </td>
                                         <td>TOSS and TMU: Thrill Sports Management Pvt. Ltd, Lucknow, UP and TMU agreed to develop a cricket academy cum players development program.</td>
                                         <td class="v-mid">
