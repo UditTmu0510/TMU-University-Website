@@ -724,7 +724,8 @@
         <!-- Searchbar code ends here -->
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script>
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script> --}}
+        <script src="{{asset('assets/js/default/dash.min.js')}}"></script>
 
 
         <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
