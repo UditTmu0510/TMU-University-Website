@@ -226,7 +226,7 @@
                                         <div class="col-6">
                                             <a class="prominent-view p-3" data-bs-toggle="modal"
                                                 data-bs-target="#imageModal" data-image="/assets/img/37.jpg">
-                                                View <img src="/assets/img/icons/arrow.svg" width="16px" height="16px">
+                                                <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
                                             </a>
                                         </div>
                                     </div>
@@ -249,9 +249,9 @@
                                                 10, August 2005</span>
                                         </div>
                                         <div class="col-6">
-                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                            <a class="" data-bs-toggle="modal"
                                                 data-bs-target="#imageModal" data-image="/assets/img/job.jpg">
-                                                View <img src="/assets/img/icons/arrow.svg" width="16px" height="16px">
+                                            <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
                                             </a>
                                         </div>
                                     </div>
@@ -275,7 +275,7 @@
                                         <div class="col-6">
                                             <a class="prominent-view p-3" data-bs-toggle="modal"
                                                 data-bs-target="#imageModal" data-image="/assets/img/job.jpg">
-                                                View <img src="/assets/img/icons/arrow.svg" width="16px" height="16px">
+                                                <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
                                             </a>
                                         </div>
                                     </div>
@@ -314,7 +314,17 @@ document.addEventListener("DOMContentLoaded", function() {
             modalImage.src = imgSrc; // Set the modal image dynamically
         });
     });
+
+    // Fix for body scroll lock issue
+    modal.addEventListener("hidden.bs.modal", function() {
+        document.body.style.overflow = "auto"; // Restore scrolling when modal is closed
+    });
+
+    modal.addEventListener("shown.bs.modal", function() {
+        document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+    });
 });
 </script>
+
 
 @endsection
