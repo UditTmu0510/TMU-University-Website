@@ -6,7 +6,7 @@
         font-family: 'poppins' !important;
     }
 
-    .container .container-jrnl{
+    .container .container-jrnl {
         z-index: 1;
         perspective: 3000px;
         display: flex;
@@ -686,14 +686,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/1.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/1.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -702,14 +704,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" href="{{asset('/assets/pdf/annual_report/annual_report_21_22.pdf')}}" target="_blank" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_20_21.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/2.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -718,14 +722,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/3.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_19_20.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/3.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -734,14 +740,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/4.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_18_19.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/4.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -750,14 +758,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/5.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_17_18.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/5.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -766,14 +776,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/6.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_16_17.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/6.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -782,14 +794,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/7.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_15_16.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/7.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -798,14 +812,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/8.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_14_15.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/8.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -814,14 +830,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/9.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_13_14.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/9.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -830,14 +848,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/10.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_11_12.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/10.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -846,14 +866,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/11.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_10_11.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/11.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -862,14 +884,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/12.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_09_10.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/12.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -878,14 +902,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/annual_report/13.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/annual_report/annual_report_08_09.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/annual_report/13.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
