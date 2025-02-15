@@ -206,13 +206,13 @@
 <div class="main-content">
     <div class="container">
         <div class="row mx-0">
-            <h1 class="mb-2 text-primary">Prominent Guest Comment</h1>
+            <h1 class="mt-md-4 tmu-text-primary tmu-page-heading"><span>Prominent</span><span> Guest Comment</span></h1>
             <div class="container">
                 <div class="row">
                     <!-- Example Cards with different images -->
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
-                            <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
+                            <img src="{{asset('/assets/img/guests/37.jpg')}}" class="hotel-card-img" alt="TMU Guest">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
                                 <div>
                                     <p class="text-muted mb-1">Dr. Sonal Mansingh</p>
@@ -220,13 +220,15 @@
                                     <p class="location">Parampara</p>
                                     <div class="row rating">
                                         <div class="col-6">
-                                            <span><img src="/assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
                                                 15, July 2022</span>
                                         </div>
                                         <div class="col-6">
-                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                            <a class="prominent-view p-3" data-bs-toggle="mod
+
                                                 data-bs-target="#imageModal" data-image="/assets/img/37.jpg">
                                                 <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
+
                                             </a>
                                         </div>
                                     </div>
@@ -237,7 +239,296 @@
 
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
-                            <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
+                            <img src="{{asset('/assets/img/guests/36.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Ms. Meenakshi Lekhi</p>
+                                    <h5>Minister of State for External Affairs and Cultural, Government of India</h5>
+                                    <p class="location">Chief Guest - Parampara</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                14, July 2022</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/36.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/35.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Nizami Bandhu</p>
+                                    <h5>Indian Musical Group</h5>
+                                    <p class="location">Parampara</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                14, July 2022</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/35.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/34.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Pt. Vishwa Mohan Bhatt</p>
+                                    <h5>Legendary Hindustani Classical Music Instrumentalist</h5>
+                                    <p class="location">Parampara</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                13, July 2022</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/34.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/32.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. Dinesh Sharma</p>
+                                    <h5>Hon'ble Deputy Chief Minister, Uttar Pradesh</h5>
+                                    <p class="location">Chief Guest - Fifth Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                31, July 2021</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/32.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/33.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Shri Bhupendra Singh Chaudhary</p>
+                                    <h5>Hon’ble Cabinet Minister - Panchayati Raj (U.P.)</h5>
+                                    <p class="location">Guest of Honour - Fifth Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                31, July 2021</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/33.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/25.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Hon'ble Shri Yogi Adityanath</p>
+                                    <h5>Chief Minister, Uttar Pradesh</h5>
+                                    <p class="location">Chief Guest - Prabudhjan Goshti</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                05, April 2019</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/25.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/22.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Prof. Kaptan Singh Solanki</p>
+                                    <h5>Hon’ble Governor of Haryana</h5>
+                                    <p class="location">Chief Guest - Second Special Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                22, April 2018</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/22.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/23.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Acharya Shri Sudhanshu Ji Maharaj</p>
+                                    <h5>Saint, Preacher & Founder of Vishwa Jagriti Mission</h5>
+                                    <p class="location">Honoris Causa Degree Recipient - Second Special Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                22, April 2018</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/23.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/15.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Hon'ble Shri Ram Naik</p>
+                                    <h5>Governor of Uttar Pradesh</h5>
+                                    <p class="location">Chief Guest - Fourth Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                24, March 2018</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/15.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/26.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Shri Sonu Nigam</p>
+                                    <h5>Bollywood Playback Singer</h5>
+                                    <p class="location">Honoris Causa Degree Recipient - Fourth Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                24, March 2018</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/26.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/14.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Shri Suresh Khanna</p>
+                                    <h5>Minister of Urban Development and Parliamentary Affairs, Government of Uttar Pradesh</h5>
+                                    <p class="location">Honoris Causa Degree Recipient - Fourth Convocation</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                            24, March 2018</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/14.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/20.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. Vedprakash Mishra</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/20.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/24.jpg')}}" class="hotel-card-img" alt="TMU Guest">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
                                 <div>
                                     <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
@@ -245,10 +536,563 @@
                                     <p class="location">ISRO</p>
                                     <div class="row rating">
                                         <div class="col-6">
-                                            <span><img src="/assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
                                                 10, August 2005</span>
                                         </div>
                                         <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/24.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/23.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/23.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/22.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/35.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/21.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/21.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/20.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/20.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/19.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/19.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/18.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/18.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/17.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/17.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/16.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/16.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/15.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/15.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/14.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/14.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/13.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/13.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/12.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/12.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/11.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/11.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/10.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/10.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/9.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/9.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/8.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/8.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/8.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/7.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/7.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/7.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/6.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/6.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/5.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/5.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/4.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/4.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/3.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="prominent-view p-3" data-bs-toggle="modal"
+                                                data-bs-target="#imageModal" data-image="{{asset('/assets/img/guests/3.webp')}}">
+                                                View <img src="{{asset('/assets/img/icons/arrow2.svg')}}" width="16px" height="16px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
+                        <div class="hotel-card d-flex flex-column flex-md-row">
+                            <img src="{{asset('/assets/img/guests/2.jpg')}}" class="hotel-card-img" alt="TMU Guest">
+                            <div class="prominent-card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
+                                    <h5>Former President of India</h5>
+                                    <p class="location">ISRO</p>
+                                    <div class="row rating">
+                                        <div class="col-6">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
+                                                10, August 2005</span>
+                                        </div>
+                                        <div class="col-6">
+
                                             <a class="" data-bs-toggle="modal"
                                                 data-bs-target="#imageModal" data-image="/assets/img/job.jpg">
                                             <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
@@ -261,7 +1105,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 my-3">
                         <div class="hotel-card d-flex flex-column flex-md-row">
-                            <img src="/assets/img/37.jpg" class="hotel-card-img" alt="Hotel Image">
+                            <img src="{{asset('/assets/img/guests/1.jpg')}}" class="hotel-card-img" alt="TMU Guest">
                             <div class="prominent-card-body d-flex flex-column justify-content-between">
                                 <div>
                                     <p class="text-muted mb-1">Dr. A.P.J. Abdul Kalam</p>
@@ -269,13 +1113,15 @@
                                     <p class="location">ISRO</p>
                                     <div class="row rating">
                                         <div class="col-6">
-                                            <span><img src="/assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            <span><img src="{{asset('/assets/img/icons/calendar.svg')}}" width="16px" height="16px">
                                                 10, August 2005</span>
                                         </div>
                                         <div class="col-6">
                                             <a class="prominent-view p-3" data-bs-toggle="modal"
+
                                                 data-bs-target="#imageModal" data-image="/assets/img/job.jpg">
                                                 <img src="/assets/img/icons/arrow.svg" width="65px" height="20px">
+
                                             </a>
                                         </div>
                                     </div>
