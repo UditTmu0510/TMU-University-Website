@@ -938,14 +938,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/1.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/TJBAC_vol_1_for_Upload.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/1.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -954,14 +956,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/2.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/TJBAC_vol_2_2022.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/2.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -970,14 +974,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/3.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/TJBAC-Vol.-3,-2023-Final_compressed.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/3.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -986,14 +992,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/4.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/S & T_2020.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/4.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1002,14 +1010,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/5.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/S & T_2021.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/5.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1018,14 +1028,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/6.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/S&T_journal,Issue_july_2022to_June_2023.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/6.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1034,14 +1046,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/7.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/s_and_t_final_merged.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/7.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1050,14 +1064,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/8.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/viewpoint_jan_july_2021_1.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/8.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1066,14 +1082,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/9.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/viewpoint_July_Dec_2021_2.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/9.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1098,14 +1116,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/11.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="https://tmujdent.co.in/archive.php" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/11.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1114,14 +1134,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/jnrl/12.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="https://journals.lww.com/amit/pages/default.aspx" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/12.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1147,14 +1169,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/1.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/ncmi-20.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/1.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1163,14 +1187,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/2.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/Proceedings-NCMD-2020.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/2.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1179,14 +1205,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/3.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/sustainable_development.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/3.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1195,14 +1223,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/4.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/resurging-india-myths-and-realities.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/4.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1211,14 +1241,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/5.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/rmtsi.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/5.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1227,14 +1259,16 @@
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
-                                    <div class="book-cover">
-                                        <div class="book-inside"></div>
-                                        <div class="book-image">
-                                            <img src="{{asset('/assets/img/publication/confe_pro/6.jpg')}}" />
-                                            <div class="effect"></div>
-                                            <div class="light"></div>
+                                    <a href="{{asset('/assets/pdf/journals/Proceddings_RTGAST-2021 for Website.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/confe_pro/6.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
