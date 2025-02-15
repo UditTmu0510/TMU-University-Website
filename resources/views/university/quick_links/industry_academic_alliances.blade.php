@@ -292,7 +292,7 @@
                                         <td class="v-mid">
                                             <img src="{{asset('assets/img/logo/10.png')}}" alt="" class="mou-img">
                                         </td>
-                                        <td>nan</td>
+                                        <td>DNA Labs-A Centre for Applied Sciences (DLCAS), is with two labs situated in Dehradun involved in Diagnostics (Cellular, Molecular, Pathology, Biochemistry, Microbiology, Serology, Immunology etc.), Teaching and Training and in Research oriented Dehradun, Uttarakhand.</td>
                                         <td class="v-mid">
                                             <a href="https://www.tmu.ac.in/pdf/mous/dba_labs_a_center_for_applied_sciences2.pdf" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
@@ -304,7 +304,7 @@
                                         <td class="v-mid">
                                             <img src="{{asset('assets/img/logo/aktu_lucknow.png')}}" alt="" class="mou-img">
                                         </td>
-                                        <td>nan</td>
+                                        <td>To pool resources of 2 parties for common benefit of the students,faculty,alumni etc. <br> Capacity building of respective faternities as stated in paras related to delievarables here-in-under.</td>
                                         <td class="v-mid">
                                             <a href="https://www.tmu.ac.in/pdf/mous/aktu_lucknow.pdf" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
@@ -316,7 +316,7 @@
                                         <td class="v-mid">
                                             <img src="{{asset('assets/img/logo/apple.png')}}" alt="" class="mou-img">
                                         </td>
-                                        <td>nan</td>
+                                        <td>To deliver Training Classes and / or Testing Services, as authorised under this Agreement. Training Centre will determine its own prices for delivery of a Training Class and / or an Apple Exam.</td>
                                         <td class="v-mid">
                                             <a href="https://www.tmu.ac.in/pdf/mous/apple_mou.pdf" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
