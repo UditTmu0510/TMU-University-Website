@@ -38,6 +38,9 @@
             <a href="{{ route('engineering.corporate.advisory.board') }}" class="custom-menu-item {{ setActive('engineering.corporate.advisory.board') }}">
                 <p>Corporate Advisory Board</p>
             </a>
+            <a href="{{ route('engineering.placement.brochure') }}" class="custom-menu-item {{ setActive('engineering.placement.brochure') }}">
+                <p>Placement Brochure</p>
+            </a>
             <a href="{{ route('engineering.placement.calendar') }}" class="custom-menu-item {{ setActive('engineering.placement.calendar') }}">
                 <p>Placement Calendar</p>
             </a>
