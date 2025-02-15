@@ -7,6 +7,125 @@
         <div class="container">
             <div class="container">
                 <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/15.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/14.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/13.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/12.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/11.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/10.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/9.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/8.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple rounded-0"
+                                data-mdb-ripple-color="light">
+                                <img class="img-fluid" src="{{asset('/assets/img/placement_news/engineering/7.jpg')}}"
+                                    alt="Card image cap" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple rounded-0"
@@ -17,16 +136,6 @@
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
                                 </a>
-                            </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                      Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                        </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -42,16 +151,6 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                            </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -66,16 +165,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                            </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -90,16 +180,6 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                            </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -113,16 +193,6 @@
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
                                 </a>
-                            </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                            </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -139,16 +209,6 @@
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                     </div>
                                 </a>
-                            </div>
-                            <div class="card-body">
-                                <!-- <p class="card-text">
-                                            Ritika Jain of BTech CSE Batch 2021 is placed in TCS with package of 7.00 LPA
-                                            </p> -->
-                                <hr class="my-2" />
-                                <div class="d-flex justify-content-between">
-                                    <div class="entry-meta mt-1">
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
