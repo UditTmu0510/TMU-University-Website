@@ -189,7 +189,8 @@ class TmuController extends Controller
         $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', 0)->where('is_head', 'Y')->get();
         $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 2)->get();
         $vice_principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 29)->get();
-        $deans = Employees::orderBy('priority', 'ASC')
+        $deans = Employees::with('faculty') // Eager load faculty through college
+            ->orderBy('priority', 'ASC')
             ->where('status', 'Y')
             ->where('designation_id', 3)
             ->where('cd_id', '!=', 0)
@@ -232,7 +233,7 @@ class TmuController extends Controller
     {
 
 
-        
+
         $news = News::where('status', 1)
             ->where('category', 'IIC')
             ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
