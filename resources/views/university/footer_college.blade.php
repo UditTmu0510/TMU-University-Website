@@ -218,7 +218,7 @@
 							<!--</div>-->
 
 							<div class="col-6 col-lg-2 widget_links">
-								<h4>Student Life</h4>
+								<h4>Campus Facilities</h4>
 								<ul>
 									
 									<li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
