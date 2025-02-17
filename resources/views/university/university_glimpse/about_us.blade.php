@@ -262,7 +262,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-handshake" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">82%</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">85%</div>
             <p style="color:#000;">Placements</p>
           </div>
 
@@ -274,7 +274,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-certificate" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">1700+</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">2800+</div>
             <p style="color:#000;">Patents</p>
           </div>
         </div>
