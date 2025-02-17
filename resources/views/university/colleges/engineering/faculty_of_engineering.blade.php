@@ -828,7 +828,7 @@
 
         <section>
             <div class="container mb-5 mt-5">
-                <h2 Class="tmu-text-primary text-center"><span> Frequently Asked </span><span> Questions</span></h2>
+                <h2 Class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-body">
