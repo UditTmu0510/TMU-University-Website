@@ -15,8 +15,11 @@
               <div class="formbold-form-wrapper">
                 <form action="" method="POST">
                   <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="tmu-text-primary"><span>Need More </span><span> Information?</h3>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Your Enrolment</label>
+                        <input type="text" name="text" id="text" placeholder="Enter your Enrolment No" class="formbold-form-input" />
+                      </div>
                     </div>
                     <div class="col-lg-6 col-md-6 mb-3">
                       <div class="formbold-mb-5">
@@ -32,19 +35,19 @@
                     </div>
                     <div class="col-lg-6 col-md-6 mb-3">
                       <div class="formbold-mb-5">
-                        <label for="name" class="formbold-form-label">Your Enrolment</label>
-                        <input type="text" name="text" id="text" placeholder="Enter your Enrolment No" class="formbold-form-input" />
-                      </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 mb-3">
-                      <div class="formbold-mb-5">
                         <label for="name" class="formbold-form-label">Programme Name</label>
                         <input type="text" name="name" id="name" placeholder="Enter your programme Name" class="formbold-form-input" />
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 mb-3">
                       <div class="formbold-mb-5">
-                        <label for="phone" class="formbold-form-label">Phone Number</label>
+                        <label for="phone" class="formbold-form-label">Semester / Year</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your phone number" class="formbold-form-input" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="phone" class="formbold-form-label">Your Contact Number</label>
                         <input type="number" name="phone" id="phone" placeholder="Enter your phone number" class="formbold-form-input" />
                       </div>
                     </div>
@@ -72,8 +75,8 @@
                   <div class="row">
                     <div class="col-lg-12 mb-3">
                       <div class="formbold-mb-5">
-                        <label for="text" class="formbold-form-label">Message</label>
-                        <input type="message" name="message" id="message " placeholder="write your message" class="formbold-form-input" />
+                        <label for="text" class="formbold-form-label">Enter your Suggestion / Grievance</label>
+                        <input type="message" name="message" id="message " placeholder="Write here" class="formbold-form-input" />
                       </div>
                     </div>
                   </div>
