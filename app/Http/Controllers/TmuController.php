@@ -186,7 +186,7 @@ class TmuController extends Controller
     public function university_administration()
     {
 
-        $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', [0, 1])->where('is_head', 'Y')->get();
+        $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', 0)->where('is_head', 'Y')->get();
         $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 2)->get();
         $vice_principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 29)->get();
         $deans = Employees::orderBy('priority', 'ASC')
