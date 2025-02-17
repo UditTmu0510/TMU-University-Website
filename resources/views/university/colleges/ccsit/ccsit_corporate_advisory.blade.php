@@ -8,29 +8,28 @@
                         <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Corporate </span><span>Advisory Board </span></h1>
                     </div>
                     <div class="container">
-                        <p class="text-justify mb-2">For any professional institution the interaction with academic
-                        and corporate world is of great importance. College has Corporate Advisory Board
-                        including Principal (as Chair Person), Head Training & Placement and members from the
-                        industries. The Board members provides advice and guidance on academic program to the
+                        <p class="text-justify mb-2">For any professional institution, the interaction with academic
+                        and corporate world is of great importance. The college has Corporate Advisory Board
+                        including Principal (as Chairperson), Head of Training & Placement and members from various industries. The Board members provide advice and guidance on academic programme to the
                         college as a whole or to individual academic departments. This helps ensure our
                         curricula remain relevant and rigorous. Corporate Advisory Board members also interact
-                        with faculty & Students (SPCC members) as mentors and as guest speakers in classes, and
+                        with faculty & students (SPCC members) as mentors and as guest speakers in classes, and
                         provide internship and job opportunities to our students.</p>
-                                <h3 class="tmu-text-primary mb-3 mt-3"><span>Key Objectives of </span><span> Corporate Advisory Board</span></h3>
+                                <h3 class="tmu-text-primary mb-3 mt-3"><span>Key Objectives of The</span><span> Corporate Advisory Board</span></h3>
                                 <ul class="m-ol-list ps-4 mt-0 text-justify">   
-                                    <li>Helps in revising the curriculum and teaching methodology as per corporate need.
+                                    <li>Helps in revising the curriculum and teaching methodology according to corporate needs..
                             </li>
-                            <li>Participate in our Employability Enhancement Training Programs available with
+                            <li>Participate in our Employability Enhancement Training programmes available with
                                 us.</li>
-                            <li>Conducting faculty development projects with well designed timelines.</li>
+                            <li>Conducting faculty development projects with well-designed timelines.</li>
                             <li>Support in conducting various national level Seminars / Conferences / Workshops.
                             </li>
                             <li>Advising us on value added courses as per the growing needs of the industry.
                             </li>
                             <li>Developing entrepreneurial abilities, by providing projects that engage students
                                 in ‘design to delivery solution’ to improve the quality.</li>
-                            <li>Setting up ‘labs’ within institute to get research and innovation.</li>
-                            <li>Advising and helping us on better placements and internships.</li>
+                            <li>Setting up ‘labs’ within institute to promote research and innovation.</li>
+                            <li>Advising and helping us with better placements and internships.</li>
                                 </ul>
                                
                                 <h3 class="tmu-text-primary"><span>Committee Members of </span><span> Training & Placement Cell  </span></h3>
