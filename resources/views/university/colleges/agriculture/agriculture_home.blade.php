@@ -559,7 +559,7 @@
 
 		<!--  -->
 		<div class="container hh1 mb-3">
-			<h2 Class="tmu-text-primary text-center"><span> Frequently Asked </span><span> Questions</span></h2>
+			<h2 Class="tmu-text-primary text-center"><span> Why Choose </span><span> College of Agriculture Sciences</span></h2>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="card-body">

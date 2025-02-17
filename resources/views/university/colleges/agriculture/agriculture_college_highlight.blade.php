@@ -40,8 +40,7 @@
                     <div class="timeline-item right wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Labs</div>
-                            <p>The TMU College of Agriculture Sciences has the following labs: (i) Pre-Clinical
-                                Labs: 4, (ii) Ceramic & Casting Labs: 4 </p>
+                            <p>The TMU College of Agricultural Sciences has 13 laboratories.</p>
                         </div>
                     </div>
 
