@@ -15,7 +15,6 @@
 								<th class="text-center">Sl. No.</th>
 								<th class="text-center">Name</th>
 								<th class="text-center">Designation</th>
-								<th class="text-center">Status</th>
 								<th class="text-center">Contact No.</th>
 								<th class="text-center">Email ID</th>
 
@@ -23,118 +22,93 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-center">1</td>
-								<td class="text-center">Prof.R.K Dwivedi</td>
+								<td class="text-center">1.</td>
+								<td class="text-center">Prof. R. K. Dwivedi</td>
 								<td class="text-center">Chairperson</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9639266555</td>
 								<td class="text-center">principal.computers@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">2</td>
+								<td class="text-center">2.</td>
 								<td class="text-center">Mr. R. P. Gupta</td>
-								<td class="text-center">Joint Director -Admin, Security & Students Welfare</td>
-								<td class="text-center">N/A</td>
+								<td class="text-center">Joint Director - Admin, Security & Students Welfare</td>
 								<td class="text-center">9639236666</td>
 								<td class="text-center">dy.dir.ssw@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">3</td>
+								<td class="text-center">3.</td>
 								<td class="text-center">Prof. S. S. Bhatia</td>
 								<td class="text-center">Local Media</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">7500200085</td>
-								<td class="text-center">-</td>
+								<td class="text-center"></td>
 							</tr>
-
 							<tr>
-								<td class="text-center">4</td>
+								<td class="text-center">4.</td>
 								<td class="text-center">Mr. Manoj Kumar Jain</td>
 								<td class="text-center">Representative of Parent</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">8862919188</td>
-								<td class="text-center">-</td>
+								<td class="text-center"></td>
 							</tr>
-
 							<tr>
-								<td class="text-center">5</td>
+								<td class="text-center">5.</td>
 								<td class="text-center">Mr. Rahul Vishnoi</td>
 								<td class="text-center">Proctor</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9719004461</td>
 								<td class="text-center">rahulv.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">6</td>
+								<td class="text-center">6.</td>
 								<td class="text-center">Dr. Zareen Farooq</td>
 								<td class="text-center">Deputy Proctor</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">8433270955</td>
 								<td class="text-center">drzareen.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">7</td>
+								<td class="text-center">7.</td>
 								<td class="text-center">Dr. Alka Verma</td>
 								<td class="text-center">Deputy Proctor</td>
-								<td class="text-center">N/A</td>
-								<td class="text-center">9410835690</td>
+								<td class="text-center">9412805685</td>
 								<td class="text-center">dralka.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">8</td>
+								<td class="text-center">8.</td>
 								<td class="text-center">Mr. S. B. Rastogi</td>
 								<td class="text-center">Deputy Proctor</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9897967740</td>
 								<td class="text-center">shreshtha.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">9</td>
+								<td class="text-center">9.</td>
 								<td class="text-center">Ms. Indu Tripathi</td>
 								<td class="text-center">Member</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9837413469</td>
 								<td class="text-center">indu.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">10</td>
+								<td class="text-center">10.</td>
 								<td class="text-center">Dr. Alok Kumar Gahlot</td>
 								<td class="text-center">Member</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9119095061</td>
 								<td class="text-center">dralok.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">11</td>
+								<td class="text-center">11.</td>
 								<td class="text-center">Mr. Prashant Kumar</td>
 								<td class="text-center">Member</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9837721791</td>
 								<td class="text-center">prashant.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">12</td>
+								<td class="text-center">12.</td>
 								<td class="text-center">Ms. Nikita Jain</td>
 								<td class="text-center">First Information Person</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9602328827</td>
 								<td class="text-center">nikitag.engineering@tmu.ac.in</td>
 							</tr>
-
 							<tr>
-								<td class="text-center">13</td>
+								<td class="text-center">13.</td>
 								<td class="text-center">Mr. Vijendra Rawat</td>
 								<td class="text-center">First Information Person</td>
-								<td class="text-center">N/A</td>
 								<td class="text-center">9259999925</td>
 								<td class="text-center">vijendrar.engineering@tmu.ac.in</td>
 							</tr>
