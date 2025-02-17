@@ -74,62 +74,59 @@
       </div>
       <div class="row">
         <div class="col-md-12 mb-3">
-          <h3 class="mb-3 pb-0 tmu-text-primary"><span>Constitution of the Student's
-            </span><span>Grievance Redressal Cell</span></h3>
-          <h4 class="mb-3 pb-0 tmu-text-primary"><span>1. Members</span></h4>
+          <h3 class="mb-3 pb-0 tmu-text-primary"><span>Compositions of Students'
+            </span><span>Grievance Redressal Cell (SGRC)</span></h3>
           <div class="table-responsive mb-3">
             <table class="table table-bordered table-striped">
               <tbody>
                 <tr>
-                  <td>(i)</td>
-                  <td>Principal</td>
+                  <td>1</td>
+                  <td>A Professor</td>
                   <td>Chairperson</td>
                 </tr>
                 <tr>
-                  <td>(ii)</td>
-                  <td>One Senior most Professor</td>
+                  <td>2</td>
+                  <td>Four Professors/Senior Faculty Members of the Institution</td>
                   <td>Member</td>
                 </tr>
                 <tr>
-                  <td>(iii)</td>
-                  <td>One Senior most Female Faculty</td>
-                  <td>Member</td>
-                </tr>
-                <tr>
-                  <td>(iv)</td>
-                  <td>Deputy Registrar, Assistant Registrar, or Administrative Officer
-                    <br>OR
-                    <br>A person not below the rank of an Asstt. Professor (to be
-                    nominated by the Principal)
-                  </td>
-                  <td>Member Secretary</td>
+                  <td>3</td>
+                  <td>A representative from among students (nominated based on academic merit, excellence in sports, or co-curricular performance)</td>
+                  <td>Special Invitee</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <ul class="m-ol-list ps-4">
+            <li>At least one member or the Chairperson shall be a woman and at least one member or the Chairperson shall be from SC/ST/OBC category.</li>
+            <li>The term of the Chairperson and members shall be for a period of two years.</li>
+            <li>The term of the special invitee shall be one year.</li>
+            <li>The quorum for the meeting including the Chairperson, but excluding the special invitee, shall be three.</li>
+          </ul>
 
-          <h4 class="mb-3 pb-0 tmu-text-primary"><span>2. For Independent </span><span>Teaching
-              Departments</span></h4>
+          <h3 class="mb-3 pb-0 tmu-text-primary"><span>Department/College </span><span>Greviances Redressal Cell (DGRC/CGRC)</span></h3>
           <div class="table-responsive">
             <table class="table table-bordered table-striped">
               <tbody>
                 <tr>
-                  <td>(i)</td>
-                  <td>Head of the Department</td>
+                  <td>1</td>
+                  <td>A Professor (Head of the Department/Principal of the College)</td>
                   <td>Chairperson</td>
                 </tr>
                 <tr>
-                  <td>(ii)</td>
-                  <td>One Senior most Professor <br>
-                    (In case there is no Professor, the senior most faculty other than
-                    mentioned
-                    below)</td>
+                  <td>2</td>
+                  <td>A Professor from outside the Department/College (nominated by the Vice Chancellor)</td>
                   <td>Member</td>
                 </tr>
                 <tr>
-                  <td>(iii)</td>
-                  <td>One Senior most Female Faculty</td>
-                  <td>Member</td>
+                  <td>3</td>
+                  <td>A representative from among students (nominated based on academic merit, excellence in sports, or co-curricular performance)</td>
+                  <td>Special Invitee</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>A faculty member well-versed with grievance redressal mechanism (nominated by the Principal of the College)</td>
+                  <td>Member Secretary</td>
                 </tr>
               </tbody>
             </table>
