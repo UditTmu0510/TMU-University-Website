@@ -399,7 +399,7 @@
                 </div>
 
 
-                <div class="book">
+                <!-- <div class="book">
                     <div class="front">
                         <div class="cover">
                         <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_16_17.pdf')}}"
@@ -414,7 +414,7 @@
                             <span>Placement Brochure</span>
                         </h2>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -540,7 +540,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_16_17.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
@@ -558,7 +558,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
