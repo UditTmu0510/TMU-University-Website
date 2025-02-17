@@ -21,7 +21,7 @@
                         <div class="timeline-item right wow slideInRight">
                             <div class="timeline-text">
                                 <div class="timeline-date">Studio</div>
-                                <p>The College of Fine Arts features a dedicated photography studio, providing students with the facilities to practice and refine their photography skills</p>
+                                <p>The College of Fine Arts features a dedicated photography studio, providing students with the facilities to practice and refine their photography skills.</p>
                             </div>
                         </div>
                         <div class="timeline-item left wow slideInLeft">

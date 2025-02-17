@@ -561,7 +561,7 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <h2 class="tmu-text-primary text-center"><span>Why Choose</span><span> College of Fine Arts</span></h2>
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why Choose TMU for Fine Arts Education?<span class="icon">+</span></button>
