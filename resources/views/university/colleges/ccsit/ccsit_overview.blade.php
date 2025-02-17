@@ -23,7 +23,7 @@
                 <div class="container p-3">
                     <p class="about-p mb-4">The college was established by the university with the aim of providing
                         relevant, essential and upgraded education to the young aspirants in the field of computer science and
-                        engineering. The college is geared up to meet the continuously increasing demand of skilled manpower,
+                        engineering. The college is geared up to meet the continuously increasing demand for skilled manpower,
                         in the domain of Computer Science and Engineering, because of the rapid technological advancements around the
                         globe and major initiatives like 'Digital India' taken by the Government of India.</p>
                     <p class="about-p mb-4">The College of Computing Sciences and Information Technology (CCSIT) is
@@ -32,8 +32,8 @@
                     <p class="about-p mb-4">The college prepares young engineers to acquire essential knowledge
                         and technical
                         skills that allow them to conceptualize, design, develop and implement Computer
-                        Applications fulfilling the Software
-                        demand of the world. The college offers wide range of academic programmes at
+                        Applications fulfilling the software
+                        demand of the world. The college offers a wide range of academic programmes at
                         undergraduate,
                         postgraduate and doctoral levels to cater to the needs of the corporate world.</p>
                     <p class="about-p mb-4"></p>
