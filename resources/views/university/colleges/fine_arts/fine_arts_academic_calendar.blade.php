@@ -18,7 +18,7 @@
                     <div class="card-pdf">
                         <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                         <p class="description">Academic Calendar <br><b>2024 - 25</b></p>
-                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/time_table/Finearts_TT_24_25.pdf')}}">Download PDF</a>
+                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/academic_calendars/Finearts_AC_24_25.pdf')}}">Download PDF</a>
                     </div>
                 </div>
             </div>
