@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div>
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div> -->
         </div>
 
 
