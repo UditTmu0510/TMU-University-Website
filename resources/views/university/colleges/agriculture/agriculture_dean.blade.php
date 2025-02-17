@@ -39,13 +39,13 @@
 							Indian agriculture has witnessed a significant transformation in recent years, with the adoption of the latest trends and technologies. Precision farming, organic farming, biotechnology, and mechanization are some of the latest trends in Indian agriculture. These innovations help farmers increase crop yields, improve product quality, and reduce environmental impact. As India modernises its agricultural practices, it is poised to become a global leader in sustainable agriculture.
                                 <br>
                                 <br>
-                                We, at the TMU’s College of Agricultural Sciences, the top private agricultural college in UP, embrace the potential of modern agricultural technology and blend it with traditional knowledge to create innovative solutions. Our curriculum equips students with in-demand skills along with global opportunities to pursue a range of career paths. We believe that agriculture is an avenue for us to contribute to the environment and make a positive difference
+                                We, at the TMU’s <a href="{{route('agriculture.home')}}" target="_blank">College of Agricultural Sciences</a>, the top private agricultural college in UP, embrace the potential of modern agricultural technology and blend it with traditional knowledge to create innovative solutions. Our curriculum equips students with in-demand skills along with global opportunities to pursue a range of career paths. We believe that agriculture is an avenue for us to contribute to the environment and make a positive difference
                                 <br>
                                 <br>
-                                Our prime aim is to provide a pragmatic approach to agriculture education. This enables our graduates to tackle farm problems in both the corporate and unorganized sectors, including the village level. Besides, we provide our students with specialized training in fields and Agro-based industries. The curriculum is designed adopting the holistic approach of learning based upon guidelines of ICAR and NEP2020.
+                                Our prime aim is to provide a pragmatic approach to agriculture education. This enables our graduates to tackle farm problems in both the corporate and unorganized sectors, including the village level. Besides, we provide our students with specialized training in fields and Agro-based industries. The curriculum is designed adopting the holistic approach of learning based upon guidelines of <a href="https://icar.org.in/" target="_blank"> ICAR </a> and <a href="{{ url('blog/nep-2020-discussion') }}">NEP2020</a>.
                                 <br>
                                 <br>
-                                The College of Agriculture Sciences at TMU Moradabad boasts an abundance of advantages. These include experienced teachers and substantial farming acreage for hands-on learning.
+                                The College of Agriculture Sciences at <a href="{{route('tmuhome')}}">TMU Moradabad</a> boasts an abundance of advantages. These include experienced teachers and substantial farming acreage for hands-on learning.
                                 <br>
                                 <br>
                                 Furthermore, we have a greenhouse and polyhouse facility with trips to renowned agri-institutes. Additionally, the college has well-established modern laboratories equipped with the latest scientific equipment. Besides, students get a dynamic campus atmosphere, making us one of the top private agriculture colleges in Uttar Pradesh.
@@ -79,8 +79,8 @@
                             </tr>
                             <tr>
                                 <td>Office Address</td>
-                                <td style="text-align:left">Teerthanker Mahaveer College of Agriculture Sciences, Delhi
-                                    Road, Moradabad – 244001 (U.P.)</td>
+                                <td style="text-align:left"><a href="{{route('tmuhome')}}">Teerthanker Mahaveer College of Agriculture Sciences, Delhi
+                                    Road, Moradabad – 244001 (U.P.)</a></td>
                             </tr>
                             <tr>
                                 <td>Date of Birth</td>
