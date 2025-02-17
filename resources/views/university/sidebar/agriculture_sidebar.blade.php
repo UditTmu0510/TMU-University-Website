@@ -59,6 +59,9 @@
             <a href="{{ route('agriculture.anti.ragging') }}" class="custom-menu-item {{ setActive('agriculture.anti.ragging') }}">
                 <p>Anti-Ragging Committee</p>
             </a>
+            <a href="{{ route('agriculture.orientation') }}" class="custom-menu-item {{ setActive('agriculture.orientation') }}">
+                <p>Orientation Programme</p>
+            </a>
         </div>
 
         <h2>Quick Links</h2>
