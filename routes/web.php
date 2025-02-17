@@ -46,7 +46,7 @@ use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
 use App\Http\Controllers\ManuscriptFormController;
 use App\Http\Controllers\AttendanceController;
-
+use App\Http\Controllers\GitWebhookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,6 +62,10 @@ use App\Http\Controllers\AttendanceController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+
+// Route to connect with github and pull code from there
+Route::post('/git-webhook', [GitWebhookController::class, 'handle']);
 
 // Route to fetch navbar data for outside json(GET request)
 Route::post('/navbar-items', [NavbarJsonController::class, 'getNavbarItems']); 
