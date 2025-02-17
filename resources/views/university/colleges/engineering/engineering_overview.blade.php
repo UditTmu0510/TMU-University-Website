@@ -16,7 +16,7 @@
                     <p class="about-p mb-4">The <span class="highlight">Faculty of Engineering (FOE)</span>, an AICTE-approved institute with academic excellence in Engineering, Technology, and Sciences is a unique place for competent engineers. Our student-centric approach emphasises hands-on training blended with comprehensive, industry-relevant skills. 100% Placement assistance, industry collaborations, and international internship opportunities, among others, give students an edge, thus making us the Best Private Engineering College at UP.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/aboutus/foe/foe_about_us.jpg')}}" class="roudned-3" alt="Learning and Teaching">
+                    <img src="{{asset('assets/img/aboutus/foe/foe_about_us.jpg')}}" class="rounded-3" alt="Learning and Teaching">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Our up-to-date academic curriculum gives equal weightage to the theoretical and practical knowledge, thus providing the right knowledge to the students. By integrating value-added courses with extensive practical lab work, we equip aspiring engineers with an additional learning opportunity. Our strong linkages with industries train the students by getting exposed to the latest industrial trends to become competent engineers. For getting first-hand exposure to industrial practices and trends, industrial training & visits are conducted for the students.</p>
