@@ -70,7 +70,7 @@
                     <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
                     <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
                     <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
-                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences</li></a>
+                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences & IT</li></a>
                     <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Engineering</li></a>
                   </ul>
                 </div>
