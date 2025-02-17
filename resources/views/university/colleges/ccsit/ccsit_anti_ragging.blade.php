@@ -1,13 +1,6 @@
 @extends('layouts.university.colleges.ccsit_with_sidebar')
 @section('content')
 
-<style>
-    @media screen and (max-width: 580px){
-        .d-flex {
-        display: block !important;
-        }
-    }
-</style>
 
         <div class="main-content">
             
