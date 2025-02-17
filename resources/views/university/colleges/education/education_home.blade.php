@@ -555,7 +555,7 @@
         <!-- Accordian data and FAQs-->
 
         <div class="container mb-5 mt-5">
-            <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Faculty of Education</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Choose TMU for Your Education Journey<span class="icon">+</span></button>
