@@ -49,7 +49,7 @@
             <div class="row g-4 mb-2">
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
-                        <div class="hospital-counter" data-target="900">0</div>
+                        <div class="hospital-counter" data-target="1095">0</div>
                         <p>Bed Capacity</p>
                     </div>
                 </div>
