@@ -538,7 +538,7 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <h2 class="tmu-text-primary text-center"><span>Why Choose</span><span> College of Law & Legal Studies</span></h2>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
 
