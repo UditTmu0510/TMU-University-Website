@@ -18,6 +18,7 @@ class Jobappliqualification extends Model
         'board_university',
         'year_of_passing',
         'percentage',
+        'qualification_specialization'
     ];
 
 }

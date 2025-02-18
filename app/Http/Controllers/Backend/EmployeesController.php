@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Session;
 use App\Models\User;
 use App\Models\Colleges;
 use App\Models\Employees;
+use App\Models\DepartmentDesignation;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Exception;
@@ -41,6 +42,36 @@ class EmployeesController extends Controller
 
            }
            return response()->json($response);
+
+    }
+    
+        public function getEmployeeDepartmenthrform(Request $request)
+    {
+           $cd_id = $request->cdID;
+           $response = Departments::orderBy('department_name','ASC')->where('cd_id',$cd_id)->where('status','Y')->get();
+           if($response->isEmpty()){
+            return response()->json(['error' => 'No response found for the given cd_id'],404);
+
+           }
+           return response()->json($response);
+
+    }
+    
+    
+            public function getEmployeeDesignationhrform(Request $request)
+    {
+           $cd_id = $request->cdID;
+           $department_id = $request->department_id;
+        $response = DepartmentDesignation::where('department_id', $department_id)
+                ->where('cd_id', $cd_id)
+                ->with('designation_name') // Load the related designation_name data
+                ->get();
+
+    if ($response->isEmpty()) {
+        return response()->json(['error' => 'No response found for the given cd_id'], 404);
+    }
+
+    return response()->json($response);
 
     }
 

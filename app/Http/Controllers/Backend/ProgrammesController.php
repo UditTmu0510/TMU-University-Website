@@ -70,6 +70,7 @@ class ProgrammesController extends Controller
         $programmeByDiscipline = $request->input('programme_by_discipline');
         $programmeByCategory = $request->input('programme_by_category');
         $studyMaterialFlag = $request->input('study_material_flag');
+        $apply_now_button_flag = $request->input('apply_now_button_flag');
         $syllabusFlag = $request->input('syllabus_flag');
         $usp_section_flag = $request->input('usp_section_flag');
         // All the values received through the post method End
@@ -103,6 +104,7 @@ class ProgrammesController extends Controller
             'programme_by_category' => 'required',
             'study_material_flag' => 'required',
             'syllabus_flag' => 'required',
+            'apply_now_button_flag' => 'required'
         ]);
         date_default_timezone_set('Asia/Kolkata');
 
@@ -156,6 +158,7 @@ class ProgrammesController extends Controller
             'study_material_flag' => $studyMaterialFlag,
             'syllabus_flag' => $syllabusFlag,
             'status' => $status,
+            'apply_now_button_flag' => $apply_now_button_flag
         ];
 
         $programme = Programmes::create($programmeData + $filePaths);
@@ -252,6 +255,7 @@ try{
     $programmeByDiscipline = $request->input('programme_by_discipline');
     $programmeByCategory = $request->input('programme_by_category');
     $studyMaterialFlag = $request->input('study_material_flag');
+    $apply_now_button_flag = $request->input('apply_now_button_flag');
     $syllabusFlag = $request->input('syllabus_flag');
     // All the values received through the post method End
     $status  = $request->input('status');
@@ -286,6 +290,7 @@ try{
         'programme_by_category' => 'required',
         'study_material_flag' => 'required',
         'syllabus_flag' => 'required',
+        'apply_now_button_flag' => 'required',
         'status' => 'required'
     ]);
     date_default_timezone_set('Asia/Kolkata');
@@ -340,6 +345,7 @@ try{
         'study_material_flag' => $studyMaterialFlag,
         'syllabus_flag' => $syllabusFlag,
         'status' => $status,
+        'apply_now_button_flag' => $apply_now_button_flag
     ];
 
    $programme_result=  $programme_object->update($programmeData + $filePaths);
