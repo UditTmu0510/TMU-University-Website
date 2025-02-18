@@ -1,0 +1,99 @@
+@extends('layouts.university.main')
+@section('content')
+
+<style>
+	:root {
+		--bs-white-rgb: 255, 255, 255;
+		--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		--bs-body-font-family: var(--bs-font-sans-serif);
+		--bs-body-font-size: 1rem;
+		--bs-body-font-weight: 400;
+		--bs-body-line-height: 1.5;
+		--bs-body-color: #212529;
+		--bs-body-bg: #00000010;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		:root {
+			scroll-behavior: smooth;
+		}
+	}
+
+
+	.rounded-box {
+		border-radius: 15px;
+		transition: transform 250ms;
+	}
+
+	#blog_box {
+		cursor: pointer;
+		height: 290px;
+	}
+
+	.rounded-box:hover {
+		transform: translateY(-5px);
+	}
+
+	.text-reset {
+		color: inherit !important;
+	}
+
+	#blog_box img {
+		width: 100%;
+		height: 190px;
+	}
+
+	/* These were inline style tags. Uses id+class to override almost everything */
+	#style-pe7mR.style-pe7mR {
+		background-color: #fff;
+		border-radius: 15px;
+	}
+
+	#style-gikwI.style-gikwI {
+		object-fit: fill;
+	}
+
+	#style-KFHFY.style-KFHFY {
+		object-fit: fill;
+	}
+
+	#style-V2lFa.style-V2lFa {
+		object-fit: fill;
+	}
+
+	#style-Q1ctL.style-Q1ctL {
+		object-fit: fill;
+	}
+</style>
+
+
+<div class="container my-4">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="fw-bolder fs-4">All BLogs</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach ($allBlogs as $item)
+        <div class="col-12 col-md-3 my-3 px-2">
+            <div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0">
+                <a href="{{ url('blog/' . $item->n_slug) }}" class="text-decoration-none text-reset">
+                    <div>
+                    <img src="{{ asset($item->monaco_image_path != 0 ? $item->monaco_image_path : $item->post_path) }}"
+									alt="{{ $item->post_title }}"
+									class="snipcss0-6-7-8 style-gikwI"
+									id="style-gikwI">
+                    </div>
+                    <div class="mt-2 mx-3">
+                        <div class="fw-bolder fs-6 lh-sm mb-2">{{ Str::limit($item->post_title, 20) }}</div>
+                        <div class="fs-6 lh-sm">{{ Str::limit($item->post_description, 40) }}</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        @endforeach
+    </div>
+
+</div>
+@endsection

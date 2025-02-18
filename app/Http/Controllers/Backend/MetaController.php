@@ -135,7 +135,7 @@ if($metas)
         }else{
             $id = Auth::user()->id;
             $profileData = User::find($id);
-            $max_id = Metas::max('id');
+            $max_id = Metas::max('priority');
             $priority = $max_id + 1;
             return view('admin.backend.pages.metas.add_meta',compact('profileData','priority'));
          }   

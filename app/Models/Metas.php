@@ -65,7 +65,8 @@ class Metas extends Model
     {
         return app(EngineManager::class)->engine('algolia');
     }
-
+    
+    
 public static function fetchMetaTagsBySlug(array $slugs)
     {
        
@@ -111,6 +112,7 @@ public static function fetchMetaTagsBySlug(array $slugs)
        
         return $query->first();
     }
+
   
 }
 

@@ -1,79 +1,95 @@
-@extends('layouts.university.greviances_with_sidebar')
+@extends('layouts.university.departments.greviances_with_sidebar')
 @section('content')
 
+<link rel="stylesheet" href="{{asset('/assets/css/portal.css')}}" >
 
 
-
-<div class="col-12 col-md-9 col-lg-10 mt-3 mt-sm-0 pt-3 pt-md-5 px-4">
-  <!-- Write content for right side here  -->
-
-  <div class="row mx-0">
-    <section id="contact" class="contact mb-5">
-      <div class="container" data-aos="fade-up">
-
-        <h1 class="tmu-text-primary tmu-page-heading"><span> Write </span><span> To Us</span>
-        </h1>
-        <div class="row gx-lg-0 gy-4 mt-2">
-          <div class="col-lg-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row gx-lg-0 gy-4 mt-2">
-                <div class="col-lg-12">
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                    <h3 class="text-left mt-1 mb-4 tmu-text-primary"><span>NEED MORE
-                      </span><span> INFORMATION?</span></h3>
-                    <div class="row">
-                      <div class="col-md-4 form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                      </div>
-                      <div class="col-md-4 form-group mt-2 mt-md-0">
-                        <input type="text" class="form-control" name="rollnumber" id="rollnumber" placeholder="Your Enrolment Number" required>
-                      </div>
-
-                      <div class="col-md-4 form-group mt-2 mt-md-0">
-                        <input type="text" class="form-control" name="text" id="f-name" placeholder="Your Father's Name" required>
+<div class="main-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Write to</span><span> Us</span></h1>
+      <div class="col-lg-12">
+        <div class="card shadow-sm">
+          <div class="card-body p-4">
+            <div class="formbold-main-wrapper">
+              <div class="formbold-form-wrapper">
+                <form action="" method="POST">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h3 class="tmu-text-primary"><span>Need More </span><span> Information?</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Your Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your Full Name" class="formbold-form-input" />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <input type="text" name="programme" class="form-control" id="programme" placeholder="Programme Name" required>
-                      </div>
-                      <div class="col-md-6 form-group mt-2 mt-md-0">
-                        <input type="number" class="form-control" name="Semester" id="semester" placeholder="Semester" required>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Father's Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your Father's Name" class="formbold-form-input" />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <input type="email" name="programme" class="form-control" id="email" placeholder="Your Mail Id" required>
-                      </div>
-                      <div class="col-md-6 form-group mt-2 mt-md-0">
-                        <input type="number" class="form-control" name="contact" id="contact" placeholder="Your Conatact Number" required>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Your Enrolment</label>
+                        <input type="text" name="text" id="text" placeholder="Enter your Enrolment No" class="formbold-form-input" />
                       </div>
                     </div>
-                    <div class="form-group mt-1">
-                      <input type="text" class="form-control" name="c-name" id="c-name" placeholder="College Name" required>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label">Programme Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your programme Name" class="formbold-form-input" />
+                      </div>
                     </div>
-                    <div class="form-group mt-1">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="subject" required>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="phone" class="formbold-form-label">Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your phone number" class="formbold-form-input" />
+                      </div>
                     </div>
-                    <div class="form-group mt-1">
-                      <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="email" class="formbold-form-label">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" class="formbold-form-input" />
+                      </div>
                     </div>
-                    <div style="text-align: center;">
-                      <button class="tmu-btn btn-1 py-2 mt-3">Send Us!</button>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="text" class="formbold-form-label">College Name</label>
+                        <input type="text" name="text" id="name" placeholder="Enter your College Name" class="formbold-form-input" />
+                      </div>
                     </div>
-                  </form>
-                </div><!-- End Contact Form -->
+                    <div class="col-lg-6 col-md-6 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="text" class="formbold-form-label">Subject</label>
+                        <input type="text" name="text" id="subject" placeholder="Enter the Subject" class="formbold-form-input" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-3">
+                      <div class="formbold-mb-5">
+                        <label for="text" class="formbold-form-label">Message</label>
+                        <input type="message" name="message" id="message " placeholder="write your message" class="formbold-form-input" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <button type="submit" class="tmu-btn btn-1 py-2 mt-3 text-center">Submit</button>
+                  </div>
+                </form>
               </div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+          </div>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+    </div>
   </div>
 </div>
 </div>
-</section><!-- #content end -->
-
 
 
 
