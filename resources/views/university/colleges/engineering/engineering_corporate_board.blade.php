@@ -1,50 +1,5 @@
 @extends('layouts.university.colleges.engineering_with_sidebar')
 @section('content')
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    th,
-    td {
-        padding: 8px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-
-    @media screen and (max-width: 600px) {
-
-        table,
-        thead,
-        tbody,
-        th,
-        td,
-        tr {
-            display: block;
-            text-align: center;
-        }
-
-        th,
-        td {
-            box-sizing: border-box;
-            display: block;
-            width: 100%;
-        }
-
-        th,
-        td:before {
-            content: attr(data-label);
-            float: left;
-            font-weight: bold;
-        }
-
-        tr {
-            margin-bottom: 1em;
-        }
-    }
-</style>
-
 <div class="main-content">
         <div class="container">
             <section class="">
