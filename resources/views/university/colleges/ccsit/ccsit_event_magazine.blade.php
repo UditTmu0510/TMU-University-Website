@@ -313,7 +313,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/31.pdf')}}" target="_blank"><img
+                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/32.pdf')}}" target="_blank"><img
                                     src="{{asset('/assets/img/magazines/CCSIT/7.webp')}}"
                                     alt="Book Cover Image"></a>
                         </div>
@@ -444,7 +444,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/24.pdf')}}" target="_blank"><img
+                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/23.pdf')}}" target="_blank"><img
                                     src="{{asset('/assets/img/magazines/CCSIT/15.webp')}}"
                                     alt="Book Cover Image"></a>
                         </div>
@@ -468,7 +468,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/23.pdf')}}" target="_blank"><img
+                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/24.pdf')}}" target="_blank"><img
                                                 src="{{asset('/assets/img/magazines/CCSIT/16.webp')}}"
                                                 alt="Book Cover Image"></a>
                         </div>
@@ -585,6 +585,20 @@
                     <div class="front">
                         <div class="cover">
                         <a href="{{asset('/assets/pdf/ccsit/event-magazine/16.pdf')}}" target="_blank"><img
+                                                src="{{asset('/assets/img/magazines/CCSIT/39.webp')}}"
+                                                alt="Book Cover Image"></a>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <h2>
+                            <span>Computing Vision</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="front">
+                        <div class="cover">
+                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/15.pdf')}}" target="_blank"><img
                                                 src="{{asset('/assets/img/magazines/CCSIT/23.webp')}}"
                                                 alt="Book Cover Image"></a>
                         </div>
@@ -599,7 +613,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/15.pdf')}}" target="_blank"><img
+                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/14.pdf')}}" target="_blank"><img
                                                 src="{{asset('/assets/img/magazines/CCSIT/24.webp')}}"
                                                 alt="Book Cover Image"></a>
                         </div>
@@ -611,20 +625,7 @@
                     </div>
                 </div>
 
-                <div class="book">
-                    <div class="front">
-                        <div class="cover">
-                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/14.pdf')}}" target="_blank"><img
-                                                src="{{asset('/assets/img/magazines/CCSIT/25.webp')}}"
-                                                alt="Book Cover Image"></a>
-                        </div>
-                    </div>
-                    <div class="left-side">
-                        <h2>
-                            <span>Computing Vision</span>
-                        </h2>
-                    </div>
-                </div>
+            
 
             </div>
         </div>
@@ -1256,7 +1257,7 @@
                                     <div class="book-inside"></div>
                                     <div class="book-image">
                                         <a href="{{asset('/assets/pdf/ccsit/event-magazine/16.pdf')}}" target="_blank">
-                                            <img src="{{asset('/assets/img/magazines/CCSIT/23.webp')}}" />
+                                            <img src="{{asset('/assets/img/magazines/CCSIT/39.webp')}}" />
                                         </a>
 
                                     </div>
@@ -1273,7 +1274,7 @@
                                     <div class="book-inside"></div>
                                     <div class="book-image">
                                         <a href="{{asset('/assets/pdf/ccsit/event-magazine/15.pdf')}}" target="_blank">
-                                            <img src="{{asset('/assets/img/magazines/CCSIT/24.webp')}}" />
+                                            <img src="{{asset('/assets/img/magazines/CCSIT/23.webp')}}" />
                                         </a>
 
                                     </div>
@@ -1290,7 +1291,7 @@
                                     <div class="book-inside"></div>
                                     <div class="book-image">
                                         <a href="{{asset('/assets/pdf/ccsit/event-magazine/14.pdf')}}" target="_blank">
-                                            <img src="{{asset('/assets/img/magazines/CCSIT/25.webp')}}" />
+                                            <img src="{{asset('/assets/img/magazines/CCSIT/24.webp')}}" />
                                         </a>
 
                                     </div>
@@ -1299,6 +1300,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="carousel-item ">
                     <div class="book-wrapper">
                         <div class="book-items">

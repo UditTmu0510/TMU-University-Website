@@ -77,6 +77,9 @@
             <a href="{{ route('ccsit.event.magazine') }}" class="custom-menu-item {{ setActive('ccsit.event.magazine') }}">
                 <p>Event Magazine</p>
             </a>
+            <a href="{{ route('ccsit.iqac') }}" target="_blank" class="custom-menu-item {{ setActive('ccsit.iqac') }}">
+                <p>College IQAC</p>
+            </a>
         </div>
     </div>
 </div>

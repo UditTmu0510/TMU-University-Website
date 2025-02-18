@@ -157,7 +157,7 @@
                                     <li>SAR
                                         <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
                                             <li>NBA SAR Faculty of Engineering<br />Link-<a
-                                                    href="https://tmu.ac.in/pdf/coe/nba/SAR.pdf')}}"
+                                                    href="{{asset('/assets/pdf/coe/nba/SAR.pdf')}}"
                                                     target="_blank">View More!</a></li>
                                         </ol>
                                     </li>
