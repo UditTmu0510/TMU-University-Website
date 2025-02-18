@@ -49,16 +49,16 @@
             <div class="row g-4 mb-2">
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
-                        <div class="hospital-counter" data-target="900">0</div>
+                        <div class="hospital-counter" data-target="1095">0</div>
                         <p>Bed Capacity</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-2">
+                <!-- <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="45">0</div>
                         <p>Bed Capacity</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="75">0</div>
@@ -71,14 +71,15 @@
                         <p>Modular Operation Theaters</p>
                     </div>
                 </div>
-            </div>
-            <div class="row g-4">
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="16">0</div>
                         <p>Ventilators</p>
                     </div>
                 </div>
+            </div>
+            <div class="row g-4">
+                
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="1200">0</div>

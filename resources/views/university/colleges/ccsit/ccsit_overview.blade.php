@@ -11,13 +11,13 @@
 
         <section class="about-section bg-light mt-4">
             <div class="container">
-                <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU College of Computing </span><span> Sciences & IT</span></h1>
+                <div class="text-content p-2 p-md-4">
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU College of <br>Computing </span><span> Sciences & IT</span></h1>
                     <p class="about-p mb-4">The College of Computing Sciences & IT came into existence in the year 2014 (formerly
                         known as Department of Computer Applications, established in the year 2001).</p>
                 </div>
-                <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/banner_overview/ccsit/ccsit-about.png')}}" alt="Learning and Teaching">
+                <div class="image-content text-center p-2 p-md-4">
+                    <img class="rounded-3" src="{{asset('assets/img/banner_overview/ccsit/ccsit-about.png')}}" alt="Learning and Teaching">
                     <!-- <img src="{{asset('assets/img/banner_overview/banner.jpg')}}" alt="Learning and Teaching"> -->
                 </div>
                 <div class="container p-3">
@@ -98,7 +98,7 @@
         <div class="container mt-3">
             <div class="row">
                 <div class="col-md-12 mb-3">
-                    <div class="section-box p-3">
+                    <div class="section-box p-2">
                         <h3 class="tmu-text-primary mb-2"><span>Major</span><span> Strength</span></h3>
                         <ul class="m-ol-list ps-5">
                             <li>Well qualified and experienced faculty of various specializations</li>

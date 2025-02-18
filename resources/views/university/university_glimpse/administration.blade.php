@@ -45,7 +45,7 @@
             <img src="{{asset($dean->employee_image_path)}}" class="card-img-top" alt="S.K.Jain">
             <div class="card-body text-center"> <!-- Added 'text-center' class -->
               <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>{{$dean->first_name.' '.$dean->last_name}}</span></h5>
-              <p class="card-text fs-14">{{( optional($dean->designation_name)->designation_name ?? 'No Designation Available' ). ', ' .( optional($dean->college_name)->cd_name ?? 'No College Available') }}</p>
+              <p class="card-text fs-14">{{ (optional($dean->designation_name)->designation_name ?? 'No Designation Available') . ', ' . (optional($dean->faculty)->fy_name ?? 'No Faculty Available') }}</p>
               @if(!empty($dean->email) && strtolower($dean->email) != 'na')
               <p class="card-text fs-14">{{ $dean->email }}</p>
               @endif

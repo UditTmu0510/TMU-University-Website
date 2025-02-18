@@ -123,6 +123,9 @@ class TmuController extends Controller
     {
 
         $programme = Programmes::where('page_slug', $slug)->firstOrFail();
+        if ($programme->status === 'N') {
+            abort(404); // Return a 404 error if the programme is not visible
+        }
         $cd_id = $programme->cd_id;
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
@@ -186,7 +189,7 @@ class TmuController extends Controller
     public function university_administration()
     {
 
-        $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', 0)->where('is_head', 'Y')->get();
+        $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', [0, 1])->where('is_head', 'Y')->get();
         $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 2)->get();
         $vice_principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 29)->get();
         $deans = Employees::with('faculty') // Eager load faculty through college

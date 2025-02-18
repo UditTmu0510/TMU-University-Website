@@ -12,7 +12,7 @@
     <div class="container">
         <div class="container-xl tmu-testimonial">
             <h1 class="tmu-text-primary mb-0 tmu-page-heading pt-md-5 pb-4">
-                <span>Students</span><span>Testimonial</span>
+                <span>Students</span><span> Testimonial</span>
             </h1>
             <div class="row">
                  @foreach($testimonials as $testimonial)
@@ -23,13 +23,13 @@
                         <div class="media-body">
                             <div class="testimonial">
                                 <p class="overview mb-3 fs-14"><b class="fs-16">{{$testimonial->student_name}}</b>
-                                    <br>{{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                                    <br>
+                                    <br><span style="font-weight:600;">{{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})</span>
+                                    <!-- <br>
                                     <span>
                                         <a href="{{$testimonial->linkedin_url}}"
                                             class=" px-2 py-1 linkedin-text">Linkedin <i
                                                 class="bi bi-linkedin"></i></a>
-                                    </span>
+                                    </span> -->
                                 </p>
                                 <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
                             </div>

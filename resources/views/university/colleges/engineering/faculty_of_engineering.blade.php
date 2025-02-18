@@ -33,7 +33,7 @@
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span> Affiliated</span>
                             <br>
-                            <span class="d-block pt-1">Engineering Council of India </span>
+                            <span class="d-block pt-1">Engineering Council of <br>India </span>
                         </div>
                     </div>
                 </div>
@@ -157,8 +157,8 @@
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>Affiliated with UGC, AICTE, and NBA.</li>
-                        <li>IEEE received activities based on the Branch Incentive Award 2022”.</li>
-                        <li>We ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
+                        <li>IEEE received the Branch Incentive Award 2022 for its activities.</li>
+                        <li>Ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
@@ -172,15 +172,15 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>Get ready to explore Limitless Possibilities at FOE College!.</p>
+                    <p>Get ready to explore limitless possibilities at FOE College!.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li><strong>Internship Opportunities: </Strong>Gain practical experience and enhance your skills through exclusive internship programmes offered.</li>
-                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, Ultra Tech Cement, HCL, Wipro, TCS, and many more. They visit TMU, opening doors to remarkable placement opportunities.</li>
+                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, UltraTech Cement, HCL, Wipro, TCS, and many more. These companies visit TMU, opening doors to exceptional placement opportunities.</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
                             <li><strong>Dedicated Corporate Resource Centre (CRC): </Strong>Our CRC tirelessly works to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career.</li>
-                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to assist all our students in securing the best available jobs in their respective fields.</li>
+                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to help all our students secure the best available jobs in their respective fields.</li>
                         </ul>
                         <p>Join FOE College, the epitome of excellence and the best private engineering college in Uttar Pradesh. Unleash your potential and build a rewarding future with us!</p>
                     </div>
@@ -197,7 +197,7 @@
                         <ul class="m-ol-list ps-4">
                             <li><strong>Professional Industry Connections: </Strong> Benefit from our strong ties, as we provide opportunities to connect with experts through workshops, seminars, and guest lectures. We have two Centres of Excellence, namely</li>
                             <ul class="m-ol-list ps-4">
-                                <li><strong>Centre of Excellence: </strong>Ultra-Tech. It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
+                                <li><strong>UltraTech Centre of Excellence: </strong> It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
                             </ul>
                         </ul>
                         <p>Join us at our prestigious institution, where your engineering aspirations will flourish, paving the way for a successful future. Together, let's make your mark in the engineering world! We are proud to be the best private engineering college in UP.</p>
@@ -212,7 +212,7 @@
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
-                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
+                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IIT Bombay. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
                             <li><strong>Live Project Opportunities:</strong> We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges.</li>
                         </ul>
                         <p style="text-align:justify">Experience a transformative engineering education that combines industry expertise, advanced infrastructure, and practical exposure. Join us at the top private engineering college in Moradabad.</p>
@@ -828,7 +828,7 @@
 
         <section>
             <div class="container mb-5 mt-5">
-                <h2 Class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
+                <h2 class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-body">
@@ -885,7 +885,7 @@
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Global Career </span><span> Prospects</span></h3>
                                 <p class="mb-2">Our strong industry connections and international collaborations open doors to global internships and placement opportunities, providing you with a competitive edge in the job market.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry Collaborations and </span><span>Real-World Exposure</span></h3>
-                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research</p>
+                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Dedicated Corporate </span><span> Resource Centre (CRC)</span></h3>
                                 <p class="mb-2">Our CRC works tirelessly to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career and have access to top employers.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement </span><span>Record</span></h3>
@@ -906,9 +906,9 @@
 
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>State-of-the-Art </span><span> Labs</span></h3>
                                 <p class="mb-2">Our engineering labs are equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation. These labs are crucial for developing practical skills and fostering innovation.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</span></h3>
                                 <p class="mb-2">We have strong partnerships with esteemed organisations like NVIDIA, BSNL, TCS-iON, and Voltrans, fostering research, development, and technology incubation. These collaborations provide valuable opportunities for students to work on cutting-edge projects and gain real-world experience.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</span></h3>
                                 <p class="mb-2">Collaborations with renowned institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB enhance our students' exposure to world-class resources and cutting-edge technologies, ensuring they stay at the forefront of innovation.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Live Project </span><span> Opportunities</span></h3>
                                 <p class="mb-2">We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges, making them industry-ready.</p>

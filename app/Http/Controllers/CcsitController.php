@@ -164,5 +164,11 @@ class CcsitController extends Controller
          $programmes = Programmes::where('cd_id',10)->where('status','Y')->get();
         return view('university.colleges.ccsit.ccsit_syllabus',compact('programmes'));
     }
+    public function ccsit_iqac()
+    {
+         
+        return view('university.colleges.ccsit.ccsit_iqac');
+    }
 
+    
 }
