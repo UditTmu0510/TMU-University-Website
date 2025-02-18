@@ -20,6 +20,7 @@ yarn-error.log
 .DS_Store
 vendor
 */.DS_Store
+.github/workflows/deploy.sh
 # Ignore all files and folders in the public directory
 /public/*
 
