@@ -109,7 +109,7 @@ class NaacPdfsController extends Controller
             $pdfs = NaacPdfs::whereIn('criterion_id', $allowedCriteria)
                             ->orderBy('criterion_id', 'DESC')
                             ->orderBy('key_indicator_id', 'DESC')
-                            ->get();
+                            ->paginate(10);
         }
        
         $user_id = Auth::user()->id;
