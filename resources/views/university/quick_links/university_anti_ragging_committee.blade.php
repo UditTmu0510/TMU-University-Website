@@ -87,12 +87,12 @@
                             <td>9837033001</td>
                         </tr>
 
-                        <tr>
+                        <!-- <tr>
                             <td class="text-center">11</td>
                             <td>Dr. Aditya Sharma</td>
                             <td>Member Secretary</td>
                             <td>9837933666</td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </div>

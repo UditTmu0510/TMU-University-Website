@@ -6,7 +6,7 @@
         <div class="col-6 col-lg-3 px-1">
             <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
 
-                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
+                <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>16000+</span>
                     <br>
                     <span class="d-block pt-1">Students</span>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>17000+</span>
+                            <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>16000+</span>
                                 <br>
                                 <span class="d-block pt-1">Students</span>
                             </div>

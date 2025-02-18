@@ -17,8 +17,7 @@
         <div class="panel active">
           <p>Based on the information provided by the applicant, the eligible candidates will be called for
             <b>Teerthanker Mahaveer University Research Aptitude Test (TRAT)</b>. The TRAT qualified candidates would be
-            required to first complete the coursework as specified in the <a
-              href="https://www.tmu.ac.in/tmu/phd-ordinance-2017"><span class="highlight">Ph.D. Ordinance</span></a> and give the presentation of their
+            required to first complete the coursework as specified in the Ph.D. Ordinance and give the presentation of their
             research plan to the Research Committee on a later date communicated by the concerned college of the
             university.</p>
         </div>
@@ -92,9 +91,7 @@
         <button class="careers-accordion">From where can I draw guidance about the SOP, fee structure, process, etc.?
           <span class="icon">+</span> </button>
         <div class="panel">
-          <p style="text-align:justify">The <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017" target="_blank"
-              aria-label="Ph.D. Ordinance - open in a new tab" data-uw-rm-ext-link=""
-              uw-rm-external-link-id="https://www.tmu.ac.in/tmu/phd-ordinance-2017$ph.d.ordinance">Ph.D. Ordinance</a>
+          <p style="text-align:justify">The Ph.D. Ordinance
             given on the website of the University provides complete guidance regarding the Ph.D. program. Besides this,
             for any clarification, please mail your query at <a href="mailto:joint.registrar@tmu.ac.in"
               aria-label="send an email to joint.registrar@tmu.ac.in"

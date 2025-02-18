@@ -14,6 +14,7 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container py-5">
         <div class="row justify-content-center">
+            <h1 class="tmu-page-heading tmu-text-primary"><span>From the desk of </span><span>Dean</span></h1>
             <div class="col-lg-10">
                 <div class="principal-card23">
                     <i class="ph-bold ph-quotes principal-quote-icon23"></i>
@@ -34,6 +35,7 @@
                                 </p>
                             </div>
                         </div>
+                        <p class="text-justify text-dark fs-14 mb-2"> <i class="bi bi-quote" style="font-size:30px; color: #737373;"></i>Thriving Towards Brilliance Through Resilience...</p>
                             <p class="principal-text23 text-justify">
                                 I wish to welcome all new students to Faculty of Engineering at Teerthanker Mahaveer University, Moradabad, India.
                                 <br>

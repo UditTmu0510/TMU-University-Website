@@ -164,7 +164,7 @@
                 <h2 class="college-main-heading">Teerthanker Mahaveer Medical College and Research Centre (TMMC&RC), Among Top Medical Colleges in India</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">Teerthanker Mahaveer Medical College & Research Centre was established in 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</p></b>
+                        <p style="text-align: justify;">Teerthanker Mahaveer Medical College & Research Centre was established in 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 150 MBBS students, which has been increased to 250 from the Academic Session 2024-25.</p></b>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">Choosing the right medical college is a critical decision that shapes your future as a healthcare professional. Teerthanker Mahaveer Medical College and Research Centre (TMMC&RC) stands out as one of the premier institutions in India, providing top-notch education and exceptional facilities. Let’s explore why TMMC&RC is the ideal choice for aspiring medical professionals.
                                 </b></p>

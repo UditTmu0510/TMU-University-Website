@@ -35,19 +35,19 @@
                             </div>
                         </div>
                             <p class="principal-text23 text-justify">
-                                I wish to welcome all new students to Faculty of Engineering at Teerthanker Mahaveer University, Moradabad, India.
+                                I wish to welcome all new students to the Faculty of Engineering at Teerthanker Mahaveer University, Moradabad, India.
                                 <br>
                                 <br>
                                 Our aim at the Faculty of Engineering is to educate and create 'technocrats' with solid academic base and attainment of value-added skills to face local, national and international industrial domain.
                                 <br>
                                 <br>
-                                Technical education is at the cross road and for your better competence we continuously upgrade Infrastructure, Computational facilities and Laboratories to provide hands on exposure. In addition, we are in collaboration with industries to help and provide the required training to the Campus for making you job ready.
+                                Technical education is at a crossroads, and to enhance your competence, we continuously upgrade infrastructure, computational facilities, and laboratories to provide hands-on exposure. In addition, we are in collaboration with industries to help and provide the required training to the Campus for making you job-ready.
                                 <br>
                                 <br>
-                                Training programs with IL&FS Skills, Bharat seats, CIDC, Amtek Auto, Auto CAD are in place. We also look forward to have Volvo, Bosch, iMove and Siemens to run joint programs and also create state of art Labs in the Campus for creating industry ready manpower.
+                                Training programs with IL&FS Skills, Bharat Seats, CIDC, Amtek Auto, AutoCAD are in place. We also look forward to having Volvo, Bosch, iMove, and Siemens run joint programmes and create state-of-the-art labs on the campus for developing industry-ready manpower.
                                 <br>
                                 <br>
-                                To improve your exposure in Research & Innovation we are also planning an Incubation Centre and are recruiting faculty from the best of Institutes to create the ambience. I welcome you all again and hope your stay would be a learning experience which will facilitate you to be the future technocrats of this country.
+                                To improve your exposure in Research & Innovation we are also planning an Incubation Centre and are recruiting faculty from the best Institutes to create the ambience. I welcome you all again and hope your stay would be a learning experience which will facilitate you to be the future technocrats of this country.
                             </p>
                             
                         </div>

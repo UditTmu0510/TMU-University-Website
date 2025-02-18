@@ -59,6 +59,9 @@
             <a href="{{ route('engineering.project.guidelines') }}" target="_blank" class="custom-menu-item {{ setActive('engineering.project.guidelines') }}">
                 <p>Project Guidelines</p>
             </a>
+            <a href="{{ route('engineering.project.template') }}" target="_blank" class="custom-menu-item {{ setActive('engineering.project.template') }}">
+                <p>Project Templates</p>
+            </a>
             <a href="{{ route('engineering.anti.ragging') }}" class="custom-menu-item {{ setActive('engineering.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
             </a>

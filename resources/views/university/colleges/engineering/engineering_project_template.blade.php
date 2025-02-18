@@ -1,4 +1,4 @@
-@extends('layouts.university.colleges.ccsit_with_sidebar')
+@extends('layouts.university.colleges.engineering_with_sidebar')
 @section('content')
 
 

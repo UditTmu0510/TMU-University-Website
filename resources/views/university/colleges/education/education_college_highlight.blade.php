@@ -37,13 +37,13 @@
                             <div class="timeline-item right wow slideInRight">
                                 <div class="timeline-text">
                                     <div class="timeline-date">Books, Journals & Magazines</div>
-                                    <p>The College of Law & Legal Studies' library houses  69885 books and subscribes to 18 National journals and 06 Magazines.</p>
+                                    <p>The Faculty of Education library houses  69885 books and subscribes to 18 National journals and 06 Magazines.</p>
                                 </div>
                             </div>
                             <div class="timeline-item left wow slideInLeft">
                                 <div class="timeline-text">
                                     <div class="timeline-date">E-Journals & E-Books</div>
-                                    <p> The College of Law & Legal Studies provides access to e-journals and e-books through the EBSCO's Academic Search and the DELNET Database</p>
+                                    <p> The Faculty of Education provides access to e-journals and e-books through the EBSCO's Academic Search and the DELNET Database.</p>
                                 </div>
                             </div>
                     </div>

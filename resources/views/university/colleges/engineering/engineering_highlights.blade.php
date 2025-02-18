@@ -30,7 +30,7 @@
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Computer Laboratories </div>
-                            <p>The College of Computing Sciences & IT boasts 8 state-of-the-art laboratories equipped with 554 computers and peripherals.</p>
+                            <p>The Faculty of Engineering boasts 8 state-of-the-art laboratories equipped with 554 computers and peripherals.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft">

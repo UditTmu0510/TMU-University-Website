@@ -415,7 +415,7 @@
       </div>
       <div class="new-menu-row">
         <div class="new-menu-item"><span><a href="https://www.tmu.ac.in/"
-              style="color: #fff; text-decoration: none;">Enquir Now</a></span></div>
+              style="color: #fff; text-decoration: none;">Enquire Now</a></span></div>
         <div class="new-vl"></div>
         <div class="new-menu-item"><span>TMU Online</span></div>
       </div>

@@ -22,7 +22,7 @@
                         domestic and global requirements.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/aboutus/physical/Phy-E.jpg')}}" alt="TMIMT College of Physical Education">
+                    <img src="{{asset('/assets/img/aboutus/physical/Phy-E.jpg')}}" class="rounded-3" alt="TMIMT College of Physical Education">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Physical fitness and wellness play a key role in our society, underscoring the need for qualified professionals in physical education, yoga, health, and recreation. Excellence in sports is possible on the sound foundation of Physical Education. In the contemporary scenario, success in yoga, physical education and sports depends upon the quality of trainers who are well prepared through formal and informal acquisitions of multidimensional knowledge and training in the specialized discipline and its effective transaction. Having realized the challenges of the 21st century, Teerthanker Mahaveer University felt a genuine need to set up a most modern and well equipped Physical Education Institution with a firm commitment to producing innovative sports leaders, managers and administrators who will be proactive in facing health and fitness challenges with a mix of modern and traditional methods and approaches.
