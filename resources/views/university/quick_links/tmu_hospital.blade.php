@@ -53,12 +53,12 @@
                         <p>Bed Capacity</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 mb-2">
+                <!-- <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="45">0</div>
                         <p>Bed Capacity</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="75">0</div>
