@@ -184,6 +184,7 @@ Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('subm
 
 Route::post('/get-departments', [JobformController::class, 'getDepartments'])->name('get.departments');
 Route::post('/get-designations', [JobformController::class, 'getDesignations'])->name('get.designations');
+Route::get('/get-faculties', [JobformController::class, 'getFaculties'])->name('get.faculties');
 
 
 

@@ -191,9 +191,14 @@
                     <td>Bar Council of India (BCI)</td>
                   </tr>
                   <tr>
-                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication), Computer Science &
-                      Engineering</td>
-                    <td>All India Council for Technical Education (AICTE), National Board of Accreditation (NBA)
+                    <td>B.Tech. Computer Science & Engineering</td>
+                    <td>National Board of Accreditation (NBA)
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication)</td>
+                    <td>All India Council for Technical Education (AICTE)
                     </td>
                   </tr>
                   <tr>

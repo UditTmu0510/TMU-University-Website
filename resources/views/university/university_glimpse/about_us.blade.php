@@ -26,7 +26,7 @@
                 <p class="text-justify fs-14 mb-2">As a multi-disciplinary varsity, we offer
                   career-oriented programmes
                   at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams of <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
-                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank"> Polytechnic</a>,
+                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>, <a href="{{route('ccsit.home')}}" target="_blank"> CCSIT</a>, <a href="{{route('engineering.home')}}" target="_blank"> Polytechnic</a>,
                     <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
                 </p>
 
@@ -70,7 +70,7 @@
                     <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
                     <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
                     <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
-                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences</li></a>
+                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences & IT</li></a>
                     <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Engineering</li></a>
                   </ul>
                 </div>
@@ -262,7 +262,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-handshake" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">82%</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">85%</div>
             <p style="color:#000;">Placements</p>
           </div>
 
@@ -274,7 +274,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-certificate" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">1700+</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">2800+</div>
             <p style="color:#000;">Patents</p>
           </div>
         </div>

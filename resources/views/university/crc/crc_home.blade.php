@@ -9,7 +9,7 @@
 <div class="main-content">
     <div class="container">
         <div class="crc-slider-container">
-            <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div>
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div> -->
 
             <div class="crc-slider-content">
                 <div class="crc-slider-slides">
@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div>
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div> -->
         </div>
 
 

@@ -159,10 +159,7 @@
 									<br>
 									<div style="margin-top:30px;">
 										<address>
-											<strong style="font-weight: 300;">TMU stands committed to the ideals of Lord Mahaveer - Right
-												Philosophy, Right Knowledge and Right Conduct in all spheres of
-												activity and aspires to be the ultimate destination for
-												world-class education.</strong>
+											<strong style="font-weight: 300;">TMU is committed to the ideals of Lord Mahaveer "Right Philosophy, Right Knowledge, and Right Conduct" in all spheres of activity and aspires to be the ultimate destination for world-class education.</strong>
 
 										</address>
 										<p style="margin-bottom: 0px;"><strong style="font-size: 16px; font-weight: 600; color:#FF7900;">Address: </strong> N.H.-9, Delhi
@@ -218,7 +215,7 @@
 							<!--</div>-->
 
 							<div class="col-6 col-lg-2 widget_links">
-								<h4>Student Life</h4>
+								<h4>Campus Facilities</h4>
 								<ul>
 									
 									<li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
@@ -232,11 +229,11 @@
 								<h4>Student Life</h4>
 								<ul>
 									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
-									<li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jainalya</a></li>
-									<li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga & Meditation</a></li>
+									<li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
+									<li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga and Meditation</a></li>
 									<li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
 									<li><a href="{{route('library')}}" target="_blank">Library</a></li>
-											<li><a href="{{route('music.and.dance.room')}}" target="_blank">Music & Dance</a></li>
+											<li><a href="{{route('music.and.dance.room')}}" target="_blank">Music and Dance</a></li>
 													<li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
 
 								</ul>
@@ -271,7 +268,7 @@
 			<div class="row justify-content-between">
 				<div class="col-12 col-lg-auto text-center text-lg-start">
 					<div class="copyrights-menu copyright-links">
-						<a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti Ragging</a>/<a href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
+						<a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti-Ragging</a>/<a href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
 						</div>
 					Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
 				</div>

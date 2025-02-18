@@ -1,122 +1,122 @@
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const searchIcon = document.getElementById('searchIcon');
-    const searchModal = document.getElementById('searchModal');
-    const closeModal = document.getElementById('closeModal');
-    const searchInput = document.getElementById('searchInput');
-    const suggestions = document.getElementById('suggestions');
+    document.addEventListener('DOMContentLoaded', () => {
+        const searchIcon = document.getElementById('searchIcon');
+        const searchModal = document.getElementById('searchModal');
+        const closeModal = document.getElementById('closeModal');
+        const searchInput = document.getElementById('searchInput');
+        const suggestions = document.getElementById('suggestions');
 
-    searchIcon.addEventListener('click', () => {
-        searchModal.style.display = 'block';
-        searchInput.focus();
-    });
+        searchIcon.addEventListener('click', () => {
+            searchModal.style.display = 'block';
+            searchInput.focus();
+        });
 
-    closeModal.addEventListener('click', () => {
-        searchModal.style.display = 'none';
-    });
-
-    window.addEventListener('click', (event) => {
-        if (event.target == searchModal) {
+        closeModal.addEventListener('click', () => {
             searchModal.style.display = 'none';
-        }
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == searchModal) {
+                searchModal.style.display = 'none';
+            }
+        });
+
+
+
+
     });
-
-
-
-
-});
 </script>
 
 
 <script>
-$(document).ready(function() {
-    let searchRequest = null; // Store the current AJAX request
+    $(document).ready(function() {
+        let searchRequest = null; // Store the current AJAX request
 
-    $('#searchInput').on('keyup', function() {
-        let query = $(this).val();
-        console.log(query);
+        $('#searchInput').on('keyup', function() {
+            let query = $(this).val();
+            console.log(query);
 
-        let suggestions = $('#suggestions');
-        suggestions.empty(); // Clear suggestions immediately
+            let suggestions = $('#suggestions');
+            suggestions.empty(); // Clear suggestions immediately
 
-        // If query length is 0, stop further processing
-        if (query.length === 0) {
-            suggestions.empty(); // Clear results
-            return;
-        }
+            // If query length is 0, stop further processing
+            if (query.length === 0) {
+                suggestions.empty(); // Clear results
+                return;
+            }
 
-        // Abort previous request if it's still in progress
-        if (searchRequest !== null) {
-            searchRequest.abort();
-        }
+            // Abort previous request if it's still in progress
+            if (searchRequest !== null) {
+                searchRequest.abort();
+            }
 
-        if (query.length > 2) {
-            searchRequest = $.ajax({
-                url: '{{ route("search") }}',
-                type: 'post',
-                data: {
-                    _token: '{{ csrf_token() }}',
-                    query: query
-                },
-                dataType: 'json',
-                success: function(response) {
-                    // Check if input value still matches query before showing results
-                    if ($('#searchInput').val() !== query) {
-                        return;
-                    }
+            if (query.length > 2) {
+                searchRequest = $.ajax({
+                    url: '{{ route("search") }}',
+                    type: 'post',
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                        query: query
+                    },
+                    dataType: 'json',
+                    success: function(response) {
+                        // Check if input value still matches query before showing results
+                        if ($('#searchInput').val() !== query) {
+                            return;
+                        }
 
-                    if (response.error) {
-                        console.error('Search Error:', response.error);
-                    } else {
-                        $.each(response, function(index, data) {
-                            let url = 'https://tmuhospital.com/';
-                            let final_slug;
-                            let slug1 = data.slug1;
-                            let slug2 = data.slug2;
-                            let slug3 = data.slug3;
-                            let slug4 = data.slug4;
-                            let slug5 = data.slug5;
+                        if (response.error) {
+                            console.error('Search Error:', response.error);
+                        } else {
+                            $.each(response, function(index, data) {
+                                let url = 'https://tmuhospital.com/';
+                                let final_slug;
+                                let slug1 = data.slug1;
+                                let slug2 = data.slug2;
+                                let slug3 = data.slug3;
+                                let slug4 = data.slug4;
+                                let slug5 = data.slug5;
 
-                            function isValidSlug(slug) {
-                                return slug !== undefined && slug !== null &&
-                                    slug !== '' && slug !== 'na';
-                            }
-
-                            if (isValidSlug(slug1) && !isValidSlug(slug2)) {
-                                final_slug = `${url}${slug1}`;
-                            } else if (isValidSlug(slug1) && isValidSlug(slug2) && !
-                                isValidSlug(slug3)) {
-                                final_slug = `${url}${slug1}/${slug2}`;
-                            } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
-                                isValidSlug(slug3) && !isValidSlug(slug4)) {
-                                final_slug = `${url}${slug1}/${slug2}/${slug3}`;
-                            } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
-                                isValidSlug(slug3) && isValidSlug(slug4) && !
-                                isValidSlug(slug5)) {
-                                final_slug =
-                                    `${url}${slug1}/${slug2}/${slug3}/${slug4}`;
-                            }
-
-                            if (final_slug) {
-                                if ($.trim(data.disp_attribute_1) !== '' && $.trim(
-                                        data.disp_attribute_2) !== '') {
-                                    suggestions.append(
-                                        `<a href="${final_slug}"><div style="font-weight:600">${data.disp_attribute_1}<br><span style="font-size:12px;font-weight:400">${data.disp_attribute_2}</span></div></a>`
-                                        );
+                                function isValidSlug(slug) {
+                                    return slug !== undefined && slug !== null &&
+                                        slug !== '' && slug !== 'na';
                                 }
-                            }
-                        });
+
+                                if (isValidSlug(slug1) && !isValidSlug(slug2)) {
+                                    final_slug = `${url}${slug1}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) && !
+                                    isValidSlug(slug3)) {
+                                    final_slug = `${url}${slug1}/${slug2}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
+                                    isValidSlug(slug3) && !isValidSlug(slug4)) {
+                                    final_slug = `${url}${slug1}/${slug2}/${slug3}`;
+                                } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
+                                    isValidSlug(slug3) && isValidSlug(slug4) && !
+                                    isValidSlug(slug5)) {
+                                    final_slug =
+                                        `${url}${slug1}/${slug2}/${slug3}/${slug4}`;
+                                }
+
+                                if (final_slug) {
+                                    if ($.trim(data.disp_attribute_1) !== '' && $.trim(
+                                            data.disp_attribute_2) !== '') {
+                                        suggestions.append(
+                                            `<a href="${final_slug}"><div style="font-weight:600">${data.disp_attribute_1}<br><span style="font-size:12px;font-weight:400">${data.disp_attribute_2}</span></div></a>`
+                                        );
+                                    }
+                                }
+                            });
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        if (status !== 'abort') {
+                            console.error('AJAX Error:', error);
+                        }
                     }
-                },
-                error: function(xhr, status, error) {
-                    if (status !== 'abort') {
-                        console.error('AJAX Error:', error);
-                    }
-                }
-            });
-        }
+                });
+            }
+        });
     });
-});
 </script>
 
 <footer id="footer" class="dark" style="background-color: #001055;margin-top:0 !important;">
@@ -171,10 +171,18 @@ $(document).ready(function() {
                                                 style="font-size: 16px; font-weight: 600; color:#FF7900;">Contact Us:
                                             </strong></abbr>
                                             1800-270-1490</p>
+
                                         <p style="margin-bottom: 0px;"><strong
                                                 style="font-size: 16px; font-weight: 600; color:#FF7900;">Email:
                                             </strong></abbr>
                                             university@tmu.ac.in</p>
+
+                                        <p style="margin-bottom: 0px;"><strong
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Email:
+                                            </strong></abbr>
+                                            admissions@tmu.ac.in
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -228,9 +236,9 @@ $(document).ready(function() {
 
 
                             <div class="col-6 col-lg-2 widget_links">
-                                <h4>Student Life</h4>
+                                <h4>Campus Facilities</h4>
                                 <ul>
-                                    
+
                                     <li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
                                     <li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
                                     <li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
@@ -238,7 +246,7 @@ $(document).ready(function() {
                                     <li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
                                 </ul>
                             </div>
-							<div class="col-6 col-lg-2 widget_links">
+                            <div class="col-6 col-lg-2 widget_links">
                                 <h4>Student Life</h4>
                                 <ul>
                                     <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jainalya</a></li>
@@ -248,9 +256,9 @@ $(document).ready(function() {
                                     <li><a href="{{route('music.and.dance.room')}}" target="_blank">Music & Dance</a></li>
                                     <li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
 
-								</ul>
-							</div>
-						</div>
+                                </ul>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -346,7 +354,7 @@ $(document).ready(function() {
 							============================================= -->
 
 
-<script src="{{asset('js/functions.js')}}" ></script>
+<script src="{{asset('js/functions.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
 <script src="{{asset('assets/js/util.js')}}"></script>
@@ -362,182 +370,182 @@ $(document).ready(function() {
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const downloadButtons = document.querySelectorAll('.download-btn');
+    document.addEventListener('DOMContentLoaded', () => {
+        const downloadButtons = document.querySelectorAll('.download-btn');
 
-    downloadButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const imgSrc = button.getAttribute('href');
-            if (imgSrc) {
-                downloadFile(imgSrc);
-            } else {
-                console.error('Image source not found.');
-            }
+        downloadButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const imgSrc = button.getAttribute('href');
+                if (imgSrc) {
+                    downloadFile(imgSrc);
+                } else {
+                    console.error('Image source not found.');
+                }
+            });
         });
     });
-});
 
-function downloadFile(filePath) {
-    fetch(filePath)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok: ' + response.statusText);
-            }
-            return response.blob();
-        })
-        .then(blob => {
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.style.display = 'none';
-            a.href = url;
-            a.download = filePath.split('/').pop(); // Extract filename from path
-            document.body.appendChild(a);
-            a.click();
-            window.URL.revokeObjectURL(url);
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-            alert('Failed to download the image. Please try again later.');
-        });
-}
+    function downloadFile(filePath) {
+        fetch(filePath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+                return response.blob();
+            })
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = filePath.split('/').pop(); // Extract filename from path
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+                alert('Failed to download the image. Please try again later.');
+            });
+    }
 </script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var activePanel = document.querySelector('.panel.active');
-    if (activePanel) {
-        var activeAccordion = activePanel.previousElementSibling;
-        activePanel.style.display = "block";
-        activeAccordion.querySelector(".icon").innerHTML = "-";
-        activeAccordion.classList.add("clicked");
-    }
-});
+    document.addEventListener('DOMContentLoaded', function() {
+        var activePanel = document.querySelector('.panel.active');
+        if (activePanel) {
+            var activeAccordion = activePanel.previousElementSibling;
+            activePanel.style.display = "block";
+            activeAccordion.querySelector(".icon").innerHTML = "-";
+            activeAccordion.classList.add("clicked");
+        }
+    });
 
- // 
- 
+    // 
+
 
     const reviews = [{
-        name: "Speaks about College of Computing Sciences & IT",
-        text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-        profile: {
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            name: "Rajeev Mishra",
-            link: "https://www.linkedin.com/in/rajeevmishra20/",
-            designation: "Technology Architect",
-            company: "Bearing Point, Germany",
-            course: "B.Tech CSE",
-            graduationYear: "2014",
-        },
-    },
-    {
-        name: "Speaks about TMIMT College of Management",
-        text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-        img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-        profile: {
+            name: "Speaks about College of Computing Sciences & IT",
+            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
             img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            name: "Shobhit Jain",
-            link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-            designation: "Group Director - Talent Acquisition",
-            company: "Saudi German Hospitals Group",
-             course:"MBA",
-            graduationYear: "2011",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+                name: "Rajeev Mishra",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Technology Architect",
+                company: "Bearing Point, Germany",
+                course: "B.Tech CSE",
+                graduationYear: "2014",
+            },
         },
-    },
-    {
-        name: "Speaks about Medical College & Research Centre",
-        text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-        img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-        profile: {
+        {
+            name: "Speaks about TMIMT College of Management",
+            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                name: "Shobhit Jain",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
+                designation: "Group Director - Talent Acquisition",
+                company: "Saudi German Hospitals Group",
+                course: "MBA",
+                graduationYear: "2011",
+            },
+        },
+        {
+            name: "Speaks about Medical College & Research Centre",
+            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
             img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            name: "Radhika Mathur",
-            designation: "Resident Physician",
-            company: "HCA Florida Oak Hill Hospital",
-            course: "MBBS",
-            graduationYear: "2019",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+                name: "Radhika Mathur",
+                designation: "Resident Physician",
+                company: "HCA Florida Oak Hill Hospital",
+                course: "MBBS",
+                graduationYear: "2019",
+            },
         },
-    },
-    {
-        name: "Speaks about Engineering College",
-        text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
-        img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
-        profile: {
+        {
+            name: "Speaks about Engineering College",
+            text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
             img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
-            name: "Ashish Bhatnagar",
-            link: "https://www.linkedin.com/in/abhatnagar83",
-            designation: "Senior Software Architect",
-            company: "HCL Software, Noida",
-            course: "MCA",
-            graduationYear: "2005",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
+                name: "Ashish Bhatnagar",
+                link: "https://www.linkedin.com/in/abhatnagar83",
+                designation: "Senior Software Architect",
+                company: "HCL Software, Noida",
+                course: "MCA",
+                graduationYear: "2005",
+            },
         },
-    },
-    {
-        name: "Speaks about Dental College & Research Centre",
-        text: "I am incredibly thankful to TMU for playing a pivotal role in shaping my journey as a dental professional. Pursuing my Master’s in Conservative Dentistry and Endodontics at this renowned university in 2016 was a transformative experience that equipped me with the expertise and confidence to excel in my field. Today, as the proprietor of Khoriya Multispeciality Dental Clinic and a consultant Endodontist in multiple districts, I reflect on how the knowledge and values imparted by TMU have been instrumental in my achievements. I am proud to be an alumnus of such a prestigious university that encourages students to innovate, lead and transform.",
-        img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
-        profile: {
+        {
+            name: "Speaks about Dental College & Research Centre",
+            text: "I am incredibly thankful to TMU for playing a pivotal role in shaping my journey as a dental professional. Pursuing my Master’s in Conservative Dentistry and Endodontics at this renowned university in 2016 was a transformative experience that equipped me with the expertise and confidence to excel in my field. Today, as the proprietor of Khoriya Multispeciality Dental Clinic and a consultant Endodontist in multiple districts, I reflect on how the knowledge and values imparted by TMU have been instrumental in my achievements. I am proud to be an alumnus of such a prestigious university that encourages students to innovate, lead and transform.",
             img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
-            name: "Dr. Sarvesh S. Khoriya",
-            link: "#",
-            designation: "Dentist (Owner)",
-            company: "Khoriya Multispecialty Dental Clinic, Pune, Maharashtra",
-            course: "MDS",
-            graduationYear: "2016",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
+                name: "Dr. Sarvesh S. Khoriya",
+                link: "#",
+                designation: "Dentist (Owner)",
+                company: "Khoriya Multispecialty Dental Clinic, Pune, Maharashtra",
+                course: "MDS",
+                graduationYear: "2016",
+            },
         },
-    },
-    {
-        name: "Speaks about Dental College & Research Centre",
-        text: "TMU has been a cornerstone in my academic and professional journey. The years I spent pursuing my BDS and MDS at this esteemed university were marked by the best learning experiences and growth. From the exceptional faculty to the modern curriculum and constant encouragement from the management, every aspect contributed to my success. As the owner of multiple successful clinics and the founder of several organisations, I often reflect on my time at TMU with great gratitude. The university not only equipped me with the technical skills and knowledge needed to excel but also instilled in me the confidence to dream big and achieve even bigger.",
-        img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
-        profile: {
+        {
+            name: "Speaks about Dental College & Research Centre",
+            text: "TMU has been a cornerstone in my academic and professional journey. The years I spent pursuing my BDS and MDS at this esteemed university were marked by the best learning experiences and growth. From the exceptional faculty to the modern curriculum and constant encouragement from the management, every aspect contributed to my success. As the owner of multiple successful clinics and the founder of several organisations, I often reflect on my time at TMU with great gratitude. The university not only equipped me with the technical skills and knowledge needed to excel but also instilled in me the confidence to dream big and achieve even bigger.",
             img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
-            name: "Dr. Swapnil Sunil Bumb",
-            link: "#",
-            designation: "Associate Professor",
-            company: "Mithila Minority Dental College and Hospital, Darbanga, Bihar",
-             course:"MDS",
-            graduationYear: "2016",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
+                name: "Dr. Swapnil Sunil Bumb",
+                link: "#",
+                designation: "Associate Professor",
+                company: "Mithila Minority Dental College and Hospital, Darbanga, Bihar",
+                course: "MDS",
+                graduationYear: "2016",
+            },
         },
-    },
-];
+    ];
 
-let currentReviewIndex = 0;
+    let currentReviewIndex = 0;
 
-function showReview(index) {
-    const review = reviews[index];
-    document.querySelector('.testimonial-title').innerText = review.name;
-    document.querySelector('.review-text').innerText = review.text;
-    document.getElementById('profile-picture').src = review.profile.img;
-    document.getElementById('profile-name').innerText = review.profile.name;
-    document.getElementById('profile-link').href = review.profile.link;
-    document.getElementById('profile-designation').innerText = review.profile.designation;
-    document.getElementById('profile-company').innerText = review.profile.company;
-    document.getElementById('profile-course').innerText = review.profile.course;
-    document.getElementById('profile-graduationYear').innerText = review.profile.graduationYear;
+    function showReview(index) {
+        const review = reviews[index];
+        document.querySelector('.testimonial-title').innerText = review.name;
+        document.querySelector('.review-text').innerText = review.text;
+        document.getElementById('profile-picture').src = review.profile.img;
+        document.getElementById('profile-name').innerText = review.profile.name;
+        document.getElementById('profile-link').href = review.profile.link;
+        document.getElementById('profile-designation').innerText = review.profile.designation;
+        document.getElementById('profile-company').innerText = review.profile.company;
+        document.getElementById('profile-course').innerText = review.profile.course;
+        document.getElementById('profile-graduationYear').innerText = review.profile.graduationYear;
 
-    document.querySelectorAll('.thumb').forEach((thumb, i) => {
-        thumb.classList.toggle('active-thumb', i === index);
-    });
-}
+        document.querySelectorAll('.thumb').forEach((thumb, i) => {
+            thumb.classList.toggle('active-thumb', i === index);
+        });
+    }
 
-function showNextReview() {
-    currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+    function showNextReview() {
+        currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+        showReview(currentReviewIndex);
+    }
+
+    function showPreviousReview() {
+        currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
+        showReview(currentReviewIndex);
+    }
+
+    function displayReviewByIndex(index) {
+        currentReviewIndex = index;
+        showReview(currentReviewIndex);
+    }
+
     showReview(currentReviewIndex);
-}
 
-function showPreviousReview() {
-    currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
-    showReview(currentReviewIndex);
-}
-
-function displayReviewByIndex(index) {
-    currentReviewIndex = index;
-    showReview(currentReviewIndex);
-}
-
-showReview(currentReviewIndex);
-
-// Alumni profile section in alumni page end
+    // Alumni profile section in alumni page end
 </script>
 
 </body>
