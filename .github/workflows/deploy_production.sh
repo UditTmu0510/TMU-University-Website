@@ -4,7 +4,7 @@
 cd /home/tmuac1/public_html/main.tmu.ac.in
 
 # Pull the latest changes from GitHub
-git pull origin main
+git pull origin production
 
 # Clear Cache
 php artisan optimize:clear

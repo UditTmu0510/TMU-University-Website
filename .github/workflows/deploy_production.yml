@@ -3,11 +3,9 @@ name: Deploy to CPanel
 on:
   push:
     branches:
-      - main  
       - production
   pull_request:
     branches:
-      - main
       - production
 
 jobs:
@@ -29,4 +27,4 @@ jobs:
 
       - name: Deploy Laravel Application
         run: |
-          ssh tmuac1@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy.sh
+          ssh tmuac1@${{ secrets.SERVER_IP }} 'bash -s' < ${{ github.workspace }}/.github/workflows/deploy_production.sh
