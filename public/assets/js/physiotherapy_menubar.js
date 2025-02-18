@@ -1,5 +1,20 @@
-const path = "https://tmuhospital.com/assets/json/physiotherapy_menubarData.json";
-// Enable dropdown on hover in Menubar 
+let path = "https://test.tmuhospital.com/assets/json/physiotherapy_menubarData.json";
+
+try {
+    // Fetch the domain name from the current URL
+    let domainName = window.location.hostname;
+    if(domainName == 'localhost' || domainName == "127.0.0.1")
+    {
+        path = "http://"+domainName + ":8000"+"/assets/json/physiotherapy_menubarData.json";
+       
+    }
+    else{
+        path = "https://"+domainName+"/assets/json/physiotherapy_menubarData.json";
+    }
+    
+} catch (error) {
+    console.error("Error fetching the domain name:", error);
+}// Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
         const _d = this.querySelector('.dropdown-menu');
@@ -408,7 +423,7 @@ function addSuperFadeClass(element) {
 
 // Event listener for scrolling
 document.querySelector('.university-nav').addEventListener('scroll', function () {
-    var icon = this.querySelector('.bi-chevron-double-down');
+    var icon = this.querySelector('.scroll-down-icon');
     addSuperFadeClass(icon);
 });
 
@@ -466,7 +481,10 @@ function resetMainMenubar() {
         <span><img class="fs-18" src="/assets/img/nav_logo/quick-links.svg" width="60%" alt=""></span>
         Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>
 
-    <i class="bi bi-chevron-double-down" onclick="scrollToBottom(this)"></i>
+    <i class="text-center scroll-down-icon" onclick="scrollToBottom(this)">
+        <span>Scroll for University menu</span>
+        <i class="bi bi-chevron-double-down"></i>
+    </i>
 						
 					`;
 
@@ -1124,7 +1142,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			document.querySelector(".preloader").style.display = "none";
 
 			// Show menu button
-			document.getElementById('menubar--open--button').style.display = 'flex';
+			document.getElementById('menubar--open--button').style.visibility = 'visible';
 
 			// Making body accessible
 			document.querySelector('body').style.height = 'auto';
@@ -1133,7 +1151,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			const wrapper = document.getElementById('wrapper');
 
 			if (wrapper) {
-				wrapper.style.display = 'block';
+				wrapper.style.visibility = 'visible';
 			}
 
 

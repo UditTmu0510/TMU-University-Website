@@ -3,7 +3,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span> Deaprtments</span><span> </span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> Deaprtments</span><span> </span></h1>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 mb-3 ">
                 <!-- Card -->
@@ -262,7 +262,7 @@
                         alt="...">
                     <div class="card-body">
 
-                        <h4 class="mb-2">ANESTHESIOLOGY</h4>
+                        <h4 class="mb-2">Anaesthesiology</h4>
                     </div>
                     <div
                         class="card-footer d-flex justify-content-between align-items-center bg-white py-3">

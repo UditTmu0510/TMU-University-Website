@@ -11,11 +11,9 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to College Of<span
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to College of<span
                             style="font-weight:700!important;"> Computing Sciences & IT </span>(CCSIT)</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none"
-                        style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">
-                        Welcome to <span>College Of</span> Computing Sciences & IT (CCSIT)</h1>
+                    
                         <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -32,38 +30,37 @@
         <div class="container my-3 d-none d-md-block">
             <div class="row justify-content-center">
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
-                        <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>AA+</span>
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
+                        <div class="card-body gap-4 text-tmu-primary under-banner-cards"><span>AAA</span>
                             <br>
-                            <h5>Rated Top B-school by <br> Careers360</h5>
+                            <span class="d-block pt-1">rating by career 360</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>India's 1st</span>
+                            <span>Apple</span>
                             <br>
-                            <h5>Centre of Excellence in Cybersecurity</h5>
+                            <span class="d-block pt-1">Authorised lab</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>5 B-Schools</span>
+                            <span>Training Opportunity</span>
                             <br>
-                            <h5>Among the Top 5 B-Schools in North India<h5>
+                            <span class="d-block pt-1">in the ISRO START program</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
-                    <div class="card text-center py-0 rounded-0 fw-semibold ls-1">
+                    <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>IACBE</span>
+                            <span>Certified CSI Member</span>
                             <br>
-                            <h5>Member of IACBE<br>&nbsp;</h5>
+                            <span class="d-block pt-1">(Computer Society of India)</span>
                         </div>
                     </div>
                 </div>
@@ -82,21 +79,20 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-6">
+                        <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>AA+</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>AAA </span>
                                         <br>
-                                        <span class="d-block pt-1">Rated Top B-school by <br> Careers360</span>
+                                        <span class="d-block pt-1">rating by career 360</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>India's 1st</span>
+                                        <span>Apple</span>
                                         <br>
-                                        <span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+                                        <span class="d-block pt-1">Authorised lab</span>
                                     </div>
                                 </div>
                             </div>
@@ -107,22 +103,22 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>5 B-Schools</span>
+                                        <span>Certified </span>
                                         <br>
-                                        <span class="d-block pt-1">Among the Top 5 B-Schools in North India</span>
+                                        <span class="d-block pt-1">CSI Member</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>IACBE</span>
+                                        <span>Training Opportunity</span>
                                         <br>
-                                        <span class="d-block pt-1">Member of IACBE</span>
-                                        &nbsp;&nbsp;
+                                        <span class="d-block pt-1">in ISRO START Program</span>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -132,7 +128,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">CCSIT, among the top colleges for computer science</h1>
+                <h2 class="college-main-heading">CCSIT, among the top colleges for computer science</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">The College of Computing Sciences & IT was established in 2014 (formerly
@@ -144,7 +140,7 @@
                             and visionaries</p>
                         <p style="text-align: justify;">In today's digitally driven world, the demand for skilled professionals in the field of computer sciences is 
                             soaring higher than ever before. Amidst this surge, Teerthanker Mahaveer University's College of Computing Sciences & IT 
-                            (CCSIT) stands out as a beacon of excellence, offering a comprehensive blend of academic rigour and practical exposure. 
+                            (CCSIT) stands out as a beacon of excellence, offering a comprehensive blend of academic rigor and practical exposure. 
                             Let's delve into why CCSIT at TMU is not just a college but a transformative journey for aspiring IT enthusiasts.</p>
 
                     </div>
@@ -182,24 +178,19 @@
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
-                    <p class="mb-0">Introducing an innovative wind turbine developed by Mr Pradeep Kumar Gupta, our
-                        Assistant Professor. This turbine harnesses the power of wind generated by vehicles on highways,
-                        converting it into renewable electric power.</p>
-
+                    <ul class="m-ol-list ps-5 mb-0">    
+                        <li class="fs-12"><strong>Experienced Faculty:</strong> The college boasts a team of highly qualified faculty members with deep expertise in various computing domains, ensuring that students receive top-tier academic mentorship.</li>
+                        <li class="fs-12"><strong>Industry Linkages:</strong> TMU’s College of Computing Sciences & IT maintains close ties with the IT industry, ensuring regular guest lectures, industry visits, and internships that enhance student employability.</li>
+                    </ul>
                     <div class="read-more-content mt-0">
-                        <p class="mb-0">By placing these turbines on highway dividers, they utilise the air movements
-                            created by passing vehicles. These air movements drive the rotation of the turbines,
-                            generating electricity in the process. The generated electricity is efficiently stored in a
-                            battery connected to the turbine via a regulator circuit and converter. When multiple units
-                            are installed together, substantial electric power can be produced.</p>
-                        <p class="mb-0">This innovative solution has far-reaching applications. It can be employed to
-                            power streetlight indicators, illuminate roads and enhance safety measures. By reducing
-                            accidents, we will be closer to a safer and more sustainable transportation system.
-                            With these groundbreaking developments and many more, TMU showcases the immense potential of
-                            academic ingenuity in addressing real-world challenges effectively and innovatively.</p>
-
+                        <ul class="m-ol-list ps-5"> 
+                        <li class="fs-12"><strong>Specialization in Emerging Technologies:</strong> The college offers specialized training in trending fields like Cloud Computing, Blockchain, Cybersecurity, Data Science, and Internet of Things (IoT), helping students stay ahead of the curve.</li>
+                        <li class="fs-12"><strong>Comprehensive Career Support:</strong> With dedicated placement cells and career guidance, CCSIT graduates have successfully secured positions in top multinational companies and startups.</li>
+                        <li class="fs-12"><strong>Holistic Development:</strong> Beyond academics, the college emphasizes soft skills, leadership, and critical thinking, fostering well-rounded individuals ready to tackle real-world challenges.</li>
+                        <li class="fs-12"><strong>Research and Innovation:</strong> CCSIT encourages students to engage in research projects and innovative developments, promoting a culture of inquiry and creativity in the field of computing sciences.</li>
+                        </ul>
                     </div>
-                    <a href="javascript:void(0);" class="read-more ms-2 mt-2" title="Read More">Read More</a>
+                    <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
 
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -246,7 +237,7 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <p>CCS&IT provides a conducive environment to provide quality education and support to both students
-                        and faculty members. The college boasts</p>
+                        and faculty members. The College boasts</p>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4">
                             <li>
@@ -419,8 +410,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                    </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -536,9 +526,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -559,7 +549,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -789,8 +779,8 @@
                             <p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA
                             </p>
                             <p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
-                                were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
-                                environment where theories met practical challenges. It's a journey where I honed the
+                                were forged. Beyond textbooks and case studies, TMU offers a dynamic learning
+                                environment where theories meet practical challenges. It was a journey where I honed the
                                 skills that set me apart in the dynamic landscape of business and management.
                             </p>
                         </div>
@@ -807,7 +797,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Teerthanker Mahaveer University is the best choice for you:<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <h3 class="mb-1 tmu-color">UGC-Approved with NAAC-A Accreditation</h3>
                 <p class="text-justify">At TMU's CCSIT, quality education is not just a promise but a proven reality. 
                     With UGC approval and NAAC-A accreditation, the college upholds the highest 
@@ -834,7 +824,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">On-Campus Hostel Facilities and Scholarship Assistance<span class="icon">+</span></button>
             <div class="panel">
-                <p>We understand that a conducive living environment is essential for holistic growth. That's why CCSIT offers comfortable on-campus hostel facilities, ensuring that students feel at home even away from home. Additionally, our commitment to making quality education accessible is reflected in our 100% placement assistance.</p>
+                <p>We understand that a conducive living environment is essential for holistic growth. CCSIT offers comfortable on-campus hostel facilities, ensuring that students feel at home even away from home. Additionally, our commitment to making quality education accessible is reflected in our 100% placement assistance.</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">

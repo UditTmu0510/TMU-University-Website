@@ -10,5 +10,5 @@ class BlogsCategory extends Model
     use HasFactory;
     protected $guarded = [];
     protected $table = 'blogs_category';
-    protected $fillable = ['id','category_name','category_status','updated_at','category_slug'];
+    protected $fillable = ['category_id','category_name','category_status','updated_at','category_slug'];
 }

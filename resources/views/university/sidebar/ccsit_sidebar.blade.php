@@ -5,11 +5,14 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('ccsit.home') }}" class="custom-menu-item {{ setActive('ccsit.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('ccsit.about.us') }}" class="custom-menu-item {{ setActive('ccsit.about.us') }}">
                 <p>Overview</p>
             </a>
             <a href="{{ route('ccsit.highlights') }}" class="custom-menu-item {{ setActive('ccsit.highlights') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('ccsit.principal') }}" class="custom-menu-item {{ setActive('ccsit.principal') }}">
                 <p>Principal</p>
@@ -30,7 +33,7 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{ route('ccsit.timetable') }}" class="custom-menu-item {{ setActive('ccsit.timetable') }}">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
@@ -73,6 +76,9 @@
             </a>
             <a href="{{ route('ccsit.event.magazine') }}" class="custom-menu-item {{ setActive('ccsit.event.magazine') }}">
                 <p>Event Magazine</p>
+            </a>
+            <a href="{{ route('ccsit.iqac') }}" target="_blank" class="custom-menu-item {{ setActive('ccsit.iqac') }}">
+                <p>College IQAC</p>
             </a>
         </div>
     </div>

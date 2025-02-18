@@ -13,11 +13,11 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Public </span><span>
                             health Dentistry </span></h1>
-                    <p class="about-p mb-4">Public health dentistry is an area of dentistry concerned with the evaluation of dental health needs and how the practice of dental healthcare meets those needs. Department of Public Health Dentistry is that part of dentistry providing leadership and expertise in population-based dentistry, oral health surveillance, policy development, community-based disease prevention and health promotion, and the maintenance of the dental safety net.
+                    <p class="about-p mb-4"> <a href="{{ url('/programme/MDS-Public-Health-Dentistry') }}">Public health dentistry</a>  is an area of dentistry concerned with the evaluation of dental health needs and how the practice of dental healthcare meets those needs. Department of Public Health Dentistry is that part of dentistry providing leadership and expertise in population-based dentistry, oral health surveillance, policy development, community-based disease prevention and health promotion, and the maintenance of the dental safety net.
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/phd/phd_banner.png')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/phd/phd_banner.png')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Our department provides accessible and affordable oral health care to people. It is committed to train and calibrate the undergraduate as well as postgraduate students in Public Health Dentistry by providing dental health education, screening and treatment camps on oral diseases for the outreach population tailored specifically on the basis of research on needs of the community.</p>
@@ -82,10 +82,62 @@
         <div class="container">
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-            <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
+            <!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/phd/phd1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/phd/phd1.jpg')}}" alt="Gallery Thumb 1"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/phd/phd2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/phd/phd2.jpg')}}" alt="Gallery Thumb 2"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/phd/phd3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/phd/phd3.jpg')}}" alt="Gallery Thumb 3"></a>
+            </div> -->
+            <div class="row justify-content-left gutter-30 col-mb-5 mb-5">
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/phd/phd1.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> Department of Public Health Dentistry </h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/phd/geotag/phd1.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/phd/phd2.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> PG Section<br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/phd/geotag/phd2.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/phd/phd3.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">UG Section <br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/phd/geotag/phd3.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

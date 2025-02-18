@@ -28,7 +28,7 @@
                         </div>
                         <div class="timeline-item left wow slideInRight">
                             <div class="timeline-text">
-                                <div class="timeline-date">Computer Laborartories </div>
+                                <div class="timeline-date">Computer Laboratories </div>
                                 <p>The College of Computing Sciences & IT boasts 12 state-of-the-art laboratories equipped with 636 computers and peripherals. These labs include a Cisco Networking Lab, a Linux Lab, an Advanced Database Lab, a .NET Lab, an Android Lab, a JAVA Lab, and an IBM Cloud Software Lab for Emerging Technologies. Additionally, there are various Programming Languages Labs and an Internet Lab, providing comprehensive resources for a wide range of computing studies and research.</p>
                             </div>
                         </div>

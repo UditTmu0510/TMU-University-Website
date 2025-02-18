@@ -1,5 +1,23 @@
-const path = "https://tmuhospital.com/assets/json/menubarData.json";
-// Enable dropdown on hover in Menubar 
+let path = "https://test.tmuhospital.com/assets/json/menubarData.json";
+let domainName = '';
+
+
+try {
+    // Fetch the domain name from the current URL
+    domainName = window.location.hostname;
+    if(domainName == 'localhost' || domainName == "127.0.0.1")
+    {
+        domainName += ':8000';
+        path = "http://"+domainName +"/assets/json/menubarData.json";
+       
+    }
+    else{
+        path = "https://"+domainName+"/assets/json/menubarData.json";
+    }
+    
+} catch (error) {
+    console.error("Error fetching the domain name:", error);
+}// Enable dropdown on hover in Menubar 
 document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (everyDropdown) {
     everyDropdown.addEventListener('mouseover', function (e) {
         const _d = this.querySelector('.dropdown-menu');
@@ -174,9 +192,7 @@ async function showSubCategories(value) {
 
             box.innerHTML = `<ul>${htmlContent}</ul>`;
 
-        } else {
-            console.log("Category not found or not in the expected format.");
-        }
+        } 
     } catch (err) {
         console.error(err);
     }
@@ -281,14 +297,13 @@ async function openSubMenuContent(value, menu, listItem) {
         listItem.classList.remove('underline__effect');
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
 // function to show sub-sub-sub menu (courses list)
 async function showSubMenuCourse(value, menu, subMenu, listItem) {
     try {
-        console.log('hi');
         const box = document.getElementById('menubar__submenu_courses');
         box.innerHTML = '';
 
@@ -339,7 +354,7 @@ async function showSubMenuCourse(value, menu, subMenu, listItem) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -396,7 +411,7 @@ async function showSubMenuCourseMobile(value, menu, subMenu) {
         }
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -408,7 +423,7 @@ function addSuperFadeClass(element) {
 
 // Event listener for scrolling
 document.querySelector('.university-nav').addEventListener('scroll', function () {
-    var icon = this.querySelector('.bi-chevron-double-down');
+    var icon = this.querySelector('.scroll-down-icon');
     addSuperFadeClass(icon);
 });
 
@@ -421,32 +436,49 @@ function scrollToBottom(element) {
 
 
 
-// Function to reset Main Menubar
+// Function to reset Main Menubar and fetch data from navbarData.json
 function resetMainMenubar() {
     const ulElement = document.getElementById('main--menubar').querySelector('div>.university-nav');
-    ulElement.innerHTML = `
-    <li onclick="showMenuContent(7,this)" ><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/university.svg" width="70%" alt=""></i></span>
-    About TMU </h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(8,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/college.svg" width="70%" alt=""></span>
-    Colleges</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(9,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/programmes.svg" width="70%" alt=""></span>
-    Programmes</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(10,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/research.svg" width="70%" alt=""></span>
-    Research</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(11,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/examination.svg" width="70%" alt=""></span>
-    Examination</h1><i class="bi bi-caret-right-fill"></i></li>
-<li onclick="showMenuContent(12,this)"><h1 class="underline__effect">
-    <span><img class="fs-18" src="https://tmuhospital.com/assets/img/nav_logo/quick-links.svg" width="70%" alt=""></span>
-    Quick Links</h1><i class="bi bi-caret-right-fill"></i></li>
-						
-					`;
 
+    let menu = path.replace('menubarData.json','navbarData.json');
 
+    // To take care of it to work on live as well as local system
+    let basePath = '';
+
+    if(domainName == 'localhost:8000' || domainName == '127.0.0.1:8000')
+    {
+        basePath = `http://${domainName}`;
+    }
+    else
+    {
+        basePath = `https://${domainName}`;
+    }
+
+    // Fetch the navbar data from the JSON file
+    fetch(menu)
+        .then(response => response.json())
+        .then(navbarData => {
+            // Create a new HTML structure based on the fetched data
+            ulElement.innerHTML = ''; // Clear current menu
+            navbarData.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.setAttribute('onclick', `showMenuContent(${item.id},this)`);
+
+                listItem.innerHTML = `
+                    <h1 class="underline__effect">
+                        <span><img class="fs-18" src="${basePath}/assets/img/nav_logo/${item.imageURL}" width="70%" alt=""></span>
+                        ${item.text}
+                    </h1>
+                    <i class="bi bi-caret-right-fill"></i>
+                `;
+                ulElement.appendChild(listItem);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching navbar data:', error);
+        });
+
+    // Optionally remove any super active classes if needed
     removeSuperActiveClass();
 }
 
@@ -501,7 +533,7 @@ async function openSubMenuContentMobile(value, menu) {
 
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
     }
 }
 
@@ -650,7 +682,6 @@ async function fetchAndCacheData() {
     try {
         const response = await fetch(path);
         cachedData = await response.json();
-        console.log(cachedData);
     } catch (err) {
         console.error('Error fetching data:', err);
     }
@@ -658,7 +689,6 @@ async function fetchAndCacheData() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Call your function here
-    console.log('called');
     fetchAndCacheData();
 });
 
@@ -1093,24 +1123,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 	window.addEventListener('DOMContentLoaded', function() {
+
+        // document.getElementById('menubar44567').style.visibility = 'visible';
 		// Simulate a delay (e.g., 2000 milliseconds or 2 seconds)
 		setTimeout(function() {
 
 			// Fade Preloader
-			document.querySelector(".preloader").style.display = "none";
+			// document.querySelector(".preloader").style.display = "none";
 
 			// Show menu button
-			document.getElementById('menubar--open--button').style.display = 'flex';
+			// document.getElementById('menubar--open--button').style.visibility = 'visible';
 
 			// Making body accessible
 			document.querySelector('body').style.height = 'auto';
 			document.querySelector('body').style.overflowY = 'scroll';
 
-			const wrapper = document.getElementById('wrapper');
+			// const wrapper = document.getElementById('wrapper');
 
-			if (wrapper) {
-				wrapper.style.display = 'block';
-			}
+			// if (wrapper) {
+			// 	wrapper.style.visibility = 'visible';
+			// }
 
 
 		});
@@ -1260,12 +1292,99 @@ document.getElementById('success-stories-popup').addEventListener('click', funct
     const iFrame = popup.querySelector('iframe');
     iFrame.setAttribute('src', "");
 
-    console.log(event.target);
-
     if (event.target !== popupContent) {
         popup.style.display = 'none';
     }
 });
 // Success Stories js end
 
-    
+//    Menubar Tooltip js
+const menuButton = document.querySelector('.menu-button');
+const tooltip = document.getElementById('menu-tooltip');
+
+menuButton.addEventListener('mouseenter', () => {
+    tooltip.style.visibility = 'visible';
+    tooltip.style.opacity = '1';
+});
+
+menuButton.addEventListener('mouseleave', () => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = '0';
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    const lightboxClose = document.querySelector('.lightbox-close');
+    const lightboxNext = document.querySelector('.lightbox-next');
+    const lightboxPrev = document.querySelector('.lightbox-prev');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+
+    let currentIndex = 0;
+
+    // Filtering functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+
+            const filter = button.getAttribute('data-filter');
+
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // Lightbox functionality
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            const imgSrc = item.querySelector('img').src;
+            const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+            currentIndex = index;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Set the title in the caption
+            lightbox.classList.add('active');
+        });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+        lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+
+    // Lightbox navigation
+    const updateLightboxImage = () => {
+        const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+        if (visibleItems.length > 0) {
+            currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+            const imgSrc = visibleItems[currentIndex].querySelector('img').src;
+            const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = imgTitle; // Update caption when navigating
+        }
+    };
+
+    lightboxNext.addEventListener('click', () => {
+        currentIndex++;
+        updateLightboxImage();
+    });
+
+    lightboxPrev.addEventListener('click', () => {
+        currentIndex--;
+        updateLightboxImage();
+    });
+});

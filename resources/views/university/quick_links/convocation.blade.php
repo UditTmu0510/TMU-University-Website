@@ -3,7 +3,7 @@
 
 
 <!-- Font Imports -->
-<link rel="stylesheet" href="{{asset('/https://use.typekit.net/gmv6nzn.css')}}">
+<link rel="stylesheet" href="https://use.typekit.net/gmv6nzn.css">
 
 <!-- Core Style -->
 <link rel="stylesheet" href="{{asset('/style.css')}}">
@@ -141,6 +141,21 @@
 
 <!-- CSS FOR CONVOCATION CARD -->
 <style>
+	.entry-title {
+		height: 60px;
+		/* Adjust the height based on your design */
+		overflow: hidden;
+		/* Hide any overflowing text */
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		/* Limits to 2 lines */
+		-webkit-box-orient: vertical;
+		text-overflow: ellipsis;
+		/* Adds "..." to cut-off text */
+		white-space: normal;
+		/* Ensures proper text wrapping */
+	}
+
 	.big-card {
 		width: 70vw;
 		box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
@@ -343,7 +358,7 @@
 	<div class="container-fluid px-2 px-lg-5 pt-5">
 		<div class="big-card pb-3">
 			<div class="big-card-heading positive-relative">
-				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Convocation </span> <span> Ceremony </span></h2>
+				<h1 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Convocation </span> <span> Ceremony </span></h1>
 				<!-- <img src="./assets/image/corner-handle.png" class="w-100" alt="" style="max-width:40px; position:absolute; top:2px; right:2px; transform:scale(1,-1)"> -->
 			</div>
 			<div class="pt-5 px-4 px-md-5 text-justify">
@@ -351,42 +366,7 @@
 					The Convocation Ceremony at Teerthanker Mahaveer University is a distinguished event where we gather to honour the academic accomplishments of our graduates. This significant occasion marks the culmination of years of hard work, dedication, and academic excellence. During the ceremony, we confer degrees, recognise outstanding achievements, and provide a platform for esteemed speakers to offer guidance to our graduating class. It is a momentous occasion that symbolises the transition of our students into alumni. </h4>
 				<!-- <p class="min-text d-block mx-auto">(Click icons below to fill forms)</p> -->
 
-				<!-- Cards -->
 
-				<!-- <div class="row">
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/2231/2231449.png" alt="">
-								<span>Convocation Guidelines</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/2991/2991109.png" alt="">
-								<span>Convocation Registration Form</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/6462/6462790.png" alt="">
-								<span>MISCELLANEOUS FORM</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-12 col-md-3 py-2 px-3">
-						<a href="https://www.tmu.ac.in/pdf/convocation/convocation_registration_form.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
-							<div class="m-custom-card">
-								<img src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="">
-								<span>CONVOCATION HELPLINE</span>
-							</div>
-						</a>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -411,29 +391,29 @@
 			<div class="col-12">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center align-items-center">
-						<div class="yt-frame shadow my-4" id="hr-yt-frame" onclick="playHrVideo(this)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+						<div class="yt-frame shadow my-4" id="hr-yt-frame" onclick="playHrVideo(this,0)">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
 						</div>
 					</div>
 					<div class="col-12">
 						<div class="d-flex position-relative p-1" id="m-event-box">
-							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,0)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 shadow event-btn">
+							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,1)">
+								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,1)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,2)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/4.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,3)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/5.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/4.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,4)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/6.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/5.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,5)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 shadow event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/6.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,6)">
 								<img src="{{asset('/assets/img/department/convocation/thumb/7.jpg')}}" alt="" class="w-100 shadow event-btn">
@@ -474,10 +454,10 @@
 					<div class="col-12">
 						<div class="d-flex position-relative p-1" id="m-event-box">
 							<div class="m-1 m-sm-3 event-box active" onclick="toggleActivate(this,0)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box" onclick="toggleActivate(this,1)">
-								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn">
+								<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box" onclick="toggleActivate(this,2)">
 								<img src="{{asset('/assets/img/department/convocation/thumb/3.jpeg')}}" alt="" class="w-100 event-btn">
@@ -505,7 +485,7 @@
 					</div>
 					<div class="col-12 d-flex justify-content-center align-items-center">
 						<div class="yt-frame " id="hr-yt-frame2" onclick="playHrVideo(this)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/2.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
 						</div>
 					</div>
 				</div>
@@ -553,13 +533,13 @@
 
 		switch (id) {
 			case '1':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sR9XL1_1P-s?autoplay=1" allow='autoplay' title="Mr. Anshul Sharma, AGM HR, UFLEX Group | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/H15nsymKUXs?si=2EIsIa0ElJNk1P_u&controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '2':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-se2pKx6_G8?autoplay=1" allow='autoplay' title="Mr. Asheesh Shukla, Head HR, Dhampur Group (DSML), was a part of the Mega HR Conclave held at TMU." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=bKii0LxoNDLoKqaO?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '3':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-Li9H0yLmCI?autoplay=1" allow='autoplay' title="Ms. Debjani Roy, CHRO, Kromozones Software Pvt. Ltd., was a part of the Mega HR Conclave held at TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=_FftLxcKUrdwQqh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 			case '4':
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jJ9v__La3ps?autoplay=1" allow='autoplay' title="Mega HR Conclave | Mr. Krishna Kumar, Head HR, Maruti Suzuki India | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
@@ -568,7 +548,7 @@
 				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zSBp1I82jZY?autoplay=1" allow='autoplay' title="Dr. P.K Rajput, Vertical Head, Cadila Pharmaceuticals Ltd. | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 				break;
 			case '6':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lYV_yq57NQo?autoplay=1" allow='autoplay' title="Mr. Viney Kaushik, CHRO, Nuberg Engineering Ltd. | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/GLDZHn8SEY8?si=QUxfiD8bDiSbAPCz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
 				break;
 		}
 
@@ -590,92 +570,331 @@
 
 				<h2 class="tmu-text-primary fw-bold news-title"><span>CONVOCATION</span> <span>NEWS</span></h2>
 
-				<!-- <p class="font-primary fw-light text-black">Interactively seize bricks-and-clicks channels before empowered users.</p> -->
-				<a href="/block-content-blog.html" class="tmu-btn btn-1 m-0 px-4 py-2 mx-auto mx-md-1 d-none d-md-block text-center" style="max-width:200px;">View all Posts</a>
 			</div>
 
 			<div class="col-lg-8">
 				<div class="dotted-bg" style="--cnvs-dotted-opacity: .5; --cnvs-dotted-top: -10px; --cnvs-dotted-size: 150px; "></div>
 				<div id="owl-demo" class="owl-carousel ">
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">May 21, 2012</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">First Convocation of the University</a></h3>
-						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
+
+					@foreach($convocation_newses as $convocation_news)
 
 					<div class="item entry mx-2">
 						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/fourth_convocation.jpg')}}" alt="...">
+							<img src="{{asset($convocation_news->ei1_path)}}" alt="...">
 						</div>
 						<div class="entry-meta mb-2 fw-normal">
 							<ul>
-								<li><a href="#">Apr 13, 2021</a></li>
+								<li> <b> <a href="#">{{ \Carbon\Carbon::parse($convocation_news->event_date)->format('F d, Y') }}</a> </b> </li>
 							</ul>
 						</div>
 						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Fourth Convocation of Teerthanker Mahaveer University</a></h3>
+							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">{{ $convocation_news->event_title }}</a></h3>
 						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-special-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
+						<a href="{{ url('news/' . $convocation_news->n_slug) }}" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
 					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">May 21, 2012</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">First Convocation of the University</a></h3>
-						</div>
-						<a href="https://www.tmu.ac.in/tmu/first-convocation" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/first_special.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">Dec 03, 2021</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">1<sup>st</sup> special Convocation of the University</a></h3>
-						</div>
-						<a href="#" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
-					<div class="item entry mx-2">
-						<div class="entry-image">
-							<img src="{{asset('/assets/img/department/convocation/news/fourth_convocation.jpg')}}" alt="...">
-						</div>
-						<div class="entry-meta mb-2 fw-normal">
-							<ul>
-								<li><a href="#">Apr 13, 2021</a></li>
-							</ul>
-						</div>
-						<div class="entry-title title-sm mb-3">
-							<h3 class="text-transform-none ls-0 fw-medium font-body"><a href="#">Fourth Convocation of Teerthanker Mahaveer University</a></h3>
-						</div>
-						<a href="#" class="read-more stretched-link h-color h-op-08">Read More <i class="bi-arrow-up-right transform-ts"></i></a>
-					</div>
+					@endforeach
+
+
 				</div>
 
-				<a href="/block-content-blog.html" class="text-center d-block d-md-none  m-0 px-4 py-2 d-block mx-auto mx-md-1 mt-4 tmu-btn btn-1">View all Posts</a>
+				
 
 			</div>
 		</div>
 	</div>
 </div>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Convocation </span><span>Gallery</span></h2>
+                    
+                </div>
+
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="guest">Guest</button>
+                    <button class="filter-btn" data-filter="students">students</button>
+
+                </div>
+
+				<style>
+					@media (max-width: 768px) {
+					.v2.gallery-grid{
+						gap: 1rem;
+						grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+					}
+				}
+				@media (max-width: 575px) {
+					.v2.gallery-grid{
+						gap: 0.5rem;
+						grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+					}
+				}
+				@media (max-width: 504px) {
+					.v2.gallery-grid{
+						gap: 0.4rem;
+						grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+					}
+				}
+				</style>
+                <div class="gallery-grid v2">
+                    <!-- Infra -->
+                    <div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/1.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/2.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/3.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/4.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/5.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/6.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/7.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/8.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/9.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/10.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/11.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/12.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/13.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/14.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/15.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/16.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/17.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/18.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/19.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/20.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/21.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/22.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/23.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/24.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/25.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/26.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/27.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/28.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="guest">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/29.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					<div class="gallery-item" data-category="students">
+                        <img src="{{asset('/assets/img/footer_pages/convocation/30.webp')}}"
+                            alt="Main Academic Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category"></p>
+                        </div>
+                    </div>
+					
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-prev">&lt;</button>
+            <img src="" alt="Enlarged Image">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-next">&gt;</button>
+        </div>
 </div>
 
 

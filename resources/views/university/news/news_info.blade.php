@@ -67,6 +67,7 @@
     }
 
 
+
     @media (max-width: 768px) {
 
         /* Tablet and Mobile view */
@@ -84,7 +85,7 @@
         <div class="page-title-row">
 
             <div>
-                <h1 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3"><span>TMU </span><span> NEWS</span></h1>
+                <h2 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3"><span>TMU </span><span> NEWS</span></h2>
                 <!-- <h2 class="news-page-title-text">TMU News</h2> -->
             </div>
 
@@ -114,7 +115,8 @@
                     <!-- Entry Title
 							============================================= -->
                     <div class="entry-title mb-3">
-                    <h2 class="tmu-text-primary"><span>{{$news->event_title}}</span><span></span></h2>
+                        <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
+                        </span><span></span></h1>
                     </div><!-- .entry-title end -->
 
                     <!-- Entry Meta
@@ -138,7 +140,9 @@
                     <!-- Entry Image
 							============================================= -->
                     <div class="entry-image mb-5">
-                        <a href="#"><img src="{{asset($news->ei1_path)}}" alt="Blog Single"></a>
+                        <a href="#">
+                        <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}" alt="Blog Single">
+                        </a>
                     </div><!-- .entry-image end -->
 
                     <!-- Entry Content
@@ -159,29 +163,30 @@
                             <div class="content-wrap">
                                 <div class="container">
                                     <div class="row " data-lightbox="gallery">
-                                        @if(!empty($news->ei1_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei1_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei1_path)}}" alt="Gallery Thumb 1"></a>
+                                        @if(!empty($news->ei1_path) && file_exists(public_path($news->ei1_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei1_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei1_path) }}" alt="Gallery Thumb 1"></a>
                                         @endif
 
-                                        @if(!empty($news->ei2_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei2_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei2_path)}}" alt="Gallery Thumb 2"></a>
+                                        @if(!empty($news->ei2_path) && file_exists(public_path($news->ei2_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei2_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei2_path) }}" alt="Gallery Thumb 2"></a>
                                         @endif
 
-                                        @if(!empty($news->ei3_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei3_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei3_path)}}" alt="Gallery Thumb 3"></a>
+                                        @if(!empty($news->ei3_path) && file_exists(public_path($news->ei3_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei3_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei3_path) }}" alt="Gallery Thumb 3"></a>
                                         @endif
 
-                                        @if(!empty($news->ei4_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei4_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei4_path)}}" alt="Gallery Thumb 4"></a>
+                                        @if(!empty($news->ei4_path) && file_exists(public_path($news->ei4_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei4_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei4_path) }}" alt="Gallery Thumb 4"></a>
                                         @endif
 
-                                        @if(!empty($news->ei5_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei5_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei5_path)}}" alt="Gallery Thumb 5"></a>
+                                        @if(!empty($news->ei5_path) && file_exists(public_path($news->ei5_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei5_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei5_path) }}" alt="Gallery Thumb 5"></a>
                                         @endif
 
-                                        @if(!empty($news->ei6_path))
-                                        <a class="grid-item col-4" href="{{asset($news->ei6_path)}}" data-lightbox="gallery-item"><img src="{{asset($news->ei6_path)}}" alt="Gallery Thumb 6"></a>
+                                        @if(!empty($news->ei6_path) && file_exists(public_path($news->ei6_path)))
+                                        <a class="grid-item col-4" href="{{ asset($news->ei6_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei6_path) }}" alt="Gallery Thumb 6"></a>
                                         @endif
+
 
                                     </div>
 

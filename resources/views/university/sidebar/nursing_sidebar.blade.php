@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('nursing.home') }}" class="custom-menu-item {{ setActive('nursing.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('nursing.overview') }}" class="custom-menu-item {{ setActive('nursing.overview') }}">
                 <p>About Us</p>
             </a>
@@ -14,8 +17,8 @@
             <a href="{{ route('nursing.dean') }}" class="custom-menu-item {{ setActive('nursing.dean') }}">
                 <p>Dean's Desk</p>
             </a>
-            <a href="{{ route('nursing.viceprincipal') }}" class="custom-menu-item {{ setActive('nursing.viceprincipal') }}">
-                <p>Vice Principal's Desk</p>
+            <a href="{{ route('nursing.viceprincipal') }}" class="custom-menu-item {{ setActive('nursing_viceprincipal') }}">
+                <p>Principal's Desk</p>
             </a>
             <a href="{{ route('nursing.college.advisory.board') }}" class="custom-menu-item {{ setActive('nursing.college.advisory.board') }}">
                 <p>College Advisory Board</p>
@@ -61,6 +64,30 @@
             </a>
             <a href="{{ route('nursing.anti.ragging') }}" class="custom-menu-item {{ setActive('nursing.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
+            </a>
+        </div>
+        <h2>IJIH Journal</h2>
+        <div class="account-section">
+            <a href="{{ route('ijih.aboutus') }}" class="custom-menu-item {{ request()->routeIs('ijih.aboutus') ? 'active' : '' }}">
+                <p>About Us</p>
+            </a>
+            <a href="{{ route('ijih.edi.board') }}" class="custom-menu-item {{ request()->routeIs('ijih.edi.board') ? 'active' : '' }}">
+                <p>Editorial Board</p>
+            </a>
+            <a href="{{ route('ijih.guide.ethics') }}" class="custom-menu-item {{ request()->routeIs('ijih.guide.ethics') ? 'active' : '' }}">
+                <p>Guidelines & Ethics</p>
+            </a>
+            <a href="{{ route('ijih.submission.process') }}" class="custom-menu-item {{ request()->routeIs('ijih.submission.process') ? 'active' : '' }}">
+                <p>Submission Process</p>
+            </a>
+            <a href="{{ route('ijih.archives') }}" class="custom-menu-item {{ request()->routeIs('ijih.archives') ? 'active' : '' }}">
+                <p>Archives</p>
+            </a>
+            <a href="{{ route('ijih.current_issue') }}" class="custom-menu-item {{ request()->routeIs('ijih.current_issue') ? 'active' : '' }}">
+                <p>Current Issue</p>
+            </a>
+            <a href="{{ route('ijih.manuscript.submission') }}" class="custom-menu-item {{ request()->routeIs('ijih.manuscript.submission') ? 'active' : '' }}">
+                <p>Manuscript Submission</p>
             </a>
         </div>
         <h2>Quick Links</h2>

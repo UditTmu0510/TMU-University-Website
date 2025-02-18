@@ -12,6 +12,8 @@
 
 <div class="main-content">
     <div class="container">
+    <h1 class="tmu-text-primary tmu-page-heading"><span> Guest </span><span> Lectures</span>
+    </h1>
         <div class="row">
             <div class="clear"></div>
 

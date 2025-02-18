@@ -13,52 +13,52 @@
 
                     <h3 class="tmu-text-primary"><span>Mortuary </span><span> Block</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block1_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block1_9_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block2_10_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block2_10_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block3_11_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/mortuary_block3_11_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block1_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block1_9_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block2_10_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block2_10_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block3_11_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/mortuary_block3_11_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Research </span><span> Lab</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/research_lab1_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/research_lab1_15_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/research_lab2_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/research_lab2_16_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/research_lab1_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/research_lab1_15_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/research_lab2_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/research_lab2_16_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Forensic </span><span> Library</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library1_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library1_5_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library2_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library2_6_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library1_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library1_5_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library2_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library2_6_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Demonstration </span><span> Room 1</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_I_1_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_I_1_1_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_I_2_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_I_2_2_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_I_1_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_I_1_1_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_I_2_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_I_2_2_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Demonstration </span><span> Room 2</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_II_1_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_II_1_3_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_II_2_4_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/demonstration_room_II_2_4_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_II_1_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_II_1_3_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_II_2_4_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/demonstration_room_II_2_4_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>HOD </span><span> Room</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/hod_room1_7_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/hod_room1_7_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/hod_room2_8_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/hod_room2_8_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/hod_room1_7_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/hod_room1_7_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/hod_room2_8_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/hod_room2_8_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Library </span><span></span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library1_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library1_5_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library2_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/forensic_library2_6_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library1_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library1_5_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library2_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/forensic_library2_6_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Museum </span><span></span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum1_12_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum1_12_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum2_13_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum2_13_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum3_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/forensicmedicine/museum3_14_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum1_12_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum1_12_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum2_13_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum2_13_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum3_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/ForensicMedicine/museum3_14_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
 

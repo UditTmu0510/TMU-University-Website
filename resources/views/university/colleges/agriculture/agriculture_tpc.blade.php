@@ -17,7 +17,7 @@
                     </ul>
                     <h3 class="tmu-text-primary"><span>Training & Placement </span><span> Cell Activities</span></h3>
                     <p class="text-justify mb-2"><b>Placement:</b> The cell contacts industries and invites them for conducting on campus or off campus selection of students. The cell also improves the students after getting the feedback from the company representatives.</p>
-                    <p class="text-justify mb-2"><b>Training:</b> To keep pace with the present stiff competition, the placement cell conducts training in following area:</p>
+                    <p class="text-justify mb-2"><b>Training:</b> To keep pace with the present stiff competition, the placement cell conducts training in the following areas:</p>
                     <ul class="m-ol-list ps-5 mt-0">
                         <li>Personality Development</li>
                         <li>Resume Making</li>
@@ -33,9 +33,9 @@
                             <thead>
                                 <tr>
                                     <th class="text-center">Sl. No.</th>
-                                    <th class="text-center">Contact Person</th>
-                                    <th class="text-center">Designation</th>
-                                    <th class="text-center">Contact No.</th>
+                                    <th>Contact Person</th>
+                                    <th>Designation</th>
+                                    <th>Contact No.</th>
                                     <!-- <th class="text-center">Email ID</th> -->
                                 </tr>
                             </thead>

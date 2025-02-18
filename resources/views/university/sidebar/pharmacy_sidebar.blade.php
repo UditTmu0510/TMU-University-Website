@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('pharmacy.home') }}" class="custom-menu-item {{ setActive('pharmacy.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('pharmacy.about.us') }}" class="custom-menu-item {{ setActive('pharmacy.about.us') }}">
                 <p>About Us</p>
             </a>
@@ -43,6 +46,9 @@
             </a>
             <a href="{{ route('pharmacy.anti.ragging') }}" class="custom-menu-item {{ setActive('pharmacy.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
+            </a>
+            <a href="{{ route('about.tjpbs') }}" class="custom-menu-item {{ setActive('about.tjpbs') }}">
+                <p>Journal</p>
             </a>
         </div>
         <h2>Quick Link</h2>

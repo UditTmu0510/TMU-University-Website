@@ -117,7 +117,7 @@
                                 holistic development.
                                 Along with this various short term courses are available for students to
                                 augment
-                                their learnign.</li>
+                                their learning.</li>
                                    <li>Well equipped library with rich collection of international and national
                                 Journals, Magazines,
                                 Newspapers and various educational CDs/VCDs.</li>

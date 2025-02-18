@@ -5,14 +5,17 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('engineering.home') }}" class="custom-menu-item {{ setActive('engineering.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('engineering.about.us') }}" class="custom-menu-item {{ setActive('engineering.about.us') }}">
                 <p>About Us</p>
             </a>
             <a href="{{ route('engineering.highlights') }}" class="custom-menu-item {{ setActive('engineering.highlights') }}">
                 <p>College Highlights</p>
             </a>
-            <a href="{{ route('engineering.principal') }}" class="custom-menu-item {{ setActive('engineering.principal') }}">
-                <p>Principal Desk</p>
+            <a href="{{ route('engineering.dean') }}" class="custom-menu-item {{ setActive('engineering.dean') }}">
+                <p>Dean's Desk</p>
             </a>
             <a href="{{ route('engineering.gallery') }}" class="custom-menu-item {{ setActive('engineering.gallery') }}">
                 <p>Gallery</p>
@@ -35,6 +38,9 @@
             <a href="{{ route('engineering.corporate.advisory.board') }}" class="custom-menu-item {{ setActive('engineering.corporate.advisory.board') }}">
                 <p>Corporate Advisory Board</p>
             </a>
+            <a href="{{ route('engineering.placement.brochure') }}" class="custom-menu-item {{ setActive('engineering.placement.brochure') }}">
+                <p>Placement Brochure</p>
+            </a>
             <a href="{{ route('engineering.placement.calendar') }}" class="custom-menu-item {{ setActive('engineering.placement.calendar') }}">
                 <p>Placement Calendar</p>
             </a>
@@ -53,8 +59,14 @@
             <a href="{{ route('engineering.project.guidelines') }}" target="_blank" class="custom-menu-item {{ setActive('engineering.project.guidelines') }}">
                 <p>Project Guidelines</p>
             </a>
+            <a href="{{ route('engineering.project.template') }}" target="_blank" class="custom-menu-item {{ setActive('engineering.project.template') }}">
+                <p>Project Templates</p>
+            </a>
             <a href="{{ route('engineering.anti.ragging') }}" class="custom-menu-item {{ setActive('engineering.anti.ragging') }}">
                 <p>Anti Ragging Committee</p>
+            </a>
+            <a href="{{ route('engineering.e.content') }}" class="custom-menu-item {{ setActive('engineering.e.content') }}">
+                <p>E-Content</p>
             </a>
         </div>
         <h2>Quick Links</h2>

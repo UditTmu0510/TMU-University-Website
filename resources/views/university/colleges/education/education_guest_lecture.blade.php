@@ -13,6 +13,7 @@
 <div class="main-content">
     <div class="container">
         <div class="row">
+            <h1 class="tmu-page-heading tmu-text-primary mt-md-4"><span>Guest</span><span> Lectures</span></h1>
             <div class="clear"></div>
 
             @foreach($guest_lectures as $guest_lecture)

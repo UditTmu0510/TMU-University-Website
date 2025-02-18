@@ -1,10 +1,6 @@
 @extends('layouts.university.departments.research_cell_with_sidebar')
 @section('content')
 
-
-
-
-
 <div class="main-content">
     <div class="container">
         <div class="row mx-0">

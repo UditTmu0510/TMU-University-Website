@@ -112,7 +112,7 @@
                         <div class="timeline-text">
                             <div class="timeline-date">Beds</div>
                             <ul class="m-ol-list ps-3 mb-0">
-                                <li><b class="fs-14">1091</b></li>
+                                <li><b class="fs-14">1095</b></li>
                             </ul>
                         </div>
                     </div>

@@ -14,24 +14,24 @@ use Illuminate\Support\Str;
 
 class AgricultureController extends Controller
 {
-    
+
     public function index()
     {
-         $testimonials = Testimonials::where('cd_id', 16)
+        $testimonials = Testimonials::where('cd_id', 16)
             ->where('display_college_main', 'Y')
             ->where('status', 'Y')
             ->orderBy('story_id', 'ASC')
             ->get();
-  $recruiters = Recruiters::where('cd_id', 16)
-    ->where('display_college_main', 'Y')
-    ->where('status', 'Y')
-    ->orderBy('recruiter_id', 'desc')
-    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
-    ->get();
+        $recruiters = Recruiters::where('cd_id', 16)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('recruiter_id', 'desc')
+            ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+            ->get();
 
-        return view('university.colleges.agriculture.agriculture_home',compact('testimonials','recruiters'));
+        return view('university.colleges.agriculture.agriculture_home', compact('testimonials', 'recruiters'));
     }
-    
+
     public function agriculture_academic_calendar()
     {
         return view('university.colleges.agriculture.agriculture_academic_calendar');
@@ -72,7 +72,7 @@ class AgricultureController extends Controller
         return view('university.colleges.agriculture.agriculture_gallery');
     }
 
-public function agriculture_guest_lecture()
+    public function agriculture_guest_lecture()
     {
         $guest_lectures = News::where('cd_id', 16)
             ->where('status', '1')
@@ -140,8 +140,8 @@ public function agriculture_guest_lecture()
     }
     public function agriculture_syllabus()
     {
-        $programmes = Programmes::where('cd_id',16)->where('status','Y')->get();
-        return view('university.colleges.agriculture.agriculture_syllabus',compact('programmes'));
+        $programmes = Programmes::where('cd_id', 16)->where('status', 'Y')->get();
+        return view('university.colleges.agriculture.agriculture_syllabus', compact('programmes'));
     }
 
     public function agriculture_timetable()

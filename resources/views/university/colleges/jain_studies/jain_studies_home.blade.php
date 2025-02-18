@@ -133,8 +133,7 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Centre of </span> Jain Studies </h1>
-					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Centre of </span> Jain Studies</h1>
+					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to the <span style="font-weight:700!important;">Centre of </span> Jain Studies </h1>
 					<a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
@@ -287,7 +286,7 @@
 
 
 		<!-----Courses section Start-->
-	
+
 		<!-----Courses section completed-->
 
 
@@ -304,11 +303,11 @@
 						<img src="{{asset('/assets/img/gallery/jain_studies/endowment/2.webp')}}" alt="">
 						<p style="text-align: justify;">In honour of Parmar Kshatriyaoddharak Jaincharya Shrimad Vijay Indradinn Surishwar Ji Maharaj Saheb's 100th birthday, Teerthanker Mahaveer University in Moradabad, Uttar Pradesh, and Shree Ostra Parshvanath Jain Shwetamber Murtipujak Trust came together. With the blessings of Vartman Gacchadhapati Shrimad Vijay Dharamdhurandher Suri Ji Maharaj Saheb, "Endowment Chair" was established.</p>
 						<div class="read-more-content mt-0">
-							<p style="text-align: justify;">Dr. Aditya Sharma (Registrar) and Dr. Jay Kumar Dhaddha signed an MOU during the occasion to establish a "Endowment Chair" (Trustee).</p>
+							<p style="text-align: justify;">Dr. Aditya Sharma (Registrar) and Dr. Jay Kumar Dhaddha signed an MOU during the occasion to establish an "Endowment Chair" (Trustee).</p>
 
 							<p style="text-align: justify;">As part of the vision, the establishment of "Endowment Chair" was the primary goal of this MOU for the parties. The "Endowment Chair's" curriculum was created with the intention of assisting the university's intellectual, teaching, and research endeavours. In addition, it will plan and carry out short-term programmes for teachers that focus on the chair's specified discipline.</p>
 
-							<p style="text-align: justify;">Aacharya Shrimadh Vijay Dharmdhunrandher Surishwar Ji Maharaj Saheb received the MOU from Shri Suresh Jain (Chancellor) and other dignitaries in exchange for his blessings. Shri Suresh Jain, the Chancellor, spoke about how even a modest act of kindness to the underprivileged section in society can result in significant change. He made a point of highlighting the importance of education in advancing our civilization. He asserted that people might learn and arrive at a path that offers them holistic growth through the teachings of Jainism.</p>
+							<p style="text-align: justify;">Aacharya Shrimadh Vijay Dharmdhunrandher Surishwar Ji Maharaj Saheb received the MOU from Shri Suresh Jain (Chancellor) and other dignitaries in exchange for his blessings. Shri Suresh Jain, the Chancellor, spoke about how even a modest act of kindness to the underprivileged section of society can result in significant change. He made a point of highlighting the importance of education in advancing our civilisation. He asserted that people might learn and arrive at a path that offers them holistic growth through the teachings of Jainism.</p>
 
 							<p style="text-align: justify;">The Endowment Chair's functions will include the selection of a distinguished and eminent professor, promotion of study programmes and educational programmes, including degree programmes, diplomas, certification programmes, etc., within the context of the TMU Moradabad in the field of Jainism, and dissemination of Jainism's tenets. In order to increase knowledge in the field of study, it is important to promote Ph.D., other research, and creative programmes for Jain philosophy.</p>
 
@@ -513,7 +512,7 @@
 
 		<!--	</div>-->
 
-			<!-- Testimonial Modal -->
+		<!-- Testimonial Modal -->
 		<!--	<div id="testimonialModal" class="tmu-modal">-->
 		<!--		<div class="overlay" onclick="closeTestimonialModal()"></div>-->
 		<!--		<div class="tmu-modal-box">-->
@@ -540,7 +539,7 @@
 
 
 
-			<!-- FAqs -->
+		<!-- FAqs -->
 
 
 	</div>

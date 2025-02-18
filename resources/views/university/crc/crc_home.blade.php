@@ -79,34 +79,35 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Corporate Rresource
                             Centre</span></h1>
-                    <p class="about-p mb-4">The Corporate Resource Centre (CRC) at Teerthanker Mahaveer University plays
+                    <p class="about-p mb-4 text-justify">The Corporate Resource Centre (CRC) at Teerthanker Mahaveer University plays
                         a vital role in preparing students for successful careers. Focused on both personality
                         development and career readiness, the CRC provides comprehensive guidance on crucial interview
                         skills, such as body language, communication, and confidence. Through structured programs,
                         including mock interviews, aptitude training, and soft skill workshops, the CRC ensures students
                         are well-equipped to face corporate recruitment processes.</p>
-                    <div class="read-more-content mt-0">
-                        <p class="about-p mb-4">The centre works at both the
-                            university and college levels to create tailored programs, helping students develop
-                            technical
-                            knowledge, set career goals, and improve overall employability.</p>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="read-more-content mt-0">
+                            <p class="about-p mb-4 text-justify">The centre works at both the
+                                university and college levels to create tailored programs, helping students develop
+                                technical
+                                knowledge, set career goals, and improve overall employability.</p>
 
-                        <p class="about-p mb-4">In addition to personal and professional development, the CRC fosters
-                            strong
-                            industry-academia linkages, bringing together students and top corporate entities for
-                            internships and job placements. With over 400 companies participating in the university’s
-                            placement drives, the CRC provides students with ample opportunities to connect with leading
-                            organizations across diverse fields such as engineering, management, healthcare, and more.
-                            By
-                            hosting regular industry visits and interactions with corporate leaders, the CRC ensures
-                            that
-                            students gain practical insights and are well-prepared for the demands of the modern job
-                            market.
-                        </p>
+                            <p class="about-p mb-4 text-justify">In addition to personal and professional development, the CRC fosters
+                                strong
+                                industry-academia linkages, bringing together students and top corporate entities for
+                                internships and job placements. With over 400 companies participating in the university’s
+                                placement drives, the CRC provides students with ample opportunities to connect with leading
+                                organizations across diverse fields such as engineering, management, healthcare, and more.
+                                By
+                                hosting regular industry visits and interactions with corporate leaders, the CRC ensures
+                                that
+                                students gain practical insights and are well-prepared for the demands of the modern job
+                                market.
+                            </p>
+                        </div>
+
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
                     </div>
-                 <div class="text-center">
-    <a href="{{route('crc.about.us')}}" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
-</div>
 
                 </div>
             </div>
@@ -241,21 +242,21 @@
                         </div>
 
                     </div>
-                      <div class="text-center">
-                    <a href="{{ route('crc.student.testi') }}" class="tmu-btn btn-1 py-2 mt-4 ms-2 mt-5">View More</a>
+                    <div class="text-center">
+                        <a href="{{ route('crc.student.testi') }}" class="tmu-btn btn-1 py-2 mt-4 ms-2 mt-5">View More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Testimonial Modal -->
-            <div id="testimonialModal" class="tmu-modal">
+            <div id="testimonialModal" class="tmu-modal"  >
                 <div class="overlay" onclick="closeTestimonialModal()"></div>
                 <div class="tmu-modal-box">
                     <div class="close-btn" onclick="closeTestimonialModal()">x</div>
-                    <div class="tmu-testimonial bg-light">
+                    <div class="tmu-testimonial bg-light" style="max-height: 80vh; overflow-y: auto;">
 
-                        <div class="media ">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/students/abdul_india_mart_mba.jpg')}}"
+                        <div class="media " >
+                            <img src="#"
                                 class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
@@ -309,26 +310,26 @@
 </div>
 
 <script>
-// $(document).ready(function() {
-//     $('.star-logo-carousel').owlCarousel({
-//         loop: true,
-//         margin: 10,
-//         autoplay: true,
-//         autoplayTimeout: 2000, // Time between slides (2 seconds)
-//         autoplayHoverPause: true,
-//         responsive: {
-//             0: {
-//                 items: 2 // Number of logos on small screens
-//             },
-//             600: {
-//                 items: 3 // Number of logos on medium screens
-//             },
-//             1000: {
-//                 items: 5 // Number of logos on large screens
-//             }
-//         }
-//     });
-// });
+    // $(document).ready(function() {
+    //     $('.star-logo-carousel').owlCarousel({
+    //         loop: true,
+    //         margin: 10,
+    //         autoplay: true,
+    //         autoplayTimeout: 2000, // Time between slides (2 seconds)
+    //         autoplayHoverPause: true,
+    //         responsive: {
+    //             0: {
+    //                 items: 2 // Number of logos on small screens
+    //             },
+    //             600: {
+    //                 items: 3 // Number of logos on medium screens
+    //             },
+    //             1000: {
+    //                 items: 5 // Number of logos on large screens
+    //             }
+    //         }
+    //     });
+    // });
 </script>
 
 @endsection

@@ -72,7 +72,7 @@
         <button class="careers-accordion">8. How do I get my transcript sent? <span class="icon">+</span>
         </button>
         <div class="panel">
-          <p>You can email your request at <span class="highlight"><a href="alumni@tmu.ac.in">alumni@tmu.ac.in</a></span></p>
+          <p>You can email your request at <span class="highlight"><a href="mailto:alumni@tmu.ac.in">alumni@tmu.ac.in</a></span></p>
         </div>
         <hr class="horizontal-line"> 
       </div>

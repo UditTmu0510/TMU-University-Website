@@ -5,66 +5,74 @@
 <div class="main-content">
     <div class="container">
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Evaluation Scheme of </span><span>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Evaluation Scheme of </span><span>
                     Coursework for Ph.D. Programme</span></h1>
             <div>
-                <p>In compliance of University Grants Commission (Minimum Standards and Procedures for Award
-                    of M.Phil/ Ph.D. Degree) Regulations, 2016 <b>Effective from May 5, 2016</b>
+                <p>In compliance of University Grants Commission (Minimum Standards and Procedures for Award of M.Phil/ Ph.D. Degree) Regulations, 2022 Effective from <span class="highlight p-0"> Nov 7, 2024</span>
+                    </b>
                     <br>
-                    <center><b>[Amended w.e.f. March 20, 2021]</b></center>
+                    <center><b>[Amended w.e.f. July 27, 2024]</b></center>
                 </p>
                 <hr>
-                <div class="table-responsive">
+                <div class="table-responsive mb-3">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <th class="text-center">Sl.No.</th>
-                            <th>Course Code</th>
-                            <th>Subject</th>
-                            <th>Credits</th>
-                            <th>Min. Qualifying Marks</th>
-                            <th>Max. Marks</th>
+                            <th class="text-center">Course Code</th>
+                            <th class="text-center">Subject</th>
+                            <th class="text-center">Credits</th>
+                            <th class="text-center">Min. Qualifying Marks</th>
+                            <th class="text-center">Max. Marks</th>
                         </thead>
                         <tr>
-                            <td>1</td>
-                            <td>RRMD101</td>
-                            <td>Research Methodology</td>
-                            <td>4</td>
-                            <td>55</td>
-                            <td>100</td>
+                            <td class="text-center">1.</td>
+                            <td class="text-center">RRMD101</td>
+                            <td class="text-center">Research Methodology</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">50</td>
+                            <td class="text-center">100</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>RRMD102</td>
-                            <td>Quantitative Methods & Computer Applications</td>
-                            <td>4</td>
-                            <td>55</td>
-                            <td>100</td>
+                            <td class="text-center">2.</td>
+                            <td class="text-center">RRMD102</td>
+                            <td class="text-center">Quantitative Methods & Computer Applications</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">50</td>
+                            <td class="text-center">100</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>RMGT171</td>
-                            <td>Review of Literature</td>
-                            <td>4</td>
-                            <td>---</td>
-                            <td>---</td>
+                            <td class="text-center">3.</td>
+                            <td class="text-center">RMGT171</td>
+                            <td class="text-center">Review of Literature</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">---</td>
+                            <td class="text-center">---</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>CPE-RPE101*</td>
-                            <td>Research & Publication Ethics</td>
-                            <td>2</td>
-                            <td>55</td>
-                            <td>100</td>
+                            <td class="text-center">4.</td>
+                            <td class="text-center">CPE-RPE101*</td>
+                            <td class="text-center">Research & Publication Ethics</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">50</td>
+                            <td class="text-center">100</td>
                         </tr>
                         <tr>
-                            <td>5</td>
+                            <td class="text-center">5.</td>
+                            <td class="text-center">Course Code as mentioned in the Syllabi of Discipline Specific Courses</td>
+                            <td class="text-center">Discipline Specific </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">50</td>
+                            <td class="text-center">100</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">6.</td>
                             <td colspan="5">Additional courses, esp. related to teaching pedagogy,
                                 curriculum design, evaluation, writing and mandatory teaching hours. The
                                 same will be specified in the Regulations of this Ordinance from time to
                                 time on the basis of UGC guidelines emerging out of NEP‐2020.</td>
                         </tr>
                         <tr>
-                            <td>6</td>
+                            <td class="text-center">7.</td>
                             <td colspan="5">Also, additional course, as recommended by RAC and approved by
                                 CRC for individual scholars will be a prerequisite for conducting the
                                 research in the interdisciplinary research.</td>
@@ -72,10 +80,12 @@
                     </table>
                 </div>
 
-                <p class="mb-1 mt-1"><b> *Amended w.e.f. January 01, 2020, as per UGC <a
-                            href="{{asset('/assets/pdf/research/DO-NO-F-1-12018_compressed.pdf')}}"> D.O.
-                            No. F-1-1/2018 (Journal/CARE)(Click here to view)</a></b></p>
-                <div class="card mb-3 mt-2">
+                <p class="mt-1 text-center"><b> *Amended w.e.f. January 01, 2020, as per UGC D.O.
+                        No. F-1-1/2018 (Journal/CARE)</b><br><span class="highlight p-0">
+                        <a href="{{asset('/assets/pdf/research/DO-NO-F-1-12018_compressed.pdf')}}"> (Click here to view)</a></span></p>
+                        
+                <hr class="mb-3">
+                <div class="card mb-4 mt-2">
                     <div class="card-body">
                         <p class="text-center"><b>EVALUATION OF REVIEW OF LITERATURE (RMGT171)</b></p>
                         <p style="text-align:justify">The research scholar shall submit a draft copy of the
@@ -95,12 +105,11 @@
                 </div>
             </div>
 
-            <h3 class="tmu-text-primary"><span>Syllabus for Coursework (Research Methodology) <span><span>
-                            COURSE CODE: RRMD101</span></h3>
+            <h3 class="tmu-text-primary mb-2 mt-3"><span>Syllabus for Coursework (Research Methodology) </span><span> COURSE CODE: RRMD101</span></h3>
 
             <hr class="horizontal-line">
             <button class="careers-accordion">Objective <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p>To familiarize the research scholar with the fundamentals of scientific research.</p>
             </div>
 
@@ -108,8 +117,8 @@
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5">
-                    <li><b>Scientific Research:</b> Meaning and characteristics of scientific research,
+                <ol class="m-ol-list ps-4">
+                    <li><b class="fs-14">Scientific Research:</b> Meaning and characteristics of scientific research,
                         validity in research, phases/stages in research; types of research- qualitative,
                         quantitative, exponential, exploratory, empirical, descriptive, ex-post facto, case
                         studies, historical studies, philosophical studies, quasi-experimental; ethical
@@ -117,18 +126,18 @@
                         concept of constructs, type of variables, continuous and categorical, constructs,
                         observables and intervening variables; Review of literature- purpose of the review,
                         sources of the review, preparation of index card for reviewing and abstracting.</li>
-                    <li><b>Problem Identification and Hypothesis Formation:</b> Problem- meaning and
+                    <li><b class="fs-14">Problem Identification and Hypothesis Formation:</b> Problem- meaning and
                         characteristics of a problem, types of problem, generality and specific of problem;
                         hypothesis- meaning and characteristics of a good hypothesis, types of hypotheses,
                         formulating a hypothesis, ways of stating a hypothesis; testing experimental
                         hypothesis- standard error, test of significance, level of significance, degrees of
                         freedom, errors in hypothesis- type I, type II errors.</li>
-                    <li><b>Sampling and Research Design:</b> Meaning and types of sampling; probability and
+                    <li><b class="fs-14">Sampling and Research Design:</b> Meaning and types of sampling; probability and
                         non-probability sampling. Methods of drawing samples, requisites of a good sampling
                         method, sample size, sampling error; meaning and purpose of research design, types
                         of research design, criteria of a good research design, basic principles of
                         experimental design.</li>
-                    <li><b>Introduction to MS-Office: </b> MS-WORD, MS-EXCEL, MATLAB, LATEX.</li>
+                    <li><b class="fs-14">Introduction to MS-Office: </b> MS-WORD, MS-EXCEL, MATLAB, LATEX.</li>
                 </ol>
                 </p>
             </div>
@@ -137,7 +146,7 @@
             <button class="careers-accordion">Suggested Reading <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list">
+                <ol class="m-ol-list ps-4">
                     <li>Cooper & Schindler, Business Research Methods, Tata McGraw Hill.</li>
                     <li>Saunders, Research Methods for Business Students, Pearson Education.</li>
                     <li>Allen T Harrell, New Methods in Social Science Researchs, Praeger Publishers, New
@@ -161,7 +170,7 @@
                     Applications) </span><span> COURSE CODE: RRMD102</h3>
             <hr class="horizontal-line">
             <button class="careers-accordion">Objective <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p>To gain familiarity about various data collection tools and techniques, data analysis and
                     interpretation along with the application of computer and statistical software in
                     research.</p>
@@ -171,12 +180,12 @@
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5">
-                    <li><b>Measurement and Scaling Techniques: </b> Measurement in research, measurement
+                <ol class="m-ol-list ps-4">
+                    <li><b class="fs-14">Measurement and Scaling Techniques: </b> Measurement in research, measurement
                         scales sources of errors in measurement, tests of second measurement, techniques of
                         developing measurement tools, meaning of scaling, scale classification bases,
                         important scaling techniques, and scale construction techniques.</li>
-                    <li><b>Data Collection, Processing and Analysis:</b> Methods of data collection –
+                    <li><b class="fs-14">Data Collection, Processing and Analysis:</b> Methods of data collection –
                         primary data, secondary data; primary data collection – observation method,
                         interview method, questionnaires, schedules, guideline for constructing
                         questionnaires/schedules, secondary data collection of, selection of appropriate
@@ -190,7 +199,7 @@
                         mean, population variance and ratio of two population variances; applications of
                         z-test, t-test, f-test and chi-square test, association of attributes and techniques
                         of testing, ANOVA.</li>
-                    <li><b>Report Writing: </b> Meaning and significance of report writing, types of report,
+                    <li><b class="fs-14">Report Writing: </b> Meaning and significance of report writing, types of report,
                         steps in writing report, layout of the research report, precaution in writing
                         research report, developing thesis report, formatting, inside citations, references
                         and bibliography, knowledge of computer, statistical software and their application,
@@ -232,7 +241,7 @@
                     RMGT171</span></h3>
             <hr class="horizontal-line">
             <button class="careers-accordion">Objective <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p>The main objective of this course is to undertake a thorough review of available
                     literature on the topic selected by the research scholar.</p>
             </div>
@@ -240,8 +249,7 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
-                <p>
-                <ol class="m-ol-list ps-5">
+                <ol class="ps-4 fs-14 text-justify" style="list-style-type: decimal;">
                     <li>The research scholar will review the important studies conducted at the national and
                         international level either by individuals or organizations including government
                         agencies and present the methodology adopted and important findings emerged from
@@ -251,7 +259,7 @@
                     <li>The researcher is supposed to follow the pattern adopted in the standard national
                         and international research journals. However, as an illustration, the pattern for
                         reporting review of literature is as under:
-                        <ol class="m-ol-list ps-5">
+                        <ol class="m-ol-list ps-4 text-justify">
                             <li>Tiwari and Sinha (1971) gave productivity trends and factor compensation in
                                 the Indian textiles industry for the period 1946-65, comprising two
                                 sub-periods (1946-1955 and 1956-1965). The marginal productivity of capital,
@@ -279,7 +287,6 @@
                         </ol>
                     </li>
                 </ol>
-                </p>
             </div>
             <hr class="horizontal-line">
             <br>
@@ -288,19 +295,18 @@
                     CODE: CPE-RPE101</span></h3>
             <hr class="horizontal-line">
             <button class="careers-accordion">Objective <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p>This course has a total of 6 units focusing on the basics of philosophy of science and
                     ethics, research integrity, publication ethics. Hands-on sessions are designed to
                     identify research misconduct and predatory publications. Indexing and citation
                     databases, open access publications, research metrics (citations, h-index, Impact
                     Factor, etc.) and plagiarism tools will be introduced in this course.</p>
             </div>
-
-            <hr class="horizontal-line">
+            <hr class="horizontal-line ">
             <button class="careers-accordion">Course Content <span class="icon">+</span></button>
             <div class="panel">
                 <p>
-                <ol class="m-ol-list ps-5">
+                <ol class="m-ol-list ps-4 mb-2">
                     <li><strong>Pedagogy:</strong> Classroom teaching, guest lectures, group discussions,
                         and practical sessions.</li>
                     <li><strong>Evaluation:</strong> Continuous assessment will be done through tutorials,
@@ -310,7 +316,7 @@
                     <li><strong>Course Structure:</strong> The course comprises six modules listed in the
                         table below. Each module has 4-5 units.</li>
                 </ol>
-                <div class="table-responsive">
+                <div class="table-responsive mb-3">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
@@ -374,67 +380,66 @@
             <hr class="horizontal-line">
             <br>
 
-            <h3 class="tmu-text-primary"><span>Coursework for Ph.D. </span><span>Programme in Nursing</span>
-            </h3>
-            <p>The scheme of Course work examination time being, in case of Nursing shall be as follows. Any
+            <h3 class="tmu-text-primary mb-2"><span>Coursework for Ph.D. </span><span>Programme in Nursing</span></h3>
+            <p class="mb-3">The scheme of Course work examination time being, in case of Nursing shall be as follows. Any
                 subsequent changes in accordance with the guidelines of INC shall be reflected in the
                 Regulations of this Ordinance.</p>
-            <div class="table-responsive">
+            <div class="table-responsive mb-3">
                 <table class="table table-bordered table-striped">
                     <thead>
-                        <th>Sl. No.</th>
-                        <th>Course</th>
-                        <th>Duration</th>
-                        <th>Min Qualifying Marks</th>
-                        <th>Maximum Marks</th>
+                        <th class="text-center">Sl. No.</th>
+                        <th class="text-center">Course</th>
+                        <th class="text-center">Duration</th>
+                        <th class="text-center">Min Qualifying <br>Marks</th>
+                        <th class="text-center">Maximum Marks</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Research Methodology & Applied Statistics</td>
-                            <td>90 Hours</td>
-                            <td>60</td>
-                            <td>100</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">Research Methodology & Applied Statistics</td>
+                            <td class="text-center">90 Hours</td>
+                            <td class="text-center">60</td>
+                            <td class="text-center">100</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>Seminar/Term paper in the area of research (Internal assessment)</td>
-                            <td>-----</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Seminar/Term paper in the area of research (Internal assessment)</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Viva Voce (Proposal defense)*</td>
-                            <td>-----</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Viva Voce (Proposal defense)*</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>Nursing Science and Theory Development Including Nursing Leadership</td>
-                            <td>120 Hours</td>
-                            <td>-----</td>
-                            <td>-----</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">Nursing Science and Theory Development Including Nursing Leadership</td>
+                            <td class="text-center">120 Hours</td>
+                            <td class="text-center">-----</td>
+                            <td class="text-center">-----</td>
                         </tr>
                         <tr>
-                            <td>5</td>
-                            <td>Research and Publication Ethics (Common for all disciplines)</td>
-                            <td>20 Hours</td>
-                            <td>55</td>
-                            <td>100</td>
+                            <td class="text-center">5</td>
+                            <td class="text-center">Research and Publication Ethics (Common for all disciplines)</td>
+                            <td class="text-center">20 Hours</td>
+                            <td class="text-center">60</td>
+                            <td class="text-center">100</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p><b> *> = 60% of marks will be considered as pass.</b></p>
-            <p><span style="color:#E74C3C; font-weight:bold; font-size: 20px;">Note:</span> 70% attendance
+            <p class="mb-2 text-justify"><b> *> = 60% of marks will be considered as pass.</b></p>
+            <p class="text-justify"><span style="color:#E74C3C; font-weight:bold; font-size: 16px;">Note:</span> 70% attendance
                 is compulsory for contact hours, failing which, he/she will not be allowed to appear for the
                 Course work; however they have to make up for the same in the next course work.</p>
             <p>The syllabi for both the courses shall be as prescribed by the Indian Nursing Council.</p>
             <p>The Viva-Voce (proposal defense) examination shall be conducted in presence of the panel
                 consisting of: <br>
-            <ol class="m-ol-list ps-5">
+            <ol class="m-ol-list ps-4 text-justify">
                 <li>Two examiners (Subject Experts) appointed by the University</li>
                 <li>Supervisor/Co-Supervisor <br>The candidate shall be declared as successful in the
                     examination if he/she scores not less than 60% of marks in each course.</li>

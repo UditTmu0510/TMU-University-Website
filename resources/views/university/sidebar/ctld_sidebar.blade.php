@@ -8,11 +8,15 @@
                                 <a href="{{ route('ctld.home') }}" class="custom-menu-item {{ setActive('ctld.home') }}">
                 <p>Home</p>
             </a>
+
             <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ setActive('ctld.about') }}">
                 <p>Overview</p>
             </a>
             <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ setActive('ctld.aims.and.objectives') }}">
                 <p>Aims & Objective</p>
+            </a>
+            <a href="{{ route('ctld.benefits') }}" class="custom-menu-item {{ setActive('ctld.benefits') }}">
+                <p>Benefits of CTLD </p>
             </a>
             <a href="{{ route('ctld.director.desk') }}" class="custom-menu-item {{ setActive('ctld.director.desk') }}">
                 <p>Director's Desk</p>
@@ -39,12 +43,12 @@
                 <p>Events</p>
             </a>
         </div>
-        <h2>Quick Links</h2>
+        <!-- <h2>Quick Links</h2>
         <div class="account-section">
             <a href="#" class="custom-menu-item {{ setActive('contact.us') }}">
                 <p>Contact Us</p>
             </a>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="toggle-btn" style="color: #fff;" id="sidebarToggle"><i class="fas fa-bars" style="transform: rotate(90deg);"></i></div>

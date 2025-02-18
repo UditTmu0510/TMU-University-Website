@@ -5,13 +5,27 @@
 <link rel="stylesheet" href="{{asset('/assets/css/tmimt.css')}}">
 <link rel="stylesheet" href="{{asset('/assets/css/college.css')}}">
 
+<style>
+.small-text span {
+    font-size: 0.65rem; 
+}
+
+.small-text .card-body {
+    line-height: 1.2; 
+}
+
+.first-span {
+    font-size: 0.70rem!important; 
+}
+
+</style>
+
 <section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Paramedical</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Paramedical</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5  banner-main-heading">Welcome to <span style="font-weight:700!important;">College of Paramedical Sciences</span></h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -30,18 +44,18 @@
             <div class="row justify-content-center align-items-stretch">
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <!-- First span at the top -->
                             <span>Recognised By</span>
 
                             <!-- Second span centered vertically -->
-                            <span class="d-block pt-1 mt-auto">Quality Council of India</span>
+                            <span class="d-block pt-1 mt-auto">Quality Council of India, Uttar Pradesh State Medical Faculty</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <span>100%</span>
 
                             <span class="d-block pt-1 mt-auto">Placement Assistance</span>
@@ -50,7 +64,7 @@
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
                             <span>Hands-On Experience</span>
 
                             <span class="d-block pt-1 mt-auto">at TMU Hospital</span>
@@ -59,8 +73,8 @@
                 </div>
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1 h-100">
-                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards">
-                            <span>20+</span>
+                        <div class="card-body d-flex flex-column justify-content-start text-tmu-primary under-banner-cards small-text">
+                            <span>20</span>
 
                             <span class="d-block pt-1 mt-auto">Programme Specialisations</span>
                         </div>
@@ -82,20 +96,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
+                            
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards"> <span>Recognised By</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">100%</span>
                                         <br>
-                                        <span class="d-block pt-1">Quality Council of India</span>
+                                        <span class="d-block pt-1">Placement Assistance</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>100%</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">20</span>
                                         <br>
-                                        <span class="d-block pt-1">Placement Assistance</span>
+                                        <span class="d-block pt-1">Programme Specialisations</span>
                                     </div>
                                 </div>
                             </div>
@@ -105,19 +121,20 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>Hands-On Experience</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text">
+                                        <span class="first-span">Hands-On Experience</span>
                                         <br>
                                         <span class="d-block pt-1">at TMU Hospital</span>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
-                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>20+</span>
+                                    <div class="card-body gap-4 text-tmu-primary under-banner-cards small-text"> 
+                                        <span class="first-span">Recognised By</span>
                                         <br>
-                                        <span class="d-block pt-1">Programme Specialisations</span>
+                                        <span class="d-block pt-1">Quality Council of India, <br> Uttar Pradesh State <br>Medical Faculty</span>
                                     </div>
                                 </div>
                             </div>
@@ -136,12 +153,12 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Paramedical Sciences: Among the Top Colleges for Paramedical Education</h2>
+                <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCE COLLEGES</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science education programme is to ensure that educational opportunities for development of skills. </p>
+                        <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
                         <div class="read-more-content mt-0">
-                            <p style="text-align: justify;">The emphasis of the Paramedical Science education programme is on developing a cadre of small entrepreneurs, especially among girls, women &amp; rural youth.</p>
+                            <p style="text-align: justify;">This comprehensive programme equips students with the skills and knowledge required to provide vital support to medical professionals, patients, and communities.  Our curriculum is designed in consultation with healthcare experts, ensuring students gain relevant skills and knowledge. With an emphasis on evidence-based practice, research, and innovation, our graduates are well-prepared for emerging trends and challenges.</p>
                         </div>
                         <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 
@@ -166,25 +183,27 @@
                     <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#Tab4" type="button" role="tab" aria-controls="Tab4" aria-selected="false"><i class="fas fa-building"></i> Infrastructure</button>
                 </li>
             </ul>
+
+
             <div class="tab-content second ps-5 px-md-5" id="myTabContent">
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</span></h3>
                     <p>The College of Paramedical Sciences offers specialised training in four disciplines, delivered by qualified professionals.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>
-                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span>It is a hub of academic research and consultancy that grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes with the knowledge and skills necessary to excel in the ever-evolving pharmacy field.</p>
+                            <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Medical Laboratory Techniques:</span> A centre for academic research and expert consultation, offers diploma, graduate, post-graduate, and doctorate-level programmes which are designed to equip students with the in-depth knowledge and practical skills required to thrive in the constantly evolving field of Paramedical.</p>
                         </li>
                     </ul>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4 pt-0 mb-0">
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> Develop proficiency in radiological imaging techniques, such as X-Ray, Color Doppler, Ultrasound, CT-SCAN, and MRI.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Radiological Imaging Techniques:</span> It equips students with proficiency in Radiological Imaging Techniques, encompassing advanced methodologies like X-ray, Color Doppler, Ultrasound, CT Scan, and MRI, that refine skills to work with advanced imaging technologies.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> Become a specialised health care professional that provides comprehensive eye care, examining the eyes and structures for defects or abnormalities.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Optometry:</span> It helps students to become specialised healthcare professionals who are proficient in comprehensive eye care, examining the eyes and associated structures to detect abnormalities or disorders with precision.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span> Gain valuable exposure and practical industrial training for both faculty and students alike.</p>
+                                <p class="p-0 m-0"><span class="fw-bold fs-16 tmu-color-blue">Forensic Science:</span> Provides valuable exposure and hands-on industrial training to students honing their expertise in forensic investigation, evidence analysis, and crime scene reconstruction to become a leading authority in forensic science.</p>
                             </li>
                         </ul>
                     </div>
@@ -194,41 +213,41 @@
                     <h3>Placement/Internship</span></h3>
                     <p>Paramedical College stands out for exceptional placement and internship opportunities for students in their respective fields.
                         <br>
-                        With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings. Enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce.
+                        With strong industry connections, the college ensures students gain valuable exposure in their chosen field. Through well-structured internships, students can apply their theoretical knowledge in real-world settings, enhancing their skills and paving the way for a successful career. The college’s commitment to providing 100% placement assistance further guarantees that graduates are well-prepared and equipped for the professional workforce.
                     </p>
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</span></h3>
-                    <p>Teerthanker Mahaveer College of Paramedical Sciences offers a comprehensive curriculum designed to equip paramedical students with the necessary skills and training required in the healthcare field. Our courses cover a wide range of topics, including anatomy, optics, microbiology, psychology, physiology, forensic serology, toxicology, pharmacology, and medical ethics, among others. We also offer clinical rotations in a variety of healthcare settings, allowing students to gain hands-on experience working with patients.</p>
+                    <p>Teerthanker Mahaveer College of Paramedical Sciences offers a comprehensive curriculum designed to equip paramedical students with the necessary skills and training required in the healthcare field. Our programmes cover a wide range of topics, including anatomy, optics, microbiology, psychology, physiology, forensic serology, toxicology, pharmacology, and medical ethics, among others. We also offer clinical rotations in a variety of healthcare settings, allowing students to gain hands-on experience working with patients.</p>
                     <div class="read-more-content mt-0">
                         <br />
-                        <p>Additionally, we have MOUs with industry experts and academic institutions.</p>
+                        <p>Additionally, we have MOUs with industry leaders and academic institutions.</p>
                         <ul class="m-ol-list ps-4">
-                            <li>Pioneer Centre of Bioscience It aims to encourage bioscience-related research, product development and skill development, which will bridge the gap between academics and industries.</li>
-                            <li>DNA Labs It aims to provide a learning platform for Medical Laboratory Techniques through internships, project work and training.</li>
-                            <li>Hawk-Eye Forensic It aims to provide industrial training and assist with student project work, final-year dissertations, etc.</li>
+                            <li>Pioneer Centre of Bioscience : It aims to encourage bioscience-related research, product development and skill development, which will bridge the gap between academics and industries.</li>
+                            <li>DNA Labs : It aims to provide a learning platform for Medical Laboratory Techniques through internships, project work and training.</li>
+                            <li>Hawk-Eye Forensic : It aims to provide industrial training and assist with student project work, final-year dissertations, etc.</li>
                         </ul>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</span></h3>
-                    <p>Our college boasts a variety of well-equipped laboratories that adhere to the UP State medical standards. It also meets international benchmarks. Our state-of-the-art facilities includes:</p>
+                    <p>Our college boasts a variety of well-equipped laboratories that adhere to the UP State Medical standards. It also meets international benchmarks. Our state-of-the-art facilities include:</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>
-                            <p class="p-0 m-0"><b>Medical Laboratory Techniques:</b> includes spectrophotometer, colorimeter, ELISA reader, semi auto analyser, PH metre and Autoclaves.</p>
+                            <p class="p-0 m-0"><b>Medical Laboratory Equipments: </b> Includes spectrophotometer, colourimeter, ELISA reader, semi-auto analyser, PH metre and Autoclaves.</p>
                         </li>
                     </ul>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4 mb-0">
                             <li>
-                                <p class="p-0 m-0"><b>Radiological & Imaging Techniques: </b>include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p>
+                                <p class="p-0 m-0"><b>Radiological & Imaging Equipments: </b> Include digital radiography, computed tomography, magnetic resonance imaging, and ultrasound.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><b>Optometry:</b> includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p>
+                                <p class="p-0 m-0"><b>Optometry:</b> Includes an optical coherence tomography (OCT), Low Vision Clinic, Binocular vision and visual field testing equipment, slit lamps, keratometer, and a dedicated optometry lab.</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0"><b>Forensic Science:</b>includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p>
+                                <p class="p-0 m-0"><b>Forensic Science:</b> Includes Questioned Documents, Fingerprints, Forensic chemistry, a mock crime scene, an in-house mortuary (University) and a digital forensics lab.</p>
                             </li>
                         </ul>
                         <br/>
@@ -258,8 +277,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                 </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -375,9 +393,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -398,7 +416,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
 
@@ -582,7 +600,7 @@
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why TMU’s College of Paramedical Sciences is the Best Choice for You <span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <h3 class="tmu-text-primary mb-0 fs-16"><span>NAAC-A Accredited and Recognised by UGC and </span><span> UP State Medical Faculty</span></h3>
         <p class="text-justify">The College of Paramedical Sciences at TMU boasts prestigious accreditations and recognitions, ensuring that your education meets the highest standards set by regulatory bodies.</p>
 
@@ -617,12 +635,12 @@
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
 
-    <button class="careers-accordion">Paramedical Courses offered in TMU<span class="icon">+</span></button>
+    <button class="careers-accordion">Paramedical Programmes offered in TMU<span class="icon">+</span></button>
     <div class="panel">
         <ul class="m-ol-list ps-5 mb-1">
             <li><strong>UG</strong> </li>
             <li><strong>PG</strong> </li>
-            <li><strong>Ph.D.</strong> </li>
+            <li><strong>PhD</strong> </li>
         </ul>
     </div>
     <!-- Add the horizontal line here -->
@@ -635,7 +653,7 @@
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3>
         <p class="text-justify">TMU's focus on holistic development ensures that students not only excel academically but also grow personally and professionally.</p>
 
-        <h3 class="tmu-text-primary mb-0 fs-16"><span>Robust Industry Affiliations for </span><span> Invaluable Insights</span></h3>
+        <h3 class="tmu-text-primary mb-0 fs-16"><span>Robust Industry Affiliations for  </span><span> Invaluable Insights</span></h3>
         <p class="text-justify">Affiliations with leading healthcare organisations provide students with invaluable insights into industry practices and trends.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>Gain a Global Edge with </span><span> International Healthcare Internships</span></h3>
@@ -659,10 +677,10 @@
         <p class="text-justify">EMTs provide emergency medical care to patients in critical situations, such as accidents, injuries, or sudden illnesses. They assess patients' conditions, administer necessary treatments, and transport them to medical facilities for further care.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>4. Paramedic</span></h3>
-        <p class="text-justify">Paramedics are advanced EMTs trained to provide more comprehensive medical care in emergency situations. They can administer medications, perform advanced medical procedures, and make critical decisions to stabilise patients before they reach the hospital.</p>
+        <p class="text-justify">Paramedics are advanced EMTs trained to provide more comprehensive medical care in emergencies. They can administer medications, perform advanced medical procedures, and make critical decisions to stabilise patients before they reach the hospital.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>5. Respiratory </span><span> Therapist</span></h3>
-        <p class="text-justify">Respiratory Therapists specialise in treating patients with respiratory disorders, such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. They assess patients' lung function, administer breathing treatments, and provide respiratory care in emergency situations.</p>
+        <p class="text-justify">Respiratory Therapists specialise in treating patients with respiratory disorders, such as asthma, chronic obstructive pulmonary disease (COPD), and pneumonia. They assess patients' lung function, administer breathing treatments, and provide respiratory care in emergencies.</p>
 
         <h3 class="tmu-text-primary mb-0 fs-16"><span>6. Occupational </span><span> Therapy Assistant</span></h3>
         <p class="text-justify">Occupational Therapy Assistants work under the supervision of occupational therapists to help patients develop, recover, and improve the skills needed for daily living and working. They assist patients with therapeutic exercises, activities, and adaptive equipment.</p>
@@ -760,7 +778,7 @@
         <p class="text-justify"><strong>Q4. What sets TMU's faculty apart?</strong></p>
         <p class="text-justify"><strong>Ans:</strong> TMU's faculty members are highly qualified experts in their respective fields, with extensive experience in academia and industry. They are dedicated to providing students with practical knowledge and skills that are essential for success in the paramedical field.</p>
         <p class="text-justify"><strong>Q5. How does TMU foster innovation and entrepreneurship?</strong></p>
-        <p class="text-justify"><strong>Ans:</strong>TMU is committed to fostering innovation and entrepreneurship through its Business Incubation Centre and Entrepreneurship Development Cell. The university provides support and resources to students interested in starting their own ventures, contributing to the nation's journey towards self-reliance. </p>
+        <p class="text-justify"><strong>Ans:</strong> TMU is committed to fostering innovation and entrepreneurship through its Business Incubation Centre and Entrepreneurship Development Cell. The university provides support and resources to students interested in starting their own ventures, contributing to the nation's journey towards self-reliance. </p>
     </div>
     <hr class="horizontal-line">
 </div>

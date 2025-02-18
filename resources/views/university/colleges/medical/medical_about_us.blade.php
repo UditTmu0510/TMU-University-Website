@@ -3,19 +3,20 @@
 
 <div class="main-content">
     <div class="container">
-        <div class="banner text-white text-center p-4 rounded"
-            style="height: 20vh; background-color: #001055;">
-            <h2 style="color: #fff; padding:1.5rem;">College Overview</h2>
+        <div class="banner text-white text-center p-4 rounded d-flex justify-content-center" style="height: 16vh; background-color: #001055;">
+            <div class="d-flex align-items-center">
+                <h2 class="text-white m-0">College Overview</h2>
+            </div>
         </div>
 
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to Teerthanker Mahaveer Medical College & </span><span> Research Centre</span></h1>
-                    <p class="about-p mb-4">Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 100 MBBS students, which has been increased to 150 from the Academic Session 2014-15.</p>
+                    <p class="about-p mb-4">Teerthanker Mahaveer Medical College & Research Centre was established in year 2008 with the approval of the Ministry of Health and Family Welfare for an admission intake of 150 MBBS students, which has been increased to 250 from the Academic Session 2024-25.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('assets/img/medical/about/about_us.jpg')}}" alt="Learning and Teaching">
+                    <img src="{{asset('/assets/img/banner/medical/about_us.jpg')}}" alt="Learning and Teaching">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">It conducts Post Graduate degrees <span class="highlight">(MD/MS) in Pre-Clinical subjects (Anatomy, Physiology, Biochemistry), Para-clinical subjects (Pathology, Microbiology, Pharmacology, Forensic Sciences) and Clinical subjects (Community Medicine, General Medicine, Psychiatry, Dermatology, Respiratory Medicine, Paediatrics, General Surgery, Orthopaedics, Otorhinolaryngology (ENT), Ophthalmology, Obstetrics & Gynaecology, Anaesthesia, and Radio-diagnosis)</span> with an intake of 126 seats approved by the Medical Council of India.</p>

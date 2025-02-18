@@ -128,7 +128,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">TMIMT College of Phycical Education </h1>
+                <h1 class="college-main-heading">TMIMT College of Physical Education </h1>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p class="m-0 p-0"><b>Sports can deliver you a successful career.</b></p>
@@ -162,9 +162,9 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li>Follow the Outcome-based education and Psycho-motor skills.</li>
+                        <li>Follow Outcome-based education and Psycho-motor skills..</li>
                         <li>Qualified, committed and competent educators to shape the personalities of teacher trainees into successful professionals.</li>
-                        <li>The College has spacious, furnished classrooms, Classrooms with ICT facilities, contemporary laboratories, a library etc. with modern equipment for learning and research purposes.</li>
+                        <li>The college has spacious, furnished classrooms with ICT facilities, contemporary laboratories, a library, and modern equipment for learning and research purposes.</li>
                     </ul>
                     <div class="read-more-content">
                         <ul class="m-ol-list ps-4">
@@ -188,7 +188,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</h3>
-                    <p>TMIMT College of Physical Education ensures a good academic journey follows an Outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality. </p>
+                    <p>TMIMT College of Physical Education ensures a good academic journey that follows an outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through a feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality. </p>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>

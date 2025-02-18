@@ -37,6 +37,16 @@ use App\Http\Controllers\PhysicaleducationController;
 use App\Http\Controllers\PhysiotherapyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JainStudiesController;
+use App\Http\Controllers\JobformController;
+use App\Http\Controllers\TeachersfeedbackController;
+use App\Http\Controllers\AlumnifeedbackController;
+use App\Http\Controllers\EmployerFeedbackController;
+use App\Http\Controllers\JobOpeningController;
+use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\NavbarJsonController;
+use App\Http\Controllers\ManuscriptFormController;
+use App\Http\Controllers\AttendanceController;
+use App\Http\Controllers\GitWebhookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,29 +63,51 @@ use App\Http\Controllers\JainStudiesController;
 //     return view('welcome');
 // });
 
+
+// Route to connect with github and pull code from there
+Route::post('/git-webhook', [GitWebhookController::class, 'handle']);
+
+// Route to fetch navbar data for outside json(GET request)
+Route::post('/navbar-items', [NavbarJsonController::class, 'getNavbarItems']); 
+// Route to update navbar data (POST request) - Accepts modified JSON data
+Route::post('/navbar-items/update', [NavbarJsonController::class, 'update']); 
+                         
+// Route to fetch Inner Json for navbar 
+Route::post('/university-inner-navbar', [NavbarJsonController::class, 'getNavbarInnerItems']);
+
+// Route to update the Inner Json for navbar 
+Route::post('/university-inner-navbar/update', [NavbarJsonController::class, 'updateInner']);
+
+
+// Route to fetch the University admin panel page
+Route::get('/navbar-admin/{college}', function ($college) {
+    // Pass the college name to the view
+    return view('/university/admin/navbar_admin', compact('college'));
+});
+
 Route::get('centre-of-jain-studies', [JainStudiesController::class, 'jain_studies_home'])->name('jain.studies.home');
 
-Route::get('/clear-cache', function() {
+Route::get('/clear-cache', function () {
     Artisan::call('cache:clear');
     return 'Application cache cleared';
 });
 
-Route::get('/clear-config', function() {
+Route::get('/clear-config', function () {
     Artisan::call('config:clear');
     return 'Configuration cache cleared';
 });
 
-Route::get('/clear-route', function() {
+Route::get('/clear-route', function () {
     Artisan::call('route:clear');
     return 'Route cache cleared';
 });
 
-Route::get('/clear-view', function() {
+Route::get('/clear-view', function () {
     Artisan::call('view:clear');
     return 'View cache cleared';
 });
 
-Route::get('/clear-event', function() {
+Route::get('/clear-event', function () {
     Artisan::call('event:clear');
     return 'Event cache cleared';
 });
@@ -89,8 +121,8 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 
 
 Route::get('/', [TmuController::class, 'index'])->name('tmuhome');
-Route::post('/programmes/fetch-programs',[TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
-Route::post('/programmes/fetch-programs-bylevel',[TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
+Route::post('/programmes/fetch-programs', [TmuController::class, 'fetch_programmes'])->name('fetch_programme_by_college_id');
+Route::post('/programmes/fetch-programs-bylevel', [TmuController::class, 'fetch_programmes_by_level'])->name('fetch_programmes_by_level');
 Route::get('/filter-news', [NewsController::class, 'filterNews'])->name('filter-news');
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -103,18 +135,21 @@ Route::get('news/{slug}', [NewsController::class, 'news_info']);
 Route::get('programme/{slug}', [TmuController::class, 'programme']);
 Route::get('/news', [NewsController::class, 'all_news'])->name('all_news');
 Route::post('/news', [NewsController::class, 'all_news'])->name('all_news.post');
+Route::get('/blog/all', [BlogsController::class, 'blogs_active'])->name('blogs.active');
 Route::get('/blog/{slug}', [BlogsController::class, 'blog_info'])->name('blog_info');;
+Route::get('/blog/category/{category}', [BlogsController::class, 'blogs_Category'])->name('blogs.category');
 Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
-require __DIR__.'/auth.php';
+Route::post('/blog/{id}/comments', [BlogsController::class, 'submitComment'])->name('blog.comments');
+require __DIR__ . '/auth.php';
 
 // Instructor  Group Middleware Starts
 
-Route::middleware(['auth','roles:instructor'])->group(function(){
-    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');   
+Route::middleware(['auth', 'roles:instructor'])->group(function () {
+    Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
 });
 
-Route::post('/search/',[App\Http\Controllers\MetasController::class,'search'])->name('search');
+Route::post('/search/', [App\Http\Controllers\MetasController::class, 'search'])->name('search');
 Route::post('/getacademicyears', [App\Http\Controllers\Backend\SyllabusController::class, 'getAcademicYears'])->name('getacademicyears');
 Route::post('/getsyllabus', [App\Http\Controllers\Backend\SyllabusController::class, 'getSyllabuses'])->name('getsyllabuses');
 Route::post('/search_blog_slug', [BlogsController::class, 'searchBlogSlug'])->name('search_blog_slug');
@@ -144,12 +179,20 @@ Route::get('/tmu/chancellor', [TmuController::class, 'chancellor_desk'])->name('
 Route::get('/tmu/founder-vicechancellor', [TmuController::class, 'founder_vice_chancellor_desk'])->name('founder.vice.chancellor.desk');
 Route::get('/tmu/vicechancellor', [TmuController::class, 'vice_chancellor_desk'])->name('vice.chancellor.desk');
 Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.careers');
+Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
+Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
+
+Route::post('/get-departments', [JobformController::class, 'getDepartments'])->name('get.departments');
+Route::post('/get-designations', [JobformController::class, 'getDesignations'])->name('get.designations');
+
+
 
 // IIC
 
 Route::get('/innovation-startup', [TmuController::class, 'iic_home'])->name('iic.home');
 Route::get('/innovation-startup/about-cell', [TmuController::class, 'iic_about_cell'])->name('iic.cell.about');
 Route::get('/tmu/why-tmu', [TmuController::class, 'why_choose_tmu'])->name('tmu.why_tmu');
+Route::get('/tmu/virtual-tour', [TmuController::class, 'virtual_tour'])->name('tmu.virtual_tour');
 Route::get('/innovation-startup/policy', [TmuController::class, 'iic_policy'])->name('iic.policy');
 Route::get('innovation-startup/iic-research-policy', [TmuController::class, 'iic_research_policy'])->name('iic.research.policy');
 Route::get('/innovation-startup/committee', [TmuController::class, 'iic_committee'])->name('iic.committee');
@@ -173,6 +216,7 @@ Route::get('/nss-volunteers', [TmuController::class, 'nss_volunteers'])->name('n
 Route::get('/nss-international-day', [TmuController::class, 'nss_internationalday'])->name('nss.internationalday');
 Route::get('/nss-events', [TmuController::class, 'nss_events'])->name('nss.events');
 Route::get('/nss-contactus', [TmuController::class, 'nss_contactus'])->name('nss.contactus');
+Route::get('/nss-coordinator-desk', [TmuController::class, 'nss_coordinator'])->name('nss.coordinator');
 
 // NEP
 
@@ -187,6 +231,7 @@ Route::get('/tmu/nep-immplementation-committee', [TmuController::class, 'nep_imp
 // CTLD
 Route::get('/tmu/centre-for-teaching-learning-and-development', [TmuController::class, 'ctld_home'])->name('ctld.home');
 Route::get('/tmu/about-ctld', [TmuController::class, 'ctld_about'])->name('ctld.about');
+Route::get('/tmu/benefits-of-ctld', [TmuController::class, 'ctld_benefits'])->name('ctld.benefits');
 Route::get('/tmu/ctld-aims-and-objective', [TmuController::class, 'ctld_aims_and_objectives'])->name('ctld.aims.and.objectives');
 Route::get('/tmu/ctld-director-desk', [TmuController::class, 'ctld_director_desk'])->name('ctld.director.desk');
 Route::get('/tmu/ctld-our-team', [TmuController::class, 'ctld_team'])->name('ctld.team');
@@ -209,6 +254,20 @@ Route::get('/tmu/iqac-cell/university-academic-calendars', [TmuController::class
 Route::get('/tmu/iqac-cell/student-feedback', [TmuController::class, 'iqac_student_feedback'])->name('iqac.student.feedback');
 Route::get('/tmu/policies-sops', [TmuController::class, 'iqac_policies_and_sops'])->name('iqac.policies.and.sops');
 Route::get('/tmu/iqac-cell/contact-us', [TmuController::class, 'iqac_contact_us'])->name('iqac.contact.us');
+Route::get('/tmu/iqac-cell/feedback-report', [TmuController::class, 'iqac_feedback_report'])->name('iqac.feedback.report');
+
+Route::get('/tmu/iqac-cell/teachers-feedback-form', [TeachersfeedbackController::class, 'createTeachersFeedbackForm'])->name('teachers.feedback.form');
+Route::post('/tmu/iqac-cell/submit-teachers-feedback-form', [TeachersfeedbackController::class, 'storeFeedback'])->name('store.teachers.Feedback');
+
+
+Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::class, 'createAlumniFeedbackForm'])->name('alumni.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
+
+
+
+
+Route::get('/tmu/iqac-cell/employer-feedback-form', [EmployerFeedbackController::class, 'createEmployerFeedbackForm'])->name('employer.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-employer-feedback-form', [EmployerFeedbackController::class, 'storeFeedback'])->name('store.employer.feedback.form');
 
 
 // NAAC
@@ -236,13 +295,25 @@ Route::get('/tmu/iqac-cell/institutional-values/commemorative-days', [TmuControl
 
 // QUICK_LINKS
 Route::get('/tmu/disciplinary-rules', [TmuController::class, 'disciplinary_rules'])->name('disciplinary.rules');
+Route::get('/tmu/industry-academic-alliances', [TmuController::class, 'industry_academic_alliances'])->name('industry.academic.alliances');
 Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_sports_calendar'])->name('university.sports.calendar');
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
 Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
+Route::get('/tmu/admission-rules', [TmuController::class, 'admission_rules'])->name('admission.rules');
+Route::get('/tmu/prominent-guests-comment', [TmuController::class, 'prominent_guests_comment'])->name('prominent.guests.comment');
+
+Route::get('/tmu/disclaimer', [TmuController::class, 'tmu_disclaimer'])->name('tmu.disclaimer');
+Route::get('/tmu/privacy-policy', [TmuController::class, 'tmu_privacy_policy'])->name('tmu.privacy.policy');
+
+Route::get('/media-coverage', [TmuController::class, 'media_cover'])->name('tmu.media.cover');
+
 Route::get('/tmu/convocation', [TmuController::class, 'tmu_convocation'])->name('tmu.convocation');
+
+
 Route::get('/tmu/publication', [TmuController::class, 'tmu_publication'])->name('tmu.publication');
 Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu.transport');
+Route::get('/tmu/infrastructure', [TmuController::class, 'infrastructure'])->name('infrastructure');
 
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
@@ -251,7 +322,9 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
-Route::get('/tmu/library', [TmuController::class, 'library'])->name('library');
+Route::get('/library', [TmuController::class, 'library'])->name('library');
+Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
+Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
 Route::get('/tmu/application-form', [TmuController::class, 'application_form'])->name('application.form');
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
@@ -266,7 +339,34 @@ Route::get('/tmu/gym', [TmuController::class, 'gym'])->name('gym');
 Route::get('/tmu/scholarship', [TmuController::class, 'university_scholarship'])->name('tmu.scholarship');
 Route::get('/tmu/education-loan', [TmuController::class, 'university_education_loan'])->name('tmu.loan');
 
+//Teaching Facilities
+Route::get('/tmu/teaching-facility', [TmuController::class, 'teaching_facility'])->name('teaching.facility');
+Route::get('/tmu/central-instrumental-facilities', [TmuController::class, 'central_instrument_facility'])->name('central.instrument.facility');
+Route::get('/tmu/simulation-lab', [TmuController::class, 'simulation_lab'])->name('simulation.lab');
+Route::get('/tmu/skill-lab', [TmuController::class, 'skill_lab'])->name('skill.lab');
+Route::get('/tmu/media-laboratory-studio', [TmuController::class, 'media_laboratory_studio'])->name('media.laboratory.studio');
+Route::get('/tmu/museum', [TmuController::class, 'museum'])->name('museum');
+Route::get('/tmu/business-lab', [TmuController::class, 'business_lab'])->name('business.lab');
+Route::get('/tmu/animal-house', [TmuController::class, 'animal_house'])->name('animal.house');
+Route::get('/tmimt-college-of-management/eresources-studio-lab', [TmuController::class, 'eresources_studio_lab'])->name('eresources.studio.lab');
+Route::get('/tmimt-college-of-management/business-lab', [TmuController::class, 'tmimt_business_lab'])->name('tmimt.business.lab');
+Route::get('/tmu/dst-nanotechnology-lab', [TmuController::class, 'dst_nanotechnology_lab'])->name('dst.nanotechnology.lab');
 
+//classroom
+Route::get('/tmu/teaching-facility/class-room/medical', [TmuController::class, 'class_room_medical'])->name('class.room.medical');
+Route::get('/tmu/teaching-facility/class-room/nursing', [TmuController::class, 'class_room_nursing'])->name('class.room.nursing');
+Route::get('/tmu/teaching-facility/class-room/paramedical', [TmuController::class, 'class_room_paramedical'])->name('class.room.paramedical');
+Route::get('/tmu/teaching-facility/class-room/physicaleducation', [TmuController::class, 'class_room_physicaleducation'])->name('class.room.physicaleducation');
+Route::get('/tmu/teaching-facility/class-room/physiotherapy', [TmuController::class, 'class_room_physiotherapy'])->name('class.room.physiotherapy');
+Route::get('/tmu/teaching-facility/class-room/pharmacy', [TmuController::class, 'class_room_pharmacy'])->name('class.room.pharmacy');
+Route::get('/tmu/teaching-facility/class-room/education', [TmuController::class, 'class_room_education'])->name('class.room.education');
+Route::get('/tmu/teaching-facility/class-room/agriculture', [TmuController::class, 'class_room_agriculture'])->name('class.room.agriculture');
+Route::get('/tmu/teaching-facility/class-room/finearts', [TmuController::class, 'class_room_finearts'])->name('class.room.finearts');
+Route::get('/tmu/teaching-facility/class-room/management', [TmuController::class, 'class_room_management'])->name('class.room.management');
+Route::get('/tmu/teaching-facility/class-room/ccsit', [TmuController::class, 'class_room_ccsit'])->name('class.room.ccsit');
+Route::get('/tmu/teaching-facility/class-room/engineering', [TmuController::class, 'class_room_engineering'])->name('class.room.engineering');
+Route::get('/tmu/teaching-facility/class-room/dental', [TmuController::class, 'class_room_dental'])->name('class.room.dental');
+Route::get('/tmu/teaching-facility/class-room/law', [TmuController::class, 'class_room_law'])->name('class.room.law');
 
 
 // RDC_QUICK_LINKS
@@ -293,6 +393,7 @@ Route::get('/tmu/phd-ordinance', [TmuController::class, 'phd_ordinance'])->name(
 Route::get('/tmu/phd-intake', [TmuController::class, 'phd_intake'])->name('phd.intake');
 Route::get('/tmu/research-scholar', [TmuController::class, 'research_scholar'])->name('research.scholar');
 Route::get('/tmu/syllabus-course-work', [TmuController::class, 'syllabus_course_work'])->name('syllabus.course.work');
+Route::get('/tmu/syllabi-for-discipline-specific-courses', [TmuController::class, 'syllabi_for_discipline'])->name('syllabi.for.discipline');
 Route::get('/tmu/phd-faq', [TmuController::class, 'phd_faq'])->name('phd.faq');
 Route::get('/tmu/phd-admission-notice', [TmuController::class, 'phd_admission_notice'])->name('phd.admission.notice');
 Route::get('/tmu/phd-process', [TmuController::class, 'phd_process'])->name('phd.process');
@@ -371,7 +472,7 @@ Route::get('/college-of-fine-arts/iqac', [FineartsController::class, 'fine_arts_
 Route::get('/faculty-of-engineering', [EngineeringController::class, 'index'])->name('engineering.home');
 Route::get('/faculty-of-engineering/about-us', [EngineeringController::class, 'engineering_about_us'])->name('engineering.about.us');
 Route::get('/faculty-of-engineering/college-highlight', [EngineeringController::class, 'engineering_highlights'])->name('engineering.highlights');
-Route::get('/faculty-of-engineering/director', [EngineeringController::class, 'engineering_principal'])->name('engineering.principal');
+Route::get('/faculty-of-engineering/director', [EngineeringController::class, 'engineering_principal'])->name('engineering.dean');
 Route::get('/faculty-of-engineering/academic-calendar', [EngineeringController::class, 'engineering_academic_calednar'])->name('engineering.academic.calednar');
 Route::get('/faculty-of-engineering/nba', [EngineeringController::class, 'engineering_nba'])->name('engineering.nba');
 Route::get('/faculty-of-engineering/corporate-advisory-board', [EngineeringController::class, 'engineering_corporate_advisory_board'])->name('engineering.corporate.advisory.board');
@@ -387,6 +488,7 @@ Route::get('/faculty-of-engineering/contact-us', [EngineeringController::class, 
 Route::get('/faculty-of-engineering/foe-college-gallery', [EngineeringController::class, 'engineering_gallery'])->name('engineering.gallery');
 Route::get('/faculty-of-engineering/iqac', [EngineeringController::class, 'engineering_iqac'])->name('engineering.iqac');
 Route::get('/faculty-of-engineering/syllabus', [EngineeringController::class, 'engineering_syllabus'])->name('engineering.syllabus');
+Route::get('/faculty-of-engineering/e-content', [EngineeringController::class, 'engineering_e_content'])->name('engineering.e.content');
 // Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 
 
@@ -411,6 +513,7 @@ Route::get('/college-of-computing-sciences-and-it/event-magazine', [CcsitControl
 Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitController::class, 'ccsit_guest_lecture'])->name('ccsit.guest.lecture');
 Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
 Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
+Route::get('/college-of-computing-sciences-and-it/iqac', [CcsitController::class, 'ccsit_iqac'])->name('ccsit.iqac');
 
 
 
@@ -430,8 +533,9 @@ Route::get('/medical-college-and-research-centre/department', [MedicalController
 Route::get('/medical-college-and-research-centre/foundation-course', [MedicalController::class, 'medical_foundation'])->name('medical.foundation');
 Route::get('/medical-college-and-research-centre/learning-objective', [MedicalController::class, 'medical_learning'])->name('medical.learning');
 Route::get('/medical-college-and-research-centre/academic-calendar', [MedicalController::class, 'medical_academic_calendar'])->name('medical.academic.calendar');
-Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
+// Route::get('/medical-college-and-research-centre/aebas-attendance', [MedicalController::class, 'medical_aebas_attendance'])->name('medical.aebas.attendance');
 Route::get('/medical-college-and-research-centre/stipend', [MedicalController::class, 'medical_stipend'])->name('medical.stipend');
+Route::get('/medical-college-and-research-centre/result', [MedicalController::class, 'medical_result'])->name('medical.result');
 Route::get('/medical-college-and-research-centre/student-details', [MedicalController::class, 'medical_students_details'])->name('medical.students.details');
 Route::get('/medical-college-and-research-centre/time-table', [MedicalController::class, 'medical_timetable'])->name('medical.timetable');
 Route::get('/medical-college-and-research-centre/teaching-schedule', [MedicalController::class, 'medical_tecahing'])->name('medical.tecahing');
@@ -542,6 +646,18 @@ Route::get('/college-of-pharmacy/gallery', [PharmacyController::class, 'pharmacy
 Route::get('/college-of-pharmacy/contact-us', [PharmacyController::class, 'pharmacy_contact_us'])->name('pharmacy.contact.us');
 Route::get('/college-of-pharmacy/college-advisory-board', [PharmacyController::class, 'pharmacy_college_advisory_board'])->name('pharmacy.college.advisory.board');
 Route::get('/college-of-pharmacy/iqac', [PharmacyController::class, 'pharmacy_iqac'])->name('pharmacy.iqac');
+Route::get('/college-of-pharmacy/tjpbs/about-us', [PharmacyController::class, 'about_tjpbs'])->name('about.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/policies', [PharmacyController::class, 'tjpbs_policies'])->name('tjpbs.policies');
+Route::get('/college-of-pharmacy/tjpbs/editorial-board', [PharmacyController::class, 'tjpbs_editorial_board'])->name('tjpbs.editorial.board');
+Route::get('/college-of-pharmacy/tjpbs/reviewer-board', [PharmacyController::class, 'tjpbs_reviewer_board'])->name('tjpbs.reviewer.board');
+Route::get('/college-of-pharmacy/tjpbs/publication-ethics', [PharmacyController::class, 'tjpbs_publication_ethics'])->name('tjpbs.publication.ethics');
+Route::get('/college-of-pharmacy/tjpbs/authors-guidelines', [PharmacyController::class, 'tjpbs_authors_guidelines'])->name('tjpbs.authors.guidelines');
+Route::get('/college-of-pharmacy/tjpbs/indexing', [PharmacyController::class, 'tjpbs_indexing'])->name('tjpbs.indexing');
+Route::get('/college-of-pharmacy/tjpbs/current-issues', [PharmacyController::class, 'tjpbs_current_issues'])->name('tjpbs.current.issues');
+Route::get('/college-of-pharmacy/tjpbs/archives', [PharmacyController::class, 'tjpbs_archives'])->name('tjpbs.archives');
+Route::get('/college-of-pharmacy/tjpbs/manuscript-submission', [PharmacyController::class, 'manuscript_form_tjpbs'])->name('manuscript.form.tjpbs');
+Route::get('/college-of-pharmacy/tjpbs/contact-us', [PharmacyController::class, 'tjpbs_contact_us'])->name('tjpbs.contact.us');
+Route::POST('/manuscript-form', [ManuscriptFormController::class, 'store'])->name('manuscript_form.store');
 
 
 // Paramedical
@@ -616,12 +732,19 @@ Route::get('/college-of-nursing/about-us', [NursingController::class, 'nursing_o
 Route::get('/college-of-nursing/department/paediatric-nursing', [NursingController::class, 'nursing_paediatric'])->name('nursing.paediatric');
 Route::get('/college-of-nursing/placement-calendar', [NursingController::class, 'nursing_placement_calendar'])->name('nursing.placement.calendar');
 Route::get('/college-of-nursing/placement-news', [NursingController::class, 'nursing_placement_news'])->name('nursing.placement.news');
-Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_principal'])->name('nursing.principal');
+// Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_principal'])->name('nursing.principal');
 Route::get('/college-of-nursing/department/psychiatric-nursing', [NursingController::class, 'nursing_psychiatric'])->name('nursing.psychiatric');
 Route::get('/college-of-nursing/syllabus', [NursingController::class, 'nursing_syllabus'])->name('nursing.syllabus');
 Route::get('/college-of-nursing/time-table', [NursingController::class, 'nursing_timetable'])->name('nursing.timetable');
 Route::get('/college-of-nursing/training-placement-cell', [NursingController::class, 'nursing_tpc'])->name('nursing.tpc');
-Route::get('/college-of-nursing/vice-principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
+Route::get('/college-of-nursing/principal', [NursingController::class, 'nursing_viceprincipal'])->name('nursing.viceprincipal');
+Route::get('/college-of-nursing/ijih/about-us', [NursingController::class, 'ijih_aboutus'])->name('ijih.aboutus');
+Route::get('/college-of-nursing/ijih/editorial-board', [NursingController::class, 'ijih_edi_board'])->name('ijih.edi.board');
+Route::get('/college-of-nursing/ijih/guidelines-and-ethics', [NursingController::class, 'ijih_guide_ethics'])->name('ijih.guide.ethics');
+Route::get('/college-of-nursing/ijih/submission-process', [NursingController::class, 'ijih_submission_process'])->name('ijih.submission.process');
+Route::get('/college-of-nursing/ijih/archives', [NursingController::class, 'ijih_archives'])->name('ijih.archives');
+Route::get('/college-of-nursing/ijih/current-issue', [NursingController::class, 'ijih_current_issue'])->name('ijih.current_issue');
+Route::get('/college-of-nursing/ijih/manuscript-form-submission', [NursingController::class, 'ijih_manuscript_submission'])->name('ijih.manuscript.submission');
 
 // Law
 Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');
@@ -631,7 +754,7 @@ Route::get('/college-of-law-and-legal-studies/anti-ragging-committee', [LawContr
 Route::get('/college-of-law-and-legal-studies/college-highlight', [LawController::class, 'law_college_highlight'])->name('law.college.highlight');
 Route::get('/college-of-law-and-legal-studies/contact-us', [LawController::class, 'law_contact_us'])->name('law.contact.us');
 Route::get('/college-of-law-and-legal-studies/gallery', [LawController::class, 'law_gallery'])->name('law.gallery');
-Route::get('/college-of-law-and-legal-studies/guest-lecture', [LawController::class, 'law_time_table'])->name('law.time.table');
+Route::get('/college-of-law-and-legal-studies/time-table', [LawController::class, 'law_time_table'])->name('law.time.table');
 Route::get('/college-of-law-and-legal-studies/iqac', [LawController::class, 'law_iqac'])->name('law.iqac');
 Route::get('/college-of-law-and-legal-studies/syllabus', [LawController::class, 'law_syllabus'])->name('law.syllabus');
 Route::get('/college-of-law-and-legal-studies/principal', [LawController::class, 'law_principal'])->name('law.principal');
@@ -651,6 +774,7 @@ Route::get('/tmimt-college-of-physical-education/iqac', [PhysicaleducationContro
 Route::get('/tmimt-college-of-physical-education/syllabus', [PhysicaleducationController::class, 'physical_education_syllabus'])->name('physical.education.syllabus');
 Route::get('/tmimt-college-of-physical-education/principal', [PhysicaleducationController::class, 'physical_education_principal'])->name('physical.education.principal');
 Route::get('/tmimt-college-of-physical-education/time-table', [PhysicaleducationController::class, 'physical_education_timetable'])->name('physical.education.timetable');
+Route::get('/tmimt-college-of-physical-education/study-material', [PhysicaleducationController::class, 'physical_education_study_material'])->name('physical.education.study.material');
 
 
 // CRC Placement
@@ -664,6 +788,7 @@ Route::get('/tmu/our-recruiters', [TmuController::class, 'our_recruiters'])->nam
 Route::get('/tmu/industrial-collaborations', [TmuController::class, 'crc_collaboration'])->name('crc.collaboration');
 Route::get('/tmu/corporate-testimonials', [TmuController::class, 'crc_corporate_testi'])->name('crc.corporate.testi');
 Route::get('/tmu/student-testimonials', [TmuController::class, 'crc_student_testi'])->name('crc.student.testi');
+Route::get('/tmu/industrial-visits', [TmuController::class, 'crc_industry_visits'])->name('crc.industry.visits');
 
 //Alumni
 Route::get('/alumni', [TmuController::class, 'alumni_home'])->name('alumni.home');
@@ -677,4 +802,36 @@ Route::get('/alumni/gallery', [TmuController::class, 'alumni_gallery'])->name('a
 Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.faq');
 Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
 
-// End of the Sarvagya ROutes
+
+Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
+
+// pupil_academic_achievements
+Route::get('tmu/pupil-academic-achievements', [TmuController::class, 'pupil_academic_achievements'])->name('pupil.academic.achievements');
+Route::get('tmu/student-awards-achievements', [TmuController::class, 'student_awards_achievements'])->name('student.awards.achievements');
+
+
+// Campus Gallery
+Route::get('tmu/tmu-gallery', [TmuController::class, 'campus_gallery'])->name('campus.gallery');
+
+
+// seed_money_grant_scheme
+Route::get('tmu/policies-sops/seed-money-grant-scheme', [TmuController::class, 'seed_money_grant_scheme'])->name('seed.money.grant.scheme');
+
+
+
+// research_statistical_database
+Route::get('/tmu/research-statistical-database', [TmuController::class, 'research_statistical_database'])->name('research.statistical.database');
+
+
+// tmu_moot_court
+Route::get('/tmu/moot-court', [TmuController::class, 'tmu_moot_court'])->name('tmu.moot.court');
+
+
+
+
+// End of the Sarvagya Routes
+
+//thisnis comment 
+Route::get('/medical-college-and-research-centre/aebas-attendance', [AttendanceController::class, 'index'])->name('medical.aebas.attendance');
+Route::get('/api/attendance', [AttendanceController::class, 'getActiveDates'])->name('attendance.active-dates');
+Route::get('/attendance/download/{id}', [AttendanceController::class, 'downloadPdf'])->name('attendance.download');

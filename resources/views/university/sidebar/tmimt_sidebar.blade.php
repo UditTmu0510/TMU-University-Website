@@ -5,14 +5,20 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('tmimt.home') }}" class="custom-menu-item {{ setActive('tmimt.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('mgmt.overview') }}" class="custom-menu-item {{ setActive('mgmt.overview') }}">
                 <p>Overview</p>
             </a>
             <a href="{{ route('mgmt.highlight') }}" class="custom-menu-item {{ setActive('mgmt.highlight') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('mgmt.principal') }}" class="custom-menu-item {{ setActive('mgmt.principal') }}">
-                <p>Principal's Desk</p>
+                <p>Dean's Desk</p>
+            </a>
+            <a href="{{ route('mgmt.gallery') }}" class="custom-menu-item {{ setActive('mgmt.gallery') }}">
+                <p>Gallery</p>
             </a>
         </div>
         <h2>Academics</h2>
@@ -46,7 +52,7 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{ route('mgmt.timetable') }}" class="custom-menu-item {{ setActive('mgmt.timetable') }}">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>

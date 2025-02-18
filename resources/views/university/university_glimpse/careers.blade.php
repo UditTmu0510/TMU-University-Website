@@ -7,7 +7,7 @@
 <!-- Banner Code start -->
 <section>
     <div class="container-fluid px-0">
-    <img src="/assets/img/banner/111.webp" alt="Image 1">
+        <img src="/assets/img/banner/111.webp" alt="Image 1">
     </div>
 </section>
 <!-- Banner Code end -->
@@ -15,97 +15,68 @@
 
 
 <div class="container hh1">
-    <h2 Class="tmu-text-primary text-center mb-5"><span>JOB </span><span> OPENINGS</span></h2>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card-body">
-                <h5 class="card-title-job mb-3">ACADEMIC JOB OPENINGS</h5>
-                <!-- <p class="card-text">This is a primary button with a modern design.</p> -->
-                <hr class="horizontal-line">
-                    <button class="careers-accordion">We Are Hiring Associate Dean (Academics)<span
-                            class="icon">+</span></button>
+    <h1 Class="tmu-text-primary tmu-page-heading text-center mb-5"><span>JOB </span><span> OPENINGS</span></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title-job mb-3">ACADEMIC JOB OPENINGS</h5>
+                    <hr class="horizontal-line">
+                    @foreach ($academicJobs as $job)
+                    <button class="careers-accordion">{{ $job->title }}<span class="icon">+</span></button>
                     <div class="panel">
-                         <h3 class="tmu-text-primary"><span>KEY </span><span> RESPONSIBILITIES:</span></h3>
-                            <ol class="m-ol-list ps-5 mb-3">
-                                <li>Monitoring all academic activities with precision and record management.</li>
-                                <li>Serve as a bridge between students, faculty, and administration.</li>
-                                <li>Implement effective systems for continuous assessment and evaluation.</li>
-                                <li>Contribute to the development of academic policies to improve accreditation & ranking framework. Suggest and upgrade the existing programme, structure, course content, etc.</li>
-                                <li>In alignment with NEP-2020.</li>
-                                <li>Regular monitoring and effective conduct of classes by teaching faculty.</li>
-                                <li>Students' Feedback - collection, analysis and proper action to be taken thereof.</li>
-                                <li> Encourage Industry- Institution Partnership Programs to facilitate Industrial collaborations, training and MoUs with various Research Institutes, Universities and Centre of Excellence in India and Abroad.</li>
-                                <!-- <li>VACANCY</li> -->
-                                <li>Lead improvement in technology enabled learning and suggest innovative pedagogical tools & techniques.</li>
-                             </ol>
-                        <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"><a href="https://www.tmu.ac.in/assets/img/associate_dean_academics.jpeg" target="blank">Read More</a></button>
+                    <h3 class="tmu-text-primary"><span>Job </span><span> Description:</span></h3>
+                    <p>{{ $job->description }}</p>
+                    <h3 class="tmu-text-primary"><span>Responsibilities :</span></h3>
+                    <p>{{ $job->responsibilities }}</p>
+                    <h3 class="tmu-text-primary"><span>Requirements:</span></h3>
+                    <p>{{ $job->requirements }}</p>
+                        
+                        <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                            <a href="{{ $job->img_path }}" target="blank">Read More</a>
+                        </button>
                         <br>
                     </div>
                     <hr class="horizontal-line">
+                    @endforeach
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 mt-5 mt-md-0">
-            <div class="card-body">
-                <h5 class="card-title-job mb-3 ">ADMINISTRATION JOB OPENINGS</h5>
-                <!-- <p class="card-text">This is a primary button with a modern design.</p> -->
-                <hr class="horizontal-line">
-
-                    <button class="careers-accordion">We Are Hiring Frontend Developer<span
-                            class="icon">+</span></button>
-                    <div class="panel">
-                        <h3 class="tmu-text-primary"><span>Job </span><span> Description:</span></h3>
-                        <ul class="m-ol-list ps-5 mb-4">
-                            <li>Determining the structure and design of web pages.</li>
-                            <li>Developing features to enhance the user experience.</li>
-                            <li>Ensuring web design is optimized for smartphones.</li>
-                            <li>Building reusable code for future use.</li>
-                            <li>Optimizing web pages for maximum speed and scalability.</li>
-                            <li>VACANT Utilizing a variety of mark-up languages to write web pages. Maintaining brand consistency throughout the design.</li>
-                            <li>Develop new user-facing features.</li>
-                            <li>Ensure the technical feasibility of UI/UX designs.</li>
-                            <li>Assure that all user input is validated before submitting to back-end.</li>
-                            <li>Collaborate with other team members and stakeholders.</li>
-                        </ul>
-                        <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"><a href="https://www.tmu.ac.in/assets/img/Requirement_Advt_14-05-24.jpg" target="blank">Read More</a></button>
-                    </div>
-                    <!-- Add the horizontal line here -->
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="card-body">
+                    <h5 class="card-title-job mb-3">ADMINISTRATION JOB OPENINGS</h5>
                     <hr class="horizontal-line">
+                    @foreach ($adminJobs as $job)
+                    <button class="careers-accordion">{{ $job->title }}<span class="icon">+</span></button>
+                    <div class="panel">
+                    <h3 class="tmu-text-primary"><span>Job </span><span> Description:</span></h3>
+                    <p>{{ $job->description }}</p>
+                    <h3 class="tmu-text-primary"><span>Responsibilities :</span></h3>
+                    <p>{{ $job->responsibilities }}</p>
+                    <h3 class="tmu-text-primary"><span>Requirements:</span></h3>
+                    <p>{{ $job->requirements }}</p>
+                        <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                            <a href="{{ $job->img_path }}" target="blank">Read More</a>
+                        </button>
+                    </div>
+                    <hr class="horizontal-line">
+                    @endforeach
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 
 
-<div class="container form-container">
+<div class="container ">
     <div class="row">
-        <div class="col-md-7">
-            <div class="image-container">
-                <img src="/assets/img/job.jpg" class="img-fluid" alt="Image">
-            </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 form-container">
+            <h2 Class="tmu-text-primary text-center  fs-28 mb-0 pb-0"><span>Ready to take </span><span>the next step?</span></h2>
+            <p class="fs-14 mt-0 pt-0 text-center ">Click the button below to upload your resume and complete your application</p>
+            <a href="{{ route('job.form') }}" target="_blank" class="mx-auto tmu-btn btn-1 py-2 d-block w-fit-content mt-3 fade-animation" title="Apply Now">Apply Now</a>
         </div>
-        <div class="col-md-5">
-            <h2 Class="tmu-text-primary text-center"><span>Didn't find </span><span>what you're looking for?</span></h2>
-            <p class="fs-12">Please fill out the form below and upload your CV.</p>
-            <form action="submit_career_form.php" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" class="form-control" id="full-name" name="full-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="cv">Upload CV: </label>
-                    <input type="file" class="form-control-file" id="cv" name="cv" required>
-                </div>
-                <button type="submit" class="tmu-btn btn-1 px-5  py-2">Submit</button>
-            </form>
-        </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 

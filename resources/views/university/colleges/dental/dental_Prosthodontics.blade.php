@@ -10,9 +10,9 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span> Prosthodontics and </span><span>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span> Prosthodontics & </span><span>
                             Crown & Bridge </span></h1>
-                    <p class="about-p mb-4 text-justify">TThe Department of Prosthodontics is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
+                    <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/mds-prosthodontics-crown-bridge') }}">The Department of Prosthodontics</a>  is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
                 <div class="image-content text-center p-4">
                     <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb_banner.jpg')}}" alt="">
@@ -76,7 +76,7 @@
         <div class="container">
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-            <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
+            <!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb1.jpg')}}" alt="Gallery Thumb 1"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb2.jpg')}}" alt="Gallery Thumb 2"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb3.jpg')}}" alt="Gallery Thumb 3"></a>
@@ -87,6 +87,171 @@
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb8.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb8.jpg')}}" alt="Gallery Thumb 5"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb9.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb9.jpg')}}" alt="Gallery Thumb 5"></a>
                 <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pcb/pcb10.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pcb/pcb10.jpg')}}" alt="Gallery Thumb 5"></a>
+            </div> -->
+            <div class="row justify-content-left gutter-30 col-mb-5 mb-5">
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb1.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> Department of Prosthodontics & Crown & Bridge </h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb1.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb2.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> PG Section <br/> &nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb2.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb3.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section <br/> &nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb3.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb4.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb4.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb5.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb5.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb6.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb6.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb7.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">UG Section <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb7.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb8.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">UG Section <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb8.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb9.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">Ceramic & Casting Lab <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb9.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb10.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">Ceramic & Casting Lab <br/> &nbsp;</h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pcb/geotag/pcb10.jpg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
             <div class="row">

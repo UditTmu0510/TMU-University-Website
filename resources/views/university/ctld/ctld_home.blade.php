@@ -77,25 +77,15 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching
-                            Learning and Development</span></h1>
-                    <p class="about-p mb-4">The Centre for Teaching Learning & Development (CTLD) at Teerthanker
-                        Mahaveer University plays a pivotal role in shaping students' holistic development beyond
-                        academics. Recognizing the increasing importance of soft skills, personality traits, and
-                        aptitude, CTLD was established to bridge the gap between academic knowledge and real-world
-                        requirements. </p>
-                    <div class="read-more-content mt-0">
-                        <p class="about-p mb-4">CTLD offers specialized training in quantitative ability, reasoning, verbal
-                        skills, and personality development. These programs empower students to enhance their
-                        communication and social skills, ensuring they are well-prepared to face group discussions (GD),
-                        personal interviews (PI), and other challenges of the corporate world. By nurturing these
-                        essential skills, CTLD helps students excel in their placements and prepares them to thrive in
-                        their future professional environments.
-                        </p>
-                    </div>
-                    <div class="text-center">
-                    <a href="{{route('ctld.about')}}" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2"
-                        title="Read More">Read More</a>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching Learning and Development</span></h1>
+                    <p class="about-p mb-4 text-justify">The Centre for Teaching Learning & Development (CTLD) at Teerthanker Mahaveer University plays a pivotal role in shaping students' holistic development beyond academics. Recognizing the increasing importance of soft skills, personality traits, and aptitude, CTLD was established to bridge the gap between academic knowledge and real-world requirements.</p>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="read-more-content mt-0">
+                            <p class="about-p mb-4 text-justify">CTLD offers specialized training in quantitative ability, reasoning, verbal skills, and personality development. These programs empower students to enhance their communication and social skills, ensuring they are well-prepared to face group discussions (GD), personal interviews (PI), and other challenges of the corporate world. By nurturing these essential skills, CTLD helps students excel in their placements and prepares them to thrive in their future professional environments.</p>
+                        </div>
+
+                        <!-- Flexbox centering the button -->
+                        <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" style="width:fit-content;" title="Read More">Read More</a>
                     </div>
                 </div>
             </div>
@@ -179,26 +169,26 @@
 </div>
 
 <script>
-// $(document).ready(function() {
-//     $('.star-logo-carousel').owlCarousel({
-//         loop: true,
-//         margin: 10,
-//         autoplay: true,
-//         autoplayTimeout: 2000, // Time between slides (2 seconds)
-//         autoplayHoverPause: true,
-//         responsive: {
-//             0: {
-//                 items: 2 // Number of logos on small screens
-//             },
-//             600: {
-//                 items: 3 // Number of logos on medium screens
-//             },
-//             1000: {
-//                 items: 5 // Number of logos on large screens
-//             }
-//         }
-//     });
-// });
+    // $(document).ready(function() {
+    //     $('.star-logo-carousel').owlCarousel({
+    //         loop: true,
+    //         margin: 10,
+    //         autoplay: true,
+    //         autoplayTimeout: 2000, // Time between slides (2 seconds)
+    //         autoplayHoverPause: true,
+    //         responsive: {
+    //             0: {
+    //                 items: 2 // Number of logos on small screens
+    //             },
+    //             600: {
+    //                 items: 3 // Number of logos on medium screens
+    //             },
+    //             1000: {
+    //                 items: 5 // Number of logos on large screens
+    //             }
+    //         }
+    //     });
+    // });
 </script>
 
 @endsection

@@ -61,7 +61,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span class="text-break">principal.ccsit@<br>tmu.ac.in</span>
+                                <span class="text-break">principal.computers@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>

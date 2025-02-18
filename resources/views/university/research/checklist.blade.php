@@ -6,69 +6,42 @@
 <div class="main-content">
   <div class="container">
     <div class="row mx-0">
-      <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Code of </span><span> Ethics</span></h1>
-      <div class="container my-2 py-2">
-        <ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#Tab1" type="button"
-              role="tab" aria-controls="Tab1" aria-selected="true"> Research Ethics Course</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#Tab2" type="button"
-              role="tab" aria-controls="Tab2" aria-selected="false"> Ethics
-              Committee </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#Tab3" type="button"
-              role="tab" aria-controls="Tab3" aria-selected="false">Publication
-              Guidance Committee </button>
-          </li>
-        </ul>
-        <div class="tab-content second ps-5 px-md-5" id="myTabContent">
-          <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
-            <div class="container d-none d-sm-block">
-              <div style="text-align:center">
-                <iframe src="{{asset('/assets/pdf/code_of_ethics/publication_ethics_course.pdf')}}" frameborder="0"
-                  height="1200" width="100%"></iframe>
-              </div>
-            </div>
-            <div class="container d-block d-sm-none mb-3">
-              <div style="text-align:center">
-                <a href="{{asset('/assets/pdf/code_of_ethics/publication_ethics_course.pdf')}}" class="tmu-btn btn-4"
-                  download>Download PDF</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
-            <div class="container d-none d-sm-block">
-              <div style="text-align:center">
-                <iframe src="{{asset('/assets/pdf/code_of_ethics/research_ethics_committee.pdf')}}" frameborder="0"
-                  height="1200" width="100%"></iframe>
-              </div>
-            </div>
-            <div class="container d-block d-sm-none mb-3">
-              <div style="text-align:center">
-                <a href="{{asset('/assets/pdf/code_of_ethics/research_ethics_committee.pdf')}}" class="tmu-btn btn-4"
-                  download>Download PDF</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
-            <div class="container d-none d-sm-block">
-              <div style="text-align:center">
-                <iframe src="{{asset('/assets/pdf/code_of_ethics/publication_guidence_committee.pdf')}}"
-                  frameborder="0" height="1200" width="100%"></iframe>
-              </div>
-            </div>
-            <div class="container d-block d-sm-none mb-3">
-              <div style="text-align:center">
-                <a href="{{asset('/assets/pdf/code_of_ethics/publication_guidence_committee.pdf')}}"
-                  class="tmu-btn btn-4" download>Download PDF</a>
-              </div>
-            </div>
-
+      <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Documents to be enclosed with </span><span> Application Form</span></h1>
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="ps-4" style="list-style-type:decimal;">
+            <li class="pb-2">Self attested copies of the following are to be uploaded on the portal for applying in Ph.D Programme:-</li>
+            <ul class="ps-5 m-ol-list">
+              <li class="pb-1">Matriculation marksheet</li>
+              <li class="pb-1">Matriculation certificate</li>
+              <li class="pb-1">10+2 marksheet</li>
+              <li class="pb-1">10+2 certificate</li>
+              <li class="pb-1">Graduation degree marksheet</li>
+              <li class="pb-1">Graduation degree certificate</li>
+              <li class="pb-1">Post-graduation degree marksheet</li>
+              <li class="pb-1">Post-graduation degree certificate</li>
+              <li class="pb-1">M.Phil. marksheets (if applicable)</li>
+              <li class="pb-1">M.Phil. degree (if applicable)</li>
+              <li class="pb-1">UGC-NET&nbsp;,JRF&nbsp;,UGC-CSIR NET (including JRF)&nbsp;/&nbsp;,SLET qualifying certificate.</li>
+              <li class="pb-1">Any other educational qualification certificate</li>
+              <li class="pb-1">All experience certificates</li>
+              <li class="pb-2">SC&nbsp;/ST&nbsp;/PH&nbsp;/OBC&nbsp;/Minority certificate, if applicable.</li>
+            </ul>
+            <li class="pb-2">No Objection Certificate from Head of the department/institution, if applicant is employed.</li>
+            <li class="pb-2">Any other relevant information/publication.</li>
+            <li class="pb-2">Colour photograph.</li>
+            <li class="pb-2">TRAT fee of Rs.2,000/- is to be paid online . </li>
+          </ol>
+          <div class="alert alert-success">
+            <strong class="tmu-text-primary"><span>Note:</span><span></span></strong><br />
+            <ul class="ps-3 m-ol-list">
+              <li>The original documents shall be required to be produced at the time of registration..</li>
+              <li>Candidates who have qualified UGC-NET(including JRF)/UGC-CSIR NET(including JRF)/SLET/Teacher Fellowship holder or have passed M.Phil Programme are exempted from the <b class="fs-14">University TRAT</b>.</li>
+              <li>Candidates applying for Ph.D. in Jainology are exempted from the <b class="fs-14">University TRAT Fee.</b></li>
+            </ul>
           </div>
         </div>
+                  
       </div>
     </div>
   </div>

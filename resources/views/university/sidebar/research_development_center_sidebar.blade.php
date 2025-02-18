@@ -11,9 +11,6 @@
             <a href="{{ route('rdc.faculty.profile') }}" class="custom-menu-item {{ setActive('rdc.faculty.profile') }}">
                 <p>Faculty Profile</p>
             </a>
-            <a href="{{ route('rdc.contact.us') }}" class="custom-menu-item {{ setActive('rdc.contact.us') }}">
-                <p>Contact Us</p>
-            </a>
             <a href="{{ route('rdc.infrastructure') }}" class="custom-menu-item {{ setActive('rdc.infrastructure') }}">
                 <p>Infrastructure</p>
             </a>

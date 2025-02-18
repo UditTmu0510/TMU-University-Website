@@ -8,8 +8,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Management</span> College in UP,TMIMT</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Management</span> College in UP,TMIMT</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">TMIMT College </span> <br> of Management</h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-5">Apply Now</a>
                     <!-- <a href="#" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a> -->
                 </div>
@@ -167,7 +166,7 @@
                             <p class="p-0 m-0">The college offers a wide range of specializations in BBA / B. Com/ MBA including Block Chain Technology, Marketing, Logistics and Supply Chain Management, International Business, Human Resources, Finance, Financial Market, Cyber Security, Agricultural Management, Hospital Management, etc.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">Dedicated Incubation and Entrepreneurship Cell with a focus on establishing an innovation and entrepreneurship-based ecosystem that will help in converting ideas into sustainable start-ups.</p>
+                            <p class="p-0 m-0">Dedicated Incubation and Entrepreneurship Cell with a focus on establishing an innovative and entrepreneurship-based ecosystem that will help in converting ideas into sustainable start-ups.</p>
                         </li>
                     </ul>
 
@@ -177,7 +176,7 @@
                                 <p class="p-0 m-0">Domestic and international excursion tours for better national and global connections</p>
                             </li>
                             <li>
-                                <p class="p-0 m-0">Regular mentoring and counseling sessions by trained industry professionals.</p>
+                                <p class="p-0 m-0">Regular mentoring and counselling sessions by trained industry professionals.</p>
                             </li>
                             <li>
                                 <p class="p-0 m-0">Implementation of NEP-2020 through a vigorous academic environment supported by various FDPs, MOOCs, Workshops, Conferences, Industry Competitions, Guest Talks, and Seminars.</p>
@@ -194,7 +193,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p class="mb-0">The college has established strong ties with national and international institutions, allowing students to gain valuable work experience through internships and co-op programs. Additionally, the college provides robust job placement assistance and career counseling services to help students secure rewarding employment opportunities.
+                    <p class="mb-0">The college has established strong ties with national and international institutions, allowing students to gain valuable work experience through internships and co-op programs. Additionally, the college provides robust job placement assistance and career counselling services to help students secure rewarding employment opportunities.
 
                     <div class="read-more-content mt-0">
                         <br>
@@ -211,7 +210,7 @@
                     <h3>Curriculum</h3>
                     <p>The curriculum of this top management college is thoughtfully designed as per the National Education Policy (NEP 2020) to impart a well-rounded education that equips students with the knowledge and skills necessary to excel in the dynamic business world. The curriculum is continuously updated to stay relevant and in sync with the latest industry trends.
                         <br><br>
-                        Through a mix of theoretical learning and practical applications, students gain a comprehensive understanding of business dynamics, problem-solving abilities, and effective decision-making skills. Moreover, our curriculum emphasizes the importance of experiential learning, case studies, industry projects, and internships, ensuring that students are well-prepared to tackle real-world challenges and adapt to the ever-evolving industry landscape.
+                        Through a mix of theoretical learning and practical applications, students gain a comprehensive understanding of business dynamics, problem-solving abilities, and effective decision-making skills. Moreover, our curriculum emphasises the importance of experiential learning, case studies, industry projects, and internships, ensuring that students are well-prepared to tackle real-world challenges and adapt to the ever-evolving industry landscape.
                         <br><br>
                     </p>
                 </div>
@@ -284,8 +283,6 @@
                         <!-- Add Pagination -->
                         <div class="swiper-pagination"></div>
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
                     </main>
             </div>
         </section>
@@ -406,8 +403,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                   </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -523,9 +519,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -546,7 +542,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -729,7 +725,7 @@
     <hr class="horizontal-line">
 
     <button class="careers-accordion"> Why TMU is the best choice for you:<span class="icon">+</span></button>
-    <div class="panel">
+    <div class="panel active">
         <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>UGC-Approved and NAAC-A </span><span>accredited University</span></h3>
         <p class="text-justify mb-0">TMU has approval from UGC. The NAAC-A has also accredited it. This ensures your degree holds value. It's recognized nationally and internationally.</p>
         <h3 class="tmu-text-primary  text-justify mb-0 fs-16"><span>Case-based Innovative </span><span>Teaching Pedagogy</span></h3>
@@ -845,7 +841,7 @@
             <li><strong>Student Support Services:</strong>
                 <ul class="m-ol-list ps-5 mb-1">
                     <li>TMIMT offers a range of student support services to ensure that every student has the resources needed to thrive academically, personally, and professionally.</li>
-                    <li>Support services include academic advising, career counseling, mental health support, and disability services, reflecting the college's commitment to students' overall well-being.</li>
+                    <li>Support services include academic advising, career counselling, mental health support, and disability services, reflecting the college's commitment to students' overall well-being.</li>
                 </ul>
             </li>
         </ul>
@@ -891,7 +887,7 @@
             </li>
             <li><strong>Medical and Health Services:</strong>
                 <ul class="m-ol-list ps-5 mb-1">
-                    <li>TMIMT provides access to medical facilities, first aid services, and counseling on campus, valuing the health and well-being of its students.</li>
+                    <li>TMIMT provides access to medical facilities, first aid services, and counselling on campus, valuing the health and well-being of its students.</li>
                     <li>Qualified medical professionals and counselors are available to address health concerns, promote wellness, and provide timely assistance.</li>
                 </ul>
             </li>

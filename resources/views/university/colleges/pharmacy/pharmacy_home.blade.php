@@ -12,8 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Pharmacy</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Pharmacy</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">College of Pharmacy</span></h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -60,7 +59,7 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>30+ </span>
+                            <span>25+ </span>
                             <br>
                             <span class="d-block pt-1">Labs</span>
                         </div>
@@ -113,7 +112,7 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>30+ </span>
+                                        <span>25+ </span>
                                         <br>
                                         <span class="d-block pt-1">Labs</span>
                                     </div>
@@ -128,10 +127,10 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">College of Pharmacy, Among the Top Colleges for Pharmacy Courses/Programmes</h1>
+                <h2 class="college-main-heading">College of Pharmacy, Among the Top Colleges for Pharmacy Courses/Programmes</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas, graduate, post-graduate and doctorate-level programmes, equipping students with innovative techniques to solve problems in the pharmaceutical industry and clinical settings.</p>
+                        <p style="text-align: justify;">The College of Pharmacy was established in the year 2008 and approved by the Pharmacy Council of India. The college grooms professionals by providing diplomas and graduate, post-graduate and doctorate-level programmes, equipping students with innovative techniques to solve problems in the pharmaceutical industry and clinical settings.</p>
                         <div class="read-more-content mt-0">
                         <p style="text-align: justify;">Welcome to the College of Pharmacy at Teerthanker Mahaveer University (TMU), where academic excellence meets practical experience to shape the future leaders of the pharmaceutical world. Recognised as one of the top colleges for pharmacy courses in India, the College provides a unique blend of theoretical knowledge and hands-on training, preparing our students for successful careers in the dynamic field of pharmacy.
                         </p>
@@ -167,20 +166,20 @@
                             <p class="p-0 m-0">It is a hub for academic research and consultancy, fostering expertise by offering a wide range of programmes that equip students with the knowledge and skills needed to excel in the ever-evolving field of pharmacy.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevating the standards of pharmacy education and preparing graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
+                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevate the standards of pharmacy education and prepare graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">The college takes pride in its fully functional Drug Information Centre, which is one of its kind in the state of Uttar Pradesh. This centre serves as a valuable resource and offers an ideal platform for students to enhance their knowledge and develop skills in drug information retrieval and analysis</p>
+                            <p class="p-0 m-0">The college takes pride in its fully functional Drug Information Centre, which is one of its kind in the state of Uttar Pradesh. This centre serves as a valuable resource and offers an ideal platform for students to enhance their knowledge in pharmacovigilance and develop skills in drug information retrieval and analysis.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>The college has a proven track record of successful placements. Our graduates have secured positions in diverse roles and settings, including community pharmacies, hospital pharmacies, pharmaceutical companies, research institutions, regulatory agencies, and academia.
+                    <p class="text-justify">The college has a proven track record of successful placements. Our graduates have secured positions in diverse roles and settings, including community pharmacies, hospital pharmacies, pharmaceutical companies, research institutions, regulatory agencies, and academia.
                         <br><br>
                         Center for Teaching, Learning & Development (CTLD) provides comprehensive career guidance and counselling services to our students in the field of innovation and entrepreneurship.
                         <br><br>
-                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training, our students are well-equipped to showcase their skills and abilities to potential employers.                        
+                        Teerthanker Mahaveer University's Corporate Resource Center is committed to empowering students on their journey from admission to placement, with a strong focus on achieving an 82% placement rate. With personalised assistance in resume building, interview preparation, and professional training, our students are well-equipped to showcase their skills and abilities to potential employers.                       
                         <br><br>
                     </p>
                 </div>
@@ -196,7 +195,7 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4">
-                        <li><p class="p-0 m-0">The College of Pharmacy has well-equipped laboratories for General Pharmaceutics, Microbiology, Pharmacology and Toxicology as well as Pharmacognosy and Herbal Medicine with access to sophisticated instruments.</p></li>
+                        <li><p class="p-0 m-0">The College of Pharmacy has well-equipped laboratories for Pharmaceutics, Microbiology, Pharmacology, Analysis and Pharmaceutical Chemistry as well as Pharmacognosy and Herbal Medicine with access to sophisticated instruments.</p></li>
                         <li><p class="p-0 m-0">The major equipment available in this college are IR Spectrophotometer, HPLC, Lyophilizer, Rotary tablet punch, Digital Dissolution apparatus, Brookfield Rheometer, Nephelometer and Plethysmometer.</p></li>
                         <li><p class="p-0 m-0">The smart classrooms with advanced technology and cutting-edge facilities enhance the learning experience, enabling instructors to deliver engaging presentations and interactive sessions.</p></li>
                         <li><p class="p-0 m-0">The college library is a treasure house of pharmaceutical literature and resources. Students have access to an extensive collection of books, journals, research papers, and e-resources, enabling them to stay updated with the latest advancements in the field.</p></li>
@@ -224,8 +223,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                   </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                   </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -341,9 +339,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -364,7 +362,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -546,7 +544,7 @@
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Key Highlights of College of Pharmacy <span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
             <ul class="m-ol-list ps-4 text-justify">
     <li>🏆 UGC-Approved with NAAC A Accreditation: Our programs are recognized by the University Grants Commission (UGC) and accredited by the National Assessment and Accreditation Council (NAAC) with an A grade, ensuring high academic standards.</li>
     <li>👩‍⚕️ Experiential Learning by Highly Qualified Faculties: Students learn from experienced professionals who bring real-world insights into the classroom.</li>

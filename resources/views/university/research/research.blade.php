@@ -4,13 +4,6 @@
 
 <link rel="stylesheet" href="{{asset('/assets/css/journal.css')}}">
 
-<style>
-    @media screen and (min-width: 1000px) {
-        .container {
-            max-width: 75vw !important;
-        }
-    }
-</style>
 
 <div class="main-content">
     <div class="coontainer">
@@ -20,24 +13,21 @@
                     <div class="text-content p-3">
                         <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Research
                                 Cell</span></h1>
-                        <p class="about-p mb-4 text-justify">In order to promote a responsive and conducive academic
-                            environment on the campus, each College/Independent Teaching Department shall establish a
-                            '<span class="highlight">Students' Grievance Redressal Cell</span>'. The ‘Cell’ shall
-                            provide a friendly mechanism to the students to report their grievances and the faster
-                            disposal of the same. It shall also provide a platform to the students to come forward with
-                            constructive suggestions for more efficient and effective teaching-learning atmosphere</p>
-                        <p class="about-p mb-4 text-justify">Students and faculty members are encouraged to contribute towards research and participate in national and
-                            international conferences and seminars. The faculty members publish quality research papers which go a long way
-                            in contributing towards the promotion of research in varied disciplines.</p>
+                        <p class="about-p mb-4 text-justify">Teerthanker Mahaveer University's Research and Development Centre serves as a multidisciplinary centre committed to research, education, and collaboration with industry and society. By integrating science, engineering, and technology with sustainable practices, the centre aims to create innovative and holistic solutions for global issues.
+                            The centre’s mission is to enhance foundational and advanced research by uniting faculty, scientists, and students across disciplines such as Chemical Sciences, Physical Sciences, Biological Sciences, Nanoscience, Nanotechnology, Pharmacy, Medical, and health sectors. 
+                        </p>
+                        <p class="about-p mt-3 text-justify">Its objectives include conducting multidisciplinary research, sharing knowledge with the public, and promoting ethical research practices.
+                            The centre has made significant contributions through its research publications in leading journals and continues to expand its work in areas like Synthetic Organic Chemistry, Green Chemistry and Engineering, Nucleic Acid Chemistry, Cheminformatics, Nuclear and Particle Physics and Astrophysics. Additionally, the centre emphasises the ethical conduct of research and encourages women researchers to apply for scholarships. Collaboration with international universities and industries, along with student exchange programmes, further strengthens its global reach.
+                        </p>
                     </div>
                 </div>
             </section>
         </div>
 
         <div class="container mt-2 p-3">
-            <div class="box d-none d-sm-block md-block">
+            <div class="box d-none d-sm-block md-block" style="width:100%;">
                 <p class="about-p mb-2 text-justify">The University publishes the following <a href="{{route('tmu.publication')}}">journals</a> on periodic basis:</p>
-                <div class="container">
+                <div class="container123">
                     <div class="book">
 
                         <div class="front">

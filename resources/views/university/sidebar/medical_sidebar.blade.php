@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('medical.home') }}" class="custom-menu-item {{ setActive('medical.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('medical.about.us') }}" class="custom-menu-item {{ setActive('medical.about.us') }}">
                 <p>About Us</p>
             </a>
@@ -18,7 +21,7 @@
                 <p>Citizen's Charter</p>
             </a>
             <a href="{{ route('medical.highlights') }}" class="custom-menu-item {{ setActive('medical.highlights') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('medical.principal') }}" class="custom-menu-item {{ setActive('medical.principal') }}">
                 <p>Principal Desk</p>
@@ -62,6 +65,9 @@
             <a href="{{ route('medical.aebas.attendance') }}" class="custom-menu-item {{ setActive('medical.aebas.attendance') }}">
                 <p>Aebas Attendance</p>
             </a>
+            <a href="{{ route('medical.result') }}" class="custom-menu-item {{ setActive('medical.result') }}">
+                <p>Result</p>
+            </a>
         </div>
         <h2>Student's Corner</h2>
         <div class="account-section">
@@ -84,11 +90,74 @@
                 <p>Gender Harassment Committee</p>
             </a>
         </div>
+        <h2>Departments</h2>
+        <div class="account-section">
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/1-Principal-and-MS.pdf')}}" class="custom-menu-item">
+                <p>Principal & MS</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/2-Anatomy.pdf') }}" class="custom-menu-item">
+                <p>Anatomy</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/3-Physiology.pdf') }}" class="custom-menu-item">
+                <p>Physiology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/4-Biochemistry.pdf') }}" class="custom-menu-item">
+                <p>Biochemistry</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/5-Pathology.pdf') }}" class="custom-menu-item">
+                <p>Pathology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/6-Microbiology.pdf') }}" class="custom-menu-item">
+                <p>Microbiology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/7_Pharmacology.pdf') }}" class="custom-menu-item">
+                <p>Pharmacology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/8-Forensic-Medicine.pdf') }}" class="custom-menu-item">
+                <p>Forensic Medicine </p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/9_Community_Medicine.pdf') }}" class="custom-menu-item">
+                <p>Community Medicine</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/10_General_Medicine.pdf') }}" class="custom-menu-item">
+                <p>General Medicine </p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/11_Respiratory_Medicine.pdf') }}" class="custom-menu-item">
+                <p>Respiratory Medicine</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/13_Psychiatry.pdf') }}" class="custom-menu-item">
+                <p>Psychiarty</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/12-Dermatology-Venereology.pdf') }}" class="custom-menu-item">
+                <p>Dermatology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/14_Paediatrics.pdf') }}" class="custom-menu-item">
+                <p>Paediatric</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/19_Anaesthesiology.pdf') }}" class="custom-menu-item">
+                <p>Anesthesiology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/20_Radio_Diagnosis.pdf') }}" class="custom-menu-item">
+                <p>Radiology </p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/15_General_Surgery.pdf') }}" class="custom-menu-item">
+                <p>General Surgery</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/16_Orthopaedics.pdf') }}" class="custom-menu-item">
+                <p>Orthopaedics</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/18_Otorhinolaryngology.pdf') }}" class="custom-menu-item">
+                <p>ENT</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/17_Ophthalmology.pdf') }}" class="custom-menu-item">
+                <p>Ophthalmology</p>
+            </a>
+            <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_dec/21-Obstetrics-and-Gynaecology.pdf') }}" class="custom-menu-item">
+                <p>Obstetrics and Gynaecology</p>
+            </a>
+        </div>
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="{{asset('/assets/pdf/medical/faculty_details/Faculty_details_July_24.pdf')}}" class="custom-menu-item">
-                <p>Faculty Details</p>
-            </a>
             <a href="{{ route('medical.gallery') }}" class="custom-menu-item {{ setActive('medical.gallery') }}">
                 <p>Gallery</p>
             </a>

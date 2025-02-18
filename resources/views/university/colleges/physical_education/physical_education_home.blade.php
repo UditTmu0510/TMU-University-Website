@@ -12,8 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Physical Education</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Physical Education</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">TMIMT College of </span> Physical Education</h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brocher</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -21,7 +20,7 @@
                     <div class="pe-lg-4 position-relative p-0">
                         <div style="z-index: 2;">
                             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
-                            <img src="{{asset('/assets/img/banner/physical_education/banner.png')}}" alt="" class="p-0 m-0">
+                            <img src="{{asset('/assets/img/banner/physical_education/banner.webp')}}" alt="" class="p-0 m-0">
                         </div>
                     </div>
                 </div>
@@ -128,7 +127,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">TMIMT College of Phycical Education </h1>
+                <h2 class="college-main-heading">TMIMT College of Physical Education </h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p class="m-0 p-0"><b>Sports can deliver a successful career.</b></p>
@@ -162,9 +161,9 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li>Follow the Outcome-based education and Psycho-motor skills.</li>
+                        <li>Follow Outcome-based education and Psycho-motor skills..</li>
                         <li>Qualified, committed and competent educators to shape the personalities of teacher trainees into successful professionals.</li>
-                        <li>The College has spacious, furnished classrooms, Classrooms with ICT facilities, contemporary laboratories, a library etc. with modern equipment for learning and research purposes.</li>
+                        <li>The college has spacious, furnished classrooms with ICT facilities, contemporary laboratories, a library, and modern equipment for learning and research purposes.</li>
                     </ul>
                     <div class="read-more-content">
                         <ul class="m-ol-list ps-4">
@@ -188,7 +187,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</h3>
-                    <p>TMIMT College of Physical Education ensures a good academic journey follows an Outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality. </p>
+                    <p>TMIMT College of Physical Education ensures a good academic journey that follows an outcome-based education system, with semester-based patterns integrating the traditional syllabus and the quantitative amount of practical training. The college also oversees constant up-gradation of the curriculum through a feedback mechanism. Creating a technology-aided environment while providing CTLD training and language proficiency programs to the students to boost their overall personality. </p>
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
@@ -232,8 +231,6 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                   </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                    </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -349,9 +346,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -372,7 +369,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -552,11 +549,11 @@
         <!-- FAQS and accordian -->
 
         <div class="container mb-5 mt-5">
-            <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Tmimt College of Physical Education</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Choose TMIMT College of Physical Education?<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p class="text-justify">Choosing the right college is pivotal, and TMIMT College of Physical Education offers a plethora of reasons why it should be your top choice.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accredited University</span></h3>
                 <p class="text-justify">The university is UGC-approved and boasts a prestigious NAAC A Accreditation. This recognition ensures that the college meets the highest standards of education and infrastructure, providing students with an exceptional learning experience.</p>

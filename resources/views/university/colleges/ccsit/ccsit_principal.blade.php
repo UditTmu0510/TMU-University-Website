@@ -1,78 +1,63 @@
 @extends('layouts.university.colleges.ccsit_with_sidebar')
 @section('content')
 
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+    <style>
+        :root {
+            --card-bg: linear-gradient(145deg, #ffffff, #f8f9fa);
+            --text-color: #2d3436;
+            --subtext-color: #636e72;
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 
-<div class="main-content">
-    <div class="container">
-        <div class="row">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> From the Desk </span><span> of
-                    Principal</span></h1>
+<div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+        <h1 class="tmu-page-heading tmu-text-primary"><span>From the desk of </span><span>Principal</span></h1>
+            <div class="col-lg-10">
+                <div class="principal-card23">
+                    <i class="ph-bold ph-quotes principal-quote-icon23"></i>
+                    <div class="row">
+                        <div class="col-md-10 mx-auto text-center">
+                            <div class="d-flex justify-content-between">
 
-            <div class="col-md-12 col-lg-4 text-center img-container">
-                <img src="{{asset('/assets/img/principal/CCSIT/ccsit_principal.jpg')}}"
-                    width="280" height="400" alt="R.K. Dwivedi">
-            </div>
-            <div class="col-md-12 col-lg-8">
-                <blockquote class="zitat1">
-                    "Wherever the art of medicine is loved, there is also a love of humanity."
-                    <!-- <cite>Peter Drucker</cite> -->
-                </blockquote>
-                <p class="mb-3">I am delighted to present the panorama of College of Computing Sciences
-                    and Information Technology (CCSIT) in all its hues and colours. The college has been
-                    taking forward the ethos of excellence in the field of computer education under the
-                    meticulous guidance of its committed and experienced faculty and staff members. It
-                    has been flushing out meritorious, qualified and genius students to build a career
-                    in ever expanding IT industry for fifteen years. The college nurtures them with the
-                    quality and etiquettes to face challenges in their future contribution and
-                    endeavours to society and industry. CCSIT is dedicated to provide globally competent
-                    IT Professionals to play instrumental role in the development of society.</p>
-                <p class="mb-3">We, at CCSIT, nurture the students so that they can develop a versatile
-                    personality and become responsible citizens of our nation. We provide ample scope,
-                    opportunities and facilities for the all-round development of personality and
-                    leadership qualities of the students through various academic, cultural, literary, sports, social
-                    and club activities. A student is expected to reflect under all circumstances proper
-                    respect for order, morality and rights of others and a sense of personal honour
-                    required for being good citizen. We are desirous that the students of CCSIT become
-                    icons in their respective disciplines.</p>
-            </div>
-
-            <div class="col-md-12 col-sm-12 col-lg-12">
-                <p class="mb-3"> We firmly believe that students are like clay which can be given
-                    desired shape by experienced craftsman in the form of a teacher. Our endeavour is to
-                    create a pool of talented professionals possessing knowledge, ability and more
-                    importantly, the attitude and resilience to deliver both at regional as well as
-                    global level.</p>
-                <p class="mb-3">At CCSIT, we have been grooming our students with great care, ensuring
-                    that the best available inputs and the latest technology have gone into the process.
-                    Our thrust is to provide highest standards of education in Information Technology
-                    and enabling our students to achieve professional competence in their chosen fields.
-                    We believe in learning to explore new realms of wisdom. Students, at CCSIT, enjoy
-                    all academic and other activities enormously and therefore they demonstrate a high
-                    level of creativity, innovation and a spirit of teamwork. The academic atmosphere in
-                    the college is so conducive that it helps them bring out their talents, develop
-                    their personalities and improve their performance which has in turn led CCSIT alumni
-                    reach up to very senior levels in top companies all over the world.</p>
-                <p class="mb-3">A balanced academic regimen equips students with professional and
-                    personal skills to excel in the sector whichever they chose to work for. In
-                    addition, it enables them to adapt various challenging situations with ease and
-                    confidence. There is no doubt in my mind that they will surpass all expectations
-                    when it comes to fulfil their organizational objectives. The Institute has a track
-                    record of industrial interaction and has recently taken up innovative steps to
-                    encourage and enrich its interactions so that students are trained in a setting that
-                    recognizes the real needs of the field, and use a more practical and applied
-                    approach. CCSIT broad bases its curriculum continuously to cater the needs of the
-                    technological requirements and developments. The institute upgrades its
-                    laboratories, machines and workshops, accessories, software, hardware and other
-                    infrastructure on regular basis to provide the best facilities to its students.</p>
-                <p class="mb-3">I wish all success for the budding software professionals in their quest
-                    for personal as well as national growth.</p>
-                <div class="person-details">(Dr.) R. K. Dwivedi<br><span>Director / Principal</span>
+                           
+                            <div class="principal-image-wrapper23">
+                                <img src="{{asset('/assets/img/principal/CCSIT/ccsit_principal.jpg')}}" alt="Principal" class="principal-image23" style="object-position: top;">
+                                <div class="principal-image-decoration23"></div>
+                            </div>
+                            <div class="principal-info23">
+                                <h4 class="principal-name23">(Dr.) R. K. Dwivedi</h4>
+                                <p class="principal-position23">
+                                    <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
+                                    Principal
+                                </p>
+                            </div>
+                        </div>
+                            <p class="principal-text23 text-justify">
+                                I wish to welcome all new students to the Faculty of Engineering at Teerthanker Mahaveer University, Moradabad, India.
+                                <br>
+                                <br>
+                                Our aim at the Faculty of Engineering is to educate and create 'technocrats' with solid academic base and attainment of value-added skills to face local, national and international industrial domain.
+                                <br>
+                                <br>
+                                Technical education is at a crossroads, and to enhance your competence, we continuously upgrade infrastructure, computational facilities, and laboratories to provide hands-on exposure. In addition, we are in collaboration with industries to help and provide the required training to the Campus for making you job-ready.
+                                <br>
+                                <br>
+                                Training programs with IL&FS Skills, Bharat Seats, CIDC, Amtek Auto, AutoCAD are in place. We also look forward to having Volvo, Bosch, iMove, and Siemens run joint programmes and create state-of-the-art labs on the campus for developing industry-ready manpower.
+                                <br>
+                                <br>
+                                To improve your exposure in Research & Innovation we are also planning an Incubation Centre and are recruiting faculty from the best Institutes to create the ambience. I welcome you all again and hope your stay would be a learning experience which will facilitate you to be the future technocrats of this country.
+                            </p>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </div>
 </div>
+
 @endsection

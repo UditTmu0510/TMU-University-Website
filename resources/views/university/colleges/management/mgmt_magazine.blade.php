@@ -5,7 +5,7 @@
         font-family: 'poppins' !important;
     }
 
-    .container {
+    .container .container-jnrl{
         z-index: 1;
         perspective: 3000px;
         display: flex;
@@ -188,10 +188,25 @@
     <div class="container">
         <div class="box d-none d-sm-block">
             <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Event </span><span> Magazines</span></h1>
-            <div class="container">
+            <div class="container container-jnrl">
                 <div class="bookshelf"></div>
 
 
+                <div class="book">
+                    <div class="front">
+                        <div class="cover">
+                            <a href="{{asset('/assets/pdf/Magzine/TMIMT/Magazine_jan_July_2024.pdf')}}"
+                                target="_blank"><img
+                                    src="{{asset('/assets/img/magazines/management/jan-june.jpg')}}" style="height: 100%; "
+                                    alt="Book Cover Image"></a>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <h2>
+                            <span>Event Magazine</span>
+                        </h2>
+                    </div>
+                </div>
                 <div class="book">
                     <div class="front">
                         <div class="cover">
@@ -203,7 +218,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -220,7 +235,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -237,7 +252,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -254,11 +269,24 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
 
+
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box d-none d-sm-block">
+            <div class="container container-jnrl">
+
+                <div class="bookshelf"></div>
 
                 <div class="book">
                     <div class="front">
@@ -271,21 +299,10 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
-
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="box d-none d-sm-block">
-            <div class="container">
-
-                <div class="bookshelf"></div>
 
                 <div class="book">
                     <div class="front">
@@ -298,7 +315,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -315,7 +332,7 @@
                     </div>
                     <div class="left-side">
                         <h2>
-                            <span>Event Magzine</span>
+                            <span>Event Magazine</span>
                         </h2>
                     </div>
                 </div>
@@ -332,6 +349,25 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
+                    <a href="{{asset('/assets/pdf/Magzine/TMIMT/Magazine_jan_July_2024.pdf')}}"
+                        target="_blank">
+                        <div class="book-wrapper">
+                            <div class="book-items">
+                                <div class="main-book-wrap">
+                                    <div class="book-cover">
+                                        <div class="book-inside"></div>
+                                        <div class="book-image">
+                                            <img src="{{asset('/assets/img/magazines/management/jan-june.jpg')}}" />
+                                            <div class="effect"></div>
+                                            <div class="light"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
                     <a href="{{asset('/assets/pdf/Magzine/TMIMT/magazine_january_june_2023.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
@@ -463,7 +499,7 @@
                             </div>
                         </div>
                     </div>
-</a>
+                </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

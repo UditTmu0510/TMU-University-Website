@@ -12,8 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to <br> <span style="font-weight:700!important;">the Faculty of </span> Engineering </h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>the Faculty of </span> Engineering</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to  <span style="font-weight:700!important;">the Faculty of </span> Engineering </h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -34,7 +33,7 @@
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span> Affiliated</span>
                             <br>
-                            <span class="d-block pt-1">Engineering Council of India </span>
+                            <span class="d-block pt-1">Engineering Council of <br>India </span>
                         </div>
                     </div>
                 </div>
@@ -127,7 +126,7 @@
 
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Engineering (FOE),</h1>
+                <h2 class="college-main-heading">Teerthanker Mahaveer Faculty of Engineering (FOE),</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech CS&E programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in UP.</b></p>
@@ -158,8 +157,8 @@
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>Affiliated with UGC, AICTE, and NBA.</li>
-                        <li>IEEE received activities based on the Branch Incentive Award 2022”.</li>
-                        <li>We ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
+                        <li>IEEE received the Branch Incentive Award 2022 for its activities.</li>
+                        <li>Ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
@@ -173,15 +172,15 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>Get ready to explore Limitless Possibilities at FOE College!.</p>
+                    <p>Get ready to explore limitless possibilities at FOE College!.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li><strong>Internship Opportunities: </Strong>Gain practical experience and enhance your skills through exclusive internship programmes offered.</li>
-                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, Ultra Tech Cement, HCL, Wipro, TCS, and many more. They visit TMU, opening doors to remarkable placement opportunities.</li>
+                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, UltraTech Cement, HCL, Wipro, TCS, and many more. These companies visit TMU, opening doors to exceptional placement opportunities.</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
                             <li><strong>Dedicated Corporate Resource Centre (CRC): </Strong>Our CRC tirelessly works to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career.</li>
-                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to assist all our students in securing the best available jobs in their respective fields.</li>
+                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to help all our students secure the best available jobs in their respective fields.</li>
                         </ul>
                         <p>Join FOE College, the epitome of excellence and the best private engineering college in Uttar Pradesh. Unleash your potential and build a rewarding future with us!</p>
                     </div>
@@ -198,7 +197,7 @@
                         <ul class="m-ol-list ps-4">
                             <li><strong>Professional Industry Connections: </Strong> Benefit from our strong ties, as we provide opportunities to connect with experts through workshops, seminars, and guest lectures. We have two Centres of Excellence, namely</li>
                             <ul class="m-ol-list ps-4">
-                                <li><strong>Centre of Excellence: </strong>Ultra-Tech. It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
+                                <li><strong>UltraTech Centre of Excellence: </strong> It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
                             </ul>
                         </ul>
                         <p>Join us at our prestigious institution, where your engineering aspirations will flourish, paving the way for a successful future. Together, let's make your mark in the engineering world! We are proud to be the best private engineering college in UP.</p>
@@ -213,7 +212,7 @@
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
-                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
+                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IIT Bombay. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
                             <li><strong>Live Project Opportunities:</strong> We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges.</li>
                         </ul>
                         <p style="text-align:justify">Experience a transformative engineering education that combines industry expertise, advanced infrastructure, and practical exposure. Join us at the top private engineering college in Moradabad.</p>
@@ -281,8 +280,6 @@
         <!-- Add Pagination -->
         <!-- <div class="swiper-pagination"></div>
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-                    <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
                     </main>
             </div>
         </section> -->
@@ -510,8 +507,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                 </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -627,9 +623,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -650,7 +646,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
 
@@ -818,8 +814,8 @@
                             <div class="testimonial">
                                 <p class="overview mb-3 testimonial-user-name"><b>Abdul Malik Khan</b>, MBA</p>
                                 <p class="testimonial-content">TMU, for me, is not just an MBA destination, it's the crucible where my leadership skills
-                                    were forged. Beyond textbooks and case studies, TMU offered a dynamic learning
-                                    environment where theories met practical challenges. It's a journey where I honed the
+                                    were forged. Beyond textbooks and case studies, TMU offers a dynamic learning
+                                    environment where theories meet practical challenges. It was a journey where I honed the
                                     skills that set me apart in the dynamic landscape of business and management.
                                 </p>
                             </div>
@@ -832,7 +828,7 @@
 
         <section>
             <div class="container mb-5 mt-5">
-                <h2 Class="tmu-text-primary text-center"><span> Frequently Asked </span><span> Questions</span></h2>
+                <h2 class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-body">
@@ -889,10 +885,10 @@
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Global Career </span><span> Prospects</span></h3>
                                 <p class="mb-2">Our strong industry connections and international collaborations open doors to global internships and placement opportunities, providing you with a competitive edge in the job market.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry Collaborations and </span><span>Real-World Exposure</span></h3>
-                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research</p>
+                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Dedicated Corporate </span><span> Resource Centre (CRC)</span></h3>
                                 <p class="mb-2">Our CRC works tirelessly to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career and have access to top employers.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement</span><span>Record</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement </span><span>Record</span></h3>
                                 <p class="mb-2">With an 89% placement track record, we take pride in our exceptional placement services, striving to assist all our students in securing the best available jobs in their respective fields.</p>
 
                             </div>
@@ -910,9 +906,9 @@
 
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>State-of-the-Art </span><span> Labs</span></h3>
                                 <p class="mb-2">Our engineering labs are equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation. These labs are crucial for developing practical skills and fostering innovation.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</span></h3>
                                 <p class="mb-2">We have strong partnerships with esteemed organisations like NVIDIA, BSNL, TCS-iON, and Voltrans, fostering research, development, and technology incubation. These collaborations provide valuable opportunities for students to work on cutting-edge projects and gain real-world experience.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</span></h3>
                                 <p class="mb-2">Collaborations with renowned institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB enhance our students' exposure to world-class resources and cutting-edge technologies, ensuring they stay at the forefront of innovation.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Live Project </span><span> Opportunities</span></h3>
                                 <p class="mb-2">We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges, making them industry-ready.</p>

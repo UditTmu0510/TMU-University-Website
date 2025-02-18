@@ -119,7 +119,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-lg-4 widget_links">
 								<div class="widget">
 
-									<img style="width: 60%;" alt="Teertahnker mahaveer university logo with name" class="img-fluid" src="{{asset('assets/image/logo/logo-footer.png')}}">
+									<img style="width: 60%;" alt="Teerthanker mahaveer university logo with name" class="img-fluid" src="{{asset('assets/image/logo/logo-footer.png')}}">
 
 
 									<!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
@@ -177,7 +177,7 @@ suggestions.append(`<a href="${final_slug}"><div>${data.disp_attribute_1}<br/><s
 							<div class="col-6 col-lg-2 widget_links">
 								<h4>Student Life</h4>
 								<ul>
-									<li><a href="#">University Campus</a></li>
+									
 									<li><a href="#">Hostels</a></li>
 									<li><a href="#">Gym</a></li>
 									<li><a href="#">Transportation</a></li>

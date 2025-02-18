@@ -16,6 +16,8 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Exception;
 use Illuminate\Support\Str;
+use App\Models\JobOpening;
+use Carbon\Carbon;
 
 
 class TmuController extends Controller
@@ -57,7 +59,6 @@ class TmuController extends Controller
 
 
         return view('university.home', compact('colleges', 'news', 'activeBlogs'));
-
     }
 
     public function news_info()
@@ -84,38 +85,37 @@ class TmuController extends Controller
         // Return the JSON response
         return response()->json(['programs' => $programs]);
     }
-    
-public function fetch_programmes_by_level(Request $request)
-{
-    // Validate the incoming request
-    $request->validate([
-        'cd_id' => 'required|integer',
-        'programme_level' => 'required'
-    ]);
 
-    $cd_id = $request->cd_id;
-    $programme_level = $request->programme_level;
+    public function fetch_programmes_by_level(Request $request)
+    {
+        // Validate the incoming request
+        $request->validate([
+            'cd_id' => 'required|integer',
+            'programme_level' => 'required'
+        ]);
 
-    try {
-        // Search for the records with the given cd_id
-        $programs = Programmes::where('cd_id', $cd_id)
-            ->where('programme_level',$programme_level)
-            ->where('status', 'Y')
-            ->get();
+        $cd_id = $request->cd_id;
+        $programme_level = $request->programme_level;
 
-        // Check if any records are found
-        if ($programs->isEmpty()) {
-            return response()->json(['error' => 'No records found for the given cd_id'], 404);
+        try {
+            // Search for the records with the given cd_id
+            $programs = Programmes::where('cd_id', $cd_id)
+                ->where('programme_level', $programme_level)
+                ->where('status', 'Y')
+                ->get();
+
+            // Check if any records are found
+            if ($programs->isEmpty()) {
+                return response()->json(['error' => 'No records found for the given cd_id'], 404);
+            }
+
+            // Return the JSON response
+            return response()->json(['programs' => $programs]);
+        } catch (\Exception $e) {
+            // Handle exception and return error response
+            return response()->json(['error' => 'Something went wrong, please try again later.'], 500);
         }
-
-        // Return the JSON response
-        return response()->json(['programs' => $programs]);
-
-    } catch (\Exception $e) {
-        // Handle exception and return error response
-        return response()->json(['error' => 'Something went wrong, please try again later.'], 500);
     }
-}
 
 
 
@@ -127,16 +127,18 @@ public function fetch_programmes_by_level(Request $request)
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
         $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
-        $recruiters = Recruiters::where('cd_id',$cd_id)->where('display_college_main','Y')->where('status','Y')->get();
-        return view('university.programme.programme_info_new', compact('programme', 'fee_details', 'faqs','recruiters'));
+        $recruiters = Recruiters::where('cd_id', $cd_id)->where('display_college_main', 'Y')->where('status', 'Y')->get();
+        return view('university.programme.programme_info_new', compact('programme', 'fee_details', 'faqs', 'recruiters'));
     }
 
-    public function university_scholarship(){
+    public function university_scholarship()
+    {
         return view('university.quick_links.scholarship');
     }
 
-    public function university_education_loan(){
-return view('university.quick_links.tmu_loan');
+    public function university_education_loan()
+    {
+        return view('university.quick_links.tmu_loan');
     }
 
 
@@ -144,9 +146,15 @@ return view('university.quick_links.tmu_loan');
     {
         return view('university.university_glimpse.about_us');
     }
-    
-    public function why_choose_tmu(){
+
+    public function why_choose_tmu()
+    {
         return view('university.university_glimpse.why_tmu');
+    }
+
+    public function virtual_tour()
+    {
+        return view('university.university_glimpse.virtual_tour');
     }
 
     public function vision_and_mission()
@@ -175,20 +183,21 @@ return view('university.quick_links.tmu_loan');
         return view('university.university_glimpse.tmu_organogram');
     }
 
-     public function university_administration()
+    public function university_administration()
     {
-        
-        $administrators = Employees::orderBy('priority','ASC')->where('status','Y')->where('cd_id',0)->where('is_head','Y')->get();
-        $principals = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',2)->get();
-        $vice_principals = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',29)->get();
-        $deans = Employees::orderBy('priority', 'ASC')
-        ->where('status', 'Y')
-        ->where('designation_id', 3)
-        ->where('cd_id', '!=', 0)
-        ->get();
-    
-        $hods = Employees::orderBy('priority','ASC')->where('status','Y')->where('designation_id',30)->get();
-        return view('university.university_glimpse.administration',compact('administrators','principals','vice_principals','deans','hods'));
+
+        $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('cd_id', [0, 1])->where('is_head', 'Y')->get();
+        $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 2)->get();
+        $vice_principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 29)->get();
+        $deans = Employees::with('faculty') // Eager load faculty through college
+            ->orderBy('priority', 'ASC')
+            ->where('status', 'Y')
+            ->where('designation_id', 3)
+            ->where('cd_id', '!=', 0)
+            ->get();
+
+        $hods = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 30)->get();
+        return view('university.university_glimpse.administration', compact('administrators', 'principals', 'vice_principals', 'deans', 'hods'));
     }
 
     public function chancellor_desk()
@@ -208,15 +217,30 @@ return view('university.quick_links.tmu_loan');
 
     public function tmu_careers()
     {
-        return view('university.university_glimpse.careers');
+        $academicJobs = JobOpening::where('category', 'Academic')->get();
+        $adminJobs = JobOpening::where('category', 'Administration')->get();
+
+        if ($academicJobs->isEmpty() || $adminJobs->isEmpty()) {
+            dd('No jobs found');
+        }
+
+        return view('university.university_glimpse.careers', compact('academicJobs', 'adminJobs'));
     }
 
     //IIC
 
-    public function iic_home()
+    public function iic_home(Request $request)
     {
-        return view('university.iic.iic');
+
+
+        
+        $news = News::where('status', 1)
+            ->where('category', 'IIC')
+            ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
+            ->get();
+        return view('university.iic.iic', compact('news'));
     }
+
 
     public function iic_about_cell()
     {
@@ -317,12 +341,53 @@ return view('university.quick_links.tmu_loan');
 
     public function nss_events()
     {
-        return view('university.nss.nss_events');
+        $news = News::where('status', 1)
+            ->where('organised_by', 'NSS Wing')
+            ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
+            ->get();
+
+        // Convert all dates to a standard format (YYYY-MM-DD) and handle trailing data
+        $news = $news->map(function ($item) {
+            // Trim the event_date to remove any unwanted characters
+            $eventDate = trim($item->event_date);
+
+            // Initialize the formatted date
+            $formattedDate = null;
+
+            // Try to parse as YYYY-MM-DD first
+            try {
+                $formattedDate = Carbon::createFromFormat('Y-m-d', $eventDate)->format('Y-m-d');
+            } catch (\Exception $e) {
+                // If the above fails, try DD-MM-YYYY
+                try {
+                    $formattedDate = Carbon::createFromFormat('d-m-Y', $eventDate)->format('Y-m-d');
+                } catch (\Exception $e) {
+                    // Optionally, log the error or handle invalid dates
+                    $formattedDate = null;  // Handle invalid date formats
+                }
+            }
+
+            // Set the formatted date if successful, otherwise default to null
+            $item->formatted_event_date = $formattedDate;
+
+            return $item;
+        });
+
+        // Now sort by the unified date
+        $sortedNews = $news->filter(function ($item) {
+            return $item->formatted_event_date !== null;  // Filter out invalid dates
+        })->sortByDesc('formatted_event_date');
+
+        return view('university.nss.nss_events', compact('sortedNews'));
     }
 
     public function nss_contactus()
     {
         return view('university.nss.nss_contactus');
+    }
+    public function nss_coordinator()
+    {
+        return view('university.nss.nss_our_coordinator');
     }
 
     // NEP
@@ -370,7 +435,7 @@ return view('university.quick_links.tmu_loan');
 
     // CTLD
 
-public function ctld_home()
+    public function ctld_home()
     {
         return view('university.ctld.ctld_home');
     }
@@ -378,6 +443,10 @@ public function ctld_home()
     public function ctld_about()
     {
         return view('university.ctld.about_ctld');
+    }
+    public function ctld_benefits()
+    {
+        return view('university.ctld.benefits');
     }
 
     public function ctld_aims_and_objectives()
@@ -392,16 +461,16 @@ public function ctld_home()
 
     public function ctld_team()
     {
-        $employees = Employees::orderBy('designation_id','ASC')->where('department_id',22)->where('status','Y')->get();
-        return view('university.ctld.ctld_team',compact('employees'));
+        $employees = Employees::orderBy('designation_id', 'ASC')->where('department_id', 22)->where('status', 'Y')->get();
+        return view('university.ctld.ctld_team', compact('employees'));
     }
 
     public function ctld_students_testimonials()
     {
         $testimonials = Testimonials::where('display_ctld_department', 'Y')
-                            ->where('status', 'Y')
-                            ->get();
-        return view('university.ctld.students_testimonials_ctld',compact('testimonials'));
+            ->where('status', 'Y')
+            ->get();
+        return view('university.ctld.students_testimonials_ctld', compact('testimonials'));
     }
 
     public function ctld_events()
@@ -486,6 +555,25 @@ public function ctld_home()
         return view('university.iqac.iqac_contactus');
     }
 
+    public function alumni_feedback_form()
+    {
+        return view('university.iqac.alumni_feedback_form');
+    }
+
+    public function teachers_feedback_form()
+    {
+        return view('university.iqac.teachers_feedback_form');
+    }
+
+    public function employer_feedback_form()
+    {
+        return view('university.iqac.employer_feedback_form');
+    }
+    public function iqac_feedback_report()
+    {
+        return view('university.iqac.iqac_feedback_report');
+    }
+
 
     // NAAC
 
@@ -511,7 +599,7 @@ public function ctld_home()
         return view('university.iqac.iqac_erp');
     }
 
-    
+
 
 
 
@@ -576,6 +664,16 @@ public function ctld_home()
 
     // QUICK_LINKS
 
+    public function infrastructure()
+    {
+        return view('university.quick_links.infrastructure');
+    }
+
+    public function industry_academic_alliances()
+    {
+        return view('university.quick_links.industry_academic_alliances');
+    }
+
     public function disciplinary_rules()
     {
         return view('university.quick_links.disciplinary_rules');
@@ -605,7 +703,7 @@ public function ctld_home()
     {
         return view('university.quick_links.greviance_submit_suggestion');
     }
-public function campus_view()
+    public function campus_view()
     {
         return view('university.quick_links.campus_view');
     }
@@ -613,6 +711,11 @@ public function campus_view()
     public function library()
     {
         return view('university.quick_links.library');
+    }
+
+    public function tmu_hospital()
+    {
+        return view('university.quick_links.tmu_hospital');
     }
 
     public function how_to_apply()
@@ -628,6 +731,11 @@ public function campus_view()
     public function gym()
     {
         return view('university.quick_links.gym');
+    }
+
+    public function hostel()
+    {
+        return view('university.quick_links.hostel');
     }
 
     public function sports()
@@ -673,10 +781,72 @@ public function campus_view()
     {
         return view('university.quick_links.tmu_faqs');
     }
+    public function admission_rules()
+    {
+        return view('university.quick_links.admission_rules');
+    }
+    public function prominent_guests_comment()
+    {
+        return view('university.quick_links.prominent_guests_comment');
+    }
+
     public function tmu_convocation()
     {
-        return view('university.quick_links.convocation');
+        // Apply all conditions and orderBy methods before calling get()
+        $convocation_newses = News::where('cd_id', 1)
+            ->where('status', '1')
+            ->where('category', 'Convocation')
+            ->orderBy('event_date', 'DESC')
+            ->orderBy('id', 'DESC')
+            ->get();
+
+        function getOrdinalSuffix($day)
+        {
+            if (!in_array(($day % 100), array(11, 12, 13))) {
+                switch ($day % 10) {
+                    case 1:
+                        return $day . 'st';
+                    case 2:
+                        return $day . 'nd';
+                    case 3:
+                        return $day . 'rd';
+                }
+            }
+            return $day . 'th';
+        }
+
+
+        // Loop through guest lectures and add formatted date
+        foreach ($convocation_newses as $convocation_news) {
+            // Format the event date
+            $day = getOrdinalSuffix($convocation_news->event_day);
+            $month = $convocation_news->event_month_name;
+            $year = $convocation_news->event_year;
+
+
+            // Add formatted date to each lecture object
+            $convocation_news->formatted_date = "{$day} {$month} , {$year}";
+        }
+
+        // Pass the data to the view
+        return view('university.quick_links.convocation', compact('convocation_newses'));
     }
+
+
+    public function tmu_disclaimer()
+    {
+        return view('university.quick_links.tmu_disclaimer');
+    }
+    public function tmu_privacy_policy()
+    {
+        return view('university.quick_links.tmu_privacy_policy');
+    }
+
+    public function media_cover()
+    {
+        return view('university.quick_links.media_cover');
+    }
+
     public function tmu_publication()
     {
         return view('university.quick_links.journal');
@@ -732,7 +902,13 @@ public function campus_view()
 
     public function conferences()
     {
-        return view('university.research.conferences');
+        $news = News::where('status', 1)
+            ->where('category', 'Conference-Seminar')
+            ->select('event_title', 'event_full_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
+            ->orderBy('id', 'desc')
+            ->get();
+
+        return view('university.research.conferences', compact('news'));
     }
 
     public function research_publication()
@@ -798,6 +974,11 @@ public function campus_view()
     public function syllabus_course_work()
     {
         return view('university.research.syllabus_course_work');
+    }
+
+    public function syllabi_for_discipline()
+    {
+        return view('university.research.syllabi_for_discipline');
     }
 
     public function phd_faq()
@@ -950,24 +1131,68 @@ public function campus_view()
         return view('university.examination.cbcs.cbcs_agriculture');
     }
 
-    // // Management College
+    // Pupil-academic-achievements
+
+    public function pupil_academic_achievements()
+    {
+        return view('university.quick_links.pupil_academic_achievements');
+    }
+
+    // student-awards-achievements
+
+    public function student_awards_achievements()
+    {
+        return view('university.quick_links.student_awards_achievements');
+    }
+
+    // campus-gallery
+
+    public function campus_gallery()
+    {
+        return view('university.quick_links.campus_gallery');
+    }
+
+    // Seed Money 
+
+    public function seed_money_grant_scheme()
+    {
+        return view('university.quick_links.seed_money_grant_scheme');
+    }
 
 
 
-    // Law
+    // 
+    public function research_statistical_database()
+    {
+        return view('university.quick_links.research_statistical_database');
+    }
 
-   
+
+    // tmu_moot_court
+    public function tmu_moot_court()
+    {
+        return view('university.quick_links.tmu_moot_court');
+    }
+
+
+
+
+
+
+
+
+
 
     // Engineering
 
 
-// CCSIT College
+    // CCSIT College
 
 
 
-// Fine arts
+    // Fine arts
 
-   
+
 
 
 
@@ -978,7 +1203,7 @@ public function campus_view()
 
     // Physiotherapy
 
-   
+
 
 
     // Pharmacy
@@ -1001,7 +1226,7 @@ public function campus_view()
 
 
 
-// Physical Education
+    // Physical Education
 
 
 
@@ -1012,7 +1237,7 @@ public function campus_view()
 
     // CRC Placement
 
-  public function crc_home()
+    public function crc_home()
     {
         return view('university.crc.crc_home');
     }
@@ -1040,14 +1265,18 @@ public function campus_view()
 
     public function crc_team()
     {
-        $employees = Employees::orderBy('designation_id','ASC')->where('department_id',21)->where('status','Y')->get();
-        
-        return view('university.crc.crc_team',compact('employees'));
+        $employees = Employees::orderBy('designation_id', 'ASC')->where('department_id', 21)->where('status', 'Y')->get();
+
+        return view('university.crc.crc_team', compact('employees'));
     }
 
     public function our_recruiters()
     {
         return view('university.crc.our_recruiters');
+    }
+    public function crc_industry_visits()
+    {
+        return view('university.crc.crc_industry_visits');
     }
 
     public function crc_collaboration()
@@ -1062,18 +1291,37 @@ public function campus_view()
 
     public function crc_student_testi()
     {
-        $testimonials = Testimonials::where('display_crc_department','Y')
-        ->where('status','Y')
-        ->get();
-        return view('university.crc.crc_student_testi',compact('testimonials'));
+        $testimonials = Testimonials::where('display_crc_department', 'Y')
+            ->where('status', 'Y')
+            ->get();
+        return view('university.crc.crc_student_testi', compact('testimonials'));
     }
 
 
 
-// alumni  
-public function alumni_home()
+    // alumni  
+    public function alumni_home()
     {
-        return view('university.alumni.alumni');
+        $news = News::where('status', 1)
+            ->where('category', 'Alumni')
+            ->whereNotNull('monaco_image_path')
+            ->where('monaco_image_path', '!=', '')
+            ->select('event_title', 'event_description', 'event_date', 'ti_path', 'n_slug', 'monaco_image_path')
+            ->orderBy('id', 'desc')
+            ->limit(5)
+            ->get();
+
+        $activeBlogs = Blogs::where('status', 1)
+            ->orderBy('posted_at', 'DESC')
+            ->orderBy('id', 'DESC')
+            ->take(6)
+            ->get();
+
+        // Format the date and pass blogs to the view
+        foreach ($activeBlogs as $blog) {
+            $blog->formatted_date = \Carbon\Carbon::parse($blog->posted_at)->format('D, M d'); // Format date as Mon, Feb 12
+        }
+        return view('university.alumni.alumni', compact('news', 'activeBlogs'));
     }
     public function alumni_overview()
     {
@@ -1113,7 +1361,121 @@ public function alumni_home()
     }
 
 
+    // Teaching Facilities 
 
+    public function teaching_facility()
+    {
+        return view('university.teaching_facility.teaching_facility');
+    }
+    public function central_instrument_facility()
+    {
+        return view('university.teaching_facility.central_instrument_facility');
+    }
+    public function simulation_lab()
+    {
+        return view('university.teaching_facility.simulation_lab');
+    }
+    public function skill_lab()
+    {
+        return view('university.teaching_facility.skill_lab');
+    }
+    public function media_laboratory_studio()
+    {
+        return view('university.teaching_facility.media_laboratory_studio');
+    }
+    public function museum()
+    {
+        return view('university.teaching_facility.museum');
+    }
+    public function business_lab()
+    {
+        return view('university.teaching_facility.business_lab');
+    }
+    public function animal_house()
+    {
+        return view('university.teaching_facility.animal_house');
+    }
+    public function eresources_studio_lab()
+    {
+        return view('university.teaching_facility.eresources_studio_lab');
+    }
+    public function tmimt_business_lab()
+    {
+        return view('university.teaching_facility.tmimt_business_lab');
+    }
+    public function dst_nanotechnology_lab()
+    {
+        return view('university.teaching_facility.dst_nanotechnology_lab');
+    }
+
+    public function class_room_medical()
+    {
+        return view('university.teaching_facility.classroom_medical');
+    }
+    public function class_room_nursing()
+    {
+        return view('university.teaching_facility.classroom_nursing');
+    }
+
+    public function class_room_paramedical()
+    {
+        return view('university.teaching_facility.classroom_paramedical');
+    }
+
+    public function class_room_physicaleducation()
+    {
+        return view('university.teaching_facility.classroom_physicaleducation');
+    }
+
+    public function class_room_physiotherapy()
+    {
+        return view('university.teaching_facility.classroom_physiotherapy');
+    }
+
+    public function class_room_pharmacy()
+    {
+        return view('university.teaching_facility.classroom_pharmacy');
+    }
+
+    public function class_room_education()
+    {
+        return view('university.teaching_facility.classroom_education');
+    }
+
+    public function class_room_agriculture()
+    {
+        return view('university.teaching_facility.classroom_agriculture');
+    }
+
+    public function class_room_finearts()
+    {
+        return view('university.teaching_facility.classroom_finearts');
+    }
+
+    public function class_room_management()
+    {
+        return view('university.teaching_facility.classroom_management');
+    }
+
+    public function class_room_ccsit()
+    {
+        return view('university.teaching_facility.classroom_ccsit');
+    }
+
+    public function class_room_engineering()
+    {
+        return view('university.teaching_facility.classroom_engineering');
+    }
+
+    public function class_room_dental()
+    {
+        return view('university.teaching_facility.classroom_dental');
+    }
+
+    public function class_room_law()
+    {
+        return view('university.teaching_facility.classroom_law');
+    }
 
 
 

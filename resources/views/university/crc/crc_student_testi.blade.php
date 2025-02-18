@@ -51,10 +51,10 @@
         <div class="overlay" onclick="closeTestimonialModal()"></div>
         <div class="tmu-modal-box">
             <div class="close-btn" onclick="closeTestimonialModal()">x</div>
-            <div class="tmu-testimonial bg-light">
+            <div class="tmu-testimonial bg-light" style="max-height: 80vh; overflow-y: auto;">
 
                 <div class="media ">
-                    <img src="{{asset('/assets/img/testimonials/department/crc/students/abdul_india_mart_mba.jpg')}}"
+                    <img src="#"
                         class="mr-3" alt="">
                     <div class="media-body">
                         <div class="testimonial">

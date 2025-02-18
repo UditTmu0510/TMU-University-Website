@@ -8,6 +8,9 @@
             <a href="{{ route('nss.about') }}" class="custom-menu-item {{ setActive('nss.about') }}">
                 <p>About NSS</p>
             </a>
+            <a href="{{ route('nss.coordinator') }}" class="custom-menu-item {{ setActive('nss.coordinator') }}">
+                <p>Coordinator Desk</p>
+            </a>
             <a href="{{ route('nss.aims') }}" class="custom-menu-item {{ setActive('nss.aims') }}">
                 <p>Aims & Objectives</p>
             </a>
@@ -28,9 +31,6 @@
             </a>
             <a href="{{ route('nss.events') }}" class="custom-menu-item {{ setActive('nss.events') }}">
                 <p>NSS Events</p>
-            </a>
-            <a href="{{ route('nss.contactus') }}" class="custom-menu-item {{ setActive('nss.contactus') }}">
-                <p>Contact Us</p>
             </a>
         </div>
     </div>

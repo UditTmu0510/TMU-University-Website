@@ -4,6 +4,7 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/framework/sessions
 .env
 .env.backup
 .env.production
@@ -17,8 +18,13 @@ yarn-error.log
 /.idea
 /.vscode
 .DS_Store
+vendor
+*/.DS_Store
 # Ignore all files and folders in the public directory
 /public/*
+
+# Ignore style.css inside public
+!/public/style.css
 
 # Except for the assets directory
 !/public/assets/
@@ -26,7 +32,23 @@ yarn-error.log
 # Ignore everything in the assets directory
 /public/assets/*
 
+!/public/poster
+
 # Except for the CSS and JS folders
 !/public/assets/css/
 !/public/assets/js/
 !/public/assets/json/
+
+# Unignore the some of the css used by us located in the demo folder
+!/public/demos/
+/public/demos/*
+!/public/demos/store/
+/public/demos/store/*
+!/public/demos/store/store.css
+!/public/demos/speaker/
+/public/demos/speaker/*
+!/public/demos/speaker/speaker.css
+!/public/demos/insurance/
+/public/demos/insurance/*
+!/public/demos/insurance/insurance.css
+

@@ -45,7 +45,7 @@
                     <img src="{{asset('/assets/img/college_departments/dental/odo.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
-                        <h4 class="mb-2">Orthodontics & Dentofacial Orthopedics</h4>
+                        <h4 class="mb-2">Orthodontics & Dentofacial Orthopaedics</h4>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                         <div>
@@ -161,8 +161,8 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">General Human Anatomy<span class="icon">+</span></button>
             <div class="panel active">
-                <p>Through knowledge of general human anatomy with special emphasis on head and neck, cadaver dissection and detailed study of hard and soft tissues of the human body. The department boasts of an excellent museum with lifesize models and charts.
-                    The department trains the students to understand different anatomical structures of human body, especially head and neck region.</p>
+                <p>Through knowledge of general human anatomy with special emphasis on head and neck, cadaver dissection and detailed study of hard and soft tissues of the body, the department boasts of an excellent museum with lifesize models and charts.
+                    The department trains the students to understand different anatomical structures of the human body, especially the head and neck region.</p>
                 <p>It also teaches the histological features of normal structures of the body.</p>
             </div>
             <hr class="horizontal-line">
@@ -176,13 +176,13 @@
                     <li>Antibiotic Sensitivity Testing.</li>
                     <li>Lab Diagnosis of Enteric Fever, TB, Syphilis, Hepatitis and Diphtheria.</li>
                 </ul>
-                <p>The laboratory is equipped with binocular microscopes, sterilization instruments, aerobic and anaerobic culture methods and necessary nutrient media.</p>
+                <p>The laboratory is equipped with binocular microscopes, sterilisation instruments, aerobic and anaerobic culture methods and necessary nutrient media.</p>
                 <p>Complete urine analysis and haemogram with Hb estimation, blood grouping and haematocrit investigations are also undertaken here. Many histopathological slides and specimens are available for case studies.</p>
             </div>
             <hr class="horizontal-line">
             <button class="careers-accordion">Pharmocology<span class="icon">+</span></button>
             <div class="panel">
-                <p>The department trains the students to understand the therapeutic and the toxic effects of various drugs on human body as well as to acquire the knowledge of their use in managing the diseases.</p>
+                <p>The department trains the students to understand the therapeutic and the toxic effects of various drugs on the human body as well as to acquire knowledge of their use in managing diseases.</p>
             </div>
             <hr class="horizontal-line">
             <button class="careers-accordion">Physiology & Biochemistry <span class="icon">+</span></button>
@@ -192,13 +192,13 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">General Medicine <span class="icon">+</span></button>
             <div class="panel">
-                <p>The majority of medically compromised patients need oral health care, hence a working knowledge of the multitude of compromised conditions is essential for dental professionals. The curriculum during the 3rd professional year of BDS includes training in general medicine. The students acquire knowledge and skills of analyzing findings from patient’s history and signs and symptoms.
+                <p>The majority of medically compromised patients need oral health care, hence a working knowledge of the multitude of compromised conditions is essential for dental professionals. The curriculum during the 3rd professional year of BDS includes training in general medicine. The students acquire knowledge and skills in analysing findings from patient’s history and signs and symptoms.
                     Special emphasis is placed on assessment of Cardiovascular, endocrine, metabolic, respiratory, renal diseases and blood dyscrasias.</p>
             </div>
             <hr class="horizontal-line">
             <button class="careers-accordion">General Surgery <span class="icon">+</span></button>
             <div class="panel">
-                <p>In General Surgery students are familiarized with principles of general surgery and common general surgical procedures. Evaluation of patients for general anesthetic technique and management of emergencies along with intravenous seduction is taught.</p>
+                <p>In General Surgery students are familiarised with principles of general surgery and common general surgical procedures. Evaluation of patients for general aneasthetic technique and management of emergencies along with intravenous seduction is taught.</p>
             </div>
             <hr class="horizontal-line">
         </div>

@@ -13,65 +13,59 @@
                         <thead>
                             <tr>
                                 <th class="text-center">Sl. No.</th>
-                                <th>Name</th>
-                                <th>Designation</th>
-                                <th>Contact No.</th>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Designation</th>
+                                <th class="text-center">Contact No.</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>PROF. ANURAG VERMA</td>
-                                <td>Principal</td>
-                                <td>9837004699</td>
+                                <td class="text-center">1.</td>
+                                <td class="text-center">Dr. Anurag Verma</td>
+                                <td class="text-center">Chairperson</td>
+                                <td class="text-center">9837004699</td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>PROF. PIYUSH MITTAL</td>
-                                <td>Member</td>
-                                <td>9634232666</td>
+                                <td class="text-center">2.</td>
+                                <td class="text-center">Dr. Piyush Mittal</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9634232666</td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td>DR. BHUPENDRA SINGH</td>
-                                <td>Proctor</td>
-                                <td>9805229169</td>
+                                <td class="text-center">3.</td>
+                                <td class="text-center">Dr. Mukesh Singh Sikarwar</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">6395867230</td>
                             </tr>
                             <tr>
-                                <td>4</td>
-                                <td>DR. GEETANJALI SAINI</td>
-                                <td>Member</td>
-                                <td>8264401169</td>
+                                <td class="text-center">4.</td>
+                                <td class="text-center">Dr. Ramenani Hari Babu</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9347467131</td>
                             </tr>
                             <tr>
-                                <td>5</td>
-                                <td>DR. K. K. SHARMA</td>
-                                <td>Member</td>
-                                <td>9917778686</td>
+                                <td class="text-center">5.</td>
+                                <td class="text-center">Dr. K. K. Sharma</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9917778686</td>
                             </tr>
                             <tr>
-                                <td>6</td>
-                                <td>MR. DEEPAK SINGH</td>
-                                <td>Member</td>
-                                <td>9557988635</td>
+                                <td class="text-center">6.</td>
+                                <td class="text-center">Dr. Vaibhav Rastogi</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">8218290992</td>
                             </tr>
                             <tr>
-                                <td>7</td>
-                                <td>DR. PUSHPENDRA K SHUKLA</td>
-                                <td>Member</td>
-                                <td>8874595718</td>
+                                <td class="text-center">7.</td>
+                                <td class="text-center">Dr. Mayur Porwal</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9719261023</td>
                             </tr>
                             <tr>
-                                <td>8</td>
-                                <td>MR. RAGHVENDRA MISHRA</td>
-                                <td>Member</td>
-                                <td>9453976933</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>MR. VAIBHAV RATHORE</td>
-                                <td>Member</td>
-                                <td>8218656373</td>
+                                <td class="text-center">8.</td>
+                                <td class="text-center">Dr. Anuradha Pawar</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9927076411</td>
                             </tr>
                         </tbody>
                     </table>
@@ -84,8 +78,8 @@
                 <div class="col-md-8 col-sm-6 mb-3 mb-sm-0 ps-3 pe-3" style="background-color: #001055;">
                     <div class="card border-light my-3">
                         <div class="card-body text-center">
-                            <h4 class="card-title tmu-text-primary"><span>TOLL FREE ANTI RAGGING </span></h4>
-                            <p class="card-text"><span class="highlight">HELPLINE NO. 1800-180-5522 </span></p>
+                            <h4 class="card-title tmu-text-primary display-6"><span>TOLL FREE ANTI RAGGING </span></h4>
+                            <p class="card-text"><span class="highlight">24X7 HELPLINE NO. 1800-180-5522 </span></p>
                         </div>
                     </div>
                 </div>
@@ -93,66 +87,107 @@
         </div>
 
         <div class="container">
+            <h2 class="tmu-text-primary tmu-page-heading pt-md-3">
+                <span>Proctorial Board </span>
+                <span> Committee</span>
+            </h2>
             <div class="row">
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
-                                <th>Sl. No.</th>
-                                <th>Name</th>
-                                <th>Designation</th>
+                                <th class="text-center">Sl. No.</th>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Designation</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>Dr. Bhupendra Singh</td>
-                                <td>Proctor</td>
+                                <td class="text-center">1.</td>
+                                <td class="text-center">Dr. Prem Shankar Gupta</td>
+                                <td class="text-center">Proctor</td>
+                                <td class="text-center">7390980989</td>
+
                             </tr>
+
                             <tr>
-                                <td>2</td>
-                                <td>Dr. Piyush Mittal</td>
-                                <td>Member</td>
+                                <td class="text-center">2.</td>
+                                <td class="text-center">Dr. Ramenani Hari Babu</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9347467131</td>
+
                             </tr>
+
                             <tr>
-                                <td>3</td>
-                                <td>Dr. Prashant Kumar</td>
-                                <td>Member</td>
+                                <td class="text-center">3.</td>
+                                <td class="text-center">Dr. Pushpendra Kumar Shukla</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">8874595718</td>
+
                             </tr>
+
                             <tr>
-                                <td>4</td>
-                                <td>Dr. Phool Chandra</td>
-                                <td>Member</td>
+                                <td class="text-center">4.</td>
+                                <td class="text-center">Dr. K. K. Sharma</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9917778686</td>
+
                             </tr>
+
                             <tr>
-                                <td>5</td>
-                                <td>Dr. Mukesh Sikarwar</td>
-                                <td>Member</td>
+                                <td class="text-center">5.</td>
+                                <td class="text-center">Dr. Anuradha Pawar</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9927076411</td>
+
                             </tr>
+
                             <tr>
-                                <td>6</td>
-                                <td>Mr. Ashish Singhai</td>
-                                <td>Member</td>
+                                <td class="text-center">6.</td>
+                                <td class="text-center">Dr. Siddhant Verma</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">7037663322</td>
+
                             </tr>
+
                             <tr>
-                                <td>7</td>
-                                <td>Mrs. Urvashi Saxena</td>
-                                <td>Member</td>
+                                <td class="text-center">7.</td>
+                                <td class="text-center">Dr. Abhishek Anand</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9155190270</td>
+
                             </tr>
+
                             <tr>
-                                <td>8</td>
-                                <td>Dr. Abhishek Anand</td>
-                                <td>Member</td>
+                                <td class="text-center">8.</td>
+                                <td class="text-center">Dr. Mithul V Mammen</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">7025311718</td>
+
                             </tr>
+
                             <tr>
-                                <td>9</td>
-                                <td>Dr. Mithul V Mammen</td>
-                                <td>Member</td>
+                                <td class="text-center">9.</td>
+                                <td class="text-center">Mr. Akash Verma</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">8146685112</td>
+
                             </tr>
+
                             <tr>
-                                <td>10</td>
-                                <td>Mr. Shashank Tiwari</td>
-                                <td>Member</td>
+                                <td class="text-center">10.</td>
+                                <td class="text-center">Mr. Aditya Vikram Jain</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">8081176914</td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="text-center">11.</td>
+                                <td class="text-center">Ms. Urvashi Saxena</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9760661545</td>
+
                             </tr>
                         </tbody>
                     </table>

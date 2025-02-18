@@ -3,7 +3,7 @@
 
 <div class="main-content">
 					<div class="container">
-						<h1 class="tmu-text-primary tmu-page-heading"><span>Sanctioned Intake </span><span> of Medical Programme </span></h1>
+						<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Sanctioned Intake </span><span> of Medical Programme </span></h1>
 
 						<div class="table-responsive">
 							<table class="table table-bordered table-striped">
@@ -18,7 +18,7 @@
 									<tr>
 										<td class="text-center">1</td>
 										<td>MBBS (Bachelor of Medicine and Bachelor of Surgery)</td>
-										<td class="text-center">150</td>
+										<td class="text-center">250</td>
 									</tr>
 									<tr>
 										<td class="text-center">2</td>
@@ -57,12 +57,12 @@
 									</tr>
 									<tr>
 										<td class="text-center">9</td>
-										<td>MS (ENT/Otorhinolaryngology)</td>
+										<td>M.Sc. Medical Microbiology</td>
 										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">10</td>
-										<td>MS (ENT/Oto-Rhinlaryngology)</td>
+										<td>MS (ENT/Oto-Rhinolaryngology)</td>
 										<td class="text-center">4</td>
 									</tr>
 									<tr>
@@ -72,7 +72,7 @@
 									</tr>
 									<tr>
 										<td class="text-center">12</td>
-										<td>MS (Opthalomology)</td>
+										<td>MS (Ophthalmology)</td>
 										<td class="text-center">4</td>
 									</tr>
 									<tr>
@@ -83,7 +83,7 @@
 									<tr>
 										<td class="text-center">14</td>
 										<td>MS (Obstetrics and Gynaecology)</td>
-										<td class="text-center">8</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">15</td>

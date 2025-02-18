@@ -47,8 +47,14 @@
             <a href="{{ route('phd.intake') }}" class="custom-menu-item {{ setActive('phd.intake') }}">
                 <p>Intake of Ph.D. Programmes</p>
             </a>
+            <a href="{{ route('research.scholar') }}" class="custom-menu-item {{ setActive('research.scholar') }}">
+                <p>Research Scholars</p>
+            </a>
             <a href="{{ route('syllabus.course.work') }}" class="custom-menu-item {{ setActive('syllabus.course.work') }}">
                 <p>Syllabus of Course Work</p>
+            </a>
+            <a href="{{ route('syllabi.for.discipline') }}" class="custom-menu-item {{ setActive('syllabi.for.discipline') }}">
+                <p>Syllabus of Discipline Specific Course Work Applicable</p>
             </a>
             <a href="{{ route('phd.faq') }}" class="custom-menu-item {{ setActive('phd.faq') }}">
                 <p>FAQs</p>

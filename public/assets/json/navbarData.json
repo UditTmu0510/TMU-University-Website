@@ -1,0 +1,32 @@
+[
+    {
+        "id": 7420,
+        "text": "About TMU",
+        "imageURL": "university.svg"
+    },
+    {
+        "id": 8420,
+        "text": "Colleges",
+        "imageURL": "college.svg"
+    },
+    {
+        "id": 9420,
+        "text": "Programmes",
+        "imageURL": "programmes.svg"
+    },
+    {
+        "id": 10420,
+        "text": "Research",
+        "imageURL": "research.svg"
+    },
+    {
+        "id": 11420,
+        "text": "Examination",
+        "imageURL": "examination.svg"
+    },
+    {
+        "id": 12420,
+        "text": "Quick Links",
+        "imageURL": "quick-links.svg"
+    }
+]

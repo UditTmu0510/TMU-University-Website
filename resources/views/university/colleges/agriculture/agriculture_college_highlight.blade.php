@@ -26,7 +26,7 @@
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Faculty Strength</div>
-                            <p> The TMU College of Agricultural Sciences boasts a robust faculty strength of 45
+                            <p> The TMU’s College of Agriculture Sciences boasts a robust faculty strength of 45
                                 (Forty and Five) highly
                                 qualified and experienced members.</p>
                         </div>
@@ -34,14 +34,13 @@
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Guest Faculty </div>
-                            <p>The TMU College of Agricultural Sciences has four (4) guest faculty members.</p>
+                            <p>The TMU College of Agriculture Sciences has four (4) guest faculty members.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Labs</div>
-                            <p>The TMU College of Agricultural Sciences has the following labs: (i) Pre-Clinical
-                                Labs: 4, (ii) Ceramic & Casting Labs: 4 </p>
+                            <p>The TMU College of Agricultural Sciences has 13 laboratories.</p>
                         </div>
                     </div>
 
@@ -55,7 +54,7 @@
                     <div class="timeline-item right wow slideInLeft">
                         <div class="timeline-text">
                             <div class="timeline-date">E-Journals & E-Books</div>
-                            <p> The TMU College of Agricultural Sciences provides access to e-journals and e-books
+                            <p> The TMU College of Agriculture Sciences provides access to e-journals and e-books
                                 through the EBSCO Database, DELNET, and Clinical Key.</p>
                         </div>
                     </div>

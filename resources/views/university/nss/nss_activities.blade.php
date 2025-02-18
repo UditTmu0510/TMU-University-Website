@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     <h3 class="mb-2 pb-0 tmu-text-primary"><span>Regular Activities </span><span> of NSS</span></h3>
-                    <p class="mb-4">Regular activities includes functional literacy and non formal education,
+                    <p class="mb-4 text-justify">Regular activities includes functional literacy and non formal education,
                         plantation, preservation and up keeping of trees, construction and repair of roads, cleaning
                         of village ponds and wells, construction and laying of parks, health education and primary
                         health care, first aid awareness, anti drug addiction drives, AIDS awareness, advocating

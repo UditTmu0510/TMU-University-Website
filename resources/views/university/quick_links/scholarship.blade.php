@@ -16,9 +16,9 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-6 mt-5 mb-1">
-                        <h4 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
-                                Scholarship</span></h4>
+                    <div class="col-lg-12 mt-2 mb-1">
+                        <h3 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
+                                Scholarship</span></h3>
                         <ol class="m-ol-list ps-5 text-justify">
                             <li>All other scholarships are additional scholarships that are added on
                                 top of the Academic Scholarship.</li>
@@ -27,13 +27,6 @@
                                 (Academic Scholarship + 3 Additional Scholarship/Concessions)</li>
                             <li>These scholarships are applied in descending order, in order to
                                 provide the maximum benefit to the<br />candidate.</li>
-                        </ol>
-                    </div>
-
-                    <div class="col-lg-6 mt-5 mb-0">
-                        <h4 class="tmu-text-primary mb-1 px-4"><span>Academic </span><span>
-                                Scholarship</span></h4>
-                        <ol class="m-ol-list ps-5 text-justify">
                             <li>An additional 5% Concession on Net Tuition Fee is applicable for
                                 candidates who choose to pay their Course Fees in Annual Mode i.e.
                                 Depositing their Course Fee for an entire year together.</li>
@@ -270,19 +263,18 @@
                                 studying / seeking admission in the university with the condition that it will be given
                                 to the sibling whose fee is lesser and it shall be applicable only on first year
                                 tuition fee and not on subsequent years.</li>
-                            <li>20% Discount in tuition fee(through-out the duration of programme i.e- from
-                                II to IV year) to the existing polytechnic students who take admission in B.Tech
-                                programmes of the University.However,such students shall not be eligible to avail benefit
-                                of other scholarship schemes being provided by the university.</li>
-                            <li>Scholarship on case to case basis to differently-abled students will be
-                                given for entire programme.The amount of scholarship shall be such as based upon the level of
-                                disability (obtained from District Hospital) being produced.The details of the
-                                scholarship shall be shared subsequently once decided by the committee constituted for the purpose. </li>
+                            <li>20% discount in tuition fee (through-out the duration of programme i.e from II to IV year) to the existing polytechnic students who take admission in B.Tech programmes of the University. 
+                                However, such students shall not be eligible to avail benefit of other scholarship schemes being provided by the university.
+                            </li>
+                            <li>Scholarship on case to case basis to differently-abled students will be given for entire programme.
+                                 The amount of scholarship shall be such as based upon the level of disability which shall be decided on the basis of certificate of disability 
+                                 (obtained from District Hospital) being produced. The details of scholarship shall be shared subsequently once decided by 
+                                 the committee constituted for the purpose.</li>
                             <li>Multiple scholarship will not be available.</li>
                         </ul>
                     </div>
                     <hr class="horizontal-line">
-                    <button class="careers-accordion">Scholarship for Sports - persons for the Academic Session 2024-25 <span class="icon">+</span></button>
+                    <button class="careers-accordion">Scholarship for Sports - persons for the Academic Session 2025-26 <span class="icon">+</span></button>
                     <div class="panel">
                         <h3 class="tmu-text-primary mb-3 mt-3"><span>A. Scholarship for entire </span><span> duration of program </span></h3>
                         <div class="table-responsive  mb-4">
@@ -509,8 +501,8 @@
                         <div class="promo promo-light p-4 p-md-5 mb-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-lg">
-                                    <h3 class="tmu-text-primary"><span>Admissions are now open for </span><span> Academic Year 2024-25</span></h3>
-                                    <span class="fs-16"> Join us and embark on a journey of knowledge, growth, and success. </span>
+                                    <h3 class="tmu-text-primary"><span>Admissions open for </span><span> Academic Year 2025-26</span></h3>
+                                    <span class="fs-16"> Join us to begin your journey of knowledge, growth, and success through our admissions process. </span>
                                 </div>
                                 <div class="col-12 col-lg-auto mt-4 mt-lg-0">
                                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 py-2 m-0">Enroll Now!</a>
@@ -519,7 +511,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p class="mb-3 mt-2"><b class="tmu-color-blue"><i class="uil-comment-alt-notes"></i> Note:</b> In case of any clarification / combination, the decision of the Director (Admissions) will be final & binding.</p>
+                        <p class="mb-3 mt-2"><b class="tmu-color-blue"><i class="uil-comment-alt-notes"></i> Note:</b> In case of any clarification / confusion, the decision of the Director (Admissions) will be final & binding.</p>
                         <div class="col-md-4 ">
                             <button class="tmu-btn btn-3 py-2 d-block mb-4 fs-14 text-center"><a href="http://scholarship.up.gov.in/" target="blank">Scholarship for SC/ST/OBC <i class="bi-arrow-right"></i></a></button>
                         </div>

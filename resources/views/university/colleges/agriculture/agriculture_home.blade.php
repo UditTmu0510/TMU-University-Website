@@ -12,8 +12,7 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to <br> <span style="font-weight:700!important;">College of Agriculture</span> Sciences</h1>
-					<h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to <span> College of Agriculture</span> Sciences</h1>
+					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">College of Agriculture</span> Sciences</h1>
 				
 					<a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
@@ -133,7 +132,7 @@
 
 		<div class="box-container">
 			<div class="box">
-				<h1 class="college-main-heading">Teerthanker Mahaveer College of Agriculture Sciences</h1>
+				<h2 class="college-main-heading">Teerthanker Mahaveer College of Agriculture Sciences</h2>
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">The College of Agricultural Sciences, established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the field of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
@@ -165,7 +164,7 @@
 			<div class="tab-content second ps-5 px-md-5" id="myTabContent">
 				<div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
 					<h3>Key Highlights</h3>
-					<p>Being an ICAR accredited Private University in UP, the Teerthanker Mahaveer University offers B.Sc. (Hons.) Agriculture ,M.Sc. Agronomy ,M.Sc. Plant Pathology and M.Sc. Soil Science.
+					<p>Being an ICAR accredited Private University in UP, the Teerthanker Mahaveer University offers B.Sc. (Hons.) Agriculture, M.Sc. Agronomy, M.Sc. Plant Pathology, and M.Sc. Soil Science.
 						<br><br>
 						The college always emphasizes research and innovation in agriculture. Faculty members and students actively engage in research projects, focusing on sustainable agricultural practices, crop improvement, soil health, pest management, and other relevant areas.
 						<br><br>
@@ -182,8 +181,8 @@
 					<h3>Placement/Internship</h3>
 					<p>Seeds of knowledge sprout into promising careers in the agricultural industry!</p>
 					<ul class="m-ol-list ps-4 mb-0">
-						<li>Internship Opportunities: The college facilities global internship opportunities for its students at high packages of up to 18 LPA.</li>
-						<li>Skill Enhancement Programs: The college organises skill enhancement programs to equip students with the necessary competencies and skills required by the industry. Its student-centric approach makes it the best private agriculture college in UP.</li>
+						<li>Internship Opportunities: The college facilitates global internship opportunities for its students at high packages of up to 18 LPA.</li>
+						<li>Skill Enhancement Programs: The college organises skill enhancement programs to equip students with the necessary competencies and skills required by the industry. Its student-centric approach” should be revised for clarity: “The student-centric approach of the college.</li>
 						<li>Personalised Training: With the help of trained professionals and personalised career guidance and counselling services students are assisted in identifying their career goals, exploring different job opportunities, and making informed decisions. This support helps students align their interests, skills, and aspirations with suitable career paths in the agriculture sector.</li>
 					</ul>
 					<div class="read-more-content mt-0">
@@ -211,7 +210,7 @@
 					<h3>Infrastructure</h3>
 					<p>It offers state-of-the-art facilities and takes pride in having modular learning labs with industry-standard equipment & facilities in agricultural sciences. <br><br>
 						Availability of a dedicated weather laboratory within the college premises, facilitating meteorological research and analysis for better agricultural planning and decision-making. <br><br>
-						The College of Agriculture Sciences has well-established modern laboratories as per ICAR norms. It has modern scientific equipment and farm facilities along with competent (Ph.D. and NET Qualified) faculties from different reputed universities across the country.</p>
+						The College of Agriculture Sciences has well-established modern laboratories as per ICAR norms. The college is equipped with modern scientific equipment along with competent (Ph.D. and NET Qualified) faculties from different reputed universities across the country.</p>
 				</div>
 			</div>
 		</div>
@@ -243,8 +242,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                    </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -383,7 +381,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -561,7 +559,7 @@
 
 		<!--  -->
 		<div class="container hh1 mb-3">
-			<h2 Class="tmu-text-primary text-center"><span> Frequently Asked </span><span> Questions</span></h2>
+			<h2 Class="tmu-text-primary text-center"><span> Why Choose </span><span> College of Agriculture Sciences</span></h2>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="card-body">
@@ -598,7 +596,7 @@
 							<p class="mb-2">We have robust connections with various industries, offering students real-world insights and enhancing their employability.</p>
 						</div>
 						<hr class="horizontal-line">
-						<button class="careers-accordion">Explore Top-Notch Placement Opportunities<span class="icon">+</span></button>
+						<button class="careers-accordion">The Essence of Our Campus<span class="icon">+</span></button>
 						<div class="panel">
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>1. Modern </span><span> Classrooms </span></h3>
 							<p class="mb-2">Our classrooms are equipped with modern amenities to facilitate interactive learning sessions.</p>
@@ -618,7 +616,7 @@
 							<p class="mb-2">With shopping stores and cafeterias on campus, students have access to essential services and leisure activities.</p>
 						</div>
 						<hr class="horizontal-line">
-						<button class="careers-accordion">Explore Top-Notch Placement Opportunities <span class="icon">+</span></button>
+						<button class="careers-accordion">Explore Top-Notch Opportunities <span class="icon">+</span></button>
 						<div class="panel">
 							<p class="mb-2">TMU&rsquo;s College of Agriculture Sciences is proud of its outstanding placement record and industry recognition:</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>1. ICAR </span><span>Accreditation </span></h3>
@@ -635,14 +633,14 @@
 							<p class="mb-2">Our strong industry affiliations provide invaluable insights and open doors to various career paths.</p>
 						</div>
 						<hr class="horizontal-line">
-						<button class="careers-accordion">Core Programs Offered <span class="icon">+</span></button>
+						<button class="careers-accordion">Core Programmes Offered <span class="icon">+</span></button>
 						<div class="panel">
 							<p><span style="font-weight: 400;">We offer a range of programs designed to meet the diverse interests and career aspirations of our students:</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span> 1. BSc (H) Agriculture </span><span> ICAR Accredited</span></h3>
 							<p class="mb-2">Our BSc (H) Agriculture program is ICAR accredited, providing a rigorous curriculum and practical training.</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span> 2. MSc Agriculture </span><span> (Agronomy)</span></h3>
 							<p class="mb-2">Our MSc Agriculture (Agronomy) program focuses on advanced agricultural practices and research.</p>
-							<h3 class="tmu-text-primary mb-1 fs-16"><span> 3. Hands-On Learning and </span><span> Practical Knowledge</span></h3>
+							<h3 class="tmu-text-primary mb-1 fs-16"><span> 3. Hands-on Learning and  </span><span> Practical Knowledge.</span></h3>
 							<p class="mb-2">We emphasise hands-on learning and practical knowledge to ensure our students are industry-ready:</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span> 4. Greenhouses and </span><span> Farm Lands</span></h3>
 							<p class="mb-2">Students gain practical experience in our greenhouses and extensive farm lands.</p>
@@ -664,7 +662,7 @@
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>2. Roles in Agri-Business</span><span> Companies</span></h3>
 							<p class="mb-2">There are ample opportunities in agri-business companies, offering roles in management, sales, and consultancy.</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>3. Opportunities in </span><span> Public Sector</span></h3>
-							<p class="mb-2">Graduates can work in public sector roles such as agriculture research scientists, food inspectors, and more.</p>
+							<p class="mb-2">Graduates can work in public sector roles such as agricultural research scientists, food inspectors, and more.</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>4. Higher Studies and </span><span> Specialization</span></h3>
 							<p class="mb-2">Students can opt for higher studies and specialise in their preferred areas of interest.</p>
 						</div>
@@ -673,7 +671,7 @@
 						<div class="panel">
 							<p>Life at TMU&rsquo;s College of Agriculture Sciences is vibrant and enriching:</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>1. Vibrant Campus </span><span> Life</span></h3>
-							<p>Our campus life is vibrant, with numerous events and activities that keep students engaged.</p>
+							<p>Our campus life is vibrant, with numerous engaging events and activities that keep students engaged.</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>2. Supportive Learning </span><span> Environment</span></h3>
 							<p>We provide a supportive learning environment, ensuring that students receive the best education and guidance.</p>
 							<h3 class="tmu-text-primary mb-1 fs-16"><span>3. Community </span><span> Engagement</span></h3>
@@ -684,7 +682,7 @@
 						<hr class="horizontal-line">
 						<button class="careers-accordion">Conclusion <span class="icon">+</span></button>
 						<div class="panel">
-							<p>In conclusion, TMU’s College of Agriculture Sciences offers a unique blend of theoretical knowledge, practical training, and industry exposure, making it the ideal choice for aspiring agricultural professionals. Our comprehensive programs, experienced faculty, and excellent placement opportunities ensure that our students are well-prepared for successful careers in agriculture.</p>
+							<p>In conclusion, TMU’s College of Agriculture Sciences offers a unique blend of theoretical knowledge, practical training, and industry exposure, making it the ideal choice for aspiring agricultural professionals. Our highly comprehensive programs, experienced faculty, and excellent placement opportunities ensure that our students are well-prepared for successful careers in agriculture.</p>
 						</div>
 						<hr class="horizontal-line">
 						<button class="careers-accordion">FAQs:<span class="icon">+</span></button>

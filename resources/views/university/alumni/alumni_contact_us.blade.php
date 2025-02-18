@@ -4,8 +4,8 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Get In Touch </span></h1>
-            <h3 class="text-white">For any query related to College of dental, you may drop message or contact the
-                officials at college.</h3>
+            <h3 class="text-white">For any query related to Alumni Department, you may drop message or contact the
+                officials at Department.</h3>
         </div>
         <div class="container contact-section">
             <div class="row">
@@ -49,7 +49,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span>alumni@<br>tmu.ac.in</span>
+                                <span class="text-break">alumni@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>

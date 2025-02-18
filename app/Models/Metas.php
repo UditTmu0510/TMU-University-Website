@@ -66,7 +66,51 @@ class Metas extends Model
         return app(EngineManager::class)->engine('algolia');
     }
 
-
+public static function fetchMetaTagsBySlug(array $slugs)
+    {
+       
+        $slugs = array_pad($slugs, 5, 'na');
+    
+   
+        $query = self::where('status', 'Y');
+    
+        if (!isset($slugs[0]) || $slugs[0] === 'na') {
+            $query->where('slug1', 'na')
+                  ->where('slug2', 'na')
+                  ->where('slug3', 'na')
+                  ->where('slug4', 'na')
+                  ->where('slug5', 'na');
+        } else {
+            $query->where('slug1', $slugs[0]);
+    
+            if (isset($slugs[1]) && $slugs[1] !== 'na') {
+                $query->where('slug2', is_numeric($slugs[1]) ? 'na' : $slugs[1]);
+            } else {
+                $query->where('slug2', 'na');
+            }
+    
+            if (isset($slugs[2]) && $slugs[2] !== 'na') {
+                $query->where('slug3', is_numeric($slugs[2]) ? 'na' : $slugs[2]);
+            } else {
+                $query->where('slug3', 'na');
+            }
+    
+            if (isset($slugs[3]) && $slugs[3] !== 'na') {
+                $query->where('slug4', is_numeric($slugs[3]) ? 'na' : $slugs[3]);
+            } else {
+                $query->where('slug4', 'na');
+            }
+    
+            if (isset($slugs[4]) && $slugs[4] !== 'na') {
+                $query->where('slug5', $slugs[4]);
+            } else {
+                $query->where('slug5', 'na');
+            }
+        }
+    
+       
+        return $query->first();
+    }
   
 }
 

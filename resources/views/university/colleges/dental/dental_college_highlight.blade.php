@@ -11,7 +11,7 @@
                 <header class="section-header text-center wow zoomIn">
                     <h1 class="tmu-text-primary tmu-page-heading mb-sm-5 mt-md-4"><span>College </span><span> Highlights</span></h1>
                 </header>
-                <div class="timeline ">
+                <div class="timeline">
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
                             <div class="timeline-date">2005</div>
@@ -28,26 +28,26 @@
                     </div>
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Fully Equipped Specialty Clinics </div>
-                            <p>The TMU Dental College & Research Centre has nine (9) fully equipped specialty clinics.</p>
+                            <div class="timeline-date">Fully Equipped Speciality Clinics</div>
+                            <p>The TMU Dental College & Research Centre has nine (9) fully equipped speciality clinics.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft">
                         <div class="timeline-text">
-                            <div class="timeline-date">Satelite Clinic</div>
+                            <div class="timeline-date">Satellite Clinic</div>
                             <p>The TMU Dental College & Research Centre operates three (3) satellite clinics: two in rural areas and one in a medical hospital.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Mobile Dental Van </div>
+                            <div class="timeline-date">Mobile Dental Van</div>
                             <p>The TMU Dental College & Research Centre has two mobile dental vans, each equipped with four dental chairs.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Labs</div>
-                            <p>The TMU Dental College & Research Centre has the following labs: (i) Pre-Clinical Labs: 4, (ii) Ceramic & Casting Labs: 4 </p>
+                            <p>The TMU Dental College & Research Centre has the following labs: (i) Pre-Clinical Labs: 4, (ii) Ceramic & Casting Labs: 4</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Professional Membership</div>
-                                <p>The TMU Dental College & Research Centre is affiliated with the Indian Dental Association and the Restorative Association of Nine Specialties of Dentistry.</p>
+                                <p>The TMU Dental College & Research Centre is affiliated with the Indian Dental Association and the Restorative Association of Nine Specialities of Dentistry.</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">
@@ -86,53 +86,82 @@
                 <h2 class="tmu-text-primary tmu-page-heading mt-md-5 mb-md-5"><span>Community-based </span><span> Learning Facilities</span></h2>
                 <div class="row gutter-10 mt-md-4" data-lightbox="gallery">
                     <h3 class="tmu-text-primary mb-0"><span> Amroha Satellite </span><span> Centre</span></h3>
-                    <div class="col-md-3 col-sm-6 mt-1">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" alt="Gallery Thumb 1">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/3.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/3.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 ">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" alt="Gallery Thumb 2">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/4.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Amroha Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Amroha</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/4.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
+                    
                     <br />
+                    
                     <h3 class="tmu-text-primary mb-0 mt-md-3"><span>Haryana Satellite </span><span> Centre</span></h3>
-                    <div class="col-md-3 col-sm-6 mt-1">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" alt="Gallery Thumb 1">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 1"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/1.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/1.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 ">
-                        <div class="position-relative">
-                            <img class="d-block w-100" src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" alt="Gallery Thumb 2">
-                            <div class="bg-overlay">
-                                <div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
-                                    <a href="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item" title="Image 2"><i class="uil uil-plus"></i></a>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                            <div class="team-image">
+                                <img src="{{asset('/assets/img/college_departments/dental/satellite/2.jpeg')}}" height="150px" alt="">
+                            </div>
+                            <div class="team-desc p-2">
+                                <div class="team-title pt-0">
+                                    <h4 class="fs-14">Haryana Satellite Centre<br /></h4>
+                                    <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>Haryana</span>
+                                    <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/satellite/geotag/2.jpeg')}}" download>
+                                        Download Geo Tag Image
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Job Experience End -->
         </div>
+
+        <!-- Job Experience End -->
     </div>
+</div>
 </div>
 </div>
 

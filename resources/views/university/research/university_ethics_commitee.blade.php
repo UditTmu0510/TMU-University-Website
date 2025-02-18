@@ -1,20 +1,31 @@
 @extends('layouts.university.departments.research_cell_with_sidebar')
 @section('content')
 
-<div class="col-12 col-md-9 col-lg-10 mt-3 mt-sm-0 pt-5">
-    <div class="row mx-0 mb-3">
-        <h1 class="tmu-text-primary tmu-page-heading"><span> University Level </span><span> Research Ethics Committee</span></h1>
-        <object data="{{asset('/assets/pdf/research/university_ethics_committee.pdf')}}" type="application/pdf" width="100%" height="1150px">
-            <p>Your web browser doesn't have a PDF plugin. Instead you can</p>
-            <center><a type="button" class="btn btn-success btn-lg btn-rounded text-lg waves-effect waves-light" href="{{asset('/assets/pdf/research/university_ethics_committee.pdf')}}" download type="application/pdf"><i class="fa fa-download fa-2x pr-2" aria-hidden="true"></i>Click here to download PDF file.</a></center>
-        </object>
-    </div>
-    <!-- container ends -->
-</div>
-</div>
-</div>
-</div>
-</section><!-- #content end -->
+<div class="main-content">
+    <div class="container">
 
+        <div class="row mx-0 mb-3">
+
+            <div class="container d-none d-sm-block">
+                <div style="text-align:center">
+                    <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Ethics </span><span> Committee</span>
+                    </h1>
+                    <iframe src="{{asset('/assets/pdf/research/Research_Ethics_Committee_2023_002(R).pdf')}}"
+                        frameborder="0" height="800px" width="100%"></iframe>
+                </div>
+            </div>
+            <div class="container d-block d-sm-none mb-3">
+                <div style="text-align:center">
+                    <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Ethics </span><span> Committee</span>
+                    </h1>
+                    <a href="{{asset('/assets/pdf/research/Research_Ethics_Committee_2023_002(R).pdf')}}"
+                        class="tmu-btn btn-4" download>Download PDF</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 @endsection

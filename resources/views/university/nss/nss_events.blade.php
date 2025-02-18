@@ -1,7 +1,17 @@
 @extends('layouts.university.departments.nss_with_sidebar')
 @section('content')
 
+<style >
+	.entry-title h3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    height: 3em;
+}
 
+</style>
 
 
 <div class="main-content">
@@ -11,30 +21,34 @@
 		<div class="container">
 			<div class="row">
 				<div class="clear"></div>
+
+
+				@foreach ($sortedNews as $item)
 				<div class="entry event col-lg-4 col-md-6 col-sm-6 mb-3">
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
-								<img src="https://www.tmu.ac.in/uploads/events/past_event/421_title_image.webp"
+								<img src="{{asset($item->ti_path)}}"
 									alt="Event-1">
 							</a>
 						</div>
 						<div class="entry-meta mb-1">
 							<ul>
-								<li><span class="badge event-badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>October 07<sup>th</sup>, 2023</span></li>
+								<li><span class="badge event-badge bg-warning text-dark py-1 px-2"><i class="uil-calendar-alt"></i>{{ \Carbon\Carbon::parse($item->event_date)->format('F jS, Y') }}</li>
 							</ul>
 						</div>
 						<div class="entry-title title-sm ">
-							<h3 class="tmu-text-primary fs-16"><span>College of Law and Legal Studies conducted the NSS programme</span></h3>
+							<h3 class="tmu-text-primary fs-16"><span>{{ Str::limit(html_entity_decode($item->event_title), 45) }}</span></h3>
 						</div>
 						<div class="entry-content mt-1" style="text-align: right;">
-							<a href=""
+							<a href="{{ url('news/' . $item->n_slug) }}"
 								class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
 						</div>
 					</div>
 				</div>
+				@endforeach
 
-				<div class="entry event col-lg-4 col-md-6 col-sm-6 mb-3">
+				<!-- <div class="entry event col-lg-4 col-md-6 col-sm-6 mb-3">
 					<div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow card border">
 						<div class="entry-image">
 							<a href="#">
@@ -49,7 +63,7 @@
 						</div>
 						<div class="entry-title title-sm ">
 
-							<h3 class="tmu-text-primary fs-16"><span>NSS Wing of TMU Observes "National Youth Day  - <br> 2022"</span></h3>
+							<h3 class="tmu-text-primary fs-16"><span>NSS Wing of TMU Observes "National Youth Day - <br> 2022"</span></h3>
 						</div>
 						<div class="entry-content mt-1" style="text-align: right;">
 							<a href=""
@@ -144,7 +158,7 @@
 								class="tmu-btn btn-1 m-0 py-1 px-2" style="font-size:12px">View More</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

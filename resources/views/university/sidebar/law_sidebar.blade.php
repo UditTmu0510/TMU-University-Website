@@ -5,11 +5,14 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('law.home') }}" class="custom-menu-item {{ setActive('law.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('law.overview') }}" class="custom-menu-item {{ setActive('law.overview') }}">
                 <p>Overview</p>
             </a>
             <a href="{{ route('law.college.highlight') }}" class="custom-menu-item {{ setActive('law.college.highlight') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('law.dean') }}" class="custom-menu-item {{ setActive('law.dean') }}">
                 <p>Dean</p>
@@ -33,7 +36,7 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{ route('law.time.table') }}" class="custom-menu-item {{ setActive('law.time.table') }}">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>

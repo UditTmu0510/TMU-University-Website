@@ -6,8 +6,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Get In Touch </span></h1>
-            <h3 class="text-white">For any query related to College of physiotherapy, you may drop message or contact the
-                officials at college.</h3>
+            <h3 class="text-white">For any queries related to the Department of Physiotherapy, you may drop a message or contact the officials at the college.</h3>
         </div>
 
         @if(session('success'))
@@ -20,7 +19,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <h3 class="tmu-text-primary"><span>Need more</span><span> Information</span></h3>
-                    <p>Have questions or feedback?</p>
                     <form action="{{ route('contact.store') }}" method="POST">
                         @csrf
                         <div class="row mb-3">

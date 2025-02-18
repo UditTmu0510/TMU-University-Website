@@ -5,11 +5,14 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('agriculture.home') }}" class="custom-menu-item {{ setActive('agriculture.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('agriculture_overview') }}" class="custom-menu-item {{ setActive('agriculture_overview') }}">
                 <p>Overview</p>
             </a>
             <a href="{{ route('agriculture.college.highlight') }}" class="custom-menu-item {{ setActive('agriculture.college.highlight') }}">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{ route('agriculture.dean') }}" class="custom-menu-item {{ setActive('agriculture.dean') }}">
                 <p>Dean's Desk</p>
@@ -48,13 +51,16 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{ route('agriculture.timetable') }}" class="custom-menu-item {{ setActive('agriculture.timetable') }}">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="https://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
             <a href="{{ route('agriculture.anti.ragging') }}" class="custom-menu-item {{ setActive('agriculture.anti.ragging') }}">
                 <p>Anti-Ragging Committee</p>
+            </a>
+            <a href="{{ route('agriculture.orientation') }}" class="custom-menu-item {{ setActive('agriculture.orientation') }}">
+                <p>Orientation Programme</p>
             </a>
         </div>
 

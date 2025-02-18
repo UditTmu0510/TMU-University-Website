@@ -17,8 +17,9 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    public function boot(): void
+  public function boot()
     {
-        //
+        require_once app_path('helpers.php'); // This ensures the helper file is always loaded.
     }
+
 }

@@ -52,14 +52,14 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Coordinating Person: </span>
-                                <span>Dr. Aditya Kr. Sharma, Registrar & Coordinator - IQAC Cell </span>
+                                <span>Dr. Nishith Kumar, Director- IQAC Cell </span>
                             </div>
                         </div>
                         <div>
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email:</span>
-                                <span>iqac@tmu.ac.in</span>
+                                <span>director.iqac@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>

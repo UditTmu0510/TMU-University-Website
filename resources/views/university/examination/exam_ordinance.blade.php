@@ -29,7 +29,7 @@
                                             class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
                                     href="{{asset('/assets/pdf/policy/Examination_Ordinance.pdf')}}"
-                                    download="Examination_Ordinance.pdf')}}" data-original-title="Download"><i
+                                    download="Examination_Ordinance.pdf" data-original-title="Download"><i
                                             class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
@@ -66,7 +66,7 @@
                                             class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
                                     href="{{asset('/assets/pdf/policy/Examination_Ordinance1.pdf')}}"
-                                    download="Examination_Ordinance1.pdf')}}" data-original-title="Download"><i
+                                    download="Examination_Ordinance1.pdf" data-original-title="Download"><i
                                             class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
@@ -80,7 +80,7 @@
                                             class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
                                     href="{{asset('/assets/pdf/policy/nursing_ordinance.pdf')}}"
-                                    download="nursing_ordinance.pdf')}}" data-original-title="Download"><i
+                                    download="nursing_ordinance.pdf" data-original-title="Download"><i
                                             class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                         <tr>
@@ -98,7 +98,7 @@
                                             class="fa-solid fa-file-pdf"></i></a></td>
                             <td style="padding-left:0px;text-align:center"><a data-tooltip data-placement="bottom"
                                     href="{{asset('/assets/pdf/Academic_Ordinance_2022.pdf')}}"
-                                    download="Academic_Ordinance_2022.pdf')}}" data-original-title="Download"><i
+                                    download="Academic_Ordinance_2022.pdf" data-original-title="Download"><i
                                             class="fa-solid fa-file-pdf"></i></a></td>
                         </tr>
                     </tbody>

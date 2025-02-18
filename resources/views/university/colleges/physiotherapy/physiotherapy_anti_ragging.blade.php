@@ -4,7 +4,7 @@
 <div class="main-content">
 
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Anti Ragging </span><span> Committee</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Anti Ragging </span><span> Committee</span></h1>
 
     <div class="container">
         <div class="row mb-3">
@@ -13,38 +13,38 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No. </th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center">1</td>
-                            <td>Ms. Shivanee M. Kaul</td>
-                            <td>Chairperson</td>
-                            <td>9568232444</td>
+                            <td class="text-center">1.</td>
+                            <td class="text-center">Ms. Shivanee M. Kaul</td>
+                            <td class="text-center">Chairperson</td>
+                            <td class="text-center">9568232444</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">2</td>
-                            <td>Mr. Farhan Khan</td>
-                            <td>Proctor</td>
-                            <td>9793099084</td>
+                            <td class="text-center">2.</td>
+                            <td class="text-center">Mr. Harish Sharma</td>
+                            <td class="text-center">Proctor</td>
+                            <td class="text-center">9528319985</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">3</td>
-                            <td>Ms. Komal Nagar</td>
-                            <td>Member</td>
-                            <td>8218532272</td>
+                            <td class="text-center">3.</td>
+                            <td class="text-center">Ms. Priya Sharma</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8527872293</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">4</td>
-                            <td>Ms. Samarpita Senapati</td>
-                            <td>Member Secretary & FIP</td>
-                            <td>6383218957</td>
+                            <td class="text-center">4.</td>
+                            <td class="text-center">Ms. Samarpita Senapati</td>
+                            <td class="text-center">Member Secretary & FIP</td>
+                            <td class="text-center">6383218957</td>
                         </tr>
                     </tbody>
                 </table>
@@ -56,8 +56,8 @@
                 <div class="col-md-8 mb-3 mb-sm-0" style="background-color: #001055;">
                     <div class="card border-light my-3">
                         <div class="card-body text-center">
-                            <h3 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h3>
-                            <p class="card-text h1 tmu-color">HELPLINE NO. 1800-180-5522 </p>
+                            <h4 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h4>
+                            <p class="card-text h1 tmu-color">24X7 HELPLINE NO. 1800-180-5522 </p>
                         </div>
                     </div>
                 </div>
@@ -71,32 +71,38 @@
                     <thead>
                         <tr>
                             <th class="text-center">Sl. No.</th>
-                            <th>Name</th>
-                            <th>Designation</th>
-                            <th>Contact No.</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Designation</th>
+                            <th class="text-center">Contact No.</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                        <tr>
-                            <td class="text-center">1</td>
-                            <td>Mr. Farhan Khan</td>
-                            <td>Proctor</td>
-                            <td>9793099084</td>
+                            <td class="text-center">1.</td>
+                            <td class="text-center">Mr. Harish Sharma</td>
+                            <td class="text-center">Proctor</td>
+                            <td class="text-center">9528319985</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">2</td>
-                            <td>Ms. Komal Nagar</td>
-                            <td>Member</td>
-                            <td>8218532272</td>
+                            <td class="text-center">2.</td>
+                            <td class="text-center">Mr. Nand Kishore </td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">8979307065</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">3</td>
-                            <td>Ms. Priya Sharma </td>
-                            <td>Member</td>
-                            <td>8527872293</td>
+                            <td class="text-center">3.</td>
+                            <td class="text-center">Ms. Shipra</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">9711592146</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">4.</td>
+                            <td class="text-center">Ms. Samarpita Senapati</td>
+                            <td class="text-center">Member</td>
+                            <td class="text-center">6383218957</td>
                         </tr>
                     </tbody>
                 </table>

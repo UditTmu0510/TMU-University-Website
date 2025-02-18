@@ -13,10 +13,10 @@
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of </span><span>
 							Periodontology </span></h1>
-					<p class="about-p mb-4 text-justify">Department of Periodontology deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
+					<p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Periodontology') }}">Department of Periodontology</a>  deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="{{asset('/assets/img/college_departments/dental/pgy/pgy_banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/dental/pgy/pgy_banner.jpg')}}" alt="" style="height:auto;" >
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4" text-justify>Various surgical procedures such as different periodontal flap surgeries, mucogingival surgeries, pre-prosthetic surgeries and minimally invasive surgeries are performed. We regularly perform regenerative procedures using bone graft, GTR, growth factors and newer regenerative materials. Management of furcation and endo-perio lesions are also done on routine basis. Also, dental implants, advanced implant surgical procedures and management of perimplantitis using non-surgical and surgical techniques are undertaken. Use of lasers for treatment of diseases of oral soft tissues, biostimulation, sensitivity and pocket treatment surgeries.
@@ -28,11 +28,64 @@
 		<div class="container">
 			<h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
 			<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-			<div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
+			<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy1.jpg')}}" alt="Gallery Thumb 1"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy2.jpg')}}" alt="Gallery Thumb 2"></a>
 				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy3.jpg')}}" alt="Gallery Thumb 3"></a>
-			</div>
+			</div> -->
+			<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pgy/pgy1.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> Department of Periodontology </h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pgy/geotag/pgy1.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pgy/pgy2.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14"> UG Section <br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pgy/geotag/pgy2.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/college_departments/dental/pgy/pgy3.jpg')}}" height="150px" alt="">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <h4 class="fs-14">PG Section <br/>&nbsp;</h4>
+                                <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/pgy/geotag/pgy3.jpg')}}" download>
+                                    Download Geo Tag Image
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 			<h3 class="tmu-text-primary mt-4"><span>Labs </span><span> Equipments</span></h3>
 			<div class="row">
 				<div class="col-md-6">

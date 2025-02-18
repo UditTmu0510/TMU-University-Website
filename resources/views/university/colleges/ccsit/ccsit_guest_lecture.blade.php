@@ -39,7 +39,7 @@
                         </div>
                         <div class="entry-title title-sm">
                             <h3 class="tmu-text-primary fs-16">
-                                <span>{{ $guest_lecture->event_title }}</span>
+                                <span>{{ html_entity_decode($guest_lecture->event_title) }}</span>
                             </h3>
                         </div>
                         <div class="entry-content mt-1" style="text-align: right;">

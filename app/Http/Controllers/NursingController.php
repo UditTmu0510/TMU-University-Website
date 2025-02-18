@@ -85,52 +85,15 @@ public function index()
         return view('university.colleges.nursing.nursing_gallery');
     }
 
-   public function nursing_guest_lecture()
+    public function nursing_guest_lecture()
     {
 
 
         $guest_lectures = News::where('cd_id', 4)
             ->where('status', '1')
             ->where('category', 'Guest-Lecture')
-            ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
             ->orderBy('id', 'DESC')
             ->get();
-
-
-        // Function to get ordinal suffix for the day (1st, 2nd, 3rd, etc.)
-        function getOrdinalSuffix($day)
-        {
-            if (!in_array(($day % 100), array(11, 12, 13))) {
-                switch ($day % 10) {
-                    case 1:
-                        return $day . 'st';
-                    case 2:
-                        return $day . 'nd';
-                    case 3:
-                        return $day . 'rd';
-                }
-            }
-            return $day . 'th';
-        }
-
-
-        // Loop through guest lectures and add formatted date
-        foreach ($guest_lectures as $lecture) {
-            // Format the event date
-            $day = getOrdinalSuffix($lecture->event_day);
-            $month = $lecture->event_month_name;
-            $year = $lecture->event_year;
-
-
-            // Add formatted date to each lecture object
-            $lecture->formatted_date = "{$day} {$month} , {$year}";
-        }
-
-
-
-
-
-
         return view('university.colleges.nursing.nursing_guest_lecture', compact('guest_lectures'));
     }
 
@@ -199,6 +162,41 @@ public function index()
     public function nursing_viceprincipal()
     {
         return view('university.colleges.nursing.nursing_viceprincipal');
+    }
+
+    public function ijih_aboutus()
+    {
+        return view('university.colleges.nursing.ijih_about_us');
+    }
+
+    public function ijih_edi_board()
+    {
+        return view('university.colleges.nursing.ijih_edi_board');
+    }
+
+    public function ijih_guide_ethics()
+    {
+        return view('university.colleges.nursing.ijih_guide_ethics');
+    }
+
+    public function ijih_submission_process()
+    {
+        return view('university.colleges.nursing.ijih_submission_process');
+    }
+
+    public function ijih_archives()
+    {
+        return view('university.colleges.nursing.ijih_archives');
+    }
+
+    public function ijih_current_issue()
+    {
+        return view('university.colleges.nursing.ijih_current_issue');
+    }
+
+    public function ijih_manuscript_submission()
+    {
+        return view('university.colleges.nursing.ijih_manuscript_submission');
     }
 
 

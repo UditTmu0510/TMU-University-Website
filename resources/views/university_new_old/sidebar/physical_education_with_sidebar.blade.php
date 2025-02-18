@@ -9,7 +9,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{route('physical.education.college.highlight')}}" class="custom-menu-item">
-                <p>College Highlight</p>
+                <p>College Highlights</p>
             </a>
             <a href="{{route('physical.education.principal')}}" class="custom-menu-item">
                 <p>Principal</p>
@@ -30,7 +30,7 @@
         <h2>Student Corner</h2>
         <div class="account-section">
             <a href="{{route('physical.education.timetable')}}" class="custom-menu-item">
-                <p>Time-Table</p>
+                <p>Time Table</p>
             </a>
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>

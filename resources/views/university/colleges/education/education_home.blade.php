@@ -12,8 +12,8 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 d-none d-md-block  banner-main-heading">Welcome to the <br> <span style="font-weight:700!important;">Best Education</span> College in UP</h1>
-                    <h1 class=" mt-5 mb-3 d-block d-md-none" style="color:#001055; text-transform: capitalize; font-weight:700!important; font-size:24px">Welcome to the <span>Best Education</span> College in UP,</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Faculty</span> of Education</h1>
+                    
                     <!--<a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>-->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -129,25 +129,9 @@
 
         </div>
 
-        <!-- <div class="box-container">
-            <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
-                <div class="row">
-                    <div class="col-12 px-2 px-md-5">
-                        <p class="m-0 p-0"><b></b></p>
-                        <p style="text-align: justify;"></p>
-
-                        <button class="tmu-btn btn-1 py-2 mt-4">Know More!</button>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> -->
-
         <div class="box-container">
             <div class="box">
-                <h1 class="college-main-heading">Teerthanker Mahaveer Faculty of Education</h1>
+                <h2 class="college-main-heading">Faculty of Education, One of the top Education Colleges</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: center;"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
@@ -182,7 +166,7 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li>Get guidance and attend practice sessions for various competitive exams,including TGT, PGT, CTET, Super TET, NET, JRF, and more.</li>
+                        <li>Get guidance and attend practice sessions for various competitive exams, including TGT, PGT, CTET, Super TET, NET, JRF, and more.</li>
                         <li>Participate in Scouts and Guides along with National Service Scheme (NSS) activities.</li>
                         <li>Attend classes to enhance your soft skills and communication skills, preparing you for a successful career.</li>
                     </ul>
@@ -255,8 +239,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                    </a>
-                                <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="PHD" data-ProgrammeLevel="Doctoral" data-bs-toggle="list" href="#Doctoral" role="tab" aria-controls="Doctoral"><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;Doctrate
-                                  </a>
+                                
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -372,9 +355,9 @@
 
                     <div class="container mb-5 mt-5">
                         <div class="col-xl-12 col-lg-10 text-center">
-                            <h1 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
+                            <h2 class="h1 fw-bold tmu-text-primary text-uppercase" style="font-size: 30px; font-weight: 600; line-height: 40px; color:#000000; margin-bottom: 19px;">
                                 <span>Programmes</span> <span>Offered</span>
-                            </h1>
+                            </h2>
                         </div>
 
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
@@ -395,7 +378,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        <button class="careers-accordion" data-ProgrammeLevel="Doctoral"><span><i class="fa-solid fa-business-time fa-sm fakash"></i>&nbsp;&nbsp;Doctrate</span> <span class="icon">+</span></button>
+                        
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
                                 
@@ -572,11 +555,11 @@
         <!-- Accordian data and FAQs-->
 
         <div class="container mb-5 mt-5">
-            <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+            <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Faculty of Education</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why Choose TMU for Your Education Journey<span class="icon">+</span></button>
-            <div class="panel">
+            <div class="panel active">
                 <p class="text-justify">Choosing TMU means opting for an institution committed to holistic education, where academic rigor meets hands-on experience, ensuring our graduates are prepared to excel in their careers.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>UGC-Approved with NAAC A</span><span> Accreditation</span></h3><br>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>A Trusted Seal of Quality</span></h3>
@@ -605,7 +588,7 @@
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Enhancing Skills Beyond the</span><span> Classroom</span></h3>
                 <p class="text-justify">TMU's Centre for Teaching, Learning, and Development is a hub of innovative programs aimed at enhancing students' skills beyond traditional academic learning.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Innovative Programmes and</span><span> Workshops</span></h3>
-                <p class="text-justify">From workshops on pedagogical techniques to seminars on educational trends, our center provides opportunities for students to engage in continuous professional development, ensuring they stay ahead in the dynamic field of education.</p>
+                <p class="text-justify">From workshops on pedagogical techniques to seminars on educational trends, our centre provides opportunities for students to engage in continuous professional development, ensuring they stay ahead in the dynamic field of education.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Hands-On Learning</span><span> Initiatives</span></h3>
                 <p class="text-justify">Practical teaching demonstrations, collaborative projects, and community engagement initiatives are integral parts of our curriculum, offering students hands-on experience and fostering critical thinking and problem-solving skills.</p>
             </div>
@@ -927,7 +910,7 @@
                 <p class="text-justify">Ans: TMU provides comprehensive support to international students, including visa assistance, accommodation options, cultural orientation programs, and access to global internships. Our inclusive campus environment welcomes students from around the world, fostering cross-cultural understanding and collaboration.</p>
 
                 <p class="text-justify"><strong>Q. What facilities does TMU offer for practical learning?</strong></p>
-                <p class="text-justify">Ans: TMU boasts state-of-the-art laboratories, modern classrooms with advanced technology, and dedicated centers for teaching, learning, and development. These facilities enable students to gain hands-on experience, conduct research, and participate in practical teaching demonstrations, enhancing their skills and knowledge.</p>
+                <p class="text-justify">Ans: TMU boasts state-of-the-art laboratories, modern classrooms with advanced technology, and dedicated centres for teaching, learning, and development. These facilities enable students to gain hands-on experience, conduct research, and participate in practical teaching demonstrations, enhancing their skills and knowledge.</p>
 
                 <p class="text-justify"><strong>Q. Can students participate in extracurricular activities at TMU?</strong></p>
                 <p class="text-justify">Ans: Yes, TMU encourages students to engage in extracurricular clubs, sports championships, cultural events, and community service initiatives. These activities contribute to holistic development, leadership skills, and a vibrant campus life experience.</p>

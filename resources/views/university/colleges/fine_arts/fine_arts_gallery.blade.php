@@ -7,7 +7,7 @@
             <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/1.jpg')}}"
@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/2.jpg')}}"
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/4.jpg')}}"
@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/5.jpg')}}"
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/7.jpg')}}"
@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/8.jpg')}}"
@@ -160,7 +160,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/10.webp')}}"
@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/11.webp')}}"
@@ -211,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/13.webp')}}"
@@ -228,7 +228,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/14.jpg')}}"
@@ -262,7 +262,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/16.jpg')}}"
@@ -279,7 +279,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/17.jpg')}}"
@@ -314,7 +314,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/19.jpg')}}"
@@ -332,7 +332,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6  ">
+                        <div class="col-6 col-md-3 col-sm-6  ">
                             <div class="position-relative">
                                 <img class="d-block w-100"
                                     src="{{asset('/assets/img/gallery/collegegallery/finearts/20.jpg')}}"

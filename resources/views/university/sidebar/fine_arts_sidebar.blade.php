@@ -5,6 +5,9 @@
     <div class="custom-menu-section">
         <h2>About College</h2>
         <div class="account-section">
+            <a href="{{ route('fine_arts.home') }}" class="custom-menu-item {{ setActive('fine_arts.home') }}">
+                <p>Home</p>
+            </a>
             <a href="{{ route('fine.arts.overview') }}" class="custom-menu-item {{ setActive('fine.arts.overview') }}">
                 <p>About Us</p>
             </a>

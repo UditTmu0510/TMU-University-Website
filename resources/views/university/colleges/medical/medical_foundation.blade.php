@@ -5,7 +5,7 @@
 <div class="main-content">
     <div class="container d-none d-sm-block">
         <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading"><span>Foundation </span><span> Course </span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Foundation </span><span> Course </span></h1>
             <iframe src="{{asset('/assets/pdf/medical/foundation-medical.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
         </div>
     </div>
