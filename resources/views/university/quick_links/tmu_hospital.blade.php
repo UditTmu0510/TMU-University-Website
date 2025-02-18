@@ -71,14 +71,15 @@
                         <p>Modular Operation Theaters</p>
                     </div>
                 </div>
-            </div>
-            <div class="row g-4">
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="16">0</div>
                         <p>Ventilators</p>
                     </div>
                 </div>
+            </div>
+            <div class="row g-4">
+                
                 <div class="col-md-3 col-6 mb-2">
                     <div class="hospital-counter-card">
                         <div class="hospital-counter" data-target="1200">0</div>
