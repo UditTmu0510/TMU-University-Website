@@ -123,6 +123,9 @@ class TmuController extends Controller
     {
 
         $programme = Programmes::where('page_slug', $slug)->firstOrFail();
+        if ($programme->status === 'N') {
+            abort(404); // Return a 404 error if the programme is not visible
+        }
         $cd_id = $programme->cd_id;
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
