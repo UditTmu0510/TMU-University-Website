@@ -133,7 +133,7 @@ class ManagementController extends Controller
 
 
             // Add formatted date to each lecture object
-            $lecture->formatted_date = "{$day} {$month} , {$year}";
+            $lecture->formatted_date = "{$day} {$month} {$year}";
         }
 
         return view('university.colleges.management.mgmt_guestlecture',compact('guest_lectures'));

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Get In Touch </span></h1>
-            <h3 class="text-white">For any query related to the College of management, you may drop a message or contact the
+            <h3 class="text-white">For any query related to the College of Management, you may drop a message or contact the
                 officials at college.</h3>
         </div>
         @if(session('success'))
@@ -84,14 +84,14 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Monday - Friday</span>
-                                <span>09:00 Am to 05:00 Pm</span>
+                                <span>09:00 AM to 05:00 PM</span>
                             </div>
                         </div>
                         <div>
                             <!-- <img src="phone-icon.png" alt="Phone Icon"> -->
                             <div>
                                 <span>Saturday</span>
-                                <span>09:00 Am to 02:00 Pm</span>
+                                <span>09:00 AM to 02:00 PM</span>
                             </div>
                         </div>
                         <div>
