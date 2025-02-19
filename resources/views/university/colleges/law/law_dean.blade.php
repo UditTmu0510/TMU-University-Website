@@ -74,21 +74,6 @@
                                     <td>:</td>
                                     <td>College of Law and Legal Studies, Teerthanker Mahaveer University, Delhi Road, Moradabad – 244001 (U.P.)</td>
                                 </tr>
-                                <!-- <tr>
-                                    <td class="fw-bold">Telephone</td>
-                                    <td>:</td>
-                                    <td class="fw-bold"></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold">Fax</td>
-                                    <td>:</td>
-                                    <td class="fw-bold"></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold">Email</td>
-                                    <td>:</td>
-                                    <td class="fw-bold"></td>
-                                </tr> -->
                                 <tr>
                                     <td class="fw-bold">Date of Birth</td>
                                     <td>:</td>
@@ -158,10 +143,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="m-ol-list ps-5 mb-2 fs-14 text-justify">
+                                <li>Honorary Advisor to Governor's Secretariate, Guwahati, Assam</li>
                                 <li>Worked as Judicial Magistrate First Class (Member, Juvenile Justice Board, Moradabad) for over 5 years, i.e. from Feb.2005 &ndash;October 2010.</li>
-                                <li>More than 275 articles published in National News Papers with a readership of over one crore or more people on different matters related with Constitution and other laws.</li>
+                                <li>More than 450 articles published in National News Papers with a readership of over one crore or more people on different matters related with Constitution and other laws.</li>
                             </ul>
-                            <span class="highlight">More than 350 lectures were delivered as Guest Faculty Member in</span>
+                            <span class="highlight">More than 550 lectures were delivered as Guest Faculty Member in</span>
                             <ul class="m-ol-list ps-5 mb-2 fs-14 text-justify">
                                 <li> Banaras Hindu University .</li>
                                 <li> Dr. Ram Manohar Lohia National Law University, Lucknow .</li>

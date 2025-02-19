@@ -68,9 +68,9 @@
 
                         <tr>
                             <td class="text-center">7.</td>
-                            <td class="text-center">Mr. Anmol Kumar</td>
+                            <td class="text-center">Dr. Krishan Kumar Malviya</td>
                             <td class="text-center">Member</td>
-                            <td class="text-center">8439777645</td>
+                            <td class="text-center">9125113452</td>
 
                         </tr>
                     </tbody>
@@ -121,9 +121,9 @@
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td class="text-center">Dr. Praveen Kumar Mall </td>
+                            <td class="text-center">Mr. Abhishek Kumar</td>
                             <td class="text-center">Member</td>
-                            <td class="text-center">9415849171</td>
+                            <td class="text-center">7042960764</td>
                         </tr>
 
                         <tr>
@@ -140,12 +140,6 @@
                             <td class="text-center">7500989796</td>
                         </tr>
 
-                        <tr>
-                            <td class="text-center">6</td>
-                            <td class="text-center">Mr. Anmol Kumar</td>
-                            <td class="text-center">Member</td>
-                            <td class="text-center">8439777645</td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
