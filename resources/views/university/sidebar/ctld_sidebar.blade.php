@@ -13,7 +13,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ setActive('ctld.aims.and.objectives') }}">
-                <p>Aims & Objective</p>
+                <p>Aims & Objectives</p>
             </a>
             <a href="{{ route('ctld.benefits') }}" class="custom-menu-item {{ setActive('ctld.benefits') }}">
                 <p>Benefits of CTLD </p>
