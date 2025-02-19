@@ -1,5 +1,7 @@
-@extends('layouts.university.colleges.agriculture_with_sidebar')
+@extends('layouts.university.colleges.pharmacy_with_sidebar')
 @section('content')
+
+
 
 <style>
     .study-material-container {

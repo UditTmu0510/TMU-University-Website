@@ -249,7 +249,7 @@
                             <div class="col-6 col-lg-2 widget_links">
                                 <h4>Student Life</h4>
                                 <ul>
-                                    <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jainalya</a></li>
+                                    <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
                                     <li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga & Meditation</a></li>
                                     <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
                                     <li><a href="{{route('library')}}" target="_blank">Library</a></li>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Testimonials;
 use App\Models\Recruiters;
 use App\Models\Programmes;
+
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Exception;
@@ -13,24 +14,24 @@ use Illuminate\Support\Str;
 
 class EngineeringController extends Controller
 {
-    
-     public function index()
+
+    public function index()
     {
         $testimonials = Testimonials::where('cd_id', 11)
             ->where('display_college_main', 'Y')
             ->where('status', 'Y')
             ->orderBy('story_id', 'ASC')
             ->get();
-              $recruiters = Recruiters::where('cd_id', 11)
-    ->where('display_college_main', 'Y')
-    ->where('status', 'Y')
-    ->orderBy('recruiter_id', 'desc')
-    ->select('recruiter_image_path', 'alt_tag') // Select specific fields
-    ->get();
+        $recruiters = Recruiters::where('cd_id', 11)
+            ->where('display_college_main', 'Y')
+            ->where('status', 'Y')
+            ->orderBy('recruiter_id', 'desc')
+            ->select('recruiter_image_path', 'alt_tag') // Select specific fields
+            ->get();
 
-        return view('university.colleges.engineering.faculty_of_engineering', compact('testimonials','recruiters'));
+        return view('university.colleges.engineering.faculty_of_engineering', compact('testimonials', 'recruiters'));
     }
-   
+
     public function engineering_about_us()
     {
         return view('university.colleges.engineering.engineering_overview');
@@ -122,7 +123,28 @@ class EngineeringController extends Controller
 
     public function engineering_syllabus()
     {
-           $programmes = Programmes::where('cd_id',11)->where('status','Y')->get();
-        return view('university.colleges.engineering.engineering_syllabus',compact('programmes'));
+        $programmes = Programmes::where('cd_id', 11)->where('status', 'Y')->get();
+        return view('university.colleges.engineering.engineering_syllabus', compact('programmes'));
     }
+
+    // STUDY MATERIAL
+
+    public function studyMaterial()
+    {
+        ini_set('memory_limit', '-1');
+
+        // Fetch data
+        $prognamme = DB::table('study_material_prog_master')
+            ->where('cd_code', 'TMEG')
+            ->where('status', '1')
+            ->orderBy('slno', 'ASC')
+            ->get();
+
+        $sm_sy = DB::table('sm_sem_year')->orderBy('id', 'ASC')->get();
+        $coursestructure = DB::table('study_material')->orderBy('id', 'ASC')->get();
+
+        return view('university.colleges.engineering.engineering_study_material', compact('prognamme', 'sm_sy', 'coursestructure'));
+    }
+
+
 }
