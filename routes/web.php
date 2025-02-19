@@ -710,6 +710,7 @@ Route::get('/college-of-agriculture-sciences/placement-calendar', [AgricultureCo
 Route::get('/college-of-agriculture-sciences/placement-news', [AgricultureController::class, 'agriculture_placement_news'])->name('agriculture.placement.news');
 Route::get('/college-of-agriculture-sciences/syllabus', [AgricultureController::class, 'agriculture_syllabus'])->name('agriculture.syllabus');
 Route::get('/college-of-agriculture-sciences/time-table', [AgricultureController::class, 'agriculture_timetable'])->name('agriculture.timetable');
+Route::get('/college-of-agriculture-sciences/study-material', [AgricultureController::class, 'agriculture_study_material'])->name('agriculture.study.material');
 Route::get('/college-of-agriculture-sciences/training-placement-cell', [AgricultureController::class, 'agriculture_tpc'])->name('agriculture.tpc');
 
 // Nursing
