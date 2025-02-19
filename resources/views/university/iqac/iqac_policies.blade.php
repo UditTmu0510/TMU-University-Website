@@ -322,6 +322,12 @@
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_24.0_TMU_Students_Council.pdf')}}" target="_blank">View
             PDF</a>
         </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>SOP(25)</b> - Adjunct Faculty & Others / Visiting Faculty / Emeritus Faculty / Professor of Practice</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_25.0_Adjunct_Faculty_Visiting_Faculty_Others.pdf')}}" target="_blank">View
+            PDF</a>
+        </div>
         
 
       </div>

@@ -399,7 +399,7 @@
           <div class="row justify-content-center col-mb-5">
             <div class="col-md-12">
               <p class="mt-1">The University has signed MoU with JARDS Moradabad, where biogas plant is situated. The students
-                regularly visitthe plants for the exposer purpose.</p>
+                regularly visit the plants for the exposer purpose.</p>
             </div>
             <div class="col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
@@ -431,7 +431,7 @@
 
         <button class="careers-accordion">Sensor-based Energy Conservation <span class="icon">+</span></button>
         <div class="panel">
-          <p>TThe University has installed sensor based & wireless facility of conserve the energy at administrative
+          <p>The University has installed sensor based & wireless facility of conserve the energy at administrative
             block.</p>
           <div class="row gutter-30 col-mb-5">
             <div class="col-sm-6 col-md-6 col-lg-3">
