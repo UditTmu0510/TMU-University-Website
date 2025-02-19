@@ -58,26 +58,26 @@
               <h2 class="text-center text-uppercase text-white mt-4">Our Colleges</h2>
               <div class="row">
                 <div class="col-lg-6 col-xl-6">
-                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                    <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer Medical College & Research Centre</li></a>
-                    <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer Dental College & Resaerch Centre</li></a>
-                    <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer College of Nursing</li></a>
-                    <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer College of Pharmacy</li></a>
-                    <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer University College of Paramedical Sciences</li></a>
-                    <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
-                    <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
+                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
+                    <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer Medical College & Research Centre</li></a>
+                    <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer Dental College & Resaerch Centre</li></a>
+                    <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Nursing</li></a>
+                    <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Pharmacy</li></a>
+                    <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer University College of Paramedical Sciences</li></a>
+                    <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Department of Physiotherapy</li></a>
+                    <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;TMIMT College of Management</li></a>
                   </ul>
                 </div>
                 <div class="col-lg-6 col-xl-6">
-                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                    <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer College of Law and Legal Studeis</li></a>
-                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences & IT</li></a>
-                    <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer College of Engineering</li></a>
-                    <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Fine Arts</li></a>
-                    <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Education</li></a>
-                    <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Physical Education</li></a>
-                    <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Teerthanker Mahaveer College of Agriculture Sciences</li></a>
-                    <li><a href="{{route('jain.studies.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
+                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
+                    <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Law and Legal Studeis</li></a>
+                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Computing Sciences & IT</li></a>
+                    <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Engineering</li></a>
+                    <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Fine Arts</li></a>
+                    <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Faculty of Education</li></a>
+                    <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;TMIMT College of Physical Education</li></a>
+                    <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Agriculture Sciences</li></a>
+                    <li><a href="{{route('jain.studies.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Centre for Jain Studies</li></a>
                   </ul>
                 </div>
               </div>
