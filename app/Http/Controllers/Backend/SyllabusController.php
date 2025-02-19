@@ -39,6 +39,7 @@ class SyllabusController extends Controller
                             ->where('status', 1)
                             ->select('acad_year') // If you only need the acad_year
                             ->distinct() // In case you have multiple entries for the same year
+                            ->orderBy('acad_year', 'desc')
                             ->get();
     
         // Check if any records are found
