@@ -59,6 +59,11 @@
             <a href="{{ route('nursing.timetable') }}" class="custom-menu-item {{ setActive('nursing.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('nursing.study.material') }}" class="custom-menu-item {{ setActive('nursing.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="https://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

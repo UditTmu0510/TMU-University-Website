@@ -640,6 +640,7 @@ Route::get('/department-of-physiotherapy/labs/research-lab', [PhysiotherapyContr
 Route::get('/department-of-physiotherapy/magazine', [PhysiotherapyController::class, 'physiotherapy_magazine'])->name('physiotherapy.magazine');
 Route::get('/department-of-physiotherapy/iqac', [PhysiotherapyController::class, 'physiotherapy_iqac'])->name('physiotherapy.iqac');
 Route::get('/department-of-physiotherapy/sanctioned-intake', [PhysiotherapyController::class, 'physiotherapy_intake'])->name('physiotherapy.intake');
+Route::get('/department-of-physiotherapy/study-material', [PhysiotherapyController::class, 'physiotherapy_study_material'])->name('physiotherapy.study.material');
 
 // Pharmacy
 Route::get('/college-of-pharmacy', [PharmacyController::class, 'index'])->name('pharmacy.home');
@@ -668,6 +669,8 @@ Route::get('/college-of-pharmacy/tjpbs/manuscript-submission', [PharmacyControll
 Route::get('/college-of-pharmacy/tjpbs/contact-us', [PharmacyController::class, 'tjpbs_contact_us'])->name('tjpbs.contact.us');
 Route::POST('/manuscript-form', [ManuscriptFormController::class, 'store'])->name('manuscript_form.store');
 
+Route::get('/college-of-pharmacy/study-material', [PharmacyController::class, 'pharmacy_study_material'])->name('pharmacy.study.material');
+
 
 // Paramedical
 Route::get('/college-of-paramedical-sciences', [ParamedicalController::class, 'index'])->name('paramedical.home');
@@ -684,6 +687,7 @@ Route::get('/college-of-paramedical-sciences/guest-lecture', [ParamedicalControl
 Route::get('/college-of-paramedical-sciences/contact-us', [ParamedicalController::class, 'paramedical_contact_us'])->name('paramedical.contact.us');
 Route::get('/college-of-paramedical-sciences/gallery', [ParamedicalController::class, 'paramedical_gallery'])->name('paramedical.gallery');
 Route::get('/college-of-paramedical-sciences/iqac', [ParamedicalController::class, 'paramedical_iqac'])->name('paramedical_iqac');
+Route::get('/college-of-paramedical-sciences/study-material', [ParamedicalController::class, 'paramedical_study_material'])->name('paramedical.study.material');
 
 
 // Education 
@@ -756,6 +760,7 @@ Route::get('/college-of-nursing/ijih/submission-process', [NursingController::cl
 Route::get('/college-of-nursing/ijih/archives', [NursingController::class, 'ijih_archives'])->name('ijih.archives');
 Route::get('/college-of-nursing/ijih/current-issue', [NursingController::class, 'ijih_current_issue'])->name('ijih.current_issue');
 Route::get('/college-of-nursing/ijih/manuscript-form-submission', [NursingController::class, 'ijih_manuscript_submission'])->name('ijih.manuscript.submission');
+Route::get('/college-of-nursing/study-material', [NursingController::class, 'nursing_study_material'])->name('nursing.study.material');
 
 // Law
 Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');
