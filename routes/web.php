@@ -41,6 +41,7 @@ use App\Http\Controllers\JobformController;
 use App\Http\Controllers\TeachersfeedbackController;
 use App\Http\Controllers\AlumnifeedbackController;
 use App\Http\Controllers\EmployerFeedbackController;
+use App\Http\Controllers\ExpertFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
@@ -265,10 +266,11 @@ Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::cla
 Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
 
 
-
-
 Route::get('/tmu/iqac-cell/employer-feedback-form', [EmployerFeedbackController::class, 'createEmployerFeedbackForm'])->name('employer.feedback.form');
 Route::POST('/tmu/iqac-cell/submit-employer-feedback-form', [EmployerFeedbackController::class, 'storeFeedback'])->name('store.employer.feedback.form');
+
+Route::get('/tmu/iqac-cell/experts-feedback-form', [ExpertFeedbackController::class, 'createExpertFeedbackForm'])->name('expert.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-expert-feedback-form', [ExpertFeedbackController::class, 'storeFeedback'])->name('store.expert.feedback.form');
 
 
 // NAAC
