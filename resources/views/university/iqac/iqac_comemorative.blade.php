@@ -116,6 +116,9 @@
           </tr>
         </tbody>
       </table>
+      <div class="justify-content-center text-center pt-3 pb-3">
+        <a href="{{ route('all_news') }}?news_category=commemorative-days" class="tmu-btn btn-1 py-2 mt-4 mt-2">Click Here To view News</a>
+      </div>
     </div>
   </div>
 </div>

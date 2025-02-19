@@ -71,6 +71,9 @@
             <a href="{{ route('employer.feedback.form') }}" class="custom-menu-item {{ setActive('employer.feedback.form') }}">
                 <p>Employer Feedback Form</p>
             </a>
+            <a href="{{ route('expert.feedback.form') }}" class="custom-menu-item {{ setActive('expert.feedback.form') }}">
+                <p>Expert Feedback Form</p>
+            </a>
             <a href="{{ route('iqac.contact.us') }}" class="custom-menu-item {{ setActive('iqac.contact.us') }}">
                 <p>Contact Us</p>
             </a> 

@@ -49,7 +49,7 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Rain Water Harvesting System</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh3.jpeg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/rwh3.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Roof Rain Water Harvesting</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/roof_rain2.jpeg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/roof_rain2.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Harvesting Tank Water flow Drawing</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/route_map.jpeg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/route_map.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -109,9 +109,9 @@
         <div class="panel ">
           <p>The University has constructed three water tanks and all tanks fulfill the following purposes:</p>
           <ul class="m-ol-list ps-4">
-              <li>Household water requirements for the campus residents including hostels</li>
-              <li>Fire safety water requirements.</li>
-              <li>For the irrigation of agriculture field, grounds, parks etc.</li>
+            <li>Household water requirements for the campus residents including hostels</li>
+            <li>Fire safety water requirements.</li>
+            <li>For the irrigation of agriculture field, grounds, parks etc.</li>
           </ul>
           <div class="row gutter-30 col-mb-5 mb-3">
             <div class="col-sm-6 col-md-3">
@@ -143,6 +143,28 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Sewage Treatment Plant</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU Campus</span>
                     <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/water_conservative/download/5.jpg')}}"> Download Geo Tag Image</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="horizontal-line">
+        <button class="careers-accordion">Hazardous Chemicals & Radioactive Waste Management<span class="icon">+</span></button>
+        <div class="panel">
+          <p class="text-justify">The University follows the UGC guidelines for procurement, storage, usage & disposal of hazardous chemicals & radioactive waste. In view of the same the University has established its own Effluent Treatment Plant (ETP) with the capacity of 200 KLD for the disposal of hazardous chemicals. In accordance with the UGC guidelines the University has designated Dr. Vijay Pratap Singh as the Radiation Safety Officer (RSO) who is responsible for procurement, storage, usage & disposal of radioisotopes use in the campus as per the regulation laid down by Atomic Energy Regulatory Board (AERB). The RSO also ensures the radiation safety guidelines and requirements are followed in all concerned laboratories. The University has well defined SOPs for hazardous chemicals & radioactive waste management system which are displayed in respective laboratories.</p>
+          <div class="row  gutter-30 mb-3">
+            <div class="col-sm-6 col-md-3">
+              <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                <div class="team-image">
+                  <img src="{{asset('/assets/img/department/iqac/waste_mgmt/ETP.jpg')}}" alt="">
+                </div>
+                <div class="team-desc p-2">
+                  <div class="team-title pt-0">
+                    <h4 class="tmu-text-primary fs-14">Effluent Treatment Plant </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
+                      TMU
+                      Campus</span>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/10.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>

@@ -10,7 +10,7 @@
       <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Gender Equity </span> <span> Initiative</span></h1>
       <div class="container mb-5 mt-5">
         <h3 class="tmu-text-primary"><span>Annual Gender Sensitization </span><span> Action Plan</span></h3>
-        <p class="text-justfy">Teerthanker Mahaveer University values Right Philosophy, Right Knowledge & Right Conduct and hence
+        <p class="text-justify">Teerthanker Mahaveer University values Right Philosophy, Right Knowledge & Right Conduct and hence
           arranges sessions on various social topics including 'Gender Equality,' to develop a better society for
           the future generations. We follow a zero-tolerance policy on gender partiality, female exploitation and
           assist in developing a gender-neutral world of humans and for humans instead of a gender-biased society.
@@ -18,7 +18,7 @@
           students have also shown support for such endeavors. In this context, University / College / Department
           have planned various types of activities on annual basis and organize them regularly.</p><br>
         <h3 class="tmu-text-primary"><span> Session 2022-23 (01<sup>st</sup> July 2022 </span><span> TO
-            30<sup>th</sup> June 2022)</span></h3>
+            30<sup>th</sup> June 2023)</span></h3>
         <hr class="horizontal-line">
         <button class="careers-accordion">Annual Gender Sensitization Activities Planned<span
             class="icon">+</span></button>
@@ -245,7 +245,7 @@
                 <tr>
                   <td>6.</td>
                   <td>February, 2022</td>
-                  <td>nternational Women's Day, Mission Shakti.</td>
+                  <td>International Women's Day, Mission Shakti.</td>
                 </tr>
                 <tr>
                   <td>7.</td>
@@ -393,7 +393,7 @@
                 <tr>
                   <td>1.</td>
                   <td>August, 2020</td>
-                  <td>Debate on Gender Eqality, International women's day, Awareness workshop for Girls Safety.</td>
+                  <td>Debate on Gender Equality, International women's day, Awareness workshop for Girls Safety.</td>
                 </tr>
                 <tr>
                   <td>2.</td>
@@ -663,15 +663,9 @@
                   <td>5.</td>
                   <td>February, 2019</td>
                   <td>Mass awareness programme for Girls.</td>
-                </tr>
+                </tr>           
                 <tr>
                   <td>6.</td>
-                  <td>March, 2020</td>
-                  <td>Talk on Woman Health Care, International women's day, Mission Shakti, Talk on "Leading Global
-                    Women Managers", Women Ethics.</td>
-                </tr>
-                <tr>
-                  <td>7.</td>
                   <td>March, 2019</td>
                   <td>Talk on Woman Health Care, International women's day.</td>
                 </tr>
@@ -760,7 +754,7 @@
                 <tr>
                   <td>5.</td>
                   <td>March, 2018 </td>
-                  <td>Talk on Woman Health Care, International women's day (Menstural hygiene among women)</td>
+                  <td>Talk on Woman Health Care, International women's day (Menstrual hygiene among women)</td>
                 </tr>
               </tbody>
             </table>
@@ -1042,9 +1036,9 @@
         <hr class="horizontal-line">
         <button class="careers-accordion"> Counselling of Women<span class="icon">+</span></button>
         <div class="panel">
-          <p class="text-justfy">The University offers guidance to the individuals and groups, who are dealing with issues that affect
+          <p class="text-justify">The University offers guidance to the individuals and groups, who are dealing with issues that affect
             their mental health and well-being and help them to define goals, plan action and gain insight.</p>
-          <p class="text-justfy">The constituent Colleges/Departments of the University regularly organize awareness programs about health
+          <p class="text-justify">The constituent Colleges/Departments of the University regularly organize awareness programs about health
             & hygiene of women, awareness workshop on Girls safety, Yoga sessions, program on self-defense for girls
             safety, workshop on women rights etc.</p>
           <div class="row justify-content-center gutter-30 col-mb-5 mb-5">
@@ -1100,7 +1094,7 @@
         <hr class="horizontal-line">
         <button class="careers-accordion"> Common Rooms for Girls<span class="icon">+</span></button>
         <div class="panel">
-          <p class="text-justfy">The girls common rooms are available in each constituent college/ departments of the University and
+          <p class="text-justify">The girls common rooms are available in each constituent college/ departments of the University and
             separate cabins are also allotted forthe female faculty members.</p>
           <div class="row justify-content-center gutter-30 col-mb-5 mb-5">
             <div class="col-sm-4 col-md-3">
@@ -1152,8 +1146,8 @@
         <hr class="horizontal-line">
         <button class="careers-accordion">Day Care Centre<span class="icon">+</span></button>
         <div class="panel">
-          <p class="text-justfy">The Day Care Center is established in the University with the objective of facilitating the female
-            employeesin discharging their duties effectively and efficiently without any worry of their kids who are
+          <p class="text-justify">The Day Care Center is established in the University with the objective of facilitating the female
+            employees in discharging their duties effectively and efficiently without any worry of their kids who are
             provided a safe and secure environment with quality care takers in the day care center. The DCC remains
             functional from 9 am to 5 pm on working days.</p>
           <div class="row gutter-30 col-mb-5 mb-5">
