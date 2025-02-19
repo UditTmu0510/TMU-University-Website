@@ -32,6 +32,11 @@
             <a href="{{ route('education.timetable') }}" class="custom-menu-item {{ setActive('education.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('education.study.material') }}" class="custom-menu-item {{ setActive('education.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

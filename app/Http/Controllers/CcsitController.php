@@ -170,5 +170,23 @@ class CcsitController extends Controller
         return view('university.colleges.ccsit.ccsit_iqac');
     }
 
+    // Study Material 
+    public function ccsit_study_material()
+    {
+        ini_set('memory_limit', '-1');
+
+        // Fetch data
+        $prognamme = DB::table('study_material_prog_master')
+            ->where('cd_code', 'TMCT')
+            ->where('status', '1')
+            ->orderBy('slno', 'ASC')
+            ->get();
+
+        $sm_sy = DB::table('sm_sem_year')->orderBy('id', 'ASC')->get();
+        $coursestructure = DB::table('study_material')->orderBy('id', 'ASC')->get();
+
+
+        return view('university.colleges.ccsit.ccsit_study_material', compact('prognamme', 'sm_sy', 'coursestructure'));
+    }
     
 }

@@ -451,6 +451,7 @@ Route::get('/tmimt-college-of-management/event-magazine', [ManagementController:
 Route::get('/tmimt-college-of-management/sc-st-committee', [ManagementController::class, 'mgmt_scst_committee'])->name('mgmt.scst.committee');
 Route::get('/tmimt-college-of-management/icc-committee', [ManagementController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
 Route::get('/tmimt-college-of-management/gallery', [ManagementController::class, 'mgmt_gallery'])->name('mgmt.gallery');
+Route::get('/tmimt-college-of-management/study-material', [ManagementController::class, 'mgmt_study_material'])->name('mgmt.study.material');
 
 // Fine arts 
 Route::get('/college-of-fine-arts', [FineartsController::class, 'index'])->name('fine_arts.home');
@@ -467,6 +468,7 @@ Route::get('/college-of-fine-arts/anti-ragging-committee', [FineartsController::
 Route::get('/college-of-fine-arts/gallery', [FineartsController::class, 'fine_arts_gallery'])->name('fine.arts.gallery');
 Route::get('/college-of-fine-arts/contact-us', [FineartsController::class, 'fine_arts_contact_us'])->name('fine.arts.contact.us');
 Route::get('/college-of-fine-arts/iqac', [FineartsController::class, 'fine_arts_iqac'])->name('fine.arts.iqac');
+Route::get('/college-of-fine-arts/study-material', [FineartsController::class, 'fine_arts_study_material'])->name('fine.arts.study.material');
 
 // Engineering College
 
@@ -492,6 +494,9 @@ Route::get('/faculty-of-engineering/syllabus', [EngineeringController::class, 'e
 Route::get('/faculty-of-engineering/e-content', [EngineeringController::class, 'engineering_e_content'])->name('engineering.e.content');
 // Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
 
+Route::get('/faculty-of-engineering/study-material', [EngineeringController::class, 'studyMaterial'])->name('engineering.study.material');
+
+
 
 // CCSIT College
 
@@ -515,6 +520,7 @@ Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitControll
 Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
 Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
 Route::get('/college-of-computing-sciences-and-it/iqac', [CcsitController::class, 'ccsit_iqac'])->name('ccsit.iqac');
+Route::get('/college-of-computing-sciences-and-it/study-material', [CcsitController::class, 'ccsit_study_material'])->name('ccsit.study.material');
 
 
 
@@ -586,6 +592,7 @@ Route::get('/medical-college-and-research-centre/orthopaedics/infrastructure', [
 Route::get('/medical-college-and-research-centre/ent/infrastructure', [MedicalController::class, 'medical_ent_infra'])->name('medical.ent.infra');
 Route::get('/medical-college-and-research-centre/ophthalmology/infrastructure', [MedicalController::class, 'medical_ophthalmology_infra'])->name('medical.ophthalmology.infra');
 Route::get('/medical-college-and-research-centre/obg/infrastructure', [MedicalController::class, 'medical_obstetrics_gynaecology_infra'])->name('medical.obstetrics.gynaecology.infra');
+Route::get('/medical-college-and-research-centre/study.material', [MedicalController::class, 'medical_study_material'])->name('medical.study.material');
 
 
 // Dental
@@ -612,6 +619,7 @@ Route::get('/dental-college-and-research-centre/periodontology', [DentalControll
 Route::get('/dental-college-and-research-centre/public-health-dentistry', [DentalController::class, 'dental_public_health'])->name('dental.public.health');
 Route::get('/dental-college-and-research-centre/oral-medicine-radiology', [DentalController::class, 'dental_oral_medicine'])->name('dental.oral.medicine');
 Route::get('/dental-college-and-research-centre/oral-pathology-microbiology', [DentalController::class, 'dental_oral_pathology'])->name('dental.oral.pathology');
+Route::get('/dental-college-and-research-centre/study-material', [DentalController::class, 'dental_study_material'])->name('dental.study.material');
 
 // Physiotherapy
 Route::get('/department-of-physiotherapy', [PhysiotherapyController::class, 'index'])->name('physiotherapy.home');
@@ -690,6 +698,7 @@ Route::get('/faculty-of-education/guest-lecture', [EducationController::class, '
 Route::get('/faculty-of-education/gallery', [EducationController::class, 'education_gallery'])->name('education.gallery');
 Route::get('/faculty-of-education/contact-us', [EducationController::class, 'education_contact_us'])->name('education.contact.us');
 Route::get('/faculty-of-education/iqac', [EducationController::class, 'education_iqac'])->name('education.iqac');
+Route::get('/faculty-of-education/study-material', [EducationController::class, 'education_study_material'])->name('education.study.material');
 
 
 // Agriculture
@@ -762,6 +771,7 @@ Route::get('/college-of-law-and-legal-studies/syllabus', [LawController::class, 
 Route::get('/college-of-law-and-legal-studies/principal', [LawController::class, 'law_principal'])->name('law.principal');
 Route::get('/college-of-law-and-legal-studies/dean', [LawController::class, 'law_dean'])->name('law.dean');
 Route::get('/college-of-law-and-legal-studies/crills', [LawController::class, 'law_crills'])->name('law.crills');
+Route::get('/college-of-law-and-legal-studies/study-material', [LawController::class, 'law_study_material'])->name('law.study.material');
 
 // Physical Education
 Route::get('/tmimt-college-of-physical-education', [PhysicaleducationController::class, 'index'])->name('physical_education.home');

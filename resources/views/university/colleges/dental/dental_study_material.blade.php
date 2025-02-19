@@ -1,4 +1,4 @@
-@extends('layouts.university.colleges.agriculture_with_sidebar')
+@extends('layouts.university.colleges.dental_with_sidebar')
 @section('content')
 
 <style>
@@ -175,5 +175,6 @@
         }
     }
 </script>
+
 
 @endsection
