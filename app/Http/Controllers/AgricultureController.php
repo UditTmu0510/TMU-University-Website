@@ -149,6 +149,11 @@ class AgricultureController extends Controller
         return view('university.colleges.agriculture.agriculture_timetable');
     }
 
+    public function agriculture_study_material()
+    {
+        return view('university.colleges.agriculture.agriculture_study_material');
+    }
+
     public function agriculture_tpc()
     {
         return view('university.colleges.agriculture.agriculture_tpc');
