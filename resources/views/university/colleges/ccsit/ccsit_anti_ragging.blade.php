@@ -164,11 +164,11 @@
 
                                         <tr>
                                             <td class="text-center">4</td>
-                                            <td>Dr. R.C. Tripathi</td>
+                                            <td>Dr. Pradeep Kumar</td>
                                             <td >Professor</td>
                                             <td >Proctor</td>
-                                            <td >9868257510</td>
-                                            <td>tripathi.computers@tmu.ac.in</td>
+                                            <td >9868367233</td>
+                                            <td>pradeepk.computers@tmu.ac.in</td>
                                         </tr>
 
                                         <tr>
