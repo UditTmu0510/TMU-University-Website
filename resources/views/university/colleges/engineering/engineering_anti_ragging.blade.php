@@ -26,7 +26,7 @@
 								<td class="text-center">Prof. R. K. Dwivedi</td>
 								<td class="text-center">Chairperson</td>
 								<td class="text-center">9639266555</td>
-								<td class="text-center">principal.computers@tmu.ac.in</td>
+								<td class="text-center">dean.engineering@tmu.ac.in</td>
 							</tr>
 							<tr>
 								<td class="text-center">2.</td>
@@ -148,10 +148,10 @@
 							<tr>
 								<td class="text-center">1</td>
 								<td class="text-center">Prof. R.K Dwivedi</td>
-								<td class="text-center">Principal</td>
+								<td class="text-center">Dean</td>
 								<td class="text-center">Chairperson</td>
 								<td class="text-center">9837771280</td>
-								<td class="text-center">principal.engineering@tmu.ac.in</td>
+								<td class="text-center">dean.engineering@tmu.ac.in</td>
 							</tr>
 
 							<tr>
@@ -163,26 +163,18 @@
 								<td class="text-center">rahulv.engineering@tmu.ac.in</td>
 							</tr>
 
-							<tr>
-								<td class="text-center">3</td>
-								<td class="text-center">Dr. Diwaker Pathak</td>
-								<td class="text-center">Assistant Professor</td>
-								<td class="text-center">Deputy Proctor</td>
-								<td class="text-center">8527064683</td>
-								<td class="text-center">drdiwaker.engineering@tmu.ac.in</td>
-							</tr>
 
 							<tr>
-								<td class="text-center">4</td>
+								<td class="text-center">3</td>
 								<td class="text-center">Dr. Zareen Farooq</td>
-								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Associate Professor</td>
 								<td class="text-center">Deputy Proctor</td>
 								<td class="text-center">8433270955</td>
 								<td class="text-center">drzareen.engineering@tmu.ac.in</td>
 							</tr>
 
 							<tr>
-								<td class="text-center">5</td>
+								<td class="text-center">4</td>
 								<td class="text-center">Mr. S. B. Rastogi</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Deputy Proctor</td>
@@ -191,7 +183,7 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">6</td>
+								<td class="text-center">5</td>
 								<td class="text-center">Dr. Shubhendra Pratap Singh</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Member</td>
@@ -200,7 +192,7 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">7</td>
+								<td class="text-center">6</td>
 								<td class="text-center">Dr. Himansh Kumar</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Member</td>
@@ -209,16 +201,16 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">8</td>
+								<td class="text-center">7</td>
 								<td class="text-center">Dr. Alka Verma</td>
-								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Associate Professor</td>
 								<td class="text-center">Member</td>
 								<td class="text-center">9412805685</td>
 								<td class="text-center">dralka.engineering@tmu.ac.in</td>
 							</tr>
 
 							<tr>
-								<td class="text-center">9</td>
+								<td class="text-center">8</td>
 								<td class="text-center">Dr. Ashish Simalti</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Member</td>
@@ -227,16 +219,16 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">10</td>
+								<td class="text-center">9</td>
 								<td class="text-center">Dr. Gulista Khan</td>
-								<td class="text-center">Assistant Professor</td>
+								<td class="text-center">Associate Professor</td>
 								<td class="text-center">Member</td>
 								<td class="text-center">9639888358</td>
 								<td class="text-center">gulista.engineering@tmu.ac.in</td>
 							</tr>
 
 							<tr>
-								<td class="text-center">11</td>
+								<td class="text-center">10</td>
 								<td class="text-center">Dr. Pavan Kumar Singh</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Member</td>
@@ -245,7 +237,7 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">12</td>
+								<td class="text-center">11</td>
 								<td class="text-center">Mr. Prashant Kumar</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">Member</td>
@@ -254,7 +246,7 @@
 							</tr>
 
 							<tr>
-								<td class="text-center">13</td>
+								<td class="text-center">12</td>
 								<td class="text-center">Ms. Nikita Jain</td>
 								<td class="text-center">Assistant Professor</td>
 								<td class="text-center">First Information Person</td>
