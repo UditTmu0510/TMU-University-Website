@@ -77,7 +77,7 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching, Learning and Development</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching, Learning & Development</span></h1>
                     <p class="about-p mb-4 text-justify">The Centre for Teaching Learning & Development (CTLD) at Teerthanker Mahaveer University plays a pivotal role in shaping students' holistic development beyond academics. Recognizing the increasing importance of soft skills, personality traits, and aptitude, CTLD was established to bridge the gap between academic knowledge and real-world requirements.</p>
                     <div class="d-flex flex-column align-items-center">
                         <div class="read-more-content mt-0">
