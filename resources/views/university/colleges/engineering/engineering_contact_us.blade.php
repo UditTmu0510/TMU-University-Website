@@ -62,7 +62,7 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span class="text-break">principal.engineering@tmu.ac.in</span>
+                                <span class="text-break">dean.engineering@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>
@@ -76,7 +76,7 @@
                             <!-- <img src="address-icon.png" alt="Address Icon"> -->
                             <div>
                                 <span>Address</span>
-                                <span>Delhi Road, Moradabad 244001, UP</span>
+                                <span>Delhi Road, Moradabad 244001, U.P.</span>
                             </div>
                         </div>
                     </div>
