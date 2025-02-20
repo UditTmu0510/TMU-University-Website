@@ -12,7 +12,7 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Deaprtment of Physiotherapy</span></h1>
+					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Department of Physiotherapy</span></h1>
 					<!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brocher</a> -->
 					<a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
@@ -125,14 +125,14 @@
 
 		<div class="box-container">
 			<div class="box">
-				<h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer Department of Physiotherapy</h2>
-				<h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer Department</span><span> of Physiotherapy</span></h3>
+				<h2 class="college-main-heading d-none d-md-block">Department of Physiotherapy, Among the Top Colleges for Physiotherapy Programme</h2>
+				<h3 class="tmu-text-primary d-block d-md-none"><span>Department of Physiotherapy, </span><span> Among the Top Colleges for Physiotherapy Programme</span></h3>
 
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
-						<p style="text-align: justify;">Established in 2010, the Department of Physiotherapy at TMU offers a comprehensive range of programmes. The programmes include BPT, MPT, and PhD courses in physiotherapy. With a focus on helping patients maintain, recover, and improve their physical abilities, we prepare students to address impairments, promote mobility, provide provisional diagnoses and physical interventions and become skilled professionals to meet the growing demand for physiotherapy services in the medical sector.</p>
+						<p style="text-align: justify;">Established in 2010, the Department of Physiotherapy at TMU offers a comprehensive range of programmes. The programmes include BPT, MPT, and PhD courses in Physiotherapy. With a focus on helping patients maintain, recover, and improve their physical abilities, we prepare students to address impairments, promote mobility, provide provisional diagnoses and physical interventions and become skilled professionals to meet the growing demand for Physiotherapy services in the medical sector.</p>
 						<div class="read-more-content mt-0">
-							<p style="text-align: justify;">At the Department of Physiotherapy, Teerthanker Mahaveer University (TMU), excellence in education meets unparalleled practical experience. Choosing the right university for your physiotherapy education is crucial, and TMU stands out as a premier choice. Let’s explore why TMU’s Department of Physiotherapy is the ideal place to kickstart academic journey.</p>
+							<p style="text-align: justify;">At the Department of Physiotherapy, Teerthanker Mahaveer University (TMU), excellence in education meets unparalleled practical experience. Choosing the right university for your Physiotherapy education is crucial, and TMU stands out as a premier choice. Let’s explore why TMU’s Department of Physiotherapy is the ideal place to kickstart academic journey.</p>
 						</div>
 						<a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
 					</div>
@@ -161,24 +161,24 @@
 					<h3>Key Highlights</h3>
 					<p>The Department of Physiotherapy at TMU has recently entered into a strategic partnership with GTT Foundation for a "Life Skill and Employability Enhancement Training (PFA)" initiative, supported by Barclay. The main objective of this collaboration is to enhance the employability skills of our students.
 						<br><br>
-						GTT Foundation is a career support venture committed to delivering high-quality and scalable programmes using innovative technologies and engaging content. Through this MoU, we are dedicated to providing our students with the necessary skills and making a significant impact in physiotherapy.
+						GTT Foundation is a career support venture committed to delivering high-quality and scalable programmes using innovative technologies and engaging content. Through this MoU, we are dedicated to providing our students with the necessary skills and making a significant impact in Physiotherapy.
 					</p>
 				</div>
 				<div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
 					<h3>Placement/Internship</h3>
-					<p>The physiotherapy department offers stellar placement and internship opportunities for our students, ensuring professional growth. We have strong tie-ups with recognised hospitals that provide a wide range of in-patient and out-patient facilities under various specialised departments of service. These departments include musculoskeletal (surgical/medical), traumatology/rheumatology, burns and plastic surgery, neurosciences (surgical/medical), paediatrics, psychiatry/psychosomatic, cardiorespiratory (surgical/medical), surgery/medicine, intensive care (surgical/medical/trauma), obstetrics & gynaecology, geriatrics, and community-based rehabilitation.</p>
+					<p>The Physiotherapy department offers stellar placement and internship opportunities for our students, ensuring professional growth. We have strong tie-ups with recognised hospitals that provide a wide range of in-patient and out-patient facilities under various specialised departments of service. These departments include musculoskeletal (surgical/medical), traumatology/rheumatology, burns and plastic surgery, neurosciences (surgical/medical), paediatrics, psychiatry/psychosomatic, cardiorespiratory (surgical/medical), surgery/medicine, intensive care (surgical/medical/trauma), obstetrics & gynaecology, geriatrics, and community-based rehabilitation.</p>
 					<div class="read-more-content mt-1">
-						<p>Our aim is to prepare students to excel in the field of physiotherapy. The comprehensive placement programmes by CRC ensure our students have the opportunity to work in diverse healthcare settings and gain valuable experience. With the support of our esteemed in-campus hospital partner, our students are well-equipped to make a significant impact in the healthcare industry.</p>
+						<p>Our aim is to prepare students to excel in the field of Physiotherapy. The comprehensive placement programmes by CRC ensure our students have the opportunity to work in diverse healthcare settings and gain valuable experience. With the support of our esteemed in-campus hospital partner, our students are well-equipped to make a significant impact in the healthcare industry.</p>
 					</div>
 					<a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
 				</div>
 				<div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
 					<h3>Curriculum</h3>
-					<p>The curriculum at the Department of Physiotherapy is designed to provide an immersive learning experience. With a focus on Outcome-based Education, bloom's taxonomy, and anagogical teaching methods, our curriculum prepares students for real-world challenges in the field. The yearly updated curriculum includes internships, seminars, workshops, and industrial visits to enhance students' practical skills and provide them with real-world exposure. Become a competent and confident physiotherapy professional, equipped with the necessary skills for a successful career.</p>
+					<p>The curriculum at the Department of Physiotherapy is designed to provide an immersive learning experience. With a focus on Outcome-based Education, bloom's taxonomy, and anagogical teaching methods, our curriculum prepares students for real-world challenges in the field. The yearly updated curriculum includes internships, seminars, workshops, and industrial visits to enhance students' practical skills and provide them with real-world exposure. Become a competent and confident Physiotherapy professional, equipped with the necessary skills for a successful career.</p>
 				</div>
 				<div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
 					<h3>Infrastructure</h3>
-					<p>The physiotherapy department has an exceptional infrastructure that sets high standards. Students at TMU enjoy a conducive learning environment. Dedicated research facilities further enhance their education and training. Here's the list of the facilities available:</p>
+					<p>The Physiotherapy department has an exceptional infrastructure that sets high standards. Students at TMU enjoy a conducive learning environment. Dedicated research facilities further enhance their education and training. Here's the list of the facilities available:</p>
 					<ul class="m-ol-list ps-4 mb-0">
 						<li>
 							<p class="p-0 m-0">Exercise Therapy Demonstration Lab</p>
@@ -580,9 +580,9 @@
 	<button class="careers-accordion">Unique Features of TMU’s Physiotherapy Department<span class="icon">+</span></button>
 	<div class="panel">
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>MoU with</span><span> GTT Foundation</span></h3>
-		<p class="text-justify">TMU has a Memorandum of Understanding (MoU) with the GTT Foundation, opening doors for students to engage in various collaborative projects and gain exposure to cutting-edge research and innovations in physiotherapy.</p>
+		<p class="text-justify">TMU has a Memorandum of Understanding (MoU) with the GTT Foundation, opening doors for students to engage in various collaborative projects and gain exposure to cutting-edge research and innovations in Physiotherapy.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Physiotherapy</span><span> OPD/IPD Facilities</span></h3>
-		<p class="text-justify">Our department is equipped with both Outpatient Department (OPD) and Inpatient Department (IPD) facilities, providing students with diverse clinical experiences. This exposure is critical for developing well-rounded physiotherapy professionals.</p>
+		<p class="text-justify">Our department is equipped with both Outpatient Department (OPD) and Inpatient Department (IPD) facilities, providing students with diverse clinical experiences. This exposure is critical for developing well-rounded Physiotherapy professionals.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Well-Maintained Electrotherapy</span><span> and Exercise Therapy Laboratories</span></h3>
 		<p class="text-justify">The state-of-the-art electrotherapy and exercise therapy laboratories at TMU are designed to offer students hands-on practice with advanced equipment and technologies, enhancing their learning and practical skills.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Global Opportunities and</span><span> International Internship Programmes</span></h3>
@@ -606,9 +606,9 @@
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Modern Classrooms</span><span> for Interactive Sessions</span></h3>
 		<p class="text-justify">Our modern classrooms are equipped with the latest technology to facilitate interactive and engaging learning sessions. This environment fosters active participation and enhances the overall learning experience.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Physiotherapy Labs for</span><span> Practical Training and Experiments</span></h3>
-		<p class="text-justify">Practical training is a cornerstone of our curriculum. Our well-equipped physiotherapy labs allow students to conduct experiments and practice their skills in a controlled environment, bridging the gap between theory and practice.</p>
+		<p class="text-justify">Practical training is a cornerstone of our curriculum. Our well-equipped Physiotherapy labs allow students to conduct experiments and practice their skills in a controlled environment, bridging the gap between theory and practice.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Technology and Instruments</span><span> for a Conducive Learning Environment</span></h3>
-		<p class="text-justify">TMU continuously invests in advanced technology and instruments, creating a conducive learning environment that keeps pace with the latest advancements in the field of physiotherapy.</p>
+		<p class="text-justify">TMU continuously invests in advanced technology and instruments, creating a conducive learning environment that keeps pace with the latest advancements in the field of Physiotherapy.</p>
 	</div>
 	<!-- Add the horizontal line here -->
 	<hr class="horizontal-line">
@@ -628,9 +628,9 @@
 		<span class="icon">+</span></button>
 	<div class="panel">
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physiotherapy</span><span> (BPT)</span></h3>
-		<p class="text-justify">Our Bachelor of Physiotherapy (BPT) programme is designed to provide a strong foundation in physiotherapy, covering all essential aspects from basic sciences to advanced clinical practice.</p>
+		<p class="text-justify">Our Bachelor of Physiotherapy (BPT) programme is designed to provide a strong foundation in Physiotherapy, covering all essential aspects from basic sciences to advanced clinical practice.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Master of Physiotherapy</span><span> (MPT)</span></h3>
-		<p class="text-justify">The Master of Physiotherapy (MPT) programme at TMU offers specialised training in various fields of physiotherapy, preparing graduates for leadership roles in the healthcare sector.</p>
+		<p class="text-justify">The Master of Physiotherapy (MPT) programme at TMU offers specialised training in various fields of Physiotherapy, preparing graduates for leadership roles in the healthcare sector.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>PhD in </span><span> Physiotherapy</span></h3>
 		<p class="text-justify">For those interested in research and academia, our PhD in Physiotherapy programme provides an opportunity to contribute to the advancement of knowledge in the field and develop innovative therapeutic techniques.</p>
 	</div>
@@ -640,9 +640,9 @@
 		<span class="icon">+</span></button>
 	<div class="panel">
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Research and Healthcare </span><span>Development Programmes</span></h3>
-		<p class="text-justify">TMU is committed to advancing the field of physiotherapy through research. Our research and healthcare development programmes encourage students and faculty to explore new frontiers and contribute to scientific knowledge.</p>
+		<p class="text-justify">TMU is committed to advancing the field of Physiotherapy through research. Our research and healthcare development programmes encourage students and faculty to explore new frontiers and contribute to scientific knowledge.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Innovative Physiotherapy</span><span> Workshops and Seminars</span></h3>
-		<p class="text-justify">We regularly host innovative workshops and seminars, inviting experts from around the world to share their knowledge and experiences. These events provide students with the latest insights and trends in physiotherapy.</p>
+		<p class="text-justify">We regularly host innovative workshops and seminars, inviting experts from around the world to share their knowledge and experiences. These events provide students with the latest insights and trends in Physiotherapy.</p>
 	</div>
 	<!-- Add the horizontal line here -->
 	<hr class="horizontal-line">
@@ -660,7 +660,7 @@
 		<span class="icon">+</span></button>
 	<div class="panel">
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Well-Equipped </span><span>Physiotherapy Labs</span></h3>
-		<p class="text-justify">Our well-equipped physiotherapy labs provide students with the tools they need to practice and perfect their skills. These facilities are essential for delivering high-quality education and training.</p>
+		<p class="text-justify">Our well-equipped Physiotherapy labs provide students with the tools they need to practice and perfect their skills. These facilities are essential for delivering high-quality education and training.</p>
 		<h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Technology for</span><span> Medical Training and Practicals</span></h3>
 		<p class="text-justify">TMU is at the forefront of integrating advanced technology into medical training. Our students benefit from the latest innovations, which enhance their learning experience and prepare them for the future.</p>
 	</div>
@@ -688,18 +688,18 @@
 	<hr class="horizontal-line">
 	<button class="careers-accordion">Conclusion <span class="icon">+</span></button>
 	<div class="panel">
-		<p class="text-justify">Teerthanker Mahaveer University's Department of Physiotherapy is a premier college for aspiring physiotherapists. With its state-of-the-art facilities, experienced faculty, and commitment to student success, TMU offers an unparalleled education in physiotherapy. Join us and take the first step towards a rewarding career in healthcare.</p>
+		<p class="text-justify">Teerthanker Mahaveer University's Department of Physiotherapy is a premier college for aspiring physiotherapists. With its state-of-the-art facilities, experienced faculty, and commitment to student success, TMU offers an unparalleled education in Physiotherapy. Join us and take the first step towards a rewarding career in healthcare.</p>
 	</div>
 	<hr class="horizontal-line">
 	<button class="careers-accordion">FAQs<span class="icon">+</span></button>
 	<div class="panel">
-		<p class="text-justify"><strong>Q. What is physiotherapy?</strong></p>
+		<p class="text-justify"><strong>Q. What is Physiotherapy?</strong></p>
 		<p class="text-justify">Ans: Physiotherapy is a healthcare profession that focuses on the assessment, diagnosis, and treatment of physical ailments and disabilities using physical methods such as exercise, massage, and other techniques.</p>
 		<p class="text-justify"><strong>Q. What do physiotherapists do?</strong></p>
 		<p class="text-justify">Ans: Physiotherapists work with patients to manage pain, improve mobility, and prevent further injury. They develop personalised treatment plans and use various therapies to help patients recover from injuries and manage chronic conditions.</p>
 		<p class="text-justify"><strong>Q. How to become a physiotherapist?</strong></p>
 		<p class="text-justify">Ans: To become a physiotherapist, one typically needs to complete a Bachelor of Physiotherapy (BPT) degree, followed by a Master of Physiotherapy (MPT) if desired. Licensure and certification requirements may vary by region.</p>
-		<p class="text-justify"><strong>Q. What are the benefits of physiotherapy?</strong></p>
+		<p class="text-justify"><strong>Q. What are the benefits of Physiotherapy?</strong></p>
 		<p class="text-justify">Ans: Physiotherapy offers numerous benefits, including pain relief, improved mobility, enhanced recovery from injuries, prevention of future injuries, and better overall physical health.</p>
 		<p class="text-justify"><strong>Q. What kind of placements can TMU students expect?</strong></p>
 		<p class="text-justify">Ans: TMU provides 100% placement assistance with an excellent track record. Our students have access to a wide range of placement opportunities in top healthcare institutions, both nationally and internationally.</p>

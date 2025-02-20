@@ -27,7 +27,7 @@
                                 <div class="principal-image-decoration23"></div>
                             </div>
                             <div class="principal-info23">
-                                <h4 class="principal-name23">Ms Shivanee Kaul</h4>
+                                <h4 class="principal-name23">Prof.Shivanee M. Kaul</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
                                     Head of the Department
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                             <p class="principal-text23 text-justify">
-                                Welcome to the Department of Physiotherapy, a department that focuses on opportunity and achievement, a place where students are encouraged and supported to excel. As rightly said by Albert Einstein, "Education is not learning of facts but training of mind to think". Keeping this very very fact in mind the department with the support of its able faculty members, visionary management and excellent and extensive infrastructure entrenches perseverance and a never-say-die spirit from academics to co-curricular activities in the heart of every student to not only make them good physiotherapists but brilliant human beings.
+                                Welcome to the Department of Physiotherapy, a department that focuses on opportunity and achievement, a place where students are encouraged and supported to excel. As rightly said by Albert Einstein, "Education is not learning of facts but training of mind to think". Keeping this very fact in mind the department with the support of its able faculty members, visionary management and excellent and extensive infrastructure entrenches perseverance and a never-say-die spirit from academics to co-curricular activities in the heart of every student to not only make them good physiotherapists but brilliant human beings.
                                 <br>
                                 <br>
                                 Physiotherapists are key players in the healthcare system today. They help in restoring and improving movements, keeping patients healthy, fit and active thereby improving the quality of life. They also play an important role in avoiding surgery and long-term use of medications.
@@ -45,8 +45,6 @@
                                 <br>
                                 <br>
                                 consultancy services to the industries, awareness programmes for society etc. gives the required exposure to the students. The vision and mission of our university have added a thrust to research and the department is well on the way to making its mark as a world-class college of learning, research and quality patient care.
-                                <br>
-                                <br>
                                 Do join us on this journey towards excellence.
                             </p>
                             
