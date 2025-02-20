@@ -11,7 +11,7 @@
                         class="d-block d-sm-inline">Regulations</span></h1>
                         <div class="volunteer p-5">
                 <p class="text-justify mb-2 mt-1">The University invites applications from eligible candidates for
-                    admission to different professional programmes. Admission to these programmes will be made based on
+                    admission tod different professional programmes. Admission to these programmes will be made based on
                     merit determined as per the following procedure.</p>
                 <ul style="text-align:justify;list-style:disc">
                     <li>If you have appeared in a qualifying examination and the result is awaited, you can take
