@@ -28,7 +28,7 @@
         <h2>Testimonials</h2>
         <div class="account-section">
             <a href="{{ route('ctld.students.testimonials') }}" class="custom-menu-item {{ setActive('ctld.students.testimonials') }}">
-                <p>Student's Testimonial</p>
+                <p>Students' Testimonial</p>
             </a>
         </div>
         <h2>Happenings Hub</h2>

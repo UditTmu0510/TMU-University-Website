@@ -28,7 +28,7 @@
                         <div class="timeline-text">
                             <div class="timeline-date">Making Students Industry Ready</div>
                             <p class="text-justify">
-                                There is a severe competition in all the industries and only highly developed employees can keep the company ahead of others. Hence, companies select those students who are excellent in domain skills as well as soft skills and aptitude. Most higher education institutes focus only on domain skills. However, at TMU we ensure all round development of our students. CTLD plays a major role in developing soft skills and quantitative aptitude during the entire program through rigorous training.</p>
+                                There is a severe competition in all the industries and only highly developed employees can keep the company ahead of others. Hence, companies select those students who are excellent in domain skills as well as soft skills and aptitude. Most higher education institutes focus only on domain skills. However, at TMU we ensure all round development of our students. CTLD plays a major role in developing soft skills and quantitative aptitude during the entire programme through rigorous training.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
