@@ -13,7 +13,7 @@
                 <p>Overview</p>
             </a>
             <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ setActive('ctld.aims.and.objectives') }}">
-                <p>Aims & Objective</p>
+                <p>Aims & Objectives</p>
             </a>
             <a href="{{ route('ctld.benefits') }}" class="custom-menu-item {{ setActive('ctld.benefits') }}">
                 <p>Benefits of CTLD </p>
@@ -28,7 +28,7 @@
         <h2>Testimonials</h2>
         <div class="account-section">
             <a href="{{ route('ctld.students.testimonials') }}" class="custom-menu-item {{ setActive('ctld.students.testimonials') }}">
-                <p>Student's Testimonial</p>
+                <p>Students' Testimonial</p>
             </a>
         </div>
         <h2>Happenings Hub</h2>

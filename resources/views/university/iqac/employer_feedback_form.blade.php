@@ -41,7 +41,7 @@
 <div class="main-content">
   <div class="container">
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Employers/Professionals Feedback Form </span><span>on Syllabus</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading"><span>Employers Feedback Form </span><span>on Curriculum</span></h1>
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
         <form action="{{ route('store.employer.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
@@ -74,7 +74,7 @@
 
           <!-- Organization  Name -->
           <div class="mb-3">
-            <label for="facultyName" class="form-label required-label">Name of the Organization of Employer/Professional</label>
+            <label for="facultyName" class="form-label required-label">Name of the Organization of Employer</label>
             <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="current_organization" required>
             <div class="invalid-feedback">Please enter Organization Name.</div>
           </div>
@@ -95,7 +95,7 @@
 
           <!-- College Name -->
           <div class="mb-3">
-            <label for="college" class="form-label required-label">Employer/Professional Feedback is for the</label>
+            <label for="college" class="form-label required-label">Employer Feedback is for the</label>
 
             <select class="form-select" id="college" name="cd_id" required>
               <option value="" disabled selected>Select your college</option>
@@ -119,9 +119,22 @@
             <div class="invalid-feedback">Please select the academic year.</div>
           </div>
 
+          <div class="mb-3">
+            <p>
+              <strong> Instructions: Please indicate your level of satisfaction with the following statement by choosing as per the guidelines given below: </strong>
+            </p>
+            <ul style="list-style-type: upper-alpha;" class="ps-3">
+              <li>Strongly Agree</li>
+              <li>Agree</li>
+              <li>Neutral</li>
+              <li>Disagree</li>
+              <li>Strongly Disagree</li>
+            </ul>
+          </div>
+
           <!-- Questions (Multi Choice) -->
           <div class="mb-3">
-            <label class="form-label required-label">Is our syllabus compatible with the industry standards & applicable/relevant to real life situations. </label>
+            <label class="form-label required-label">The curriculum equips graduates with the necessary technical knowledge for their roles.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q1" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -146,7 +159,7 @@
           </div>
 
           <div class="mb-3">
-            <label class="form-label required-label">Is the syllabus sufficient to enable students analyze the given problem & identify the necessary solutions</label>
+            <label class="form-label required-label">The curriculum addresses the current trends and advancements in the industry.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q2" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -171,7 +184,7 @@
           </div>
 
           <div class="mb-3">
-            <label class="form-label required-label">Learning value (in terms of skills, concepts, knowledge, analytical abilities or broadening perspectives).</label>
+            <label class="form-label required-label">Graduates demonstrate strong problem-solving and critical thinking skills, as emphasized in the curriculum.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q3" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -190,6 +203,188 @@
             </div>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q3" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label class="form-label required-label">The curriculum provides a good balance between theoretical knowledge and practical skills.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q4" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">Graduates are well-prepared to handle real-world challenges in their respective fields.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q5" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">The curriculum includes adequate exposure to teamwork, leadership, and communication skills.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q6" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">The curriculum includes adequate exposure to teamwork, leadership, and communication skills.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q7" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">The curriculum integrates internship, project work, or other experiential learning opportunities that prepare students for industry needs.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q8" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">The curriculum adequately emphasizes ethical practices and professional responsibility.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q9" value="Strongly Agree" required>
+              <label class="form-check-label">Strongly Agree</label>
+            </div>
+            <div class="invalid-feedback">Please select an option.</div>
+          </div>
+
+
+          <div class="mb-3">
+            <label class="form-label required-label">Overall, the curriculum meets the expectations and requirements of our industry.</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Strongly Disagree" required>
+              <label class="form-check-label">Strongly Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Disagree" required>
+              <label class="form-check-label">Disagree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Neutral" required>
+              <label class="form-check-label">Neutral</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Agree" required>
+              <label class="form-check-label">Agree</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q10" value="Strongly Agree" required>
               <label class="form-check-label">Strongly Agree</label>
             </div>
             <div class="invalid-feedback">Please select an option.</div>

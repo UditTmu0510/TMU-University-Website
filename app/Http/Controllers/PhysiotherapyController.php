@@ -163,4 +163,22 @@ public function physiotherapy_guest_lecture()
     {
         return view('university.colleges.physiotherapy.physiotherapy_intake');
     }
+
+    public function physiotherapy_study_material()
+    {
+        ini_set('memory_limit', '-1');
+
+        // Fetch data
+        $prognamme = DB::table('study_material_prog_master')
+            ->where('cd_code', 'DPT')
+            ->where('status', '1')
+            ->orderBy('slno', 'ASC')
+            ->get();
+
+        $sm_sy = DB::table('sm_sem_year')->orderBy('id', 'ASC')->get();
+        $coursestructure = DB::table('study_material')->orderBy('id', 'ASC')->get();
+
+
+        return view('university.colleges.physiotherapy.physiotherapy_study_material', compact('prognamme', 'sm_sy', 'coursestructure'));
+    }
 }

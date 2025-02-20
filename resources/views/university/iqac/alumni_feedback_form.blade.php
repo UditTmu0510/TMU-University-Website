@@ -41,7 +41,7 @@
 <div class="main-content">
     <div class="container">
 
-        <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Syllabus</span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni Feedback Form </span><span>on Curriculum</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
                 <form action="{{ route('store.alumni.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
@@ -145,11 +145,23 @@
                         <div class="invalid-feedback">Please select the academic year.</div>
                     </div>
 
+
+                    <div class="mb-3">
+                        <p>
+                            <strong> Instructions: Please indicate your level of satisfaction with the following statement by choosing as per the guidelines given below: </strong>
+                        </p>
+                        <ul style="list-style-type: upper-alpha;" class="ps-3">
+                            <li>Strongly Agree</li>
+                            <li>Agree</li>
+                            <li>Neutral</li>
+                            <li>Disagree</li>
+                            <li>Strongly Disagree</li>
+                        </ul>
+                    </div>
+
                     <!-- Questions (Multi Choice) -->
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the curriculum prescribed for
-                            your
-                            degree during your term in the college?</label>
+                        <label class="form-label required-label">The curriculum provided a strong foundation in my field of study.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q1" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -174,9 +186,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the quality of education
-                            imparted in the
-                            college?</label>
+                        <label class="form-label required-label">The curriculum was relevant to the skills and knowledge required in my current profession.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q2" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -201,8 +211,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the course content
-                            delivery?</label>
+                        <label class="form-label required-label">The curriculum incorporated emerging trends and technologies during my study period.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q3" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -227,9 +236,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the Innovative Teaching
-                            Learning
-                            methodologies on course curriculum for fulfilling your expectations?</label>
+                        <label class="form-label required-label">The curriculum offered a good balance between theoretical knowledge and practical applications.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q4" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -254,9 +261,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How do you rate the academic initiatives taken by
-                            the
-                            college to bridge the gap between industry & academia?</label>
+                        <label class="form-label required-label">The elective courses allowed me to explore areas of interest and specialize effectively.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q5" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -281,9 +286,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate any new skills learnt in the due
-                            course
-                            of your study (Other than syllabus)?</label>
+                        <label class="form-label required-label">The curriculum prepared me adequately for challenges in the industry or higher education.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q6" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -308,9 +311,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How do you rate the relevance of your degree to
-                            your
-                            present job?</label>
+                        <label class="form-label required-label">The curriculum fostered critical thinking, problem-solving, and interdisciplinary learning.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q7" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -335,11 +336,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the supporting academic
-                            initiatives like
-                            Seminars, Workshops, Projects, Study Tours, etc. taken by the college to improve your
-                            competence
-                            as student?</label>
+                        <label class="form-label required-label">Internship, project work, or industry exposure as part of the curriculum was beneficial for my career.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q8" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -364,9 +361,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How do you rate development activities organized by
-                            the
-                            college for your overall development?</label>
+                        <label class="form-label required-label">The curriculum offered sufficient opportunities to build transferable skills like communication and teamwork.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q9" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -391,9 +386,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">How would you rate the motivation created by the
-                            syllabus
-                            to pursue higher education?</label>
+                        <label class="form-label required-label">I am satisfied with the overall quality and relevance of the curriculum for my professional development.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q10" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>

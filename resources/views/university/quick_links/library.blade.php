@@ -250,8 +250,8 @@
                 <div class="col-12">
                     <div class="p-5 bg-light border rounded text-center">
                         <h2 class="mb-3 tmu-text-primary"><span>E-Resources </span><span> remote access</span> </h2>
-                        <a href="https://idp.tmu.ac.in/#res" target="blank"><button type="button"
-                                class="tmu-btn btn-4 btn-lg w-100">Click Me</button></a>
+                        <a href="https://idp.tmu.ac.in/#res" target="blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">User Login</a>
+                    <a href="http://library.tmu.ac.in/opac-tmpl/bootstrap/en/User_Guide.pdf" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">User Guide</a>
                     </div>
                 </div>
             </div>
@@ -956,7 +956,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/2.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">E-Library</h3>
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -975,7 +975,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/4.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">E-Library</h3>
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -985,7 +985,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/5.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">E-Library</h3>
+                            <h3 class="gallery-item-title">Book Shelves</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -994,7 +994,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/6.jpg')}}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Reading Area</h3>
+                            <h3 class="gallery-item-title">Book Shelves</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -1004,7 +1004,7 @@
                         <img src="{{asset('/assets/img/footer_pages/Library/7.jpg')}}"
                             alt="Student Center">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Reading Area</h3>
+                            <h3 class="gallery-item-title">Book Shelves</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>
@@ -1023,6 +1023,62 @@
                             alt="Hostel Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">E-Library</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/10.jpg')}}"
+                            alt="Cricket Ground">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Library Reception</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Library -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/11.jpg')}}"
+                            alt="Central Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Book Shelves</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/12.jpg')}}"
+                            alt="Digital Library">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Reading Area</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <!-- Campus Life -->
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/13.jpg')}}"
+                            alt="Student Center">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Book Shelves</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/14.jpg')}}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Book Shelves</h3>
+                            <p class="gallery-item-category">Library</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Library">
+                        <img src="{{asset('/assets/img/footer_pages/Library/15.jpg')}}"
+                            alt="Hostel Block">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Reading Area</h3>
                             <p class="gallery-item-category">Library</p>
                         </div>
                     </div>

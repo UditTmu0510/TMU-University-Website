@@ -13,6 +13,7 @@ class Jobapplication extends Model
         'cd_id',
         'department_id',
         'designation_id',
+        'fy_id',
         'name',
         'mobile_no',
         'email',

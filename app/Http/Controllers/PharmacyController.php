@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Recruiters;
 use App\Models\Testimonials;
 use App\Models\Programmes;
+use Illuminate\Support\Facades\DB;
 
 class PharmacyController extends Controller
 {
@@ -145,5 +146,24 @@ class PharmacyController extends Controller
     public function tjpbs_contact_us()
     {
         return view('university.colleges.pharmacy.tjpbs_contact_us');
+    }
+
+
+    public function pharmacy_study_material()
+    {
+        ini_set('memory_limit', '-1');
+
+        // Fetch data
+        $prognamme = DB::table('study_material_prog_master')
+            ->where('cd_code', 'TMPH')
+            ->where('status', '1')
+            ->orderBy('slno', 'ASC')
+            ->get();
+
+        $sm_sy = DB::table('sm_sem_year')->orderBy('id', 'ASC')->get();
+        $coursestructure = DB::table('study_material')->orderBy('id', 'ASC')->get();
+
+
+        return view('university.colleges.pharmacy.pharmacy_study_material', compact('prognamme', 'sm_sy', 'coursestructure'));
     }
 }

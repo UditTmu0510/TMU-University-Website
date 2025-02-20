@@ -12,8 +12,8 @@
         <table class="table table-bordered table-striped">
           <thead>
             <th>#</th>
-            <th>Name & Designation</th>
-            <th>Capacity</th>
+            <th>Name</th>
+            <th>Designation</th>
             <th>Role</th>
           </thead>
           <tbody>

@@ -12,7 +12,7 @@
             <p class="about-p mb-3">The Teerthanker Mahaveer University, established by an 'Act' of the
               Government of
               Uttar Pradesh, and approved by the <strong class="fs-14"><a
-                  href="http://www.ugc.ac.in/privateuniversitylist.aspx?id=33&Unitype=3">University
+                  href="http://www.ugc.ac.in/" target="_blank">University
                   Grants Commission
                   (UGC)</a></strong>, since inception in 2008, is the preferred destination for
               students of modern
@@ -105,7 +105,7 @@
             <div class="row g-0">
               <div class="col-lg-10 p-3">
                 <div class="card-body">
-                  <h3 class="tmu-text-primary mb-2"><span>UG Government</span><span> Recognition</span></h3>
+                  <h3 class="tmu-text-primary mb-2"><span>UGC </span><span> Recognition</span></h3>
                   <p class="text-justify">To be a World Leader in the integration of teaching and learning, advancement
                     of the knowledge base through research & leadership in service and outreach. Its visit to
                     Teerthanker Mahaveer University to assess and evaluate its propels in accordance with UGC
@@ -191,9 +191,14 @@
                     <td>Bar Council of India (BCI)</td>
                   </tr>
                   <tr>
-                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication), Computer Science &
-                      Engineering</td>
-                    <td>All India Council for Technical Education (AICTE), National Board of Accreditation (NBA)
+                    <td>B.Tech. Computer Science & Engineering</td>
+                    <td>National Board of Accreditation (NBA)
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication)</td>
+                    <td>All India Council for Technical Education (AICTE)
                     </td>
                   </tr>
                   <tr>

@@ -74,6 +74,11 @@
             <a href="{{ route('medical.students.details') }}" class="custom-menu-item {{ setActive('medical.students.details') }}">
                 <p>Student Details</p>
             </a>
+
+            <a href="{{ route('medical.study.material') }}" class="custom-menu-item {{ setActive('medical.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="{{ route('medical.timetable') }}" class="custom-menu-item {{ setActive('medical.timetable') }}">
                 <p>Time Table</p>
             </a>

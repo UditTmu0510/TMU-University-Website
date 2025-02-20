@@ -236,7 +236,7 @@ class TmuController extends Controller
     {
 
 
-        
+
         $news = News::where('status', 1)
             ->where('category', 'IIC')
             ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')

@@ -42,49 +42,49 @@
         }
     },
     "8420": {
-        "MEDICAL": {
+        "Medical College and Research Centre": {
             "link": "\/medical-college-and-research-centre"
         },
-        "DENTAL": {
+        "Dental College & Research Centre": {
             "link": "\/dental-college-and-research-centre"
         },
-        "NURSING": {
+        "College of Nursing": {
             "link": "\/college-of-nursing"
         },
-        "PHARMACY": {
+        "College of Pharmacy": {
             "link": "\/college-of-pharmacy"
         },
-        "PARAMEDICAL": {
+        "College of Paramedical Sciences": {
             "link": "\/college-of-paramedical-sciences"
         },
-        "PHYSIOTHERAPY": {
+        "Deaprtment of Physiotherapy": {
             "link": "\/department-of-physiotherapy"
         },
-        "TMIMT": {
+        "TMIMT College of Management": {
             "link": "\/tmimt-college-of-management"
         },
-        "LAW": {
+        "College of Law & legal studies": {
             "link": "\/college-of-law-and-legal-studies"
         },
-        "CCSIT": {
+        "College of Computing Sciences & IT (CCSIT)": {
             "link": "\/college-of-computing-sciences-and-it"
         },
-        "ENGINEERING": {
+        "Faculty of Engineering": {
             "link": "\/faculty-of-engineering"
         },
-        "FINE ARTS": {
+        "College of Fine Arts": {
             "link": "\/college-of-fine-arts"
         },
-        "EDUCATION": {
+        "Faculty of Education": {
             "link": "\/faculty-of-education"
         },
-        "PHYSICAL EDUCATION": {
+        "TMIMT College of Physical Education": {
             "link": "\/tmimt-college-of-physical-education"
         },
-        "AGRICULTURE": {
+        "College of Agriculture Sciences": {
             "link": "\/college-of-agriculture-sciences"
         },
-        "JAIN STUDIES": {
+        "Centre of Jain Studies": {
             "link": "\/centre-of-jain-studies"
         }
     },

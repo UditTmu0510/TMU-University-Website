@@ -44,6 +44,7 @@ class TeachersfeedbackController extends Controller
             'q7' => 'string',
             'q8' => 'string',
             'q9' => 'string',
+            'q10' => 'string',
             'overall_rating' => 'numeric|min:1|max:5',
             'topics_beyond_syllabus' => 'string',
             'topics_to_delete' => 'string',

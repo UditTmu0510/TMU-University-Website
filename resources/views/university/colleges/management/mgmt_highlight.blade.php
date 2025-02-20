@@ -27,7 +27,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">Language Laboratories</div>
-                                <p>TMIMT College of Management has two language laboratories fully equipped with GOLS linguistic software, enhancing language learning and communication skills.</p>
+                                <p>TMIMT College of Management has two language laboratories fully equipped with GOLs linguistic software, enhancing language learning and communication skills.</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">

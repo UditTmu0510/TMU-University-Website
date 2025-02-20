@@ -22,11 +22,11 @@
             </a>
         </div>
         <h2>Academics</h2>
-        
+
         <div class="account-section">
             <a href="{{ route('mgmt.syllabus') }}" class="custom-menu-item {{ Request::routeIs('mgmt.syllabus') ? 'active' : '' }}">
-     <p>Syllabus</p>
- </a>
+                <p>Syllabus</p>
+            </a>
             <a href="{{ route('mgmt.academic.calendar') }}" class="custom-menu-item {{ setActive('mgmt.academic.calendar') }}">
                 <p>Academic Calendar</p>
             </a>
@@ -54,6 +54,11 @@
             <a href="{{ route('mgmt.timetable') }}" class="custom-menu-item {{ setActive('mgmt.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('mgmt.study.material') }}" class="custom-menu-item {{ setActive('mgmt.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>
