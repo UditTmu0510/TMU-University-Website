@@ -202,7 +202,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>TMDC&RC excels in providing outstanding internships and placements, which play a vital role in every dentist's career journey. Our commitment to excellence is reflected in our 82% campus placement. A decent number of our students are working in dental clinics across India, the South Asia Pacific, and the Middle East. <br>
+                    <p>TMDC&RC excels in providing outstanding internships and placements, which play a vital role in every dentist's career journey.  A decent number of our students are working in dental clinics across India, the South Asia Pacific, and the Middle East. <br>
                         We also go beyond boundaries by conducting student exchange programmes that enable our dental students to gain global exposure and experience in dentistry. Our alumni have achieved remarkable success in various sectors. It includes dental clinics, government and private hospitals, educational institutes, pharmaceutical companies, research institutes, dental equipment manufacturers, and dental product manufacturers.</p>
                     </p>
                 </div>

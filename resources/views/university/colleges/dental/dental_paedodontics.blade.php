@@ -11,9 +11,9 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span> Paedodontics & </span><span>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span> Pediatric & </span><span>
                             Preventive Dentistry </span></h1>
-                    <p class="about-p mb-4 text-justify">The department of Paedodontics and Preventive Dentistry at <a href="{{ route('dental.home') }}">Teerthanker Mahaveer Dental College and Research Centre</a>  is a place where total dental care is provided to children from birth
+                    <p class="about-p mb-4 text-justify">The department of Pediatric and Preventive Dentistry at <a href="{{ route('dental.home') }}">Teerthanker Mahaveer Dental College and Research Centre</a>  is a place where total dental care is provided to children from birth
                         through adolescence including those children with special health care needs. </p>
                 </div>
                 <div class="image-content text-center p-4">
@@ -22,7 +22,7 @@
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">Undergraduates are trained to develop necessary clinical skills for
                         providing basic dental care to children with emphasis on preventive dentistry. Postgraduates
-                        are trained in all aspects of advanced paediatric dentistry including care of very young
+                        are trained in all aspects of advanced paediatric dentistry including care of young
                         children and special children.</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                             <li>A child friendly reception area which is a ‘visual treat for children’.</li>
                             <li>State of the art equipment’s including RVG, hydrosolder, apex locators & intra oral
                                 camera and paediatric dental chairs.</li>
-                            <li>Facility for provision of dental care under general anaesthesia for very young,
+                            <li>Facility for provision of dental care under general anaesthesia for young,
                                 extremely uncooperative and disabled children.</li>
                             <li>Strong Emphasis on prevention of oro-dental diseases in children by providing
                                 preventive procedures and appropriate parent and child counseling.</li>
@@ -46,7 +46,7 @@
                 <div class="col-md-6 mb-3">
                     <div class="section-box p-3 ">
                         <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
-                        <p class="mb-2 text-justify">The Department of Paedodontics & Preventive Dentistry offers MDS course which has an intake capacity of five students per year.
+                        <p class="mb-2 text-justify">The Department of Pediatric & Preventive Dentistry offers MDS course which has an intake capacity of five students per year.
                             Various in-vivo, in-vitro studies and surveys dealing with the various treatment modalities and advances in the specialization are conducted in our department.
                             Interesting researches and original studies undertaken by the post graduate students and staff members are regularly been published in the leading national and international journals.
                             Post graduate students attend national and state conferences, convention and various CDE programs held every year.
@@ -88,7 +88,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14"> Department of Paedodontics & Preventive Dentistry </h4>
+                                <h4 class="fs-14"> Department of Pediatric & Preventive Dentistry </h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/ppd/geotag/ppd4.jpg')}}" download>
                                     Download Geo Tag Image
@@ -259,14 +259,7 @@
                                 <td class="text-center" sdval="28">28</td>
                                 <td>Pressure moulding machine</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="29">29</td>
-                                <td>Electrically operated Dental Chairs with shadowless lamp, spittoon, 3 way
-                                    syringe, and motorised suction,
-                                    micromotor attachment with contra angle miniature handpiece,airotor attachment
-                                    with miniature handpiece, dental
-                                    operater stool (40% dental chairs shall be pedo chairs)</td>
-                            </tr>
+                            
                             <tr>
                                 <td class="text-center" sdval="30">30</td>
                                 <td>Pedo extraction forceps sets</td>

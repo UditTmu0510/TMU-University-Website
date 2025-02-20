@@ -90,7 +90,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14">Section</h4>
+                                <h4 class="fs-14">UG Section</h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/cde/geotag/cde2.jpg')}}" download>
                                     Download Geo Tag Image
@@ -107,7 +107,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14">Section</h4>
+                                <h4 class="fs-14">PG Section</h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/cde/geotag/cde3.jpg')}}" download>
                                     Download Geo Tag Image
@@ -195,26 +195,14 @@
                                 <td class="text-center" sdval="12">12</td>
                                 <td>Set of hand instruments (specifications required)</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="13">13</td>
-                                <td>Sterilizer trays for autoclave</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="14">14</td>
-                                <td>Ultrasonic cleaner capacity 3.5 lts</td>
-                            </tr>
+                            
+                            
                             <tr>
                                 <td class="text-center" sdval="15">15</td>
                                 <td>Variable Intensity polymerization equipments - VLC units</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="16">16</td>
-                                <td>Conventional VLC units one for every two chairs </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="17">17</td>
-                                <td>Needle destroyer</td>
-                            </tr>
+                            
+                            
                         </tbody>
                     </table>
                 </div>
@@ -235,22 +223,8 @@
                                 <td class="text-center" sdval="19">19</td>
                                 <td>LCD projector </td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="20">20</td>
-                                <td>Composite kits with different shades and polishing kits</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="21">21</td>
-                                <td>Ceramic finishing kits, metal finishing kits</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="22">22</td>
-                                <td>Amalgam finishing kits</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="23">23</td>
-                                <td>RVG with x-ray machine developing kit </td>
-                            </tr>
+                            
+                            
                             <tr>
                                 <td class="text-center" sdval="24">24</td>
                                 <td>Chair side micro abrasion </td>
@@ -263,14 +237,8 @@
                                 <td class="text-center" sdval="26">26</td>
                                 <td>Instrument retrieval kits</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="27">27</td>
-                                <td>Computer with internet connection with attached printer and scanner</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="28">28</td>
-                                <td>Refrigerator</td>
-                            </tr>
+                            
+                            
                             <tr>
                                 <td class="text-center" sdval="29">29</td>
                                 <td>Equipments for casting procedures</td>
@@ -289,10 +257,7 @@
                                 <td class="text-center" sdval="32">32</td>
                                 <td>Laser (preferably hard tissue)</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="33">33</td>
-                                <td>Face bow with semi adjustable articulator</td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>

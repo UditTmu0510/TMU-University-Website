@@ -77,12 +77,12 @@
                     <img src="{{asset('/assets/img/college_departments/dental/ppd.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
-                        <h4 class="mb-2">Paedodontics & Preventive Dentistry</h4>
+                        <h4 class="mb-2">Pediatric & Preventive Dentistry</h4>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
                         <div>
                         </div>
-                        <a href="{{route('dental.paedodontics')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
+                        <a href="{{route('dental.pediatric')}}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View
                             More</a>
                     </div>
                 </div>

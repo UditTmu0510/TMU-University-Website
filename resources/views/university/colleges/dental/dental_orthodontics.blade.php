@@ -26,9 +26,8 @@
                         the department is dedicated to providing exceptional orthodontic training to both
                         postgraduate and undergraduate students.</p>
                     <p class="about-p mb-4 text-justify">Our goal is to nurture competent and astute orthodontists who will make
-                        a positive impact in society. Prof. Dr Manish Goyal, college principal, leads the team,
-                        while Prof. Dr Mukesh Kumar provides valuable support. Together, we drive the department's
-                        growth and success. With their expertise, we proudly supervise seven PhD scholars, advancing
+                        a positive impact in society. Prof Dr Mukesh Kumar leads the team and provides valuable support. Together, we drive the department's
+                        growth and success. With their expertise, we proudly supervise PhD scholars, advancing
                         orthodontics.</p>
                     <p class="about-p mb-4 text-justify">The orthodontics department at TMU specialises in the diagnosis and
                         treatment of malocclusions and dentofacial deformities. We cater to a diverse range of
@@ -201,7 +200,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14"> PG Section <br/>&nbsp;</h4>
+                                <h4 class="fs-14"> UG Section <br/>&nbsp;</h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/odo/geotag/odo2.jpg')}}" download>
                                     Download Geo Tag Image
@@ -314,6 +313,14 @@
                             <tr>
                                 <td class="text-center">6</td>
                                 <td>Dental Welder</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">7</td>
+                                <td>Intra Oral Scanner</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">8</td>
+                                <td>3D Scanner</td>
                             </tr>
                         </tbody>
                     </table>
