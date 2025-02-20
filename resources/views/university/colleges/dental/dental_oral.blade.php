@@ -19,7 +19,7 @@
                     <img src="{{asset('/assets/img/college_departments/dental/oms/oms_banner.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4 text-justify">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Jaw Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
+                    <p class="about-p mb-4 text-justify">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Temporo Mandibular Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
                 </div>
             </div>
         </section>
@@ -28,7 +28,7 @@
                 <div class="col-md-6 mb-3">
                     <div>
                         <h3 class="tmu-text-primary mb-2"><span>Specialized Equipment and </span><span> Specialized Treatment</span></h3>
-                        <p class="mb-2 text-justify">The department of Oral and Maxillofacial Surgery, which is making its presence felt more and more in the medical world can have no better place to show its potential than the esteemed TMU University with its world class Super-specialty Hospital and state of the art healthcare system in the country. The Department is responsible for management of the maxillofacial trauma in the 880 bedded medical center and hospital. Round the clock service, outpatient inpatient and emergency service is provided by a team of experienced maxillofacial surgeons working as 2 units providing expert service 24 X 7 X 365 not to mention the extra day on the Leap year.</p>
+                        <p class="mb-2 text-justify">The department of Oral and Maxillofacial Surgery, which is making its presence felt more and more in the medical world can have no better place to show its potential than the esteemed TMU University with its world class Super-specialty Hospital and state of the art healthcare system in the country. The Department is responsible for management of the maxillofacial trauma in the 1100 bedded medical center and hospital. Round the clock service, outpatient inpatient and emergency service is provided by a team of experienced maxillofacial surgeons working as expert service providers 24 X 7 X 365 not to mention the extra day on the Leap year.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -43,7 +43,7 @@
                         <h3 class="tmu-text-primary mb-2"><span>Clinical </span><span> Focus</span></h3>
                         <h4 class="tmu-text-primary mb-0"><span> Orthognathic </span><span> Surgery:</span></h4>
                         <ul class="m-ol-list ps-5">
-                            <li>Beauty is Skin Deep is a proverb that has been proved wrong... it is at least deep to the bone. Orthognathic Surgery is a branch of OMFS that aims to correct under grown, over grown or asymentric jaw and enhance the beauty of an individual by correcting the jaw bones.</li>
+                            <!-- <li>Beauty is Skin Deep is a proverb that has been proved wrong... it is at least deep to the bone. Orthognathic Surgery is a branch of OMFS that aims to correct under grown, over grown or asymentric jaw and enhance the beauty of an individual by correcting the jaw bones.</li> -->
                             <li>The department has been involved in orthognathic surgery and is one of the best centers for quality treatment.</li>
                             <li>With facilities for pre and post surgical orthodontics and availability of fully adjustable articulator SAM III and Surgical planning Platform, It is one of the best orthognathic center.</li>
                         </ul>
@@ -52,7 +52,7 @@
                             <li>With nearly 200 trauma related surgeries in a year, the department is one of the renowned maxillofacial trauma centers.</li>
                             <li>Currently the areas of interest include Orbital Reconstruction, management of Post traumatic deformity and newer internal fixation plate designs.</li>
                         </ul>
-                        <h4 class="tmu-text-primary mb-0"><span> Maxillofcial </span><span> Implantology:</span></h4>
+                        <h4 class="tmu-text-primary mb-0"><span> Maxillofacial </span><span> Implantology:</span></h4>
                         <ul class="m-ol-list ps-5">
                             <li>Handling more than 200 cases of trauma each year, the department had to face the challenge of adequately rehabilitating these patients to proper dental function and esthetics.</li>
                             <li>Dental implants, the state of the art modality to replace missing teeth can be of little help when one is lost due to trauma. This opened up a new area of interest in bone grafts in these patients for dental implants.</li>

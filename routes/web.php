@@ -614,7 +614,7 @@ Route::get('/dental-college-and-research-centre/conservative-dentistry-endodonti
 Route::get('/dental-college-and-research-centre/oral-maxillofacial-surgery', [DentalController::class, 'dental_oral_maxillofacial_surgery'])->name('dental.oral.maxillofacial.surgery');
 Route::get('/dental-college-and-research-centre/orthodontics-dentofacial-orthopedics', [DentalController::class, 'dental_orthodontics'])->name('dental.orthodontics');
 Route::get('/dental-college-and-research-centre/prosthodontics-crown-bridge', [DentalController::class, 'dental_Prosthodontics'])->name('dental.Prosthodontics');
-Route::get('/dental-college-and-research-centre/paedodontics-preventive-dentistry', [DentalController::class, 'dental_paedodontics'])->name('dental.paedodontics');
+Route::get('/dental-college-and-research-centre/pediatric-preventive-dentistry', [DentalController::class, 'dental_paedodontics'])->name('dental.pediatric');
 Route::get('/dental-college-and-research-centre/periodontology', [DentalController::class, 'dental_periodontology'])->name('dental.periodontology');
 Route::get('/dental-college-and-research-centre/public-health-dentistry', [DentalController::class, 'dental_public_health'])->name('dental.public.health');
 Route::get('/dental-college-and-research-centre/oral-medicine-radiology', [DentalController::class, 'dental_oral_medicine'])->name('dental.oral.medicine');
