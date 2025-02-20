@@ -749,8 +749,8 @@
                         <!--          </video>-->
 
                     </div>
-                    <div class="banner-text">
-                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
+                    <div class="video-text">
+                        <h1 style="font-family:Noto Sans TC">This is TMU</h1>
                         <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
                             With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
                     </div>
