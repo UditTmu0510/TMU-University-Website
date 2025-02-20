@@ -84,14 +84,14 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Monday - Friday</span>
-                                <span>09:00 Am to 05:00 Pm</span>
+                                <span>09:00 am to 05:00 pm</span>
                             </div>
                         </div>
                         <div>
                             <!-- <img src="phone-icon.png" alt="Phone Icon"> -->
                             <div>
                                 <span>Saturday</span>
-                                <span>09:00 Am to 02:00 Pm</span>
+                                <span>09:00 am to 02:00 pm</span>
                             </div>
                         </div>
                         <div>
