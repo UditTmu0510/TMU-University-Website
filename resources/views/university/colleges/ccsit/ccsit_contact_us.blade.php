@@ -61,14 +61,14 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Email</span>
-                                <span class="text-break">principal.computers@tmu.ac.in</span>
+                                <span class="text-break">dean.engineering@tmu.ac.in</span>
                             </div>
                         </div>
                         <div>
                             <!-- <img src="phone-icon.png" alt="Phone Icon"> -->
                             <div>
                                 <span>Phone</span>
-                                <span>(+91) 591-2476832</span>
+                                <span>(+91) 591-2476832, 9568516000, 9568517000, 7351418000</span>
                             </div>
                         </div>
                         <div>

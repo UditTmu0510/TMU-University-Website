@@ -5,24 +5,19 @@
 <div class="main-content">
         <div class="container">
             <div class="row mx-0">
-                <h1 class="tmu-text-primary tmu-page-heading mb-2 pt-md-5"><span>About Centre for Teaching</span> <span>Learning
+                <h1 class="tmu-text-primary tmu-page-heading mb-2 pt-md-5"><span>About </span><span> Centre for Teaching, Learning
                         & Development (CTLD)</span></h1>
 
                 <h3 class="text-center mb-4 fw-bold tmu-color-red">
                     Aren’t able to crack the Group Discussion (GD) and Personal Interview (PI) for that dream company?
                 </h3>
                 <h3 class="text-center" style="font-size:1.8vmax"><strong>
-                        Well, have we crosschecked on what might have gone wrong?</strong>
+                Have we considered what might have gone wrong?</strong>
                 </h3>
 
                 <p class="mb-4 text-justify">
-                    Here’s a hint, it’s not the grades, instead it’s the personality traits. Companies seeking talent
-                    don’t just swipe left on an individual because of low domain scores or grades instead they reject
-                    individuals majorly due to the lack of basic aptitudes, life skills, soft skills and Social
-                    skills.<br>
-                    As per the research by one of the world’s top University, 88% of a candidate’s selection is based on
-                    Soft skills and only 12% weighs on domain knowledge in an interview at hotshot corporates and other
-                    dream companies.<br>
+                    Here’s a hint, it’s not the grades, instead it’s the personality traits. Companies seeking talent don't reject individuals solely based on low domain scores or grades; instead,   they primarily do so due to a lack of basic aptitudes, life skills, soft skills, and social skills.<br>
+                    As per the research by one of the world’s top Universities, 88% of a candidate’s selection at hotshot corporates and other dream companies is based on Soft skills and only 12% weighs on domain knowledge in an interview.<br>
                     <img class="mt-4 mb-4" src="{{asset('/assets/img/banner_overview/ctld/info_1.png')}}"
                         alt="">
                     Hence, realising the importance of these skills, Teerthanker Mahaveer University (TMU) introduced

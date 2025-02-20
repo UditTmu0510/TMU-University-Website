@@ -41,6 +41,7 @@ use App\Http\Controllers\JobformController;
 use App\Http\Controllers\TeachersfeedbackController;
 use App\Http\Controllers\AlumnifeedbackController;
 use App\Http\Controllers\EmployerFeedbackController;
+use App\Http\Controllers\ExpertFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
@@ -265,10 +266,11 @@ Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::cla
 Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
 
 
-
-
 Route::get('/tmu/iqac-cell/employer-feedback-form', [EmployerFeedbackController::class, 'createEmployerFeedbackForm'])->name('employer.feedback.form');
 Route::POST('/tmu/iqac-cell/submit-employer-feedback-form', [EmployerFeedbackController::class, 'storeFeedback'])->name('store.employer.feedback.form');
+
+Route::get('/tmu/iqac-cell/experts-feedback-form', [ExpertFeedbackController::class, 'createExpertFeedbackForm'])->name('expert.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-expert-feedback-form', [ExpertFeedbackController::class, 'storeFeedback'])->name('store.expert.feedback.form');
 
 
 // NAAC
@@ -475,7 +477,7 @@ Route::get('/college-of-fine-arts/study-material', [FineartsController::class, '
 Route::get('/faculty-of-engineering', [EngineeringController::class, 'index'])->name('engineering.home');
 Route::get('/faculty-of-engineering/about-us', [EngineeringController::class, 'engineering_about_us'])->name('engineering.about.us');
 Route::get('/faculty-of-engineering/college-highlight', [EngineeringController::class, 'engineering_highlights'])->name('engineering.highlights');
-Route::get('/faculty-of-engineering/director', [EngineeringController::class, 'engineering_principal'])->name('engineering.dean');
+Route::get('/faculty-of-engineering/dean', [EngineeringController::class, 'engineering_principal'])->name('engineering.dean');
 Route::get('/faculty-of-engineering/academic-calendar', [EngineeringController::class, 'engineering_academic_calednar'])->name('engineering.academic.calednar');
 Route::get('/faculty-of-engineering/nba', [EngineeringController::class, 'engineering_nba'])->name('engineering.nba');
 Route::get('/faculty-of-engineering/corporate-advisory-board', [EngineeringController::class, 'engineering_corporate_advisory_board'])->name('engineering.corporate.advisory.board');

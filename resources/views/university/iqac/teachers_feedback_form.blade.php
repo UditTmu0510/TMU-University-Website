@@ -109,10 +109,23 @@
                         <div class="invalid-feedback">Please select the academic year.</div>
                     </div>
 
+
+                    <div class="mb-3">
+                        <p>
+                            <strong> Instructions: Please indicate your level of satisfaction with the following statement by choosing as per the guidelines given below: </strong>
+                        </p>
+                        <ul style="list-style-type: upper-alpha;" class="ps-3">
+                            <li>Strongly Agree</li>
+                            <li>Agree</li>
+                            <li>Neutral</li>
+                            <li>Disagree</li>
+                            <li>Strongly Disagree</li>
+                        </ul>
+                    </div>
+
                     <!-- Questions (Multi Choice) -->
                     <div class="mb-3">
-                        <label class="form-label required-label">Aims and objectives of the syllabus are well defined
-                            and clear to teachers.</label>
+                        <label class="form-label required-label">The syllabus is well-structured and logically sequenced.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q1" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -137,8 +150,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Syllabus is sufficient to bridge the gap between
-                            industry standards /current global scenarios and academics.</label>
+                        <label class="form-label required-label">The content of the syllabus aligns with the program's learning objectives.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q2" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -163,8 +175,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Learning value (in terms of skills, concepts,
-                            knowledge, analytical abilities or broadening perspectives).</label>
+                        <label class="form-label required-label">The syllabus incorporates recent developments and advancements in the field.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q3" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -189,8 +200,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Applicability/relevance to real life
-                            situations.</label>
+                        <label class="form-label required-label">The time allocated for each topic in the syllabus is adequate.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q4" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -215,7 +225,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Extent of effort required by the students</label>
+                        <label class="form-label required-label">The syllabus includes adequate practical components to complement theoretical knowledge.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q5" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -240,9 +250,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Syllabus has flexibility to adopt new
-                            techniques/strategies of teaching such as presentations, group discussions and learners’
-                            participations.</label>
+                        <label class="form-label required-label">The syllabus provides a good balance between core and elective subjects.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q6" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -267,8 +275,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">Timely coverage of syllabus is possible in the
-                            mentioned number of hours.</label>
+                        <label class="form-label required-label">The reference materials and resources mentioned are current and relevant.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q7" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -293,8 +300,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">The evaluation methods mentioned in the syllabus are
-                            sufficient for providing proper assessment.</label>
+                        <label class="form-label required-label">The syllabus facilitates interdisciplinary learning and skill development.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q8" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -319,8 +325,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label required-label">The books prescribed/listed as reference materials are
-                            relevant, updated and appropriate.</label>
+                        <label class="form-label required-label">The syllabus is effective in preparing students for higher studies or industry requirements.</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q9" value="Strongly Disagree" required>
                             <label class="form-check-label">Strongly Disagree</label>
@@ -339,6 +344,31 @@
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="q9" value="Strongly Agree" required>
+                            <label class="form-check-label">Strongly Agree</label>
+                        </div>
+                        <div class="invalid-feedback">Please select an option.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label required-label">I am satisfied with the overall quality and relevance of the syllabus for the course.</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q10" value="Strongly Disagree" required>
+                            <label class="form-check-label">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q10" value="Disagree" required>
+                            <label class="form-check-label">Disagree</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q10" value="Neutral" required>
+                            <label class="form-check-label">Neutral</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q10" value="Agree" required>
+                            <label class="form-check-label">Agree</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q10" value="Strongly Agree" required>
                             <label class="form-check-label">Strongly Agree</label>
                         </div>
                         <div class="invalid-feedback">Please select an option.</div>

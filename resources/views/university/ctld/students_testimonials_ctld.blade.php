@@ -12,7 +12,7 @@
     <div class="container">
         <div class="container-xl tmu-testimonial">
             <h1 class="tmu-text-primary mb-0 tmu-page-heading pt-md-5 pb-4">
-                <span>Students</span><span> Testimonial</span>
+                <span>Students'</span><span> Testimonial</span>
             </h1>
             <div class="row">
                  @foreach($testimonials as $testimonial)

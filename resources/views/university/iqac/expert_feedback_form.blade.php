@@ -41,10 +41,10 @@
 <div class="main-content">
   <div class="container">
 
-    <h1 class="tmu-text-primary tmu-page-heading"><span>Employers Feedback Form </span><span>on Curriculum</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading"><span>External Experts Feedback Form </span><span>on Curriculum</span></h1>
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
-        <form action="{{ route('store.employer.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
+        <form action="{{ route('store.expert.feedback.form') }}" method="POST" class="feedback-form p-4 needs-validation" novalidate>
 
 
 
@@ -60,7 +60,7 @@
 
           <!-- Employers Name -->
           <div class="mb-3">
-            <label for="facultyName" class="form-label required-label">Name of the Employers</label>
+            <label for="facultyName" class="form-label required-label">Name</label>
             <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="name" required>
             <div class="invalid-feedback">Please enter your name.</div>
           </div>
@@ -74,7 +74,7 @@
 
           <!-- Organization  Name -->
           <div class="mb-3">
-            <label for="facultyName" class="form-label required-label">Name of the Organization of Employer</label>
+            <label for="facultyName" class="form-label required-label">Name of the Organization of Expert</label>
             <input type="text" class="form-control" id="facultyName" placeholder="Enter your name" name="current_organization" required>
             <div class="invalid-feedback">Please enter Organization Name.</div>
           </div>
@@ -134,7 +134,7 @@
 
           <!-- Questions (Multi Choice) -->
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum equips graduates with the necessary technical knowledge for their roles.</label>
+            <label class="form-label required-label">The curriculum aligns with global academic and industry standards in the respective discipline.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q1" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -159,7 +159,7 @@
           </div>
 
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum addresses the current trends and advancements in the industry.</label>
+            <label class="form-label required-label">The curriculum integrates contemporary topics and emerging trends effectively.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q2" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -184,7 +184,7 @@
           </div>
 
           <div class="mb-3">
-            <label class="form-label required-label">Graduates demonstrate strong problem-solving and critical thinking skills, as emphasized in the curriculum.</label>
+            <label class="form-label required-label">The balance between core and elective courses in the curriculum is appropriate.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q3" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -210,7 +210,7 @@
 
           
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum provides a good balance between theoretical knowledge and practical skills.</label>
+            <label class="form-label required-label">The curriculum offers sufficient opportunities for interdisciplinary learning and innovation.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q4" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -236,7 +236,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">Graduates are well-prepared to handle real-world challenges in their respective fields.</label>
+            <label class="form-label required-label">Practical components such as lab work, internships, or projects are well-integrated into the curriculum.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q5" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -262,7 +262,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum includes adequate exposure to teamwork, leadership, and communication skills.</label>
+            <label class="form-label required-label">The curriculum is effective in fostering problem-solving, critical thinking, and analytical skills.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q6" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -288,7 +288,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum includes adequate exposure to teamwork, leadership, and communication skills.</label>
+            <label class="form-label required-label">The curriculum addresses the skills and knowledge necessary to meet industry or professional demands.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q7" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -314,7 +314,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum integrates internship, project work, or other experiential learning opportunities that prepare students for industry needs.</label>
+            <label class="form-label required-label">Ethical considerations, sustainability, and professional responsibility are adequately incorporated in the curriculum.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q8" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -340,7 +340,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">The curriculum adequately emphasizes ethical practices and professional responsibility.</label>
+            <label class="form-label required-label">The reference materials and resources suggested in the curriculum are relevant and up-to-date.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q9" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>
@@ -366,7 +366,7 @@
 
 
           <div class="mb-3">
-            <label class="form-label required-label">Overall, the curriculum meets the expectations and requirements of our industry.</label>
+            <label class="form-label required-label">Overall, the curriculum is robust, comprehensive, and meets the expectations of a world-class academic program.</label>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="q10" value="Strongly Disagree" required>
               <label class="form-check-label">Strongly Disagree</label>

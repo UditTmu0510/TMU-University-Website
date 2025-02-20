@@ -28,10 +28,10 @@
                                 <div class="principal-image-decoration23"></div>
                             </div>
                             <div class="principal-info23">
-                                <h4 class="principal-name23">(Dr.) R. K. Dwivedi</h4>
+                                <h4 class="principal-name23">Prof. (Dr.) R. K. Dwivedi</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
-                                    Principal
+                                    Dean, Faculty of Engineering
                                 </p>
                             </div>
                         </div>

@@ -12,7 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to  <span style="font-weight:700!important;">the Faculty of </span> Engineering </h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to  <span style="font-weight:700!important;">Teerthanker Mahaveer </span>College of Engineering </h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -31,9 +31,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span> Affiliated</span>
+                            <span> Affiliation</span>
                             <br>
-                            <span class="d-block pt-1">Engineering Council of <br>India </span>
+                            <span class="d-block pt-1">AICTE</span>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span> Affiliated</span>
+                                        <span> Affiliation</span>
                                         <br>
-                                        <span class="d-block pt-1">Engineering Council of India </span>
+                                        <span class="d-block pt-1">AICTE</span>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                 <h2 class="college-main-heading">Teerthanker Mahaveer Faculty of Engineering (FOE),</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech CS&E programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in UP.</b></p>
+                        <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech. CSE programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in Uttar pradesh.</b></p>
 
                         <a href="{{route('engineering.about.us')}}" class="tmu-btn btn-1 py-2">Know More!</a>
                     </div>
@@ -180,7 +180,7 @@
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
                             <li><strong>Dedicated Corporate Resource Centre (CRC): </Strong>Our CRC tirelessly works to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career.</li>
-                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to help all our students secure the best available jobs in their respective fields.</li>
+                            <li><strong>82% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to help all our students secure the best available jobs in their respective fields.</li>
                         </ul>
                         <p>Join FOE College, the epitome of excellence and the best private engineering college in Uttar Pradesh. Unleash your potential and build a rewarding future with us!</p>
                     </div>
@@ -395,7 +395,7 @@
                                 alt="TMU collaboration with united resourcing">
 
                             <div class="card-body">
-                                <h3 class="collab-card-title">TCS iON - B.Tech (CSE) Data Science</h3>
+                                <h3 class="collab-card-title">TCS iON - B.Tech. (CSE) Data Science</h3>
                                 <p class="collab-card-text ">In this collaborative program, students receive training from industry experts at TCS iON, gaining valuable insights into real-world industry practices and acquiring the skills needed for better employment opportunities.
                                 </p>
                                 <button
@@ -411,7 +411,7 @@
                             <img class="collab-card-img" src="{{asset('assets/img/collaboration/engineering/2.png')}}"
                                 alt="TMU collaboration with whizhack">
                             <div class="card-body">
-                                <h3 class="collab-card-title">B.Tech (CSE) Applications development using cloud &
+                                <h3 class="collab-card-title">B.Tech. (CSE) Applications development using cloud &
                                     analytics platforms</h3>
                                 <p class="collab-card-text">Under this collaborative program, the students are trained
                                     and taught by

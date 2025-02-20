@@ -12,7 +12,7 @@
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
 						<p class="description">The Annual Quality Assurance Report (AQAR) of the IQAC (Academic Session 2019-20)</p>
-						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/iqac_minutes/ATR_IQAC_20_01_2022_compressed.pdf')}}">View PDF</a>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/AQAR_2019-20_compressed.pdf')}}">View PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">

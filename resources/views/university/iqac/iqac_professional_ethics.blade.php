@@ -13,73 +13,98 @@
           <span>Human Values and</span>
           <span> Professional Ethics</span>
         </h1>
-        <p class="mb-1">Various activities has been organised by the different colleges/ department of the university for inculcating values for becoming responsible citizens. </p>
+        <p class="mb-1">Various activities have been organised by the different colleges/ department of the university for inculcating values for becoming responsible citizens. </p>
         <div class="table-responisve">
           <table class="table table-bordered table-striped">
             <thead>
               <th>Sl. No.</th>
               <th>Name of Activities</th>
+              <th class="text-center">View More</th>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
                 <td>Guest Lecture on Child Rights Day</td>
+                <td class="text-center"><a href="{{url('news/international-girl-child-day-celebration-at-tmus-college-of-law-and-legal-studies')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Awareness Program Crime on Child</td>
+                <td class="text-center"><a href="{{url('news/legal-awareness-camp-at-tmu-empowering-children')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Workshop on Human Values</td>
+                <td class="text-center"><a href="{{url('news/you-can-only-succeed-if-you-are-confident-prof-dr-krishnia')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>4</td>
                 <td>Guest Lecture on Human Rights</td>
+                <td class="text-center"><a href="{{url('news/human-rights-day-celebration')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>5</td>
                 <td>Guest Lecture on Fundamental Rights</td>
+                <td class="text-center"><a href="{{asset('assets/img/department/iqac/prof/fundamentalday.jpeg')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>6</td>
                 <td>Guest Lecture on Constitutional Rights</td>
+                <td class="text-center"><a href="{{url('news/celebration-of-national-constitution-day')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>7</td>
                 <td>Awareness Program for Voting by Chief Election Officer UP</td>
+                <td class="text-center"><a href="{{url('news/vote-for-nation')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>8</td>
                 <td>Voters Awareness Campaign</td>
+                <td class="text-center"><a href="{{asset('assets/img/department/iqac/prof/guestlectureonvoterawareness.jpeg')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>9</td>
                 <td>Session on Indian Judiciary System</td>
+                <td class="text-center"><a href="{{asset('assets/img/department/iqac/prof/judiciarysystem.jpeg')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>10</td>
                 <td>High Court Visit</td>
+                <td class="text-center"><a href="{{url('news/allahabad-high-court-chief-justice-inspires-law-students-at-teerthanker-mahaveer-university')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>11</td>
-                <td>Awareness Program on Bhrashtachaar Mukt Bharat</td>
+                <td>Swachh Bharat Abhiyan Program</td>
+                <td class="text-center"><a href="{{url('news/tmu-spread-cleanliness-awareness')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>12</td>
-                <td>Swachh Bharat Abhiyan Program</td>
+                <td>Awareness Program about Constitution</td>
+                <td class="text-center"><a href="{{url('news/competitions-celebrations-mark-constitution-day')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>13</td>
-                <td>Awareness Program about Constitution</td>
+                <td>Visit to Parliament Delhi</td>
+                <td class="text-center"><a href="{{url('news/parliament-visit')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
               <tr>
                 <td>14</td>
-                <td>Visit to Parliament Delhi</td>
-              </tr>
-              <tr>
-                <td>15</td>
                 <td>Awareness Program on Traffic Rules</td>
+                <td class="text-center"><a href="{{url('news/national-road-safety-awareness-programme')}}"><i
+												class="fa-solid fa-link"></i></a></td>
               </tr>
 
             </tbody>

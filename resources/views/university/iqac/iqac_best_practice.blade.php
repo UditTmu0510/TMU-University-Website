@@ -9,7 +9,7 @@
     <div class="container">
 
         <div class="row">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> Best Practices of </span><span> IQAC Cell</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading"><span> Best </span><span>Practices</span></h1>
             <section>
                 <div class="container">
                     <h3 class="tmu-text-primary"><span>I. Title of </span><span>the Practice:</span></h3>

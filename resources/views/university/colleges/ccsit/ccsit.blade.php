@@ -12,7 +12,7 @@
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
                     <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to College of<span
-                            style="font-weight:700!important;"> Computing Sciences & IT </span>(CCSIT)</h1>
+                            style="font-weight:700!important; font-size:3.6rem">Computing Sciences & Information Technology</span>(CCSIT)</h1>
                     
                         <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-md-4 py-1 px-3 py-xl-2 px-xl-5 "> Apply Now</a>
                 </div>
@@ -136,7 +136,7 @@
                         <div class="read-more-content mt-0">
                         <p style="text-align: justify;">With a strong emphasis on emerging technologies such as Artificial Intelligence (AI), Machine Learning (ML), 
                             and Deep Learning (DL), the college equips students with the in-demand skills to thrive in the rapidly evolving IT industry. 
-                            Beyond technical expertise, the CCS&IT also fosters an entrepreneurial mindset, nurturing the next generation of innovators 
+                            Beyond technical expertise, the CCSIT also fosters an entrepreneurial mindset, nurturing the next generation of innovators 
                             and visionaries</p>
                         <p style="text-align: justify;">In today's digitally driven world, the demand for skilled professionals in the field of computer sciences is 
                             soaring higher than ever before. Amidst this surge, Teerthanker Mahaveer University's College of Computing Sciences & IT 
@@ -185,7 +185,7 @@
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-5"> 
                         <li class="fs-12"><strong>Specialization in Emerging Technologies:</strong> The college offers specialized training in trending fields like Cloud Computing, Blockchain, Cybersecurity, Data Science, and Internet of Things (IoT), helping students stay ahead of the curve.</li>
-                        <li class="fs-12"><strong>Comprehensive Career Support:</strong> With dedicated placement cells and career guidance, CCSIT graduates have successfully secured positions in top multinational companies and startups.</li>
+                        <li class="fs-12"><strong>Comprehensive Career Support:</strong> With dedicated placement cell and career guidance, CCSIT graduates have successfully secured positions in top multinational companies and startups.</li>
                         <li class="fs-12"><strong>Holistic Development:</strong> Beyond academics, the college emphasizes soft skills, leadership, and critical thinking, fostering well-rounded individuals ready to tackle real-world challenges.</li>
                         <li class="fs-12"><strong>Research and Innovation:</strong> CCSIT encourages students to engage in research projects and innovative developments, promoting a culture of inquiry and creativity in the field of computing sciences.</li>
                         </ul>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p class="mb-0">As a centre for computing sciences, CCS&IT offers a pool of internships and
+                    <p class="mb-0">As a centre for computing sciences, CCSIT offers a pool of internships and
                         placement opportunities for a swift transition from academics to the professional world.</p>
 
                     <div class="read-more-content mt-0">
@@ -218,7 +218,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
                     <h3>Curriculum</h3>
-                    <p>The CCS&IT’s curriculum is designed to equip students with updated knowledge and technical
+                    <p>The CCSIT’s curriculum is designed to equip students with updated knowledge and technical
                         skills. Our faculties use effective pedagogy, fostering an optimal learning environment. We
                         value students’ participation in conferences, seminars, workshops, and group discussions for
                         overall development.</p>
@@ -236,7 +236,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
-                    <p>CCS&IT provides a conducive environment to provide quality education and support to both students
+                    <p>CCSIT provides a conducive environment to provide quality education and support to both students
                         and faculty members. The College boasts</p>
                     <div class="read-more-content mt-0">
                         <ul class="m-ol-list ps-4">

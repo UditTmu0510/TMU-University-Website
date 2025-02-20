@@ -113,14 +113,11 @@
                 "": {
                     "link": "\/programme\/"
                 },
-                "BCA Bachelor of Computer Applications in Cloud Technology and Information Security": {
-                    "link": "\/programme\/bca-in-cloud-technology-information-security-programme-in-collaboration-with-i-nurture-programme"
-                },
-                "BCA Bachelor of Computer Applications in Digital Marketing": {
-                    "link": "\/programme\/bca-in-digital-marketing"
-                },
                 "BCA Bachelor Of Computer Applications": {
                     "link": "\/programme\/bachelor-of-computer-application-programme"
+                },
+                "B.Tech (Computer Science & Engineering)": {
+                    "link": "\/programme\/b-tech-in-computer-science-and-engineering"
                 },
                 "B.Tech. (Computer Science & Engineering) with specialisation in Data Science (In collaboration with TCS- iON)": {
                     "link": "\/programme\/b-tech-cse-in-data-science-collaboration-with-tcs-ion-programme"
@@ -157,13 +154,15 @@
             "Nursing": {
                 "B.Sc. Nursing": {
                     "link": "\/programme\/bsc-nursing"
+                },
+                "Post Basic B.Sc. Nursing": {
+                    "link": "\/programme\/post-basic-bsc-nursing"
                 }
             },
             "Education": {
                 "B.Ed. (Bachelor of Education)": {
                     "link": "\/programme\/bachelor-of-education-b-ed"
                 },
-                
                 "B.El.ED": {
                     "link": "programme\/b-el-ed-programme"
                 }
@@ -194,15 +193,6 @@
                 }
             },
             "Management": {
-                "B.Com. (Hons) with Research in Business Analytics": {
-                    "link": "\/programme\/BCom-in-business-analytics"
-                },
-                "B.Com. (Hons) with Research in Tax Law & Ethics": {
-                    "link": "\/programme\/bcom-in-text-laws"
-                },
-                "B.Com. (Hons) with Research in Finance": {
-                    "link": "\/programme\/bcom-hons-research-finance"
-                },
                 "B.Com. (Hons.) ": {
                     "link": "\/programme\/bachelor-of-commerce-b-com-honours-programme"
                 },
@@ -211,21 +201,6 @@
                 },
                 "B.Com. (Pass)": {
                     "link": "\/programme\/bcom-pass"
-                },
-                "BBA (Hons) with Research in Marketing": {
-                    "link": "\/programme\/bba-in-research-marketing"
-                },
-                "BBA (Hons) with Research in HR": {
-                    "link": "\/programme\/bba-human-resources"
-                },
-                "BBA (Hons) with Research in Finance": {
-                    "link": "\/programme\/bba-hons-in-finance"
-                },
-                "BBA (Hons) with Research in Digital Marketing": {
-                    "link": "\/programme\/bba-in-digital-marketing"
-                },
-                "BBA in International Business & Entreprenuership": {
-                    "link": "\/programme\/bba-in-international-business-entrepreneurship-programme"
                 },
                 "BBA in Data Anlytics ": {
                     "link": "\/programme\/bba-in-data-analytics"
@@ -291,6 +266,10 @@
                 "MS Medical in Orthopaedics": {
                     "link": "\/programme\/ms-orthopaedics"
                 },
+                "MS Medical in Obstetrics and Gynaecology": {
+                    "link": "\/programme\/ms-obstetrics-and-gynaecology"
+                },
+
                 "MD Radio-Diagnosis\/Radiology": {
                     "link": "\/programme\/md-radio-diagnosis-radiology"
                 },
@@ -384,21 +363,7 @@
                 }
             },
             "Computing Sciences & IT": {
-                "Master of Computer Applications (MCA) in Software Development ": {
-                    "link": "\/programme\/master-of-computer-application-in-software-development"
-                },
-                "Master of Computer Applications (MCA) in Machine Learning": {
-                    "link": "programme\/mca-in-machine-learning"
-                },
-                "Master of Computer Applications (MCA) in Network Technologies ": {
-                    "link": "\/programme\/mca-in-network-technologies"
-                },
-                "Master of Computer Applications (MCA) in Data Science & Analytics ": {
-                    "link": "\/programme\/MCA-in-Data-Science"
-                },
-                "Master of Computer Applications (MCA) in Advance Technologies": {
-                    "link": "\/programme\/MCA-advance-technologies"
-                },
+               
                 "Master of Computer Applications (MCA) ": {
                     "link": "\/programme\/mca-programme"
                 },
@@ -431,41 +396,11 @@
                 }
             },
             "Management": {
-                "Master of Business Administration (MBA) in Marketing": {
-                    "link": "\/programme\/mba-in-marketing-programme"
-                },
-                "Master of Business Administration (MBA) in HR": {
-                    "link": "\/programme\/mba-in-hr"
-                },
-                "Master of Business Administration (MBA) in International Business": {
-                    "link": "\/programme\/mba-international-business"
-                },
-                "Master of Business Administration (MBA) in Finance": {
-                    "link": "\/programme\/mba-in-finance"
-                },
                 "Master of Business Administration (Specialization in Agri-Business Management) ": {
                     "link": "\/programme\/mba-in-agri-business"
                 },
                 "Master of Business Administration Hospital Management ": {
                     "link": "\/programme\/mba-in-hospital-management-mba-programme"
-                },
-                "Master of Business Administration Cyber Security (in Collaboration with Whizack Technologies)": {
-                    "link": "\/programme\/mba-cyber-security"
-                },
-                "Master of Business Administration Coporate with Global Exposure (Free Tablet)": {
-                    "link": "\/programme\/mba-in-industry-integrated-with-global-exposure-programme"
-                },
-                "MBA in Various Specialisation": {
-                    "link": "\/programme\/mba-marketing-hr-ib-finance"
-                },
-                "Master of Business Administration (MBA) in Handicraft Export Management": {
-                    "link": "\/programme\/mba-in-handicraft-export-management-programme"
-                },
-                "Master of Business Administration (MBA) in Evening": {
-                    "link": "\/programme\/master-of-business-administration-mba-executive-programme"
-                },
-                "Master of Business Administration (MBA) in Executive": {
-                    "link": "\/programme\/master-of-business-administration-mba-evening-programme"
                 }
             },
             "Paramedical": {
@@ -485,6 +420,9 @@
             "Pharmacy": {
                 "Pharm.D. Post Baccalaureate": {
                     "link": "\/programme\/pharm-d-pb-post-baccalaureate"
+                },
+                "Pharm.D.": {
+                    "link": "\/programme\/doctor-of-pharmacy-programme-at-tmu-moradabad"
                 },
                 "M. Pharm. in Pharmacology": {
                     "link": "\/programme\/m-pharm-pharmacology"
@@ -508,11 +446,21 @@
                 "Master of Physiotherapy (MPT) in Orthopaedics": {
                     "link": "programme\/mpt-in-orthopaedics"
                 },
-                "Master of Physiotherapy (MPT) in Neurosciences": {"link":"programme/mpt-in-neurosciences"},
-                "Master of Physiotherapy(MPT) in Cardiopulmonary":{"link":"programme/mpt-in-cardiopulmonary"},
-                "Master of Physiotherapy(MPT) in Sports":{"link":"programme/mpt-in-Sports"},
-                "Master of Physiotherapy (MPT) in Gynaecology":{"link":"programme/MPT-or-Master-of-Physiotherapy-Gynaecology"},
-                "Master of Physiotherapy (MPT) in Paediatrics":{"link":"programme/mpt-or-Master-of-physiotherapy-Paediatrics"}
+                "Master of Physiotherapy (MPT) in Neurosciences": {
+                    "link": "programme\/mpt-in-neurosciences"
+                },
+                "Master of Physiotherapy(MPT) in Cardiopulmonary": {
+                    "link": "programme\/mpt-in-cardiopulmonary"
+                },
+                "Master of Physiotherapy(MPT) in Sports": {
+                    "link": "programme\/mpt-in-Sports"
+                },
+                "Master of Physiotherapy (MPT) in Gynaecology": {
+                    "link": "programme\/MPT-or-Master-of-Physiotherapy-Gynaecology"
+                },
+                "Master of Physiotherapy (MPT) in Paediatrics": {
+                    "link": "programme\/mpt-or-Master-of-physiotherapy-Paediatrics"
+                }
             },
             "Agriculture": {
                 "M.Sc. (Master of Science in Agronomy )": {
