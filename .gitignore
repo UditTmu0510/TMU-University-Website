@@ -19,6 +19,7 @@ yarn-error.log
 /.vscode
 .DS_Store
 */.DS_Store
+.htaccess
 # Ignore all files and folders in the public directory
 /public/*
 
