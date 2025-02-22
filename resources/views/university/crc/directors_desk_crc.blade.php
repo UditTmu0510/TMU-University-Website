@@ -27,7 +27,7 @@
                                     <div class="principal-image-decoration23"></div>
                                 </div>
                                 <div class="principal-info23">
-                                    <h4 class="principal-name23">Mr. Sidhart Singh</h4>
+                                    <h4 class="principal-name23">Mr. Sidharth Singh</h4>
                                     <p class="principal-position23">
                                         <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
                                         Joint Director - CRC
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                             <p class="principal-text23 text-justify">
-                            Empowering futures, connecting talent, and shaping careers with vision and dedication.<span class="highlight fs-14"> <br> Sidhart Singh</span>
+                            Empowering futures, connecting talent, and shaping careers with vision and dedication.<span class="highlight fs-14"> <br> Sidharth Singh</span>
                                 <br>
                                 <br>
                                 As The Joint Director- Corporate Resource Centre (CRC) it is my honor and privilege to work for the betterment of our students, helping them to discover their unique strengths, passion and guiding them towards achieving their professional goals.
