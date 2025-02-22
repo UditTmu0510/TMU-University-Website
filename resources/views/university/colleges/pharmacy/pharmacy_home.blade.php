@@ -166,7 +166,7 @@
                             <p class="p-0 m-0">It is a hub for academic research and consultancy, fostering expertise by offering a wide range of programmes that equip students with the knowledge and skills needed to excel in the ever-evolving field of pharmacy.</p>
                         </li>
                         <li>
-                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevate the standards of pharmacy education and prepare graduates/post-graduates for advanced roles in the healthcare system as it is only available in five pharmacy institutions in Uttar Pradesh.</p>
+                            <p class="p-0 m-0">By offering the PharmD programme, the College of Pharmacy demonstrates its dedication to elevate the standards of pharmacy education and prepare graduates/post-graduates for advanced roles in the healthcare system as it is only available in six pharmacy institutions in Uttar Pradesh.</p>
                         </li>
                         <li>
                             <p class="p-0 m-0">The college takes pride in its fully functional Drug Information Centre, which is one of its kind in the state of Uttar Pradesh. This centre serves as a valuable resource and offers an ideal platform for students to enhance their knowledge in pharmacovigilance and develop skills in drug information retrieval and analysis.</p>
@@ -540,7 +540,7 @@
 
 
 <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+<h2 class="tmu-text-primary text-center"><span>Why choose </span><span> Teerthanker Mahaveer College of Phramacy</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Key Highlights of College of Pharmacy <span class="icon">+</span></button>
@@ -626,10 +626,10 @@
             <hr class="horizontal-line">
             <button class="careers-accordion">FAQs<span class="icon">+</span></button>
             <div class="panel">
-            <p class="text-justify"><strong>Q: What is the duration of the B.Pharm course?</strong></p>
-            <p class="text-justify"><strong>Ans:</strong> The B.Pharm course duration is four years.</p>
+            <p class="text-justify"><strong>Q: What is the duration of the B Pharm course?</strong></p>
+            <p class="text-justify"><strong>Ans:</strong> The B Pharm course duration is four years.</p>
 
-            <p class="text-justify"><strong>Q: What are the career opportunities after completing a B.Pharm?</strong></p>
+            <p class="text-justify"><strong>Q: What are the career opportunities after completing a B Pharm?</strong></p>
             <p class="text-justify"><strong>Ans:</strong> Graduates can pursue careers in community pharmacies, hospitals, pharmaceutical companies, research labs, and regulatory agencies.</p>
 
             <p class="text-justify"><strong>Q: Does TMU provide placement assistance?</strong></p>
@@ -638,7 +638,7 @@
             <p class="text-justify"><strong>Q: What makes TMU College of Pharmacy unique?</strong></p>
             <p class="text-justify"><strong>Ans:</strong> Our NAAC A accreditation, state-of-the-art facilities, experiential learning approach, and strong industry connections set us apart.</p>
 
-            <p class="text-justify"><strong>Q: What specialisations are offered in the M.Pharm program?</strong></p>
+            <p class="text-justify"><strong>Q: What specialisations are offered in the M Pharm program?</strong></p>
             <p class="text-justify"><strong>Ans:</strong> We offer specialisations in Pharmaceutics, Pharmacology, Pharmacognosy, and Pharmaceutical Analysis.</p>
 
             <p class="text-justify"><strong>Q: Are there global opportunities for TMU pharmacy graduates?</strong></p>
