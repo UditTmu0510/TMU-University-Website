@@ -219,6 +219,7 @@ Route::get('/nss-international-day', [TmuController::class, 'nss_internationalda
 Route::get('/nss-events', [TmuController::class, 'nss_events'])->name('nss.events');
 Route::get('/nss-contactus', [TmuController::class, 'nss_contactus'])->name('nss.contactus');
 Route::get('/nss-coordinator-desk', [TmuController::class, 'nss_coordinator'])->name('nss.coordinator');
+Route::get('/nss-adopted-village', [TmuController::class, 'adopted_village'])->name('adopted.village');
 
 // NEP
 
