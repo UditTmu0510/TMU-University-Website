@@ -1,39 +1,38 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
-
-
+<link rel="stylesheet" href="{{asset('assets/css/tmu-testimonial.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/tmimt.css')}}">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="{{asset('assets/css/college.css')}}">
+<script src="{{asset('assets/js/tmimt.js')}}"></script>
 
 <div class="main-content">
     <div class="container">
-        <!-- <div class="container mt-5 position-relative">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card shadow-lg">
-                        <img src="{{ asset('/assets/img/journal/nursing/journal_banner.jpg') }}" class="card-img-top img-fluid" alt="IJIH Banner">
-                    </div>
-                </div>
-                <div class="col-lg-9 mx-auto mt-3 position-relative" style="margin-top: -20px!important; z-index: 10;">
-                    <div class="bg-white p-3 rounded shadow text-center">
-                        <h1 class="tmu-text-primary tmu-page-heading m-0">
-                            <span>Welcome to International</span>
-                            <span>Journal of Integrated Healthcare</span>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to International </span><span> Journal of Integrated Healthcare</span></h1>
                 </div>
-                <div class="image-content text-center p-4">
-                    <img src="{{ asset('/assets/img/journal/nursing/journal_banner.jpg') }}" alt="Learning and Teaching">
+                <div class="crc-slider-container">
+                    <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div>
+
+                    <div class="crc-slider-content">
+                        <div class="crc-slider-slides">
+                            <div class="crc-slide">
+                                <img src="{{asset('assets/img/banner/nursing/ijih/1.jpg')}}" alt="Slide 1">
+                            </div>
+                            <div class="crc-slide">
+                                <img src="{{asset('assets/img/banner/nursing/ijih/2.jpg')}}" alt="Slide 2">
+                            </div>
+                            <div class="crc-slide">
+                                <img src="{{asset('assets/img/banner/nursing/ijih/3.jpg')}}" alt="Slide 3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div>
                 </div>
+
                 <div class="text-content p-4">
                     <h3 class="tmu-text-primary mb-2 mt-2"><span>About </span><span> IJIH:</span></h3>
                     <p class="about-p mb-4">The TMU International Journal of Integrated Healthcare is a unique journal that promotes interdisciplinary collaboration, innovation, and inclusively in nursing and allied health. It welcomes contributions from nursing professionals and various allied health disciplines and focuses on cutting-edge research, innovative practices, and evidence-based interventions. The journal values diversity and inclusion, promoting a platform for scholars, practitioners, educators, and students to share their experiences. It emphasizes practical relevance, bridging the gap between theory and practice, and fostering a global outlook. The journal encourages dialogue and knowledge sharing among its readers.</p>

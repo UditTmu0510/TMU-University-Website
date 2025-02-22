@@ -16,7 +16,7 @@
 
 
     <h1 class="tmu-text-primary tmu-page-heading"><span>Standard Operating Procedure for </span>
-      <span> Ph.D. Programme</span>
+      <span style="text-transform:none;"> Ph.D. PROGRAMME</span>
     </h1>
 
 
@@ -42,9 +42,9 @@
               the date of declaration of the result, by the University.</li>
             <li class="mb-2">Candidates pay the registration fee within 12 days from the date of
               receiving the Offer Letter.</li>
-            <li class="mb-2">Notification by the respective CRC to the registered candidates (now called
-              Research Scholars) to attend the 1st CRC Meeting.</li>
-            <li class="mb-2"><strong>First CRC Meeting:</strong> Allocation of Supervisor based on the
+            <li class="mb-2">Notification by the respective CRAC to the registered candidates (now called
+              Research Scholars) to attend the 1st CRAC Meeting.</li>
+            <li class="mb-2"><strong>First CRAC Meeting:</strong> Allocation of Supervisor based on the
               area of interest of the research supervisor, Constitution of RAC &
               Recommendation of the Course Work and Additional Courses any - Annexure C &
               C1</li>
@@ -59,41 +59,40 @@
             <li class="mb-2">Research Scholars attend the prescribed course work classes. 75% minimum
               attendance requirement.</li>
             <li class="mb-2">Course Work Exams as notified by the University (June/December)</li>
-            <li class="mb-2">Notification for 1st RAC Meeting at least two weeks before the 2nd CRC
+            <li class="mb-2">Notification for 1st RAC Meeting at least two weeks before the 2nd CRAC
               Meeting for the 1st Semester Progress Report (SPR). Research Scholar to
               submit his/her complete research work plan (Gantt Chart) for the Annexure D
             </li>
-            <li class="mb-2">Recommendations of the CRC on the duly completed SPR of each research
+            <li class="mb-2">Recommendations of the CRAC on the duly completed SPR of each research
               scholars along with MOM, (Annexure G) will be sent to the Ph.D Cell within 3
-              days from the date of conducting CRC Meeting.</li>
-            <li class="mb-2">Notify to attend 2nd RAC meeting two weeks before the 3rd CRC Meeting for
+              days from the date of conducting CRAC Meeting.</li>
+            <li class="mb-2">Notify to attend 2nd RAC meeting two weeks before the 3rd CRAC Meeting for
               2nd SPR.</li>
-            <li class="mb-2">Notify to attend 3rd RAC meeting two weeks before the 4th CRC Meeting for
+            <li class="mb-2">Notify to attend 3rd RAC meeting two weeks before the 4th CRAC Meeting for
               3rd SPR to finalize and submit the Research Plan/Synopsis with working
               title.</li>
-            <li class="mb-2">Notify to attend 4rd RAC meeting two weeks before the 5th CRC Meeting for
+            <li class="mb-2">Notify to attend 4rd RAC meeting two weeks before the 5th CRAC Meeting for
               4th SPR.</li>
-            <li class="mb-2">Notify to attend 5th RAC meeting two weeks before the 6th CRC Meeting for
+            <li class="mb-2">Notify to attend 5th RAC meeting two weeks before the 6th CRAC Meeting for
               5th SPR & counsel the research scholar to make pre-thesis submission
               presentation after having completed 30 months from the date of registration.
             </li>
             <li class="mb-2">If approved, the thesis be readied and submitted for its evaluation only
               after completing 32 months from date of registration but before completing
-              36 months.</li>
-            <li class="mb-2">If not approved then CRC may provide second chance and in
-              case needed 3rd chance may be granted by the Vice Chancellor CRC.</li>
-            <li class="mb-2">However, if the research scholar performs unsatisfactorily in the 3rd
-              attempt his/her registration shall deem to be cancelled. CRC to submit the
-              list of panel of examiners for approval as soon as the pre thesis submission
+              36 months. The CRAC to submit the list of panel of examiners for approval as soon as the pre thesis submission
               presentation is approved.</li>
+            <li class="mb-2">If not approved then CRAC may provide second chance and in
+              case needed 3rd chance may be granted by the Vice Chancellor.</li>
+            <li class="mb-2">However, if the research scholar performs unsatisfactorily in the 3rd
+              attempt his/her registration shall deem to be cancelled.</li>
             <li class="mb-2">The submitted thesis be sent to the approved examiners for evaluation within
               02 weeks of the submission of thesis.</li>
-            <li class="mb-2">If the examiners' report is favorable conduct the ODC & the research scholar
+            <li class="mb-2">If the examiners' report is favorable conduct the ODE & the research scholar
               defends his/her work. </li>
             <li class="mb-2"> If the report of the external evaluation of
-              thesis is unfavorable then make necessary corrections & then conduct ODC.
-              ODC be conducted within 03 weeks of receiving both reports favorably.</li>
-            <li class="mb-2">If the ODC report is positive, conduct the RDC for award of degree.</li>
+              thesis is unfavorable then make necessary corrections & then conduct ODE.
+              ODE be conducted within 03 weeks of receiving both reports favorably.</li>
+            <li class="mb-2">If the ODE report is positive, conduct the RDC for award of degree.</li>
             <li class="mb-2">
               <ul class="ps-4 mb-0 fs-14 m-ol-list">
                 <li class="mb-1">Letter by the University for Award of Ph.D. Degree.</li>
