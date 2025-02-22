@@ -15,7 +15,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">2011</div>
-                                <p>Established in 2011, the College offers programmes in fine arts, building on historical perspectives, and nurturing creativity in students.</p>
+                                <p>Established in 2011, the College offers programmes in Fine Arts, building on historical perspectives, and nurturing creativity in students.</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">
