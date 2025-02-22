@@ -58,7 +58,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1 m-lg-5">
-          TMU’s Mahaveer Ji Jinalaya is a serene and spiritual haven on campus, offering students, staff, and visitors a space for reflection and prayer. Designed to embody Jain values of peace and harmony, this holy site is an ideal retreat for moments of introspection. The Jainalaya plays a vital role in fostering holistic growth, blending spiritual development with academic pursuits. Its calming environment inspires mindfulness and inner peace, enriching the TMU community’s overall well-being.          </p>
+          TMU’s Mahaveer Ji Jinalaya is a serene and spiritual haven on campus, offering students, staff, and visitors a space for reflection and prayer. Designed to embody Jain values of peace and harmony, this holy site is an ideal retreat for moments of introspection. The Jinalaya plays a vital role in fostering holistic growth, blending spiritual development with academic pursuits. Its calming environment inspires mindfulness and inner peace, enriching the TMU community’s overall well-being.          </p>
         </div>
       </div>
     </div>
