@@ -133,13 +133,12 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to the <span style="font-weight:700!important;">Centre of </span> Jain Studies </h1>
+					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to the <span style="font-weight:700!important;">Centre for </span> Jain Studies </h1>
 					<a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="pe-lg-4 position-relative p-0">
 						<div style="z-index: 2;">
-							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
 							<img src="{{asset('assets/img/banner/jain_studies/jain_studies.webp')}}" alt="" class="p-0 m-0">
 						</div>
 					</div>
@@ -211,7 +210,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>India's 1st</span>
 										<br>
-										<span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+										<span class="d-block pt-1">Centre of Excellence <br>in Cybersecurity</span>
 									</div>
 								</div>
 							</div>
@@ -220,7 +219,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>India's 1st</span>
 										<br>
-										<span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+										<span class="d-block pt-1">Centre of Excellence <br> in Cybersecurity</span>
 									</div>
 								</div>
 							</div>
@@ -233,7 +232,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>5 B-Schools</span>
 										<br>
-										<span class="d-block pt-1">Among the Top 5 B-Schools in North India</span>
+										<span class="d-block pt-1">Among the Top 5 <br>B-Schools in North India</span>
 									</div>
 								</div>
 							</div>
@@ -260,7 +259,7 @@
 		<div class="box-container">
 			<div class="box">
 
-				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Centre of </span> <span> Jain Studies </span></h2>
+				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Centre For </span> <span> Jain Studies </span></h2>
 
 
 				<div class="row text-centre">
@@ -292,7 +291,7 @@
 
 		<!-- endowment -->
 
-		<div class="container">
+		<div class="container d-flex justify-content-center">
 			<div class="box">
 				<header class="section-header text-center wow zoomIn">
 					<h2 class="tmu-text-primary tmu-page-heading mb-sm-5 mt-md-4"><span>TMU's signature of an MOU for an </span><span>"Endowment Chair" was a source of pride.</span></h2>

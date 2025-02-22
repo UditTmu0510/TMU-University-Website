@@ -25,17 +25,18 @@
                             <td>
                                 <strong>Teachers to represent all level (Three to eight)</strong>
                                 <ul class="m-ol-list ps-4">
-                                    <li>Prof. Manjula Jain, Dean (Academics)</li>
-                                    <li>Prof. S. K. Jain, Dean-TMMCRC</li>
-                                    <li>Prof Harbansh Dixit, Dean-Faculty of Law</li>
-                                    <li>Prof. S. P. Subashini, Dean- College of Nursing</li>
-                                    <li>Prof P K Jain, Dean-Faculty of Agriculture Sciences</li>
-                                    <li>Prof M.P. Singh, Dean Students’ Welfare</li>
-                                    <li>Prof R.K. Dwivedi, Dean - FoE</li>
-                                    <li>Prof Vipin Jain, Dean-TMIMT</li>
-                                    <li>Prof Pradeep Tangade, Principal-TMDCRC</li>
-                                    <li>Prof Anurag Verma, Principal-Pharmacy</li>
-                                    <li>Prof. Sheuli Sen, Principal-Nursing</li>
+                                    <li>Prof. Manjula Jain, Dean Academics</li>
+                                    <li>Prof. S.K. Jain, Dean - Faculty of Medicine</li>
+                                    <li>Prof. Harbansh Dixit, Dean - Faculty of Law</li>
+                                    <li>Prof. M.P. Singh, Dean - Students' Welfare</li>
+                                    <li>Prof. R.K. Dwivedi, Dean - Faculty of Engineering</li>
+                                    <li>Prof. Vipin Jain, Dean - Faculty of Commerce & Management</li>
+                                    <li>Prof. S. P. Subashini, Dean - Faculty of Nursing</li>
+                                    <li>Prof. P. K. Jain, Dean - Faculty of Agriculture Sciences</li>
+                                    <li>Prof. Pradeep Tangade, Principal - TMDCRC</li>
+                                    <li>Prof. Anurag Verma, Principal - TMCOP</li>
+                                    <li>Prof. Jaslin M, Principal (I/C) - TMCON</li>
+                                    <li>Prof. Sheuli Sen, Principal - TPCON</li>
                                 </ul>
                             </td>
                         </tr>
@@ -55,12 +56,12 @@
                                 <ul class="m-ol-list ps-4">
 
                                     <!-- <li>Dr. Aditya Sharma, Registrar</li> -->
-                                    <li>Dr. Pankaj Kumar Singh, Director-CTLD</li>
-                                    <li>Mr Manoj Jain, Director-HR</li>
+                                    <li>Mr. Manoj Jain, Director (HR)</li>
                                     <li>Prof. Amit Kansal, Associate Dean (Academics)</li>
                                     <li>Prof. Piyush Mittal, Associate Dean (R & D)</li>
                                     <li>Prof. Jyoti Puri, Associate Dean (PhD)</li>
-                                    <li>Prof Nikhil Rastogi, Joint Registrar (Alumni Relations)</li>
+                                    <li>Dr. Vaibhav Rastogi, Joint Registrar</li>
+                                    <li>Prof. Nikhil Rastogi, Joint Registrar (Alumni Relations Cell)</li>
                                     <li>Dr. Neha Anand, Assistant Director (Academics)</li>
                                     <li>Dr. Vineeta Jain, University Librarian</li>
                                 </ul>
@@ -72,10 +73,10 @@
                             <td>
                                 <p><strong>One nominee each from Local Society, Students and Alumni</strong></p>
                                 <ul class="m-ol-list ps-4">
-                                    <li>Mr. Anas Rehman, Alumni (TMIMT)(presently working in TCI Bangalore)</li>
-                                    <li>Mr. Tushar Agarwal, Alumni, CCSIT, (presently working in Wipro Technologies)</li>
-                                    <li>Mr Veer Pratap Jain, MBA Ist Sem</li>
-                                    <li>Mr. Anshul Sharma, M.Tech (CSE) IIIrd Semester</li>
+                                    <li>Mr. Anas Rehman, Alumni (TMIMT) (presently working in TCI Bangalore)</li>
+                                    <li>Mr. Tushar Agarwal, Alumni, CCSIT (presently working in Wipro Technologies)</li>
+                                    <li>Mr. Veer Pratap Jain, MBA 2nd Sem</li>
+                                    <li>Mr. Anshul Sharma, M.Tech (CSE) 4th Sem</li>
                                 </ul>
                             </td>
                             <td></td>
@@ -85,8 +86,8 @@
                             <td>
                                 <p><strong>One nominee each from Employers/Industrialists/Stakeholders</strong></p>
                                 <ul class="m-ol-list ps-4">
-                                    <li>Mr. Aditya Kumar, Campus Lead, Vivo India.</li>
-                                    <li> Mr. Bali Singh (MD), Eco-Energies Pvt Ltd. </li>
+                                <li>Mr. Aditya Kumar, Campus Lead, Vivo India.</li>
+                                <li> Mr. Bali Singh (MD), Eco-Energies Pvt Ltd. </li>
                                 </ul>
                             </td>
                             <td></td>

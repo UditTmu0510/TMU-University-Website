@@ -9,6 +9,66 @@
 		<h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>College  </span><span> Gallery</span></h1>
 
             <div class="row justify-content-center gutter-10" data-lightbox="gallery">
+				<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/24.jpg')}}" alt="Gallery Thumb 1">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/24.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/25.jpg')}}" alt="Gallery Thumb 2">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/25.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/26.jpg')}}" alt="Gallery Thumb 3">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/26.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/28.jpg')}}" alt="Gallery Thumb 4">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/28.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/29.jpg')}}" alt="Gallery Thumb 5">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/29.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="position-relative">
+							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/27.jpg')}}" alt="Gallery Thumb 5">
+							<div class="bg-overlay">
+								<div class="bg-overlay-content dark justify-content-end align-items-end" data-hover-animate="fadeIn">
+									<a href="{{asset('/assets/img/gallery/collegegallery/nursing/27.jpg')}}" class="overlay-trigger-icon size-sm bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="uil uil-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="col-md-3">
 						<div class="position-relative">
 							<img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/nursing/1.jpg')}}" alt="Gallery Thumb 1">

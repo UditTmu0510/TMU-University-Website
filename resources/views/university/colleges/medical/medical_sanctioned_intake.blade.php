@@ -73,7 +73,7 @@
 									<tr>
 										<td class="text-center">12</td>
 										<td>MS (Ophthalmology)</td>
-										<td class="text-center">4</td>
+										<td class="text-center">5</td>
 									</tr>
 									<tr>
 										<td class="text-center">13</td>
@@ -88,7 +88,7 @@
 									<tr>
 										<td class="text-center">15</td>
 										<td>MD (Radio-Diagnosis/Radiology)</td>
-										<td class="text-center">12</td>
+										<td class="text-center">15</td>
 									</tr>
 									<tr>
 										<td class="text-center">16</td>
@@ -98,12 +98,12 @@
 									<tr>
 										<td class="text-center">17</td>
 										<td>MD (General Medicine)</td>
-										<td class="text-center">15</td>
+										<td class="text-center">25</td>
 									</tr>
 									<tr>
 										<td class="text-center">18</td>
 										<td>MD (Paediatrics)</td>
-										<td class="text-center">9</td>
+										<td class="text-center">10</td>
 									</tr>
 									<tr>
 										<td class="text-center">19</td>
@@ -113,7 +113,7 @@
 									<tr>
 										<td class="text-center">20</td>
 										<td>MD (Psychiatry)</td>
-										<td class="text-center">4</td>
+										<td class="text-center">5</td>
 									</tr>
 									<tr>
 										<td class="text-center">21</td>

@@ -30,7 +30,7 @@
         <h2>Academics</h2>
         <div class="account-section">
             <a href="{{ route('nursing.department') }}" class="custom-menu-item {{ setActive('nursing.department') }}">
-                <p>Department</p>
+                <p>Departments</p>
             </a>
             <a href="{{ route('nursing.syllabus') }}" class="custom-menu-item {{ setActive('nursing.syllabus') }}">
                 <p>Syllabus</p>

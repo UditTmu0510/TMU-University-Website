@@ -87,12 +87,12 @@
                             <td>9837033001</td>
                         </tr>
 
-                        <!-- <tr>
+                        <tr>
                             <td class="text-center">11</td>
-                            <td>Dr. Aditya Sharma</td>
+                            <td>Prof. M.P. Singh</td>
                             <td>Member Secretary</td>
-                            <td>9837933666</td>
-                        </tr> -->
+                            <td>9568162444</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -102,7 +102,7 @@
                         <div class="card border-light my-3">
                             <div class="card-body text-center">
                                 <h3 class="card-title tmu-text-primary display-6"><span>ANTI RAGGING TOLL FREE</span></h3>
-                                <p class="card-text h1 tmu-color">HELPLINE NO. 1800-180-5522 </p>
+                                <p class="card-text h1 tmu-color">24X7 HELPLINE NO. 1800-180-5522 </p>
                             </div>
                         </div>
                     </div>

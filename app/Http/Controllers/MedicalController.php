@@ -399,6 +399,22 @@ class MedicalController extends Controller
     {
         return view('university.colleges.medical.obstetrics_gynaecology_infra');
     }
+    public function medical_community_health_centers() 
+    {
+        return view('university.colleges.medical.medical_community_health_centers');
+    }
+    public function medical_primary_health_centers() 
+    {
+        return view('university.colleges.medical.medical_primary_health_centers');
+    }
+    public function medical_rural_health_centers() 
+    {
+        return view('university.colleges.medical.medical_rural_health_centers');
+    }
+    public function medical_urban_health_centers() 
+    {
+        return view('university.colleges.medical.medical_urban_health_centers');
+    }
 
     public function medical_study_material()
     {

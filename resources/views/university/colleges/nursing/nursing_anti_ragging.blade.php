@@ -19,7 +19,7 @@
                     <tbody>
                         <tr>
                             <td class="text-center">1.</td>
-                            <td class="text-center">Prof. Dr. S.P. Subhashini</td>
+                            <td class="text-center">Prof. (Dr.) S.P. Subashini</td>
                             <td class="text-center">Chairperson</td>
                             <td class="text-center">6399000660</td>
 
@@ -27,9 +27,9 @@
 
                         <tr>
                             <td class="text-center">2.</td>
-                            <td class="text-center">Prof. Jasline. M</td>
+                            <td class="text-center">Prof. (Dr.) Jasline M</td>
                             <td class="text-center">Coordinator</td>
-                            <td class="text-center">8279816167</td>
+                            <td class="text-center">9568526444</td>
 
                         </tr>
 
@@ -49,7 +49,7 @@
 
                         <tr>
                             <td class="text-center">5.</td>
-                            <td class="text-center">Prof. Vijimol </td>
+                            <td class="text-center">Prof. Vijimol G</td>
                             <td class="text-center">Member Secretary & FIP</td>
                             <td class="text-center">8894126177</td>
                         </tr>
@@ -86,7 +86,7 @@
                     <tbody>
                         <tr>
                             <td class="text-center">1.</td>
-                            <td class="text-center">Prof. Dr. S.P. Subhashini</td>
+                            <td class="text-center"> Prof. (Dr.) S.P. Subashini</td>
                             <td class="text-center">Chairperson</td>
                             <td class="text-center">6399000660</td>
 
@@ -94,9 +94,9 @@
 
                         <tr>
                             <td class="text-center">2.</td>
-                            <td class="text-center">Prof. Jasline. M</td>
+                            <td class="text-center">Prof. (Dr.) Jasline M</td>
                             <td class="text-center">Proctor</td>
-                            <td class="text-center">8279816167</td>
+                            <td class="text-center">9568526444</td>
 
                         </tr>
 
