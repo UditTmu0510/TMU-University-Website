@@ -220,6 +220,7 @@ Route::get('/nss-events', [TmuController::class, 'nss_events'])->name('nss.event
 Route::get('/nss-contactus', [TmuController::class, 'nss_contactus'])->name('nss.contactus');
 Route::get('/nss-coordinator-desk', [TmuController::class, 'nss_coordinator'])->name('nss.coordinator');
 Route::get('/nss-adopted-village', [TmuController::class, 'adopted_village'])->name('adopted.village');
+Route::get('/nss-coordinators', [TmuController::class, 'nss_commitee'])->name('nss.commitee');
 
 // NEP
 
