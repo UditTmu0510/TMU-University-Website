@@ -14,8 +14,8 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-3">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU College</span><span> of Pharmacy</span></h1>
-                    <p class="about-p mb-2">The College of Pharmacy was established in the year 2008. The college grooms professionals by providing diplomas and undergraduate, post-graduate and doctorate level programs, equipping the students with innovative techniques to resolve problems in drug industries and clinical areas.</p>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to </span><span>Teerthanker Mahaveer College of Pharmacy</span></h1>
+                    <p class="about-p mb-2">The College of Pharmacy was established in the year 2008. The college grooms professionals by providing diploma and undergraduate, post-graduate and doctorate level programs, equipping the students with innovative techniques to resolve problems in drug industries and clinical areas.</p>
                 </div>
                 <div class="image-content text-center p-2">
                     <img src="{{asset('/assets/img/aboutus/pharmacy/main-fresh.jpg')}}" alt="College of Pharmacy"  class="rounded-3">

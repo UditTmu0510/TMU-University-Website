@@ -14,7 +14,7 @@
 
 
 <div class="main-content">
-    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Welocome To  </span><span>TMU Journal of Pharmaceutical and Biological Sciences (TJPBS)</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Welcome To  </span><span>TMU Journal of Pharmaceutical and Biological Sciences (TJPBS)</span></h1>
     <section class="about-section bg-light mt-4 p-3">
         <div class="container">
             <div class="image-content text-center p-4" id="about">

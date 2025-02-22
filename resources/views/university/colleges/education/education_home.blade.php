@@ -12,7 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Faculty</span> of Education</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading" style="text-transform:none;">Welcome To <span style="font-weight:700!important;">Faculty</span> of Education</h1>
                     
                     <!--<a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a>-->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
@@ -135,7 +135,7 @@
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: center;"><b>Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela.</b></p>
-                        <p style="text-align: justify;">At the Faculty of Education, TMU, we dedicate ourselves to providing excellence in teacher education. As approved by the prestigious NCTE & SCERT, Lucknow, we have been shaping future generations through quality education since 2003. Our recently introduced four-year BSc (Honours with Research) and BA (Honours with Research) programmes further enhance our offerings, providing students with comprehensive academic opportunities. Step into the realm of the best education college in UP.</p>
+                        <p style="text-align: justify;">At the Faculty of Education, TMU, we dedicate ourselves to providing excellence in teacher education. As approved by the prestigious NCTE & SCERT, Lucknow, we have been shaping future generations through quality education since 2003. Our recently introduced four-year B SC – B. Ed./B.A.-B.Ed. (Integrated) Programme further enhances our offerings, providing students with comprehensive academic opportunities. Step into the realm of the best education college in UP.</p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">At Teerthanker Mahaveer University (TMU), our Faculty of Education College stands as a beacon of excellence in the realm of Bachelor of Education (B.Ed.) programmes. We pride ourselves on nurturing future educators who are not only academically proficient but also equipped with practical skills essential for today's classrooms.</p>
                         </div>
