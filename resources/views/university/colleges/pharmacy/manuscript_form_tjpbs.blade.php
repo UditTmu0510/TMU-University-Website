@@ -10,7 +10,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Manuscript Submission Form </span></h1>
-            <h3 class="text-white fs-16">Divide your article into clearly defined sections. Heading should be typed in upper case, bold. Sub-headings should be typed in sentence case, italics. Each heading should appear on its own separate section.</h3>
+            <p class="text-white fs-14">Divide your article into clearly defined sections. Heading should be typed in upper case, bold. Sub-headings should be typed in sentence case, italics. Each heading should appear in its own separate section.</p>
 
 
 
