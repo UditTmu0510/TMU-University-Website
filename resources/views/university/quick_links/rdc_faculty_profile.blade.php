@@ -15,6 +15,8 @@
             <p class="card-text tmu-color-blue">Assistant Professor</p>
             <p class="card-text fs-14 tmu-color-blue">souviks.rdc@tmu.ac.in</p>
             <p class="card-text fs-14 tmu-color-blue">+91-9051498210</p>
+            <p class="card-text fs-14 tmu-color-blue"><a href="{{asset('/uploads/hr/teaching/souvik-sur.pdf')}}">Profile</a></p>
+
           </div>
         </div>
       </div>
