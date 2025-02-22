@@ -6,19 +6,34 @@
 
 
 <div class="main-content">
-    <div class="coontainer">
+    <div class="container">
         <div class="container">
             <section class="about-section bg-light mt-4">
                 <div class="container">
                     <div class="text-content p-3">
                         <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Research
                                 Cell</span></h1>
-                        <p class="about-p mb-4 text-justify">Teerthanker Mahaveer University's Research and Development Centre serves as a multidisciplinary centre committed to research, education, and collaboration with industry and society. By integrating science, engineering, and technology with sustainable practices, the centre aims to create innovative and holistic solutions for global issues.
-                            The centre’s mission is to enhance foundational and advanced research by uniting faculty, scientists, and students across disciplines such as Chemical Sciences, Physical Sciences, Biological Sciences, Nanoscience, Nanotechnology, Pharmacy, Medical, and health sectors. 
-                        </p>
-                        <p class="about-p mt-3 text-justify">Its objectives include conducting multidisciplinary research, sharing knowledge with the public, and promoting ethical research practices.
-                            The centre has made significant contributions through its research publications in leading journals and continues to expand its work in areas like Synthetic Organic Chemistry, Green Chemistry and Engineering, Nucleic Acid Chemistry, Cheminformatics, Nuclear and Particle Physics and Astrophysics. Additionally, the centre emphasises the ethical conduct of research and encourages women researchers to apply for scholarships. Collaboration with international universities and industries, along with student exchange programmes, further strengthens its global reach.
-                        </p>
+                        <p class="about-p mb-4 text-justify">As an educational institution, the University encourages students and scholars to expand human knowledge through analysis, innovation, and insight. </p>
+                        <p class="about-p mt-3 text-justify">To lend a helping hand to the scholar burning the midnight oil, the University subscribes the following database providing access to thousands of journals in different disciplines for full text research articles and sector specific reports.</p>
+
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-md-4 col-sm-4 mb-1">
+                        <a href="https://www.ebsco.com/" target="_blank"><img src="https://www.tmu.ac.in/img/research/EBSCOhost_Flat.png" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 mb-1">
+                        <a href="https://www.elsevier.com/en-in" target="_blank"><img src="https://www.tmu.ac.in/img/research/Untitled-630x325.png" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 mb-1">
+                        <a href="http://delnet.in/" target="_blank"><img src="https://www.tmu.ac.in/img/research/delnet.jpg" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="text-content p-3">
+                        <p class="about-p mb-4 text-justify">The University collaborates with national and international institutions for teaching, research and exchange of faculty and students to contribute to cutting-edge research and evolve new standards. Another project, “UKIERI”, had been undertaken to improve teaching pedagogy and IT enabled teaching in the College of Nursing in collaboration with Napier University, U. K.</p>
+                        <p class="about-p mt-3 text-justify">A number of projects sponsored and funded by external agencies are in progress. Projects sponsored by the Ministry of Labor and Employment, Government of India, a project with the Consultancy Development Center, and a project under the aegis of UNICEF, are underway.</p>
+
                     </div>
                 </div>
             </section>
@@ -124,7 +139,7 @@
                     <!-- Repeat the above book structure for additional books -->
                     <!-- ... -->
                 </div>
-
+                <p class="about-p mb-2 text-justify p-3">Students and faculty members are encouraged to contribute towards research and participate in national and international conferences and seminars. The faculty members publish quality research papers which go a long way in contributing towards the promotion of research in varied disciplines.</p>
             </div>
 
         </div>
@@ -256,7 +271,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
+            <p class="about-p mb-2 text-justify p-3">Students and faculty members are encouraged to contribute towards research and participate in national and international conferences and seminars. The faculty members publish quality research papers which go a long way in contributing towards the promotion of research in varied disciplines.</p>
         </section>
     </div>
 </div>

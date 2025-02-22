@@ -40,14 +40,14 @@
         <hr class="horizontal-line">
         <button class="careers-accordion"> How do I crack TRAT?<span class="icon">+</span> </button>
         <div class="panel">
-          <p>The syllabus, scheme of examination, and sample/model test paper for all subjects are available on the
+          <p>The syllabus, scheme of examination, and sample/model test paper for all subjects are available in <a href="{{route('phd.overview')}}">overview</a> on the
             university’s website under the link “Research” that can be referred to for preparation for the TRAT.</p>
         </div>
         <hr class="horizontal-line">
         <button class="careers-accordion"> Can I get exemption from TRAT? If yes, shall my application be considered
           straight for registration?<span class="icon">+</span> </button>
         <div class="panel">
-          <p>UGC-CSIR NET, SLET qualified applicants are exempt from appearing in the TRAT.</p>
+          <p>UGC-NET (including JRF)/CSIR UGC-NET (including JRF)/SLET/GATE/GPAT/CEED/ICAR/Teacher fellowship holder or have passed M. Phil. Programme and similar National level tests qualified applicants are exempt from appearing in the TRAT.</p>
         </div>
         <hr class="horizontal-line">
         <button class="careers-accordion">How often is the TRAT conducted? <span class="icon">+</span> </button>
@@ -58,7 +58,7 @@
         <button class="careers-accordion">How shall I get information about the TRAT after submitting my application?
           <span class="icon">+</span> </button>
         <div class="panel">
-          <p>The schedule for the TRAT is mentioned in Annexure K of the Ph.D Ordinance. However, it is in the interest
+          <p>The schedule for the TRAT is mentioned in Annexure P of the Ph.D Ordinance. However, it is in the interest
             of the applicant to remain in touch with the university for the purpose.</p>
         </div>
         <hr class="horizontal-line">
@@ -92,11 +92,11 @@
           <span class="icon">+</span> </button>
         <div class="panel">
           <p style="text-align:justify">The Ph.D. Ordinance
-            given on the website of the University provides complete guidance regarding the Ph.D. program. Besides this,
-            for any clarification, please mail your query at <a href="mailto:joint.registrar@tmu.ac.in"
-              aria-label="send an email to joint.registrar@tmu.ac.in"
-              uw-rm-vague-link-id="mailto:joint.registrar@tmu.ac.in$send an email to joint.registrar@tmu.ac.in"
-              data-uw-rm-vglnk="">joint.registrar@tmu.ac.in</a> or call on +91-9837016031.</p>
+            given on the website of the University provides complete guidance regarding the Ph.D. programme. Besides this,
+            for any clarification, please mail your query at <a href="mailto:asso.dean.phd@tmu.ac.in"
+              aria-label="send an email to asso.dean.phd@tmu.ac.in"
+              uw-rm-vague-link-id="mailto:asso.dean.phd@tmu.ac.in$send an email to asso.dean.phd@tmu.ac.in"
+              data-uw-rm-vglnk="">asso.dean.phd@tmu.ac.in</a> or call on +91-9837016031.</p>
         </div>
       </div>
     </div>

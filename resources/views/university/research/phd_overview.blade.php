@@ -7,18 +7,18 @@
 <div class="main-content">
     <div class="container">
         <div class="banner text-white text-center p-4 rounded d-flex align-items-center justify-content-center" style="height: 16vh; background-color: #001055;">
-            <h2 class="text-white m-0">Ph.D. Overview</h2>
+            <h2 class="text-white m-0" style="text-transform:none;">Ph.D. OVERVIEW</h2>
         </div>
 
         <section class="about-section mt-4">
             <div class="container">
                 <div class="text-content p-3">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU </span><span> Ph.D. Programmes</span></h1>
-                    <p class="about-p mb-2 text-justify">Teerthanker Mahaveer University has been established with a mission to pursue excellence in every sphere in the field of education, and to adhere to the highest standards of academic rigour in all its work. The University is fast moving towards attaining leadership position in north India, which speaks volumes about its enduring commitment, outstanding faculty and rich learning environment.</p>
-                    <p class="about-p mb-1 text-justify">Teerthanker Mahaveer University’s Ph.D. Program has been designed to impart knowledge through courses, seminars, projects and thesis work. It will help the scholars to consolidate the concepts and intellectual skills, as well as to explore the potential in analyzing the knowledge related to their respective areas of research in a free and objective manner, in order to meet the needs of the society.</p>
+                    <h1 class="tmu-text-primary tmu-page-heading" style="text-transform:none;"><span>WELCOME TO TMU </span><span> Ph.D. PROGRAMMES</span></h1>
+                    <p class="about-p mb-2 text-justify">Teerthanker Mahaveer University has been established with a mission to pursue excellence in every sphere in the field of education, and to adhere to the highest standards of academic rigour in all its work. The University is fast moving towards attaining leadership position in North India, which speaks volumes about its enduring commitment, outstanding faculty and rich learning environment.</p>
+                    <p class="about-p mb-1 text-justify">Teerthanker Mahaveer University’s Ph.D. programme has been designed to impart knowledge through courses, seminars, projects and thesis work. It will help the scholars to consolidate the concepts and intellectual skills, as well as to explore the potential in analyzing the knowledge related to their respective areas of research in a free and objective manner, in order to meet the needs of the society.</p>
                 </div>
                 <div class="container p-3 pt-0">
-                    <p class="about-p mb-2 text-justify">We encourage interaction within and across the subject areas, providing a rich environment for innovative, collaborative and multi-disciplinary research. The Ph.D. program is designed to produce a new generation of scholar-teacher-practitioners who precisely fit that description. We offer an intellectually demanding doctoral program for high-potential applicants: men and women who already have a breadth of knowledge in the functional areas of business and who have a strong interest in academic research. If you’re prepared to embark on a challenging, focused, and meaningful experience, we invite you to explore the possibilities in our Ph.D. Program.</p>
+                    <p class="about-p mb-2 text-justify">We encourage interaction within and across the subject areas, providing a rich environment for innovative, collaborative and multi-disciplinary research. The Ph.D. programme is designed to produce a new generation of scholar-teacher-practitioners who precisely fit that description. We offer an intellectually demanding doctoral programme for high-potential applicants: men and women who already have a breadth of knowledge in the functional areas of business and who have a strong interest in academic research. If you’re prepared to embark on a challenging, focused, and meaningful experience, we invite you to explore the possibilities in our Ph.D. programme.</p>
                     <p class="about-p mb-2 text-justify">For the current academic year, we are offering the following Doctoral programmes:</p>
                 </div>
             </div>
