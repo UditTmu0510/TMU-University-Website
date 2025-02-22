@@ -1,5 +1,46 @@
 @extends('layouts.adminlayout_new')
 @section('content')
+<style>
+  /* Responsive Pagination for Mobile */
+  @media (max-width: 576px) {
+      .pagination {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+
+      .pagination li {
+          margin: 0 5px;
+      }
+
+      .pagination-sm .page-link {
+          font-size: 0.8rem;
+          padding: 0.4rem 0.7rem;
+      }
+  }
+
+  /* Ensure Previous & Next buttons are always visible on smaller screens */
+  @media (max-width: 320px) {
+      .pagination {
+          display: flex;
+          justify-content: center;
+      }
+
+      .pagination li {
+          margin: 0 2px;
+      }
+
+      /* Hide middle page numbers and only show Previous and Next buttons */
+      .pagination li:not(.disabled):not(:first-child):not(:last-child) {
+          display: none;
+      }
+
+      .pagination li:first-child,
+      .pagination li:last-child {
+          display: inline-block;
+      }
+  }
+</style>
 <div class="pagetitle">
     <h1>All PDF'S</h1>
     <nav>
@@ -34,17 +75,30 @@
               {{session('error')}}
             </div>
             @endif
-            <!-- Table with stripped rows -->
-            <div align="right">
+       
+            <div class="d-flex justify-content-between mb-3 mt-3">
+
+              <form action="{{ route('naac_pdfs.search') }}" method="GET" class="d-flex">
+                  <input
+                      type="text"
+                      name="search"
+                      class="form-control me-2"
+                      placeholder="Description,Criterion,Metric,Key Indicator"
+                      value="{{ request('search') }}">
+                  <button type="submit" class="btn btn-outline-primary">Search</button>
+              </form>
+
               @if(Auth::user()->can('Add NAAC PDF'))
               <a href="{{route('add.naac_pdf')}}" class="btn btn-primary" >
                Add Pdf
               </a>
             @endif
+
             </div>
 
 
-            <table class="table datatable">
+            <div class="table-responsive">
+              <table class="table table-striped table-borderless">
               <thead>
                 <tr>
                   <th><b>S.</b>No.</th>
@@ -118,7 +172,58 @@ $counter++;
 
 
             </table>
+          </div>
             <!-- End Table with stripped rows -->
+
+   
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+          
+                  @if ($pdfs->onFirstPage())
+                  <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  @else
+                  <li class="page-item">
+                      <a class="page-link" href="{{ $pdfs->previousPageUrl() }}" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  @endif
+          
+                  @php
+                      $start = max($pdfs->currentPage() - 5, 1);
+                      $end = min($start + 9, $pdfs->lastPage());
+          
+                      // Adjust start if less than 10 pages are displayed
+                      if ($end - $start < 9) {
+                          $start = max($end - 9, 1);
+                      }
+                  @endphp
+          
+                  @foreach (range($start, $end) as $page)
+                  <li class="page-item {{ $page == $pdfs->currentPage() ? 'active' : '' }}" 
+                      {{ $page == $pdfs->currentPage() ? 'aria-current="page"' : '' }}>
+                      <a class="page-link" href="{{ $pdfs->url($page) }}">{{ $page }}</a>
+                  </li>
+                  @endforeach
+          
+                  @if ($pdfs->hasMorePages())
+                  <li class="page-item">
+                      <a class="page-link" href="{{ $pdfs->nextPageUrl() }}">Next</a>
+                  </li>
+                  @else
+                  <li class="page-item disabled">
+                      <span class="page-link">Next</span>
+                  </li>
+                  @endif
+          
+              </ul>
+          </nav>
+          
+
+     
+
+
+          
 
           </div>
         </div>

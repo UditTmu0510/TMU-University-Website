@@ -109,13 +109,42 @@ class NaacPdfsController extends Controller
             $pdfs = NaacPdfs::whereIn('criterion_id', $allowedCriteria)
                             ->orderBy('criterion_id', 'DESC')
                             ->orderBy('key_indicator_id', 'DESC')
-                            ->get();
+                            ->paginate(10);
         }
        
         $user_id = Auth::user()->id;
         $profileData = User::find($user_id);
         return view('admin.backend.pages.naac-pdfs.all_pdfs',compact('user_id','profileData','pdfs'));
     }
+
+
+
+    public function search(Request $request)
+{
+
+    $user_id = Auth::user()->id;
+    $profileData = User::find($user_id);
+    $query = $request->input('search'); // Capture the search query
+
+    $pdfs = NaacPdfs::with(['criterion_name', 'key_indicator_name', 'metric_name'])
+        ->when($query, function ($q) use ($query) {
+            $q->where('pdf_description', 'LIKE', "%$query%")
+                ->orWhere('file_name', 'LIKE', "%$query%")
+                ->orWhereHas('criterion_name', function ($subQuery) use ($query) {
+                    $subQuery->where('criterion_name', 'LIKE', "%$query%");
+                })
+                ->orWhereHas('key_indicator_name', function ($subQuery) use ($query) {
+                    $subQuery->where('key_indicator_name', 'LIKE', "%$query%");
+                })
+                ->orWhereHas('metric_name', function ($subQuery) use ($query) {
+                    $subQuery->where('metric_name', 'LIKE', "%$query%");
+                });
+        })
+        ->paginate(10); // Paginate results (10 per page)
+
+    return view('admin.backend.pages.naac-pdfs.all_pdfs', compact('pdfs', 'query','user_id','profileData'));
+}
+
 
     /**
      * Show the form for creating a new resource.
