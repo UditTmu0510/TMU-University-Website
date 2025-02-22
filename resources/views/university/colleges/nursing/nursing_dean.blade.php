@@ -28,7 +28,7 @@
                                 <div class="principal-image-decoration23"></div>
                             </div>
                             <div class="principal-info23">
-                                <h4 class="principal-name23">Dr (Prof) S.P. Subashini</h4>
+                                <h4 class="principal-name23">Prof. (Dr.) S.P. Subashini</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->
                                     Dean
@@ -39,10 +39,10 @@
                             I am only one; but still I am one. I cannot do everything; but still I can do something.....
                                 <br>
                                 <br>
-                                Teerthanker Mahaveer College of Nursing was established in 2009 with the foresight and vision of our Hon'ble Chancellor, Shri Suresh Jain, to prepare professional nurses to improve the standards of nursing services through quality education. We have grown to become one of the largest nursing colleges in the country and the best in the state of Uttar Pradesh under the guidance and support of the TMU management. We offer programmes ranging from Auxiliary Nurse Midwife (ANM), General Nursing and Midwifery (GNM), BSc Nursing, and postgraduate programmes like MSc Nursing and PhD in Nursing. Our college is recognised by the UP State Nursing Council and the Indian Nursing Council.
+                                Teerthanker Mahaveer College of Nursing was established in 2009 with the foresight and vision of our Hon'ble Chancellor, Shri Suresh Jain, to prepare professional nurses to improve the standards of nursing services through quality education. We have grown to become one of the largest nursing colleges in the country and the best in the state of Uttar Pradesh under the guidance and support of the TMU management. We offer programmes ranging from Auxiliary Nurse Midwife (ANM), General Nursing and Midwifery (GNM), BSc(N), and postgraduate programmes like MSc(N) and PhD in Nursing. Our college is recognised by the U.P. Nurses & Midwives Council and the Indian Nursing Council.
                                 <br>
                                 <br>
-                                The college is equipped with qualified and competent teachers, good physical infrastructure, a library, and most importantly, students have the opportunity for clinical learning at our 900+ bed teaching hospital.
+                                The college is equipped with qualified and competent teachers, good physical infrastructure, a library, and most importantly, students have the opportunity for clinical learning at our 1000 bed teaching hospital.
                                 <br>
                                 <br>
                                 Nursing students benefit from contributions by interdisciplinary teaching faculty and have ample opportunities for extracurricular activities, as the university has excellent facilities. We are proud to say that all our alumni are employed in various hospitals and nursing institutes within the state of Uttar Pradesh and surrounding states.

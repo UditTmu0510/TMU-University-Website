@@ -177,8 +177,8 @@
 
 		<div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer College of Nursing, Among the top Nursing Colleges</h2>
-                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Nursing: </span><span> Among the top Nursing Colleges.</span></h3>
+                <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer College of Nursing: Among the top Nursing Colleges</h2>
+                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Nursing: </span><span> Among the top Nursing Colleges</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">College of Nursing, Teerthanker Mahaveer University was established in 2009. It is committed to grooming competent nursing professionals in line with the latest industry standards of the ever-evolving healthcare sector, offering UG, PG, and doctoral nursing programmes. Join the leading nursing college in UP to excel beyond your expectations.</p>
@@ -270,7 +270,7 @@
 					<p>The College of Nursing has a Simulation Lab equipped with the latest simulators to provide training in critical nursing skills that mirror real situations and scenarios. This enables nursing students to apply knowledge and skills in practice, not just through reading or lectures, but through hands-on learning, or 'learning by doing.'
 						<br><br>
 					<h3 class="mb-1">Labs:</h3>
-					Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-Clinical Lab, A.V. Aids Room, Simulation Lab, and OSCE Lab (Objective Structured Clinical Examination). The labs are well equipped with the latest equipment and simulators, providing a conducive environment for students to apply what they have learned theoretically under constant guidance.
+					Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-Clinical Lab, A.V. Aids Room, Simulation Lab, and OSCE Lab. The labs are well equipped with the latest equipment and simulators, providing a conducive environment for students to apply what they have learned theoretically under constant guidance.
 					<br><br>
 					<h3 class="mb-1">Library:</h3>
 					The College of Nursing has a spacious in-house library with numerous nursing books, national and international research journals, and periodicals that cover recent advancements in nursing. The College of Nursing has a spacious in-house library with numerous nursing books, national and international research journals, and periodicals that cover recent advancements in nursing. Free Wi-Fi is available to all students in the library. The e-Library, which includes the EBESCO database with Medline and CINAHL, enables students and research scholars to access e-journals for citations and research purposes.
@@ -278,8 +278,7 @@
 					<h3 class="mb-1">Hospital:</h3>
 					Hands-on training is given to the nursing students at our 1000-bedded super-speciality hospital of the University Medical College and allied urban and rural health centres. Nursing students attend OPD sessions in the hospital. During these visits, students visit different places under community connect and provide primary health services. Students actively participate in health awareness programs as well.
 					The College of Nursing is also the founder of an authorised International Training Centre (ITC) in collaboration with GHPL (Medanta the Medicity) for the American Heart Association, with initiatives aimed at training healthcare professionals in Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS).
-					Labs (Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-clinical lab, A.V. Aids room, Simulation Lab, OSCE Lab-Objective Structured Clinical Examination Lab).
-					</p>
+					Labs (Nursing Foundation, Community Health Nursing, Maternal and Child Health Nursing, Nutrition, Pre-clinical lab, A.V. Aids room, Simulation Lab, OSCE Lab) 1000-bedded super-speciality hospital.</p>
 				</div>
 			</div>
 		</div>
