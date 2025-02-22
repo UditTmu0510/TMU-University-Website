@@ -398,6 +398,11 @@ class TmuController extends Controller
         return view('university.nss.adopted_village');
     }
 
+    public function nss_commitee()
+    {
+        return view('university.nss.nss_commitee');
+    }
+
     // NEP
 
     public function nep_2020_programmes_offered()
