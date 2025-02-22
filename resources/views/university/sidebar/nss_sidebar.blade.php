@@ -20,8 +20,13 @@
             <a href="{{ route('nss.day.and.song') }}" class="custom-menu-item {{ setActive('nss.day.and.song') }}">
                 <p>NSS Day & Song</p>
             </a>
+
+            <a href="{{ route('adopted.village') }}" class="custom-menu-item {{ setActive('adopted.village') }}">
+                <p>Adopted Village</p>
+            </a>
+
             <a href="{{ route('nss.activities') }}" class="custom-menu-item {{ setActive('nss.activities') }}">
-                <p>Regular Activities</p>
+                <p>Activities Calendar</p>
             </a>
             <a href="{{ route('nss.volunteers') }}" class="custom-menu-item {{ setActive('nss.volunteers') }}">
                 <p>NSS Volunteer</p>
