@@ -763,7 +763,7 @@
  This is TMU
                         </div>
                         <div class="glass-effect-box">
-                        With a bright history of shaping futures, we continue to shine even brighter with our vision of <br><strong>TRANSFORMING MINDS, UNITING WISDOM</strong>
+                        <p class="text-justify">With a bright history of shaping futures, we continue to shine even brighter with our vision of <strong>TRANSFORMING MINDS, UNITING WISDOM</strong>
                         </div>
                     </div>
                 </div>
