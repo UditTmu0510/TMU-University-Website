@@ -14,86 +14,7 @@
 
             <div class="container tmu-testimonial mt-5 mb-3">
                 <div class="row">
-                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
-                        <div class="media ">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/ishant_raheja_mando_softech.jpg')}}" class="mr-3"
-                                alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ishant Raheja</b><br> <span class="tmu-color-blue">HR-Lead, <br> HL
-                                            MANDO SOFTECH PVT.
-                                            LTD.</span></p>
-                                    <p class="testimonial-content47">It’s been a very good experience on my visit to Teerthanker Mahaveer
-                                        University. Dedicated faculty & staff, well-disciplined students,
-                                        must say intelligent minds. They produce quality students for our
-                                        industry every year. Keep up the hard work. Stay Associated!</p>
-                                </div>
-                            </div>
-                            <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
-                                onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                        </div>
-                    </div>
- 
-                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
-                        <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/deen_d_maxhealthcare.jpg')}}" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Deen D</b><br> <span class="tmu-color-blue">Sr. HR Manager, <br> MAX
-                                            HEALTHCARE</span></p>
-                                    <p class="testimonial-content47">Students at Teerthanker Mahaveer University are hard-working and
-                                        shown the huge interest in the opportunity provided at our platform,
-                                        we wish them to keep learning and growing." <br> "Management and
-                                        Corporate Resource Centre is quite supportive in organising the
-                                        smooth drive; we love to come back to Teerthanker Mahaveer
-                                        University to pick great talents.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
-                                    onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
-                        <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/Aditya_Kumar_vivo.jpg')}}" class="mr-3" alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>Aditya Kumar</b><br> <span class="tmu-color-blue">HR Manager, <br> VIVO
-                                            INDIA </span></p>
-                                    <p class="testimonial-content47">It is a wonderful experience coming to Teerthanker Mahaveer
-                                        University; students are very talented and creative. We are thankful
-                                        to Placement Cell and Management of TMU for inviting us in our hunt
-                                        for finding creative talent for VIVO India.</p>
-                                </div>
-                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
-                                    onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
-                        <div class="media ">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/bali_singh_eco_energies.jpg')}}" class="mr-3"
-                                alt="">
-                            <div class="media-body">
-                                <div class="testimonial">
-                                    <p class="overview mb-3"><b>BALI SINGH</b><br> <span class="tmu-color-blue">Managing Director, <br>
-                                            ECO-ENERGIES PVT.
-                                            LTD.</span></p>
-                                    <p class="testimonial-content47">We were highly impressed with the professionalism exhibited by TMU
-                                        faculty and the students during the entire process of Campus
-                                        Placement. The overall mental caliber of students has been very good
-                                        with excellent potential to develop the business leaders. The
-                                        maturity of the students, knowledge, confidence and overall
-                                        personality has been excellent and surpassed our expectations.</p>
-                                </div>
-                            </div>
-                            <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
-                                onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
-
-                        </div>
-                    </div>
+                    
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
@@ -117,17 +38,18 @@
                         </div>
                     </div>
 
+                    
+
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-1.jpg')}}" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/2.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Mr. Manish Kumar Tewari</b><br> <span class="tmu-color-blue">Manager,
-                                            <br> ICICI Prudential
-                                            Ltd.</span></p>
-                                    <p class="testimonial-content47">It was a pleasure interacting with the students and faculty. There
-                                        was lot of josh & enthusiasm among the students for placements. Wish
-                                        to take the relationship further……. All the Best to the Institution!
+                                    <p class="overview mb-3"><b>Sumit Chauhan</b><br>
+                                        <span class="tmu-color-blue">CEO,<br> Datopic Technologies Pvt Ltd</span>
+                                    </p>
+                                    <p class="testimonial-content47">
+                                    I would like to express my sincere congratulations and gratitude for the outstanding work carried out by the students of Teerthanker Mahaveer University. The students demonstrated exceptional dedication and diligence, completing their tasks well within the given timeframe. Their strong analytical and technical abilities, combined with excellent presentation and interpersonal skills, make them valuable assets to any organization.
                                     </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
@@ -138,17 +60,15 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-2.jpg')}}" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/1.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ms. Megha Agarwal</b><br> <span class="tmu-color-blue">Senior Manager
-                                            Recruitments, <br>
-                                            Naukri.com (Info Edge India Limited)</span></p>
-                                    <p class="testimonial-content47"> TMIMT shows excellent way to make new generation learners about
-                                        different fields of their interest. Every year we have recruited
-                                        students of TMIMT and found excellent employees from its pool. I
-                                        wish all the very best to the entire management team of TMU for
-                                        their future ventures.</p>
+                                    <p class="overview mb-3"><b>Saurabh Singh</b><br>
+                                        <span class="tmu-color-blue">Marketing Specialist & Communication,<br> Coca Cola India Pvt Ltd</span>
+                                    </p>
+                                    <p class="testimonial-content47">
+                                    I would like to extend my sincere congratulation & appreciation on the excellent work done by the students of Teerthanker Mahaveer University. The candidates were very sincere and hard working and achieved their deliverables well within time. Their analytical and technical skills couples with good presentation and soft skills make them a great asset for any organization.
+                                    </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
                                     onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -158,17 +78,15 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-7.jpg')}}" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/8.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Mr. Akhilesh Sharma</b><br> <span class="tmu-color-blue">IFBI, <br> NIIT
-                                            Ltd. New Delhi </span>
+                                    <p class="overview mb-3"><b>Aditya Kumar</b><br>
+                                        <span class="tmu-color-blue">HR Manager,<br> Vivo India</span>
                                     </p>
-                                    <p class="testimonial-content47"> I was really GREAT to visit TMU, Moradabad. I am feeling awesome to
-                                        see the efforts of TMIMT TMU doing to the student community in this
-                                        region. HATS OFF. Keep up the good work, would certainly love to
-                                        visit and interact with students again Thank you so much for
-                                        inviting us.</p>
+                                    <p class="testimonial-content47">
+                                    It is a wonderful experience coming to Teerthanker Mahaveer University; students are very talented and creative. We are thankful to Placement Cell and Management of TMU for inviting us in our hunt for finding creative talent for VIVO India.
+                                    </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
                                     onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -178,16 +96,34 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-8.jpg')}}" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/6.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Mr. Gaurav Gupta</b><br> <span class="tmu-color-blue">Corporate HR, <br>
-                                            Transport Corporation
-                                            of India Ltd.</span>
+                                    <p class="overview mb-3"><b>Deen Dayal</b><br>
+                                        <span class="tmu-color-blue">Sr. HR Manager,<br> Max Hospital</span>
                                     </p>
-                                    <p class="testimonial-content47"> It was a good experience altogether we hired maximum no. of students
-                                        from the college looking forward for next year Placement. TMIMT has
-                                        groomed its student as per our hiring criteria.</p>
+                                    <p class="testimonial-content47">
+                                    Students at Teerthanker Mahaveer University are hardworking and shown the huge interest in the opportunity provided at our platform, we wish them to keep learning and growing. Management and Corporate Resource Centre is supportive in organizing the smooth drive; we love to come back to Teerthanker Mahaveer University to pick great talents.
+                                    </p>
+                                </div>
+                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
+                                    onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="media">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/4.jpg')}}" class="mr-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3"><b>Swati Sharma</b><br>
+                                        <span class="tmu-color-blue">Talent Lead Consultant,<br> Knoldus Inc.</span>
+                                    </p>
+                                    <p class="testimonial-content47">
+                                    Recruiting from Teerthanker Mahaveer University was a very pleasant experience. The candidates were knowledgeable and spirited. The problem-solving techniques implemented by them was outstanding. I am sure these guys would do very well in the industry.'
+                                    </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
                                     onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
@@ -197,23 +133,67 @@
 
                     <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
                         <div class="media">
-                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/team-1.jpg')}}" class="mr-3" alt="">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/9.jpg')}}" class="mr-3" alt="">
                             <div class="media-body">
                                 <div class="testimonial">
-                                    <p class="overview mb-3"><b>Ms. Smita Dubey</b><br> <span class="tmu-color-blue">HR Recruitment,
-                                            <br> Justdail Ltd.
-                                        </span>
+                                    <p class="overview mb-3"><b>Prabhanjan Prasoon</b><br>
+                                        <span class="tmu-color-blue">Head - Talent Acquisition (IT & Enablement),<br> SopraSteria</span>
                                     </p>
-                                    <p class="testimonial-content47"> Indeed it was a pleasure to interact with young management
-                                        professionals. We have hired very good students who are performing
-                                        excellent and delivering delight. Good hospitality.</p>
+                                    <p class="testimonial-content47">
+                                    We have been recruiting from Teerthanker Mahaveer University form couple of years now and the students at this University match with the very best in India. This is clearly seen in the nos. we interview and those who are finally selected. Their calibre is also amply demonstrated by high quality of delivery by those who have been selected with SopraSteria.
+                                    </p>
                                 </div>
                                 <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
                                     onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
                             </div>
                         </div>
                     </div>
+
+                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="media">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/7.jpg')}}" class="mr-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3"><b>Ishant Raheja</b><br>
+                                        <span class="tmu-color-blue">HR Lead,<br> Hl Mando Softech Pvt. Ltd.</span>
+                                    </p>
+                                    <p class="testimonial-content47">
+                                        It’s been a very good experience on my visit to Teerthanker Mahaveer University. Dedicated faculty & staff, well-disciplined students, must say intelligent minds. They produce quality students for our industry every year. Keep up the hard work. Stay Associated!
+                                    </p>
+                                </div>
+                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
+                                    onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="oc-item text-start col-lg-4 col-md-6 col-sm-6 mb-3">
+                        <div class="media">
+                            <img src="{{asset('/assets/img/testimonials/department/crc/corporate/3.jpg')}}" class="mr-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3"><b>Bali Singh</b><br>
+                                        <span class="tmu-color-blue">Managing Director,<br> ECO-Energies Pvt. Ltd.</span>
+                                    </p>
+                                    <p class="testimonial-content47">
+                                    We were highly impressed with the professionalism exhibited by TMU faculty and the students during the entire process of Campus Placement. The overall mental caliber of students has been very good with excellent potential to develop the business leaders. The maturity of the students, knowledge, confidence and overall personality has been excellent and surpassed our expectations.
+                                    </p>
+                                </div>
+                                <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14"
+                                    onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down ps-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
+
+
+
+
                 <div id="testimonialModal" class="tmu-modal">
                     <div class="overlay" onclick="closeTestimonialModal()"></div>
                     <div class="tmu-modal-box">
