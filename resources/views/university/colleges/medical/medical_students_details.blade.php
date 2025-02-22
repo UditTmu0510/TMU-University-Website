@@ -25,7 +25,7 @@
                                 <tr>
                                     <td class="text-center">1</td>
                                     <td>MBBS</td>
-                                    <td>2023-24</td>
+                                    <td>2024-25</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}"
                                             target="_blank" data-original-title="View"><i
