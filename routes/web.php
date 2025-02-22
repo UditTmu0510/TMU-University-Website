@@ -366,6 +366,7 @@ Route::controller(DepartmentsController::class)->group(function(){
                                        });
 
 
+                               
                                        Route::controller(NaacPdfsController::class)->group(function(){
                                         Route::match(['get', 'post'], '/add/naac-pdf', 'store')->name('add.naac_pdf')->middleware('permission:Add NAAC PDF');
                                         Route::get('/naac-pdfs/all/','index')->name('all_naac_pdfs')->middleware('permission:View All NAAC PDFS');
@@ -373,6 +374,7 @@ Route::controller(DepartmentsController::class)->group(function(){
                                         Route::get('/delete/naac-pdf/{id}','destroy')->name('delete.naac_pdf')->middleware('permission:Delete NAAC PDF');
                                         Route::post('/getkeyindicatorpdf/','getkeyindicatorPdf')->name('getkeyindicatorpdf');
                                         Route::post('/getmetricspdf/','getmetricsPdf')->name('getmetricspdf');
+                                        Route::get('/naac-pdfs/search','search')->name('naac_pdfs.search');
                                            });
                    
                    
