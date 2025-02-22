@@ -12,8 +12,8 @@
 
         <section class="about-section bg-light mt-4">
             <div class="container">
-                <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>About Research </span><span> & Development
+                <div class="text-content p-2">
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>About  </span><span>Research & Development
                             Center</span></h1>
                     <p class="about-p mb-2 text-justify">The <span class="highlight">Research and Development Center at Teerthanker Mahaveer
                             University </span> is an interdisciplinary center dedicated to research, education, industrial
