@@ -51,7 +51,7 @@
         <section class="crc-highest-package-section text-white text-center py-3 mt-3">
             <div class="container">
                 <h2 class="tmu-text-primary my-0 mb-1"> <span>Highest </span><span>Package</span></h2>
-                <h5 class="mb-1">Batch 2023-24</h5>
+                <h5 class="mb-3 fw-bold">Batch 2024-25</h5>
                 <div class="row">
                     <div class="col-md-3 col-6 crc-border-right mb-2">
                         <h3 class="mb-1">₹ <span class="display-4">60</span> LPA</h3>
@@ -62,11 +62,11 @@
                         <p>INTERNATIONAL</p>
                     </div>
                     <div class="col-md-3 col-6 crc-border-right">
-                        <h3 class="mb-1">₹ <span class="display-4">8</span> LPA</h3>
+                        <h3 class="mb-1">₹ <span class="display-4">15</span> LPA</h3>
                         <p>MBA</p>
                     </div>
                     <div class="col-md-3 col-6">
-                        <h3 class="mb-1">₹ <span class="display-4">12</span> LPA</h3>
+                        <h3 class="mb-1">₹ <span class="display-4">20</span> LPA</h3>
                         <p>CCSIT</p>
                     </div>
                 </div>
