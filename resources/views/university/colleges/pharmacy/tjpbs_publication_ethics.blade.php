@@ -40,7 +40,7 @@
             <hr>
             <h3 class="mb-2 pb-0 tmu-text-primary fw-bold h3size pt-3"><span>Ethical guidelines</span> <span>for the authors</span></h3>
             <p class="about-p pb-4 text-justify">
-                Authors are required to follow the author guidelines of the journal before submitting the
+                Authors are required to follow the <a href="{{route('tjpbs.authors.guidelines')}}"> authors guidelines</a> of the journal before submitting the
                 manuscript. Authors are recommended to adhere to the ethical guidelines by ICMJE
                 (International Committee of Medical Journal Editors) for scholarly publishing. The authors
                 must follow ICMR (Indian Council of Medical Research) National Ethical Guidelines for the
@@ -95,7 +95,7 @@
                     mistake. To preserve the integrity of the scientific record, the retracted paper will remain on
                     the journal's website; yet, a notice of retraction will be published and made accessible to all
                     readers. Retractions may be issued by the authors, the editor, or the publisher. In exceptional
-                    instances of legal violation, the Publisher may retract an article. Bibliographic details of the
+                    instances of legal violation, the publisher may retract an article. Bibliographic details of the
                     article will be preserved to maintain the integrity of the scientific record. Occasionally, it is
                     essential to issue corrections or errata in a published article in the Journal to uphold the
                     integrity of the academic record. A suitable notification concerning the correction will be sent

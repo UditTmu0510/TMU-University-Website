@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                                 <div class="team-image">
                                     <img src="{{asset('/assets/img/infrastructure/colleges/pharmacy/machine_room_5.jpg')}}" height="150px" alt="">
@@ -100,7 +100,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Central Instruments</span><span> Facilities</span></h3>
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                                 <div class="team-image">
                                     <img src="{{asset('/assets/img/infrastructure/colleges/pharmacy/cif_5.jpg')}}" height="150px" alt="">
@@ -200,7 +200,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Pharmacology</span><span> Lab</span></h3>
