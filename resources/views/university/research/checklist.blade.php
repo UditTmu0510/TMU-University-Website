@@ -22,7 +22,7 @@
               <li class="pb-1">Post-graduation degree certificate</li>
               <li class="pb-1">M.Phil. marksheets (if applicable)</li>
               <li class="pb-1">M.Phil. degree (if applicable)</li>
-              <li class="pb-1">UGC-NET&nbsp;,JRF&nbsp;,UGC-CSIR NET (including JRF)&nbsp;/&nbsp;,SLET qualifying certificate.</li>
+              <li class="pb-1">UGC-NET, JRF, UGC-CSIR NET (including JRF) /, SLET qualifying certificate.</li>
               <li class="pb-1">Any other educational qualification certificate</li>
               <li class="pb-1">All experience certificates</li>
               <li class="pb-2">SC&nbsp;/ST&nbsp;/PH&nbsp;/OBC&nbsp;/Minority certificate, if applicable.</li>
@@ -35,13 +35,11 @@
           <div class="alert alert-success">
             <strong class="tmu-text-primary"><span>Note:</span><span></span></strong><br />
             <ul class="ps-3 m-ol-list">
-              <li>The original documents shall be required to be produced at the time of registration..</li>
-              <li>Candidates who have qualified UGC-NET(including JRF)/UGC-CSIR NET(including JRF)/SLET/Teacher Fellowship holder or have passed M.Phil Programme are exempted from the <b class="fs-14">University TRAT</b>.</li>
-              <li>Candidates applying for Ph.D. in Jainology are exempted from the <b class="fs-14">University TRAT Fee.</b></li>
+              <li>The original documents shall be required to be produced at the time of first CRAC meeting in the colleges for verification.</li>
+              <li>Candidates who have qualified UGC-NET (including JRF)/CSIR UGC-NET (including JRF)/SLET/GATE/GPAT/CEED/ICAR/Teacher fellowship holder or have passed M. Phil. Programme and similar National level tests qualified applicants are exempt from appearing in the <b class="fs-14">TRAT</b>.</li>
             </ul>
           </div>
         </div>
-                  
       </div>
     </div>
   </div>

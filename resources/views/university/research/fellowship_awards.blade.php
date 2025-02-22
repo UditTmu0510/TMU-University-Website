@@ -3,7 +3,7 @@
 
 
 <div class="main-content">
-      <div class="container ps-4">
+  <div class="container ps-4">
     <div class="row mx-0">
       <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Fellowship </span><span> Awards</span></h1>
 
@@ -16,14 +16,14 @@
             <table class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th>Sl. No.</th>
-                  <th>Name of the Teacher awarded National / International Fellowship /
-                    Conference</th>
-                  <th>Name of the Award / Fellowship / Conference</th>
-                  <th>Year of Award / Year of Participation</th>
+                  <th>Name of the teacher received the national/ international fellowship/financial support</th>
+                  <th>Name of the fellowship</th>
+                  <th>Stature of fellowship (national/International)</th>
+                  <th>Awarding Agency</th>
+                  <th>Year of Award</th>
                 </tr>
               </thead>
-              <tbody>
+              <!-- <tbody>
 
                 <tr>
                   <td class="text-center">1</td>
@@ -3304,6 +3304,5176 @@
                     &amp; REMEDIES
                     28&amp;29 AUG., 2016</td>
                   <td class="text-center">2016</td>
+                </tr>
+              </tbody> -->
+              <tbody>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Garima Yeluri</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. M.K. Sunil</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Upender Malik</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Shalabh Kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Madhurima</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Akash Gopi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="3">
+                    <div>Dr. Geetanshu Dawar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mansi Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Meghanand T Nayak</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Abhinay Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankita Jain</td>
+                  <td>Fellow of International College of Dentists</td>
+                  <td>International</td>
+                  <td>International College of Dentists, Washington</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Rohit Sharma</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Renuka Nagar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Abhinay Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kapil Dev</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Surbhi Agrawal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kapil Dev</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Ramkrishna Yelluri</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pooja Walia</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shalabh Mahrotra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rajeev Pathak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shalabh Mahrotra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rajeev Pathak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mukesh Kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Manish Goyal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Pradeep Tangade</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankita Jain</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Thanveer K</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. D. S. Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Neelima Gehlot</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. D S Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nimish Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Neelima Gehlot</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashutosh Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankita Mittal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Faiyaz Ahmad</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Deepti Arora</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Seema Awasthi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Faiyaz Ahmad</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashutosh Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Seema Awasthi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pramod Suryakantrao Dode</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Hare Krishna</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Krishan Gopal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. J. M Haria</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Ajay Kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vishvanayak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Soubhagya Mishra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vishvanayak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Alok Singhal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mazher Maqusood</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Nirala</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. K.S. Dhillon</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Dilip Meena</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. Ashok Babu</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prerana Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prerana Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. S. Nagendran</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rupa Rajbhandari Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Baljeet Maini</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Bablu Kumar Gaur</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. N.S. Chithambaram</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shalabh Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rupa Rajbhandari Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Naveen Kumar Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. S. C. Sharma</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanjay Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Chandra Kishor Jakhmola</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. C.K. Jakhmola</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sarita Kanth</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Naveen Kumar Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Roop Kishan Kaul</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sarita Kanth</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. A. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanjay Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Roop Kishan Kaul</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nitin K Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prakhar Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Pant</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sudhir Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Amit Saraf</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manmohan Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Amit Saraf</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sudhir Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manmohan Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashish Chander</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Priye Suman Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashish Chander</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. P.S. Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Probal Chatterji</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. KVK Sudhakar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Probal Chatterji</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Astha Lalwani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kanchan Rani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Poonam Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Prof. (Dr.) Astha Lalwani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Poonam Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kanchan Rani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Narendra Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mukesh Kumar Prasad</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Md Shahbaz Alam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. G S. Jheetay</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mukesh Kumar Prasad</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. G S. Jheetay</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Rajul Rastogi</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankur Malhotra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vijai Pratap</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunil Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Satish Pathak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Arjit Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shruti Chandak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Satish Pathak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vijai Pratap</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunil Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="3">
+                    <div>Dr. Pallavi Ahluwalia</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2022-23</td>
+                </tr>
+                <tr>
+                  <td>Touheed Akhter</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Himanshu Yadav</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Juhi Yadav</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Harish Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Ram Niwas</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Pramod Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Neerja Massey</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Vijimol. G</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Shri Bhagwan</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Arun Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Shazia Mattu</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td>Anjali Rani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2021-22</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Arun K. V.</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. D. S. Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. D. S. Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nimish Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Manish Goyal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gauri Bhatia</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ramakrishna Yeluri</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Sanath Aithal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. S Nagendran</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Seema Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. P S Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Ashish Chander</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. G Ramakrishna</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mazher Maqusood</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Vishvanayak</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Soubhagya M</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Ajay Kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Anand Dev</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Krishan Gopal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. V K Singh</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Jigar M Haria,</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Krishan Gopal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Probal Chaterji</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. KVK Sudhakar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Pant</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Amit Saraf</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashutosh Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. M S Chahal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. S C Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanjay Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. N K Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="3">
+                    <div>Dr. S P Sinha</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. N K Singh</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanjay Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sarita Kanth</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Santosh Bhalke</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Atul Goel</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Baljeet Maini</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Santosh Bhalke</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Atul Goel</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. S M Tripathy</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prashant Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. A. Elphine Prabhar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Prof. Piyush Mittal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr Pinaki Adak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Miss Anjali</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr Pinaki Adak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr Bikram Ghimire</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Miss Anjali</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Mr Rakesh Yadav</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Puneet</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr Madhurima Sharma</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Shalabh</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Deepa D</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Bhavna</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Shalabh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Deepa D</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gauri Bhatia</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. D.S Gupta</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Arun kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nimish</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rajnish Jain</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Abhinay Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rajnish Jain</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rohit Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr.Abhinay Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr Mukesh</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Saksham</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Manish Goyal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mansi Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Geetanshu</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Meghanand Nayak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Thanveer K</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Tangade</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Tangade</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vikas Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sandeep Mayall</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Harsimran Kaur</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Ramakrishna Yeluri</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. M.K Sunil</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Upender Malik</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr Manish goyal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr saksham madhok</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Mukesh kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Subas Chandra Dinda</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Mukesh kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="7">
+                    <div>Dr. Piyush Mittal</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Ms. Sarita Jangra</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pirtibha Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr Rishi Kapoor Poddar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Umar Farooq</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Tangade</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Tangade</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Thanveer K.</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vikas Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Pinaki Adak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Rakesh Yadav</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="7">
+                    <div>Mr. Raushan Kumar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="8">
+                    <div>Mr. Navreet Boora</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="5">
+                    <div>Mr. Niraj Kumar Sah</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Ms.SaritaJangra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Mr. Rishi Kappor Poddar</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Ms.Sarita Jangra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vishvanayak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Krishan Gopal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Krishan Gopal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. J. M Haria</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Soubhagya Mishra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. J. M Haria</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vishvanayak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Alok Singhal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Soubhagya Mishra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Alok Singhal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Hare Krishna</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mazher Maqusood</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. S. Nagendran</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Pradeep Nirala</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. V. Ashok Babu</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. K.S. Dhillon</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Dilip Meena</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. S. Nagendran</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prerana Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prerana Gupta</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. N.S. Chithambaram</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Baljeet Maini</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shalabh Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rupa Rajbhandari Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shalabh Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rupa Rajbhandari Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Bablu Kumar Gaur</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sarita Kanth</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Naveen Kumar Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. C.K. Jakhmola</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Naveen Kumar Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. A. K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Sanjay Sharma</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sarita Kanth</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Roop Kishan Kaul</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. S.C. Sharma</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Chandra Kishor Jakhmola</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nitin K Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Pant</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manmohan Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Sudhir Singh</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ajay Pant</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prakhar Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Amit Saraf</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manmohan Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashish Chander</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Priye Suman Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashish Chander</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. P.S. Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Probal Chatterji</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Probal Chatterji</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. KVK Sudhakar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. KVK Sudhakar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Astha Lalwani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Poonam Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kanchan Rani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. (Dr.) Astha Lalwani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Poonam Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kanchan Rani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Narendra Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. G S. Jheetay</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Md Shahbaz Alam</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mukesh Kumar Prasad</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="3">
+                    <div>Dr. Pallavi Ahluwalia</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. G S. Jheetay</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Mukesh Kumar Prasad</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td colspan="1" rowspan="2">
+                    <div>Dr. Vijai Pratap</div>
+                  </td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Satish Pathak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rajul Rastogi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankur Malhotra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shruti Chandak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunil Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shruti Chandak</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Ashish Bishnoi</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Anupama Verma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Shalabh Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Rishi Kapoor Poddar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Niraj Kumar Sah</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Raushan Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Navreet</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Shikha Sharma</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Rakesh Kumar Yadav</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Ajay Chakravarty</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Harjinder Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Gautam Kumar</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Jitendra Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Basavaraj Mudhol</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mohd Saleem</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Himani</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Shree Jee Biotech Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. V.K. Singh</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Goodman Gilman's Life Sciences Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Amit Mishra</td>
+                  <td>Financial Support for conducting R&amp;D Project</td>
+                  <td>National</td>
+                  <td>Viracare Pharma Pvt. Ltd.</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Rakesh Kumar Dwivedi</td>
+                  <td>Iconic Principal Award</td>
+                  <td>National</td>
+                  <td>FAMA Global Management Services</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Subas Chandra Dinda</td>
+                  <td>Indian Association of Pharmaceutical Scientists &amp; Technologists (IAPST) 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Subas Chandra Dinda</td>
+                  <td>8th Global Innovators Summit</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Subas Chandra Dinda</td>
+                  <td>7th Annual Conference of the ACSE</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Subas Chandra Dinda</td>
+                  <td>APP 14th Indo-US Virtual Confererence on Global Issues and Concerns in Pharmaceutical Education and Research</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prabhakar Viswakarma</td>
+                  <td>Workshop on Product Development Approaches</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Rajesh Kumar Sharma</td>
+                  <td>Workshop on Product Development Approaches</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gurdeep Singh Jheetay</td>
+                  <td>AOA Webcon 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Md. Shahbaz Alam</td>
+                  <td>Fertimed 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Colposcopic Society</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>9th Annual Conference of Indian Association of Clinical Medicine - Tripura</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>IPCON 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>12th ISRPT Conference: ISRPT-2020 (Roll Over)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Workshop-cum-Sensitization Program on Pharmacovigilance</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>CME cum e-Workshop on Materiovigilance</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>VICHPE-2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>7th Mid Term UPCOG Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Indias Health Care Challenges and Traditional Ethnomedicinal Heritage</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Online Clinical Certification Series Clinical Therapeutic Management CCP-CCCTM</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>National Training Workshop on Ethics in Biomedical and Health Research</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>National CME/Workshop on New Clinical Trail Rules</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>International CME on Teaching, Learning and Evaluation Method used in CBME</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Online Workshop on Health Technology</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Concept of General Pharmacology - ISRPT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Revised Basic Course Workshop &amp; Training in Attitude, Ethics &amp; Communication (AETCOM)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Reflection Writing</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shilpa Patrick</td>
+                  <td>Concept of General Pharmacology - ISRPT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Preeti Singh</td>
+                  <td>Concept of General Pharmacology - ISRPT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ruchi Choudhary</td>
+                  <td>Concept of General Pharmacology - ISRPT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr. Lalendra Yadav</td>
+                  <td>Concept of General Pharmacology - ISRPT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Jayballabh kumar</td>
+                  <td>E-CME, &ldquo;Physiology of wellness in covid times&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Jayballabh kumar</td>
+                  <td>AVEOCON-2021, E-National conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Jayballabh kumar</td>
+                  <td>AVEOCON -2021, E-CME &ldquo;virtual vs explicit: opportunities and challenges</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr.Ritu Adhana</td>
+                  <td>Recent treends in assessing lifestyle stress &amp;the road to recovery</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr.Ritu Adhana</td>
+                  <td>Chronomedicine:relevence in covid times</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Ritu Adhana</td>
+                  <td>E-CME, &ldquo;Physiology of wellness in covid times&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Ritu Adhana</td>
+                  <td>AVEOCON-2021, E-National conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Ritu Adhana</td>
+                  <td>AVEOCON -2021, E-CME &ldquo;virtual vs explicit: opportunities and challenges</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Anjali Verma</td>
+                  <td>ASSOPICON 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Anjali Verma</td>
+                  <td>Recent treends in assessing lifestyle stress &amp;the road to recovery</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Anjali Verma</td>
+                  <td>AETCOM:The Heart and Soul of Medical Education.</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr Jaspreet kaur</td>
+                  <td>Revised Basic Course Workshop &amp; training in AETCOM</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mr Arun Kumar</td>
+                  <td>CME- AIIMS, Nagpur on &ldquo; Physiology of wellness in COVID times&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>2nd National Pumonary P.G Confrence 2021 (virtual)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>NAPCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Munavvar Ansari</td>
+                  <td>Delhi Ophthalmology Society, 72nd Annual DOS Conference, International Hybrid Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gurdeep Singh Jheetay</td>
+                  <td>AOA Webcon 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Md. Shahbaz Alam</td>
+                  <td>Fertimed 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sushil Kumar</td>
+                  <td>Workshop on &ldquo; Industry &ndash; Institute Interaction in Agri &ndash; Inputs&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Mrs. Naheed Bi</td>
+                  <td>National Workshop on Human Rights (25/05/2021 to 31/05/2021)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ratnesh Jain</td>
+                  <td>राष्ट्रीय सेमिनार-स्त्री और समकालीन दुनिया, 19-20 Feb., 2021</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Aditya Sharma</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>IAC, Hyderabad</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Raghuvir Singh</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>IAC, Hyderabad</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manjula Jain</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>IAC, Hyderabad</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Dr. R. K. Dwivedi</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>IAC, Hyderabad</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Raghuvir Singh</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Rakesh Kumar Dwivedi</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Prof. Ramesh Chandra Tripathi</td>
+                  <td>Transformation Through NAAC Accreditation Process</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2020-21</td>
+                </tr>
+                <tr>
+                  <td>Nidhi Malhotra</td>
+                  <td>Performing And Designing Experiment On Virtual Platform</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Jitesh Kumar</td>
+                  <td>Performing And Designing Experiment On Virtual Platform</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Himanshu Sharma</td>
+                  <td>Performing And Designing Experiment On Virtual Platform</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Arvind Gaur</td>
+                  <td>Performing And Designing Experiment On Virtual Platform</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Shreshta Bandhu Rastogi</td>
+                  <td>How To Build Personal Brand On Linkedin</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ankita Saxena</td>
+                  <td>Advanced And Basic Wheelchair Skills In Spinal Cord Injury Patients</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ankita Saxena</td>
+                  <td>Hydrotherapy In Spinal Cord Injury Patients</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prabhakar Viswakarma</td>
+                  <td>Educational Challenges and Solutions During and Post COVID Pandemic</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Neelanchal Trivedi</td>
+                  <td>Online Energy Conservation Awareness Programme</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Bhubnesh Kumar Singh</td>
+                  <td>Green Intellectual Property Rights for health care innovations Globally</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sneh lata</td>
+                  <td>10 Day National Yoga Workshop on Lifestyle Management through Yoga &amp; Fitness.</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Radhey Sham Jha</td>
+                  <td>Workshop on Drafting and Pleading</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ms. Neha Jain</td>
+                  <td>Workshop on NPTEL</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ms. Neha Jain</td>
+                  <td>Qualitative Empirical Methods in Legal Research</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Abhinav Chaudhary</td>
+                  <td>Workshop on Drafting and Pleading</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Amit Verma</td>
+                  <td>Workshop on "Intellectual property Rights"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Saurabh Battar</td>
+                  <td>Workshop on "Intelectual property Rights"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Saurabh Battar</td>
+                  <td>Workshop on "Various Facets of Media Law"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. B.R. Maurya</td>
+                  <td>Sailent Features of Consumer Protection Act, 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Aruno Raj Singh</td>
+                  <td>Sailent Features of Consumer Protection Act, 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. N. Huda</td>
+                  <td>3rd Annual Conference of Indian Biologics Orthopaedic Society IBOS Meet 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. N. Huda</td>
+                  <td>44th Annual Conference of UP Orthopaedics Association, UPORTHOCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Amit Saraf</td>
+                  <td>44th Annual Conference of UP Orthopaedics Association, UPORTHOCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Ajay Pant</td>
+                  <td>44th Annual Conference of UP Orthopaedics Association, UPORTHOCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. N. Huda</td>
+                  <td>UPOA ePGCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Amit Saraf</td>
+                  <td>UPOA ePGCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Manmohan Sharma</td>
+                  <td>UPOA ePGCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr Dilip Meena</td>
+                  <td>DERMATOSCOPY &amp; TRICHOSCOPY CME &amp; WORKSHOP</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr Dilip Meena</td>
+                  <td>Dermacon 2020: 48th National Conference of Indian Association of Dermatologists, Venereologists and Leprologists</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Anuj Kumar</td>
+                  <td>Dermacon 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Anuj Kumar</td>
+                  <td>Cuticon UP &amp; UK 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gurdeep Singh Jheetay</td>
+                  <td>UPISAWEBCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mukesh Kumar Prasad</td>
+                  <td>USG Workshop</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Safe and legal abortion in clinical Practice</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Renu Garg</td>
+                  <td>16th annual conference FERTIVISION and 1st virtual global conference of Indian fertility society</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Renu Garg</td>
+                  <td>32nd annual conference of UP chapter of Obstetrics and Gynecology</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>MID TERM UPCOG</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>FERTVISION</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shubhra Agarwal</td>
+                  <td>UPCOG</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Astha Lalwani</td>
+                  <td>15th annual congress ofindian fertility society FERTIVISION</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Garima Bajpai</td>
+                  <td>Recent updates in diagnosis of BOH FOGSI</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Garima Bajpai</td>
+                  <td>Western UP IFS chapter</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Garima Bajpai</td>
+                  <td>FOGSI</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Pharmacovigilance and Risk Management Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Advanced Pharmacoviglance</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Implementing Competency Based Medical Eductaion During Covid times</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Clinical Evaluation of Vaccine - Regulatory and Ethical Consideration</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>National Education Policy-2020 for higher education</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Whats the value in P-Value?</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Publication Ethics and Publication Misconduct</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Regulatory Education for Industry (REDI) Annual Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Ethical Issues in Biomedical Research (EBR-2020)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>CME - Pharmacological Approaches to tretament of Covid-19</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>20th National Conference of Adolscent Health Academy IAP - E -Adolescon 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>CME on Water, Water Borne Diseases (WBD) and Pharmacotherapy on WBD</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Medical Leadership in Academic Institutions in India During Covid Crisis</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Vaccine Safety: Basic to Advanced</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prithpal Singh Matreja</td>
+                  <td>Research Grant for Higher Education</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ruchi Choudhary</td>
+                  <td>CISP - 2</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Lalendra Yadav</td>
+                  <td>Seld Directed Learning: Drug Autobiography - A Novel Approach</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Jayballabh Kumar</td>
+                  <td>CISP -II</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanket Jheetay</td>
+                  <td>Scientific Research Grant Writing - Institute of Applied Statistics</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sanket Jheetay</td>
+                  <td>V-ICONBAP 2020 - Pre-conference Workshop - Intra-Opertive Neurophysiological Monitoring</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr Shilpa Reddy Ganta</td>
+                  <td>IPHACON-2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>NATCON 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>39th state task force workshop</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. K.V.K Sudhakar</td>
+                  <td>International Otology Wrokshop Prevent, Cure ( Surgery) and RehilitateDeaf</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Alok Singhal</td>
+                  <td>SPACE Heart Failure</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mr. Ranjeet Singh</td>
+                  <td>TEACHING, LEARNING AND EVALUATIN: AS PER NEW NAAC GUIDELINES, 03 FEB., 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr.Harshvardhan</td>
+                  <td>Teaching, Learning And Evaluatin: As Per New Naac Guidelines, 03 Feb., 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mrs. Rachna Saxena</td>
+                  <td>Human Values And Professional Ethics In Education: Need And Importance, 22-23 Feb., 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ms. Ruby Sharma</td>
+                  <td>Capacity Building Programme On Brain Based Learning Strategies, 21-23 Oct., 2020</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashendra Kumar Saxena</td>
+                  <td>Cyber Security Systems</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>Beyond the Boundaries: Reinventing Horizons</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;Brand U Development and Learning the basis of Creating a future with AI&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;A Decade in Technology and Cyber Security"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;Insight into Different Modes of Software Communication&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;Introduction to Data Science&rdquo;,</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;Artificial Intelligence&rdquo;,</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Aaditya Jain</td>
+                  <td>&ldquo;NAAC Assessment and Accreditation: A Step by Step Process &rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ajay Chakravarty</td>
+                  <td>&ldquo;Research based Implementations on Social Media Mining and Sentiment Analysis&rdquo; &ldquo;Research based Implementations on Social Media Mining and Sentiment Analysis&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ajay Chakravarty</td>
+                  <td>Block Chain Technology</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ajay Chakravarty</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ankur Sisodia</td>
+                  <td>Examination in the wake of the UGC guidelines for universities in view of COVID19 Pandemic &amp; subsequent Lockdown</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ankur Sisodia</td>
+                  <td>Introduction to Internet of Things</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ankur Sisodia</td>
+                  <td>Consumer Protection Laws And Filing Customer Complaints</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashok kumar</td>
+                  <td>Corporate Expectations</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashok kumar</td>
+                  <td>Disseminating Knowledge and Information:Ethical,Legal and Social Issues</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Kirti Shukla</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr .Megha Sharma</td>
+                  <td>Role of nonocomposite in the development of Industry</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Megha Sharma</td>
+                  <td>Research paper writing &amp; IPR</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Parag Agarwal</td>
+                  <td>Prospective of Interdisciplinary Research in Science and Technology in the Present Scenario</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Parag Agarwal</td>
+                  <td>Computational Material Science using Density Functional Theory</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shakti Kundu</td>
+                  <td>&ldquo;Fundamentals of manuscriptpreparation&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shakti Kundu</td>
+                  <td>How to conduct evidence-based research</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shakti Kundu</td>
+                  <td>&ldquo;The Impact of IEEE Standards on Internet of Things&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shakti Kundu</td>
+                  <td>&ldquo;Microsoft EduCloud and Digital Transformationwith 21 st Century Tools&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shakti Kundu</td>
+                  <td>Artificial Intelligence</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Harjinder Singh</td>
+                  <td>&ldquo;Research based Implementations on Social Media Mining and Sentiment Analysis&rdquo;</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Jyoti Ranjan Labh</td>
+                  <td>Importance of personal branding and how to go about it</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Jyoti Ranjan Labh</td>
+                  <td>3D Printing and its application</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr.Laxmikant Tiwari</td>
+                  <td>"Mathematics for Machine Learning :Linear Algebra"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr.Laxmikant Tiwari</td>
+                  <td>"Mathematical Thinking in Computer Science"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Manish Joshi</td>
+                  <td>Industrial IOT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mohd. Saleem</td>
+                  <td>Economic Growth &amp; Development</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Mohd. Saleem</td>
+                  <td>Management Skills for Professional Teacher Excellence</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Namit Gupta</td>
+                  <td>" Recent Trends in Research - Special Reference To Data Analysis,IOT ,Communication &amp; Information Theory".</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Neeraj Kumari</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Neeraj Kumari</td>
+                  <td>"Digital Learning with Multidisciplinary Approach"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Priyank Singhal</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ranjana Sharma</td>
+                  <td>&ldquo;Writing A Research Grant Proposal&rdquo; recognized by Institution&rsquo;s Innovation</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ratnesh Kumar Shukla</td>
+                  <td>"Integrated Development and Enviroment of IOT Applications"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Ratnesh Kumar Shukla</td>
+                  <td>"Next Generation Innovation in augmented and Vortual reality"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shambhu Bharadwaj</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Swati Vishnoi</td>
+                  <td>RESEARCH PAPER WRITING &amp; INTELLACTUAL PROPERTY RIGHTS</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Swati Vishnoi</td>
+                  <td>Green Computing</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Tushar Mehrotra</td>
+                  <td>"Cloud Computing Using AWS"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Tushar Mehrotra</td>
+                  <td>"Global Pandemic Outbreak: Role of Technology &amp; Automation"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Vineet Saxena</td>
+                  <td>"Research based Implementations on Social Media Mining and Sentiment Analysis".</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Vivek Kumar</td>
+                  <td>"Computer Communication Networks Lab Experiments and R&amp; D Using Netsim"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Vivek Kumar</td>
+                  <td>Transformation of Education with Technical Vertuality in the time of COVID-19</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Vivek Kumar</td>
+                  <td>Next Generation Innovation in Augmented and Virtual Reality</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Raghuveer Singh</td>
+                  <td>5th International Conference on Advancement Computing (ICAC-2020)</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Rakesh Kumar Dwivedi</td>
+                  <td>5th International Conference on Advancement Computing (ICAC-2020)</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Prof. Ramesh Chandra Tripathi</td>
+                  <td>5th International Conference on Advancement Computing (ICAC-2020)</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2019-20</td>
+                </tr>
+                <tr>
+                  <td>Pradeep Kr. Verma</td>
+                  <td>Foundation Day * (3 star)</td>
+                  <td>National</td>
+                  <td>MHRD - AICTE</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Abhinav Saxena</td>
+                  <td>Personality Development</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Kriti Sachan</td>
+                  <td>Myokinetic Cupping Therapy</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Ankita Saxena</td>
+                  <td>Cupping Therapy And Muscle Energy Techniques</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Rajesh Kumar Sharma</td>
+                  <td>Workshop on Clinical Pharmacy Competencies</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Neha Gupta</td>
+                  <td>Workshop on Clinical Research- Basics to Industry</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Surbhi Sharma</td>
+                  <td>Workshop on Clinical Research- Basics to Industry</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Rajesh Kumar Sharma</td>
+                  <td>Workshop on Clinical Research- Basics to Industry</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Rajesh Kumar Sharma</td>
+                  <td>Workshop on Drug Design and Drug Discovery</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Chanchal Suryavangshi</td>
+                  <td>Rupi Siraj Kala Mancha</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunil Kumar</td>
+                  <td>Global Initiatives in Agriculture and Applied Science for Eco Friendly Environment</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunil Kumar</td>
+                  <td>Global prespective in Agricultural and Allied Sciences food and Environmental Securiety</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. N. Huda</td>
+                  <td>UPORTHOCON 2019 43rd Annual Conference of UP Orthopaedic Association</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rakesh Verma</td>
+                  <td>Current Concept in Trauma 22nd annual conference of Trauma society of India</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. Manmohan Sharma</td>
+                  <td>Joint Replacement Surgeons Council</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. N. Huda</td>
+                  <td>CME cum Workshop on Acetabular Fractures</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mir Shahid</td>
+                  <td>CME cum Workshop on Acetabular Fractures</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. Manmohan Sharma</td>
+                  <td>64th Annual conference of Indian Orthopaedic Association from 19th to 24th November 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Sanath Aithal</td>
+                  <td>ACS(I)CON 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Sanath Aithal</td>
+                  <td>CODFICON</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Dilip Meena</td>
+                  <td>First Annual Meeting of the Asian Society of Dermatopathology and the Annual Meeting of the Dermatopathology Society of India in from</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Anuj Kumar</td>
+                  <td>Best of AAD</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gurdeep Singh Jheetay</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Pallavi Ahluwalia</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Rohit Kumar Varshney</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mukesh Kumar Prasad</td>
+                  <td>AORA india 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar Varshney</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Md. Shahbaz Alam</td>
+                  <td>ISACONUP 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Payal Jain</td>
+                  <td>TROPACON UP-UK2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Payal Jain</td>
+                  <td>FERTIMED-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Payal Jain</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Aditi Khare</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Pratiksha Gogia</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>41st Annual Conference of AOGD-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>31st Annual Conference of UPCOG 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rehana Najam</td>
+                  <td>Fertivision 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Renu Garg</td>
+                  <td>FERTIMED</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. MK. Sunil</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Puneet M</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Anudeep</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sneha</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ravindra</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Roopika</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Garima</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Shilpa</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sunitha</td>
+                  <td>6th INPAFO World Conference, Chandigarh</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Abhinay Agarwal</td>
+                  <td>CDE-Implantrix, BIU, Bareilly</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Deepa D</td>
+                  <td>18th ISP P.G Convention</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.K.V Arun Kumar</td>
+                  <td>Delhi Ncr State Chapter Of Aomsi</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gagan Khare</td>
+                  <td>Delhi Ncr State Chapter Of Aomsi</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. M.K Sunil</td>
+                  <td>31st IAOMR Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gagan Khare</td>
+                  <td>Live Surgical Workshop On Facial Hair Transplantation</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Jayballabh Kumar</td>
+                  <td>How to publish in Scholarly Journals</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ritu Adhana</td>
+                  <td>ISACONUP 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Anjali Verma</td>
+                  <td>workshop on research grant writing</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Faiyaz Ahmad</td>
+                  <td>ISACONUP 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ankita Mittal</td>
+                  <td>MSK-RAD 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vivek Singh</td>
+                  <td>The Agony and the Ecstasy of Chasing Cases ,Goa , September 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Prachi Singh</td>
+                  <td>Clinico-pathologic Conference on Pediatric Gastrohepatopathology, OKHLA</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>21th NAPCON 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>ADVANCED LUNG FUNCTION</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>Zonal Task Force (ZTF) Workshop On RNTCP</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>State Operational Research Workshop RNTCP,U.P.</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>State Task Force Workshop on RNTCP , U.P.</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr.Mazher Maqusood</td>
+                  <td>workshop on research grant writing</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Abhishek Kumar</td>
+                  <td>Workshop on Bronchoscopy Advance course on intervenhonal pulmonology</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. S.Nagendran</td>
+                  <td>Internet Addiction Disorder</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. N.K Singh</td>
+                  <td>HERNIA LAPCON-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. N.K Singh</td>
+                  <td>MCIMET-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. N.K Singh</td>
+                  <td>Heartfullness CME</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. N.K Singh</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manu Saini</td>
+                  <td>Narayana Nethralaya Eye Foundation</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Manu Saini</td>
+                  <td>Rio, Minto Ophthalmic Hospital, Bangalore Medical College and Research Institute</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Ashish Chander</td>
+                  <td>Punjab Ophthalmological Society, 23rd Annual Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gopesh Mehrotra</td>
+                  <td>U.P. State Ophthalmological Society 54th Annual UPSOS Conference</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. P. S. Rastogi</td>
+                  <td>U.P. State Ophthalmological Society 54th Annual UPSOS Conference, Faculty</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Poonji Gupta</td>
+                  <td>114 th Hands on Temponrl Bone dissection, fess and line surgical-Hyderabad</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. S.M Tripathy</td>
+                  <td>AIIMS, Rishikesh Oncoloy workshop "Head &amp; Neck"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Nitish Aggarwal</td>
+                  <td>AIIMS, Rishikesh Oncoloy workshop "Head &amp; Neck"</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Gurdeep Singh Jheetay</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Pallavi Ahluwalia</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Rohit Kumar Varshney</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Mukesh Kumar Prasad</td>
+                  <td>AORA India 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vipin Kumar Varshney</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Payal Jain</td>
+                  <td>TROPACON UP-UK2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Payal Jain</td>
+                  <td>FERTIMED-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Aditi Khare</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr Pratiksha Gogia</td>
+                  <td>ISACONUP-2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vinod Kumar Singh</td>
+                  <td>RSSDI UPCON 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vishvanayak</td>
+                  <td>UP APICON</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Alok Singhal</td>
+                  <td>CSICON 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Rashmi Mehrotra</td>
+                  <td>Globalization and its Impact on Indian Education and Society</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mrs. Debarati Dhar</td>
+                  <td>Workshop on &ldquo; How to publish in Scholarly Journals&rdquo; (22/05/2019)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mr. Ranjeet Singh</td>
+                  <td>Value Of Value Education In Modern Indian Context , 20 &amp; 21, Feb 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Vinod Kumar Jain</td>
+                  <td>Value Of Value Education In Modern Indian Context, 20 &amp; 21 Feb, 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mrs. Poonam Chauhan</td>
+                  <td>International Conference Social Justice and Devlopment, 23-24 Feb., 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Ms. Debarati Dhar</td>
+                  <td>International Conference on Science, Health and Medicine (02/07/2019 to 06/07/2019)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Sushil Kumar</td>
+                  <td>Imparting Vedic in Global Perspectives of Education : The Future (07/09/2019 to 08/09/2019)</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Ranjeet Singh</td>
+                  <td>The Skill Palette, 6-8 Nov, 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mrs. Rachna Saxena</td>
+                  <td>Managerial &amp; Entrepreneurial Interventions For Sustainable Development In India 20 &amp; 21 Nov., 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Dr. Shaiphali Jain</td>
+                  <td>National Workshop of Teaching skills, 6-8 Nov., 2019</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Ajay Rastogi</td>
+                  <td>Introduction to IoT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Amit Kumar</td>
+                  <td>Introduction to IoT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Jyoti Ranjan Labh</td>
+                  <td>Text, Textuality and Digital Media</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mohan Vishal Gupta</td>
+                  <td>Machine Learning and it's Applications</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Mohan Vishal Gupta</td>
+                  <td>Deep Learning</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Rohila Naaz</td>
+                  <td>Block Chain Workshop, IIT</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Vineet Saxena</td>
+                  <td>Machine Learning and it's Applications</td>
+                  <td>National</td>
+                  <td>Jubilant Agriculture Rural Development Society</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. Rakesh Kumar Mudgal</td>
+                  <td>TechNext India 2019</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. Rakesh Kumar Dwivedi</td>
+                  <td>TechNext India 2020</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Prof. Ramesh Chandra Tripathi</td>
+                  <td>TechNext India 2021</td>
+                  <td>National</td>
+                  <td>Computer Society of India (CSI)</td>
+                  <td>2018-19</td>
+                </tr>
+                <tr>
+                  <td>Laxmi Kant Tiwari</td>
+                  <td>Pandit Madan Mohan Malviya National Mission on Teachers and Teaching</td>
+                  <td>National</td>
+                  <td>PMMMNMTT</td>
+                  <td>2018-19</td>
                 </tr>
               </tbody>
             </table>
