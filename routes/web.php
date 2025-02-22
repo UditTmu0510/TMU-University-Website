@@ -18,6 +18,11 @@ use App\Http\Controllers\Backend\MetaController;
 use App\Http\Controllers\Backend\DepartmentsController;
 use App\Http\Controllers\Backend\DesignationsController;
 use App\Http\Controllers\Backend\EmployeesController;
+use App\Http\Controllers\Backend\JobApplicationController;
+use App\Http\Controllers\Backend\NaacCriterionController;
+use App\Http\Controllers\Backend\NaacKeyIndicatorController;
+use App\Http\Controllers\Backend\NaacMetricController;
+use App\Http\Controllers\Backend\NaacPdfsController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
@@ -143,9 +148,239 @@ Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
 Route::post('/blog/{id}/comments', [BlogsController::class, 'submitComment'])->name('blog.comments');
 require __DIR__ . '/auth.php';
+Route::middleware(['auth','roles:admin'])->group(function(){
+    Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
+    Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
+    Route::get('/admin/profile', [AdminController::class, 'AdminProfile'])->name('admin.profile');
+    Route::post('/admin/profile-update',[AdminController::class,'AdminProfileUpdate'])->name('admin.profile.store');
+    Route::post('/admin/change-password',[AdminController::class,'AdminChangePassword'])->name('admin.change_password');
+    Route::controller(AdminController::class)->group(function(){
+Route::get('/all/admin','AllAdmin')->name('all.admin');
+Route::get('/add/admin','AddAdmin')->name('add.admin');
+Route::post('/store/admin','StoreAdmin')->name('store.admin');
+Route::get('/edit/admin/{id}','EditAdmin')->name('edit.admin');
+Route::get('/delete/admin/{id}','DeleteAdmin')->name('delete.admin');
+Route::post('/update/admin/{id}','UpdateAdmin')->name('update.admin');
 
+    });
+    Route::controller(RoleController::class)->group(function(){
+        Route::get('/all/permission','AllPermission')->name('all.permission')->middleware('permission:View Permissions');
+        Route::get('/add/permission','AddPermission')->name('add.permission')->middleware('permission:Add Permission');
+        Route::post('/store/permission','StorePermission')->name('store.permission')->middleware('permission:Edit Permission');
+        Route::get('/edit/permission/{id}','EditPermission')->name('edit.permission')->middleware('permission:Edit Permission');
+        Route::get('/edit/role/{id}','EditRole')->name('edit.role')->middleware('permission:Edit Role');
+        Route::post('/update/permission','UpdatePermission')->name('update.permission')->middleware('permission:Edit Permission');
+        Route::post('/update/role','UpdateRole')->name('update.role')->middleware('permission:Edit Role');
+        Route::get('/delete/permission/{id}','DeletePermission')->name('delete.permission')->middleware('permission:Delete Permission');
+        Route::get('/delete/role/{id}','DeleteRole')->name('delete.role')->middleware('permission:Delete Role');
+        Route::get('/import/permission','ImportPermission')->name('import.permission')->middleware('permission:Import Permissions');
+        Route::get('/export/permission','ExportPermission')->name('export.permission')->middleware('permission:View Permissions');
+        Route::post('/permission/import','PermissionImport')->name('permission.import')->middleware('permission:Import Permissions');
+        Route::get('/all/roles','AllRoles')->name('all.roles')->middleware('permission:View Roles');
+        Route::get('/add/roles','AddRoles')->name('add.roles')->middleware('permission:Add Role');
+        Route::post('/store/role','StoreRole')->name('store.role')->middleware('permission:Edit Role');
+        Route::get('/add/roles/permission','AddRolesPermission')->name('add.roles.permission')->middleware('permission:Add Roles & Permissions');
+        Route::post('/role/permission/store','RolePermissionsStore')->name('role.permission.store');
+        Route::get('/all/roles/permission','AllRolesPermission')->name('all.roles.permission');
+        Route::get('/admin/edit/roles/{id}','AdminEditRoles')->name('admin.edit.roles');
+        Route::post('/admin/roles/update/','AdminUpdateRoles')->name('admin.roles.update');
+        Route::get('/admin/roles/delete/{id}','AdminDeleteRoles')->name('admin.roles.delete');
+
+        });
+
+// All News Category Routes Start
+        Route::controller(NewsController::class)->group(function(){
+Route::get('/news/category/','AllNewsCategory')->name('news.category');
+Route::post('/add/news/category/','AddNewsCategory')->name('add.news_category');
+Route::get('/edit/news/category/{id}','EditNewsCategory')->name('edit.news_category');
+Route::post('/update/news/category/','UpdateNewsCategory')->name('update.news_category');
+Route::get('/delete/news/category/{id}','DeleteNewsCategory')->name('delete.news_category');
+ });
+
+// All News Category Routes Ends
+
+
+// All News Post Routes Start
+
+        Route::controller(NewsController::class)->group(function(){
+            Route::get('/view/news/all','AllNews')->name('all.news');
+            Route::get('/add/news/post','AddNewsPost')->name('add.news.post');
+            Route::post('/store/news/post','StoreNewsPost')->name('store.news.post');
+            Route::get('/edit/news/{id}','EditNewsPost')->name('edit.news.post');
+            Route::post('update/news/post','UpdateNewsPost')->name('update.news.post');
+            Route::get('/delete/news/post/{id}','DeleteNewsPost')->name('delete.news.post');
+     
+                    });
+// All  News Post ROutes End Here
+
+// Blogs Category Routes Start Here
+
+// All News Category Routes Start
+Route::controller(NewsController::class)->group(function(){
+    Route::get('/news/category/','AllNewsCategory')->name('news.category');
+    Route::get('/add/news/category/','AddNewsCategory')->name('add.news_category');
+    Route::get('/edit/news/category/{id}','EditNewsCategory')->name('edit.news_category');
+    Route::post('/update/news/category/','UpdateNewsCategory')->name('update.news_category');
+    Route::get('/delete/news/category/{id}','DeleteNewsCategory')->name('delete.news_category');
+     });
+    
+    // All News Category Routes Ends
+
+
+
+// Blog Category Route Starts Here 
+Route::controller(BlogsController::class)->group(function(){
+
+    Route::get('/view/blogs/all','AllBlogs')->name('all.blogs')->middleware('permission:View All Blogs');
+    Route::get('/add/blog','AddBlog')->name('add.blog')->middleware('permission:Add Blog');
+    Route::post('/store/blog','StoreBlog')->name('store.blog')->middleware('permission:Store Blog');
+    Route::get('/edit/blog/{id}','EditBlogsPost')->name('edit.blog')->middleware('permission:Edit Blog');
+    Route::post('/update/blog/','UpdateBlogPost')->name('update.blog')->middleware('permission:Update Blog');
+    Route::get('/delete/blog/{id}','DeleteBlogsPost')->name('delete.blog')->middleware('permission:Delete Blog');
+
+    Route::get('/blogs/category/','AllBlogsCategory')->name('blogs.category')->middleware('permission:All Blog Category');
+    Route::post('/add/blogs/category/','AddBlogsCategory')->name('add.blogs_category')->middleware('permission:Add Blog Category');
+    Route::get('/edit/blogs/category/{id}','EditBlogsCategory')->name('edit.blogs_category')->middleware('permission:Edit Blog Category');
+    Route::post('/update/blogs/category/','UpdateBlogsCategory')->name('update.blogs_category')->middleware('permission:Update Blog Category');
+    Route::get('/delete/blogs/category/{id}','DeleteBlogsCategory')->name('delete.blogs_category')->middleware('permission:Delete Blog Category');
+     });
+//Blog Category Routes Ends Here
+
+
+
+                    Route::controller(ProgrammesController::class)->group(function(){
+                        Route::get('/programmes/all/','AllProgrammes')->name('all.programmes');
+                        Route::match(['get', 'post'], '/add/programme/', 'AddProgramme')->name('add.programme');
+                        Route::match(['get', 'post'], '/programme/{id}/edit', 'editProgramme')->name('programme.edit');
+                        Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                        Route::get('/delete/programme/{id}','DeleteProgramme')->name('delete.programme');
+                         });
+                                
+                                
+                                
+                                Route::controller(TestimonialsController::class)->group(function(){
+Route::get('/testimonials/all/','AllTestimonials')->name('all.testimonials')->middleware('permission:View All Testimonials');
+Route::match(['get', 'post'], '/add/testimonial/', 'AddTestimonial')->name('add.testimonial')->middleware('permission:Add Testimonial');
+Route::match(['get', 'post'], '/testimonial/{id}/edit', 'editTestimonial')->name('testimonial.edit');
+Route::get('/delete/testimonial/{id}','DeleteTestimonial')->name('delete.testimonial');
+    });
+    
+    Route::controller(RecruitersController::class)->group(function(){
+        Route::get('/recruiters/all/','AllRecruiters')->name('all.recruiters')->middleware('permission:View All Recruiters');
+        Route::match(['get', 'post'], '/add/recruiter/', 'AddRecruiter')->name('add.recruiter')->middleware('permission:Add Recruiter');
+        Route::match(['get', 'post'], '/recruiter/{id}/edit', 'editRecruiter')->name('recruiter.edit')->middleware('permission:Edit Recruiter');
+        Route::get('/delete/recruiter/{id}','DeleteRecruiter')->name('delete.recruiter')->middleware('permission:Delete Recruiter');
+    });
+          
+      Route::controller(MetaController::class)->group(function(){
+        Route::get('/metas/all/','AllMetas')->name('all.metas')->middleware('permission:View Metas');
+        Route::match(['get', 'post'], '/add/meta/', 'AddMeta')->name('add.meta')->middleware('permission:Add Meta');
+        Route::match(['get', 'post'], '/meta/{id}/edit', 'EditMeta')->name('meta.edit')->middleware('permission:Edit Meta');
+        // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+        Route::get('/delete/meta/{id}','DeleteMeta')->name('delete.meta')->middleware('permission:Delete Meta');
+       
+            }); 
+
+            Route::controller(SyllabusController::class)->group(function(){
+                Route::get('/syllabus/all/','index')->name('all.syllabus')->middleware('permission:View All Syllabus');
+                Route::match(['get', 'post'], '/add/syllabus/', 'store')->name('add.syllabus')->middleware('permission:Add Syllabus');
+                Route::match(['get', 'post'], '/syllabus/{id}/edit', 'Update')->name('syllabus.edit')->middleware('permission:Edit Syllabus');
+                // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                Route::get('/delete/syllabus/{id}','destroy')->name('delete.syllabus')->middleware('permission:Delete Syllabus');
+               
+                    }); 
+            
+            
+            Route::controller(FaqsController::class)->group(function(){
+                Route::get('/faqs/all/','AllFaqs')->name('all.faqs')->middleware('permission:View Faqs');
+                Route::match(['get', 'post'], '/add/faq/', 'AddFaq')->name('add.faq')->middleware('permission:Add Faq');
+                Route::match(['get', 'post'], '/faq/{id}/edit', 'EditFaq')->name('faq.edit')->middleware('permission:Edit Faq');
+                // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                Route::get('/delete/faq/{id}','DeleteFaq')->name('delete.faq')->middleware('permission:Delete Faq');
+               
+                    });  
+          
+// All News Post Routes End
+Route::controller(DepartmentsController::class)->group(function(){
+    Route::get('/departments/all/','index')->name('all.departments')->middleware('permission:View All Departments');
+    Route::match(['get', 'post'], '/add/department/', 'store')->name('add.department')->middleware('permission:Add Department');
+    Route::match(['get', 'post'], '/department/{id}/edit', 'update')->name('department.edit')->middleware('permission:Edit Department');
+    // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+    Route::get('/delete/department/{id}','destroy')->name('delete.department')->middleware('permission:Delete Department');
+   
+        });  
+
+        Route::controller(DesignationsController::class)->group(function(){
+            Route::get('/designations/all/','index')->name('all.designations')->middleware('permission:View All Designations');
+            Route::match(['get', 'post'], '/add/designation/', 'store')->name('add.designation')->middleware('permission:Add Designation');
+            Route::match(['get', 'post'], '/designation/{id}/edit', 'update')->name('designation.edit')->middleware('permission:Edit Designation');
+            // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+            Route::get('/delete/designation/{id}','destroy')->name('delete.designation')->middleware('permission:Delete Designation');
+           
+                });  
+                Route::controller(EmployeesController::class)->group(function(){
+                Route::post('/getemployeedepartment/','getEmployeeDepartment')->name('getemployeedepartment');
+                Route::match(['get', 'post'], '/add/employee/', 'store')->name('add.employee')->middleware('permission:Add Employee');
+                Route::get('/employees/all/', 'index')->name('all.employees')->middleware('permission:View All Employees');
+                Route::match(['get', 'post'], '/employee/{id}/edit', 'update')->name('employee.edit');
+                Route::get('/delete/employee/{id}','destroy')->name('delete.employee')->middleware('permission:Delete Employee');
+               
+                   }); 
+
+                   Route::controller(DepartmentDesignationController::class)->group(function(){
+
+                    Route::match(['get', 'post'], '/add/department/designation', 'store')->name('add.departmentdesignation')->middleware('permission:Add Department Designation');
+                    Route::get('/departmentdesignation/all/','index')->name('all.departments.designations')->middleware('permission:View Departments Designations');
+                    Route::match(['get', 'post'], '/department/designation/{id}/edit', 'update')->name('departmentdesignation.edit')->middleware('permission:Edit Department Designation');
+                    Route::get('/delete/department/designation/{id}','destroy')->name('delete.departmentdesignation')->middleware('permission:Delete Department Designation');
+                   
+                       }); 
+                       
+                               Route::controller(JobApplicationController::class)->group(function(){
+
+                        Route::get('/getjobapplications/all/','index')->name('all.jobapplications')->middleware('permission:View All Jobs');
+                        Route::match(['get', 'post'], '/jobapplication/data/{id}/generate-pdf', 'generate_pdf')->name('generate.jobapplication.pdf')->middleware('permission:Generate Job Application Pdf');
+                           }); 
+
+                        Route::controller(NaacCriterionController::class)->group(function(){
+                            Route::match(['get', 'post'], '/add/naac-criterion', 'store')->name('add.naac_criterion')->middleware('permission:Add NAAC Criterion');
+                            Route::get('/naac-criterions/all/','index')->name('all_naac_criterions')->middleware('permission:View All NAAC Criterions');
+                            Route::match(['get', 'post'], '/naac-criterion/{id}/edit', 'update')->name('naac_criterion.edit')->middleware('permission:Edit NAAC Criterion');
+                            Route::get('/delete/naac-criterion/{id}','destroy')->name('delete.naac_criterion')->middleware('permission:Delete NAAC Criterion');
+                               });
+
+
+                               Route::controller(NaacKeyIndicatorController::class)->group(function(){
+                                Route::match(['get', 'post'], '/add/naac-keyindicator', 'store')->name('add.naac_keyindicator')->middleware('permission:Add NAAC KeyIndicator');
+                                Route::get('/naac-keyindicators/all/','index')->name('all_naac_keyindicator')->middleware('permission:View All NAAC KeyIndicators');
+                                Route::match(['get', 'post'], '/naac-keyindicator/{id}/edit', 'update')->name('naac_keyindicator.edit')->middleware('permission:Edit NAAC KeyIndicator');
+                                Route::get('/delete/naac-keyindicator/{id}','destroy')->name('delete.naac_keyindicator')->middleware('permission:Delete NAAC KeyIndicator');
+                                   });
+
+                                   Route::controller(NaacMetricController::class)->group(function(){
+                                    Route::match(['get', 'post'], '/add/naac-metric', 'store')->name('add.naac_metric')->middleware('permission:Add NAAC Metric');
+                                    Route::get('/naac-metrics/all/','index')->name('all_naac_metric')->middleware('permission:View All NAAC Metrics');
+                                    Route::match(['get', 'post'], '/naac-metric/{id}/edit', 'update')->name('naac_metric.edit')->middleware('permission:Edit NAAC Metric');
+                                    Route::get('/delete/naac-mertic/{id}','destroy')->name('delete.naac_metric')->middleware('permission:Delete NAAC Metric');
+                                    Route::post('/getkeyindicator/','getkeyIndicator')->name('getkeyindicator');
+                                       });
+
+
+                                       Route::controller(NaacPdfsController::class)->group(function(){
+                                        Route::match(['get', 'post'], '/add/naac-pdf', 'store')->name('add.naac_pdf')->middleware('permission:Add NAAC PDF');
+                                        Route::get('/naac-pdfs/all/','index')->name('all_naac_pdfs')->middleware('permission:View All NAAC PDFS');
+                                        Route::match(['get', 'post'], '/naac-pdf/{id}/edit', 'update')->name('naac_pdf.edit')->middleware('permission:Edit NAAC PDF');
+                                        Route::get('/delete/naac-pdf/{id}','destroy')->name('delete.naac_pdf')->middleware('permission:Delete NAAC PDF');
+                                        Route::post('/getkeyindicatorpdf/','getkeyindicatorPdf')->name('getkeyindicatorpdf');
+                                        Route::post('/getmetricspdf/','getmetricsPdf')->name('getmetricspdf');
+                                           });
+                   
+                   
+                   
+
+});
 // Instructor  Group Middleware Starts
-
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
 Route::middleware(['auth', 'roles:instructor'])->group(function () {
     Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
 });
