@@ -9,7 +9,7 @@
         <h1 class="tmu-text-primary tmu-page-heading mt-2 mb-4"><span>Media</span><span> Coverage</span></h1>
         <div class="row mb-md-5">
             
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
                 <div class="card-sl h-100 ">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/meet-bros.jpg')}}" alt="Media Image" />
@@ -20,8 +20,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.amarujala.com/uttar-pradesh/moradabad/meet-brothers-once-more-noise-echoed-in-tmu-moradabad-news-c-15-1-mbd1002-553099-2024-12-30" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/suresh-khanna.jpg')}}" alt="Media Image" />
@@ -32,7 +32,7 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.bhaskar.com/local/uttar-pradesh/moradabad/news/the-goal-of-human-life-is-service-suresh-khanna-134202681.html" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
@@ -45,7 +45,7 @@
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.livehindustan.com/uttar-pradesh/moradabad/story-tmu-graduation-ceremony-dr-arvind-goyal-inspires-thousands-with-patriotism-201735398228662.html" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/guest-2.jpg')}}" alt="Media Image" />
@@ -56,7 +56,7 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
@@ -81,7 +81,7 @@
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.amarujala.com/uttar-pradesh/moradabad/jp-nadda-will-attend-the-convocation-ceremony-at-tmu-moradabad-news-c-15-1-mbd1002-550510-2024-12-26" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/guest-1.jpg')}}" alt="Media Image" />
@@ -92,8 +92,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/jp-nadda.jpg')}}" alt="Media Image" />
@@ -104,8 +104,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/energy.jpg')}}" alt="Media Image" />
@@ -116,8 +116,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-1"><a href="https://jantaserishta.com/local/uttar-pradesh/oath-of-energy-conservation-administered-in-tmu-3716396" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/dental-checkup.jpg')}}" alt="Media Image" />
@@ -128,8 +128,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://jantaserishta.com/local/uttar-pradesh/in-depth-dental-checkup-of-62-villagers-in-tmus-dental-camp-3717707" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div> -->
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image">
                         <img src="{{asset('/assets/img/media_coverage/tmimt-placement.jpg')}}" alt="Media Image" />
@@ -140,7 +140,7 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="#" target="_blank" class="card-button btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image">
