@@ -23,13 +23,13 @@
 
                         <tr>
                             <td class="text-center">2</td>
-                            <td>Dr. Aditya Sharma, Registrar</td>
+                            <td>Dr. Aditya Sharma, Advisor</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td>Prof. Manjula Jain, Associate Dean-Academics</td>
+                            <td>Prof. Manjula Jain, Dean-Academics</td>
                             <td>Member</td>
                         </tr>
 
@@ -83,7 +83,7 @@
 
                         <tr>
                             <td class="text-center">12</td>
-                            <td>Dr. Rashmi Mehrotra</td>
+                            <td>Dr. Vinod Kumar Jain</td>
                             <td>Member</td>
                         </tr>
 
