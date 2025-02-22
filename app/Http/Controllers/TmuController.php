@@ -73,9 +73,11 @@ class TmuController extends Controller
     public function fetch_programmes(Request $request)
     {
         $cd_id = $request->cd_id;
+        
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
             ->where('status', 'Y')->get();
+            
 
         // Check if any records are found
         if ($programs->isEmpty()) {
@@ -126,7 +128,10 @@ class TmuController extends Controller
         if ($programme->status === 'N') {
             abort(404); // Return a 404 error if the programme is not visible
         }
+        
         $cd_id = $programme->cd_id;
+        
+
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
         $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
