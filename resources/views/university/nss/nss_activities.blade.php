@@ -15,19 +15,19 @@
 
 
             <div class="container mb-5 ">
-                
+
                 <button class="careers-accordion">JANUARY 2025 TO JUNE 2025 <span class="icon">+</span></button>
                 <div class="panel active">
 
                     <div class="container d-none d-sm-block">
                         <div style="text-align:center">
-                            
+
                             <iframe src="{{asset('/assets/pdf/nss/planned_activities/1.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
                         <div style="text-align:center">
-                            
+
                         </div>
 
                         <div class="iqac-container">
@@ -51,15 +51,15 @@
                 <button class="careers-accordion">JULY 2024 TO DECEMBER 2024<span class="icon">+</span></button>
                 <div class="panel">
 
-                <div class="container d-none d-sm-block">
+                    <div class="container d-none d-sm-block">
                         <div style="text-align:center">
-                            
+
                             <iframe src="{{asset('/assets/pdf/nss/planned_activities/2.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
                         <div style="text-align:center">
-                            
+
                         </div>
 
                         <div class="iqac-container">
@@ -80,15 +80,15 @@
                 <button class="careers-accordion">JANUARY 2024 TO JUNE 2024<span class="icon">+</span></button>
                 <div class="panel">
 
-                <div class="container d-none d-sm-block">
+                    <div class="container d-none d-sm-block">
                         <div style="text-align:center">
-                            
+
                             <iframe src="{{asset('/assets/pdf/nss/planned_activities/3.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
                         <div style="text-align:center">
-                            
+
                         </div>
 
                         <div class="iqac-container">
@@ -111,15 +111,15 @@
                 <div class="panel">
 
 
-                <div class="container d-none d-sm-block">
+                    <div class="container d-none d-sm-block">
                         <div style="text-align:center">
-                            
+
                             <iframe src="{{asset('/assets/pdf/nss/planned_activities/4.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
                         <div style="text-align:center">
-                            
+
                         </div>
 
                         <div class="iqac-container">
@@ -141,15 +141,15 @@
                 <button class="careers-accordion">JANUARY 2023 TO JUNE 2023<span class="icon">+</span></button>
                 <div class="panel">
 
-                <div class="container d-none d-sm-block">
+                    <div class="container d-none d-sm-block">
                         <div style="text-align:center">
-                            
+
                             <iframe src="{{asset('/assets/pdf/nss/planned_activities/5.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
                         </div>
                     </div>
                     <div class="container d-block d-sm-none mb-3">
                         <div style="text-align:center">
-                            
+
                         </div>
 
                         <div class="iqac-container">
@@ -485,7 +485,7 @@
                         </table>
                     </div>
                 </div>
-                
+
 
                 <hr class="horizontal-line">
 
@@ -636,6 +636,112 @@
                                     <td>Awareness program on yoga & its benefits</td>
                                     <td>Nanakbadi</td>
                                     <td>2/27/2024</td>
+                                </tr>
+
+                                <tr>
+                                    <td>20</td>
+                                    <td>COLLEGE OF ENGINEERING</td>
+                                    <td> Awareness program on Mobile addiction </td>
+                                    <td>Manoharpur </td>
+                                    <td>4/10/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>COLLEGE OF ENGINEERING</td>
+                                    <td> Awareness program on One vote one nation </td>
+                                    <td>Mauda Taiya </td>
+                                    <td> 02/05/24 </td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>COLLEGE OF PARAMEDICAL </td>
+                                    <td>Awareness Program on Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT</td>
+                                    <td>Nanak Bari</td>
+                                    <td>2/28/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>COLLEGE OF PARAMEDICAL </td>
+                                    <td>Awareness Program on Breast Cancer</td>
+                                    <td>Guraitha</td>
+                                    <td>4/15/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>COLLEGE OF PHYSIOTHERAPY</td>
+                                    <td>Awareness activity on international women&#39;s day</td>
+                                    <td>Hakimpur</td>
+                                    <td>12th March 2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>COLLEGE OF PHYSIOTHERAPY</td>
+                                    <td>Awareness on vaccination</td>
+                                    <td>Phattepur- Vishnoi </td>
+                                    <td>20th March, 2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>COLLEGE OF PHYSIOTHERAPY</td>
+                                    <td>Awareness on healthy liver</td>
+                                    <td>Guraitha</td>
+                                    <td>16th April, 2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>COLLEGE OF NURSING</td>
+                                    <td>Awareness Program OnWORLD LEPROSY DAY</td>
+                                    <td>FARASPURA,</td>
+                                    <td>1/29/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>COLLEGE OF NURSING</td>
+                                    <td>Awareness Program On PREVENTION AND CONTROL OF CANCER</td>
+                                    <td>NANAKWADI</td>
+                                    <td>2/5/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>COLLEGE OF NURSING</td>
+                                    <td>Awareness Program On WoRLD HEALTH DAY</td>
+                                    <td>DELHA NAGLA</td>
+                                    <td>4/6/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>COLLEGE OF NURSING</td>
+                                    <td>Awareness Program On TUBERCULOSIS PREVENTION AND CONTROL </td>
+                                    <td>MANOHARPUR</td>
+                                    <td>22/04/2024 </td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>COLLEGE OF DENTAL</td>
+                                    <td>DENTAL CAMP</td>
+                                    <td>MANOHARPUR</td>
+                                    <td>27-Jan-24 </td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>COLLEGE OF DENTAL</td>
+                                    <td>DENTAL CAMP</td>
+                                    <td>Mauda Taiya</td>
+                                    <td>6-Feb-24 </td>
+                                </tr>
+                                <tr>
+                                    <td>33</td>
+                                    <td>COLLEGE OF DENTAL</td>
+                                    <td>DENTAL CAMP</td>
+                                    <td>Phattepur visnoi </td>
+                                    <td>24-Apr-24 </td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>COLLEGE OF DENTAL</td>
+                                    <td>DENTAL CAMP</td>
+                                    <td>Guraitha</td>
+                                    <td>26-Jun-24</td>
                                 </tr>
                             </tbody>
 
