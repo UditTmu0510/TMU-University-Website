@@ -23,6 +23,7 @@ use App\Http\Controllers\Backend\NaacCriterionController;
 use App\Http\Controllers\Backend\NaacKeyIndicatorController;
 use App\Http\Controllers\Backend\NaacMetricController;
 use App\Http\Controllers\Backend\NaacPdfsController;
+use App\Http\Controllers\Backend\DepartmentDesignationController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
