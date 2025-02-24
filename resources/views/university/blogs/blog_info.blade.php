@@ -744,7 +744,7 @@
                                             </div>
 
                                             <div class="col-sm-6">
-                                                <button class="btn btn-shadow ms-4 bottom-left" style="--border-color: transparent; --bg-color: #001055;" type="submit">Send Message</button>
+                                                <button class="tmu-btn btn-1 d-block w-fit-content mt-3 fade-animation" type="submit">Send Message</button>
                                             </div>
 
                                             <div class="col-sm-6 d-flex justify-content-sm-end mt-3 mt-sm-0">
