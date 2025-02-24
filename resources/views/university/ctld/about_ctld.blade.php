@@ -22,7 +22,7 @@
                         alt="">
                     Hence, realising the importance of these skills, Teerthanker Mahaveer University (TMU) introduced
                     new training department which will develop essential basic aptitude skillset in students and faculty
-                    members, thus forming <strong>Centre for Teaching Learning and Development (CTLD).</strong><br>
+                    members, thus forming <strong>Centre for Teaching, Learning and Development (CTLD).</strong><br>
                     CTLD focuses on developing quantitative ability, reasoning ability, verbal ability and developing
                     the personality of the students by encouraging and nurturing their soft skills, so as to be
                     productive to meet the demands of the employers and clearing the placement interview which will pave
