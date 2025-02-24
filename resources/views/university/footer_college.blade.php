@@ -354,90 +354,90 @@ document.addEventListener('DOMContentLoaded', function() {
  // 
  
 
-    const reviews = [{
-        name: "Speaks about College of Computing Sciences & IT",
-        text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-        profile: {
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            name: "Rajeev Mishra",
-            link: "https://www.linkedin.com/in/rajeevmishra20/",
-            designation: "Technology Architect",
-            company: "Bearing Point, Germany",
-            course: "B.Tech CSE",
-            graduationYear: "2014",
-        },
-    },
-    {
-        name: "Speaks about TMIMT College of Management",
-        text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-        img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-        profile: {
+ const reviews = [{
+            name: "Speaks about College of Computing Sciences & IT",
+            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
             img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            name: "Shobhit Jain",
-            link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-            designation: "Group Director - Talent Acquisition",
-            company: "Saudi German Hospitals Group",
-             course:"MBA",
-            graduationYear: "2011",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+                name: "Rajeev Mishra",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Technology Architect",
+                company: "Bearing Point, Germany",
+                course: "B.Tech CSE",
+                graduationYear: "2014",
+            },
         },
-    },
-    {
-        name: "Speaks about Medical College & Research Centre",
-        text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-        img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-        profile: {
+        {
+            name: "Speaks about TMIMT College of Management",
+            text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
+            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                name: "Shobhit Jain",
+                link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
+                designation: "Group Director - Talent Acquisition",
+                company: "Saudi German Hospitals Group",
+                course: "MBA",
+                graduationYear: "2011",
+            },
+        },
+        {
+            name: "Speaks about Medical College & Research Centre",
+            text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
             img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
-            name: "Radhika Mathur",
-            designation: "Resident Physician",
-            company: "HCA Florida Oak Hill Hospital",
-            course: "MBBS",
-            graduationYear: "2019",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+                name: "Radhika Mathur",
+                designation: "Resident Physician",
+                company: "HCA Florida Oak Hill Hospital",
+                course: "MBBS",
+                graduationYear: "2019",
+            },
         },
-    },
-    {
-        name: "Speaks about Engineering College",
-        text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
-        img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
-        profile: {
+        {
+            name: "Speaks about Engineering College",
+            text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
             img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
-            name: "Ashish Bhatnagar",
-            link: "https://www.linkedin.com/in/abhatnagar83",
-            designation: "Senior Software Architect",
-            company: "HCL Software, Noida",
-            course: "MCA",
-            graduationYear: "2005",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
+                name: "Ashish Bhatnagar",
+                link: "https://www.linkedin.com/in/abhatnagar83",
+                designation: "Senior Software Architect",
+                company: "HCL Software, Noida",
+                course: "MCA",
+                graduationYear: "2005",
+            },
         },
-    },
-    {
-        name: "Speaks about College of Computing Sciences & IT",
-        text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-        profile: {
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-            name: "Rajeev Mishra",
-            link: "https://www.linkedin.com/in/rajeevmishra20/",
-            designation: "Technology Architect",
-            company: "Bearing Point, Germany",
-            course: "B.Tech CSE",
-            graduationYear: "2014",
+        {
+            name: "Speaks about Dental College & Research Centre",
+            text: "I am incredibly thankful to TMU for playing a pivotal role in shaping my journey as a dental professional. Pursuing my Master’s in Conservative Dentistry and Endodontics at this renowned university in 2016 was a transformative experience that equipped me with the expertise and confidence to excel in my field. Today, as the proprietor of Khoriya Multispeciality Dental Clinic and a consultant Endodontist in multiple districts, I reflect on how the knowledge and values imparted by TMU have been instrumental in my achievements. I am proud to be an alumnus of such a prestigious university that encourages students to innovate, lead and transform.",
+            img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
+                name: "Dr. Sarvesh S. Khoriya",
+                link: "#",
+                designation: "Dentist (Owner)",
+                company: "Khoriya Multispecialty Dental Clinic, Pune, Maharashtra",
+                course: "MDS",
+                graduationYear: "2016",
+            },
         },
-    },
-    {
-        name: "Speaks about TMIMT College of Management",
-        text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-        img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-        profile: {
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-            name: "Shobhit Jain",
-            link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
-            designation: "Group Director - Talent Acquisition",
-            company: "Saudi German Hospitals Group",
-             course:"MBA",
-            graduationYear: "2011",
+        {
+            name: "Speaks about Dental College & Research Centre",
+            text: "TMU has been a cornerstone in my academic and professional journey. The years I spent pursuing my BDS and MDS at this esteemed university were marked by the best learning experiences and growth. From the exceptional faculty to the modern curriculum and constant encouragement from the management, every aspect contributed to my success. As the owner of multiple successful clinics and the founder of several organisations, I often reflect on my time at TMU with great gratitude. The university not only equipped me with the technical skills and knowledge needed to excel but also instilled in me the confidence to dream big and achieve even bigger.",
+            img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
+                name: "Dr. Swapnil Sunil Bumb",
+                link: "#",
+                designation: "Associate Professor",
+                company: "Mithila Minority Dental College and Hospital, Darbanga, Bihar",
+                course: "MDS",
+                graduationYear: "2016",
+            },
         },
-    },
-];
+    ];
 
 let currentReviewIndex = 0;
 
@@ -447,7 +447,7 @@ function showReview(index) {
     document.querySelector('.review-text').innerText = review.text;
     document.getElementById('profile-picture').src = review.profile.img;
     document.getElementById('profile-name').innerText = review.profile.name;
-    document.getElementById('profile-link').href = review.profile.link;
+    // document.getElementById('profile-link').href = review.profile.link;
     document.getElementById('profile-designation').innerText = review.profile.designation;
     document.getElementById('profile-company').innerText = review.profile.company;
     document.getElementById('profile-course').innerText = review.profile.course;
