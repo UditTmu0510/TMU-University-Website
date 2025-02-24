@@ -36,7 +36,7 @@
                                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                                     <p class="description">Activity Calendar</p>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                        href="{{asset('//assets/pdf/nss/planned_activities/1.pdf')}}" download>Download PDF</a>
+                                        href="{{asset('/assets/pdf/nss/planned_activities/1.pdf')}}" download>Download PDF</a>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                                     <p class="description">Activity Calendar</p>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                        href="{{asset('//assets/pdf/nss/planned_activities/2.pdf')}}" download>Download PDF</a>
+                                        href="{{asset('/assets/pdf/nss/planned_activities/2.pdf')}}" download>Download PDF</a>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                                     <p class="description">Activity Calendar</p>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                        href="{{asset('//assets/pdf/nss/planned_activities/3.pdf')}}" download>Download PDF</a>
+                                        href="{{asset('/assets/pdf/nss/planned_activities/3.pdf')}}" download>Download PDF</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                                     <p class="description">Activity Calendar</p>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                        href="{{asset('//assets/pdf/nss/planned_activities/4.pdf')}}" download>Download PDF</a>
+                                        href="{{asset('/assets/pdf/nss/planned_activities/4.pdf')}}" download>Download PDF</a>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                                     <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                                     <p class="description">Activity Calendar</p>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                        href="{{asset('//assets/pdf/nss/planned_activities/5.pdf')}}" download>Download PDF</a>
+                                        href="{{asset('/assets/pdf/nss/planned_activities/5.pdf')}}" download>Download PDF</a>
                                 </div>
                             </div>
                         </div>
