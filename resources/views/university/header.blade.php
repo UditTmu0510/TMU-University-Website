@@ -451,7 +451,6 @@
 
 
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/canela-font.css.css')}}">
 
     <!-- Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
