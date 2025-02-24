@@ -136,7 +136,7 @@ class TmuController extends Controller
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
         $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
         $recruiters = Recruiters::where('cd_id', $cd_id)->where('display_college_main', 'Y')->where('status', 'Y')->get();
-        return view('university.programme.programme_info_new', compact('programme', 'fee_details', 'faqs', 'recruiters'));
+        return view('programme.programme', compact('programme', 'fee_details', 'faqs', 'recruiters'));
     }
 
     public function university_scholarship()
