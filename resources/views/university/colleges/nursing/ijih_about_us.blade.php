@@ -11,31 +11,38 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to International </span><span> Journal of Integrated Healthcare</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to  </span><span>International Journal of Integrated Healthcare</span></h1>
                 </div>
-                <div class="crc-slider-container">
-                    <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div>
-
-                    <div class="crc-slider-content">
-                        <div class="crc-slider-slides">
-                            <div class="crc-slide">
-                                <img src="{{asset('assets/img/banner/nursing/ijih/1.jpg')}}" alt="Slide 1">
-                            </div>
-                            <div class="crc-slide">
-                                <img src="{{asset('assets/img/banner/nursing/ijih/2.jpg')}}" alt="Slide 2">
-                            </div>
-                            <div class="crc-slide">
-                                <img src="{{asset('assets/img/banner/nursing/ijih/3.jpg')}}" alt="Slide 3">
-                            </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/1.jpg')}}" class="d-block w-100 rounded-5" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/2.jpg')}}" class="d-block w-100 rounded-5" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/3.jpg')}}" class="d-block w-100 rounded-5" alt="">
                         </div>
                     </div>
-
-                    <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
 
                 <div class="text-content p-4">
                     <h3 class="tmu-text-primary mb-2 mt-2"><span>About </span><span> IJIH:</span></h3>
-                    <p class="about-p mb-4">The TMU International Journal of Integrated Healthcare is a unique journal that promotes interdisciplinary collaboration, innovation, and inclusively in nursing and allied health. It welcomes contributions from nursing professionals and various allied health disciplines and focuses on cutting-edge research, innovative practices, and evidence-based interventions. The journal values diversity and inclusion, promoting a platform for scholars, practitioners, educators, and students to share their experiences. It emphasizes practical relevance, bridging the gap between theory and practice, and fostering a global outlook. The journal encourages dialogue and knowledge sharing among its readers.</p>
+                    <p class="about-p mb-2">The TMU International Journal of Integrated Healthcare is a unique journal that promotes interdisciplinary collaboration, innovation, and inclusively in nursing and allied health. It welcomes contributions from nursing professionals and various allied health disciplines and focuses on cutting-edge research, innovative practices, and evidence-based interventions. The journal values diversity and inclusion, promoting a platform for scholars, practitioners, educators, and students to share their experiences. It emphasizes practical relevance, bridging the gap between theory and practice, and fostering a global outlook. The journal encourages dialogue and knowledge sharing among its readers.</p>
                 </div>
                 <div class="text-content p-4">
                     <h3 class="tmu-text-primary mb-2 mt-2"><span>Aims and </span><span> Scope:</span></h3>
