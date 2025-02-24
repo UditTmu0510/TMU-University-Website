@@ -54,8 +54,8 @@
                         <td class="text-center">5</td>
                         <td>B. Tech II, Year/Sem. IV Session (2024-25)</td>
                         <td class="text-center"><a data-tooltip data-placement="bottom"
-                                href="{{asset('/assets/pdf/time_table/engineering/.pdf')}}"
-                                download="{{asset('/assets/pdf/time_table/engineering/.pdf')}}"
+                                href="{{asset('/assets/pdf/time_table/engineering/BTech-EC-TT.pdf')}}"
+                                download="{{asset('/assets/pdf/time_table/engineering/BTech-EC-TT.pdf')}}"
                                 data-original-title="Download"><i
                                     class="fa-solid fa-file-download"></i></a></td>
                     </tr>
