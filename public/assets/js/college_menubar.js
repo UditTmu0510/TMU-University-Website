@@ -889,11 +889,11 @@ function toggleNewMenu() {
     if (newMenu.style.display === "block") {
         newMenu.style.display = "none";
         newArrow.classList.remove('down');
-        newMenuIcon.src = "assets/img/icons/arrowu.png"; // Change image when menu closes
+        newMenuIcon.src = "../assets/img/icons/arrowu.png"; // Change image when menu closes
     } else {
         newMenu.style.display = "block";
         newArrow.classList.add('down');
-        newMenuIcon.src = "assets/img/icons/arrowd.png"; // Change image when menu opens
+        newMenuIcon.src = "../assets/img/icons/arrowd.png"; // Change image when menu opens
     }
 }
 
@@ -912,7 +912,7 @@ function touchMove(event) {
         // Swipe down
         newMenu.style.display = "none";
         newArrow.classList.remove('down');
-        newMenuIcon.src = "assets/img/icons/arrowu.png"; // Change image when menu closes
+        newMenuIcon.src = "../assets/img/icons/arrowu.png"; // Change image when menu closes
     }
 }
 
@@ -924,7 +924,7 @@ function touchEnd(event) {
         // Swipe up
         newMenu.style.display = "block";
         newArrow.classList.add('down');
-        newMenuIcon.src = "assets/img/icons/arrowd.png"; // Change image when menu opens
+        newMenuIcon.src = "../assets/img/icons/arrowd.png"; // Change image when menu opens
     }
 }
 // mobile view tray ends
