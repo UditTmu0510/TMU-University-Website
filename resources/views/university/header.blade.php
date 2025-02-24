@@ -500,7 +500,7 @@
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
-                    <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
+                    <img src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
                     <span class="text">Admissions Open</span>
                 </div>
