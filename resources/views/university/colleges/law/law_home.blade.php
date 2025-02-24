@@ -132,7 +132,7 @@
                 <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Law and Legal Studies (CLLS):</span><span>  Among the Top Law Colleges</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <span class="highlight"><a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a></span> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
+                        <p style="text-align: justify;">The Teerthanker Mahaveer College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <span class="highlight"><a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a></span> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">CLLS nurtures the professional skills of the students while teaching them their rightful duties, and crucial moral values to be a successful law professional.</p>
                         </div>
@@ -183,7 +183,7 @@
                     <div class="read-more-content mt-1">
                         <h3 class="mt-3 mb-1">Global Perspective and International Exchanges:</h3>
                         <p>The international law is being strengthened by various national and international forums are strengthening international law, and with the right guidance, the college aims to serve not just the court but the world as a whole.
-                            <br>Hence, The College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
+                            <br>Hence, The Teerthanker Mahaveer College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
                         </p>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
@@ -546,7 +546,7 @@
 
     <button class="careers-accordion">Why TMU is the Best Choice for You<span class="icon">+</span></button>
     <div class="panel active">
-        <p class="text-justify">In the bustling landscape of legal education in India, the College of Law and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
+        <p class="text-justify">In the bustling landscape of legal education in India, the Teerthanker Mahaveer and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
         <ul class="m-ol-list ps-5 mb-1">
             <li>
                 <h3 class="tmu-text-primary mb-0 fs-16"><span>UGC-Approved with <span></span> NAAC-A Accreditation</span></h3>
@@ -676,10 +676,10 @@
 
     </div>
     <hr class="horizontal-line">
-    <button class="careers-accordion">Campus Life at College of Law and Legal Studies <span class="icon">+</span></button>
+    <button class="careers-accordion">Campus Life at Teerthanker Mahaveer College of Law and Legal Studies <span class="icon">+</span></button>
     <div class="panel">
         <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Academic </span><span> Excellence</span></h4>
-        <p class="text-justify">The College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
+        <p class="text-justify">The Teerthanker Mahaveer College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
 
         <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Vibrant Student </span><span> Community</span></h4>
         <p class="text-justify">CLLS boasts a vibrant student community, with diverse extracurricular activities, student clubs, and events that foster leadership skills, teamwork, and social interaction.</p>
