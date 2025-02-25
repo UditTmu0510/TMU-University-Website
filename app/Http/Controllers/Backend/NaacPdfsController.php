@@ -21,6 +21,11 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Storage;
+<<<<<<< Updated upstream
+=======
+use App\Exports\NaacPdfDataExport;
+use Maatwebsite\Excel\Facades\Excel;
+>>>>>>> Stashed changes
 
 
 class NaacPdfsController extends Controller
@@ -29,6 +34,13 @@ class NaacPdfsController extends Controller
      * Display a listing of the resource.
      */
 
+<<<<<<< Updated upstream
+=======
+     public function export()
+     {
+         return Excel::download(new NaacPdfDataExport, 'naac_pdfs.xlsx');
+     }
+>>>>>>> Stashed changes
 
      public function getkeyindicatorPdf(Request $request): JsonResponse
      {
