@@ -409,7 +409,7 @@ Route::get('tmu/blog', [TmuController::class, 'blog'])->name('blog');
 
 Route::get('/tmu/about-us', [TmuController::class, 'about_us'])->name('about.us');
 Route::get('/tmu/vision-mission', [TmuController::class, 'vision_and_mission'])->name('vision.mission');
-Route::get('/tmu/statutory-approvals', [TmuController::class, 'statutory_approvals'])->name('statutory.approvals');
+Route::get('/tmu/statutory-approval', [TmuController::class, 'statutory_approvals'])->name('statutory.approvals');
 Route::get('/tmu/awards-recognition', [TmuController::class, 'awards_and_recognition'])->name('awards.and.recognition');
 Route::get('/tmu/university-governance', [TmuController::class, 'university_governance'])->name('university.governance');
 Route::get('/tmu/university-organogram', [TmuController::class, 'university_organogram'])->name('university.organogram');
