@@ -20,7 +20,9 @@ yarn-error.log
 .DS_Store
 */.DS_Store
 .htaccess
+/vendor
 # Ignore all files and folders in the public directory
+/vendor/*
 /public/*
 /public_old/*
 
