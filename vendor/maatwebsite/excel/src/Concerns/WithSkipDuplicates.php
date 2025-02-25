@@ -2,6 +2,6 @@
 
 namespace Maatwebsite\Excel\Concerns;
 
-interface HasReferencesToOtherSheets
+interface WithSkipDuplicates
 {
 }
