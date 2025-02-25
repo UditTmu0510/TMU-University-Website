@@ -376,6 +376,7 @@ Route::controller(DepartmentsController::class)->group(function(){
                                         Route::post('/getkeyindicatorpdf/','getkeyindicatorPdf')->name('getkeyindicatorpdf');
                                         Route::post('/getmetricspdf/','getmetricsPdf')->name('getmetricspdf');
                                         Route::get('/naac-pdfs/search','search')->name('naac_pdfs.search');
+                                        Route::get('/export-naac-pdfs', 'export')->name('export.naac-pdfs');
                                            });
                    
                    

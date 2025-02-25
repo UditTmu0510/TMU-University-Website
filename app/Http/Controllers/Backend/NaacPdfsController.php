@@ -21,6 +21,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Storage;
+use App\Exports\NaacPdfsExport;
+use Maatwebsite\Excel\Facades\Excel;
+
 
 
 class NaacPdfsController extends Controller
@@ -412,5 +415,10 @@ class NaacPdfsController extends Controller
         }
 
         return redirect()->route('all_naac_pdfs');
+    }
+
+    public function export()
+    {
+        return Excel::download(new NaacPdfsExport, 'naac_pdfs.xlsx');
     }
 }
