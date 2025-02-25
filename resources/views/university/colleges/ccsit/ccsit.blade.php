@@ -793,8 +793,9 @@
 
 
         <div class="container mb-5 mt-5">
-            <hr class="horizontal-line">
+        <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> College of Computing Sciences & IT </span></h2>
 
+            <hr class="horizontal-line">
             <button class="careers-accordion">Why Teerthanker Mahaveer University is the best choice for you:<span class="icon">+</span></button>
             <div class="panel active">
                 <h3 class="mb-1 tmu-color">UGC-Approved with NAAC-A Accreditation</h3>
