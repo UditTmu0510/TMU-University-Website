@@ -535,7 +535,7 @@
 </section>
 
         <div class="container mb-5 mt-5">
-            <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Teerthnaker Mahaveer Medical College & Research Centre</span></h2>
+            <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Teerthanker Mahaveer Medical College & Research Centre</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why TMMC&RC is the Best Choice for You<span class="icon">+</span></button>
