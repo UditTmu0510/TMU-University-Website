@@ -87,7 +87,7 @@
                       value="{{ request('search') }}">
                   <button type="submit" class="btn btn-outline-primary">Search</button>
               </form>
-              <a href="{{route('export.naac-pdfs')}}" class="btn btn-success" />Export PDF </a>
+              <a href="{{route('export.naac-pdfs')}}" class="btn btn-success" />Export All FIles Data</a>
 
               @if(Auth::user()->can('Add NAAC PDF'))
               <a href="{{route('add.naac_pdf')}}" class="btn btn-primary" >
