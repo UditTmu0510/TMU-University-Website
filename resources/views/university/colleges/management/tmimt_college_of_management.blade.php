@@ -721,7 +721,7 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <h2 class="tmu-text-primary text-center"><span>Why Choose</span><span> TMIMT College of Management</span></h2>
     <hr class="horizontal-line">
 
     <button class="careers-accordion"> Why TMU is the best choice for you:<span class="icon">+</span></button>
