@@ -4,7 +4,7 @@
 
     <div class="container">
         <div class="row mb-3">
-            <h1 class="tmu-text-primary tmu-page-heading"><span> Proctorial </span><span>Board</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading"><span>Alumni </span><span> Coordination Cell</span></h1>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <thead>
@@ -21,104 +21,104 @@
                             <td>Chairperson</td>
                         </tr>
 
+                        <!-- <tr>
+                            <td class="text-center">2</td>
+                            <td>Advisor</td>
+                            <td>Member</td>
+                        </tr> -->
+
                         <tr>
                             <td class="text-center">2</td>
-                            <td>Dr. Aditya Sharma, Advisor</td>
+                            <td>Prof. Manjula Jain, Dean</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">3</td>
-                            <td>Prof. Manjula Jain, Dean-Academics</td>
-                            <td>Member</td>
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">4</td>
                             <td>Dr. Jyoti Puri</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">5</td>
+                            <td class="text-center">4</td>
                             <td>Prof. (Dr.) N. K. Singh</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">6</td>
+                            <td class="text-center">5</td>
                             <td>Prof. R. K. Dwivedi</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
+                            <td class="text-center">6</td>
+                            <td>Prof. Pradeep Tangade</td>
+                            <td>Member</td>
+                        </tr>
+
+                        <tr>
                             <td class="text-center">7</td>
-                            <td>Prof. Manish Goel</td>
+                            <td>Prof. (Dr.) Jasline M</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
                             <td class="text-center">8</td>
-                            <td>Dr. Poonam Sharma</td>
-                            <td>Member</td>
-                        </tr>
-
-                        <tr>
-                            <td class="text-center">9</td>
                             <td>Dr. Anurag Verma</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">10</td>
+                            <td class="text-center">9</td>
                             <td>Dr. Manu Mishra</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">11</td>
+                            <td class="text-center">10</td>
                             <td>Dr. P.K. Jain</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">12</td>
+                            <td class="text-center">11</td>
                             <td>Dr. Vinod Kumar Jain</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">13</td>
+                            <td class="text-center">12</td>
                             <td>Dr. Vipin Jain</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">14</td>
+                            <td class="text-center">13</td>
                             <td>Mr. Ravindra Dev</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">15</td>
+                            <td class="text-center">14</td>
                             <td>Dr. Sushil Kumar Singh</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">16</td>
+                            <td class="text-center">15</td>
                             <td>Dr. Navneet Kumar</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">17</td>
-                            <td>Dr. Prashant Chaudhry</td>
+                            <td class="text-center">16</td>
+                            <td>Dr. Prashant Kumar</td>
                             <td>Member</td>
                         </tr>
 
                         <tr>
-                            <td class="text-center">18</td>
+                            <td class="text-center">17</td>
                             <td>Dr. Nikhil Rastogi</td>
                             <td>Member</td>
                         </tr>
