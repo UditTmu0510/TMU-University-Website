@@ -6,7 +6,7 @@
     <div class="container">
         <div class="banner text-white text-center p-4 rounded" style="background-color: #001055;">
             <h1 class="tmu-page-heading"><span> Get In Touch </span></h1>
-            <h3 class="text-white">For any queries related to the Department of Physiotherapy, you may drop a message or contact the officials at the college.</h3>
+            <h3 class="text-white">For any queries related to the Department of Physiotherapy, you may drop a message or contact the officials at the department.</h3>
         </div>
 
         @if(session('success'))
@@ -84,14 +84,14 @@
                             <!-- <img src="email-icon.png" alt="Email Icon"> -->
                             <div>
                                 <span>Monday - Friday</span>
-                                <span>09:00 am to 05:00 pm</span>
+                                <span>09:00 A.M. to 05:00 P.M.</span>
                             </div>
                         </div>
                         <div>
                             <!-- <img src="phone-icon.png" alt="Phone Icon"> -->
                             <div>
                                 <span>Saturday</span>
-                                <span>09:00 am to 02:00 pm</span>
+                                <span>09:00 A.M. to 02:00 P.M.</span>
                             </div>
                         </div>
                         <div>
