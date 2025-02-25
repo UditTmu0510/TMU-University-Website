@@ -126,10 +126,10 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">Teerthanker Mahaveer Faculty of Engineering (FOE),</h2>
+                <h2 class="college-main-heading">Teerthanker Mahaveer College of Engineering (COE),</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech. CSE programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in Uttar pradesh.</b></p>
+                        <p style="text-align: justify;" class="mb-4">Welcome to the College of Engineering (COE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech. CSE programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in Uttar pradesh.</b></p>
 
                         <a href="{{route('engineering.about.us')}}" class="tmu-btn btn-1 py-2">Know More!</a>
                     </div>
@@ -207,7 +207,7 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li><strong>State-of-the-Art Labs:</strong> The Faculty of Engineering is equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation.</li>
+                        <li><strong>State-of-the-Art Labs:</strong> The College of Engineering is equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation.</li>
                         <li><strong>Industry-Academia Collaborations:</strong> The Engineering college enjoys strong partnerships with esteemed organisations like NVIDIA, BSNL, TCS-iON, Voltrans, and more. These collaborations foster research, development, and technology incubation, providing valuable opportunities for students.</li>
                     </ul>
                     <div class="read-more-content mt-1">
@@ -828,22 +828,22 @@
 
         <section>
             <div class="container mb-5 mt-5">
-                <h2 class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
+                <h2 class="tmu-text-primary text-center"><span> Why Choose </span><span>Teerthanker Mahaveer University college of Engineering</span></h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-body">
                             <hr class="horizontal-line">
-                            <button class="careers-accordion"> Faculty of Engineering, among the top colleges in India for Engineering<span
+                            <button class="careers-accordion"> College of Engineering, among the top colleges in India for Engineering<span
                                     class="icon">+</span></button>
                             <div class="panel active">
-                                <p class="mb-2">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech in CS&E is accredited under the tier-1 category by the National Board of Accreditation (NBA). We provide 100% placement assistance and foster global exposure.</p>
+                                <p class="mb-2">Welcome to the College of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech in CS&E is accredited under the tier-1 category by the National Board of Accreditation (NBA). We provide 100% placement assistance and foster global exposure.</p>
                             </div>
                             <hr class="horizontal-line">
 
                             <button class="careers-accordion"> Why TMU is the Best Choice for You <span class="icon">+</span></button>
                             <div class="panel">
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🏆 UGC-Approved with </span><span> NAAC-A Accreditation</span></h3>
-                                <p class="mb-2">TMU’s Faculty of Engineering is recognized for its high academic standards, ensuring you receive an education that meets global benchmarks.</p>
+                                <p class="mb-2">TMU’s College of Engineering is recognized for its high academic standards, ensuring you receive an education that meets global benchmarks.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 👩‍🏫 Experiential Learning by </span><span> Highly Qualified Faculties </span></h3>
                                 <p class="mb-2">Our expert faculty members are dedicated to providing practical, hands-on knowledge through innovative teaching methods, extensive research opportunities, and industry collaborations.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🌐 Strong Industry </span><span> Connections</span></h3>
@@ -914,7 +914,7 @@
                                 <p class="mb-2">We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges, making them industry-ready.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Life at TMU</span></h3>
                                 <p class="tmu-text-primary mb-1">&nbsp;Academic </span><span> Excellence</span></p>
-                                <p>TMU&rsquo;s Faculty of Engineering is dedicated to providing a rigorous academic curriculum combined with practical training, ensuring students are well-equipped to face the challenges of the engineering world.</p>
+                                <p>TMU&rsquo;s College of Engineering is dedicated to providing a rigorous academic curriculum combined with practical training, ensuring students are well-equipped to face the challenges of the engineering world.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Vibrant Campus </span><span> Life</span></h3>
                                 <p>Our campus is a hub of activities, from academic clubs and sports championships to cultural events and tech fests. Students have ample opportunities to explore their interests and develop holistically.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Comfortable </span><span> Accommodation</span></h3>
@@ -949,7 +949,7 @@
                             <hr class="horizontal-line">
                             <button class="careers-accordion">FAQs:<span class="icon">+</span></button>
                             <div class="panel">
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered by TMU's Faculty of Engineering?</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered by TMU's College of Engineering?</span></h3>
                                 <p class="mb-2">We offer a range of programs including Polytechnic, B.Tech, M.Tech, and Ph.D. with diverse specialisations tailored to meet industry demands.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 2. How is the placement assistance at TMU?</span></h3>
                                 <p class="mb-2">We provide 100% placement assistance with an excellent track record. Our Corporate Resource Centre (CRC) works year-round to secure placement and training opportunities for our students, ensuring they are well-prepared for their careers.</p>
