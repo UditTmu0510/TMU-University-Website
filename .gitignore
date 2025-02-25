@@ -22,6 +22,7 @@ yarn-error.log
 .htaccess
 # Ignore all files and folders in the public directory
 /public/*
+/public_old/*
 
 # Ignore style.css inside public
 !/public/style.css
