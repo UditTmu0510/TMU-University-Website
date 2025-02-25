@@ -156,7 +156,7 @@
                 <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCE COLLEGES</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
+                        <p style="text-align: justify;">The College of <a href="/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">This comprehensive programme equips students with the skills and knowledge required to provide vital support to medical professionals, patients, and communities.  Our curriculum is designed in consultation with healthcare experts, ensuring students gain relevant skills and knowledge. With an emphasis on evidence-based practice, research, and innovation, our graduates are well-prepared for emerging trends and challenges.</p>
                         </div>
