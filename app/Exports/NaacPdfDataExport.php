@@ -6,6 +6,7 @@ use App\Models\NaacPdfs;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
+use Illuminate\Support\Facades\Auth;
 
 
 class NaacPdfDataExport implements FromCollection, WithHeadings, WithMapping
