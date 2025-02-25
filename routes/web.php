@@ -676,7 +676,7 @@ Route::get('/tmu/cbcs-agriculture-sciences', [TmuController::class, 'cbcs_agricu
 Route::get('/tmimt-college-of-management', [ManagementController::class, 'index'])->name('tmimt.home');
 Route::get('/tmimt-college-of-management/about-us', [ManagementController::class, 'mgmt_overview'])->name('mgmt.overview');
 Route::get('/tmimt-college-of-management/college-highlight', [ManagementController::class, 'mgmt_highlight'])->name('mgmt.highlight');
-Route::get('/tmimt-college-of-management/principal', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
+Route::get('/tmimt-college-of-management/dean', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
 Route::get('/tmimt-college-of-management/syllabus', [ManagementController::class, 'mgmt_syllabus'])->name('mgmt.syllabus');
 Route::get('/tmimt-college-of-management/academic-calendar', [ManagementController::class, 'mgmt_academic_calendar'])->name('mgmt.academic.calendar');
 Route::get('/tmimt-college-of-management/training-placement-cell', [ManagementController::class, 'training_placements_cell'])->name('mgmt.tpc');
