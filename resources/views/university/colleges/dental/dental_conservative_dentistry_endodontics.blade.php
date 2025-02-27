@@ -13,7 +13,7 @@
                         The students are well groomed in the subject with dummy work for preclinical education before they enter into the clinical work in third year of BDS. Specialized phantom head laboratory is available for BDS Second year students for pre-clinical work. The department has dedicated teaching and non-teaching faculties.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/cde/cde_banner.png')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/cde/cons-endo.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">The Department has various facilities to provide quality services to the patients. Specialized dental treatment are being provided which includes amalgam restorations, Glass Ionomer Cement Restorations, Composite Restorations(Tooth Colored Esthetic Restorations), Vital Pulp Therapy, Root Canal Treatment (Single and Multi Visit), Post and Cores (Metal and Fibre), Crowns (Metal, PFM and Zirconia), Endodontic Surgeries & Micro-Endodontics, and the most modern esthetic make-up of the teeth for Smile Designing and Smile Makeovers (Diastema Closure) with procedures like Veneers and Direct Composites. Bleaching (Teeth Whitening) is also done for both Vital and Non Vital teeth. </p>

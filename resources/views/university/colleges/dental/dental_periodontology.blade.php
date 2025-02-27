@@ -16,7 +16,7 @@
 					<p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Periodontology') }}">Department of Periodontology</a>  deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="{{asset('/assets/img/college_departments/dental/pgy/pgy_banner.jpg')}}" alt="" style="height:auto;" >
+					<img src="{{asset('/assets/img/college_departments/dental/pgy/perio.jpg')}}" alt="" style="height:auto;" >
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4" text-justify>Various surgical procedures such as different periodontal flap surgeries, mucogingival surgeries, pre-prosthetic surgeries and minimally invasive surgeries are performed. We regularly perform regenerative procedures using bone graft, GTR, growth factors and newer regenerative materials. Management of furcation and endo-perio lesions are also done on routine basis. Also, dental implants, advanced implant surgical procedures and management of perimplantitis using non-surgical and surgical techniques are undertaken. Use of lasers for treatment of diseases of oral soft tissues, biostimulation, sensitivity and pocket treatment surgeries.

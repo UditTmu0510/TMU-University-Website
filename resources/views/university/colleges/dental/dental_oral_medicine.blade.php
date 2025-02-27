@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/omr/omr_banner.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/omr/medicine-radiology.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">Conditions managed in Oral Medicine Department are often long standing

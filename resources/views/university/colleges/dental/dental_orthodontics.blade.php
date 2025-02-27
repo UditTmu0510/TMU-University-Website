@@ -19,7 +19,7 @@
                         exceptional quality treatment along with top-notch dental education.</p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/odo/odo_banner.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/odo/orthodontics.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">Equipped with cutting-edge technology and led by renowned professionals,

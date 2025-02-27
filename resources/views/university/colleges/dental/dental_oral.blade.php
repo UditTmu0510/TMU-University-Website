@@ -16,7 +16,7 @@
                     <p class="about-p mb-4 text-justify">The specialty of <a href="{{ url('/programme/mds-oral-maxillofacial-surgery') }}">Oral and Maxillofacial Surgery (OMFS) </a>  is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/oms/oms_banner.jpg')}}" alt="" style="height:auto;" >
+                    <img src="{{asset('/assets/img/college_departments/dental/oms/oral-maxillo-surgery.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">From the humble beginning of dental background, confined to treating difficult extractions and impacted teeth and jaw pathologies, to treating of facial bone fractures the specialty has gradually widened its expertise to cosmetic jaw and facial surgery (Orthognathic Surgery), Oral Rehabilitation through Dental Implants, Temporo Mandibular Joint disorder management and to the handle the ever burgeoning burden of oral pre-cancer and cancer of oral cavity.</p>
