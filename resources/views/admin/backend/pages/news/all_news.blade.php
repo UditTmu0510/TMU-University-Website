@@ -20,7 +20,7 @@
 
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">All News Category</h5>
+            <h5 class="card-title">All News </h5>
 
              
             @if(session('success'))
