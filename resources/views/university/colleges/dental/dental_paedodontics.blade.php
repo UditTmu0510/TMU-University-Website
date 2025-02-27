@@ -17,7 +17,7 @@
                         through adolescence including those children with special health care needs. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/ppd/ppd_banner.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/ppd/paediatric.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4 text-justify">Undergraduates are trained to develop necessary clinical skills for

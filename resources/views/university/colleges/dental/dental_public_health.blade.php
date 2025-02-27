@@ -17,7 +17,7 @@
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/phd/phd_banner.png')}}" alt="" style="height:auto;" >
+                    <img src="{{asset('/assets/img/college_departments/dental/phd/publichealt.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Our department provides accessible and affordable oral health care to people. It is committed to train and calibrate the undergraduate as well as postgraduate students in Public Health Dentistry by providing dental health education, screening and treatment camps on oral diseases for the outreach population tailored specifically on the basis of research on needs of the community.</p>

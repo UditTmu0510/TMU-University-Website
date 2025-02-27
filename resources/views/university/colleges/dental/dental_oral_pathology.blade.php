@@ -18,7 +18,7 @@
 					</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="{{asset('/assets/img/college_departments/dental/opm/opm_banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/dental/opm/oral-pathology.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4 text-justify">The <a href="{{ url('/programme/mds-oral-pathology') }}">Department of Oral Pathology and Microbiology </a>  is responsible for teaching Dental Anatomy, Embryology, and Oral Histology to first-year BDS students, as well as Oral Pathology and Microbiology to second and third-year BDS students.</p>
