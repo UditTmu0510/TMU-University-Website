@@ -179,12 +179,12 @@
                         src="{{asset('assets/img/aboutus/info_1.png')}}" alt="Morning Dew"></a>
             </div>
 
-            <p class="person-quote mb-3 mt-5">Understanding that 88% of a candidate's appeal in corporate interviews is
-                based on soft skills, the Centre for Teaching, Learning, and Development at TMU emphasises developing
+            <p class="person-quote mb-3 mt-5">Understanding that 88% of a candidate's success in corporate interviews is
+                based on soft skills, the Centre for Teaching, Learning and Development at TMU focusses on developing
                 essential life skills alongside academic knowledge. It offers training in quantitative, reasoning, and
-                verbal abilities, as well as enhancing interpersonal skills like communication and teamwork. This
+                verbal abilities, as well as enhancing interpersonal skills such as communication and teamwork. This
                 approach ensures students are well-rounded and ready for the demands of their future workplaces, making
-                them more than just academically qualified, but truly prepared for real-world challenges and
+                them not only academically qualified, but truly prepared for real-world challenges and
                 opportunities.</p>
         </div>
 
@@ -214,15 +214,15 @@
                         src="{{asset('assets/img/aboutus/info_3.png')}}" alt="Morning Dew"></a>
             </div>
 
-            <p class="person-quote mb-3 mt-5">TMU-BIC is established with a vision to foster entrepreneurship and
-                innovation, aligning closely with the Prime Minister's Startup India initiative. This vision focuses on
-                creating a supportive ecosystem to transform ideas into sustainable businesses, thus driving economic
+            <p class="person-quote mb-3 mt-5">TMU-BIC was established with a vision to foster entrepreneurship and
+                innovation, aligning closely with the Prime Minister's Startup India initiative. This vision aims to
+                create a supportive ecosystem to transform ideas into sustainable businesses, driving economic
                 growth and fostering self-reliance.</p>
 
             <p class="font-weight-semibold text-3 mb-4 appear-animation ps-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
                 <strong>Key Features-</strong><br>
                 <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Mentorship for startup development.<br>
-                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Registration assistance for Start in UP, DPIIT, and Startup India.<br>
+                <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Registration assistance for Start-in-UP, DPIIT, and Startup India.<br>
                 <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Co-working spaces within the University.<br>
                 <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Access to specialised labs.<br>
                 <span style="color: #fe8d00; margin-right: 5px;">&#10003;</span> Business model development and prototype support.<br>

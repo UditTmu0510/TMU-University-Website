@@ -96,7 +96,7 @@
           <img src="{{asset('/assets/img/aboutus/suresh_jain_tmu.webp')}}" alt="Profile Image">
         </div>
         <div class="quote-text mt-4 mt-md-0">
-          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual's heart, mind and soul through right philosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have place displaced basic human values. <br><a href="{{ route('chancellor.desk') }}" class="fs-14 unique-link">Read More!</a></h4>
+          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual's heart, mind and soul through right philosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have place displaced basic human values. <br><a href="{{ route('chancellor.desk') }}" class="fs-14 unique-link">Read More</a></h4>
           <p class="mt-3">- Shri Suresh Jain</p>
           <p>Chancellor</p>
           <!-- <div class="text-center mt-4">
