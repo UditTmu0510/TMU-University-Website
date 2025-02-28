@@ -17,42 +17,42 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center">1.</td>
+                            <td class="text-center">1</td>
                             <td class="text-center">Dr. Vinod Kumar Jain</td>
                             <td class="text-center">Chairperson</td>
-                            <td class="text-enter">9012855999</td>
+                            <td class="text-center">9012855999</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">2.</td>
+                            <td class="text-center">2</td>
                             <td class="text-center">Mr. Deepak Kumar Malik</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">9761201100</td>
+                            <td class="text-center">9761201100</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">3.</td>
+                            <td class="text-center">3</td>
                             <td class="text-center">Dr. Shivani Yadav</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">9557917157</td>
+                            <td class="text-center">9557917157</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">4.</td>
+                            <td class="text-center">4</td>
                             <td class="text-center">Dr. Shaiphali Jain</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">8273186968</td>
+                            <td class="text-center">8273186968</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">5.</td>
+                            <td class="text-center">5</td>
                             <td class="text-center">Dr. Ranjeet Singh</td>
                             <td class="text-center">Member Secretary & FIP</td>
-                            <td class="text-enter">8755138290</td>
+                            <td class="text-center">8755138290</td>
 
                         </tr>
                     </tbody>
@@ -88,42 +88,42 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center">1.</td>
+                            <td class="text-center">1</td>
                             <td class="text-center">Dr. Vinod Kumar Jain</td>
                             <td class="text-center">Chairperson</td>
-                            <td class="text-enter">9012855999</td>
+                            <td class="text-center">9012855999</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">2.</td>
+                            <td class="text-center">2</td>
                             <td class="text-center">Mr. Deepak Kumar Malik</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">9761201100</td>
+                            <td class="text-center">9761201100</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">3.</td>
+                            <td class="text-center">3</td>
                             <td class="text-center">Dr. Shivani Yadav</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">9557917157</td>
+                            <td class="text-center">9557917157</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">4.</td>
+                            <td class="text-center">4</td>
                             <td class="text-center">Dr. Shaiphali Jain</td>
                             <td class="text-center">Member</td>
-                            <td class="text-enter">8273186968</td>
+                            <td class="text-center">8273186968</td>
 
                         </tr>
 
                         <tr>
-                            <td class="text-center">5.</td>
+                            <td class="text-center">5</td>
                             <td class="text-center">Dr. Ranjeet Singh</td>
                             <td class="text-center">Member Secretary & FIP</td>
-                            <td class="text-enter">8755138290</td>
+                            <td class="text-center">8755138290</td>
 
                         </tr>
                     </tbody>
