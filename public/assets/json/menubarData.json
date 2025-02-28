@@ -97,13 +97,13 @@
                 "MBBS": {
                     "link": "\/programme\/mbbs"
                 },
-                "B.Sc. Medical in Anatomy": {
+                "BSc Medical in Anatomy": {
                     "link": "\/programme\/BSc-Medical-in-Anatomy"
                 },
-                "B.Sc. Medical in Physiology": {
+                "BSc Medical in Physiology": {
                     "link": "\/programme\/BSc-Medical-in-Physiology"
                 },
-                "B.Sc. Medical in Biochemistry": {
+                "BSc Medical in Biochemistry": {
                     "link": "\/programme\/BSc-Medical-in-Biochemistry"
                 }
             },
@@ -119,71 +119,71 @@
                 "BCA Bachelor Of Computer Applications": {
                     "link": "\/programme\/bachelor-of-computer-application-programme"
                 },
-                "B.Tech (Computer Science & Engineering)": {
+                "BTech (Computer Science & Engineering)": {
                     "link": "\/programme\/b-tech-in-computer-science-and-engineering"
                 },
-                "B.Tech. (Computer Science & Engineering) with specialisation in Data Science (In collaboration with TCS- iON)": {
+                "BTech. (Computer Science & Engineering) with specialisation in Data Science (In collaboration with TCS- iON)": {
                     "link": "\/programme\/btech-computer-science-engineering-with-specialisation-in-data-science"
                 },
-                "B.Tech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
+                "BTech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
                     "link": "\/programme\/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning"
                 },
-                "B.Tech CSE with specialisation in Application Development using Cloud and Analytical Platform (In collaboration with IBM)": {
+                "BTech CSE with specialisation in Application Development using Cloud and Analytical Platform (In collaboration with IBM)": {
                     "link": "\/programme\/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
                 },
-                "B.Sc.-(H) Computer Science with Research": {
+                "BSc-(H) Computer Science with Research": {
                     "link": "\/programme\/bsc-hons-computer-science-with-research"
                 },
                 "BCA (H) with Research": {
                     "link": "\/programme\/bca-hons-with-research"
                 },
-                "B.Sc. (Animation) ": {
+                "BSc (Animation) ": {
                     "link": "\/programme\/bsc-animation"
                 }
             },
             "Agriculture Science": {
-                "B.Sc.(H) Agriculture": {
+                "BSc(H) Agriculture": {
                     "link": "\/programme\/bsc-hons-agriculture"
                 }
             },
             "Pharmacy": {
-                "B. Pharm. (Bachelor of Pharmacy": {
+                "B Pharm (Bachelor of Pharmacy": {
                     "link": "\/programme\/bachelor-of-pharmacy"
                 }
             },
             "Nursing": {
-                "B.Sc. Nursing": {
+                "BSc Nursing": {
                     "link": "\/programme\/bsc-nursing"
                 },
-                "Post Basic B.Sc. Nursing": {
+                "Post Basic BSc Nursing": {
                     "link": "\/programme\/post-basic-bsc-nursing"
                 }
             },
             "Education": {
-                "B.Ed. (Bachelor of Education)": {
+                "BEd (Bachelor of Education)": {
                     "link": "\/programme\/bachelor-of-education-b-ed"
                 },
-                "B.El.ED": {
+                "BElED": {
                     "link": "programme\/b-el-ed-programme"
                 }
             },
             "Engineering": {
-                "B.Tech. (Mechanical Engineering)": {
+                "BTech (Mechanical Engineering)": {
                     "link": "\/programme\/b-tech-in-mechanical-engineering"
                 },
-                "B.Tech. (Electrical Engineering)": {
+                "BTech (Electrical Engineering)": {
                     "link": "\/programme\/btech-electrical-engineering"
                 },
-                "B.Tech. (Electronics & Communication Engineering)": {
+                "BTech (Electronics & Communication Engineering)": {
                     "link": "\/programme\/b-tech-in-electronics-communicationec-engineering-programme"
                 },
                 "B.Tech. (Civil Engineering)": {
                     "link": "\/programme\/b-tech-in-civil-engineering-programme"
                 },
-                "B.Tech. (Computer & Communication Engineering)": {
+                "BTech (Computer & Communication Engineering)": {
                     "link": "\/programme\/btech-computer-and-communication-engineering"
                 },
-                "B.Tech. (ECE Internet of Things) (in Collaboration with TCS iON)": {
+                "BTech (ECE Internet of Things) (in Collaboration with TCS iON)": {
                     "link": "\/programme\/btech-ece-internet-of-things"
                 }
             },
@@ -193,13 +193,13 @@
                 }
             },
             "Management": {
-                "B.Com. (Hons.) ": {
+                "BCom (Hons) ": {
                     "link": "\/programme\/bachelor-of-commerce-b-com-honours-programme"
                 },
                 "B.Com. Fintech & Blockchain Technologies with Whizhack Technologies": {
                     "link": "\/programme\/bcom-in-fintech"
                 },
-                "B.Com. (Pass)": {
+                "BCom (Pass)": {
                     "link": "\/programme\/bcom-pass"
                 },
                 "BBA in Data Anlytics ": {
@@ -210,24 +210,24 @@
                 }
             },
             "Paramedical": {
-                "B.Optom. (Bachelor of Optometry)": {
+                "BOptom (Bachelor of Optometry)": {
                     "link": "\/programme\/bachelor-of-optometry-b-optom"
                 },
-                "B.Sc (Forensic Sciences) Postmortem Facility": {
+                "BSc (Forensic Sciences) Postmortem Facility": {
                     "link": "\/programme\/bsc-forensic-science"
                 },
                 "BMLT (B.SC. IN Medical Lab Techniques)": {
                     "link": "\/programme\/bsc-in-medical-lab-techniques"
                 },
-                "B.Sc. in Medical Radiological Imaging Techniques ": {
+                "BSc in Medical Radiological Imaging Techniques ": {
                     "link": "\/programme\/bsc-in-radiology"
                 }
             },
             "Physical Education": {
-                "B.P.ES (Bachelor of Physical Education & Sports)": {
+                "BPES (Bachelor of Physical Education & Sports)": {
                     "link": "\/programme\/bpes-programme"
                 },
-                "B.P.ED (Bachelor of Physical Education)": {
+                "BPED (Bachelor of Physical Education)": {
                     "link": "\/programme\/bachelor-of-physical-education-bped-programme"
                 }
             },
@@ -239,19 +239,19 @@
         },
         "postgraduate": {
             "Medical": {
-                "M.Sc. Medical in Anatomy": {
+                "MSc Medical in Anatomy": {
                     "link": "\/programme\/MSc-Medical-in-Anatomy"
                 },
-                "M.Sc. Medical in Pharmacology": {
+                "MSc Medical in Pharmacology": {
                     "link": "\/programme\/MSc-Medical-in-Pharmacology"
                 },
-                "M.Sc. Medical in Physiology": {
+                "MSc Medical in Physiology": {
                     "link": "\/programme\/MSc-Medical-in-Physiology"
                 },
-                "M.Sc. Medical in Biochemistry": {
+                "MSc Medical in Biochemistry": {
                     "link": "\/programme\/MSc-Medical-in-Biochemistry"
                 },
-                "M.Sc. Medical in Microbiology": {
+                "MSc Medical in Microbiology": {
                     "link": "\/programme\/MSc-Medical-in-Microbiology"
                 },
                 "MS Medical in ENT\/Oto-Rhinolaryngology": {
@@ -346,19 +346,19 @@
                 }
             },
             "Nursing": {
-                "M.Sc. Nursing in Medical Surging": {
+                "MSc Nursing in Medical Surging": {
                     "link": "\/programme\/msc-medical-surgical-nursing"
                 },
-                "M.Sc. Nursing in Paediatrics": {
+                "MSc Nursing in Paediatrics": {
                     "link": "\/programme\/msc-in-paediatric-nursing"
                 },
-                "M.Sc. Nursing in Medical Surging Obstectrics & Gynecology": {
+                "MSc Nursing in Medical Surging Obstectrics & Gynecology": {
                     "link": "\/programme\/msc-in-gynaecology"
                 },
-                "M.Sc. Nursing in Communty Health": {
+                "MSc Nursing in Communty Health": {
                     "link": "\/programme\/msc-in-community-health-nursing"
                 },
-                "M.Sc. Nursing in Psychiatry": {
+                "MSc Nursing in Psychiatry": {
                     "link": "\/programme\/msc-in-psychiatry-nursing"
                 }
             },
@@ -367,7 +367,7 @@
                 "Master of Computer Applications (MCA) ": {
                     "link": "\/programme\/mca-programme"
                 },
-                "M. Tech. (Computer Science & Engineering)": {
+                "M Tech (Computer Science & Engineering)": {
                     "link": "\/programme\/mtech-computer-science-engineering"
                 }
             },
@@ -386,7 +386,7 @@
                 }
             },
             "Education": {
-                "M.Ed. (Master of Education)": {
+                "MEd (Master of Education)": {
                     "link": "\/programme\/masters-of-education-m-ed"
                 }
             },
@@ -404,41 +404,41 @@
                 }
             },
             "Paramedical": {
-                "M.Sc (Forensic Science)": {
+                "MSc (Forensic Science)": {
                     "link": "\/programme\/MSc-Forensic-Science"
                 },
-                "M.Sc (Medical Laboratory Techniques)": {
+                "MSc (Medical Laboratory Techniques)": {
                     "link": "\/programme\/msc-medical-lab-technology"
                 },
-                "M.Sc (Optometry)": {
+                "MSc (Optometry)": {
                     "link": "\/programme\/msc-in-optometry"
                 },
-                "M.Sc (Radiological Imaging Techniques)": {
+                "MSc (Radiological Imaging Techniques)": {
                     "link": "\/programme\/msc-in-radiology"
                 }
             },
             "Pharmacy": {
-                "Pharm.D. Post Baccalaureate": {
+                "PharmD Post Baccalaureate": {
                     "link": "\/programme\/pharm-d-pb-post-baccalaureate"
                 },
-                "Pharm.D.": {
+                "PharmD": {
                     "link": "\/programme\/doctor-of-pharmacy-programme-at-tmu-moradabad"
                 },
-                "M. Pharm. in Pharmacology": {
+                "M Pharm in Pharmacology": {
                     "link": "\/programme\/m-pharm-pharmacology"
                 },
-                "M. Pharm. in Pharmacognosy": {
+                "M Pharm in Pharmacognosy": {
                     "link": "\/programme\/M-pharm-pharmacognosy"
                 },
-                "M. Pharm. in Pharmacuetical Analysis": {
+                "M Pharm in Pharmacuetical Analysis": {
                     "link": "\/programme\/m-pharm-pharmaceutical-analysis"
                 },
-                "M. Pharm. in Pharmaceutics": {
+                "M Pharm in Pharmaceutics": {
                     "link": "\/programme\/m-pharm-pharmaceutics"
                 }
             },
             "Physical Education": {
-                "M.P.ED (Bachelor of Physical Education)": {
+                "MPED (Bachelor of Physical Education)": {
                     "link": "\/programme\/mped-programme"
                 }
             },
@@ -463,13 +463,13 @@
                 }
             },
             "Agriculture": {
-                "M.Sc. (Master of Science in Agronomy )": {
+                "MSc (Master of Science in Agronomy )": {
                     "link": "\/programme\/master-of-science-in-agronomy-programme"
                 },
-                "M.Sc. (Master of Science in Plant Pathology )": {
+                "MSc (Master of Science in Plant Pathology )": {
                     "link": "\/programme\/msc-plant-pathology"
                 },
-                "M.Sc. (Master of Science in Soil Sciences )": {
+                "MSc (Master of Science in Soil Sciences )": {
                     "link": "programme\/msc-soil-science"
                 }
             },
@@ -481,21 +481,21 @@
         },
         "integrated": {
             "Education": {
-                "B.A-B.ED (Integrated)": {
+                "BA-BED (Integrated)": {
                     "link": "\/programme\/ba-bed-integrated"
                 },
-                "B.SC-B.ED (Integrated)": {
+                "BSC-B ED (Integrated)": {
                     "link": "\/programme\/b-sc-b-ed-integrated-programme"
                 }
             },
             "Law & Legal Studies": {
-                "B.A-LLB (Hons)": {
+                "BA-LLB (Hons)": {
                     "link": "\/programme\/ba-llb-hons-programme"
                 },
-                "B.B.A-LLB (Hons)": {
+                "BBA-LLB (Hons)": {
                     "link": "\/programme\/bba-llb-hons-programme"
                 },
-                "B.COM-LLB (Hons)": {
+                "BCOM-LLB (Hons)": {
                     "link": "\/programme\/BCom-LLB-program"
                 }
             }
@@ -646,6 +646,12 @@
         },
         "ICC": {
             "link": "\/assets\/pdf\/pdf\/TMU_ICC.pdf"
+        },
+        "EOC": {
+            "link": "\/assets\/pdf\/pdf\/EOC.pdf"
+        },
+        "Public Self Disclosure": {
+            "link": "\/assets\/pdf\/pdf\/Public_Self_Disclosure_TMU.pdf"
         }
     }
 }
