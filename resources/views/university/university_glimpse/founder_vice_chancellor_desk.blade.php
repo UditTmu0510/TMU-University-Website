@@ -13,7 +13,7 @@
 
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container pb-5">
-    <h1 class="tmu-text-primary tmu-page-heading "><span>Founder Vice </span><span>Chancellor Desk</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading "><span>Founder Vice </span><span>Chancellor's Desk</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="principal-card23">
@@ -38,31 +38,31 @@
                             <p class="principal-text23 text-justify">
                             The challenge before the educationists today is to channelize the intelligent,
                                     creative and enthusiastic youth of the country into the <span
-                                        class="highlight">nation building process</span>. I strongly believe that right
-                                    mix of education focusing on <span class="highlight">head, heart and hand</span> can
-                                    substantially help in meeting this challenge. The need therefore is to <span
+                                        class="highlight">nation building process</span>. I strongly believe that the right
+                                    mix of education, focusing on <span class="highlight">the head, heart and hand,</span> can
+                                    substantially help in meeting this challenge. The need, therefore, is to <span
                                         class="highlight">reorient education</span> that concentrates on the development
                                     of <span class="highlight">right attitude, knowledge and skill set</span> of the
-                                    students and that is what we are concentrating upon here. In recent past interactive
-                                    meets with the industries at Kashipur- Rudrapur, Haridwar, Gajraula and Dehradun
-                                    have opened up new opportunities for the students and faculty to understand the
-                                    issues confronting the industries and their solutions, besides providing larger
+                                    students and that is what we are concentrating on here. In the recent past interactive
+                                    meeting with the industries at Kashipur- Rudrapur, Haridwar, Gajraula and Dehradun
+                                    have opened up new opportunities for students and faculty to understand the
+                                    issues confronting industries and their solutions, besides providing greater
                                     avenues for training and placement.<br>
                                 <br>
                                 The facilities and the efforts to promote research activities in the university have
-                                    started yielding satisfactory results whereby in the last one year <span
+                                    started yielding satisfactory results whereby in the last year <span
                                         class="highlight">210 quality research papers have been published</span>. We are
                                     further consolidating the research base by adding more research labs and
                                     collaborating with industries and academia.<br>
                                 <br>
                                 Similarly, a beginning has been made towards <span class="highlight">consultancy by
-                                        taking projects from local industries</span> in association with Consultancy
+                                        undertaking projects from local industries</span> in association with the Consultancy
                                     Development Centre, New Delhi. I am confident that these initiatives shall
                                     sufficiently groom the students to acquire the required competencies to smoothly
                                     sail through their journey of <span class="highlight">personal and professional
                                         life</span>.<br>
                                 <br>
-                                My best wishes to all the aspiring students.
+                                My best wishes to all aspiring students.
                             </p>
                             
                         </div>
