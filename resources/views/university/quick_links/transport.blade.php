@@ -267,7 +267,6 @@
                         <img src="{{asset('/assets/img/footer_pages/transport/1.jpg')}}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Main Entrance</h3>
                             <p class="gallery-item-category">Transport</p>
                         </div>
                     </div>
@@ -276,7 +275,6 @@
                         <img src="{{asset('/assets/img/footer_pages/transport/2.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Reception Area</h3>
                             <p class="gallery-item-category">Transport</p>
                         </div>
                     </div>
@@ -286,7 +284,6 @@
                         <img src="{{asset('/assets/img/footer_pages/transport/3.jpg')}}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">lobby</h3>
                             <p class="gallery-item-category">Transport</p>
                         </div>
                     </div>
@@ -295,7 +292,6 @@
                         <img src="{{asset('/assets/img/footer_pages/transport/4.jpg')}}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Room Sitting Area</h3>
                             <p class="gallery-item-category">Transport</p>
                         </div>
                     </div>
@@ -305,7 +301,6 @@
                         <img src="{{asset('/assets/img/footer_pages/transport/5.jpg')}}"
                             alt="Central Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Room</h3>
                             <p class="gallery-item-category">Transport</p>
                         </div>
                     </div>
