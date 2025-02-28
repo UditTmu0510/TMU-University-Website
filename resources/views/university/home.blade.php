@@ -407,6 +407,34 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>21, February</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Teerthanker Mahaveer University, Moradabad, is hosting a National Conclave (Online) on "Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum" on Friday, February 21, 2025, from 3:30 PM to 5:00 PM via Zoom. The event will feature distinguished experts discussing strategies to integrate Indian Knowledge Systems into higher education curricula. This conclave aims to foster insightful discussions, share best practices, and enhance academic learning. All faculty, researchers, and students are encouraged to participate.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   TMU Hospital</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, February</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>27 To 28, February</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Faculty of Allied Health Sciences and Faculty of Nursing, College of Nursing, is organising HEALTH FORCE 2025, an International Conference under the Institution’s Innovation Council, TMU. Scheduled for 27-28 February 2025 at the University Auditorium, TMU, Moradabad, the event will feature insightful discussions on healthcare advancements. Stay tuned for updates!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   TMU Hospital</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, February</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>10 To 11, January</span>
                                 </div>
                                 <div class="notice-content">
@@ -646,90 +674,11 @@
                                 </div>
                             </div>
                             <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        TMU Campus </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
-                                        September </span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>29, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Paramedical College</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>TMU's NSS Unit is organising the 3rd Tiranga Yatra at 01:30 pm to celebrate India's 78th Independence Day. All students, teaching and non-teaching staff are requested to participate and make the event memorable.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        TMU Campus</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of Physiotherapy is organising an event titled 'AI & Independence Extravaganza,' featuring Mr Shivam Kashyap, a Soft Skill Trainer, as the speaker.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Dept. of Physiotherapy </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>08, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Free Thinkers Club, Department of Humanities, is organising a Speech Competition and Poem Recitation on the occasion of Independence Day. Register by 8th August. Contact us for more details.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT Campus</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
 
                         </div>
                     </div>
                 </aside>
-
-
-
             </div>
-            <!-- 
-												Side Menu Code Ends Here
-											 -->
-
-
         </div>
     </div>
 </section><!-- #content end -->
@@ -764,7 +713,16 @@
             <div class="thumb" onclick="displayReviewByIndex(3)" data-bg="{{ asset('assets/img/department/alumni/people/4.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(4)" data-bg="{{ asset('assets/img/department/alumni/people/8.jpg') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
+            <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+            <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div>
 
+        </div>
         </div>
     </div>
 
