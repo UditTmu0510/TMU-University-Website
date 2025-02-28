@@ -141,14 +141,14 @@
             </div>
           </div>
 
-          <div class="gallery-item" data-category="campus">
+          <!-- <div class="gallery-item" data-category="campus">
             <img src="{{asset('/assets/img/footer_pages/jinalaya/8.jpg')}}"
               alt="Cafeteria">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Mandir Renovation</h3>
               <p class="gallery-item-category">Jinalaya</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
