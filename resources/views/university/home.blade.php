@@ -715,12 +715,12 @@
             <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
             <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
-            <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
+            <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
-            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
         </div>
         </div>
