@@ -55,7 +55,8 @@
         /* Focuses on the upper part */
     }
 </style>
-<div class="container">
+
+<!-- <div class="container">
     <div class="sidebar-contact">
         <div class="toggle-side">
             <p class="vericaltext fs-16">Enquire now</p>
@@ -71,8 +72,7 @@
             </form>
         </div>
     </div>
-</div>
-
+</div> -->
 <!-- Slider
 		============================================= -->
 @php
