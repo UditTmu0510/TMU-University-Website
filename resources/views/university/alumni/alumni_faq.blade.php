@@ -23,25 +23,25 @@
         <div class="panel">
           <p>If you are registered at the portal, you get following benefits:</p>
           <ul class="m-ol-list ps-4">
-            <li><b>Update Your Profile</b>&nbsp;: You can update your profile / record</li>
-            <li><b>Search Directory</b>: You can find your classmates and fellow alumni</li>
-            <li><b>Friend List</b>: You can make new friends and be connected</li>
-            <li><b>Career</b>: You can post and view jobs by other alumni</li>
-            <li><b>Alumni Board</b>: You can post a message to inform fellow alumni of your activities</li>
+            <li><b class="fs-14">Update Your Profile</b>&nbsp;: You can update your profile / record</li>
+            <li><b class="fs-14">Search Directory</b>: You can find your classmates and fellow alumni</li>
+            <li><b class="fs-14">Friend List</b>: You can make new friends and be connected</li>
+            <li><b class="fs-14">Career</b>: You can post and view jobs by other alumni</li>
+            <li><b class="fs-14">Alumni Board</b>: You can post a message to inform fellow alumni of your activities</li>
         </ul>
         </div>
         <hr class="horizontal-line">
         <button class="careers-accordion"> 4. How can I register / login?<span class="icon">+</span> </button>
         <div class="panel">
           <p>We encourage you to login through facebook and linkedin. The system auto verifies instantly if you are an alumnus and gives you necessary access. If the system cannot verify you automatically, the data admins will manually verify your credentials and give you access. If you don't have an account with Facebook or LinkedIn, then use your email address to register.</p>
-          <span class="highlight">Registration Step 1</span>
+          <span class="highlight p-0">Registration Step 1</span>
           <p>On clicking the tab “Registration”, the following details are to be filled:</p>
           <ul class="m-ol-list ps-4">
             <li>First Name:</li>
             <li>Passout Year</li>
           </ul>
           <p>List of alumni with the given first name appears. The list contains alumni’s full name along with course particulars and pass out year. The alumni can click their own credentials.</p>
-          <span class="highlight">Registration Step 2</span>
+          <span class="highlight p-0">Registration Step 2</span>
           <p>After clicking on one’s name, the following details will be asked:</p>
           <ul class="m-ol-list ps-4">
             <li>Enrollment number</li>
@@ -72,7 +72,7 @@
         <button class="careers-accordion">8. How do I get my transcript sent? <span class="icon">+</span>
         </button>
         <div class="panel">
-          <p>You can email your request at <span class="highlight"><a href="mailto:alumni@tmu.ac.in">alumni@tmu.ac.in</a></span></p>
+          <p>You can email your request at <span class="highlight p-0"><a href="mailto:alumni@tmu.ac.in">alumni@tmu.ac.in</a></span></p>
         </div>
         <hr class="horizontal-line"> 
       </div>

@@ -34,6 +34,18 @@
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                                 <div class="team-image">
+                                    <img src="{{asset('/assets/img/department/alumni/donation/8-1.jpg')}}" alt="" height="280">
+                                </div>
+                                <div class="team-desc p-2">
+                                    <div class="team-title pt-0">
+                                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/department/alumni/donation/geotagged/8.jpg')}}"> Download Geo Tag Image</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                                <div class="team-image">
                                     <img src="{{asset('/assets/img/department/alumni/donation/1.jpg')}}" alt="" height="280">
                                 </div>
                                 <div class="team-desc p-2">
