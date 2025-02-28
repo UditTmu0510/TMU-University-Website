@@ -86,7 +86,7 @@
             <img src="{{asset('/assets/img/footer_pages/dance/2.jpg')}}"
               alt="Engineering Block">
             <div class="gallery-item-info">
-              <h3 class="gallery-item-title">Kabbali</h3>
+              <h3 class="gallery-item-title">Qawwali</h3>
               <p class="gallery-item-category">Music & Dance</p>
             </div>
           </div>
