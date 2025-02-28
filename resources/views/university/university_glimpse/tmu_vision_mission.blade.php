@@ -49,8 +49,7 @@
 						<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 						<div class="media-body">
 							<h4 class="mb-1 font-body mt-1">Teaching and Learning</h4>
-							<p class="mb-2">Create a conducive environment for an interactive and application
-								oriented experiential learning.</p>
+							<p class="mb-2">Create a conducive environment for an interactive, application-oriented and experiential learning.</p>
 						</div>
 					</div>
 				</div>
@@ -59,8 +58,8 @@
 						<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 						<div class="media-body">
 							<h4 class="mb-1 font-body mt-1">Research</h4>
-							<p class="mb-2">Foster research orientation in students and faculty in basic and
-								applied areas in all its disciplines.</p>
+							<p class="mb-2">Foster research orientation across students and faculty in basic and
+								applied areas in all disciplines.</p>
 						</div>
 					</div>
 				</div>
@@ -69,8 +68,8 @@
 						<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 						<div class="media-body">
 							<h4 class="mb-1 font-body mt-1">Consultancy Services</h4>
-							<p class="mb-2">Take academic proficiency to corporate and community by
-								providing cost effective solutions.</p>
+							<p class="mb-2">Extend academic expertise to corporate sector and communities by
+								providing cost-effective solutions.</p>
 						</div>
 					</div>
 				</div>
@@ -89,7 +88,7 @@
 						<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 						<div class="media-body">
 							<h4 class="mb-1 font-body mt-1">Global Perspective</h4>
-							<p class="mb-2">Encompass a national and international viewpoint into teaching,
+							<p class="mb-2">Integrate national and international viewpoint into teaching,
 								research and consultancy.</p>
 						</div>
 					</div>
@@ -128,7 +127,7 @@
 						<i class="h2 mb-0 lh-sm bi-check-circle tmu-color me-2"></i>
 						<div class="media-body">
 							<h4 class="mb-1 font-body mt-1">Social Relevance</h4>
-							<p class="mb-2">Position itself as a catalyst in social change.</p>
+							<p class="mb-2">Position the University as a catalyst for social change.</p>
 						</div>
 					</div>
 				</div>
