@@ -161,7 +161,7 @@
                             alt="Hostel Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Indoor Stadium</h3>
-                            <p class="gallery-item-category">Outdoor Sport</p>
+                            <p class="gallery-item-category">Indoor Sport</p>
                         </div>
                     </div>
                 </div>
