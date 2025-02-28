@@ -721,7 +721,7 @@
                     <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
-                        <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
+                        <p class="text-center mb-0">BA-B Ed (Integrated)(2021 - 2024)</p>
 
                     </div>
 
@@ -735,7 +735,7 @@
                     <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
-                        <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
+                        <p class="text-center mb-0">BA-B Ed (Integrated)(2022 - 2025)</p>
 
                     </div>
 
@@ -748,7 +748,7 @@
                     <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
-                        <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
+                        <p class="text-center mb-0">MBBS(2021 - 2026)</p>
 
                     </div>
 
@@ -773,7 +773,7 @@
                     <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
-                        <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
+                        <p class="text-center mb-0">MBBS(2020 - 2025)</p>
 
                     </div>
 
