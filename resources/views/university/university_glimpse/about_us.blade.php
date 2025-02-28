@@ -15,7 +15,7 @@
           <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About the</span><span> University</span></h1>
 
           <div class="col-lg-12">
-            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Teerthanker Mahaveer University, the Best Private University in UP, established by an ‘Act’ (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the <span class="highlight p-0"><a href="https://www.ugc.gov.in/" target="_blank">University Grants Commission (UGC)</a></span> in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008.</h4>
+            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Teerthanker Mahaveer University, a prestigious institution dedicated to academic excellence, was established by an ‘Act’ (No. 30) of 2008 of the Government of Uttar Pradesh and approved by the <span class="highlight p-0"><a href="https://www.ugc.gov.in/" target="_blank">University Grants Commission (UGC)</a></span> in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008.</h4>
           </div>
           <div class="container">
             <div class="row align-items-center">
