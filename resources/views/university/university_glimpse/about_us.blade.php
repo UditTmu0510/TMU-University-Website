@@ -12,10 +12,10 @@
     <section>
       <div class="container">
         <div class="row">
-          <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About </span><span>University</span></h1>
+          <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About the</span><span> University</span></h1>
 
           <div class="col-lg-12">
-            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Teerthanker Mahaveer University, the Best Private University in UP, established by an ‘Act’ (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the <span class="highlight"><a href="https://www.ugc.gov.in/" target="_blank">University Grants Commission (UGC)</a></span> in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008.</h4>
+            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Teerthanker Mahaveer University, the Best Private University in UP, established by an ‘Act’ (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the <span class="highlight p-0"><a href="https://www.ugc.gov.in/" target="_blank">University Grants Commission (UGC)</a></span> in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008.</h4>
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -26,19 +26,19 @@
                 <p class="text-justify fs-14 mb-2">Located 144 km from New Delhi along National Highway 9, TMU upholds the ideals of Lord Mahaveer—Right Philosophy, Right Knowledge, and Right Conduct in every aspect of its activities. The university is a leading destination for world-class education.</p>
                 <p class="text-justify fs-14 mb-2">As a multi-disciplinary varsity, we offer
                   career-oriented programmes
-                  at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams of <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
+                  at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams such as <span class="highlight p-0"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
                     <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>, <a href="{{route('ccsit.home')}}" target="_blank"> Computing Sciences</a>, <a href="{{route('education.home')}}" target="_blank"> Education</a>,
-                    <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
+                    <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a></span> and <span class="highlight p-0"><a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet the rising aspirations of the youth.
                 </p>
 
                 <p class="text-justify fs-14 mb-2">TMU provides a unique environment for students to
-                  grow under the guidance of experienced academicians and acquire the creative and technical skills demanded to make them industry ready. Our brilliant faculty and staff form a dedicated team committed to the
-                  mission of the University. Being a dynamic, research-oriented University devoted to developing life-saving discoveries to address some of the most pressing global challenges.</p>
+                  grow under the guidance of experienced academicians and acquire the creative and technical skills required to make them industry ready. Our brilliant faculty and staff form a dedicated team committed to the
+                  mission of the University. Being a dynamic, research-oriented University, we are devoted to developing life-saving discoveries to address some of the most pressing global challenges.</p>
 
                 <p class="text-justify fs-14 mb-2">Education at TMU is not just about books and
-                  classrooms, but also about personality development and honing special skills. We provide an environment conducive to
+                  classrooms, but also about personality development and honing specialized skills. We provide an environment conducive to
                   teaching and learning supported by innovative practices. </p>
-                <p class="text-justify fs-14 mb-4"> Being one of the best private university, we have state-of-the-art laboratories and research facilities, well-planned residential space, and an excellent ecosystem for extra-curricular activities. The campus is wi-fi enabled and uses advanced technology to
+                <p class="text-justify fs-14 mb-4"> Being one of the best private universities,, we have state-of-the-art laboratories and research facilities, well-planned residential space, and an excellent ecosystem for extra-curricular activities. The campus is Wi-Fi enabled and uses advanced technology to
                   impart education. Due to the availability of these essential building blocks, TMU is in a unique position to support the development of students in such a way that they gain lifelong learning skills and become competent professionals.</p>
               </div>
               <!--<div class="col-md-12">-->
@@ -96,7 +96,7 @@
           <img src="{{asset('/assets/img/aboutus/suresh_jain_tmu.webp')}}" alt="Profile Image">
         </div>
         <div class="quote-text mt-4 mt-md-0">
-          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual heart, mind and soul by right phylosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have out-placed basic human values. <br><a href="{{ route('chancellor.desk') }}" class="fs-14 unique-link">Read More!</a></h4>
+          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual's heart, mind and soul through right philosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have place displaced basic human values. <br><a href="{{ route('chancellor.desk') }}" class="fs-14 unique-link">Read More!</a></h4>
           <p class="mt-3">- Shri Suresh Jain</p>
           <p>Chancellor</p>
           <!-- <div class="text-center mt-4">
@@ -132,7 +132,7 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2005</strong></h2>
                   </td>
-                  <td style="text-align:justify; margin-bottom:1rem; font-size:14px;"><b style="color:#FF7900;">Teerthanker Mahaveer Dental College & Resaerch Centre</b><br>
+                  <td style="text-align:justify; margin-bottom:1rem; font-size:14px;"><b style="color:#FF7900;">Teerthanker Mahaveer Dental College & Research Centre</b><br>
                     Inaugurated in 2005, the Dental College is a hub of dental excellence, offering BDS, MDS, and PhD programmes in oral healthcare.
                 </tr>
                 <tr>
@@ -154,7 +154,7 @@
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
                   <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Establishment of Teerthanker Mahaveer University</b><br>
-                    The Teerthanker Mahaveer University was established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh and was approved by the University Grants Commission (UGC), since inception in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October, 2008.
+                    The Teerthanker Mahaveer University was established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh and was approved by the University Grants Commission (UGC), in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October, 2008.
                 </tr>
                 <tr>
                   <td>
@@ -168,7 +168,7 @@
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
                   <td style="text-align:justify; font-size:14px; " class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Engineering</b><br>
-                    Inaugurated in 2008, the Faculty offers AICTE-approved programmes in various engineering disciplines, fostering academic excellence and innovation.
+                    Inaugurated in 2008, the College offers AICTE-approved programmes in various engineering disciplines, fostering academic excellence and innovation.
                 </tr>
                 <tr>
                   <td>
@@ -181,7 +181,7 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Pharmacy</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Paramedical Sciences</b><br>
                     Introduced in 2010, the College offers programmes in medical lab technology, X-ray technology, optometry, forensic science, and more, catering to pre-hospital emergency services.
                 </tr>
                 <tr>
@@ -224,7 +224,7 @@
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2012</strong></h2>
                   </td>
                   <td style="text-align:justify;font-size:14px;" class="mb-3"><b style="color:#FF7900;">Centre for Jain Studies</b><br>
-                    Established in 2012, the College imparts moral education, comparative studies of different philosophies, and conducts research in religious studies.
+                    Established in 2012, the College imparts moral education, conducts comparative studies of different philosophies, and undertakes research in religious studies.
                 </tr>
                 <tr>
                   <td>
