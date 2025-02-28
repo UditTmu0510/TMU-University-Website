@@ -13,7 +13,7 @@
 
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container pb-5">
-    <h1 class="tmu-text-primary tmu-page-heading "><span>Chancellor</span><span> Desk</span></h1>
+    <h1 class="tmu-text-primary tmu-page-heading "><span>Chancellor's</span><span> Desk</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="principal-card23">
@@ -37,38 +37,38 @@
                         </div>
                             <p class="principal-text23 text-justify">
                             It is my firm belief that the harmonious development of society can be achieved by
-                                    <span class="highlight">the enlightenment of the individual heart, mind and soul</span>.
+                                    <span class="highlight p-0">the enlightenment of the individual heart, mind and soul</span>.
                                     This has become a prerequisite in today’s fast-changing world where material gains
-                                    have out-placed basic human values. I am of the firm opinion that education as a
+                                    have outpaced basic human values. I am of the firm opinion that education as a
                                     powerful instrument of socioeconomic change can transform the attitude, thinking
-                                    and lifestyle of the people and society. <span class="highlight">Education enables
-                                        flexible thinking and better decision making capabilities in
+                                    and lifestyle of the people and society. <span class="highlight p-0">Education enables
+                                        flexible thinking and enhances better decision making capabilities in
                                         individuals</span>.
                                 <br>
                                 <br>
                                 I have always dreamt of empowering society with enlightened, skilful and
                                     socially relevant citizens, which can be possible only by educating the masses. As
-                                    such, we initiated in this benign task of reconstructing the social order by
+                                    such, we have undertaken in this noble task of reconstructing the social order by
                                     providing educational establishments, thus contributing to the development of the nation
-                                    in our own humble way. <span class="highlight">Teerthanker Mahaveer University has
-                                        taken the task of developing human capital in tune with the requirements of
+                                    in our own humble way. <span class="highlight p-0">Teerthanker Mahaveer University has
+                                    embraced the task of developing human capital in tune with the requirements of
                                         industry and society</span> by integrating the basic principles of Right
                                     Philosophy, Right Knowledge and Right Conduct in its policies and programmes.<br>
                                 <br>
                                 The University stands for humanism, tolerance, reason, adventure of ideas and the
-                                    search of truth. We ensure that multitude of students study in a tolerant but
+                                    search for the truth. We ensure that a multitude of students study in a tolerant but
                                     encouraging environment that provides adequate liberty for individual ambition and
                                     lifestyle.<br>
                                 <br>
                                 The multidisciplinary approach of our curriculum focuses on <span
-                                        class="highlight">experiential learning</span>, leveraging of <span
-                                        class="highlight">ICT for better content delivery</span>, and provisions for
-                                    <span class="highlight">sports and extracurricular activities</span>, which are
+                                        class="highlight p-0">experiential learning</span>, leveraging of <span
+                                        class="highlight p-0">ICT for better content delivery</span>, and provisions for
+                                    <span class="highlight p-0">sports and extracurricular activities</span>, which are
                                     integral components of the learning process.<br>
                                 <br>
-                                I extend my best wishes to all the aspirants and assure them that under the mentorship of
+                                I extend my best wishes to all the aspiring students and assure them that under the mentorship of
                                     dedicated faculty of this prestigious University, they shall be able to <span
-                                        class="highlight">take full advantage of the opportunities offered to them</span>.</p>
+                                        class="highlight p-0">take full advantage of the opportunities offered to them</span>.</p>
                             
                         </div>
                     </div>
