@@ -12,7 +12,7 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-2 p-md-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU College of  </span><span><br>Computing Sciences & Information Technology</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to </span><span><br>College of Computing Sciences & Information Technology</span></h1>
                     <p class="about-p mb-4">The College of Computing Sciences & IT came into existence in the year 2014 (formerly
                         known as Department of Computer Applications, established in the year 2001).</p>
                 </div>
