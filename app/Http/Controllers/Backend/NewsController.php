@@ -20,6 +20,8 @@ use Exception;
 use App\Models\News;
 use Intervention\Image\Laravel\Facades\Image;
 use Illuminate\Support\Str;
+use Carbon\Carbon;
+
 
 class NewsController extends Controller
 {
@@ -121,84 +123,104 @@ class NewsController extends Controller
       return view('admin.backend.pages.news.add_news_post', compact('profileData', 'news_cat', 'colleges'));
    }
 
-
-
    public function storeNewsPost(Request $request)
    {
-      try {
-         DB::beginTransaction();
-         $validateData = $request->validate([
-            'cd_id' => 'required',
-            'event_date' => 'required',
-            'event_title' => 'required',
-            'category' => 'required',
-            'area' => 'required',
-            'display_main' => 'required',
-            'status' => 'required',
-            'ti_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'title_image_tag' => 'required',
-            'ei1_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'event_image1_tag' => 'required',
-            'monaco_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'monaco_image_alt_tag' => 'nullable|string|max:255'
-         ]);
-
-         $filePaths = [];
-
-         $fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
-
-         foreach ($fileFields as $field) {
-            if ($request->hasFile($field)) {
-               $file = $request->file($field);
-               $timestamp = now()->timestamp;
-               $filename = $timestamp . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
-               $filePaths[$field] = $file->storeAs('news_images', $filename);
-            }
-         }
-
-         // Handle monaco_image_path separately
-         if ($request->hasFile('monaco_image_path')) {
-            $monacoFile = $request->file('monaco_image_path');
-            $monacoFilename = now()->timestamp . '_' . Str::random(10) . '.' . $monacoFile->getClientOriginalExtension();
-            $filePaths['monaco_image_path'] = $monacoFile->storeAs('monaco/assets/image/news', $monacoFilename, 'public');
-         }
-
-         $slug = Str::slug($request->event_title);
-         date_default_timezone_set('Asia/Kolkata');
-
-         $data = [
-            'cd_id' => $request->cd_id,
-            'event_date' => $request->event_date,
-            'event_title' => $request->event_title,
-            'title_image_tag' => $request->title_image_tag,
-            'category' => $request->category,
-            'event_full_description' => $request->area,
-            'display_main' => $request->display_main,
-            'status' => $request->status,
-            'event_image1_tag' => $request->event_image1_tag,
-            'event_image2_tag' => $request->event_image1_tag,
-            'event_image3_tag' => $request->event_image3_tag,
-            'event_image4_tag' => $request->event_image4_tag,
-            'event_image5_tag' => $request->event_image5_tag,
-            'event_image6_tag' => $request->event_image6_tag,
-            'monaco_image_alt_tag' => $request->monaco_image_alt_tag,
-            'n_slug' => $slug
-         ];
-
-         News::create($data + $filePaths);
-
-         DB::commit();
-         Session::flash('success', 'News Uploaded Successfully!');
-      } catch (ValidationException $e) {
-         DB::rollBack();
-         Session::flash('error', 'Validation Error in Uploading News: ' . $e->getMessage());
-      } catch (Exception $e) {
-         DB::rollBack();
-         Session::flash('error', 'Error in Uploading News: ' . $e->getMessage());
-      }
-
-      return redirect()->route('all.news');
+       try {
+           DB::beginTransaction();
+   
+           $validateData = $request->validate([
+               'cd_id' => 'required',
+               'event_date' => 'required|date',
+               'event_title' => 'required',
+               'category' => 'required',
+               'area' => 'required',
+               'display_main' => 'required',
+               'status' => 'required',
+               'ti_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+               'title_image_tag' => 'required',
+               'ei1_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+               'event_image1_tag' => 'required',
+               'monaco_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+               'monaco_image_alt_tag' => 'nullable|string|max:255'
+           ]);
+   
+           $filePaths = [];
+           $fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
+   
+           foreach ($fileFields as $field) {
+               if ($request->hasFile($field)) {
+                   $file = $request->file($field);
+                   $timestamp = now()->timestamp;
+                   $filename = $timestamp . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
+   
+                   // Store files in public/uploads/events/past_event
+                   $file->move(public_path('uploads/events/past_event'), $filename);
+                   $filePaths[$field] = 'uploads/events/past_event/' . $filename;
+   
+                   // Save absolute path and filename for ti_path
+                   if ($field === 'ti_path') {
+                       $filePaths['ti_full_path'] = public_path('uploads/events/past_event/' . $filename);
+                       $filePaths['event_image_1'] = $filename;
+                   }
+               }
+           }
+   
+           // Handle monaco_image_path separately
+           if ($request->hasFile('monaco_image_path')) {
+               $monacoFile = $request->file('monaco_image_path');
+               $monacoFilename = now()->timestamp . '_' . Str::random(10) . '.' . $monacoFile->getClientOriginalExtension();
+               $monacoFile->move(public_path('monaco/assets/image/news'), $monacoFilename);
+               $filePaths['monaco_image_path'] = 'monaco/assets/image/news/' . $monacoFilename;
+           }
+   
+           // Extract date components
+           $eventDate = Carbon::parse($request->event_date);
+           $event_day = $eventDate->day;
+           $event_month = $eventDate->month;
+           $event_month_name = $eventDate->format('F');
+           $event_year = $eventDate->year;
+   
+           $slug = Str::slug($request->event_title);
+           date_default_timezone_set('Asia/Kolkata');
+   
+           $data = [
+               'cd_id' => $request->cd_id,
+               'event_date' => $request->event_date,
+               'event_day' => $event_day,
+               'event_month' => $event_month,
+               'event_month_name' => $event_month_name,
+               'event_year' => $event_year,
+               'event_title' => $request->event_title,
+               'title_image_tag' => $request->title_image_tag,
+               'category' => $request->category,
+               'event_full_description' => $request->area,
+               'display_main' => $request->display_main,
+               'status' => $request->status,
+               'event_image1_tag' => $request->event_image1_tag,
+               'event_image2_tag' => $request->event_image1_tag,
+               'event_image3_tag' => $request->event_image3_tag,
+               'event_image4_tag' => $request->event_image4_tag,
+               'event_image5_tag' => $request->event_image5_tag,
+               'event_image6_tag' => $request->event_image6_tag,
+               'monaco_image_alt_tag' => $request->monaco_image_alt_tag,
+               'n_slug' => $slug
+           ];
+   
+           News::create($data + $filePaths);
+   
+           DB::commit();
+           Session::flash('success', 'News Uploaded Successfully!');
+       } catch (ValidationException $e) {
+           DB::rollBack();
+           Session::flash('error', 'Validation Error in Uploading News: ' . $e->getMessage());
+       } catch (Exception $e) {
+           DB::rollBack();
+           Session::flash('error', 'Error in Uploading News: ' . $e->getMessage());
+       }
+   
+       return redirect()->route('all.news');
    }
+   
 
    public function EditNewsPost($id)
    {
