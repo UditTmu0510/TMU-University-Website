@@ -350,6 +350,20 @@
                             </div>
                         </div>
 
+                        <div class="col-6 col-md-3 col-sm-6  ">
+                            <div class="position-relative">
+                                <video class="d-block w-100" controls>
+                                    <source src="{{asset('/assets/img/gallery/collegegallery/finearts/Art_Gallery.mp4')}}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
+                                        data-hover-animate="fadeIn">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
