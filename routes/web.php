@@ -18,6 +18,12 @@ use App\Http\Controllers\Backend\MetaController;
 use App\Http\Controllers\Backend\DepartmentsController;
 use App\Http\Controllers\Backend\DesignationsController;
 use App\Http\Controllers\Backend\EmployeesController;
+use App\Http\Controllers\Backend\JobApplicationController;
+use App\Http\Controllers\Backend\NaacCriterionController;
+use App\Http\Controllers\Backend\NaacKeyIndicatorController;
+use App\Http\Controllers\Backend\NaacMetricController;
+use App\Http\Controllers\Backend\NaacPdfsController;
+use App\Http\Controllers\Backend\DepartmentDesignationController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
@@ -41,6 +47,7 @@ use App\Http\Controllers\JobformController;
 use App\Http\Controllers\TeachersfeedbackController;
 use App\Http\Controllers\AlumnifeedbackController;
 use App\Http\Controllers\EmployerFeedbackController;
+use App\Http\Controllers\ExpertFeedbackController;
 use App\Http\Controllers\JobOpeningController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\NavbarJsonController;
@@ -142,9 +149,242 @@ Route::get('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs');
 Route::post('/blog', [BlogsController::class, 'all_blogs'])->name('all_blogs.post');
 Route::post('/blog/{id}/comments', [BlogsController::class, 'submitComment'])->name('blog.comments');
 require __DIR__ . '/auth.php';
+Route::middleware(['auth','roles:admin'])->group(function(){
+    Route::get('/admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
+    Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
+    Route::get('/admin/profile', [AdminController::class, 'AdminProfile'])->name('admin.profile');
+    Route::post('/admin/profile-update',[AdminController::class,'AdminProfileUpdate'])->name('admin.profile.store');
+    Route::post('/admin/change-password',[AdminController::class,'AdminChangePassword'])->name('admin.change_password');
+    Route::controller(AdminController::class)->group(function(){
+Route::get('/all/admin','AllAdmin')->name('all.admin');
+Route::get('/add/admin','AddAdmin')->name('add.admin');
+Route::post('/store/admin','StoreAdmin')->name('store.admin');
+Route::get('/edit/admin/{id}','EditAdmin')->name('edit.admin');
+Route::get('/delete/admin/{id}','DeleteAdmin')->name('delete.admin');
+Route::post('/update/admin/{id}','UpdateAdmin')->name('update.admin');
 
+    });
+    Route::controller(RoleController::class)->group(function(){
+        Route::get('/all/permission','AllPermission')->name('all.permission')->middleware('permission:View Permissions');
+        Route::get('/add/permission','AddPermission')->name('add.permission')->middleware('permission:Add Permission');
+        Route::post('/store/permission','StorePermission')->name('store.permission')->middleware('permission:Edit Permission');
+        Route::get('/edit/permission/{id}','EditPermission')->name('edit.permission')->middleware('permission:Edit Permission');
+        Route::get('/edit/role/{id}','EditRole')->name('edit.role')->middleware('permission:Edit Role');
+        Route::post('/update/permission','UpdatePermission')->name('update.permission')->middleware('permission:Edit Permission');
+        Route::post('/update/role','UpdateRole')->name('update.role')->middleware('permission:Edit Role');
+        Route::get('/delete/permission/{id}','DeletePermission')->name('delete.permission')->middleware('permission:Delete Permission');
+        Route::get('/delete/role/{id}','DeleteRole')->name('delete.role')->middleware('permission:Delete Role');
+        Route::get('/import/permission','ImportPermission')->name('import.permission')->middleware('permission:Import Permissions');
+        Route::get('/export/permission','ExportPermission')->name('export.permission')->middleware('permission:View Permissions');
+        Route::post('/permission/import','PermissionImport')->name('permission.import')->middleware('permission:Import Permissions');
+        Route::get('/all/roles','AllRoles')->name('all.roles')->middleware('permission:View Roles');
+        Route::get('/add/roles','AddRoles')->name('add.roles')->middleware('permission:Add Role');
+        Route::post('/store/role','StoreRole')->name('store.role')->middleware('permission:Edit Role');
+        Route::get('/add/roles/permission','AddRolesPermission')->name('add.roles.permission')->middleware('permission:Add Roles & Permissions');
+        Route::post('/role/permission/store','RolePermissionsStore')->name('role.permission.store');
+        Route::get('/all/roles/permission','AllRolesPermission')->name('all.roles.permission');
+        Route::get('/admin/edit/roles/{id}','AdminEditRoles')->name('admin.edit.roles');
+        Route::post('/admin/roles/update/','AdminUpdateRoles')->name('admin.roles.update');
+        Route::get('/admin/roles/delete/{id}','AdminDeleteRoles')->name('admin.roles.delete');
+
+        });
+
+// All News Category Routes Start
+        Route::controller(NewsController::class)->group(function(){
+Route::get('/news/category/','AllNewsCategory')->name('news.category');
+Route::post('/add/news/category/','AddNewsCategory')->name('add.news_category');
+Route::get('/edit/news/category/{id}','EditNewsCategory')->name('edit.news_category');
+Route::post('/update/news/category/','UpdateNewsCategory')->name('update.news_category');
+Route::get('/delete/news/category/{id}','DeleteNewsCategory')->name('delete.news_category');
+ });
+
+// All News Category Routes Ends
+
+
+// All News Post Routes Start
+
+        Route::controller(NewsController::class)->group(function(){
+            Route::get('/view/news/all','AllNews')->name('all.news');
+            Route::get('/add/news/post','AddNewsPost')->name('add.news.post');
+            Route::post('/store/news/post','StoreNewsPost')->name('store.news.post');
+            Route::get('/edit/news/{id}','EditNewsPost')->name('edit.news.post');
+            Route::post('update/news/post','UpdateNewsPost')->name('update.news.post');
+            Route::get('/delete/news/post/{id}','DeleteNewsPost')->name('delete.news.post');
+     
+                    });
+// All  News Post ROutes End Here
+
+// Blogs Category Routes Start Here
+
+// All News Category Routes Start
+Route::controller(NewsController::class)->group(function(){
+    Route::get('/news/category/','AllNewsCategory')->name('news.category');
+    Route::get('/add/news/category/','AddNewsCategory')->name('add.news_category');
+    Route::get('/edit/news/category/{id}','EditNewsCategory')->name('edit.news_category');
+    Route::post('/update/news/category/','UpdateNewsCategory')->name('update.news_category');
+    Route::get('/delete/news/category/{id}','DeleteNewsCategory')->name('delete.news_category');
+     });
+    
+    // All News Category Routes Ends
+
+
+
+// Blog Category Route Starts Here 
+Route::controller(BlogsController::class)->group(function(){
+
+    Route::get('/view/blogs/all','AllBlogs')->name('all.blogs')->middleware('permission:View All Blogs');
+    Route::get('/add/blog','AddBlog')->name('add.blog')->middleware('permission:Add Blog');
+    Route::post('/store/blog','StoreBlog')->name('store.blog')->middleware('permission:Store Blog');
+    Route::get('/edit/blog/{id}','EditBlogsPost')->name('edit.blog')->middleware('permission:Edit Blog');
+    Route::post('/update/blog/','UpdateBlogPost')->name('update.blog')->middleware('permission:Update Blog');
+    Route::get('/delete/blog/{id}','DeleteBlogsPost')->name('delete.blog')->middleware('permission:Delete Blog');
+
+    Route::get('/blogs/category/','AllBlogsCategory')->name('blogs.category')->middleware('permission:All Blog Category');
+    Route::post('/add/blogs/category/','AddBlogsCategory')->name('add.blogs_category')->middleware('permission:Add Blog Category');
+    Route::get('/edit/blogs/category/{id}','EditBlogsCategory')->name('edit.blogs_category')->middleware('permission:Edit Blog Category');
+    Route::post('/update/blogs/category/','UpdateBlogsCategory')->name('update.blogs_category')->middleware('permission:Update Blog Category');
+    Route::get('/delete/blogs/category/{id}','DeleteBlogsCategory')->name('delete.blogs_category')->middleware('permission:Delete Blog Category');
+     });
+//Blog Category Routes Ends Here
+
+
+
+                    Route::controller(ProgrammesController::class)->group(function(){
+                        Route::get('/programmes/all/','AllProgrammes')->name('all.programmes');
+                        Route::match(['get', 'post'], '/add/programme/', 'AddProgramme')->name('add.programme');
+                        Route::match(['get', 'post'], '/programme/{id}/edit', 'editProgramme')->name('programme.edit');
+                        Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                        Route::get('/delete/programme/{id}','DeleteProgramme')->name('delete.programme');
+                         });
+                                
+                                
+                                
+                                Route::controller(TestimonialsController::class)->group(function(){
+Route::get('/testimonials/all/','AllTestimonials')->name('all.testimonials')->middleware('permission:View All Testimonials');
+Route::match(['get', 'post'], '/add/testimonial/', 'AddTestimonial')->name('add.testimonial')->middleware('permission:Add Testimonial');
+Route::match(['get', 'post'], '/testimonial/{id}/edit', 'editTestimonial')->name('testimonial.edit');
+Route::get('/delete/testimonial/{id}','DeleteTestimonial')->name('delete.testimonial');
+    });
+    
+    Route::controller(RecruitersController::class)->group(function(){
+        Route::get('/recruiters/all/','AllRecruiters')->name('all.recruiters')->middleware('permission:View All Recruiters');
+        Route::match(['get', 'post'], '/add/recruiter/', 'AddRecruiter')->name('add.recruiter')->middleware('permission:Add Recruiter');
+        Route::match(['get', 'post'], '/recruiter/{id}/edit', 'editRecruiter')->name('recruiter.edit')->middleware('permission:Edit Recruiter');
+        Route::get('/delete/recruiter/{id}','DeleteRecruiter')->name('delete.recruiter')->middleware('permission:Delete Recruiter');
+    });
+          
+      Route::controller(MetaController::class)->group(function(){
+        Route::get('/metas/all/','AllMetas')->name('all.metas')->middleware('permission:View Metas');
+        Route::match(['get', 'post'], '/add/meta/', 'AddMeta')->name('add.meta')->middleware('permission:Add Meta');
+        Route::match(['get', 'post'], '/meta/{id}/edit', 'EditMeta')->name('meta.edit')->middleware('permission:Edit Meta');
+        // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+        Route::get('/delete/meta/{id}','DeleteMeta')->name('delete.meta')->middleware('permission:Delete Meta');
+       
+            }); 
+
+            Route::controller(SyllabusController::class)->group(function(){
+                Route::get('/syllabus/all/','index')->name('all.syllabus')->middleware('permission:View All Syllabus');
+                Route::match(['get', 'post'], '/add/syllabus/', 'store')->name('add.syllabus')->middleware('permission:Add Syllabus');
+                Route::match(['get', 'post'], '/syllabus/{id}/edit', 'Update')->name('syllabus.edit')->middleware('permission:Edit Syllabus');
+                // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                Route::get('/delete/syllabus/{id}','destroy')->name('delete.syllabus')->middleware('permission:Delete Syllabus');
+               
+                    }); 
+            
+            
+            Route::controller(FaqsController::class)->group(function(){
+                Route::get('/faqs/all/','AllFaqs')->name('all.faqs')->middleware('permission:View Faqs');
+                Route::match(['get', 'post'], '/add/faq/', 'AddFaq')->name('add.faq')->middleware('permission:Add Faq');
+                Route::match(['get', 'post'], '/faq/{id}/edit', 'EditFaq')->name('faq.edit')->middleware('permission:Edit Faq');
+                // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+                Route::get('/delete/faq/{id}','DeleteFaq')->name('delete.faq')->middleware('permission:Delete Faq');
+               
+                    });  
+          
+// All News Post Routes End
+Route::controller(DepartmentsController::class)->group(function(){
+    Route::get('/departments/all/','index')->name('all.departments')->middleware('permission:View All Departments');
+    Route::match(['get', 'post'], '/add/department/', 'store')->name('add.department')->middleware('permission:Add Department');
+    Route::match(['get', 'post'], '/department/{id}/edit', 'update')->name('department.edit')->middleware('permission:Edit Department');
+    // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+    Route::get('/delete/department/{id}','destroy')->name('delete.department')->middleware('permission:Delete Department');
+   
+        });  
+
+        Route::controller(DesignationsController::class)->group(function(){
+            Route::get('/designations/all/','index')->name('all.designations')->middleware('permission:View All Designations');
+            Route::match(['get', 'post'], '/add/designation/', 'store')->name('add.designation')->middleware('permission:Add Designation');
+            Route::match(['get', 'post'], '/designation/{id}/edit', 'update')->name('designation.edit')->middleware('permission:Edit Designation');
+            // Route::post('/getmasterprogramme/','getMasterProgramme')->name('getmasterprogramme');
+            Route::get('/delete/designation/{id}','destroy')->name('delete.designation')->middleware('permission:Delete Designation');
+           
+                });  
+                Route::controller(EmployeesController::class)->group(function(){
+                Route::post('/getemployeedepartment/','getEmployeeDepartment')->name('getemployeedepartment');
+                Route::match(['get', 'post'], '/add/employee/', 'store')->name('add.employee')->middleware('permission:Add Employee');
+                Route::get('/employees/all/', 'index')->name('all.employees')->middleware('permission:View All Employees');
+                Route::match(['get', 'post'], '/employee/{id}/edit', 'update')->name('employee.edit');
+                Route::get('/delete/employee/{id}','destroy')->name('delete.employee')->middleware('permission:Delete Employee');
+               
+                   }); 
+
+                   Route::controller(DepartmentDesignationController::class)->group(function(){
+
+                    Route::match(['get', 'post'], '/add/department/designation', 'store')->name('add.departmentdesignation')->middleware('permission:Add Department Designation');
+                    Route::get('/departmentdesignation/all/','index')->name('all.departments.designations')->middleware('permission:View Departments Designations');
+                    Route::match(['get', 'post'], '/department/designation/{id}/edit', 'update')->name('departmentdesignation.edit')->middleware('permission:Edit Department Designation');
+                    Route::get('/delete/department/designation/{id}','destroy')->name('delete.departmentdesignation')->middleware('permission:Delete Department Designation');
+                   
+                       }); 
+                       
+                               Route::controller(JobApplicationController::class)->group(function(){
+
+                        Route::get('/getjobapplications/all/','index')->name('all.jobapplications')->middleware('permission:View All Jobs');
+                        Route::match(['get', 'post'], '/jobapplication/data/{id}/generate-pdf', 'generate_pdf')->name('generate.jobapplication.pdf')->middleware('permission:Generate Job Application Pdf');
+                           }); 
+
+                        Route::controller(NaacCriterionController::class)->group(function(){
+                            Route::match(['get', 'post'], '/add/naac-criterion', 'store')->name('add.naac_criterion')->middleware('permission:Add NAAC Criterion');
+                            Route::get('/naac-criterions/all/','index')->name('all_naac_criterions')->middleware('permission:View All NAAC Criterions');
+                            Route::match(['get', 'post'], '/naac-criterion/{id}/edit', 'update')->name('naac_criterion.edit')->middleware('permission:Edit NAAC Criterion');
+                            Route::get('/delete/naac-criterion/{id}','destroy')->name('delete.naac_criterion')->middleware('permission:Delete NAAC Criterion');
+                               });
+
+
+                               Route::controller(NaacKeyIndicatorController::class)->group(function(){
+                                Route::match(['get', 'post'], '/add/naac-keyindicator', 'store')->name('add.naac_keyindicator')->middleware('permission:Add NAAC KeyIndicator');
+                                Route::get('/naac-keyindicators/all/','index')->name('all_naac_keyindicator')->middleware('permission:View All NAAC KeyIndicators');
+                                Route::match(['get', 'post'], '/naac-keyindicator/{id}/edit', 'update')->name('naac_keyindicator.edit')->middleware('permission:Edit NAAC KeyIndicator');
+                                Route::get('/delete/naac-keyindicator/{id}','destroy')->name('delete.naac_keyindicator')->middleware('permission:Delete NAAC KeyIndicator');
+                                   });
+
+                                   Route::controller(NaacMetricController::class)->group(function(){
+                                    Route::match(['get', 'post'], '/add/naac-metric', 'store')->name('add.naac_metric')->middleware('permission:Add NAAC Metric');
+                                    Route::get('/naac-metrics/all/','index')->name('all_naac_metric')->middleware('permission:View All NAAC Metrics');
+                                    Route::match(['get', 'post'], '/naac-metric/{id}/edit', 'update')->name('naac_metric.edit')->middleware('permission:Edit NAAC Metric');
+                                    Route::get('/delete/naac-mertic/{id}','destroy')->name('delete.naac_metric')->middleware('permission:Delete NAAC Metric');
+                                    Route::post('/getkeyindicator/','getkeyIndicator')->name('getkeyindicator');
+                                       });
+
+
+                               
+                                       Route::controller(NaacPdfsController::class)->group(function(){
+                                        Route::match(['get', 'post'], '/add/naac-pdf', 'store')->name('add.naac_pdf')->middleware('permission:Add NAAC PDF');
+                                        Route::get('/naac-pdfs/all/','index')->name('all_naac_pdfs')->middleware('permission:View All NAAC PDFS');
+                                        Route::match(['get', 'post'], '/naac-pdf/{id}/edit', 'update')->name('naac_pdf.edit')->middleware('permission:Edit NAAC PDF');
+                                        Route::get('/delete/naac-pdf/{id}','destroy')->name('delete.naac_pdf')->middleware('permission:Delete NAAC PDF');
+                                        Route::post('/getkeyindicatorpdf/','getkeyindicatorPdf')->name('getkeyindicatorpdf');
+                                        Route::post('/getmetricspdf/','getmetricsPdf')->name('getmetricspdf');
+                                        Route::get('/naac-pdfs/search','search')->name('naac_pdfs.search');
+                                        Route::get('/export-naac-pdfs', 'export')->name('export.naac-pdfs');
+                                           });
+                   
+                   
+                   
+
+});
 // Instructor  Group Middleware Starts
-
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
 Route::middleware(['auth', 'roles:instructor'])->group(function () {
     Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
 });
@@ -170,7 +410,7 @@ Route::get('tmu/blog', [TmuController::class, 'blog'])->name('blog');
 
 Route::get('/tmu/about-us', [TmuController::class, 'about_us'])->name('about.us');
 Route::get('/tmu/vision-mission', [TmuController::class, 'vision_and_mission'])->name('vision.mission');
-Route::get('/tmu/statutory-approvals', [TmuController::class, 'statutory_approvals'])->name('statutory.approvals');
+Route::get('/tmu/statutory-approval', [TmuController::class, 'statutory_approvals'])->name('statutory.approvals');
 Route::get('/tmu/awards-recognition', [TmuController::class, 'awards_and_recognition'])->name('awards.and.recognition');
 Route::get('/tmu/university-governance', [TmuController::class, 'university_governance'])->name('university.governance');
 Route::get('/tmu/university-organogram', [TmuController::class, 'university_organogram'])->name('university.organogram');
@@ -184,6 +424,7 @@ Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('subm
 
 Route::post('/get-departments', [JobformController::class, 'getDepartments'])->name('get.departments');
 Route::post('/get-designations', [JobformController::class, 'getDesignations'])->name('get.designations');
+Route::get('/get-faculties', [JobformController::class, 'getFaculties'])->name('get.faculties');
 
 
 
@@ -217,6 +458,8 @@ Route::get('/nss-international-day', [TmuController::class, 'nss_internationalda
 Route::get('/nss-events', [TmuController::class, 'nss_events'])->name('nss.events');
 Route::get('/nss-contactus', [TmuController::class, 'nss_contactus'])->name('nss.contactus');
 Route::get('/nss-coordinator-desk', [TmuController::class, 'nss_coordinator'])->name('nss.coordinator');
+Route::get('/nss-adopted-village', [TmuController::class, 'adopted_village'])->name('adopted.village');
+Route::get('/nss-coordinators', [TmuController::class, 'nss_commitee'])->name('nss.commitee');
 
 // NEP
 
@@ -264,10 +507,11 @@ Route::get('/tmu/iqac-cell/alumni-feedback-form', [AlumnifeedbackController::cla
 Route::POST('/tmu/iqac-cell/submit-alumni-feedback-form', [AlumnifeedbackController::class, 'storeFeedback'])->name('store.alumni.feedback.form');
 
 
-
-
 Route::get('/tmu/iqac-cell/employer-feedback-form', [EmployerFeedbackController::class, 'createEmployerFeedbackForm'])->name('employer.feedback.form');
 Route::POST('/tmu/iqac-cell/submit-employer-feedback-form', [EmployerFeedbackController::class, 'storeFeedback'])->name('store.employer.feedback.form');
+
+Route::get('/tmu/iqac-cell/experts-feedback-form', [ExpertFeedbackController::class, 'createExpertFeedbackForm'])->name('expert.feedback.form');
+Route::POST('/tmu/iqac-cell/submit-expert-feedback-form', [ExpertFeedbackController::class, 'storeFeedback'])->name('store.expert.feedback.form');
 
 
 // NAAC
@@ -322,7 +566,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
-Route::get('/library', [TmuController::class, 'library'])->name('library');
+Route::get('/tmu/library', [TmuController::class, 'library'])->name('library');
 Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
 Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
@@ -330,8 +574,8 @@ Route::get('/tmu/application-form', [TmuController::class, 'application_form'])-
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
 Route::get('/tmu/jinalaya', [TmuController::class, 'jinalaya'])->name('jinalaya');
 Route::get('/tmu/sports', [TmuController::class, 'sports'])->name('sports');
-Route::get('/tmu/yoga-and-meditation', [TmuController::class, 'yoga_and_meditation'])->name('yoga.and.meditation');
-Route::get('/tmu/music-and-dance-room', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
+Route::get('/tmu/yoga', [TmuController::class, 'yoga_and_meditation'])->name('yoga.and.meditation');
+Route::get('/tmu/music', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
 Route::get('/tmu/banking-facility', [TmuController::class, 'banking_facility'])->name('banking.facility');
 Route::get('/tmu/faculty-accomodation', [TmuController::class, 'faculty_accomodation'])->name('faculty.accomodation');
 Route::get('/tmu/guest-house', [TmuController::class, 'guest_house'])->name('guest.house');
@@ -433,7 +677,7 @@ Route::get('/tmu/cbcs-agriculture-sciences', [TmuController::class, 'cbcs_agricu
 Route::get('/tmimt-college-of-management', [ManagementController::class, 'index'])->name('tmimt.home');
 Route::get('/tmimt-college-of-management/about-us', [ManagementController::class, 'mgmt_overview'])->name('mgmt.overview');
 Route::get('/tmimt-college-of-management/college-highlight', [ManagementController::class, 'mgmt_highlight'])->name('mgmt.highlight');
-Route::get('/tmimt-college-of-management/principal', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
+Route::get('/tmimt-college-of-management/dean', [ManagementController::class, 'mgmt_principal'])->name('mgmt.principal');
 Route::get('/tmimt-college-of-management/syllabus', [ManagementController::class, 'mgmt_syllabus'])->name('mgmt.syllabus');
 Route::get('/tmimt-college-of-management/academic-calendar', [ManagementController::class, 'mgmt_academic_calendar'])->name('mgmt.academic.calendar');
 Route::get('/tmimt-college-of-management/training-placement-cell', [ManagementController::class, 'training_placements_cell'])->name('mgmt.tpc');
@@ -450,6 +694,7 @@ Route::get('/tmimt-college-of-management/event-magazine', [ManagementController:
 Route::get('/tmimt-college-of-management/sc-st-committee', [ManagementController::class, 'mgmt_scst_committee'])->name('mgmt.scst.committee');
 Route::get('/tmimt-college-of-management/icc-committee', [ManagementController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
 Route::get('/tmimt-college-of-management/gallery', [ManagementController::class, 'mgmt_gallery'])->name('mgmt.gallery');
+Route::get('/tmimt-college-of-management/study-material', [ManagementController::class, 'mgmt_study_material'])->name('mgmt.study.material');
 
 // Fine arts 
 Route::get('/college-of-fine-arts', [FineartsController::class, 'index'])->name('fine_arts.home');
@@ -466,13 +711,14 @@ Route::get('/college-of-fine-arts/anti-ragging-committee', [FineartsController::
 Route::get('/college-of-fine-arts/gallery', [FineartsController::class, 'fine_arts_gallery'])->name('fine.arts.gallery');
 Route::get('/college-of-fine-arts/contact-us', [FineartsController::class, 'fine_arts_contact_us'])->name('fine.arts.contact.us');
 Route::get('/college-of-fine-arts/iqac', [FineartsController::class, 'fine_arts_iqac'])->name('fine.arts.iqac');
+Route::get('/college-of-fine-arts/study-material', [FineartsController::class, 'fine_arts_study_material'])->name('fine.arts.study.material');
 
 // Engineering College
 
 Route::get('/faculty-of-engineering', [EngineeringController::class, 'index'])->name('engineering.home');
 Route::get('/faculty-of-engineering/about-us', [EngineeringController::class, 'engineering_about_us'])->name('engineering.about.us');
 Route::get('/faculty-of-engineering/college-highlight', [EngineeringController::class, 'engineering_highlights'])->name('engineering.highlights');
-Route::get('/faculty-of-engineering/director', [EngineeringController::class, 'engineering_principal'])->name('engineering.dean');
+Route::get('/faculty-of-engineering/dean', [EngineeringController::class, 'engineering_principal'])->name('engineering.dean');
 Route::get('/faculty-of-engineering/academic-calendar', [EngineeringController::class, 'engineering_academic_calednar'])->name('engineering.academic.calednar');
 Route::get('/faculty-of-engineering/nba', [EngineeringController::class, 'engineering_nba'])->name('engineering.nba');
 Route::get('/faculty-of-engineering/corporate-advisory-board', [EngineeringController::class, 'engineering_corporate_advisory_board'])->name('engineering.corporate.advisory.board');
@@ -490,6 +736,9 @@ Route::get('/faculty-of-engineering/iqac', [EngineeringController::class, 'engin
 Route::get('/faculty-of-engineering/syllabus', [EngineeringController::class, 'engineering_syllabus'])->name('engineering.syllabus');
 Route::get('/faculty-of-engineering/e-content', [EngineeringController::class, 'engineering_e_content'])->name('engineering.e.content');
 // Route::get('/faculty-of-engineering/gallery', [TmuController::class, 'engineering_gallery'])->name('engineering.gallery');
+
+Route::get('/faculty-of-engineering/study-material', [EngineeringController::class, 'studyMaterial'])->name('engineering.study.material');
+
 
 
 // CCSIT College
@@ -514,6 +763,7 @@ Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitControll
 Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
 Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
 Route::get('/college-of-computing-sciences-and-it/iqac', [CcsitController::class, 'ccsit_iqac'])->name('ccsit.iqac');
+Route::get('/college-of-computing-sciences-and-it/study-material', [CcsitController::class, 'ccsit_study_material'])->name('ccsit.study.material');
 
 
 
@@ -585,6 +835,11 @@ Route::get('/medical-college-and-research-centre/orthopaedics/infrastructure', [
 Route::get('/medical-college-and-research-centre/ent/infrastructure', [MedicalController::class, 'medical_ent_infra'])->name('medical.ent.infra');
 Route::get('/medical-college-and-research-centre/ophthalmology/infrastructure', [MedicalController::class, 'medical_ophthalmology_infra'])->name('medical.ophthalmology.infra');
 Route::get('/medical-college-and-research-centre/obg/infrastructure', [MedicalController::class, 'medical_obstetrics_gynaecology_infra'])->name('medical.obstetrics.gynaecology.infra');
+Route::get('/medical-college-and-research-centre/study.material', [MedicalController::class, 'medical_study_material'])->name('medical.study.material');
+Route::get('/medical-college-and-research-centre/urban-health-centers', [MedicalController::class, 'medical_urban_health_centers'])->name('medical.urban.health.centers');
+Route::get('/medical-college-and-research-centre/rural-health-centers', [MedicalController::class, 'medical_rural_health_centers'])->name('medical.rural.health.centers');
+Route::get('/medical-college-and-research-centre/primary-health-centers', [MedicalController::class, 'medical_primary_health_centers'])->name('medical.primary.health.centers');
+Route::get('/medical-college-and-research-centre/community-health-centers', [MedicalController::class, 'medical_community_health_centers'])->name('medical.community.health.centers');
 
 
 // Dental
@@ -606,11 +861,12 @@ Route::get('/dental-college-and-research-centre/conservative-dentistry-endodonti
 Route::get('/dental-college-and-research-centre/oral-maxillofacial-surgery', [DentalController::class, 'dental_oral_maxillofacial_surgery'])->name('dental.oral.maxillofacial.surgery');
 Route::get('/dental-college-and-research-centre/orthodontics-dentofacial-orthopedics', [DentalController::class, 'dental_orthodontics'])->name('dental.orthodontics');
 Route::get('/dental-college-and-research-centre/prosthodontics-crown-bridge', [DentalController::class, 'dental_Prosthodontics'])->name('dental.Prosthodontics');
-Route::get('/dental-college-and-research-centre/paedodontics-preventive-dentistry', [DentalController::class, 'dental_paedodontics'])->name('dental.paedodontics');
+Route::get('/dental-college-and-research-centre/pediatric-preventive-dentistry', [DentalController::class, 'dental_paedodontics'])->name('dental.pediatric');
 Route::get('/dental-college-and-research-centre/periodontology', [DentalController::class, 'dental_periodontology'])->name('dental.periodontology');
 Route::get('/dental-college-and-research-centre/public-health-dentistry', [DentalController::class, 'dental_public_health'])->name('dental.public.health');
 Route::get('/dental-college-and-research-centre/oral-medicine-radiology', [DentalController::class, 'dental_oral_medicine'])->name('dental.oral.medicine');
 Route::get('/dental-college-and-research-centre/oral-pathology-microbiology', [DentalController::class, 'dental_oral_pathology'])->name('dental.oral.pathology');
+Route::get('/dental-college-and-research-centre/study-material', [DentalController::class, 'dental_study_material'])->name('dental.study.material');
 
 // Physiotherapy
 Route::get('/department-of-physiotherapy', [PhysiotherapyController::class, 'index'])->name('physiotherapy.home');
@@ -631,6 +887,7 @@ Route::get('/department-of-physiotherapy/labs/research-lab', [PhysiotherapyContr
 Route::get('/department-of-physiotherapy/magazine', [PhysiotherapyController::class, 'physiotherapy_magazine'])->name('physiotherapy.magazine');
 Route::get('/department-of-physiotherapy/iqac', [PhysiotherapyController::class, 'physiotherapy_iqac'])->name('physiotherapy.iqac');
 Route::get('/department-of-physiotherapy/sanctioned-intake', [PhysiotherapyController::class, 'physiotherapy_intake'])->name('physiotherapy.intake');
+Route::get('/department-of-physiotherapy/study-material', [PhysiotherapyController::class, 'physiotherapy_study_material'])->name('physiotherapy.study.material');
 
 // Pharmacy
 Route::get('/college-of-pharmacy', [PharmacyController::class, 'index'])->name('pharmacy.home');
@@ -659,6 +916,8 @@ Route::get('/college-of-pharmacy/tjpbs/manuscript-submission', [PharmacyControll
 Route::get('/college-of-pharmacy/tjpbs/contact-us', [PharmacyController::class, 'tjpbs_contact_us'])->name('tjpbs.contact.us');
 Route::POST('/manuscript-form', [ManuscriptFormController::class, 'store'])->name('manuscript_form.store');
 
+Route::get('/college-of-pharmacy/study-material', [PharmacyController::class, 'pharmacy_study_material'])->name('pharmacy.study.material');
+
 
 // Paramedical
 Route::get('/college-of-paramedical-sciences', [ParamedicalController::class, 'index'])->name('paramedical.home');
@@ -675,6 +934,7 @@ Route::get('/college-of-paramedical-sciences/guest-lecture', [ParamedicalControl
 Route::get('/college-of-paramedical-sciences/contact-us', [ParamedicalController::class, 'paramedical_contact_us'])->name('paramedical.contact.us');
 Route::get('/college-of-paramedical-sciences/gallery', [ParamedicalController::class, 'paramedical_gallery'])->name('paramedical.gallery');
 Route::get('/college-of-paramedical-sciences/iqac', [ParamedicalController::class, 'paramedical_iqac'])->name('paramedical_iqac');
+Route::get('/college-of-paramedical-sciences/study-material', [ParamedicalController::class, 'paramedical_study_material'])->name('paramedical.study.material');
 
 
 // Education 
@@ -689,6 +949,7 @@ Route::get('/faculty-of-education/guest-lecture', [EducationController::class, '
 Route::get('/faculty-of-education/gallery', [EducationController::class, 'education_gallery'])->name('education.gallery');
 Route::get('/faculty-of-education/contact-us', [EducationController::class, 'education_contact_us'])->name('education.contact.us');
 Route::get('/faculty-of-education/iqac', [EducationController::class, 'education_iqac'])->name('education.iqac');
+Route::get('/faculty-of-education/study-material', [EducationController::class, 'education_study_material'])->name('education.study.material');
 
 
 // Agriculture
@@ -709,6 +970,7 @@ Route::get('/college-of-agriculture-sciences/placement-calendar', [AgricultureCo
 Route::get('/college-of-agriculture-sciences/placement-news', [AgricultureController::class, 'agriculture_placement_news'])->name('agriculture.placement.news');
 Route::get('/college-of-agriculture-sciences/syllabus', [AgricultureController::class, 'agriculture_syllabus'])->name('agriculture.syllabus');
 Route::get('/college-of-agriculture-sciences/time-table', [AgricultureController::class, 'agriculture_timetable'])->name('agriculture.timetable');
+Route::get('/college-of-agriculture-sciences/study-material', [AgricultureController::class, 'agriculture_study_material'])->name('agriculture.study.material');
 Route::get('/college-of-agriculture-sciences/training-placement-cell', [AgricultureController::class, 'agriculture_tpc'])->name('agriculture.tpc');
 
 // Nursing
@@ -745,6 +1007,7 @@ Route::get('/college-of-nursing/ijih/submission-process', [NursingController::cl
 Route::get('/college-of-nursing/ijih/archives', [NursingController::class, 'ijih_archives'])->name('ijih.archives');
 Route::get('/college-of-nursing/ijih/current-issue', [NursingController::class, 'ijih_current_issue'])->name('ijih.current_issue');
 Route::get('/college-of-nursing/ijih/manuscript-form-submission', [NursingController::class, 'ijih_manuscript_submission'])->name('ijih.manuscript.submission');
+Route::get('/college-of-nursing/study-material', [NursingController::class, 'nursing_study_material'])->name('nursing.study.material');
 
 // Law
 Route::get('/college-of-law-and-legal-studies', [LawController::class, 'index'])->name('law.home');
@@ -760,6 +1023,7 @@ Route::get('/college-of-law-and-legal-studies/syllabus', [LawController::class, 
 Route::get('/college-of-law-and-legal-studies/principal', [LawController::class, 'law_principal'])->name('law.principal');
 Route::get('/college-of-law-and-legal-studies/dean', [LawController::class, 'law_dean'])->name('law.dean');
 Route::get('/college-of-law-and-legal-studies/crills', [LawController::class, 'law_crills'])->name('law.crills');
+Route::get('/college-of-law-and-legal-studies/study-material', [LawController::class, 'law_study_material'])->name('law.study.material');
 
 // Physical Education
 Route::get('/tmimt-college-of-physical-education', [PhysicaleducationController::class, 'index'])->name('physical_education.home');

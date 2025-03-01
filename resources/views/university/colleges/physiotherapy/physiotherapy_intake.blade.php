@@ -20,39 +20,14 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="text-center">1</td>
+                                <td class="text-center">1.</td>
                                 <td>BPT (Bachelor of Physiotherapy)</td>
-                                <td class="text-center">120</td>
+                                <td class="text-center">160</td>
                             </tr>
                             <tr>
-                                <td class="text-center">2</td>
-                                <td>MPT (Orthopaedics)</td>
-                                <td class="text-center">10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">3</td>
-                                <td>MPT (Neurosciences)</td>
-                                <td class="text-center">10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">4</td>
-                                <td>MPT (Cardiopulmonary)</td>
-                                <td class="text-center">10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">5</td>
-                                <td>MPT (Sports)</td>
-                                <td class="text-center">10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">6</td>
-                                <td>MPT(Paediatrics) (From Session 2023-24 Onwards)</td>
-                                <td class="text-center">10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">7</td>
-                                <td>MPT (Obstetrics and Gynaecology) (From Session 2023-24 Onwards)</td>
-                                <td class="text-center">10</td>
+                                <td class="text-center">2.</td>
+                                <td>MPT (Master of Physiotherapy)</td>
+                                <td class="text-center">40</td>
                             </tr>
                         </tbody>
                     </table>

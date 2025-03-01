@@ -17,7 +17,7 @@
                     </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/phd/phd_banner.png')}}" alt="" style="height:auto;" >
+                    <img src="{{asset('/assets/img/college_departments/dental/phd/publichealt.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
                     <p class="about-p mb-4">Our department provides accessible and affordable oral health care to people. It is committed to train and calibrate the undergraduate as well as postgraduate students in Public Health Dentistry by providing dental health education, screening and treatment camps on oral diseases for the outreach population tailored specifically on the basis of research on needs of the community.</p>
@@ -156,24 +156,23 @@
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="2">2</td>
-                                <td>RVG with intra oral radiography machine (55-70 kvp with digital compatibility) (FDA Approved)</td>
+                                <td>Autoclaves</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="3">3</td>
-                                <td>100 kvp Extra oral radiography machine</td>
+                                <td>Ultrasonic Cleaner</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="4">4</td>
-                                <td>Panoramic radiography (OPG) machine with cephalometric and TMJ attachment with printer (Digital compatibility)
-                                </td>
+                                <td>Needle Burner with Syringe Cutter</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="5">5</td>
-                                <td>Intra-oral camera</td>
+                                <td>MOBILE CLINIC</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="6">6</td>
-                                <td>Pulp tester</td>
+                                <td>Mobile dental van</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="7">7</td>
@@ -181,32 +180,13 @@
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="8">8</td>
-                                <td>Punch biopsy tool</td>
+                                <td>Intraoral X-Ray</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="9">9</td>
-                                <td>Biopsy equipment</td>
+                                <td>Glass bead sterilizers</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="10">10</td>
-                                <td>Surgical trolley</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="11">11</td>
-                                <td>Emergency medicines kit</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="12">12</td>
-                                <td>Extra oral cassettes with intensifying screens (Conventional and rare earth)</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="13">13</td>
-                                <td>Lead screens</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="14">14</td>
-                                <td>Lead aprons</td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>
@@ -219,70 +199,48 @@
                             </tr>
                         </thead>
                         <tbody>
+                        <tr>
+                                <td class="text-center" sdval="10">10</td>
+                                <td>Compressor</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center" sdval="11">11</td>
+                                <td>Metal Cabinet</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center" sdval="12">12</td>
+                                <td>Portable Dental Chair</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center" sdval="13">13</td>
+                                <td>Stabilizer</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center" sdval="14">14</td>
+                                <td>Generator</td>
+                            </tr>
                             <tr>
                                 <td class="text-center" sdval="15">15</td>
-                                <td>Lead gloves</td>
+                                <td>Water Tank</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="16">16</td>
-                                <td>Radiographic filters (Conventional and rare earth)</td>
+                                <td>Oxygen Cylinder</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="17">17</td>
-                                <td>Dark room with safe light facility</td>
+                                <td>Public Address System</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="18">18</td>
-                                <td>Automatic radiographic film processors</td>
+                                <td>TV and Video Cassette player (pendrive)</td>
                             </tr>
                             <tr>
                                 <td class="text-center" sdval="19">19</td>
-                                <td>Radiographic film storage lead containers</td>
+                                <td>Demonstration models (minimum)</td>
                             </tr>
-                            <tr>
-                                <td class="text-center" sdval="20">20</td>
-                                <td>Thyroid collars</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="21">21</td>
-                                <td>Digital sphygmomanometer</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="22">22</td>
-                                <td>Digital blood glucose tester</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="23">23</td>
-                                <td>Digital camera</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="24">24</td>
-                                <td>X-ray viewer boxes</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="25">25</td>
-                                <td>Lacrimal probes</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="26">26</td>
-                                <td>Sialography cannula</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="27">27</td>
-                                <td>Illuminated mouth mirror and probe</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="28">28</td>
-                                <td>Computer with internet connection with attached printer and scanner</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="29">29</td>
-                                <td>LCD projector</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="30">30</td>
-                                <td>Refrigerator</td>
-                            </tr>
+                            
+
                         </tbody>
                     </table>
                 </div>

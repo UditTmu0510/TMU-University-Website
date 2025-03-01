@@ -95,7 +95,7 @@
                     <li>Immense opportunities to learn and grow faster than your colleagues working elsewhere.</li>
                     <li>Opportunities for the staff to take up responsibilities in various roles early in their careers
                         to groom them as potential leaders at various levels.</li>
-                    <li>Mediclaim Insurance/Accidental Insurance/ESI Benefits for staff</li>
+                    <li>Mediclaim Benefits/ ESIC Benefits for staff.</li>
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -142,7 +142,7 @@
                             <div class="card-body">
                                 <h4 class="card-title-job" style="text-align: justify;">Competitive Compensation and Benefits</h4>
                                 <!-- <p class="card-text"><span data-from="1" data-to="10" data-refresh-interval="4" data-speed="1000"></span></p> -->
-                                <p class="card-text text-color" style="text-align: justify;">We offer attractive salary packages that compete with the best in the academia-industry, along with exceptional benefits including health insurance, retirement plans, and generous leave policies.</p>
+                                <p class="card-text text-color" style="text-align: justify;">We offer attractive salary packages that compete with the best in the academia-industry, along with exceptional benefits including medical benefits, retiral benfits and generous leave policies.</p>
                             </div>
                         </div>
                     </div>
@@ -193,15 +193,6 @@
         <span>Asked Questions</span>
     </h2>
     <hr class="horizontal-line">
-
-    <button class="careers-accordion">Does University provide transport?<span class="icon">+</span></button>
-    <div class="panel">
-        <p>Yes, Teerthanker Mahaveer University offers pick and drop facility to students and staff coming from within
-            the radial distance of 100 Km. For added safety, the buses have camera surveillance inside it too.</p>
-    </div>
-    <!-- Add the horizontal line here -->
-    <hr class="horizontal-line">
-
     <button class="careers-accordion">Working environment<span class="icon">+</span></button>
     <div class="panel">
         <p>The work environment is truly conductive & intriguing to develop you professionally and personally. We have a

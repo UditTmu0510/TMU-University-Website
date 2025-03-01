@@ -25,11 +25,26 @@
                                 <tr>
                                     <td class="text-center">1</td>
                                     <td>MBBS</td>
+                                    <td>2024-25</td>
+                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}"
+                                            target="_blank" data-original-title="View"><i
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
+                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}"
+                                            download="MBBS_students_Batch_2024_25.pdf"
+                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td>MBBS</td>
                                     <td>2023-24</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}"
                                             download="UG_MBBS_2023_24_batch.pdf"
@@ -38,12 +53,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">2</td>
+                                    <td class="text-center">3</td>
                                     <td>MBBS</td>
                                     <td>2022-23</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa fa-file-text-o icon-lg"></i></a>
+                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
                                     </td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}"
@@ -53,12 +68,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">3</td>
+                                    <td class="text-center">4</td>
                                     <td>MBBS</td>
                                     <td>2021-22</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa fa-file-text-o icon-lg"></i></a>
+                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
                                     </td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}"
@@ -68,12 +83,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">4</td>
+                                    <td class="text-center">5</td>
                                     <td>MBBS</td>
                                     <td>2020-21</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa fa-file-text-o icon-lg"></i></a>
+                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
                                     </td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}"
@@ -84,13 +99,13 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="text-center">5</td>
+                                    <td class="text-center">6</td>
                                     <td>MBBS</td>
                                     <td>2019-20</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG Students 2019-20.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG Students 2019-20.pdf')}}"
                                             download="UG Students 2019-20.pdf"
@@ -100,13 +115,13 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="text-center">6</td>
+                                    <td class="text-center">7</td>
                                     <td>MBBS</td>
                                     <td>2018-19</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/2a-List-of-UG-Students-2018-19.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/2a-List-of-UG-Students-2018-19.pdf')}}"
                                             download="2a-List-of-UG-Students-2018-19.pdf"
@@ -115,13 +130,13 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">7</td>
+                                    <td class="text-center">8</td>
                                     <td>MBBS</td>
                                     <td>2017-18</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG-Students-2017-18.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG-Students-2017-18.pdf')}}"
                                             download="UG-Students-2017-18.pdf"
@@ -131,13 +146,13 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="text-center">8</td>
+                                    <td class="text-center">9</td>
                                     <td>MBBS</td>
                                     <td>2016-17</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/Students-admitted-merit-wise-in-session-2016-17.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/Students-admitted-merit-wise-in-session-2016-17.pdf')}}"
                                             download="Students-admitted-merit-wise-in-session-2016-17.pdf"
@@ -146,13 +161,13 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">9</td>
+                                    <td class="text-center">10</td>
                                     <td>MBBS</td>
                                     <td>2015-16</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG-Students-2015.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/UG-Students-2015.pdf')}}"
                                             download="UG-Students-2015.pdf"
@@ -185,7 +200,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/pg/PG_Students_2023_24_batch.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/pg/PG_Students_2023_24_batch.pdf')}}"
                                             download="PG_Students_2023_24_batch.pdf"
@@ -200,7 +215,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2022_23.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2022_23.pdf')}}"
                                             download="MD_MS_2022_23.pdf"
@@ -215,7 +230,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2021_22.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2021_22.pdf')}}"
                                             download="MD_MS_2021_22.pdf"
@@ -230,7 +245,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2020_21.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/MD_MS_2020_21.pdf')}}"
                                             download="MD_MS_2020_21.pdf"
@@ -246,7 +261,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/PG Students 2019-20.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/PG Students 2019-20.pdf')}}"
                                             download="PG Students 2019-20.pdf"
@@ -262,7 +277,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/2c-List-of-PG-Students-2018-19.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/2c-List-of-PG-Students-2018-19.pdf')}}"
                                             download="2c-List-of-PG-Students-2018-19.pdf"
@@ -277,7 +292,7 @@
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/PG-students-2017-18.pdf')}}"
                                             target="_blank" data-original-title="View"><i
-                                                class="fa fa-file-text-o icon-lg"></i></a></td>
+                                                class="fa-solid fa-file icon-lg"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/medical/ug/PG-students-2017-18.pdf')}}"
                                             download="PG-students-2017-18.pdf"

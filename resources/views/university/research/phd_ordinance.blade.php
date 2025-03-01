@@ -6,7 +6,7 @@
     <div class="container">
 
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span> Ph.D. </span><span> Ordinance</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5" style="text-transform:none;"><span> Ph.D. </span><span> ORDINANCE</span></h1>
 
             <div class="row">
                 <div class="col-md-12 text-justify">
@@ -35,6 +35,25 @@
                             <tbody>
                                 <tr>
                                     <td class="text-center">1</td>
+                                    <td>First Amendment in Ordinance for Degree of Doctor of Philosophy (PhD) - 2021&nbsp;&nbsp;<span class="badge badge-danger badge-pill"
+                                    style="background-color:red;">New</span><br>
+                                        <b><i>[Approved by Academic Council in its meeting dated 27/07/2024]</i></b></br>
+                                    </td>
+                                    <td class="text-center">
+                                        <a data-tooltip="" data-placement="bottom"
+                                            href="{{asset('/assets/pdf/research/First_Amendment_PhD_Ordinance_2021.pdf')}}" target="_blank"
+                                            data-original-title="View"><i
+                                                class="fa-solid fa-file-pdf"></i></a>
+                                    </td>
+                                    <td class="text-center">
+                                        <a data-tooltip="" data-placement="bottom"
+                                            href="{{asset('/assets/pdf/research/First_Amendment_PhD_Ordinance_2021.pdf')}}"
+                                            download="phd_ordinance_2009.pdf')}}" data-original-title="Download"><i
+                                                class="fa fa-download icon-lg"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">2</td>
                                     <td>Ordinance for The Degree of Doctor of Philosophy<br><b><i>[Approved
                                                 by Academic Council in its meeting dated
                                                 08/08/2009]</i></b></br></td>
@@ -42,7 +61,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/phd_ordinance_2009.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -52,7 +71,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">2</td>
+                                    <td class="text-center">3</td>
                                     <td>Revised Ordinance for The Degree of Doctor of
                                         Philosophy<br><b><i>[Approved by Academic Council in its meeting
                                                 dated 25/03/2017]</i></b></br></td>
@@ -60,7 +79,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/phd_ordinance_2017.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -71,7 +90,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="text-center">3</td>
+                                    <td class="text-center">4</td>
                                     <td>Revised Ordinance for The Degree of Doctor of
                                         Philosophy<br><b>[Amendments in Clause 8 w.e.f. January 01,
                                             2020]</b><br><b><i>[Approved by Academic Council in its meeting
@@ -80,7 +99,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/phd_ordinance_2017_revised.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -91,7 +110,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td class="text-center">4</td>
+                                    <td class="text-center">5</td>
                                     <td>Revised Ordinance for The Degree of Doctor of
                                         Philosophy&nbsp;&nbsp;<span class="badge badge-danger badge-pill"
                                             style="background-color:red;">New</span><br /><b><i>[Approved by
@@ -101,7 +120,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/phd_ordinance_2021-22.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -113,26 +132,26 @@
 
 
                                 <tr>
-                                    <td class="text-center">5</td>
+                                    <td class="text-center">6</td>
                                     <td>University Ordinance for Promotion of Academic Integrity and
                                         Prevention of Plagiarism</td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom" target="_blank"
                                             href="{{asset('/assets/pdf/research/ordinance_prevention_of_plagiarism.pdf')}}"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a></td>
+                                                class="fa-solid fa-file-pdf"></i></a></td>
                                     <td class="text-center"><a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/ordinance_prevention_of_plagiarism.pdf')}}"
                                             download="ordinance_prevention_of_plagiarism.pdf')}}" data-original-title="Download"><i
                                                 class="fa fa-download icon-lg"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">6</td>
+                                    <td class="text-center">7</td>
                                     <td>Standard Operating Procedure for the award of Ph.D. Degree</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/sop_award_of_degree.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -142,13 +161,13 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">7</td>
+                                    <td class="text-center">8</td>
                                     <td>Operational details of Research Fellowship for the Research Scholars
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/research_fellowship.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -158,14 +177,14 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">8</td>
+                                    <td class="text-center">9</td>
                                     <td>Standard Operating Procedure of Ph.D Registration, Coursework and
                                         Performance Monitoring</td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/sop-registration_coursework_progress monitoring.pdf')}}"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -175,7 +194,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">9</td>
+                                    <td class="text-center">10</td>
                                     <td>Standard Operating Procedure for the award of
                                         Ph.D.Degree&nbsp;&nbsp;<span class="badge badge-danger badge-pill"
                                             style="background-color:red;">New</span><br /><b><i>[Approved by
@@ -185,7 +204,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/Approved_PhD_SOPs_2020.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -198,7 +217,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <h4 class="tmu-text-primary mt-2 ps-4 text-justify"><span>Annexure of Standard Operating Procedure </span><span> for the award
+                    <!-- <h4 class="tmu-text-primary mt-2 ps-4 text-justify"><span>Annexure of Standard Operating Procedure </span><span> for the award
                             of Ph.D. Degree</span></h4>
                     <div class="table-responsive ps-4">
                         <table class="table table-bordered table-striped">
@@ -219,7 +238,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_1.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -236,7 +255,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_2.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -253,7 +272,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_3.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -268,7 +287,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_4.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -284,7 +303,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_5.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -299,7 +318,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_6.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -315,7 +334,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_7.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -331,7 +350,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_8.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -347,7 +366,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_9.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -363,7 +382,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_10a.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -381,7 +400,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_10b.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -398,7 +417,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_11.pdf')}}" target="_blank"
                                             data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -414,7 +433,7 @@
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_12.pdf')}}" data-original-title="View">
                                             <i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -429,7 +448,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_13.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -445,7 +464,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
                                             href="{{asset('/assets/pdf/research/annexure_14.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -461,7 +480,7 @@
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom" targte="_blank"
                                             href="{{asset('/assets/pdf/research/annexure_15_phd.pdf')}}" data-original-title="View"><i
-                        class="fa-solid fa-file-pdf"></i></a>
+                                                class="fa-solid fa-file-pdf"></i></a>
                                     </td>
                                     <td class="text-center">
                                         <a data-tooltip="" data-placement="bottom"
@@ -471,7 +490,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

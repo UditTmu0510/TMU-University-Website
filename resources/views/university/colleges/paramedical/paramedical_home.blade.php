@@ -25,7 +25,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5  banner-main-heading">Welcome to <span style="font-weight:700!important;">College of Paramedical Sciences</span></h1>
+                    <h1 class=" mt-5 mb-5  banner-main-heading">Welcome to <span style="font-weight:700!important;">Teerthanker Mahaveer University </span>College of Paramedical Sciences</h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -156,7 +156,7 @@
                 <h2 class="college-main-heading">College of Paramedical Sciences: AMONG THE TOP ALLIED HEALTH SCIENCE COLLEGES</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of <a href="https://www.tmu.ac.in/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
+                        <p style="text-align: justify;">The College of <a href="/college-of-paramedical-sciences" target="_blank">Paramedical Sciences </a> was established in the year 2010 to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. The objective of the Paramedical Science programme is to ensure educational opportunities for developing skills.</p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">This comprehensive programme equips students with the skills and knowledge required to provide vital support to medical professionals, patients, and communities.  Our curriculum is designed in consultation with healthcare experts, ensuring students gain relevant skills and knowledge. With an emphasis on evidence-based practice, research, and innovation, our graduates are well-prepared for emerging trends and challenges.</p>
                         </div>
@@ -596,7 +596,7 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-    <h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+    <h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Teerthanker Mahaveer University College of Paramedical Sciences </span></h2>
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why TMU’s College of Paramedical Sciences is the Best Choice for You <span class="icon">+</span></button>

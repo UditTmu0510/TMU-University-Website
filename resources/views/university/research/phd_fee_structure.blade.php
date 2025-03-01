@@ -99,8 +99,7 @@
                                     fine at the rate of 9% p.a., on the tuition fee will be charged if the
                                     candidate exceeds the deadline.</li>
                                 <li>The above extension fee will not be applicable to women who fall under
-                                    the purview of Clause 11.3 of the <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017"
-                                        target="_blank">Ph.D. Ordinance</a> of the University.</li>
+                                    the purview of Clause 13.3 of the <span class="highlight p-0">Ph.D. Ordinance</span> of the University.</li>
                             </ol>
                         </div>
                     </div>
@@ -167,8 +166,7 @@
                                     fine at the rate of 9% p.a., on the tuition fee will be charged if the
                                     candidate exceeds the deadline.</li>
                                 <li>The above extension fee will not be applicable to women who fall under
-                                    the purview of Clause 11.3 of the <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017-revised"
-                                        target="_blank">Ph.D. Ordinance</a> of the University.</li>
+                                    the purview of Clause 13.3 of the <span class="highlight p-0">Ph.D. Ordinance</span> of the University.</li>
                             </ol>
                         </div>
                     </div>
@@ -235,7 +233,7 @@
                     <!--        fine at the rate of 9% p.a., on the tuition fee will be charged if the-->
                     <!--        candidate exceeds the deadline.</li>-->
                     <!--      <li>The above extension fee will not be applicable to women who fall under-->
-                    <!--        the purview of Clause 11.3 of the <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017"-->
+                    <!--        the purview of Clause 13.3 of the <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017"-->
                     <!--          target="_blank">Ph.D. Ordinance</a> of the University.</li>-->
                     <!--      <li>These guildelines will be effected from <strong> January TRAT-->
                     <!--          2024.</strong></li>-->
@@ -450,8 +448,7 @@
                                     February 01, 2022, a late fee fine at the rate of 9% p.a., on the
                                     tuition fee will be charged if the candidate exceeds the deadline.</li>
                                 <li style="text-align:justify">The above extension fee will not be
-                                    applicable to women who fall under the purview of Clause 11.3 of the <a
-                                        href="https://www.tmu.ac.in/tmu/phd-ordinance-2017" target="_blank">Ph.D. Ordinance</a> of the
+                                    applicable to women who fall under the purview of Clause 13.3 of the <span class="highlight">Ph.D. Ordinance</span> of the
                                     University.</li>
                                 <li style="text-align:justify">These guildelines will be effected from
                                     <strong> January TRAT 2024.</strong>

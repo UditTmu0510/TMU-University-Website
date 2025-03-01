@@ -44,6 +44,11 @@
             <a href="{{ route('physiotherapy.timetable') }}" class="custom-menu-item {{ setActive('physiotherapy.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('physiotherapy.study.material') }}" class="custom-menu-item {{ setActive('physiotherapy.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

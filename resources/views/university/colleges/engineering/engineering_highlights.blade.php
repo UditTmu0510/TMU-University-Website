@@ -48,7 +48,7 @@
                     <div class="timeline-item right wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Books & Journals</div>
-                            <p>The Faculty of Engineering has a collection of 38,046 books. Additionally, the library subscribes to 36 national journals and 4 international journals, offering a diverse range of resources for study and research.</p>
+                            <p>No. of books Hardcopy 48244, No. of volume 38188, No. of titles 4779, No. of Journals 37, No. of Magazine (National-03, International -58). Additionally, the library subscribes to 36 national journals and 4 international journals, offering a diverse range of resources for study and research.</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <div class="timeline-item left wow slideInLeft">
                             <div class="timeline-text">
                                 <div class="timeline-date">E-Journals & E-Books</div>
-                                <p>The Faculty of Engineering provides access to 1135 e-journals and 563 e-books through the EBSCO and DELNET databases, offering extensive digital resources for research and learning.</p>
+                                <p>The Faculty of Engineering provides access to 1135 e-journals and 1079 e-books through the EBSCO and DELNET databases, offering extensive digital resources for research and learning.</p>
                             </div>
                         </div>
                         <div class="timeline-item right wow slideInRight">
@@ -76,7 +76,7 @@
                         <div class="timeline-item right wow slideInRight">
                             <div class="timeline-text">
                                 <div class="timeline-date">Professional Membership</div>
-                                <p>The Faculty of Engineering holds memberships in several prestigious organizations, including the Engineering Council of India (ECI), the Indian Concrete Institute (ICI), IEEE, and other professional bodies.</p>
+                                <p>The Faculty of Engineering holds memberships in several prestigious organizations, including the Engineering Council of India (ECI), the Indian Concrete Institute (ICI), IEEE, Computer society of India (CSI) and other professional bodies.</p>
                             </div>
                         </div>
                         <div class="timeline-item left wow slideInLeft">
@@ -88,7 +88,13 @@
                         <div class="timeline-item right wow slideInRight">
                             <div class="timeline-text">
                                 <div class="timeline-date">Collaborators</div>
-                                <p>ALTTC(BSNL), RIT(Roorkee institute of technology), Ultratech cement, Aivancity</p>
+                                <p>ALTTC(BSNL), RIT(Roorkee institute of technology), Ultratech cement, Aivancity, ST IIT BOMBAY, Drishti Foundation IIT Indore</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left wow slideInLeft">
+                            <div class="timeline-text">
+                                <div class="timeline-date">Virtual Lab</div>
+                                <p>Nodal Center with an affliation with IIT Kanpur</p>
                             </div>
                         </div>
                     </div>

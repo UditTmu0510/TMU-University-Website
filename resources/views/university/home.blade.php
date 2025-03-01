@@ -407,7 +407,49 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>10 To 11, January</span>
+                                    <span>28, February</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Innovation & Incubation Cell, Faculty of Engineering, presents an inspiring Motivational Session by Successful Innovators featuring Mr. Pradeep Gupta, Assistant Professor, Animation Department, CCSIT. Join us on 3rd March 2025 (Monday) at LT 2 to explore his remarkable journey of innovation and success.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   Fcaulty of Engineering</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 03, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>12, February</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Teerthanker Mahaveer University, Moradabad, is hosting a National Conclave (Online) on "Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum" on Friday, February 21, 2025, from 3:30 PM to 5:00 PM via Zoom. The event will feature distinguished experts discussing strategies to integrate Indian Knowledge Systems into higher education curricula. This conclave aims to foster insightful discussions, share best practices, and enhance academic learning. All faculty, researchers, and students are encouraged to participate.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   Teerthanker Mahaveer University</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21, February</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>12, February</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Faculty of Allied Health Sciences and Faculty of Nursing, College of Nursing, is organising HEALTH FORCE 2025, an International Conference under the Institution’s Innovation Council, TMU. Scheduled for 27-28 February 2025 at the University Auditorium, TMU, Moradabad, the event will feature insightful discussions on healthcare advancements. Stay tuned for updates!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   College of Nurisng</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 27 To 28, February</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>08, January</span>
                                 </div>
                                 <div class="notice-content">
                                     <p>TMU Hospital is organising an INS-guided Hands-on Workshop on Cannulation Therapy in collaboration with Polymed, the College of Nursing, and the College of Paramedical Sciences, aimed at providing practical exposure to advanced technologies.</p>
@@ -415,13 +457,13 @@
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                    TMU Hospital</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 08, January</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10 To 11, January</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>07, January</span>
+                                    <span>06, January</span>
                                 </div>
                                 <div class="notice-content">
                                     <p>Join Mr. Earnest Lamuel, alumnus of the College of Nursing and Mental Health Nurse at Swansea Bay University Health Board, UK, for an alumni session on navigating the UK nursing registration process. Date: 7th January 2025, Time: 12:00 PM, Venue: College of Nursing, TMU. Gain valuable insights from his inspiring journey!</p>
@@ -548,20 +590,6 @@
                             <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
-                                    <span>09, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>CCSIT is organising a fest to celebrate Navratri. All faculty and staff members are cordially invited to attend the event.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, October</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
                                     <span>08, October</span>
                                 </div>
                                 <div class="notice-content">
@@ -588,148 +616,10 @@
                                 </div>
                             </div>
                             <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>20, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>IQAC, FOE is organising an Information Session on GATE & JAM Exams for Masters, in collaboration with IIT Roorkee, featuring Prof. Ankik Kumar Giri, Dept. of Mathematics, IIT Roorkee. All 3rd & final-year B.Tech/B.Sc students are invited.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>20, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of BCA and MCA, CCSIT is organising an online guest lecture on 'Digital Marketing & Social Media Strategies' by Mr Vikas Nain, Co-Founder of The Triad and Assistant Professor of Digital Marketing at PIET.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, September</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>15, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <a href="https://www.youtube.com/live/oIbTICMMljY?si=2q6wM_GInealA63g">
-                                        <p>Sri Sri Ravi Shankar is Live from Teerthanker Mahaveer University. Watch the live event.</p>
-                                    </a>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        TMU Campus</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16, September</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>12, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>CCSIT is organising a Mentorship-Mentee Programme in various skills, featuring Master Classes under the banner of the IEEE Student Branch, to promote IEEE awareness and skill development among students.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px" loading="lazy">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 13 to 17, September</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, September</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>Teerthanker Mahaveer University is honoured to host Gurudev Sri Sri Ravi Shankar for a transformative Youth Meet in association with The Art of Living. Contact for more information: +91 9259 33 7831.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        TMU Campus </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 16,
-                                        September </span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>29, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of Forensic Science is organising a guest lecture on 'Innovation in Crime Scene Investigation and Future Prospects of Forensic Science' by Dr Harsh Sharma, Retd. Director, State Forensic Science Laboratory, MP.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Paramedical College</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>TMU's NSS Unit is organising the 3rd Tiranga Yatra at 01:30 pm to celebrate India's 78th Independence Day. All students, teaching and non-teaching staff are requested to participate and make the event memorable.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        TMU Campus</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>14, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of Physiotherapy is organising an event titled 'AI & Independence Extravaganza,' featuring Mr Shivam Kashyap, a Soft Skill Trainer, as the speaker.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        Dept. of Physiotherapy </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 14, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>08, August</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Free Thinkers Club, Department of Humanities, is organising a Speech Competition and Poem Recitation on the occasion of Independence Day. Register by 8th August. Contact us for more details.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT Campus</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, August</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-
                         </div>
                     </div>
                 </aside>
-
-
-
             </div>
-            <!-- 
-												Side Menu Code Ends Here
-											 -->
-
-
         </div>
     </div>
 </section><!-- #content end -->
@@ -764,7 +654,16 @@
             <div class="thumb" onclick="displayReviewByIndex(3)" data-bg="{{ asset('assets/img/department/alumni/people/4.png') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(4)" data-bg="{{ asset('assets/img/department/alumni/people/8.jpg') }}"></div>
             <div class="thumb" onclick="displayReviewByIndex(5)" data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
+            <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+            <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
+        </div>
         </div>
     </div>
 
@@ -822,7 +721,7 @@
                     <a onclick="showStory(2)"><img src="./assets/img/university/testimonial-thumbnail/deeksha-rani.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Deeksha rani</p>
-                        <p class="text-center mb-0">B.A.-B.E.D(2021 - 2024)</p>
+                        <p class="text-center mb-0">BA-B Ed (Integrated)(2021 - 2024)</p>
 
                     </div>
 
@@ -836,7 +735,7 @@
                     <a onclick="showStory(1)"><img src="./assets/img/university/testimonial-thumbnail/navodita-bisht.webp" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Navodita Bisht</p>
-                        <p class="text-center mb-0">B.A.-B.E.D(2022 - 2025)</p>
+                        <p class="text-center mb-0">BA-B Ed (Integrated)(2022 - 2025)</p>
 
                     </div>
 
@@ -849,7 +748,7 @@
                     <a onclick="showStory(4)"><img src="{{asset('assets/img/university/testimonial-thumbnail/gauri_shrimal.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Gauri Shrimal</p>
-                        <p class="text-center mb-0">M.B.B.S(2021 - 2026)</p>
+                        <p class="text-center mb-0">MBBS(2021 - 2026)</p>
 
                     </div>
 
@@ -874,7 +773,7 @@
                     <a onclick="showStory(3)"><img src="{{asset('assets/img/university/testimonial-thumbnail/kesar_Khanna.webp')}}" class="card-img-top" alt="..." loading="lazy"></a>
                     <div class="card-body d-flex flex-column align-items-center">
                         <p class="tmu-color fw-bold">Kesar Khanna</p>
-                        <p class="text-center mb-0">M.B.B.S(2020 - 2025)</p>
+                        <p class="text-center mb-0">MBBS(2020 - 2025)</p>
 
                     </div>
 

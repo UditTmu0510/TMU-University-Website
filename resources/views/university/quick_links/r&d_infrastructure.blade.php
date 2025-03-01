@@ -20,7 +20,7 @@
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                <h4 class="fs-14">TMU Research & Development Center</h4><span class="fst-normal fs-12 mb-2"><i
                     class="fa-solid fa-location-dot"></i> TMU Campus</span>
                 <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra1.jpg')}}"> Download Geo Tag Image</div>
               </div>
@@ -36,7 +36,7 @@
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                <h4 class="fs-14">TMU Research & Development Center</h4><span class="fst-normal fs-12 mb-2"><i
                     class="fa-solid fa-location-dot"></i> TMU Campus</span>
                 <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra3.jpg')}}"> Download Geo Tag Image</div>
               </div>
@@ -52,7 +52,7 @@
             </div>
             <div class="team-desc p-2">
               <div class="team-title pt-0">
-                <h4 class="fs-14">Day Care Centre</h4><span class="fst-normal fs-12 mb-2"><i
+                <h4 class="fs-14">TMU Research & Development Center</h4><span class="fst-normal fs-12 mb-2"><i
                     class="fa-solid fa-location-dot"></i> TMU Campus</span>
                 <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/department/rdc/rdc_infra2.jpg')}}"> Download Geo Tag Image</div>
               </div>

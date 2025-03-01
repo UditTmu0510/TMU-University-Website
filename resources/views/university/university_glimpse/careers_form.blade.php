@@ -130,7 +130,20 @@
                         </select>
                         <div class="invalid-feedback">Department is required</div>
                     </div>
+
+                    <div id="facultyDiv" class="col-md-6" style="display: none;">
+                        <label for="faculty" class="form-label">Faculty</label>
+                        <select class="form-select" id="faculty" name="faculty" required>
+                            <option value="">Choose...</option>
+
+                        </select>
+                    </div>
+
                 </div>
+
+
+
+
             </div>
 
 
@@ -791,6 +804,56 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<!-- Faculty -->
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let designationDropdown = document.getElementById("designations");
+        let facultyDropdown = document.getElementById("faculty");
+        let facultyDiv = document.getElementById("facultyDiv"); // Faculty container div
+
+        // Ensure faculty field is initially hidden and disabled
+        facultyDiv.style.display = "none";
+        facultyDropdown.disabled = true;
+
+        designationDropdown.addEventListener("change", function() {
+            let selectedDesignationId = this.value; // Get the selected designation ID
+            console.log("Selected Designation ID:", selectedDesignationId); // Debugging
+
+            if (selectedDesignationId === "59") { // Check for ID 59
+                facultyDiv.style.display = "block"; // Show faculty field
+                facultyDropdown.disabled = false;
+                fetchFaculties(selectedDesignationId);
+            } else {
+                facultyDiv.style.display = "none"; // Hide faculty field
+                facultyDropdown.disabled = true;
+                facultyDropdown.innerHTML = '<option value="">Choose...</option>'; // Reset options
+            }
+        });
+
+        function fetchFaculties(designationId) {
+            let facultiesUrl = `{{ route('get.faculties') }}?designation_id=${designationId}`;
+            console.log("Fetching faculties from:", facultiesUrl); // Debugging
+
+            fetch(facultiesUrl)
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Faculties received:", data); // Debugging
+                    facultyDropdown.innerHTML = '<option value="">Choose...</option>'; // Reset options
+
+                    data.forEach(faculty => {
+                        let option = new Option(faculty.fy_name, faculty.fy_id);
+                        facultyDropdown.appendChild(option);
+                    });
+                })
+                .catch(error => console.error("Error fetching faculties:", error));
+        }
+    });
+</script>
+
+
+<!-- Departments -->
 <script>
     $(document).ready(function() {
         // Fetch departments on college selection

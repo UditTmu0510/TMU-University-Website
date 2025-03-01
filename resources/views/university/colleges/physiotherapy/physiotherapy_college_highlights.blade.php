@@ -17,13 +17,13 @@
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
                             <div class="timeline-date">2010</div>
-                            <p> Founded in 2010, the College offers programmes aimed at helping patients maintain, recover, or improve their physical abilities, contributing to rehabilitative medicine.</p>
+                            <p> Founded in 2010, the Department offers programmes aimed at helping patients maintain, recover, or improve their physical abilities, contributing to rehabilitative medicine.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Faculty Strength</div>
-                            <p> The Department of Physiotherapy boasts a robust faculty strength of 11 (Eleven) highly
+                            <p> The Department of Physiotherapy boasts a robust faculty strength of 17 (Seventeen) highly
                                 qualified and experienced members.</p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                     <div class="timeline-item left wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Seminar Halls</div>
-                            <p>TMU Department of Physiotherapy has one seminar hall.</p>
+                            <p>TMU Department of Physiotherapy has two (02) seminar halls.</p>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,7 @@
                             <div class="timeline-text">
                                 <div class="timeline-date">Hospital Attachment</div>
                                 <p> Practical exposure at 900+ bedded Teerthanker Mahaveer multi
-                                    super-specialty Hospital &
-                                    Research Centre, and in various super - specialty Hospitals across the
+                                    super-specialty Hospital & Research Centre, and in various super - specialty Hospitals across the
                                     India.</p>
                             </div>
                         </div>

@@ -15,7 +15,7 @@
                     <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/mds-prosthodontics-crown-bridge') }}">The Department of Prosthodontics</a>  is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
                 <div class="image-content text-center p-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/pcb/pcb_banner.jpg')}}" alt="">
+                    <img src="{{asset('/assets/img/college_departments/dental/pcb/prostho.jpg')}}" alt="">
                 </div>
                 <div class="container p-3 text-justify">
                     <p class="about-p mb-4">The department provides specialized dental treatment for patients aspiring artificial replacement of teeth and other structures in the head and neck region. It is a very vast department covering various fields like Complete Denture, Removable partial Denture, Fixed Partial Denture, Maxillo-Facial Prosthodontics and Implantology. In addition to these, the subject of Dental Materials is also taught in the department to the BDS students.</p>
@@ -38,7 +38,7 @@
                         <h3 class="tmu-text-primary mb-2"><span>Research & </span><span>Academic Activities</span></h3>
                         <p class="mb-2 text-justify">The Department of Prosthodontics has post-graduation(M.D.S) intake of five per each year, which sums up to a total of 15 post graduate students pursuing MDS course at one time.
                             Various in-vitro and in-vivoresearch studies are conducted in the department on various materials, implants, fixed partial dentures etc. Scientific forums are conducted by the department oftenly about innovative studies to enlighten the knowledge of students.
-                            Seminars and Journal Clubs are conducted at regular intervals to update the student’s knowledge on research, innovative studies and recent trendz.</p>
+                            Seminars and Journal Clubs are conducted at regular intervals to update the student’s knowledge on research, innovative studies and recent trends.</p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                             <div class="col-md-4">
                                 <ul class="m-ol-list ps-5 align-middle">
                                     <li>Implants</li>
-                                    <li>MaxilFull Mouth Rehabilitation</li>
+                                    <li>Full Mouth Rehabilitation</li>
                                     <li>Maxillofacial Prosthesis</li>
                                 </ul>
                             </div>

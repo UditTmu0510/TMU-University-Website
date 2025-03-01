@@ -73,9 +73,11 @@ class TmuController extends Controller
     public function fetch_programmes(Request $request)
     {
         $cd_id = $request->cd_id;
+        
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
             ->where('status', 'Y')->get();
+            
 
         // Check if any records are found
         if ($programs->isEmpty()) {
@@ -123,12 +125,18 @@ class TmuController extends Controller
     {
 
         $programme = Programmes::where('page_slug', $slug)->firstOrFail();
+        if ($programme->status === 'N') {
+            abort(404); // Return a 404 error if the programme is not visible
+        }
+        
         $cd_id = $programme->cd_id;
+        
+
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
         $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
         $recruiters = Recruiters::where('cd_id', $cd_id)->where('display_college_main', 'Y')->where('status', 'Y')->get();
-        return view('university.programme.programme_info_new', compact('programme', 'fee_details', 'faqs', 'recruiters'));
+        return view('programme.programme', compact('programme', 'fee_details', 'faqs', 'recruiters'));
     }
 
     public function university_scholarship()
@@ -233,7 +241,7 @@ class TmuController extends Controller
     {
 
 
-        
+
         $news = News::where('status', 1)
             ->where('category', 'IIC')
             ->select('event_title', 'event_date', 'ti_path', 'ei1_path', 'n_slug', 'monaco_image_path')
@@ -388,6 +396,16 @@ class TmuController extends Controller
     public function nss_coordinator()
     {
         return view('university.nss.nss_our_coordinator');
+    }
+
+    public function adopted_village()
+    {
+        return view('university.nss.adopted_village');
+    }
+
+    public function nss_commitee()
+    {
+        return view('university.nss.nss_commitee');
     }
 
     // NEP

@@ -11,14 +11,14 @@
 		<section class="about-section bg-light mt-4">
 			<div class="container">
 				<div class="text-content p-4">
-					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral </span><span>
-							Pathology & Microbiology</span></h1>
+					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral Maxillofacial </span><span>
+							Pathology & Oral Microbiology</span></h1>
 					<p class="about-p mb-4 text-justify">The diseases of the mouth ("oral cavity" or "stoma"), jaws ("gnath"), and associated tissues such as salivary glands, temporomandibular joints, facial muscles, and perioral skin are referred to as oral and maxillofacial pathology. The branch of oral and maxillofacial pathology is concerned with the diagnosis and investigation of illnesses affecting the oral and maxillofacial area, as well as their causes and consequences. It is sometimes regarded a dental and pathological speciality.
 						Oral Pathology is a field that attempts to link human biology to disease signs and symptoms.
 					</p>
 				</div>
 				<div class="image-content text-center p-4">
-					<img src="{{asset('/assets/img/college_departments/dental/opm/opm_banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/dental/opm/oral-pathology.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4 text-justify">The <a href="{{ url('/programme/mds-oral-pathology') }}">Department of Oral Pathology and Microbiology </a>  is responsible for teaching Dental Anatomy, Embryology, and Oral Histology to first-year BDS students, as well as Oral Pathology and Microbiology to second and third-year BDS students.</p>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14"> Department of Oral Pathology & Microbiology </h4>
+                                <h4 class="fs-14"> Department of Oral Maxillofacial Pathology & Oral Microbiology </h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm4.jpg')}}" download>
                                     Download Geo Tag Image
@@ -64,7 +64,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14"> PG Section<br/>&nbsp;</h4>
+                                <h4 class="fs-14"> Haematology Lab<br/>&nbsp;</h4>
                                 <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm5.jpg')}}" download>
                                     Download Geo Tag Image
@@ -98,7 +98,7 @@
                         </div>
                         <div class="team-desc p-2">
                             <div class="team-title pt-0">
-                                <h4 class="fs-14">UG Section <br/>&nbsp;</h4>
+                                <h4 class="fs-14">Histopathology Lab <br/>&nbsp;</h4>
                                     <span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> Dental College and Research Centre, TMU Campus</span>
                                     <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/dental/opm/geotag/opm7.jpg')}}" download>
                                         Download Geo Tag Image

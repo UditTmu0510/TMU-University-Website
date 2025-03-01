@@ -7,14 +7,14 @@
       <section class="about-section bg-light mt-3">
         <div class="container">
           <div class="text-content p-2">
-            <h1 class="mb-2 tmu-text-primary tmu-page-heading pt-md-3"><span>TMU Approvals:  </span><span> Statutory Compliance Details</span>
+            <h1 class="mb-2 tmu-text-primary tmu-page-heading pt-md-3"><span>TMU Approvals:  </span><span> 'Statutory Compliance Details'</span>
             </h1>
             <p class="about-p mb-3">The Teerthanker Mahaveer University, established by an 'Act' of the
               Government of
               Uttar Pradesh, and approved by the <strong class="fs-14"><a
-                  href="http://www.ugc.ac.in/privateuniversitylist.aspx?id=33&Unitype=3">University
+                  href="http://www.ugc.ac.in/" target="_blank">University
                   Grants Commission
-                  (UGC)</a></strong>, since inception in 2008, is the preferred destination for
+                  (UGC)</a></strong>, since its inception in 2008, is the preferred destination for
               students of modern
               sciences and myriad subjects in languages and arts.</p>
           </div>
@@ -22,7 +22,7 @@
             <h3 class="tmu-text-primary mb-1"><span>State Government </span><span> Recognition</span></h3>
             <p class="mb-2">Teerthanker Mahaveer University is a Jain Minority State Private University
               established by
-              Act No. 30 to 2008 of the Government of Uttar Pradesh.</p>
+              Act No. 30 of 2008 of the Government of Uttar Pradesh.</p>
             <div class="row  mx-0">
               <ul class="list-group">
                 <li class="list-group-item">
@@ -105,10 +105,10 @@
             <div class="row g-0">
               <div class="col-lg-10 p-3">
                 <div class="card-body">
-                  <h3 class="tmu-text-primary mb-2"><span>UG Government</span><span> Recognition</span></h3>
-                  <p class="text-justify">To be a World Leader in the integration of teaching and learning, advancement
-                    of the knowledge base through research & leadership in service and outreach. Its visit to
-                    Teerthanker Mahaveer University to assess and evaluate its propels in accordance with UGC
+                  <h3 class="tmu-text-primary mb-2"><span>UGC </span><span> Recognition</span></h3>
+                  <p class="text-justify">To be a World Leader in the integration of teaching and learning, the advancement
+                    of the knowledge base through research and leadership in service and outreach. The UGC has visited
+                    Teerthanker Mahaveer University to assess and evaluate its progress in accordance with the UGC
                     (Establishment and Maintenance of Standards in Private University) Regulations, 2003.</p>
                 </div>
               </div>
@@ -191,9 +191,14 @@
                     <td>Bar Council of India (BCI)</td>
                   </tr>
                   <tr>
-                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication), Computer Science &
-                      Engineering</td>
-                    <td>All India Council for Technical Education (AICTE), National Board of Accreditation (NBA)
+                    <td>B.Tech. Computer Science & Engineering</td>
+                    <td>National Board of Accreditation (NBA)
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>B.Tech. (Mechanical, Civil, Electrical, Electronics & Communication)</td>
+                    <td>All India Council for Technical Education (AICTE)
                     </td>
                   </tr>
                   <tr>

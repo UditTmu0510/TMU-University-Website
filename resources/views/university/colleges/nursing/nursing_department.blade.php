@@ -8,7 +8,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Card -->
                                 <div class="card shadow-sm college_departments ">
-                                    <img src="{{asset('/assets/img/college_departments/nursing/5.jpg')}}" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/1.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -27,7 +27,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="{{asset('/assets/img/college_departments/nursing/1.jpg')}}" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/2.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -47,7 +47,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="{{asset('/assets/img/college_departments/nursing/2.jpg')}}" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/3.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 
@@ -83,7 +83,7 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="card shadow-sm college_departments">
-                                    <img src="{{asset('/assets/img/college_departments/nursing/3.jpg')}}" class="card-img-top"
+                                    <img src="{{asset('/assets/img/college_departments/nursing/5.jpg')}}" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
 

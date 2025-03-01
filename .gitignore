@@ -18,10 +18,13 @@ yarn-error.log
 /.idea
 /.vscode
 .DS_Store
-vendor
 */.DS_Store
+.htaccess
+/vendor
 # Ignore all files and folders in the public directory
+/vendor/*
 /public/*
+/public_old/*
 
 # Ignore style.css inside public
 !/public/style.css

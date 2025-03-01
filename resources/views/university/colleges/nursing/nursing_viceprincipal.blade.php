@@ -14,6 +14,7 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container py-5">
         <div class="row justify-content-center">
+            <h1 class="tmu-page-heading tmu-text-primary"><span>Form the Desk of </span><span>Principal</span></h1>
             <div class="col-lg-10">
                 <div class="principal-card23">
                     <i class="ph-bold ph-quotes principal-quote-icon23"></i>
@@ -27,7 +28,7 @@
                                 <div class="principal-image-decoration23"></div>
                             </div>
                             <div class="principal-info23">
-                                <h4 class="principal-name23">Dr (Prof) Jaslin M</h4>
+                                <h4 class="principal-name23">Prof. (Dr.) Jasline M</h4>
                                 <p class="principal-position23">
                                     <!-- <i class="ph-bold ph-briefcase me-2"></i> -->Acting Principal
                                 </p>
@@ -40,7 +41,7 @@
                                 As Principal of the esteemed Teerthanker Mahaveer College of Nursing, I would like to take a moment to address all of you and express my heartfelt gratitude for your unwavering dedication and commitment to excellence.
                                 <br>
                                 <br>
-                                We offer programmes ranging from Auxiliary Nurse Midwife (ANM), General Nursing and Midwifery (GNM), BSc Nursing, and postgraduate programmes like MSc Nursing and PhD in Nursing. Our college is recognised by the UP State Nursing Council and the Indian Nursing Council (INC).
+                                We offer programmes ranging from Auxiliary Nurse Midwife (ANM), General Nursing and Midwifery (GNM), BSc(N), and postgraduate programmes like MSc(N) and PhD in Nursing. Our college is recognised by the U.P. Nurses & Midwives Council and the Indian Nursing Council (INC).
                                 <br>
                                 <br>
                                 I want to express my deepest appreciation to our exceptional faculty members, who demonstrate extraordinary professionalism and adaptability in transitioning and grooming nursing students into competent healthcare professionals. To all our exceptional students, your unwavering passion for nursing and commitment to caring for others have made us proud. Their adaptability and perseverance in navigating the ever-changing healthcare landscape have been truly remarkable.

@@ -39,7 +39,7 @@
 						<td class="text-center">152</td>
 						<td class="text-center">152</td>
 						<td class="text-center">152</td>
-						<td class="text-center"></td>
+						<td class="text-center">152</td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
@@ -61,7 +61,7 @@
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
-						<td class="text-center"></td>
+						<td class="text-center">119</td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
@@ -80,7 +80,7 @@
 						<td class="text-center">106</td>
 						<td class="text-center">106</td>
 						<td class="text-center">106</td>
-						<td class="text-center"></td>
+						<td class="text-center">106</td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
@@ -98,7 +98,7 @@
 						<td class="text-center">111</td>
 						<td class="text-center">111</td>
 						<td class="text-center">111</td>
-						<td class="text-center"></td>
+						<td class="text-center">111</td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>
 						<td class="text-center"></td>

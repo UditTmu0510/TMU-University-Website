@@ -12,7 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to  <span style="font-weight:700!important;">the Faculty of </span> Engineering </h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to  <span style="font-weight:700!important;">Teerthanker Mahaveer University</span>College of Engineering </h1>
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
                 <div class="col-12 col-md-6">
@@ -31,9 +31,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span> Affiliated</span>
+                            <span> Affiliation</span>
                             <br>
-                            <span class="d-block pt-1">Engineering Council of India </span>
+                            <span class="d-block pt-1">AICTE</span>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span> Affiliated</span>
+                                        <span> Affiliation</span>
                                         <br>
-                                        <span class="d-block pt-1">Engineering Council of India </span>
+                                        <span class="d-block pt-1">AICTE</span>
                                     </div>
                                 </div>
                             </div>
@@ -126,10 +126,10 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">Teerthanker Mahaveer Faculty of Engineering (FOE),</h2>
+                <h2 class="college-main-heading">Teerthanker Mahaveer College of Engineering (COE),</h2>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;" class="mb-4">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech CS&E programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in UP.</b></p>
+                        <p style="text-align: justify;" class="mb-4">Welcome to the College of Engineering (COE) - where brilliance meets innovation. As an AICTE approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech. CSE programme is accredited (tier-1 category) by the National Board of Accreditation (NBA). 100% Placement assistance, and Global exposure, makes us the <b>Top Private Engineering College in Uttar pradesh.</b></p>
 
                         <a href="{{route('engineering.about.us')}}" class="tmu-btn btn-1 py-2">Know More!</a>
                     </div>
@@ -157,8 +157,8 @@
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>Affiliated with UGC, AICTE, and NBA.</li>
-                        <li>IEEE received activities based on the Branch Incentive Award 2022”.</li>
-                        <li>We ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
+                        <li>IEEE received the Branch Incentive Award 2022 for its activities.</li>
+                        <li>Ranked 71st among the top Government and Private Engineering Colleges in India by "DATAQUEST-2022".</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
@@ -172,15 +172,15 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>Get ready to explore Limitless Possibilities at FOE College!.</p>
+                    <p>Get ready to explore limitless possibilities at FOE College!.</p>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li><strong>Internship Opportunities: </Strong>Gain practical experience and enhance your skills through exclusive internship programmes offered.</li>
-                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, Ultra Tech Cement, HCL, Wipro, TCS, and many more. They visit TMU, opening doors to remarkable placement opportunities.</li>
+                        <li><strong>Connect with Renowned Companies: </Strong>Work with companies like L&T, Jubilant, UltraTech Cement, HCL, Wipro, TCS, and many more. These companies visit TMU, opening doors to exceptional placement opportunities.</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
                             <li><strong>Dedicated Corporate Resource Centre (CRC): </Strong>Our CRC tirelessly works to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career.</li>
-                            <li><strong>89% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to assist all our students in securing the best available jobs in their respective fields.</li>
+                            <li><strong>82% Placement Track Record: </Strong>We take pride in our exceptional placement record, striving to help all our students secure the best available jobs in their respective fields.</li>
                         </ul>
                         <p>Join FOE College, the epitome of excellence and the best private engineering college in Uttar Pradesh. Unleash your potential and build a rewarding future with us!</p>
                     </div>
@@ -197,7 +197,7 @@
                         <ul class="m-ol-list ps-4">
                             <li><strong>Professional Industry Connections: </Strong> Benefit from our strong ties, as we provide opportunities to connect with experts through workshops, seminars, and guest lectures. We have two Centres of Excellence, namely</li>
                             <ul class="m-ol-list ps-4">
-                                <li><strong>Centre of Excellence: </strong>Ultra-Tech. It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
+                                <li><strong>UltraTech Centre of Excellence: </strong> It aims to equip the civil engineering students with the ultra-modern equipment and industry relevant knowledge.</li>
                             </ul>
                         </ul>
                         <p>Join us at our prestigious institution, where your engineering aspirations will flourish, paving the way for a successful future. Together, let's make your mark in the engineering world! We are proud to be the best private engineering college in UP.</p>
@@ -207,12 +207,12 @@
                 <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4 mb-0">
-                        <li><strong>State-of-the-Art Labs:</strong> The Faculty of Engineering is equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation.</li>
+                        <li><strong>State-of-the-Art Labs:</strong> The College of Engineering is equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation.</li>
                         <li><strong>Industry-Academia Collaborations:</strong> The Engineering college enjoys strong partnerships with esteemed organisations like NVIDIA, BSNL, TCS-iON, Voltrans, and more. These collaborations foster research, development, and technology incubation, providing valuable opportunities for students.</li>
                     </ul>
                     <div class="read-more-content mt-1">
                         <ul class="m-ol-list ps-4">
-                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
+                            <li><strong>Leading University Partnerships:</strong> We are proud to be associated with renowned universities and institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IIT Bombay. These partnerships enhance our students' exposure to world-class resources and cutting-edge technologies.</li>
                             <li><strong>Live Project Opportunities:</strong> We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges.</li>
                         </ul>
                         <p style="text-align:justify">Experience a transformative engineering education that combines industry expertise, advanced infrastructure, and practical exposure. Join us at the top private engineering college in Moradabad.</p>
@@ -395,7 +395,7 @@
                                 alt="TMU collaboration with united resourcing">
 
                             <div class="card-body">
-                                <h3 class="collab-card-title">TCS iON - B.Tech (CSE) Data Science</h3>
+                                <h3 class="collab-card-title">TCS iON - B.Tech. (CSE) Data Science</h3>
                                 <p class="collab-card-text ">In this collaborative program, students receive training from industry experts at TCS iON, gaining valuable insights into real-world industry practices and acquiring the skills needed for better employment opportunities.
                                 </p>
                                 <button
@@ -411,7 +411,7 @@
                             <img class="collab-card-img" src="{{asset('assets/img/collaboration/engineering/2.png')}}"
                                 alt="TMU collaboration with whizhack">
                             <div class="card-body">
-                                <h3 class="collab-card-title">B.Tech (CSE) Applications development using cloud &
+                                <h3 class="collab-card-title">B.Tech. (CSE) Applications development using cloud &
                                     analytics platforms</h3>
                                 <p class="collab-card-text">Under this collaborative program, the students are trained
                                     and taught by
@@ -828,22 +828,22 @@
 
         <section>
             <div class="container mb-5 mt-5">
-                <h2 Class="tmu-text-primary text-center"><span> Why Choose </span><span>Faculty of Engineering</span></h2>
+                <h2 class="tmu-text-primary text-center"><span> Why Choose </span><span>Teerthanker Mahaveer University college of Engineering</span></h2>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-body">
                             <hr class="horizontal-line">
-                            <button class="careers-accordion"> Faculty of Engineering, among the top colleges in India for Engineering<span
+                            <button class="careers-accordion"> College of Engineering, among the top colleges in India for Engineering<span
                                     class="icon">+</span></button>
                             <div class="panel active">
-                                <p class="mb-2">Welcome to the Faculty of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech in CS&E is accredited under the tier-1 category by the National Board of Accreditation (NBA). We provide 100% placement assistance and foster global exposure.</p>
+                                <p class="mb-2">Welcome to the College of Engineering (FOE) - where brilliance meets innovation. As an AICTE-approved institute, we nurture bright minds in Engineering, Technology, and Sciences. Our B.Tech in CS&E is accredited under the tier-1 category by the National Board of Accreditation (NBA). We provide 100% placement assistance and foster global exposure.</p>
                             </div>
                             <hr class="horizontal-line">
 
                             <button class="careers-accordion"> Why TMU is the Best Choice for You <span class="icon">+</span></button>
                             <div class="panel">
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🏆 UGC-Approved with </span><span> NAAC-A Accreditation</span></h3>
-                                <p class="mb-2">TMU’s Faculty of Engineering is recognized for its high academic standards, ensuring you receive an education that meets global benchmarks.</p>
+                                <p class="mb-2">TMU’s College of Engineering is recognized for its high academic standards, ensuring you receive an education that meets global benchmarks.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 👩‍🏫 Experiential Learning by </span><span> Highly Qualified Faculties </span></h3>
                                 <p class="mb-2">Our expert faculty members are dedicated to providing practical, hands-on knowledge through innovative teaching methods, extensive research opportunities, and industry collaborations.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>🌐 Strong Industry </span><span> Connections</span></h3>
@@ -885,7 +885,7 @@
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Global Career </span><span> Prospects</span></h3>
                                 <p class="mb-2">Our strong industry connections and international collaborations open doors to global internships and placement opportunities, providing you with a competitive edge in the job market.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry Collaborations and </span><span>Real-World Exposure</span></h3>
-                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research</p>
+                                <p class="mb-2">Gain invaluable insights through our industry affiliations with leading organisations, which offer opportunities for internships, live projects, and collaborative research.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Dedicated Corporate </span><span> Resource Centre (CRC)</span></h3>
                                 <p class="mb-2">Our CRC works tirelessly to generate placements and training opportunities throughout the year, ensuring you are well-prepared for your career and have access to top employers.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> Remarkable Placement </span><span>Record</span></h3>
@@ -906,15 +906,15 @@
 
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>State-of-the-Art </span><span> Labs</span></h3>
                                 <p class="mb-2">Our engineering labs are equipped with advanced facilities, enabling students to engage in practical learning and hands-on experimentation. These labs are crucial for developing practical skills and fostering innovation.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Industry-Academia </span><span>Collaborations</span></h3>
                                 <p class="mb-2">We have strong partnerships with esteemed organisations like NVIDIA, BSNL, TCS-iON, and Voltrans, fostering research, development, and technology incubation. These collaborations provide valuable opportunities for students to work on cutting-edge projects and gain real-world experience.</p>
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>Leading University </span><span> Partnerships</span></h3>
                                 <p class="mb-2">Collaborations with renowned institutions such as IIT Kanpur, IIT Bombay, and Spoken Tutorial IITB enhance our students' exposure to world-class resources and cutting-edge technologies, ensuring they stay at the forefront of innovation.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Live Project </span><span> Opportunities</span></h3>
                                 <p class="mb-2">We encourage students to undertake live projects under the mentorship of experienced professionals. This invaluable experience enhances students' practical skills and prepares them for real-world challenges, making them industry-ready.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Life at TMU</span></h3>
                                 <p class="tmu-text-primary mb-1">&nbsp;Academic </span><span> Excellence</span></p>
-                                <p>TMU&rsquo;s Faculty of Engineering is dedicated to providing a rigorous academic curriculum combined with practical training, ensuring students are well-equipped to face the challenges of the engineering world.</p>
+                                <p>TMU&rsquo;s College of Engineering is dedicated to providing a rigorous academic curriculum combined with practical training, ensuring students are well-equipped to face the challenges of the engineering world.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Vibrant Campus </span><span> Life</span></h3>
                                 <p>Our campus is a hub of activities, from academic clubs and sports championships to cultural events and tech fests. Students have ample opportunities to explore their interests and develop holistically.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span>Comfortable </span><span> Accommodation</span></h3>
@@ -949,7 +949,7 @@
                             <hr class="horizontal-line">
                             <button class="careers-accordion">FAQs:<span class="icon">+</span></button>
                             <div class="panel">
-                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered by TMU's Faculty of Engineering?</span></h3>
+                                <h3 class="tmu-text-primary mb-1 fs-16"><span>1. What programs are offered by TMU's College of Engineering?</span></h3>
                                 <p class="mb-2">We offer a range of programs including Polytechnic, B.Tech, M.Tech, and Ph.D. with diverse specialisations tailored to meet industry demands.</p>
                                 <h3 class="tmu-text-primary mb-1 fs-16"><span> 2. How is the placement assistance at TMU?</span></h3>
                                 <p class="mb-2">We provide 100% placement assistance with an excellent track record. Our Corporate Resource Centre (CRC) works year-round to secure placement and training opportunities for our students, ensuring they are well-prepared for their careers.</p>

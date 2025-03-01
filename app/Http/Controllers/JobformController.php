@@ -21,9 +21,10 @@ class JobformController extends Controller
     {
 
         $colleges = DB::table('cd_name')->select('cd_id', 'cd_name')->get(); // Fetch colleges
+        $faculties = DB::table('faculties')->select('fy_id', 'fy_name')->where('status', 'Y')->orderBy('priority', 'ASC')->get(); // Fetch active faculties
 
 
-        return view('university.university_glimpse.careers_form', compact('colleges'));
+        return view('university.university_glimpse.careers_form', compact('colleges', 'faculties'));
     }
 
     // Store method
@@ -67,6 +68,13 @@ class JobformController extends Controller
                 // If there are no records yet, set $maxId to 0
                 $nextId = $maxId ? $maxId + 1 : 1;
 
+                // Additional validation: If "Dean (Faculty)" is selected, faculty is required
+                if ($request->designations == 59) { // Check by ID instead of text
+                    $request->validate([
+                        'faculty' => 'required|exists:faculties,fy_id'
+                    ]);
+                }
+                
                 // Now you can use $nextId as the new ID or for any logic
                 // For example, creating a new application with a custom ID logic
                 $applicationId = 'TMUHR-' . $nextId;
@@ -111,6 +119,7 @@ class JobformController extends Controller
                     'cd_id' => $request->colleges, // Store college ID
                     'department_id' => $request->departments, // Store department ID
                     'designation_id' => $request->designations,
+                    'faculty' => $request->designations === "Dean (Faculty)" ? 'required|exists:faculties,fy_id' : '',
                     'name' => $name,
                     'mobile_no' => $mobile_no,
                     'application_id' => $applicationId,
@@ -142,6 +151,10 @@ class JobformController extends Controller
                     'current_comp_date_of_leaving' => $current_comp_date_of_leaving,
                     'current_comp_date_of_leaving_reason' => $current_comp_date_of_leaving_reason
                 ];
+
+                if ($request->designations == 59) { // Check by ID
+                    $personalData['fy_id'] = $request->faculty;
+                }
 
                 // File uploads (if present)
                 $filePaths = [];
@@ -249,5 +262,16 @@ class JobformController extends Controller
             ->get();
 
         return response()->json($designations);
+    }
+
+    public function getFaculties()
+    {
+        $faculties = DB::table('faculties')
+            ->select('fy_id', 'fy_name')
+            ->where('status', 'Y')
+            ->orderBy('priority', 'ASC')
+            ->get();
+
+        return response()->json($faculties);
     }
 }

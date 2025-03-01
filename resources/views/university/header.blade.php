@@ -345,10 +345,14 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Sigmar&display=swap" rel="stylesheet">
+
 
     <!-- Canela Deck font  -->
-    <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'">
-    
+    <!-- <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'"> -->
+
     <script>
         // Function to load a stylesheet
         function loadStyleSheet(href) {
@@ -496,7 +500,7 @@
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
-                    <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
+                    <img src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
                     <span class="text">Admissions Open</span>
                 </div>

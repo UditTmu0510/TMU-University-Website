@@ -172,7 +172,7 @@
                     <h3>Placement/Internship</h3>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>
-                            <p class="p-0 m-0">Teerthanker Mahaveer University offers a personalised, supportive environment from admissions to placements. The college assists students in securing placement opportunities in artistic disciplines, including painting, sculpture, drawing, photography, printmaking, ceramics, graphic design, illustration, digital arts, film, animation, theatre, dance, music, and more.
+                            <p class="p-0 m-0">Teerthanker Mahaveer University offers a personalised, supportive environment from admissions to placements. The college assists students in securing placement opportunities in artistic disciplines, including painting, sculpture, drawing, photography, printmaking, ceramics, graphic design, illustration, digital arts, film, and more.
                         </li>
                         <li>
                             <p class="p-0 m-0">In the past years, our students have secured placement and training opportunities in top-notch advertising agencies worldwide namely, McCann, FCB Ulka, Ogilvy, Leo Burnett, and TBWA. Some of our students got government jobs in premier institutions like Jamia Millia Islamia, Delhi, Mangalayatan University, Aligarh, etc.
@@ -194,7 +194,7 @@
                             <p class="p-0 m-0">The College of Fine Arts blends modern art education and the curriculum is designed as per the NEP scheme of UP Higher Education, critically implementing each part of its with practical aspects, and hands-on training in fine arts.
                         </li>
                         <li>
-                            <p class="p-0 m-0">You will gain a strong foundation in traditional art forms including drawing, painting and sculpture, with extensive explorations in video, installation, performance, photography and digital imaging.
+                            <p class="p-0 m-0">You will gain a strong foundation in traditional art forms including drawing, painting and sculpture, with extensive explorations in video, installation, photography and digital imaging.
                         </li>
                     </ul>
                     <div class="read-more-content mt-1">

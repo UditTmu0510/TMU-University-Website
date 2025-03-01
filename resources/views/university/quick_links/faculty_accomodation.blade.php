@@ -12,7 +12,7 @@
               class="hero-image" alt="Campus View">
             <div class="content-overlay">
               <div class="container">
-                <h1 class="section-title d-none d-lg-block" style="color: white;">Faculty <span> Accomodation</span></h1>
+                <h1 class="section-title d-none d-lg-block" style="color: white;">Faculty <span> Accommodation</span></h1>
                 <div class="stat-box d-none d-lg-inline-block">
                   <div class="row">
                     <div class="col-md-4">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Faculty </span><span>Accomodation</span></h2>
+      <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Faculty </span><span>Accommodation</span></h2>
       <div class="row justify-content-center">
         <div class="col-lg-12 text-justify mb-2 mt-3">
           <p class="text-justify mb-2 mt-1 m-lg-3 mt-lg-5">
@@ -69,7 +69,7 @@
 
     <section class="amenities-section">
       <div class="container">
-        <h2 Class="tmu-text-primary mb-4 mt-5"><span>Accomodation </span><span>Amenities</span></h2>
+        <h2 Class="tmu-text-primary mb-4 mt-5"><span>Accommodation </span><span>Amenities</span></h2>
         <div class="amenities-carousel">
           <!-- Repeat this block for each amenity -->
           <div class="amenity-item">
@@ -142,7 +142,7 @@
     <section class="gallery-section">
       <div class="container">
         <div class="gallery-header">
-          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Faculty Accomodation </span><span>Gallery</span></h2>
+          <h2 Class="tmu-text-primary mb-2 mt-5"><span>Faculty Accommodation </span><span>Gallery</span></h2>
           <p class="lead">Explore our beautiful campus through these captivating images</p>
         </div>
 
@@ -153,7 +153,7 @@
               alt="Main Academic Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Vaishali Apartment</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -162,7 +162,7 @@
               alt="Engineering Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Shikhar Apartment </h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -172,7 +172,7 @@
               alt="Sports Complex">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Kailash Apartment Parking Area</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -181,7 +181,7 @@
               alt="Cricket Ground">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Faculty Housing Lawn</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -191,7 +191,7 @@
               alt="Central Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Girnar and Kailash Apartment</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -200,7 +200,7 @@
               alt="Digital Library">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Faculty Housing Lawn</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -210,7 +210,7 @@
               alt="Student Center">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Aerial View of Faculty Housing</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -219,7 +219,7 @@
               alt="Cafeteria">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Vaishali Apartment with Sports Complex</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
 
@@ -228,7 +228,7 @@
               alt="Hostel Block">
             <div class="gallery-item-info">
               <h3 class="gallery-item-title">Arihant Apartment</h3>
-              <p class="gallery-item-category">Faculty Accomodation</p>
+              <p class="gallery-item-category">Faculty Accommodation</p>
             </div>
           </div>
         </div>

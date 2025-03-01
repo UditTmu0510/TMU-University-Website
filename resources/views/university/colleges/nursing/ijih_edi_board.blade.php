@@ -86,7 +86,7 @@
                     <div class="card card-animation admin-cards">
                         <img src="{{asset('/uploads/employee_images/1727507256_nI3AchI1xz.jpg')}}" class="card-img-top" alt="S.P. Subhashini">
                         <div class="card-body text-center"> <!-- Added 'text-center' class -->
-                            <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof. S. P. Subhashini</span></h5>
+                            <h5 class="card-title tmu-text-primary fw-bold"><span></span><span> Prof. (Dr.) S.P. Subashini</span></h5>
                             <p class="card-text fs-14">Dean Nursing</p>
                             <p class="card-text fs-14">College of Nursing, TMU, Moradabad</p>
                             <p class="card-text fs-14">dean.nursing@tmu.ac.in</p>
@@ -141,7 +141,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. (Dr.) Navneet Kumar</span></h5>
                             <p class="card-text fs-14">Professor and Principal</p>
-                            <p class="card-text fs-14">College of Paramedical Sciences, TMU, Moradabad</p>
+                            <p class="card-text fs-14">College of Paramedical Sciences, <br>TMU, Moradabad</p>
                             <p class="card-text fs-14">principal.paramedical@tmu.ac.in</p>
                             <p class="card-text fs-14">9997378899</p>
                         </div>
@@ -153,7 +153,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Shivanee M. Kaul</span></h5>
                             <p class="card-text fs-14">HOD</p>
-                            <p class="card-text fs-14">Department of Physiotherapy, TMU, Moradabad</p>
+                            <p class="card-text fs-14">Department of Physiotherapy, <br>TMU, Moradabad</p>
                             <p class="card-text fs-14">principal.physiotherapy@tmu.ac.in</p>
                             <p class="card-text fs-14">9568232444</p>
                         </div>
@@ -170,7 +170,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof.(Dr.) Ram Kumar Garg</span></h5>
                             <p class="card-text fs-14">Professor & HOD</p>
-                            <p class="card-text fs-14">Department: Community Health Nursing</p>
+                            <p class="card-text fs-14">Department of Community Health Nursing</p>
                             <p class="card-text fs-14">Teerthanker Mahaveer College of Nursing, TMU, Moradabad</p>
                             <p class="card-text fs-14">ram.nursing@tmu.ac.in</p>
                             <p class="card-text fs-14">9355641979</p>
@@ -196,8 +196,8 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span></span><span>Prof.(Dr.) Sapna Singh</span></h5>
                             <p class="card-text fs-14">Professor Cum HOD</p>
-                            <p class="card-text fs-14">Department of Pediatric Nursing</p>
-                            <p class="card-text fs-14">Teerthanker Mahaveer College of Nursing, TMU, Moradabad</p>
+                            <p class="card-text fs-14">Department of Child Health Nursing</p>
+                            <p class="card-text fs-14">Teerthanker Mahaveer College of Nursing, <br>TMU, Moradabad</p>
                             <p class="card-text fs-14">drsapna.nursing@tmu.ac.in</p>
                             <p class="card-text fs-14">9877550108</p>
                         </div>
@@ -246,7 +246,7 @@
                     <div class="card card-animation admin-cards">
                         <img src="{{asset('/assets/img/journal/nursing/17.jpg')}}" class="card-img-top" alt="Prof. Viji Mol">
                         <div class="card-body text-center">
-                            <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Viji Mol</span></h5>
+                            <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Vijimol G</span></h5>
                             <p class="card-text fs-14">Professor & HOD</p>
                             <p class="card-text fs-14">Department of OBG Nursing</p>
                             <p class="card-text fs-14">Teerthanker Mahaveer College of Nursing, TMU, Moradabad</p>
@@ -286,7 +286,7 @@
                         <img src="{{asset('/assets/img/journal/nursing/21.jpg')}}" class="card-img-top" alt="Prof. Libin Joseph">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof. Libin Joseph</span></h5>
-                            <p class="card-text fs-14">Professor</p>
+                            <p class="card-text fs-14">Professor & HOD</p>
                             <p class="card-text fs-14">Department of Mental Health Nursing</p>
                             <p class="card-text fs-14">Teerthanker Mahaveer College of Nursing, TMU, Moradabad</p>
                             <p class="card-text fs-14">libinj.nursing@gmail.com</p>
@@ -485,7 +485,7 @@
                     <div class="card card-animation admin-cards">
                         <img src="{{asset('/assets/img/journal/nursing/3.jpg')}}" class="card-img-top" alt="Dr. Mano Priya Vijayan">
                         <div class="card-body text-center">
-                            <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Mano Priya Vijayan</span></h5>
+                            <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Mano Priya Vijayan </span></h5>
                             <p class="card-text fs-14">Deputy Dean</p>
                             <p class="card-text fs-14">Faculty of Health Sciences (FHS)</p>
                             <p class="card-text fs-14">Villa College, Maldives</p>
@@ -608,7 +608,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof.(Dr.) Shivani Bhardwaj</span></h5>
                             <p class="card-text fs-14">Assistant Professor</p>
-                            <p class="card-text fs-14">Occupational Therapy Department, Jamia Hamdard University</p>
+                            <p class="card-text fs-14">Occupational Therapy Department, <br> Jamia Hamdard University, New Delhi</p>
                             <p class="card-text fs-14">shivani@jamiahamdard.ac.in</p>
                             <p class="card-text fs-14">9013343778</p>
                         </div>
@@ -620,7 +620,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Prof.(Dr.) S. Valliammal</span></h5>
                             <p class="card-text fs-14">Lecturer</p>
-                            <p class="card-text fs-14">College of Nursing, National Institute of Mental Health and Neurosciences (NIMHNS)</p>
+                            <p class="card-text fs-14">College of Nursing, National Institute of Mental Health and Neurosciences (NIMHNS) <br> Bengaluru, Karnataka</p>
                             <p class="card-text fs-14">valliammal.shanmugam@gmail.com</p>
                             <p class="card-text fs-14">9449271688</p>
                         </div>

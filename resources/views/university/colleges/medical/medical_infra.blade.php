@@ -3,7 +3,7 @@
 
 <div class="main-content">
 	<div class="container">
-		<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Infra</span><span>structure</span></h1>
+		<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span></span><span>Infrastructure</span></h1>
 		<div class="row">
 		</div>
 		<hr class="horizontal-line">
@@ -15,32 +15,29 @@
 						<tr>
 							<th class="text-center">Sl. No.</th>
 							<th>Location</th>
-							<!-- <th>View</th> -->
+							<th>View More</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td class="text-center">1</td>
 							<td>Community Health Centre</td>
-							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
+							<td><a href="{{route('medical.community.health.centers')}}" target="_blank">Click Here to View</a></td>
 						</tr>
 						<tr>
 							<td class="text-center">2</td>
 							<td>Primary Health Centre</td>
-							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
+							<td><a href="{{route('medical.primary.health.centers')}}" target="_blank">Click Here to View</a></td>
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
 							<td>Rural Health Centre</td>
-							<!-- <td><a href="#" target="_blank">Click Here to View</a></td> -->
+							<td><a href="{{route('medical.rural.health.centers')}}" target="_blank">Click Here to View</a></td>
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
 							<td>Urban Health Centre</td>
-							<!-- <td>
-								<a href="#" target="_blank">Click Here to View</a>
-
-							</td> -->
+							<td><a href="{{route('medical.urban.health.centers')}}" target="_blank">Click Here to View</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -49,12 +46,10 @@
 		<hr class="horizontal-line">
 		<button class="careers-accordion">Land & Building <span class="icon">+</span> </button>
 		<div class="panel">
+			<h3 class="tmu-text-primary mb-0"><span></span><span>Land</span></h3>
 			<div class="table-responsive">
 				<table class="table table-bordered table-striped">
 					<thead>
-						<tr>
-							<td class="text-center fw-bold" colspan="5">Land</td>
-						</tr>
 						<tr>
 							<th class="text-center">Plot #</th>
 							<th class="text-center">Survey #</th>
@@ -65,37 +60,43 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="text-center">268-272, 274, 276-277</td>
+							<td>268-272, 274, 276-277</td>
 							<td class="text-center">-</td>
-							<td class="text-center">Bagadpur, Post Pakwada, Delhi Road, Moradabad</td>
-							<td class="text-center">25.89 (Acre)</td>
-							<td class="text-center"> Campus is Unitary</td>
+							<td>Bagarpur, Post Pakwada, Delhi Road, Moradabad</td>
+							<td>25.89 (Acre)</td>
+							<td> Campus is Unitary</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 
+
+			<h3 class="tmu-text-primary mb-0"><span></span><span>Building</span></h3>
+			<p>The medical college occupies a 06 storied building.</p>
 			<div class="table-responsive">
 				<table class="table table-bordered table-striped">
 					<thead>
-						<tr>
-							<td class="text-center fw-bold" colspan="5"> Building: The medical college occupies a 06 storied building.</td>
-						</tr>
 					<tbody>
 						<tr>
 							<td>College</td>
 							<td class="text-center">:</td>
-							<td>20317.73 sq.mt</td>
+							<td>25962.56 sq.mt.</td>
 						</tr>
 						<tr>
-							<td>Hospital (including OPD)</td>
+							<td>Hospital (includ ing OPD)</td>
 							<td class="text-center">:</td>
 							<td>65436.00 sq.mt.</td>
 						</tr>
 						<tr>
 							<td>Hostel & Residential Complex</td>
 							<td class="text-center">:</td>
-							<td>23945.00 sq.mt.</td>
+							<td>44030.87 sq.mt.</td>
+						</tr>
+
+						<tr>
+							<td>Residential Complex</td>
+							<td class="text-center">:</td>
+							<td>21945.15 sq.mt.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -149,17 +150,17 @@
 						<tr>
 							<td>Water Supply</td>
 							<td class="text-center">:</td>
-							<td>Through Bore Wells</td>
+							<td>Through Bore wells</td>
 						</tr>
 						<tr>
 							<td>Electric supply</td>
 							<td class="text-center">:</td>
-							<td>Sanctioned Load - 2560 KVA</td>
+							<td>Sanctioned Load - 3000 KVA</td>
 						</tr>
 						<tr>
 							<td>Generators</td>
 							<td class="text-center">:</td>
-							<td>Available (Available Load - 2450 KVA)</td>
+							<td>Available (Available Load - 4625 KVA)</td>
 						</tr>
 					</tbody>
 				</table>
@@ -212,7 +213,7 @@
 						</tr>
 						<tr>
 							<td class="text-center">6</td>
-							<td>Intercom & Public Address System in the College</td>
+							<td>Intercom & Public address system in the College</td>
 							<td class="text-center">:</td>
 							<td class="text-center">Available</td>
 						</tr>
@@ -237,14 +238,14 @@
 							<td class="text-center">1</td>
 							<td>Layout and floor area</td>
 							<td class="text-center">:</td>
-							<td>2520 Sq.meter</td>
+							<td>1507 Sq.meter</td>
 						</tr>
 						<tr>
 							<td class="text-center">2</td>
 							<td style="width:30%">Reading Rooms
-								<ul class="m-ol-list ps-4">
+								<ul class="m-ol-list ps-3">
 									<li>No.
-										<ul class="m-ol-list ps-4">
+										<ul class="m-ol-list ps-3">
 											<li>for UG</li>
 											<li>for PG/ Resident</li>
 											<li>for Staf</li>
@@ -254,19 +255,19 @@
 								</ul>
 							</td>
 							<td class="text-center"><br><br>:<br><br>:<br>:<br>:</td>
-							<td><br><br>02<br><br>04<br>01<br>One inside reading room for 160 seats capacity and on e outside reading room with 160 seats capacity. One skill lab with LCD Projector</td>
+							<td><br><br>07<br><br>04 (500 students)<br>02 (120 students)<br>01 (40 members) </td>
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
 							<td>Working hours</td>
 							<td class="text-center">:</td>
-							<td>14 hours (8.00 a.m. to 10.00 p.m.)</td>
+							<td>16 hours (8.00 a.m. to 12.00 a.m.)</td>
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
 							<td>No. of shifts</td>
 							<td class="text-center">:</td>
-							<td>Two Shifts - 8.00 a.m. to 10.00 p.m.</td>
+							<td>Two Shifts - 8.00 a.m. to 12.00 a.m.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -286,7 +287,7 @@
 						</tr>
 						<tr>
 							<td class="text-center">2</td>
-							<td style="width:30%">Distance from the college & Hospital</td>
+							<td>Distance from the college & Hospital</td>
 							<td class="text-center">:</td>
 							<td>Within same campus</td>
 						</tr>
@@ -307,89 +308,89 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td colspan="5" class="text-center"><b>Undergraduate</b></td>
+											<td colspan="5"><b>Undergraduate</b></td>
 										</tr>
 										<tr>
 											<td class="text-center">(i)</td>
 											<td>Boys</td>
 											<td class="text-center">:</td>
-											<td>174 x 2 (Two Seater)</td>
-											<td class="text-center">358</td>
+											<td>207 (Two Seater)</td>
+											<td class="text-center">414</td>
 
 										</tr>
 										<tr>
 											<td class="text-center">(ii)</td>
 											<td style="width:30%">Girls</td>
 											<td class="text-center">:</td>
-											<td>201 x 2 (Two Seater)</td>
-											<td class="text-center">402</td>
+											<td>262 (Two Seater)</td>
+											<td class="text-center">524</td>
 										</tr>
 										<tr>
 											<td class="text-center"></td>
 											<td style="width:30%"></td>
 											<td></td>
-											<td><b>375</b></td>
-											<td class="text-center"><b>750</b></td>
+											<td><b>469</b></td>
+											<td class="text-center"><b>938</b></td>
 										</tr>
 										<tr>
-											<td colspan="5" class="text-center"><b>Interns</b></td>
+											<td colspan="5"><b>Interns</b></td>
 										</tr>
 										<tr>
 											<td class="text-center">(i)</td>
 											<td>Boys</td>
 											<td class="text-center">:</td>
-											<td>35 x 2 (Two Seater)</td>
-											<td class="text-center">70</td>
+											<td>64 (Two Seater)</td>
+											<td class="text-center">128</td>
 
 										</tr>
 										<tr>
 											<td class="text-center">(ii)</td>
 											<td style="width:30%">Girls</td>
 											<td class="text-center">:</td>
-											<td>40 x 2 (Two Seater)</td>
-											<td class="text-center">80</td>
+											<td>65 (Two Seater)</td>
+											<td class="text-center">130</td>
 										</tr>
 										<tr>
 											<td class="text-center"></td>
 											<td style="width:30%"></td>
 											<td></td>
-											<td><b>75</b></td>
-											<td class="text-center"><b>150</b></td>
+											<td><b>129</b></td>
+											<td class="text-center"><b>258</b></td>
 										</tr>
 										<tr>
-											<td colspan="5" class="text-center"><b>Postgraduate & Residents</b></td>
+											<td colspan="5"><b>Postgraduate & Residents</b></td>
 										</tr>
 										<tr>
 											<td class="text-center">(i)</td>
 											<td>Boys</td>
 											<td class="text-center">:</td>
-											<td>75 x 2 (Two Seater)</td>
-											<td class="text-center">150</td>
+											<td>113 (Two Seater)</td>
+											<td class="text-center">226</td>
 
 										</tr>
 										<tr>
 											<td class="text-center">(ii)</td>
 											<td style="width:30%">Girls</td>
 											<td class="text-center">:</td>
-											<td>75 x 2 (Two Seater)</td>
-											<td class="text-center">150</td>
+											<td>137 (Two Seater)</td>
+											<td class="text-center">274</td>
 										</tr>
 										<tr>
 											<td class="text-center"></td>
 											<td style="width:30%"></td>
 											<td></td>
-											<td><b>150</b></td>
-											<td class="text-center"><b>300</b></td>
+											<td><b>250</b></td>
+											<td class="text-center"><b>500</b></td>
 										</tr>
 										<tr>
 											<td colspan="2">No of Student on the roll</td>
 											<td class="text-center">:</td>
-											<td colspan="2">750 students of the academic year 2014-15, 2015-16, 2016-17, 2017-18 & 2018-19</td>
+											<td colspan="2">748 students of the academic year 2019-20, 2020-21, 2021-22, 2022-23 & 2023-24</td>
 										</tr>
 										<tr>
 											<td colspan="2">Percentage of students accommodated</td>
 											<td class="text-center">:</td>
-											<td colspan="2">100%</td>
+											<td colspan="2">75%</td>
 										</tr>
 										<tr>
 											<td colspan="2">Supervisory arrangement</td>
@@ -402,15 +403,15 @@
 						</tr>
 						<tr>
 							<td class="text-center">4</td>
-							<td style="width:30%">Mess & Canteen arrangement (Dining hall have accommodation for 25% of the occupants at a given time.)</td>
+							<td style="width:30%">Messing & Canteen arrangement (Dining hall should have accommodation for 25% of the occupants at a given time.)</td>
 							<td class="text-center">:</td>
 							<td>Proper Mess & Canteen facilities are available</td>
 						</tr>
 						<tr>
 							<td class="text-center">5</td>
-							<td style="width:30%">Availability of visitors' room, reading room, TT table room, TV room, and indoor games.</td>
+							<td style="width:30%">Availability of visitors room, Reading room, TT Table room / TV room and indoor games.</td>
 							<td class="text-center">:</td>
-							<td>Visitors' room, Reading room, and Recreation room with T.T. Table and other indoor games, and TV room are available in both boys' and girls' hostels.</td>
+							<td>Visitors room, Reading room recreation room with T.T. Table and other indoor games and T.V. rooms are available in both boys and girls hostels.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -431,12 +432,12 @@
 				<tbody>
 					<tr>
 						<td>Teaching Staff</td>
-						<td class="text-center">88</td>
+						<td class="text-center">121</td>
 						<td class="text-center">40%</td>
 					</tr>
 					<tr>
 						<td>Residents</td>
-						<td class="text-center">300</td>
+						<td class="text-center">250</td>
 						<td class="text-center">100%</td>
 					</tr>
 					<tr>
@@ -446,7 +447,12 @@
 					</tr>
 					<tr>
 						<td>Nursing Staff</td>
-						<td class="text-center">110</td>
+						<td class="text-center">165</td>
+						<td class="text-center">20%</td>
+					</tr>
+					<tr>
+						<td>Class IV</td>
+						<td class="text-center">55</td>
 						<td class="text-center">20%</td>
 					</tr>
 					<!--
@@ -471,7 +477,7 @@
 							<td>Play grounds and games played</td>
 							<td class="text-center">:</td>
 							<td>Playgrounds available in the campus for
-								<ul class="m-ol-list ps-4">
+								<ul class="m-ol-list ps-4 mb-0">
 									<li>Cricket</li>
 									<li>Football</li>
 									<li>Volleyball</li>
@@ -482,11 +488,10 @@
 								</ul>
 							</td>
 						</tr>
-						<tr>
-							<td class="text-center">2</td>
-							<td>Gymnasium facilities and arrangement</td>
-							<td class="text-center">:</td>
-							<td>Gymnasium facility available</td>
+						<td class="text-center">2</td>
+						<td>Gymnasium facilities and arrangement</td>
+						<td class="text-center">:</td>
+						<td>Gymn asium facility available</td>
 						</tr>
 						<tr>
 							<td class="text-center">3</td>
@@ -512,36 +517,32 @@
 				<tbody>
 					<tr>
 						<td class="text-center">(a)</td>
-						<td style="width:35%">Whether working</td>
+						<td class="text-center">Whether working</td>
 						<td class="text-center">:</td>
 						<td>Yes</td>
 					</tr>
 					<tr>
 						<td class="text-center">(b)</td>
 						<td>Accommodation for staff on duty
-							<ul class="m-ol-list ps-4">
-								<li>Doctors</li>
-								<li>Nurses</li>
-								<li>Students</li>
-								<li>Other Paramedical Staff</li>
-							</ul>
+							<ul class="m-ol-list ps-3">
+								<li>Yes</li>
+
 						</td>
 						<td class="text-center"><br>:<br>:<br>:<br>:</td>
 						<td><br>Available<br>Available<br>Available<br>Available</td>
 					</tr>
 					<tr>
 						<td class="text-center">(c)</td>
-						<td>No. of Emergency beds</td>
+						<td>No. of Emergency triage beds</td>
 						<td class="text-center">:</td>
-						<td>38</td>
+						<td>12</td>
 					</tr>
 					<tr>
 						<td class="text-center">(d)</td>
 						<td>Working arrangement of casualty service
-							<ul style="list-style:lower-roman">
+							<ul class="m-ol-list ps-3">
 								<li>No. of Casualty Medical Officer</li>
 								<li>Consultant Services</li>
-								<br><br>
 								<li>Nature of services</li>
 							</ul>
 						</td>
@@ -551,7 +552,7 @@
 					<tr>
 						<td class="text-center">(e)</td>
 						<td>Resuscitation services facilities
-							<ul style="list-style:lower-roman">
+							<ul class="m-ol-list ps-3">
 								<li>Oxygen & Suction</li>
 								<li>Ventilators</li>
 								<li>Defibrillator</li>
@@ -559,17 +560,17 @@
 								<li>Pulse Oxymeter</li>
 								<li>Nebulizer</li>
 								<li>Syringe Infusion Pump</li>
-								<li>Ambu bag</li>
+								<li>Ambubag</li>
 								<li>Fully equipped disaster trolleys</li>
 							</ul>
 						</td>
 						<td><br>:<br>:<br>:<br>:<br><br>:<br>:<br>:<br>:<br><br>:</td>
-						<td><br>Centralised<br>Available<br>Available<br>Available<br><br>Available<br>Available<br>Available<br>Available<br><br>Available</td>
+						<td><br>Centralized<br>Available<br>Available<br>Available<br><br>Available<br>Available<br>Available<br>Available<br><br>Available</td>
 					</tr>
 					<tr>
 						<td class="text-center">(f)</td>
 						<td>Facilities provided
-							<ul style="list-style:lower-roman">
+							<ul class="m-ol-list ps-3">
 								<li>X-rays</li>
 								<li>Operation Theatre</li>
 								<li>Laboratory Facilities</li>
@@ -578,6 +579,7 @@
 						<td><br>:<br>:<br>:</td>
 						<td><br>Available "Mobile X -Ray" <br>Available<br>Available 24hrs in Central Lab</td>
 					</tr>
+
 
 				</tbody>
 			</table>
@@ -1016,18 +1018,18 @@
 						<tr>
 							<td>No. of other Staff</td>
 							<td class="text-center">:</td>
-							<td>Pharmacists (6); Attendants (8) & Computer Operators (6)</td>
+							<td>Pharmacist (8); Computer Operator(6); Cashier (5) & Attendants (8)</td>
 						</tr>
 						<tr>
 							<td>
 								No. of prescription dispensed a day
-								<ul class="m-ol-list ps-4">
-									<li>Ward</li>
-									<li>O.P.D.</li>
+								<ul class="m-ol-list ps-3">
+									<li>Inpatient</li>
+									<li>Out-patient.</li>
 								</ul>
 							</td>
 							<td class="text-center"><br>:<br>:<br></td>
-							<td><br>Average 768<br>Average 1500</td>
+							<td><br>1600<br>2150</td>
 						</tr>
 
 					</tbody>
@@ -1045,8 +1047,8 @@
 							<td>(a)</td>
 							<td>
 								Equipment
-								<ul class="m-ol-list ps-4">
-									<li>Mechanised – Bulk washing machine, Hydro extractor, Flat & Rolley steam press.</li>
+								<ul class="m-ol-list ps-3">
+									<li>Mechanized – Bulk washing machine, Hydro extractor, Flat & Rolley steam press.</li>
 									<li>Manual</li>
 								</ul>
 							</td>
@@ -1057,13 +1059,13 @@
 							<td>(b)</td>
 							<td>Volume of work / day</td>
 							<td class="text-center">:</td>
-							<td>350 – 400 kg per day</td>
+							<td>400 – 500 kg per day</td>
 						</tr>
 						<tr>
 							<td>(c)</td>
 							<td>
 								Staff available
-								<ul class="m-ol-list ps-4">
+								<ul class="m-ol-list ps-3">
 									<li>Supervisor</li>
 									<li>Dhobi / Washermen / Women</li>
 									<li>Packers</li>
@@ -1072,6 +1074,7 @@
 							<td class="text-center"><br>:<br>:<br>:<br></td>
 							<td><br>Two<br>Twelve<br>Twelve</td>
 						</tr>
+
 
 					</tbody>
 				</table>
@@ -1163,7 +1166,7 @@
 
 		<button class="careers-accordion">Incinerator <span class="icon">+</span> </button>
 		<div class="panel">
-			<p class="mb-2">Tie up with M/s Medicare Environmental Management Pvt. Ltd., Ghaziabad, for the collection of biomedical waste from the hospital, valid until 31st October 2020.</p>
+		<p style="text-align:justify">Tie up with <b>M/s Sushila Bio-Medical Waste Plant Pvt. Ltd.</b> for collection of Bio Medical Waste from the Hospital. Valid upto 30.04.2027.</p>
 		</div>
 		<hr class="horizontal-line">
 	</div>

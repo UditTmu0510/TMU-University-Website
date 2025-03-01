@@ -35,8 +35,8 @@
 <div class="main-content">
     <div class="container">
 
-        <h1 class="tmu-text-primary tmu-page-heading mb-5 mt-md-5"><span>Aims & </span><span> Objectives of CTLD</span></h1>
-        <h3 class="mb-2 fw-bold"> What does the Centre for Teaching Learning & Development do? </h3>
+        <h1 class="tmu-text-primary tmu-page-heading mb-5 mt-md-5"><span>Aims & Objectives of</span><span> CTLD</span></h1>
+        <h3 class="mb-2 fw-bold"> What does the Centre for Teaching, Learning & Development do? </h3>
         <p class="mb-4 text-justify">The Centre for Teaching, Learning & Development (CTLD) is dedicated to fostering holistic development in students, equipping them with essential skills that go beyond academic knowledge. It aims to bridge the gap between classroom learning and the professional skills required in the corporate world. Through a structured approach, CTLD focuses on enhancing students' soft skills and quantitative aptitude, empowering them for both professional success and personal growth.</p>
         <h3 class="mb-3 tmu-text-primary"><span>What is the importance of Soft skills </span><span> & Quantitative aptitude?</span></h3>
         <h3 class="mb-2 fs-16 tmu-text-primary"><span>Soft </span><span>Skills:</span></h3>
@@ -63,7 +63,7 @@
             <li><b class="fs-14">Resume Building and Interview Skills:</b> Guiding students in creating impactful resumes and preparing them for interviews through mock sessions. This training helps students present their qualifications and experiences effectively to potential employers.</li>
             <li><b class="fs-14">On-Campus and Off-Campus Placement Support:</b> The CTLD works closely with the university’s placement cell to ensure students are well-prepared for both on-campus and off-campus opportunities, making them competitive candidates in the job market.</li>
         </ul>
-        <h3 class="mb-2 fw-bold"> Why CTLD is Crucial for Student Success </h3>
+        <h3 class="mb-2 fw-bold"> Why CTLD is Crucial for Students' Success ?</h3>
         <p class="mb-2 text-justify">The Centre for Teaching, Learning & Development is not just about skill enhancement; it is about building a mindset of continuous learning and adaptability. As the demands of the professional world evolve, so too must the abilities of those entering it. CTLD empowers students to face real-world challenges with confidence, preparing them not only for their first job but for sustained career growth and success. By offering a blend of academic excellence and practical skill development, CTLD ensures that students are ready to thrive in any professional setting.</p>
 
 

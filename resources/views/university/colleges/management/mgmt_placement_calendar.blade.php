@@ -20,11 +20,11 @@
                         <td>
                             <ul class="m-ol-list ps-4">
                                 <li>Analysis of placement statistics for passed out batches.</li>
-                                <li>Names of Companies visited.</li>
+                                <li>Names of companies visited.</li>
                                 <li>Number of students Placed.</li>
                                 <li>Analysis of the response of Companies towards students of TMIMT and implementation of new plans.</li>
                                 <li>Analysis of the Feedback given by companies visited.</li>
-                                <li>Fixation of enhanced training programs for new batches.</li>
+                                <li>Finalization of enhanced training programs for new batches.</li>
                                 <li>Categorization of Companies for UG/ PG Batches.</li>
                                 <li>Identification of areas of Improvement and alignment of training programs.</li>
                             </ul>
@@ -58,7 +58,7 @@
                             <ul class="m-ol-list ps-4">
                                 <li>Finalization of data of students and companies, preparation of student folders for interviews, Mock Interviews, Video Resumes & Mock Video Interviews.</li>
                                 <li>Document verification, Preparation & Check for PAN Card & Aadhaar Cards for future documentation for Recruitment Drives from January onwards.</li>
-                                <li>Issuing guidelines for students and placement procedure and protocols.</li>
+                                <li>Issuing guidelines for students on placement procedures and protocols.</li>
                             </ul>
                         </td>
                     </tr>

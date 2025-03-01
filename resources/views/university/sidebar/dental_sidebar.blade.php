@@ -38,6 +38,11 @@
             <a href="{{ route('dental.timetable') }}" class="custom-menu-item {{ setActive('dental.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('dental.study.material') }}" class="custom-menu-item {{ setActive('dental.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

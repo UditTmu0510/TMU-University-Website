@@ -53,7 +53,7 @@
                                 <br>
                                 We offer many programmes and courses which cater to the needs of the ever increasing
                                 demand of qualified Graduates and Post Graduates. By virtue of its ethically trained
-                                manpower, TMIMT has established a niche for itself in the Northern Zone of India.
+                                manpower, TMIMT has established a niche for itself in the northern zone of India.
                                 <br>
                                 <br>
                                 We offer a variety of courses in management, finance, marketing, international business
@@ -78,19 +78,19 @@
                                 increasing economic and financial integration. We seek to provide a gratifying,
                                 enjoyable and collegiate work environment that enables members of students and staffs to
                                 develop their career and fulfill their potential. The teaching staff in our college is
-                                passionate about academic and is fervent about the teaching programme.
+                                passionate about academic and is dedicated to the teaching programme.
                                 <br>
                                 <br>
                                 Here at TMIMT, we understand the need of holistic development in the era of conflicting
                                 personal values and crushing competition of the market. Keeping that in mind, we make it
-                                a point to train students for such situations and circumstances in life where in they
-                                stand tall and put forward their best both in terms of effective decision making and
+                                a point to train students for such situations and circumstances in life wherein they
+                                stand tall and put forward their best both in terms of effective decision-making and
                                 resilience. We put family values and cultural awareness at priority so as to make
                                 students connected to their roots and stay ahead in times of turmoil.
                                 <br>
                                 <br>
                                 The TMIMT family wishes the aspiring students an enjoyable and rewarding academic year
-                                ahead. We look forward to work as a dedicated and disciplined team.
+                                ahead. We look forward to working as a dedicated and disciplined team.
                                 <br>
                                 <br>
                                 We hope you will accept the challenge of becoming a student of the college. Your only

@@ -133,13 +133,12 @@
 		<div class="container-fluid  my-0 px-2">
 			<div class="row ps-4">
 				<div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to the <span style="font-weight:700!important;">Centre of </span> Jain Studies </h1>
+					<h1 class=" mt-5 mb-5 banner-main-heading">Welcome to the <span style="font-weight:700!important;">Centre for </span> Jain Studies </h1>
 					<a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="pe-lg-4 position-relative p-0">
 						<div style="z-index: 2;">
-							<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/iXHRmCyHszY?si=BcZ5NOfT-V8ECc6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="z-index: 2; margin:0;"></iframe> -->
 							<img src="{{asset('assets/img/banner/jain_studies/jain_studies.webp')}}" alt="" class="p-0 m-0">
 						</div>
 					</div>
@@ -211,7 +210,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>India's 1st</span>
 										<br>
-										<span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+										<span class="d-block pt-1">Centre of Excellence <br>in Cybersecurity</span>
 									</div>
 								</div>
 							</div>
@@ -220,7 +219,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>India's 1st</span>
 										<br>
-										<span class="d-block pt-1">Centre of Excellence in Cybersecurity</span>
+										<span class="d-block pt-1">Centre of Excellence <br> in Cybersecurity</span>
 									</div>
 								</div>
 							</div>
@@ -233,7 +232,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>5 B-Schools</span>
 										<br>
-										<span class="d-block pt-1">Among the Top 5 B-Schools in North India</span>
+										<span class="d-block pt-1">Among the Top 5 <br>B-Schools in North India</span>
 									</div>
 								</div>
 							</div>
@@ -260,16 +259,16 @@
 		<div class="box-container">
 			<div class="box">
 
-				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Centre of </span> <span> Jain Studies </span></h2>
+				<h2 class="tmu-text-primary pb-0 pt-4 text-uppercase ceremony-title fw-bold"><span>Centre For </span> <span> Jain Studies </span></h2>
 
 
 				<div class="row text-centre">
 					<div class="col-12 px-2 px-md-5">
-						<p style="text-align: justify;">The Centre of Jain Studies has been established to impart moral education, comparative studies of different philosophies, and comprehensive research in religious studies. Though ancient, Jain philosophy is quite relevant to modern society and proposes solutions for many problems of the modern world. With an experience-based worldview of the universe as a reality, a rational theory of karma, a reverence for all life.</p>
+						<p style="text-align: justify;">The Centre of Jain Studies has been established to impart moral education, comparative studies of different philosophies, and comprehensive research in religious studies. With an experience-based worldview of the universe as a reality, a rational theory of karma, and a reverence for all life, Jain philosophy promotes a lifestyle that preserves ecosystems.</p>
 						<div class="read-more-content mt-0">
-							<p style="text-align: justify;">Though ancient, Jain philosophy is quite relevant to modern society and proposes solutions for many problems of the modern world. With an experience-based world-view of the universe as a reality, a rational theory of karma, a reverence for all life, the philosophy promotes a lifestyle that preserves our ecosystems. Practitioners of Jain philosophy respect different viewpoints and advance personal as well as global peace.</p>
+							<p style="text-align: justify;">Though ancient, Jain philosophy is quite relevant to modern society and proposes solutions for many problems of the modern world. With an experience-based world-view of the universe as a reality a rational theory of karma, a reverence for all life, the philosophy promotes a lifestyle that preserves our ecosystems. Practitioners of Jain philosophy respect different viewpoints and advance personal as well as global peace.</p>
 
-							<p style="text-align: justify;">The core principles of Jain philosophy - Non-Violence, Non-Absolutism and Non-Possessiveness may prove to be the foundation for world peace. The students receive theoretical as well as practical knowledge of Jain philosophy, based on the principles of truth and non-violence.</p>
+							<p style="text-align: justify;">The core principles of Jain philosophy - Non-Violence, Non-Absolutism and Non-Possessiveness may prove to be the foundation for world peace. Students receive both theoretical and practical knowledge of Jain philosophy, grounded in the principles of truth and non-violence.</p>
 
 							<p style="text-align: justify;">The College offers BA, MA and Doctoral study programmes with special emphasis on Jain studies. After successfully completing the course, the students are eligible for government and non-government services. Also, the alumni can work independently as Vidhanacharya, Pritishthacharya, Jyotishacharya and Vastuvid.</p>
 
@@ -292,7 +291,7 @@
 
 		<!-- endowment -->
 
-		<div class="container">
+		<div class="container d-flex justify-content-center">
 			<div class="box">
 				<header class="section-header text-center wow zoomIn">
 					<h2 class="tmu-text-primary tmu-page-heading mb-sm-5 mt-md-4"><span>TMU's signature of an MOU for an </span><span>"Endowment Chair" was a source of pride.</span></h2>
@@ -307,7 +306,7 @@
 
 							<p style="text-align: justify;">As part of the vision, the establishment of "Endowment Chair" was the primary goal of this MOU for the parties. The "Endowment Chair's" curriculum was created with the intention of assisting the university's intellectual, teaching, and research endeavours. In addition, it will plan and carry out short-term programmes for teachers that focus on the chair's specified discipline.</p>
 
-							<p style="text-align: justify;">Aacharya Shrimadh Vijay Dharmdhunrandher Surishwar Ji Maharaj Saheb received the MOU from Shri Suresh Jain (Chancellor) and other dignitaries in exchange for his blessings. Shri Suresh Jain, the Chancellor, spoke about how even a modest act of kindness to the underprivileged section of society can result in significant change. He made a point of highlighting the importance of education in advancing our civilisation. He asserted that people might learn and arrive at a path that offers them holistic growth through the teachings of Jainism.</p>
+							<p style="text-align: justify;">Acharya Shrimad Vijay Dharmdhurandhar Surishwar Ji Maharaj Saheb received the MOU from Shri Suresh Jain (Chancellor) and other dignitaries in exchange for his blessings. Shri Suresh Jain, the Chancellor, spoke about how even a modest act of kindness to the underprivileged section of society can result in significant change. He made a point of highlighting the importance of education in advancing our civilisation. He asserted that people might learn and arrive at a path that offers them holistic growth through the teachings of Jainism.</p>
 
 							<p style="text-align: justify;">The Endowment Chair's functions will include the selection of a distinguished and eminent professor, promotion of study programmes and educational programmes, including degree programmes, diplomas, certification programmes, etc., within the context of the TMU Moradabad in the field of Jainism, and dissemination of Jainism's tenets. In order to increase knowledge in the field of study, it is important to promote Ph.D., other research, and creative programmes for Jain philosophy.</p>
 
@@ -399,16 +398,16 @@
 							<div class="col-md-12 col-sm-12">
 								<div class="card counter-card">
 									<div class="card-body">
-										<h3 class="card-title-job" style="text-align: center; margin: 0px !important;">"Learn to labor before you grow old for knowledge is better than silver or gold. Silver or gold may perish away but acquired knowledge will never decay"</h3>
+										<h3 class="card-title-job" style="text-align: center; margin: 0px !important;">"Learn to labor before you grow old, for knowledge is better than silver or gold. Silver or gold may perish away, but acquired knowledge will never decay."</h3>
 
 									</div>
 								</div>
-								<p class="card-text text-color" style="text-align: justify; font-size: 18px; font-weight: 200; margin: 10px ">Teerthanker Mahaveer University is imparting world class education by means of more than 100 different courses. Centre for Jain Studies was started for imparting moral education, comparative studies of different philosophies & arranging for research work. The main principle of Jain Philosophy i.e. Non-Violence, Non-Absolutism & Non-Possessiveness may prove to be solid base for world peace. Proper education is a key to prosperity. Though Jain Philosophy is an ancient one, yet it has a great deal of relevance for the modern society & has solutions of many problems of recent world.
+								<p class="card-text text-color" style="text-align: justify; font-size: 18px; font-weight: 200; margin: 10px ">Teerthanker Mahaveer University is imparting world class education by means of more than 100 different courses. Centre for Jain Studies was started to impart moral education, comparative studies of different philosophies, and facilitate research work. The core principles of Jain Philosophy—Non-Violence, Non-Absolutism, and Non-Possessiveness—may provide a solid foundation for world peace. Proper education is a key to prosperity. Although Jain philosophy is ancient, it remains highly relevant to modern society and offers solutions to many of the world's current problems.
 
-									By following the principle of Non-Violence, huge defense expenditure of the world may be saved to a great extent & may be used uplifting the life of human beings.
-									Similarly the principle of Non-Possessiveness will reduce economic disparity & principle of Non-Absolutism will increase harmony of thoughts among family members, society & persons having different viewpoints. The principles of Right Faith, Right Knowledge & Right Conduct which are the ideal principles of university are the basis of world peace.
+									By following the principle of Non-Violence, global defense expenditures could be significantly reduced and redirected toward improving human welfare.
+									Similarly, the principle of Non-Possessiveness will reduce economic disparity, and the principle of Non-Absolutism will foster harmony of thought among family members, society, and individuals with differing viewpoints. The principles of Right Faith, Right Knowledge, and Right Conduct, which are the ideal values of the university, form the foundation of world peace.
 
-									Students are advised to join the course of B.A. (Jainology) & M.A. (Jainology) & receive moral education which may enable to be a good citizen of the country, besides being the means of livelihood.</p>
+									Students are encouraged to enroll in the B.A. (Jainology) and M.A. (Jainology) programs to receive moral education, which will help them become good citizens of the country while also providing a means of livelihood.</p>
 							</div>
 
 							<div class="person-details" style="line-height: 1.2rem !important;">Prof. (Dr.) Vipin Jain <br>

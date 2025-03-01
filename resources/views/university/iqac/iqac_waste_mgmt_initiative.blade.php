@@ -2,11 +2,11 @@
 @section('content')
 
 <style>
-    @media screen and (min-width: 1000px) {
-        .container {
-            max-width: 75vw !important;
-        }
+  @media screen and (min-width: 1000px) {
+    .container {
+      max-width: 75vw !important;
     }
+  }
 </style>
 
 
@@ -26,7 +26,7 @@
 
           <div class="row  gutter-30 mb-4">
 
-          <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img src="{{asset('/assets/img/department/iqac/waste_mgmt/soild-waste.jpg')}}" alt="">
@@ -35,7 +35,7 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Food Waste <br> Record</h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste.jpeg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -77,12 +77,12 @@
                 <div class="team-image">
                   <img src="{{asset('/assets/img/department/iqac/waste_mgmt/swc-2.jpg')}}" alt="">
                 </div>
-                <div class="team-desc p-2"> 
+                <div class="team-desc p-2">
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2022-23 (Second Page)</h4>
                     <span class="fst-normal fs-12 mb-1"><i class="fa-solid fa-location-dot"></i> Nagar Panchayat,
                       Pakwara</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_second_page.png')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_second_page.png')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -93,12 +93,12 @@
                 <div class="team-image">
                   <img src="{{asset('/assets/img/department/iqac/waste_mgmt/swc-1.jpg')}}" alt="">
                 </div>
-                <div class="team-desc p-2"> 
+                <div class="team-desc p-2">
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Certificate for disposal of food waste 2022-23 (First Page)</h4>
                     <span class="fst-normal fs-12 mb-1"><i class="fa-solid fa-location-dot mb-1"></i> Nagar Panchayat,
                       Pakwara</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_first_page.png')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/solid_waste_certificate_2022_first_page.png')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@
                     <h4 class="tmu-text-primary fs-14">Sewage Treatment Plant (STP) </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/10.jpg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/10.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@
                     <h4 class="tmu-text-primary fs-14">Sewage Treatment Plant (STP) </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/5.jpg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/5.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -162,9 +162,9 @@
         <button class="careers-accordion"> E-Waste Management<span class="icon">+</span></button>
         <div class="panel py-3">
           <p class="text-justify">The University has signed the <span class="highlight"><a href="{{asset('assets/pdf/mous/mou_ewaste_management.pdf')}}">MoU </a></span> with Govt. authorized
-            vendor  namely Exigo Recycling Private Limited, 2nd floor, S-16, Greater Kailash- 1, New Delhi 110046
+            vendor namely Exigo Recycling Private Limited, 2nd floor, S-16, Greater Kailash- 1, New Delhi 110046
             for the disposal Electronic Waste. The company ensures use of best available technology for the
-            management of  electronic waste disposal and also abides with the laws as being issued by the government from
+            management of electronic waste disposal and also abides with the laws as being issued by the government from
             time to time. The University ensures that the service provider for E-waste management abides with all
             applicable laws, rules, regulations, govt. orders & applicable code of practice under the MoU with the company. The MoU with the
             company is renewed every five years since 2016.</p>
@@ -184,19 +184,19 @@
                   <div class="team-title pt-0">
                     <h4 class="tmu-text-primary fs-14">Waste Compost Unit </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/waste compost unit.jpeg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/waste compost unit.jpeg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-<hr class="horizontal-line">
+        <hr class="horizontal-line">
 
 
-      <button class="careers-accordion">Hazardous Chemicals & Radioactive Waste Management<span class="icon">+</span></button>
+        <button class="careers-accordion">Hazardous Chemicals & Radioactive Waste Management<span class="icon">+</span></button>
         <div class="panel">
-          <p class="text-justify">The University follows the UGC guidelines for procurement, storage, usage & disposal of hazardous chemicals & radioactive waste. In view of the same the University has established its own Effluent Treatment Plant (ETP) with the capacity of 200 KLD for the disposal of hazardous chemicals. In accordance with the UGC guidelines the University has designated Dr. Vijay Pratap Singh as the Radiation Safety Officer (RSO) who is responsible for procurement, storage, usage & disposal ofradioisotopes use in the campus as per the regulation laid down by Atomic Energy Regulatory Board (AERB). The RSO also ensures the radiation safety guidelines and requirements are followed in all concerned laboratories. The University has well defined SOPs for hazardous chemicals & radioactive waste management system which are displayed in respective laboratories.</p>
+          <p class="text-justify">The University follows the UGC guidelines for procurement, storage, usage & disposal of hazardous chemicals & radioactive waste. In view of the same the University has established its own Effluent Treatment Plant (ETP) with the capacity of 200 KLD for the disposal of hazardous chemicals. In accordance with the UGC guidelines the University has designated Dr. Vijay Pratap Singh as the Radiation Safety Officer (RSO) who is responsible for procurement, storage, usage & disposal of radioisotopes use in the campus as per the regulation laid down by Atomic Energy Regulatory Board (AERB). The RSO also ensures the radiation safety guidelines and requirements are followed in all concerned laboratories. The University has well defined SOPs for hazardous chemicals & radioactive waste management system which are displayed in respective laboratories.</p>
           <div class="row  gutter-30 mb-3">
             <div class="col-sm-6 col-md-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
@@ -208,7 +208,7 @@
                     <h4 class="tmu-text-primary fs-14">Effluent Treatment Plant </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU
                       Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/10.jpg')}}"> Download Geo Tag Image</div>
+                    <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/waste_mgmt/download/10.jpg')}}"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -218,15 +218,15 @@
         <hr class="horizontal-line">
         <button class="careers-accordion"> Atomic Energy Regulatory Board (AERB): Registration Certificate <span class="icon">+</span></button>
         <div class="panel">
-        <div class="iqac-container">
-				<div class="iqac-card">
-					<div class="card-pdf">
-						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">(AERB): Registration Certificate</p>
-						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/publications/AERB_Registration_Certificate.pdf')}}">View PDF</a>
-					</div>
-				</div>
-			</div>
+          <div class="iqac-container">
+            <div class="iqac-card">
+              <div class="card-pdf">
+                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                <p class="description">(AERB): Registration Certificate</p>
+                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('assets/pdf/publications/AERB_Registration_Certificate.pdf')}}">View PDF</a>
+              </div>
+            </div>
+          </div>
         </div>
         <hr class="horizontal-line">
       </div>

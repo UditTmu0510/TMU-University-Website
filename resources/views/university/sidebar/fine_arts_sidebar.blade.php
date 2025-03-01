@@ -35,6 +35,11 @@
             <a href="{{ route('fine.arts.timetable') }}" class="custom-menu-item {{ setActive('fine.arts.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('fine.arts.study.material') }}" class="custom-menu-item {{ setActive('fine.arts.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="http://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

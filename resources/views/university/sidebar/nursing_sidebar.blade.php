@@ -30,7 +30,7 @@
         <h2>Academics</h2>
         <div class="account-section">
             <a href="{{ route('nursing.department') }}" class="custom-menu-item {{ setActive('nursing.department') }}">
-                <p>Department</p>
+                <p>Departments</p>
             </a>
             <a href="{{ route('nursing.syllabus') }}" class="custom-menu-item {{ setActive('nursing.syllabus') }}">
                 <p>Syllabus</p>
@@ -59,6 +59,11 @@
             <a href="{{ route('nursing.timetable') }}" class="custom-menu-item {{ setActive('nursing.timetable') }}">
                 <p>Time Table</p>
             </a>
+
+            <a href="{{ route('nursing.study.material') }}" class="custom-menu-item {{ setActive('nursing.study.material') }}">
+                <p>Study Material</p>
+            </a>
+
             <a href="https://library.tmu.ac.in/" class="custom-menu-item">
                 <p>Old Exam Papers</p>
             </a>

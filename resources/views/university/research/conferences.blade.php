@@ -46,7 +46,7 @@
           <div class="grid-inner row g-0 p-4 bg-transparent shadow-sm h-shadow all-ts h-translatey-sm card border">
             <div class="entry-image">
               <a href="{{ url('news/' . $item->n_slug) }}">
-                <img src="{{ asset($item->ti_path) }}" alt="{{ $item->event_title }}">
+                <img src="{{ file_exists(public_path($item->ti_path)) ? asset($item->ti_path) : asset('uploads/events/past_event/default_thumbnail_news.jpg') }}" alt="{{ $item->event_title }}">
               </a>
             </div>
             <div class="entry-meta mb-1">

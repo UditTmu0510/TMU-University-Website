@@ -50,6 +50,9 @@
 
         <h2>Student Corner</h2>
         <div class="account-section">
+        <a href="{{ route('agriculture.study.material') }}" class="custom-menu-item {{ setActive('agriculture.study.material') }}">
+                <p>Study Material</p>
+            </a>
             <a href="{{ route('agriculture.timetable') }}" class="custom-menu-item {{ setActive('agriculture.timetable') }}">
                 <p>Time Table</p>
             </a>

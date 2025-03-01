@@ -9,9 +9,7 @@
                     <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Corporate </span><span>Advisory Board </span></h1>
                 </div>
                 <div class="container">
-                    <p class="text-justify mb-2">For any professional institution the interaction with academic and corporate world is of
-                        great importance. College has Corporate Advisory Board including Principal (as Chair Person),
-                        Head Training & Placement and members from the industries. The Board members provide advice and
+                    <p class="text-justify mb-2">For any professional institution, interaction with the academic and corporate world is of great importance. The college has a Corporate Advisory Board, including the Principal (as Chairperson), Head of Training & Placement, and members from various industries. The Board members provide advice and
                         guidance on academic programs to the college as a whole or to individual academic departments. This helps
                         ensure our curricula remain relevant and rigorous. Corporate Advisory Board members also interact with
                         faculty & Students (SPCC members) as mentors and as guest speakers in classes, and provide internship and
@@ -24,11 +22,11 @@
                         <li>Support in conducting various national level Seminars / Conferences / Workshops. </li>
                         <li>Advising us on value added courses as per the growing needs of the industry. </li>
                         <li>Developing entrepreneurial abilities, by providing projects that engage students in ‘design to delivery solution’ to improve the quality.</li>
-                        <li>Setting up ‘labs’ within institute to get research and innovation.</li>
+                        <li>Setting up labs within the institute to promote research and innovation.</li>
                         <li>Advising and helping us on better placements and internships.</li>
                     </ul>
 
-                    <h3 class="tmu-text-primary"><span>Committee Members of </span><span> Training & Placement Cell </span></h3>
+                    <h3 class="tmu-text-primary"><span>Committee Members of the </span><span> Training & Placement Cell </span></h3>
                     <div class="table-responsive mb-2 mt-3">
                         <table class="table table-bordered table-striped ">
                             <tr>

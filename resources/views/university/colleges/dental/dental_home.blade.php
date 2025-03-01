@@ -12,7 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;"> Dental College  </span> & Research Centre</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Teerthanker Mahaveer Dental College  </span> & Research Centre</h1>
               
                     
                 </div>
@@ -202,7 +202,7 @@
                 </div>
                 <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
                     <h3>Placement/Internship</h3>
-                    <p>TMDC&RC excels in providing outstanding internships and placements, which play a vital role in every dentist's career journey. Our commitment to excellence is reflected in our 82% campus placement. A decent number of our students are working in dental clinics across India, the South Asia Pacific, and the Middle East. <br>
+                    <p>TMDC&RC excels in providing outstanding internships and placements, which play a vital role in every dentist's career journey.  A decent number of our students are working in dental clinics across India, the South Asia Pacific, and the Middle East. <br>
                         We also go beyond boundaries by conducting student exchange programmes that enable our dental students to gain global exposure and experience in dentistry. Our alumni have achieved remarkable success in various sectors. It includes dental clinics, government and private hospitals, educational institutes, pharmaceutical companies, research institutes, dental equipment manufacturers, and dental product manufacturers.</p>
                     </p>
                 </div>
@@ -560,7 +560,7 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Frequently Asked </span><span> Questions</span></h2>
+<h2 class="tmu-text-primary text-center"><span>Why Choose </span><span> Teerthanker Mahaveer Dental College & Research Centre</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Why TMU is the Best Choice for You <span class="icon">+</span></button>

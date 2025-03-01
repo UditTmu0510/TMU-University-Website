@@ -12,7 +12,7 @@
         <div class="container-fluid  my-0 px-2">
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">College of</span> Law &<br>legal studies</h1>
+                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Teerthanker Mahaveer College of </span> Law and legal studies</h1>
                     <!-- <a href="#" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4"> Download Brochure</a> -->
                     <a href="https://admissions.tmu.ac.in/" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Apply Now</a>
                 </div>
@@ -52,7 +52,7 @@
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                             <span>Legal Aid</span>
                             <br>
-                            <span class="d-block pt-1">Clinics & Social Consultancy Centre</span>
+                            <span class="d-block pt-1">Clinic & Social Consultancy Centre</span>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
                                         <span>Legal Aid</span>
                                         <br>
-                                        <span class="d-block pt-1">Clinics & Social <br> Consultancy Centre</span>
+                                        <span class="d-block pt-1">Clinic & Social <br> Consultancy Centre</span>
                                     </div>
                                 </div>
                             </div>
@@ -127,10 +127,12 @@
 
         <div class="box-container">
             <div class="box">
-                <h2 class="college-main-heading">College of Law and Legal Studies (CLLS): Among the Top Law Colleges</h2>
+                <h2 class="college-main-heading"></h2>
+                <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer College of Law and Legal Studies (CLLS): Among the Top Law Colleges</h2>
+                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Law and Legal Studies (CLLS):</span><span>  Among the Top Law Colleges</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
-                        <p style="text-align: justify;">The College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <span class="highlight"><a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a></span> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
+                        <p style="text-align: justify;">The Teerthanker Mahaveer College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <span class="highlight"><a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a></span> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
                         <div class="read-more-content mt-0">
                             <p style="text-align: justify;">CLLS nurtures the professional skills of the students while teaching them their rightful duties, and crucial moral values to be a successful law professional.</p>
                         </div>
@@ -181,7 +183,7 @@
                     <div class="read-more-content mt-1">
                         <h3 class="mt-3 mb-1">Global Perspective and International Exchanges:</h3>
                         <p>The international law is being strengthened by various national and international forums are strengthening international law, and with the right guidance, the college aims to serve not just the court but the world as a whole.
-                            <br>Hence, The College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
+                            <br>Hence, The Teerthanker Mahaveer College of Law & Legal Studies is the Best Private Law College in Uttar Pradesh.
                         </p>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-2 mt-1" title="Read More">Read More</a>
@@ -538,13 +540,13 @@
 </section><!-- #content end -->
 
 <div class="container mb-5 mt-5">
-    <h2 class="tmu-text-primary text-center"><span>Why Choose</span><span> College of Law & Legal Studies</span></h2>
+    <h2 class="tmu-text-primary text-center"><span>Why Choose</span><span> Teerthanker Mahaveer College of Law and Legal Studies</span></h2>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
 
     <button class="careers-accordion">Why TMU is the Best Choice for You<span class="icon">+</span></button>
     <div class="panel active">
-        <p class="text-justify">In the bustling landscape of legal education in India, the College of Law and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
+        <p class="text-justify">In the bustling landscape of legal education in India, the Teerthanker Mahaveer and Legal Studies (CLLS) at Teerthanker Mahaveer University (TMU) stands out as a beacon of excellence. Here’s why:</p>
         <ul class="m-ol-list ps-5 mb-1">
             <li>
                 <h3 class="tmu-text-primary mb-0 fs-16"><span>UGC-Approved with <span></span> NAAC-A Accreditation</span></h3>
@@ -674,10 +676,10 @@
 
     </div>
     <hr class="horizontal-line">
-    <button class="careers-accordion">Campus Life at College of Law and Legal Studies <span class="icon">+</span></button>
+    <button class="careers-accordion">Campus Life at Teerthanker Mahaveer College of Law and Legal Studies <span class="icon">+</span></button>
     <div class="panel">
         <h4 class="tmu-text-primary mb-0 fs-16"><span>1. Academic </span><span> Excellence</span></h4>
-        <p class="text-justify">The College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
+        <p class="text-justify">The Teerthanker Mahaveer College of Law and Legal Studies (CLLS) offers a rigorous academic curriculum designed to prepare students for the legal profession, with dedicated faculty members providing personalised guidance and support.</p>
 
         <h4 class="tmu-text-primary mb-0 fs-16"><span>2. Vibrant Student </span><span> Community</span></h4>
         <p class="text-justify">CLLS boasts a vibrant student community, with diverse extracurricular activities, student clubs, and events that foster leadership skills, teamwork, and social interaction.</p>
@@ -693,24 +695,6 @@
 
     </div>
     <!-- Add the horizontal line here -->
-    <hr class="horizontal-line">
-    
-    <button class="careers-accordion">FAQs<span class="icon">+</span></button>
-    <div class="panel">
-        <p class="text-justify"><strong>Q1:- How do I apply for admission to CLLS?</strong></p>
-        <p class="text-justify"><strong>Ans:</strong> Visit our website and navigate to the admissions section for detailed information on the application process and requirements.</p>
-        <p class="text-justify"> <strong>Q2:- Are there scholarships available for students?</strong></p>
-        <p class="text-justify"><strong>Ans: </strong>Yes, we offer scholarships based on merit and financial need. Explore our scholarship options on our website or contact our admissions office for assistance.</p>
-        <p class="text-justify"> <strong>Q3:- Can international students apply to CLLS?</strong></p>
-        <p class="text-justify"><strong>Ans: </strong>Absolutely! We welcome applications from international students. Visit our international admissions page for guidance on the application process and visa requirements.</p>
-        <p class="text-justify"> <strong>Q4:- What sets CLLS apart from other law colleges?</strong></p>
-        <p class="text-justify"><strong>Ans: </strong>CLLS stands out for its experiential learning approach, expert faculty, global opportunities, and commitment to student success. Our track record of placement assistance and industry affiliations speak for themselves.</p>
-        <p class="text-justify"> <strong>Q5:- Does CLLS offer post-graduate programs?</strong></p>
-        <p class="text-justify"><strong>Ans: </strong>Yes, CLLS offers a two-year LL.M program, along with an LL.M executive program for working professionals. Explore our post-graduate legal studies options for more information. </p>
-        <p class="text-justify">Join the ranks of the legal luminaries and embark on a fulfilling journey at the College of Law and Legal Studies, TMU. Experience excellence in legal education and unlock your potential with us.</p>
-
-
-    </div>
     <hr class="horizontal-line">
 </div>
 

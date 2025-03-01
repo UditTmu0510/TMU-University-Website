@@ -1,42 +1,48 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
-
-
+<link rel="stylesheet" href="{{asset('assets/css/tmu-testimonial.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/tmimt.css')}}">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="{{asset('assets/css/college.css')}}">
+<script src="{{asset('assets/js/tmimt.js')}}"></script>
 
 <div class="main-content">
     <div class="container">
-        <!-- <div class="container mt-5 position-relative">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card shadow-lg">
-                        <img src="{{ asset('/assets/img/journal/nursing/journal_banner.jpg') }}" class="card-img-top img-fluid" alt="IJIH Banner">
-                    </div>
-                </div>
-                <div class="col-lg-9 mx-auto mt-3 position-relative" style="margin-top: -20px!important; z-index: 10;">
-                    <div class="bg-white p-3 rounded shadow text-center">
-                        <h1 class="tmu-text-primary tmu-page-heading m-0">
-                            <span>Welcome to International</span>
-                            <span>Journal of Integrated Healthcare</span>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to International </span><span> Journal of Integrated Healthcare</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to  </span><span>International Journal of Integrated Healthcare</span></h1>
                 </div>
-                <div class="image-content text-center p-4">
-                    <img src="{{ asset('/assets/img/journal/nursing/journal_banner.jpg') }}" alt="Learning and Teaching">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/1.jpg')}}" class="d-block w-100 rounded-5" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/2.jpg')}}" class="d-block w-100 rounded-5" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{asset('/assets/img/banner/nursing/ijih/3.jpg')}}" class="d-block w-100 rounded-5" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
                 <div class="text-content p-4">
                     <h3 class="tmu-text-primary mb-2 mt-2"><span>About </span><span> IJIH:</span></h3>
-                    <p class="about-p mb-4">The TMU International Journal of Integrated Healthcare is a unique journal that promotes interdisciplinary collaboration, innovation, and inclusively in nursing and allied health. It welcomes contributions from nursing professionals and various allied health disciplines and focuses on cutting-edge research, innovative practices, and evidence-based interventions. The journal values diversity and inclusion, promoting a platform for scholars, practitioners, educators, and students to share their experiences. It emphasizes practical relevance, bridging the gap between theory and practice, and fostering a global outlook. The journal encourages dialogue and knowledge sharing among its readers.</p>
+                    <p class="about-p mb-2">The TMU International Journal of Integrated Healthcare is a unique journal that promotes interdisciplinary collaboration, innovation, and inclusively in nursing and allied health. It welcomes contributions from nursing professionals and various allied health disciplines and focuses on cutting-edge research, innovative practices, and evidence-based interventions. The journal values diversity and inclusion, promoting a platform for scholars, practitioners, educators, and students to share their experiences. It emphasizes practical relevance, bridging the gap between theory and practice, and fostering a global outlook. The journal encourages dialogue and knowledge sharing among its readers.</p>
                 </div>
                 <div class="text-content p-4">
                     <h3 class="tmu-text-primary mb-2 mt-2"><span>Aims and </span><span> Scope:</span></h3>

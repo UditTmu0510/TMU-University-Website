@@ -337,6 +337,8 @@
 
     @endif
 
+    
+
 
     <!-- Font Imports -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -344,6 +346,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
     <!-- Canela Deck font  -->
@@ -481,7 +487,9 @@
 
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
 
 </head>
 
@@ -514,7 +522,7 @@
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
-                    <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
+                    <img  src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
                     <span class="text">Admissions Open</span>
                 </div>
@@ -725,7 +733,8 @@
 
 
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script> --}}
-        <script src="{{asset('assets/js/default/dash.min.js')}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js" integrity="sha512-LyDgm9kfqyKlZOe+QjpNA6L/ZpcjNj+cKSJ/bQLTGkKXaxYNpYGN9Fe6DpI0H0w3Da2WcXVX8ACjL14y3iWGBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        {{-- <script src="{{asset('assets/js/default/dash.min.js')}}"></script> --}}
 
 
         <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
@@ -749,10 +758,12 @@
                         <!--          </video>-->
 
                     </div>
+
                     <div class="banner-text">
-                        <h1 style="font-family:Canela Deck Bold;">This is TMU</h1>
-                        <p style="font-size: 22px; line-height: 26px; font-weight: 500; width: fit-content; min-width: 90vw; font-family: Poppins, sans-serif;">
-                            With a bright history of shaping futures, we continue to shine even brighter <br> with our vision of TRANSFORMING MINDS, UNITING WISDOM</p>
+                        <h1>This is TMU</h1>
+                        <div class="glass-effect-box">
+                        <p>With a bright history of shaping futures, we continue to shine even brighter with our vision of <br><strong>TRANSFORMING MINDS, UNITING WISDOM</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>

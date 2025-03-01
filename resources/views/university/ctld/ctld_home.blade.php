@@ -9,7 +9,7 @@
 <div class="main-content">
     <div class="container">
         <div class="crc-slider-container">
-            <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div>
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div> -->
 
             <div class="crc-slider-content">
                 <div class="crc-slider-slides">
@@ -44,14 +44,14 @@
                 </div>
             </div>
 
-            <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div>
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div> -->
         </div>
 
 
         <section class="crc-highest-package-section text-white text-center py-3 mt-3">
             <div class="container">
                 <h2 class="tmu-text-primary my-0 mb-1"> <span>Highest </span><span>Package</span></h2>
-                <h5 class="mb-1">Batch 2023-24</h5>
+                <h5 class="mb-1">Batch 2024-25</h5>
                 <div class="row">
                     <div class="col-md-3 col-6 crc-border-right mb-2">
                         <h3 class="mb-1">₹ <span class="display-4">60</span> LPA</h3>
@@ -62,11 +62,11 @@
                         <p>INTERNATIONAL</p>
                     </div>
                     <div class="col-md-3 col-6 crc-border-right">
-                        <h3 class="mb-1">₹ <span class="display-4">8</span> LPA</h3>
+                        <h3 class="mb-1">₹ <span class="display-4">15</span> LPA</h3>
                         <p>MBA</p>
                     </div>
                     <div class="col-md-3 col-6">
-                        <h3 class="mb-1">₹ <span class="display-4">12</span> LPA</h3>
+                        <h3 class="mb-1">₹ <span class="display-4">20</span> LPA</h3>
                         <p>CCSIT</p>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching Learning and Development</span></h1>
-                    <p class="about-p mb-4 text-justify">The Centre for Teaching Learning & Development (CTLD) at Teerthanker Mahaveer University plays a pivotal role in shaping students' holistic development beyond academics. Recognizing the increasing importance of soft skills, personality traits, and aptitude, CTLD was established to bridge the gap between academic knowledge and real-world requirements.</p>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to</span><span> Centre For Teaching, Learning & Development</span></h1>
+                    <p class="about-p mb-4 text-justify">The Centre for Teaching, Learning & Development (CTLD) at Teerthanker Mahaveer University plays a pivotal role in shaping students' holistic development beyond academics. Recognizing the increasing importance of soft skills, personality traits, and aptitude, CTLD was established to bridge the gap between academic knowledge and real-world requirements.</p>
                     <div class="d-flex flex-column align-items-center">
                         <div class="read-more-content mt-0">
                             <p class="about-p mb-4 text-justify">CTLD offers specialized training in quantitative ability, reasoning, verbal skills, and personality development. These programs empower students to enhance their communication and social skills, ensuring they are well-prepared to face group discussions (GD), personal interviews (PI), and other challenges of the corporate world. By nurturing these essential skills, CTLD helps students excel in their placements and prepares them to thrive in their future professional environments.</p>
@@ -162,33 +162,8 @@
         <!--    </div>-->
         <!--</section>-->
 
-
-
     </div>
 </div>
 </div>
-
-<script>
-    // $(document).ready(function() {
-    //     $('.star-logo-carousel').owlCarousel({
-    //         loop: true,
-    //         margin: 10,
-    //         autoplay: true,
-    //         autoplayTimeout: 2000, // Time between slides (2 seconds)
-    //         autoplayHoverPause: true,
-    //         responsive: {
-    //             0: {
-    //                 items: 2 // Number of logos on small screens
-    //             },
-    //             600: {
-    //                 items: 3 // Number of logos on medium screens
-    //             },
-    //             1000: {
-    //                 items: 5 // Number of logos on large screens
-    //             }
-    //         }
-    //     });
-    // });
-</script>
 
 @endsection

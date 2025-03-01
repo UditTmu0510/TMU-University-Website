@@ -12,10 +12,10 @@
     <section>
       <div class="container">
         <div class="row">
-          <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About </span><span>University</span></h1>
+          <h1 class="tmu-text-primary tmu-page-heading mb-0 mb-md-3"><span>About the</span><span> University</span></h1>
 
           <div class="col-lg-12">
-            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Located 144 km from New Delhi along National Highway 9, TMU upholds the ideals of Lord Mahaveer—Right Philosophy, Right Knowledge, and Right Conduct in every aspect of its activities. The university is a leading destination for world-class education.</h4>
+            <h4 class="sublime text-justify mt-2 px-0 px-lg-5">Teerthanker Mahaveer University, a prestigious institution dedicated to academic excellence, was established by an ‘Act’ (No. 30) of 2008 of the Government of Uttar Pradesh and approved by the <span class="highlight p-0"><a href="https://www.ugc.gov.in/" target="_blank">University Grants Commission (UGC)</a></span> in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008.</h4>
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -23,21 +23,22 @@
                 <a class="grid-item" href="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/aboutus/banner/about-img.webp')}}" class="d-block mx-auto" alt="Gallery Thumb 1"></a>
               </div>
               <div class="col-lg-8 mt-2 mb-2">
+                <p class="text-justify fs-14 mb-2">Located 144 km from New Delhi along National Highway 9, TMU upholds the ideals of Lord Mahaveer—Right Philosophy, Right Knowledge, and Right Conduct in every aspect of its activities. The university is a leading destination for world-class education.</p>
                 <p class="text-justify fs-14 mb-2">As a multi-disciplinary varsity, we offer
                   career-oriented programmes
-                  at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams of <span class="highlight"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
-                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('engineering.home')}}" target="_blank"> Polytechnic</a>,
-                    <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a> and <a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet rising aspirations of the youth.
+                  at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams such as <span class="highlight p-0"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
+                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>, <a href="{{route('ccsit.home')}}" target="_blank"> Computing Sciences</a>, <a href="{{route('education.home')}}" target="_blank"> Education</a>,
+                    <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a></span> and <span class="highlight p-0"><a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet the rising aspirations of the youth.
                 </p>
 
                 <p class="text-justify fs-14 mb-2">TMU provides a unique environment for students to
-                  grow under the guidance of experienced academicians and acquire the creative and technical skills demanded to make them industry ready. Our brilliant faculty and staff form a dedicated team committed to the
-                  mission of the University. Being a dynamic, research-oriented University devoted to developing life-saving discoveries to address some of the most pressing global challenges.</p>
+                  grow under the guidance of experienced academicians and acquire the creative and technical skills required to make them industry ready. Our brilliant faculty and staff form a dedicated team committed to the
+                  mission of the University. Being a dynamic, research-oriented University, we are devoted to developing life-saving discoveries to address some of the most pressing global challenges.</p>
 
                 <p class="text-justify fs-14 mb-2">Education at TMU is not just about books and
-                  classrooms, but also about personality development and honing special skills. We provide an environment conducive to
+                  classrooms, but also about personality development and honing specialized skills. We provide an environment conducive to
                   teaching and learning supported by innovative practices. </p>
-                <p class="text-justify fs-14 mb-4"> Being one of the best private university, we have state-of-the-art laboratories and research facilities, well-planned residential space, and an excellent ecosystem for extra-curricular activities. The campus is wi-fi enabled and uses advanced technology to
+                <p class="text-justify fs-14 mb-4"> Being one of the best private universities,, we have state-of-the-art laboratories and research facilities, well-planned residential space, and an excellent ecosystem for extra-curricular activities. The campus is Wi-Fi enabled and uses advanced technology to
                   impart education. Due to the availability of these essential building blocks, TMU is in a unique position to support the development of students in such a way that they gain lifelong learning skills and become competent professionals.</p>
               </div>
               <!--<div class="col-md-12">-->
@@ -56,31 +57,27 @@
             <div class="custom-box">
               <h2 class="text-center text-uppercase text-white mt-4">Our Colleges</h2>
               <div class="row">
-                <div class="col-lg-6 col-xl-4">
-                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                    <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Medical College & Research Centre</li></a>
-                    <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Dental College & Resaerch Centre</li></a>
-                    <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Nursing</li></a>
-                    <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Pharmacy</li></a>
-                    <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Paramedical Sciences</li></a>
+                <div class="col-lg-6 col-xl-6">
+                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
+                    <li><a href="{{route('medical.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer Medical College & Research Centre</li></a>
+                    <li><a href="{{route('dental.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer Dental College & Resaerch Centre</li></a>
+                    <li><a href="{{route('nursing.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Nursing</li></a>
+                    <li><a href="{{route('pharmacy.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Pharmacy</li></a>
+                    <li><a href="{{route('paramedical.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer University College of Paramedical Sciences</li></a>
+                    <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Department of Physiotherapy</li></a>
+                    <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;TMIMT College of Management</li></a>
                   </ul>
                 </div>
-                <div class="col-lg-6 col-xl-4">
-                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                    <li><a href="{{route('physiotherapy.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Department of Physiotherapy</li></a>
-                    <li><a href="{{route('tmimt.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Management</li></a>
-                    <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Law & Legal Studeis</li></a>
-                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Computing Sciences</li></a>
-                    <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Engineering</li></a>
-                  </ul>
-                </div>
-                <div class="col-lg-6 col-xl-4">
-                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; text-wrap:nowrap;">
-                    <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Fine Arts</li></a>
-                    <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Faculty of Education</li></a>
-                    <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;TMIMT College of Physical Education</li></a>
-                    <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;College of Agriculture Sciences</li></a>
-                    <li><a href="{{route('jain.studies.home')}}"><i class="fa-solid fa-arrow-right"></i>&nbsp;Centre for Jain Studies</li></a>
+                <div class="col-lg-6 col-xl-6">
+                  <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
+                    <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Law and Legal Studeis</li></a>
+                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Computing Sciences & IT</li></a>
+                    <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer University College of Engineering</li></a>
+                    <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Fine Arts</li></a>
+                    <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Faculty of Education</li></a>
+                    <li><a href="{{route('physical_education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;TMIMT College of Physical Education</li></a>
+                    <li><a href="{{route('agriculture.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Agriculture Sciences</li></a>
+                    <li><a href="{{route('jain.studies.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Centre for Jain Studies</li></a>
                   </ul>
                 </div>
               </div>
@@ -99,11 +96,12 @@
           <img src="{{asset('/assets/img/aboutus/suresh_jain_tmu.webp')}}" alt="Profile Image">
         </div>
         <div class="quote-text mt-4 mt-md-0">
-
-          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual heart, mind and soul by right phylosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have out-placed basic human values.</h4>
-
+          <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>It is my firm belief that the harmonious development of society can be achieved by the enlightenment of the individual's heart, mind and soul through right philosophy, right knowledge and right conduct. This has become a prerequisite in today’s fast-changing world where material gains have place displaced basic human values. <br><a href="{{ route('chancellor.desk') }}" class="fs-14 unique-link">Read More</a></h4>
           <p class="mt-3">- Shri Suresh Jain</p>
           <p>Chancellor</p>
+          <!-- <div class="text-center mt-4">
+            
+          </div> -->
         </div>
       </div>
     </div>
@@ -134,7 +132,7 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2005</strong></h2>
                   </td>
-                  <td style="text-align:justify; margin-bottom:1rem; font-size:14px;"><b style="color:#FF7900;">Dental College & Research Centre</b><br>
+                  <td style="text-align:justify; margin-bottom:1rem; font-size:14px;"><b style="color:#FF7900;">Teerthanker Mahaveer Dental College & Research Centre</b><br>
                     Inaugurated in 2005, the Dental College is a hub of dental excellence, offering BDS, MDS, and PhD programmes in oral healthcare.
                 </tr>
                 <tr>
@@ -148,7 +146,7 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Medical College & Research Centre</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer Medical College & Research Centre</b><br>
                     Founded in 2008, the Medical College offers MBBS, MD/MS, M.Sc. Medical, and Ph.D. programmes, shaping future medical professionals.
                 </tr>
                 <tr>
@@ -156,48 +154,48 @@
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
                   <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Establishment of Teerthanker Mahaveer University</b><br>
-                    The Teerthanker Mahaveer University was established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh and was approved by the University Grants Commission (UGC), since inception in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October, 2008.
+                    The Teerthanker Mahaveer University was established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh and was approved by the University Grants Commission (UGC), in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October, 2008.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Pharmacy</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Pharmacy</b><br>
                     Established in 2008, the College of Pharmacy offers a diverse array of programmes, equipping students with skills for patient care and healthcare systems.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2008</strong></h2>
                   </td>
-                  <td style="text-align:justify; font-size:14px; " class="mb-3"><b style="color:#FF7900;">Faculty of Engineering</b><br>
-                    Inaugurated in 2008, the Faculty offers AICTE-approved programmes in various engineering disciplines, fostering academic excellence and innovation.
+                  <td style="text-align:justify; font-size:14px; " class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Engineering</b><br>
+                    Inaugurated in 2008, the College offers AICTE-approved programmes in various engineering disciplines, fostering academic excellence and innovation.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2009</strong></h2>
                   </td>
-                  <td style="text-align:justify; font-size:14px; " class="mb-3"><b style="color:#FF7900;">College of Nursing</b><br>
+                  <td style="text-align:justify; font-size:14px; " class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Nursing</b><br>
                     Formed in 2009, the College offers a spectrum of nursing programmes, preparing students for diverse roles in the healthcare sector.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Paramedical Sciences</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Paramedical Sciences</b><br>
                     Introduced in 2010, the College offers programmes in medical lab technology, X-ray technology, optometry, forensic science, and more, catering to pre-hospital emergency services.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Physiotherapy</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Department of Physiotherapy</b><br>
                     Founded in 2010, the College offers programmes aimed at helping patients maintain, recover, or improve their physical abilities, contributing to rehabilitative medicine.
                 </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2010</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Law & Legal Studies</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Law & Legal Studies</b><br>
                     Established in 2010, the College attracts bright minds aspiring to contribute meaningfully to the legal profession, offering integrated LL.B. programmes and a Ph.D. in law.
                 </tr>
                 <tr>
@@ -225,8 +223,8 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2012</strong></h2>
                   </td>
-                  <td style="text-align:justify;font-size:14px;" class="mb-3"><b style="color:#FF7900;">College of Jain Studies</b><br>
-                    Established in 2012, the College imparts moral education, comparative studies of different philosophies, and conducts research in religious studies.
+                  <td style="text-align:justify;font-size:14px;" class="mb-3"><b style="color:#FF7900;">Centre for Jain Studies</b><br>
+                    Established in 2012, the College imparts moral education, conducts comparative studies of different philosophies, and undertakes research in religious studies.
                 </tr>
                 <tr>
                   <td>
@@ -239,7 +237,7 @@
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2014</strong></h2>
                   </td>
-                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Agriculture Sciences</b><br>
+                  <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">Teerthanker Mahaveer College of Agriculture Sciences</b><br>
                     Inaugurated in 2014, the College focuses on core areas of agriculture and environmental studies, aligning with the recommendations of the Vth Deans Committee of ICAR.
                 </tr>
               </tbody>
@@ -262,7 +260,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-handshake" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">82%</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">85%</div>
             <p style="color:#000;">Placements</p>
           </div>
 
@@ -274,7 +272,7 @@
 
           <div class="col-lg-3 col-sm-6 text-center">
             <i class="fa-solid fa-certificate" style="font-size:8vh; color:#001055; margin-top:0.655rem;"></i>
-            <div class="counter counter-lined" style="color:#000; font-size:35px;">1700+</div>
+            <div class="counter counter-lined" style="color:#000; font-size:35px;">2800+</div>
             <p style="color:#000;">Patents</p>
           </div>
         </div>
@@ -379,7 +377,7 @@
 
         <div style="text-align:center; margin-top:2rem;">
           <h2 class="tmu-text-primary"><span>Campus </span><span>Facilities</span></h2>
-          <p style="text-align:center; padding:0 30px;" class="mb-4">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p>
+          <!-- <p style="text-align:center; padding:0 30px;" class="mb-4">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p> -->
         </div>
       </div>
       <div class="container d-none d-md-block">
@@ -448,7 +446,7 @@
       <div class="container">
         <div style="text-align:center; margin-top:2rem;">
           <h2 class="tmu-text-primary"><span> Campus </span><span> Facilities</span></h2>
-          <p class="text-justify px-2 px-md-4">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p>
+          <!-- <p class="text-justify px-2 px-md-4">Many students at TMU reside in university dormitories, apartments, and townhouses, as well as at the TMU Inn and Conference Center. Additionally, there are Greek houses available for six fraternities and sororities. New students are assured housing at TMU. </p> -->
         </div>
         <div class="container">
           <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
