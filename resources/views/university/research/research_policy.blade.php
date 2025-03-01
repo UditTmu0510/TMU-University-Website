@@ -71,13 +71,13 @@
                 <h3 class="m-1">Incentive given to Faculty Members</h3>
                 <div class="col-12 col-md-6">
                   <div class="card shadow-sm">
-                    <img src="{{ asset('assets/img/department/research/research_policy/research_incentive1.jpeg') }}" class="card-img-top" alt="Image 1">
+                    <img src="{{ asset('/assets/img/department/research/research_policy/research_incentive1.jpeg') }}" class="card-img-top" alt="Image 1">
                   </div>
                 </div>
                 <!-- Card 2 -->
                 <div class="col-12 col-md-6">
                   <div class="card shadow-sm">
-                    <img src="{{ asset('assets/img/department/research/research_policy/research_incentive1.jpeg') }}" class="card-img-top" alt="Image 2">
+                    <img src="{{ asset('/assets/img/department/research/research_policy/research_incentive1.jpeg') }}" class="card-img-top" alt="Image 2">
                   </div>
                 </div>
               </div>
