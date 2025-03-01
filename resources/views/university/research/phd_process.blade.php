@@ -46,8 +46,7 @@
               Research Scholars) to attend the 1st CRAC Meeting.</li>
             <li class="mb-2"><strong>First CRAC Meeting:</strong> Allocation of Supervisor based on the
               area of interest of the research supervisor, Constitution of RAC &
-              Recommendation of the Course Work and Additional Courses any - Annexure C &
-              C1</li>
+              Recommendation of the Course Work and Additional Courses any - Annexure C, C1, C2, C3, C3.1</li>
             <li class="mb-2">
               <ul class="ps-4 mb-0 fs-14 m-ol-list">
                 <li class="mb-1">Research Scholar start preparing research Work Plan and Synopsis/ Research
