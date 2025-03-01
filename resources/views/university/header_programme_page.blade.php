@@ -533,7 +533,7 @@
                     <a class="nav-link" href="{{route('crc.about.us')}}">Placement</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{route('tmu.careers')}}">Carrer</a>
+                    <a class="nav-link" href="{{route('tmu.careers')}}">Careers</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{route('all_news')}}">News</a>
