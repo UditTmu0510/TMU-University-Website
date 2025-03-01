@@ -99,8 +99,7 @@
                                     fine at the rate of 9% p.a., on the tuition fee will be charged if the
                                     candidate exceeds the deadline.</li>
                                 <li>The above extension fee will not be applicable to women who fall under
-                                    the purview of Clause 13.3 of the <a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017"
-                                        target="_blank">Ph.D. Ordinance</a> of the University.</li>
+                                    the purview of Clause 13.3 of the <span class="highlight p-0">Ph.D. Ordinance</span> of the University.</li>
                             </ol>
                         </div>
                     </div>
