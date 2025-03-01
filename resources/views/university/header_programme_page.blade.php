@@ -486,7 +486,7 @@
                 <a href="{{route('crc.about.us')}}">Placement</a>
               </div>
               <div class="col-4 mb-3">
-                <a href="{{route('tmu.careers')}}">Career</a>
+                <a href="{{route('tmu.careers')}}">Careers</a>
               </div>
               <div class="col-4 mb-3">
                 <a href="{{route('all_news')}}">News</a>
