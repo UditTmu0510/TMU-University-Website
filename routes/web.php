@@ -566,7 +566,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
-Route::get('/library', [TmuController::class, 'library'])->name('library');
+Route::get('/tmu/library', [TmuController::class, 'library'])->name('library');
 Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
 Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
@@ -574,8 +574,8 @@ Route::get('/tmu/application-form', [TmuController::class, 'application_form'])-
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
 Route::get('/tmu/jinalaya', [TmuController::class, 'jinalaya'])->name('jinalaya');
 Route::get('/tmu/sports', [TmuController::class, 'sports'])->name('sports');
-Route::get('/tmu/yoga-and-meditation', [TmuController::class, 'yoga_and_meditation'])->name('yoga.and.meditation');
-Route::get('/tmu/music-and-dance-room', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
+Route::get('/tmu/yoga', [TmuController::class, 'yoga_and_meditation'])->name('yoga.and.meditation');
+Route::get('/tmu/music', [TmuController::class, 'music_and_dance_room'])->name('music.and.dance.room');
 Route::get('/tmu/banking-facility', [TmuController::class, 'banking_facility'])->name('banking.facility');
 Route::get('/tmu/faculty-accomodation', [TmuController::class, 'faculty_accomodation'])->name('faculty.accomodation');
 Route::get('/tmu/guest-house', [TmuController::class, 'guest_house'])->name('guest.house');
