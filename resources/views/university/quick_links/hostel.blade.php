@@ -4,26 +4,62 @@
 <section id="content">
     <div class="content-wrap py-0">
 
-        <div class="container-fluid  my-0 px-2">
-            <div class="row ps-4">
-                <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
-
-                    <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to Teerthanker Mahaveer University Hostels<span style="font-weight:700!important;"> A Home For Students</span></h1>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="pe-lg-4 position-relative p-0">
-                        <div style="z-index: 2;">
-                            <img src="{{asset('assets/img/banner/library/library.webp')}}" alt="" class="p-0 m-0">
+        <section class="hero-section">
+            <div id="campusCarousel" class="carousel slide hero-slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active hero-slide">
+                        <img src="{{asset('/assets/img/footer_pages/banner/hostel.jpg')}}"
+                            class="hero-image" alt="Campus View">
+                        <div class="content-overlay">
+                            <div class="container">
+                                <h1 class="section-title d-none d-lg-block" style="color: white;">Hostel & <span> Accommodation</span></h1>
+                                <div class="stat-box d-none d-lg-inline-block">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h4>Comfortable & Well-Furnished </h4>
+                                            <p>Rooms</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>24/7 Security </h4>
+                                            <p>& Surveillance</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>High-Speed Wi-Fi </h4>
+                                            <p>& Study Areas</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <!-- Add more carousel items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="stat-box v2 d-block d-lg-none">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Comfortable & Well-Furnished </h4>
+                        <p>Rooms</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>24/7 Security </h4>
+                        <p>& Surveillance</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>High-Speed Wi-Fi </h4>
+                        <p>& Study Areas</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container pt-md-4">
+
+            <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Hostel & </span><span> Accommodation</span></h2>
             <div class="row justify-content-center">
-                <div class="col-lg-10 text-justify mb-4">
-                    <p class="mb-2 px-2 py-2 fs-14">We call our hostels home for students. The hostels at TMU are a
+                <div class="col-lg-12 text-justify mb-1 mt-1">
+                    <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;"> We call our hostels home for students. The hostels at TMU are a
                         home away from
                         home. The onus of developing the student academically, strengthening their culture,
                         taking care of their
@@ -34,7 +70,7 @@
                         destiny. The University houses five hostels in its campus- 2 for boys and 3 for girls
                         with a capacity to
                         accommodate 4600 students.</p>
-                    <p class="mb-2 px-2 py-2 fs-14">The hostel rooms are spacious, clean, and well maintained with
+                    <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;">The hostel rooms are spacious, clean, and well maintained with
                         attached bathrooms.
                         The rooms are available on single occupancy basis as well as on sharing basis. To help
                         the young minds
@@ -43,7 +79,7 @@
                         air-cooler. Solar heaters have been installed in all the hostels to supply hot water
                         conserving
                         electricity.</p>
-                    <p class="mb-2 px-2 py-2 fs-14">Water purifiers and water coolers are installed to provide potable
+                    <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;">Water purifiers and water coolers are installed to provide potable
                         water. Round
                         the clock power back-up helps students to study without interruption. Air-conditioned
                         rooms are also
@@ -52,54 +88,34 @@
                         well lit common room with a large screen television and comfortable seating arrangement,
                         recreational
                         facilities, equipments for indoor games, newspapers and magazines, Wi-Fi connectivity
-                        and a gymnasium.
+                        and a Students' Hostel.
                     </p>
-                    <p class="mb-2 px-2 py-2 fs-14">Laundry facility is available in-house with commercial washing
+                    <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;">Laundry facility is available in-house with commercial washing
                         machine and tumbler
                         drier. Spacious dining rooms and modern kitchens ensure that students are served with
                         nutritious food in
-                        a good ambiance.</p>
-                    <p class="mb-2 px-2 py-2 fs-14">A dedicated team of wardens and caretakers helps and resolve the
+                        a good ambiance. </p>
+                        <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;"> A dedicated team of wardens and caretakers helps and resolve the
                         problems of the
                         boarders. Students are advised to comply with rules and regulations of the University
                         hostels.</p>
-                    <p class="mb-2 px-2 py-2 fs-14">Yoga and meditation sessions are held regularly in morning and
+                    <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;">Yoga and meditation sessions are held regularly in morning and
                         evening hours for
                         the students residing in the hostels. The faculty counsellors are associated with every
                         hostel so as to
-                        mentor the students whenever they need.</p>
-                    <p class="mb-2 px-2 py-2 fs-14">The buildings are aesthetically planned with ample open space and
+                        mentor the students whenever they need. </p>
+                        <p class="text-justify mb-1 mt-1 m-lg-5" style="margin:25px!important;">The buildings are aesthetically planned with ample open space and
                         greenery thus
                         providing conducive environment to the students for realizing their optimum potential.
                     </p>
-                    <div class="container" style="
-                                padding: 20px;
-                                border: 1px solid #092e62;
-                                background-color: #f1f1f1;
-                            ">
-                        <h3 class="tmu-color-red mb-2">Hostel Helpline:</h3>
-                        <p class="mb-2"><strong>Girl's Hostel :</strong><br><span class="highlight mb-2"><a
-                                    href="tel:++91-9837763888">+91-9837763888 </a></span> <br /><span
-                                class="highlight mb-2"><a href="tel:++91-9837763888">+91-9837763888</a></span></p>
-                        <p class="mb-2"><strong>Boy's Hostel : </strong><br /><span class="highlight mb-2"><a
-                                    href="tel:++91-9837763888">+91-9837763888</a></span> <br /><span
-                                class="highlight mb-2"><a href="tel:++91-9837763888">+91-9837763888</a></span></p>
-                        <h3 class="tmu-color-red mb-2">Please Feel Free to Contact Hostel Authorities if required:
-                        </h3>
-                        <p class="mb-3"><strong>Girls's Hostel:</strong> <br />Mr. Vipin Jain <br />(<span
-                                class="highlight mb-2 ps-0 pe-0"><a href="mailto:dy.dir.hh@tmu.ac.in">
-                                    dy.dir.hh@tmu.ac.in</a></span>)</p>
-                        <p class="mb-3"><strong>Boys's Hostel:</strong> <br />Mr. Vipin Jain<br />(<span
-                                class="highlight mb-2 ps-0 pe-0"><a href="mailto:dy.dir.hh@tmu.ac.in">
-                                    dy.dir.hh@tmu.ac.in</a></span>)</p>
-                    </div>
                 </div>
             </div>
         </div>
 
+
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-lg-12">
                     <h3 class="tmu-text-primary mb-2 "><span>Hostel Fee (Including Mess) Per Year </span><span>
                             (Girls/Boys)
                             Except Medical </span></h3>
@@ -107,9 +123,9 @@
                         <table class="table table-bordered table-striped mb-0" id="loan-table">
                             <thead>
                                 <tr>
-                                    <th class="text-center">CATEGORY</th>
-                                    <th class="text-center" colspan="3">FOR NON JAIN STUDENTS</th>
-                                    <th class="text-center" colspan="3">FOR JAIN STUDENTS</th>
+                                    <th class="text-center">Categeory</th>
+                                    <th class="text-center" colspan="3">For Jain Non Jain Students</th>
+                                    <th class="text-center" colspan="3">For Jain Students</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -188,24 +204,154 @@
                             </tbody>
                         </table>
                     </div>
-                    <p class="mb-3 pb-sm-3"><span class="highlight fs-16">Note:- </span>For Jain students, there is an exemption of 50% in hostel fees (lodging only) for the common bathroom category and an exemption of 25% for the attached bathroom category.</p>
+                    <p class="mb-2 pb-sm-3"><span class="highlight fs-16">Note:- </span>For Jain students, there is an exemption of 50% in hostel fees (lodging only) for the common bathroom category and an exemption of 25% for the attached bathroom category.</p>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5">
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-header">
+                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Hostel & Accommodation </span><span> Gallery</span></h2>
+                    <p class="lead">Explore our Hostel glimpse through these captivating images.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Academic Blocks -->
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/1.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Girl's Hsotel</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/2.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Vardhman Bhawan</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <!-- Sports -->
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/3.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Prakash Bhawan</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/4.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Study Area</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <!-- Library -->
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/5.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Bedroom</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/6.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Girl's Hostel Mess</h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+                    <!-- <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/4.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/5.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/6.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/4.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/5.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Hospital">
+                        <img src="{{asset('/assets/img/footer_pages/hostel/6.jpg')}}"
+                            alt="Students' Hostel">
+                        <div class="gallery-item-info">
+                            <h3 class="gallery-item-title"></h3>
+                            <p class="gallery-item-category">Hostel</p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <div class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-prev">&lt;</button>
+            <img src="" alt="Enlarged Image">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-next">&gt;</button>
+        </div>
+
+
+        <div class="container mb-5 mt-5">
             <div class="row g-5 justify-content-center">
-                <div class="col-md-10 mb-1">
-                    <h3 class="tmu-text-primary mb-3 pt-lg-4"><span>Regulations to be followed </span><span> at the student
+                <div class="col-md-12 mb-1">
+                    <h3 class="tmu-text-primary mb-3 pt-lg-2"><span>Regulations to be followed </span><span> at the student
                             quarters:</span></h3>
                     <p><strong>Hostel & Wardens</strong></p>
                     <p class="text-justify mb-2">Every hostel has a resident warden, staying inside/ adjacent to the hostel. In addition, hostels may have non-resident wardens also depending upon the specific need. Each pair of wardens takes the role of local guardians of the students of that hostel. They have to be approached primarily for various issues like permissions for outstation leave, permission to go out of campus. In case of sickness, warden should be informed and he/she will facilitate speedy consultation with the doctor in the university hospital. The wardens will coordinate activities of the hostel viz cultural, sports, beautification, addition of facilities etc. The wardens can also be approached for any general guidance a student may need on academic/career or personal problems.</p>
                 </div>
 
                 <div class="row">
-                    <h3 class="tmu-text-primary mb-2 text-center"><span>Hostel</span><span> Rules</span></h3>
+                    <h2 class="tmu-text-primary mb-2 text-center"><span>Hostel</span><span> Rules</span></h2>
                 </div>
-                <div class="col-md-5 text-justify mt-2">
+                <div class="col-md-6 text-justify mt-2">
                     <ul class="m-ol-list ps-4 fs-12">
                         <li>The hostel provides a hard bed, a study table, a chair, a cupboard for each student, and a desert cooler for each room. Additionally, every hostel has a common electric/solar heated water facility, water cooler, common TV room, common reading room, etc.</li>
                         <li>There is provision for air-conditioned hostel rooms with extra charges.</li>
@@ -221,7 +367,7 @@
                         <li>All students going out of campus or entering it must make appropriate entries in the register kept at the security gate. All male students must be back on campus by 6:00 PM and within their respective hostels by 10:30 PM, and for female students, it shall be 4:00 PM and 7:00 PM, respectively. Students are advised to be in their respective rooms by 11:00 PM. Anybody failing to return to the campus/room in time will face disciplinary action. No student should stay away from their room during the night except with prior permission of the Warden.</li>
                     </ul>
                 </div>
-                <div class="col-md-5 text-justify mt-2">
+                <div class="col-md-6 text-justify mt-2">
                     <ul class="m-ol-list ps-4 fs-12">
                         <li><b class="fs-14">Procedure for going out of station on short leave: Collect a leave application form from your hostel warden.</b>
                             <ol class="ps-3">
@@ -248,10 +394,10 @@
 
             </div>
             <div class="row">
-                <h3 class="tmu-text-primary mb-2 text-center"><span>Mess</span><span> Rules</span></h3>
+                <h2 class="tmu-text-primary mb-2 text-center"><span>Mess</span><span> Rules</span></h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <ul class="m-ol-list ps-4 fs-12 text-justify">
                         <li>Students should stand in queue at the counter to serve themselves. They must avoid wastage of food by serving smaller portions and then going back to the counter for more if and when needed.</li>
                         <li>Students are required to pick up their plates and glasses after their meals and place them in the appropriate bins after emptying their contents in the trash drum provided. Ensure that spoons are not thrown in the trash.</li>
@@ -260,92 +406,93 @@
                 </div>
             </div>
 
-            <div class="row gutter-30 col-mb-5 justify-content-center mb-5">
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h1.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h1.jpg')}}"> Download Geo Tag Image</div>
+            <div class="row gutter-20 col-mb-5 justify-content-center mb-5">
+                <h2 class="tmu-text-primary text-center mb-3 mt-5"><span>Geo Tagged </span><span> Infrastructure</span></h2>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h1.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h1.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h2.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h2.jpg')}}"> Download Geo Tag Image</div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h2.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h2.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h3.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h3.jpg')}}"> Download Geo Tag Image</div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h3.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h3.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h4.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h4.jpg')}}"> Download Geo Tag Image</div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h4.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h4.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h5.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h5.jpg')}}"> Download Geo Tag Image</div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h5.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h5.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-4 col-md-3">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/quick_links/hostel/h6.jpg')}}"
-                            alt="" height="280">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h6.jpg')}}"> Download Geo Tag Image</div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                        <div class="team-image">
+                            <img src="{{asset('/assets/img/quick_links/hostel/h6.jpg')}}"
+                                alt="" height="280">
+                        </div>
+                        <div class="team-desc p-2">
+                            <div class="team-title pt-0">
+                                <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn mb-1" href="{{asset('/assets/img/quick_links/hostel/geotagged/h6.jpg')}}"> Download Geo Tag Image</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
         </div>
     </div>
 </section>
