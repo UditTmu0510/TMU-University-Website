@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>01, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Teerthanker Mahaveer University’s College of Computing Sciences & IT (CCSIT) and Faculty of Engineering (FOE) are organising SPLASH 2K25 – The Joy of Colors on 11th March 2025 to celebrate Holi with joy and enthusiasm. The event will feature competitions like dance, singing, poetry, stand-up comedy, rangoli, videography, logo design, and various stalls. Registrations for stalls and cultural events are open till 7th March 2025. Students must adhere to university rules, including restrictions on colours and alcohol on campus.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                   CCSIT</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>28, February</span>
                                 </div>
                                 <div class="notice-content">
