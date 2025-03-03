@@ -1077,6 +1077,9 @@ Route::get('/tmu/research-statistical-database', [TmuController::class, 'researc
 // tmu_moot_court
 Route::get('/tmu/moot-court', [TmuController::class, 'tmu_moot_court'])->name('tmu.moot.court');
 
+// PHD PRogrammes
+Route::get('/tmu/doctoral-programs', [TmuController::class, 'phd_programmes_offered'])->name('phd.programmes.offered');
+
 
 
 

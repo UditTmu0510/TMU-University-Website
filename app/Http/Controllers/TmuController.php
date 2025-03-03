@@ -1496,6 +1496,13 @@ class TmuController extends Controller
     }
 
 
+    // PHD Programmes
+
+    public function phd_programmes_offered()
+    {
+        return view('university.programme.phd_programmes_offered');
+    }
+
 
 
 
