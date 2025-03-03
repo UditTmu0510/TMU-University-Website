@@ -242,7 +242,7 @@
                                     <li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
                                     <li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
                                     <li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
-                                    <li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
+                                    <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
                                     <li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
                                 </ul>
                             </div>
@@ -251,10 +251,11 @@
                                 <ul>
                                     <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
                                     <li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga & Meditation</a></li>
-                                    <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
+                                    <li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
                                     <li><a href="{{route('library')}}" target="_blank">Library</a></li>
                                     <li><a href="{{route('music.and.dance.room')}}" target="_blank">Music & Dance</a></li>
                                     <li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
+                                    <li><a href="{{route('gym')}}" target="_blank">GYM</a></li>
 
                                 </ul>
                             </div>
