@@ -224,6 +224,7 @@
                                     <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
 									<li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
 									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
+                                    <li><a href="{{route('tmu.hostel')}}" target="_blank">Hostel</a></li>
 								</ul>
 							</div>
 							<div class="col-6 col-lg-2 widget_links">
