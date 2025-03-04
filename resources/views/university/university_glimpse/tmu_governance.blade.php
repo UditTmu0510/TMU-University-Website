@@ -1585,7 +1585,7 @@
 
                   <td>
                     <center><a
-                        href="{{asset('/assets/pdf/bos_composition/bos_composition_fine_arts.pdf')}}"
+                        href="{{asset('/assets/pdf/bos_composition/TMU_BOS_FineArts.pdf')}}"
                         target="_blank">View</a></center>
                   </td>
                   <td>
