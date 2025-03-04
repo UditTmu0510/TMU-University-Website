@@ -2,7 +2,7 @@
 .video-container {
     position: absolute;
     display: flex;
-    top: 0%;
+    top: -10%;
     flex-direction: column; /* Stack text box and new content */
     justify-content: center;
     align-items: center;
