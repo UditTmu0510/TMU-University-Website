@@ -20,8 +20,8 @@
                                             <p>Buses</p>
                                         </div>
                                         <div class="col-md-4">
-                                            <h4>Extensive</h4>
-                                            <p>Transport Network</p>
+                                            <h4>80+</h4>
+                                            <p>Buses for Safe and Easy Commute</p>
                                         </div>
                                         <div class="col-md-4">
                                             <h4>Reasonable</h4>
