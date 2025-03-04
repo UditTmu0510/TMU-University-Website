@@ -241,33 +241,33 @@
 				<div class="iqac-card">
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">Student's Feedback Analysis Report</p>
+						<p class="description">Communication letter 2022-23</p>
 						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-							href="{{asset('/assets/pdf/university_annual_report_2021_22.pdf')}}">View PDF</a>
+							href="{{asset('/assets/data/naac-data/iqac_feedback/communication/communication_letter_2022_23.pdf')}}">View PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">Teacher's Feedback Analysis Report</p>
-						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="#">View
+						<p class="description">Communication letter 2021-22</p>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/data/naac-data/iqac_feedback/communication/communication_letter_2021_22.pdf')}}">View
 							PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">Alumni's Feedback Analysis Report</p>
-						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="#">View
+						<p class="description">Communication letter 2020-21</p>
+						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/data/naac-data/iqac_feedback/communication/Communication_letter_2020_21.pdf')}}">View
 							PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">Employer's Feedback Analysis Report</p>
+						<p class="description">Communication letter 2019-20</p>
 						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-							href="{{asset('/assets/pdf/iqac_annual_report/iqac-report-2018-19.pdf')}}">View PDF</a>
+							href="{{asset('/assets/data/naac-data/iqac_feedback/communication/communication_letter_2019_20.pdf')}}">View PDF</a>
 					</div>
 					<div class="card-pdf">
 						<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-						<p class="description">Professional's Feedback Analysis Report</p>
+						<p class="description">Communication letter 2018-19</p>
 						<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-							href="{{asset('/assets/pdf/iqac_annual_report/iqac-report-2017-18.pdf')}}">View PDF</a>
+							href="{{asset('/assets/data/naac-data/iqac_feedback/communication/communication_letter_2018_19.pdf')}}">View PDF</a>
 					</div>
 				</div>
 			</div>
