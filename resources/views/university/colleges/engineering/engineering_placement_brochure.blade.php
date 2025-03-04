@@ -287,7 +287,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                            <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_23_24.pdf')}}"
+                            <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_23_24.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/ccsit-brochure-23-24.webp')}}"
                                             alt="Book Cover Image">
@@ -340,7 +340,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement__19_20.pdf')}}"
+                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_19_20.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/3.webp')}}"
                                             alt="Book Cover Image">
@@ -384,7 +384,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_17_18.pdf')}}"
+                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_17_18.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}"
                                             alt="Book Cover Image">
@@ -402,7 +402,7 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_16_17.pdf')}}"
+                        <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_16_17.pdf')}}"
                                         target="_blank"><img
                                             src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}"
                                             alt="Book Cover Image">
@@ -427,7 +427,7 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_23_24.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_23_24.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -446,7 +446,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_22_23.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_22_23.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -465,7 +465,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_20_21.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_20_21.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -484,7 +484,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_19_20.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_19_20.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -503,7 +503,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_18_19.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_18_19.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -522,7 +522,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_17_18.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_17_18.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -540,8 +540,8 @@
                         </div>
                     </a>
                 </div>
-                <!-- <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_16_17.pdf')}}"
+                <div class="carousel-item">
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_16_17.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -558,7 +558,7 @@
                             </div>
                         </div>
                     </a>
-                </div> -->
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
