@@ -759,10 +759,17 @@
 
                     </div>
 
-                    <div class="banner-text">
+                    <!-- <div class="banner-text">
                         <h1>This is TMU</h1>
                         <div class="glass-effect-box">
                         <p>With a bright history of shaping futures, we continue to shine even brighter with our vision of <br><strong>TRANSFORMING MINDS, UNITING WISDOM</strong></p>
+                        </div>
+                    </div> -->
+
+                    <div class="video-container">
+                        <div class="video-text-box">This is TMU</div>
+                        <div class="glass-effect-box">
+                        Building on a legacy of shaping bright futures, we continue to soar to new heights with our vision:<br> "Transforming minds, uniting wisdom."
                         </div>
                     </div>
                 </div>
