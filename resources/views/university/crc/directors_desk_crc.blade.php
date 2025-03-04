@@ -14,6 +14,7 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container py-5">
         <div class="row justify-content-center">
+        <h1 class="tmu-text-primary tmu-page-heading "><span> From the Desk </span><span> of Director</span></h1>
             <div class="col-lg-10">
                 <div class="principal-card23">
                     <i class="ph-bold ph-quotes principal-quote-icon23"></i>

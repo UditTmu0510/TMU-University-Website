@@ -16,6 +16,7 @@
 <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
     <div class="container py-5">
         <div class="row justify-content-center">
+        <h1 class="tmu-text-primary tmu-page-heading "><span> From the Desk </span><span> of President</span></h1>
             <div class="col-lg-10">
                 <div class="principal-card23">
                     <i class="ph-bold ph-quotes principal-quote-icon23"></i>
@@ -25,7 +26,7 @@
 
 
                                 <div class="principal-image-wrapper23">
-                                    <img src="{{asset('/assets/img/department/alumni/dean/president.jpg')}}" alt="Principal" class="principal-image23" style="object-position: top;">
+                                    <img src="{{asset('/assets/img/department/alumni/dean/president.jpg')}}" alt="President Alumni" class="principal-image23" style="object-position: top;">
                                     <div class="principal-image-decoration23"></div>
                                 </div>
                                 <div class="principal-info23">
