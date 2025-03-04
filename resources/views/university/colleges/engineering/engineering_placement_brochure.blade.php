@@ -435,7 +435,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/ccsit-brochure-23-24.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/ccsit-brochure-23-24.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -454,7 +454,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/1.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/1.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -473,7 +473,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/2.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/2.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -492,7 +492,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/3.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/3.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -511,7 +511,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/4.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/4.webp')}}" alt="Book Cover Image" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -530,7 +530,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
@@ -549,7 +549,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/5.webp')}}" alt="Book Cover Image"/>
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
