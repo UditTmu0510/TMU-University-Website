@@ -642,7 +642,7 @@
 <section class="container">
     <div class="row justify-content-center ">
         <div class="col-xl-10 col-lg-10 text-center">
-            <h2 class="tmu-text-primary my-3"><span>Alumni</span> <span>Testimonial</span></h2>
+            <h2 class="tmu-text-primary my-3"><span></span><span>Testimonial</span></h2>
         </div>
     </div>
 
@@ -723,11 +723,11 @@
 <section id="content">
     <div class="content-wrap py-0" style="margin-top: 23px; margin-bottom: 37px;">
 
-        <div class="row justify-content-center ">
+        <!-- <div class="row justify-content-center ">
             <div class="col-xl-10 col-lg-10 text-center">
                 <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
             </div>
-        </div>
+        </div> -->
 
         <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
             <div class="item">
