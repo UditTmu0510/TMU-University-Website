@@ -32,7 +32,10 @@ class TmuController extends Controller
             ->where('status', 1)
             ->orderBy('short_name', 'ASC')
             ->withCount('programmes') // This will add a count of related programmes
-            ->get();
+            ->get()
+            ->reject(function ($college) {
+                return $college->cd_id == 17;
+            });
 
         $news = News::where('status', 1)
             ->where('display_main', 'Y')
@@ -73,11 +76,11 @@ class TmuController extends Controller
     public function fetch_programmes(Request $request)
     {
         $cd_id = $request->cd_id;
-        
+
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
             ->where('status', 'Y')->get();
-            
+
 
         // Check if any records are found
         if ($programs->isEmpty()) {
@@ -128,9 +131,9 @@ class TmuController extends Controller
         if ($programme->status === 'N') {
             abort(404); // Return a 404 error if the programme is not visible
         }
-        
+
         $cd_id = $programme->cd_id;
-        
+
 
         $prog_id = $programme->prog_id;
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
