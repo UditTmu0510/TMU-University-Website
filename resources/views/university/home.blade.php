@@ -642,7 +642,7 @@
 <section class="container">
     <div class="row justify-content-center ">
         <div class="col-xl-10 col-lg-10 text-center">
-            <h2 class="tmu-text-primary my-3"><span></span><span>Testimonial</span></h2>
+            <h2 class="tmu-text-primary my-3"><span></span><span>Testimonials</span></h2>
         </div>
     </div>
 
@@ -824,7 +824,7 @@
 
     <button class="careers-accordion">TMU’s Impressive Placement Records<span class="icon">+</span></button>
     <div class="panel">
-        <h3 class="tmu-text-primary fs-16 mb-0"><span>82% Outstanding </span><span> Placement Rate</h3>
+        <h3 class="tmu-text-primary fs-16 mb-0"><span>85% Outstanding </span><span> Placement Rate</h3>
         <p>One of the key indicators of a university'ssuccess is its placement records. TMU boasts an outstanding placement rate of 82% in the academic year 2022-23.</p>
         <h3 class="tmu-text-primary fs-16 mb-0"><span>Highest Package </span><span> Offered - 60 LPA</h3>
         <p>The university's commitment to providing quality education is evident in the remarkable achievement of a 60 LPA package offered to TMU students, showcasing the recognition and demand for graduates from the university.</p>
