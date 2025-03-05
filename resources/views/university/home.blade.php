@@ -642,7 +642,7 @@
 <section class="container">
     <div class="row justify-content-center ">
         <div class="col-xl-10 col-lg-10 text-center">
-            <h2 class="tmu-text-primary my-3"><span></span><span>Testimonials</span></h2>
+            <h2 class="tmu-text-primary my-3"><span>Testimonials</span><span></span></h2>
         </div>
     </div>
 
