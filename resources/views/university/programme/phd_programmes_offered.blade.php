@@ -2,6 +2,9 @@
 @section('content')
 
 <div class="container my-5">
+<h2 class="tmu-text-primary text-center">
+                <span>Doctoral </span><span>Programmes</span>
+            </h2>
   <!-- Row to contain cards -->
   <div class="row row-cols-1 row-cols-md-3 g-4">
     
