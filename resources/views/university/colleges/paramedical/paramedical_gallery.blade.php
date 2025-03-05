@@ -42,15 +42,57 @@
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Paramedical Diploma Program">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-2.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Guest Lecture & Training on Optometry Careers">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-2.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2">Guest Lecture & Training on Optometry Careers</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-3.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture & Training on Optometry Careers"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-1.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture & Training on Optometry Careers"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-4.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture & Training on Optometry Careers"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Innovative Lens Fitting: Merging Expertise">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2">Guest Lecture: Innovations in Cancer Diagnostics</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-2.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-3.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-4.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wh-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Innovative Lens Fitting: Merging Expertise">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/wh-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2">Innovative Lens Fitting: Merging Expertise</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wh.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wh-2.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wh-4.jpg')}}" data-lightbox="gallery-item" title="Innovative Lens Fitting: Merging Expertise"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Fresher's Party">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-1.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
                                 <h5 class="text-center mt-2">Frehser's Party</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-2.jpg')}}" data-lightbox="gallery-item" title="Paramedical Diploma Program"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-3.jpg')}}" data-lightbox="gallery-item" title="Paramedical Diploma Program"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-2.jpg')}}" data-lightbox="gallery-item" title="Fresher's Party"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-3.jpg')}}" data-lightbox="gallery-item" title="Fresher's Party"></a>
                             </div>
                         </div>
 
@@ -119,7 +161,7 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-5.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">World Sight Day</h5>
+                                <h5 class="text-center mt-2">World Sight Day - 2024</h5>
                             </a>
                             <div class="d-none">
                                 <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-2.jpg')}}" data-lightbox="gallery-item" title="World Sight Day"></a>
