@@ -1020,7 +1020,8 @@
 
 <script>
     let wd = window.innerWidth;
-    
+    let videoElement = document.getElementById('videoPlayer89');
+
     if (wd <= 540) {
         document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
         url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
@@ -1032,6 +1033,12 @@
     }
     var player = dashjs.MediaPlayer().create();
     player.initialize(document.querySelector("#videoPlayer89"), url, true);
+
+    // Looping fix for dash.js
+    videoElement.addEventListener('ended', function() {
+        player.seek(0); // Restart from the beginning
+        videoElement.play();
+    });
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
