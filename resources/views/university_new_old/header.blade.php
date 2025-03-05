@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
 
     <!-- managemt college css -->
-    <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
     <!-- Document Title
 	============================================= -->
     <title>TMU | New Website</title>
