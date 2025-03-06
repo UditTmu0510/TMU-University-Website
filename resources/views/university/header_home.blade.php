@@ -766,14 +766,22 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js" integrity="sha512-LyDgm9kfqyKlZOe+QjpNA6L/ZpcjNj+cKSJ/bQLTGkKXaxYNpYGN9Fe6DpI0H0w3Da2WcXVX8ACjL14y3iWGBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         {{-- <script src="{{asset('assets/js/default/dash.min.js')}}"></script> --}}
 
+        <style>
+            #videoWrapper {
+                position: relative;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+        </style>
+
 
         <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
         <!-----video banner start-->
         <section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
             <div class="slider-inner">
                 <div class="container-fluid p-0">
-                    <div class="video-banner">
-
+                    <div class="video-banner" >  
                         <video id="videoPlayer89" muted autoplay loop playsinline class="d-none d-md-block" poster="{{asset('poster/banner_video_poster.webp')}}"></video>
                         <video id="videoPlayer89mobile" muted autoplay loop playsinline class="w-100 d-block d-md-none"></video>
 

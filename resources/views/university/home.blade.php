@@ -1019,6 +1019,9 @@
 </script>
 
 <script>
+    // Get the time when the script starts executing
+    const scriptStartTime = performance.now();
+    console.log("Script started running at: " + scriptStartTime + " ms");
     let wd = window.innerWidth;
     let videoId = 'videoPlayer89';
     if(wd <= 540)
@@ -1042,7 +1045,7 @@
     player.seek(0); // Restart from the beginning
     videoElement.play();
     });
-    </script>
+</script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
