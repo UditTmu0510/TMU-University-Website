@@ -775,6 +775,12 @@
             }
         </style>
 
+<script>
+    // Get the time when the script starts executing
+    const scriptStartTime = performance.now();
+    console.log("code started running at: " + scriptStartTime + " ms");
+    </script>
+
 
         <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
         <!-----video banner start-->
