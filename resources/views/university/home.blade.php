@@ -1020,26 +1020,29 @@
 
 <script>
     let wd = window.innerWidth;
-    let videoElement = document.getElementById('videoPlayer89');
-
+    let videoId = 'videoPlayer89';
+    if(wd <= 540)
+    {
+    videoId = 'videoPlayer89mobile';
+    }
+    let videoElement = document.getElementById(videoId);
+    
     if (wd <= 540) {
-        document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
-        url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
-        document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
+    url = "{{ asset('poster/mobile/output.mpd') }}";
     }
     else{
-        // document.getElementById('videoPlayer89').poster="{{asset('poster/banner_video_poster.webp')}}"
-        var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
+    url = "{{ asset('poster/desktop_tab/output.mpd') }}";
+    
     }
     var player = dashjs.MediaPlayer().create();
-    player.initialize(document.querySelector("#videoPlayer89"), url, true);
-
+    player.initialize(videoElement, url, true);
+    
     // Looping fix for dash.js
     videoElement.addEventListener('ended', function() {
-        player.seek(0); // Restart from the beginning
-        videoElement.play();
+    player.seek(0); // Restart from the beginning
+    videoElement.play();
     });
-</script>
+    </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
