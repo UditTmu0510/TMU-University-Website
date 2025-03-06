@@ -517,6 +517,8 @@
 
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
+    <script src="{{asset('assets/js/default/dash.min.js')}}" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
@@ -763,8 +765,8 @@
 
 
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script> --}}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js" integrity="sha512-LyDgm9kfqyKlZOe+QjpNA6L/ZpcjNj+cKSJ/bQLTGkKXaxYNpYGN9Fe6DpI0H0w3Da2WcXVX8ACjL14y3iWGBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        {{-- <script src="{{asset('assets/js/default/dash.min.js')}}"></script> --}}
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js" integrity="sha512-LyDgm9kfqyKlZOe+QjpNA6L/ZpcjNj+cKSJ/bQLTGkKXaxYNpYGN9Fe6DpI0H0w3Da2WcXVX8ACjL14y3iWGBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
+        
 
         <style>
             #videoWrapper {
@@ -780,7 +782,7 @@
             <div class="slider-inner">
                 <div class="container-fluid p-0">
                     <div class="video-banner" >  
-                        <video id="videoPlayer89" muted autoplay loop playsinline class="d-none d-md-block" poster="{{asset('poster/banner_video_poster.webp')}}"></video>
+                        <video id="videoPlayer89" muted autoplay loop playsinline class="d-none d-md-block"></video>
                         <video id="videoPlayer89mobile" muted autoplay loop playsinline class="w-100 d-block d-md-none"></video>
 
                     </div>
