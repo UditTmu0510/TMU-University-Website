@@ -517,7 +517,7 @@
 
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
-    <script src="{{asset('assets/js/default/dash.min.js')}}" defer></script>
+    <script src="{{asset('assets/js/default/dash.min.js')}}" ></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
