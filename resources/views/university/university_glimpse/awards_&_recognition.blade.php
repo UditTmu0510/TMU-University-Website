@@ -18,7 +18,7 @@
 
 
             <!-- Grid row -->
-            <div class="row row-cols-1 row-cols-sm-6 align-items-sm-end gutter-10 mt-5 mx-1" data-lightbox="gallery">
+            <div class="row row-cols-1 row-cols-sm-6 align-items-sm-end gutter-10 mx-1" data-lightbox="gallery">
 
                 <div class="col-6 col-md-3">
                     <a href="{{asset('/assets/img/awards/awards_original/a1.png')}}" data-lightbox="gallery-item">
