@@ -775,14 +775,6 @@
             }
         </style>
 
-<script>
-    // Get the time when the script starts executing
-    const scriptStartTime = performance.now();
-    console.log("code started running at: " + scriptStartTime + " ms");
-    </script>
-
-
-        <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
         <!-----video banner start-->
         <section id="slider" class="slider-element revslider-wrap min-vh-0 include-header">
             <div class="slider-inner">
@@ -802,3 +794,34 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            // Get the time when the script starts executing
+            const scriptStartTime = performance.now();
+            console.log("Script started running at: " + scriptStartTime + " ms");
+            let wd = window.innerWidth;
+            let videoId = 'videoPlayer89';
+            if(wd <= 540)
+            {
+            videoId = 'videoPlayer89mobile';
+            }
+            let videoElement = document.getElementById(videoId);
+            
+            if (wd <= 540) {
+            url = "{{ asset('poster/mobile/output.mpd') }}";
+            }
+            else{
+            url = "{{ asset('poster/desktop_tab/output.mpd') }}";
+            
+            }
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(videoElement, url, true);
+            
+            // Looping fix for dash.js
+            videoElement.addEventListener('ended', function() {
+            player.seek(0); // Restart from the beginning
+            videoElement.play();
+            });
+        </script>
+
+<link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">

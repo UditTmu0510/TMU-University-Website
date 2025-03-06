@@ -1018,34 +1018,7 @@
     });
 </script>
 
-<script>
-    // Get the time when the script starts executing
-    const scriptStartTime = performance.now();
-    console.log("Script started running at: " + scriptStartTime + " ms");
-    let wd = window.innerWidth;
-    let videoId = 'videoPlayer89';
-    if(wd <= 540)
-    {
-    videoId = 'videoPlayer89mobile';
-    }
-    let videoElement = document.getElementById(videoId);
-    
-    if (wd <= 540) {
-    url = "{{ asset('poster/mobile/output.mpd') }}";
-    }
-    else{
-    url = "{{ asset('poster/desktop_tab/output.mpd') }}";
-    
-    }
-    var player = dashjs.MediaPlayer().create();
-    player.initialize(videoElement, url, true);
-    
-    // Looping fix for dash.js
-    videoElement.addEventListener('ended', function() {
-    player.seek(0); // Restart from the beginning
-    videoElement.play();
-    });
-</script>
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
