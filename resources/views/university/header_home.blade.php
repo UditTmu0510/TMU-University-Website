@@ -80,6 +80,36 @@
     <meta name="teoma" content="noodp">
 
 
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-QXM8FSJKVR");
+    </script>
+
+
 
     <script type="application/ld+json">
         {
@@ -337,7 +367,7 @@
 
     @endif
 
-    
+
 
 
     <!-- Font Imports -->
@@ -347,9 +377,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
     <!-- Canela Deck font  -->
@@ -488,8 +518,8 @@
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
 
 </head>
 
@@ -522,7 +552,7 @@
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
-                    <img  src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
+                    <img src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
                     <span class="text">Admissions Open</span>
                 </div>
@@ -769,7 +799,7 @@
                     <div class="video-container">
                         <div class="video-text-box">This is TMU</div>
                         <div class="glass-effect-box">
-                        Building on a legacy of shaping bright futures, we continue to soar to new heights with our vision:<br> "Transforming minds, uniting wisdom."
+                            Building on a legacy of shaping bright futures, we continue to soar to new heights with our vision:<br> "Transforming minds, uniting wisdom."
                         </div>
                     </div>
                 </div>
