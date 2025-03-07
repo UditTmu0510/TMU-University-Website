@@ -24,7 +24,7 @@
 
                            
                             <div class="principal-image-wrapper23">
-                                <img src="{{asset('/assets/img/principal/physical_education/physicaleducation_principal.jpg')}}" alt="Principal" class="principal-image23" style="object-position: top;">
+                                <img src="{{asset('/assets/img/principal/physical_education/princip-mm.jpg')}}" alt="Principal" class="principal-image23" style="object-position: top;">
                                 <div class="principal-image-decoration23"></div>
                             </div>
                             <div class="principal-info23">

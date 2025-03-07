@@ -32,9 +32,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>BCCI </span>
+                            <span>NCTE</span>
                             <br>
-                            <span class="d-block pt-1">Certified Coaches</span>
+                            <span class="d-block pt-1"> Approved Programmes</span>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>MoU with </span>
+                            <span>World-Class </span>
                             <br>
-                            <span class="d-block pt-1">Toss Cricket Academy</span>
+                            <span class="d-block pt-1">Sports Facilities</span>
                         </div>
                     </div>
                 </div>
@@ -81,9 +81,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>BCCI </span>
+                                        <span>NCTE</span>
                                         <br>
-                                        <span class="d-block pt-1">Certified Coaches</span>
+                                        <span class="d-block pt-1"> Approved Programmes</span>
                                     </div>
                                 </div>
                             </div>
@@ -103,9 +103,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>MoU with </span>
+                                        <span>World-Class </span>
                                         <br>
-                                        <span class="d-block pt-1">TOSS Cricket Academy</span>
+                                        <span class="d-block pt-1">Sports Facilities</span>
                                     </div>
                                 </div>
                             </div>
@@ -133,8 +133,8 @@
                         <p class="m-0 p-0"><b>Sports can deliver a successful career.</b></p>
                         <p style="text-align: justify;">TMIMT College of Physical Education stands by this claim, having groomed professionals, athletes, and other careers within the sports industry. Established in 2011, the college has evolved over its decade-long journey into a top-notch private institution for sports enthusiasts. TMIMT College of Physical Education offers state-of-the-art facilities such as a gym, indoor stadium, experienced coaches, and faculty to nurture compassionate sports professionals. Through rigorous practical training and regular participation in inter-collegiate, state, and national-level competitions, the college ensures you are shaped into the best version of yourself.</p>
                         <div class="read-more-content mt-2">
-                            <p class="mt-1 p-0" style="text-align: justify;">TMIMT College of Physical Education is a premier institution dedicated to fostering excellence in physical education and sports. Situated under the aegis of Teerthanker Mahaveer University (TMU), the college stands out as a beacon for aspiring sports professionals. But why is physical education so crucial? It’s more than just sports and games; it’s about cultivating a healthy, active lifestyle and developing the skills necessary for personal and professional growth.</p><br/>
-                            <p  class="mt-1 p-0" style="text-align:justify;"><b>Join the best private college for Physical Education in UP and excel beyond your imagination.</b></p>
+                            <p class="mt-1 p-0" style="text-align: justify;">TMIMT College of Physical Education is a premier institution dedicated to fostering excellence in physical education and sports. Situated under the aegis of Teerthanker Mahaveer University (TMU), the college stands out as a beacon for aspiring sports professionals. But why is physical education so crucial? It’s more than just sports and games; it’s about cultivating a healthy, active lifestyle and developing the skills necessary for personal and professional growth.</p><br />
+                            <p class="mt-1 p-0" style="text-align:justify;"><b>Join the best private college for Physical Education in UP and excel beyond your imagination.</b></p>
                         </div>
                         <a href="javascript:void(0);" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2" title="Read More">Read More</a>
                     </div>
@@ -193,18 +193,18 @@
                     <h3>Infrastructure</h3>
                     <ul class="m-ol-list ps-4 mb-0">
                         <li>International-level multipurpose Indoor sports complex for Volleyball/Badminton/Basketball/Gymnastics/Yoga/Skating</li>
-                                 <li>Excellent pavilion with cricket ground.</li>
-                            <li>Two Kabaddi court</li>
-                            <li>One Taekwondo court</li>
-                            <li>Two Squash court</li>
-                            <li>Two National Level Gymnasiums (Male & Female)</li>
-                            <li>Multiple tables for Table-tennis</li>
-                        
+                        <li>Excellent pavilion with cricket ground.</li>
+                        <li>Two Kabaddi court</li>
+                        <li>One Taekwondo court</li>
+                        <li>Two Squash court</li>
+                        <li>Two National Level Gymnasiums (Male & Female)</li>
+                        <li>Multiple tables for Table-tennis</li>
+
                     </ul>
                     <div class="read-more-content">
                         <ul class="m-ol-list ps-4">
-                                  <li>Pool tables of Snooker</li>
-                        <li>Physiotherapy Clinic</li>
+                            <li>Pool tables of Snooker</li>
+                            <li>Physiotherapy Clinic</li>
                         </ul>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
@@ -213,7 +213,7 @@
         </div>
 
         <!----- section Start-->
-      <section id="content" class="prog-bm">
+        <section id="content" class="prog-bm">
             <div class="content-wrap py-0" style="overflow: visible;">
                 <!-- Code for the Desktop view -->
                 <div class="container d-none d-lg-block">
@@ -227,10 +227,10 @@
                         <div class="col-md-3">
                             <div class="list-group" id="list-tab" role="tablist">
                                 <a class="programme-fetch-button pgroup list-group-item listream list-group-item-action rounded-3 shadow-sm" id="Undergraduate" data-ProgrammeLevel="UG" data-bs-toggle="list" href="#UG" role="tab" aria-controls="UG"><i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;Undergraduate
-                                  
+
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
-                                  </a>
+                                </a>
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -249,7 +249,7 @@
                                 <!--  Home tab panel 2 Starts Here  --
 								       ----------------------------- -->
                                 <div class="tab-pane fade show programmes-data" id="PG" role="tabpanel" aria-labelledby="Postgraduate">
-                                
+
 
                                 </div>
                                 <!-- 
@@ -261,7 +261,7 @@
 								 -->
 
                                 <div class="tab-pane fade" id="Doctoral" role="tabpanel" aria-labelledby="PHD">
-                                
+
                                 </div>
 
                                 <!-- 
@@ -354,25 +354,25 @@
                         <button class="careers-accordion" data-ProgrammeLevel="UG"><span> <i class="fa-solid fa-computer fa-sm fakash"></i>&nbsp;&nbsp;Undergraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmeUG">
-                                
+
 
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
 
-                        <button class="careers-accordion" data-ProgrammeLevel="PG" ><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
+                        <button class="careers-accordion" data-ProgrammeLevel="PG"><span><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;&nbsp;Postgraduate</span> <span class="icon">+</span></button>
                         <div class="panel">
                             <ul class="progul" id="programmePG">
-                                
+
                             </ul>
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        
+
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
-                                
+
 
                             </ul>
                         </div>
@@ -457,33 +457,33 @@
         </section>
         <!-----Courses section completed-->
 
-	<section>
-        <div class="container-fluid mt-5 ">
-            <h2 class="tmu-text-primary text-center">
-                <span>Our </span><span> Recruiters</span>
-            </h2>
-            <div class="marquee my-5 py-5 pt-4">
-                
-            
-                <section class="marquee-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-                <section class="marquee-content">
-                        @foreach($recruiters as $recruiter)
-                    <div class="marquee-block">
-                        <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
-                    </div>
-                   @endforeach
-                </section>
-            </div>
-        </div>
-    </section>
+        <section>
+            <div class="container-fluid mt-5 ">
+                <h2 class="tmu-text-primary text-center">
+                    <span>Our </span><span> Recruiters</span>
+                </h2>
+                <div class="marquee my-5 py-5 pt-4">
 
-             <section>
+
+                    <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                    <section class="marquee-content">
+                        @foreach($recruiters as $recruiter)
+                        <div class="marquee-block">
+                            <a href="#"><img src="{{asset($recruiter->recruiter_image_path)}}" alt="{{$recruiter->alt_tag}}"></a>
+                        </div>
+                        @endforeach
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section>
             <div class="container-xl tmu-testimonial mt-5 mb-3">
 
                 <h2 class="tmu-text-primary my-0 mb-3"> <span>Testimonial</span></h2>
@@ -491,30 +491,30 @@
                 <div class="owl-carousel owl-carousel-full image-carousel carousel-widget charity-card" style="overflow: visible;" data-stage-padding="20" data-margin="50" data-center="true" data-loop="true" data-nav="true" data-autoplay="2000" data-speed="2000" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="3">
 
 
-@foreach($testimonials as $testimonial)
-    <div class="oc-item text-start">
-        <div class="media">
-            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
-            <div class="media-body">
-                <div class="testimonial">
-                    <p class="overview mb-3 fs-14">
-                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
-                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
-                             <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
-                                Linkedin <i class="bi bi-linkedin"></i>
-                            </a>
-                        </span>
-                    </p>
-                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
-                </div>
-            </div>
-            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
-            </div>
-        </div>
-    </div>
-@endforeach
+                    @foreach($testimonials as $testimonial)
+                    <div class="oc-item text-start">
+                        <div class="media">
+                            <img src="{{asset($testimonial->thumbnail_path)}}" class="me-3" alt="">
+                            <div class="media-body">
+                                <div class="testimonial">
+                                    <p class="overview mb-3 fs-14">
+                                        <b class="fs-16">{{$testimonial->student_name}}</b> <br>
+                                        {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
+                                        <span>
+                                            <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
+                                                Linkedin <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </span>
+                                    </p>
+                                    <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto my-0 d-flex align-items-center tmu-fs-14">
+                                <button class="tmu-btn btn-3 py-2 d-block pe-3" onclick="showTestimonialModal()">Read More <i class="bi bi-chevron-down"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
 
                 </div>
 
@@ -574,8 +574,6 @@
                 <p class="text-justify">The MPEd program is designed for those looking to advance their expertise and leadership skills in physical education, preparing them for higher roles in academia, sports management, and coaching.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>PhD in </span><span>Physical Education</span></h3>
                 <p class="text-justify">For those inclined towards research and academic excellence, TMIMT offers a PhD program in physical education, fostering innovation and scholarly contributions to the field.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physical Education</span><span> and Sports (BPES)</span></h3>
-                <p class="text-justify">The BPES program focuses on the broad aspects of physical education and sports, offering a comprehensive curriculum that includes sports management, coaching, and fitness training. State-of-the-Art Infrastructure</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
@@ -595,11 +593,9 @@
 
             <button class="careers-accordion">Faculty and Coaching<span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">TMIMT takes pride in its highly qualified and experienced faculty, along with BCCI-certified coaches who offer unparalleled guidance and training to students.</p>
+                <p class="text-justify">TMIMT takes pride in its highly qualified and experienced faculty who offer unparalleled guidance and training to students.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Highly Qualified and</span><span> Experienced Faculty</span></h3>
                 <p class="text-justify">The faculty at TMIMT are not just educators but mentors who are committed to nurturing the talents and potential of each student.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>BCCI Certified</span><span> Coaches</span></h3>
-                <p class="text-justify">With BCCI-certified coaches, students receive top-notch training and insights, enhancing their skills and performance in various sports.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Student Support and</span><span> Development</span></h3>
                 <p class="text-justify">TMIMT is dedicated to the holistic development of its students, offering robust support systems and opportunities for growth.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Up to 100%</span><span> Scholarship Assistance</span></h3>
@@ -682,7 +678,7 @@
                 <p class="text-justify"><strong>Q. What is physical education?</strong></p>
                 <p class="text-justify">Ans: Physical education is a discipline focused on the development of physical fitness, motor skills, and overall health through various physical activities and sports.</p>
                 <p class="text-justify"><strong>Q. What programs does TMIMT offer?</strong></p>
-                <p class="text-justify">Ans: TMIMT offers a range of programs including BPEd, MPEd, PhD in Physical Education, PGDYEd, and BPES.</p>
+                <p class="text-justify">Ans: TMIMT offers a range of programs including BPEd, MPEd, PhD in Physical Education and BPES.</p>
                 <p class="text-justify"><strong>Q. How does TMIMT support student placements?</strong></p>
                 <p class="text-justify">Ans: TMIMT provides 100% placement assistance with a strong track record, offering career guidance, training, and connections with leading sports organizations.</p>
                 <p class="text-justify"><strong>Q. What facilities are available on campus?</strong></p>
@@ -700,35 +696,33 @@
 <script src="{{asset('/assets/js/tmimt.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+    $(document).ready(function() {
+        // Click event for navbar buttons
+        $('.programme-fetch-button').click(function() {
 
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
 
-$(document).ready(function() {
-    // Click event for navbar buttons
-    $('.programme-fetch-button').click(function() {
-        
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 18,
-                programme_level:programme_level 
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                    if ((i % 3 == 0) && (i != 0)) {
-                        programListHtml += `</div><div class="row">`;
-                    } else if (i == 0) {
-                        programListHtml += `<div class="row">`; 
-                    }
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 18,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+                        if ((i % 3 == 0) && (i != 0)) {
+                            programListHtml += `</div><div class="row">`;
+                        } else if (i == 0) {
+                            programListHtml += `<div class="row">`;
+                        }
 
                         programListHtml += `
                     <div class="col-md-4">
@@ -747,42 +741,42 @@ $(document).ready(function() {
                                     </div>
                                 </div>`;
 
-            
-                
-                                i++;
-                });
-                $('#'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+
+
+                        i++;
+                    });
+                    $('#' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
-    });
-    $('.programme-fetch-button:first').addClass('active').click();
-    $('.programmes-data:first').addClass('active');
+        $('.programme-fetch-button:first').addClass('active').click();
+        $('.programmes-data:first').addClass('active');
 
-// Programme fetch code for the mobile view starts here
+        // Programme fetch code for the mobile view starts here
 
-    $('.careers-accordion').click(function() {
-        var programme_level = this.getAttribute('data-ProgrammeLevel');
-        // Ajax call to fetch programs of selected type
-        $.ajax({
-            url: '{{ route("fetch_programmes_by_level") }}',
-            type: 'POST',
-            data: {
-                _token: '{{ csrf_token() }}',
-                cd_id: 18,
-                programme_level: programme_level
-            },
-            success: function(response) {
-                // Handle JSON response and populate program list
-                console.log(response);
-                var programs = response.programs;
-                var programListHtml = '';
-                let i =0;
-                programs.forEach(function(program) {
-                 
+        $('.careers-accordion').click(function() {
+            var programme_level = this.getAttribute('data-ProgrammeLevel');
+            // Ajax call to fetch programs of selected type
+            $.ajax({
+                url: '{{ route("fetch_programmes_by_level") }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: 18,
+                    programme_level: programme_level
+                },
+                success: function(response) {
+                    // Handle JSON response and populate program list
+                    console.log(response);
+                    var programs = response.programs;
+                    var programListHtml = '';
+                    let i = 0;
+                    programs.forEach(function(program) {
+
                         programListHtml += `<li class="progli">
                         <div class="card shadow-sm progcard card-sz">
                             <img src="${program.programme_image_path}" class="card-img-top" alt="...">
@@ -798,21 +792,20 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </li>`;
- i++;
-                });
-                $('#programme'+programme_level).html(programListHtml);
-            },
-            error: function(xhr, status, error) {
-              
-                console.log('the error is'+error);
-            }
+                        i++;
+                    });
+                    $('#programme' + programme_level).html(programListHtml);
+                },
+                error: function(xhr, status, error) {
+
+                    console.log('the error is' + error);
+                }
+            });
         });
+
+        // Programme fetch code for the mobile view ends here
+
     });
-
-// Programme fetch code for the mobile view ends here
-
-});
-
 </script>
 
 @endsection
