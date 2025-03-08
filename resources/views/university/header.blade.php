@@ -111,6 +111,34 @@
     
 
 
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-QXM8FSJKVR");
+    </script>
 
     <script type="application/ld+json">
         {
@@ -376,9 +404,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet"> -->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monsieur+La+Doulaise&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monsieur+La+Doulaise&family=Sigmar&display=swap" rel="stylesheet">
 
 
     <!-- Canela Deck font  -->
@@ -474,7 +502,7 @@
 	============================================= -->
     <title>TMU | New Website</title>
     <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" > -->
-    <link rel="stylesheet" href="{{asset('/assets/css/default/swiper-bundle.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('/assets/css/default/swiper-bundle.min.css')}}">
     <!-- <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script> -->
 
     <!-- Niche Demos -->
@@ -726,47 +754,34 @@
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
             <i class="fa-solid fa-bars"></i>
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
-            <div class="tooltip px-3 py-2" id="menu-tooltip">  <span class="info-icon">
-      <i class="fa-solid fa-info-circle"></i> <!-- Information icon inside a circle -->
-    </span> Home to University & College Menu</div>
-    </div>
+            <div class="tooltip px-3 py-2" id="menu-tooltip"> <span class="info-icon">
+                    <i class="fa-solid fa-info-circle"></i> <!-- Information icon inside a circle -->
+                </span> Home to University & College Menu</div>
         </div>
-        <!-- Menubar Open Button Completed -->
+    </div>
+    <!-- Menubar Open Button Completed -->
 
 
 
 
 
 
-        <div class="modal-search" id="searchModal">
-            <div class="modal-search-content">
-                <span class="modal-search-close" id="closeModal">&times;</span>
-                <input type="text" id="searchInput" placeholder="Search...">
-                <div class="suggestions" id="suggestions">
-                    <!-- Suggestions will be shown here -->
-                </div>
+    <div class="modal-search" id="searchModal">
+        <div class="modal-search-content">
+            <span class="modal-search-close" id="closeModal">&times;</span>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <div class="suggestions" id="suggestions">
+                <!-- Suggestions will be shown here -->
             </div>
         </div>
+
+    </div>
+
         
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (window.location.href.includes("tmu.ac.in/blog")) {
-            // Hide the desktop WhatsApp button
-            let desktopWhatsappButton = document.querySelector('.side-button-container a[href*="whatsapp"]');
-            if (desktopWhatsappButton) {
-                desktopWhatsappButton.style.display = "none";
-            }
-
-            // Hide the mobile WhatsApp button using the assigned ID
-            let mobileWhatsappButton = document.getElementById("mobile_whatapp2345");
-            if (mobileWhatsappButton) {
-                mobileWhatsappButton.style.display = "none";
-            }
-        }
-    });
-</script>
 
 
 
 
-        <!-- Searchbar code ends here -->
+
+
+    <!-- Searchbar code ends here -->
