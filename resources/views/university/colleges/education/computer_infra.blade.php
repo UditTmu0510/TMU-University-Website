@@ -12,13 +12,28 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/working1.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                             <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/working1.png')}}"> Download Geo Tag Image</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                    <div class="team-image">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/working3.png')}}" alt="">
+                    </div>
+                    <div class="team-desc p-2">
+                        <div class="team-title pt-0">
+                            <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/working3.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
@@ -26,41 +41,27 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
-                    </div>
-                    <div class="team-desc p-2">
-                        <div class="team-title pt-0">
-                            <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
-                    <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c1.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/working4.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                         <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                        style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c1.jpeg')}}"> Download Geo Tag Image</div>
+                        style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('//assets/img/departments/education/ComputerLab/working4.png')}}"> Download Geo Tag Image</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
+                    <div class="team-image">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/working2.png')}}" alt="">
+                    </div>
+                    <div class="team-desc p-2">
+                        <div class="team-title pt-0">
+                            <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/working2.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
@@ -75,13 +76,13 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/Nonworking1.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                             <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Non Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Non Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/Nonworking1.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
@@ -89,13 +90,13 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/Nonworking2.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                             <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Non Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Non Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/Nonworking2.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
@@ -103,13 +104,13 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c2.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/Nonworking3.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                             <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Non Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c2.jpeg')}}"> Download Geo Tag Image</div>
+                                style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Non Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/Nonworking3.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
@@ -117,13 +118,13 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                     <div class="team-image">
-                        <img src="{{asset('/assets/img/medical/centers/c1.jpeg')}}" alt="">
+                        <img src="{{asset('/assets/img/departments/education/ComputerLab/Nonworking.png')}}" alt="">
                     </div>
                     <div class="team-desc p-2">
                         <div class="team-title pt-0">
                         <h4 class="fs-14">Geo tagged infrastructure</h4><span class="fst-normal fs-12 mb-2"
-                        style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i>Non Working Lab</span>
-                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/medical/centers/c1.jpeg')}}"> Download Geo Tag Image</div>
+                        style="font-size:16px; font-family:'poppins';"><i class="fa-solid fa-building"></i> Non Working Lab</span>
+                            <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 download-btn" href="{{asset('/assets/img/departments/education/ComputerLab/Nonworking.png')}}"> Download Geo Tag Image</div>
                         </div>
                     </div>
                 </div>
