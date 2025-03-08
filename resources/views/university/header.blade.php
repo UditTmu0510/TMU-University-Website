@@ -4,6 +4,35 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-QXM8FSJKVR");
+    </script>
+    <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
+
     @php
     // Build the full URL
     $currentUrl = request()->fullUrl();
@@ -78,6 +107,8 @@
     <meta name="msnbot" content="noodp">
     <meta name="slurp" content="noodp, noydir">
     <meta name="teoma" content="noodp">
+    
+    
 
 
     <script>
@@ -518,6 +549,7 @@
         <i class="uil uil-search" style="color:white;"></i>
     </div>
 
+   
 
 
     <!-- Document Wrapper
@@ -547,7 +579,10 @@
                 </div>
             </a>
         </div>
+        
+         
 
+        <!--mobile tray starts-->
         <div class="new-menu-container d-block d-sm-none">
             <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
                 ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
@@ -556,24 +591,26 @@
                     alt="Menu Icon"> <!-- Replace arrow with your image -->
             </div>
             <div class="new-menu-row">
-                <div class="new-menu-item"><span><a href="https://www.tmu.ac.in/"
-                            style="color: #fff; text-decoration: none;">Enquire Now</a></span></div>
-                <div class="new-vl"></div>
-                <div class="new-menu-item"><span>TMU Online</span></div>
+                <div class="new-menu-item"><span><a href="https://admissions.tmu.ac.in/"
+                            style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
+                <!--<div class="new-vl"></div>-->
+                <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
+                <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
             </div>
             <div class="new-menu" id="new-menu">
                 <div class="new-menu-row">
-                    <div class="new-menu-item"><a
+                    <div class="new-menu-item" id="mobile_whatapp2345"><a
                             href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
                             target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
                                 alt="Icon 1"></a></div>
-                    <div class="new-menu-item"><a href="https://www.tmu.ac.in/virtual-tour" target="blank"><img
+                    <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
                                 src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
                     <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
                                 src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
                 </div>
             </div>
         </div>
+<!--mobile tray ends-->
 
 
         <!-- Header Code Section Begin -->
@@ -737,6 +774,14 @@
                 <!-- Suggestions will be shown here -->
             </div>
         </div>
+
     </div>
+
+        
+
+
+
+
+
 
     <!-- Searchbar code ends here -->

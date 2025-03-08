@@ -8,8 +8,6 @@
 		<div class="row align-items-end">
 			<div class="col-sm-12 col-md-12 text-justify ">
 				<h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Vision &</span><span> Mission</span></h1>
-
-
 				<!-- <h3 class="fw-bold tmu-text-primary mb-1"><span>About </span><span>Teerthanker Mahaveer University</span></h3>
 				<p class="p-1 mb-3">Located 144 km from New Delhi along National Highway 9, TMU upholds the ideals of Lord Mahaveer—Right Philosophy, Right Knowledge, and Right Conduct in every aspect of its activities. The university is a leading destination for world-class education.</p>
 				<p class="p-1 mb-3">As a multi-disciplinary varsity, we offer career-oriented programmes at all levels, i.e.,
@@ -24,16 +22,12 @@
 		<!-- Write content for right side here  -->
 		<div class="text-justify mx-auto mb-0 mt">
 			<h3 class="fw-bold tmu-text-primary mt-2 mb-0"><span></span><span> Vision</span></h3>
-			<p class="p-1 ">To be recognized as a premier institution of excellence providing high quality education,
-				research and consultancy services to the society.</p>
+			<p class="p-1 ">To be internationally recognised as a premier institution of excellence providing quality education, research and consultancy services to the global society.</p>
 		</div>
 
 		<div class="text-justify mx-auto mb-0">
 			<h3 class="fw-bold tmu-text-primary mt-4 mb-0"><span></span><span> Mission</span></h3>
-			<p class="p-1 ">Our endeavour is to impart knowledge and develop critical skills necessary to succeed both in
-				professional and personal life by promoting learning supported by world-class faculty,
-				infrastructure, technology, curricula and collaborative teaching and research with premier
-				institutions in India and abroad.</p>
+			<p class="p-1 ">Our endeavour is to impart knowledge and develop critical skills necessary to succeed both in professional and personal life by promoting learning supported by world-class faculty, infrastructure, technology, curricula and collaborative teaching and research with premier institutions in India and abroad.</p>
 		</div>
 
 		<div class="text-justify mx-auto mb-0">

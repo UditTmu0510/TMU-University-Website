@@ -798,7 +798,7 @@
                                         </td>
                                         <td>To undertake, organise and facilitate study courses, conferences, seminars, lectures and research in matters relating to different cultural patterns of the world.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     
@@ -810,7 +810,7 @@
                                         </td>
                                         <td>Promote a better and more effective utilization of human resources through education, training and development in all spheres of Govt., agriculture, industry, commerce, education infrastructure, services & such other sectors.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     
@@ -822,7 +822,7 @@
                                         </td>
                                         <td>The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognised professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. The IETE is the National Apex Professional body of Electronics and Telecommunication, Computer Science and IT Professionals. The Institution provides leadership in Scientific and Technical areas of direct importance to the national development and economy. Government of India has recognised IETE as a Scientific and Industrial Research Organization (SIRO) and also notified as an educational Institution of national eminence. The objectives of IETE focus on advancing electro-technology. The IETE conducts and sponsors technical meetings, conferences, symposia, and exhibitions all over India, publishes technical journals and provides continuing education as well as career advancement opportunities to its members.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     
@@ -834,7 +834,7 @@
                                         </td>
                                         <td>To promote growth of concrete construction and its sub-specializations.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     
@@ -846,7 +846,7 @@
                                         </td>
                                         <td>The Computer Society of India is a non-profit professional meet to exchange views and information learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     
@@ -858,7 +858,7 @@
                                         </td>
                                         <td>Reputed source for Information Dissemination through publications, seminars, workshops in Technical Education.</td>
                                         <td class="v-mid">
-                                            <a href="nan" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
+                                            <a href="#" class="tmu-btn btn-1 px-2 py-1 fs-12">Download</a>
                                         </td>
                                     </tr>
                                     

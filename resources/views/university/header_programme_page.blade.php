@@ -4,6 +4,36 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
+      <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!--Google Analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-QXM8FSJKVR");
+    </script>
+    
+    <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
+
   @php
   // Build the full URL
   $currentUrl = request()->fullUrl();
@@ -35,6 +65,8 @@
   <meta name="twitter:site" content="@Tmumbd" />
   <meta name="twitter:title" content="{{ $metaData->meta_title }}" />
   <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
+  
+  
 
   @if(!empty($metaData->sitemap_url))
   @php
@@ -69,7 +101,7 @@
   <meta name="description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
   <meta name="keywords" content="Best private University in UP,Top Private University in up,Best University in India,Top Rated University,Best University in Moradabad,Best Engineering University in UP,Best Law University in up,Best management University in UP." />
   <meta property="og:title" content="TMU Moradabad – Best Private University in UP, India." />
-  <meta property="og:description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees  <meta name=" robots" content="noindex">
+  <meta property="og:description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
   <meta name="robots" content="noarchive" />
   <meta name="revisit-after" content="1 days">
   <meta name="googlebot" content="noodp">
@@ -77,6 +109,8 @@
   <meta name="slurp" content="noodp, noydir">
   <meta name="teoma" content="noodp">
   <meta name="robots" content="noodp, noydir">
+  
+ 
 
 
   <script>
@@ -400,9 +434,7 @@
 
   <!-- managemt college css -->
   <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
-  <!-- Document Title
-	============================================= -->
-  <title>TMU | New Website</title>
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script>
 
@@ -417,7 +449,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
@@ -427,13 +459,10 @@
 
 <body class="stretched is-expanded-menu" data-menu-breakpoint="1200">
 
-  <!-- <div class="preloader">
-        <div class="loader"></div>
-    </div> -->
 
 
-  <!-- Document Wrapper
-	============================================= -->
+
+
   <div id="wrapper" style="display: block;">
     <section style="background-color: #001055;">
       <div class="container-fluid d-flex justify-content-start px-5 py-3 ps-4">
@@ -443,32 +472,35 @@
 
 
 
-    <div class="new-menu-container d-block d-sm-none">
-      <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
-        ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
+   <!--mobile tray starts-->
+        <div class="new-menu-container d-block d-sm-none">
+            <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
+                ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
 
-        <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
-          alt="Menu Icon"> <!-- Replace arrow with your image -->
-      </div>
-      <div class="new-menu-row">
-        <div class="new-menu-item"><span><a href="https://www.tmu.ac.in/"
-              style="color: #fff; text-decoration: none;">Enquire Now</a></span></div>
-        <div class="new-vl"></div>
-        <div class="new-menu-item"><span>TMU Online</span></div>
-      </div>
-      <div class="new-menu" id="new-menu">
-        <div class="new-menu-row">
-          <div class="new-menu-item"><a
-              href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
-              target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
-                alt="Icon 1"></a></div>
-          <div class="new-menu-item"><a href="https://www.tmu.ac.in/virtual-tour" target="blank"><img
-                src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
-          <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
-                src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
+                <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
+                    alt="Menu Icon"> <!-- Replace arrow with your image -->
+            </div>
+            <div class="new-menu-row">
+                <div class="new-menu-item"><span><a href="https://admissions.tmu.ac.in/"
+                            style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
+                <!--<div class="new-vl"></div>-->
+                <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
+                <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
+            </div>
+            <div class="new-menu" id="new-menu">
+                <div class="new-menu-row">
+                    <div class="new-menu-item"><a
+                            href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
+                            target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
+                                alt="Icon 1"></a></div>
+                    <div class="new-menu-item"><a href="https://www.tmu.ac.in/tmu/virtual-tour" target="blank"><img
+                                src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
+                    <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
+                                src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+<!--mobile tray ends-->
 
 
     <!-- Header Code Section Begin -->

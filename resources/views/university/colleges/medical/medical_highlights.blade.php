@@ -40,13 +40,19 @@
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Books & E-Books</div>
-                            <p>Teerthanker Mahaveer Medical College & Research Centre has a collection of 13,077 books and 2015 E-Books providing comprehensive resources for academic research and study.</p>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Books: </b>13,077</li>
+                                    <li><b class="fs-14">Ebooks: </b>2015</li>
+                                </ul>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Journals & E-Journals</div>
-                            <p>Teerthanker Mahaveer Medical College & Research Centre provides access to 97 (National and International) journals and 1733 e-journals.</p>
+                                <ul class="m-ol-list ps-3 mb-0">
+                                    <li><b class="fs-14">Journals: </b>97 (National and International)</li>
+                                    <li><b class="fs-14">E - Journals: </b>1733</li>
+                                </ul>
                         </div>
                     </div>
                 </div>
@@ -188,8 +194,8 @@
                             <div class="timeline-text">
                                 <div class="timeline-date">Average Daily Stats</div>
                                 <ul class="m-ol-list ps-3 mb-0">
-                                    <li><b class="fs-14">OPD: </b>More than 1870</li>
-                                    <li><b class="fs-14">IPD: </b>More than 142</li>
+                                    <li><b class="fs-14">OPD: </b>More than 2200</li>
+                                    <li><b class="fs-14">IPD: </b>More than 150</li>
                                 </ul>
                             </div>
                         </div>

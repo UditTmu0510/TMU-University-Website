@@ -44,7 +44,7 @@
                     <hr class="horizontal-line">
                     <button class="careers-accordion">7. Does TMU have a placement cell? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/placement-cell">visit Here</a></span>.</p>
+                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="{{route('crc.home')}}">visit Here</a></span>.</p>
                     </div>
                     <hr class="horizontal-line">
                 </div>
@@ -54,7 +54,7 @@
                     <hr class="horizontal-line">
                     <button class="careers-accordion">Where do I send scholarship checks? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>All queries regarding TMU scholarships will be entertained in the Scholarship Branch. For general enquiries, check <span class="highlight"><a href="https://www.tmu.ac.in/tmu/scholarship">TMU Scholarships </a></span> or call 1800 270 1490.</p>
+                        <p>All queries regarding TMU scholarships will be entertained in the Scholarship Branch. For general enquiries, check <span class="highlight"><a href="{{route('tmu.scholarship')}}">TMU Scholarships </a></span> or call 1800 270 1490.</p>
                     </div>
                     <hr class="horizontal-line">
                 </div>
@@ -84,27 +84,27 @@
                     <hr class="horizontal-line">
                     <button class="careers-accordion">5. How are hostel rooms allotted? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Hostel rooms are allotted on a first-come-first-served basis, depending on the availability of rooms. The allocation is subject to the payment of the hostel fee. For details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/hostel.">Visit TMU Hostels</a></span>.</p>
+                        <p>Hostel rooms are allotted on a first-come-first-served basis, depending on the availability of rooms. The allocation is subject to the payment of the hostel fee. For details, <span class="highlight"><a href="{{route('tmu.hostel')}}">Visit TMU Hostels</a></span>.</p>
                     </div>
                     <hr class="horizontal-line">
                     <button class="careers-accordion">6. What kind of bedding will I need? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/placement-cell">visit Here</a></span>.</p>
+                        <p>The bedding includes one mattress, two bed sheets, one pillow, two pillow covers, one quilt, and one blanket. The bed sheet should be of standard size for a single bed.</p>
                     </div>
                     <hr class="horizontal-line">
                     <button class="careers-accordion">7. Who runs the building I'll be living in? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/placement-cell">visit Here</a></span>.</p>
+                        <p>The hostel is managed by three key people: wardens, chief hostel warden, and general manager.</p>
                     </div>
                     <hr class="horizontal-line">
                     <button class="careers-accordion">8. How do I get my belongings to my hostel room? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/placement-cell">visit Here</a></span>.</p>
+                        <p>Once you reach the university campus, the university will provide manpower to assist students in shifting their belongings to their hostel rooms.</p>
                     </div>
                     <hr class="horizontal-line">
                     <button class="careers-accordion">9. When is move-in and move-out? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>Yes. Teerthanker Mahaveer University has a well-established Placement Cell known as the Corporate Resource Centre (CRC). The CRC is responsible for coordinating and facilitating activities related to internships, career development, training, and final placements of students. The university has achieved a placement rate of 82%. Additionally, our highest package offered stood at Rs. 60 Lakh Per Annum. For more details, <span class="highlight"><a href="https://www.tmu.ac.in/tmu/placement-cell">visit Here</a></span>.</p>
+                        <p>Students are not allowed to move out during academic hours unless there is an emergency. However, they can go out in the evening according to the outing schedule by following the proper procedure.</p>
                     </div>
                     <hr class="horizontal-line">
                 </div>
@@ -238,7 +238,7 @@
                     <hr class="horizontal-line">
                     <button class="careers-accordion">3. What steps has TMU taken to prevent ragging? <span class="icon">+</span></button>
                     <div class="panel">
-                        <p>TMU has implemented a zero-tolerance policy towards ragging. They have established an Anti-Ragging Committee and an Anti-Ragging Squad to address and prevent any instances of ragging. Additionally, helpline numbers are prominently displayed throughout the campus for students to report any incidents. CCTV cameras are also installed on the campus for surveillance purposes. For more details regarding the TMU anti-ragging policy visit <span class="highlight"><a href="https://www.tmu.ac.in/tmu/anti-ragging-policy"> Anti Ragging Policy</a></span> or TMU <span class="highlight"><a href="https://www.tmu.ac.in/tmu/anti-ragging-committee">Anti Ragging Committee</a>.</span></p>
+                        <p>TMU has implemented a zero-tolerance policy towards ragging. They have established an Anti-Ragging Committee and an Anti-Ragging Squad to address and prevent any instances of ragging. Additionally, helpline numbers are prominently displayed throughout the campus for students to report any incidents. CCTV cameras are also installed on the campus for surveillance purposes. For more details regarding the TMU anti-ragging policy visit <span class="highlight"><a href="{{asset('/assets/pdf/anti_ragging_policy/anti-ragging-policy.pdf')}}"> Anti Ragging Policy</a></span> or TMU <span class="highlight"><a href="https://www.tmu.ac.in/tmu/anti-ragging-committee">Anti Ragging Committee</a>.</span></p>
                     </div>
                     <hr class="horizontal-line">
                     <button class="careers-accordion"> 4. How safe and secure will I be on campus? <span class="icon">+</span></button>

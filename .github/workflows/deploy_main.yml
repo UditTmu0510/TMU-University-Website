@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.CPANEL_SSH_KEY }}
           port: 22
           script: |
-            cd /home/tmuac1/public_html/test.tmu.ac.in  # Change this to your project path
+            cd /home/tmuac1/public_html/other_websites/test.tmu.ac.in  # Change this to your project path
             git pull origin main
             composer install --no-dev
             php artisan optimize:clear

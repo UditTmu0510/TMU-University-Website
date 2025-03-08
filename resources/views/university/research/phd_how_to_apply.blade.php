@@ -20,7 +20,7 @@
           matriculation.</li>
         <li>If you are seeking relaxation in the minimum eligibility criteria, a self attested copy
           of supporting certificate issued by a competent authority must be attached. (Please
-          refer to <span class="highlight"><a href="https://www.tmu.ac.in/tmu/phd-ordinance-2017-revised" target="_blank">Ph.D ordinance</span></a>
+          refer to <span class="highlight"><a href="{{route('phd.ordinance')}}" target="_blank">Ph.D ordinance</span></a>
           of University for details).</li>
         <li>Attach self attested copies all your experience certificates.</li>
         <li>Attach a ‘No Objection Certificate’ from your present employer, if employed.</li>

@@ -20,9 +20,9 @@
             <a href="{{ route('exam.syllabus') }}" class="custom-menu-item {{ setActive('exam.syllabus') }}">
                 <p>Syllabus</p>
             </a>
-            <a href="https://cvl.nad.co.in/NAD/home.action" class="custom-menu-item">
-                <p>NAD</p>
-            </a>
+            <!--<a href="https://cvl.nad.co.in/NAD/home.action" class="custom-menu-item">-->
+            <!--    <p>NAD</p>-->
+            <!--</a>-->
         </div>
         <h2>Quick Links</h2>
         <div class="account-section">

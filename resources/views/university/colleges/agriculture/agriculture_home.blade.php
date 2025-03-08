@@ -109,7 +109,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>Greenhouse </span>
 										<br>
-										<span class="d-block pt-1">Facility for Advanced Research</span>
+										<span class="d-block pt-1">Facility for Advanced <br>Research</span>
 									</div>
 								</div>
 							</div>
@@ -136,9 +136,9 @@
 				<div class="row">
 					<div class="col-12 px-2 px-md-5">
 						<p style="text-align: justify;">The College of Agricultural Sciences, established in 2014, stands as a beacon of sustainable practices, student empowerment, and pioneering research in the field of agriculture. Our unwavering commitment to excellence has positioned us as the top private agricultural college in Uttar Pradesh.</p>
-						<p style="text-align: justify;">Guided by the recommendations of the Vth Deans' Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum covering every aspect of agriculture. We take great pride in our ICAR accreditation, which serves as a mark of quality and excellence in agricultural education.</p>
+						<p style="text-align: justify;" class="mb-3">Guided by the recommendations of the Vth Deans' Committee of the Indian Council of Agricultural Research (ICAR), we have meticulously crafted a curriculum covering every aspect of agriculture. We take great pride in our ICAR accreditation, which serves as a mark of quality and excellence in agricultural education.</p>
 
-						<a href="{{ route('agriculture_overview') }}" class="tmu-btn btn-1 py-2 mt-4 read-more ms-2 mt-2">Know More!</a>
+						<a href="{{ route('agriculture_overview') }}" class="tmu-btn btn-1 py-2 mt-4  ms-2 pt-2">Know More!</a>
 
 					</div>
 
@@ -512,11 +512,11 @@
                     <p class="overview mb-3 fs-14">
                         <b class="fs-16">{{$testimonial->student_name}}</b> <br>
                         {{$testimonial['programme_name']['prog_name']}} ({{$testimonial->admitted_year}} - {{$testimonial->passout_year}})
-                        <span>
-                             <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">
-                                Linkedin <i class="bi bi-linkedin"></i>
-                            </a>
-                        </span>
+                        <!--<span>-->
+                        <!--     <a href="{{$testimonial->linkedin_url}}" class="px-2 py-1 linkedin-text">-->
+                        <!--        Linkedin <i class="bi bi-linkedin"></i>-->
+                        <!--    </a>-->
+                        <!--</span>-->
                     </p>
                     <p class="testimonial-content47">{{ $testimonial->testimonial_text }}</p>
                 </div>

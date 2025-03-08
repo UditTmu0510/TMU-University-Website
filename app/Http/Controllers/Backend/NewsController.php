@@ -252,7 +252,8 @@ class NewsController extends Controller
             'ti_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'title_image_tag' => 'required',
             'ei1_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'event_image1_tag' => 'required'
+            'event_image1_tag' => 'required',
+            'news_slug' => 'required'
          ]);
          date_default_timezone_set('Asia/Kolkata');
          // Handle file uploads
@@ -268,7 +269,7 @@ class NewsController extends Controller
 
 
 
-         $slug = Str::slug($request->event_title);
+         // $slug = Str::slug($request->event_title);
 
          // Update news
          $news->update([
@@ -286,7 +287,7 @@ class NewsController extends Controller
             'event_image4_tag' => $request->event_image4_tag,
             'event_image5_tag' => $request->event_image5_tag,
             'event_image6_tag' => $request->event_image6_tag,
-            'n_slug' => $slug
+            'n_slug' => $request->news_slug
          ] + $filePaths);
 
          DB::commit();

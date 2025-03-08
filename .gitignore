@@ -20,6 +20,19 @@ yarn-error.log
 .DS_Store
 */.DS_Store
 .htaccess
+.well-known/
+error_log
+godaddy99.html
+googleb8256ebcf6007f98.html
+iiso00biqholu02255udtnwbc678mc.html
+other_websites/
+pinterest-b52e6.html
+robots.txt
+server.php
+siteaudit-ZjdlNmZmMD.txt
+worldline_AdminData.json
+zivTzjR3
+.ftpquota
 /vendor
 # Ignore all files and folders in the public directory
 /vendor/*

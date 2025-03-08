@@ -57,7 +57,7 @@
                         <h3 class="mb-1">₹ <span class="display-4">60</span> LPA</h3>
                         <p>NATIONAL</p>
                     </div>
-                    <div class="col-md-3 col-6 crc-border-right mb-2">
+                    <div class="col-md-3 col-6 crc-border-right mb-2 ">
                         <h3 class="mb-1">₹ <span class="display-4">32</span> LPA</h3>
                         <p>INTERNATIONAL</p>
                     </div>

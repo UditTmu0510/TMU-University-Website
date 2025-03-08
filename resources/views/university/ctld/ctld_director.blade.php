@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <p class="principal-text23 text-justify">
-                            You can only succeed if you are confident.<span class="highlight fs-14">Dr. Pankaj Kumar Singh</span>
+                           You can succeed, only if you are confident.<span class="highlight fs-14">Dr. Pankaj Kumar Singh</span>
                                 <br>
                                 <br>
                                 At Teerthanker Mahaveer University, the Centre for Teaching, Learning, and Development (CTLD) is dedicated to nurturing well-rounded professionals who can excel in a dynamic global environment. I am honoured to lead this centre, building on a strong foundation of excellence.

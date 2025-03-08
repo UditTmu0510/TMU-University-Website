@@ -3,311 +3,242 @@
 
 
 <div class="main-content">
-        <div class="container">
+    <div class="container">
 
-            <h1 class="tmu-text-primary tmu-page-heading"><span> Student </span><span> Details </span></h1>
+        <div class="row mx-0">
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Student</span><span> Details</span></h1>
+            <h3 class="tmu-text-primary text-center mt-3 pt-md-5"><span>Details of Students Admitted</span><span> in UG Programme</span></h3>
 
-            <div class="col-md-12">
-                <hr class="horizontal-line">
-                <button class="careers-accordion">Details of Students Admitted in UG Programme<span
-                        class="icon">+</span></button>
-                <div class="panel active">
-                    <div class="table-responsive mb-0">
-                        <table class="table table-bordered table-striped ">
-                            <thead>
-                                <th class="text-center">Sl. No.</th>
-                                <th>Programme Name</th>
-                                <th>Academic Year</th>
-                                <th class="text-center">Read</th>
-                                <th class="text-center">Download</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="text-center">1</td>
-                                    <td>MBBS</td>
-                                    <td>2024-25</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}"
-                                            download="MBBS_students_Batch_2024_25.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">2</td>
-                                    <td>MBBS</td>
-                                    <td>2023-24</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}"
-                                            download="UG_MBBS_2023_24_batch.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">3</td>
-                                    <td>MBBS</td>
-                                    <td>2022-23</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
-                                    </td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}"
-                                            download="MBBS_2022_23.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">4</td>
-                                    <td>MBBS</td>
-                                    <td>2021-22</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
-                                    </td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}"
-                                            download="MBBS_2021_22.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">5</td>
-                                    <td>MBBS</td>
-                                    <td>2020-21</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}" target="_blank"
-                                            data-original-title="View"><i class="fa-solid fa-file icon-lg"></i></a>
-                                    </td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}"
-                                            download="MBBS_2020_21.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
+            <div class="container my-2 py-2">
+                <ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#Tab1" type="button"
+                            role="tab" aria-controls="Tab1" aria-selected="true"> 2024-25</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#Tab2" type="button"
+                            role="tab" aria-controls="Tab2" aria-selected="false"> 2023-24</button>
+                    </li>
 
-                                <tr>
-                                    <td class="text-center">6</td>
-                                    <td>MBBS</td>
-                                    <td>2019-20</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG Students 2019-20.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG Students 2019-20.pdf')}}"
-                                            download="UG Students 2019-20.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#Tab3" type="button"
+                            role="tab" aria-controls="Tab3" aria-selected="false">2022-23</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#Tab4" type="button"
+                            role="tab" aria-controls="Tab4" aria-selected="false"> 2021-22</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab5-tab" data-bs-toggle="tab" data-bs-target="#Tab5" type="button"
+                            role="tab" aria-controls="Tab5" aria-selected="false"> 2020-21</button>
+                    </li>
+                </ul>
+                <div class="tab-content second ps-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
 
-                                <tr>
-                                    <td class="text-center">7</td>
-                                    <td>MBBS</td>
-                                    <td>2018-19</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/2a-List-of-UG-Students-2018-19.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/2a-List-of-UG-Students-2018-19.pdf')}}"
-                                            download="2a-List-of-UG-Students-2018-19.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">8</td>
-                                    <td>MBBS</td>
-                                    <td>2017-18</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG-Students-2017-18.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG-Students-2017-18.pdf')}}"
-                                            download="UG-Students-2017-18.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2024-25</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_students_Batch_2024_25.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
 
-                                <tr>
-                                    <td class="text-center">9</td>
-                                    <td>MBBS</td>
-                                    <td>2016-17</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/Students-admitted-merit-wise-in-session-2016-17.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/Students-admitted-merit-wise-in-session-2016-17.pdf')}}"
-                                            download="Students-admitted-merit-wise-in-session-2016-17.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">10</td>
-                                    <td>MBBS</td>
-                                    <td>2015-16</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG-Students-2015.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/UG-Students-2015.pdf')}}"
-                                            download="UG-Students-2015.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2023-24</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/ug/UG_MBBS_2023_24_batch.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2022-23</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2022_23.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="tab-pane fade" id="Tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2021-22</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2021_22.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="Tab5" role="tabpanel" aria-labelledby="tab5-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2020-21</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/ug/MBBS_2020_21.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <hr class="horizontal-line">
-                <button class="careers-accordion">Details of Students Admitted in PG Programme <span
-                        class="icon">+</span></button>
-                <div class="panel">
-                    <div class="table-responsive mb-0">
-                        <table class="table table-bordered table-striped ">
-                            <thead>
-                                <th class="text-center">Sl. No.</th>
-                                <th>Programme Name</th>
-                                <th>Academic Year</th>
-                                <th class="text-center">Read</th>
-                                <th class="text-center">Download</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="text-center">1</td>
-                                    <td>MD/MS</td>
-                                    <td>2023-24</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/pg/PG_Students_2023_24_batch.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/pg/PG_Students_2023_24_batch.pdf')}}"
-                                            download="PG_Students_2023_24_batch.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">2</td>
-                                    <td>MD/MS</td>
-                                    <td>2022-23</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2022_23.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2022_23.pdf')}}"
-                                            download="MD_MS_2022_23.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">3</td>
-                                    <td>MD/MS</td>
-                                    <td>2021-22</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2021_22.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2021_22.pdf')}}"
-                                            download="MD_MS_2021_22.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">4</td>
-                                    <td>MD/MS</td>
-                                    <td>2020-21</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2020_21.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/MD_MS_2020_21.pdf')}}"
-                                            download="MD_MS_2020_21.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td class="text-center">5</td>
-                                    <td>MD/MS</td>
-                                    <td>2019-20</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/PG Students 2019-20.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/PG Students 2019-20.pdf')}}"
-                                            download="PG Students 2019-20.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td class="text-center">6</td>
-                                    <td>MD/MS</td>
-                                    <td>2018-19</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/2c-List-of-PG-Students-2018-19.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/2c-List-of-PG-Students-2018-19.pdf')}}"
-                                            download="2c-List-of-PG-Students-2018-19.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">7</td>
-                                    <td>MD/MS</td>
-                                    <td>2017-18</td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/PG-students-2017-18.pdf')}}"
-                                            target="_blank" data-original-title="View"><i
-                                                class="fa-solid fa-file icon-lg"></i></a></td>
-                                    <td class="text-center"><a data-tooltip="" data-placement="bottom"
-                                            href="{{asset('/assets/pdf/medical/ug/PG-students-2017-18.pdf')}}"
-                                            download="PG-students-2017-18.pdf"
-                                            data-original-title="Download"><i class="fa fa-download icon-lg"></i></a>
-                                    </td>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <hr class="horizontal-line">
             </div>
+            <h3 class="tmu-text-primary text-center mt-3 pt-md-5"><span>Details of Students Admitted</span><span> in PG Programme</span></h3>
+            <div class="container my-2 py-2">
+                <ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs" role="tablist">
+                   
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab6-tab" data-bs-toggle="tab" data-bs-target="#Tab6" type="button"
+                            role="tab" aria-controls="Tab6" aria-selected="false">2023-24</button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab7-tab" data-bs-toggle="tab" data-bs-target="#Tab7" type="button"
+                            role="tab" aria-controls="Tab7" aria-selected="false">2022-23</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab8-tab" data-bs-toggle="tab" data-bs-target="#Tab8" type="button"
+                            role="tab" aria-controls="Tab8" aria-selected="false">2021-22</button>
+                    </li>
+                </ul>
+                <div class="tab-content second ps-3" id="myTabContent">
+
+                    <div class="tab-pane fade show active" id="Tab6" role="tabpanel" aria-labelledby="tab6-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/pg/8_MD_MS_Batch_2023-24.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2023-24</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/pg/8_MD_MS_Batch_2023-24.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Tab7" role="tabpanel" aria-labelledby="tab7-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/pg/7_MD_MS_Batch_2022-23.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2022-23</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/pg/7_MD_MS_Batch_2022-23.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="tab-pane fade" id="Tab8" role="tabpanel" aria-labelledby="tab8-tab">
+                        <!-- Desktop/Tablets -->
+                        <div class="container d-none d-sm-block">
+                            <div style="text-align:center">
+                                <iframe src="{{asset('/assets/pdf/medical/pg/6_MD_MS_Batch_2021-22.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Mobile View as Card -->
+                        <div class="container d-block d-sm-none mb-3">
+                            <div class="iqac-container">
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">2021-22</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/pg/6_MD_MS_Batch_2021-22.pdf')}}" download>Download PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
         </div>
     </div>
+</div>
 </div>
 
 @endsection

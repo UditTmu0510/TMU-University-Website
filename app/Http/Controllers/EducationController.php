@@ -121,6 +121,11 @@ class EducationController extends Controller
     {
         return view('university.colleges.education.education_iqac');
     }
+    
+    public function computer_infra()
+    {
+        return view('university.colleges.education.computer_infra');
+    }
 
     // Study Material 
     public function education_study_material()

@@ -136,6 +136,8 @@
 
 
 
+
+
         <!-- admission details mobile section end -->
 
 
@@ -527,6 +529,7 @@
         <h3 class="tmu-text-primary fs-16 mb-0"><span>Approved by the</span><span> Medical Council of India</span></h3>
         <p class="text-justify">TMMC&RC is approved by the Medical Council of India, ensuring that the curriculum and educational standards meet the national requirements for medical education.</p>
 
+
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
@@ -769,6 +772,46 @@
     </div>
     <hr class="horizontal-line">
 </div>
+=======
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+
+            <button class="careers-accordion">Top Programmes Offered with Diverse Specialisations<span class="icon">+</span></button>
+            <div class="panel">
+                <h3 class="tmu-text-primary fs-16 mb-0"><span>TMMC&RC offers a variety of Programme catering to</span><span> different interests and career aspirations in the medical field:</span></h3>
+                <br>
+                <h3 class="tmu-text-primary fs-16 mb-0">MBBS</h3>
+                <ul class="m-ol-list ps-4 text-justify">
+                    <li>Comprehensive undergraduate Programme</li>
+                    <li>Strong emphasis on clinical skills and patient care</li>
+                </ul>
+
+                <h3 class="tmu-text-primary fs-16 mb-0">BSc</h3>
+                <ul class="m-ol-list ps-4 text-justify">
+                    <li>Specialisationns in Nursing, Medical Laboratory Technology, and more</li>
+                    <li>Focus on practical and theoretical knowledge</li>
+                </ul>
+                <h3 class="tmu-text-primary fs-16 mb-0">MSc</h3>
+                <ul class="m-ol-list ps-4 text-justify">
+                    <li>Advanced studies in various medical sciences</li>
+                    <li>Opportunities for research and specialisation</li>
+                </ul>
+                <h3 class="tmu-text-primary fs-16 mb-0">MD</h3>
+                <ul class="m-ol-list ps-4 text-justify">
+                    <li>Postgraduate medical degree</li>
+                    <li>Specialized training in various medical fields</li>
+                </ul>
+                <h3 class="tmu-text-primary fs-16 mb-0">MS</h3>
+                <ul class="m-ol-list ps-4 text-justify">
+                    <li>Postgraduate surgical degree</li>
+                    <li>Advanced surgical skills and techniques</li>
+                </ul>
+            </div>
+            <!-- Add the horizontal line here -->
+            <hr class="horizontal-line">
+        </div>
+
 
 </section>
 

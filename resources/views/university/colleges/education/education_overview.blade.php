@@ -2,7 +2,7 @@
 @section('content')
 
 
-<link rel="stylesheet" href="assets/css/college_overview.css">
+<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
 
     <div class="main-content">
         <div class="container">
