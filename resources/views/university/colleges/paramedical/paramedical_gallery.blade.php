@@ -42,6 +42,32 @@
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Emerging Trends & Innovations in Cancer Diagnostics">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2">Guest Lecture: Emerging Trends & Innovations in Cancer Diagnostics</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-2.jpg')}}" data-lightbox="gallery-item" title="Emerging Trends & Innovations in Cancer Diagnostics"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-3.jpg')}}" data-lightbox="gallery-item" title="Emerging Trends & Innovations in Cancer Diagnostics"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-4.jpg')}}" data-lightbox="gallery-item" title="Emerging Trends & Innovations in Cancer Diagnostics"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Lens Fitting: Merging Expertise with Startup Strategies">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2">Lens Fitting: Merging Expertise with Startup Strategies</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-2.jpg')}}" data-lightbox="gallery-item" title="Lens Fitting: Merging Expertise with Startup Strategies"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-3.jpg')}}" data-lightbox="gallery-item" title="Lens Fitting: Merging Expertise with Startup Strategies"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/gl-opt-4.jpg')}}" data-lightbox="gallery-item" title="Lens Fitting: Merging Expertise with Startup Strategies"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
                             <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Paramedical Diploma Program">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/PDFP-1.jpg')}}" alt="Gallery Thumb 2">
