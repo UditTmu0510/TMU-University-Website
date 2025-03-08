@@ -555,7 +555,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
 Route::get('/tmu/library', [TmuController::class, 'library'])->name('library');
 Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
-Route::get('/tmu-hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
+Route::get('/tmu/hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
 Route::get('/tmu/how-to-apply', [TmuController::class, 'how_to_apply'])->name('how.to.apply');
 Route::get('/tmu/application-form', [TmuController::class, 'application_form'])->name('application.form');
 Route::get('/tmu/auditorium', [TmuController::class, 'auditorium'])->name('auditorium');
@@ -936,6 +936,7 @@ Route::get('/faculty-of-education/guest-lecture', [EducationController::class, '
 Route::get('/faculty-of-education/gallery', [EducationController::class, 'education_gallery'])->name('education.gallery');
 Route::get('/faculty-of-education/contact-us', [EducationController::class, 'education_contact_us'])->name('education.contact.us');
 Route::get('/faculty-of-education/iqac', [EducationController::class, 'education_iqac'])->name('education.iqac');
+Route::get('/faculty-of-education/computer/computer-infra', [EducationController::class, 'computer_infra'])->name('computer.infra');
 Route::get('/faculty-of-education/study-material', [EducationController::class, 'education_study_material'])->name('education.study.material');
 
 
@@ -1079,6 +1080,8 @@ Route::get('/tmu/moot-court', [TmuController::class, 'tmu_moot_court'])->name('t
 
 // PHD PRogrammes
 Route::get('/tmu/doctoral-programs', [TmuController::class, 'phd_programmes_offered'])->name('phd.programmes.offered');
+
+Route::get('/programme', [TmuController::class, 'master_programme_page'])->name('master.programme.page');
 
 
 

@@ -414,19 +414,19 @@
                                         <td class="text-center">3</td>
                                         <td>1<sup>st</sup> Installment of Fee</td>
                                         <td>15 days before the expiry of first year of Registration</td>
-                                        <td>40,000/-</td>
+                                        <td>50,000/-</td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">4</td>
                                         <td>2<sup>nd</sup> Installment of Fee</td>
                                         <td>15 days before the expiry of second year of Registration</td>
-                                        <td>40,000/-</td>
+                                        <td>50,000/-</td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">5</td>
                                         <td>3<sup>rd</sup> Installment of Fee</td>
                                         <td>15 days before the expiry of third year of Registration</td>
-                                        <td>40,000/-</td>
+                                        <td>50,000/-</td>
                                     </tr>
                                     <tr>
                                         <td class="text-center">6</td>
@@ -441,7 +441,7 @@
                         <div class="alert alert-success">
                             <ol class="m-ol-list ps-3">
                                 <li style="text-align:justify">An extension fee of <i class="fa fa-inr"></i>
-                                    15,000 per year will be charged after the completion of third year of
+                                    25,000 per year will be charged after the completion of third year of
                                     registration</li>
                                 <!--<li style="text-align:justify">Late Fee of <i class="fa fa-inr"></i> 2,000/- will be charged if the candidate exceeds the deadline by 15 days and <i class="fa fa-inr"></i> 1,000/- per 15 days or part thereof for any further delay.</li>-->
                                 <li style="text-align:justify">As per the updated guidelines released on

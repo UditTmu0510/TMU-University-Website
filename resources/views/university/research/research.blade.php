@@ -20,13 +20,13 @@
                 </div>
                 <div class="row p-3">
                     <div class="col-md-4 col-sm-4 mb-1">
-                        <a href="https://www.ebsco.com/" target="_blank"><img src="https://www.tmu.ac.in/img/research/EBSCOhost_Flat.png" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                        <a href="https://www.ebsco.com/" target="_blank"><img src="{{asset('/assets/img/department/research/EBSCOhost_Flat.png')}}" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
                     </div>
                     <div class="col-md-4 col-sm-4 mb-1">
-                        <a href="https://www.elsevier.com/en-in" target="_blank"><img src="https://www.tmu.ac.in/img/research/Untitled-630x325.png" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                        <a href="https://www.elsevier.com/en-in" target="_blank"><img src="{{asset('/assets/img/department/research/Untitled-630x325.png')}}" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
                     </div>
                     <div class="col-md-4 col-sm-4 mb-1">
-                        <a href="http://delnet.in/" target="_blank"><img src="https://www.tmu.ac.in/img/research/delnet.jpg" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
+                        <a href="http://delnet.in/" target="_blank"><img src="{{asset('/assets/img/department/research/delnet.jpg')}}" alt="Material Design for Bootstrap - example photo" class="img-fluid img-thumbnail z-depth-1-half"></a>
                     </div>
                 </div>
                 <div class="container">

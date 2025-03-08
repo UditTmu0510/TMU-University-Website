@@ -17,7 +17,7 @@
                             Physical Education</span></h1>
                     <p class="about-p mb-4">The TMIMT College of Physical Education was established in 2011
                         and approved by the National Council for Teachers Education (NCTE).
-                        The college offers B.P.E.S, B.P.Ed, M.P.Ed, P.G.D.Y.Ed. & Ph.D.
+                        The college offers BPES, BPEd, MPEd and Ph.D.
                         Programme to nurture educationists and trainers to meet the rising
                         domestic and global requirements.</p>
                 </div>

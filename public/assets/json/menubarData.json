@@ -164,7 +164,7 @@
                     "link": "\/programme\/bachelor-of-education-b-ed"
                 },
                 "BElED": {
-                    "link": "programme\/b-el-ed-programme"
+                    "link": "\/programme\/b-el-ed-programme"
                 }
             },
             "Engineering": {
@@ -330,7 +330,7 @@
                     "link": "\/programme\/mds-prosthodontics-crown-bridge"
                 },
                 "MDS (Paedodontics and Preventive Dentistry)": {
-                    "link": "\/programme\/mds-paedodontics-preventive-dentistry"
+                    "link": "\/programme\/mds-pediatric-preventive-dentistry"
                 },
                 "MDS (Periodontology)": {
                     "link": "\/programme\/MDS-Periodontology"
@@ -342,7 +342,7 @@
                     "link": "\/programme\/MDS-Oral-Medicine-Radiology"
                 },
                 "MDS (Oral Pathology and Microbiology)": {
-                    "link": "\/programme\/mds-oral-pathology"
+                    "link": "\/programme\/mds-oral-maxillofacial-pathology-and-oral-microbiology"
                 }
             },
             "Nursing": {
@@ -444,22 +444,22 @@
             },
             "Physiotherapy": {
                 "Master of Physiotherapy (MPT) in Orthopaedics": {
-                    "link": "programme\/mpt-in-orthopaedics"
+                    "link": "\/programme\/mpt-in-orthopaedics"
                 },
                 "Master of Physiotherapy (MPT) in Neurosciences": {
-                    "link": "programme\/mpt-in-neurosciences"
+                    "link": "\/programme\/mpt-in-neurosciences"
                 },
                 "Master of Physiotherapy(MPT) in Cardiopulmonary": {
-                    "link": "programme\/mpt-in-cardiopulmonary"
+                    "link": "\/programme\/mpt-in-cardiopulmonary"
                 },
                 "Master of Physiotherapy(MPT) in Sports": {
-                    "link": "programme\/mpt-in-Sports"
+                    "link": "\/programme\/mpt-in-Sports"
                 },
                 "Master of Physiotherapy (MPT) in Gynaecology": {
-                    "link": "programme\/MPT-or-Master-of-Physiotherapy-Gynaecology"
+                    "link": "\/programme\/MPT-or-Master-of-Physiotherapy-Gynaecology"
                 },
                 "Master of Physiotherapy (MPT) in Paediatrics": {
-                    "link": "programme\/mpt-or-Master-of-physiotherapy-Paediatrics"
+                    "link": "\/programme\/mpt-or-Master-of-physiotherapy-Paediatrics"
                 }
             },
             "Agriculture": {
@@ -470,7 +470,7 @@
                     "link": "\/programme\/msc-plant-pathology"
                 },
                 "MSc (Master of Science in Soil Sciences )": {
-                    "link": "programme\/msc-soil-science"
+                    "link": "\/programme\/msc-soil-science"
                 }
             },
             "Law": {

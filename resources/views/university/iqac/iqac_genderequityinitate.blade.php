@@ -289,31 +289,31 @@
                 <td>14-06-2021</td>
                 <td>Women's Entrepreneurship Development Program</td>
                 <td class="text-center"><a
-                    href="https://tmuhospital.com/news/women-entrepreneurship-development-programme-2021">View More</a></td>
+                    href="https://www.tmu.ac.in/news/women-entrepreneurship-development-programme-2021">View More</a></td>
               </tr>
               <tr>
                 <td>2.</td>
                 <td>12-08-2021</td>
                 <td>Teej Festival</td>
-                <td class="text-center"><a href="https://tmuhospital.com/news/teej-festival-2021">View More</a></td>
+                <td class="text-center"><a href="https://www.tmu.ac.in/news/teej-festival-2021">View More</a></td>
               </tr>
               <tr>
                 <td>3.</td>
                 <td>26-08-2021</td>
                 <td>Right to Equality for Men & Women</td>
-                <td class="text-center"><a href="https://tmuhospital.com/news/right-to-equality-for-men-and-women">View More</a></td>
+                <td class="text-center"><a href="https://www.tmu.ac.in/news/right-to-equality-for-men-and-women">View More</a></td>
               </tr>
               <tr>
                 <td>4.</td>
                 <td>28-09-2021</td>
                 <td>Beti Padhao Beti Bachao</td>
-                <td class="text-center"><a href="https://tmuhospital.com/news/beti-bachao-beti-padhao">View More</a></td>
+                <td class="text-center"><a href="https://www.tmu.ac.in/news/beti-bachao-beti-padhao">View More</a></td>
               </tr>
               <tr>
                 <td>5.</td>
                 <td>20-10-2021</td>
                 <td>Mission Shakti</td>
-                <td class="text-center"><a href="https://tmuhospital.com/news/mission-shakti-2021">View More</a></td>
+                <td class="text-center"><a href="https://www.tmu.ac.in/news/mission-shakti-2021">View More</a></td>
               </tr>
               <tr>
                 <td>6.</td>
@@ -444,20 +444,20 @@
                   <td>14-03-21</td>
                   <td>Self Defence Training for women's using Judo</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/self-defence-training-for-womens-using-judo">view More</a></td>
+                      href="https://www.tmu.ac.in/news/self-defence-training-for-womens-using-judo">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>14-03-21</td>
                   <td>Self Defense techniques for Women</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/self-defense-techniques-for-women">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/self-defense-techniques-for-women">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>8-03-21</td>
                   <td>Girls students were given the responsibility of the Principal.</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/girls-students-were-given-the-responsibility-of-the-principal">view More</a></td>
+                      href="https://www.tmu.ac.in/news/girls-students-were-given-the-responsibility-of-the-principal">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
@@ -465,27 +465,27 @@
                   <td>On women’s Day celebration, women were felicitated and awarded for their path breaking efforts
                   </td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/on-womens-day-celebration-women-were-felicitated-and-awarded-for-their-path-breaking-efforts">view More</a></td>
+                      href="https://www.tmu.ac.in/news/on-womens-day-celebration-women-were-felicitated-and-awarded-for-their-path-breaking-efforts">view More</a></td>
                 </tr>
                 <tr>
                   <td>5.</td>
                   <td>23-10-20</td>
                   <td>MBBS Girls were taught the techniques of self defence</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/mbbs-girls-were-taught-the-techniques-of-self-defence-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/mbbs-girls-were-taught-the-techniques-of-self-defence-">view More</a></td>
                 </tr>
                 <tr>
                   <td>6.</td>
                   <td>23-10-20</td>
                   <td>Mission Shakti</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/mission-shakti">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/mission-shakti">view More</a></td>
                 </tr>
                 <tr>
                   <td>7.</td>
                   <td>21-10-20</td>
                   <td>Self Defence classes were organised on the Occasion of Womens Day</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/self-defence-classes-were-organised-on-the-occasion-of-womens-day">view More</a></td>
+                      href="https://www.tmu.ac.in/news/self-defence-classes-were-organised-on-the-occasion-of-womens-day">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -566,58 +566,58 @@
                   <td>1</td>
                   <td>8-Mar-20</td>
                   <td>International Women's Day Celebration</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/international-womens-day-celebration">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/international-womens-day-celebration">view More</a></td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>8-Mar-20</td>
                   <td>The Faculty of Engineering celebrated Women’s Day</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/the-faculty-of-engineering-celebrated-womens-day-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/the-faculty-of-engineering-celebrated-womens-day-">view More</a></td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>7-Mar-20</td>
                   <td>International Women's Day Celebration 2020</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/international-womens-day-celebration-2020--">view More</a></td>
+                      href="https://www.tmu.ac.in/news/international-womens-day-celebration-2020--">view More</a></td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>9-Aug-19</td>
                   <td>TMU’s Sanya became the Teej Queen</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/tmus-sanya-became-the-teej-queen">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/tmus-sanya-became-the-teej-queen">view More</a></td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>3-Aug-19</td>
                   <td>Women's Day</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/women-s-day">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/women-s-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>3-Aug-19</td>
                   <td>Awareness Program on Women's Day</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/awareness-program-on-womens-day">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/awareness-program-on-womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>7</td>
                   <td>3-Aug-19</td>
                   <td>Poster Competition on Women's Day</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/poster-competition-on-womens-day">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/poster-competition-on-womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>8</td>
                   <td>2-Aug-19</td>
                   <td>Breastfeeding Day Organised at TMU’s Medical College</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/breastfeeding-day-organised--at-tmus-medical-college-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/breastfeeding-day-organised--at-tmus-medical-college-">view More</a></td>
                 </tr>
                 <tr>
                   <td>9</td>
                   <td>2-Aug-19</td>
                   <td>Debate on Gender Equality</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/debate-on-gender-equality">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/debate-on-gender-equality">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -690,26 +690,26 @@
                   <td>1.</td>
                   <td>8-Mar-19</td>
                   <td>Womens Day celebration</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-day-celebration">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-day-celebration">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>8-Mar-19</td>
                   <td>Womens Day</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-day">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-day">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>18-Aug-18</td>
                   <td>Ms. Farewell & Ms. Talented were selected at the farewell function</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/ms-farewell--ms-talented-were-selected-at-the-farewell-function-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/ms-farewell--ms-talented-were-selected-at-the-farewell-function-">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>14-Aug-18 </td>
                   <td>Womens at TMU celebrated "Teej"</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/womens-at-tmu-celebrated-teej-">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/womens-at-tmu-celebrated-teej-">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -778,27 +778,27 @@
                   <td>8-Mar-18</td>
                   <td>International Women’s Day was celebrated with enthusiasm at TIMIT College</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/international-womens-day-was-celebrated-with-enthusiasm-at-timit-college">view More</a></td>
+                      href="https://www.tmu.ac.in/news/international-womens-day-was-celebrated-with-enthusiasm-at-timit-college">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>27-Feb-18</td>
                   <td>A Play on importance of girl child education in the family as well as in the society</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/a-play-on-importance-of-girl-child-education-in-the-family-as-well-as-in-the-society">view More</a></td>
+                      href="https://www.tmu.ac.in/news/a-play-on-importance-of-girl-child-education-in-the-family-as-well-as-in-the-society">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>25-July-17</td>
                   <td>TMU celebrates the festival of Teej</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/tmu-celebrates-the-festival-of-teej">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/tmu-celebrates-the-festival-of-teej">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>25-July-17</td>
                   <td>TMUs Women Empowerment Cell organised the event Hariyali Teej</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/tmus-women-empowerment-cell--organised-the-event-hariyali-teej">view More</a></td>
+                      href="https://www.tmu.ac.in/news/tmus-women-empowerment-cell--organised-the-event-hariyali-teej">view More</a></td>
                 </tr>
               </tbody>
             </table>
@@ -873,48 +873,48 @@
                   <td>8-03-17 </td>
                   <td>International Women’s Day Celebration held at TMU.</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/international-womens-day-celebration-held-at-tmu-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/international-womens-day-celebration-held-at-tmu-">view More</a></td>
                 </tr>
                 <tr>
                   <td>2.</td>
                   <td>4-03-17 </td>
                   <td>Power Angel Club Meeting held at TMU</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/power-angel-club-meeting-held-at-tmu-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/power-angel-club-meeting-held-at-tmu-">view More</a></td>
                 </tr>
                 <tr>
                   <td>3.</td>
                   <td>27-02-17</td>
                   <td>Teerthanker Mahaveer University Intercollegiate Championship</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/teerthanker-mahaveer-university-intercollegiate-championship-">view More</a></td>
+                      href="https://www.tmu.ac.in/news/teerthanker-mahaveer-university-intercollegiate-championship-">view More</a></td>
                 </tr>
                 <tr>
                   <td>4.</td>
                   <td>27-02-17</td>
                   <td>Women Kabaddi organised at TMU</td>
-                  <td class="text-center"><a href="https://tmuhospital.com/news/women-kabaddi-organised--at-tmu">view More</a></td>
+                  <td class="text-center"><a href="https://www.tmu.ac.in/news/women-kabaddi-organised--at-tmu">view More</a></td>
                 </tr>
                 <tr>
                   <td>5.</td>
                   <td>27-02-17</td>
                   <td>TMUs Physical Education bagged the trophy in Kabaddi match in both women and men Category</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/tmus-physical-education-bagged-the-trophy-in-kabaddi-match-in-both-women-and-men-category">view More</a></td>
+                      href="https://www.tmu.ac.in/news/tmus-physical-education-bagged-the-trophy-in-kabaddi-match-in-both-women-and-men-category">view More</a></td>
                 </tr>
                 <tr>
                   <td>6.</td>
                   <td>15-01-17</td>
                   <td>Lohri Celebration held at TMUs Old Girls Hostel</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/lohri-celebration-held-at-tmus-old-girls-hostel">view More</a></td>
+                      href="https://www.tmu.ac.in/news/lohri-celebration-held-at-tmus-old-girls-hostel">view More</a></td>
                 </tr>
                 <tr>
                   <td>7.</td>
                   <td>10-08-16</td>
                   <td>Teerthanker Mahaveer University Celebrates National Breastfeeding week</td>
                   <td class="text-center"><a
-                      href="https://tmuhospital.com/news/teerthanker-mahaveer-university-celebrates-national-breastfeeding-week">view More</a></td>
+                      href="https://www.tmu.ac.in/news/teerthanker-mahaveer-university-celebrates-national-breastfeeding-week">view More</a></td>
                 </tr>
               </tbody>
             </table>

@@ -33,7 +33,7 @@
             <i class="fa fa-hand-o-down my-2 d-block mx-auto w-fit-content" style="font-size:24px"></i>
           </div>
           <div class="img-thumbnail d-flex justify-content-center">
-            <img class="img-responsive w-md-50 " src="https://www.tmu.ac.in/img/admissions/admission2.png" alt="">
+            <img class="img-responsive w-md-50 " src="{{asset('/assets/img/footer_pages/how_to_apply/admission2.png')}}" alt="">
           </div>
         </div>
         <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -42,7 +42,7 @@
             <i class="fa fa-hand-o-down my-2 d-block mx-auto w-fit-content" style="font-size:24px"></i>
           </div>
           <div class="img-thumbnail d-flex justify-content-center">
-            <img class="img-responsive w-md-50" src="https://www.tmu.ac.in/img/admissions/admission1.webp" alt="">
+            <img class="img-responsive w-md-50" src="{{asset('/assets/img/footer_pages/how_to_apply/admission1.webp')}}" alt="">
           </div>
         </div>
       </div>

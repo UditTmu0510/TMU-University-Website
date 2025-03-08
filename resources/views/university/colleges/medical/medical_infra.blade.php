@@ -767,38 +767,42 @@
 										</tr>
 										<tr>
 											<td>ICCU</td>
-											<td>10</td>
-											<td>Ventilator(2); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (1); ECG machine (1); ABG Machine (1); Drip Infusion Pump (3); Nebulizers (1); Multipara monitors (10); Central Cardiac Monitor Console (1); Syringe Infusion Pump (3); Crash Cart (1); Ambu bag (1); Central Gas supply</td>
+											<td>20</td>
+											<td>Ventilator(4), Central Oxygen available Portable X Ray 100 mA (1), Defibrillator (1), ECG machine (1), ABG Machine-1, Drip Infusion Pump-3, Nebulizers (5) Multipara monitors-20, Central Cardiac Monitor Console-1, Syringe Infusion Pump-60, Crash Cart-1, Ambubag-1, Central Gas supply</td>
 										</tr>
 										<tr>
 											<td>MICU/ ICU</td>
-											<td>15</td>
-											<td>Ventilator (8); Central Oxygen available; Portable X Ray 100 mA (1); Defibrillator (2); ECG machine (1); Syringe Infusion Pump (4); Crash Cart (1); Ambu bag (1); Nebulizers (6); Multipara Monitors (15)</td>
+											<td>25</td>
+											<td>Ventilator (8), Central Oxygen available, Portable X Ray 100 mA (1), Defibrillator (2), ECG machine (1), Syringe Infusion Pump-75, Crash Cart-1, Ambubag-2 Nebulizers (10), Multipara Monitors(25)</td>
 										</tr>
 										<tr>
 											<td>SICU</td>
-											<td>10</td>
-											<td>Multipara Monitor (10); Defibrillator (1); Pulse Oxymeter (1); Ventilator (2); Drip Infusion Pump (3); Crash Cart (1) & Central Gas Supply with Central Suction</td>
+											<td>36</td>
+											<td>Multipara Monitor-36, Defibrillator-1, Pulse Oxymeter-1, Ventilator-7, Drip Infusion Pump-110, Crash Cart-1 &amp; Central gas supply with central suction</td>
 										</tr>
 										<tr>
 											<td>RICU</td>
-											<td>5</td>
-											<td>ECG Machine (1); Multipara Monitors (5); Ventilator (2); Defibrillator (1); Syringe Infusion Pump (2); Portable X-Ray (1); Nebulizer (1); Crash Cart (1); Ambu bag (1); BIPAP Machine (2); ABG Machine (1); Central Gas Supply and Central Gas Suction</td>
+											<td>10</td>
+											<td>ECG Machine -1, Multipara Monitors-10, Ventilator -5, Defibrillator -1, Syringe Infusion Pump -30, Portable X-Ray -1, Nebulizer -6, Crash cart -1, Ambubag-2, BIPAP Machine-3, ABG Machine-1 Central gas supply and Central gas suction</td>
 										</tr>
 										<tr>
 											<td>Burn ICU</td>
 											<td>5</td>
-											<td>Burn Cradles (5); Crash Cart (1); Multipara Monitor (5); Pulse Oxymeter (1); Central Gas Supply and Central Gas Suction</td>
+											<td>Burn Cradles -5, Crash Cart -1, Multipara Monitor-5, Pulse oxymeter-1, Central gas supply and Central gas suction</td>
 										</tr>
 										<tr>
-											<td>Pediatrics Intensive Care Area</td>
-											<td>10 & 05</td>
-											<td>Multipara Monitors (15); Ventilator (2); Crash Cart (3); Ambu bag (2); Defibrillator (1); Radiant Heat Warmer (20); Incubator (2); Syringe Infusion Pump (4); Nebulizers (2); Phototherapy Unit (9); Euro Bag Suction (1); C.Pap (1); Central Gas Supply and Central Gas Suction</td>
-										</tr>
+                                            <td >Neonatal ICU - NICU</td>
+                                            <td>12</td>
+                                            <td rowspan="2"> Multipara Monitors - 22, Ventilator - 4, Crash Cart - 3, Ambubag - 2, Defibrillator - 1, Radiant Heat Warmer - 22, Incubator - 2, Syringe Infusion Pump - 66, Nebulizers - 2, Phototherapy Unit - 9, Euro Bag Suction - 1, C.Pap - 1, Central gas supply and Central gas suction. </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Paediatrics ICU - PICU</td>
+                                            <td>10</td>
+                                        </tr>
 										<tr>
 											<td>OBG ICU</td>
-											<td>05</td>
-											<td>Multipara Monitors (5); Ventilator (2), Defibrillator (1); Syringe Infusion Pump (1); Nebulizer (1); Crash Cart (1); Ambu bag (1); Pulse Oxymeter (2); Central Gas Supply and Central Gas Suction</td>
+											<td>21</td>
+											<td>Multipara Monitors -21, ventilator-3, Defibrillator-01, Syringe Infusion Pump -63, Nebulizer -1, Crash cart -1 Ambubag -1, Pulse oxymeter-2, Central gas supply and Central gas suction</td>
 										</tr>
 										<tr>
 											<td>Labor Rooms</td>

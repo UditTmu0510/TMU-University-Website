@@ -117,9 +117,13 @@ $programme_brochure_path = $programme->programme_brochure_path;
 
     <!-- Text and Button Div -->
     <div class="ban-text text-center p-3 mb-2" style="background-color: rgba(0, 15, 84);">
-        <h1 class="display-4 fw-bolder ls-n-1 text-light fs-5 mb-3 mt-3">
-            Build Your Future with {{ $programme->prog_name }}
+        
+        <h1 class="display-4 fw-bolder ls-n-1 text-light  mb-3 mt-3" style="font-size:1.7rem">
+            {{ $programme->prog_name }}
         </h1>
+        <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
+            Build Your Future with {{ $programme->prog_name }}
+        </h2>
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
         <!-- If cd_id is 2 or 3, disable the button -->
 

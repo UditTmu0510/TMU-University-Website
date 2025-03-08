@@ -446,7 +446,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_22_23.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_22_23.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -465,7 +465,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_20_21.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_20_21.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -484,7 +484,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_19_20.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_19_20.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">
@@ -503,7 +503,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/Placement_18_19.pdf')}}"
+                    <a href="{{asset('/assets/pdf/placement_brochure/ccsit/placement_18_19.pdf')}}"
                         target="_blank">
                         <div class="book-wrapper">
                             <div class="book-items">

@@ -32,9 +32,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>BCCI </span>
+                            <span>NCTE</span>
                             <br>
-                            <span class="d-block pt-1">Certified Coaches</span>
+                            <span class="d-block pt-1"> Approved Programmes</span>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@
                 <div class="col-6 col-lg-3 px-1">
                     <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                         <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                            <span>MoU with </span>
+                            <span>World-Class </span>
                             <br>
-                            <span class="d-block pt-1">Toss Cricket Academy</span>
+                            <span class="d-block pt-1">Sports Facilities</span>
                         </div>
                     </div>
                 </div>
@@ -81,9 +81,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>BCCI </span>
+                                        <span>NCTE</span>
                                         <br>
-                                        <span class="d-block pt-1">Certified Coaches</span>
+                                        <span class="d-block pt-1"> Approved Programmes</span>
                                     </div>
                                 </div>
                             </div>
@@ -103,9 +103,9 @@
                             <div class="col-6">
                                 <div class="card text-center py-3 rounded-0 fw-semibold text-uppercase ls-1">
                                     <div class="card-body gap-4 text-tmu-primary under-banner-cards">
-                                        <span>MoU with </span>
+                                        <span>World-Class </span>
                                         <br>
-                                        <span class="d-block pt-1">TOSS Cricket Academy</span>
+                                        <span class="d-block pt-1">Sports Facilities</span>
                                     </div>
                                 </div>
                             </div>
@@ -574,8 +574,6 @@
                 <p class="text-justify">The MPEd program is designed for those looking to advance their expertise and leadership skills in physical education, preparing them for higher roles in academia, sports management, and coaching.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>PhD in </span><span>Physical Education</span></h3>
                 <p class="text-justify">For those inclined towards research and academic excellence, TMIMT offers a PhD program in physical education, fostering innovation and scholarly contributions to the field.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Bachelor of Physical Education</span><span> and Sports (BPES)</span></h3>
-                <p class="text-justify">The BPES program focuses on the broad aspects of physical education and sports, offering a comprehensive curriculum that includes sports management, coaching, and fitness training. State-of-the-Art Infrastructure</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
@@ -595,11 +593,9 @@
 
             <button class="careers-accordion">Faculty and Coaching<span class="icon">+</span></button>
             <div class="panel">
-                <p class="text-justify">TMIMT takes pride in its highly qualified and experienced faculty, along with BCCI-certified coaches who offer unparalleled guidance and training to students.</p>
+                <p class="text-justify">TMIMT takes pride in its highly qualified and experienced faculty who offer unparalleled guidance and training to students.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Highly Qualified and</span><span> Experienced Faculty</span></h3>
                 <p class="text-justify">The faculty at TMIMT are not just educators but mentors who are committed to nurturing the talents and potential of each student.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>BCCI Certified</span><span> Coaches</span></h3>
-                <p class="text-justify">With BCCI-certified coaches, students receive top-notch training and insights, enhancing their skills and performance in various sports.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Student Support and</span><span> Development</span></h3>
                 <p class="text-justify">TMIMT is dedicated to the holistic development of its students, offering robust support systems and opportunities for growth.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Up to 100%</span><span> Scholarship Assistance</span></h3>
@@ -682,7 +678,7 @@
                 <p class="text-justify"><strong>Q. What is physical education?</strong></p>
                 <p class="text-justify">Ans: Physical education is a discipline focused on the development of physical fitness, motor skills, and overall health through various physical activities and sports.</p>
                 <p class="text-justify"><strong>Q. What programs does TMIMT offer?</strong></p>
-                <p class="text-justify">Ans: TMIMT offers a range of programs including BPEd, MPEd, PhD in Physical Education, PGDYEd, and BPES.</p>
+                <p class="text-justify">Ans: TMIMT offers a range of programs including BPEd, BPES, MPEd and PhD in Physical Education.</p>
                 <p class="text-justify"><strong>Q. How does TMIMT support student placements?</strong></p>
                 <p class="text-justify">Ans: TMIMT provides 100% placement assistance with a strong track record, offering career guidance, training, and connections with leading sports organizations.</p>
                 <p class="text-justify"><strong>Q. What facilities are available on campus?</strong></p>

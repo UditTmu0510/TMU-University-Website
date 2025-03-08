@@ -1,7 +1,7 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-	<link href="css/patterns.css" rel="stylesheet">
+
 
 
     <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">

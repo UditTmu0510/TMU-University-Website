@@ -31,13 +31,13 @@
         gtag("js", new Date());
         gtag("config", "G-QXM8FSJKVR");
     </script>
+    
     <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
 
     @php
     // Build the full URL
     $currentUrl = request()->fullUrl();
     $domain = request()->getSchemeAndHttpHost();
-
 
     // Get URI segments
     $uriData = [
@@ -78,6 +78,7 @@
     <link rel="canonical" href="{{$domain}}" />
     @endif
     @endif
+
     {!! $metaData->schema_markup ?? '' !!}
 
     @if($metaData->no_index_status === 'Y')
@@ -368,6 +369,8 @@
 
     @endif
 
+    
+
 
     <!-- Font Imports -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -377,13 +380,13 @@
         rel="stylesheet"> -->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monsieur+La+Doulaise&family=Sigmar&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
     <!-- Canela Deck font  -->
     <!-- <link rel="preload" href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" as="style" onload="this.rel='stylesheet'"> -->
-
+    <!--<link rel="preload" href="{{ asset('poster/banner_video_poster_mobile.webp') }}" as="image">-->
     <script>
         // Function to load a stylesheet
         function loadStyleSheet(href) {
@@ -403,10 +406,21 @@
         // };
         // document.head.appendChild(fontAwesomeLink);
 
+        // Load Bootstrap CSS by CDN
+        // var bootstrapLink = document.createElement('link');
+        // bootstrapLink.rel = 'preload';
+        // bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        // bootstrapLink.as = 'style';
+        // bootstrapLink.onload = function() {
+        //     this.rel = 'stylesheet';
+        // };
+        // document.head.appendChild(bootstrapLink);
+
+
         // Load Bootstrap CSS
         var bootstrapLink = document.createElement('link');
         bootstrapLink.rel = 'preload';
-        bootstrapLink.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css";
+        bootstrapLink.href = "{{asset('assets/css/default/home-bootstrap.min.css')}}";
         bootstrapLink.as = 'style';
         bootstrapLink.onload = function() {
             this.rel = 'stylesheet';
@@ -416,7 +430,7 @@
         // Load Core Style CSS
         var coreStyleLink = document.createElement('link');
         coreStyleLink.rel = 'preload';
-        coreStyleLink.href = "{{asset('style.css')}}";
+        coreStyleLink.href = "{{asset('assets/css/home-style.css')}}";
         coreStyleLink.as = 'style';
         coreStyleLink.onload = function() {
             this.onload = null; // Avoid calling onload multiple times
@@ -444,8 +458,10 @@
 
     <noscript>
         <!-- <link rel="stylesheet" href="{{ asset('assets/css/default/fontawesome6.2.1.all.min.css') }}"> -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{asset('style.css')}}">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" href="{{('style.css')}}"> -->
+        <link rel="stylesheet" href="{{asset('assets/css/default/home-bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/home-style.css')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
         <!-- Font Icons -->
@@ -462,7 +478,6 @@
     <!-- <link rel="stylesheet" href="demos/articles/articles.css"> -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{{asset('demos/insurance/insurance.css')}}">
@@ -474,7 +489,7 @@
 	============================================= -->
     <title>TMU | New Website</title>
     <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" > -->
-    <link rel="stylesheet" href="{{asset('/assets/css/default/swiper-bundle.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('/assets/css/default/swiper-bundle.min.css')}}">
     <!-- <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script> -->
 
     <!-- Niche Demos -->
@@ -485,6 +500,7 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
+
     <!-- Replacing the cdn with downloaded js for bootstrap -->
     <script href="{{asset('assets/js/default/bootstrap.min.js')}}"></script>
 
@@ -492,13 +508,20 @@
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+
     <script href="{{asset('assets/js/default/popper@1.16.0.min.js')}}"></script>
+
     <script href="{{asset('assets/js/default/popperjs_core@2.11.6.min.js')}}"></script>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
     <script src="{{asset('assets/js/default/jquery_3.7.min.js')}}"></script>
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Sans+TC:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
 
 </head>
 
@@ -515,13 +538,19 @@
     </section>
 
 
+        <!-- Menubar Open Button Code  -->
+        <a id="admission-button" href="https://admissions.tmu.ac.in/" target="_blank">
+            <span class="d-none d-sm-block admission-test">Admissions Open</span>
+    </a>
+        <!-- Menubar Open Button Completed -->
+
+
     <!-- Searchbar code starts here -->
 
     <div class="search-icon" id="searchIcon">
-        <i class="uil uil-search" style="color:white;"></i>
+        <img src="{{ asset('/assets/img/icons/search-home.svg') }}" alt="Search Icon" style="height:36px;width:24px;">
     </div>
 
-   
 
 
     <!-- Document Wrapper
@@ -532,7 +561,7 @@
         <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
-                    <img src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
+                    <img  src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
                         alt="Menu Icon">
                     <span class="text">Admissions Open</span>
                 </div>
@@ -551,10 +580,8 @@
                 </div>
             </a>
         </div>
-        
-         
 
-        <!--mobile tray starts-->
+<!--mobile tray starts-->
         <div class="new-menu-container d-block d-sm-none">
             <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
                 ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
@@ -563,7 +590,7 @@
                     alt="Menu Icon"> <!-- Replace arrow with your image -->
             </div>
             <div class="new-menu-row">
-                <div class="new-menu-item"><span><a href="https://admissions.tmu.ac.in/"
+                <div class="new-menu-item-tray"><span><a href="https://admissions.tmu.ac.in/"
                             style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
                 <!--<div class="new-vl"></div>-->
                 <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
@@ -571,11 +598,11 @@
             </div>
             <div class="new-menu" id="new-menu">
                 <div class="new-menu-row">
-                    <div class="new-menu-item" id="mobile_whatapp2345"><a
+                    <div class="new-menu-item"><a
                             href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
                             target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
                                 alt="Icon 1"></a></div>
-                    <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
+                    <div class="new-menu-item"><a href="https://www.tmu.ac.in/tmu/virtual-tour" target="blank"><img
                                 src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
                     <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
                                 src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
@@ -583,7 +610,6 @@
             </div>
         </div>
 <!--mobile tray ends-->
-
 
         <!-- Header Code Section Begin -->
         <header>
@@ -709,7 +735,7 @@
 
                         <div id="nav-banner">
                             <!-- <img src="https://www.hindustantimes.com/ht-img/img/2023/08/08/550x309/Screenshot_2023-08-08_183058_1691499721701_1691499729400.png" class="w-100" alt=""> -->
-                            <img src="{{asset('assets/img/banner/navbar/navbar-banner.webp')}}" alt="" class="w-100" loading="lazy">
+                            <img src="{{asset('assets/image/navbar-banner.webp')}}" alt="" class="w-100" loading="lazy">
                             <div class="blue-overlay"></div>
                         </div>
 
@@ -724,12 +750,8 @@
 
         <!-- Menubar Open Button Code  -->
         <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
-            <i class="fa-solid fa-bars"></i>
+            <img src="{{ asset('/assets/img/icons/bars.svg') }}" alt="Search Icon">
             <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
-            <div class="tooltip px-3 py-2" id="menu-tooltip">  <span class="info-icon">
-      <i class="fa-solid fa-info-circle"></i> <!-- Information icon inside a circle -->
-    </span> Home to University & College Menu</div>
-    </div>
         </div>
         <!-- Menubar Open Button Completed -->
 
@@ -747,26 +769,14 @@
                 </div>
             </div>
         </div>
-        
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (window.location.href.includes("tmu.ac.in/blog")) {
-            // Hide the desktop WhatsApp button
-            let desktopWhatsappButton = document.querySelector('.side-button-container a[href*="whatsapp"]');
-            if (desktopWhatsappButton) {
-                desktopWhatsappButton.style.display = "none";
-            }
-
-            // Hide the mobile WhatsApp button using the assigned ID
-            let mobileWhatsappButton = document.getElementById("mobile_whatapp2345");
-            if (mobileWhatsappButton) {
-                mobileWhatsappButton.style.display = "none";
-            }
-        }
-    });
-</script>
-
-
-
 
         <!-- Searchbar code ends here -->
+
+
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js" integrity="sha512-LyDgm9kfqyKlZOe+QjpNA6L/ZpcjNj+cKSJ/bQLTGkKXaxYNpYGN9Fe6DpI0H0w3Da2WcXVX8ACjL14y3iWGBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        {{-- <script src="{{asset('assets/js/default/dash.min.js')}}"></script> --}}
+
+
+        <link rel="stylesheet" href="{{asset('assets/css/swiper2.css')}}">
+        <!-----video banner start-->

@@ -95,14 +95,14 @@
 							</tr>
 							<tr>
 								<td class="text-center">15</td>
-								<td>Inpatients registered and admitted (2023)**</td>
+								<td>Inpatients registered and admitted (2024)**</td>
 								<td>
-									<h4>47305</h4><br />
+									<h4>55223</h4><br />
 								</td>
 							</tr>
 							<tr>
 								<td class="text-center">16</td>
-								<td>Department wise surgeries 2023</td>
+								<td>Department wise surgeries (2024)</td>
 								<td>
 									<table style="border-collapse: collapse; width: 100%;">
 										<thead>
@@ -115,34 +115,34 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td style="border-bottom: 1px solid black;">General Surgery (2023)</td>
-												<td style="border-bottom: 1px solid black;  text-align: center;">4401</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">8518</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">912</td>
+												<td style="border-bottom: 1px solid black;">General Surgery (2024)</td>
+												<td style="border-bottom: 1px solid black;  text-align: center;">5545</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">10509</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">936</td>
 											</tr>
 											<tr>
-												<td style="border-bottom: 1px solid black;">Orthopedics (2023)</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">2060</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">6031</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">653</td>
+												<td style="border-bottom: 1px solid black;">Orthopedics (2024)</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">2484</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">6319</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">846</td>
 											</tr>
 											<tr>
-												<td style="border-bottom: 1px solid black;">Otorhinolaryngology (2023)</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">1159</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">3654</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">301</td>
+												<td style="border-bottom: 1px solid black;">Otorhinolaryngology (2024)</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">1240</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">4111</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">313</td>
 											</tr>
 											<tr>
-												<td style="border-bottom: 1px solid black;">Obstetrics & Gynecology (2023)</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">1433</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">5112</td>
-												<td style="border-bottom: 1px solid black; text-align: center;">130</td>
+												<td style="border-bottom: 1px solid black;">Obstetrics & Gynecology (2024)</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">1732</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">5400</td>
+												<td style="border-bottom: 1px solid black; text-align: center;">358</td>
 											</tr>
 											<tr>
-												<td>Ophthalmology (2023)</td>
-												<td style="text-align: center;">2132</td>
-												<td style="text-align: center;">3856</td>
-												<td style="text-align: center;">0</td>
+												<td>Ophthalmology (2024)</td>
+												<td style="text-align: center;">2135</td>
+												<td style="text-align: center;">4581</td>
+												<td style="text-align: center;">121</td>
 											</tr>
 										</tbody>
 									</table>
@@ -150,16 +150,16 @@
 							</tr>
 							<tr>
 								<td class="text-center">17</td>
-								<td>Outpatients registered (2023)**</td>
+								<td>Outpatients registered (2024)**</td>
 								<td>
-									<h4>605582</h4><br />
+									<h4>669259</h4><br />
 								</td>
 							</tr>
 							<tr>
 								<td class="text-center">18</td>
-								<td>Number of Deaths reported to the Municipality / village register (2023)</td>
+								<td>Number of Deaths reported to the Municipality / village register (2024)</td>
 								<td>
-									<h4>1586</h4><br />
+									<h4>1434</h4><br />
 								</td>
 							</tr>
 							<tr>
@@ -176,9 +176,9 @@
 							</tr>
 							<tr>
 								<td>21</td>
-								<td>Number of Births reported (2023)</td>
+								<td>Number of Births reported (2024)</td>
 								<td>
-									<h4>3462</h4>
+									<h4>5245</h4>
 								</td>
 							</tr>
 							<tr>
@@ -219,7 +219,7 @@
 							<tr>
 								<td class="text-center">29</td>
 								<td>Grievances reported</td>
-								<td>2021: NIL<br>2022: NIL<br>2023: NIL</td>
+								<td>2022: NIL<br>2023: NIL<br>2024: NIL</td>
 							</tr>
 						</tbody>
 					</table>
@@ -227,211 +227,279 @@
 
 
 				<hr class="horizontal-line">
-				<button class="careers-accordion">Details of Post-Graduation Courses offered<span class="icon">+</span> </button>
-				<div class="panel active">
-					<div class="table-responsive">
-						<table class="table table-bordered table-striped">
-							<thead>
-								<tr>
-									<th class="text-center" rowspan="2">Sl. No.</th>
-									<th rowspan="2">Post-Graduate Course</th>
-									<th rowspan="2">Year of Commencement of the Course</th>
-									<th colspan="2">Number of Students Currently pursuing the Course</th>
-									<th rowspan="2">Number of Students admitted in the current session</th>
-								</tr>
-								<tr>
-									<th class="text-center">Year: 2021</th>
-									<th class="text-center">Year: 2022</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td class="text-center">1</td>
-									<td>MD &ndash; Anatomy</td>
-									<td class="text-center">2012</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-								</tr>
-								<tr>
-									<td class="text-center">2</td>
-									<td>MD &ndash; Physiology</td>
-									<td class="text-center">2012</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">1</td>
-								</tr>
-								<tr>
-									<td class="text-center">3</td>
-									<td>MD &ndash; Biochemistry</td>
-									<td class="text-center">2012</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">1</td>
-								</tr>
-								<tr>
-									<td class="text-center">4</td>
-									<td>MD &ndash; Pathology </td>
-									<td class="text-center">2012</td>
-									<td class="text-center">8</td>
-									<td class="text-center">4</td>
-									<td class="text-center">8</td>
-								</tr>
-								<tr>
-									<td class="text-center">5</td>
-									<td>MD &ndash; Microbiology </td>
-									<td class="text-center">2012</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">2</td>
-								</tr>
-								<tr>
-									<td class="text-center">6</td>
-									<td>MD &ndash; Pharmacology </td>
-									<td class="text-center">2013</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">2</td>
-								</tr>
-								<tr>
-									<td class="text-center">7</td>
-									<td>MD &ndash; Forensic Medicine</td>
-									<td class="text-center">2012</td>
-									<td class="text-center">0</td>
-									<td class="text-center">0</td>
-									<td class="text-center">2</td>
-								</tr>
-								<tr>
-									<td class="text-center">8</td>
-									<td>MD &ndash; Community Medicine</td>
-									<td class="text-center">2012</td>
-									<td class="text-center">1</td>
-									<td class="text-center">0</td>
-									<td class="text-center">2</td>
-								</tr>
-								<tr>
-									<td class="text-center">9</td>
-									<td>MD &ndash; General Medicine</td>
-									<td class="text-center">2014</td>
-									<td class="text-center">15</td>
-									<td class="text-center">15</td>
-									<td class="text-center">15</td>
-								</tr>
-								<tr>
-									<td class="text-center">10</td>
-									<td>MD &ndash; TB &amp; Chest</td>
-									<td class="text-center">2015</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-								</tr>
-								<tr>
-									<td class="text-center">11</td>
-									<td>MD &ndash; Psychiatry </td>
-									<td class="text-center">2014</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-								</tr>
-								<tr>
-									<td class="text-center">12</td>
-									<td>MD &ndash; Dermatology </td>
-									<td class="text-center">2014</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-								</tr>
-								<tr>
-									<td class="text-center">13</td>
-									<td>MD &ndash; Paediatrics</td>
-									<td class="text-center">2014</td>
-									<td class="text-center">9</td>
-									<td class="text-center">9</td>
-									<td class="text-center">9</td>
-								</tr>
-								<tr>
-									<td class="text-center">14</td>
-									<td>MD &ndash; Anaesthesiology </td>
-									<td class="text-center">2014</td>
-									<td class="text-center">11</td>
-									<td class="text-center">11</td>
-									<td class="text-center">11</td>
-								</tr>
-								<tr>
-									<td class="text-center">15</td>
-									<td>MD &ndash; Radiology </td>
-									<td class="text-center">2014</td>
-									<td class="text-center">12</td>
-									<td class="text-center">12</td>
-									<td class="text-center">12</td>
-								</tr>
-								<tr>
-									<td class="text-center">16</td>
-									<td>MS &ndash; General Surgery</td>
-									<td class="text-center">2014</td>
-									<td class="text-center">16</td>
-									<td class="text-center">16</td>
-									<td class="text-center">16</td>
-								</tr>
-								<tr>
-									<td class="text-center">17</td>
-									<td>MS &ndash; Orthopaedics </td>
-									<td class="text-center">2015</td>
-									<td class="text-center">10</td>
-									<td class="text-center">10</td>
-									<td class="text-center">10</td>
-								</tr>
-								<tr>
-									<td class="text-center">18</td>
-									<td>MS &ndash; Oto-Rhinolaryngology (ENT)</td>
-									<td class="text-center">2014</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-								</tr>
-								<tr>
-									<td class="text-center">19</td>
-									<td>MS &ndash; Ophthalmology </td>
-									<td class="text-center">2014</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-									<td class="text-center">4</td>
-								</tr>
-								<tr>
-									<td class="text-center">20</td>
-									<td>MS &ndash; Obstetrics &amp; Gynaecology </td>
-									<td class="text-center">2015</td>
-									<td class="text-center">10</td>
-									<td class="text-center">10</td>
-									<td class="text-center">10</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+
+				<h2 class="tmu-text-primary tmu-page-heading mb-2 mt-3 text-center"><span>Details of Post-Graduation </span> <span>Courses offered</span></h2>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th class="text-center" rowspan="2">Sl. No.</th>
+								<th rowspan="2">Post-Graduate Course</th>
+								<th rowspan="2">Year of Commencement of the Course</th>
+								<th colspan="2">Number of Students Currently pursuing the Course</th>
+								<th rowspan="2">Number of Students admitted in the current session</th>
+							</tr>
+							<tr>
+								<th class="text-center">Year: 2021</th>
+								<th class="text-center">Year: 2022</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="text-center">1</td>
+								<td>MD &ndash; Anatomy</td>
+								<td class="text-center">2012</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+							</tr>
+							<tr>
+								<td class="text-center">2</td>
+								<td>MD &ndash; Physiology</td>
+								<td class="text-center">2012</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">1</td>
+							</tr>
+							<tr>
+								<td class="text-center">3</td>
+								<td>MD &ndash; Biochemistry</td>
+								<td class="text-center">2012</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">1</td>
+							</tr>
+							<tr>
+								<td class="text-center">4</td>
+								<td>MD &ndash; Pathology </td>
+								<td class="text-center">2012</td>
+								<td class="text-center">8</td>
+								<td class="text-center">4</td>
+								<td class="text-center">8</td>
+							</tr>
+							<tr>
+								<td class="text-center">5</td>
+								<td>MD &ndash; Microbiology </td>
+								<td class="text-center">2012</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">2</td>
+							</tr>
+							<tr>
+								<td class="text-center">6</td>
+								<td>MD &ndash; Pharmacology </td>
+								<td class="text-center">2013</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">2</td>
+							</tr>
+							<tr>
+								<td class="text-center">7</td>
+								<td>MD &ndash; Forensic Medicine</td>
+								<td class="text-center">2012</td>
+								<td class="text-center">0</td>
+								<td class="text-center">0</td>
+								<td class="text-center">2</td>
+							</tr>
+							<tr>
+								<td class="text-center">8</td>
+								<td>MD &ndash; Community Medicine</td>
+								<td class="text-center">2012</td>
+								<td class="text-center">1</td>
+								<td class="text-center">0</td>
+								<td class="text-center">2</td>
+							</tr>
+							<tr>
+								<td class="text-center">9</td>
+								<td>MD &ndash; General Medicine</td>
+								<td class="text-center">2014</td>
+								<td class="text-center">15</td>
+								<td class="text-center">15</td>
+								<td class="text-center">15</td>
+							</tr>
+							<tr>
+								<td class="text-center">10</td>
+								<td>MD &ndash; TB &amp; Chest</td>
+								<td class="text-center">2015</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+							</tr>
+							<tr>
+								<td class="text-center">11</td>
+								<td>MD &ndash; Psychiatry </td>
+								<td class="text-center">2014</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+							</tr>
+							<tr>
+								<td class="text-center">12</td>
+								<td>MD &ndash; Dermatology </td>
+								<td class="text-center">2014</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+							</tr>
+							<tr>
+								<td class="text-center">13</td>
+								<td>MD &ndash; Paediatrics</td>
+								<td class="text-center">2014</td>
+								<td class="text-center">9</td>
+								<td class="text-center">9</td>
+								<td class="text-center">9</td>
+							</tr>
+							<tr>
+								<td class="text-center">14</td>
+								<td>MD &ndash; Anaesthesiology </td>
+								<td class="text-center">2014</td>
+								<td class="text-center">11</td>
+								<td class="text-center">11</td>
+								<td class="text-center">11</td>
+							</tr>
+							<tr>
+								<td class="text-center">15</td>
+								<td>MD &ndash; Radiology </td>
+								<td class="text-center">2014</td>
+								<td class="text-center">12</td>
+								<td class="text-center">12</td>
+								<td class="text-center">12</td>
+							</tr>
+							<tr>
+								<td class="text-center">16</td>
+								<td>MS &ndash; General Surgery</td>
+								<td class="text-center">2014</td>
+								<td class="text-center">16</td>
+								<td class="text-center">16</td>
+								<td class="text-center">16</td>
+							</tr>
+							<tr>
+								<td class="text-center">17</td>
+								<td>MS &ndash; Orthopaedics </td>
+								<td class="text-center">2015</td>
+								<td class="text-center">10</td>
+								<td class="text-center">10</td>
+								<td class="text-center">10</td>
+							</tr>
+							<tr>
+								<td class="text-center">18</td>
+								<td>MS &ndash; Oto-Rhinolaryngology (ENT)</td>
+								<td class="text-center">2014</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+							</tr>
+							<tr>
+								<td class="text-center">19</td>
+								<td>MS &ndash; Ophthalmology </td>
+								<td class="text-center">2014</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+								<td class="text-center">4</td>
+							</tr>
+							<tr>
+								<td class="text-center">20</td>
+								<td>MS &ndash; Obstetrics &amp; Gynaecology </td>
+								<td class="text-center">2015</td>
+								<td class="text-center">10</td>
+								<td class="text-center">10</td>
+								<td class="text-center">10</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 				<hr class="horizontal-line">
-				<button class="careers-accordion">Institutional Staff and Academic Contribution<span class="icon">+</span> </button>
-				<div class="panel">
-					<div class="iqac-container">
-						<div class="iqac-card">
-							<div class="card-pdf">
-								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-								<p class="description">Department Wise Faculty List</p>
-								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" target="_blank">View PDF</a>
-							</div>
-							<div class="card-pdf">
-								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-								<p class="description">Details of Publication in Vancouver Refrencing Style - TMMC&RC</p>
-								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" target="_blank">View PDF</a>
-							</div>
-							<div class="card-pdf">
-								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-								<p class="description">List of non-teaching staff</p>
-								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" target="_blank">View PDF</a>
-							</div>
+				<h2 class="tmu-text-primary tmu-page-heading mb-2 mt-3 text-center"><span>Institutional Staff and </span> <span>Academic Contribution</span></h2>
+				<!-- Desktop/Tablets -->
+                <div class="container d-none d-sm-block">
+                    <div style="text-align:center">
+                        <h2 class="tmu-text-primary mb-2 text-center"><span>Department Wise Faculty List</span></h2>
+                        <iframe src="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Mobile View as Card -->
+                <div class="container d-block d-sm-none mb-3">
+                    <div class="iqac-container">
+                        <div class="iqac-card">
+                            <div class="card-pdf">
+                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                <p class="description">Department Wise Faculty List</p>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                    href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" download>Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Desktop/Tablets -->
+                <div class="container d-none d-sm-block">
+                    <div style="text-align:center">
+                        <h2 class="tmu-text-primary mb-2 text-center"><span>Details of Publication in Vancouver Referencing Style - TMMC&RC</span></h2>
+                        <iframe src="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Mobile View as Card -->
+                <div class="container d-block d-sm-none mb-3">
+                    <div class="iqac-container">
+                        <div class="iqac-card">
+                            <div class="card-pdf">
+                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                <p class="description">Details of Publication in Vancouver Referencing Style - TMMC&RC</p>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                    href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" download>Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Desktop/Tablets -->
+                <div class="container d-none d-sm-block">
+                    <div style="text-align:center">
+                        <h2 class="tmu-text-primary mb-2 text-center"><span>List of non-teaching staff</span></h2>
+                        <iframe src="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Mobile View as Card -->
+                <div class="container d-block d-sm-none mb-3">
+                    <div class="iqac-container">
+                        <div class="iqac-card">
+                            <div class="card-pdf">
+                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                <p class="description">List of non-teaching staff</p>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                    href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" download>Download PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+				<!-- <div class="iqac-container">
+					<div class="iqac-card">
+						<div class="card-pdf">
+							<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+							<p class="description">Department Wise Faculty List</p>
+							<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" target="_blank">View PDF</a>
+						</div>
+						<div class="card-pdf">
+							<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+							<p class="description">Details of Publication in Vancouver Refrencing Style - TMMC&RC</p>
+							<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" target="_blank">View PDF</a>
+						</div>
+						<div class="card-pdf">
+							<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+							<p class="description">List of non-teaching staff</p>
+							<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" target="_blank">View PDF</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<hr class="horizontal-line">
 			</div>
 		</div>
