@@ -207,7 +207,7 @@
                     <h4 class="fs-14">Lift No. 1 Old Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/1.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -224,7 +224,7 @@
                     <h4 class="fs-14">Lift No. 2 Old Dental Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/2.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@
                     <h4 class="fs-14">Lift No. 3 Mala Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/3.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -258,7 +258,7 @@
                     <h4 class="fs-14">Lift No. 4 Medical College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/4.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -275,7 +275,7 @@
                     <h4 class="fs-14">Lift No. 5 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/5.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@
                     <h4 class="fs-14">Lift No. 6 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/6.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -309,7 +309,7 @@
                     <h4 class="fs-14">Lift No. 7</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/7.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@
                     <h4 class="fs-14">Lift No. 8 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/8.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -344,7 +344,7 @@
                     <h4 class="fs-14">Lift No. 9 Gyan Bhawan Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/9.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -353,14 +353,14 @@
             <div class="col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src=" https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/10.jpeg" alt="" style="height: 220px;" style="height:220px;">
+                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/10.jpeg" alt="" style="height: 220px;" style="height:220px;">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
                     <h4 class="fs-14">Lift No. 10 Gyan Bhawan Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/10.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -376,7 +376,7 @@
                     <h4 class="fs-14">Lift No. 11 Engineering Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/11.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -392,7 +392,7 @@
                     <h4 class="fs-14">Lift No. 12 College of Pharmacy Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/12.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -408,7 +408,7 @@
                     <h4 class="fs-14">Lift No. 13, College of Computing Sciences & IT</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/13.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -424,7 +424,7 @@
                     <h4 class="fs-14">Lift No. 14, Engineering Block
                     </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/14.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -440,7 +440,7 @@
                     <h4 class="fs-14">Lift No. 15, Vidya Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/15.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -456,7 +456,7 @@
                     <h4 class="fs-14">Lift No. 16, College of Nursing</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/16.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -472,7 +472,7 @@
                     <h4 class="fs-14">Lift No. 17, College of Nursing</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/17.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -481,14 +481,14 @@
             <div class="col-md-6 col-lg-3">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
-                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/18.jpeg" alt="" style="height: 220px;" style="height:220px;">
+                  <img src="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/19.jpeg" alt="" style="height: 220px;" style="height:220px;">
                 </div>
                 <div class="team-desc p-2">
                   <div class="team-title pt-0">
                     <h4 class="fs-14">Lift No. 18, Dental College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/19.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -504,7 +504,7 @@
                     <h4 class="fs-14">Lift No. 19, Dental College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/18.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -520,7 +520,7 @@
                     <h4 class="fs-14">Lift No. 20, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/20.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -536,7 +536,7 @@
                     <h4 class="fs-14">Lift No. 21, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/21.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -552,7 +552,7 @@
                     <h4 class="fs-14">Lift No. 22, Vardhman Bhawan </h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/22.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -568,7 +568,7 @@
                     <h4 class="fs-14">Lift No. 23, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/23.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -584,7 +584,7 @@
                     <h4 class="fs-14">Lift No. 24, University Guest House</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/24.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -600,7 +600,7 @@
                     <h4 class="fs-14">Lift No. 25, Tmimt College of Management</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/25.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -617,7 +617,7 @@
                     <h4 class="fs-14">Lift No. 26, Administrative Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_26.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -634,7 +634,7 @@
                     <h4 class="fs-14">Lift No. 27, Administrative Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_27.jpeg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -650,7 +650,7 @@
                     <h4 class="fs-14">Lift No. 28, Girnar Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/28.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -666,7 +666,7 @@
                     <h4 class="fs-14">Lift No. 29, Kailash Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/29.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -682,7 +682,7 @@
                     <h4 class="fs-14">Lift No. 30, Arihant Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/30.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -698,7 +698,7 @@
                     <h4 class="fs-14">Lift No. 31, Shikhar Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/31.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -714,7 +714,7 @@
                     <h4 class="fs-14">Lift No. 32, Vaishali Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/32.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -730,7 +730,7 @@
                     <h4 class="fs-14">Lift No. 33, Vaishali Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/33.jpg"> Download Geo Tag Image</div>
                   </div>
                 </div>
               </div>
@@ -855,7 +855,7 @@
                       <h4 class="fs-14">Ramp, TMU Hospital</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r2.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -873,7 +873,7 @@
                       <h4 class="fs-14">Ramp, Center Store (Medical)</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r3.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -891,7 +891,7 @@
                       <h4 class="fs-14">Ramp, Vidya Bhawan </h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r4.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -909,7 +909,7 @@
                       <h4 class="fs-14">Ramp, Gyan Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r5.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -927,7 +927,7 @@
                       <h4 class="fs-14">Ramp University Guest House</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r6.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -945,7 +945,7 @@
                       <h4 class="fs-14">Ramp, Jinalya</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r7.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -964,7 +964,7 @@
                       <h4 class="fs-14">Ramp, Prakash Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r8.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -982,7 +982,7 @@
                       <h4 class="fs-14">Ramp, TMU Hospital</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r9.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1000,7 +1000,7 @@
                       <h4 class="fs-14">Ramp, Vardhaman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r10.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1018,7 +1018,7 @@
                       <h4 class="fs-14">Ramp, Physiotherapy OPD</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r11.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1036,7 +1036,7 @@
                       <h4 class="fs-14">Ramp, Ridhisidhi Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r12.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1054,7 +1054,7 @@
                       <h4 class="fs-14">Ramp, Dental College & Research Centre</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r13.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1072,7 +1072,7 @@
                       <h4 class="fs-14">Ramp, Dental College & Research Centre
                       </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r14.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1090,7 +1090,7 @@
                       <h4 class="fs-14">Ramp, Test Tube Baby Centre</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r15.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1108,7 +1108,7 @@
                       <h4 class="fs-14">Ramp, Tmimt College of Physical Education</h4><span
                         class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r16.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1126,7 +1126,7 @@
                       <h4 class="fs-14">Ramp, TMU Hospital</h4><span class="fst-normal fs-12 mb-2"><i
                           class="fa-solid fa-location-dot"></i>
                         TMU Campus</span>
-                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/landscapping3.jpg')}}"> Download Geo Tag Image</div>
+                        <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/r17.jpeg')}}"> Download Geo Tag Image</div>
 
                     </div>
                   </div>
@@ -1453,7 +1453,7 @@
         <div class="panel">
           <p>This University website is assessable and handy for PwD to follow the "Sugamya Bharat Abhiyan".</p>
           <div class="row gutter-30 col-mb-5 mb-3">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
@@ -1472,7 +1472,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
@@ -1491,7 +1491,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
@@ -1510,7 +1510,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
