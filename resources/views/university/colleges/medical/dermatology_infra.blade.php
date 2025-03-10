@@ -1,4 +1,4 @@
-OPD@extends('layouts.university.colleges.medical_with_sidebar')
+@extends('layouts.university.colleges.medical_with_sidebar')
 @section('content')
 
 <div class="main-content">
