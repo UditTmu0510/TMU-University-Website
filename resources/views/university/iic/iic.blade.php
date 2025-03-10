@@ -44,7 +44,7 @@
 		<div class="container">
 			<div class="row px-2 px-md-0">
 				<div class="col-12 col-md-3 py-4 py-md-2 px-3">
-					<a href="https://www.tmu.ac.in/pdf/Innovation%20and%20Startup%20Policy%202019.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
+					<a href="{{asset('assets/pdf/Innovation%20and%20Startup%20Policy%202019.pdf')}}" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/5968/5968746.png" alt="">
 							<span>Innovation and Startup Policy</span>
@@ -52,7 +52,7 @@
 					</a>
 				</div>
 				<div class="col-12 col-md-3 py-4 py-md-2 px-3">
-					<a href="https://www.tmu.ac.in/pdf/research/innovation_fund.pdf" target="_blank" style="color:rgba(0,0,0,0.9);">
+					<a href="" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/2991/2991109.png" alt="">
 							<span>Vice Chancellor Innovation Fund </span>
@@ -60,7 +60,7 @@
 					</a>
 				</div>
 				<div class="col-12 col-md-3 py-4 py-md-2 px-3">
-					<a href="https://upgrade.tmu.ac.in/research_publication.php" target="_blank" style="color:rgba(0,0,0,0.9);">
+					<a href="{{route('research.publication')}}" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/6462/6462790.png" alt="">
 							<span>Research Publication</span>
@@ -68,7 +68,7 @@
 					</a>
 				</div>
 				<div class="col-12 col-md-3 py-4 py-md-2 px-3">
-					<a href="https://upgrade.tmu.ac.in/patent.php" target="_blank" style="color:rgba(0,0,0,0.9);">
+					<a href="{{route('patent')}}" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/2874/2874808.png" alt="">
 							<span>Patenting Information</span>
