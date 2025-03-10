@@ -7,7 +7,7 @@
         <div class="container d-none d-sm-block">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 text-center">
-                    <h2 class="tmu-text-primary my-4 mb-5"><span>PROGRAMMES</span> <span>OFFERED</span></h2>
+                    <h1 class="tmu-text-primary tmu-page-heading my-4 mb-5"><span>PROGRAMMES</span> <span>OFFERED</span></h1>
                 </div>
             </div>
 
