@@ -239,7 +239,7 @@ body.modal-open {
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary custom-btn"
                                     style="background-color:#FF7900;" data-bs-dismiss="modal">Close</button>
-                                <a href="https://www.tmu.ac.in/pdf/research/phd_application_form.pdf"><button
+                                <a href="{{asset('/assets/pdf/research/phd_application_form.pdf')}}"><button
                                         type="button" class="btn btn-secondary custom-btn" Get it <i
                                         class="uil-download-alt"></i></button></a>
                             </div>
