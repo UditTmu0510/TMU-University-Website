@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use App\Models\Colleges;
 use App\Models\News;
 use App\Models\Programmes;
@@ -14,6 +15,7 @@ use App\Models\ProgrameeFee;
 use App\Models\Employees;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log; 
 use Exception;
 use Illuminate\Support\Str;
 use App\Models\JobOpening;
@@ -79,7 +81,7 @@ class TmuController extends Controller
 
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
-            ->where('status', 'Y')->where('display_on_home_page','Y')->get();
+            ->where('status', 'Y')->get();
 
 
         // Check if any records are found
@@ -1529,9 +1531,9 @@ public function master_programme_page()
 
     // Debugging: Check if programs exist for College ID 16
     if (isset($groupedPrograms[16])) {
-        \Log::debug("Programs for College ID 16: ", $groupedPrograms[16]->toArray());
+        Log::debug("Programs for College ID 16: ", $groupedPrograms[16]->toArray());
     } else {
-        \Log::debug("No programs found for College ID 16.");
+        Log::debug("No programs found for College ID 16.");
     }
 
     // Pass colleges and grouped programs to the view
