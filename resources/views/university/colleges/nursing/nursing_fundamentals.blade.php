@@ -106,7 +106,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Simulation Lab</h4>
 										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
-										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab5.jpeg')}}" download>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab5.jpg')}}" download>
 											Download Geo Tag Image
 										</a>
 									</div>
@@ -122,7 +122,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Simulation Lab</h4>
 										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
-										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab6.jpeg')}}" download>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab6.jpg')}}" download>
 											Download Geo Tag Image
 										</a>
 									</div>
@@ -138,7 +138,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Simulation Lab</h4>
 										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
-										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab7.jpeg')}}" download>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab7.jpg')}}" download>
 											Download Geo Tag Image
 										</a>
 									</div>
@@ -154,7 +154,7 @@
 									<div class="team-title pt-0">
 										<h4 class="fs-14">Simulation Lab</h4>
 										<span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i> College of Nursing, TMU Campus</span>
-										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab8.jpeg')}}" download>
+										<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-4" href="{{asset('/assets/img/college_departments/nursing/fun/geotag/lab8.jpg')}}" download>
 											Download Geo Tag Image
 										</a>
 									</div>
