@@ -1,4 +1,4 @@
-@extends('layouts.university.colleges.medical_with_sidebar')
+OPD@extends('layouts.university.colleges.medical_with_sidebar')
 @section('content')
 
 <div class="main-content">
@@ -59,32 +59,32 @@
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> I</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_1_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_1_14_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_2_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_2_15_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_I_3.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_1_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_1_14_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_2_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_2_15_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_I_3.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> II</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_II_1_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_II_1_16_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_II_2_17_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_II_2_17_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_II_1_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_II_1_16_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_II_2_17_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_II_2_17_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> III</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_1_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_1_1_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_2_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_2_2_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_3_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_3_3_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_4_4_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_4_4_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_5_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_III_5_5_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_1_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_1_1_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_2_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_2_2_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_3_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_3_3_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_4_4_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_4_4_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_5_5_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_III_5_5_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> IV</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_1_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_1_6_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_2_7_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_2_7_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_3_8_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_3_8_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_4_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/opd_IV_4_9_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_1_6_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_1_6_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_2_7_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_2_7_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_3_8_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_3_8_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_4_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/paediatrics/OPD_IV_4_9_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>NI</span><span>CU</span></h3>

@@ -55,20 +55,20 @@
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> II</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_1_18_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_II_1_18_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_2_19_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_II_2_19_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_1_18_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_1_18_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_2_19_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_II_2_19_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> III</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_1_20_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_III_1_20_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_2_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_III_2_1_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_1_20_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_1_20_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_2_1_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_III_2_1_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> IV</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_1_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_IV_1_2_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_2_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/opd_IV_2_3_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_1_2_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_1_2_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_2_3_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/pulmonarymedicine/OPD_IV_2_3_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
 
