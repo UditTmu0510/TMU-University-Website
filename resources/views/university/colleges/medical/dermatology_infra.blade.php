@@ -1,4 +1,4 @@
-@extends('layouts.university.colleges.medical_with_sidebar')
+OPD@extends('layouts.university.colleges.medical_with_sidebar')
 @section('content')
 
 <div class="main-content">
@@ -30,27 +30,27 @@
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> I</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_1_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_1_9_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_2_10_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_2_10_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_I_1_9_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_1_9_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_I_2_10_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_I_2_10_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> II</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_1_11_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_1_11_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_2_12_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_2_12_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_II_1_11_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_1_11_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_II_2_12_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_II_2_12_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> III</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_1_13_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_1_13_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_2_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_2_14_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_III_1_13_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_1_13_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_III_2_14_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_III_2_14_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>OPD </span><span> IV</span></h3>
                     <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_1_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_1_15_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_2_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_2_16_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
-                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_3_17_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_3_17_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_IV_1_15_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_1_15_11zon.jpg')}}" alt="Gallery Thumb 2"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_IV_2_16_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_2_16_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
+                        <a class="grid-item" href="{{asset('/assets/img/college_departments/medical/dermatology/OPD_IV_3_17_11zon.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/medical/dermatology/opd_IV_3_17_11zon.jpg')}}" alt="Gallery Thumb 3"></a>
                     </div>
                     </br>
                     <h3 class="tmu-text-primary"><span>Demonstration </span><span> Room</span></h3>
