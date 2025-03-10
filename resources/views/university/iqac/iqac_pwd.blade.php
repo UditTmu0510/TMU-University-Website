@@ -207,7 +207,7 @@
                     <h4 class="fs-14">Lift No. 1 Old Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/1.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/1.jpeg" download="1.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -224,7 +224,7 @@
                     <h4 class="fs-14">Lift No. 2 Old Dental Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/2.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/2.jpeg" download="2.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,7 @@
                     <h4 class="fs-14">Lift No. 3 Mala Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/3.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/3.jpeg" download="3.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -258,7 +258,7 @@
                     <h4 class="fs-14">Lift No. 4 Medical College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/4.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/4.jpeg" download="4.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -275,7 +275,7 @@
                     <h4 class="fs-14">Lift No. 5 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/5.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/5.jpeg" download="5.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@
                     <h4 class="fs-14">Lift No. 6 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/6.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/6.jpeg" download="6.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -309,7 +309,7 @@
                     <h4 class="fs-14">Lift No. 7</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/7.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/7.jpeg" download="7.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@
                     <h4 class="fs-14">Lift No. 8 New Hospital Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/8.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/8.jpeg" download="8.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -344,7 +344,7 @@
                     <h4 class="fs-14">Lift No. 9 Gyan Bhawan Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/9.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/9.jpeg" download="9.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -360,7 +360,7 @@
                     <h4 class="fs-14">Lift No. 10 Gyan Bhawan Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/10.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/10.jpeg" download="10.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -376,7 +376,7 @@
                     <h4 class="fs-14">Lift No. 11 Engineering Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/11.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/11.jpeg" download="11.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -392,7 +392,7 @@
                     <h4 class="fs-14">Lift No. 12 College of Pharmacy Lift</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/12.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/12.jpeg" download="18.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -408,7 +408,7 @@
                     <h4 class="fs-14">Lift No. 13, College of Computing Sciences & IT</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/13.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/13.jpeg" download="13.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -424,7 +424,7 @@
                     <h4 class="fs-14">Lift No. 14, Engineering Block
                     </h4><span class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/14.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/14.jpeg" download="14.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -440,7 +440,7 @@
                     <h4 class="fs-14">Lift No. 15, Vidya Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/15.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/15.jpeg" download="15.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -456,7 +456,7 @@
                     <h4 class="fs-14">Lift No. 16, College of Nursing</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/16.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/16.jpeg" download="16.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -472,7 +472,7 @@
                     <h4 class="fs-14">Lift No. 17, College of Nursing</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/17.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/17.jpeg" download="17.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -488,7 +488,7 @@
                     <h4 class="fs-14">Lift No. 18, Dental College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/19.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/19.jpeg" download="19.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -504,7 +504,7 @@
                     <h4 class="fs-14">Lift No. 19, Dental College & Research Centre</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/18.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/18.jpeg" download="18.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -520,7 +520,7 @@
                     <h4 class="fs-14">Lift No. 20, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/20.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/20.jpeg" download="20.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -536,7 +536,7 @@
                     <h4 class="fs-14">Lift No. 21, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/21.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/21.jpeg" download="21.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -552,7 +552,7 @@
                     <h4 class="fs-14">Lift No. 22, Vardhman Bhawan </h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/22.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/22.jpeg" download="22.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -568,7 +568,7 @@
                     <h4 class="fs-14">Lift No. 23, Vardhman Bhawan</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/23.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/23.jpeg" download="23.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -584,7 +584,7 @@
                     <h4 class="fs-14">Lift No. 24, University Guest House</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/24.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/24.jpeg" download="24.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -600,7 +600,7 @@
                     <h4 class="fs-14">Lift No. 25, Tmimt College of Management</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/25.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/25.jpeg" download="25.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -617,7 +617,7 @@
                     <h4 class="fs-14">Lift No. 26, Administrative Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_26.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_26.jpeg" download="26.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -634,7 +634,7 @@
                     <h4 class="fs-14">Lift No. 27, Administrative Block</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_27.jpeg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/lift_no_27.jpeg" download="27.jpeg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -650,7 +650,7 @@
                     <h4 class="fs-14">Lift No. 28, Girnar Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/28.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/28.jpg" download="28.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -666,7 +666,7 @@
                     <h4 class="fs-14">Lift No. 29, Kailash Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/29.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/29.jpg" download="29.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -682,7 +682,7 @@
                     <h4 class="fs-14">Lift No. 30, Arihant Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/30.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/30.jpg" download="30.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -698,7 +698,7 @@
                     <h4 class="fs-14">Lift No. 31, Shikhar Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/31.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/31.jpg" download="31.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -714,7 +714,7 @@
                     <h4 class="fs-14">Lift No. 32, Vaishali Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/32.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/32.jpg" download="32.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
@@ -730,7 +730,7 @@
                     <h4 class="fs-14">Lift No. 33, Vaishali Apartment</h4><span class="fst-normal fs-12 mb-2"><i
                         class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/33.jpg"> Download Geo Tag Image</div>
+                      <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="https://www.tmu.ac.in/img/facilities/institutional_values/pwd_facilities/33.jpg" download="33.jpg"> Download Geo Tag Image</a>
                   </div>
                 </div>
               </div>
