@@ -626,7 +626,7 @@
                                     <tr>
                                         <td class="text-center">50.</td>
                                         <td class="v-mid">
-                                            <img src="-" alt="" class="mou-img">
+                                            <img src="#" alt="" class="mou-img">
                                         </td>
                                         <td>VRRSP Technologies Pvt. Ltd. is helping in Placement Generation among students</td>
                                         <td class="v-mid">
