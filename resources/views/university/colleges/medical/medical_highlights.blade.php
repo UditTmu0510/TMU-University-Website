@@ -9,7 +9,7 @@
         <div class="experience" id="experience">
             <div class="container">
                 <header class="section-header text-center wow zoomIn">
-                    <h2 class="tmu-text-primary"><span>College </span><span> Highlights</span></h2>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>College </span><span> Highlights</span></h1>
                 </header>
                 <div class="timeline ">
                     <div class="timeline-item left wow slideInLeft">
@@ -40,19 +40,19 @@
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
                             <div class="timeline-date">Books & E-Books</div>
-                                <ul class="m-ol-list ps-3 mb-0">
-                                    <li><b class="fs-14">Books: </b>13,077</li>
-                                    <li><b class="fs-14">Ebooks: </b>2015</li>
-                                </ul>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">Books: </b>13,077</li>
+                                <li><b class="fs-14">Ebooks: </b>2015</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft mb-0">
                         <div class="timeline-text">
                             <div class="timeline-date">Journals & E-Journals</div>
-                                <ul class="m-ol-list ps-3 mb-0">
-                                    <li><b class="fs-14">Journals: </b>97 (National and International)</li>
-                                    <li><b class="fs-14">E - Journals: </b>1733</li>
-                                </ul>
+                            <ul class="m-ol-list ps-3 mb-0">
+                                <li><b class="fs-14">Journals: </b>97 (National and International)</li>
+                                <li><b class="fs-14">E - Journals: </b>1733</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                                 <ul class="m-ol-list ps-3 mb-0">
                                     <li><b class="fs-14">Emergency Service:</b> 24 X 7</li>
                                     <li><b class="fs-14">Central Lab:</b> 24 X 7</li>
-                                    <li><b class="fs-14">Blood Bank:</b> 24 X 7</li>                                    
+                                    <li><b class="fs-14">Blood Bank:</b> 24 X 7</li>
                                 </ul>
                             </div>
                         </div>
