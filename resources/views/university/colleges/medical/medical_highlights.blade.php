@@ -72,7 +72,7 @@
                             <div class="timeline-text">
                                 <div class="timeline-date">In-house Research Journal</div>
                                 <ul class="m-ol-list ps-3 mb-0">
-                                    <li><b class="fs-14"><a href="https://www.tmu.ac.in/medical-college-and-research-centre/publication.html">Acta Medica International</a></b>- An Official Peer-reviewed Journal (ISSN 2349-0578)</li>
+                                    <li><b class="fs-14"><a href="{{route('tmu.publication')}}">Acta Medica International</a></b>- An Official Peer-reviewed Journal (ISSN 2349-0578)</li>
                                     <li><b class="fs-14"><a href="http://www.actamedicainternational.com/">Online journal: Acta Medica International</a></b>- An Official Peer-reviewed Journal (ISSN: 2349-0896)</li>
                                 </ul>
                             </div>
