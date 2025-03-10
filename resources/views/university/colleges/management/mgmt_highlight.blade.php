@@ -9,7 +9,7 @@
             <div class="experience" id="experience">
                 <div class="container">
                     <header class="section-header text-center wow zoomIn">
-                        <h2 class="tmu-text-primary"><span>College </span><span> Highlights</span></h2>
+                        <h1 class="tmu-text-primary"><span>College </span><span> Highlights</span></h1>
                     </header>
                     <div class="timeline ">
                         <div class="timeline-item left wow slideInLeft">
