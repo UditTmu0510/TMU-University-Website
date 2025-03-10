@@ -55,6 +55,9 @@
             <a href="{{ route('education.iqac') }}" class="custom-menu-item {{ setActive('education.iqac') }}">
                 <p>College IQAC</p>
             </a>
+            <a href="{{ route('computer.infra') }}" class="custom-menu-item {{ setActive('computer.infra') }}">
+                <p>Computer Infrastructure</p>
+            </a>
         </div>
     </div>
 </div>
