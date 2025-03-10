@@ -69,17 +69,17 @@
   
 
   @if(!empty($metaData->sitemap_url))
-    @php
-    $canonical = $metaData->sitemap_url;
-    $canonical = $domain.'/'.$canonical;
+  @php
+  $canonical = $metaData->sitemap_url;
+  $canonical = $domain.'/'.$canonical;
 
-    @endphp
-    @if(($metaData->sitemap_url != 'na'))
-    <link rel="canonical" href="{{$canonical}}" />
-    @else
-    <link rel="canonical" href="{{$domain}}" />
-    @endif
-    @endif
+  @endphp
+  @if(($metaData->sitemap_url != 'na'))
+  <link rel="canonical" href="{{$canonical}}" />
+  @else
+  <link rel="canonical" href="{{$domain}}" />
+  @endif
+  @endif
 
   {!! $metaData->schema_markup ?? '' !!}
 
@@ -111,6 +111,38 @@
   <meta name="robots" content="noodp, noydir">
   
  
+
+
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!--Google Analytics tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-QXM8FSJKVR");
+  </script>
+
+
 
   <script type="application/ld+json">
     {
@@ -376,9 +408,9 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -611,9 +643,9 @@
     <div id="menubar--open--button" class="menu-container" onclick="showMenubar()">
       <i class="fa-solid fa-bars"></i>
       <span class="d-none d-md-block" class="menu-button" aria-describedby="menu-tooltip"> Menu</span>
-      <div class="tooltip px-3 py-2" id="menu-tooltip">  <span class="info-icon">
-      <i class="fa-solid fa-info-circle"></i> <!-- Information icon inside a circle -->
-    </span> Home to University & College Menu</div>
+      <div class="tooltip px-3 py-2" id="menu-tooltip"> <span class="info-icon">
+          <i class="fa-solid fa-info-circle"></i> <!-- Information icon inside a circle -->
+        </span> Home to University & College Menu</div>
     </div>
     <!-- Menubar Open Button Completed -->
 
