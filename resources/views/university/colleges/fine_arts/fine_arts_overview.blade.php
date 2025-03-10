@@ -11,7 +11,6 @@
             <div class="container">
                 <div class="row position-relative">
                     <img class="col-md-10 d-block mx-auto mb-4" src="{{asset('/assets/img/banner_overview/fine_arts/banner.jpg')}}" alt="Card image cap">
-                    <img src="./brush-splash.webp" alt="" class="brush-splash">
                 </div>
 
                 <div class="container">
