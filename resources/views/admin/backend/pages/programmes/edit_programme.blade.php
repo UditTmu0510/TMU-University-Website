@@ -106,6 +106,24 @@
           </div>
 
           <div class="col-md-2">
+            <label for="prog_duration_type_without_internship" class="form-label">Duration Type (Without Internship)</label>
+            <select class="form-select" name="prog_duration_type_without_internship" id = "prog_duration_type_without_internship" aria-label="Default select example" required>
+              <option>Select Duration Type</option>
+              <option {{$programme->prog_duration_type_without_internship == "Years" ? 'selected' : ''}} value="Years">Years</option>
+              <option {{$programme->prog_duration_type_without_internship == "Months" ? 'selected' : ''}} value="Months">Months</option>
+            </select>
+          </div>
+
+          <div class="col-md-2">
+            <label for="prog_duration_type_with_internship" class="form-label">Duration Type (Internship)</label>
+            <select class="form-select" name="prog_duration_type_with_internship" id = "prog_duration_type_with_internship" aria-label="Default select example" required>
+              <option>Select Duration Type</option>
+              <option {{$programme->prog_duration_type_with_internship == "Years" ? 'selected' : ''}} value="Years">Years</option>
+              <option {{$programme->prog_duration_type_with_internship == "Months" ? 'selected' : ''}} value="Months">Months</option>
+            </select>
+          </div>
+
+          <div class="col-md-2">
             <label for="prog_duration_type" class="form-label">Duration Based</label>
             <select class="form-select" name="prog_duration_type" id = "prog_duration_type" aria-label="Default select example" required>
               <option>Select Duration Type</option>
@@ -129,7 +147,7 @@
             </select>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-2">
             <label for="eligibility" class="form-label">ELigibility</label>
             <input type="text" id="eligibility" name="eligibility" class="form-control" value="{{$programme->eligibility}}" required />
             
