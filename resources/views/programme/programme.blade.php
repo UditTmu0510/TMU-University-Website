@@ -126,9 +126,11 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
         <h1 class="display-4 fw-bolder ls-n-1 text-light  mb-3 mt-3" style="font-size:1.7rem">
             {{ $programme->prog_name }}
         </h1>
+        <p class="mb-3">Duration : {{$total_duration}}</p>
         <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
             Build Your Future with {{ $programme->prog_name }}
         </h2>
+    
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
         <!-- If cd_id is 2 or 3, disable the button -->
 
