@@ -52,7 +52,7 @@
 					</a>
 				</div>
 				<div class="col-12 col-md-3 py-4 py-md-2 px-3">
-					<a href="" target="_blank" style="color:rgba(0,0,0,0.9);">
+					<a href="{{route('research.policy')}}" target="_blank" style="color:rgba(0,0,0,0.9);">
 						<div class="m-custom-card">
 							<img src="https://cdn-icons-png.flaticon.com/128/2991/2991109.png" alt="">
 							<span>Vice Chancellor Innovation Fund </span>
