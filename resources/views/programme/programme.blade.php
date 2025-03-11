@@ -91,7 +91,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
         @if($prog_duration_without_intersnhip || $prog_duration_with_intersnhip)
-        <p class="mb-3">Duration :
+        <p class="mb-3" >Duration :
             @if($prog_duration_without_intersnhip) 
                 {{$prog_duration_without_intersnhip}} {{$prog_duration_type_without_internship}}
             @endif
@@ -141,7 +141,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
             {{ $programme->prog_name }}
         </h1>
         @if($prog_duration_without_intersnhip || $prog_duration_with_intersnhip)
-        <p class="mb-3">Duration :
+        <p class="mb-3" style="color:white;">Duration :
             @if($prog_duration_without_intersnhip) 
                 {{$prog_duration_without_intersnhip}} {{$prog_duration_type_without_internship}}
             @endif
