@@ -8,8 +8,32 @@
 
         <h1 class="tmu-text-primary tmu-page-heading mt-2 mb-4"><span>Media</span><span> Coverage</span></h1>
         <div class="row mb-md-5">
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+                <div class="card-sl h-100 ">
+                    <div class="card-image ">
+                        <img src="{{asset('/assets/img/media_coverage/IPR_Workshop.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action ">06th <br> Mar</span>
+                    <div class="card-heading mb-4">
+                    टीएमयू के फॉरेंसिक स्टुडेंट्स अब करेंगे यूनिवर्सिटी ऑफ फिलीपींस का भ्रमण
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-0"><a href="https://www.livehindustan.com/uttar-pradesh/moradabad/story-tmu-signs-mou-with-university-of-philippines-for-student-and-faculty-exchange-201741273017396.html" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+                <div class="card-sl h-100 ">
+                    <div class="card-image ">
+                        <img src="{{asset('/assets/img/media_coverage/IPR_Workshop.jpg')}}" alt="Media Image" />
+                    </div>
+                    <span class="card-action ">04th <br> Mar</span>
+                    <div class="card-heading mb-4">
+                    वैश्विक छलांगः टीएमयू और यूनिवर्सिटी पुत्र मलेशिया के शिक्षक और शिक्षार्थी मिलकर करेंगे रिसर्च
+                    </div>
+                    <div class="justify-content-center text-center mt-auto mb-2"><a href="https://samarsaleel.com/global-jump-tmu-and-university-son-malaysia-teachers-and-learners-will-do-research-together/453748" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
+                </div>
+            </div>
             
-            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
                 <div class="card-sl h-100 ">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/meet-bros.jpg')}}" alt="Media Image" />
@@ -20,8 +44,8 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.amarujala.com/uttar-pradesh/moradabad/meet-brothers-once-more-noise-echoed-in-tmu-moradabad-news-c-15-1-mbd1002-553099-2024-12-30" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div> -->
-            <!-- <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
                         <img src="{{asset('/assets/img/media_coverage/suresh-khanna.jpg')}}" alt="Media Image" />
@@ -32,7 +56,7 @@
                     </div>
                     <div class="justify-content-center text-center mt-auto mb-2"><a href="https://www.bhaskar.com/local/uttar-pradesh/moradabad/news/the-goal-of-human-life-is-service-suresh-khanna-134202681.html" target="_blank" class="card-button  btn-4 m-0 py-2 px-3">Read More!</a></div>
                 </div>
-            </div> -->
+            </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                 <div class="card-sl h-100">
                     <div class="card-image ">
