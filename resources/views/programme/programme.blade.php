@@ -82,7 +82,7 @@ $programme_brochure_path = $programme->programme_brochure_path;
 
 @if((!(empty($programme_banner_path))) && ($programme->video_section_flag == 'Y'))
 <div id="slider" class="slideshow-container">
-    <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%">
+    <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%" alt = "Programme Banner">
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
         <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
