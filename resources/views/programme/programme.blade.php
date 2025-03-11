@@ -126,7 +126,7 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
         <h1 class="display-4 fw-bolder ls-n-1 text-light  mb-3 mt-3" style="font-size:1.7rem">
             {{ $programme->prog_name }}
         </h1>
-        <p class="mb-3">Duration : {{$total_duration}}</p>
+        <p class="mb-3" style="color:white;">Duration : {{$total_duration}}</p>
         <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
             Build Your Future with {{ $programme->prog_name }}
         </h2>
