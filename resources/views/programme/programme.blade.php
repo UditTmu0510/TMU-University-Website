@@ -228,7 +228,7 @@ $programme_brochure_path = $programme->programme_brochure_path;
 <div class="container">
     <div class="row justify-content-center ">
         <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-            <h2 class="tmu-text-primary fs-26 mb-0 pb-0"><span>{{$programme->prog_name}}</span> <span> Scholarships 2024 </span></h2>
+            <h2 class="tmu-text-primary fs-26 mb-0 pb-0"><span>{{$programme->prog_name}}</span> <span> Scholarships 2025 </span></h2>
         </div>
 
     </div>
