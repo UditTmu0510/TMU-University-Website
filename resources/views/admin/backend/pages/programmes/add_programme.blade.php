@@ -118,7 +118,7 @@
             <label for="prog_duration_type_with_internship" class="form-label">Duration Type(Internship)</label>
             <select class="form-select" name="prog_duration_type_with_internship" id = "prog_duration_type_with_internship" aria-label="Default select example" required>
               <option>Select Duration Type</option>
-              <option value="Years">Years</option>
+              <option value="Year">Year</option>
               <option value="Months">Months</option>
             </select>
           </div>
