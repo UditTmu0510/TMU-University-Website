@@ -78,6 +78,10 @@
 @php
 $programme_banner_path = $programme->programme_banner_path;
 $programme_brochure_path = $programme->programme_brochure_path;
+$prog_duration_with_intersnhip = $programme->prog_duration_with_intersnhip;
+$prog_duration_without_intersnhip = $programme->prog_duration_without_intersnhip;
+$prog_duration_type = $programme->prog_duration_type;
+$total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_intersnhip) . " " . $prog_duration_type;
 @endphp
 
 @if((!(empty($programme_banner_path))) && ($programme->video_section_flag == 'Y'))
@@ -85,6 +89,7 @@ $programme_brochure_path = $programme->programme_brochure_path;
     <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%" alt = "Programme Banner">
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
+        <p class="mb-3">Duration : {{$total_duration}}</p>
         <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
 
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
