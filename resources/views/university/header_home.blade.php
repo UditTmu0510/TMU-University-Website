@@ -569,8 +569,8 @@
 
 
         <!-- Menubar Open Button Code  -->
-        <a id="admission-button" href="https://admissions.tmu.ac.in/" target="_blank">
-            <span class="d-none d-sm-block admission-test">Admissions Open</span>
+        <a class="d-none d-sm-block" id="admission-button" href="https://admissions.tmu.ac.in/" target="_blank">
+            <span class="admission-test">Admissions Open</span>
     </a>
         <!-- Menubar Open Button Completed -->
 
