@@ -47,7 +47,8 @@ class ProgrammesController extends Controller
         $programmeLevel = $request->input('programme_level');
         $progDurationWithInternship = $request->input('prog_duration_with_intersnhip');
         $progDurationWithoutInternship = $request->input('prog_duration_without_intersnhip');
-        $progDurationType = $request->input('prog_duration_type');
+        $progDurationTypeWithoutInternship = $request->input('prog_duration_type_without_internship');
+        $progDurationTypeWithInternship = $request->input('prog_duration_type_with_internship');
         $intake = $request->input('intake');
         $medium = $request->input('medium');
         $eligibility = $request->input('eligibility');
@@ -85,7 +86,6 @@ class ProgrammesController extends Controller
             'programme_level' => 'required',
             'prog_duration_with_intersnhip' => 'required',
             'prog_duration_without_intersnhip' => 'required',
-            'prog_duration_type' => 'required',
             'intake' => 'required',
             'medium' => 'required',
             'eligibility' => 'required',
@@ -132,7 +132,8 @@ class ProgrammesController extends Controller
             'programme_level' => $programmeLevel,
             'prog_duration_with_intersnhip' => $progDurationWithInternship,
             'prog_duration_without_intersnhip' => $progDurationWithoutInternship,
-            'prog_duration_type' => $progDurationType,
+            'prog_duration_type_without_internship' => $progDurationTypeWithoutInternship,
+            'prog_duration_type_with_internship' => $progDurationTypeWithInternship,
             'intake' => $intake,
             'medium' => $medium,
             'eligibility' => $eligibility,
@@ -231,7 +232,8 @@ try{
     $programmeLevel = $request->input('programme_level');
     $progDurationWithInternship = $request->input('prog_duration_with_intersnhip');
     $progDurationWithoutInternship = $request->input('prog_duration_without_intersnhip');
-    $progDurationType = $request->input('prog_duration_type');
+    $progDurationTypeWithoutInternship = $request->input('prog_duration_type_without_internship');
+    $progDurationTypeWithInternship = $request->input('prog_duration_type_with_internship');
     $intake = $request->input('intake');
     $medium = $request->input('medium');
     $eligibility = $request->input('eligibility');
@@ -319,7 +321,8 @@ try{
         'programme_level' => $programmeLevel,
         'prog_duration_with_intersnhip' => $progDurationWithInternship,
         'prog_duration_without_intersnhip' => $progDurationWithoutInternship,
-        'prog_duration_type' => $progDurationType,
+        'prog_duration_type_without_internship' => $progDurationTypeWithoutInternship,
+        'prog_duration_type_with_internship' => $progDurationTypeWithInternship,
         'intake' => $intake,
         'medium' => $medium,
         'eligibility' => $eligibility,

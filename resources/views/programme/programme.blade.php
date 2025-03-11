@@ -80,8 +80,9 @@ $programme_banner_path = $programme->programme_banner_path;
 $programme_brochure_path = $programme->programme_brochure_path;
 $prog_duration_with_intersnhip = $programme->prog_duration_with_intersnhip;
 $prog_duration_without_intersnhip = $programme->prog_duration_without_intersnhip;
-$prog_duration_type = $programme->prog_duration_type;
-$total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_intersnhip) . " " . $prog_duration_type;
+$prog_duration_type_without_internship = $programme->prog_duration_type_without_internship;
+$prog_duration_type_with_internship = $programme->prog_duration_type_with_internship;
+
 @endphp
 
 @if((!(empty($programme_banner_path))) && ($programme->video_section_flag == 'Y'))
@@ -89,7 +90,20 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
     <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%" alt="Programme Banner">
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
-        <p class="mb-3">Duration : {{$total_duration}}</p>
+        @if($prog_duration_without_intersnhip || $prog_duration_with_intersnhip)
+        <p class="mb-3">Duration :
+            @if($prog_duration_without_intersnhip) 
+                {{$prog_duration_without_intersnhip}} {{$prog_duration_type_without_internship}}
+            @endif
+            @if($prog_duration_without_intersnhip && $prog_duration_with_intersnhip)
+                +
+            @endif
+            @if($prog_duration_with_intersnhip)
+                {{$prog_duration_with_intersnhip}} {{$prog_duration_type_with_internship}}
+            @endif
+        </p>
+    @endif
+    
         <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
 
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
@@ -126,7 +140,20 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
         <h1 class="display-4 fw-bolder ls-n-1 text-light  mb-3 mt-3" style="font-size:1.7rem">
             {{ $programme->prog_name }}
         </h1>
-        <p class="mb-3" style="color:white;">Duration : {{$total_duration}}</p>
+        @if($prog_duration_without_intersnhip || $prog_duration_with_intersnhip)
+        <p class="mb-3">Duration :
+            @if($prog_duration_without_intersnhip) 
+                {{$prog_duration_without_intersnhip}} {{$prog_duration_type_without_internship}}
+            @endif
+            @if($prog_duration_without_intersnhip && $prog_duration_with_intersnhip)
+                +
+            @endif
+            @if($prog_duration_with_intersnhip)
+                {{$prog_duration_with_intersnhip}} {{$prog_duration_type_with_internship}}
+            @endif
+        </p>
+    @endif
+    
         <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
             Build Your Future with {{ $programme->prog_name }}
         </h2>
