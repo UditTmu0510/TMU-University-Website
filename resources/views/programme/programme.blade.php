@@ -149,7 +149,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
                 +
             @endif
             @if($prog_duration_with_intersnhip)
-                {{$prog_duration_with_intersnhip}} {{$prog_duration_type_with_internship}}
+                {{$prog_duration_with_intersnhip}} {{$prog_duration_type_with_internship}} (Internship)
             @endif
         </p>
     @endif
