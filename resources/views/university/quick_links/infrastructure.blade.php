@@ -102,8 +102,14 @@
                                 </div>
                             </div>
                         </div>
-                    </a>    
-                <div>
-                    
-    </div>            
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </section>
+</div>
+    
+@endsection

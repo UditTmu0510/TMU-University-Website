@@ -86,10 +86,11 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
 
 @if((!(empty($programme_banner_path))) && ($programme->video_section_flag == 'Y'))
 <div id="slider" class="slideshow-container">
-    <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%" alt = "Programme Banner">
+    <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" style="width:100%" alt="Programme Banner">
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
-        <p class="mb-3">Duration : {{$total_duration}}</p>
+
+        <p class="mb-3"><b>Duration: </b> {{ $programme->prog_duration_without_intersnhip}} years</p>
         <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
 
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
@@ -122,15 +123,18 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
 
     <!-- Text and Button Div -->
     <div class="ban-text text-center p-3 mb-2" style="background-color: rgba(0, 15, 84);">
-        
+
         <h1 class="display-4 fw-bolder ls-n-1 text-light  mb-3 mt-3" style="font-size:1.7rem">
             {{ $programme->prog_name }}
         </h1>
-        <p class="mb-3" style="color:white;">Duration : {{$total_duration}}</p>
+
         <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
-            Build Your Future with {{ $programme->prog_name }}
+            <span class="fw-bolder">Duration:</span>  {{ $programme->prog_duration_without_intersnhip}} years
         </h2>
-    
+
+        <!-- <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
+            Build Your Future with {{ $programme->prog_name }}
+        </h2> -->
         @if(in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == "N")
         <!-- If cd_id is 2 or 3, disable the button -->
 
@@ -140,6 +144,19 @@ $total_duration = ($prog_duration_with_intersnhip + $prog_duration_without_inter
         @endif
 
     </div>
+</div>
+
+@endif
+
+
+@if(!empty($programme_brochure_path) && $programme->video_section_flag == 'Y')
+
+<div class=" d-block d-sm-none justify-content-center text-center">
+
+    <!-- <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
+        Build Your Future with {{ $programme->prog_name }}
+    </h2> -->
+    <h2 class="tmu-text-primary fs-26 mb-0 pb-0"><span>Build Your Future with </span> <span>{{$programme->prog_name}}</span></h2>
 </div>
 
 @endif
