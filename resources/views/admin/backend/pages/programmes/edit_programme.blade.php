@@ -84,7 +84,7 @@
           </div>
 
           <div class="col-md-2">
-            <label for="prog_duration_with_intersnhip" class="form-label" style="font-size:13px;">Duration + Internship</label>
+            <label for="prog_duration_with_intersnhip" class="form-label" style="font-size:13px;">Duration (Internship)</label>
             <input type="text" name="prog_duration_with_intersnhip" id="prog_duration_with_intersnhip" class="form-control" value="{{$programme->prog_duration_with_intersnhip}}" required />
           </div>
 
@@ -101,7 +101,7 @@
           </div> --}}
 
           <div class="col-md-2">
-            <label for="prog_duration_without_intersnhip" class="form-label" style="font-size:13px;">Duration - Internship</label>
+            <label for="prog_duration_without_intersnhip" class="form-label" style="font-size:13px;">Duration (Regular)</label>
             <input type="text" name="prog_duration_without_intersnhip" id="prog_duration_without_intersnhip" value="{{$programme->prog_duration_without_intersnhip}}" class="form-control" required />
           </div>
 
