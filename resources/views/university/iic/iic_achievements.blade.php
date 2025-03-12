@@ -9,8 +9,8 @@
             <h1 class="tmu-text-primary tmu-page-heading"><span>IIC </span><span>Achievements</span></h1>
 
             <div class="container">
-                <div class="row">
-                    <h3 class="mb-0 ms-2 tmu-text-primary pt-3"><span>University</span></h3>
+                <!-- <div class="row">
+                    <h3 class="mb-0 ms-2 tmu-text-primary pt-3"><span>University</span></h3> -->
                     <!-- <div class="col-6 col-lg-4 p-4" style="box-sizing:border-box;">
                         <img src="{{asset('/assets/img/department/iic/certificates/certificate1.jpg')}}" alt="">
                     </div>
@@ -32,7 +32,7 @@
                     </div> -->
 
 
-                    <div class="row" data-lightbox="gallery">
+                    <!-- <div class="row" data-lightbox="gallery">
                         <div class="col-6 col-lg-4 p-4" style="box-sizing:border-box;">
                             <a href="{{ asset('/assets/img/department/iic/certificates/certificate1.jpg') }}" data-lightbox="gallery-item">
                                 <img src="{{ asset('/assets/img/department/iic/certificates/certificate1.jpg') }}" alt="">
@@ -63,7 +63,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <h3 class="mb-0 ms-2 tmu-text-primary pt-3"><span>Faculty of</span> <span>Engineering</span></h3>
                     <!-- <div class="col-md-4 p-4" style="box-sizing:border-box;">
