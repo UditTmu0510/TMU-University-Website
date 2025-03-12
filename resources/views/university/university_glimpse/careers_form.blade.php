@@ -269,7 +269,7 @@
                             </div>
 
                             <div class="col-md-2 col-sm-6">
-                                <label for="qualification_specialization" class="form-label">Specialization</label>
+                                <label for="qualification_specialization" class="form-label">Programme / Specialization</label>
                                 <input type="text" class="form-control qualification_specialization" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
                                 <div class="invalid-feedback">Specialization is required</div>
                             </div>
@@ -518,7 +518,7 @@
                                 <div class="invalid-feedback">Exam/Degree is required</div>
                             </div>
                                                 <div class="col-md-2 col-sm-6">
-                    <label for="qualification_specialization" class="form-label">Specialization</label>
+                    <label for="qualification_specialization" class="form-label">Programme / Specialization</label>
                     <input type="text" class="form-control qualification_specialization" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
                     <div class="invalid-feedback">Specialization is required</div>
                 </div>
