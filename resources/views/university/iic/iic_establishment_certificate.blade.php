@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="col-md-6 p-3" style="box-sizing:border-box;">
-                        <img src="{{asset('/assets/img/department/iic/certificates/engineering_certificate1.jpg')}}" alt="">
+                        <img src="{{asset('/assets/img/department/iic/certificates/engineering_certificate2.jpg')}}" alt="">
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="col-md-6 p-3" style="box-sizing:border-box;">
-                        <img src="{{asset('/assets/img/department/iic/certificates/medical_certificate1.jpg')}}" alt="">
+                        <img src="{{asset('/assets/img/department/iic/certificates/medical_certificate2.jpg')}}" alt="">
                     </div>
                 </div>
 
