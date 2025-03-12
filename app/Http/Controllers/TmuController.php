@@ -81,7 +81,17 @@ class TmuController extends Controller
 
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
-            ->where('status', 'Y')->where('display_on_home_page','Y')->get();
+        ->where('status', 'Y')
+        ->where('display_on_home_page', 'Y')
+        ->orderByRaw("
+            CASE 
+                WHEN programme_level = 'UG' THEN 1
+                WHEN programme_level = 'PG' THEN 2
+                ELSE 3
+            END
+        ")
+        ->orderBy('prog_name', 'ASC') // Sort alphabetically within UG/PG
+        ->get();
 
 
         // Check if any records are found
