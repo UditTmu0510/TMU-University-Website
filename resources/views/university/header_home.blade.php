@@ -838,7 +838,8 @@
                     </div> -->
 
                     <div class="video-container">
-                        <div class="video-text-box">This is TMU</div>
+                        <!-- <div class="video-text-box">This is TMU</div> -->
+                        <h1 class="video-text-box">This is TMU</h1>
                         <div class="glass-effect-box">
                             Building on a legacy of shaping bright futures, we continue to soar to new heights with our vision:<br> "Transforming minds, uniting wisdom."
                         </div>
