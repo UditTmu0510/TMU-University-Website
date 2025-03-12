@@ -240,6 +240,12 @@ class TmuController extends Controller
         return view('university.university_glimpse.careers', compact('academicJobs', 'adminJobs'));
     }
 
+    public function contact_us_main()
+    {
+        
+        return view('university.quick_links.contact_us_main');
+    }
+
     //IIC
 
     public function iic_home(Request $request)
