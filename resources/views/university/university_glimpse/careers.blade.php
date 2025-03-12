@@ -25,15 +25,15 @@
                     @foreach ($academicJobs as $job)
                     <button class="careers-accordion">{{ $job->title }}<span class="icon">+</span></button>
                     <div class="panel">
-                    <h3 class="tmu-text-primary"><span>Job </span><span> Description:</span></h3>
-                    <p>{{ $job->description }}</p>
-                    <h3 class="tmu-text-primary"><span>Responsibilities :</span></h3>
-                    <p>{{ $job->responsibilities }}</p>
-                    <h3 class="tmu-text-primary"><span>Requirements:</span></h3>
-                    <p>{{ $job->requirements }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Job </span><span> Description:</span></h3>
+                    <p class="text-justify">{{ $job->description }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Responsibilities :</span></h3>
+                    <p class="text-justify">{{ $job->responsibilities }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Requirements:</span></h3>
+                    <p class="text-justify">{{ $job->requirements }}</p>
                         
                         <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                            <a href="{{ $job->img_path }}" target="blank">Read More</a>
+                            <a href="{{ route('job.form') }}" target="blank">Apply Now</a>
                         </button>
                         <br>
                     </div>
@@ -48,14 +48,14 @@
                     @foreach ($adminJobs as $job)
                     <button class="careers-accordion">{{ $job->title }}<span class="icon">+</span></button>
                     <div class="panel">
-                    <h3 class="tmu-text-primary"><span>Job </span><span> Description:</span></h3>
-                    <p>{{ $job->description }}</p>
-                    <h3 class="tmu-text-primary"><span>Responsibilities :</span></h3>
-                    <p>{{ $job->responsibilities }}</p>
-                    <h3 class="tmu-text-primary"><span>Requirements:</span></h3>
-                    <p>{{ $job->requirements }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Job </span><span> Description:</span></h3>
+                    <p class="text-justify">{{ $job->description }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Responsibilities :</span></h3>
+                    <p class="text-justify">{{ $job->responsibilities }}</p>
+                    <h3 class="tmu-text-primary mb-0"><span>Requirements:</span></h3>
+                    <p class="text-justify">{{ $job->requirements }}</p>
                         <button class="tmu-btn btn-3 py-2 d-block mx-auto my-0 d-flex align-items-center tmu-fs-14">
-                            <a href="{{ $job->img_path }}" target="blank">Read More</a>
+                            <a href="{{ route('job.form') }}" target="blank">Apply Now</a>
                         </button>
                     </div>
                     <hr class="horizontal-line">
