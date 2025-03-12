@@ -23,5 +23,4 @@ jobs:
           script: |
             cd /home/tmuac1/public_html  # Change this to your project path
             git pull origin production
-            composer install --no-dev
             php artisan optimize:clear
