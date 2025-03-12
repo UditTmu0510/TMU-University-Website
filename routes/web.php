@@ -1083,6 +1083,19 @@ Route::get('/tmu/doctoral-programs', [TmuController::class, 'phd_programmes_offe
 
 Route::get('/programme', [TmuController::class, 'master_programme_page'])->name('master.programme.page');
 
+// Contact_us_main
+Route::get('/contact-us', [TmuController::class, 'contact_us_main'])->name('contact.us.main');
+
+Route::get('/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{file}', function ($file) {
+    // Check if the file doesn't already have an extension
+    if (!preg_match('/\.[a-zA-Z0-9]{2,4}$/', $file)) {
+        // Append .pdf to the URL and redirect
+        return redirect()->to("/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{$file}.pdf", 301);
+    }
+
+    // If the file has an extension, redirect as-is
+    return redirect()->to("/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{$file}", 301);
+});
 
 
 
