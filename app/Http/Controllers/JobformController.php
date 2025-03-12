@@ -177,6 +177,7 @@ class JobformController extends Controller
                     $mode_types = $request->input('mode_type', []);
                     $exam_degrees = $request->input('exam_degree', []);
                     $board_universities = $request->input('board_university', []);
+                    $qualification_specialization = $request->input('qualification_specialization', []);
                     $years_of_passing = $request->input('year_of_passing', []);
                     $percentages = $request->input('percentage', []);
 
@@ -186,6 +187,7 @@ class JobformController extends Controller
                             'mode_type' => $mode_type,
                             'exam_degree' => $exam_degrees[$key],
                             'board_university' => $board_universities[$key],
+                            'qualification_specialization' => $qualification_specialization[$key],
                             'year_of_passing' => $years_of_passing[$key],
                             'percentage' => $percentages[$key]
                         ];
@@ -194,7 +196,7 @@ class JobformController extends Controller
 
                     // Store exams qualified
                     $exams_qualified_name = $request->input('exam_qualified_name', []);
-                    $qualification_specialization = $request->input('qualification_specialization', []);
+                
                     $exam_qualified_passing_year = $request->input('exam_qualified_passing_year', []);
                     $exam_qualified_subject = $request->input('exam_qualified_subject', []);
 
@@ -202,7 +204,6 @@ class JobformController extends Controller
                         $examqualifiedData = [
                             'application_id' => $personal_details->id,
                             'exam_qualified_name' => $exam_qualified_name,
-                            'qualification_specialization' => $qualification_specialization[$key],
                             'exam_qualified_passing_year' => $exam_qualified_passing_year[$key],
                             'exam_qualified_subject' => $exam_qualified_subject[$key]
                         ];
