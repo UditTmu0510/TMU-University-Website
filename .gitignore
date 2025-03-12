@@ -33,6 +33,8 @@ siteaudit-ZjdlNmZmMD.txt
 worldline_AdminData.json
 zivTzjR3
 .ftpquota
+composer.json
+composer.lock
 /vendor
 # Ignore all files and folders in the public directory
 /vendor/*
