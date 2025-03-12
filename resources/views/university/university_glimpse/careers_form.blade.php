@@ -218,7 +218,7 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-md-5>
+                    <div class="col-md-5">
                         <label for="presentAddress" class="form-label">Present Address</label>
                         <textarea class="form-control" id="presentAddress" placeholder="Present Address"
                             name="present_address" rows="2" required></textarea>
