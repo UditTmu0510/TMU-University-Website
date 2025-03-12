@@ -194,6 +194,7 @@ class JobformController extends Controller
 
                     // Store exams qualified
                     $exams_qualified_name = $request->input('exam_qualified_name', []);
+                    $qualification_specialization = $request->input('qualification_specialization', []);
                     $exam_qualified_passing_year = $request->input('exam_qualified_passing_year', []);
                     $exam_qualified_subject = $request->input('exam_qualified_subject', []);
 
@@ -201,6 +202,7 @@ class JobformController extends Controller
                         $examqualifiedData = [
                             'application_id' => $personal_details->id,
                             'exam_qualified_name' => $exam_qualified_name,
+                            'qualification_specialization' => $qualification_specialization[$key],
                             'exam_qualified_passing_year' => $exam_qualified_passing_year[$key],
                             'exam_qualified_subject' => $exam_qualified_subject[$key]
                         ];

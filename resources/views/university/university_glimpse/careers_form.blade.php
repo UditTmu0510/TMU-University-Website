@@ -301,7 +301,7 @@
                     <div class="qualification-box">
                         <div class="row mb-3">
 
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-6">
                                 <label for="exam_qualified_name" class="form-label">Exam Qualified</label>
                                 <select class="form-select" id="exam_qualified_name" name="exam_qualified_name[]">
                                     <option value="" disabled selected>Select Exam</option>
@@ -314,18 +314,23 @@
                                 <div class="invalid-feedback">Exam is required</div>
                             </div>
 
-                            <div class="col-md-3 col-sm-6" id="other-exam-name-field" style="display: none;">
+                            <div class="col-md-2 col-sm-6" id="other-exam-name-field" style="display: none;">
                                 <label for="other_exam_name" class="form-label">Other Exam Name</label>
                                 <input type="text" class="form-control" placeholder="Enter Exam Name" name="other_exam_name" id="other_exam_name">
                                 <div class="invalid-feedback">Exam name is required</div>
                             </div>
+                            <div class="col-md-2 col-sm-6">
+                                <label for="qualification_specialization" class="form-label">Specialization</label>
+                                <input type="text" class="form-control exam-passing-year" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
+                                <div class="invalid-feedback">Specialization is required</div>
+                            </div>
 
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-6">
                                 <label for="exam_qualified_passing_year" class="form-label">Passing Year</label>
                                 <input type="text" class="form-control exam-passing-year" placeholder="Year of Passing" name="exam_qualified_passing_year[]" id="exam_qualified_passing_year">
                                 <div class="invalid-feedback">Passing Year is required</div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-6">
                                 <label for="exam_qualified_subject" class="form-label">Subject</label>
                                 <input type="text" class="form-control exam-subject" placeholder="Subject" name="exam_qualified_subject[]" id="exam_qualified_subject">
                                 <div class="invalid-feedback">Subject name is required</div>
@@ -600,7 +605,7 @@
             newFieldExamQualified.classList.add('qualification-box');
             newFieldExamQualified.innerHTML = `
             <div class="row mb-3 col-md-12">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <label for="exam_qualified_name" class="form-label">Exam Qualified</label>
                     <select class="form-select exam-qualified-name" name="exam_qualified_name[]" >
                         <option value="" disabled selected>Select Exam</option>
@@ -612,17 +617,23 @@
                     <div class="invalid-feedback">Exam is required</div>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
+                  <div class="col-md-2 col-sm-6">
+                    <label for="qualification_specialization" class="form-label">Specialization</label>
+                    <input type="text" class="form-control qualification_specialization" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
+                    <div class="invalid-feedback">Passing Year is required</div>
+                </div>
+
+                <div class="col-md-2 col-sm-6">
                     <label for="exam_qualified_passing_year" class="form-label">Passing Year</label>
                     <input type="text" class="form-control exam-passing-year" placeholder="Year of Passing" name="exam_qualified_passing_year[]" id="exam_qualified_passing_year">
                     <div class="invalid-feedback">Passing Year is required</div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-2 col-sm-6">
                     <label for="exam_qualified_subject" class="form-label">Subject</label>
                     <input type="text" class="form-control exam-subject" placeholder="Subject" name="exam_qualified_subject[]" id="exam_qualified_subject">
                     <div class="invalid-feedback">Subject name is required</div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <button type="button" class="red-btn delete-btn-exam-qualified">X</button>
                 </div>
             </div>`;
