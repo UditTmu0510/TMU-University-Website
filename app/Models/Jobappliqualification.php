@@ -16,6 +16,7 @@ class Jobappliqualification extends Model
         'mode_type',
         'exam_degree',
         'board_university',
+        'qualification_specialization',
         'year_of_passing',
         'percentage',
     ];
