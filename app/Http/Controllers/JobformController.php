@@ -196,30 +196,35 @@ class JobformController extends Controller
 
                     // Store exams qualified
                     $exams_qualified_name = $request->input('exam_qualified_name', []);
-                
                     $exam_qualified_passing_year = $request->input('exam_qualified_passing_year', []);
                     $exam_qualified_subject = $request->input('exam_qualified_subject', []);
-
-                    foreach ($exams_qualified_name as $key => $exam_qualified_name) {
-                        $examqualifiedData = [
-                            'application_id' => $personal_details->id,
-                            'exam_qualified_name' => $exam_qualified_name,
-                            'exam_qualified_passing_year' => $exam_qualified_passing_year[$key],
-                            'exam_qualified_subject' => $exam_qualified_subject[$key]
-                        ];
-                        ExamsQualified::create($examqualifiedData);
+                    
+                    // Check if there is any valid input
+                    if (!empty($exams_qualified_name) && is_array($exams_qualified_name)) {
+                        foreach ($exams_qualified_name as $key => $exam_qualified_name) {
+                            if (!empty($exam_qualified_name)) { // Ensure the name is not empty
+                                $examqualifiedData = [
+                                    'application_id' => $personal_details->id,
+                                    'exam_qualified_name' => $exam_qualified_name,
+                                    'exam_qualified_passing_year' => $exam_qualified_passing_year[$key] ?? null,
+                                    'exam_qualified_subject' => $exam_qualified_subject[$key] ?? null
+                                ];
+                                ExamsQualified::create($examqualifiedData);
+                            }
+                        }
                     }
+                    
 
                     DB::commit();
-                    $emailData = [
-                        'name' => $personal_details->name,
-                        'application_id' => $applicationId,
-                        'email' => $personal_details->email
-                    ];
+                    // $emailData = [
+                    //     'name' => $personal_details->name,
+                    //     'application_id' => $applicationId,
+                    //     'email' => $personal_details->email
+                    // ];
 
 
-                    // Send confirmation email
-                    Mail::to($personal_details->email)->send(new JobApplicationMail($emailData));
+                    // // Send confirmation email
+                    // Mail::to($personal_details->email)->send(new JobApplicationMail($emailData));
                     Session::flash('success', 'Application Submitted Successfully');
                     Session::flash('application_id', $applicationId);
                     return redirect()->route('job.form');
