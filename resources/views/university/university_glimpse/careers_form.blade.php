@@ -218,13 +218,17 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-md-6">
+                    <div class="col-md-5>
                         <label for="presentAddress" class="form-label">Present Address</label>
                         <textarea class="form-control" id="presentAddress" placeholder="Present Address"
                             name="present_address" rows="2" required></textarea>
                         <div class="invalid-feedback">Present address is required</div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-2">
+                        <input type="checkbox" id="same_address">
+                        <label for="same_address">Permanent Address same as Present Address</label><br>
+                    </div>
+                    <div class="col-md-5">
                         <label for="permanentAddress" class="form-label">Permanent Address</label>
                         <textarea class="form-control" id="permanentAddress" placeholder="Permanent Address"
                             name="permanent_address" rows="2" required></textarea>
@@ -872,7 +876,32 @@
 
 
 <!-- Departments -->
+
 <script>
+    document.getElementById("same_address").addEventListener("change", function() {
+        let presentAddress = document.getElementById("presentAddress").value;
+        let permanentAddress = document.getElementById("permanentAddress");
+
+        if (this.checked) {
+            permanentAddress.value = presentAddress;
+            permanentAddress.setAttribute("readonly", true);
+        } else {
+            permanentAddress.value = "";
+            permanentAddress.removeAttribute("readonly");
+        }
+    });
+
+    document.getElementById("presentAddress").addEventListener("input", function() {
+        let checkbox = document.getElementById("same_address");
+        if (checkbox.checked) {
+            document.getElementById("permanentAddress").value = this.value;
+        }
+    });
+</script>
+
+<script>
+
+    
     $(document).ready(function() {
         // Fetch departments on college selection
         $('#colleges').change(function() {
