@@ -267,17 +267,20 @@
                                 </select>
                                 <div class="invalid-feedback">Exam/Degree is required</div>
                             </div>
+
                             <div class="col-md-2 col-sm-6">
-                                <label for="boardUniversity" class="form-label">Board/University Name</label>
+                                <label for="qualification_specialization" class="form-label">Specialization</label>
+                                <input type="text" class="form-control qualification_specialization" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
+                                <div class="invalid-feedback">Specialization is required</div>
+                            </div>
+
+                            <div class="col-md-2 col-sm-6">
+                                <label for="boardUniversity" class="form-label">Board/University</label>
                                 <input type="text" class="form-control" placeholder="Board/University" name="board_university[]" required>
                                 <div class="invalid-feedback">Board/University name is required</div>
                             </div>
 
-                            <div class="col-md-2 col-sm-6">
-                                <label for="qualification_specialization" class="form-label">Specialization</label>
-                                <input type="text" class="form-control exam-passing-year" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
-                                <div class="invalid-feedback">Specialization is required</div>
-                            </div>
+                         
                             <div class="col-md-2 col-sm-6">
                                 <label for="yearPassing" class="form-label">Year of Passing</label>
                                 <input type="text" class="form-control year-passing-qualification" placeholder="Year of Passing" name="year_of_passing[]" required>
@@ -514,16 +517,17 @@
                                 </select>
                                 <div class="invalid-feedback">Exam/Degree is required</div>
                             </div>
-                            <div class="col-md-2 col-sm-6">
-                                <label for="boardUniversity" class="form-label">Board/University Name</label>
-                                <input type="text" class="form-control" placeholder="Board/University" name="board_university[]" required>
-                                <div class="invalid-feedback">Board/University name is required</div>
-                            </div>
-                                  <div class="col-md-2 col-sm-6">
+                                                <div class="col-md-2 col-sm-6">
                     <label for="qualification_specialization" class="form-label">Specialization</label>
                     <input type="text" class="form-control qualification_specialization" placeholder="Specialization" name="qualification_specialization[]" id="qualification_specialization">
                     <div class="invalid-feedback">Specialization is required</div>
                 </div>
+                            <div class="col-md-2 col-sm-6">
+                                <label for="boardUniversity" class="form-label">Board/University</label>
+                                <input type="text" class="form-control" placeholder="Board/University" name="board_university[]" required>
+                                <div class="invalid-feedback">Board/University name is required</div>
+                            </div>
+              
 
                             <div class="col-md-2 col-sm-6">
                                 <label for="yearPassing" class="form-label">Year of Passing</label>
