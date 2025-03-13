@@ -577,19 +577,15 @@
         <nav class="social d-none d-sm-block">
             <ul>
                 <li class="phone">
-                    <a href="https://admissions.tmu.ac.in/">Admissions Open<img
-                    src="{{ asset('monaco/assets/image/admission.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" /></a>
-                </li>
-                <li class="phone">
-                    <a href="tel:18002701490">18002701490<img
-                    src="{{ asset('monaco/assets/image/call-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" /></a>
+                    <a href="https://admissions.tmu.ac.in/"><img
+                    src="{{ asset('monaco/assets/image/admission.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Admissions Open</a>
                 </li>
                 <li class="view">
-                    <a href="https://www.main.tmu.ac.in/virtual-tour">360 View<img
-                            src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" /></a>
+                    <a href="https://www.main.tmu.ac.in/virtual-tour"><img
+                            src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
                 </li>
-                <li class="phone"><a href="https://api.whatsapp.com/send/?phone=919258112544&text=Hello%20TMU&type=phone_number&app_absent=0">Whats App<img
-                    src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" /></a>
+                <li class="phone"><a href="https://api.whatsapp.com/send/?phone=919258112544&text=Hello%20TMU&type=phone_number&app_absent=0"><img
+                    src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Whats App</a>
                 </li>
             </ul>
         </nav>
