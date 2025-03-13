@@ -182,3 +182,65 @@ line-height: 1.5;
         }
     }
     /*admission button CSS end*/
+
+    /* toggle social buttonsstart */
+
+    .social {
+      position: fixed;
+      top: 22%;
+      width: 60px;
+      z-index: 201
+  }
+  
+  .social ul {
+      list-style-type: none;
+      padding: 0;
+      transform: translatex(-270px)
+  }
+  
+  .social ul li {
+      background-color: rgba(0,0,0,.5);
+      border-radius: 0 30px 30px 0;
+      display: block;
+      margin: 3px;
+      padding: 10px;
+      text-align: right;
+      transition: 1s;
+      width: 320px
+  }
+  
+  .social ul li:hover {
+      transform: translatex(150px)
+  }
+  
+  .social ul li.phone:hover {
+      background-color: #55acee
+  }
+  
+  .social ul li.view:hover {
+      background-color: #3b5999
+  }
+  
+  .social ul li a {
+      color: #fff;
+      margin-bottom: 100px;
+      text-decoration: none
+  }
+  
+  .social ul li i,.social ul li img {
+      background-color: #fff;
+      border-radius: 50%;
+      color: #000;
+      font-size: 20px;
+      height: 35px;
+      margin-left: 14px;
+      padding: 7px;
+      text-align: center;
+      transform: rotate(0);
+      width: 35px
+  }
+  
+  .social ul li:hover i,.social ul li:hover img {
+      transform: rotate(1turn);
+      transition: 1s
+  }
