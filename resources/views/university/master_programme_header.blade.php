@@ -557,6 +557,10 @@
 	============================================= -->
     <div id="wrapper" style="display: block;">
 
+        <div class="admission-side-button">
+            Admissions Open
+        </div>
+
     <nav class="social d-none d-sm-block">
             <ul>
                 <li class="phone">
