@@ -581,10 +581,6 @@
 
         <nav class="social d-none d-sm-block">
             <ul>
-                <li class="phone">
-                    <a href="https://admissions.tmu.ac.in/"><img
-                    src="{{ asset('monaco/assets/image/admission.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Admissions Open</a>
-                </li>
                 <li class="view">
                     <a href="https://www.main.tmu.ac.in/virtual-tour"><img
                             src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
