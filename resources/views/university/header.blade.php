@@ -563,6 +563,10 @@
 	============================================= -->
     <div id="wrapper" style="display: block;">
 
+        <div class="admission-side-button">
+        <a href="https://admissions.tmu.ac.in/">Admissions Open</a>
+        </div>
+
     <nav class="social d-none d-sm-block">
             <ul>
                 <li class="phone">
