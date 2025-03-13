@@ -22,4 +22,5 @@ jobs:
           port: 22
           script: |
             cd /home/tmuac1/public_html/other_websites/test.tmu.ac.in  # Change this to your project path
-            
+            git pull origin main
+            php artisan optimize:clear
