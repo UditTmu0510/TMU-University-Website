@@ -209,7 +209,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
                     <div class="section-box p-3">
-                        <img src="{{asset('/assets/img/banner_overview/phd/pmc.jpg')}}" class="img-fluid rounded" alt="...">
+                        <img src="{{asset('/assets/img/banner_overview/phd/agri.jpg')}}" class="img-fluid rounded" alt="...">
                         <div class="course-content">
                             <h3 class="tmu-text-primary mt-3 mb-0"><span> Agriculture Sciences </span></h3>
                             <ul class="m-ol-list ps-5 mt-0">
