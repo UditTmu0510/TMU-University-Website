@@ -207,7 +207,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                    <div class="section-box p-3">
+                        <img src="{{asset('/assets/img/banner_overview/phd/pmc.jpg')}}" class="img-fluid rounded" alt="...">
+                        <div class="course-content">
+                            <h3 class="tmu-text-primary mt-3 mb-0"><span> Agriculture Sciences </span></h3>
+                            <ul class="m-ol-list ps-5 mt-0">
+                                <li><a href="{{asset('/assets/pdf/research/AG-Scheme-TRAT.pdf')}}"><span class="highlight">Examination Scheme of TRAT</span></a></li>
+                                <li><a href="{{asset('/assets/pdf/research/AG-Syllabus-TRAT.pdf')}}"><span class="highlight">Syllabus of TRAT</span></a></li>
+                                <li><a href="{{asset('/assets/pdf/research/AG-SMQP.pdf')}}"><span class="highlight">Sample/Model Question Paper</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
