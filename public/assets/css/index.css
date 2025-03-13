@@ -265,6 +265,10 @@ line-height: 1.5;
     z-index: 100;
 }
 
+.admission-side-button a {
+    color: #fff;
+}
+
 /* Highlight the button on hover */
 .admission-side-button:hover {
     background-color: #001055;
