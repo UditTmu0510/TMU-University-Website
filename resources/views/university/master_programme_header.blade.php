@@ -557,8 +557,24 @@
 	============================================= -->
     <div id="wrapper" style="display: block;">
 
+    <nav class="social d-none d-sm-block">
+            <ul>
+                <li class="phone">
+                    <a href="https://admissions.tmu.ac.in/"><img
+                    src="{{ asset('monaco/assets/image/admission.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Admissions Open</a>
+                </li>
+                <li class="view">
+                    <a href="https://www.main.tmu.ac.in/virtual-tour"><img
+                            src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
+                </li>
+                <li class="phone"><a href="https://api.whatsapp.com/send/?phone=919258112544&text=Hello%20TMU&type=phone_number&app_absent=0"><img
+                    src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Whats App</a>
+                </li>
+            </ul>
+        </nav>
 
-        <div class="side-button-container">
+
+        <!-- <div class="side-button-container">
             <a href="https://admissions.tmu.ac.in/">
                 <div class="expandable-button d-none d-sm-block" id="button1">
                     <img  src="{{asset('assets/img/icons/enquire-side-orange.svg')}}" width="25px"
@@ -566,20 +582,20 @@
                     <span class="text">Admissions Open</span>
                 </div>
             </a>
-            <!-- <a href="tel:18002701490" target="blank">
+            <a href="tel:18002701490" target="blank">
                 <div class="expandable-button d-none d-sm-block" id="button2">
                     <img class="new-arrow" id="new-menu-icon" src="assets/img/icons/call-side-orange.svg" width="25px"
                         alt="Icon 1">
                     <span class="text">Call</span>
                 </div>
-            </a> -->
+            </a>
             <a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="blank">
                 <div class="expandable-button d-none d-sm-block" id="button3">
                     <img src="{{asset('assets/img/icons/whatsapp-side.svg')}}" width="25px" alt="Icon 1">
                     <span class="text">Whatsapp Chat</span>
                 </div>
             </a>
-        </div>
+        </div> -->
 
 <!--mobile tray starts-->
         <div class="new-menu-container d-block d-sm-none">
