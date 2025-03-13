@@ -576,7 +576,7 @@
 
 <!-- admission side button code -->
         <div class="admission-side-button">
-            Admissions Open
+        <a href="https://admissions.tmu.ac.in/">Admissions Open</a>
         </div>
 
         <nav class="social d-none d-sm-block">
