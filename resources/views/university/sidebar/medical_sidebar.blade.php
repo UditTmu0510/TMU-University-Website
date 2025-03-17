@@ -95,7 +95,7 @@
                 <p>Gender Harassment Committee</p>
             </a>
         </div>
-        <h2>Departments</h2>
+        <h2>Faculty Details</h2>
         <div class="account-section">
             <a href="{{asset('/assets/pdf/medical/faculty_details/department_detail_jan/1_Principal_and_MS_Information.pdf')}}" class="custom-menu-item">
                 <p>Principal & MS</p>
