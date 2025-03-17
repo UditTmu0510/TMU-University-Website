@@ -79,11 +79,11 @@
 
             <div class="container">
                 <ul class="m-ol-list">
-                    <li class="tmu-text-primary"><span>Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
+                    <li class="tmu-text-primary"><span class="fs-24">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
                         Uttar Pradesh</span></li>
-                    <li class="tmu-text-primary"><span>Univeristy Contact Email: </span><span>university@tmu.ac.in</span></li>
-                    <li class="tmu-text-primary"><span>Admissions Contact Number: </span><span>1800-270-1490</span></li>
-                    <li class="tmu-text-primary"><span>Admissions Email: </span><span>admissions@tmu.ac.in</span></li>
+                    <li class="tmu-text-primary"><span class="fs-24">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></li>
+                    <li class="tmu-text-primary"><span class="fs-24">Admissions Contact Number: </span><span>1800-270-1490</span></li>
+                    <li class="tmu-text-primary"><span class="fs-24">Admissions Email: </span><span>admissions@tmu.ac.in</span></li>
                 </ul>
             </div>
         </section>
