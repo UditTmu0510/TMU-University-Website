@@ -554,6 +554,7 @@ Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance
 
 // Footer links 
 Route::get('/tmu/campus-view', [TmuController::class, 'campus_view'])->name('campus.view');
+Route::get('/tmu/contact', [TmuController::class, 'contact'])->name('contact');
 Route::get('/tmu/library', [TmuController::class, 'library'])->name('library');
 Route::get('/tmu/hostel', [TmuController::class, 'hostel'])->name('tmu.hostel');
 Route::get('/tmu/hospital', [TmuController::class, 'tmu_hospital'])->name('tmu.hospital');
