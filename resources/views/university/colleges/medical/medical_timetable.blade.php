@@ -94,6 +94,9 @@
 					<table class="table table-striped">
 						<tbody>
 							<tr>
+								<td><a href="{{asset('/assets/pdf/medical/timetable/Phase_3_Part_2_TT.pdf')}}" target="_blank"><span class="highlight">Click here to view</span></a> the academic session 2025-26 timetable</td>
+							</tr>
+							<tr>
 								<td><a href="{{asset('/assets/pdf/medical/Phase3_Part2.pdf')}}" target="_blank"><span class="highlight">Click here to view</span></a> the academic session 2023-24 timetable</td>
 							</tr>
 							<tr>
