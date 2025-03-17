@@ -20,7 +20,7 @@
 							<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
 							<p class="description">Annual Report 2022-23</p>
 							<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-								href="{{asset('/assets/pdf/annual_report/annual_report_2022_23.pdf')}}">View PDF</a>
+								href="#">View PDF</a>
 						</div>
 						<div class="card-pdf">
 							<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
