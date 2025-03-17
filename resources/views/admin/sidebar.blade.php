@@ -579,6 +579,32 @@
         </ul>
       </li>
 
+       <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#manage-aebes-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-person"></i><span>Manage AEBES</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="manage-aebes-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+             
+          
+          <li>
+            <a href="{{route('aebes.view')}}">
+              <i class="bi bi-circle"></i><span>View AEBES attendance</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="{{route('aebes.add')}}">
+              <i class="bi bi-circle"></i><span>Add AEBES attendance</span>
+            </a>
+          </li>
+
+          
+         
+    
+
+        </ul>
+      </li>
+
   
 
       <li class="nav-item">
