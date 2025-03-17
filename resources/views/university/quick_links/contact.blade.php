@@ -45,23 +45,9 @@
 
 
 <div class="container">
-    <p class="mb-4">Before reaching out to Teerthanker Mahaveer University (TMU), we recommend checking our <strong>Frequently Asked Questions (FAQ)</strong> page to see if your query has already been addressed. If your question is specific to a particular program, department, or faculty, please contact them directly for a quicker response.</p>
+    <p class="mb-4 mt-lg-4">Before reaching out to Teerthanker Mahaveer University (TMU), we recommend checking our <strong>Frequently Asked Questions (FAQ)</strong> page to see if your query has already been addressed. If your question is specific to a particular program, department, or faculty, please contact them directly for a quicker response.</p>
 
-    <div class="mb-4">
-      <p><strong>Undergraduate Programs</strong></p>
-      <p>Prospective undergraduate students can explore a wide range of programs offered by TMU. While most programs are conducted in English, some may require proficiency in Hindi or other languages depending on the course. Make sure to review the program details, eligibility criteria, and admission requirements for the specific faculty you are interested in. For any program-related inquiries, contact the respective faculty directly. For questions regarding the application process, deadlines, or admission procedures, please reach out to the <strong>Admissions Office</strong>.</p>
-    </div>
-
-    <div class="mb-4">
-      <p><strong>Postgraduate Programs</strong></p>
-      <p>TMU offers a variety of postgraduate programs (MA, MSc, MBA, PhD, etc.) in both English and Hindi. To learn more about the programs available, visit the <strong>Postgraduate Programs</strong> section on our website. Detailed information about application deadlines, eligibility, and admission requirements can be found in the <strong>Graduate Admissions Outline</strong>. For specific queries, contact the Graduate School or department you wish to apply to.</p>
-    </div>
-
-    <div class="mb-4">
-      <p><strong>Exchange Programs</strong></p>
-      <p>If your university has a student exchange agreement with Teerthanker Mahaveer University, you may be eligible to join our <strong>University-wide Student Exchange Program</strong>. Through this program, you can study at TMU for a semester or academic year and earn credits that may be transferred to your home institution. Please note that not all exchange agreements are university-wide, so ensure that your home university’s agreement covers your specific faculty or department. To apply, contact the study abroad or international office at your home university.</p>
-      <p>For further details about exchange programs, eligibility, or partnerships, please reach out to TMU’s <strong>International Relations Office</strong>.</p>
-    </div>
+    
 
     <div class="mb-4">
       <p><strong>General Inquiries</strong></p>
@@ -69,17 +55,18 @@
     </div>
 
     <p>We look forward to assisting you and helping you make the most of your academic journey at Teerthanker Mahaveer University!</p>
-  </div>
+    <div class="contact-info ms-0 ms-lg-5">
+        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
+            Uttar Pradesh</span></p>
+        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
+        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
+        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
+        </div>
+</div>
 
 
             <div>
-                <ul class="contact-info ms-0 ms-lg-5">
-                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
-                        Uttar Pradesh</span></p>
-                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
-                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
-                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
-                </ul>
+                
 
                 <div class="gallery-header">
                     <h2 Class="tmu-text-primary mb-2 mt-5"><span>Contact </span><span>Information</span></h2>
