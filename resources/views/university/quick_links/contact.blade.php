@@ -92,13 +92,19 @@
                     <li class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></li>
                 </ul>
 
+                <div class="gallery-header">
+                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Contact </span><span>Information</span></h2>
+                </div> 
+
                 {{-- Contact Table  --}}
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
                       <thead>
                         <tr>
-                          <th>Faculties, Colleges and Departments</th>
-                          {{-- <th>Contact Info</th> --}}
+                            <th rowspan="2">Faculties, Colleges and Departments</th>
+                            <th colspan="3">Contact Info</th>
+                        </tr>
+                        <tr>
                           <th>Email</th>
                           <th>Phone No.</th>
                           <th>Online Form</th>
