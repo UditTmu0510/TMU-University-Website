@@ -822,7 +822,7 @@ Route::get('/medical-college-and-research-centre/orthopaedics/infrastructure', [
 Route::get('/medical-college-and-research-centre/ent/infrastructure', [MedicalController::class, 'medical_ent_infra'])->name('medical.ent.infra');
 Route::get('/medical-college-and-research-centre/ophthalmology/infrastructure', [MedicalController::class, 'medical_ophthalmology_infra'])->name('medical.ophthalmology.infra');
 Route::get('/medical-college-and-research-centre/obg/infrastructure', [MedicalController::class, 'medical_obstetrics_gynaecology_infra'])->name('medical.obstetrics.gynaecology.infra');
-Route::get('/medical-college-and-research-centre/study.material', [MedicalController::class, 'medical_study_material'])->name('medical.study.material');
+Route::get('/medical-college-and-research-centre/study-material', [MedicalController::class, 'medical_study_material'])->name('medical.study.material');
 Route::get('/medical-college-and-research-centre/urban-health-centers', [MedicalController::class, 'medical_urban_health_centers'])->name('medical.urban.health.centers');
 Route::get('/medical-college-and-research-centre/rural-health-centers', [MedicalController::class, 'medical_rural_health_centers'])->name('medical.rural.health.centers');
 Route::get('/medical-college-and-research-centre/primary-health-centers', [MedicalController::class, 'medical_primary_health_centers'])->name('medical.primary.health.centers');
