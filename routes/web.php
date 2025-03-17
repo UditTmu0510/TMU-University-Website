@@ -54,6 +54,7 @@ use App\Http\Controllers\NavbarJsonController;
 use App\Http\Controllers\ManuscriptFormController;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\GitWebhookController;
+use App\Http\Controllers\AebesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -1105,3 +1106,19 @@ Route::get('/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{f
 Route::get('/medical-college-and-research-centre/aebas-attendance', [AttendanceController::class, 'index'])->name('medical.aebas.attendance');
 Route::get('/api/attendance', [AttendanceController::class, 'getActiveDates'])->name('attendance.active-dates');
 Route::get('/attendance/download/{id}', [AttendanceController::class, 'downloadPdf'])->name('attendance.download');
+
+
+//AEBES ROUTES
+
+// View all Aebes
+Route::get('/view/aebes', [AebesController::class, 'view'])->name('aebes.view');
+// Show Add Form
+Route::get('/add/aebes', [AebesController::class, 'create'])->name('aebes.add');
+// Store New Record
+Route::post('/store/aebes', [AebesController::class, 'store'])->name('aebes.store');
+// Edit Aebes (with ID)
+Route::get('/edit/aebes/{id}', [AebesController::class, 'edit'])->name('aebes.edit');
+// Delete Aebes (with ID)
+Route::post('/delete/aebes/{id}', [AebesController::class, 'destroy'])->name('aebes.delete');
+// Route for updating AEBES record
+Route::post('/update/aebes/{id}', [AebesController::class, 'update'])->name('aebes.update');
