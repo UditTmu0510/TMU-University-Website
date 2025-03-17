@@ -1,9 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 use App\Models\Contact; // Import the Contact model
+use App\Mail\ThankYouMail;
+use Illuminate\Support\Facades\Mail;
+
 
 class ContactController extends Controller
 {
@@ -42,7 +46,8 @@ class ContactController extends Controller
             'cd_id' => $validatedData['cd_id'] ?? null, // Handle nullable cd_id
             'message' => $validatedData['message']
         ]);
-
+        // Send thank you email to the user
+        Mail::to($validatedData['email'])->send(new ThankYouMail($validatedData['first_name'], $validatedData['last_name']));
         return redirect()->back()->with('success', 'Your message has been sent successfully.');
     }
 }
