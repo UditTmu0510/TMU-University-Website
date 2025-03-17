@@ -13,7 +13,7 @@
         <section class="about-section bg-light mt-4">
             <div class="container">
                 <div class="text-content p-4">
-                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to TMU Dental College & </span><span> Research Centre</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading"><span>Welcome to </span><span> Teerthanker Mahaveer Dental College & Research Centre</span></h1>
                     <p class="about-p mb-4">Teerthanker Mahaveer Dental College and Research Centre, established in the year 2005, is one of the prestigious and accredited dental institute. The college is actively involved in quality teaching and research practices in oral health care which makes it a centre of excellence for providing world-class education.</p>
                 </div>
                 <div class="image-content text-center p-4">
