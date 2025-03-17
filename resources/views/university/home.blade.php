@@ -407,6 +407,21 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>17, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Teerthanker Mahaveer College of Pharmacy is organizing a webinar on "Entrepreneurship and Innovation as a Career Choice for Students" on 18th March 2025 in online mode.
+                                    The session will feature Dr. Kirtika Chetia, an Assistant Professor at EDII in Ahmedabad. Dr Anurag Verma will facilitate the webinar, which will be coordinated by Mrs Urvashi Saxena and will focus on R&D, innovation, startups, and skill enhancement.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Pharmacy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>01, March</span>
                                 </div>
                                 <div class="notice-content">
