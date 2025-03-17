@@ -162,12 +162,26 @@
 											<strong style="font-weight: 300;">TMU is committed to the ideals of Lord Mahaveer "Right Philosophy, Right Knowledge, and Right Conduct" in all spheres of activity and aspires to be the ultimate destination for world-class education.</strong>
 
 										</address>
-										<p style="margin-bottom: 0px;"><strong style="font-size: 16px; font-weight: 600; color:#FF7900;">Address: </strong> N.H.-9, Delhi
-											Road, Moradabad - 244001, <br> Uttar Pradesh</p>
-										<p style="margin-bottom: 0px;"><strong style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Contact Number: </strong></abbr>
-											1800-270-1490</p>
-										<p style="margin-bottom: 0px;"><strong style="font-size: 16px; font-weight: 600; color:#FF7900;">Email: </strong></abbr>
-											university@tmu.ac.in</p>
+										<p style="margin-bottom: 0px;"><strong
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Address:
+                                            </strong> N.H.-9, Delhi
+                                            Road, Moradabad - 244001, <br> Uttar Pradesh</p>
+
+                                        <p style="margin-bottom: 0px;"><strong
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Email:
+                                            </strong></abbr>
+                                            university@tmu.ac.in</p>
+
+                                        <p style="margin-bottom: 0px;"><strong
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Contact Number:
+                                            </strong></abbr>
+                                            1800-270-1490</p>
+
+                                        <p style="margin-bottom: 0px;"><strong
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Email:
+                                            </strong></abbr>
+                                            admissions@tmu.ac.in
+                                        </p>
 									</div>
 								</div>
 							</div>
