@@ -51,11 +51,10 @@
 
     <div class="mb-4">
       <p><strong>General Inquiries</strong></p>
-      <p>For all other inquiries, including general information about TMU, campus facilities, or student services, please contact the <strong>Main Office</strong> or visit the <strong>Contact Us</strong> page on our website for relevant email addresses and phone numbers.</p>
+      <p>For all other inquiries, including general information about TMU, campus facilities, or student services, please contact on the information given below:</p>
     </div>
 
-    <p>We look forward to assisting you and helping you make the most of your academic journey at Teerthanker Mahaveer University!</p>
-    <div class="contact-info ms-0 ms-lg-5">
+    <div class="contact-info m-0">
         <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
             Uttar Pradesh</span></p>
         <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
