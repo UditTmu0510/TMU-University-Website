@@ -40,6 +40,7 @@
                 .contact-info{
                     margin-top: 0;
                     background-color: transparent;
+                    padding:0px;
                 }
                 .carousel-item img{
                     max-height: 400px;
@@ -58,11 +59,11 @@
     </div>
 
     <div class="contact-info m-0">
-        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
+        <p><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
             Uttar Pradesh</span></p>
-        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
-        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
-        <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
+        <p><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
+        <p><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
+        <p><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
         </div>
 </div>
 
