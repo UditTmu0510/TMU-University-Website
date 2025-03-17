@@ -99,117 +99,257 @@
                 {{-- Contact Table  --}}
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
-                      <thead>
-                        <tr>
-                            <th rowspan="2">Faculties, Colleges and Departments</th>
-                            <th colspan="3">Contact Info</th>
-                        </tr>
-                        <tr>
-                          <th>Email</th>
-                          <th>Phone No.</th>
-                          <th>Online Form</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Teerthanker Mahaveer Medical College and Research Centre</td>
-                          <td>principal.medical@tmu.ac.in</td>
-                          <td>(+91) 591-2476815</td>
-                          <td><a href="https://www.tmu.ac.in/medical-college-and-research-centre/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer Dental College & Research Centre</td>
-                          <td>principal.dental@tmu.ac.in</td>
-                          <td>(+91) 591-2476823</td>
-                          <td><a href="https://www.tmu.ac.in/dental-college-and-research-centre/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer College of Nursing</td>
-                          <td>principal.nursing@tmu.ac.in</td>
-                          <td>(+91) 591-2476844</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-nursing/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer College of Pharmacy</td>
-                          <td>principal.pharmacy@tmu.ac.in</td>
-                          <td>(+91) 591-2476825</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-pharmacy/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer University College of Paramedical Sciences</td>
-                          <td>principal.paramedical@tmu.ac.in</td>
-                          <td>(+91) 591-2476847</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-paramedical-sciences/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Department of Physiotherapy</td>
-                          <td>principal.physiotherapy@tmu.ac.in</td>
-                          <td>(+91) 591-2476812</td>
-                          <td><a href="https://www.tmu.ac.in/department-of-physiotherapy/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>TMIMT College of Management</td>
-                          <td>principal.management@tmu.ac.in</td>
-                          <td>(+91) 591-2476847</td>
-                          <td><a href="https://www.tmu.ac.in/tmimt-college-of-management/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer College of Law & Legal Studies</td>
-                          <td>principal.law@tmu.ac.in</td>
-                          <td>(+91) 9568118000, (+91) 9568119000</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-law-and-legal-studies/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>College of Computing Sciences & IT</td>
-                          <td>dean.engineering@tmu.ac.in</td>
-                          <td>(+91) 591-2476832, 9568516000, 9568517000, 7351418000</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-computing-sciences-and-it/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer University College of Engineering</td>
-                          <td>dean.engineering@tmu.ac.in</td>
-                          <td>(+91) 591-2476832, 9568516000, 9568517000, 7351418000</td>
-                          <td><a href="https://www.tmu.ac.in/faculty-of-engineering/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>College of Fine Arts</td>
-                          <td>principal.finearts@tmu.ac.in</td>
-                          <td>(+91) 591-2476836</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-fine-arts/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Faculty of Education</td>
-                          <td>principal.education@tmu.ac.in</td>
-                          <td>(+91) 9568717000, (+91) 9568418000</td>
-                          <td><a href="https://www.tmu.ac.in/faculty-of-education/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>TMIMT College of Physical Education</td>
-                          <td>principal.physicaleducation@tmu.ac.in</td>
-                          <td>(+91) 9837469801</td>
-                          <td><a href="https://www.tmu.ac.in/tmimt-college-of-physical-education/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Teerthanker Mahaveer College of Agriculture Sciences</td>
-                          <td>principal.agriculture@tmu.ac.in</td>
-                          <td>(+91) 591-2476831</td>
-                          <td><a href="https://www.tmu.ac.in/college-of-agriculture-sciences/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>IQAC</td>
-                          <td>director.iqac@tmu.ac.in</td>
-                          <td>(+91) - 591-2476813, (+91) - 9997501313</td>
-                          <td><a href="https://www.tmu.ac.in/tmu/iqac-cell/contact-us">Link</a></td>
-                        </tr>
-                        <tr>
-                          <td>Alumni</td>
-                          <td>alumni@tmu.ac.in</td>
-                          <td>(+91) 591-2476806</td>
-                          <td><a href="https://www.tmu.ac.in/alumni/contact-us">Link</a></td>
-                        </tr>
-                      </tbody>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Department / College</th>
+                                <th>Email</th>
+                                <th>Phone No.</th>
+                                <th>Online Form</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Hospital</td>
+                                <td>tmuhospital@tmu.ac.in</td>
+                                <td>(+91) 95688-65444</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Alumni</td>
+                                <td>alumni@tmu.ac.in</td>
+                                <td>(+91) 591-2476806</td>
+                                <td><a href="https://www.tmu.ac.in/alumni/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Library</td>
+                                <td>university.librarian@tmu.ac.in</td>
+                                <td>(+91) 99975 60099</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Research (For Phd)</td>
+                                <td>asso.dean.phd@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3708)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Research (For Patents, Research Paper, Publication, Journals, IPR, Financial Assistance for Research, Seed Money and Research Incentives)</td>
+                                <td>associatedean.rd@tmu.ac.in</td>
+                                <td>(+91) 96342-32666</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Campus Visit</td>
+                                <td>admissions@tmu.ac.in</td>
+                                <td>1800-270-1490</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Student Welfare</td>
+                                <td>studentswelfare@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 4015)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Sports Management</td>
+                                <td>principal.physicaleducation@tmu.ac.in</td>
+                                <td>(+91) 9837469801</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Event Management</td>
+                                <td></td>
+                                <td></td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Examination Department</td>
+                                <td>coe@tmu.ac.in</td>
+                                <td>(+91) 9837004522</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Placement Cell</td>
+                                <td>sidharth.crc@tmu.ac.in</td>
+                                <td>(+91) 7055317317</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Chancellor Office</td>
+                                <td>secretary.chancellor@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3600)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Vice Chancellor Office</td>
+                                <td>vicechancelloroffice@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3600)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Registrar Office</td>
+                                <td>ro@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3605)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Dean Academics Office</td>
+                                <td>ado@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3607)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Business Incubation Center</td>
+                                <td>ado@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 3607)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Hostel Accommodation (Chief Warden Office)</td>
+                                <td>dy.dir.hh@tmu.ac.in</td>
+                                <td>(+91) 9837763888</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Outreach & Extension Activities</td>
+                                <td>studentswelfare@tmu.ac.in</td>
+                                <td>0591-2476800 (Extension No - 4015 / 4016)</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>IQAC</td>
+                                <td>director.iqac@tmu.ac.in</td>
+                                <td>(+91) 591-2476813, (+91) 9997501313</td>
+                                <td><a href="https://www.tmu.ac.in/tmu/iqac-cell/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>Teerthanker Mahaveer Medical College and Research Centre</td>
+                                <td>principal.medical@tmu.ac.in</td>
+                                <td>(+91) 591-2476815</td>
+                                <td><a href="https://www.tmu.ac.in/medical-college-and-research-centre/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>Teerthanker Mahaveer Dental College & Research Centre</td>
+                                <td>principal.dental@tmu.ac.in</td>
+                                <td>(+91) 591-2476823</td>
+                                <td><a href="https://www.tmu.ac.in/dental-college-and-research-centre/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>Teerthanker Mahaveer College of Nursing</td>
+                                <td>principal.nursing@tmu.ac.in</td>
+                                <td>(+91) 591-2476844</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-nursing/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>Teerthanker Mahaveer College of Pharmacy</td>
+                                <td>principal.pharmacy@tmu.ac.in</td>
+                                <td>(+91) 591-2476825</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-pharmacy/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>Teerthanker Mahaveer University College of Paramedical Sciences</td>
+                                <td>principal.paramedical@tmu.ac.in</td>
+                                <td>(+91) 591-2476847</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-paramedical-sciences/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>Department of Physiotherapy</td>
+                                <td>principal.physiotherapy@tmu.ac.in</td>
+                                <td>(+91) 591-2476812</td>
+                                <td><a href="https://www.tmu.ac.in/department-of-physiotherapy/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>TMIMT College of Management</td>
+                                <td>principal.management@tmu.ac.in</td>
+                                <td>(+91) 591-2476847</td>
+                                <td><a href="https://www.tmu.ac.in/tmimt-college-of-management/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>Teerthanker Mahaveer College of Law & Legal Studies</td>
+                                <td>principal.law@tmu.ac.in</td>
+                                <td>(+91) 9568118000, (+91) 9568119000</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-law-and-legal-studies/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>College of Computing Sciences & IT</td>
+                                <td>dean.engineering@tmu.ac.in</td>
+                                <td>(+91) 591-2476832, 9568516000, 9568517000, 7351418000</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-computing-sciences-and-it/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>Teerthanker Mahaveer University College of Engineering</td>
+                                <td>dean.engineering@tmu.ac.in</td>
+                                <td>(+91) 591-2476832, 9568516000, 9568517000, 7351418000</td>
+                                <td><a href="https://www.tmu.ac.in/faculty-of-engineering/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>College of Fine Arts</td>
+                                <td>principal.finearts@tmu.ac.in</td>
+                                <td>(+91) 591-2476836</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-fine-arts/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Faculty of Education</td>
+                                <td>principal.education@tmu.ac.in</td>
+                                <td>(+91) 9568717000, (+91) 9568418000</td>
+                                <td><a href="https://www.tmu.ac.in/faculty-of-education/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>TMIMT College of Physical Education</td>
+                                <td>principal.physicaleducation@tmu.ac.in</td>
+                                <td>(+91) 9837469801</td>
+                                <td><a href="https://www.tmu.ac.in/tmimt-college-of-physical-education/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>33</td>
+                                <td>Teerthanker Mahaveer College of Agriculture Sciences</td>
+                                <td>principal.agriculture@tmu.ac.in</td>
+                                <td>(+91) 591-2476831</td>
+                                <td><a href="https://www.tmu.ac.in/college-of-agriculture-sciences/contact-us">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td>34</td>
+                                <td>IQAC</td>
+                                <td>director.iqac@tmu.ac.in</td>
+                                <td>(+91) 591-2476813, (+91) 9997501313</td>
+                                <td><a href="https://www.tmu.ac.in/tmu/iqac-cell/contact-us">Link</a></td>
+                            </tr>
+                        </tbody>
                     </table>
-                  </div>
+                </div>
             </div>
         </section>
 
