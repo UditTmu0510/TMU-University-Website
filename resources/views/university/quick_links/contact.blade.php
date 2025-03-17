@@ -44,6 +44,7 @@
                 }
                 .carousel-item img{
                     max-height: 400px;
+                    object-position: bottom;
                 }
             </style>
 
