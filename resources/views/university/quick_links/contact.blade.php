@@ -13,68 +13,22 @@
                         <div class="content-overlay">
                             <div class="container">
                                 <h1 class="section-title d-none d-lg-block" style="color: white;">Contact <span>Us</span></h1>
-                                {{-- <div class="stat-box d-none d-lg-inline-block">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <h4>135+ Acre</h4>
-                                            <p>Campus Area</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h4>Wi-Fi-Enabled</h4>
-                                            <p>Buildings</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h4>Eco-Conscious</h4>
-                                            <p>Recognised Institute</p>
-                                        </div>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
-                    <!-- Add more carousel items as needed -->
                 </div>
             </div>
         </section>
 
         <div class="container">
-            {{-- <div class="stat-box v2 d-block d-lg-none">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4>135+ Acre</h4>
-                        <p>Campus Area</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Wi-Fi-Enabled</h4>
-                        <p>Buildings</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Eco-Conscious</h4>
-                        <p>Recognised Institute</p>
-                    </div>
-                </div>
-            </div> --}}
-            <h2 Class="tmu-text-primary d-block d-lg-none text-center my-2"><span>Contact </span><span> Us</span></h2>
-            {{-- <div class="row justify-content-center">
-                <div class="col-lg-12 text-justify mb-2 mt-3">
-                    <p class="text-justify mb-2 mt-1 m-lg-5">
-                        Teerthanker Mahaveer University is a dream destination, where modern infrastructure,
-                        world-class facilities, and a supportive community create the perfect backdrop for
-                        your academic journey. Every corner of TMU is thoughtfully designed to inspire and
-                        support you, fostering a dynamic environment that complements your academic and
-                        personal growth. We offer a vibrant campus experience that blends learning with fun.
-                        From the moment you step onto our campus, you'll feel a sense of purpose, the joy
-                        of discovery, and the warmth of belonging.</p>
-                </div>
-            </div> --}}
+            <h2 Class="tmu-text-primary d-block d-lg-none text-center mt-3 mb-2"><span>Contact </span><span> Us</span></h2>
+            
         </div>
 
 
         <!-- Contact Info -->
         <section>
-            {{-- <div class="gallery-header">
-                <h2 Class="tmu-text-primary mb-2 mt-5"><span>Contact </span><span>Information</span></h2>
-            </div> --}}
 
             <style>
                 .contact-info .tmu-text-primary>span:nth-child(2){
@@ -85,13 +39,37 @@
                 }
                 .contact-info{
                     margin-top: 0;
-                    background-color: none;
+                    background-color: transparent;
                 }
-                /* .carousel-item img{
-                    max-height: 300px;
-                    object-position: top;
-                } */
             </style>
+
+
+<div class="container">
+    <p class="mb-4">Before reaching out to Teerthanker Mahaveer University (TMU), we recommend checking our <strong>Frequently Asked Questions (FAQ)</strong> page to see if your query has already been addressed. If your question is specific to a particular program, department, or faculty, please contact them directly for a quicker response.</p>
+
+    <div class="mb-4">
+      <p><strong>Undergraduate Programs</strong></p>
+      <p>Prospective undergraduate students can explore a wide range of programs offered by TMU. While most programs are conducted in English, some may require proficiency in Hindi or other languages depending on the course. Make sure to review the program details, eligibility criteria, and admission requirements for the specific faculty you are interested in. For any program-related inquiries, contact the respective faculty directly. For questions regarding the application process, deadlines, or admission procedures, please reach out to the <strong>Admissions Office</strong>.</p>
+    </div>
+
+    <div class="mb-4">
+      <p><strong>Postgraduate Programs</strong></p>
+      <p>TMU offers a variety of postgraduate programs (MA, MSc, MBA, PhD, etc.) in both English and Hindi. To learn more about the programs available, visit the <strong>Postgraduate Programs</strong> section on our website. Detailed information about application deadlines, eligibility, and admission requirements can be found in the <strong>Graduate Admissions Outline</strong>. For specific queries, contact the Graduate School or department you wish to apply to.</p>
+    </div>
+
+    <div class="mb-4">
+      <p><strong>Exchange Programs</strong></p>
+      <p>If your university has a student exchange agreement with Teerthanker Mahaveer University, you may be eligible to join our <strong>University-wide Student Exchange Program</strong>. Through this program, you can study at TMU for a semester or academic year and earn credits that may be transferred to your home institution. Please note that not all exchange agreements are university-wide, so ensure that your home university’s agreement covers your specific faculty or department. To apply, contact the study abroad or international office at your home university.</p>
+      <p>For further details about exchange programs, eligibility, or partnerships, please reach out to TMU’s <strong>International Relations Office</strong>.</p>
+    </div>
+
+    <div class="mb-4">
+      <p><strong>General Inquiries</strong></p>
+      <p>For all other inquiries, including general information about TMU, campus facilities, or student services, please contact the <strong>Main Office</strong> or visit the <strong>Contact Us</strong> page on our website for relevant email addresses and phone numbers.</p>
+    </div>
+
+    <p>We look forward to assisting you and helping you make the most of your academic journey at Teerthanker Mahaveer University!</p>
+  </div>
 
 
             <div>
