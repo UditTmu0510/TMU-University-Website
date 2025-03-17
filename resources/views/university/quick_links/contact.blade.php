@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div> --}}
-            <h2 Class="tmu-text-primary my-0 d-block d-lg-none text-center"><span>Contact </span><span> Us</span></h2>
+            <h2 Class="tmu-text-primary d-block d-lg-none text-center my-2"><span>Contact </span><span> Us</span></h2>
             {{-- <div class="row justify-content-center">
                 <div class="col-lg-12 text-justify mb-2 mt-3">
                     <p class="text-justify mb-2 mt-1 m-lg-5">
@@ -83,6 +83,10 @@
                 .content-overlay{
                     background: rgba(0, 0, 0, 0.5);
                 }
+                .contact-info{
+                    margin-top: 0;
+                    background-color: none;
+                }
                 /* .carousel-item img{
                     max-height: 300px;
                     object-position: top;
@@ -104,7 +108,7 @@
                 </div> 
 
                 {{-- Contact Table  --}}
-                <div class="table-responsive">
+                <div class="table-responsive mx-0 mx-lg-5">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
