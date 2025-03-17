@@ -80,100 +80,121 @@
 </style>
 
 <div class="main-content">
-    <div class="container d-none d-sm-block">
-        <div style="text-align:center">
-            <h1 class="tmu-text-primary tmu-page-heading mt-md-5"><span>Study </span><span>Materials</span></h1>
+    <div class="container">
+        <h1 class="tmu-text-primary tmu-page-heading mt-3 mb-3"><span>Study</span><span> Material </span></h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Subject</th>
+                    <th>E-Content(URL)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Anatomy-(MBS101)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1d4bKVXwJbaSr_N2A1teVj8LIKPTQqKMX?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Biochemistry-(MBS103)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1OnqhLISiQuan7GNl94Ygbw66I7c9zPWk?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Physiology-(MBS102)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1bCAaADw21wj1wKn7Ch5RDTu0kx3Az7Ca?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Pathology-(MBS201)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1RcRg4C6_77hAV1jAVTloIi0IW2Axu0ew?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Microbiology-(MBS202)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1J4RSA4AEn6w1YFDWs2ohA4mS118HyGBT?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Pharmacology-(MBS203)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1BisCyJ6kPw-FTKsJIJ6pk60zsFaos615?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Community Medicine-(MBS301)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1KO40YjGlIzpxuPvXq6uTh4drDmdlHEvl?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Forensic Medicine & Toxicology-(MBS204)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1Yw8tnaZcS58rU6h80exQ3EmfTzxFYPyP?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Otorhinolaryngology-(MBS303)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1lN6dGTj0gxwOgXG-DhYnP8y2wk6aD6zq?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Ophthalmology -(MBS302)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1I7sTU_o5ZGqYuTjsGgarMq2p3_924BZR?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>General Medicine - (MBS401)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1jzHxjElKpA2I9QMBEnI9InGqEon04NFs?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Psychiatry</td>
+                    <td><a href="https://drive.google.com/drive/folders/1SE9qQ2bCuhMP97FqVMB_8cugLxDXxK5X?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Dermatology</td>
+                    <td><a href="https://drive.google.com/drive/folders/1bTtZ-SSIvts5-w9v7Z88q7r9A1Vt9wqr?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Respiratory Medicine</td>
+                    <td><a href="https://drive.google.com/drive/folders/1m3hl9sWPKxmxW5ZXSkS5882Nl4emGS4b?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Radio-diagnosis</td>
+                    <td><a href="https://drive.google.com/drive/folders/1KVM3QasopwT0f1nK0JuXki0jFTyyUsJ_?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Peadiatrics - (MBS402)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1mr24CV2KahEvQ2F2CVGgc3S0A0QXBCbV?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>General Surgery- (MBS404)</td>
+                    <td><a href="https://drive.google.com/drive/folders/19tmglZecqKMv3NH4J3trsUrWdYCfQrna?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Orthopaedics</td>
+                    <td><a href="https://drive.google.com/drive/folders/1jge-CYb-OwtH83_v66gcBU-2Oq54t8q7?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Anesthesia</td>
+                    <td><a href="https://drive.google.com/drive/folders/1UnBv2cs99M-VEQ8-druxSCXEoNdLmkqz?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Obstetrics & Gynaecology - (MBS403)</td>
+                    <td><a href="https://drive.google.com/drive/folders/1JmOIwlh8S6aQPcv-xF6IVuyLW9IHJDAP?usp=sharing" target="_blank">Click Here</a></td>
+                </tr>
+            </table>
         </div>
     </div>
 
-    <!-- Dynamic Laravel Blade for Study Materials -->
-    @foreach($prognamme as $row)
-    @php $progId = $row->prog_id; @endphp
-
-    <div class="study-material-container">
-        <button class="study-material-header head-strip-1" onclick="toggleStudyMaterial('studyMaterial{{ $progId }}')">
-            {{ $row->prog_name }}
-            <span class="study-material-icon" id="icon-studyMaterial{{ $progId }}">+</span>
-        </button>
-        <div class="study-material-content colr-1" id="studyMaterial{{ $progId }}">
-
-            @foreach ($sm_sy as $smsy)
-            @if($row->cd_code == $smsy->college_code && $row->prog_code == $smsy->prog_code)
-            @php $semId = $progId . '-' . $smsy->sem_year; @endphp
-
-            <button class="study-material-header head-strip-2" onclick="toggleStudyMaterial('semester{{ $semId }}')" style="margin-bottom: 5px">
-                {{ $smsy->sem_year }}
-                <span class="study-material-icon" id="icon-semester{{ $semId }}">+</span>
-            </button>
-            <div class="study-material-content colr-2" id="semester{{ $semId }}">
-
-                @foreach ($coursestructure as $courserow)
-                @if($courserow->college_code == $smsy->college_code && $courserow->prog_code == $smsy->prog_code && $courserow->sem_year == $smsy->sem_year && $courserow->status == 1)
-                @php $subjectId = $semId . '-' . $courserow->sub_code; @endphp
-
-                <div class="nested-study-material">
-                    <button class="study-material-header head-strip-3" onclick="toggleStudyMaterial('subject{{ $subjectId }}')">
-                        {{ $courserow->sub_code }} ({{ $courserow->subject }})
-                        <span class="study-material-icon" id="icon-subject{{ $subjectId }}">+</span>
-                    </button>
-                    <div class="study-material-content colr-3" id="subject{{ $subjectId }}">
-                        <div class="p-4 bg-light border rounded text-center study-material-height">
-                            <a href="{{ $courserow->video_url ?? '#' }}" target="_blank" class="tmu-btn btn-2 py-1 px-3 py-xl-2 px-xl-4">Video Lecture</a>
-                            <a href="{{ $courserow->notes_url ?? '#' }}" target="blank" class="tmu-btn btn-1 me-4 py-1 px-3 py-xl-2 px-xl-4">Notes</a>
-                        </div>
-                    </div>
-                </div>
-
-                @endif
-                @endforeach
-
-            </div>
-            @endif
-            @endforeach
-
-        </div>
-    </div>
-
-    @endforeach
-
-
-
 </div>
 </div>
-<script>
-    function toggleStudyMaterial(id) {
-        var content = document.getElementById(id);
-        var icon = document.getElementById("icon-" + id);
 
-        if (!content || !icon) {
-            console.error("Element with ID '" + id + "' not found.");
-            return;
-        }
-
-        var parent = content.parentElement;
-        var allContents = parent.getElementsByClassName("study-material-content");
-        var allIcons = parent.getElementsByClassName("study-material-icon");
-
-        for (var i = 0; i < allContents.length; i++) {
-            if (allContents[i].id !== id) {
-                allContents[i].style.display = "none";
-            }
-        }
-
-        for (var i = 0; i < allIcons.length; i++) {
-            if (allIcons[i].id !== "icon-" + id) {
-                allIcons[i].textContent = "+";
-            }
-        }
-
-        if (content.style.display === "block") {
-            content.style.display = "none";
-            icon.textContent = "+";
-        } else {
-            content.style.display = "block";
-            icon.textContent = "-";
-        }
-    }
-</script>
 
 @endsection
