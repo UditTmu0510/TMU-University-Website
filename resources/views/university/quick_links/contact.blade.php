@@ -41,6 +41,9 @@
                     margin-top: 0;
                     background-color: transparent;
                 }
+                .carousel-item img{
+                    max-height: 400px;
+                }
             </style>
 
 
@@ -72,7 +75,7 @@
                 </div> 
 
                 {{-- Contact Table  --}}
-                <div class="table-responsive mx-0 mx-lg-5">
+                <div class="table-responsive mx-0 mx-lg-5 px-lg-5">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
