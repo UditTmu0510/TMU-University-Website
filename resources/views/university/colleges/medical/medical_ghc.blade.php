@@ -71,10 +71,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container d-block d-sm-none mb-3">
-                        <div style="text-align:center" class="">
-                            <a href="{{asset('assets/pdf/medical/Handbook_onsexual_harassment.pdf')}}"
-                                class="tmu-btn btn-4" download>Download PDF</a>
+                    <div class="container d-block d-sm-none mb-3 text-center">
+                        <div class="iqac-card">
+                            <div class="card-pdf">
+                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                <p class="description">Sexual Harassment Handbook</p>
+                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                    href="{{asset('assets/pdf/medical/Handbook_onsexual_harassment.pdf')}}" download>Download PDF</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,9 +94,13 @@
                                 </div>
                             </div>
                             <div class="container d-block d-sm-none mb-3">
-                                <div style="text-align:center">
-                                    <a href="{{asset('/assets/pdf/medical/SOP_FOR_ICC_TMMC&RC.pdf')}}"
-                                        class="tmu-btn btn-4" download>Download PDF</a>
+                                <div class="iqac-card">
+                                    <div class="card-pdf">
+                                        <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+                                        <p class="description">SOP FOR ICC TMMC&RC</p>
+                                        <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+                                            href="{{asset('/assets/pdf/medical/SOP_FOR_ICC_TMMC&RC.pdf')}}" download>Download PDF</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
