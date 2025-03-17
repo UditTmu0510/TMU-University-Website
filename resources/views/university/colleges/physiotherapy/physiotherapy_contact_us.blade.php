@@ -47,7 +47,7 @@
                             <input type="checkbox" class="form-check-input" id="privacyPolicy" required>
                             <label class="form-check-label" for="privacyPolicy">I agree to the privacy policy</label>
                         </div>
-                               <div class="g-recaptcha" data-sitekey="6LdIV1AqAAAAAAsXbbYGGZSQF2fkL-QbjH43GOPh"></div>
+                               <div class="g-recaptcha" data-sitekey="6LeIuvYqAAAAADGg4bMbK1MYjiFjIxHdvUg1yH_Q"></div>
                               <br />
                         <button type="submit" class="tmu-btn btn-4">Send</button>
                     </form>
