@@ -12,7 +12,7 @@
                             class="hero-image" alt="Campus View">
                         <div class="content-overlay">
                             <div class="container">
-                                <h1 class="section-title d-none d-lg-block" style="color: white;">Contact <span>US</span></h1>
+                                <h1 class="section-title d-none d-lg-block" style="color: white;">Contact <span>Us</span></h1>
                                 {{-- <div class="stat-box d-none d-lg-inline-block">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -80,16 +80,23 @@
                 .contact-info .tmu-text-primary>span:nth-child(2){
                     color: #000;
                 } 
+                .content-overlay{
+                    background: rgba(0, 0, 0, 0.5);
+                }
+                /* .carousel-item img{
+                    max-height: 300px;
+                    object-position: top;
+                } */
             </style>
 
 
-            <div class="container mx-5">
-                <ul class="m-ol-list contact-info">
-                    <li class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
-                        Uttar Pradesh</span></li>
-                    <li class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></li>
-                    <li class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></li>
-                    <li class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></li>
+            <div>
+                <ul class="contact-info ms-0 ms-lg-5">
+                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
+                        Uttar Pradesh</span></p>
+                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
+                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
+                    <p class="tmu-text-primary"><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
                 </ul>
 
                 <div class="gallery-header">
@@ -101,8 +108,12 @@
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
-                                <th>S.No</th>
-                                <th>Department / College</th>
+                                <th rowspan="2">S.No</th>
+                                <th rowspan="2">Department / College</th>
+                                <th colspan="3">Contact Info</th>
+                            </tr>
+                            <tr>
+                                
                                 <th>Email</th>
                                 <th>Phone No.</th>
                                 <th>Online Form</th>
