@@ -415,7 +415,7 @@
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                     Faculty of Education</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, March</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24, March</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
