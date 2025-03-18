@@ -46,6 +46,24 @@
                     max-height: 400px;
                     object-position: bottom;
                 }
+
+                .table-responsive table th,
+    .table-responsive table td {
+        max-width: 25vw;
+        white-space: normal;
+        word-wrap: break-word; 
+    }
+
+
+                @media (max-width: 767px) {
+    /* Hide the first column (S.No) */
+    .table-responsive table th:nth-child(1),
+    .table-responsive table td:nth-child(1) {
+        display: none;
+    }
+
+
+}
             </style>
 
 
@@ -73,7 +91,7 @@
                 
 
                 <div class="gallery-header">
-                    <h2 Class="tmu-text-primary mb-2 mt-5"><span>Contact </span><span>Information</span></h2>
+                    <h2 Class="tmu-text-primary mb-4 mt-5 text-center"><span>Contact </span><span>Information</span></h2>
                 </div> 
 
                 {{-- Contact Table  --}}
@@ -98,7 +116,7 @@
                                 <td>Hospital</td>
                                 <td>tmuhospital@tmu.ac.in</td>
                                 <td>(+91) 95688-65444</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -112,112 +130,112 @@
                                 <td>Library</td>
                                 <td>university.librarian@tmu.ac.in</td>
                                 <td>(+91) 99975 60099</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Research (For Phd)</td>
                                 <td>asso.dean.phd@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3708)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>Research (For Patents, Research Paper, Publication, Journals, IPR, Financial Assistance for Research, Seed Money and Research Incentives)</td>
                                 <td>associatedean.rd@tmu.ac.in</td>
                                 <td>(+91) 96342-32666</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>Campus Visit</td>
                                 <td>admissions@tmu.ac.in</td>
                                 <td>1800-270-1490</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td>Student Welfare</td>
                                 <td>studentswelfare@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 4015)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>8</td>
                                 <td>Sports Management</td>
                                 <td>principal.physicaleducation@tmu.ac.in</td>
                                 <td>(+91) 9837469801</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
                                 <td>Event Management</td>
                                 <td></td>
                                 <td></td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>10</td>
                                 <td>Examination Department</td>
                                 <td>coe@tmu.ac.in</td>
                                 <td>(+91) 9837004522</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>11</td>
                                 <td>Placement Cell</td>
                                 <td>sidharth.crc@tmu.ac.in</td>
                                 <td>(+91) 7055317317</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>12</td>
                                 <td>Chancellor Office</td>
                                 <td>secretary.chancellor@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3600)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>13</td>
                                 <td>Vice Chancellor Office</td>
                                 <td>vicechancelloroffice@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3600)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>14</td>
                                 <td>Registrar Office</td>
                                 <td>ro@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3605)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>15</td>
                                 <td>Dean Academics Office</td>
                                 <td>ado@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3607)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>16</td>
                                 <td>Business Incubation Center</td>
                                 <td>ado@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 3607)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>17</td>
                                 <td>Hostel Accommodation (Chief Warden Office)</td>
                                 <td>dy.dir.hh@tmu.ac.in</td>
                                 <td>(+91) 9837763888</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>18</td>
                                 <td>Outreach & Extension Activities</td>
                                 <td>studentswelfare@tmu.ac.in</td>
                                 <td>0591-2476800 (Extension No - 4015 / 4016)</td>
-                                <td>N/A</td>
+                                <td>-</td>
                             </tr>
                             <tr>
                                 <td>19</td>
