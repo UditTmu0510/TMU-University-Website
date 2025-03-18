@@ -531,7 +531,7 @@ Route::get('/tmu/industry-academic-alliances', [TmuController::class, 'industry_
 Route::get('/tmu/university-sport-calender', [TmuController::class, 'university_sports_calendar'])->name('university.sports.calendar');
 Route::get('/tmu/university-academic-calender', [TmuController::class, 'university_academic_calendar'])->name('university.academic.calendar');
 Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_anti_ragging_committee'])->name('university.anti.ragging.committee');
-Route::get('/tmu/faqs', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
+Route::get('/tmu/faq', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
 Route::get('/tmu/admission-rules', [TmuController::class, 'admission_rules'])->name('admission.rules');
 Route::get('/tmu/prominent-guests-comment', [TmuController::class, 'prominent_guests_comment'])->name('prominent.guests.comment');
 
