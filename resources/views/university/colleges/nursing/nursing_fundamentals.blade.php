@@ -1,8 +1,6 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
-
 
 <div class="main-content">
 	<div class="container">
@@ -11,10 +9,10 @@
 			<div class="container">
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span>Department of </span><span> Fundamentals of Nursing</span></h1>
-					<p class="about-p mb-4">The primary goal of the Fundamentals Lab is to enhance the nursing students to learn the basic nursing skills and intervention concepts with the valuable opportunity of practicing them on adult-sized “patients in an acute care hospital setting.
+					<p class="about-p mb-3">The primary goal of the Fundamentals Lab is to enhance the nursing students to learn the basic nursing skills and intervention concepts with the valuable opportunity of practicing them on adult-sized “patients in an acute care hospital setting.
 						The basic skill of nursing practice is through the utilization of theory and kinaesthetic learning principles.</p>
 				</div>
-				<div class="image-content text-center p-4">
+				<div class="image-content text-center p-2">
 					<img src="{{asset('/assets/img/college_departments/nursing/fun/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
@@ -22,12 +20,7 @@
 						with movable limbs and replaceable parts, are recipients of a variety of nursing interventions – repositioning, injections, intravenous catheters, nasogastric tubes, foleys catheters, wound care, and oxygenation therapy.</p>
 					<p class="about-p mb-4">The uniqueness of the Lab is that it combines the atmosphere of the hospital environment with sophisticated learning technology. It is instrumental for insuring the success of all our nursing students as they progress throughout their baccalaureate program.</p>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-					<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab7.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab7.jpeg')}}" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab4.jpg')}}" alt="Gallery Thumb 3"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/fun/lab5.jpeg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/fun/lab5.jpeg')}}" alt="Gallery Thumb 5"></a>
-					</div> -->
+					
 					<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
 						<div class="col-sm-4 col-md-4">
 							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
