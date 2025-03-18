@@ -1,9 +1,6 @@
 @extends('layouts.university.colleges.dental_with_sidebar')
 @section('content')
 
-
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
 <div class="main-content">
     <div class="container">
 
@@ -12,7 +9,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Prosthodontics & </span><span>
                             Crown & Bridge </span></h1>
-                    <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/mds-prosthodontics-crown-bridge') }}">The Department of Prosthodontics</a>  is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
+                    <p class="about-p mb-2 text-justify"> <a href="{{ url('/programme/mds-prosthodontics-crown-bridge') }}">The Department of Prosthodontics</a>  is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
                 <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/pcb/prostho.jpg')}}" alt="">
