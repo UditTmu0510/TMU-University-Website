@@ -158,7 +158,7 @@
 									<div class="card-body gap-4 text-tmu-primary under-banner-cards">
 										<span>A-Grade Recognition</span>
 										
-										<span class="d-block pt-1 text-break" id="h-5421">by the Quality Council of India</span>
+										<span class="d-block pt-1 text-break" id="h-5421">by the Quality Council <br>of India</span>
 									</div>
 								</div>
 							</div>
