@@ -550,6 +550,7 @@ Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
 Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance_submit_suggestion'])->name('greviance.submit.suggestion');
+Route::get('/tmu/student-club', [TmuController::class, 'student_clubs'])->name('student.clubs');
 
 
 // Footer links 
