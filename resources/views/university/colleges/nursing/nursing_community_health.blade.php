@@ -1,8 +1,6 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
-
 
 <div class="main-content">
 	<div class="container">
@@ -11,20 +9,15 @@
 			<div class="container">
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span>Department of </span><span> Community Health Nursing </span></h1>
-					<p class="about-p mb-4">The Department of Community Health Nursing takes initiative in fostering and strengthening the relationship of College with the community. The Department imparts quality education to the students and is committed to prepare them as efficient community health nurses.</p>
+					<p class="about-p mb-3">The Department of Community Health Nursing takes initiative in fostering and strengthening the relationship of College with the community. The Department imparts quality education to the students and is committed to prepare them as efficient community health nurses.</p>
 				</div>
-				<div class="image-content text-center p-4">
+				<div class="image-content text-center p-2">
 					<img src="{{asset('/assets/img/college_departments/nursing/chn/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">The department creatively plans all its activities towards strengthening the humane and technical skills of students to enable them to provide quality service to individual, family and community. This department collaborates with community members to provide care, improve the health of children, adults and families. These collaborations are life-changing for the community as well as for students, who receive hands-on experience to become more adept at engaging and promoting health.</p>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-					<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/chn/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/chn/lab2.jpg')}}" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/chn/lab4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/chn/lab4.jpg')}}" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/chn/lab1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/chn/lab1.jpg')}}" alt="Gallery Thumb 3"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/chn/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/chn/lab3.jpg')}}" alt="Gallery Thumb 5"></a>
-					</div> -->
+					
 					<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
 						<div class="col-sm-4 col-md-4">
 							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
