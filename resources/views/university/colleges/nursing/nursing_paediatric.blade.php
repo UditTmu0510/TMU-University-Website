@@ -1,8 +1,6 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
-
 
 <div class="main-content">
 	<div class="container">
@@ -11,9 +9,9 @@
 			<div class="container">
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span>Department of </span><span> Paediatric Nursing </span></h1>
-					<p class="about-p mb-4">Child health nursing encompasses a wide scope of practice typically associated with child care for both undergraduate and postgraduate students. Our department fosters a enrichment of students knowledge, attitude and practice in various health promotional activities of children and their families.</p>
+					<p class="about-p mb-3">Child health nursing encompasses a wide scope of practice typically associated with child care for both undergraduate and postgraduate students. Our department fosters a enrichment of students knowledge, attitude and practice in various health promotional activities of children and their families.</p>
 				</div>
-				<div class="image-content text-center p-4">
+				<div class="image-content text-center p-2">
 					<img src="{{asset('/assets/img/college_departments/nursing/pdn/banner.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
@@ -26,12 +24,7 @@
 					</ul>
 					<p class="about-p mb-4">The department observes significant days, educational and health related programmes, field visits, camp’s in collorabtion with various departments. Standard procedure’s manuals and protocols are in practice and updates as per the current scenario in the changing patterns of health care delivery system and advancement in paediatric care.</p>
 					<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-					<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab1.jpg')}}" alt="Gallery Thumb 1"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab3.jpg')}}" alt="Gallery Thumb 2"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab6.jpg')}}" alt="Gallery Thumb 3"></a>
-						<a class="grid-item" href="{{asset('/assets/img/college_departments/nursing/pdn/lab2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/nursing/pdn/lab2.jpg')}}" alt="Gallery Thumb 5"></a>
-					</div> -->
+					
 					<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
 						<div class="col-sm-4 col-md-4">
 							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
