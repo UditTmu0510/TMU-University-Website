@@ -5,7 +5,7 @@
 <div class="main-content">
 	<div class="container">
 
-		<section class="about-section mt-4">
+		<section class="about-section bg-light mt-4">
 			<div class="container">
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span>Department of </span><span> Fundamentals of Nursing</span></h1>
