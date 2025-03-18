@@ -541,7 +541,7 @@
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                   College of Pharmacy</span>
+                                   CCSIT</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, December</span>
                                 </div>
                             </div>
@@ -555,7 +555,7 @@
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                   College of Pharmacy</span>
+                                   Faculty of Engineering</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 30, November</span>
                                 </div>
                             </div>
