@@ -15,11 +15,11 @@
 							Periodontology </span></h1>
 					<p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Periodontology') }}">Department of Periodontology</a>  deals with patient education and motivation for maintaining good oral hygiene, we perform all basic and non-surgical procedures including root planing, air polishing, local drug delivery, splinting and abcess drainage.</p>
 				</div>
-				<div class="image-content text-center p-4">
+				<div class="image-content text-center p-3">
 					<img src="{{asset('/assets/img/college_departments/dental/pgy/perio.jpg')}}" alt="" style="height:auto;" >
 				</div>
 				<div class="container p-3">
-					<p class="about-p mb-4" text-justify>Various surgical procedures such as different periodontal flap surgeries, mucogingival surgeries, pre-prosthetic surgeries and minimally invasive surgeries are performed. We regularly perform regenerative procedures using bone graft, GTR, growth factors and newer regenerative materials. Management of furcation and endo-perio lesions are also done on routine basis. Also, dental implants, advanced implant surgical procedures and management of perimplantitis using non-surgical and surgical techniques are undertaken. Use of lasers for treatment of diseases of oral soft tissues, biostimulation, sensitivity and pocket treatment surgeries.
+					<p class="about-p mb-2" text-justify>Various surgical procedures such as different periodontal flap surgeries, mucogingival surgeries, pre-prosthetic surgeries and minimally invasive surgeries are performed. We regularly perform regenerative procedures using bone graft, GTR, growth factors and newer regenerative materials. Management of furcation and endo-perio lesions are also done on routine basis. Also, dental implants, advanced implant surgical procedures and management of perimplantitis using non-surgical and surgical techniques are undertaken. Use of lasers for treatment of diseases of oral soft tissues, biostimulation, sensitivity and pocket treatment surgeries.
 						Also, electrocautery is used for performing selective surgeries.</p>
 				</div>
 			</div>
@@ -28,11 +28,7 @@
 		<div class="container">
 			<h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
 			<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-			<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy1.jpg')}}" alt="Gallery Thumb 1"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy2.jpg')}}" alt="Gallery Thumb 2"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/pgy/pgy3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/pgy/pgy3.jpg')}}" alt="Gallery Thumb 3"></a>
-			</div> -->
+
 			<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
                 <div class="col-sm-4 col-md-4">
                     <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">

@@ -1,10 +1,6 @@
 @extends('layouts.university.colleges.dental_with_sidebar')
 @section('content')
 
-
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
-
 <div class="main-content">
     <div class="container">
 
@@ -13,12 +9,12 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Orthodontics & </span><span>
                             Dentofacial Orthopedics </span></h1>
-                    <p class="about-p mb-4 text-justify">Welcome to the Teerthanker Mahaveer Dental College and Research Centre’s
+                    <p class="about-p mb-2 text-justify">Welcome to the Teerthanker Mahaveer Dental College and Research Centre’s
                         <a href="{{ url('/programme/mds-orthodontics-dentofacial-orthopedics') }}">Department of Orthodontics and Dentofacial Orthopaedics.</a>It stands out as one of the most
                         prestigious and best dental colleges in UP. Experience superior clinical care and
                         exceptional quality treatment along with top-notch dental education.</p>
                 </div>
-                <div class="image-content text-center p-4">
+                <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/odo/orthodontics.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">

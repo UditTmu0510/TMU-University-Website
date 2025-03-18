@@ -14,11 +14,11 @@
                             Crown & Bridge </span></h1>
                     <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/mds-prosthodontics-crown-bridge') }}">The Department of Prosthodontics</a>  is the largest department of the college. The Department has both undergraduate and Postgraduate section. </p>
                 </div>
-                <div class="image-content text-center p-4">
+                <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/pcb/prostho.jpg')}}" alt="">
                 </div>
                 <div class="container p-3 text-justify">
-                    <p class="about-p mb-4">The department provides specialized dental treatment for patients aspiring artificial replacement of teeth and other structures in the head and neck region. It is a very vast department covering various fields like Complete Denture, Removable partial Denture, Fixed Partial Denture, Maxillo-Facial Prosthodontics and Implantology. In addition to these, the subject of Dental Materials is also taught in the department to the BDS students.</p>
+                    <p class="about-p mb-2">The department provides specialized dental treatment for patients aspiring artificial replacement of teeth and other structures in the head and neck region. It is a very vast department covering various fields like Complete Denture, Removable partial Denture, Fixed Partial Denture, Maxillo-Facial Prosthodontics and Implantology. In addition to these, the subject of Dental Materials is also taught in the department to the BDS students.</p>
                 </div>
             </div>
         </section>

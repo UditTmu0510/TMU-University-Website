@@ -1,10 +1,6 @@
 @extends('layouts.university.colleges.dental_with_sidebar')
 @section('content')
 
-
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
-
 <div class="main-content">
     <div class="container">
 
@@ -13,9 +9,9 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral & </span><span>
                             Maxillofacial Surgery </span></h1>
-                    <p class="about-p mb-4 text-justify">The specialty of <a href="{{ url('/programme/mds-oral-maxillofacial-surgery') }}">Oral and Maxillofacial Surgery (OMFS) </a>  is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
+                    <p class="about-p mb-2 text-justify">The specialty of <a href="{{ url('/programme/mds-oral-maxillofacial-surgery') }}">Oral and Maxillofacial Surgery (OMFS) </a>  is the art and science that merges the skill and acumen acquired in dentistry with the knowledge and confidence of medical surgical specialty by treating minor surgical to major in patient surgical treatments. </p>
                 </div>
-                <div class="image-content text-center p-4">
+                <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/oms/oral-maxillo-surgery.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
@@ -43,7 +39,6 @@
                         <h3 class="tmu-text-primary mb-2"><span>Clinical </span><span> Focus</span></h3>
                         <h4 class="tmu-text-primary mb-0"><span> Orthognathic </span><span> Surgery:</span></h4>
                         <ul class="m-ol-list ps-5">
-                            <!-- <li>Beauty is Skin Deep is a proverb that has been proved wrong... it is at least deep to the bone. Orthognathic Surgery is a branch of OMFS that aims to correct under grown, over grown or asymentric jaw and enhance the beauty of an individual by correcting the jaw bones.</li> -->
                             <li>The department has been involved in orthognathic surgery and is one of the best centers for quality treatment.</li>
                             <li>With facilities for pre and post surgical orthodontics and availability of fully adjustable articulator SAM III and Surgical planning Platform, It is one of the best orthognathic center.</li>
                         </ul>

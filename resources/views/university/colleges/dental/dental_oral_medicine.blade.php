@@ -2,10 +2,6 @@
 @section('content')
 
 
-
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
-
 <div class="main-content">
     <div class="container">
 
@@ -14,7 +10,7 @@
                 <div class="text-content p-4">
                     <h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral </span><span>
                             Medicine & Radiology</span></h1>
-                    <p class="about-p mb-4 text-justify"> <a href="{{ url('/programme/MDS-Oral-Medicine-Radiology') }}">Department of Oral Medicine and Radiology</a>  is a unique amalgamation of
+                    <p class="about-p mb-3 text-justify"> <a href="{{ url('/programme/MDS-Oral-Medicine-Radiology') }}">Department of Oral Medicine and Radiology</a>  is a unique amalgamation of
                         Oral Medicine and Radiology. It acts as a bridge between dentistry and medicine. It provides
                         specialized training in clinical care for managing head and neck medical diseases. As the
                         old medical acronym goes; “Oral cavity is the mirror of all systemic diseases”, thus
@@ -22,17 +18,17 @@
                         role in identifying these symptoms, managing these conditions to give a better prognosis.
                     </p>
                 </div>
-                <div class="image-content text-center p-4">
+                <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/omr/medicine-radiology.jpg')}}" alt="">
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4 text-justify">Conditions managed in Oral Medicine Department are often long standing
+                    <p class="about-p mb-3 text-justify">Conditions managed in Oral Medicine Department are often long standing
                         and have a significant psychological, as well as physical impact on the patient’s quality of
                         life. Some of these conditions are directly linked to the systemic state, and in such
                         scenarios the oral medicine specialist works as part of a multi-disciplinary patient care
                         team. Masters in Oral Medicine also enables a clinician to be well versed to manage
                         medically compromised patients.</p>
-                    <p class="about-p mb-4 text-justify">Specialization in the department of Oral Medicine and Radiology enables
+                    <p class="about-p mb-3 text-justify">Specialization in the department of Oral Medicine and Radiology enables
                         one to deal with patients and provide care as well as management to the patients• Post
                         graduates in the department learn to diagnose and manage conditions such as: Orofacial pain
                         which is a multifactorial pathology and needs expertise to reach to the root cause and
@@ -43,7 +39,7 @@
                         Similarly, the cases of vesiculobullous lesions, autoimmune disorders as well as
                         pre-malignant lesions and conditions demands early diagnosis, in-depth investigations and
                         pharmacological management which is dealt in the department.</p>
-                    <p class="about-p mb-4 text-justify">Oral cancer is the third most common cancers in India and role of oral
+                    <p class="about-p mb-3 text-justify">Oral cancer is the third most common cancers in India and role of oral
                         physician in diagnosis such cases is critical. From initial stages to final stage of oral
                         cancer is dealt in the OMDR department with excellence. Managing complications of
                         radiotherapy treatment is also done as well as post graduates are trained to skillfully deal
@@ -72,22 +68,7 @@
                             carcinoma as well as trauma cases.</p>
                     </div>
                 </div>
-                <!-- <div class="col-md-3 col-sm-6">
-                    <div class="card shadow-sm border-light">
-                        <img src="{{asset('/assets/img/college_departments/dental/omr/3.jpg')}}" alt="Featured image 1" class="card-img-top">
-
-                    </div>
-                    <div class="card shadow-sm border-light mt-4">
-                        <img src="{{asset('/assets/img/college_departments/dental/omr/2.jpg')}}" alt="Featured image 2" class="card-img-top">
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 ps-sm-3 mt-3 mt-sm-0">
-                    <div class="card shadow-sm border-light">
-                        <img src="{{asset('/assets/img/college_departments/dental/omr/1.jpg')}}" alt="Featured image 3" class="card-img-top">
-
-                    </div>
-                </div> -->
+   
                 <div class="col-md-12">
                     <p class="mb-2 mt-3 text-justify">Knowledge of Computed Tomography(CT) and Cone Beam Computed
                         Tomography(CBCT) is also provided to the trainees. Upto date knowledge regarding these
@@ -106,15 +87,7 @@
         <div class="container">
             <h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
             <h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-            <!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr1.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr1.jpg')}}" alt="Gallery Thumb 1"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr6.jpg')}}" alt="Gallery Thumb 5"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr7.jpg')}}" alt="Gallery Thumb 5"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr2.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr2.jpg')}}" alt="Gallery Thumb 2"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr3.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr3.jpg')}}" alt="Gallery Thumb 3"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr4.jpg')}}" alt="Gallery Thumb 5"></a>
-                <a class="grid-item" href="{{asset('/assets/img/college_departments/dental/omr/omr5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/omr/omr5.jpg')}}" alt="Gallery Thumb 5"></a>
-            </div> -->
+
             <div class="row justify-content-left gutter-30 col-mb-5 mb-5">
                 <div class="col-sm-4 col-md-4">
                     <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">

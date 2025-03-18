@@ -1,10 +1,6 @@
 @extends('layouts.university.colleges.dental_with_sidebar')
 @section('content')
 
-
-<link rel="stylesheet" href="{{asset('/assets/css/college_overview.css')}}">
-
-
 <div class="main-content">
 	<div class="container">
 
@@ -13,11 +9,11 @@
 				<div class="text-content p-4">
 					<h1 class="tmu-text-primary tmu-page-heading"><span> Department of Oral Maxillofacial </span><span>
 							Pathology & Oral Microbiology</span></h1>
-					<p class="about-p mb-4 text-justify">The diseases of the mouth ("oral cavity" or "stoma"), jaws ("gnath"), and associated tissues such as salivary glands, temporomandibular joints, facial muscles, and perioral skin are referred to as oral and maxillofacial pathology. The branch of oral and maxillofacial pathology is concerned with the diagnosis and investigation of illnesses affecting the oral and maxillofacial area, as well as their causes and consequences. It is sometimes regarded a dental and pathological speciality.
+					<p class="about-p mb-2 text-justify">The diseases of the mouth ("oral cavity" or "stoma"), jaws ("gnath"), and associated tissues such as salivary glands, temporomandibular joints, facial muscles, and perioral skin are referred to as oral and maxillofacial pathology. The branch of oral and maxillofacial pathology is concerned with the diagnosis and investigation of illnesses affecting the oral and maxillofacial area, as well as their causes and consequences. It is sometimes regarded a dental and pathological speciality.
 						Oral Pathology is a field that attempts to link human biology to disease signs and symptoms.
 					</p>
 				</div>
-				<div class="image-content text-center p-4">
+				<div class="image-content text-center p-3">
 					<img src="{{asset('/assets/img/college_departments/dental/opm/oral-pathology.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
@@ -32,13 +28,7 @@
 		<div class="container">
 			<h2 class="tmu-text-primary tmu-page-heading pt-md-2 mb-md-5"><span>Infrastructure </span></h2>
 			<h3 class="tmu-text-primary"><span>Our </span><span> Laboratories</span></h3>
-			<!-- <div class="masonry-thumbs grid-container row row-cols-4 mb-3" data-lightbox="gallery">
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm4.jpg')}}" alt="Gallery Thumb 1"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm5.jpg')}}" alt="Gallery Thumb 2"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm6.jpg')}}" alt="Gallery Thumb 3"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm7.jpg')}}" alt="Gallery Thumb 5"></a>
-				<a class="grid-item" href="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" data-lightbox="gallery-item"><img src="{{asset('/assets/img/college_departments/dental/opm/opm8.jpg')}}" alt="Gallery Thumb 5"></a>
-			</div> -->
+			
 			<div class="row justify-content-left gutter-30 col-mb-5 mb-5">
                 <div class="col-sm-4 col-md-4">
                     <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
