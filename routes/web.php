@@ -421,7 +421,7 @@ Route::get('/get-faculties', [JobformController::class, 'getFaculties'])->name('
 Route::get('/innovation-startup', [TmuController::class, 'iic_home'])->name('iic.home');
 Route::get('/innovation-startup/about-cell', [TmuController::class, 'iic_about_cell'])->name('iic.cell.about');
 Route::get('/tmu/why-tmu', [TmuController::class, 'why_choose_tmu'])->name('tmu.why_tmu');
-Route::get('/tmu/virtual-tour', [TmuController::class, 'virtual_tour'])->name('tmu.virtual_tour');
+Route::get('/virtual-tour', [TmuController::class, 'virtual_tour'])->name('tmu.virtual_tour');
 Route::get('/innovation-startup/policy', [TmuController::class, 'iic_policy'])->name('iic.policy');
 Route::get('innovation-startup/iic-research-policy', [TmuController::class, 'iic_research_policy'])->name('iic.research.policy');
 Route::get('/innovation-startup/committee', [TmuController::class, 'iic_committee'])->name('iic.committee');
