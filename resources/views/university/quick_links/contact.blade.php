@@ -68,19 +68,15 @@
 
 
 <div class="container">
-    <p class="mb-4 mt-lg-4">Before reaching out to Teerthanker Mahaveer University (TMU), we recommend checking our <strong>Frequently Asked Questions (FAQ)</strong> page to see if your query has already been addressed. If your question is specific to a particular program, department, or faculty, please contact them directly for a quicker response.</p>
+    <p class="mb-4 mt-lg-4">Before reaching out to Teerthanker Mahaveer University (TMU), we recommend checking our <strong><a href="https://www.tmu.ac.in/tmu/faq">Frequently Asked Questions (FAQ)</a></strong> page to see if your query has already been addressed. If your question is specific to a particular program, department, or faculty, please contact them directly for a quicker response.</p>
 
     
 
-    <div class="mb-4">
-      <p><strong>General Inquiries</strong></p>
-      <p>For all other inquiries, including general information about TMU, campus facilities, or student services, please contact on the information given below:</p>
-    </div>
+    
 
     <div class="contact-info m-0">
         <p><span class="fs-18 fw-bold">Univeristy Address: </span><span>N.H.-9, Delhi Road, Moradabad - 244001,
             Uttar Pradesh</span></p>
-        <p><span class="fs-18 fw-bold">Univeristy Contact Email: </span><span>university@tmu.ac.in</span></p>
         <p><span class="fs-18 fw-bold">Admissions Contact Number: </span><span>1800-270-1490</span></p>
         <p><span class="fs-18 fw-bold">Admissions Email: </span><span>admissions@tmu.ac.in</span></p>
         </div>
@@ -99,12 +95,8 @@
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
-                                <th rowspan="2">S.No</th>
-                                <th rowspan="2">Department / College</th>
-                                <th colspan="3">Contact Info</th>
-                            </tr>
-                            <tr>
-                                
+                                <th>S.No</th>
+                                <th>Department / College</th>
                                 <th>Email</th>
                                 <th>Phone No.</th>
                                 <th>Online Form</th>
