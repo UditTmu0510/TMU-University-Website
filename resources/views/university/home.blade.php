@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>18, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Join us for an insightful session by Dr. Ajit Singh (M.J.P. Rohilkhand University) on 20th March 2025, 11:00 AM at L.T. Faculty of Education. Learn about India’s self-reliance vision, MSME growth, and economic resilience. Don’t miss it!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Faculty of Education</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 20, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>17, March</span>
                                 </div>
                                 <div class="notice-content">
@@ -586,62 +600,6 @@
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                     Dept. of Physiotherapy</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, November</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>20, October</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Alumni Relations Cell is organising a session on 'Future Investment Insights: Grow Your Wealth Wisely,' featuring esteemed alumni and industry experts. All faculty members and students of CCSIT and FoE are invited to attend.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 22, October</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>17, October</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>CCSIT is organising IEEE Day TechnoFest 2k24, a 3-day event featuring expert sessions & competitions. Students from all disciplines are invited to participate and learn various technical and professional skills.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19 to 22, October</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>08, October</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>CCSIT is organising a Poster/Animation Competition to celebrate 'Colours of Vijayadashami'. All CCSIT students and members are invited to participate.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT </span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10, October</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>03, October</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>CCSIT is organising a Drawing Competition with the theme 'Anime Character.' All CCSIT students are invited to participate and win exciting prizes. For any queries, contact 9410253656.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                        CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, October</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
