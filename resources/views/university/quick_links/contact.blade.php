@@ -61,7 +61,10 @@
     .table-responsive table td:nth-child(1) {
         display: none;
     }
-
+    .table-responsive th{
+        vertical-align: middle;
+        text-align: center;
+    }
 
 }
             </style>
