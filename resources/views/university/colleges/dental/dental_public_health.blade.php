@@ -16,11 +16,11 @@
                     <p class="about-p mb-4"> <a href="{{ url('/programme/MDS-Public-Health-Dentistry') }}">Public health dentistry</a>  is an area of dentistry concerned with the evaluation of dental health needs and how the practice of dental healthcare meets those needs. Department of Public Health Dentistry is that part of dentistry providing leadership and expertise in population-based dentistry, oral health surveillance, policy development, community-based disease prevention and health promotion, and the maintenance of the dental safety net.
                     </p>
                 </div>
-                <div class="image-content text-center p-4">
+                <div class="image-content text-center p-3">
                     <img src="{{asset('/assets/img/college_departments/dental/phd/publichealt.jpg')}}" alt="" style="height:auto;" >
                 </div>
                 <div class="container p-3">
-                    <p class="about-p mb-4">Our department provides accessible and affordable oral health care to people. It is committed to train and calibrate the undergraduate as well as postgraduate students in Public Health Dentistry by providing dental health education, screening and treatment camps on oral diseases for the outreach population tailored specifically on the basis of research on needs of the community.</p>
+                    <p class="about-p mb-2">Our department provides accessible and affordable oral health care to people. It is committed to train and calibrate the undergraduate as well as postgraduate students in Public Health Dentistry by providing dental health education, screening and treatment camps on oral diseases for the outreach population tailored specifically on the basis of research on needs of the community.</p>
                 </div>
             </div>
         </section>
