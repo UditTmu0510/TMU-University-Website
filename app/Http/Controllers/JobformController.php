@@ -20,7 +20,7 @@ class JobformController extends Controller
     public function careers_form()
     {
 
-        $colleges = DB::table('cd_name')->select('cd_id', 'cd_name')->get(); // Fetch colleges
+        $colleges = DB::table('cd_name')->select('cd_id', 'cd_name')->where('status', 1)->get(); // Fetch colleges
         $faculties = DB::table('faculties')->select('fy_id', 'fy_name')->where('status', 'Y')->orderBy('priority', 'ASC')->get(); // Fetch active faculties
 
 
