@@ -26,7 +26,11 @@
                     <button class="careers-accordion">{{ $job->title }}<span class="icon">+</span></button>
                     <div class="panel">
                     <h3 class="tmu-text-primary mb-0"><span>Job </span><span> Description:</span></h3>
-                    <p class="text-justify">{{ $job->description }}</p>
+                    <p class="text-justify ulst-486">
+                        @php
+                        echo nl2br(html_entity_decode($job->description));
+                        @endphp
+                        </p>
                     <h3 class="tmu-text-primary mb-0"><span>Responsibilities :</span></h3>
                     <p class="text-justify">{{ $job->responsibilities }}</p>
                     <h3 class="tmu-text-primary mb-0"><span>Requirements:</span></h3>
