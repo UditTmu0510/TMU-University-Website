@@ -460,11 +460,13 @@
             <!-- Resume Upload Field -->
             <div class="form-section row mb-3">
                 <div class="col-md-12">
-                    <label for="uploadImage" class="form-label">Upload Resume</label>
-                    <input class="form-control" type="file" id="Resume" name="applicant_resume_path" required>
-                    <div class="invalid-feedback">Please upload Resume file</div>
+                    <label for="Resume" class="form-label">Upload Resume</label>
+                    <input class="form-control" type="file" id="Resume" name="applicant_resume_path" accept=".pdf" required>
+                    <div class="form-text text-muted">Only PDF files are accepted.</div>
+                    <div class="invalid-feedback">Please upload a PDF resume file.</div>
                 </div>
             </div>
+            
 
             <!-- Submit Button -->
             <div class="text-center">
