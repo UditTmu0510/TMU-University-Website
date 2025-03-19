@@ -7,6 +7,7 @@
     <div class="container">
         <h1 class="tmu-text-primary tmu-page-heading"><span> IJIH Current</span><span> Issue</span></h1>
         <div class="container">
+            <h3 class="tmu-text-primary mb-1"><span>Current Issue </span><span> Jan to June 2025 Volume 1 Issue 1</span> </h3>
             <div class="row mb-3">
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped">
