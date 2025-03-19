@@ -42,6 +42,7 @@
                 <tr>
                   <th><b>S.</b>No.</th>
                   <th>Application Id</th>
+                  <th>Applied At</th>
                   <th>College</th>
                   <th>Department</th>
                   <th>Designation</th>
@@ -64,6 +65,7 @@
             <tr>
                 <td>{{$counter}}</td>
                 <td>{{$item->application_id}}</td>
+                <td>{{$item->created_at}}</td>
                 <td>
                   @if (!empty($item['college_name']['cd_name']))
                   {{$item['college_name']['cd_name']}}
