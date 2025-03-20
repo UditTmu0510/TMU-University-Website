@@ -91,7 +91,7 @@
 							</div>
 						</div>
 
-						<div class="col-sm-4 col-md-4">
+						<!-- <div class="col-sm-4 col-md-4">
 							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
 								<div class="team-image">
 									<img src="{{asset('/assets/img/labs/physiotherapy/opd/opd5.jpeg')}}" height="150px" alt="">
@@ -106,7 +106,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="col-sm-4 col-md-4">
 							<div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
