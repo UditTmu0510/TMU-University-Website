@@ -618,7 +618,7 @@
                             href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
                             target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
                                 alt="Icon 1"></a></div>
-                    <div class="new-menu-item"><a href="https://www.tmu.ac.in/tmu/virtual-tour" target="blank"><img
+                    <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
                                 src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
                     <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
                                 src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
