@@ -570,7 +570,7 @@
     <nav class="social d-none d-sm-block">
             <ul>
                 <li class="view">
-                    <a href="https://www.tmu.ac.in/virtual-tour"><img
+                    <a href="{{route('tmu.virtual_tour')}}"><img
                             src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
                 </li>
                 <li class="phone"><a href="https://api.whatsapp.com/send/?phone=919258112544&text=Hello%20TMU&type=phone_number&app_absent=0"><img
