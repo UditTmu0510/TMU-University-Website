@@ -146,7 +146,7 @@
                         <img src="{{asset('/assets/img/footer_pages/infra/9.jpg')}}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Facuty Block</h3>
+                            <h3 class="gallery-item-title">Faculty Block</h3>
                             <p class="gallery-item-category">Infrastructure</p>
                         </div>
                     </div>
