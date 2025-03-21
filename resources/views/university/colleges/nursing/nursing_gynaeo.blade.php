@@ -1,7 +1,7 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-
+<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
 <div class="main-content">
 	<div class="container">
 
@@ -12,7 +12,7 @@
 					<p class="about-p mb-3">Obstetric and Gynaecological Nursing is a nursing specialty that works with care of motherhood and care of women with abnormalities in reproductive system. We teach the nursing students to provide care of women during prenatal, intranatal, postnatal periods and care of women with Gynaecological problems. With highly motivated teaching faculties we provide sound theoretical knowledge. </p>
 				</div>
 				<div class="image-content text-center p-2">
-					<img src="{{asset('/assets/img/college_departments/nursing/obg/banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/nursing/obg/banner-1.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">We have greatly modernized equipments and facilities to provide training to the nursing students on various practical sessions. Scientific understanding, level of knowledge, acquisition of necessary skills and techniques and development of appropriate attitudes are monitored and evaluated. Among our greatest attributes is emphasis on competencies, creativity, critical thinking, clinical skills development, good professional judgment, informed decisions, effective and safe quality practice and keeping abreast with emerging concepts.</p>

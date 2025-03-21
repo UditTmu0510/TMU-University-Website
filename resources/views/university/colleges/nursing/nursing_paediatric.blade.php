@@ -1,7 +1,7 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
-
+<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
 <div class="main-content">
 	<div class="container">
 
@@ -11,8 +11,8 @@
 					<h1 class="tmu-text-primary tmu-page-heading"><span>Department of </span><span> Paediatric Nursing </span></h1>
 					<p class="about-p mb-3">Child health nursing encompasses a wide scope of practice typically associated with child care for both undergraduate and postgraduate students. Our department fosters a enrichment of students knowledge, attitude and practice in various health promotional activities of children and their families.</p>
 				</div>
-				<div class="image-content text-center p-2">
-					<img src="{{asset('/assets/img/college_departments/nursing/pdn/banner.jpg')}}" alt="">
+				<div class="image-content text-center p-1">
+					<img src="{{asset('/assets/img/college_departments/nursing/pdn/banner-2.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<ul class="m-ol-list ps-4 text-justify">
