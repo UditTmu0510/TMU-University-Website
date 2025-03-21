@@ -42,6 +42,33 @@
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-1.jpg')}}" alt="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship">
+                                </div>
+                                <h5 class="text-center mt-2">Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-2.jpg')}}" data-lightbox="gallery-item" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-3.jpg')}}" data-lightbox="gallery-item" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-4.jpg')}}" data-lightbox="gallery-item" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-5.jpg')}}" data-lightbox="gallery-item" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/pc-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="key strategies for excellence in patient care">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/pc-1.jpg')}}" alt="key strategies for excellence in patient care">
+                                </div>
+                                <h5 class="text-center mt-2">Guest lecture on key strategies for excellence in patient care</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/pc-2.jpg')}}" data-lightbox="gallery-item" title="key strategies for excellence in patient care"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/pc-3.jpg')}}" data-lightbox="gallery-item" title="key strategies for excellence in patient care"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/pc-4.jpg')}}" data-lightbox="gallery-item" title="key strategies for excellence in patient care"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
                             <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Emerging Trends & Innovations in Cancer Diagnostics">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/mlt-gl-1.jpg')}}" alt="Gallery Thumb 2">
@@ -128,15 +155,15 @@
                         </div>
 
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Guest Lecture">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Guest Lecture on Cutting-Edge Techniques in Nuclear Medicine">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-1.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">Guest Lecture</h5>
+                                <h5 class="text-center mt-2">Guest Lecture on Cutting-Edge Techniques in Nuclear Medicine</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-2.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-3.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-2.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture on Cutting-Edge Techniques in Nuclear Medicine"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/GL-3.jpg')}}" data-lightbox="gallery-item" title="Guest Lecture on Cutting-Edge Techniques in Nuclear Medicine"></a>
                             </div>
                         </div>
 
@@ -145,13 +172,13 @@
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-5.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">World Sight Day</h5>
+                                <h5 class="text-center mt-2">World Sight Day - 2024</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-2.jpg')}}" data-lightbox="gallery-item" title="World Sight Day"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-3.jpg')}}" data-lightbox="gallery-item" title="World Sight Day"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-4.jpg')}}" data-lightbox="gallery-item" title="World Sight Day"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-1.jpg')}}" data-lightbox="gallery-item" title="World Sight Day"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-2.jpg')}}" data-lightbox="gallery-item" title="World Sight Day - 2024"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-3.jpg')}}" data-lightbox="gallery-item" title="World Sight Day - 2024"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-4.jpg')}}" data-lightbox="gallery-item" title="World Sight Day - 2024"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/WSD-1.jpg')}}" data-lightbox="gallery-item" title="World Sight Day - 2024"></a>
 
                             </div>
                         </div>
@@ -170,15 +197,15 @@
                         </div>
 
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="world Optometry Day">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="World Optometry Day - 2024">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/od-1.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">World Optometry Day</h5>
+                                <h5 class="text-center mt-2">World Optometry Day - 2024</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-2.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-3.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-2.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day - 2024"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/od-3.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day - 2024"></a>
                             </div>
                         </div>
 
@@ -198,17 +225,17 @@
                         </div>
 
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/31.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Laboratories">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/31.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Hands-on Learning">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/31.jpg')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">Laboratories</h5>
+                                <h5 class="text-center mt-2">Hands-on Learning</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-1.png')}}" data-lightbox="gallery-item" title="Laboratories"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-2.jpg')}}" data-lightbox="gallery-item" title="Laboratories"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-3.jpg')}}" data-lightbox="gallery-item" title="Laboratories"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-4.jpg')}}" data-lightbox="gallery-item" title="Laboratories"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-1.png')}}" data-lightbox="gallery-item" title="Hands-on Learning"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-2.jpg')}}" data-lightbox="gallery-item" title="Hands-on Learning"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-3.jpg')}}" data-lightbox="gallery-item" title="Hands-on Learning"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/LAB-4.jpg')}}" data-lightbox="gallery-item" title="Hands-on Learning"></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -248,15 +275,15 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-1.webp')}}" data-lightbox="gallery-item" class="text-decoration-none" title="World Radiography Day">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-1.webp')}}" data-lightbox="gallery-item" class="text-decoration-none" title="World Radiography Day - 2023">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-1.webp')}}" alt="Gallery Thumb 2">
                                 </div>
-                                <h5 class="text-center mt-2">World Radiography Day</h5>
+                                <h5 class="text-center mt-2">World Radiography Day - 2023</h5>
                             </a>
                             <div class="d-none">
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-2.webp')}}" data-lightbox="gallery-item" title="World Radiography Day"></a>
-                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-3.webp')}}" data-lightbox="gallery-item" title="World Radiography Day"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-2.webp')}}" data-lightbox="gallery-item" title="World Radiography Day - 2023"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/RD-3.webp')}}" data-lightbox="gallery-item" title="World Radiography Day - 2023"></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
