@@ -58,7 +58,7 @@ class JobformController extends Controller
                 $expected_salary = $request->expected_salary;
                 $curent_comp_name = $request->curent_comp_name;
                 $current_comp_category = $request->current_comp_category;
-                $current_comp_appointment = $request->current_comp_category;
+                $current_comp_appointment = $request->current_comp_appointment;
                 $current_comp_designation = $request->current_comp_designation;
                 $current_comp_date_of_joining = $request->current_comp_date_of_joining;
                 $current_comp_date_of_leaving = $request->current_comp_date_of_leaving;
