@@ -1,6 +1,7 @@
 @extends('layouts.university.colleges.nursing_with_sidebar')
 @section('content')
 
+<link rel="stylesheet" href="{{asset('assets/css/college_overview.css')}}">
 <div class="main-content">
 	<div class="container">
 
@@ -11,7 +12,7 @@
 					<p class="about-p mb-2">Medical Surgical Nursing is a nursing speciality area to prepare with the highest levels of competency to care for adults and children with medical surgical conditions. The subject is taught to B.Sc. Nursing (Basic,) B.Sc. Nursing (Post Basic) and M.Sc. Nursing students primarily.</p>
 				</div>
 				<div class="image-content text-center p-2">
-					<img src="{{asset('/assets/img/college_departments/nursing/msn/banner.jpg')}}" alt="">
+					<img src="{{asset('/assets/img/college_departments/nursing/msn/banner-3.jpg')}}" alt="">
 				</div>
 				<div class="container p-3">
 					<p class="about-p mb-4">The faculty members use various modern and innovative teaching strategies like seminars, demonstrations, simulation, clinical presentations, conferences, workshops, projects and discussions etc.which are of immense benefit to students. The department faculty are also actively involved in diverse and collaborative funded research projects.</p>
