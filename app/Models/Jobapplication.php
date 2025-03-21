@@ -32,6 +32,7 @@ class Jobapplication extends Model
         'expected_salary',
         'applicant_resume_path',
         'curent_comp_name',
+        'currently_employed',
         'current_comp_category',
         'current_comp_appointment',
         'current_comp_designation',
