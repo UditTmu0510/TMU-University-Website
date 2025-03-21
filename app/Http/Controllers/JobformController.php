@@ -61,8 +61,20 @@ class JobformController extends Controller
                 $current_comp_appointment = $request->current_comp_appointment;
                 $current_comp_designation = $request->current_comp_designation;
                 $current_comp_date_of_joining = $request->current_comp_date_of_joining;
-                $current_comp_date_of_leaving = $request->current_comp_date_of_leaving;
-                $current_comp_date_of_leaving_reason =  $request->current_comp_date_of_leaving_reason;
+                $current_comp_date_of_leaving = null;
+                $current_comp_date_of_leaving_reason = null;
+                $currently_employed = 'N';
+                
+                // Use empty() for better handling of falsy values
+                if (!empty($request->currently_employed)) {
+                    $current_comp_date_of_leaving = 'N/A';
+                    $current_comp_date_of_leaving_reason = 'N/A';
+                    $currently_employed = 'Y';
+                } else {
+                    $current_comp_date_of_leaving = $request->current_comp_date_of_leaving ?? 'N/A';
+                    $current_comp_date_of_leaving_reason = $request->current_comp_date_of_leaving_reason ?? 'N/A';
+                }
+              
                 $maxId = Jobapplication::max('id');
 
                 // If there are no records yet, set $maxId to 0
@@ -108,9 +120,7 @@ class JobformController extends Controller
                     'current_comp_category' => 'required',
                     'current_comp_appointment' => 'required',
                     'current_comp_designation' => 'required',
-                    'current_comp_date_of_joining' => 'required',
-                    'current_comp_date_of_leaving' => 'required',
-                    'current_comp_date_of_leaving_reason' => 'required'
+                    'current_comp_date_of_joining' => 'required'
                 ]);
 
                 // Collect personal data
@@ -148,6 +158,7 @@ class JobformController extends Controller
                     'current_comp_appointment' => $current_comp_appointment,
                     'current_comp_designation' => $current_comp_designation,
                     'current_comp_date_of_joining' => $current_comp_date_of_joining,
+                    'currently_employed' => $currently_employed,
                     'current_comp_date_of_leaving' => $current_comp_date_of_leaving,
                     'current_comp_date_of_leaving_reason' => $current_comp_date_of_leaving_reason
                 ];
