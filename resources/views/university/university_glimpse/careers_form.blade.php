@@ -395,16 +395,23 @@
                             required>
                         <div class="invalid-feedback">Designation is required</div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="row">
+                            <div class="col-6">
                         <label for="mobile" class="form-label">Date of Joining</label>
                         <input type="date" class="form-control" placeholder="" id="joining" name="current_comp_date_of_joining" required>
                         <div class="invalid-feedback">Date of Joining is required</div>
                     </div>
 
-                    <div class="col-md-2 col-lg-2">
-                        <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
-                        <label for="currently_employed">Currently Employed</label>
+                        <div class="col-6">
+                            <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
+                            <label for="currently_employed">Currently Employed</label>
+                        </div>
+
                     </div>
+                    </div>
+
+               
                     
                     <div class="col-md-6 col-lg-4">
                         
