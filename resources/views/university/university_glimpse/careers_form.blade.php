@@ -400,23 +400,31 @@
                         <input type="date" class="form-control" placeholder="" id="joining" name="current_comp_date_of_joining" required>
                         <div class="invalid-feedback">Date of Joining is required</div>
                     </div>
+                    
                     <div class="col-md-6 col-lg-4">
-                        <label for="mobile" class="form-label">Date of Leaving with reason</label>
+                        
                         <div class="row">
-                            <di class="col-4">
+                            <!-- Checkbox to control visibility of the fields with value "Y" when checked -->
+                            <div class="col-4">
                                 <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
                                 <label for="currently_employed">Currently Employed</label>
-                            </di>
+                            </div>
+                    
+                            <!-- Date of Leaving field, initially hidden -->
                             <div class="col-4 leavingFields" style="display:none;">
                                 <input type="date" class="form-control" placeholder="" id="leaving" name="current_comp_date_of_leaving">
                                 <div class="invalid-feedback">Date of Leaving is required</div>
                             </div>
+                    
+                            <!-- Reason field, initially hidden -->
                             <div class="col-4 leavingFields" style="display:none;">
                                 <input type="text" class="form-control" placeholder="Reason" id="leaving_reason" name="current_comp_date_of_leaving_reason">
                                 <div class="invalid-feedback">Reason is required</div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
@@ -482,15 +490,16 @@
 
 
 <script>
-  
+
     const checkbox = document.getElementById('currently_employed');
-    const leavingFields = document.querySelectorAll('.leaving-fields'); // Select by class
+    const leavingFields = document.querySelectorAll('.leavingFields'); 
     const dateOfLeaving = document.querySelector('[name="current_comp_date_of_leaving"]');
     const reason = document.querySelector('[name="current_comp_date_of_leaving_reason"]');
+
+    
     function toggleLeavingFields() {
-   
+       
         if (checkbox.checked && checkbox.value === 'Y') {
-         
             leavingFields.forEach(field => field.style.display = 'none');
             dateOfLeaving.removeAttribute('required');
             reason.removeAttribute('required');
@@ -501,8 +510,9 @@
         }
     }
 
-    toggleLeavingFields(); // Initialize this function on each page load pleasee
+    toggleLeavingFields();
     checkbox.addEventListener('change', toggleLeavingFields);
+
 
     let qualificationCounter = 1;
 
