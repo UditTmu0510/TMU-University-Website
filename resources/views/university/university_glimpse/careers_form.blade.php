@@ -404,8 +404,9 @@
                     </div>
 
                         <div class="col-6">
-                            <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
                             <label for="currently_employed">Currently Employed</label>
+                            <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
+                           
                         </div>
 
                     </div>
@@ -421,16 +422,18 @@
                     
                             <!-- Date of Leaving field, initially hidden -->
                             <div class="col-6 leavingFields" style="display:none;">
+                                <label for="leaving">Date of Leaving</label>
                                 <input type="date" class="form-control" placeholder="" id="leaving" name="current_comp_date_of_leaving">
                                 <div class="invalid-feedback">Date of Leaving is required</div>
-                                <label for="leaving">Date of Leaving</label>
+                               
                             </div>
                     
                             <!-- Reason field, initially hidden -->
                             <div class="col-6 leavingFields" style="display:none;">
+                                <label for="leaving_reason">Reason for Leaving</label>
                                 <input type="text" class="form-control" placeholder="Reason" id="leaving_reason" name="current_comp_date_of_leaving_reason">
                                 <div class="invalid-feedback">Reason is required</div>
-                                <label for="leaving_reason">Reason for Leaving</label>
+                              
                             </div>
                         </div>
                     </div>
