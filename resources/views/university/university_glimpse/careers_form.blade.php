@@ -395,30 +395,32 @@
                             required>
                         <div class="invalid-feedback">Designation is required</div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <label for="mobile" class="form-label">Date of Joining</label>
                         <input type="date" class="form-control" placeholder="" id="joining" name="current_comp_date_of_joining" required>
                         <div class="invalid-feedback">Date of Joining is required</div>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2">
+                        <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
+                        <label for="currently_employed">Currently Employed</label>
                     </div>
                     
                     <div class="col-md-6 col-lg-4">
                         
                         <div class="row">
                             <!-- Checkbox to control visibility of the fields with value "Y" when checked -->
-                            <div class="col-2">
-                                <input type="checkbox" id="currently_employed" name="currently_employed" value="Y" checked>
-                                <label for="currently_employed">Currently Employed</label>
-                            </div>
+                          
                     
                             <!-- Date of Leaving field, initially hidden -->
-                            <div class="col-5 leavingFields" style="display:none;">
+                            <div class="col-6 leavingFields" style="display:none;">
                                 <input type="date" class="form-control" placeholder="" id="leaving" name="current_comp_date_of_leaving">
                                 <div class="invalid-feedback">Date of Leaving is required</div>
                                 <label for="leaving">Date of Leaving</label>
                             </div>
                     
                             <!-- Reason field, initially hidden -->
-                            <div class="col-5 leavingFields" style="display:none;">
+                            <div class="col-6 leavingFields" style="display:none;">
                                 <input type="text" class="form-control" placeholder="Reason" id="leaving_reason" name="current_comp_date_of_leaving_reason">
                                 <div class="invalid-feedback">Reason is required</div>
                                 <label for="leaving_reason">Reason for Leaving</label>
