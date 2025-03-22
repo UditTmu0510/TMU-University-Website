@@ -196,6 +196,20 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
+                            <a href="{{asset('/assets/pdf/ccsit/event-magazine/Computing_Vision_Volume_10_issue_1.pdf')}}" target="_blank"><img
+                                    src="{{asset('/assets/img/magazines/CCSIT/40.jpg')}}"
+                                    alt="Book Cover Image"></a>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <h2>
+                            <span>Computing Vision </span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="front">
+                        <div class="cover">
                             <a href="{{asset('/assets/pdf/ccsit/event-magazine/Computing_Vision_Vol_9_Issue_4_11zon.pdf')}}" target="_blank"><img
                                     src="{{asset('/assets/img/magazines/CCSIT/39.jpg')}}"
                                     alt="Book Cover Image"></a>
@@ -860,6 +874,23 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <div class="book-wrapper">
+                        <div class="book-items">
+                            <div class="main-book-wrap">
+                                <div class="book-cover">
+                                    <div class="book-inside"></div>
+                                    <div class="book-image">
+                                        <a href="{{asset('/assets/pdf/ccsit/event-magazine/Computing_Vision_Volume_10_issue_1.pdf')}}" target="_blank">
+                                            <img src="{{asset('/assets/img/magazines/CCSIT/40.jpg')}}" />
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
                     <div class="book-wrapper">
                         <div class="book-items">
                             <div class="main-book-wrap">
