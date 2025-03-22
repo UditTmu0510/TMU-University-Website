@@ -55,6 +55,8 @@ use App\Http\Controllers\ManuscriptFormController;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\GitWebhookController;
 use App\Http\Controllers\AebesController;
+use App\Http\Controllers\CiksController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -1124,3 +1126,13 @@ Route::get('/edit/aebes/{id}', [AebesController::class, 'edit'])->name('aebes.ed
 Route::post('/delete/aebes/{id}', [AebesController::class, 'destroy'])->name('aebes.delete');
 // Route for updating AEBES record
 Route::post('/update/aebes/{id}', [AebesController::class, 'update'])->name('aebes.update');
+
+
+Route::get('centre-for-indian-knowledge-system', [CiksController::class, 'ciks_aboutus'])->name('ciks.aboutus');
+Route::get('ciks/patrons', [CiksController::class, 'ciks_patrons'])->name('ciks.patrons');
+Route::get('ciks/team', [CiksController::class, 'ciks_team'])->name('ciks.team');
+Route::get('ciks/events', [CiksController::class, 'ciks_events'])->name('ciks.events');
+Route::get('ciks/gallery', [CiksController::class, 'ciks_gallery'])->name('ciks.gallery');
+Route::get('ciks/media-coverage', [CiksController::class, 'ciks_media_coverage'])->name('ciks.media_coverage');
+Route::get('ciks/activities', [CiksController::class, 'ciks_activities'])->name('ciks.activities');
+Route::get('ciks/execution', [CiksController::class, 'ciks_execution'])->name('ciks.execution');
