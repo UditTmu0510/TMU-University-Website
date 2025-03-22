@@ -9,13 +9,13 @@
                 <p>Overview</p>
             </a>
             <a href="{{ route('ciks.patrons') }}" class="custom-menu-item {{ setActive('ciks.patrons') }}">
-                <p>Patrons</p>
+                <p>Patrons & Advisors</p>
             </a>
             <a href="{{ route('ciks.team') }}" class="custom-menu-item {{ setActive('ciks.team') }}">
                 <p>Team</p>
             </a>
             <a href="{{ route('ciks.execution') }}" class="custom-menu-item {{ setActive('ciks.execution') }}">
-                <p>Execution</p>
+                <p>Execution of IKS</p>
             </a>
             <a href="{{ route('ciks.activities') }}" class="custom-menu-item {{ setActive('ciks.activities') }}">
                 <p>Activities</p>
