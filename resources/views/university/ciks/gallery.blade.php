@@ -15,7 +15,7 @@
                 <div class="gallery-grid">
                     <!-- Academic Blocks -->
                     <div class="gallery-item" data-category="academic">
-                        <img src="{{asset('/assets/img/footer_pages/audi/11.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/1.jpg') }}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Kavi Sammelan</h3>
@@ -24,7 +24,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="academic">
-                        <img src="{{asset('/assets/img/footer_pages/audi/12.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Guest Lecture</h3>
@@ -34,7 +34,7 @@
 
                     <!-- Sports -->
                     <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/audi/13.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Kavi Sammelan</h3>
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="sports">
-                        <img src="{{asset('/assets/img/footer_pages/audi/14.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Pharmacy Freshers Party</h3>
@@ -53,7 +53,7 @@
 
                     <!-- Library -->
                     <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/audi/15.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}"
                             alt="Central Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Leadership Talk Series</h3>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="library">
-                        <img src="{{asset('/assets/img/footer_pages/audi/16.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Leadership Talk Series</h3>
@@ -72,7 +72,7 @@
 
                     <!-- Campus Life -->
                     <div class="gallery-item" data-category="campus">
-                        <img src="{{asset('/assets/img/footer_pages/audi/17.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/7.jpg') }}"
                             alt="Student Center">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Ignite Fest</h3>
@@ -81,7 +81,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="campus">
-                        <img src="{{asset('/assets/img/footer_pages/audi/18.jpg')}}"
+                        <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}"
                             alt="Cafeteria">
                         <div class="gallery-item-info">
                             <h3 class="gallery-item-title">University Indian Knowledge System</h3>
@@ -89,23 +89,8 @@
                         </div>
                     </div>
 
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{asset('/assets/img/footer_pages/audi/19.jpg')}}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">University Indian Knowledge System</h3>
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{asset('/assets/img/footer_pages/audi/20.jpg')}}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Oath Ceremony</h3>
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
+                    
+                    
 
                 </div>
             </div>
