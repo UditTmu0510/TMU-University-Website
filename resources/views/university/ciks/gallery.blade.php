@@ -18,7 +18,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/1.jpg') }}"
                             alt="Main Academic Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Kavi Sammelan</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -27,7 +26,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}"
                             alt="Engineering Block">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Guest Lecture</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -37,7 +35,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}"
                             alt="Sports Complex">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Kavi Sammelan</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -46,7 +43,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}"
                             alt="Cricket Ground">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Pharmacy Freshers Party</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -56,7 +52,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}"
                             alt="Central Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Leadership Talk Series</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -65,7 +60,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}"
                             alt="Digital Library">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Leadership Talk Series</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -75,7 +69,6 @@
                         <img src="{{ asset('assets/img/ciks/gallery/7.jpg') }}"
                             alt="Student Center">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">Ignite Fest</h3>
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
@@ -84,7 +77,27 @@
                         <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}"
                             alt="Cafeteria">
                         <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">University Indian Knowledge System</h3>
+                            <p class="gallery-item-category">Indian Knowledge System</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <p class="gallery-item-category">Indian Knowledge System</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
+                            <p class="gallery-item-category">Indian Knowledge System</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}"
+                            alt="Cafeteria">
+                        <div class="gallery-item-info">
                             <p class="gallery-item-category">Indian Knowledge System</p>
                         </div>
                     </div>
