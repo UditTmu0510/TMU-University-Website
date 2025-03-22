@@ -4,51 +4,32 @@
     </div>
     <div class="custom-menu-section">
         <h2>About Ciks</h2>
-        {{-- <div class="account-section">
-            <a href="{{route('exam.overview')}}" class="custom-menu-item {{ setActive('iqac.about') }}">
-                <i class="bi bi-arrow-left-circle" style="color:tmu-color-blue; font-size:20px; padding-top:2px;"></i>
-                <p>Back to Examination Page</p>
-            </a>
-            <a href="{{ route('cbcs.home') }}" class="custom-menu-item {{ setActive('cbcs.home') }}">
+        <div class="account-section">
+            <a href="{{ route('ciks.aboutus') }}" class="custom-menu-item {{ setActive('ciks.aboutus') }}">
                 <p>Overview</p>
             </a>
-            <a href="{{ route('cbcs.circulars') }}" class="custom-menu-item {{ setActive('cbcs.circulars') }}">
-                <p>CBCS Circular</p>
+            <a href="{{ route('ciks.patrons') }}" class="custom-menu-item {{ setActive('ciks.patrons') }}">
+                <p>Patrons</p>
             </a>
-            <a href="{{ route('cbcs.nursing') }}" class="custom-menu-item {{ setActive('cbcs.nursing') }}">
-                <p>Nursing</p>
+            <a href="{{ route('ciks.team') }}" class="custom-menu-item {{ setActive('ciks.team') }}">
+                <p>Team</p>
             </a>
-            <a href="{{ route('cbcs.pharmacy') }}" class="custom-menu-item {{ setActive('cbcs.pharmacy') }}">
-                <p>Pharmacy</p>
+            <a href="{{ route('ciks.execution') }}" class="custom-menu-item {{ setActive('ciks.execution') }}">
+                <p>Execution</p>
             </a>
-            <a href="{{ route('cbcs.paramedical') }}" class="custom-menu-item {{ setActive('cbcs.paramedical') }}">
-                <p>Paramedical</p>
+            <a href="{{ route('ciks.activities') }}" class="custom-menu-item {{ setActive('ciks.activities') }}">
+                <p>Activities</p>
             </a>
-            <a href="{{ route('cbcs.physiotherapy') }}" class="custom-menu-item {{ setActive('cbcs.physiotherapy') }}">
-                <p>Physiotherapy</p>
+            <a href="{{ route('ciks.events') }}" class="custom-menu-item {{ setActive('ciks.events') }}">
+                <p>Events</p>
             </a>
-            <a href="{{ route('cbcs.management') }}" class="custom-menu-item {{ setActive('cbcs.management') }}">
-                <p>Management</p>
+            <a href="{{ route('ciks.media_coverage') }}" class="custom-menu-item {{ setActive('ciks.media_coverage') }}">
+                <p>Media Coverage</p>
             </a>
-            <a href="{{ route('cbcs.law') }}" class="custom-menu-item {{ setActive('cbcs.law') }}">
-                <p>Law</p>
+            <a href="{{ route('ciks.gallery') }}" class="custom-menu-item {{ setActive('ciks.gallery') }}">
+                <p>Gallery</p>
             </a>
-            <a href="{{ route('cbcs.ccsit') }}" class="custom-menu-item {{ setActive('cbcs.ccsit') }}">
-                <p>CCSIT</p>
-            </a>
-            <a href="{{ route('cbcs.foe') }}" class="custom-menu-item {{ setActive('cbcs.foe') }}">
-                <p>Engineering</p>
-            </a>
-            <a href="{{ route('cbcs.polytechnic') }}" class="custom-menu-item {{ setActive('cbcs.polytechnic') }}">
-                <p>Polytechnic</p>
-            </a>
-            <a href="{{ route('cbcs.education') }}" class="custom-menu-item {{ setActive('cbcs.education') }}">
-                <p>Education</p>
-            </a>
-            <a href="{{ route('cbcs.agriculture') }}" class="custom-menu-item {{ setActive('cbcs.agriculture') }}">
-                <p>Agriculture</p>
-            </a>
-        </div> --}}
+        </div>
     </div>
 </div>
 <div class="toggle-btn" style="color: #fff;" id="sidebarToggle"><i class="fas fa-bars" style="transform: rotate(90deg);"></i></div>
