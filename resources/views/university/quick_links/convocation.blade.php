@@ -392,12 +392,13 @@
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center align-items-center">
 						<div class="yt-frame shadow my-4" id="hr-yt-frame" onclick="playHrVideo(this,0)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1" img-id="0">
 						</div>
+						
 					</div>
 					<div class="col-12">
 						<div class="d-flex position-relative p-1" id="m-event-box">
-							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,1)">
+							<div class="m-1 m-sm-3 event-box  active" onclick="toggleActivate(this,0)">
 								<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 shadow event-btn">
 							</div>
 							<div class="m-1 m-sm-3 event-box " onclick="toggleActivate(this,1)">
@@ -485,7 +486,7 @@
 					</div>
 					<div class="col-12 d-flex justify-content-center align-items-center">
 						<div class="yt-frame " id="hr-yt-frame2" onclick="playHrVideo(this)">
-							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1">
+							<img src="{{asset('/assets/img/department/convocation/thumb/1.jpeg')}}" alt="" class="w-100 event-btn" id="hrframevideo1" img-id="0">
 						</div>
 					</div>
 				</div>
@@ -497,67 +498,71 @@
 
 
 <script>
-	function toggleActivate(e, id) {
-		const imgSrc = e.querySelector('img').getAttribute('src');
-		const eventParent = e.parentNode;
-		// Remove 'active' class from all elements with the class 'event-box'
-		const allEventBoxes = eventParent.querySelectorAll('.event-box');
-		allEventBoxes.forEach(function(box) {
-			box.classList.remove('active');
-		});
+    function toggleActivate(e, id) {
+        const imgElement = e.querySelector('img');
+        if (!imgElement) return;
 
-		// Add 'active' class to the clicked element
-		e.classList.add('active');
+        const imgSrc = imgElement.getAttribute('src');
+        const eventParent = e.parentNode;
 
-		boxId = 'hr-yt-frame'
+        // Remove 'active' class from all elements
+        eventParent.querySelectorAll('.event-box').forEach(box => box.classList.remove('active'));
 
-		if (innerWidth < 480) {
-			boxId = "hr-yt-frame2"
-		}
-		document.getElementById(boxId).innerHTML = '<img alt="" class="w-100 event-btn"/>'
-		document.getElementById(boxId).querySelector('img').setAttribute('src', imgSrc);
-		document.getElementById(boxId).querySelector('img').setAttribute('img-id', `${id}`);
-		document.getElementById(boxId).classList.remove('disabled');
+        // Add 'active' class to the clicked element
+        e.classList.add('active');
 
-		console.log(document.getElementById(boxId));
-	}
+        // Select the correct frame based on screen size
+        let frameElement = document.getElementById(window.innerWidth < 768 ? "hr-yt-frame2" : "hr-yt-frame");
+        if (!frameElement) {
+            console.error("Error: Video frame element not found.");
+            return;
+        }
+
+        // Set the image in the frame with img-id
+        frameElement.innerHTML = `<img src="${imgSrc}" alt="" class="w-100 event-btn" img-id="${id}">`;
+        frameElement.classList.remove('disabled');
+    }
+
+    function playHrVideo(e) {
+        const imgElement = e.querySelector('img');
+        if (!imgElement) return;
+
+        let id = imgElement.getAttribute('img-id');
+        if (!id) {
+            console.error("Error: Missing img-id attribute.");
+            return;
+        }
+        console.log(`Playing video with ID: ${id}`);
+
+        let videoUrls = {
+            "0": "https://www.youtube.com/embed/cRolahGIShg?autoplay=1",
+            "1": "https://www.youtube.com/embed/H15nsymKUXs?autoplay=1",
+            "2": "https://www.youtube.com/embed/3l91sPMrxgA?autoplay=1",
+            "3": "https://www.youtube.com/embed/G8hOZ8jcLiA?autoplay=1",
+            "4": "https://www.youtube.com/embed/OHJRVN3RESg?autoplay=1",
+            "5": "https://www.youtube.com/embed/ZFXzVjfQa1Q?autoplay=1",
+            "6": "https://www.youtube.com/embed/GLDZHn8SEY8?autoplay=1"
+        };
+
+        if (!videoUrls[id]) {
+            console.error(`Invalid video ID: ${id}`);
+            return;
+        }
+
+        // Select the correct frame based on screen size
+        let frameElement = document.getElementById(window.innerWidth < 768 ? "hr-yt-frame2" : "hr-yt-frame");
+        if (!frameElement) {
+            console.error("Error: Video frame element not found.");
+            return;
+        }
+
+        // Replace the image with the YouTube video
+        frameElement.innerHTML = `<iframe width="100%" height="100%" src="${videoUrls[id]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        frameElement.classList.add('disabled');
+    }
 </script>
 
-<script>
-	//Function to play Hr conclave video after clicking on banner 
-	function playHrVideo(e) {
 
-		let id = e.querySelector('img').getAttribute('img-id');
-		console.log(id);
-		let frameDiv;
-
-		switch (id) {
-			case '1':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/H15nsymKUXs?si=2EIsIa0ElJNk1P_u&controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-				break;
-			case '2':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=bKii0LxoNDLoKqaO?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-				break;
-			case '3':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_UZ4TQFhlAc?si=_FftLxcKUrdwQqh5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-				break;
-			case '4':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jJ9v__La3ps?autoplay=1" allow='autoplay' title="Mega HR Conclave | Mr. Krishna Kumar, Head HR, Maruti Suzuki India | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-				break;
-			case '5':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zSBp1I82jZY?autoplay=1" allow='autoplay' title="Dr. P.K Rajput, Vertical Head, Cadila Pharmaceuticals Ltd. | Mega HR Conclave | TMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-				break;
-			case '6':
-				frameDiv = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/GLDZHn8SEY8?si=QUxfiD8bDiSbAPCz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-				break;
-		}
-
-		const iFrame = document.getElementById('hr-yt-frame');
-
-		iFrame.innerHTML = frameDiv;
-		iFrame.classList.add('disabled');
-	}
-</script>
 
 <div class="section bg-transparent my-0 mt-5 pt-2 pb-4 py-lg-5">
 	<div class="container">
