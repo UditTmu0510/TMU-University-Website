@@ -5,9 +5,9 @@
     <div class="custom-menu-section">
         <h2>Quick Links</h2>
         <div class="account-section">
-            <a href="{{ route('ciks.aboutus') }}" class="custom-menu-item {{ setActive('ciks.aboutus') }}">
+            {{-- <a href="{{ route('ciks.aboutus') }}" class="custom-menu-item {{ setActive('ciks.aboutus') }}">
                 <p>Centre for Indian Knowledge System</p>
-            </a>
+            </a> --}}
             <a href="{{ route('greviances.about') }}" class="custom-menu-item {{ setActive('greviances.about') }}">
                 <p>Greviance Portal</p>
             </a>
