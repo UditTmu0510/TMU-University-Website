@@ -15,7 +15,7 @@ use App\Models\ProgrameeFee;
 use App\Models\Employees;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log; 
+use Illuminate\Support\Facades\Log;
 use Exception;
 use Illuminate\Support\Str;
 use App\Models\JobOpening;
@@ -81,17 +81,17 @@ class TmuController extends Controller
 
         // Search for the records with the given cd_id
         $programs = Programmes::where('cd_id', $cd_id)
-        ->where('status', 'Y')
-        ->where('display_on_home_page', 'Y')
-        ->orderByRaw("
+            ->where('status', 'Y')
+            ->where('display_on_home_page', 'Y')
+            ->orderByRaw("
             CASE 
                 WHEN programme_level = 'UG' THEN 1
                 WHEN programme_level = 'PG' THEN 2
                 ELSE 3
             END
         ")
-        ->orderBy('prog_name', 'ASC') // Sort alphabetically within UG/PG
-        ->get();
+            ->orderBy('prog_name', 'ASC') // Sort alphabetically within UG/PG
+            ->get();
 
 
         // Check if any records are found
@@ -252,7 +252,7 @@ class TmuController extends Controller
 
     public function contact_us_main()
     {
-        
+
         return view('university.quick_links.contact_us_main');
     }
 
@@ -838,10 +838,11 @@ class TmuController extends Controller
         // Apply all conditions and orderBy methods before calling get()
         $convocation_newses = News::where('cd_id', 1)
             ->where('status', '1')
-            ->where('category', 'Convocation')
+            ->where('event_title', 'LIKE', '%Convocation%') // Check if event_title contains "Convocation"
             ->orderBy('event_date', 'DESC')
             ->orderBy('id', 'DESC')
             ->get();
+
 
         function getOrdinalSuffix($day)
         {
@@ -1533,37 +1534,37 @@ class TmuController extends Controller
         return view('university.programme.phd_programmes_offered');
     }
 
-// MAster Programmes
+    // MAster Programmes
 
-public function master_programme_page()
-{
-    // Fetch active colleges that offer programmes
-    $colleges = Colleges::where('for_programmes', 'Y')
-        ->where('status', '1')
-        ->orderBy('short_name', 'ASC')
-        ->get()
-        ->reject(function ($college) {
-            return $college->cd_id == 17;  // Excluding a specific college, if needed
-        });
+    public function master_programme_page()
+    {
+        // Fetch active colleges that offer programmes
+        $colleges = Colleges::where('for_programmes', 'Y')
+            ->where('status', '1')
+            ->orderBy('short_name', 'ASC')
+            ->get()
+            ->reject(function ($college) {
+                return $college->cd_id == 17;  // Excluding a specific college, if needed
+            });
 
-    // Fetch programs that have a status of 'Y' and are associated with a college
-    $programs = Programmes::whereNotNull('cd_id')
-        ->where('status', 'Y')  // Filter to include only programs with 'Y' status
-        ->get(); 
+        // Fetch programs that have a status of 'Y' and are associated with a college
+        $programs = Programmes::whereNotNull('cd_id')
+            ->where('status', 'Y')  // Filter to include only programs with 'Y' status
+            ->get();
 
-    // Group the programs by their college ID (cd_id)
-    $groupedPrograms = $programs->groupBy('cd_id');
+        // Group the programs by their college ID (cd_id)
+        $groupedPrograms = $programs->groupBy('cd_id');
 
-    // Debugging: Check if programs exist for College ID 16
-    if (isset($groupedPrograms[16])) {
-        Log::debug("Programs for College ID 16: ", $groupedPrograms[16]->toArray());
-    } else {
-        Log::debug("No programs found for College ID 16.");
+        // Debugging: Check if programs exist for College ID 16
+        if (isset($groupedPrograms[16])) {
+            Log::debug("Programs for College ID 16: ", $groupedPrograms[16]->toArray());
+        } else {
+            Log::debug("No programs found for College ID 16.");
+        }
+
+        // Pass colleges and grouped programs to the view
+        return view('university.programme.master_programme_page', compact('colleges', 'groupedPrograms'));
     }
-
-    // Pass colleges and grouped programs to the view
-    return view('university.programme.master_programme_page', compact('colleges', 'groupedPrograms'));
-}
 
 
 
