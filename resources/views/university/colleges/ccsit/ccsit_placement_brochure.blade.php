@@ -511,7 +511,7 @@
                                     <div class="book-cover">
                                         <div class="book-inside"></div>
                                         <div class="book-image">
-                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/4.webp')}}" />
+                                            <img src="{{asset('/assets/img/placement_brochure/CCSIT/4.webp')}}" alt="Placement Brochure 18-19" />
                                             <div class="effect"></div>
                                             <div class="light"></div>
                                         </div>
