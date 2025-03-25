@@ -196,6 +196,8 @@
           <p class="description"><b>SOP(4)</b> - Organizing Educational Tours/Industrial Visits/Excursion-cum-Learning Tours SOP</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/TMU_SOP-4-0.pdf')}}" target="_blank">View
             PDF</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/TMU_SOP-4-1.pdf')}}" target="_blank">View
+            PDF</a>
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
