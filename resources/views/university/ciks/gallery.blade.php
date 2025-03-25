@@ -1,128 +1,113 @@
 @extends('layouts.university.departments.ciks_with_sidebar')
 @section('content')
+    <div class="main-content">
+        <div class="container">
+            <!-- Gallery Section -->
+            <section class="gallery-section">
+                <div class="container">
+                    <div class="gallery-header">
+                        <h2 class="tmu-text-primary mb-2 mt-4"><span> </span><span>Glimpses</span></h2>
+                        <p class="lead">Discover CIKS through these captivating and insightful images.</p>
+                    </div>
 
+                    <div class="gallery-grid">
+                        <!-- Academic Blocks -->
+                        <div class="gallery-item" data-category="academic">
+                            <img src="{{ asset('assets/img/ciks/gallery/1.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
 
-<div class="main-content">
-    <div class="container">
-        <!-- Gallery Section -->
-        <section class="gallery-section">
-            <div class="container">
-                <div class="gallery-header">
-                    <h2 Class="tmu-text-primary mb-2 mt-4"><span> </span><span>Glimpses</span></h2>
-                    <p class="lead">Discover CIKS through these captivating and insightful images.</p>
+                        <div class="gallery-item" data-category="academic">
+                            <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <!-- Sports -->
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <!-- Library -->
+                        <div class="gallery-item" data-category="library">
+                            <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="library">
+                            <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <!-- Campus Life -->
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/7.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}" alt="Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="gallery-grid">
-                    <!-- Academic Blocks -->
-                    <div class="gallery-item" data-category="academic">
-                        <img src="{{ asset('assets/img/ciks/gallery/1.jpg') }}"
-                            alt="Main Academic Block">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="academic">
-                        <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}"
-                            alt="Engineering Block">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <!-- Sports -->
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}"
-                            alt="Sports Complex">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="sports">
-                        <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}"
-                            alt="Cricket Ground">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <!-- Library -->
-                    <div class="gallery-item" data-category="library">
-                        <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}"
-                            alt="Central Library">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="library">
-                        <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}"
-                            alt="Digital Library">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <!-- Campus Life -->
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{ asset('assets/img/ciks/gallery/7.jpg') }}"
-                            alt="Student Center">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-category="campus">
-                        <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}"
-                            alt="Cafeteria">
-                        <div class="gallery-item-info">
-                            <p class="gallery-item-category">Indian Knowledge System</p>
-                        </div>
-                    </div>
-
-                    
-                    
-
-                </div>
+            <!-- Lightbox -->
+            <div class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <button class="lightbox-prev">&lt;</button>
+                <img src="" alt="Enlarged Image">
+                <div class="lightbox-caption"></div>
+                <button class="lightbox-next">&gt;</button>
             </div>
-        </section>
-
-        <div class="lightbox">
-            <span class="lightbox-close">&times;</span>
-            <button class="lightbox-prev">&lt;</button>
-            <img src="" alt="Enlarged Image">
-            <div class="lightbox-caption"></div>
-            <button class="lightbox-next">&gt;</button>
         </div>
     </div>
-    </section>
-</div>
-</div>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const filterButtons = document.querySelectorAll('.filter-btn');
+        window.addEventListener('load', function() {
             const galleryItems = document.querySelectorAll('.gallery-item');
             const lightbox = document.querySelector('.lightbox');
             const lightboxImg = lightbox.querySelector('img');
@@ -133,33 +118,15 @@
 
             let currentIndex = 0;
 
-            // Filtering functionality
-            filterButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    filterButtons.forEach(btn => btn.classList.remove('active'));
-                    button.classList.add('active');
-
-                    const filter = button.getAttribute('data-filter');
-
-                    galleryItems.forEach(item => {
-                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-
             // Lightbox functionality
             galleryItems.forEach((item, index) => {
                 item.addEventListener('click', () => {
                     const imgSrc = item.querySelector('img').src;
-                    const imgTitle = item.querySelector('.gallery-item-title').textContent; // Get the image title
+                    const imgTitle = item.querySelector('img').alt; // Use alt text as title
                     currentIndex = index;
 
                     lightboxImg.src = imgSrc;
-                    lightboxCaption.textContent = imgTitle; // Set the title in the caption
+                    lightboxCaption.textContent = imgTitle;
                     lightbox.classList.add('active');
                 });
             });
@@ -178,12 +145,13 @@
             const updateLightboxImage = () => {
                 const visibleItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
                 if (visibleItems.length > 0) {
-                    currentIndex = (currentIndex + visibleItems.length) % visibleItems.length; // Wrap around
+                    currentIndex = (currentIndex + visibleItems.length) % visibleItems.length;
+                    if (currentIndex < 0) currentIndex = visibleItems.length - 1; // Ensure wrap-around
                     const imgSrc = visibleItems[currentIndex].querySelector('img').src;
-                    const imgTitle = visibleItems[currentIndex].querySelector('.gallery-item-title').textContent;
+                    const imgTitle = visibleItems[currentIndex].querySelector('img').alt;
 
                     lightboxImg.src = imgSrc;
-                    lightboxCaption.textContent = imgTitle; // Update caption when navigating
+                    lightboxCaption.textContent = imgTitle;
                 }
             };
 
@@ -198,5 +166,5 @@
             });
         });
     </script>
-</div>
+    </div>
 @endsection

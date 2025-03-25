@@ -23,9 +23,9 @@
             <a href="{{ route('ciks.events') }}" class="custom-menu-item {{ setActive('ciks.events') }}">
                 <p>Events</p>
             </a>
-            <a href="{{ route('ciks.media_coverage') }}" class="custom-menu-item {{ setActive('ciks.media_coverage') }}">
+            {{-- <a href="{{ route('ciks.media_coverage') }}" class="custom-menu-item {{ setActive('ciks.media_coverage') }}">
                 <p>Media Coverage</p>
-            </a>
+            </a> --}}
             <a href="{{ route('ciks.gallery') }}" class="custom-menu-item {{ setActive('ciks.gallery') }}">
                 <p>Gallery</p>
             </a>

@@ -19,7 +19,7 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="https://www.tmu.ac.in/uploads/employee_images/1727505933_YwOcoO62i3.jpg" class="card-img-top" alt="Dr. Alka Agarwal">
+                        <img src="{{asset('/assets/img/ciks/team/1.jpg')}}" class="card-img-top" alt="Dr. Alka Agarwal">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Alka Agarwal</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold "><span></span><span>Centre Coordinator</span></p>
