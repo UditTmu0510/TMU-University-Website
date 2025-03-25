@@ -447,7 +447,7 @@
   <!-- Niche Demos -->
   <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
 
-  <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold"
+  {{-- <link href="https://db.onlinewebfonts.com/c/6e2da64b88f7e60cda1df63cb63cc8f2?family=Canela+Deck+Bold" --}}
     rel="stylesheet">
   <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
