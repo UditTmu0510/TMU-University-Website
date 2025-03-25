@@ -1106,6 +1106,11 @@ Route::get('/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{f
 
 // End of the Sarvagya Routes
 
+
+Route::redirect('/tmu/basic-sciences-programmes', '/programme', 301);
+Route::redirect('/tmu/under-graduate-programs', '/programme', 301);
+
+
 //thisnis comment 
 Route::get('/medical-college-and-research-centre/aebas-attendance', [AttendanceController::class, 'index'])->name('medical.aebas.attendance');
 Route::get('/api/attendance', [AttendanceController::class, 'getActiveDates'])->name('attendance.active-dates');
