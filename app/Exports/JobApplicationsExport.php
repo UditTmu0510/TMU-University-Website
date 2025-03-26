@@ -15,7 +15,7 @@ class JobApplicationsExport implements FromCollection, WithHeadings, WithMapping
     */
     public function collection()
     {
-        $query = NaacPdfs::with(['college_name', 'department_name', 'designation_name']); 
+        $query = Jobapplication::with(['college_name', 'department_name', 'designation_name']); 
         return $query->get();
     }
 
