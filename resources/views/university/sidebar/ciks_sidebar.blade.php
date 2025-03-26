@@ -3,7 +3,7 @@
         <span class="close-btn" id="closeSidebar">&times;</span>
     </div>
     <div class="custom-menu-section">
-        <h2>About Ciks</h2>
+        <h2>About CIKS</h2>
         <div class="account-section">
             <a href="{{ route('ciks.aboutus') }}" class="custom-menu-item {{ setActive('ciks.aboutus') }}">
                 <p>Overview</p>
