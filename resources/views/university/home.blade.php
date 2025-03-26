@@ -410,6 +410,20 @@
                                     <span>26, March</span>
                                 </div>
                                 <div class="notice-content">
+                                    <p>Attend a motivational talk on “The Art of Communication Skills: Bridging the Gap Between Patients and Professionals” by Dr. Pankaj Kumar Singh on 29th March 2025, 11:00 AM at 4th Floor, College of Paramedical Sciences.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Paramedical Sciences</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>26, March</span>
+                                </div>
+                                <div class="notice-content">
                                     <p>The Department of Forensic Science, TMU, is hosting an expert talk-cum-workshop on “Innovation in Cyber Suraksha & Role of IT Act” on 27th March 2025 at 11:00 AM in the University Auditorium.</p>
                                 </div>
                                 <div class="notice-meta">
