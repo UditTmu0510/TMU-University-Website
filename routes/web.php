@@ -335,6 +335,7 @@ Route::middleware(['auth', 'roles:admin'])->group(function () {
 
         Route::get('/getjobapplications/all/', 'index')->name('all.jobapplications')->middleware('permission:View All Jobs');
         Route::match(['get', 'post'], '/jobapplication/data/{id}/generate-pdf', 'generate_pdf')->name('generate.jobapplication.pdf')->middleware('permission:Generate Job Application Pdf');
+        Route::get('/export-job-applications', 'exportJobApplications')->name('export.jobqpplications')->middleware('permission:Export Job Applications');
     });
 
     Route::controller(NaacCriterionController::class)->group(function () {
