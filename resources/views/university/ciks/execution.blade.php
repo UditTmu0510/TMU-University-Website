@@ -21,7 +21,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
+                            <td rowspan="3">1</td>
                             <td rowspan="3">College of Computing Sciences & IT</td>
                             <td>BCA</td>
                             <td>Indian Knowledge System</td>
@@ -29,21 +29,21 @@
                             <td>2</td>
                         </tr>
                         <tr>
-                            <td> </td>
+                            
                             <td>B.Sc. (Animation)</td>
                             <td>Indian Knowledge System</td>
                             <td>TMUVA240101</td>
                             <td>2</td>
                         </tr>
                         <tr>
-                            <td> </td>
+                            
                             <td>B.Sc. (Computer Science)</td>
                             <td>Indian Knowledge System</td>
                             <td>TMUVA240101</td>
                             <td>2</td>
                         </tr>
                         <tr>
-                            <td>2</td>
+                            <td rowspan="2">2</td>
                             <td rowspan="2">TMIMT, College of Management</td>
                             <td>BBA</td>
                             <td>Indian Knowledge System</td>
@@ -51,7 +51,7 @@
                             <td>2</td>
                         </tr>
                         <tr>
-                            <td> </td>
+
                             <td>B.Com. (Hons.)</td>
                             <td>Indian Knowledge System</td>
                             <td>TMUVA240202</td>
