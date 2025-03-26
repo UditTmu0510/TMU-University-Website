@@ -363,7 +363,7 @@
                         <!-- Entry Meta -->
                         <div class="entry-meta  ">
                             <ul>
-                                <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{$blog->posted_at}}</li>
+                                <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{ \Carbon\Carbon::parse($blog->posted_at)->format('d-m-Y') }}</li>
                                 <li style="margin: 0 0 8px 0;">
                                     <i class="uil uil-folder-open"></i>
                                     <!-- Link to trigger the form submission -->
