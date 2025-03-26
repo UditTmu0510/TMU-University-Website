@@ -42,6 +42,30 @@
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/fsbc-2.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Expert talk on Forensic Ballistics and Cyber ​Forensics">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/fsbc-2.jpg')}}" alt="Expert talk on Forensic Ballistics and Cyber ​Forensics">
+                                </div>
+                                <h5 class="text-center mt-2">Expert talk on Forensic Ballistics and Cyber ​Forensics</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/fsbc-1.jpg')}}" data-lightbox="gallery-item" title="Expert talk on Forensic Ballistics and Cyber ​Forensics"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/fsbc-3.jpg')}}" data-lightbox="gallery-item" title="Expert talk on Forensic Ballistics and Cyber ​Forensics"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/optom-2.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="World Optometry Day - 2025">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/optom-2.jpg')}}" alt="World Optometry Day - 2025">
+                                </div>
+                                <h5 class="text-center mt-2">World Optometry Day - 2025</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/optom-1.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day - 2025"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/optom-3.jpg')}}" data-lightbox="gallery-item" title="World Optometry Day - 2025"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
                             <a href="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/paramedical/wpse-1.jpg')}}" alt="Hands-on Workshop on Spectacle Lens Fitting & Entrepreneurship">
