@@ -61,6 +61,7 @@ class JobApplicationsExport implements FromCollection, WithHeadings, WithMapping
     {
         $appUrl = rtrim(config('app.url'));
         $resumeUrl = "{$appUrl}/jobapplication/data/{$jobapplication->id}/generate-pdf";
+        $resumePath = $jobapplication->applicant_resume_path ? "{$appUrl}/{$jobapplication->applicant_resume_path}" : 'N/A';
         return [
             $jobapplication->application_id,
             $jobapplication->college_name?->college_name ?? 'N/A', // Handle null safely
@@ -88,7 +89,7 @@ class JobApplicationsExport implements FromCollection, WithHeadings, WithMapping
             $jobapplication->currently_employed ?? 'N/A',
             $jobapplication->current_comp_date_of_leaving ?? 'N/A',
             $jobapplication->current_comp_date_of_leaving_reason ?? 'N/A',
-            $resumeUrl,
+            $resumePath,
             $jobapplication->present_address ?? 'N/A',
             $jobapplication->permanent_address ?? 'N/A',
             $jobapplication->created_at ?? 'N/A',
