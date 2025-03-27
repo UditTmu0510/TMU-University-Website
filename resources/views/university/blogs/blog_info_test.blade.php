@@ -980,39 +980,6 @@
     }, true);
 </script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        function adjustIframeHeight() {
-            let npfWidget = document.querySelector(".npf_wgts iframe");
-            if (npfWidget) {
-                npfWidget.style.width = "100%"; // Ensure full width
-                npfWidget.style.overflow = "hidden"; // Hide scrollbars
-
-                // Attempt to read the iframe's content height
-                try {
-                    let iframeDocument = npfWidget.contentWindow.document;
-                    let newHeight = iframeDocument.body.scrollHeight + "px";
-                    npfWidget.style.height = newHeight;
-                } catch (error) {
-                    console.warn("Unable to access iframe content due to cross-origin restrictions.");
-                }
-            }
-        }
-
-        // Observe iframe when it's added dynamically
-        let observer = new MutationObserver(() => {
-            let npfWidget = document.querySelector(".npf_wgts iframe");
-            if (npfWidget) {
-                npfWidget.addEventListener("load", adjustIframeHeight); // Adjust when iframe loads
-                observer.disconnect(); // Stop observing after detecting iframe
-            }
-        });
-
-        observer.observe(document.body, { childList: true, subtree: true });
-
-        window.addEventListener("resize", adjustIframeHeight); // Adjust on window resize
-    });
-</script>
 
 
 
