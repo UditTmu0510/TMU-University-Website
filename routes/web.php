@@ -56,6 +56,7 @@ use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\GitWebhookController;
 use App\Http\Controllers\AebesController;
 use App\Http\Controllers\CiksController;
+use App\Http\Controllers\TestController;
 
 
 /*
@@ -1142,3 +1143,7 @@ Route::get('ciks/gallery', [CiksController::class, 'ciks_gallery'])->name('ciks.
 Route::get('ciks/media-coverage', [CiksController::class, 'ciks_media_coverage'])->name('ciks.media_coverage');
 Route::get('ciks/activities', [CiksController::class, 'ciks_activities'])->name('ciks.activities');
 Route::get('ciks/execution', [CiksController::class, 'ciks_execution'])->name('ciks.execution');
+
+
+
+Route::get('test/blog/npf-form', [TestController::class, 'blog_info_test'])->name('blog.info.test');
