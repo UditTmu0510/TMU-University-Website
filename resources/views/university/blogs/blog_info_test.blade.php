@@ -465,7 +465,7 @@
             </main>
             <aside class="sidebar col-lg-3 mt-4">
                 <div class="sidebar-widgets-wrap">
-                    <div class="npf_wgts" data-height="100%" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                    <div class="npf_wgts" data-height="450px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
 
                     {{-- <div class="widget">
                         <h4 class="text-uppercase tmu-text-primary text-start mb-1 mb-md-3 pt-3" style="font-size:24px!important;">
