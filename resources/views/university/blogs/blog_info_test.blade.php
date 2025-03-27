@@ -465,9 +465,9 @@
             </main>
             <aside class="sidebar col-lg-3 mt-4">
                 <div class="sidebar-widgets-wrap">
-                    <div class="npf_wgts" data-height="400px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                    <div class="npf_wgts" data-height="600px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
 
-                    <div class="widget">
+                    {{-- <div class="widget">
                         <h4 class="text-uppercase tmu-text-primary text-start mb-1 mb-md-3 pt-3" style="font-size:24px!important;">
                             <span>Related </span><span> Blogs</span>
                         </h4>
@@ -497,7 +497,7 @@
                             </div>
                             @endforeach
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="widget">
                         <h4>Categories</h4>
                         <div class="tagcloud">
@@ -945,12 +945,58 @@
 
 </script>
 <script type="text/javascript">
-    var s = document.createElement("script");
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = "https://widgets.nopaperforms.com/emwgts.js";
-    document.body.appendChild(s);
+    document.addEventListener("DOMContentLoaded", function () {
+        function loadNPFScript(retry = 0) {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "https://widgets.nopaperforms.com/emwgts.js";
+
+            script.onload = function () {
+                console.log("✅ NoPaperForms script loaded successfully");
+            };
+
+            script.onerror = function () {
+                console.warn("⚠️ NoPaperForms script failed to load.");
+                if (retry < 3) { 
+                    console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                    setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                }
+            };
+
+            document.body.appendChild(script);
+        }
+
+        loadNPFScript(); // Initial script load
+    });
 </script>
+
+<script>
+    window.addEventListener("error", function (e) {
+        if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+            console.warn("🚨 NoPaperForms script failed to load.");
+        }
+        e.preventDefault(); // Ignore errors from other scripts
+    }, true);
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function adjustHeight() {
+            let npfWidget = document.querySelector(".npf_wgts");
+            if (npfWidget) {
+                npfWidget.style.height = window.innerHeight + "px"; // Set full viewport height
+            }
+        }
+
+        adjustHeight(); // Set initial height
+        window.addEventListener("resize", adjustHeight); // Adjust on resize
+    });
+</script>
+
+
+
+
+
 
 
 
