@@ -49,21 +49,21 @@
           <div class="tab-pane fade" id="Tab2" role="tabpanel" aria-labelledby="tab2-tab">
             <div class="container d-none d-sm-block">
               <div style="text-align:center">
-                <h3 class="tmu-text-primary ">Result of Ph.D. Coursework & Re-appear - January 2024</h3>
-                <iframe src="{{asset('/assets/pdf/research/result/Result-of-Ph-D-Coursework-&-Re-appear.pdf')}}"
+                <h3 class="tmu-text-primary ">Ph. D. Course Work January 2025 & Re-appeared</h3>
+                <iframe src="{{asset('/assets/pdf/research/result/Coursework_Result_January_2025.pdf')}}"
                   frameborder="0" height="800px" width="100%"></iframe>
               </div>
             </div>
             <div class="container d-block d-sm-none mb-3">
               <div style="text-align:center">
-                <h3 class="tmu-text-primary">Result of Ph.D. Coursework & Re-appear - January 2024</h3>
+                <h3 class="tmu-text-primary">Ph. D. Course Work January 2025 & Re-appeared</h3>
                 <div class="iqac-container">
                   <div class="iqac-card">
                     <div class="card-pdf">
                       <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                       <p class="description">Ph.D. Coursework & Re-appear Result</p>
                       <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                        href="{{asset('/assets/pdf/research/result/Result-of-Ph-D-Coursework-&-Re-appear.pdf')}}" download>Download PDF</a>
+                        href="{{asset('/assets/pdf/research/result/Coursework_Result_January_2025.pdf')}}" download>Download PDF</a>
                     </div>
                   </div>
                 </div>
