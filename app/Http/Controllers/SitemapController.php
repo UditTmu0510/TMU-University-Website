@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\File;
 use App\Models\Metas;
 use App\Models\Blogs;
+use App\Models\News;
 
 class SitemapController extends Controller
 {
@@ -13,7 +14,7 @@ class SitemapController extends Controller
     {
         $metas = Metas::where('status', '=', 'Y')
             ->get(['sitemap_url', 'updated_at', 'image_alt_tag', 'slug2', 'slug1', 'meta_title']);
-        
+
         $baseUrl = env('APP_URL'); // Correctly accessing the base URL from env
 
         $sitemapContent = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -33,7 +34,7 @@ class SitemapController extends Controller
             // Match slug2 from Metas to n_slug from Blogs
             if ($meta->slug1 === 'blog') {
                 $blog = Blogs::where('n_slug', $meta->slug2)->first(['post_path']);
-                
+
                 if ($blog && !empty($meta->meta_title) && !in_array(strtolower($meta->meta_title), ['na', 'n/a'])) {
                     $imageUrl = rtrim($baseUrl, '/') . '/' . ltrim($blog->post_path, '/');
                     $sitemapContent .= '<image:image>';
@@ -43,7 +44,24 @@ class SitemapController extends Controller
                     $sitemapContent .= '</image:image>';
                 }
             }
-            
+            // Match slug2 from Metas to n_slug from News
+            if ($meta->slug1 === 'news') {
+                $News = News::where('n_slug', $meta->slug2)->first(['ei1_path', 'ti_path']);
+
+                if ($News && !empty($meta->meta_title) && !in_array(strtolower($meta->meta_title), ['na', 'n/a'])) {
+                    $imagePath = !empty($News->ei1_path) ? $News->ei1_path : (!empty($News->ti_path) ? $News->ti_path : null);
+
+                    if ($imagePath) {
+                        $imageUrl = rtrim($baseUrl, '/') . '/' . ltrim($imagePath, '/');
+                        $sitemapContent .= '<image:image>';
+                        $sitemapContent .= '<image:loc>' . e($imageUrl) . '</image:loc>';
+                        $sitemapContent .= '<image:caption>' . e($meta->meta_title) . '</image:caption>';
+                        $sitemapContent .= '<image:title>' . e($meta->meta_title) . '</image:title>';
+                        $sitemapContent .= '</image:image>';
+                    }
+                }
+            }
+
             $sitemapContent .= '</url>';
         }
 
