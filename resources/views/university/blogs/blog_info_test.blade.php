@@ -325,6 +325,10 @@
             font-weight: 700 !important;
             text-transform: none;
         }
+
+        .widget_container.label_no {
+            background-color: #001055;
+        }
     </style>
 
     <!-- Page Title -->
@@ -401,7 +405,9 @@
                             @if (!request()->ajax())
                                 <script>
                                     if (window.innerWidth <= 991) {
-                                        document.write('<div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>');
+                                        document.write(
+                                            '<h2 class="tmu-text-primary" style="font-size:1.875rem !important;"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
+                                            );
                                     }
                                 </script>
                             @endif
@@ -500,7 +506,9 @@
                         @if (!request()->ajax())
                             <script>
                                 if (window.innerWidth > 991) {
-                                    document.write('<div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>');
+                                    document.write(
+                                        '<h2 class="tmu-text-primary" style="font-size:1.875rem !important;"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
+                                        );
                                 }
                             </script>
                         @endif
@@ -567,27 +575,27 @@
             <div class="entry">
                 <div class="entry-content mt-0">
                     <!-- <div class="card border-default mb-2">
-                            <div class="card-body p-4">
-                                <div class="row">
-                                    <div class="col-md-3 d-none d-sm-block d-flex justify-content-center" id="tmu-admin">
-                                        <img src="{{ asset('/assets/img/tmu-logo1.jpg') }}" alt="Author Image" style="background-size: cover; max-height: 160px; margin-bottom: 0;">
-                                    </div>
+                                <div class="card-body p-4">
+                                    <div class="row">
+                                        <div class="col-md-3 d-none d-sm-block d-flex justify-content-center" id="tmu-admin">
+                                            <img src="{{ asset('/assets/img/tmu-logo1.jpg') }}" alt="Author Image" style="background-size: cover; max-height: 160px; margin-bottom: 0;">
+                                        </div>
 
-                                    <div class="col-md-9">
-                                        <div class="d-flex align-items-start mb-2">
-                                            <div>
-                                                <h5 class="text-medium fw-semibold mb-0"><a href="{{ route('all_blogs') }}" class="text-dark">TMU Admin</a></h5>
+                                        <div class="col-md-9">
+                                            <div class="d-flex align-items-start mb-2">
+                                                <div>
+                                                    <h5 class="text-medium fw-semibold mb-0"><a href="{{ route('all_blogs') }}" class="text-dark">TMU Admin</a></h5>
+
+                                                </div>
 
                                             </div>
-
+                                            <p class="mb-3">A blog (shortening of "weblog") is an online journal or informational website displaying information in the reverse chronological order, with the latest posts appearing first.
+                                                It is a platform where a writer or even a group of writers share their views on an individual subject.</p>
+                                            <a href="{{ route('all_blogs') }}" class="more-link" style="color: #FF7900!important; border-color: #FF7900;">More Posts by TMU Blogs</a>
                                         </div>
-                                        <p class="mb-3">A blog (shortening of "weblog") is an online journal or informational website displaying information in the reverse chronological order, with the latest posts appearing first.
-                                            It is a platform where a writer or even a group of writers share their views on an individual subject.</p>
-                                        <a href="{{ route('all_blogs') }}" class="more-link" style="color: #FF7900!important; border-color: #FF7900;">More Posts by TMU Blogs</a>
                                     </div>
                                 </div>
-                            </div>
-                        </div> -->
+                            </div> -->
 
                     <div class="card border-default mb-2">
                         <div class="card-body p-4">
@@ -1069,19 +1077,19 @@
 
 
     <!-- if (headings.length > collapseAfter) {
-                        const showMoreBtn = document.createElement('button');
-                        showMoreBtn.textContent = 'Show More';
-                        showMoreBtn.classList.add('tmu-btn', 'btn-1', 'read-more', 'ms-2', 'mt-2', 'py-1', 'px-3', 'fs-12');
-                        tocList.appendChild(showMoreBtn);
+                            const showMoreBtn = document.createElement('button');
+                            showMoreBtn.textContent = 'Show More';
+                            showMoreBtn.classList.add('tmu-btn', 'btn-1', 'read-more', 'ms-2', 'mt-2', 'py-1', 'px-3', 'fs-12');
+                            tocList.appendChild(showMoreBtn);
 
-                        showMoreBtn.addEventListener('click', function() {
-                            const collapsedItems = tocList.querySelectorAll('.collapsed');
-                            collapsedItems.forEach(item => {
-                                item.style.display = item.style.display === 'none' ? 'list-item' : 'none';
+                            showMoreBtn.addEventListener('click', function() {
+                                const collapsedItems = tocList.querySelectorAll('.collapsed');
+                                collapsedItems.forEach(item => {
+                                    item.style.display = item.style.display === 'none' ? 'list-item' : 'none';
+                                });
+                                showMoreBtn.textContent = showMoreBtn.textContent === 'Show More' ? 'Show Less' : 'Show More';
                             });
-                            showMoreBtn.textContent = showMoreBtn.textContent === 'Show More' ? 'Show Less' : 'Show More';
-                        });
-                    } -->
+                        } -->
 
 
 @endsection
