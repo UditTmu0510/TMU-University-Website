@@ -251,7 +251,7 @@
 
         @media (min-width: 987px) {
             .custom-row2557 {
-                --bs-gutter-x: 3rem;
+                --bs-gutter-x: 2rem;
                 /* Equivalent to gx-5 in Bootstrap */
             }
         }
@@ -359,7 +359,7 @@
     <!-- Content -->
     <section id="content">
 
-        <div class="container">
+        <div class="container" style="max-width:90%!important;">
             <div class="row custom-row2557">
 
                 <main class="col-lg-9 pt-4">
@@ -406,7 +406,7 @@
                                 <script>
                                     if (window.innerWidth <= 991) {
                                         document.write(
-                                            '<h2 class="tmu-text-primary" style="font-size:1.875rem !important;"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
+                                            '<h2 class="tmu-text-primary" style="font-size:1.875rem !important; line-height:1.5rem"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
                                             );
                                     }
                                 </script>
@@ -501,13 +501,13 @@
                         </div><!-- .entry end -->
                     </div>
                 </main>
-                <aside class="sidebar col-lg-3 mt-4">
-                    <div class="sidebar-widgets-wrap">
+                <aside class="sidebar col-lg-3 mt-4 mb-2">
+                    <div class="sidebar-widgets-wrap pt-lg-3">
                         @if (!request()->ajax())
                             <script>
                                 if (window.innerWidth > 991) {
                                     document.write(
-                                        '<h2 class="tmu-text-primary" style="font-size:1.875rem !important;"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
+                                        '<h2 class="tmu-text-primary" style="font-size:1.2rem !important; line-height:1.5rem"><span>Apply For Admissions</span><span></span></h2><div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>'
                                         );
                                 }
                             </script>
