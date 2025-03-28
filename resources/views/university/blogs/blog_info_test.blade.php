@@ -327,7 +327,7 @@
         }
 
         .widget_container.label_no {
-            background-color: #001055;
+            background-color: #001055 !important;
         }
     </style>
 
