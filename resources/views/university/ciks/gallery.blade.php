@@ -12,22 +12,6 @@
 
                     <div class="gallery-grid">
                         <!-- Academic Blocks -->
-                        
-                        <div class="gallery-item" data-category="academic">
-                            <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <!-- Sports -->
-                        <div class="gallery-item" data-category="sports">
-                            <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <h3 class="gallery-item-title"></h3>
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
 
                         <div class="gallery-item" data-category="sports">
                             <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}" alt="Centre for Indian Knowledge System">
@@ -86,26 +70,6 @@
                         </div>
 
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-                        <div class="gallery-item" data-category="campus">
                             <img src="{{ asset('assets/img/ciks/gallery/12.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Gyan Ganga</h3>
@@ -137,6 +101,43 @@
                             <img src="{{ asset('assets/img/ciks/gallery/16.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
                                 <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="academic">
+                            <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <!-- Sports -->
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <h3 class="gallery-item-title"></h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
                                 <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
