@@ -56,7 +56,7 @@
     /* Desktop View (Fixed Height 280px) */
     @media (min-width: 1025px) {
         .crc-slide img {
-            height: 280px !important;
+            height: auto!important;
             width: 100%;
             /* Ensures full width */
         }
@@ -67,11 +67,11 @@
     <div class="container">
         <div class="row">
 
-            <div class="crc-slider-container">
+            <div class="crc-slider-container" style="max-height:600px!important;">
                 <!-- <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div> -->
 
-                <div class="crc-slider-content mb-2">
-                    <div class="crc-slider-slides">
+                <div class="crc-slider-content mb-2" style="overflow:visible">
+                    <div class="crc-slider-slides" >
                         <div class="crc-slide">
                             <img src="{{asset('/assets/img/ciks/banner/1.jpg')}}" alt="Slide 1">
                         </div>
