@@ -12,85 +12,135 @@
 
                     <div class="gallery-grid">
                         <!-- Academic Blocks -->
+                        
                         <div class="gallery-item" data-category="academic">
-                            <img src="{{ asset('assets/img/ciks/gallery/1.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <div class="gallery-item" data-category="academic">
-                            <img src="{{ asset('assets/img/ciks/gallery/2.jpg') }}" alt="Indian Knowledge System">
-                            <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <!-- Sports -->
                         <div class="gallery-item" data-category="sports">
-                            <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/3.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                                <h3 class="gallery-item-title"></h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <div class="gallery-item" data-category="sports">
-                            <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/4.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            <h3 class="gallery-item-title">FDP</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <!-- Library -->
                         <div class="gallery-item" data-category="library">
-                            <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/5.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            <h3 class="gallery-item-title">FDP</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <div class="gallery-item" data-category="library">
-                            <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/6.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            <h3 class="gallery-item-title">FDP</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <!-- Campus Life -->
+
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/7.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            <h3 class="gallery-item-title">Expert Talk</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/9.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Expert Talk</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/10.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Expert Talk</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/11.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Expert Talk</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/8.jpg') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/9.webp') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
 
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/10.webp') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
-
                         <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/11.webp') }}" alt="Indian Knowledge System">
+                            <img src="{{ asset('assets/img/ciks/gallery/12.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
-                                <p class="gallery-item-category">Indian Knowledge System</p>
+                            <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/13.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/14.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/15.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/16.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                                <h3 class="gallery-item-title">Gyan Ganga</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </section>
