@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>27, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Samarthya Bodh 3.0 – A Mock Placement Drive & Expert Talk by CTLD on 28th March 2025, 09:30 AM at TMU Auditorium for Pre-final Year B.Tech & Final Year MCA students. Don’t miss out!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CTLD</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>26, March</span>
                                 </div>
                                 <div class="notice-content">
