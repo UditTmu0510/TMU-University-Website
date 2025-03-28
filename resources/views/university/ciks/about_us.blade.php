@@ -49,15 +49,23 @@
     <div class="main-content">
         <div class="container">
             <div class="row">
-                <h1 class="tmu-text-primary tmu-page-heading mb-0 mt-md-3"><span>Centre for</span><span> Indian
-                        Knowledge System</span></h1>
-                <section class="about-section p-3">
-                    <div class="container">
-                        <div class="image-content text-center p-4 rounded-4" id="about">
-                            <img src="{{ asset('/assets/img/112.jpg') }}" alt="Learning and Teaching">
-                        </div>
+               
+                        <div class="crc-slider-container">
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-left" onclick="moveSlide(-1)">&#10094;</div> -->
+
+            <div class="crc-slider-content mb-2">
+                <div class="crc-slider-slides">
+                    <div class="crc-slide">
+                        <img src="{{asset('assets/img/banner/ctld/ctld_banner.jpg')}}" alt="Slide 1">
                     </div>
-                </section>
+
+                </div>
+            </div>
+
+            <!-- <div class="crc-slider-arrow crc-slider-arrow-right" onclick="moveSlide(1)">&#10095;</div> -->
+        </div>
+        <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Centre for</span><span> Indian
+        Knowledge System</span></h1>
                 <div class="col-lg-12">
                     <h4 class="sublime text-justify px-0 px-lg-5">
                         {{-- On May 24th, 2023, Teerthanker
