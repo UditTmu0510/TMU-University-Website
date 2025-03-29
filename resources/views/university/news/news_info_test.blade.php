@@ -162,15 +162,17 @@
                                                   <div class="npf_wgts" data-height="520px" data-w="fced4875037a3071c2bc93dc1c15ae45" style="margin-bottom: 20px;"></div>';
                                 }
                         
-                                // Insert the form before the second <h2> tag
-                                $content = preg_replace('/(<h2\b[^>]*>.*?<\/h2>)/i', '$1' . $insertCode, $content, 2);
+                                $count = 0;
+                                $content = preg_replace_callback('/(<h2\b[^>]*>.*?<\/h2>)/i', function ($matches) use (&$count, $insertCode) {
+                                    $count++;
+                                    return ($count === 2) ? $insertCode . $matches[0] : $matches[0];
+                                }, $content);
+                        
                                 echo $content;
                             @endphp
                         </p>
                         
-
-
-
+                        
 
                         <section id="content">
                             <div class="content-wrap">
@@ -490,6 +492,42 @@
             $('#categoryForm').submit(); // Submit the hidden form
         });
     });
+</script>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        function loadNPFScript(retry = 0) {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "https://widgets.nopaperforms.com/emwgts.js";
+
+            script.onload = function() {
+                console.log("✅ NoPaperForms script loaded successfully");
+            };
+
+            script.onerror = function() {
+                console.warn("⚠️ NoPaperForms script failed to load.");
+                if (retry < 3) {
+                    console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                    setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                }
+            };
+
+            document.body.appendChild(script);
+        }
+
+        loadNPFScript(); // Initial script load
+    });
+</script>
+
+<script>
+    window.addEventListener("error", function(e) {
+        if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+            console.warn("🚨 NoPaperForms script failed to load.");
+        }
+        e.preventDefault(); // Ignore errors from other scripts
+    }, true);
 </script>
 
 <!-- Go To Top
