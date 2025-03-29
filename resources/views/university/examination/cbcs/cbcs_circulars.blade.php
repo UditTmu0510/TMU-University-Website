@@ -20,14 +20,60 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td>11-Mar-2025</td>
+                                <td>Circular regarding Suspension of Classes between 12-15 Mar, 2025</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/march/Circular_094.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
                                 <td>07-Mar-2025</td>
                                 <td>Circular regarding Change of Name from Faculty of Engineering to Teerthanker Mahaveer University College of Engineering.</td>
                                 <td class="text-center"><a href="{{asset('/assets/pdf/announcement/2025/march/Circular_097.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
                             </tr>
                             <tr>
-                                <td>11-Mar-2025</td>
-                                <td>Circular regarding Suspension of Classes between 12-15 Mar, 2025</td>
-                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/march/Circular_094.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                                <td>28-Feb-2025</td>
+                                <td>Circular regarding NPTEL local Chapter & Swayam Registration</td>
+                                <td class="text-center"><a href="{{asset('/assets/pdf/announcement/2025/feb/Circular_091.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>22-Feb-2025</td>
+                                <td>Circular regarding Re-constitution of Admission Committee </td>
+                                <td class="text-center"><a href="{{asset('/assets/pdf/announcement/2025/feb/Circular_051_R.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>20-Feb-2025</td>
+                                <td>Mandatory use of Helmets and Seat Belts within the University Premises</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/feb/Circular_090.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>18-Feb-2025</td>
+                                <td>Circular regarding Re-constitution of ERP Committee.</td>
+                                <td class="text-center"><a href="{{asset('/assets/pdf/announcement/2025/feb/TMU_ERP_Committee.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>11-Feb-2025</td>
+                                <td>Circular regarding Re-constitution of Standing Committee.</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/feb/TMU_Standing_Committee.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>01-Feb-2025</td>
+                                <td>Conduction of Internal Audit of Colleges/ Offices/Cells/ Centres/ Infrastructural Facilities from February 22-28, 2025</td>
+                                <td class="text-center"><a href="{{asset('/assets/pdf/announcement/2025/feb/Circular_080_R4.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>29-Jan-2025</td>
+                                <td>Regarding the last date of tuition fee submission for Even Semester Session 2024-25 (Except Medical & Dental).</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/jan/Circular_089.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>25-Jan-2025</td>
+                                <td>Subject-Participation of Students in Mahakumbh-2025 "Vayam Program", Prayagraj.</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/jan/Circular-087.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+
+                            <tr>
+                                <td>20-Nov-2024</td>
+                                <td>Circular regarding Use of Official Email and Contact number for Communication</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2024/Circular_073.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
                             </tr>
                             <tr>
                                 <td>02-Mar-2023</td>
