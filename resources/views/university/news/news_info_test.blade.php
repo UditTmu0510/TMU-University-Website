@@ -1,218 +1,248 @@
 @extends('layouts.university.news_single')
 @section('content')
-
-
-<style>
-    .grid-item {
-        padding: 0;
-        /* Remove any padding if you want the images to be closer together */
-        margin-bottom: 20px;
-        /* Adjust this value to increase row space */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        /* Add shadow effect */
-        border: 2px solid #FF7900;
-        /* Add border with the specified color */
-        border-radius: 5px;
-        /* Optional: add border radius for better appearance */
-        overflow: hidden;
-        /* To ensure box-shadow is visible */
-    }
-
-    .row[data-lightbox="gallery"] {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        /* Adjust this value to reduce column space */
-    }
-
-    .col-4 {
-        flex: 1 1 calc(33.333% - 10px);
-        /* 3 items per row with space between */
-    }
-
-    .entry-content ul {
-        padding-left: 0;
-        /* Removes default padding */
-        margin-left: 0;
-        /* Removes default margin */
-        list-style-position: inside;
-        /* Moves the bullet inside the list item's padding */
-    }
-
-    .entry-content ol {
-        padding-left: 0;
-        /* Removes default padding */
-        margin-left: 0;
-        /* Removes default margin */
-        list-style-position: inside;
-        /* Moves the bullet inside the list item's padding */
-    }
-
-    .entry-content ul li {
-        margin-bottom: 10px;
-        /* Space between list items */
-        padding-left: 30px;
-        /* Align content with bullets */
-        text-indent: -20px;
-        /* Offset text indentation to align with bullet */
-    }
-
-    .entry-content ol li {
-        margin-bottom: 10px;
-        /* Space between list items */
-        padding-left: 20px;
-        /* Align content with bullets */
-        text-indent: -15px;
-        /* Offset text indentation to align with bullet */
-    }
-
-
-
-    @media (max-width: 768px) {
-
-        /* Tablet and Mobile view */
-        .col-4 {
-            flex: 1 1 calc(50% - 10px);
-            /* 2 items per row */
+    <style>
+        .grid-item {
+            padding: 0;
+            /* Remove any padding if you want the images to be closer together */
+            margin-bottom: 20px;
+            /* Adjust this value to increase row space */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Add shadow effect */
+            border: 2px solid #FF7900;
+            /* Add border with the specified color */
+            border-radius: 5px;
+            /* Optional: add border radius for better appearance */
+            overflow: hidden;
+            /* To ensure box-shadow is visible */
         }
-    }
-</style>
 
-<!-- Page Title
-		============================================= -->
-<section class="news-page-title page-title bg-transparent">
-    <div class="container">
-        <div class="page-title-row">
+        .row[data-lightbox="gallery"] {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            /* Adjust this value to reduce column space */
+        }
 
-            <div>
-                <h2 class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3"><span>TMU </span><span> NEWS</span></h2>
-                <!-- <h2 class="news-page-title-text">TMU News</h2> -->
+        .col-4 {
+            flex: 1 1 calc(33.333% - 10px);
+            /* 3 items per row with space between */
+        }
+
+        .entry-content ul {
+            padding-left: 0;
+            /* Removes default padding */
+            margin-left: 0;
+            /* Removes default margin */
+            list-style-position: inside;
+            /* Moves the bullet inside the list item's padding */
+        }
+
+        .entry-content ol {
+            padding-left: 0;
+            /* Removes default padding */
+            margin-left: 0;
+            /* Removes default margin */
+            list-style-position: inside;
+            /* Moves the bullet inside the list item's padding */
+        }
+
+        .entry-content ul li {
+            margin-bottom: 10px;
+            /* Space between list items */
+            padding-left: 30px;
+            /* Align content with bullets */
+            text-indent: -20px;
+            /* Offset text indentation to align with bullet */
+        }
+
+        .entry-content ol li {
+            margin-bottom: 10px;
+            /* Space between list items */
+            padding-left: 20px;
+            /* Align content with bullets */
+            text-indent: -15px;
+            /* Offset text indentation to align with bullet */
+        }
+
+
+
+        @media (max-width: 768px) {
+
+            /* Tablet and Mobile view */
+            .col-4 {
+                flex: 1 1 calc(50% - 10px);
+                /* 2 items per row */
+            }
+        }
+
+        .npf_wgts {
+            display: flex;
+            justify-content: center;
+            /* Centers the iframe horizontally */
+            align-items: center;
+            /* Centers it vertically (optional) */
+        }
+    </style>
+
+    <!-- Page Title
+      ============================================= -->
+    <section class="news-page-title page-title bg-transparent">
+        <div class="container">
+            <div class="page-title-row">
+
+                <div>
+                    <h2
+                        class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3">
+                        <span>TMU </span><span> NEWS</span></h2>
+                    <!-- <h2 class="news-page-title-text">TMU News</h2> -->
+                </div>
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ route('tmuhome') }}">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a
+                                href="{{ route('all_news.post') }}">News</a></li>
+                    </ol>
+                </nav>
+
             </div>
-
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{route('tmuhome')}}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><a href="{{route('all_news.post')}}">News</a></li>
-                </ol>
-            </nav>
-
         </div>
-    </div>
-</section><!-- .page-title end -->
+    </section><!-- .page-title end -->
 
-<!-- Content
-		============================================= -->
-<section id="content">
-    <div class="content-wrap">
-        <div class="container col-12 col-md-7">
+    <!-- Content
+      ============================================= -->
+    <section id="content">
+        <div class="content-wrap">
+            <div class="container col-12 col-md-7">
 
-            <div class="single-post mb-0">
+                <div class="single-post mb-0">
 
-                <!-- Single Post
-						============================================= -->
-                <div class="entry">
+                    <!-- Single Post
+          ============================================= -->
+                    <div class="entry">
 
-                    <!-- Entry Title
-							============================================= -->
-                    <div class="entry-title mb-3">
-                        <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
-                        </span><span></span></h1>
-                    </div><!-- .entry-title end -->
+                        <!-- Entry Title
+           ============================================= -->
+                        <div class="entry-title mb-3">
+                            <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
+                                </span><span></span></h1>
+                        </div><!-- .entry-title end -->
 
-                    <!-- Entry Meta
-							============================================= -->
-                    <div class="entry-meta  ">
-                        <ul>
-                            <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{ \Carbon\Carbon::parse($news->event_date)->format('d-m-Y') }}</li>
-                            <li style="margin: 0 0 8px 0;">
-                                <i class="uil uil-folder-open"></i>
-                                <a href="#" class="category-link" data-category="{{$news->category}}">{{ $news->category }}</a>
-                            </li>
+                        <!-- Entry Meta
+           ============================================= -->
+                        <div class="entry-meta  ">
+                            <ul>
+                                <li style="margin: 0 0 8px 0;"><i
+                                        class="uil uil-schedule"></i>{{ \Carbon\Carbon::parse($news->event_date)->format('d-m-Y') }}
+                                </li>
+                                <li style="margin: 0 0 8px 0;">
+                                    <i class="uil uil-folder-open"></i>
+                                    <a href="#" class="category-link"
+                                        data-category="{{ $news->category }}">{{ $news->category }}</a>
+                                </li>
 
 
-                            <form id="categoryForm" method="POST" action="{{ route('all_news.post') }}" style="display: none;">
-                                @csrf
-                                <input type="hidden" name="news_category" id="categoryInput">
-                            </form>
-                        </ul>
-                    </div><!-- .entry-meta end -->
+                                <form id="categoryForm" method="POST" action="{{ route('all_news.post') }}"
+                                    style="display: none;">
+                                    @csrf
+                                    <input type="hidden" name="news_category" id="categoryInput">
+                                </form>
+                            </ul>
+                        </div><!-- .entry-meta end -->
 
-                    <!-- Entry Image
-							============================================= -->
-                    <div class="entry-image mb-5">
-                        <a href="#">
-                        <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}" alt="Blog Single">
-                        </a>
-                    </div><!-- .entry-image end -->
+                        <!-- Entry Image
+           ============================================= -->
+                        <div class="entry-image mb-5">
+                            <a href="#">
+                                <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
+                                    alt="Blog Single">
+                            </a>
+                        </div><!-- .entry-image end -->
 
-                    <!-- Entry Content
-							============================================= -->
-                    <div class="entry-content mt-0">
+                        <!-- Entry Content
+           ============================================= -->
+                        <div class="entry-content mt-0">
 
-                        <!-- Post Single - Content End -->
-                        <p style="text-align:justify">
-                            @php
-                                $content = nl2br(html_entity_decode($news->event_full_description));
-                                $insertCode = '';
-                        
-                                if (!request()->ajax()) {
-                                    $insertCode = '<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                            <!-- Post Single - Content End -->
+                            <p style="text-align:justify">
+                                @php
+                                    $content = nl2br(html_entity_decode($news->event_full_description));
+                                    $insertCode = '';
+
+                                    if (!request()->ajax()) {
+                                        $insertCode = '<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                                                     <span>Apply For Admissions</span><span></span>
                                                   </h2>
                                                   <div class="npf_wgts justify-content-center text-center" data-height="530px" data-w="fced4875037a3071c2bc93dc1c15ae45" style="margin-bottom: 20px; max-width:675px;"></div>';
-                                }
-                        
-                                $count = 0;
-                                $content = preg_replace_callback('/(<h2\b[^>]*>.*?<\/h2>)/i', function ($matches) use (&$count, $insertCode) {
-                                    $count++;
-                                    return ($count === 2) ? $insertCode . $matches[0] : $matches[0];
-                                }, $content);
-                        
-                                echo $content;
-                            @endphp
-                        </p>
-                        
-                        
+                                    }
 
-                        <section id="content">
-                            <div class="content-wrap">
-                                <div class="container">
-                                    <div class="row " data-lightbox="gallery">
-                                        @if(!empty($news->ei1_path) && file_exists(public_path($news->ei1_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei1_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei1_path) }}" alt="Gallery Thumb 1"></a>
-                                        @endif
+                                    $count = 0;
+                                    $content = preg_replace_callback(
+                                        '/(<h2\b[^>]*>.*?<\/h2>)/i',
+                                        function ($matches) use (&$count, $insertCode) {
+                                            $count++;
+                                            return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+                                        },
+                                        $content,
+                                    );
 
-                                        @if(!empty($news->ei2_path) && file_exists(public_path($news->ei2_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei2_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei2_path) }}" alt="Gallery Thumb 2"></a>
-                                        @endif
-
-                                        @if(!empty($news->ei3_path) && file_exists(public_path($news->ei3_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei3_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei3_path) }}" alt="Gallery Thumb 3"></a>
-                                        @endif
-
-                                        @if(!empty($news->ei4_path) && file_exists(public_path($news->ei4_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei4_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei4_path) }}" alt="Gallery Thumb 4"></a>
-                                        @endif
-
-                                        @if(!empty($news->ei5_path) && file_exists(public_path($news->ei5_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei5_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei5_path) }}" alt="Gallery Thumb 5"></a>
-                                        @endif
-
-                                        @if(!empty($news->ei6_path) && file_exists(public_path($news->ei6_path)))
-                                        <a class="grid-item col-4" href="{{ asset($news->ei6_path) }}" data-lightbox="gallery-item"><img src="{{ asset($news->ei6_path) }}" alt="Gallery Thumb 6"></a>
-                                        @endif
+                                    echo $content;
+                                @endphp
+                            </p>
 
 
+
+                            <section id="content">
+                                <div class="content-wrap">
+                                    <div class="container">
+                                        <div class="row " data-lightbox="gallery">
+                                            @if (!empty($news->ei1_path) && file_exists(public_path($news->ei1_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei1_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei1_path) }}"
+                                                        alt="Gallery Thumb 1"></a>
+                                            @endif
+
+                                            @if (!empty($news->ei2_path) && file_exists(public_path($news->ei2_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei2_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei2_path) }}"
+                                                        alt="Gallery Thumb 2"></a>
+                                            @endif
+
+                                            @if (!empty($news->ei3_path) && file_exists(public_path($news->ei3_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei3_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei3_path) }}"
+                                                        alt="Gallery Thumb 3"></a>
+                                            @endif
+
+                                            @if (!empty($news->ei4_path) && file_exists(public_path($news->ei4_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei4_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei4_path) }}"
+                                                        alt="Gallery Thumb 4"></a>
+                                            @endif
+
+                                            @if (!empty($news->ei5_path) && file_exists(public_path($news->ei5_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei5_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei5_path) }}"
+                                                        alt="Gallery Thumb 5"></a>
+                                            @endif
+
+                                            @if (!empty($news->ei6_path) && file_exists(public_path($news->ei6_path)))
+                                                <a class="grid-item col-4" href="{{ asset($news->ei6_path) }}"
+                                                    data-lightbox="gallery-item"><img src="{{ asset($news->ei6_path) }}"
+                                                        alt="Gallery Thumb 6"></a>
+                                            @endif
+
+
+                                        </div>
+
+                                        <div class="divider"><i class="bi-circle-fill"></i></div>
                                     </div>
-
-                                    <div class="divider"><i class="bi-circle-fill"></i></div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
 
-                        <!-- Tag Cloud
-								============================================= -->
-                        {{-- <h3 class="mb-2">Categories</h3>
+                            <!-- Tag Cloud
+            ============================================= -->
+                            {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
                                 <a href="#">information</a>
@@ -222,12 +252,12 @@
                                 <a href="#">illustration</a>
                             </div><!-- .tagcloud end --> --}}
 
-                        <div class="clear"></div>
-                    </div>
-                </div><!-- .entry end -->
+                            <div class="clear"></div>
+                        </div>
+                    </div><!-- .entry end -->
 
-                {{-- <h4 class="fs-4 fw-medium">Recommended for you</h4> --}}
-                {{-- <div class="related-posts row posts-md g-4">
+                    {{-- <h4 class="fs-4 fw-medium">Recommended for you</h4> --}}
+                    {{-- <div class="related-posts row posts-md g-4">
                         <div class="entry col-12 col-md-6 col-lg-4">
                             <div class="grid-inner row align-items-center gx-4">
                                 <div class="col-auto">
@@ -299,9 +329,9 @@
                         </div>
                     </div> --}}
 
-                <!-- Comments
-						============================================= -->
-                {{-- <div id="comments">
+                    <!-- Comments
+          ============================================= -->
+                    {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
 
@@ -474,63 +504,62 @@
 
                     </div><!-- #comments end --> --}}
 
+                </div>
+
             </div>
-
         </div>
+    </section><!-- #content end -->
+
     </div>
-</section><!-- #content end -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.category-link').on('click', function(e) {
+                e.preventDefault(); // Prevent default link behavior
 
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('.category-link').on('click', function(e) {
-            e.preventDefault(); // Prevent default link behavior
-
-            var category = $(this).data('category'); // Get category from data attribute
-            $('#categoryInput').val(category); // Set category value in hidden form
-            $('#categoryForm').submit(); // Submit the hidden form
+                var category = $(this).data('category'); // Get category from data attribute
+                $('#categoryInput').val(category); // Set category value in hidden form
+                $('#categoryForm').submit(); // Submit the hidden form
+            });
         });
-    });
-</script>
+    </script>
 
-<script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function() {
-        function loadNPFScript(retry = 0) {
-            var script = document.createElement("script");
-            script.type = "text/javascript";
-            script.async = true;
-            script.src = "https://widgets.nopaperforms.com/emwgts.js";
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            function loadNPFScript(retry = 0) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = true;
+                script.src = "https://widgets.nopaperforms.com/emwgts.js";
 
-            script.onload = function() {
-                console.log("✅ NoPaperForms script loaded successfully");
-            };
+                script.onload = function() {
+                    console.log("✅ NoPaperForms script loaded successfully");
+                };
 
-            script.onerror = function() {
-                console.warn("⚠️ NoPaperForms script failed to load.");
-                if (retry < 3) {
-                    console.log(`🔄 Retrying (${retry + 1}/3)...`);
-                    setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
-                }
-            };
+                script.onerror = function() {
+                    console.warn("⚠️ NoPaperForms script failed to load.");
+                    if (retry < 3) {
+                        console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                        setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                    }
+                };
 
-            document.body.appendChild(script);
-        }
+                document.body.appendChild(script);
+            }
 
-        loadNPFScript(); // Initial script load
-    });
-</script>
+            loadNPFScript(); // Initial script load
+        });
+    </script>
 
-<script>
-    window.addEventListener("error", function(e) {
-        if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
-            console.warn("🚨 NoPaperForms script failed to load.");
-        }
-        e.preventDefault(); // Ignore errors from other scripts
-    }, true);
-</script>
+    <script>
+        window.addEventListener("error", function(e) {
+            if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+                console.warn("🚨 NoPaperForms script failed to load.");
+            }
+            e.preventDefault(); // Ignore errors from other scripts
+        }, true);
+    </script>
 
-<!-- Go To Top
-	============================================= -->
-
+    <!-- Go To Top
+     ============================================= -->
 @endsection
