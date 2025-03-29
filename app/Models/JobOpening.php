@@ -13,8 +13,8 @@ class JobOpening extends Model
         'description',
         'responsibilities',
         'requirements',
-        'image_path',
         'status',
+        'priority'
     ];
 
 }
