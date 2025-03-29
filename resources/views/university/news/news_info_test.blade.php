@@ -75,13 +75,7 @@
             }
         }
 
-        .npf_wgts {
-            display: flex;
-            justify-content: center;
-            /* Centers the iframe horizontally */
-            align-items: center;
-            /* Centers it vertically (optional) */
-        }
+        
     </style>
 
     <!-- Page Title
@@ -168,14 +162,16 @@
                                 @php
                                     $content = nl2br(html_entity_decode($news->event_full_description));
                                     $insertCode = '';
-
+                            
                                     if (!request()->ajax()) {
                                         $insertCode = '<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                                                    <span>Apply For Admissions</span><span></span>
-                                                  </h2>
-                                                  <div class="npf_wgts justify-content-center text-center" data-height="530px" data-w="fced4875037a3071c2bc93dc1c15ae45" style="margin-bottom: 20px; max-width:675px;"></div>';
+                                                        <span>Apply For Admissions</span><span></span>
+                                                      </h2>
+                                                      <div class="npf_wgts" data-height="530px" data-w="fced4875037a3071c2bc93dc1c15ae45"
+                                                           style="margin-bottom: 20px; max-width:675px; display: flex; justify-content: center; align-items: center; margin-left: auto; margin-right: auto;">
+                                                      </div>';
                                     }
-
+                            
                                     $count = 0;
                                     $content = preg_replace_callback(
                                         '/(<h2\b[^>]*>.*?<\/h2>)/i',
@@ -183,13 +179,12 @@
                                             $count++;
                                             return $count === 2 ? $insertCode . $matches[0] : $matches[0];
                                         },
-                                        $content,
+                                        $content
                                     );
-
+                            
                                     echo $content;
                                 @endphp
-                            </p>
-
+                            </p>                         
 
 
                             <section id="content">
