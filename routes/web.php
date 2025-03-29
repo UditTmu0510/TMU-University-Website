@@ -1159,3 +1159,4 @@ Route::get('ciks/execution', [CiksController::class, 'ciks_execution'])->name('c
 
 
 Route::get('test/blog/npf-form', [TestController::class, 'blog_info_test'])->name('blog.info.test');
+Route::get('test/news/npf-form', [TestController::class, 'news_info_test'])->name('news.info.test');
