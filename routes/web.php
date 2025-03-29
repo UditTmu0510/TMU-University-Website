@@ -24,6 +24,7 @@ use App\Http\Controllers\Backend\NaacKeyIndicatorController;
 use App\Http\Controllers\Backend\NaacMetricController;
 use App\Http\Controllers\Backend\NaacPdfsController;
 use App\Http\Controllers\Backend\DepartmentDesignationController;
+use App\Http\Controllers\Backend\Jobopenings;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Backend\CtldController;
@@ -338,6 +339,17 @@ Route::middleware(['auth', 'roles:admin'])->group(function () {
         Route::match(['get', 'post'], '/jobapplication/data/{id}/generate-pdf', 'generate_pdf')->name('generate.jobapplication.pdf')->middleware('permission:Generate Job Application Pdf');
         Route::get('/export-job-applications', 'exportJobApplications')->name('export.jobapplications')->middleware('permission:Export Job Applications');
     });
+
+    Route::controller(Jobopenings::class)->group(function () {
+        Route::get('admin/jobopening/show','index')->name('all.jobopenings')->middleware('permission:View All Job Openings');
+      Route::get('admin/jobopening/add','create')->name('add.jobopening')->middleware('permission:Add Job Opening');
+      Route::post('admin/jobopening/store','store')->name('store.jobopening')->middleware('permission:Add Job Opening');
+      Route::get('/admin/jobopening/{id}/edit', 'edit')->name('edit.jobopening')->middleware('permission:Edit Job Opening');
+      Route::post('/admin/jobopening/{id}/update', 'update')->name('update.jobopening')->middleware('permission:Edit Job Opening');
+      Route::get('/admin/jobopening/{id}/delete', 'destroy')->name('delete.jobopening')->middleware('permission:Delete Job Opening');
+    });
+
+
 
     Route::controller(NaacCriterionController::class)->group(function () {
         Route::match(['get', 'post'], '/add/naac-criterion', 'store')->name('add.naac_criterion')->middleware('permission:Add NAAC Criterion');
