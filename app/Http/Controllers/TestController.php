@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blogs;
+use App\Models\News;
 use App\Models\BlogsCategory;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
@@ -119,5 +120,13 @@ class TestController extends Controller
 
         // Get top-level comments and their direct replies
         return $buildTree(null); // Start with null to get top-level comments
+    }
+
+    public function news_info_test()
+    {
+      $slug = "foundation-course-for-mbbs-batch-2024-25-at-tmmcrc";
+      $news = News::where('n_slug', $slug)->where('status', 1)->firstOrFail();
+      return view('university.news.news_info_test', compact('news'));
+   
     }
 }
