@@ -205,14 +205,14 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-8 d-flex align-items-center">
+        <div class="col-lg-10 justitfy-content-center">
 
 @if ($programme->usp_section_flag == 'Y' && !empty($programme->about_prog))
 <!-- Scholarship code start -->
 <div class="container mt-2">
     <div class="row ">
         <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-            <h2 class="tmu-text-primary fs-26 mb-0 pb-0 text-start"><span>About</span>
+            <h2 class="tmu-text-primary fs-26 mb-0 pb-0 text-center"><span>About</span>
                 <span>{{ $programme->prog_name }}</span>
             </h2>
         </div>
@@ -227,7 +227,12 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @endif
 
         </div>
-        <div class="col-md-4 mt-5">
+        
+    </div>
+</div>
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                 <span>Apply For Admissions</span><span></span>
               </h2>
