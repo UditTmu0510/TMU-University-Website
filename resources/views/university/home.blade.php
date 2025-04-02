@@ -288,7 +288,7 @@
                                             </div>
                                             <div class="entry-meta pt-2">
                                                 <ul>
-                                                    <li><i class="uil uil-schedule"></i> {{$event->event_date}}</li>
+                                                    <li><i class="uil uil-schedule"></i> {{ \Carbon\Carbon::parse($event->event_date)->format('d-m-Y') }}</li>
                                                     <li><a href="{{'news/'.$event->n_slug}}" target="_blank">Read More</a></li>
                                                     {{-- <li><a href="blog-single.html#comments"><i class="uil uil-comments-alt"></i> 13</a></li> --}}
                                                 </ul>
@@ -405,6 +405,62 @@
                         <div class="notice-header">NOTICE BOARD</div>
                         <div class="notice-body">
 
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>27, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Samarthya Bodh 3.0 – A Mock Placement Drive & Expert Talk by CTLD on 28th March 2025, 09:30 AM at TMU Auditorium for Pre-final Year B.Tech & Final Year MCA students. Don’t miss out!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CTLD</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>26, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Attend a motivational talk on “The Art of Communication Skills: Bridging the Gap Between Patients and Professionals” by Dr. Pankaj Kumar Singh on 29th March 2025, 11:00 AM at 4th Floor, College of Paramedical Sciences.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Paramedical Sciences</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>26, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Department of Forensic Science, TMU, is hosting an expert talk-cum-workshop on “Innovation in Cyber Suraksha & Role of IT Act” on 27th March 2025 at 11:00 AM in the University Auditorium.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Paramedical Sciences</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 27, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>26, March</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Join the workshop on "Quality Enhancement in Research – IPR & Academic Identities" on 28th March 2025 at 10:00 AM in the Smart Classroom. Enhance research quality, learn reference management, and patent drafting.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Nursing </span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28, March</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
                                     <span>18, March</span>

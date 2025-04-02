@@ -460,6 +460,22 @@
   </li>
   @endif
 
+  @if(Auth::user()->can('View All Job Openings'))
+  <li>
+    <a href="{{route('all.jobopenings')}}">
+      <i class="bi bi-circle"></i><span>All Job Openings</span>
+    </a>
+  </li>
+  @endif
+
+  @if(Auth::user()->can('Add Job Opening'))
+  <li>
+    <a href="{{route('add.jobopening')}}">
+      <i class="bi bi-circle"></i><span>Add Job Opening</span>
+    </a>
+  </li>
+  @endif
+
 
   @if(Auth::user()->can('View All Jobs'))
   <li>
@@ -578,6 +594,9 @@
 
         </ul>
       </li>
+
+
+      
 
        <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#manage-aebes-nav" data-bs-toggle="collapse" href="#">

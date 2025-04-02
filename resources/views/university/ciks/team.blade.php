@@ -9,7 +9,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Dr. Anupam Jain">
+                        <img src="{{asset('/assets/img//ciks/team/anupam.jpg')}}" class="card-img-top" alt="Dr. Anupam Jain">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Anupam Jain</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold "><span></span><span>Professor Chair, CIKS</span></p>
@@ -29,7 +29,7 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Dr. Vivek Pathak">
+                        <img src="{{asset('/assets/img//ciks/team/vivek.jpg')}}" class="card-img-top" alt="Dr. Vivek Pathak">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Vivek Pathak</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold"><span></span><span>Assistant Professor</span></p>
@@ -39,20 +39,10 @@
 
                 <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
                     <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Dr. Amisha Singh">
+                        <img src="{{asset('/assets/img//ciks/team/amisha.jpg')}}" class="card-img-top" alt="Dr. Amisha Singh">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Amisha Singh</span><span></span></h5>
                             <p class="card-text tmu-text-primary fs-14 fw-bold "><span></span><span>Assistant Professor</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 col-xl-4 col-md-6 col-xs-12">
-                    <div class="card card-animation admin-cards">
-                        <img src="{{asset('/assets/img/journal/user.jpg')}}" class="card-img-top" alt="Mrs. Jyoti Sharma">
-                        <div class="card-body text-center">
-                            <h5 class="card-title tmu-text-primary fw-bold"><span>Mrs. Jyoti Sharma</span><span></span></h5>
-                            <p class="card-text tmu-text-primary fs-14 fw-bold"><span></span><span>Office Assistant </span></p>
                         </div>
                     </div>
                 </div>

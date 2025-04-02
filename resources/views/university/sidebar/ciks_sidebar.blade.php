@@ -3,7 +3,7 @@
         <span class="close-btn" id="closeSidebar">&times;</span>
     </div>
     <div class="custom-menu-section">
-        <h2>About Ciks</h2>
+        <h2>About CIKS</h2>
         <div class="account-section">
             <a href="{{ route('ciks.aboutus') }}" class="custom-menu-item {{ setActive('ciks.aboutus') }}">
                 <p>Overview</p>
@@ -23,9 +23,9 @@
             <a href="{{ route('ciks.events') }}" class="custom-menu-item {{ setActive('ciks.events') }}">
                 <p>Events</p>
             </a>
-            {{-- <a href="{{ route('ciks.media_coverage') }}" class="custom-menu-item {{ setActive('ciks.media_coverage') }}">
+            <a href="{{ route('ciks.media_coverage') }}" class="custom-menu-item {{ setActive('ciks.media_coverage') }}">
                 <p>Media Coverage</p>
-            </a> --}}
+            </a>
             <a href="{{ route('ciks.gallery') }}" class="custom-menu-item {{ setActive('ciks.gallery') }}">
                 <p>Gallery</p>
             </a>

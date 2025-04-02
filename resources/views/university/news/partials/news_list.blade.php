@@ -153,7 +153,7 @@
                 </div>
                 <div class="entry-meta mt-3">
                     <ul>
-                        <li><i class="uil uil-schedule"></i> {{ $item->event_date }}</li>
+                        <li><i class="uil uil-schedule"></i> {{ \Carbon\Carbon::parse($item->event_date)->format('d-m-Y') }}</li>
                         <li><a href="#"><i class="uil uil-user"></i> admin</a></li>
                         <li><i class="uil uil-folder-open"></i> <a href="#">{{ $item->category }}</a></li>
                     </ul>

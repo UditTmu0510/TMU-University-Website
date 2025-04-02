@@ -33,8 +33,12 @@
               {{session('error')}}
             </div>
             @endif
+            <div class="d-flex justify-content-between mb-3 mt-3">
             <!-- Table with stripped rows -->
-
+            @if(Auth::user()->can('Export Job Applications'))
+            <a href="{{route('export.jobapplications')}}" class="btn btn-success" />Export Jobs Data</a>
+        @endif
+            </div>
 
 <div class="table-responsive">
             <table class="table datatable">

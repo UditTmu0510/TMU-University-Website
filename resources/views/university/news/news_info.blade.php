@@ -123,7 +123,7 @@
 							============================================= -->
                     <div class="entry-meta  ">
                         <ul>
-                            <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{$news->event_date}}</li>
+                            <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{ \Carbon\Carbon::parse($news->event_date)->format('d-m-Y') }}</li>
                             <li style="margin: 0 0 8px 0;">
                                 <i class="uil uil-folder-open"></i>
                                 <a href="#" class="category-link" data-category="{{$news->category}}">{{ $news->category }}</a>
