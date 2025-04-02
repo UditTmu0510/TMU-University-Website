@@ -227,7 +227,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @endif
 
         </div>
-        <div class="col-md-4 mt-3">
+        <div class="col-md-4 mt-5">
             <div class="npf_wgts" data-height="600px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
         </div>
     </div>
