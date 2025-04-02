@@ -426,15 +426,6 @@ $programme->eligibility_section_flag == 'Y' &&
     @endforeach
 </div>
 
-<script>
-    // Example JavaScript to toggle the 'clicked' class
-document.querySelectorAll('.careers-accordion').forEach(function(button) {
-    button.addEventListener('click', function() {
-        this.classList.toggle('clicked');
-    });
-});
-
-</script>
 
         <!-- <div class="row mx-0">
                             @foreach ($faqs as $faq)
