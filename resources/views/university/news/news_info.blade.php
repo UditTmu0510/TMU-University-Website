@@ -132,8 +132,9 @@
 
                             <form id="categoryForm" method="POST" action="{{ route('all_news.post') }}" style="display: none;">
                                 @csrf
+                                <input type="hidden" name="filters_submitted" value="1">
                                 <input type="hidden" name="news_category" id="categoryInput">
-                            </form>
+                            </form>                            
                         </ul>
                     </div><!-- .entry-meta end -->
 
