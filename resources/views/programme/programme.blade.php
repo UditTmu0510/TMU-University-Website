@@ -226,6 +226,15 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 </div>
 @endif
 
+        </div>
+        <div class="col-md-4">
+            <div class="npf_wgts" data-height="800px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+        </div>
+    </div>
+</div>
+
+
+
 @if ($programme->fee_structure_section_flag == 'Y' && !empty($fee_details))
 <!-- Fee Structure code start -->
 <div class="container">
@@ -292,13 +301,6 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 
 <!-- Fee Structure code end -->
 @endif
-
-        </div>
-        <div class="col-md-4">
-            <div class="npf_wgts" data-height="400px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
-        </div>
-    </div>
-</div>
 
 
 
