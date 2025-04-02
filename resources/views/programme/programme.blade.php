@@ -210,9 +210,9 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @if ($programme->usp_section_flag == 'Y' && !empty($programme->about_prog))
 <!-- Scholarship code start -->
 <div class="container mt-2">
-    <div class="row justify-content-center ">
+    <div class="row ">
         <div class="col-xl-10 col-lg-10 text-center d-none d-sm-block">
-            <h2 class="tmu-text-primary fs-26 mb-0 pb-0"><span>About</span>
+            <h2 class="tmu-text-primary fs-26 mb-0 pb-0 text-start"><span>About</span>
                 <span>{{ $programme->prog_name }}</span>
             </h2>
         </div>
@@ -229,9 +229,9 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @if ($programme->fee_structure_section_flag == 'Y' && !empty($fee_details))
 <!-- Fee Structure code start -->
 <div class="container">
-    <div class="row justify-content-center ">
+    <div class="row ">
         <div class="col-xl-10 col-lg-10 text-center mt-4">
-            <h2 class="tmu-text-primary fs-26 mb-0 pb-0"><span>Fee Structure for
+            <h2 class="tmu-text-primary fs-26 mb-0 pb-0 text-start"><span>Fee Structure for
                 </span><span>{{ $programme->prog_name }}</span></h2>
 
         </div>
@@ -415,7 +415,7 @@ $programme->eligibility_section_flag == 'Y' &&
 @if ($programme->faq_section_flag == 'Y')
 <section class="my-5">
     <div class="container">
-        <h2 class="tmu-text-primary mb-3 fs-26 lh-sm mt-4 mb-0 pb-0 text-center">
+        <h2 class="tmu-text-primary fs-26 lh-sm mt-4 mb-0 pb-0 text-center">
             <span>{{ str_ireplace('programme', '', $programme->prog_name) }}</span><span> Programme Overview </span>
         </h2>
 
@@ -448,6 +448,6 @@ $programme->eligibility_section_flag == 'Y' &&
 @endif
 <!-- Section for FAQ end -->
 
-&lt;script type="text/javascript"&gt; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s); &lt;/script&gt;
+<script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
 
 @endsection
