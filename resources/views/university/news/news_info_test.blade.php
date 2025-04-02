@@ -168,7 +168,7 @@
                                                         <span>Apply For Admissions</span><span></span>
                                                       </h2>
                                                       <div class="npf_wgts" data-height="530px" data-w="fced4875037a3071c2bc93dc1c15ae45"
-                                                           style="margin-bottom: 20px; max-width:675px; display: flex; justify-content: center; align-items: center; margin-left: auto; margin-right: auto;">
+                                                           style="margin-bottom: 20px; max-width:450px; display: flex; justify-content: center; align-items: center; margin-left: auto; margin-right: auto;">
                                                       </div>';
                                     }
                             
