@@ -1116,6 +1116,12 @@ Route::get('/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{f
     return redirect()->to("/assets/data/naac-data/Criterion-I/Key-Indicator-1.3/Metric-1.3.2/{$file}", 301);
 });
 
+// Apply Now 
+
+Route::get('/apply-now', function () {
+    return redirect()->away('https://admissions.tmu.ac.in/', 301);
+});
+
 
 
 // End of the Sarvagya Routes
