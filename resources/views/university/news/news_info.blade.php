@@ -126,7 +126,7 @@
                             <li style="margin: 0 0 8px 0;"><i class="uil uil-schedule"></i>{{ \Carbon\Carbon::parse($news->event_date)->format('d-m-Y') }}</li>
                             <li style="margin: 0 0 8px 0;">
                                 <i class="uil uil-folder-open"></i>
-                                <a href="#" class="category-link" data-category="{{$news->category}}">{{ $news->category }}</a>
+                                <a href="#" class="category-link" data-category-id="{{ $categoryId }}">{{ $news->category }}</a>
                             </li>
 
 
@@ -469,14 +469,14 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('.category-link').on('click', function(e) {
-            e.preventDefault(); // Prevent default link behavior
-
-            var category = $(this).data('category'); // Get category from data attribute
-            $('#categoryInput').val(category); // Set category value in hidden form
-            $('#categoryForm').submit(); // Submit the hidden form
-        });
+    $('.category-link').on('click', function(e) {
+        e.preventDefault();
+        var categoryId = $(this).data('category-id');
+        $('#categoryInput').val(categoryId);
+        $('#categoryForm').submit();
     });
+});
+
 </script>
 
 <!-- Go To Top

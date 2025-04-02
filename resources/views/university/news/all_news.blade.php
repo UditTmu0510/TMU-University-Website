@@ -10,59 +10,86 @@
                     <span>TMU</span> <span>News</span>
                 </h1>
 
-                <!-- Filter Form Section ============================================= -->
-                <section id="content">
-                    <div class="content-wrap">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <form id="filterForm" method="POST" action="{{ route('all_news.post') }}">
-                                                @csrf
-                                                <div class="row">
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="news_category" class="form-label fw-bold fs-16">News Category</label>
-                                                        <select class="form-select" name="news_category" id="news_category">
-                                                            <option value="" {{ request('news_category') == '' ? 'selected' : '' }}>Select Category</option>
-                                                            @foreach ($news_categories as $news_category)
-                                                            <option value="{{ $news_category->id }}" {{ request('news_category') == $news_category->id ? 'selected' : '' }}>
+                <!-- Filter Form Section -->
+                <section>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        @php
+                                            $selectedCategory = request()->has('news_category') && request('news_category') !== ''
+                                                ? request('news_category')
+                                                : (session()->has('news_category') ? session('news_category') : '');
+
+                                            $selectedCollege = request()->has('college_name') && request('college_name') !== ''
+                                                ? request('college_name')
+                                                : (session()->has('college_name') ? session('college_name') : '');
+
+                                            $fromDate = request()->has('from_date') && request('from_date') !== ''
+                                                ? request('from_date')
+                                                : (session()->has('from_date') ? session('from_date') : '');
+
+                                            $toDate = request()->has('to_date') && request('to_date') !== ''
+                                                ? request('to_date')
+                                                : (session()->has('to_date') ? session('to_date') : '');
+                                        @endphp
+
+                                        <form id="filterForm" method="POST" action="{{ route('all_news.post') }}">
+                                            @csrf
+                                            <input type="hidden" name="filters_submitted" value="1">
+
+                                            <div class="row">
+                                                <!-- Category -->
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="news_category" class="form-label fw-bold fs-16">News Category</label>
+                                                    <select class="form-select" name="news_category" id="news_category">
+                                                        <option value="">Select Category</option>
+                                                        @foreach ($news_categories as $news_category)
+                                                            <option value="{{ $news_category->id }}"
+                                                                {{ $selectedCategory == $news_category->id || $selectedCategory == $news_category->category_name ? 'selected' : '' }}>
                                                                 {{ $news_category->category_name }}
                                                             </option>
-                                                            @endforeach
-                                                        </select>
-                                                    </div>
+                                                        @endforeach
+                                                    </select>
+                                                </div>
 
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="college_name" class="form-label fw-bold fs-16">University / College / Department</label>
-                                                        <select class="form-select" name="college_name" id="college_name">
-                                                            <option value="" {{ request('college_name') == '' ? 'selected' : '' }}>Select College</option>
-                                                            @foreach($colleges as $college)
-                                                            <option value="{{ $college->cd_id }}" {{ request('college_name') == $college->cd_id ? 'selected' : '' }}>
+                                                <!-- College -->
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="college_name" class="form-label fw-bold fs-16">University / College / Department</label>
+                                                    <select class="form-select" name="college_name" id="college_name">
+                                                        <option value="">Select College</option>
+                                                        @foreach ($colleges as $college)
+                                                            <option value="{{ $college->cd_id }}"
+                                                                {{ $selectedCollege == $college->cd_id ? 'selected' : '' }}>
                                                                 {{ $college->cd_name }}
                                                             </option>
-                                                            @endforeach
-                                                        </select>
-                                                    </div>
-
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="from_date" class="form-label fw-bold fs-16">From</label>
-                                                        <input type="date" name="from_date" id="from_date" class="form-control" value="{{ request('from_date') }}">
-                                                    </div>
-
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="to_date" class="form-label fw-bold fs-16">To</label>
-                                                        <input type="date" name="to_date" id="to_date" class="form-control" value="{{ request('to_date') }}">
-                                                    </div>
+                                                        @endforeach
+                                                    </select>
                                                 </div>
-                                                <div class="row mt-2">
-                                                    <div class="col-md-12">
-                                                        <button type="submit" class="tmu-btn btn-2 m-0 py-1 px-2 fs-12">Apply Filters</button>
-                                                        <button type="button" class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" onclick="clearFilters();">Clear Filters</button>
-                                                    </div>
+
+                                                <!-- From Date -->
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="from_date" class="form-label fw-bold fs-16">From</label>
+                                                    <input type="date" name="from_date" id="from_date" class="form-control" value="{{ $fromDate }}">
                                                 </div>
-                                            </form>
-                                        </div>
+
+                                                <!-- To Date -->
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="to_date" class="form-label fw-bold fs-16">To</label>
+                                                    <input type="date" name="to_date" id="to_date" class="form-control" value="{{ $toDate }}">
+                                                </div>
+                                            </div>
+
+                                            <div class="row mt-2">
+                                                <div class="col-md-12">
+                                                    <button type="submit" class="tmu-btn btn-2 m-0 py-1 px-2 fs-12">Apply Filters</button>
+                                                    <button type="button" class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" onclick="clearFilters();">Clear Filters</button>
+                                                </div>
+                                            </div>
+                                        </form>
+
                                     </div>
                                 </div>
                             </div>
@@ -70,8 +97,8 @@
                     </div>
                 </section>
 
-                <!-- News Content Section ============================================= -->
-                <section id="content" style="background: #f5f5f5;">
+                <!-- News Content Section -->
+                <section style="background: #f5f5f5;">
                     <div class="container">
                         <div class="content-wrap" id="newsContent">
                             @include('university.news.partials.news_list')
@@ -82,88 +109,32 @@
                 <!-- JS for AJAX Filters and Pagination -->
                 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                 <script>
-                    $(document).ready(function() {
+                    $(document).ready(function () {
                         // Handle form submission with AJAX
-                        $('#filterForm').on('submit', function(e) {
-                            e.preventDefault(); // Prevent the default form submission
-
-                            var form = $(this);
-                            var formData = form.serialize(); // Serialize form data
-
-                            $('#loading').show(); // Show loading indicator
-
-                            $.ajax({
-                                url: form.attr('action'),
-                                method: "POST",
-                                data: formData,
-                                success: function(response) {
-                                    $('#newsContent').html(response); // Update the news content section with the returned HTML
-                                    $('html, body').animate({
-                                        scrollTop: $('#newsContent').offset().top
-                                    }, 'smooth'); // Smooth scroll to the news content section
-                                },
-                                error: function(xhr) {
-                                    console.log(xhr.responseText); // Log any error for debugging
-                                },
-                                complete: function() {
-                                    $('#loading').hide(); // Hide loading indicator when request is complete
-                                }
-                            });
+                        $('#filterForm').on('submit', function (e) {
+                            e.preventDefault();
+                            var formData = $(this).serialize();
+                            $('#loading').show();
+                            $.post("{{ route('all_news.post') }}", formData, function (response) {
+                                $('#newsContent').html(response);
+                                $('html, body').animate({ scrollTop: $('#newsContent').offset().top }, 'smooth');
+                            }).always(() => $('#loading').hide());
                         });
 
-                        // Handle "Clear Filters" button click
-                        window.clearFilters = function() {
-                            // Reset the form fields to their default values
-                            $('#filterForm')[0].reset();
-
-                            $('#loading').show(); // Show loading indicator
-
-                            $.ajax({
-                                url: "{{ route('all_news.post') }}",
-                                method: "POST",
-                                data: {
-                                    clear_filters: 1,
-                                    _token: '{{ csrf_token() }}'
-                                },
-                                success: function(response) {
-                                    $('#newsContent').html(response); // Update the news content section with the returned HTML
-                                    // Optionally, you can also reset the form fields visually
-                                    $('#news_category').val('');
-                                    $('#college_name').val('');
-                                    $('#from_date').val('');
-                                    $('#to_date').val('');
-                                },
-                                error: function(xhr) {
-                                    console.log(xhr.responseText); // Log any error for debugging
-                                },
-                                complete: function() {
-                                    $('#loading').hide(); // Hide loading indicator when request is complete
-                                }
-                            });
+                        // Clear filters - reload page with cleared session
+                        window.clearFilters = function () {
+                            window.location.href = "{{ route('all_news') }}?clear_filters=1";
                         };
 
                         // Handle pagination with AJAX
-                        $(document).on('click', '.pagination a', function(e) {
-                            e.preventDefault(); // Prevent the default link behavior
-                            var url = $(this).attr('href'); // Get the URL from the pagination link
-
-                            $('#loading').show(); // Show loading indicator
-
-                            $.ajax({
-                                url: url,
-                                success: function(response) {
-                                    $('#newsContent').html(response); // Update the news content section with the new page
-                                    $('html, body').animate({
-                                        scrollTop: $('#newsContent').offset().top
-                                    }, 'smooth'); // Smooth scroll to the news content section
-                                },
-                                error: function(xhr) {
-                                    console.log(xhr.responseText); // Log any error for debugging
-                                },
-                                complete: function() {
-                                    $('#loading').hide(); // Hide loading indicator when request is complete
-                                }
-                            });
+                        $(document).on('click', '.pagination a', function (e) {
+                            e.preventDefault();
+                            var url = $(this).attr('href');
+                            $('#loading').show();
+                            $.get(url, function (response) {
+                                $('#newsContent').html(response);
+                                $('html, body').animate({ scrollTop: $('#newsContent').offset().top }, 'smooth');
+                            }).always(() => $('#loading').hide());
                         });
                     });
                 </script>
@@ -172,4 +143,5 @@
         </div>
     </div>
 </section>
+
 @endsection
