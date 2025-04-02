@@ -228,6 +228,9 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 
         </div>
         <div class="col-md-4 mt-5">
+            <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                <span>Apply For Admissions</span><span></span>
+              </h2>
             <div class="npf_wgts" data-height="600px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
         </div>
     </div>
