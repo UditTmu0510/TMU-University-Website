@@ -62,6 +62,22 @@
             display: none !important;
         }
     }
+
+    .careers-accordion 
+    h2{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+        text-transform: capitalize;
+        color: #000;
+    }
+
+    .careers-accordion:hover h2,.careers-accordion.clicked h2{
+    color: #fff !important;
+}
+
 </style>
 
 <!-- <div class="container">
@@ -395,20 +411,21 @@ $programme->eligibility_section_flag == 'Y' &&
         </h2>
 
 
+
+
         <div class="row mx-0">
-            @foreach ($faqs as $index => $faq)
-            <button class="careers-accordion {{ $index == 0 ? 'active' : '' }}">
-                <span>
-                    <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{ $faq->faq_question }}
-                </span>
-                <span class="icon">+</span>
-            </button>
-            <div class="panel {{ $index == 0 ? 'active' : '' }} text-justify">
-                @php echo $faq->faq_answer @endphp
-            </div>
-            <hr class="horizontal-line">
-            @endforeach
-        </div>
+    @foreach ($faqs as $index => $faq)
+    <button class="careers-accordion {{ $index == 0 ? 'active' : '' }}">
+        <h2><i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{ $faq->faq_question }}</h2>
+        <span class="icon">+</span>
+    </button>
+    <div class="panel {{ $index == 0 ? 'active' : '' }} text-justify">
+        @php echo $faq->faq_answer @endphp
+    </div>
+    <hr class="horizontal-line">
+    @endforeach
+</div>
+
 
         <!-- <div class="row mx-0">
                             @foreach ($faqs as $faq)
