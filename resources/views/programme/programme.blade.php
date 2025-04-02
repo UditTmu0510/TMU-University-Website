@@ -203,6 +203,9 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @endif
 
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
 
 @if ($programme->usp_section_flag == 'Y' && !empty($programme->about_prog))
 <!-- Scholarship code start -->
@@ -290,6 +293,12 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 <!-- Fee Structure code end -->
 @endif
 
+        </div>
+        <div class="col-md-4">
+            <div class="npf_wgts" data-height="400px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -438,5 +447,7 @@ $programme->eligibility_section_flag == 'Y' &&
 </section>
 @endif
 <!-- Section for FAQ end -->
+
+&lt;script type="text/javascript"&gt; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s); &lt;/script&gt;
 
 @endsection
