@@ -135,7 +135,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
         <p class="mb-3">Build Your Future with {{ $programme->prog_name }}</p>
 
         @if (!in_array($programme->cd_id, [2, 3]) && $programme->apply_now_button_flag !== 'N')
-        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-4 px-3 py-1 px-lg-5 py-lg-2 ms-5">Apply
+        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-3 py-1 px-lg-5 py-lg-2 ms-4">Apply
             Now</a>
         @endif
     </div>
@@ -231,10 +231,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     </div>
 </div>
 <div class="container mt-4">
-    <div class="row d-flex ">
-        <div class="col-md-8 p-5">
-            <img src="{{ asset('assets/img/programmes_offered/form-side-banner.webp') }}" alt="" class="w-100">
-        </div>
+    <div class="row d-flex justify-content-center">
         <div class="col-md-4">
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                 <span>Apply For Admissions</span><span></span>
