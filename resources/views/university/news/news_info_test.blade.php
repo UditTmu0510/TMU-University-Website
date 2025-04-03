@@ -164,12 +164,19 @@
                                     $insertCode = '';
                             
                                     if (!request()->ajax()) {
-                                        $insertCode = '<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                                                        <span>Apply For Admissions</span><span></span>
-                                                      </h2>
-                                                      <div class="npf_wgts" data-height="530px" data-w="fced4875037a3071c2bc93dc1c15ae45"
-                                                           style="margin-bottom: 20px; max-width:450px; display: flex; justify-content: center; align-items: center; margin-left: auto; margin-right: auto;">
-                                                      </div>';
+                                        $insertCode = '<div class="container mt-4">
+                                                        <div class="row d-flex">
+                                                            <div class="col-md-8">
+                                                                <img src="{{ asset('assets/img/programmes_offered/form-side-banner.png') }}" alt="" class="w-100">
+                                                            </div>
+                                                            <div class="col-md-4 pt-5">
+                                                                <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                                                                    <span>Apply For Admissions</span><span></span>
+                                                                </h2>
+                                                                <div class="npf_wgts" data-height="600px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>';
                                     }
                             
                                     $count = 0;
