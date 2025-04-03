@@ -236,10 +236,10 @@
     </div>
     <div class="container mt-4">
         <div class="row d-flex">
-            <div class="col-md-8 p-5">
+            <div class="col-md-8">
                 <img src="{{ asset('assets/img/programmes_offered/form-side-banner.png') }}" alt="" class="w-100">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pt-5">
                 <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                     <span>Apply For Admissions</span><span></span>
                 </h2>
