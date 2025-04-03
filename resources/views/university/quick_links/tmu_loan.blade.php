@@ -68,7 +68,7 @@
 
 <div class="main-content">
     <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span> TMU Education </span><span> Loan</span></h1>
+        <h1 class="tmu-text-primary tmu-page-heading"><span> TMU  </span><span> Education Loan</span></h1>
         <div class="row justify-content-center">
             <div class="col-lg-10 text-justify">
                 <p class="mb-3 fw-bold px-5 py-3 fs-14">At TMU University, we value and
@@ -114,7 +114,7 @@
                     <div class="col-lg-5 ps-4 pe-4">
                         <div class="row g-3">
                             <div class="col-12">
-                                <img src="{{asset('assets/img/loan/Doctoral-programmes-4.jpg')}}"
+                                <img src="{{asset('/assets/img/ciks/other_img/II.jpg')}}"
                                     class="img-fluid" style="height: 100%; width: 100%;" alt="Property 1">
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                     <div class="col-lg-5 ps-4 pe-4">
                         <div class="row g-3">
                             <div class="col-12">
-                                <img src="{{asset('assets/img/loan/Postgraduate-programmes-thumb-1.jpg')}}"
+                                <img src="{{asset('/assets/img/ciks/other_img/I.jpg')}}"
                                     class="img-fluid" style="height: 100%; width: 100%;" alt="Property 1">
                             </div>
                         </div>
