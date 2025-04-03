@@ -445,6 +445,7 @@ class BlogsController extends Controller
 
             // Fetch top 5 recent posts
             $recentPosts = Blogs::where('status', 1)
+                ->with('category_name') // eager load category relation
                 ->orderBy('posted_at', 'DESC')
                 ->limit(3)
                 ->get()
@@ -452,6 +453,7 @@ class BlogsController extends Controller
                     $post->posted_at = Carbon::parse($post->posted_at);
                     return $post;
                 });
+
 
             $popularPosts = Blogs::where('status', 1)
                 ->orderBy('popular_priority', 'DESC')

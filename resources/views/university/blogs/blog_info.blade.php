@@ -619,7 +619,7 @@
                                     <div class="card-body text-center">
                                         <!-- Post Date and Category -->
                                         <small class="text-muted d-block mb-1">
-                                            {{ $post->posted_at->format('M j') }} | {{ $post->category ?? 'Uncategorized' }}
+                                            {{ $post->posted_at->format('M j') }} | {{ $post->category_name->category_name ?? 'Uncategorized' }}
                                         </small>
 
                                         <!-- Post Title -->
