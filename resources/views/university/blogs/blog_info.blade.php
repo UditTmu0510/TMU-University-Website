@@ -397,7 +397,121 @@
                             </div>
 
 
-                            <div class="card border-default my-4" style="background-color: #001055;">
+                           
+<style>
+                            /* Style for the container */
+    .apply-now-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(135deg, #001055 0%, #003087 100%); /* Gradient background */
+        padding: 30px;
+        border-radius: 15px;
+        margin: 50px auto;
+        max-width: 1200px;
+        position: relative;
+        overflow: visible;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        transition: transform 0.3s ease;
+    }
+
+    .apply-now-section:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+    }
+
+    /* Style for the image */
+    .apply-now-section img {
+        width: 300px;
+        position: absolute;
+        right: 0px; /* Slightly outside the container for a modern look */
+        bottom: 0px;
+        z-index: 10;
+        transition: transform 0.3s ease;
+    }
+
+    /* Style for the text content */
+    .apply-now-content {
+        color: white;
+        max-width: 55%;
+        z-index: 5;
+    }
+
+    .apply-now-content h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #ffffff, #d1d1d1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; /* Gradient text effect */
+    }
+
+    .apply-now-content p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        opacity: 0.9;
+        font-weight: 300;
+    }
+
+    /* Background design element */
+    .background-design {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"%3E%3Ccircle cx="0" cy="0" r="150" fill="rgba(255, 255, 255, 0.05)" /%3E%3C/svg%3E') no-repeat top left;
+        border-radius: 15px;
+        z-index: 0;
+        opacity: 0.3;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .apply-now-section {
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .apply-now-content {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .apply-now-section img {
+            display: none; /* Hide the image on mobile view */
+        }
+
+        .apply-now-content h2 {
+            font-size: 28px;
+        }
+
+        .apply-now-content p {
+            font-size: 16px;
+        }
+    }
+</style>
+
+<!-- Apply Now Section -->
+<div class="apply-now-section">
+    <!-- Background Design -->
+    <div class="background-design"></div>
+    
+    <!-- Content -->
+    <div class="apply-now-content">
+        <h2>Join Us Today</h2>
+        <p>Empowering Minds, Transforming Futures Begin Your Journey to Success Here.</p>
+        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply Now</a>
+    </div>
+
+    <!-- Image -->
+    <img src="http://127.0.0.1:8000/assets/img/apply-button.png" alt="Girl with books">
+</div>
+                            <div class="card border-default my-4" style="background: linear-gradient(135deg, #001055 0%, #003087 100%); /* Gradient background */">
                                 <div class="card-body p-3">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="fs-5 fw-semibold mb-0" style="color: #FF7900;">Share:</h6>
@@ -431,6 +545,8 @@
                                     </div>
                                 </div>
                             </div>
+
+
 
                             <div class="row text-center text-md-start justify-content-between my-3">
                                 @if($nextPost)
