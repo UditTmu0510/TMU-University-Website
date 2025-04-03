@@ -407,6 +407,19 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>03, April</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>TMU’s National Conference on Pharmaceutical Research and Innovation (NCPRI-2025) will be held at TMU Auditorium & TMCOP on 18 and 19 April 2025. Featuring industry experts, researchers, and academicians, the event fosters industry-academia collaboration in pharmaceutical sciences.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    College of Pharmacy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18-19, April</span>
+                                </div>
+                            </div>
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>27, March</span>
                                 </div>
                                 <div class="notice-content">
