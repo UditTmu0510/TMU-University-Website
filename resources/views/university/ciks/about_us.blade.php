@@ -73,7 +73,7 @@
                 <div class="crc-slider-content mb-2" style="overflow:visible">
                     <div class="crc-slider-slides" >
                         <div class="crc-slide">
-                            <img src="{{asset('/assets/img/ciks/banner/1.jpg')}}" alt="Slide 1">
+                            <img src="{{asset('/assets/img/ciks/banner/2.jpg')}}" alt="Slide 1">
                         </div>
 
                     </div>
