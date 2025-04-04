@@ -96,6 +96,10 @@ class ManagementController extends Controller
     {
         return view('university.colleges.management.mgmt_icc_committee');
     }
+    public function mgmt_iqac()
+    {
+        return view('university.colleges.management.mgmt_iqac');
+    }
 
     public function mgmt_guestlecture()
     {
