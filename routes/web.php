@@ -701,6 +701,7 @@ Route::get('/tmimt-college-of-management/sc-st-committee', [ManagementController
 Route::get('/tmimt-college-of-management/icc-committee', [ManagementController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
 Route::get('/tmimt-college-of-management/gallery', [ManagementController::class, 'mgmt_gallery'])->name('mgmt.gallery');
 Route::get('/tmimt-college-of-management/study-material', [ManagementController::class, 'mgmt_study_material'])->name('mgmt.study.material');
+Route::get('/tmimt-college-of-management/iqac', [ManagementController::class, 'mgmt_iqac'])->name('mgmt.iqac');
 
 // Fine arts 
 Route::get('/college-of-fine-arts', [FineartsController::class, 'index'])->name('fine_arts.home');
