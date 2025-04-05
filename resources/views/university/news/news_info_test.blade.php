@@ -165,16 +165,17 @@
                             
                                     if (!request()->ajax()) {
     $insertCode = '<div class="container-fluid mt-4 p-0">
-    <div class="row d-flex align-items-center" 
+    <div class="row d-flex align-items-center bg-section" 
         style="min-height: 550px; 
-               background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat left center / cover;" 
-        class="bg-section">
+               background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat left center / cover;">
 
-        <div class="col-12 col-md-6 ms-auto pt-5 text-center bg-form-wrapper" style="background: transparent;">
-            <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                <span></span><span>Apply For Admissions</span>
-            </h2>
-            <div class="npf_wgts" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+        <div class="col-12 col-md-6 pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+            <div class="form-inner text-center">
+                <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                    <span></span><span>Apply For Admissions</span>
+                </h2>
+                <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+            </div>
         </div>
     </div>
 </div>
@@ -183,16 +184,18 @@
 @media (max-width: 991.98px) {
     .bg-section {
         background: none !important;
-        justify-content: center !important;
     }
     .bg-form-wrapper {
-        margin-left: auto !important;
-        margin-right: auto !important;
-        float: none !important;
+        justify-content: center !important;
+    }
+    .form-inner {
+        width: 100%;
+        max-width: 600px;
     }
 }
 </style>';
 }
+
 
                             
                                     $count = 0;
