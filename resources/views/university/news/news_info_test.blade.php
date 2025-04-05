@@ -165,21 +165,17 @@
                             
                                     if (!request()->ajax()) {
     $insertCode = '<div class="container mt-4">
-                    <div class="row d-flex align-items-center" style="min-height: 550px;background-color:#001055">
-                        <div class="col-md-6 d-flex justify-content-center align-items-center">
-                            <img src="' . asset('uploads/blogs/banner_blog_npf.png') . '" alt="" style="max-height:530px; width:auto;">
-                        </div>
-                        <div class="col-md-6 pt-5" >
-                            <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                                <span></span><span>Apply For Admissions</span>
-                            </h2>
-                            <div class="npf_wgts" data-height="550px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
-                        </div>
-                    </div>
-                </div>';
+    <div class="row d-flex align-items-center" style="min-height: 550px; background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat center center / cover; background-color:#001055;">
+        
+        <div class="col-12 col-md-5 ms-auto pt-5" style="background: transparent;">
+            <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                <span></span><span>Apply For Admissions</span>
+            </h2>
+            <div class="npf_wgts" data-height="550px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+        </div>
+    </div>
+</div>';
 }
-
-
                             
                                     $count = 0;
                                     $content = preg_replace_callback(
