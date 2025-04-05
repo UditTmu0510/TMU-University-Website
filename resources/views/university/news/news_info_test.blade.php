@@ -171,7 +171,7 @@
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                 <span></span><span>Apply For Admissions</span>
             </h2>
-            <div class="npf_wgts" data-height="550px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+            <div class="npf_wgts" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
         </div>
     </div>
 </div>';
