@@ -166,7 +166,7 @@
                                     if (!request()->ajax()) {
     $insertCode = '<div class="container-fluid mt-4 p-0">
     <div class="row d-flex align-items-center bg-section" 
-        style="height: 550px; 
+        style="min-height: 550px; 
                background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat left center / cover;">
 
         <div class="col-12 col-md-6 ms-auto pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
