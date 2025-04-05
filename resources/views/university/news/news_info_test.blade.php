@@ -74,12 +74,18 @@
                 /* 2 items per row */
             }
         }
-
         
+
+        iframe {
+            width: 100%;
+            height: 100%
+            border: 0 !important;
+            overflow: hidden !important;
+        }
     </style>
 
     <!-- Page Title
-      ============================================= -->
+          ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -87,7 +93,8 @@
                 <div>
                     <h2
                         class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3">
-                        <span>TMU </span><span> NEWS</span></h2>
+                        <span>TMU </span><span> NEWS</span>
+                    </h2>
                     <!-- <h2 class="news-page-title-text">TMU News</h2> -->
                 </div>
 
@@ -104,7 +111,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-      ============================================= -->
+          ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -112,18 +119,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-          ============================================= -->
+              ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-           ============================================= -->
+               ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-           ============================================= -->
+               ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -145,7 +152,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-           ============================================= -->
+               ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -154,7 +161,7 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-           ============================================= -->
+               ============================================= -->
                         <div class="entry-content mt-0">
 
                             <!-- Post Single - Content End -->
@@ -162,25 +169,26 @@
                                 @php
                                     $content = nl2br(html_entity_decode($news->event_full_description));
                                     $insertCode = '';
-                            
+
                                     if (!request()->ajax()) {
-    $insertCode = '<div class="container mt-4">
-                    <div class="row d-flex align-items-center" style="min-height: 550px;background-color:#001055">
+                                        $insertCode =
+                                            '<div class="container mt-4">
+                    <div class="row d-flex align-items-center" >
                         <div class="col-md-6 d-flex justify-content-center align-items-center">
-                            <img src="' . asset('uploads/blogs/banner_blog_npf.png') . '" alt="" style="max-height:530px; width:auto;">
+                            <img src="' .
+                                            asset('uploads/blogs/banner_blog_npf.png') .
+                                            '" alt="" style="max-height:530px; width:auto;">
                         </div>
-                        <div class="col-md-6 pt-5">
+                        <div class="col-md-6 pt-5" >
                             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                                 <span></span><span>Apply For Admissions</span>
                             </h2>
-                            <div class="npf_wgts" data-height="550px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                            <div class="npf_wgts" data-height="auto" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
                         </div>
                     </div>
                 </div>';
-}
+                                    }
 
-
-                            
                                     $count = 0;
                                     $content = preg_replace_callback(
                                         '/(<h2\b[^>]*>.*?<\/h2>)/i',
@@ -188,12 +196,12 @@
                                             $count++;
                                             return $count === 2 ? $insertCode . $matches[0] : $matches[0];
                                         },
-                                        $content
+                                        $content,
                                     );
-                            
+
                                     echo $content;
                                 @endphp
-                            </p>                         
+                            </p>
 
 
                             <section id="content">
@@ -245,7 +253,7 @@
                             </section>
 
                             <!-- Tag Cloud
-            ============================================= -->
+                ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -334,7 +342,7 @@
                     </div> --}}
 
                     <!-- Comments
-          ============================================= -->
+              ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -565,5 +573,5 @@
     </script>
 
     <!-- Go To Top
-     ============================================= -->
+         ============================================= -->
 @endsection
