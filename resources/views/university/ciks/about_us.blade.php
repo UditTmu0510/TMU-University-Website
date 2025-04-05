@@ -83,8 +83,8 @@
             </div>
             <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>Centre for</span><span> Indian
                     Knowledge System</span></h1>
-            <div class="col-lg-12">
-                <h4 class="sublime text-justify px-0 px-lg-5">
+            <div class="col-lg-12 mb-4">
+                <p class="text-justify px-0 px-lg-5">
                     {{-- On May 24th, 2023, Teerthanker
                         Mahaveer University celebrated a significant milestone with the inauguration of the Center for
                         Indian Knowledge System (CIKS). Prominent figures from the academic and intellectual world graced
@@ -103,12 +103,12 @@
                     The inauguration of CIKS was graced by esteemed academicians and thought leaders, including Padma
                     Bhushan awardee Prof. Kapil Kapoor, former Pro Vice-Chancellor of Jawaharlal Nehru University, and
                     Dr. Renu Jain, Vice-Chancellor of Devi Ahilya Vishwavidyalaya, Indore. Strengthening its academic
-                    foundation, the university appointed Prof. Anupam Jain as the Professor Chair of IKS.
+                    foundation, the university appointed Prof. Anupam Jain as the Professor Chair of CIKS.
 
                     With a steadfast commitment to intellectual enrichment and cultural revival, CIKS aspires to bridge
                     the gap between ancient wisdom and contemporary knowledge, fostering research, innovation, and
                     holistic learning.
-                </h4>
+                    </p>
             </div>
             <!-- <div class="container">
                                                                                     <div class="text-center snipcss0-0-0-1 snipcss-NtQkN">
