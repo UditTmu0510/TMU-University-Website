@@ -57,17 +57,12 @@
                             <td>4</td>
                             <td>April</td>
                             <td>Quiz</td>
-                            <td rowspan="2">IKS Syllabus Based</td>
-                            <td rowspan="2">Students of TMIMT of all Programmes where IKS will be taught as a course either in I or II semester of 2024-25 batch</td>
-                            <td rowspan="2">Students of TMIMT</td>
+                            <td>IKS Syllabus Based</td>
+                            <td>Students of TMIMT of all Programmes where IKS will be taught as a course either in I or II semester of 2024-25 batch</td>
+                            <td>Students of TMIMT</td>
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>May</td>
-                            <td>Exam</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
                             <td>June</td>
                             <td>Expert Talk/ Workshop</td>
                             <td>Bhagavad-Gita</td>

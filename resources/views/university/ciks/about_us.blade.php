@@ -131,7 +131,7 @@
                         <div class="col-lg-7 d-flex flex-column justify-content-center p-4 ps-4 pe-4">
                             <div class="">
                                 <h2 class="tmu-text-primary mb-1"><span>Our </span><span> Vision </span></h2>
-                                <p>Fostering a holistic and sustainable approach to development
+                                <p class="text-justify">Fostering a holistic and sustainable approach to development
                                     by incorporating the principles of Indian Knowledge Systems &
                                     the intellectuals empowered with Indian Knowledge Systems
                                     that may address technological challenges of the modern
@@ -144,7 +144,7 @@
                         <div class="col-lg-7 d-flex flex-column justify-content-center p-3 ps-4 pe-4">
                             <div class="">
                                 <h2 class="tmu-text-primary"><span>Our </span><span>Mission</span></h2>
-                                <p>To enable students, faculty and staff to engage in
+                                <p class="text-justify">To enable students, faculty and staff to engage in
                                     education and research on Indian Knowledge Systems
                                     for developing appropriate technologies, practices and
                                     products for sustainable growth.</p>
@@ -171,7 +171,7 @@
                                 <a href="#"><i class="text-primary bi-eye"></i></a>
                             </div>
                             <div class="fbox-content px-0">
-                                <p>To develop insights into the scientific and Philosophical aspects of IKS, including its historical development and contributions to various fields.</p>
+                                <p class="text-justify">To develop insights into the scientific and Philosophical aspects of IKS, including its historical development and contributions to various fields.</p>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                                 <a href="#"><i class="text-primary bi-star"></i></a>
                             </div>
                             <div class="fbox-content px-0">
-                                <p>To explore the intersections between traditional knowledge systems and modern systems of knowledge.</p>
+                                <p class="text-justify">To explore the intersections between traditional knowledge systems and modern systems of knowledge.</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                                 <a href="#"><i class="text-primary uil uil-play"></i></a>
                             </div>
                             <div class="fbox-content px-0">
-                                <p>To develop awareness about ancient Indian literature and introduce the Vedas as a treasure trove of real knowledge that leads to salvation.</p>
+                                <p class="text-justify">To develop awareness about ancient Indian literature and introduce the Vedas as a treasure trove of real knowledge that leads to salvation.</p>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                                 <a href="#"><i class="text-primary bi-mouse"></i></a>
                             </div>
                             <div class="fbox-content px-0">
-                                <p>To promote innovative teaching approaches that integrate IKS with contemporary scientific concepts.</p>
+                                <p class="text-justify">To promote innovative teaching approaches that integrate IKS with contemporary scientific concepts.</p>
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                                 <a href="#"><i class="text-primary bi-check-circle-fill"></i></a>
                             </div>
                             <div class="fbox-content px-0">
-                                <p>To develop a generation of the torch bearers who can extend the legacy of the rich cultural heritage of Bharatvarsha.</p>
+                                <p class="text-justify">To develop a generation of the torch bearers who can extend the legacy of the rich cultural heritage of Bharatvarsha.</p>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
             </style>
 
             <div class="container">
-                <h2 class="tmu-text-primary mb-2 mt-2"><span>CIKS </span><span> Objectives</span></h2>
+                <h2 class="tmu-text-primary mb-2 mt-2 text-center"><span>CIKS </span><span> Objectives</span></h2>
 
                 <div class="row justify-content-center gy-4">
                     <div class="col-xl-4 custom-col d-flex">
