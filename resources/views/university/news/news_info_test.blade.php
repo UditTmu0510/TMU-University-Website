@@ -167,11 +167,11 @@
     $insertCode = '<div class="container mt-4">
     <div class="row d-flex align-items-center" style="min-height: 550px; background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat center center / cover; background-color:#001055;">
         
-        <div class="col-12 col-md-5 ms-auto pt-5" style="background: transparent;">
+        <div class="col-12 col-md-6 ms-auto pt-5" style="background: transparent;">
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                 <span></span><span>Apply For Admissions</span>
             </h2>
-            <div class="npf_wgts" data-height="550px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+            <div class="npf_wgts" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
         </div>
     </div>
 </div>';
