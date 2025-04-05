@@ -70,7 +70,7 @@
                             <td>TMIMT College of Physical Education</td>
                             <td>BPES</td>
                             <td>Indian Knowledge System</td>
-                            <td>TMUVA240101</td>
+                            <td>TMUVA240202</td>
                             <td>2</td>
                         </tr>
                         <tr>
