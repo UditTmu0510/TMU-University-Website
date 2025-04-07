@@ -153,9 +153,57 @@
                         <!-- Post Single - Content End -->
                         <p style="text-align:justify">
                             @php
-                            echo nl2br(html_entity_decode($news->event_full_description));
+                                $content = nl2br(html_entity_decode($news->event_full_description));
+                                $insertCode = '';
+                        
+                                if (!request()->ajax()) {
+$insertCode = '<div class="container-fluid mt-4 p-0">
+<div class="row d-flex align-items-center bg-section" 
+    style="min-height: 550px; 
+           background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat left center / cover;">
+
+    <div class="col-12 col-md-6 ms-auto pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+        <div class="form-inner text-center">
+            <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                <span></span><span>Apply For Admissions</span>
+            </h2>
+            <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+        </div>
+    </div>
+</div>
+</div>
+
+<style>
+@media (max-width: 991.98px) {
+.bg-section {
+    background: none !important;
+}
+.bg-form-wrapper {
+    justify-content: center !important;
+}
+.form-inner {
+    width: 100%;
+    max-width: 600px;
+}
+}
+</style>';
+}
+
+
+                        
+                                $count = 0;
+                                $content = preg_replace_callback(
+                                    '/(<h2\b[^>]*>.*?<\/h2>)/i',
+                                    function ($matches) use (&$count, $insertCode) {
+                                        $count++;
+                                        return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+                                    },
+                                    $content
+                                );
+                        
+                                echo $content;
                             @endphp
-                        </p>
+                        </p>  
 
 
 
@@ -479,7 +527,41 @@
 });
 
 </script>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        function loadNPFScript(retry = 0) {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "https://widgets.nopaperforms.com/emwgts.js";
 
+            script.onload = function() {
+                console.log("✅ NoPaperForms script loaded successfully");
+            };
+
+            script.onerror = function() {
+                console.warn("⚠️ NoPaperForms script failed to load.");
+                if (retry < 3) {
+                    console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                    setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                }
+            };
+
+            document.body.appendChild(script);
+        }
+
+        loadNPFScript(); // Initial script load
+    });
+</script>
+
+<script>
+    window.addEventListener("error", function(e) {
+        if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+            console.warn("🚨 NoPaperForms script failed to load.");
+        }
+        e.preventDefault(); // Ignore errors from other scripts
+    }, true);
+</script>
 <!-- Go To Top
 	============================================= -->
 
