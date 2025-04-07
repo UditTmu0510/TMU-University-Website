@@ -47,5 +47,9 @@ class CiksController extends Controller
     {
         return view('university.ciks.execution');
     }
+    public function ciks_upcoming_events()
+    {
+        return view('university.ciks.upcoming_event');
+    }
 
 }
