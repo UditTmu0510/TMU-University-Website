@@ -1162,6 +1162,7 @@ Route::get('ciks/gallery', [CiksController::class, 'ciks_gallery'])->name('ciks.
 Route::get('ciks/media-coverage', [CiksController::class, 'ciks_media_coverage'])->name('ciks.media_coverage');
 Route::get('ciks/activities', [CiksController::class, 'ciks_activities'])->name('ciks.activities');
 Route::get('ciks/execution', [CiksController::class, 'ciks_execution'])->name('ciks.execution');
+Route::get('ciks/upcoming-events', [CiksController::class, 'ciks_upcoming_events'])->name('ciks.upcoming_events');
 
 
 
