@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>07, April</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>The Centre for Indian Knowledge System, TMU, invites you to National Conclave 3 on April 28, 2025, exploring "Managing Self and Organizations through Indian Knowledge System". Join us online!</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Centre for Indian Knowledge System</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28, April</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>03, April</span>
                                 </div>
                                 <div class="notice-content">
@@ -418,6 +432,7 @@
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18-19, April</span>
                                 </div>
                             </div>
+                            <hr class="notice-separator">
                             <div class="notice">
                                 <div class="notice-pub">
                                     <span>27, March</span>
