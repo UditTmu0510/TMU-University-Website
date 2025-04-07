@@ -81,10 +81,25 @@
 
     <div class="container club-container py-3">
 
+
         <div class="row mb-4">
             <div class="col-md-12">
                 <div class="club-card-t2 flex-row-reverse">
-                    <img src="{{ asset('assets/img/ciks/events/NC-2.jpg') }}" alt="1st National Conclave on Strengthening Indian Knowledge System in HEIs Through Curriculum"
+                    <img src="{{ asset('assets/img/ciks/events/NC-2.jpg') }}" alt="Discussion on Human Values & Ethics from Indian Knowledge System for Youth Empowerment"
+                        class="club-img-t2">
+                    <div class="club-text-t2">
+                        <h4>Discussion on Human Values & Ethics from Indian Knowledge System for Youth Empowerment</h4>
+                        <p class="text-justify">The event was organized by CIKS on Mar 20th, 2025, in the University Committee Room. Professor Chair Dr. Anupam Jain was the Keynote speaker of the day, who explained the role of Indian Knowledge System in the modern scientific world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="club-card-t2 ">
+                    <img src="{{ asset('assets/img/ciks/events/NC-1.jpg') }}" alt="1st National Conclave on Strengthening Indian Knowledge System in HEIs Through Curriculum"
                         class="club-img-t2">
                     <div class="club-text-t2">
                         <h4>1st National Conclave on Strengthening Indian Knowledge System in HEIs Through Curriculum</h4>
@@ -94,20 +109,7 @@
             </div>
         </div>
         <!-- Event 1 -->
-        <div class="row mb-4">
-            <div class="col-md-12">
-                <div class="club-card-t2">
-                    <img src="{{ asset('assets/img/ciks/events/NC-1.jpg') }}" alt="Discussion on Human Values & Ethics from Indian Knowledge System for Youth Empowerment"
-                        class="club-img-t2">
-                    <div class="club-text-t2">
-                        <h4>Discussion on Human Values & Ethics from Indian Knowledge System for Youth Empowerment</h4>
-                        <p class="text-justify">The event was organized by CIKS on October 17th, 2023, in the University Committee Room. Professor Chair Dr. Anupam Jain was the Keynote speaker of the day, who explained the role of Indian Knowledge System in the modern scientific world.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Event 2 -->
         <div class="row mb-4">
             <div class="col-md-12">
                 <div class="club-card-t2 flex-row-reverse">
@@ -120,6 +122,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Event 2 -->
 
         <div class="row mb-4">
             <div class="col-md-12">
