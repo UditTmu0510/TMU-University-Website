@@ -39,56 +39,45 @@
         <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h1>
         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/22.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Alfaaz Events">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/22.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Alfaaz: An Open Mic Event">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/22.jpg')}}" alt="Alfaaz Events">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/22.jpg')}}" alt="Alfaaz: An Open Mic Event">
                     </div>
-                    <h5 class="text-center mt-2">Alfaaz Events</h5>
+                    <h5 class="text-center mt-2">Alfaaz: An Open Mic Event</h5>
                 </a>
                 <div class="d-none">
-                    <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/23.jpg')}}" data-lightbox="gallery-item" title="Alfaaz Events"></a>
+                    <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/23.jpg')}}" data-lightbox="gallery-item" title="Alfaaz: AnOpen Mic Event"></a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/1.webp')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Classroom">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/1.webp')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Learning Together: A Glimpse into Our Classrooms">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/1.webp')}}" alt="Classroom">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/1.webp')}}" alt="Learning Together: A Glimpse into Our Classrooms">
                     </div>
-                    <h5 class="text-center mt-2">Classroom</h5>
+                    <h5 class="text-center mt-2">Learning Together: A Glimpse into Our Classrooms</h5>
                     <div class="d-none">
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/2.webp')}}" data-lightbox="gallery-item" title="classroom"></a>
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/3.webp')}}" data-lightbox="gallery-item" title="classroom"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/2.webp')}}" data-lightbox="gallery-item" title="Learning Together: A Glimpse into Our Classrooms"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/3.webp')}}" data-lightbox="gallery-item" title="Learning Together: A Glimpse into Our Classrooms"></a>
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/5.webp')}}" data-lightbox="gallery-item" class="text-decoration-none" title="">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/7.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Exploring Industry Insights at T.T.Limited">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/5.webp')}}" alt="">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/7.jpg')}}" alt="Exploring Industry Insights at T.T.Limited">
                     </div>
-                    <h5 class="text-center mt-2"></h5>
+                    <h5 class="text-center mt-2">Exploring Industry Insights at T.T.Limited</h5>
                     <div class="d-none">
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/6.webp')}}" data-lightbox="gallery-item" title="classroom"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/14.jpg')}}" data-lightbox="gallery-item" title="Exploring Industry Insights at T.T.Limited"></a>
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/7.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Industrial Visit at T.T.Limited">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/8.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Management Students Embrace the Spirit of Hindi Diwas on Hindi Diwas Event">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/7.jpg')}}" alt="Industrial Visit at T.T.Limited">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/8.jpg')}}" alt="Management Students Embrace the Spirit of Hindi Diwas on Hindi Diwas Event">
                     </div>
-                    <h5 class="text-center mt-2">Industrial Visit at T.T.Limited</h5>
-                    <div class="d-none">
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/14.jpg')}}" data-lightbox="gallery-item" title="Industrial Visit at T.T.Limited"></a>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/8.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Certifficate Distribution on Hindi Diwas Event">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/8.jpg')}}" alt="Certifficate Distribution on Hindi Diwas Event">
-                    </div>
-                    <h5 class="text-center mt-2">Hindi Diwas Celebration</h5>
+                    <h5 class="text-center mt-2">Management Students Embrace the Spirit of Hindi Diwas</h5>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -96,20 +85,20 @@
                     <div class="position-relative">
                         <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/9.jpg')}}" alt="Gallery Thumb 2">
                     </div>
-                    <h5 class="text-center mt-2">PPT Presentation Competition</h5>
+                    <h5 class="text-center mt-2">Leadership Through Presentation: PPT Competition Highlights</h5>
                     <div class="d-none">
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/17.jpg')}}" data-lightbox="gallery-item" title="PPT Presentation Competition"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/17.jpg')}}" data-lightbox="gallery-item" title="Leadership Through Presentation: PPT Competition Highlights"></a>
                     </div>
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/10.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/10.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Cultural Event">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/10.jpg')}}" alt="Gallery Thumb 2">
                     </div>
-                    <h5 class="text-center mt-2"></h5>
+                    <h5 class="text-center mt-2">Cultural Event</h5>
                     <div class="d-none">
-                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/18.jpg')}}" data-lightbox="gallery-item" title="PPT Presentation Competition"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/18.jpg')}}" data-lightbox="gallery-item" title="Leadership Through Presentation: PPT Competition Highlights"></a>
                     </div>
                 </a>
             </div>
@@ -146,15 +135,28 @@
                 </a>
             </div>
 
+            
             <div class="col-md-3 col-sm-6">
-                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/19.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Clean India Green India">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/19.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Towards a Cleaner, Greener Tomorrow – A Campus Initiative">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/19.jpg')}}" alt="Gallery Thumb 2">
                     </div>
-                    <h5 class="text-center mt-2">Clean India Green India</h5>
+                    <h5 class="text-center mt-2">Towards a Cleaner, Greener Tomorrow – A Campus Initiative</h5>
                 </a>
             </div>
-
+            
+            <div class="col-md-3 col-sm-6">
+                <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/24.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Industrial Visit at Coca Cola ">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/tmimt/24.jpg')}}" alt="Gallery Thumb 2">
+                    </div>
+                    <h5 class="text-center mt-2">Exploring Industry Insights at Coca-Cola </h5>
+                    <div class="d-none">
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/25.jpg')}}" data-lightbox="gallery-item" title="Exploring Industry Insights at Coca-Cola"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/tmimt/26.jpg')}}" data-lightbox="gallery-item" title="Exploring Industry Insights at Coca-Cola"></a>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
