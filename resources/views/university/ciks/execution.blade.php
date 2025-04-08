@@ -84,7 +84,7 @@
                     </tbody>
                 </table>
             </div>
-            <p class="mb-2 fs-14 mt-3">The Centre for Indian Knowledge Systems (CIKS) has been actively engaged in promoting education, training, and research in traditional Indian Knowledge Systems. Here are some of the key activities CIKS organized in alignment with its vision.</p>
+           
         </section>
     </div>
 </div>
