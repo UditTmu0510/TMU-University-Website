@@ -102,8 +102,17 @@
         <!-- Tab Content -->
         <div id="tab-all" class="tab-content-item">
             <div class="row">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="text-center fw-bold"> Data will be updated Soon! </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
                 <!-- Event Card 1 -->
-                <div class="col-lg-12 col-md-6">
+                <!-- <div class="col-lg-12 col-md-6">
                     <div class="event-card event-card-horizontal">
                         <img src="{{ asset('assets/img/ciks/upcoming/NC_3.jpg')}}" class="event-img" alt="Event Image">
                         <div class="event-body flex-grow-1">
@@ -114,9 +123,9 @@
                             <p><strong>Date/Time</strong> Mon, 28 Apr 2025 at 03:00PM–05:00PM</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Event Card 2 -->
-                <div class="col-lg-12 col-md-6">
+                <!-- <div class="col-lg-12 col-md-6">
                     <div class="event-card event-card-horizontal">
                         <img src="{{ asset('assets/img/ciks/upcoming/NC_2.jpg')}}" class="event-img" alt="Event Image">
                         <div class="event-body flex-grow-1">
@@ -127,13 +136,13 @@
                             <p><strong>Date/Time</strong> Thr, 20 Mar 2025 at 03:00PM–05:00PM</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- <div id="tab-nearest" class="tab-content-item d-none"> -->
         <div class="row">
-            <div class="col-lg-12 col-md-6">
+            <!-- <div class="col-lg-12 col-md-6">
                 <div class="event-card event-card-horizontal">
                     <img src="{{ asset('assets/img/ciks/upcoming/NC_1.jpg')}}" class="event-img" alt="Event Image">
                     <div class="event-body flex-grow-1">
@@ -144,12 +153,12 @@
                         <p><strong>Date/Time</strong> Fri, 21 Feb 2025 at 03:00PM–05:00PM</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- </div> -->
 
             <!-- <div id="tab-latest" class="tab-content-item d-none"> -->
             <div class="col-lg-12 col-md-6">
-                <div class="event-card event-card-horizontal">
+                <!-- <div class="event-card event-card-horizontal">
                     <img src="{{ asset('assets/img/ciks/upcoming/manthan.jpg')}}" class="event-img" alt="Event Image">
                     <div class="event-body flex-grow-1">
                         <span class="event-type">Workshop/Seminar</span>
@@ -158,7 +167,7 @@
                         <p class="mb-1"><strong>Mode:</strong> Online</p>
                         <p><strong>Date/Time</strong> Mon, 20 Jan 2025 at 03:00PM–05:00PM</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
