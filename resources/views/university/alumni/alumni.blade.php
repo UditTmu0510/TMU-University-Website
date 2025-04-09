@@ -294,24 +294,22 @@
             <div class="col-md-8">
                 <div class="d-flex flex-wrap gap-2">
                     <!-- Repeat this block for each profile image -->
-                    <img src="{{asset('/assets/img/department/alumni/people/mukesh2.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/1.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Ashi_Jain.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Ishan_Vishnoi.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Konain_Iqbal.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Mukesh_Kumar.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Priyanka_Chandna.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/ritu.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Vishwas_Saxena_.png')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/mukesh2.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/1.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Ashi_Jain.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Ishan_Vishnoi.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Konain_Iqbal.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Mukesh_Kumar.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Priyanka_Chandna.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/ritu.jpg')}}" alt="Profile Image" class="profile-img">
-                    <img src="{{asset('/assets/img/department/alumni/people/Vishwas_Saxena_.png')}}" alt="Profile Image" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/1.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/2.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/3.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/4.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/5.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/6.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/7.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/8.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/9.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/10.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/11.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/12.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/13.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/14.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/15.jpg')}}" alt="Alumni Profiles" class="profile-img">
+                    <img src="{{asset('/assets/img/department/alumni/people/latest/16.jpg')}}" alt="Alumni Profiles" class="profile-img">
                 </div>
             </div>
             <div class="col-md-4 text-center text-md-start">
