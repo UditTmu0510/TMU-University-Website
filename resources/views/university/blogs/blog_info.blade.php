@@ -391,8 +391,55 @@
                         <div class="entry-content mt-0">
 
                             <div id="blogs69">
+
+
+
                                 @php
-                                echo nl2br(html_entity_decode($blog->full_post));
+                                    $content = nl2br(html_entity_decode($blog->full_post));
+                                    $insertCode = '';
+
+                                    if (!request()->ajax()) {
+                                        $insertCode =
+                                            '<div class="container-fluid mt-4 p-0">
+<div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .asset('uploads/blogs/banner_blog_npf.png') .'\') no-repeat left center / cover;">
+<div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+<div class="form-inner text-center">
+<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+<span></span><span>Apply For Admissions</span>
+</h2>
+<div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+</div>
+</div>
+</div>
+</div>
+
+<style>
+@media (max-width: 991.98px) {
+.bg-section {
+background: none !important;
+}
+.bg-form-wrapper {
+justify-content: center !important;
+}
+.form-inner {
+width: 100%;
+max-width: 600px;
+}
+}
+</style>';
+                                    }
+
+                                    $count = 0;
+                                    $content = preg_replace_callback(
+                                        '/(<h2\b[^>]*>.*?<\/h2>)/i',
+                                        function ($matches) use (&$count, $insertCode) {
+                                            $count++;
+                                            return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+                                        },
+                                        $content,
+                                    );
+
+                                    echo $content;
                                 @endphp
                             </div>
 
