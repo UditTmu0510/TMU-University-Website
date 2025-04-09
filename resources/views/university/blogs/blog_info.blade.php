@@ -509,7 +509,7 @@
     </div>
 
     <!-- Image -->
-    <img src="{{asset('/assets/img/apply-button.png)}}" alt="Girl with books">
+    <img src="{{asset('/assets/img/apply-button.png')}}" alt="Girl with books">
 </div>
                             <div class="card border-default my-4" style="background: linear-gradient(135deg, #001055 0%, #003087 100%); /* Gradient background */">
                                 <div class="card-body p-3">
