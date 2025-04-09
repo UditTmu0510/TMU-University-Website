@@ -255,8 +255,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 text-center mt-4">
-                    <h2 class="tmu-text-primary fs-26 mb-2 pb-0 text-center"><span>Fee Structure for
-                        </span><span>{{ $programme->prog_name }}</span></h2>
+                    <h2 class="tmu-text-primary fs-26 mb-2 pb-0 text-center"><span>{{ str_ireplace('programme', '', $programme->prog_name) }}
+                        </span><span>Fees</span></h2>
 
                 </div>
             </div>
