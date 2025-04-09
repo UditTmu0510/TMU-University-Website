@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>09, April</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Vocabaddicts 5.0 – Gear up for a thrilling Vocabulary Quiz Competition by CTLD on 23rd April 2025! Showcase your word power and win exciting prizes. Open to all! Join the linguistic showdown at TMU. </p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    CTLD</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 23, April</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>07, April</span>
                                 </div>
                                 <div class="notice-content">
