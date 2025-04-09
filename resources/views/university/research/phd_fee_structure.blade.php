@@ -6,7 +6,7 @@
     <div class="container">
 
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Phd</span><span> Fee Structure</span></h1>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Ph.d.</span><span> Fee Structure</span></h1>
 
             <div class="container my-2 py-2">
                 <ul class="nav nav-tabs justify-content-center py-2 gap-2 gap-md-5" id="myTabs" role="tablist">
