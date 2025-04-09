@@ -1457,7 +1457,7 @@
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
-                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disabilty1.png')}}"
+                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disability-1.png')}}"
                     alt="" style="height: 220px;">
                 </div>
                 <div class="team-desc p-2">
@@ -1465,7 +1465,7 @@
                     <h4 class="fs-14">Assistive technology and facilities at tmu portal for Pwd Persons</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/disabilty1.png')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/disability-1.png')}}"> Download Geo Tag Image</div>
 
                   </div>
                 </div>
@@ -1476,7 +1476,7 @@
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
-                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disabilty2.png')}}"
+                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disability-2.png')}}"
                     alt="" style="height: 220px;">
                 </div>
                 <div class="team-desc p-2">
@@ -1484,7 +1484,7 @@
                     <h4 class="fs-14">Assistive technology and facilities at tmu portal for Pwd Persons</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/disabilty2.png')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/disability-2.png')}}"> Download Geo Tag Image</div>
 
                   </div>
                 </div>
@@ -1495,7 +1495,7 @@
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
-                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disabilty3.png')}}"
+                    src="{{asset('/assets/img/department/iqac/pwd_facilty/disability-3.png')}}"
                     alt="" style="height: 220px;">
                 </div>
                 <div class="team-desc p-2">
@@ -1503,14 +1503,14 @@
                     <h4 class="fs-14">Assistive technology and facilities at tmu portal for Pwd Persons</h4><span
                       class="fst-normal fs-12 mb-2"><i class="fa-solid fa-location-dot"></i>
                       TMU Campus</span>
-                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/download/disabilty3.png')}}"> Download Geo Tag Image</div>
+                      <div class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-2 download-btn" href="{{asset('/assets/img/department/iqac/pwd_facilty/disability-3.png')}}"> Download Geo Tag Image</div>
 
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4">
+            <!-- <div class="col-md-6 col-lg-4">
               <div class="team card shadow-sm border-0 h-shadow h-translatey-sm all-ts rounded-4 overflow-hidden">
                 <div class="team-image">
                   <img
@@ -1527,7 +1527,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <hr class="horizontal-line">
