@@ -6,26 +6,42 @@
     <div class="container">
 
         <div class="row mx-0">
-            <h1 class="tmu-text-primary tmu-page-heading pt-md-5"><span>Admission Notice for </span>
-                <span> Ph.D. Programme</span>
+            <h1 class="tmu-text-primary tmu-page-heading pt-md-5">
+                <span>Admission Notice for </span>
+                <span>Ph.D. Programme</span>
             </h1>
 
             <div class="col-md-6 mb-3">
-                <img class="card-img-top" src="{{asset('/assets/img/research/admission-notice/Ph.D-ADVT-2025-law.jpg')}}"
-                    alt="Card image cap" style="height: 700px;">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-            <div class="col-md-6 mb-3">
-                <img class="card-img-top" src="{{asset('/assets/img/research/admission-notice/PhD-ADVT-2025-decemebr.jpg')}}"
-                    alt="Card image cap" style="height: 700px;">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
+                <div class="card h-100">
+                    <a href="https://www.tmu.ac.in/tmu/phd-ordinance" class="d-block w-100 h-100">
+                        <img src="{{ asset('assets/img/research/admission-notice/PhD_JULY_ADVT_2025.jpg') }}"
+                            class="card-img-top img-fluid" alt="PhD July Admission 2025"
+                           style="height: 100%; object-fit: cover;" alt="...">
+                    </a>
+                </div>
             </div>
 
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <a href="#" class="d-block w-100 h-100">
+                        <img src="{{ asset('assets/img/research/admission-notice/Ph.D-ADVT-2025-law.jpg') }}"
+                            class="card-img-top img-fluid" alt="PhD Law Admission 2025"
+                           style="height: 100%; object-fit: cover;" alt="...">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <div class="card h-100">
+                    <a href="#" class="d-block w-100 h-100">
+                        <img src="{{ asset('assets/img/research/admission-notice/PhD-ADVT-2025-decemebr.jpg') }}"
+                            class="card-img-top img-fluid" alt="PhD December Admission 2025"
+                           style="height: 100%; object-fit: cover;" alt="...">
+                    </a>
+                </div>
+            </div>
         </div>
+
 
     </div>
 </div>
