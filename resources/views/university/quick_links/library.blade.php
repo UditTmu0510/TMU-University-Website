@@ -32,7 +32,7 @@
             <div class="row ps-4">
                 <div class="col-md-6 pt-0 pt-md-4 ps-md-5 mb-4">
 
-                <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Central Library and Knowledge Resourse Centre</span></h1>
+                <h1 class=" mt-5 mb-5 banner-main-heading">Welcome to <span style="font-weight:700!important;">Central Library and Knowledge Resource Centre</span></h1>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="pe-lg-4 position-relative p-0">
