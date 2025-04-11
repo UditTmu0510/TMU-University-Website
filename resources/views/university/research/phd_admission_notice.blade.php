@@ -7,7 +7,7 @@
 
         <div class="row mx-0">
             <h1 class="tmu-text-primary tmu-page-heading pt-md-5">
-                <span>Admission Notice for </span>
+                <span style="text-transform:none;">Admission Notice for </span>
                 <span style="text-transform:none;">Ph.D. Programme</span>
             </h1>
 
