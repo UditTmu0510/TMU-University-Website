@@ -63,8 +63,11 @@
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
-						<td class="text-center">119</td>
-						<td class="text-center">119</td>
+						<td class="text-center">119+122(new
+						batch)=241</td>
+						<td class="text-center">batch)=241
+119+134(new
+batch)=253</td>
 
 					</tr>
 					<tr>
