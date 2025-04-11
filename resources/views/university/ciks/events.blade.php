@@ -179,7 +179,7 @@
                         'id' => 'modalNC2',
                         'img' => 'assets/img/ciks/NC_2.jpg',
                         'title' =>
-                            'Discussion on Human Values & Ethics from Indian Knowledge System for Youth Empowerment',
+                            'Revisiting Human Values and Professional Ethics from indian Knowledge System',
                         'summary' =>
                             'A discussion session on ‘Revisiting Human Values and Professional Ethics from Indian Knowledge System’ was held on 24th of February, 2025 to decide the main objectives and expected outcomes of the event....',
                         'details' => '<p class="text-justify">A discussion session on ‘Revisiting Human Values and Professional Ethics from Indian Knowledge System’ was held on 24th of February, 2025 to decide the main objectives and expected outcomes of the event. The discussion was presided over by Honorable Vice Chancellor, Prof. V.K. Jain. Following educationists across the nation shared their valuable thoughts through the online event.</p>
@@ -191,7 +191,7 @@
                         'id' => 'modalNC1',
                         'img' => 'assets/img/ciks/NC_1.jpg',
                         'title' =>
-                            '1st National Conclave on Strengthening Indian Knowledge System in HEIs Through Curriculum',
+                            '"Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum',
                         'summary' =>
                             'Ist National Conclave was organized by CIKS on ‘Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum’ on 21st February, 2025. The conclave was presided by Honorable Vice...',
                         'details' => '<p class="text-justify">Ist National Conclave was organized by CIKS on ‘Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum’ on 21st February, 2025. The conclave was presided by Honorable Vice Chancellor, Prof. V.K. Jain. Following experts across the nation shared their insights on the theme.</p>
@@ -212,7 +212,7 @@
                     [
                         'id' => 'modalGyanGanga',
                         'img' => 'assets/img/ciks/gyan-ganga.jpg',
-                        'title' => 'Expert Talk: Gyan Ganga',
+                        'title' => 'Expert Talk: Gyan Ganga – Achieving Excellence Through Self-Exploration',
                         'summary' =>
                             'On November 28th, 2024, Professor Navneet Arora from IIT Roorkee delivered a session on "Achieving Excellence Through Self-Exploration"....',
                         'details' => '<p class="text-justify">On November 28th, 2024, Professor Navneet Arora from IIT Roorkee delivered a session on "Achieving Excellence Through Self-Exploration" in the University Auditorium.</p>
@@ -222,7 +222,7 @@
                     [
                         'id' => 'modalIKSOrientation',
                         'img' => 'assets/img/ciks/orientation.jpg',
-                        'title' => 'Orientation Program: Why IKS?',
+                        'title' => 'Orientation Session on the Indian Knowledge System, Led by Dr. Alka Agarwal',
                         'summary' =>
                             'This orientation program introduced new students to the Indian Knowledge System. Dr. Alka Agarwal, Coordinator CIKS, delivered insightful sessions...',
                         'details' => '<p class="text-justify">This orientation program introduced new students to the Indian Knowledge System. Dr. Alka Agarwal, Coordinator CIKS, delivered insightful sessions on August 23rd and 24th, 2024.</p>
@@ -232,7 +232,7 @@
                     [
                         'id' => 'modalSanskriti',
                         'img' => 'assets/img/ciks/sanskriti.jpg',
-                        'title' => 'FDP: Sanskriti',
+                        'title' => 'FDP Sanskriti: Embracing Excellence Through Cultural Connection',
                         'summary' =>
                             'Held on July 13th, 2024, in the Conference Room of CTLD, TMU. Professor Anupam Jain emphasized the importance of staying connected...',
                         'details' => '<p class="text-justify">Held on July 13th, 2024, in the Conference Room of CTLD, TMU. Professor Anupam Jain emphasized the importance of staying connected with "Sanskriti" and the role of value-based education.</p>
@@ -242,7 +242,7 @@
                     [
                         'id' => 'modalAmritVachnam',
                         'img' => 'assets/img/ciks/amrit-vachnam.jpg',
-                        'title' => 'National Seminar: Amrit Vachnam',
+                        'title' => 'National Seminar ‘Amrit Vachnam’ – Emphasizing Purity in Thoughts and Actions',
                         'summary' =>
                             'A national seminar, ‘Amrit Vachnam’ was held on May 1st, 2024, in the University Auditorium. The event was graced by distinguished speakers, including Prof. Mahavir Agarwal and...',
                         'details' => '<p class="text-justify">A national seminar, ‘Amrit Vachnam’ was held on May 1st, 2024, in the University Auditorium. The event was graced by distinguished speakers, including Prof. Mahavir Agarwal and Prof. P.N. Mishra, who emphasized the importance of purity in thoughts and actions.</p>
@@ -262,7 +262,7 @@
                     [
                         'id' => 'modalFDPScientific',
                         'img' => 'assets/img/ciks/FDP.jpg',
-                        'title' => 'FDP: Scientific Knowledge in IKS',
+                        'title' => 'FDP: Exploring Scientific Knowledge in the Indian Knowledge System',
                         'summary' =>
                             'The event was organized by CIKS on October 17th, 2023, in the University Committee Room. Professor Chair Dr. Anupam Jain was the Keynote speaker of the day...',
                         'details' => '<p class="text-justify">The event was organized by CIKS on October 17th, 2023, in the University Committee Room. Professor Chair Dr. Anupam Jain was the Keynote speaker of the day, who explained the role of Indian Knowledge System in the modern scientific world.</p>
