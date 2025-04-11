@@ -12,8 +12,8 @@
             </h1>
 
             <div class="col-md-6 mb-3">
-                <div class="card h-100">
-                    <a href="{{route('phd.ordinance')}}" class="d-block w-100 h-100">
+                <div class="card">
+                    <a href="{{route('phd.ordinance')}}" class="d-block w-100">
                         <img src="{{ asset('assets/img/research/admission-notice/PhD_JULY_ADVT_2025.jpg') }}"
                             class="card-img-top img-fluid" alt="PhD July Admission 2025"
                            style="height: 100%; object-fit: cover;" alt="...">
@@ -22,8 +22,8 @@
             </div>
 
             <div class="col-md-6 mb-3">
-                <div class="card h-100">
-                    <a href="#" class="d-block w-100 h-100">
+                <div class="card">
+                    <a href="#" class="d-block w-100">
                         <img src="{{ asset('assets/img/research/admission-notice/Ph.D-ADVT-2025-law.jpg') }}"
                             class="card-img-top img-fluid" alt="PhD Law Admission 2025"
                            style="height: 100%; object-fit: cover;" alt="...">
@@ -32,8 +32,8 @@
             </div>
 
             <div class="col-md-6 mb-3">
-                <div class="card h-100">
-                    <a href="#" class="d-block w-100 h-100">
+                <div class="card">
+                    <a href="#" class="d-block w-100">
                         <img src="{{ asset('assets/img/research/admission-notice/PhD-ADVT-2025-decemebr.jpg') }}"
                             class="card-img-top img-fluid" alt="PhD December Admission 2025"
                            style="height: 100%; object-fit: cover;" alt="...">
