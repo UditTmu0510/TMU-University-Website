@@ -125,102 +125,102 @@ class NewsController extends Controller
 
    public function storeNewsPost(Request $request)
    {
-       try {
-           DB::beginTransaction();
-   
-           $validateData = $request->validate([
-               'cd_id' => 'required',
-               'event_date' => 'required|date',
-               'event_title' => 'required',
-               'category' => 'required',
-               'area' => 'required',
-               'display_main' => 'required',
-               'status' => 'required',
-               'ti_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-               'title_image_tag' => 'required',
-               'ei1_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-               'event_image1_tag' => 'required',
-               'monaco_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-               'monaco_image_alt_tag' => 'nullable|string|max:255'
-           ]);
-   
-           $filePaths = [];
-           $fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
-   
-           foreach ($fileFields as $field) {
-               if ($request->hasFile($field)) {
-                   $file = $request->file($field);
-                   $timestamp = now()->timestamp;
-                   $filename = $timestamp . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
-   
-                   // Store files in public/uploads/events/past_event
-                   $file->move(public_path('uploads/events/past_event'), $filename);
-                   $filePaths[$field] = 'uploads/events/past_event/' . $filename;
-   
-                   // Save absolute path and filename for ti_path
-                   if ($field === 'ti_path') {
-                       $filePaths['ti_full_path'] = public_path('uploads/events/past_event/' . $filename);
-                       $filePaths['event_image_1'] = $filename;
-                   }
+      try {
+         DB::beginTransaction();
+
+         $validateData = $request->validate([
+            'cd_id' => 'required',
+            'event_date' => 'required|date',
+            'event_title' => 'required',
+            'category' => 'required',
+            'area' => 'required',
+            'display_main' => 'required',
+            'status' => 'required',
+            'ti_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'title_image_tag' => 'required',
+            'ei1_path' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'event_image1_tag' => 'required',
+            'monaco_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'monaco_image_alt_tag' => 'nullable|string|max:255'
+         ]);
+
+         $filePaths = [];
+         $fileFields = ['ti_path', 'ei1_path', 'ei2_path', 'ei3_path', 'ei4_path', 'ei5_path', 'ei6_path'];
+
+         foreach ($fileFields as $field) {
+            if ($request->hasFile($field)) {
+               $file = $request->file($field);
+               $timestamp = now()->timestamp;
+               $filename = $timestamp . '_' . Str::random(10) . '.' . $file->getClientOriginalExtension();
+
+               // Store files in public/uploads/events/past_event
+               $file->move(public_path('uploads/events/past_event'), $filename);
+               $filePaths[$field] = 'uploads/events/past_event/' . $filename;
+
+               // Save absolute path and filename for ti_path
+               if ($field === 'ti_path') {
+                  $filePaths['ti_full_path'] = public_path('uploads/events/past_event/' . $filename);
+                  $filePaths['event_image_1'] = $filename;
                }
-           }
-   
-           // Handle monaco_image_path separately
-           if ($request->hasFile('monaco_image_path')) {
-               $monacoFile = $request->file('monaco_image_path');
-               $monacoFilename = now()->timestamp . '_' . Str::random(10) . '.' . $monacoFile->getClientOriginalExtension();
-               $monacoFile->move(public_path('monaco/assets/image/news'), $monacoFilename);
-               $filePaths['monaco_image_path'] = 'monaco/assets/image/news/' . $monacoFilename;
-           }
-   
-           // Extract date components
-           $eventDate = Carbon::parse($request->event_date);
-           $event_day = $eventDate->day;
-           $event_month = $eventDate->month;
-           $event_month_name = $eventDate->format('F');
-           $event_year = $eventDate->year;
-   
-           $slug = Str::slug($request->event_title);
-           date_default_timezone_set('Asia/Kolkata');
-   
-           $data = [
-               'cd_id' => $request->cd_id,
-               'event_date' => $request->event_date,
-               'event_day' => $event_day,
-               'event_month' => $event_month,
-               'event_month_name' => $event_month_name,
-               'event_year' => $event_year,
-               'event_title' => $request->event_title,
-               'title_image_tag' => $request->title_image_tag,
-               'category' => $request->category,
-               'event_full_description' => $request->area,
-               'display_main' => $request->display_main,
-               'status' => $request->status,
-               'event_image1_tag' => $request->event_image1_tag,
-               'event_image2_tag' => $request->event_image1_tag,
-               'event_image3_tag' => $request->event_image3_tag,
-               'event_image4_tag' => $request->event_image4_tag,
-               'event_image5_tag' => $request->event_image5_tag,
-               'event_image6_tag' => $request->event_image6_tag,
-               'monaco_image_alt_tag' => $request->monaco_image_alt_tag,
-               'n_slug' => $slug
-           ];
-   
-           News::create($data + $filePaths);
-   
-           DB::commit();
-           Session::flash('success', 'News Uploaded Successfully!');
-       } catch (ValidationException $e) {
-           DB::rollBack();
-           Session::flash('error', 'Validation Error in Uploading News: ' . $e->getMessage());
-       } catch (Exception $e) {
-           DB::rollBack();
-           Session::flash('error', 'Error in Uploading News: ' . $e->getMessage());
-       }
-   
-       return redirect()->route('all.news');
+            }
+         }
+
+         // Handle monaco_image_path separately
+         if ($request->hasFile('monaco_image_path')) {
+            $monacoFile = $request->file('monaco_image_path');
+            $monacoFilename = now()->timestamp . '_' . Str::random(10) . '.' . $monacoFile->getClientOriginalExtension();
+            $monacoFile->move(public_path('monaco/assets/image/news'), $monacoFilename);
+            $filePaths['monaco_image_path'] = 'monaco/assets/image/news/' . $monacoFilename;
+         }
+
+         // Extract date components
+         $eventDate = Carbon::parse($request->event_date);
+         $event_day = $eventDate->day;
+         $event_month = $eventDate->month;
+         $event_month_name = $eventDate->format('F');
+         $event_year = $eventDate->year;
+
+         $slug = Str::slug($request->event_title);
+         date_default_timezone_set('Asia/Kolkata');
+
+         $data = [
+            'cd_id' => $request->cd_id,
+            'event_date' => $request->event_date,
+            'event_day' => $event_day,
+            'event_month' => $event_month,
+            'event_month_name' => $event_month_name,
+            'event_year' => $event_year,
+            'event_title' => $request->event_title,
+            'title_image_tag' => $request->title_image_tag,
+            'category' => $request->category,
+            'event_full_description' => $request->area,
+            'display_main' => $request->display_main,
+            'status' => $request->status,
+            'event_image1_tag' => $request->event_image1_tag,
+            'event_image2_tag' => $request->event_image1_tag,
+            'event_image3_tag' => $request->event_image3_tag,
+            'event_image4_tag' => $request->event_image4_tag,
+            'event_image5_tag' => $request->event_image5_tag,
+            'event_image6_tag' => $request->event_image6_tag,
+            'monaco_image_alt_tag' => $request->monaco_image_alt_tag,
+            'n_slug' => $slug
+         ];
+
+         News::create($data + $filePaths);
+
+         DB::commit();
+         Session::flash('success', 'News Uploaded Successfully!');
+      } catch (ValidationException $e) {
+         DB::rollBack();
+         Session::flash('error', 'Validation Error in Uploading News: ' . $e->getMessage());
+      } catch (Exception $e) {
+         DB::rollBack();
+         Session::flash('error', 'Error in Uploading News: ' . $e->getMessage());
+      }
+
+      return redirect()->route('all.news');
    }
-   
+
 
    public function EditNewsPost($id)
    {
@@ -337,71 +337,202 @@ class NewsController extends Controller
    public function news_info($slug)
    {
       $news = News::where('n_slug', $slug)->where('status', 1)->firstOrFail();
-      return view('university.news.news_info', compact('news'));
+      $categoryId = NewsCategory::where('category_name', $news->category)->value('id');
+      return view('university.news.news_info', compact('news', 'categoryId'));
+
+      // return view('university.news.news_info', compact('news'));
    }
 
+
+   // public function all_news(Request $request)
+   // {
+   //    // Check if 'clear_filters' parameter is present in the request
+   //    if ($request->has('clear_filters')) {
+   //       // Clear all filter session data
+   //       session()->forget(['news_category', 'from_date', 'to_date', 'college_name']);
+   //       $query = News::where('status', 1);
+   //    } else {
+   //       $query = News::where('status', 1);
+
+   //       // 🔹 Category Filter
+   //       if ($request->has('news_category')) {
+   //          if ($request->news_category != '') {
+   //             $category = NewsCategory::find($request->news_category);
+   //             if ($category) {
+   //                $query->where('category', $category->category_name);
+   //                session(['news_category' => $category->category_name]);
+   //             }
+   //          } else {
+   //             session()->forget('news_category');
+   //          }
+   //       } else if (session()->has('news_category') && session('news_category') != '') {
+   //          $query->where('category', session('news_category'));
+   //       }
+
+   //       // 🔹 College Filter
+   //       if ($request->has('college_name')) {
+   //          if ($request->college_name != '') {
+   //             $collegeId = $request->college_name;
+   //             $query->where('cd_id', $collegeId);
+   //             session(['college_name' => $collegeId]);
+   //          } else {
+   //             session()->forget('college_name');
+   //          }
+   //       } else if (session()->has('college_name') && session('college_name') != '') {
+   //          $query->where('cd_id', session('college_name'));
+   //       }
+
+   //       // 🔹 From Date Filter
+   //       if ($request->has('from_date')) {
+   //          if ($request->from_date != '') {
+   //             $fromDate = $request->from_date;
+   //             $query->whereDate(
+   //                DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+   //                '>=',
+   //                $fromDate
+   //             );
+   //             session(['from_date' => $fromDate]);
+   //          } else {
+   //             session()->forget('from_date');
+   //          }
+   //       } else if (session()->has('from_date')) {
+   //          $fromDate = session('from_date');
+   //          $query->whereDate(
+   //             DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+   //             '>=',
+   //             $fromDate
+   //          );
+   //       }
+
+   //       // 🔹 To Date Filter
+   //       if ($request->has('to_date')) {
+   //          if ($request->to_date != '') {
+   //             $toDate = $request->to_date;
+   //             $query->whereDate(
+   //                DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+   //                '<=',
+   //                $toDate
+   //             );
+   //             session(['to_date' => $toDate]);
+   //          } else {
+   //             session()->forget('to_date');
+   //          }
+   //       } else if (session()->has('to_date')) {
+   //          $toDate = session('to_date');
+   //          $query->whereDate(
+   //             DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+   //             '<=',
+   //             $toDate
+   //          );
+   //       }
+   //    }
+
+   //    // Execute query with ordering by date and pagination
+   //    $news_post = $query
+   //       ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
+   //       ->orderBy('id', 'DESC')
+   //       ->paginate(10);
+
+   //    $news_categories = NewsCategory::latest()->get();
+   //    $colleges = Colleges::latest()->get();
+
+   //    if ($request->ajax()) {
+   //       return view('university.news.partials.news_list', compact('news_post'))->render();
+   //    }
+
+   //    return view('university.news.all_news', compact('news_categories', 'colleges', 'news_post'));
+   // }
+
+
+   
    public function all_news(Request $request)
    {
-      // Check if 'clear_filters' parameter is present in the request
-      if ($request->has('clear_filters')) {
-         // Clear all filter session data
-         session()->forget(['news_category', 'from_date', 'to_date', 'college_name']);
-         $query = News::where('status', 1);
-      } else {
-         // Initialize query builder for news
-         $query = News::where('status', 1);
-
-         // Apply category filter if present
-         if ($request->has('news_category') && $request->news_category != '') {
-            $category = NewsCategory::find($request->news_category);
-            if ($category) {
-               $query->where('category', $category->category_name);
-               session(['news_category' => $category->category_name]);
-            }
-         } else if (session()->has('news_category') && session('news_category') != '') {
-            $query->where('category', session('news_category'));
-         }
-
-         // Apply college filter if present
-         if ($request->has('college_name') && $request->college_name != '') {
-            $collegeId = $request->college_name;
-            $query->where('cd_id', $collegeId);
-            session(['college_name' => $collegeId]);
-         } else if (session()->has('college_name') && session('college_name') != '') {
-            $collegeId = session('college_name');
-            $query->where('cd_id', $collegeId);
-         }
-
-         // Date range filter
-         $fromDate = $request->has('from_date') && $request->from_date != '' ? $request->from_date : session('from_date', null);
-         $toDate = $request->has('to_date') && $request->to_date != '' ? $request->to_date : session('to_date', null);
-
-         if ($fromDate) {
-            $query->whereDate(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), '>=', $fromDate);
-            session(['from_date' => $fromDate]);
-         }
-
-         if ($toDate) {
-            $query->whereDate(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), '<=', $toDate);
-            session(['to_date' => $toDate]);
-         }
-      }
-
-      // Execute query with ordering by date and pagination
-      $news_post = $query
-         ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
-         ->orderBy('id', 'DESC')
-         ->paginate(10);
-
-      $news_categories = NewsCategory::latest()->get();
-      $colleges = Colleges::latest()->get();
-
-      if ($request->ajax()) {
-         return view('university.news.partials.news_list', compact('news_post'))->render();
-      }
-
-      return view('university.news.all_news', compact('news_categories', 'colleges', 'news_post'));
+       if ($request->has('clear_filters')) {
+           // Clear everything when Clear Filters is explicitly clicked
+           session()->forget(['news_category', 'from_date', 'to_date', 'college_name']);
+           $query = News::where('status', 1);
+   
+       } else if ($request->has('filters_submitted')) {
+           // User submitted the form (even with empty filters)
+           $query = News::where('status', 1);
+   
+           // 🔹 Category Filter
+           if ($request->has('news_category')) {
+               if ($request->news_category != '') {
+                   $category = NewsCategory::find($request->news_category);
+                   if ($category) {
+                       $query->where('category', $category->category_name);
+                       session(['news_category' => $category->category_name]);
+                   }
+               } else {
+                   session()->forget('news_category');
+               }
+           }
+   
+           // 🔹 College Filter
+           if ($request->has('college_name')) {
+               if ($request->college_name != '') {
+                   $collegeId = $request->college_name;
+                   $query->where('cd_id', $collegeId);
+                   session(['college_name' => $collegeId]);
+               } else {
+                   session()->forget('college_name');
+               }
+           }
+   
+           // 🔹 From Date Filter
+           if ($request->has('from_date')) {
+               if ($request->from_date != '') {
+                   $fromDate = $request->from_date;
+                   $query->whereDate(
+                       DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+                       '>=',
+                       $fromDate
+                   );
+                   session(['from_date' => $fromDate]);
+               } else {
+                   session()->forget('from_date');
+               }
+           }
+   
+           // 🔹 To Date Filter
+           if ($request->has('to_date')) {
+               if ($request->to_date != '') {
+                   $toDate = $request->to_date;
+                   $query->whereDate(
+                       DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"),
+                       '<=',
+                       $toDate
+                   );
+                   session(['to_date' => $toDate]);
+               } else {
+                   session()->forget('to_date');
+               }
+           }
+   
+       } else {
+           // No filters submitted and not clearing => refresh or first visit
+           // Clear old filters to avoid persisting unintentionally
+           session()->forget(['news_category', 'from_date', 'to_date', 'college_name']);
+           $query = News::where('status', 1);
+       }
+   
+       // Sorting + Pagination
+       $news_post = $query
+           ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
+           ->orderBy('id', 'DESC')
+           ->paginate(10);
+   
+       $news_categories = NewsCategory::latest()->get();
+       $colleges = Colleges::latest()->get();
+   
+       if ($request->ajax()) {
+           return view('university.news.partials.news_list', compact('news_post'))->render();
+       }
+   
+       return view('university.news.all_news', compact('news_categories', 'colleges', 'news_post'));
    }
+   
 
    // Sankit Code ends here
 

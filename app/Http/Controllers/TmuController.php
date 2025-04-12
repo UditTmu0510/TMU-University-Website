@@ -238,6 +238,11 @@ class TmuController extends Controller
         return view('university.university_glimpse.vice_chancellor_desk');
     }
 
+    public function website_feedback_form()
+    {
+        return view('university.university_glimpse.website_feedback_form');
+    }
+
     public function tmu_careers()
     {
         $academicJobs = JobOpening::where('category', 'Academic')->get();

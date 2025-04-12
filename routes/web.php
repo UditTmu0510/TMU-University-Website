@@ -422,6 +422,7 @@ Route::get('/tmu/university-administration', [TmuController::class, 'university_
 Route::get('/tmu/chancellor', [TmuController::class, 'chancellor_desk'])->name('chancellor.desk');
 Route::get('/tmu/founder-vicechancellor', [TmuController::class, 'founder_vice_chancellor_desk'])->name('founder.vice.chancellor.desk');
 Route::get('/tmu/vicechancellor', [TmuController::class, 'vice_chancellor_desk'])->name('vice.chancellor.desk');
+Route::get('/tmu/website-feedback-form', [TmuController::class, 'website_feedback_form'])->name('website.feedback.form');
 Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.careers');
 Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
 Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
@@ -701,6 +702,7 @@ Route::get('/tmimt-college-of-management/sc-st-committee', [ManagementController
 Route::get('/tmimt-college-of-management/icc-committee', [ManagementController::class, 'mgmt_icc_committee'])->name('mgmt.icc.committee');
 Route::get('/tmimt-college-of-management/gallery', [ManagementController::class, 'mgmt_gallery'])->name('mgmt.gallery');
 Route::get('/tmimt-college-of-management/study-material', [ManagementController::class, 'mgmt_study_material'])->name('mgmt.study.material');
+Route::get('/tmimt-college-of-management/iqac', [ManagementController::class, 'mgmt_iqac'])->name('mgmt.iqac');
 
 // Fine arts 
 Route::get('/college-of-fine-arts', [FineartsController::class, 'index'])->name('fine_arts.home');
@@ -1161,6 +1163,7 @@ Route::get('ciks/gallery', [CiksController::class, 'ciks_gallery'])->name('ciks.
 Route::get('ciks/media-coverage', [CiksController::class, 'ciks_media_coverage'])->name('ciks.media_coverage');
 Route::get('ciks/activities', [CiksController::class, 'ciks_activities'])->name('ciks.activities');
 Route::get('ciks/execution', [CiksController::class, 'ciks_execution'])->name('ciks.execution');
+Route::get('ciks/upcoming-events', [CiksController::class, 'ciks_upcoming_events'])->name('ciks.upcoming_events');
 
 
 

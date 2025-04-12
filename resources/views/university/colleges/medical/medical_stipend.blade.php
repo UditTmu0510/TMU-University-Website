@@ -41,8 +41,8 @@
 						<td class="text-center">152</td>
 						<td class="text-center">152</td>
 						<td class="text-center">151</td>
-						<td class="text-center"></td>
-						<td class="text-center"></td>
+						<td class="text-center">151</td>
+						<td class="text-center">149</td>
 					
 					</tr>
 					<tr>
@@ -63,8 +63,11 @@
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
 						<td class="text-center">119</td>
-						<td class="text-center"></td>
-						<td class="text-center"></td>
+						<td class="text-center">119+122(new
+						batch)=241</td>
+						<td class="text-center">batch)=241
+119+134(new
+batch)=253</td>
 
 					</tr>
 					<tr>
@@ -82,8 +85,8 @@
 						<td class="text-center">106</td>
 						<td class="text-center">106</td>
 						<td class="text-center">106</td>
-						<td class="text-center"></td>
-						<td class="text-center"></td>
+						<td class="text-center">106</td>
+						<td class="text-center">106</td>
 					</tr>
 					<tr>
 						<td class="text-center">4.</td>
@@ -100,8 +103,8 @@
 						<td class="text-center">111</td>
 						<td class="text-center">111</td>
 						<td class="text-center">111</td>
-						<td class="text-center"></td>
-						<td class="text-center"></td>
+						<td class="text-center">111</td>
+						<td class="text-center">111</td>
 					</tr>
 					<tr>
 						<td colspan="16" style="text-align:left;">Senior Residents or PGs in Super Specialty:</td>

@@ -20,6 +20,9 @@
             <a href="{{ route('ciks.activities') }}" class="custom-menu-item {{ setActive('ciks.activities') }}">
                 <p>Activities</p>
             </a>
+            <a href="{{ route('ciks.upcoming_events') }}" class="custom-menu-item {{ setActive('ciks.upcoming_events') }}">
+                <p>Upcoming Events</p>
+            </a>
             <a href="{{ route('ciks.events') }}" class="custom-menu-item {{ setActive('ciks.events') }}">
                 <p>Events</p>
             </a>

@@ -70,7 +70,7 @@
                             <td>TMIMT College of Physical Education</td>
                             <td>BPES</td>
                             <td>Indian Knowledge System</td>
-                            <td>TMUVA240101</td>
+                            <td>TMUVA240202</td>
                             <td>2</td>
                         </tr>
                         <tr>
@@ -84,7 +84,7 @@
                     </tbody>
                 </table>
             </div>
-            <p class="mb-2 fs-14 mt-3">The Centre for Indian Knowledge Systems (CIKS) has been actively engaged in promoting education, training, and research in traditional Indian Knowledge Systems. Here are some of the key activities CIKS organized in alignment with its vision.</p>
+           
         </section>
     </div>
 </div>

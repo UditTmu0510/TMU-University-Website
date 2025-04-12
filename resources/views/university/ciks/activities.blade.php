@@ -5,6 +5,7 @@
     <div class="container">
         <section class="about-section bg-light p-3">
             <h1 class="tmu-text-primary tmu-page-heading mt-md-5 "><span>Activity Planner: </span><span>  January 2025 - June 2025</span></h1>
+            <p class="mb-2 fs-14 mt-3 text-justify">The Centre for Indian Knowledge Systems (CIKS) has been actively engaged in promoting education, training, and research in traditional Indian Knowledge Systems. Here are some of the key activities CIKS organized in alignment with its vision.</p>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped">
                     <tbody>
@@ -57,17 +58,12 @@
                             <td>4</td>
                             <td>April</td>
                             <td>Quiz</td>
-                            <td rowspan="2">IKS Syllabus Based</td>
-                            <td rowspan="2">Students of TMIMT of all Programmes where IKS will be taught as a course either in I or II semester of 2024-25 batch</td>
-                            <td rowspan="2">Students of TMIMT</td>
+                            <td>IKS Syllabus Based</td>
+                            <td>Students of TMIMT of all Programmes where IKS will be taught as a course either in I or II semester of 2024-25 batch</td>
+                            <td>Students of TMIMT</td>
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>May</td>
-                            <td>Exam</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
                             <td>June</td>
                             <td>Expert Talk/ Workshop</td>
                             <td>Bhagavad-Gita</td>

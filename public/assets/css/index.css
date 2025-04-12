@@ -272,3 +272,36 @@ line-height: 1.5;
     background-color: #001055;
     
 }
+
+/* feedback form css start */
+.feedback-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 50px auto;
+  }
+  .form-check-label {
+    font-size: 14px;
+  }
+  .thank-you-popup {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 400px;
+    z-index: 9999;
+  }
+  .thank-you-popup h4 {
+    margin-bottom: 15px;
+  }
+  /* feedback form css end */

@@ -391,13 +391,174 @@
                         <div class="entry-content mt-0">
 
                             <div id="blogs69">
+
+
+
                                 @php
-                                echo nl2br(html_entity_decode($blog->full_post));
+                                    $content = nl2br(html_entity_decode($blog->full_post));
+                                    $insertCode = '';
+
+                                    if (!request()->ajax()) {
+                                        $insertCode =
+                                            '<div class="container-fluid mt-4 p-0">
+<div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .asset('uploads/blogs/banner_blog_npf.png') .'\') no-repeat left center / cover;">
+<div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+<div class="form-inner text-center">
+<h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+<span></span><span>Apply For Admissions</span>
+</h2>
+<div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+</div>
+</div>
+</div>
+</div>
+
+<style>
+@media (max-width: 991.98px) {
+.bg-section {
+background: none !important;
+}
+.bg-form-wrapper {
+justify-content: center !important;
+}
+.form-inner {
+width: 100%;
+max-width: 600px;
+}
+}
+</style>';
+                                    }
+
+                                    $count = 0;
+                                    $content = preg_replace_callback(
+                                        '/(<h2\b[^>]*>.*?<\/h2>)/i',
+                                        function ($matches) use (&$count, $insertCode) {
+                                            $count++;
+                                            return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+                                        },
+                                        $content,
+                                    );
+
+                                    echo $content;
                                 @endphp
                             </div>
 
 
-                            <div class="card border-default my-4" style="background-color: #001055;">
+                           
+<style>
+                            /* Style for the container */
+    .apply-now-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(135deg, #001055 0%, #003087 100%); /* Gradient background */
+        padding: 30px;
+        border-radius: 15px;
+        margin: 50px auto;
+        max-width: 1200px;
+        position: relative;
+        overflow: visible;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        transition: transform 0.3s ease;
+    }
+
+    .apply-now-section:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+    }
+
+    /* Style for the image */
+    .apply-now-section img {
+        width: 300px;
+        position: absolute;
+        right: 0px; /* Slightly outside the container for a modern look */
+        bottom: 0px;
+        z-index: 10;
+        transition: transform 0.3s ease;
+    }
+
+    /* Style for the text content */
+    .apply-now-content {
+        color: white;
+        max-width: 55%;
+        z-index: 5;
+    }
+
+    .apply-now-content h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #ffffff, #d1d1d1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; /* Gradient text effect */
+    }
+
+    .apply-now-content p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        opacity: 0.9;
+        font-weight: 300;
+    }
+
+    /* Background design element */
+    .background-design {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"%3E%3Ccircle cx="0" cy="0" r="150" fill="rgba(255, 255, 255, 0.05)" /%3E%3C/svg%3E') no-repeat top left;
+        border-radius: 15px;
+        z-index: 0;
+        opacity: 0.3;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .apply-now-section {
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .apply-now-content {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .apply-now-section img {
+            display: none; /* Hide the image on mobile view */
+        }
+
+        .apply-now-content h2 {
+            font-size: 28px;
+        }
+
+        .apply-now-content p {
+            font-size: 16px;
+        }
+    }
+</style>
+
+<!-- Apply Now Section -->
+<div class="apply-now-section">
+    <!-- Background Design -->
+    <div class="background-design"></div>
+    
+    <!-- Content -->
+    <div class="apply-now-content">
+        <h2>Join Us Today</h2>
+        <p>Empowering Minds, Transforming Futures Begin Your Journey to Success Here.</p>
+        <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply Now</a>
+    </div>
+
+    <!-- Image -->
+    <img src="{{asset('/assets/img/apply-button.png')}}" alt="Girl with books">
+</div>
+                            <div class="card border-default my-4" style="background: linear-gradient(135deg, #001055 0%, #003087 100%); /* Gradient background */">
                                 <div class="card-body p-3">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="fs-5 fw-semibold mb-0" style="color: #FF7900;">Share:</h6>
@@ -431,6 +592,8 @@
                                     </div>
                                 </div>
                             </div>
+
+
 
                             <div class="row text-center text-md-start justify-content-between my-3">
                                 @if($nextPost)
@@ -619,7 +782,7 @@
                                     <div class="card-body text-center">
                                         <!-- Post Date and Category -->
                                         <small class="text-muted d-block mb-1">
-                                            {{ $post->posted_at->format('M j') }} | {{ $post->category ?? 'Uncategorized' }}
+                                            {{ $post->posted_at->format('M j') }} | {{ $post->category_name->category_name ?? 'Uncategorized' }}
                                         </small>
 
                                         <!-- Post Title -->
@@ -943,6 +1106,42 @@
     });
 });
 
+</script>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        function loadNPFScript(retry = 0) {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "https://widgets.nopaperforms.com/emwgts.js";
+
+            script.onload = function() {
+                console.log("✅ NoPaperForms script loaded successfully");
+            };
+
+            script.onerror = function() {
+                console.warn("⚠️ NoPaperForms script failed to load.");
+                if (retry < 3) {
+                    console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                    setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                }
+            };
+
+            document.body.appendChild(script);
+        }
+
+        loadNPFScript(); // Initial script load
+    });
+</script>
+
+<script>
+    window.addEventListener("error", function(e) {
+        if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+            console.warn("🚨 NoPaperForms script failed to load.");
+        }
+        e.preventDefault(); // Ignore errors from other scripts
+    }, true);
 </script>
 
 
