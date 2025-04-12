@@ -58,6 +58,7 @@ use App\Http\Controllers\GitWebhookController;
 use App\Http\Controllers\AebesController;
 use App\Http\Controllers\CiksController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\ClubsController;
 
 
 /*
@@ -567,7 +568,29 @@ Route::get('/tmu/transport', [TmuController::class, 'tmu_transport'])->name('tmu
 // Greviances
 Route::get('/tmu/grievances-portal', [TmuController::class, 'greviances_about'])->name('greviances.about');
 Route::get('/tmu/greviance-submit-suggestion', [TmuController::class, 'greviance_submit_suggestion'])->name('greviance.submit.suggestion');
-Route::get('/tmu/student-club', [TmuController::class, 'student_clubs'])->name('student.clubs');
+
+
+//Student Clubs
+Route::get('/student-club/advertisement-club', [ClubsController::class, 'advertisement_club'])->name('advertisement.club');
+Route::get('/student-club/culture-and-heritage-club', [ClubsController::class, 'culture_club'])->name('culture.club');
+Route::get('/student-club/dance-club', [ClubsController::class, 'dance_club'])->name('dance.club');
+Route::get('/student-club/debate-club', [ClubsController::class, 'debate_club'])->name('debate.club');
+Route::get('/student-club/drawing-club', [ClubsController::class, 'drawing_club'])->name('drawing.club');
+Route::get('/student-club/environment-club', [ClubsController::class, 'environment_club'])->name('environment.club');
+Route::get('/student-club/fashion-club', [ClubsController::class, 'fashion_club'])->name('fashion.club');
+Route::get('/student-club/music-club', [ClubsController::class, 'music_club'])->name('music.club');
+Route::get('/student-club/photography-club', [ClubsController::class, 'photography_club'])->name('photography.club');
+Route::get('/student-club/poetry-club', [ClubsController::class, 'poetry_club'])->name('poetry.club');
+Route::get('/student-club/public-speaking-club', [ClubsController::class, 'public_speaking'])->name('public.speaking');
+Route::get('/student-club/quiz-club', [ClubsController::class, 'quiz_club'])->name('quiz.club');
+Route::get('/student-club/reading-club', [ClubsController::class, 'reading_club'])->name('reading.club');
+Route::get('/student-club/road-safety-club', [ClubsController::class, 'road_safety'])->name('road.safety');
+Route::get('/student-club/singing-club', [ClubsController::class, 'singing_club'])->name('singing.club');
+Route::get('/student-club/sports-club', [ClubsController::class, 'sports_club'])->name('sports.club');
+Route::get('/student-club/theatre-club', [ClubsController::class, 'theatre_club'])->name('theatre.club');
+Route::get('/student-club/videograpgy-club', [ClubsController::class, 'videograpgy_club'])->name('videograpgy.club');
+Route::get('/student-club/yoga-club', [ClubsController::class, 'yoga_club'])->name('yoga.club');
+Route::get('/student-club', [ClubsController::class, 'student_clubs'])->name('student.clubs');
 
 
 // Footer links 
