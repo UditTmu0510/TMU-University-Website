@@ -236,18 +236,18 @@
 								<th class="text-center" rowspan="2">Sl. No.</th>
 								<th rowspan="2">Post-Graduate Course</th>
 								<th rowspan="2">Year of Commencement of the Course</th>
-								<th colspan="2">Number of Students Currently pursuing the Course</th>
-								<th rowspan="2">Number of Students admitted in the current session</th>
+								<th colspan="2" Class="text-center">Number of Students Currently pursuing the Course</th>
+								<th rowspan="2" Class="text-center">Number of Students admitted in the current session</th>
 							</tr>
 							<tr>
-								<th class="text-center">Year: 2021</th>
 								<th class="text-center">Year: 2022</th>
+								<th class="text-center">Year: 2023</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td class="text-center">1</td>
-								<td>MD &ndash; Anatomy</td>
+								<td class="text-center">MD &ndash; Anatomy</td>
 								<td class="text-center">2012</td>
 								<td class="text-center">0</td>
 								<td class="text-center">0</td>
@@ -255,71 +255,71 @@
 							</tr>
 							<tr>
 								<td class="text-center">2</td>
-								<td>MD &ndash; Physiology</td>
+								<td class="text-center">MD &ndash; Physiology</td>
 								<td class="text-center">2012</td>
 								<td class="text-center">0</td>
-								<td class="text-center">0</td>
 								<td class="text-center">1</td>
+								<td class="text-center">0</td>
 							</tr>
 							<tr>
 								<td class="text-center">3</td>
-								<td>MD &ndash; Biochemistry</td>
+								<td class="text-center">MD &ndash; Biochemistry</td>
 								<td class="text-center">2012</td>
 								<td class="text-center">0</td>
-								<td class="text-center">0</td>
+								<td class="text-center">1</td>
 								<td class="text-center">1</td>
 							</tr>
 							<tr>
 								<td class="text-center">4</td>
-								<td>MD &ndash; Pathology </td>
+								<td class="text-center">MD &ndash; Pathology</td>
 								<td class="text-center">2012</td>
-								<td class="text-center">8</td>
 								<td class="text-center">4</td>
+								<td class="text-center">8</td>
 								<td class="text-center">8</td>
 							</tr>
 							<tr>
 								<td class="text-center">5</td>
-								<td>MD &ndash; Microbiology </td>
+								<td class="text-center">MD &ndash; Microbiology</td>
 								<td class="text-center">2012</td>
 								<td class="text-center">0</td>
-								<td class="text-center">0</td>
+								<td class="text-center">2</td>
 								<td class="text-center">2</td>
 							</tr>
 							<tr>
 								<td class="text-center">6</td>
-								<td>MD &ndash; Pharmacology </td>
+								<td class="text-center">MD &ndash; Pharmacology</td>
 								<td class="text-center">2013</td>
 								<td class="text-center">0</td>
-								<td class="text-center">0</td>
 								<td class="text-center">2</td>
+								<td class="text-center">1</td>
 							</tr>
 							<tr>
 								<td class="text-center">7</td>
-								<td>MD &ndash; Forensic Medicine</td>
+								<td class="text-center">MD &ndash; Forensic Medicine</td>
 								<td class="text-center">2012</td>
 								<td class="text-center">0</td>
-								<td class="text-center">0</td>
+								<td class="text-center">2</td>
 								<td class="text-center">2</td>
 							</tr>
 							<tr>
 								<td class="text-center">8</td>
-								<td>MD &ndash; Community Medicine</td>
+								<td class="text-center">MD &ndash; Community Medicine</td>
 								<td class="text-center">2012</td>
-								<td class="text-center">1</td>
 								<td class="text-center">0</td>
 								<td class="text-center">2</td>
+								<td class="text-center">3</td>
 							</tr>
 							<tr>
 								<td class="text-center">9</td>
-								<td>MD &ndash; General Medicine</td>
+								<td class="text-center">MD &ndash; General Medicine</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">15</td>
 								<td class="text-center">15</td>
-								<td class="text-center">15</td>
+								<td class="text-center">25</td>
 							</tr>
 							<tr>
 								<td class="text-center">10</td>
-								<td>MD &ndash; TB &amp; Chest</td>
+								<td class="text-center">MD &ndash; TB &amp; Chest</td>
 								<td class="text-center">2015</td>
 								<td class="text-center">4</td>
 								<td class="text-center">4</td>
@@ -327,15 +327,15 @@
 							</tr>
 							<tr>
 								<td class="text-center">11</td>
-								<td>MD &ndash; Psychiatry </td>
+								<td class="text-center">MD &ndash; Psychiatry</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">4</td>
 								<td class="text-center">4</td>
-								<td class="text-center">4</td>
+								<td class="text-center">5</td>
 							</tr>
 							<tr>
 								<td class="text-center">12</td>
-								<td>MD &ndash; Dermatology </td>
+								<td class="text-center">MD &ndash; Dermatology</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">4</td>
 								<td class="text-center">4</td>
@@ -343,15 +343,15 @@
 							</tr>
 							<tr>
 								<td class="text-center">13</td>
-								<td>MD &ndash; Paediatrics</td>
+								<td class="text-center">MD &ndash; Paediatrics</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">9</td>
 								<td class="text-center">9</td>
-								<td class="text-center">9</td>
+								<td class="text-center">10</td>
 							</tr>
 							<tr>
 								<td class="text-center">14</td>
-								<td>MD &ndash; Anaesthesiology </td>
+								<td class="text-center">MD &ndash; Anaesthesiology</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">11</td>
 								<td class="text-center">11</td>
@@ -359,15 +359,15 @@
 							</tr>
 							<tr>
 								<td class="text-center">15</td>
-								<td>MD &ndash; Radiology </td>
+								<td class="text-center">MD &ndash; Radiology</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">12</td>
 								<td class="text-center">12</td>
-								<td class="text-center">12</td>
+								<td class="text-center">15</td>
 							</tr>
 							<tr>
 								<td class="text-center">16</td>
-								<td>MS &ndash; General Surgery</td>
+								<td class="text-center">MS &ndash; General Surgery</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">16</td>
 								<td class="text-center">16</td>
@@ -375,7 +375,7 @@
 							</tr>
 							<tr>
 								<td class="text-center">17</td>
-								<td>MS &ndash; Orthopaedics </td>
+								<td class="text-center">MS &ndash; Orthopaedics</td>
 								<td class="text-center">2015</td>
 								<td class="text-center">10</td>
 								<td class="text-center">10</td>
@@ -383,7 +383,7 @@
 							</tr>
 							<tr>
 								<td class="text-center">18</td>
-								<td>MS &ndash; Oto-Rhinolaryngology (ENT)</td>
+								<td class="text-center">MS &ndash; Oto-Rhinolaryngology (ENT)</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">4</td>
 								<td class="text-center">4</td>
@@ -391,15 +391,15 @@
 							</tr>
 							<tr>
 								<td class="text-center">19</td>
-								<td>MS &ndash; Ophthalmology </td>
+								<td class="text-center">MS &ndash; Ophthalmology</td>
 								<td class="text-center">2014</td>
 								<td class="text-center">4</td>
 								<td class="text-center">4</td>
-								<td class="text-center">4</td>
+								<td class="text-center">5</td>
 							</tr>
 							<tr>
 								<td class="text-center">20</td>
-								<td>MS &ndash; Obstetrics &amp; Gynaecology </td>
+								<td class="text-center">MS &ndash; Obstetrics &amp; Gynaecology</td>
 								<td class="text-center">2015</td>
 								<td class="text-center">10</td>
 								<td class="text-center">10</td>
@@ -409,75 +409,75 @@
 					</table>
 				</div>
 				<hr class="horizontal-line">
-				<h2 class="tmu-text-primary tmu-page-heading mb-2 mt-3 text-center"><span>Institutional Staff and </span> <span>Academic Contribution</span></h2>
+				<h2 class="tmu-text-primary tmu-page-heading mb-2 mt-3"><span>Institutional Staff and </span> <span>Academic Contribution</span></h2>
 				<!-- Desktop/Tablets -->
-                <div class="container d-none d-sm-block">
-                    <div style="text-align:center">
-                        <h2 class="tmu-text-primary mb-2 text-center"><span>Department Wise Faculty List</span></h2>
-                        <iframe src="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
-                    </div>
-                </div>
-                
-                <!-- Mobile View as Card -->
-                <div class="container d-block d-sm-none mb-3">
-                    <div class="iqac-container">
-                        <div class="iqac-card">
-                            <div class="card-pdf">
-                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                                <p class="description">Department Wise Faculty List</p>
-                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                    href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" download>Download PDF</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <!-- Desktop/Tablets -->
-                <div class="container d-none d-sm-block">
-                    <div style="text-align:center">
-                        <h2 class="tmu-text-primary mb-2 text-center"><span>Details of Publication in Vancouver Referencing Style - TMMC&RC</span></h2>
-                        <iframe src="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
-                    </div>
-                </div>
-                
-                <!-- Mobile View as Card -->
-                <div class="container d-block d-sm-none mb-3">
-                    <div class="iqac-container">
-                        <div class="iqac-card">
-                            <div class="card-pdf">
-                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                                <p class="description">Details of Publication in Vancouver Referencing Style - TMMC&RC</p>
-                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                    href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" download>Download PDF</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <!-- Desktop/Tablets -->
-                <div class="container d-none d-sm-block">
-                    <div style="text-align:center">
-                        <h2 class="tmu-text-primary mb-2 text-center"><span>List of non-teaching staff</span></h2>
-                        <iframe src="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
-                    </div>
-                </div>
-                
-                <!-- Mobile View as Card -->
-                <div class="container d-block d-sm-none mb-3">
-                    <div class="iqac-container">
-                        <div class="iqac-card">
-                            <div class="card-pdf">
-                                <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                                <p class="description">List of non-teaching staff</p>
-                                <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                                    href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" download>Download PDF</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+				<div class="container d-none d-sm-block">
+					<div style="text-align:center">
+						<h2 class="tmu-text-primary mb-2 text-center"><span>Department Wise Faculty List</span></h2>
+						<iframe src="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+					</div>
+				</div>
+
+				<!-- Mobile View as Card -->
+				<div class="container d-block d-sm-none mb-3">
+					<div class="iqac-container">
+						<div class="iqac-card">
+							<div class="card-pdf">
+								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+								<p class="description">Department Wise Faculty List</p>
+								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+									href="{{asset('/assets/pdf/medical/department_wise_faculty_list.pdf')}}" download>Download PDF</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Desktop/Tablets -->
+				<div class="container d-none d-sm-block">
+					<div style="text-align:center">
+						<h2 class="tmu-text-primary mb-2 text-center"><span>Details of Publication in Vancouver Referencing Style - TMMC&RC</span></h2>
+						<iframe src="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+					</div>
+				</div>
+
+				<!-- Mobile View as Card -->
+				<div class="container d-block d-sm-none mb-3">
+					<div class="iqac-container">
+						<div class="iqac-card">
+							<div class="card-pdf">
+								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+								<p class="description">Details of Publication in Vancouver Referencing Style - TMMC&RC</p>
+								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+									href="{{asset('/assets/pdf/medical/publication_and_other_details.pdf')}}" download>Download PDF</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Desktop/Tablets -->
+				<div class="container d-none d-sm-block">
+					<div style="text-align:center">
+						<h2 class="tmu-text-primary mb-2 text-center"><span>List of non-teaching staff</span></h2>
+						<iframe src="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" frameborder="0" height="800px" width="100%"></iframe>
+					</div>
+				</div>
+
+				<!-- Mobile View as Card -->
+				<div class="container d-block d-sm-none mb-3">
+					<div class="iqac-container">
+						<div class="iqac-card">
+							<div class="card-pdf">
+								<img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+								<p class="description">List of non-teaching staff</p>
+								<a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
+									href="{{asset('/assets/pdf/medical/info/List-of-non-teaching-staff.pdf')}}" download>Download PDF</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
 
 
 
