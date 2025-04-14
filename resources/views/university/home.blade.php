@@ -407,6 +407,20 @@
 
                             <div class="notice">
                                 <div class="notice-pub">
+                                    <span>14, April</span>
+                                </div>
+                                <div class="notice-content">
+                                    <p>Join us for a session on "Innovative Oncorehabilitation: Cutting-Edge Strategies for Enhancing Recovery in Oral & Breast Cancer" by Dr. Mitali Yadav on 19th April 2025 at 10:00 AM in LT-603, Dept. of Physiotherapy.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Department of Physiotherapy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19, April</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
                                     <span>09, April</span>
                                 </div>
                                 <div class="notice-content">
@@ -627,77 +641,6 @@
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
                                    Faculty of Engineering</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 04, January</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>06 to 07, December</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>Join the 13th IEEE Scopus Indexed SMART-2024 on 6th-7th December 2024 at TMU, Moradabad. With over 100 delegates, this premier event will showcase global advancements in computational sciences and system modelling. Don’t miss this opportunity to connect with experts. Visit the <a href="https://smart2024.tmu.ac.in/" target="_blank">SMART-2024</a> Website for details.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                   CCSIT</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 05, December</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>02, December</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The Department of Electrical Engineering is organizing an expert lecture on "Power Quality: Introduction and Improvement Techniques" on 2nd December 2024.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                   Faculty of Engineering</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 30, November</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>22, November</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>The College of Pharmacy is organising National Pharmacy Week from 21st to 23rd November 2024. Students and faculty are invited to attend!.</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                   College of Pharmacy</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21 to 23, November</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>21, November</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p>Dept. of Physiotherapy is organizing a three-day sports event, "Physiolympic," from November 21 to November 23, 2024. Don't miss the excitement and join us for fun-filled competitions and activities!</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    Dept. of Physiotherapy</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21 to 23, November</span>
-                                </div>
-                            </div>
-                            <hr class="notice-separator">
-                            <div class="notice">
-                                <div class="notice-pub">
-                                    <span>12, November</span>
-                                </div>
-                                <div class="notice-content">
-                                    <p> Dept. of Physiotherapy is organising a session on "Advancement in Airway Clearance Techniques" with Dr. Divya M. Sharma, Safdarjung Hospital, on November 12, 2024, 10:00 am - 1:00 pm</p>
-                                </div>
-                                <div class="notice-meta">
-                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    Dept. of Physiotherapy</span>
-                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 12, November</span>
                                 </div>
                             </div>
                             <hr class="notice-separator">
