@@ -720,7 +720,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 mb-3">
                     <div class="card fixed-height-card">
-                        <img class="card-img-top" src="{{asset('/uploads/employee_images/1727506007_Ea6fcKElX2.png.jpg')}}" alt="vineeta jain">
+                        <img class="card-img-top" src="https://www.tmu.ac.in/uploads/employee_images/1727506007_Ea6fcKElX2.png" alt="vineeta jain">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Vineeta Jain</span></h5>
                             <p class="card-text fs-14">University Librarian</p>
