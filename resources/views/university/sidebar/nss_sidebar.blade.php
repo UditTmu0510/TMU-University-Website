@@ -42,6 +42,9 @@
             <a href="{{ route('nss.events') }}" class="custom-menu-item {{ setActive('nss.events') }}">
                 <p>NSS Events</p>
             </a>
+            <a href="{{ route('nss.faq') }}" class="custom-menu-item {{ setActive('nss.faq') }}">
+                <p>NSS Faqs</p>
+            </a>
         </div>
     </div>
 </div>
