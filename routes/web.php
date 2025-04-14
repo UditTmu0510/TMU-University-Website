@@ -466,6 +466,7 @@ Route::get('/nss-contactus', [TmuController::class, 'nss_contactus'])->name('nss
 Route::get('/nss-coordinator-desk', [TmuController::class, 'nss_coordinator'])->name('nss.coordinator');
 Route::get('/nss-adopted-village', [TmuController::class, 'adopted_village'])->name('adopted.village');
 Route::get('/nss-coordinators', [TmuController::class, 'nss_commitee'])->name('nss.commitee');
+Route::get('/nss-faq', [TmuController::class, 'nss_faq'])->name('nss.faq');
 
 // NEP
 
