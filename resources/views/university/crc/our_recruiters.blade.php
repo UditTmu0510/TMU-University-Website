@@ -13,6 +13,88 @@
                 <div class="row gy-4">
                     <div class="col-6 col-md-4 col-xl-3 text-center">
                         <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/zoomlion.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/haier.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/square.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/home.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/acro.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/coca.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/squadz.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/94.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/95.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/96.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/97.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/4.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/52.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/cognizant.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/64.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/14.jpg')}}" alt="">
+                        </div>
+                    </div>
+
+                    <!--------->
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-2 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
                             <img src="{{asset('/assets/img/placement/our_recuriters/vivo.png')}}" alt="">
                         </div>
                     </div>
@@ -238,6 +320,92 @@
                         </div>
                     </div>
 
+                    <!------new add on 14-04-2025----->
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/44.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/45.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/46.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/48.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/50.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/52.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/55.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/58.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/60.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/61.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/63.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/65.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/66.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/67.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/68.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/70.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 text-center">
+                        <div class="text-secondary bg-light px-3 py-3 px-md-5 py-md-3 px-lg-4 py-lg-4">
+                            <img src="{{asset('/assets/img/placement/our_recuriters/75.jpg')}}" alt="">
+                        </div>
+                    </div>
 
                     
 
