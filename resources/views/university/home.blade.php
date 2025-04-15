@@ -414,7 +414,7 @@
                                 </div>
                                 <div class="notice-meta">
                                     <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
-                                    Department of Physiotherapy</span>
+                                    College of Paramedical Sciences</span>
                                     <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 23-24, April</span>
                                 </div>
                             </div>
