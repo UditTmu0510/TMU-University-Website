@@ -148,7 +148,7 @@
             </div>
             <div class="col-12 col-lg-8 col-xl-9 ps-4 pt-1">
                 <div class="entry-title nott">
-                    <h3><a href="{{ url('news/' . $item->n_slug) }}">{{ html_entity_decode($item->event_title) }}
+                    <h3><a href="{{ url('news/' . $item->n_slug) }}">{!! html_entity_decode($item->event_title) !!}
                     </a></h3>
                 </div>
                 <div class="entry-meta mt-3">
