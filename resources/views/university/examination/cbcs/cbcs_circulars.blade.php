@@ -20,6 +20,11 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td>15-Apr-2025</td>
+                                <td>Circular regarding Suspension of Classes between 12-15 Mar, 2025</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/march/Circular_094.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
                                 <td>11-Mar-2025</td>
                                 <td>Circular regarding Suspension of Classes between 12-15 Mar, 2025</td>
                                 <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/march/Circular_094.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
