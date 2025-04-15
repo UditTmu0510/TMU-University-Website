@@ -410,6 +410,20 @@
                                     <span>15, April</span>
                                 </div>
                                 <div class="notice-content">
+                                    <p>The Department of Physiotherapy presents a guest lecture on "Revolutionizing Low Back Pain Management: AI-Driven Solutions and Telerehabilitation Advances." Join us for an insightful session exploring the future of tech-enabled physiotherapy care and innovation.</p>
+                                </div>
+                                <div class="notice-meta">
+                                    <span style="margin-right: 15px;"><img src="{{asset('assets/img/icons/placeholder.svg')}}" width="16px" height="16px">
+                                    Department of Physiotherapy</span>
+                                    <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21, April</span>
+                                </div>
+                            </div>
+                            <hr class="notice-separator">
+                            <div class="notice">
+                                <div class="notice-pub">
+                                    <span>15, April</span>
+                                </div>
+                                <div class="notice-content">
                                     <p>Join us in celebrating World Laboratory Day: MLT Odyssey 2025 with the inspiring theme “From Cells to Celebrations: Honouring Science and Art Together” Organized by the Department of Medical Lab Techniques, College of Paramedical Sciences. Let’s honour lab excellence!</p>
                                 </div>
                                 <div class="notice-meta">
