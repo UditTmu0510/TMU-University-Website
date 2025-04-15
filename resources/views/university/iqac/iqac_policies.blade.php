@@ -285,6 +285,8 @@
           <p class="description"><b>SOP(18)</b> - Financial Assistance to Students & Research Scholars for the Promotion of Research</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_018_FAS&RSPOR.pdf')}}" target="_blank">View
             PDF</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-2" href="{{asset('/assets/pdf/policy/sops/II_amendment.pdf')}}" target="_blank">Withdrawal Circular
+            </a>
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
@@ -328,6 +330,12 @@
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
           <p class="description"><b>SOP(25)</b> - Adjunct Faculty & Others / Visiting Faculty / Emeritus Faculty / Professor of Practice</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_25.0_Adjunct_Faculty_Visiting_Faculty_Others.pdf')}}" target="_blank">View
+            PDF</a>
+        </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>SOP(26)</b> - Marking of Not Reported (NR) Student Status and Activation Process in ERP</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_26_0.pdf')}}" target="_blank">View
             PDF</a>
         </div>
         
