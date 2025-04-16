@@ -724,7 +724,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Vineeta Jain</span></h5>
                             <p class="card-text fs-14">University Librarian</p>
-                            <p class="card-text fs-14">librarian@tmu.ac.in</p>
+                            <p class="card-text fs-14">university.librarian@tmu.ac.in</p>
                             <p class="card-text fs-14">+91-591-2473505</p>
                         </div>
                     </div>
