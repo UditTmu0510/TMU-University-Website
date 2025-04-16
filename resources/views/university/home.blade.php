@@ -448,6 +448,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>16, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Nursing is delighted to host a Farewell Ceremony for P.B.B.Sc (N) II Year students on 19th April 2025 at 10:00 AM in the Multipurpose Hall, Nursing Building. Join us in celebrating their journey!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                           College of Nursing</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19,
+                                            April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>15, April</span>
                                     </div>
                                     <div class="notice-content">
