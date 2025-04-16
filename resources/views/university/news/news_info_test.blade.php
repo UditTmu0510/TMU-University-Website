@@ -255,6 +255,8 @@
 
 
                                         </div>
+
+                                        <div class="divider"><i class="bi-circle-fill"></i></div>
                                     </div>
                                 </div>
                             </section>
@@ -270,48 +272,73 @@
                                             <span><strong>42.3K</strong> Followers</span>
                                             <span><strong>4</strong> Following</span>
                                         </div>
-                                        <button class="tmu-btn btn-4 mt-2 py-1 px-2">Follow</button>
+                                        <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"><button class="tmu-btn btn-4 mt-2 py-1 px-2">Follow</button></a>
                                     </div>
                                     <div class="row g-2 insta-grid-gallery">
                                         <!-- First row -->
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/13.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/13.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/12.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/12.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/11.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="{https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/11.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/10.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="{https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/10.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/9.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/9.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/8.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/8.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <!-- Second row -->
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/7.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/7.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/6.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/6.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/5.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/5.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/4.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/4.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/3.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/3.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                            <img src="{{asset('/assets/img/insta-img/2.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                                <img src="{{asset('/assets/img/insta-img/2.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            </a>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
 
