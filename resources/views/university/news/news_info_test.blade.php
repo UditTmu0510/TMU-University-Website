@@ -261,6 +261,60 @@
                                 </div>
                             </section>
 
+                            <div class="insta-grid-container container py-4">
+                                <div class="insta-grid-header text-center mb-4">
+                                    <img src="{{asset('/assets/img/insta-img/tmu-insta-logo.jpg')}}" alt="TMU Logo" class="insta-grid-logo">
+                                    <h4 class="insta-grid-title">Teerthanker Mahaveer University</h4>
+                                    <p class="insta-grid-handle">@tmu_mbd</p>
+                                    <div class="insta-grid-meta d-flex justify-content-center gap-3">
+                                        <span><strong>4K</strong> Posts</span>
+                                        <span><strong>42.3K</strong> Followers</span>
+                                        <span><strong>4</strong> Following</span>
+                                    </div>
+                                    <button class="tmu-btn btn-4 mt-2 py-1 px-2">Follow</button>
+                                </div>
+                                <div class="row g-2 insta-grid-gallery">
+                                    <!-- First row -->
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/13.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/12.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/11.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/10.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/9.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/8.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <!-- Second row -->
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/7.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/6.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/5.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/4.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/3.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <img src="{{asset('/assets/img/insta-img/2.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- Tag Cloud
             ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
