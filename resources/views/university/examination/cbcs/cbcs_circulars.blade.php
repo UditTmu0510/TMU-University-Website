@@ -21,8 +21,8 @@
                         <tbody>
                             <tr>
                                 <td>15-Apr-2025</td>
-                                <td>Circular regarding Suspension of Classes between 12-15 Mar, 2025</td>
-                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/march/Circular_094.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                                <td>Withdrawal of SOP-18 Following the Second Amendment in "TMU Regulations on Financial Assistance to Faculty for Promotion of Research and Students' Participation in Extracurricular Activities, 2021".</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/april/Circular_098.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
                             </tr>
                             <tr>
                                 <td>11-Mar-2025</td>
