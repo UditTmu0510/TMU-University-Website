@@ -4,7 +4,7 @@
 
 <!-- Feedback Form -->
 <div class="feedback-form">
-  <h2 class="text-center"> Website Feedback Form</h2>
+  <h2 class="text-center tmu-text-primary"> <span> Website Feedback</span> <span> Form</span></h2>
   @if(session('success'))
   <div class="alert alert-success">
     {{ session('success') }}
@@ -42,7 +42,9 @@
     </div>
 
     <!-- Submit Button -->
-    <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
+    <div class="text-center">
+      <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
+    </div>
   </form>
 
   <p class="mt-4 text-center">
