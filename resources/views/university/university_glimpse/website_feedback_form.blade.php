@@ -22,19 +22,19 @@
 
     <!-- Phone Field (Optional) -->
     <div class="mb-4">
-      <label for="userPhone" class="form-label">Phone</label>
-      <input type="text" id="userPhone" name="phone" class="form-control" placeholder="Enter your phone number (optional)">
+      <label for="userPhone" class="form-label">Phone Number (Optional)</label>
+      <input type="text" id="userPhone" name="phone" class="form-control" placeholder="Enter your phone number ">
     </div>
 
     <!-- Feedback Text Area -->
     <div class="mb-4">
-      <label for="userFeedback" class="form-label">Your feedback</label>
+      <label for="userFeedback" class="form-label">Your feedback <span style="color: red;">*</span></label>
       <textarea id="userFeedback" name="feedback" class="form-control" rows="4" placeholder="Anything you'd like to add? Your input is valuable to us." required></textarea>
     </div>
 
     <!-- Image Uploads (Optional) -->
     <div class="mb-4">
-      <label for="userImage1" class="form-label">Upload Screenshot</label>
+      <label for="userImage1" class="form-label">Upload Screenshot (Optional)</label>
       <input type="file" id="userImage1" name="image_1" class="form-control">
     </div>
     <div class="mb-4">
