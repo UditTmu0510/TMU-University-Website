@@ -35,7 +35,8 @@
                                             National Days, and more, fostering unity, creativity, and a vibrant campus
                                             environment through shared artistic expression.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Cultural Events,
-                                            National Day Celebrations.</p>
+                                            National Day Celebrations. <a href="{{route('culture.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +84,8 @@
                                             to explore their vocal abilities and express themselves through melody, rhythm,
                                             and diverse genres of music.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Singing Competitions,
-                                            Musical Nights.</p>
+                                            Musical Nights.<a href="{{route('singing.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +110,8 @@
                                             physical expression, rhythm, and teamwork while celebrating various dance forms,
                                             both classical and contemporary.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Dance Battles,
-                                            Cultural Performances.</p>
+                                            Cultural Performances. <a href="{{route('dance.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +160,8 @@
                                             skills while capturing campus life, events, and nature from unique perspectives
                                             and storytelling through visual art.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Photo Walks,
-                                            Photography Contests.</p>
+                                            Photography Contests. <a href="{{route('photography.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +184,8 @@
                                             opportunities to excel in games like cricket, football, badminton, and more,
                                             fostering a spirit of discipline and competition.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Sports Tournaments,
-                                            Team Matches.</p>
+                                            Team Matches. <a href="{{route('sports.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +210,8 @@
                                             drives, helping students manage stress, improve flexibility, and lead a
                                             balanced, healthy lifestyle.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Yoga Sessions,
-                                            Meditation Camps.</p>
+                                            Meditation Camps. <a href="{{route('yoga.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +235,8 @@
                                             expand their awareness in areas like current affairs, history, science, and
                                             general knowledge.</p>
                                         <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Quiz Contests, Trivia
-                                            Challenges.</p>
+                                            Challenges. <a href="{{route('quiz.club')}}"
+                                            target="_blank"> Read More</a></p>
                                     </div>
                                 </div>
                             </div>
