@@ -100,20 +100,28 @@
     <meta name="robots" content="noodp, noydir">
     @endif
     @else
-
+    @php
+        $isHomePage = request()->path() === '/' || request()->path() === '';
+    @endphp
 
     <title>TMU Moradabad – Best Private University in UP, India.</title>
     <meta name="description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
     <meta name="keywords" content="Best private University in UP,Top Private University in up,Best University in India,Top Rated University,Best University in Moradabad,Best Engineering University in UP,Best Law University in up,Best management University in UP." />
     <meta property="og:title" content="TMU Moradabad – Best Private University in UP, India." />
     <meta property="og:description" content="Teerthanker Mahaveer University is amongst the top universities in Uttar Pradesh, India. It provides world-class education for undergraduate, postgraduate, and doctoral degrees." />
-    <meta name="robots" content="noindex">
+
+    @if (!$isHomePage)
+        <meta name="robots" content="noindex">
+    @endif
+
     <meta name="robots" content="noarchive" />
     <meta name="revisit-after" content="1 days">
     <meta name="googlebot" content="noodp">
     <meta name="msnbot" content="noodp">
     <meta name="slurp" content="noodp, noydir">
     <meta name="teoma" content="noodp">
+
+
     
     
 

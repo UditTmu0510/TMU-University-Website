@@ -720,6 +720,17 @@
                 </div>
                 <div class="col-md-4 col-sm-6 mb-3">
                     <div class="card fixed-height-card">
+                        <img class="card-img-top" src="https://www.tmu.ac.in/uploads/employee_images/1727506007_Ea6fcKElX2.png" alt="vineeta jain">
+                        <div class="card-body text-center">
+                            <h5 class="card-title tmu-text-primary fw-bold"><span>Dr. Vineeta Jain</span></h5>
+                            <p class="card-text fs-14">University Librarian</p>
+                            <p class="card-text fs-14">university.librarian@tmu.ac.in</p>
+                            <p class="card-text fs-14">+91-591-2473505</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card fixed-height-card">
                         <img class="card-img-top" src="{{asset('/assets/img/journal/nursing/30.jpg')}}" alt="Ms. Bibha Kumari">
                         <div class="card-body text-center">
                             <h5 class="card-title tmu-text-primary fw-bold"><span>Ms. Bibha Kumari</span></h5>

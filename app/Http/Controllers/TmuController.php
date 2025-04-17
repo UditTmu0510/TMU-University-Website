@@ -367,6 +367,10 @@ class TmuController extends Controller
     {
         return view('university.nss.nss_volunteers');
     }
+    public function nss_faq()
+    {
+        return view('university.nss.nss_faq');
+    }
 
     public function nss_internationalday()
     {
@@ -1526,10 +1530,6 @@ class TmuController extends Controller
         return view('university.teaching_facility.classroom_law');
     }
 
-    public function student_clubs()
-    {
-        return view('university.quick_links.student_clubs');
-    }
 
 
     // PHD Programmes
