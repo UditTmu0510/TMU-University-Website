@@ -257,7 +257,7 @@
                 <!-- Accordion code ends here -->
             </div>
             <!-- -------------   Accordian 4 Ends here -------------
-               -------------------------      -------------------------  -->
+                   -------------------------      -------------------------  -->
 
             <!-- Code for the Mobile View Ends Here -->
 
@@ -394,8 +394,8 @@
                             </div>
                         </div>
                         <!--
-                      Blog Carousel Starts Here
-                      -->
+                          Blog Carousel Starts Here
+                          -->
 
 
 
@@ -451,14 +451,35 @@
                                         <span>17, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>CCSIT proudly presents Gamophobia 4.0! Gear up for the thrilling on-campus inaugural event on 18th April, followed by the grand finale and award ceremony on 19th April. Dive into the ultimate gaming showdown—don’t miss the action!</p>
+                                        <p>CCSIT, under the aegis of IIC, TMU, is organising a workshop on "Multiply Your Creativity: For Initiating an Entrepreneur Adroitness" on 18th April 2025 at 11:30 AM in LT-2, CCSIT. 
+                                            Don’t miss this inspiring session!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                           CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18-19,
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            18, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>17, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>CCSIT proudly presents Gamophobia 4.0! Gear up for the thrilling on-campus
+                                            inaugural event on 18th April, followed by the grand finale and award ceremony
+                                            on 19th April. Dive into the ultimate gaming showdown—don’t miss the action!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            CCSIT</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            18-19,
                                             April</span>
                                     </div>
                                 </div>
@@ -468,13 +489,15 @@
                                         <span>16, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Nursing is delighted to host a Farewell Ceremony for P.B.B.Sc (N) II Year students on 19th April 2025 at 10:00 AM in the Multipurpose Hall, Nursing Building. Join us in celebrating their journey!</p>
+                                        <p>The College of Nursing is delighted to host a Farewell Ceremony for P.B.B.Sc (N)
+                                            II Year students on 19th April 2025 at 10:00 AM in the Multipurpose Hall,
+                                            Nursing Building. Join us in celebrating their journey!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                           College of Nursing</span>
+                                            College of Nursing</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 19,
                                             April</span>
                                     </div>
@@ -890,12 +913,12 @@
                 </div>
                 <!-- Lazy loaded thumbnail images (use loading="lazy") -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                    <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
+                        <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                        <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
+                        <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
+                        <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
+                        <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                        <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
 
                 <!-- Lazy loaded thumbnail images with data-bg attribute -->
                 <div class="thumb" onclick="displayReviewByIndex(0)"
@@ -911,13 +934,13 @@
                 <div class="thumb" onclick="displayReviewByIndex(5)"
                     data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
                 <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+                        <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
-                    <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
+                        <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+                        <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+                        <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+                        <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+                        <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
             </div>
         </div>
@@ -971,10 +994,10 @@
         <div class="content-wrap py-0" style="margin-top: 23px; margin-bottom: 37px;">
 
             <!-- <div class="row justify-content-center ">
-                    <div class="col-xl-10 col-lg-10 text-center">
-                        <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
-                    </div>
-                </div> -->
+                        <div class="col-xl-10 col-lg-10 text-center">
+                            <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
+                        </div>
+                    </div> -->
 
             <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
                 <div class="item">
