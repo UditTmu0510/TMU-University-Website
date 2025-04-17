@@ -59,6 +59,7 @@ use App\Http\Controllers\AebesController;
 use App\Http\Controllers\CiksController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\ClubsController;
+use App\Http\Controllers\WebsiteFeedbackController;
 
 
 /*
@@ -424,6 +425,10 @@ Route::get('/tmu/chancellor', [TmuController::class, 'chancellor_desk'])->name('
 Route::get('/tmu/founder-vicechancellor', [TmuController::class, 'founder_vice_chancellor_desk'])->name('founder.vice.chancellor.desk');
 Route::get('/tmu/vicechancellor', [TmuController::class, 'vice_chancellor_desk'])->name('vice.chancellor.desk');
 Route::get('/tmu/website-feedback-form', [TmuController::class, 'website_feedback_form'])->name('website.feedback.form');
+
+Route::post('/submit-feedback', [WebsiteFeedbackController::class, 'store'])->name('feedback.store');
+
+
 Route::get('/tmu/career', [TmuController::class, 'tmu_careers'])->name('tmu.careers');
 Route::get('/tmu/career-form', [JobformController::class, 'careers_form'])->name('job.form');
 Route::POST('/submit-job-form', [JobformController::class, 'store'])->name('submitJobForm');
