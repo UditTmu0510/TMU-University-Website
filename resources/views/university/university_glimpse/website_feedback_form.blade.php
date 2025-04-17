@@ -2,55 +2,62 @@
 @section('content')
 
 
-  <!-- Feedback Form -->
-  <div class="feedback-form">
-    <h2 class="text-center">University Website Feedback</h2>
-    <form id="feedbackForm">
-      
-      <!-- Name Field (Required) -->
-      <div class="mb-4">
-        <label for="userName" class="form-label">Name</label>
-        <input type="text" id="userName" name="userName" class="form-control" placeholder="Enter your name" required>
-      </div>
-      
-      <!-- Phone Field (Optional) -->
-      <div class="mb-4">
-        <label for="userPhone" class="form-label">Phone</label>
-        <input type="text" id="userPhone" name="userPhone" class="form-control" placeholder="Enter your phone number (optional)">
-      </div>
-
-      <!-- Feedback Text Area -->
-      <div class="mb-4">
-        <label for="userFeedback" class="form-label">Your feedback</label>
-        <textarea id="userFeedback" name="userFeedback" class="form-control" rows="4" placeholder="Anything you'd like to add? Your input is valuable to us." required></textarea>
-      </div>
-
-      <!-- Image Uploads (Optional) -->
-      <div class="mb-4">
-        <label for="userImage1" class="form-label">Upload Screenshot</label>
-        <input type="file" id="userImage1" name="userImage1" class="form-control">
-      </div>
-      <div class="mb-4">
-        <input type="file" id="userImage2" name="userImage2" class="form-control">
-      </div>
-
-      <!-- Submit Button -->
-      <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
-    </form>
-
-    <p class="mt-4 text-center">
-      If you have any additional suggestions, or if you would like to discuss any specific issues regarding the website, please feel free to get in touch with our website team at:
-      <br>
-      <strong>Email: website@tmu.ac.in</strong>
-    </p>
+<!-- Feedback Form -->
+<div class="feedback-form">
+  <h2 class="text-center">University Website Feedback</h2>
+  @if(session('success'))
+  <div class="alert alert-success">
+    {{ session('success') }}
   </div>
+  @endif
 
-  <!-- Thank You Popup -->
-  <div id="thankYouPopup" class="thank-you-popup">
-    <h4>Thank You!</h4>
-    <p>Your feedback has been submitted successfully.</p>
-    <button onclick="closePopup()" class="btn btn-success">Close</button>
-  </div>
+  <form id="feedbackForm" action="{{ route('feedback.store') }}" method="POST" enctype="multipart/form-data">
+    @csrf
+
+    <!-- Name Field (Required) -->
+    <div class="mb-4">
+      <label for="userName" class="form-label">Name</label>
+      <input type="text" id="userName" name="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+
+    <!-- Phone Field (Optional) -->
+    <div class="mb-4">
+      <label for="userPhone" class="form-label">Phone</label>
+      <input type="text" id="userPhone" name="phone" class="form-control" placeholder="Enter your phone number (optional)">
+    </div>
+
+    <!-- Feedback Text Area -->
+    <div class="mb-4">
+      <label for="userFeedback" class="form-label">Your feedback</label>
+      <textarea id="userFeedback" name="feedback" class="form-control" rows="4" placeholder="Anything you'd like to add? Your input is valuable to us." required></textarea>
+    </div>
+
+    <!-- Image Uploads (Optional) -->
+    <div class="mb-4">
+      <label for="userImage1" class="form-label">Upload Screenshot</label>
+      <input type="file" id="userImage1" name="image_1" class="form-control">
+    </div>
+    <div class="mb-4">
+      <input type="file" id="userImage2" name="image_2" class="form-control">
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
+  </form>
+
+  <p class="mt-4 text-center">
+    If you have any additional suggestions, or if you would like to discuss any specific issues regarding the website, please feel free to get in touch with our website team at:
+    <br>
+    <strong>Email: website@tmu.ac.in</strong>
+  </p>
+</div>
+
+<!-- Thank You Popup -->
+<div id="thankYouPopup" class="thank-you-popup">
+  <h4>Thank You!</h4>
+  <p>Your feedback has been submitted successfully.</p>
+  <button onclick="closePopup()" class="btn btn-success">Close</button>
+</div>
 
 </div>
 
