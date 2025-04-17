@@ -4,7 +4,7 @@
 
 <!-- Feedback Form -->
 <div class="feedback-form">
-  <h2 class="text-center">University Website Feedback</h2>
+  <h2 class="text-center"> Website Feedback Form</h2>
   @if(session('success'))
   <div class="alert alert-success">
     {{ session('success') }}
@@ -16,7 +16,7 @@
 
     <!-- Name Field (Required) -->
     <div class="mb-4">
-      <label for="userName" class="form-label">Name</label>
+      <label for="userName" class="form-label">Name <span style="color: red;">*</span></label>
       <input type="text" id="userName" name="name" class="form-control" placeholder="Enter your name" required>
     </div>
 
