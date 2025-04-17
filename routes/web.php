@@ -60,6 +60,7 @@ use App\Http\Controllers\CiksController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\ClubsController;
 use App\Http\Controllers\WebsiteFeedbackController;
+use App\Http\Controllers\Backend\IQACFeedbackExportController;
 
 
 /*
@@ -342,13 +343,31 @@ Route::middleware(['auth', 'roles:admin'])->group(function () {
         Route::get('/export-job-applications', 'exportJobApplications')->name('export.jobapplications')->middleware('permission:Export Job Applications');
     });
 
+
+    // FEEDBACK FORM IQAC
+
+
+    Route::get('/feedback-forms', [IQACFeedbackExportController::class, 'index'])->name('feedback.forms');
+
+    Route::get('/download/teachers-feedback', [IQACFeedbackExportController::class, 'downloadTeachersFeedback'])
+        ->name('download.teachers.feedback');
+
+    Route::get('/download/employer-feedback', [IQACFeedbackExportController::class, 'downloadEmployerFeedback'])
+        ->name('download.employer.feedback');
+
+    Route::get('/download/expert-feedback', [IQACFeedbackExportController::class, 'downloadExpertFeedback'])
+        ->name('download.expert.feedback');
+
+    Route::get('/download/alumni-feedback', [IQACFeedbackExportController::class, 'downloadAlumniFeedback'])
+        ->name('download.alumni.feedback');
+
     Route::controller(Jobopenings::class)->group(function () {
-        Route::get('admin/jobopening/show','index')->name('all.jobopenings')->middleware('permission:View All Job Openings');
-      Route::get('admin/jobopening/add','create')->name('add.jobopening')->middleware('permission:Add Job Opening');
-      Route::post('admin/jobopening/store','store')->name('store.jobopening')->middleware('permission:Add Job Opening');
-      Route::get('/admin/jobopening/{id}/edit', 'edit')->name('edit.jobopening')->middleware('permission:Edit Job Opening');
-      Route::post('/admin/jobopening/{id}/update', 'update')->name('update.jobopening')->middleware('permission:Edit Job Opening');
-      Route::get('/admin/jobopening/{id}/delete', 'destroy')->name('delete.jobopening')->middleware('permission:Delete Job Opening');
+        Route::get('admin/jobopening/show', 'index')->name('all.jobopenings')->middleware('permission:View All Job Openings');
+        Route::get('admin/jobopening/add', 'create')->name('add.jobopening')->middleware('permission:Add Job Opening');
+        Route::post('admin/jobopening/store', 'store')->name('store.jobopening')->middleware('permission:Add Job Opening');
+        Route::get('/admin/jobopening/{id}/edit', 'edit')->name('edit.jobopening')->middleware('permission:Edit Job Opening');
+        Route::post('/admin/jobopening/{id}/update', 'update')->name('update.jobopening')->middleware('permission:Edit Job Opening');
+        Route::get('/admin/jobopening/{id}/delete', 'destroy')->name('delete.jobopening')->middleware('permission:Delete Job Opening');
     });
 
 
