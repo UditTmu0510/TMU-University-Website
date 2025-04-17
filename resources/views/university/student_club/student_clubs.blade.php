@@ -1,76 +1,5 @@
 @extends('layouts.university.departments.sc_with_sidebar')
 @section('content')
-    <style>
-        /* Club Details */
-        .club-details {
-            margin-top: 20px;
-            text-align: left;
-            color: rgb(0, 0, 0);
-        }
-
-        .club-details ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .club-details li {
-            margin: 5px 0;
-        }
-
-
-        /* Club Section Styling */
-        .club-card-t2 {
-            background: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        .club-img-t2 {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .club-text-t2 {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .club-container {
-            background: #ececec;
-        }
-
-        .club-card-t2 {
-            display: flex;
-            justify-content: space-between;
-            /* align-items: start; */
-            gap: 15px;
-            /* Ensures consistent spacing */
-        }
-
-        .club-text-t2 {
-            flex-grow: 1;
-            /* Allows text block to expand and use available space */
-        }
-
-        /* Responsive: Ensure images are on top on small screens */
-        @media (max-width: 768px) {
-            .club-card-t2 {
-                flex-direction: column !important;
-                text-align: center;
-            }
-
-            .club-text-t2 {
-                padding-left: 0;
-                padding-top: 15px;
-            }
-        }
-    </style>
-
 
     <div class="main-content">
         <div class="container">
@@ -86,140 +15,228 @@
                     development. The prominent clubs of the University are:</p>
             </section>
 
-            <div class="container club-container py-3">
+            <section>
+                <div class="row bg-light pt-3">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Left (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-0 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/cc.jpg') }}"
+                                        alt="TMU approved by UGC" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-1 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Cultural</span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Cultural Club engages students from all colleges,
+                                            encouraging active participation in various cultural events such as Rock-On,
+                                            National Days, and more, fostering unity, creativity, and a vibrant campus
+                                            environment through shared artistic expression.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Cultural Events,
+                                            National Day Celebrations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <!-- Entrepreneurship Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2">
-                            <img src="{{ asset('assets/img/student_club/enterprenuer.jpg') }}" alt="Entrepreneurship Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2">
-                                <h4>Entrepreneurship Club</h4>
-                                <p class="text-justify">The club promotes a culture of ideas, innovation, and
-                                    entrepreneurial
-                                    intentions among students. Run by students of management and engineering, the club
-                                    invites
-                                    renowned entrepreneurs to the University and organizes talks and interactions with them.
-                                </p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Talks, Workshops, Networking Events</li>
-                                    </ul>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Right (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-1 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/mc.jpg') }}"
+                                        alt="TMU approved by AICTE" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-0 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Marketing </span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">Managed by students of the College of Management, this
+                                            club organizes events such as case study competitions and the annual marketing
+                                            fair, providing a platform for students to apply classroom concepts in
+                                            real-world business scenarios and experiences.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Case Study
+                                            Competitions, Marketing Fair.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Left (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-0 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/sc.jpg') }}"
+                                        alt="TMU approved by UGC" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-1 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Singing </span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Singing Club nurtures musical talent by organizing
+                                            solo and group performances, competitions, and musical nights, allowing students
+                                            to explore their vocal abilities and express themselves through melody, rhythm,
+                                            and diverse genres of music.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Singing Competitions,
+                                            Musical Nights.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Right (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-1 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/dc.jpg') }}"
+                                        alt="TMU approved by AICTE" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-0 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Dance </span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Dance Club brings together dance enthusiasts to
+                                            showcase talent through cultural events, flash mobs, and competitions, promoting
+                                            physical expression, rhythm, and teamwork while celebrating various dance forms,
+                                            both classical and contemporary.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Dance Battles,
+                                            Cultural Performances.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Left (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-0 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/hrc.jpg') }}"
+                                        alt="TMU approved by UGC" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-1 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Human Resource</span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The HR Club conducts engaging activities such as
+                                            role-play competitions, case study contests, and insightful talks on diverse HR
+                                            topics, aiming to enhance students' understanding, practical skills, and
+                                            interest in human resource management and workplace dynamics.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Role Play
+                                            Competitions, Case Studies, HR Talks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Right (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-1 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/pc.jpg') }}"
+                                        alt="TMU approved by AICTE" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-0 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Photography </span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Photography Club encourages creativity through
+                                            photo walks, contests, and workshops, helping students enhance their photography
+                                            skills while capturing campus life, events, and nature from unique perspectives
+                                            and storytelling through visual art.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Photo Walks,
+                                            Photography Contests.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Left (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-0 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/sport.jpg') }}"
+                                        alt="TMU approved by UGC" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-1 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Sports</span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Sports Club promotes fitness and teamwork by
+                                            organizing tournaments, matches, and sports meets, offering students
+                                            opportunities to excel in games like cricket, football, badminton, and more,
+                                            fostering a spirit of discipline and competition.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Sports Tournaments,
+                                            Team Matches.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Right (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-1 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/yc-1.jpg') }}"
+                                        alt="TMU approved by AICTE" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-0 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Yoga </span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Yoga Club focuses on physical and mental
+                                            well-being through regular yoga sessions, meditation camps, and awareness
+                                            drives, helping students manage stress, improve flexibility, and lead a
+                                            balanced, healthy lifestyle.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Yoga Sessions,
+                                            Meditation Camps.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card h-100">
+                            <div class="row g-0">
+                                <!-- Image Top (Mobile/Tablet), Left (Desktop) -->
+                                <div class="col-12 col-lg-2 order-0 order-lg-0 d-flex justify-content-center p-2">
+                                    <img src="{{ asset('/assets/img/student_club/qc.jpg') }}"
+                                        alt="TMU approved by UGC" class="img-fluid" style="max-height: 135px;">
+                                </div>
+                                <!-- Text -->
+                                <div class="col-12 col-lg-10 order-1 order-lg-1 p-2">
+                                    <div class="card-body text-center text-lg-start">
+                                        <h3 class="tmu-text-primary mb-2"><span>Quiz</span><span> Club</span></h3>
+                                        <p class="text-justify mb-1">The Quiz Club sharpens minds by hosting quiz
+                                            competitions, trivia events, and knowledge-based games, encouraging students to
+                                            expand their awareness in areas like current affairs, history, science, and
+                                            general knowledge.</p>
+                                        <p class="text-justify mb-0"><span class="highlight p-0">Key Activities:</span> Quiz Contests, Trivia
+                                            Challenges.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Sports Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2">
-                            <img src="{{ asset('assets/img/student_club/sport.jpg') }}" alt="Sports Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2">
-                                <h4>Sports Club</h4>
-                                <p class="text-justify">The Sports Club selects the best sportspeople for various sports
-                                    under
-                                    the guidance of their College Sports Coordinator.</p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Sports Selection, Competitions, Fitness
-                                            Programs
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cultural Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2 flex-row-reverse">
-                            <img src="{{ asset('assets/img/student_club/cultural.jpg') }}" alt="Cultural Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2 ">
-                                <h4>Cultural Club</h4>
-                                <p class="text-justify">The Cultural Club involves students from all the Colleges and
-                                    solicits
-                                    participation in cultural events like Rock-On and National Days.</p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Cultural Events, National Day Celebrations</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Marketing Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2">
-                            <img src="{{ asset('assets/img/student_club/marketing.jpg') }}" alt="Marketing Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2">
-                                <h4>Marketing Club</h4>
-                                <p class="text-justify">This club, managed by College of Management students, organizes
-                                    activities like case study competitions and the annual marketing fair, allowing students
-                                    to apply classroom knowledge.</p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Case Study Competitions, Marketing Fair</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Human Resource Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2 flex-row-reverse">
-                            <img src="{{ asset('assets/img/student_club/hr.jpg') }}" alt="Human Resource Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2 ">
-                                <h4>Human Resource Club</h4>
-                                <p class="text-justify">The HR Club organizes activities like role-play competitions, case
-                                    study
-                                    competitions, and talks on various HR issues.</p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Role Play Competitions, Case Studies, HR Talks
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Naukri Club -->
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="club-card-t2">
-                            <img src="{{ asset('assets/img/student_club/naukri.jpg') }}" alt="Naukri Club"
-                                class="club-img-t2">
-                            <div class="club-text-t2">
-                                <h4>Naukri Club</h4>
-                                <p class="text-justify">This club disseminates information about job opportunities available
-                                    to
-                                    students via a dedicated notice board.</p>
-                                <div class="club-details">
-                                    <ul>
-                                        <li><strong>Key Activities:</strong> Job Information Dissemination</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
     </div>
     </div>
