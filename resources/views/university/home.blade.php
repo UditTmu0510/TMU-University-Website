@@ -451,6 +451,23 @@
                                         <span>17, April</span>
                                     </div>
                                     <div class="notice-content">
+                                        <p>The College of Fine Arts, TMU is organising a captivating guest lecture on “Understanding Digital Drawing, Painting, Illustration & Market Trends in the Age of AI” by Abdul Rasheed on 19th April 2025 at 11:00 AM</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Finearts</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            19, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>17, April</span>
+                                    </div>
+                                    <div class="notice-content">
                                         <p>CCSIT, under the aegis of IIC, TMU, is organising a workshop on "Multiply Your Creativity: For Initiating an Entrepreneur Adroitness" on 18th April 2025 at 11:30 AM in LT-2, CCSIT. 
                                             Don’t miss this inspiring session!</p>
                                     </div>
