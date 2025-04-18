@@ -10,6 +10,57 @@
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6  ">
                             <div class="position-relative">
+                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/medical/46.jpg')}}"
+                                    alt="Gallery Thumb 1">
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
+                                        data-hover-animate="fadeIn">
+                                        <a href="{{asset('/assets/img/gallery/collegegallery/medical/46.jpg')}}"
+                                            class="overlay-trigger-icon size-sm bg-light text-dark"
+                                            data-hover-animate="fadeInDownSmall"
+                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
+                                            data-lightbox="gallery-item"><i
+                                                class="uil uil-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6  ">
+                            <div class="position-relative">
+                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/medical/45.jpg')}}"
+                                    alt="Gallery Thumb 1">
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
+                                        data-hover-animate="fadeIn">
+                                        <a href="{{asset('/assets/img/gallery/collegegallery/medical/45.jpg')}}"
+                                            class="overlay-trigger-icon size-sm bg-light text-dark"
+                                            data-hover-animate="fadeInDownSmall"
+                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
+                                            data-lightbox="gallery-item"><i
+                                                class="uil uil-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6  ">
+                            <div class="position-relative">
+                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/medical/44.jpg')}}"
+                                    alt="Gallery Thumb 1">
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
+                                        data-hover-animate="fadeIn">
+                                        <a href="{{asset('/assets/img/gallery/collegegallery/medical/44.jpg')}}"
+                                            class="overlay-trigger-icon size-sm bg-light text-dark"
+                                            data-hover-animate="fadeInDownSmall"
+                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
+                                            data-lightbox="gallery-item"><i
+                                                class="uil uil-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6  ">
+                            <div class="position-relative">
                                 <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/medical/42.jpg')}}"
                                     alt="Gallery Thumb 1">
                                 <div class="bg-overlay">
