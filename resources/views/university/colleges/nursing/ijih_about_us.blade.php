@@ -121,7 +121,7 @@
                             N.H.-9, Delhi Road <br>
                             Moradabad - 244001, Uttar Pradesh<br>
                             Office: Ph (+91) 591-2476844<br>
-                            Email: principal.rvcn@rvei.edu.in<br>
+                            Email: dean.nursing@tmu.ac.in <br>
                             Mobile: +91 63990 00660 </p>
                     </div>
 
@@ -134,7 +134,7 @@
                             N.H.-9, Delhi Road <br>
                             Moradabad - 244001, Uttar Pradesh<br>
                             Office: Ph (+91) 591-2476844<br>
-                            Email: principal.rvcn@rvei.edu.in<br>
+                            Email: dean.nursing@tmu.ac.in <br>
                             Mobile: +91 63990 00660 </p>
                     </div>
                 </div>
