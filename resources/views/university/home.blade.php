@@ -448,6 +448,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>18, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Teerthanker Mahaveer University and Universiti Putra Malaysia proudly co‑organise the two‑day International E‑Mobility Program “Tree, Tech, and Tradition” on 21–22 April 2025. Join us for sustainability and technological innovation insights, cross‑cultural exchange and thought leadership.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            21-22, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>17, April</span>
                                     </div>
                                     <div class="notice-content">
