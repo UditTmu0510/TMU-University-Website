@@ -10,6 +10,24 @@
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                         <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2"> National Conference NCPRI-2025</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-2.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-3.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-4.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-5.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-6.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-7.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-8.jpg')}}" data-lightbox="gallery-item" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
                             <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/wpd-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="World Pharmacist Day">
                                 <div class="position-relative">
                                     <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/wpd-1.jpg')}}" alt="Gallery Thumb 2">
