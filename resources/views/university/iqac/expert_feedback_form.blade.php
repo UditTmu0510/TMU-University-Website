@@ -445,6 +445,9 @@
           </div>
           @endif
 
+          <div class="g-recaptcha" data-sitekey="6LeIuvYqAAAAADGg4bMbK1MYjiFjIxHdvUg1yH_Q"></div>
+          <br />
+
           <!-- Submit Button -->
           <button class="tmu-btn btn-4 w-100" type="submit">Submit Feedback</button>
         </form>
@@ -456,6 +459,9 @@
   </div>
 </div>
 </div>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
   // Example JavaScript to enable Bootstrap's client-side validation
