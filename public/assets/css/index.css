@@ -279,7 +279,7 @@ line-height: 1.5;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
+    max-width: 500px;
     margin: 50px auto;
   }
   .form-check-label {
