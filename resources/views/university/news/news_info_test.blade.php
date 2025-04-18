@@ -407,7 +407,6 @@
 
                                         </div>
 
-                                        <div class="divider"><i class="bi-circle-fill"></i></div>
                                     </div>
                                 </div>
                             </section>
