@@ -59,7 +59,7 @@
                         </tr>
                         <tr>
                             <th>e-ISSN</th>
-                            <td>xxxx-xxxx</td>
+                            <td>3049-2505</td>
                         </tr>
                         <tr>
                             <th>Publisher</th>
