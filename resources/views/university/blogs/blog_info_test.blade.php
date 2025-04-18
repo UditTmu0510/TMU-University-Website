@@ -1044,7 +1044,7 @@ max-width: 600px;
                                                         type="submit">Send Message</button>
                                                 </div>
 
-                                                <div class="col-sm-6 d-flex justify-content-sm-end mt-3 mt-sm-0">
+                                                {{-- <div class="col-sm-6 d-flex justify-content-sm-end mt-3 mt-sm-0">
                                                     <a href="https://www.facebook.com/tmumbd/"
                                                         class="social-icon border-transparent border-default si-small h-bg-facebook">
                                                         <i class="fa-brands fa-facebook"></i>
@@ -1059,7 +1059,7 @@ max-width: 600px;
                                                         class="social-icon border-transparent border-default si-small h-bg-twitter">
                                                         <i class="fa-brands fa-twitter"></i>
                                                     </a>
-                                                </div>
+                                                </div> --}}
                                             </div>
                                         </form>
                                     </div>
