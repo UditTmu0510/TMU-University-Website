@@ -111,6 +111,7 @@
       font-size: 1rem;
       font-weight: 700;
       margin-top: 0.75rem;
+      padding-top:1.5rem;
     }
 
     .insta-grid-handle {
@@ -410,6 +411,7 @@
                                     </div>
                                 </div>
                             </section>
+                            <h2 class="tmu-text-primary text-center mb-1"><span>Follow Us On</span><span> Instagram</span></h2>
                             <div class="insta-grid-container container">
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
