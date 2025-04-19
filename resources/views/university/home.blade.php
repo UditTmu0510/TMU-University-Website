@@ -448,6 +448,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>19, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMIMT College of Management invites you to a two‑day International Conference on 25–26 April 2025 at TMU Main Auditorium & Conference Halls. Join global experts, engage with thought leaders, and explore cutting‑edge business insights.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            TMIMT College of Management</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            25-26, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>18, April</span>
                                     </div>
                                     <div class="notice-content">
