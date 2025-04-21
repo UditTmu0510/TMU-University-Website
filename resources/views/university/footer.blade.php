@@ -137,6 +137,7 @@
             // Load WhatsApp widget only if not on blog or news
             var whatsappWidget = document.createElement("a");
             whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+            whatsappWidget.addAttribute("target", "_blank");
             whatsappWidget.innerHTML = `
                 <div class="sticky-wtsap">
                     <div class="widget-content786">
