@@ -568,7 +568,7 @@
                                 <!-- Content -->
                                 <div class="apply-now-content">
                                     <h2>Admission Open</h2>
-                                    <p>Begin Your Journey to Success at TMU</p>
+                                    <p>Empowering Minds, Transforming Futures <br> Begin Your Journey to Success Here.</p>
                                     <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply
                                         Now</a>
                                 </div>
