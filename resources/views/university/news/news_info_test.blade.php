@@ -255,8 +255,6 @@
                         class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3">
                         <span>TMU </span><span> NEWS</span>
                     </h2>
-                        <span>TMU </span><span> NEWS</span>
-                    </h2>
                     <!-- <h2 class="news-page-title-text">TMU News</h2> -->
                 </div>
 
@@ -353,10 +351,7 @@
                                     $content = nl2br(html_entity_decode($news->event_full_description));
                                     $insertCode = '';
 
-
                                     if (!request()->ajax()) {
-                                        $insertCode =
-                                            '<div class="container-fluid mt-4 p-0">
                                         $insertCode =
                                             '<div class="container-fluid mt-4 p-0">
     <div class="row d-flex align-items-center bg-section" 
@@ -394,8 +389,6 @@
 </style>';
                                     }
 
-                                    }
-
                                     $count = 0;
                                     $content = preg_replace_callback(
                                         '/(<h2\b[^>]*>.*?<\/h2>)/i',
@@ -404,13 +397,10 @@
                                             return $count === 2 ? $insertCode . $matches[0] : $matches[0];
                                         },
                                         $content,
-                                        $content,
                                     );
-
 
                                     echo $content;
                                 @endphp
-                            </p>
                             </p>
 
 
@@ -466,8 +456,7 @@
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
                                         <img src="./insta-img/tmu-insta-logo.jpg" alt="TMU Logo" class="insta-grid-logo">
-                                        <h4 class="insta-grid-title text-start">
-                                            Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
+                                        <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
                                             <p class="insta-grid-handle">@tmu_mbd</p>
                                         </h4>
                                     </div>

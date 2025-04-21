@@ -55,7 +55,7 @@ class ExpertFeedbackController extends Controller
         ]);
 
         // Store feedback data into the feedback table
-        DB::table('expert_feedback')->insert($validatedData); 
+        DB::table('expert_feedback')->insert($validatedData);
 
 
 
