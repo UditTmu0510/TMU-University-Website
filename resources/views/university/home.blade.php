@@ -256,7 +256,7 @@
                 <!-- Accordion code ends here -->
             </div>
             <!-- -------------   Accordian 4 Ends here -------------
-                       -------------------------      -------------------------  -->
+                                           -------------------------      -------------------------  -->
 
             <!-- Code for the Mobile View Ends Here -->
 
@@ -393,8 +393,8 @@
                             </div>
                         </div>
                         <!--
-                              Blog Carousel Starts Here
-                              -->
+                                                  Blog Carousel Starts Here
+                                                  -->
 
 
 
@@ -972,12 +972,12 @@
                 </div>
                 <!-- Lazy loaded thumbnail images (use loading="lazy") -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
+                                                <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
 
                 <!-- Lazy loaded thumbnail images with data-bg attribute -->
                 <div class="thumb" onclick="displayReviewByIndex(0)"
@@ -993,13 +993,13 @@
                 <div class="thumb" onclick="displayReviewByIndex(5)"
                     data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
                 <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+                                                <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
-                            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
+                                                <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+                                                <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
             </div>
         </div>
@@ -1053,10 +1053,10 @@
         <div class="content-wrap py-0" style="margin-top: 23px; margin-bottom: 37px;">
 
             <!-- <div class="row justify-content-center ">
-                            <div class="col-xl-10 col-lg-10 text-center">
-                                <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
-                            </div>
-                        </div> -->
+                                                <div class="col-xl-10 col-lg-10 text-center">
+                                                    <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
+                                                </div>
+                                            </div> -->
 
             <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
                 <div class="item">
@@ -1390,6 +1390,75 @@
         });
     </script>
 
+<script>
+    $(document).ready(function () {
+        console.log("DOM Ready - Checking first active panel...");
+
+        const activePanel = $('.panel.active:visible').first();
+        console.log("Found panel:", activePanel.length > 0 ? activePanel[0] : "None");
+
+        const programmeList = activePanel.find('ul.progul');
+        console.log("Found programmeList:", programmeList.length > 0 ? programmeList[0].id : "None");
+
+        if (programmeList.length && programmeList.children().length === 0) {
+            const collegeId = programmeList.attr('id').replace('programme', '');
+            console.log("Extracted College ID:", collegeId);
+
+            $.ajax({
+                url: '{{ route('fetch_programme_by_college_id') }}',
+                type: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    cd_id: collegeId
+                },
+                success: function (response) {
+                    console.log("✅ AJAX Success. Data received:", response);
+
+                    const programs = response.programs;
+                    if (!Array.isArray(programs) || programs.length === 0) {
+                        console.warn("⚠️ No programs found for college ID:", collegeId);
+                        return;
+                    }
+
+                    let programListHtml = '';
+                    let i = 0;
+
+                    programs.forEach(function (program) {
+                        console.log(`➡️ Rendering program: ${program.prog_name}`);
+
+                        programListHtml += `<li class="progli">
+                            <div class="card shadow-sm progcard card-sz">
+                                <img src="${program.programme_image_path}" class="card-img-top" alt="...">
+                                <div class="card-body progcardbody">
+                                    <h5 class="mb-2">${program.prog_name}</h5>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center bg-white py-3">
+                                    <div></div>
+                                    <a href="programme/${program.page_slug}" class="tmu-btn btn-4 m-0 py-1 px-2" style="font-size:12px">View More</a>
+                                </div>
+                            </div>
+                        </li>`;
+                        i++;
+                    });
+
+                    programmeList.html(programListHtml);
+
+                    // Confirm insertion
+                    console.log("✅ HTML inserted into:", programmeList.attr('id'));
+                    console.log("Final HTML:", programListHtml);
+                },
+                error: function (xhr, status, error) {
+                    console.error('❌ AJAX error:', status, error);
+                }
+            });
+        } else {
+            console.warn("⛔ Panel is missing or already populated.");
+        }
+    });
+</script>
+
+
+
     <script>
         let wd = window.innerWidth;
         let videoElement = document.getElementById('videoPlayer89');
@@ -1427,6 +1496,9 @@
             lazyBackgrounds.forEach((el) => observer.observe(el));
         });
     </script>
+
+
+
 
     @php
         function renderTruncatedHtml($html, $limit = 70)
