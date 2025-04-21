@@ -128,7 +128,7 @@
 <a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0">
     <div class="sticky-wtsap">
         <div class="widget-content786">
-            <img src="assets/img/icons/wtsapp.png" width="80" height="80" alt="Widget Image">
+            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
         </div>
     </div>
 </a>

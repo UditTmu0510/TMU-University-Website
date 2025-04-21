@@ -3901,13 +3901,27 @@ body {
 }
 .sticky-wtsap {
     position: fixed;
+    bottom: 0px;
+    left: 15px;
+    /* Adjusted to accommodate the circle radius */
+    width: 55px;
+    /* Twice the radius for the circle */
+    height: 55px;
+    /* Twice the radius for the circle */
+    background-color: #46c957;
+    /* Background color */
+    border-radius: 50%;
+    /* Creates a circular shape */
+    padding: 5px;
+    /* Padding for the content */
+    border: 1px solid #ccc;
     z-index: 1000;
 }
 
 @media only screen and (max-width: 768px) {
 
     .sticky-wtsap {
-        bottom: 68px;
+        bottom: 83px;
     }
 
 }
