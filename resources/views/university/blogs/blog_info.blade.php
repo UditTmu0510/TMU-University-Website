@@ -608,7 +608,7 @@
 <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
                     <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" > Apply for Admission</a></span>
                 </h3>
-<p class="text-center fs-16 fw-bold mt-3 d-block d-md-none">
+<p class="text-center fs-16 fw-bold mt-2 mb-2 d-block d-md-none">
                     <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
                 </p>
 <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
@@ -764,7 +764,7 @@ max-width: 600px;
                                     <!-- Content -->
                                     <div class="apply-now-content">
                                         <h2>Admission Open</h2>
-                                        <p>Empowering Minds, Transforming Futures Begin Your Journey to Success Here.</p>
+                                        <p>Begin Your Journey to Success at TMU</p>
                                         <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply
                                             Now</a>
                                     </div>
