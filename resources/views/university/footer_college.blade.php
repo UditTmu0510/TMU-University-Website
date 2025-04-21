@@ -123,6 +123,48 @@
         });
     });
 </script>
+
+<a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
+    <div class="sticky-widget786">
+        <div class="widget-content786">
+            <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="Widget Image">
+        </div>
+    </div>
+</a>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var currentUrl = window.location.pathname;
+
+        // Regular expression to match /blog or /blog/anything
+        var blogPattern = /^\/blog(\/.*)?$/;
+
+        if (!blogPattern.test(currentUrl)) {
+            // Load the widget only if the condition is not met
+            var widget = document.createElement("a");
+            widget.href = "javascript:void(0);";
+            widget.onclick = loadNiaScript;
+            widget.id = "nia-widget786";
+            widget.innerHTML = `
+        <div class="sticky-nia-widget786">
+          <div class="nia-widget-content786">
+            <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="Widget Image">
+          </div>
+        </div>
+      `;
+            document.body.appendChild(widget);
+        }
+    });
+
+    function loadNiaScript() {
+        console.log("Widget clicked! Load your script here.");
+    }
+</script>
+
+<div class="npf_chatbots" data-w="682ca82a0e534a72adfabb52a87dfac8" style="display:none;"></div>
+
+
 <footer id="footer" class="dark" style="background-color: #001055;margin-top:0 !important;">
 	<div class="container">
 		<!-- Footer Widgets
@@ -494,6 +536,57 @@ function displayReviewByIndex(index) {
 showReview(currentReviewIndex);
 
 // Alumni profile section in alumni page end
+</script>
+
+<script>
+    function loadNiaScript() {
+        // Create the script element
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.defer = true;
+        s.src = "https://chatbot.in1.nopaperforms.com/en-gb/backend/bots/niaachtbtscpt.js/4305f35478c52f37/682ca82a0e534a72adfabb52a87dfac8";
+
+        // Add an event listener to hide the widget when the script is loaded
+        s.onload = function() {
+            var niawidget = document.getElementById("nia-widget786");
+            var chatbotsDiv = document.querySelector(".npf_chatbots");
+
+            if (niawidget) {
+                niawidget.style.display = "none";
+            }
+
+            // Show the chatbots div if it exists
+            if (chatbotsDiv) {
+                chatbotsDiv.style.display = "block"; // Change to "block" or "inline" as needed
+            }
+        };
+
+        // Append the script element to the body
+        document.body.appendChild(s);
+    }
+</script>
+
+<!--user way js start-->
+<script>
+    function loadUserWayScript() {
+        var script = document.createElement("script");
+        script.async = true;
+        script.setAttribute("data-color", "#ff8c00");
+        script.setAttribute("data-type", "2");
+        script.setAttribute("data-account", "pa7EJzaXR1");
+        script.setAttribute("src", "https://cdn.userway.org/widget.js");
+
+        // Add an event listener to hide the widget when the UserWay script is loaded
+        script.onload = function() {
+            var widget = document.getElementById("userway-widget786");
+            if (widget) {
+                widget.style.display = "none";
+            }
+        };
+
+        (document.body || document.head).appendChild(script);
+    }
 </script>
 
 
