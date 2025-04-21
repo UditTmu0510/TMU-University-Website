@@ -125,43 +125,48 @@
         </div>
     </div>
 </a> --}}
-<a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0">
-    <div class="sticky-wtsap">
-        <div class="widget-content786">
-            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
-        </div>
-    </div>
-</a>
-
-
+<!-- WhatsApp Widget -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var currentUrl = window.location.pathname;
 
-        // Regular expression to match /blog or /blog/anything
-        // var blogPattern = /^\/blog(\/.*)?$/;
+        // Regular expressions to match /blog or /blog/anything or /news or /news/anything
+        var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
-        // if (!blogPattern.test(currentUrl)) {
-            // Load the widget only if the condition is not met
-            var widget = document.createElement("a");
-            widget.href = "javascript:void(0);";
-            widget.onclick = loadNiaScript;
-            widget.id = "nia-widget786";
-            widget.innerHTML = `
-        <div class="sticky-nia-widget786">
-          <div class="nia-widget-content786">
-            <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="Widget Image">
-          </div>
-        </div>
-      `;
-            document.body.appendChild(widget);
-        // }
+        if (!disablePattern.test(currentUrl)) {
+            // Load WhatsApp widget only if not on blog or news
+            var whatsappWidget = document.createElement("a");
+            whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+            whatsappWidget.innerHTML = `
+                <div class="sticky-wtsap">
+                    <div class="widget-content786">
+                        <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(whatsappWidget);
+
+            // Load NIA widget only if not on blog or news
+            var niaWidget = document.createElement("a");
+            niaWidget.href = "javascript:void(0);";
+            niaWidget.onclick = loadNiaScript;
+            niaWidget.id = "nia-widget786";
+            niaWidget.innerHTML = `
+                <div class="sticky-nia-widget786">
+                    <div class="nia-widget-content786">
+                        <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="Widget Image">
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(niaWidget);
+        }
     });
 
     function loadNiaScript() {
         console.log("Widget clicked! Load your script here.");
     }
 </script>
+
 
 
 <div class="npf_chatbots" data-w="682ca82a0e534a72adfabb52a87dfac8" style="display:none;"></div>
