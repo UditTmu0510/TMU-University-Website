@@ -489,6 +489,24 @@
                 font-size: 16px;
             }
         }
+        @keyframes blinkColor {
+            0% {
+                color: red;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            100% {
+                color: red;
+            }
+        }
+
+        .blink-link {
+            animation: blinkColor 1s infinite;
+            text-decoration: none;
+        }
     </style>
 
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
@@ -581,14 +599,18 @@
 <div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .
                                                 asset('uploads/blogs/banner_blog_npf.png') .
                                                 '\') no-repeat left center / cover;">
-<div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
-    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
+                                                    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
                 <span></span><span>Teerthanker Mahaveer University </span>
             </h2>
+<div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+
 <div class="form-inner text-center">
-<h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link"> Apply for Admissions</a></span>
+<h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
+                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" > Apply for Admission</a></span>
                 </h3>
+<p class="text-center fs-16 fw-bold mt-3 d-block d-md-none">
+                    <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
+                </p>
 <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
 </div>
 </div>
@@ -636,6 +658,7 @@ max-width: 600px;
                                         background: linear-gradient(135deg, #001055 0%, #003087 100%);
                                         /* Gradient background */
                                         padding: 30px;
+                                        padding-top: 80px;
                                         border-radius: 15px;
                                         margin: 50px auto;
                                         max-width: 1200px;
@@ -740,7 +763,7 @@ max-width: 600px;
 
                                     <!-- Content -->
                                     <div class="apply-now-content">
-                                        <h2>Join Us Today</h2>
+                                        <h2>Admission Open</h2>
                                         <p>Empowering Minds, Transforming Futures Begin Your Journey to Success Here.</p>
                                         <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply
                                             Now</a>
