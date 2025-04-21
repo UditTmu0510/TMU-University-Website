@@ -118,10 +118,17 @@
         });
     });
 </script>
-<a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
+{{-- <a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
     <div class="sticky-widget786">
         <div class="widget-content786">
             <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="Widget Image">
+        </div>
+    </div>
+</a> --}}
+<a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0">
+    <div class="sticky-wtsap">
+        <div class="widget-content786">
+            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
         </div>
     </div>
 </a>
