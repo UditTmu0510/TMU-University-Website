@@ -134,7 +134,7 @@
     <article class="entry event col-12 col-md-6 col-lg-12 mb-4">
         <div class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm">
             <div class="col-12 col-lg-4 col-xl-3 mb-md-0">
-                <a href="#" class="entry-image mb-0 w-100 h-100">
+                <a href="{{ url('news/' . $item->n_slug) }}" class="entry-image mb-0 w-100 h-100">
                     <img src="{{ file_exists(public_path($item->ti_path)) ? asset($item->ti_path) : asset('uploads/events/past_event/default_thumbnail_news.jpg') }}"
                         alt="News Image"
                         class="rounded-2 object-cover align-items-center">
