@@ -130,14 +130,15 @@
     document.addEventListener("DOMContentLoaded", function() {
         var currentUrl = window.location.pathname;
 
-        // Regular expressions to match /blog or /blog/anything or /news or /news/anything
+        // Regular expressions to match ONLY /blog or /blog/anything or /news or /news/anything
         var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
+        // ✅ Now this condition ALLOWS the homepage `/`
         if (!disablePattern.test(currentUrl)) {
-            // Load WhatsApp widget only if not on blog or news
+            // Load WhatsApp widget
             var whatsappWidget = document.createElement("a");
             whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
-            whatsappWidget.addAttribute("target", "_blank");
+            whatsappWidget.setAttribute("target", "_blank");
             whatsappWidget.innerHTML = `
                 <div class="sticky-wtsap">
                     <div class="widget-content786">
@@ -147,7 +148,7 @@
             `;
             document.body.appendChild(whatsappWidget);
 
-            // Load NIA widget only if not on blog or news
+            // Load NIA widget
             var niaWidget = document.createElement("a");
             niaWidget.href = "javascript:void(0);";
             niaWidget.onclick = loadNiaScript;
@@ -167,6 +168,7 @@
         console.log("Widget clicked! Load your script here.");
     }
 </script>
+
 
 
 
