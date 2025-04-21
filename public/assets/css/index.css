@@ -3279,6 +3279,15 @@ body {
     margin: 0 auto;
     height: 7.5rem
 }
+.testimonial-text {
+    height: 170px;
+    font-size: .9rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    overflow: auto;
+    padding: 10px 20px
+}
+
 
 @media screen and (max-width:540px) {
     .image-container{
@@ -3444,14 +3453,6 @@ body {
     margin: 10px 0 10px 35px
 }
 
-.testimonial-text {
-    height: 170px;
-    font-size: .9rem;
-    margin-bottom: 10px;
-    text-align: justify;
-    overflow: auto;
-    padding: 10px 20px
-}
 
 @media screen and (max-width:1250px) {
     .content-section {
@@ -3921,7 +3922,7 @@ body {
 @media only screen and (max-width: 768px) {
 
     .sticky-wtsap {
-        bottom: 83px;
+        bottom: 70px;
     }
 
 }
