@@ -86,7 +86,7 @@
         .insta-grid-container {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 20px 10px;
+            padding: 5px 10px;
             border-bottom: 1px solid #ddd;
         }
 
@@ -111,7 +111,7 @@
             font-size: 1rem;
             font-weight: 700;
             margin-top: 0.75rem;
-            padding-top: 1.5rem;
+            padding-top: 0.75rem;
         }
 
         .insta-grid-handle {
@@ -136,7 +136,7 @@
             margin-right: 2px;
         }
 
-        .tmu-btn {
+        .follow-btn {
             background-color: #0095f6;
             border: none;
             border-radius: 4px;
@@ -157,12 +157,12 @@
                 height: 45px;
             }
 
-            .tmu-btn {
+            .follow-btn {
                 padding: 5px 10px;
             }
         }
 
-        .tmu-btn:hover {
+        .follow-btn:hover {
             background-color: #1877f2;
         }
 
@@ -225,6 +225,19 @@
                 height: 120px;
                 object-fit: cover;
             }
+
+            .classifier {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .insta-grid-meta {
+                font-size: 0.85rem;
+            }
+
+            .insta-grid-meta span strong {
+                font-size: 16px;
+            }
         }
     </style>
 
@@ -232,8 +245,7 @@
 
 
     <!-- Page Title
-                  ============================================= -->
-                  ============================================= -->
+                          ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -261,8 +273,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-                  ============================================= -->
-                  ============================================= -->
+                          ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -270,21 +281,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-                      ============================================= -->
-                      ============================================= -->
+                              ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-                       ============================================= -->
-                       ============================================= -->
+                               ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-                       ============================================= -->
-                       ============================================= -->
+                               ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -306,8 +314,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-                       ============================================= -->
-                       ============================================= -->
+                               ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -316,7 +323,7 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-                       ============================================= -->
+                               ============================================= -->
 
                         <style>
                             @keyframes blinkColor {
@@ -355,15 +362,15 @@
     <div class="row d-flex align-items-center bg-section" 
         style="min-height: 550px; 
                background: url(\'' .
-                                            asset('uploads/blogs/banner_blog_npf.png') .
+                                            asset('/uploads/blogs/banner_blog_npf.png') .
                                             '\') no-repeat left center / cover;">
-    <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
                 <span></span><span>Teerthanker Mahaveer University </span>
             </h2>
         <div class="col-12 col-md-6 ms-auto pt-md-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
             <div class="form-inner text-center">
                 <h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span><a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link">Apply For Admission </a></span>
+                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link"> Apply for Admissions</a></span>
                 </h3>
                 <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
             </div>
@@ -453,28 +460,29 @@
                                     </div>
                                 </div>
                             </section>
-                            <h2 class="tmu-text-primary text-center mb-1"><span>Follow Us On</span><span> Instagram</span>
+                            <h2 class="tmu-text-primary text-center mb-0"><span>Follow Us On</span><span> Instagram</span>
                             </h2>
                             <div class="insta-grid-container container">
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
-                                        <img src="{{ asset('assets/img/insta-img/tmu-insta-logo.jpg') }}" alt="TMU Logo"
-                                            class="insta-grid-logo">
+                                        <img src="./insta-img/tmu-insta-logo.jpg" alt="TMU Logo" class="insta-grid-logo">
                                         <h4 class="insta-grid-title text-start">
                                             Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
                                             <p class="insta-grid-handle">@tmu_mbd</p>
                                         </h4>
                                     </div>
-                                    <div class="insta-grid-meta d-flex justify-content-center gap-3 me-4">
-                                        <span><strong>4K</strong> Posts</span>
-                                        <span><strong>42.3K</strong> Followers</span>
-                                        <span><strong>4</strong> Following</span>
+                                    <div class="d-flex classifier gap-3">
+                                        <div class="insta-grid-meta d-flex justify-content-center gap-3 me-4">
+                                            <span><strong>4K</strong> Posts</span>
+                                            <span><strong>42.3K</strong> Followers</span>
+                                            <span><strong>4</strong> Following</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                            <button class="follow-btn btn-4 mt-2">
+                                                <i class="fab fa-instagram"></i>&nbsp;&nbsp; Follow
+                                            </button>
+                                        </a>
                                     </div>
-                                    <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
-                                        <button class="tmu-btn btn-4 mt-2">
-                                            <i class="fab fa-instagram"></i>&nbsp;&nbsp; Follow
-                                        </button>
-                                    </a>
                                 </div>
 
                                 <div class="row g-1 insta-grid-gallery">
@@ -609,8 +617,7 @@
                                 </div>
                             </div>
                             <!-- Tag Cloud
-                        ============================================= -->
-                        ============================================= -->
+                                ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -699,8 +706,7 @@
                     </div> --}}
 
                     <!-- Comments
-                      ============================================= -->
-                      ============================================= -->
+                              ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -931,6 +937,5 @@
     </script>
 
     <!-- Go To Top
-                 ============================================= -->
-                 ============================================= -->
+                         ============================================= -->
 @endsection
