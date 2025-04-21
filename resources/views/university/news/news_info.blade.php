@@ -360,7 +360,7 @@
     <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
                 <span></span><span>Teerthanker Mahaveer University </span>
             </h2>
-    <div class="col-12 col-lg-6 ms-auto pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+    <div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
         <div class="form-inner text-center">
             <h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                     <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link"> Apply for Admissions</a></span>
