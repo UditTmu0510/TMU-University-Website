@@ -456,8 +456,7 @@
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
                                         <img src="./insta-img/tmu-insta-logo.jpg" alt="TMU Logo" class="insta-grid-logo">
-                                        <h4 class="insta-grid-title text-start">
-                                            Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
+                                        <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
                                             <p class="insta-grid-handle">@tmu_mbd</p>
                                         </h4>
                                     </div>
