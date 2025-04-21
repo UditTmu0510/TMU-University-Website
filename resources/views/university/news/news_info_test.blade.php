@@ -322,12 +322,14 @@
                background: url(\'' .
                                             asset('uploads/blogs/banner_blog_npf.png') .
                                             '\') no-repeat left center / cover;">
-
-        <div class="col-12 col-md-6 ms-auto pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+    <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                <span></span><span>Teerthanker Mahaveer University </span>
+            </h2>
+        <div class="col-12 col-md-6 ms-auto pt-md-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
             <div class="form-inner text-center">
-                <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                <h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
                     <span></span><span>Apply For Admissions</span>
-                </h2>
+                </h3>
                 <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
             </div>
         </div>
