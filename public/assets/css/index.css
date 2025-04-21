@@ -368,7 +368,7 @@ p {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 20px;
+    height: 35px;
     margin: 0 auto;
     animation: 1s infinite new-blink
 }
@@ -3899,7 +3899,18 @@ body {
         font-size: 16px;
     }
 }
+.sticky-wtsap {
+    position: fixed;
+    z-index: 1000;
+}
 
+@media only screen and (max-width: 768px) {
+
+    .sticky-wtsap {
+        bottom: 68px;
+    }
+
+}
 .sticky-widget786 {
     position: fixed;
     bottom: 0px;
