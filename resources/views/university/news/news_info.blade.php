@@ -259,13 +259,118 @@
             animation: blinkColor 1s infinite;
             text-decoration: none;
         }
-
     </style>
 
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
 
+
+    <style>
+        /* Style for the container */
+        .apply-now-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(135deg, #001055 0%, #003087 100%);
+            /* Gradient background */
+            padding: 30px;
+            padding-top: 80px;
+            border-radius: 15px;
+            margin: 50px auto;
+            max-width: 1200px;
+            position: relative;
+            overflow: visible;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            /* Subtle shadow for depth */
+            transition: transform 0.3s ease;
+        }
+
+        .apply-now-section:hover {
+            transform: translateY(-5px);
+            /* Slight lift on hover */
+        }
+
+        /* Style for the image */
+        .apply-now-section img {
+            width: 300px;
+            position: absolute;
+            right: 0px;
+            /* Slightly outside the container for a modern look */
+            bottom: 0px;
+            z-index: 10;
+            transition: transform 0.3s ease;
+        }
+
+        /* Style for the text content */
+        .apply-now-content {
+            color: white;
+            max-width: 55%;
+            z-index: 5;
+        }
+
+        .apply-now-content h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #ffffff, #d1d1d1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* Gradient text effect */
+        }
+
+        .apply-now-content p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Background design element */
+        .background-design {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"%3E%3Ccircle cx="0" cy="0" r="150" fill="rgba(255, 255, 255, 0.05)" /%3E%3C/svg%3E') no-repeat top left;
+            border-radius: 15px;
+            z-index: 0;
+            opacity: 0.3;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .apply-now-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px;
+            }
+
+            .apply-now-content {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .apply-now-section img {
+                display: none;
+                /* Hide the image on mobile view */
+            }
+
+            .apply-now-content h2 {
+                font-size: 28px;
+            }
+
+            .apply-now-content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+
     <!-- Page Title
-              ============================================= -->
+                      ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -291,7 +396,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-              ============================================= -->
+                      ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -299,18 +404,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-                  ============================================= -->
+                          ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-                   ============================================= -->
+                           ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{!! html_entity_decode($news->event_title) !!}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-                   ============================================= -->
+                           ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -333,7 +438,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-                   ============================================= -->
+                           ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -342,7 +447,7 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-                   ============================================= -->
+                           ============================================= -->
                         <div class="entry-content mt-0">
 
                             <!-- Post Single - Content End -->
@@ -364,9 +469,12 @@
             </h2>
     <div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
         <div class="form-inner text-center">
-            <h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link"> Apply for Admissions</a></span>
+          <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
+                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" >Apply for Admission</a></span>
                 </h3>
+<p class="text-center fs-16 fw-bold mt-3 d-block d-md-none">
+                    <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
+                </p>
             <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
         </div>
     </div>
@@ -452,6 +560,23 @@
                                     </div>
                                 </div>
                             </section>
+
+                            <div class="apply-now-section">
+                                <!-- Background Design -->
+                                <div class="background-design"></div>
+
+                                <!-- Content -->
+                                <div class="apply-now-content">
+                                    <h2>Admission Open</h2>
+                                    <p>Begin Your Journey to Success at TMU</p>
+                                    <a href="https://admissions.tmu.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply
+                                        Now</a>
+                                </div>
+
+                                <!-- Image -->
+                                <img src="{{ asset('/assets/img/apply-button.png') }}" alt="Girl with books">
+                            </div>
+
                             <h2 class="tmu-text-primary text-center mb-0"><span>Follow Us On</span><span> Instagram</span>
                             </h2>
                             <div class="insta-grid-container container">
@@ -465,8 +590,7 @@
                                         </h4>
                                     </div>
                                     <div class="d-flex classifier gap-3">
-                                        <div
-                                            class="insta-grid-meta d-flex justify-content-center gap-3 me-4 my-0 py-0">
+                                        <div class="insta-grid-meta d-flex justify-content-center gap-3 me-4 my-0 py-0">
                                             <span><strong>4K</strong> Posts</span>
                                             <span><strong>42.3K</strong> Followers</span>
                                             <span><strong>4</strong> Following</span>
@@ -612,7 +736,7 @@
                             </div>
 
                             <!-- Tag Cloud
-                    ============================================= -->
+                            ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -701,7 +825,7 @@
                     </div> --}}
 
                     <!-- Comments
-                  ============================================= -->
+                          ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -929,5 +1053,5 @@
         }, true);
     </script>
     <!-- Go To Top
-             ============================================= -->
+                     ============================================= -->
 @endsection
