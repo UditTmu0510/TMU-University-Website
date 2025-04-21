@@ -568,9 +568,15 @@ max-width: 600px;
                                                 <i class="fa-brands fa-facebook-f"></i>
                                             </a>
 
-                                            <a href="https://x.com/Tmumbd" class="social-icon si-small text-white border-transparent rounded-circle bg-twitter" title="Twitter">
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-twitter"></i>
+                                            
+                                            <a href="https://www.instagram.com/tmu_mbd/" class="social-icon si-small text-white border-transparent rounded-circle bg-instagram " title="Mail">
+                                                <i class="fa-brands fa-instagram"></i>
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+
+                                            <a href="https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow" class="social-icon si-small text-white border-transparent rounded-circle bg-youtube " title="Mail">
+                                                <i class="fa-brands fa-youtube"></i>
+                                                <i class="fa-brands fa-youtube"></i>
                                             </a>
 
                                             <a href="https://www.linkedin.com/school/tmuuni/" class="social-icon si-small text-white border-transparent rounded-circle bg-linkedin" title="Whatsapp">
@@ -578,15 +584,11 @@ max-width: 600px;
                                                 <i class="fa-brands fa-linkedin"></i>
                                             </a>
 
-                                            <a href="https://www.instagram.com/tmu_mbd/" class="social-icon si-small text-white border-transparent rounded-circle bg-instagram " title="Mail">
-                                                <i class="fa-brands fa-instagram"></i>
-                                                <i class="fa-brands fa-instagram"></i>
+                                            <a href="https://x.com/Tmumbd" class="social-icon si-small text-white border-transparent rounded-circle bg-twitter me-0" title="Twitter">
+                                                <i class="fa-brands fa-twitter"></i>
+                                                <i class="fa-brands fa-twitter"></i>
                                             </a>
 
-                                            <a href="https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow" class="social-icon si-small text-white border-transparent rounded-circle bg-youtube me-0" title="Mail">
-                                                <i class="fa-brands fa-youtube"></i>
-                                                <i class="fa-brands fa-youtube"></i>
-                                            </a>
 
                                         </div>
                                     </div>
@@ -715,7 +717,7 @@ max-width: 600px;
                         <div class="row">
                             <!-- Logo Column for Large Screens -->
                             <div class="col-lg-3 col-md-4 d-none d-md-block justify-content-center" id="tmu-admin">
-                                <img src="{{ asset('/assets/img/tmu-logo1.jpg') }}" alt="Author Image" style="background-size: cover; max-height: 160px; margin-bottom: 0;">
+                                <img src="{{ asset('/assets/img/tmu-logo2.png') }}" alt="Author Image" style="background-size: cover; max-height: 160px; margin-bottom: 0;">
                             </div>
 
                             <!-- Text Column -->
@@ -726,7 +728,7 @@ max-width: 600px;
                                     </div>
                                 </div>
                                 <p class="mb-3">A blog (shortening of "weblog") is an online journal or informational website displaying information in the reverse chronological order, with the latest posts appearing first. It is a platform where a writer or even a group of writers share their views on an individual subject.</p>
-                                <a href="{{route('all_blogs')}}" class="more-link" style="color: #FF7900!important; border-color: #FF7900;">More Posts by TMU Blogs</a>
+                                <a href="{{route('all_blogs')}}" class="" style="color: #FF7900!important; border-color: #FF7900;">More Posts by TMU Blogs</a>
                             </div>
                         </div>
                     </div>
@@ -802,135 +804,7 @@ max-width: 600px;
 
 
 
-                <div id="comments">
-
-                    <h3 id="comments-title" style="color: #FF7900;"><span>{{ $topLevelCommentsCount }}</span> Comments</h3>
-
-                    <!-- Comments List -->
-                    <ol class="commentlist">
-                        @foreach ($comments as $comment)
-                        @if ($comment->parent_id === null) <!-- Check if the comment is a top-level comment -->
-                        <li class="comment even thread-even depth-1" id="li-comment-{{ $comment->id }}">
-                            <div id="comment-{{ $comment->id }}" class="comment-wrap">
-                                <div class="comment-meta">
-                                    <div class="comment-author vcard">
-                                        <span class="comment-avatar">
-                                        <img src="{{asset('assets/img/icons/profile_blog_comment.svg')}}" class="avatar avatar-60 photo avatar-default" height="60" width="60" style="filter: invert(56%) sepia(100%) saturate(1000%) hue-rotate(-20deg) brightness(95%) contrast(91%);">
-
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="comment-content">
-                                    <div class="comment-author">
-                                        {{ $comment->name }}<span>{{ $comment->created_at->format('F j, Y \a\t g:i a') }}</span>
-                                    </div>
-                                    <p>{{ $comment->comment_content }}</p>
-                                    <a class='comment-reply-link' href='#'><i class="bi-reply-fill"></i></a>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-
-                            <!-- Direct Replies -->
-                            @if (count($comment->children) > 0)
-                            <ul class='children'>
-                                @foreach ($comment->children as $child)
-                                <li class="comment byuser comment-author-{{ $child->id }} odd alt depth-2" id="li-comment-{{ $child->id }}">
-                                    <div id="comment-{{ $child->id }}" class="comment-wrap">
-                                        <div class="comment-meta">
-                                            <div class="comment-author vcard">
-                                                <span class="comment-avatar">
-                                                    <img alt='Image' src="{{asset('assets/img/icons/profile_blog_comment.svg')}}" class='avatar avatar-40 photo' height='40' width='40'>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="comment-content">
-                                            <div class="comment-author">
-                                                {{ $child->name }}<span>{{ $child->created_at->format('F j, Y \a\t g:i a') }}</span>
-                                            </div>
-                                            <p>{{ $child->comment_content }}</p>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </li>
-                                @endforeach
-                            </ul>
-                            @endif
-                        </li>
-                        @endif
-                        @endforeach
-                    </ol><!-- .commentlist end -->
-
-                    <div class="clear"></div>
-
-                    <!-- Comment Form -->
-                    <div class="col-12">
-                        <div class="card border-0">
-                            <div class="card-body bg-light p-5">
-                                <h2 class="mb-0 fw-bold font-body">Voice your perspective!</h2>
-                                <p class="text-muted">Share your viewpoint concisely, conveying wisdom in minimal words.</p>
-
-                                <div class="form-widget">
-                                    <div id="success-message" class="alert alert-success" style="display: none;"></div>
-
-                                    <form class="mb-0" id="comment-form" name="comment-form" method="post" >
-                                        @csrf
-                                        <input type="hidden" name="post_id" value="{{ $blog->id }}">
-                                        <input type="hidden" name="parent_id" value="0">
-
-                                        <div class="form-process" style="display: none;">
-                                            <div class="css3-spinner">
-                                                <div class="css3-spinner-scaler"></div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row align-items-center">
-                                            <div class="col-md-4 form-group">
-                                                <label for="template-contactform-name">Full Name <small>*</small></label>
-                                                <input type="text" id="template-contactform-name" name="template-contactform-name" class="form-control required" required>
-                                            </div>
-
-                                            <div class="col-md-4 form-group">
-                                                <label for="template-contactform-email">Email <small>*</small></label>
-                                                <input type="email" id="template-contactform-email" name="template-contactform-email" class="required email form-control" required>
-                                            </div>
-
-                                            <div class="col-md-4 form-group">
-                                                <label for="template-contactform-phone">Phone</label>
-                                                <input type="text" id="template-contactform-phone" name="template-contactform-phone" class="form-control">
-                                            </div>
-
-                                            <div class="w-100"></div>
-
-                                            <div class="col-12 form-group">
-                                                <label for="template-contactform-message">Message <small>*</small></label>
-                                                <textarea class="required form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30" required></textarea>
-                                            </div>
-
-                                            <div class="col-sm-6">
-                                                <button class="tmu-btn btn-1 d-block w-fit-content mt-3 fade-animation" type="submit">Send Message</button>
-                                            </div>
-
-                                            <div class="col-sm-6 d-flex justify-content-sm-end mt-3 mt-sm-0">
-                                                <a href="https://www.facebook.com/tmumbd/" class="social-icon border-transparent border-default si-small h-bg-facebook">
-                                                    <i class="fa-brands fa-facebook"></i>
-                                                </a>
-
-                                                <a href="https://www.instagram.com/tmu_mbd/" class="social-icon border-transparent border-default si-small h-bg-instagram">
-                                                    <i class="fa-brands fa-instagram"></i>
-                                                </a>
-
-                                                <a href="https://x.com/Tmumbd" class="social-icon border-transparent border-default si-small h-bg-twitter">
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

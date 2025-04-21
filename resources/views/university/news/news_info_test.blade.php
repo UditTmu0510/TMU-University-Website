@@ -233,6 +233,7 @@
 
     <!-- Page Title
                   ============================================= -->
+                  ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -240,6 +241,8 @@
                 <div>
                     <h2
                         class="news-page-title-text text-uppercase tmu-text-primary tmu-page-heading text-center mb-1 mb-md-3">
+                        <span>TMU </span><span> NEWS</span>
+                    </h2>
                         <span>TMU </span><span> NEWS</span>
                     </h2>
                     <!-- <h2 class="news-page-title-text">TMU News</h2> -->
@@ -259,6 +262,7 @@
 
     <!-- Content
                   ============================================= -->
+                  ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -267,9 +271,11 @@
 
                     <!-- Single Post
                       ============================================= -->
+                      ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
+                       ============================================= -->
                        ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
@@ -277,6 +283,7 @@
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
+                       ============================================= -->
                        ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
@@ -299,6 +306,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
+                       ============================================= -->
                        ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
@@ -338,7 +346,10 @@
                                     $content = nl2br(html_entity_decode($news->event_full_description));
                                     $insertCode = '';
 
+
                                     if (!request()->ajax()) {
+                                        $insertCode =
+                                            '<div class="container-fluid mt-4 p-0">
                                         $insertCode =
                                             '<div class="container-fluid mt-4 p-0">
     <div class="row d-flex align-items-center bg-section" 
@@ -376,6 +387,8 @@
 </style>';
                                     }
 
+                                    }
+
                                     $count = 0;
                                     $content = preg_replace_callback(
                                         '/(<h2\b[^>]*>.*?<\/h2>)/i',
@@ -384,10 +397,13 @@
                                             return $count === 2 ? $insertCode . $matches[0] : $matches[0];
                                         },
                                         $content,
+                                        $content,
                                     );
+
 
                                     echo $content;
                                 @endphp
+                            </p>
                             </p>
 
 
@@ -594,6 +610,7 @@
                             </div>
                             <!-- Tag Cloud
                         ============================================= -->
+                        ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -682,6 +699,7 @@
                     </div> --}}
 
                     <!-- Comments
+                      ============================================= -->
                       ============================================= -->
                     {{-- <div id="comments">
 
@@ -913,5 +931,6 @@
     </script>
 
     <!-- Go To Top
+                 ============================================= -->
                  ============================================= -->
 @endsection
