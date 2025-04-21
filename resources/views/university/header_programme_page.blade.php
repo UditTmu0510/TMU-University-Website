@@ -477,34 +477,34 @@
 
 
 
-   <!--mobile tray starts-->
-        <div class="new-menu-container d-block d-sm-none">
-            <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
-                ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
+<!--mobile tray starts-->
+<div class="new-menu-container d-block d-sm-none">
+  <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
+      ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
 
-                <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
-                    alt="Menu Icon"> <!-- Replace arrow with your image -->
-            </div>
-            <div class="new-menu-row">
-                <div class="new-menu-item"><span><a href="https://admissions.tmu.ac.in/"
-                            style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
-                <!--<div class="new-vl"></div>-->
-                <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
-                <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
-            </div>
-            <div class="new-menu" id="new-menu">
-                <div class="new-menu-row">
-                    <div class="new-menu-item"><a
-                            href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0"
-                            target="blank"><img src="{{asset('assets/img/icons/Whatsapp.png')}}" height="25px" width="auto"
-                                alt="Icon 1"></a></div>
-                    <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
-                                src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
-                    <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
-                                src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
-                </div>
-            </div>
-        </div>
+      <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
+          alt="Menu Icon"> <!-- Replace arrow with your image -->
+  </div>
+  <div class="new-menu-row">
+      <div class="new-menu-item-tray"><span><a href="https://admissions.tmu.ac.in/"
+                  style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
+      <!--<div class="new-vl"></div>-->
+      <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
+      <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
+  </div>
+  <div class="new-menu" id="new-menu">
+      <div class="new-menu-row">
+          <div class="new-menu-item"><a
+              href="https://www.instagram.com/tmu_mbd/"
+              target="blank"><img src="{{asset('assets/img/icons/insta.png')}}" height="25px" width="auto"
+                  alt="Icon 1"></a></div>
+          <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
+                      src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
+          <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
+                      src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
+      </div>
+  </div>
+</div>
 <!--mobile tray ends-->
 
 
