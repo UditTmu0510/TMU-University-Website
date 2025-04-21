@@ -361,6 +361,7 @@
             font-weight: 700;
             margin-top: 0.75rem;
             padding-top: 0.75rem;
+            margin-bottom: 10px;
         }
 
         .insta-grid-handle {
