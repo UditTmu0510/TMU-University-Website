@@ -237,27 +237,26 @@
                     </div>
                 </div>
                 <!--Accordion code starts here -->
-                @foreach ($colleges as $college)
-                    <button class="careers-accordion" data-collegeId="{{ $college->cd_id }}"><span> <i
-                                class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{ $college->cd_name }}</span> <span
-                            class="icon">+</span></button>
-                    <div class="panel">
+                @foreach ($colleges as $index => $college)
+                    <button class="careers-accordion" data-collegeId="{{ $college->cd_id }}">
+                        <span><i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{ $college->cd_name }}</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="panel {{ $index === 0 ? 'active' : '' }}">
                         <ul class="progul" id="programme{{ $college->cd_id }}">
-
-
-
-
+                            <!-- Program list here -->
                         </ul>
                     </div>
                     <hr class="horizontal-line">
                 @endforeach
+
                 <!-- Add the horizontal line here -->
 
 
                 <!-- Accordion code ends here -->
             </div>
             <!-- -------------   Accordian 4 Ends here -------------
-                   -------------------------      -------------------------  -->
+                       -------------------------      -------------------------  -->
 
             <!-- Code for the Mobile View Ends Here -->
 
@@ -394,8 +393,8 @@
                             </div>
                         </div>
                         <!--
-                          Blog Carousel Starts Here
-                          -->
+                              Blog Carousel Starts Here
+                              -->
 
 
 
@@ -451,7 +450,9 @@
                                         <span>19, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>TMIMT College of Management invites you to a two‑day International Conference on 25–26 April 2025 at TMU Main Auditorium & Conference Halls. Join global experts, engage with thought leaders, and explore cutting‑edge business insights.</p>
+                                        <p>TMIMT College of Management invites you to a two‑day International Conference on
+                                            25–26 April 2025 at TMU Main Auditorium & Conference Halls. Join global experts,
+                                            engage with thought leaders, and explore cutting‑edge business insights.</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -468,7 +469,10 @@
                                         <span>18, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>Teerthanker Mahaveer University and Universiti Putra Malaysia proudly co‑organise the two‑day International E‑Mobility Program “Tree, Tech, and Tradition” on 21–22 April 2025. Join us for sustainability and technological innovation insights, cross‑cultural exchange and thought leadership.</p>
+                                        <p>Teerthanker Mahaveer University and Universiti Putra Malaysia proudly co‑organise
+                                            the two‑day International E‑Mobility Program “Tree, Tech, and Tradition” on
+                                            21–22 April 2025. Join us for sustainability and technological innovation
+                                            insights, cross‑cultural exchange and thought leadership.</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -485,7 +489,9 @@
                                         <span>17, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Fine Arts, TMU is organising a captivating guest lecture on “Understanding Digital Drawing, Painting, Illustration & Market Trends in the Age of AI” by Abdul Rasheed on 19th April 2025 at 11:00 AM</p>
+                                        <p>The College of Fine Arts, TMU is organising a captivating guest lecture on
+                                            “Understanding Digital Drawing, Painting, Illustration & Market Trends in the
+                                            Age of AI” by Abdul Rasheed on 19th April 2025 at 11:00 AM</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -502,7 +508,9 @@
                                         <span>17, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>CCSIT, under the aegis of IIC, TMU, is organising a workshop on "Multiply Your Creativity: For Initiating an Entrepreneur Adroitness" on 18th April 2025 at 11:30 AM in LT-2, CCSIT. 
+                                        <p>CCSIT, under the aegis of IIC, TMU, is organising a workshop on "Multiply Your
+                                            Creativity: For Initiating an Entrepreneur Adroitness" on 18th April 2025 at
+                                            11:30 AM in LT-2, CCSIT.
                                             Don’t miss this inspiring session!</p>
                                     </div>
                                     <div class="notice-meta">
@@ -964,12 +972,12 @@
                 </div>
                 <!-- Lazy loaded thumbnail images (use loading="lazy") -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                        <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
+                            <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                            <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
+                            <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
+                            <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
+                            <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                            <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
 
                 <!-- Lazy loaded thumbnail images with data-bg attribute -->
                 <div class="thumb" onclick="displayReviewByIndex(0)"
@@ -985,13 +993,13 @@
                 <div class="thumb" onclick="displayReviewByIndex(5)"
                     data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
                 <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+                            <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
-                        <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
+                            <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+                            <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+                            <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+                            <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+                            <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
             </div>
         </div>
@@ -1045,10 +1053,10 @@
         <div class="content-wrap py-0" style="margin-top: 23px; margin-bottom: 37px;">
 
             <!-- <div class="row justify-content-center ">
-                        <div class="col-xl-10 col-lg-10 text-center">
-                            <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
-                        </div>
-                    </div> -->
+                            <div class="col-xl-10 col-lg-10 text-center">
+                                <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
+                            </div>
+                        </div> -->
 
             <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
                 <div class="item">
