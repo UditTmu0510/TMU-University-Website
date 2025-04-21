@@ -1024,7 +1024,7 @@ max-width: 600px;
                     <div class="insta-grid-container container">
                         <div class="insta-grid-header text-center mb-4">
                             <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
-                                <img src="{{ asset('/assets/img/insta-grid/tmu-insta-logo.jpg') }}" alt="TMU Logo"
+                                <img src="{{ asset('/assets/img/insta-img/tmu-insta-logo.jpg') }}" alt="TMU Logo"
                                     class="insta-grid-logo">
                                 <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div
                                         class="d-none d-md-block"></div> University
