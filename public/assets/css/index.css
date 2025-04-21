@@ -1318,6 +1318,7 @@ body {
 
 .notice-meta {
     display: flex;
+    justify-content: space-between;
     margin-top: 15px
 }
 
@@ -3299,6 +3300,7 @@ body {
         top:5px;
     }
     .testimonial-text{
+        height: fit-content;
         max-height: 30vh;
     }
 }
