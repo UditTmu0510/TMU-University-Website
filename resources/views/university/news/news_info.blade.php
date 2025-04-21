@@ -273,9 +273,9 @@
             background: linear-gradient(135deg, #001055 0%, #003087 100%);
             /* Gradient background */
             padding: 30px;
-            margin-top: 80px;
             border-radius: 15px;
             margin: 50px auto;
+            margin-top: 80px;
             max-width: 1200px;
             position: relative;
             overflow: visible;
