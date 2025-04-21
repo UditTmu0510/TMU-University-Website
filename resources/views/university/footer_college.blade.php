@@ -1,35 +1,33 @@
 <script>
-
     document.addEventListener('DOMContentLoaded', () => {
-      const searchIcon = document.getElementById('searchIcon');
-      const searchModal = document.getElementById('searchModal');
-      const closeModal = document.getElementById('closeModal');
-      const searchInput = document.getElementById('searchInput');
-      const suggestions = document.getElementById('suggestions');
-  
-      searchIcon.addEventListener('click', () => {
-          searchModal.style.display = 'block';
-          searchInput.focus();
-      });
-  
-      closeModal.addEventListener('click', () => {
-          searchModal.style.display = 'none';
-      });
-  
-      window.addEventListener('click', (event) => {
-          if (event.target == searchModal) {
-              searchModal.style.display = 'none';
-          }
-      });
-  
-      
-  
-  
-  });
-  
-  </script>
-  
-  <script>
+        const searchIcon = document.getElementById('searchIcon');
+        const searchModal = document.getElementById('searchModal');
+        const closeModal = document.getElementById('closeModal');
+        const searchInput = document.getElementById('searchInput');
+        const suggestions = document.getElementById('suggestions');
+
+        searchIcon.addEventListener('click', () => {
+            searchModal.style.display = 'block';
+            searchInput.focus();
+        });
+
+        closeModal.addEventListener('click', () => {
+            searchModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == searchModal) {
+                searchModal.style.display = 'none';
+            }
+        });
+
+
+
+
+    });
+</script>
+
+<script>
     document.addEventListener('DOMContentLoaded', function() {
         var activePanel = document.querySelector('.panel.active');
         if (activePanel) {
@@ -40,9 +38,9 @@
         }
     });
 </script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
     $(document).ready(function() {
         let searchRequest = null; // Store the current AJAX request
 
@@ -124,31 +122,31 @@
     });
 </script>
 <footer id="footer" class="dark" style="background-color: #001055;margin-top:0 !important;">
-	<div class="container">
-		<!-- Footer Widgets
+    <div class="container">
+        <!-- Footer Widgets
 										============================================= -->
-		<div class="footer-widgets-wrap">
+        <div class="footer-widgets-wrap">
 
-			<div class="row col-mb-50">
-				<div class="col-md-12">
-					<div class="widget">
+            <div class="row col-mb-50">
+                <div class="col-md-12">
+                    <div class="widget">
 
-						<!-- <img src="https://www.smart2020.tmu.ac.in/image/tmu-logo.png" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A; height: 120px;">
+                        <!-- <img src="https://www.smart2020.tmu.ac.in/image/tmu-logo.png" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A; height: 120px;">
 						
 														<p>Teerthanker Mahaveer University, the Best Private University in UP, established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the University Grants Commission (UGC) in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008. <br> On National Highway 9, 144 Km from New Delhi, TMU stands committed to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge and Right Conduct in all spheres of activity and aspires to be the ultimate destination for world-class education.</p> -->
 
-						<div class="line" style="margin: 30px 0;"></div>
+                        <div class="line" style="margin: 30px 0;"></div>
 
-						<div class="row col-mb-30">
-
-
-							<div class="col-lg-4 widget_links">
-								<div class="widget">
-
-									<img style="width: 40%;" alt="Teerthanker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}" loading="lazy">
+                        <div class="row col-mb-30">
 
 
-									<!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
+                            <div class="col-lg-4 widget_links">
+                                <div class="widget">
+
+                                    <img style="width: 40%;" alt="Teerthanker mahaveer university logo with name" class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}" loading="lazy">
+
+
+                                    <!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
 																		<address>
 																			<strong>Delhi Office</strong>
 																		</address>
@@ -156,13 +154,13 @@
 																		<abbr title="contactus"><strong>Contact Us:</strong></abbr> 1800-270-1490<br>
 																		<abbr title="Email Address"><strong>Email:</strong></abbr> admissions@tmu.ac.in
 																	</div> -->
-									<br>
-									<div style="margin-top:30px;">
-										<address>
-											<strong style="font-weight: 300;">TMU is committed to the ideals of Lord Mahaveer "Right Philosophy, Right Knowledge, and Right Conduct" in all spheres of activity and aspires to be the ultimate destination for world-class education.</strong>
+                                    <br>
+                                    <div style="margin-top:30px;">
+                                        <address>
+                                            <strong style="font-weight: 300;">TMU is committed to the ideals of Lord Mahaveer "Right Philosophy, Right Knowledge, and Right Conduct" in all spheres of activity and aspires to be the ultimate destination for world-class education.</strong>
 
-										</address>
-										<p style="margin-bottom: 0px;"><strong
+                                        </address>
+                                        <p style="margin-bottom: 0px;"><strong
                                                 style="font-size: 16px; font-weight: 600; color:#FF7900;">Address:
                                             </strong> N.H.-9, Delhi
                                             Road, Moradabad - 244001, <br> Uttar Pradesh</p>
@@ -182,152 +180,152 @@
                                             </strong></abbr>
                                             admissions@tmu.ac.in
                                         </p>
-									</div>
-								</div>
-							</div>
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Useful Links</h4>
-								<ul>
-									<li><a href="{{route('tmu.convocation')}}" target="_blank">Convocation</a></li>
-						
-									<li><a href="{{route('all_news')}}" target="_blank">News</a></li>
-									<li><a href="{{route('tmu.careers')}}" target="_blank">Join TMU</a></li> <!--- CAREERS -->
-									<!-- <li><a href="#">About City</a></li> -->
-									<li><a href="{{route('iqac.about')}}" target="_blank">IQAC</a></li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-2 widget_links">
+                                <h4>Useful Links</h4>
+                                <ul>
+                                    <li><a href="{{route('tmu.convocation')}}" target="_blank">Convocation</a></li>
+
+                                    <li><a href="{{route('all_news')}}" target="_blank">News</a></li>
+                                    <li><a href="{{route('tmu.careers')}}" target="_blank">Join TMU</a></li> <!--- CAREERS -->
+                                    <!-- <li><a href="#">About City</a></li> -->
+                                    <li><a href="{{route('iqac.about')}}" target="_blank">IQAC</a></li>
                                     <li><a href="https://incubator.tmu.ac.in" target="_blank">Business Incubation Centre</a></li>
-									<li><a href="http://portal.tmu.ac.in/" target="_blank">ERP Login</a></li>
-									<li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
-									<!-- <li><a href="#">Sitemap</a></li> -->
-									<li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
-									<li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
-									
-								</ul>
-							</div>
+                                    <li><a href="http://portal.tmu.ac.in/" target="_blank">ERP Login</a></li>
+                                    <li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
+                                    <!-- <li><a href="#">Sitemap</a></li> -->
+                                    <li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
+                                    <li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
 
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Quick Links</h4>
-								<ul>
-									<li><a href="{{route('application.form')}}" target="_blank">Application Form</a></li>
-									<!--<li><a href="#">Entrance Test</a></li>-->
-									<li><a href="{{route('tmu.loan')}}" target="_blank">Education Loan</a></li>
-									<li><a href="{{route('tmu.scholarship')}}" target="_blank">Scholarships</a></li>
-									<li><a href="{{route('how.to.apply')}}" target="_blank">How to Apply</a></li>
-									<li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
-									<li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
-									<li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
+                                </ul>
+                            </div>
 
-								</ul>
-							</div>
+                            <div class="col-6 col-lg-2 widget_links">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="{{route('application.form')}}" target="_blank">Application Form</a></li>
+                                    <!--<li><a href="#">Entrance Test</a></li>-->
+                                    <li><a href="{{route('tmu.loan')}}" target="_blank">Education Loan</a></li>
+                                    <li><a href="{{route('tmu.scholarship')}}" target="_blank">Scholarships</a></li>
+                                    <li><a href="{{route('how.to.apply')}}" target="_blank">How to Apply</a></li>
+                                    <li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
+                                    <li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
+                                    <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
 
-							<!--<div class="col-6 col-lg-2 widget_links">-->
-							<!--	<h4>Programmes</h4>-->
-							<!--	<ul>-->
-							<!--		<li><a href="#">Under Graduate</a></li>-->
-							<!--		<li><a href="#">Post Graduate</a></li>-->
-							<!--		<li><a href="#">Doctratre Programs</a></li>-->
-							<!--		<li><a href="#">Diploma Programs</a></li>-->
-							<!--	</ul>-->
-							<!--</div>-->
+                                </ul>
+                            </div>
 
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Campus Facilities</h4>
-								<ul>
-									
-									<li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
-									<li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
-									<li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
+                            <!--<div class="col-6 col-lg-2 widget_links">-->
+                            <!--	<h4>Programmes</h4>-->
+                            <!--	<ul>-->
+                            <!--		<li><a href="#">Under Graduate</a></li>-->
+                            <!--		<li><a href="#">Post Graduate</a></li>-->
+                            <!--		<li><a href="#">Doctratre Programs</a></li>-->
+                            <!--		<li><a href="#">Diploma Programs</a></li>-->
+                            <!--	</ul>-->
+                            <!--</div>-->
+
+                            <div class="col-6 col-lg-2 widget_links">
+                                <h4>Campus Facilities</h4>
+                                <ul>
+
+                                    <li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
+                                    <li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
+                                    <li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
                                     <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
-									<li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
-									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
+                                    <li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
+                                    <li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
                                     <li><a href="{{route('tmu.hostel')}}" target="_blank">Hostel</a></li>
-								</ul>
-							</div>
-							<div class="col-6 col-lg-2 widget_links">
-								<h4>Student Life</h4>
-								<ul>
-									<li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
-									<li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
-									<li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga and Meditation</a></li>
-									<li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
-									<li><a href="{{route('library')}}" target="_blank">Library</a></li>
-									<li><a href="{{route('music.and.dance.room')}}" target="_blank">Music and Dance</a></li>
-									<li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-2 widget_links">
+                                <h4>Student Life</h4>
+                                <ul>
+                                    <li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
+                                    <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
+                                    <li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga and Meditation</a></li>
+                                    <li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
+                                    <li><a href="{{route('library')}}" target="_blank">Library</a></li>
+                                    <li><a href="{{route('music.and.dance.room')}}" target="_blank">Music and Dance</a></li>
+                                    <li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
                                     <li><a href="{{route('gym')}}" target="_blank">GYM</a></li>
 
-								</ul>
-							</div>
+                                </ul>
+                            </div>
 
 
-						</div>
+                        </div>
 
-					</div>
-				</div>
+                    </div>
+                </div>
 
-				<div class="col-md-4">
-					<div class="widget">
+                <div class="col-md-4">
+                    <div class="widget">
 
-						<div class="row col-mb-30">
+                        <div class="row col-mb-30">
 
-						</div>
+                        </div>
 
-					</div>
+                    </div>
 
 
-				</div>
-			</div><!-- .footer-widgets-wrap end -->
-		</div>
+                </div>
+            </div><!-- .footer-widgets-wrap end -->
+        </div>
 
-	</div>
-	<!-- Copyrights
+    </div>
+    <!-- Copyrights
 									============================================= -->
-	<div id="copyrights">
-		<div class="container">
+    <div id="copyrights">
+        <div class="container">
 
-			<div class="row justify-content-between">
-				<div class="col-12 col-lg-auto text-center text-lg-start">
-					<div class="copyrights-menu copyright-links">
-						<a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti-Ragging</a>/<a href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
-						</div>
-					Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
-				</div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-auto text-center text-lg-start">
+                    <div class="copyrights-menu copyright-links">
+                        <a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti-Ragging</a>/<a href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
+                    </div>
+                    Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
+                </div>
 
-				<div class="col-md-6 text-center text-md-end pb-5 pb-md-2 mb-5 mb-md-0">
-					<div class="d-flex justify-content-center justify-content-md-end mb-2">
-						<a target="_blank" href="https://www.facebook.com/tmumbd/" class="social-icon border-transparent si-small h-bg-facebook">
-							<i class="fa-brands fa-facebook-f"></i>
-							<i class="fa-brands fa-facebook-f"></i>
-						</a>
+                <div class="col-md-6 text-center text-md-end pb-5 pb-md-2 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center justify-content-md-end mb-2">
+                        <a target="_blank" href="https://www.facebook.com/tmumbd/" class="social-icon border-transparent si-small h-bg-facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
 
 
 
-						<a target="_blank" href="https://x.com/Tmumbd" class="social-icon border-transparent si-small h-bg-twitter">
-							<i class="fa-brands fa-twitter"></i>
-							<i class="fa-brands fa-twitter"></i>
-						</a>
+                        <a target="_blank" href="https://x.com/Tmumbd" class="social-icon border-transparent si-small h-bg-twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
 
-						<a target="_blank" href="https://www.linkedin.com/school/tmuuni/" class="social-icon border-transparent si-small me-0 h-bg-linkedin">
-							<i class="fa-brands fa-linkedin"></i>
-							<i class="fa-brands fa-linkedin"></i>
-						</a>
+                        <a target="_blank" href="https://www.linkedin.com/school/tmuuni/" class="social-icon border-transparent si-small me-0 h-bg-linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
 
-				
 
-						<a target="_blank" href="https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow" class="social-icon border-transparent si-small me-0 h-bg-youtube">
-							<i class="fa-brands fa-youtube"></i>
-							<i class="fa-brands fa-youtube"></i>
-						</a>
 
-						<a target="_blank" href="https://www.instagram.com/tmu.updates/"
+                        <a target="_blank" href="https://www.youtube.com/channel/UCSdJPj_8DCXkGY6SOmo_0ow" class="social-icon border-transparent si-small me-0 h-bg-youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/tmu.updates/"
                             class="social-icon border-transparent si-small me-0 h-bg-youtube">
                             <i class="fa-brands fa-instagram"></i>
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-					</div>
+                    </div>
 
-				</div>
-			</div>
-		</div>
-	</div><!-- #copyrights end -->
+                </div>
+            </div>
+        </div>
+    </div><!-- #copyrights end -->
 </footer><!-- #footer end -->
 
 
@@ -359,20 +357,20 @@
 
 <script src="{{asset('assets/js/college_menubar.js')}}"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var activePanel = document.querySelector('.panel.active');
-    if (activePanel) {
-        var activeAccordion = activePanel.previousElementSibling;
-        activePanel.style.display = "block";
-        activeAccordion.querySelector(".icon").innerHTML = "-";
-        activeAccordion.classList.add("clicked");
-    }
-});
+    document.addEventListener('DOMContentLoaded', function() {
+        var activePanel = document.querySelector('.panel.active');
+        if (activePanel) {
+            var activeAccordion = activePanel.previousElementSibling;
+            activePanel.style.display = "block";
+            activeAccordion.querySelector(".icon").innerHTML = "-";
+            activeAccordion.classList.add("clicked");
+        }
+    });
 
- // 
- 
+    // 
 
- const reviews = [{
+
+    const reviews = [{
             name: "Speaks about College of Computing Sciences & IT",
             text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
             img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
@@ -457,43 +455,43 @@ document.addEventListener('DOMContentLoaded', function() {
         },
     ];
 
-let currentReviewIndex = 0;
+    let currentReviewIndex = 0;
 
-function showReview(index) {
-    const review = reviews[index];
-    document.querySelector('.testimonial-title').innerText = review.name;
-    document.querySelector('.review-text').innerText = review.text;
-    document.getElementById('profile-picture').src = review.profile.img;
-    document.getElementById('profile-name').innerText = review.profile.name;
-    // document.getElementById('profile-link').href = review.profile.link;
-    document.getElementById('profile-designation').innerText = review.profile.designation;
-    document.getElementById('profile-company').innerText = review.profile.company;
-    document.getElementById('profile-course').innerText = review.profile.course;
-    document.getElementById('profile-graduationYear').innerText = review.profile.graduationYear;
+    function showReview(index) {
+        const review = reviews[index];
+        document.querySelector('.testimonial-title').innerText = review.name;
+        document.querySelector('.review-text').innerText = review.text;
+        document.getElementById('profile-picture').src = review.profile.img;
+        document.getElementById('profile-name').innerText = review.profile.name;
+        // document.getElementById('profile-link').href = review.profile.link;
+        document.getElementById('profile-designation').innerText = review.profile.designation;
+        document.getElementById('profile-company').innerText = review.profile.company;
+        document.getElementById('profile-course').innerText = review.profile.course;
+        document.getElementById('profile-graduationYear').innerText = review.profile.graduationYear;
 
-    document.querySelectorAll('.thumb').forEach((thumb, i) => {
-        thumb.classList.toggle('active-thumb', i === index);
-    });
-}
+        document.querySelectorAll('.thumb').forEach((thumb, i) => {
+            thumb.classList.toggle('active-thumb', i === index);
+        });
+    }
 
-function showNextReview() {
-    currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+    function showNextReview() {
+        currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+        showReview(currentReviewIndex);
+    }
+
+    function showPreviousReview() {
+        currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
+        showReview(currentReviewIndex);
+    }
+
+    function displayReviewByIndex(index) {
+        currentReviewIndex = index;
+        showReview(currentReviewIndex);
+    }
+
     showReview(currentReviewIndex);
-}
 
-function showPreviousReview() {
-    currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
-    showReview(currentReviewIndex);
-}
-
-function displayReviewByIndex(index) {
-    currentReviewIndex = index;
-    showReview(currentReviewIndex);
-}
-
-showReview(currentReviewIndex);
-
-// Alumni profile section in alumni page end
+    // Alumni profile section in alumni page end
 </script>
 
 
@@ -501,6 +499,95 @@ showReview(currentReviewIndex);
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 
 </div>
+
+
+<style>
+ #blurOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); /* Adds the blur effect */
+    background: rgba(0, 0, 0, 0.47); /* Dark overlay for the background */
+    z-index: 1040; /* Just below the modal */
+    display: none; /* Hidden by default */
+    transition: backdrop-filter 0.3s ease-in-out;
+}
+
+.btn-close {
+    background: transparent;
+    border: none;
+    font-size: 2rem; /* Adjust size of the cross icon */
+    color: #fff; /* White color for better visibility */
+    position: fixed; /* Fix position on the screen */
+    top: 20px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    z-index: 1060; /* Ensure button is above the modal and overlay */
+}
+
+/* Optional: Change hover effect */
+.btn-close:hover {
+    color: #f00; /* Red color on hover */
+    cursor: pointer;
+}
+</style>
+
+
+<div id="blurOverlay"></div> <!-- Blurred background -->
+<div class="modal fade" id="lawCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered custom-height-modal">
+        <div class="modal-content border-0">
+            <div class="modal-body p-0">
+                <img src="{{ asset('/assets/img/banner/law/Law-popup.jpg') }}" alt="Law Conference Poster" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Close button in the blurred background -->
+<button type="button" class="btn-close" id="closeBtn" aria-label="Close">
+    <i class="fas fa-times"></i> <!-- Font Awesome cross icon -->
+</button>
+
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const currentUrl = window.location.href;
+        const expectedUrl = "{{ url('/college-of-law-and-legal-studies') }}";
+
+        if (currentUrl.startsWith(expectedUrl)) {
+            const modalEl = document.getElementById('lawCollegePopup');
+            const blurOverlay = document.getElementById('blurOverlay');
+
+            if (modalEl && blurOverlay) {
+                const myModal = new bootstrap.Modal(modalEl);
+
+                // Disable scrolling on the body when modal is shown
+                modalEl.addEventListener('shown.bs.modal', () => {
+                    document.body.style.overflow = 'hidden'; // Disable background scroll
+                    blurOverlay.style.display = 'block';
+                });
+
+                // Enable scrolling on the body when modal is hidden
+                modalEl.addEventListener('hidden.bs.modal', () => {
+                    document.body.style.overflow = ''; // Re-enable background scroll
+                    blurOverlay.style.display = 'none';
+
+                    // Explicitly remove any inline styles to prevent overflow issues
+                    setTimeout(() => {
+                        document.body.style.overflow = 'auto'; // Ensure scroll is enabled
+                    }, 50);
+                });
+
+                myModal.show();
+            }
+        }
+    });
+</script>
 
 
 </body>

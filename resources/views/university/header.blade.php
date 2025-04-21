@@ -489,8 +489,6 @@
 
 
 
-
-
     <!-- Plugins/Components CSS -->
     <link rel="stylesheet" href="{{asset('css/swiper.css')}}">
     <!-- <link rel="stylesheet" href="demos/landing/landing.css"> -->

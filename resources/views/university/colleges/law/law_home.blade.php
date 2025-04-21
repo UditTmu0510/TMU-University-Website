@@ -7,6 +7,10 @@
 
 <!-- Content
 		============================================= -->
+
+
+
+
 <section id="content">
     <div class="content-wrap py-0">
         <div class="container-fluid  my-0 px-2">
@@ -129,7 +133,7 @@
             <div class="box">
                 <h2 class="college-main-heading"></h2>
                 <h2 class="college-main-heading d-none d-md-block">Teerthanker Mahaveer College of Law and Legal Studies (CLLS): Among the Top Law Colleges</h2>
-                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Law and Legal Studies (CLLS):</span><span>  Among the Top Law Colleges</span></h3>
+                <h3 class="tmu-text-primary d-block d-md-none"><span>Teerthanker Mahaveer College of Law and Legal Studies (CLLS):</span><span> Among the Top Law Colleges</span></h3>
                 <div class="row">
                     <div class="col-12 px-2 px-md-5">
                         <p style="text-align: justify;">The Teerthanker Mahaveer College of Law and Legal Studies (CLLS) was established in 2010 with the aim of building students&rsquo; successful careers in the Law domain. The 12+ years old institute has carved a niche for itself when it comes to the <span class="highlight"><a href="{{url ('blog/top-10-law-colleges-in-india')}}" target="_blank">best private colleges for law in India</a></span> due to its exemplary practical exposure, regular moot court sessions, and qualitative mentorship from qualified faculties. </p>
@@ -224,7 +228,7 @@
                                 </a>
                                 <a class="programme-fetch-button list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="Postgraduate" data-ProgrammeLevel="PG" data-bs-toggle="list" href="#PG" role="tab" aria-controls="PG"><i class="fa-solid fa-microchip fa-sm fakash"></i>&nbsp;Postgraduate
                                 </a>
-                                
+
                                 <!-- <a class="list-group-item listream list-group-item-action rounded-3 shadow-sm mt-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings"><i class="fa-solid fa-scale-unbalanced fa-sm fakash"></i>&nbsp;Law
                                     &nbsp;&nbsp;<span class="badge rounded-pill">05</span></a> -->
                             </div>
@@ -363,7 +367,7 @@
                         </div>
                         <!-- Add the horizontal line here -->
                         <hr class="horizontal-line">
-                        
+
                         <div class="panel">
                             <ul class="progul" id="programmeDoctoral">
 
@@ -572,7 +576,7 @@
             <li>
                 <h3 class="tmu-text-primary mb-0 fs-16"><span>Global Career Prospects and <span></span> Comprehensive Internship Programmes</span></h3>
                 <p class="text-justify">
-                We believe in shaping globally competent legal professionals. With our comprehensive internship programs and global career prospects, CLLS provides access to a wide range of opportunities, both nationally and internationally.
+                    We believe in shaping globally competent legal professionals. With our comprehensive internship programs and global career prospects, CLLS provides access to a wide range of opportunities, both nationally and internationally.
                 </p>
             </li>
         </ul>
@@ -587,7 +591,7 @@
             <li>We understand the importance of accessible education. At CLLS, we offer quality education at affordable fees, supplemented by scholarship assistance, to deserving students.</li>
             <li>Educational Trips to Courts & advocacy Chambers.</li>
             <li>Learning extends beyond the classroom at CLLS. Our educational trips to courts and advocacy chambers offer students firsthand exposure to the legal profession, enriching their understanding of legal practices.</li>
-        </ul>                        
+        </ul>
     </div>
     <!-- Add the horizontal line here -->
     <hr class="horizontal-line">
@@ -815,4 +819,12 @@
 
     });
 </script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 @endsection
