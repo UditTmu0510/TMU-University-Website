@@ -132,9 +132,9 @@
         var currentUrl = window.location.pathname;
 
         // Regular expression to match /blog or /blog/anything
-        var blogPattern = /^\/blog(\/.*)?$/;
+        // var blogPattern = /^\/blog(\/.*)?$/;
 
-        if (!blogPattern.test(currentUrl)) {
+        // if (!blogPattern.test(currentUrl)) {
             // Load the widget only if the condition is not met
             var widget = document.createElement("a");
             widget.href = "javascript:void(0);";
@@ -148,7 +148,7 @@
         </div>
       `;
             document.body.appendChild(widget);
-        }
+        // }
     });
 
     function loadNiaScript() {
