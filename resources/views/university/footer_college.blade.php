@@ -132,7 +132,7 @@
     </div>
 </a> --}}
 
-<a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0">
+<a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="_blank">
     <div class="sticky-wtsap">
         <div class="widget-content786">
             <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
