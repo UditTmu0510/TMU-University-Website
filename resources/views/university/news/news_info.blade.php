@@ -624,10 +624,10 @@
                                     </div>
                                 </div>
 
-                                <div class="row g-1 insta-grid-gallery">
+                                <div class="row g-1 insta-grid-gallery ">
                                     <!-- Repeat this for 8 images -->
                                     <!-- 1 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/13.jpg') }}"
@@ -643,7 +643,7 @@
                                     </div>
 
                                     <!-- 2 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/12.jpg') }}"
@@ -659,7 +659,7 @@
                                     </div>
 
                                     <!-- 3 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/11.jpg') }}"
@@ -675,7 +675,7 @@
                                     </div>
 
                                     <!-- 4 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/10.jpg') }}"
@@ -691,7 +691,7 @@
                                     </div>
 
                                     <!-- 5 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/9.jpg') }}"
@@ -707,7 +707,7 @@
                                     </div>
 
                                     <!-- 6 -->
-                                    <div class="col-4 col-md-3">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/8.jpg') }}"
@@ -723,7 +723,7 @@
                                     </div>
 
                                     <!-- 7 -->
-                                    <div class="col-4 col-md-3 d-none d-lg-block">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/7.jpg') }}"
@@ -739,7 +739,7 @@
                                     </div>
 
                                     <!-- 8 -->
-                                    <div class="col-4 col-md-3 d-none d-lg-block">
+                                    <div class="col-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
                                             <img src="{{ asset('assets/img/insta-img/6.jpg') }}"
