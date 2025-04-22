@@ -194,6 +194,19 @@
 
 
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var currentPath = window.location.pathname;
+        var shouldRemoveWhatsApp = /^\/(blog|news)(\/.*)?$/.test(currentPath);
+
+        if (shouldRemoveWhatsApp) {
+            var whatsappItem = document.querySelector('nav.social li.phone');
+            if (whatsappItem) {
+                whatsappItem.remove();
+            }
+        }
+    });
+</script>
 
 
 
