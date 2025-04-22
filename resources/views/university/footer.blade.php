@@ -118,43 +118,83 @@
         });
     });
 </script>
-<a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
+{{-- <a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
     <div class="sticky-widget786">
         <div class="widget-content786">
             <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="Widget Image">
         </div>
     </div>
-</a>
-
-
+</a> --}}
+<!-- WhatsApp Widget -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         var currentUrl = window.location.pathname;
 
-        // Regular expression to match /blog or /blog/anything
-        var blogPattern = /^\/blog(\/.*)?$/;
+        // Disable widgets on /blog or /news pages
+        var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
-        if (!blogPattern.test(currentUrl)) {
-            // Load the widget only if the condition is not met
-            var widget = document.createElement("a");
-            widget.href = "javascript:void(0);";
-            widget.onclick = loadNiaScript;
-            widget.id = "nia-widget786";
-            widget.innerHTML = `
-        <div class="sticky-nia-widget786">
-          <div class="nia-widget-content786">
-            <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="Widget Image">
-          </div>
-        </div>
-      `;
-            document.body.appendChild(widget);
+        if (!disablePattern.test(currentUrl)) {
+            var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
+
+            if (isMobile) {
+                // ✅ WhatsApp widget
+                var whatsappWidget = document.createElement("a");
+                whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+                whatsappWidget.setAttribute("target", "_blank");
+                whatsappWidget.innerHTML = `
+                    <div class="sticky-wtsap">
+                        <div class="widget-content786">
+                            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(whatsappWidget);
+            } else {
+                // ✅ UserWay widget
+                var userwayAnchor = document.createElement("a");
+                userwayAnchor.href = "javascript:void(0);";
+                userwayAnchor.onclick = loadUserWayScript;
+                userwayAnchor.id = "userway-widget786";
+                userwayAnchor.innerHTML = `
+                    <div class="sticky-widget786">
+                        <div class="widget-content786">
+                            <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(userwayAnchor);
+            }
+
+            // ✅ NIA widget (common for both views)
+            var niaWidget = document.createElement("a");
+            niaWidget.href = "javascript:void(0);";
+            niaWidget.onclick = loadNiaScript;
+            niaWidget.id = "nia-widget786";
+            niaWidget.innerHTML = `
+                <div class="sticky-nia-widget786">
+                    <div class="nia-widget-content786">
+                        <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="NIA Widget">
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(niaWidget);
         }
     });
 
+    function loadUserWayScript() {
+        console.log("UserWay script loaded here");
+        // Add actual UserWay script if needed
+    }
+
     function loadNiaScript() {
-        console.log("Widget clicked! Load your script here.");
+        console.log("NIA widget clicked! Load your script here.");
+        // Add actual NIA integration here
     }
 </script>
+
+
+
+
 
 
 <div class="npf_chatbots" data-w="682ca82a0e534a72adfabb52a87dfac8" style="display:none;"></div>
@@ -244,6 +284,7 @@
                                     <li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
                                     <li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
                                     <li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
+                                    
                                 </ul>
                             </div>
 
@@ -259,7 +300,7 @@
                                     <li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
                                     <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
                                     <li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
-
+                                    <li><a href="{{route('student.clubs')}}" target="_blank">Student Club</a></li>
                                 </ul>
                             </div>
 

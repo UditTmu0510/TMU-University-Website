@@ -77,158 +77,175 @@
     </style>
 
 
-{{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 starts here --}}
-<style>
-    .insta-grid-container *:not(i) {
-      font-family: 'Roboto', sans-serif;
-    }
+    {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 starts here --}}
+    <style>
+        .insta-grid-container *:not(i) {
+            font-family: 'Roboto', sans-serif;
+        }
 
-    .insta-grid-container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 20px 10px;
-      border-bottom: 1px solid #ddd;
-    }
+        .insta-grid-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 5px 10px;
+            border-bottom: 1px solid #ddd;
+        }
 
-    .insta-grid-header {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 30px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    
-    .insta-grid-logo {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      padding: 2px;
-      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    }
+        .insta-grid-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-    .insta-grid-title {
-      font-size: 1rem;
-      font-weight: 700;
-      margin-top: 0.75rem;
-    }
+        .insta-grid-logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            padding: 2px;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
 
-    .insta-grid-handle {
-      font-size: 12px;
-      color: gray;
-      font-weight: 500;
-      margin: 0;
-    }
+        .insta-grid-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+        }
 
-    .insta-grid-meta {
-      font-size: 0.75rem;
-      gap: 20px;
-      margin-top: 5px;
-      color: gray;
-    }
+        .insta-grid-handle {
+            font-size: 12px;
+            color: gray;
+            font-weight: 500;
+            margin: 0;
+        }
 
-    .insta-grid-meta span strong {
-      display: block;
-      font-weight: 700;
-      color: black;
-      font-size: 14px;
-      margin-right: 2px;
-    }
+        .insta-grid-meta {
+            font-size: 0.75rem;
+            gap: 20px;
+            margin-top: 5px;
+            color: gray;
+        }
 
-    .tmu-btn {
-      background-color: #0095f6;
-      border: none;
-      border-radius: 4px;
-      color: white;
-      font-size: 14px;
-      cursor: pointer;
-      padding: 8px 12px;
-      transition: background-color 0.2s ease-in-out;
-    }
+        .insta-grid-meta span strong {
+            display: block;
+            font-weight: 700;
+            color: black;
+            font-size: 14px;
+            margin-right: 2px;
+        }
 
-    @media screen and (max-width: 768px) {
-      .insta-grid-header {
-        gap: 5px;
-      }
-      .insta-grid-logo {
-        width: 45px;
-        height: 45px;
-      }
-      .tmu-btn {
-        padding: 5px 10px;
-      }
-    }
+        .follow-btn {
+            background-color: #0095f6;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            padding: 8px 12px;
+            transition: background-color 0.2s ease-in-out;
+        }
 
-    .tmu-btn:hover {
-      background-color: #1877f2;
-    }
+        @media screen and (max-width: 768px) {
+            .insta-grid-header {
+                gap: 5px;
+            }
 
-    .insta-post-wrapper {
-      position: relative;
-      overflow: hidden;
-    }
+            .insta-grid-logo {
+                width: 45px;
+                height: 45px;
+            }
 
-    .insta-grid-img {
-      transition: transform 0.3s ease-in-out;
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-    }
+            .follow-btn {
+                padding: 5px 10px;
+            }
+        }
 
-    .insta-hover-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      transition: all 0.3s ease-in-out;
-      padding: 10px;
-      text-align: center;
-    }
+        .follow-btn:hover {
+            background-color: #1877f2;
+        }
 
-    .insta-post-wrapper:hover .insta-hover-overlay {
-      opacity: 1;
-      transform: scale(1);
-    }
+        .insta-post-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
 
-    .likes-comments {
-      display: flex;
-      gap: 15px;
-      font-size: 1rem;
-      margin-bottom: 8px;
-    }
+        .insta-grid-img {
+            transition: transform 0.3s ease-in-out;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
 
-    .caption {
-      font-size: 0.8rem;
-      line-height: 1.2;
-    }
+        .insta-hover-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            padding: 10px;
+            text-align: center;
+        }
 
-    @media (max-width: 768px) {
-      .insta-grid-header {
-        flex-direction: column;
-        text-align: center;
-      }
-      .insta-grid-img {
-      transition: transform 0.3s ease-in-out;
-      width: 100%;
-      height: 120px;
-      object-fit: cover;
-    }
-    }
-  </style>
+        .insta-post-wrapper:hover .insta-hover-overlay {
+            opacity: 1;
+            transform: scale(1);
+        }
 
-  {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
+        .likes-comments {
+            display: flex;
+            gap: 15px;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .caption {
+            font-size: 0.8rem;
+            line-height: 1.2;
+        }
+
+        @media (max-width: 768px) {
+            .insta-grid-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .insta-grid-img {
+                transition: transform 0.3s ease-in-out;
+                width: 100%;
+                height: 120px;
+                object-fit: cover;
+            }
+
+            .classifier {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .insta-grid-meta {
+                font-size: 0.85rem;
+            }
+
+            .insta-grid-meta span strong {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+    {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
 
 
     <!-- Page Title
-              ============================================= -->
+                          ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -254,7 +271,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-              ============================================= -->
+                          ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -262,18 +279,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-                  ============================================= -->
+                              ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-                   ============================================= -->
+                               ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-                   ============================================= -->
+                               ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -295,7 +312,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-                   ============================================= -->
+                               ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -304,7 +321,28 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-                   ============================================= -->
+                               ============================================= -->
+
+                        <style>
+                            @keyframes blinkColor {
+                                0% {
+                                    color: red;
+                                }
+
+                                50% {
+                                    color: blue;
+                                }
+
+                                100% {
+                                    color: red;
+                                }
+                            }
+
+                            .blink-link {
+                                animation: blinkColor 1s infinite;
+                                text-decoration: none;
+                            }
+                        </style>
                         <div class="entry-content mt-0">
 
                             <!-- Post Single - Content End -->
@@ -319,14 +357,16 @@
     <div class="row d-flex align-items-center bg-section" 
         style="min-height: 550px; 
                background: url(\'' .
-                                            asset('uploads/blogs/banner_blog_npf.png') .
+                                            asset('/uploads/blogs/banner_blog_npf.png') .
                                             '\') no-repeat left center / cover;">
-
-        <div class="col-12 col-md-6 ms-auto pt-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
+                <span></span><span>Teerthanker Mahaveer University </span>
+            </h2>
+        <div class="col-12 col-md-6 ms-auto pt-md-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
             <div class="form-inner text-center">
-                <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span>Apply For Admissions</span>
-                </h2>
+                <h3 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
+                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link"> Apply for Admissions</a></span>
+                </h3>
                 <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
             </div>
         </div>
@@ -410,25 +450,28 @@
                                     </div>
                                 </div>
                             </section>
+                            <h2 class="tmu-text-primary text-center mb-0"><span>Follow Us On</span><span> Instagram</span>
+                            </h2>
                             <div class="insta-grid-container container">
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
-                                        <img src="{{ asset('assets/img/insta-img/tmu-insta-logo.jpg')}}" alt="TMU Logo" class="insta-grid-logo">
-                                        <h4 class="insta-grid-title text-start">
-                                            Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
+                                        <img src="{{asset('/assets/img/insta_grid/tmu-insta-logo.jpg')}}" alt="TMU Logo" class="insta-grid-logo">
+                                        <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
                                             <p class="insta-grid-handle">@tmu_mbd</p>
                                         </h4>
                                     </div>
-                                    <div class="insta-grid-meta d-flex justify-content-center gap-3 me-4">
-                                        <span><strong>4K</strong> Posts</span>
-                                        <span><strong>42.3K</strong> Followers</span>
-                                        <span><strong>4</strong> Following</span>
+                                    <div class="d-flex classifier gap-3">
+                                        <div class="insta-grid-meta d-flex justify-content-center gap-3 me-4">
+                                            <span><strong>4K</strong> Posts</span>
+                                            <span><strong>42.3K</strong> Followers</span>
+                                            <span><strong>4</strong> Following</span>
+                                        </div>
+                                        <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
+                                            <button class="follow-btn btn-4 mt-2">
+                                                <i class="fab fa-instagram"></i>&nbsp;&nbsp; Follow
+                                            </button>
+                                        </a>
                                     </div>
-                                    <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank">
-                                        <button class="tmu-btn btn-4 mt-2">
-                                            <i class="fab fa-instagram"></i>&nbsp;&nbsp; Follow
-                                        </button>
-                                    </a>
                                 </div>
 
                                 <div class="row g-1 insta-grid-gallery">
@@ -437,7 +480,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/13.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/13.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 1.2K</span>
@@ -452,8 +496,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/12.jpg')}}" class="img-fluid insta-grid-img"
-                                                alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/12.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 980</span>
@@ -468,8 +512,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/11.jpg')}}" class="img-fluid insta-grid-img"
-                                                alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/11.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 1.5K</span>
@@ -484,8 +528,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/10.jpg')}}" class="img-fluid insta-grid-img"
-                                                alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/10.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 1K</span>
@@ -500,7 +544,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/9.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/9.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 860</span>
@@ -515,7 +560,8 @@
                                     <div class="col-4 col-md-3">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/8.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/8.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 720</span>
@@ -530,7 +576,8 @@
                                     <div class="col-4 col-md-3 d-none d-lg-block">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/7.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/7.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 1.3K</span>
@@ -545,7 +592,8 @@
                                     <div class="col-4 col-md-3 d-none d-lg-block">
                                         <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                             class="insta-post-wrapper d-block">
-                                            <img src="{{asset ('assets/img/insta-img/6.jpg')}}" class="img-fluid insta-grid-img" alt="post">
+                                            <img src="{{ asset('assets/img/insta-img/6.jpg') }}"
+                                                class="img-fluid insta-grid-img" alt="post">
                                             <div class="insta-hover-overlay">
                                                 <div class="likes-comments">
                                                     <span><i class="fas fa-heart"></i> 1.1K</span>
@@ -558,7 +606,7 @@
                                 </div>
                             </div>
                             <!-- Tag Cloud
-                    ============================================= -->
+                                ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -647,7 +695,7 @@
                     </div> --}}
 
                     <!-- Comments
-                  ============================================= -->
+                              ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -878,5 +926,5 @@
     </script>
 
     <!-- Go To Top
-             ============================================= -->
+                         ============================================= -->
 @endsection

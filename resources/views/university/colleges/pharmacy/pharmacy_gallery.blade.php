@@ -6,9 +6,23 @@
 <div class="container">
         <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h1>
         <div class="row">
-            <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
+            <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-3">
                 <div class="container">
                     <div class="row justify-content-center gutter-10" data-lightbox="gallery">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-II-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="NCPRI 2025 – Conference Day 2 Highlights">
+                                <div class="position-relative">
+                                    <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-II-1.jpg')}}" alt="Gallery Thumb 2">
+                                </div>
+                                <h5 class="text-center mt-2"> NCPRI 2025 – Conference Day 2 Highlights</h5>
+                            </a>
+                            <div class="d-none">
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-II-2.jpg')}}" data-lightbox="gallery-item" title="NCPRI 2025 – Conference Day 2 Highlights"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-II-3.jpg')}}" data-lightbox="gallery-item" title="NCPRI 2025 – Conference Day 2 Highlights"></a>
+                                <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-II-4.jpg')}}" data-lightbox="gallery-item" title="NCPRI 2025 – Conference Day 2 Highlights"></a>
+                            </div>
+                        </div>
+
                         <div class="col-md-3 col-sm-6">
                             <a href="{{asset('/assets/img/gallery/collegegallery/pharmacy/nc-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)">
                                 <div class="position-relative">
