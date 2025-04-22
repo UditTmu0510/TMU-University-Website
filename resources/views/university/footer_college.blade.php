@@ -122,21 +122,46 @@
     });
 </script>
 
-{{-- <a href="javascript:void(0);" onclick="loadUserWayScript()" id="userway-widget786">
-    <div class="sticky-widget786">
-        <div class="widget-content786">
-            <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="Widget Image">
-        </div>
-    </div>
-</a> --}}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const isMobile = window.innerWidth < 576;
 
-<a href="https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0" target="_blank">
-    <div class="sticky-wtsap">
-        <div class="widget-content786">
-            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
-        </div>
-    </div>
-</a>
+        let widgetAnchor = document.createElement("a");
+        widgetAnchor.setAttribute("target", isMobile ? "_blank" : "_self");
+
+        if (isMobile) {
+            // Load WhatsApp widget
+            widgetAnchor.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+            widgetAnchor.innerHTML = `
+                <div class="sticky-wtsap">
+                    <div class="widget-content786">
+                        <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp Widget">
+                    </div>
+                </div>
+            `;
+        } else {
+            // Load UserWay widget
+            widgetAnchor.href = "javascript:void(0);";
+            widgetAnchor.id = "userway-widget786";
+            widgetAnchor.onclick = loadUserWayScript;
+            widgetAnchor.innerHTML = `
+                <div class="sticky-widget786">
+                    <div class="widget-content786">
+                        <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
+                    </div>
+                </div>
+            `;
+        }
+
+        document.body.appendChild(widgetAnchor);
+    });
+
+    function loadUserWayScript() {
+        console.log("UserWay script triggered");
+        // Place actual UserWay script loader here
+    }
+</script>
+
 
 
 <script>
