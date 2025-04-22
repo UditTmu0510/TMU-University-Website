@@ -1072,7 +1072,7 @@ max-width: 600px;
                         <div class="row g-1 insta-grid-gallery">
                             <!-- Repeat this for 8 images -->
                             <!-- 1 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/13.jpg') }}"
@@ -1088,7 +1088,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 2 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/12.jpg') }}"
@@ -1104,7 +1104,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 3 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/11.jpg') }}"
@@ -1120,7 +1120,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 4 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/10.jpg') }}"
@@ -1136,7 +1136,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 5 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/9.jpg') }}" class="img-fluid insta-grid-img"
@@ -1152,7 +1152,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 6 -->
-                            <div class="col-4 col-md-3">
+                            <div class="col-3">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/8.jpg') }}" class="img-fluid insta-grid-img"
@@ -1168,7 +1168,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 7 -->
-                            <div class="col-4 col-md-3 d-none d-lg-block">
+                            <div class="col-3 d-none d-lg-block">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/7.jpg') }}" class="img-fluid insta-grid-img"
@@ -1184,7 +1184,7 @@ max-width: 600px;
                             </div>
 
                             <!-- 8 -->
-                            <div class="col-4 col-md-3 d-none d-lg-block">
+                            <div class="col-3 d-none d-lg-block">
                                 <a href="https://www.instagram.com/tmu_mbd/?hl=en" target="_blank"
                                     class="insta-post-wrapper d-block">
                                     <img src="{{ asset('assets/img/insta-img/6.jpg') }}" class="img-fluid insta-grid-img"
