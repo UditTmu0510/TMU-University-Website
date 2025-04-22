@@ -1444,8 +1444,7 @@
                     programmeList.html(programListHtml);
 
                     // Confirm insertion
-                    console.log("✅ HTML inserted into:", programmeList.attr('id'));
-                    console.log("Final HTML:", programListHtml);
+                    
                 },
                 error: function (xhr, status, error) {
                     console.error('❌ AJAX error:', status, error);
