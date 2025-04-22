@@ -654,9 +654,16 @@
             <div class="modal-body p-0">
                 <img src="{{ asset('/assets/img/banner/law/Law-popup.jpg') }}" alt="Law Conference Poster" class="img-fluid w-100">
             </div>
-            <button id="downloadBrochureBtn" class="tmu-btn btn-1 read-more">
-                Download Brochure
-            </button>
+            <div class="modal-footer justify-content-center gap-3 flex-wrap">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSedzZlcaDctge5oILmmsi5t8eZdVZzA-28IwY30RFiz5vYI9g/viewform" class="tmu-btn btn-2 read-more d-flex align-items-center gap-2">
+                    <i class="fas fa-user-edit"></i> Register Now
+                </a>
+
+                <button id="downloadBrochureBtn" class="tmu-btn btn-1 read-more d-flex align-items-center gap-2">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+            </div>
+            
         </div>
     </div>
 </div>
