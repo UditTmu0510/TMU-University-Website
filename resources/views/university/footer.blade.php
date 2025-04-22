@@ -127,28 +127,45 @@
 </a> --}}
 <!-- WhatsApp Widget -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         var currentUrl = window.location.pathname;
 
-        // Regular expressions to match ONLY /blog or /blog/anything or /news or /news/anything
+        // Disable widgets on /blog or /news pages
         var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
-        // ✅ Now this condition ALLOWS the homepage `/`
         if (!disablePattern.test(currentUrl)) {
-            // Load WhatsApp widget
-            var whatsappWidget = document.createElement("a");
-            whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
-            whatsappWidget.setAttribute("target", "_blank");
-            whatsappWidget.innerHTML = `
-                <div class="sticky-wtsap">
-                    <div class="widget-content786">
-                        <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="Widget Image">
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(whatsappWidget);
+            var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
 
-            // Load NIA widget
+            if (isMobile) {
+                // ✅ WhatsApp widget
+                var whatsappWidget = document.createElement("a");
+                whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+                whatsappWidget.setAttribute("target", "_blank");
+                whatsappWidget.innerHTML = `
+                    <div class="sticky-wtsap">
+                        <div class="widget-content786">
+                            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(whatsappWidget);
+            } else {
+                // ✅ UserWay widget
+                var userwayAnchor = document.createElement("a");
+                userwayAnchor.href = "javascript:void(0);";
+                userwayAnchor.onclick = loadUserWayScript;
+                userwayAnchor.id = "userway-widget786";
+                userwayAnchor.innerHTML = `
+                    <div class="sticky-widget786">
+                        <div class="widget-content786">
+                            <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(userwayAnchor);
+            }
+
+            // ✅ NIA widget (common for both views)
             var niaWidget = document.createElement("a");
             niaWidget.href = "javascript:void(0);";
             niaWidget.onclick = loadNiaScript;
@@ -156,7 +173,7 @@
             niaWidget.innerHTML = `
                 <div class="sticky-nia-widget786">
                     <div class="nia-widget-content786">
-                        <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="Widget Image">
+                        <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="NIA Widget">
                     </div>
                 </div>
             `;
@@ -164,10 +181,18 @@
         }
     });
 
+    function loadUserWayScript() {
+        console.log("UserWay script loaded here");
+        // Add actual UserWay script if needed
+    }
+
     function loadNiaScript() {
-        console.log("Widget clicked! Load your script here.");
+        console.log("NIA widget clicked! Load your script here.");
+        // Add actual NIA integration here
     }
 </script>
+
+
 
 
 
