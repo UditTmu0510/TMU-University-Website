@@ -284,6 +284,7 @@
                                     <li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
                                     <li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
                                     <li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
+                                    
                                 </ul>
                             </div>
 
@@ -299,7 +300,7 @@
                                     <li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
                                     <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
                                     <li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
-
+                                    <li><a href="{{route('student.clubs')}}" target="_blank">Student Club</a></li>
                                 </ul>
                             </div>
 
