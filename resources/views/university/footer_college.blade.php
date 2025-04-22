@@ -603,35 +603,22 @@
 
 
 <style>
- #blurOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px); /* Adds the blur effect */
-    background: rgba(0, 0, 0, 0.47); /* Dark overlay for the background */
-    z-index: 1040; /* Just below the modal */
-    display: none; /* Hidden by default */
-    transition: backdrop-filter 0.3s ease-in-out;
-}
-
-.btn-close {
-    background: transparent;
-    border: none;
-    font-size: 2rem; /* Adjust size of the cross icon */
-    color: #fff; /* White color for better visibility */
-    position: fixed; /* Fix position on the screen */
-    top: 20px; /* Adjust the distance from the top */
-    right: 20px; /* Adjust the distance from the right */
-    z-index: 1060; /* Ensure button is above the modal and overlay */
-}
-
-/* Optional: Change hover effect */
-.btn-close:hover {
-    color: #f00; /* Red color on hover */
-    cursor: pointer;
-}
+    #blurOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        /* Adds the blur effect */
+        background: rgba(0, 0, 0, 0.47);
+        /* Dark overlay for the background */
+        z-index: 1040;
+        /* Just below the modal */
+        display: none;
+        /* Hidden by default */
+        transition: backdrop-filter 0.3s ease-in-out;
+    }
 </style>
 
 
@@ -642,14 +629,13 @@
             <div class="modal-body p-0">
                 <img src="{{ asset('/assets/img/banner/law/Law-popup.jpg') }}" alt="Law Conference Poster" class="img-fluid w-100">
             </div>
+            <button id="downloadBrochureBtn" class="tmu-btn btn-1 read-more">
+                Download Brochure
+            </button>
         </div>
     </div>
 </div>
 
-<!-- Close button in the blurred background -->
-<button type="button" class="btn-close" id="closeBtn" aria-label="Close">
-    <i class="fas fa-times"></i> <!-- Font Awesome cross icon -->
-</button>
 
 
 
@@ -660,35 +646,48 @@
         const currentUrl = window.location.href;
         const expectedUrl = "{{ url('/college-of-law-and-legal-studies') }}";
 
-        if (currentUrl.startsWith(expectedUrl)) {
-            const modalEl = document.getElementById('lawCollegePopup');
-            const blurOverlay = document.getElementById('blurOverlay');
+        const modalEl = document.getElementById('lawCollegePopup');
+        const blurOverlay = document.getElementById('blurOverlay');
+        const downloadBtn = document.getElementById('downloadBrochureBtn');
+        const brochureUrl = "{{ asset('assets/pdf/law/law-brochure.pdf') }}";
 
-            if (modalEl && blurOverlay) {
-                const myModal = new bootstrap.Modal(modalEl);
+        if (currentUrl.startsWith(expectedUrl) && modalEl && blurOverlay) {
+            const myModal = new bootstrap.Modal(modalEl);
 
-                // Disable scrolling on the body when modal is shown
-                modalEl.addEventListener('shown.bs.modal', () => {
-                    document.body.style.overflow = 'hidden'; // Disable background scroll
-                    blurOverlay.style.display = 'block';
-                });
+            modalEl.addEventListener('shown.bs.modal', () => {
+                document.body.style.overflow = 'hidden';
+                blurOverlay.style.display = 'block';
+            });
 
-                // Enable scrolling on the body when modal is hidden
-                modalEl.addEventListener('hidden.bs.modal', () => {
-                    document.body.style.overflow = ''; // Re-enable background scroll
-                    blurOverlay.style.display = 'none';
+            modalEl.addEventListener('hidden.bs.modal', () => {
+                blurOverlay.style.display = 'none';
+                setTimeout(() => {
+                    document.body.style.overflow = 'auto';
+                }, 50);
+            });
 
-                    // Explicitly remove any inline styles to prevent overflow issues
-                    setTimeout(() => {
-                        document.body.style.overflow = 'auto'; // Ensure scroll is enabled
-                    }, 50);
-                });
+            myModal.show();
 
-                myModal.show();
-            }
+            downloadBtn.addEventListener('click', function() {
+                // Create a temporary link and trigger download
+                const link = document.createElement('a');
+                link.href = brochureUrl;
+                link.setAttribute('download', 'law-brochure.pdf');
+                link.setAttribute('target', '_blank');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+
+                // Close modal after a short delay
+                setTimeout(() => {
+                    myModal.hide();
+                }, 300); // Delay to allow browser to process download first
+            });
         }
     });
 </script>
+
+
 
 
 </body>
