@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>22, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>National Conference on Social Impacts of Dowry Prohibition Laws in India on May 9-10, 2025, at TMU Moradabad. Abstract submission deadline: May 2, 2025. <a href="{{asset('/assets/pdf/law/law-brochure.pdf')}}" target="_blank">Read More!</a></p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Law & Legal Studies</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            02, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>19, April</span>
                                     </div>
                                     <div class="notice-content">
