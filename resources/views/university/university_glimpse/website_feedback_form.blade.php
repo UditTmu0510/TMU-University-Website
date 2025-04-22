@@ -1,19 +1,11 @@
 @extends('layouts.university.departments.about_tmu_with_sidebar')
 @section('content')
 
-
-<!-- Feedback Form -->
-<div class="feedback-form">
-  <h2 class="text-center tmu-text-primary"> <span> Website Feedback</span> <span> Form</span></h2>
-  @if(session('success'))
-  <div class="alert alert-success">
-    {{ session('success') }}
-  </div>
-  @endif
+  <!-- Feedback Form -->
+  <div class="feedback-form">
+    <h2 Class="tmu-text-primary mb-2 text-center" style="font-size: 26px;"><span>Website</span><span> Feedback Form</span></h2>
 
   <form id="feedbackForm" action="{{ route('feedback.store') }}" method="POST" enctype="multipart/form-data">
-    @csrf
-
     <!-- Name Field (Required) -->
     <div class="mb-4">
       <label for="userName" class="form-label">Name <span style="color: red;">*</span></label>
@@ -22,7 +14,7 @@
 
     <!-- Phone Field (Optional) -->
     <div class="mb-4">
-      <label for="userPhone" class="form-label">Phone Number (Optional)</label>
+      <label for="userPhone" class="form-label">Phone Number</label>
       <input type="text" id="userPhone" name="phone" class="form-control" placeholder="Enter your phone number ">
     </div>
 
@@ -41,11 +33,12 @@
       <input type="file" id="userImage2" name="image_2" class="form-control">
     </div>
 
-    <!-- Submit Button -->
-    <div class="text-center">
-      <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
-    </div>
-  </form>
+ 
+      <!-- Submit Button -->
+      <div class="d-flex justify-content-center">
+  <button type="submit" class="tmu-btn btn-1 py-1 px-3 py-xl-2">Send Feedback</button>
+</div>
+    </form>
 
   <p class="mt-4 text-center">
     If you have any additional suggestions, or if you would like to discuss any specific issues regarding the website, please feel free to get in touch with our website team at:

@@ -908,29 +908,7 @@
 <script>
 	window.addEventListener('pluginSwiperReady', () => {
 		var swiperThumb = new Swiper(".swiper-thumb", {
-			spaceBetween: 10,
-			slidesPerView: 4,
-			allowTouchMove: true,
-			freeMode: true,
-			watchSlidesProgress: true,
-		});
-		var swiperContainer = new Swiper(".swiper-container", {
-			spaceBetween: 10,
-			allowTouchMove: true,
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-			thumbs: {
-				swiper: swiperThumb,
-			},
-		});
-
-		//GotoTop
-		var cssPosGotoTop = getComputedStyle(document.querySelector('#gotoTop'));
-		var canvasPageScrollPos = (cssPosGotoTop.getPropertyValue('--cnvs-gotoTop-scroll'));
-		var canvasbodyHeight = document.body.offsetHeight;
-
+			spaceB
 		window.addEventListener('scroll', function() {
 			var scrollPercent = (jQuery(window).scrollTop()) / ((jQuery(document).height()) - (jQuery(window).height()));
 			var getPercent = Math.round(scrollPercent * 100);
