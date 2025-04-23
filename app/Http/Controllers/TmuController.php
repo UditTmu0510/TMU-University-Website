@@ -841,6 +841,10 @@ class TmuController extends Controller
     {
         return view('university.quick_links.prominent_guests_comment');
     }
+    public function admissions_leaflet()
+    {
+        return view('university.quick_links.admissions_leaflet');
+    }
 
     public function tmu_convocation()
     {

@@ -577,6 +577,7 @@ Route::get('/tmu/anti-ragging-committee', [TmuController::class, 'university_ant
 Route::get('/tmu/faq', [TmuController::class, 'tmu_faqs'])->name('tmu.faqs');
 Route::get('/tmu/admission-rules', [TmuController::class, 'admission_rules'])->name('admission.rules');
 Route::get('/tmu/prominent-guests-comment', [TmuController::class, 'prominent_guests_comment'])->name('prominent.guests.comment');
+Route::get('/tmu/admissions-leaflet', [TmuController::class, 'admissions_leaflet'])->name('admissions.leaflet');
 
 Route::get('/tmu/disclaimer', [TmuController::class, 'tmu_disclaimer'])->name('tmu.disclaimer');
 Route::get('/tmu/privacy-policy', [TmuController::class, 'tmu_privacy_policy'])->name('tmu.privacy.policy');
