@@ -41,6 +41,36 @@
             <div class="container">
                 <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                     <div class="col-md-3 col-sm-6">
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/36.jpg') }}"
+                            data-lightbox="gallery-item" class="text-decoration-none"
+                            title="Exploring AI in Fetal Health – Lecture Recap">
+                            <div class="position-relative">
+                                <img class="img-fluid"
+                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/36.jpg') }}"
+                                    alt="Guest lecture">
+                            </div>
+                            <h5 class="text-center mt-2"></h5>
+                        </a>
+                        <div class="d-none">
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/37.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Exploring AI in Fetal Health – Lecture Recap"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/38.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Exploring AI in Fetal Health – Lecture Recap"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/39.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Exploring AI in Fetal Health – Lecture Recap"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/40.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Exploring AI in Fetal Health – Lecture Recap"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/41.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Exploring AI in Fetal Health – Lecture Recap"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/30.jpg') }}"
                             data-lightbox="gallery-item" class="text-decoration-none"
                             title="Celebrating the Journey – PBB.Sc (N) II Year Farewell">
@@ -117,23 +147,18 @@
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/3.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
+                            data-lightbox="gallery-item" class="text-decoration-none" title="Caring for Little Lives – Pediatric Lab Activities">
                             <div class="position-relative">
                                 <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/nursing/3.jpg') }}"
                                     alt="">
                             </div>
                             <h5 class="text-center mt-2"></h5>
                         </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/4.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
-                            <div class="position-relative">
-                                <img class="img-fluid"
-                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/4.jpg') }}" alt="">
-                            </div>
-                            <h5 class="text-center mt-2"></h5>
-                        </a>
+                        <div class="d-none">
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/4.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Caring for Little Lives – Pediatric Lab Activities"></a>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/5.jpg') }}"
@@ -220,7 +245,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/13.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
+                            data-lightbox="gallery-item" class="text-decoration-none" title="Nursing College Alumni Meet – Cherished Connections">
                             <div class="position-relative">
                                 <img class="img-fluid"
                                     src="{{ asset('/assets/img/gallery/collegegallery/nursing/13.jpg') }}"
@@ -264,7 +289,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/17.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
+                            data-lightbox="gallery-item" class="text-decoration-none" title="Cheers to New Beginnings – Fresher’s Bash Highlights">
                             <div class="position-relative">
                                 <img class="img-fluid"
                                     src="{{ asset('/assets/img/gallery/collegegallery/nursing/17.jpg') }}"
@@ -272,28 +297,17 @@
                             </div>
                             <h5 class="text-center mt-2"></h5>
                         </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/18.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
-                            <div class="position-relative">
-                                <img class="img-fluid"
-                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/18.jpg') }}"
-                                    alt="">
-                            </div>
-                            <h5 class="text-center mt-2"></h5>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/19.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
-                            <div class="position-relative">
-                                <img class="img-fluid"
-                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/19.jpg') }}"
-                                    alt="">
-                            </div>
-                            <h5 class="text-center mt-2"></h5>
-                        </a>
+                        <div class="d-none">
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/18.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Cheers to New Beginnings – Fresher’s Bash Highlights"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/19.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Cheers to New Beginnings – Fresher’s Bash Highlights"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/23.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="Cheers to New Beginnings – Fresher’s Bash Highlights"></a>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/20.jpg') }}"
@@ -328,18 +342,6 @@
                             <h5 class="text-center mt-2"></h5>
                         </a>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/23.jpg') }}"
-                            data-lightbox="gallery-item" class="text-decoration-none" title="">
-                            <div class="position-relative">
-                                <img class="img-fluid"
-                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/23.jpg') }}"
-                                    alt="">
-                            </div>
-                            <h5 class="text-center mt-2"></h5>
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </div>
