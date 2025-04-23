@@ -464,6 +464,23 @@
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>23, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU College of Fine Arts presents a lecture on ‘The Journey of Indian Advertising: Tracing its Evolution & the Growing Influence of AI’ by Mr Nihar Ranjan Kanungo on 26 April 2025 at 11 AM. Join us for this insightful session!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Finearts</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                           26, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>19, April</span>
                                     </div>
                                     <div class="notice-content">
