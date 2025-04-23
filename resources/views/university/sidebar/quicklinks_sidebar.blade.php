@@ -14,6 +14,9 @@
             <a href="{{ route('disciplinary.rules') }}" class="custom-menu-item {{ setActive('disciplinary.rules') }}">
                 <p>Disciplinary Rules</p>
             </a>
+            <a href="{{ route('admissions.leaflet') }}" class="custom-menu-item {{ setActive('admissions.leaflet') }}">
+                <p>Admissions Leaflet</p>
+            </a>
             <a href="{{asset('/assets/pdf/TMU_Admission_Policy_&_Refund_Policy_2024.pdf')}}" target="_blank" class="custom-menu-item">
                 <p>Admission Refund Policy</p>
             </a>
