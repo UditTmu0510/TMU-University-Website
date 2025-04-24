@@ -145,17 +145,14 @@
                 whatsappWidget.setAttribute("target", "_blank");
 
             
-                whatsappWidget.addEventListener("click", function (e) {
-    e.preventDefault();
-    console.log("WhatsApp Clicked");
+                whatsappWidget.onclick = function () {
                
                     if (typeof gtag === 'function') {
-                        console.log("WhatsApp Clicked");
                         gtag('event', 'whatsapp_click', {
                             event_category: 'engagement',
                             event_label: 'WhatsApp Icon',
                         });
-
+                        
                     }
                     window.open(whatsappWidget.href, "_blank");
                     return false;
