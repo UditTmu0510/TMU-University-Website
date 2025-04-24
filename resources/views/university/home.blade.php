@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>24, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Nursing is organising a workshop on “Raising Capitals and Managing Finance for Startups” on 26th April 2025 as part of the IIC Activity. Empower your startup journey with innovation and insight!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Nursing </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            25, April</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>22, April</span>
                                     </div>
                                     <div class="notice-content">
