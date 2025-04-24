@@ -1,620 +1,392 @@
 @extends('layouts.university.colleges.physical_education_with_sidebar')
 @section('content')
+    <style>
+        .mtitle {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            /* Position the caption at the bottom of the lightbox */
+            transform: translateX(-50%);
+            width: auto;
+            /* Adjust width to avoid going too close to edges */
+            text-align: center;
+            line-height: 1.65;
+            color: var(--cnvs-mcaption-title-color);
+            word-wrap: break-word;
+            padding: 8px 10px;
+            /* Provide padding for readability */
+            background: rgba(39, 60, 68, 0.7);
+            /* Darker semi-transparent background for better contrast */
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            border-radius: 8px;
+            /* Slight border-radius for a subtle rounded effect */
+            box-sizing: border-box;
+            /* Ensures padding is inside width */
+        }
 
-<div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
-    <div class="container">
-        <h1 class="tmu-text-primary tmu-page-heading"><span>College</span><span> Gallery</span></h1>
-        <div class="row">
-            <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-3">
-                <div class="container">
-                    <div class="row justify-content-center gutter-10" data-lightbox="gallery">
+        @media (max-width: 576px) {
+            .mtitle {
+                font-size: 0.875rem;
+                padding: 6px 8px;
+                bottom: revert-layer;
+            }
+        }
+    </style>
+    <div class="main-content mt-3 mt-sm-0 pt-2 pt-sm-5">
+        <div class="container">
+            <h1 class="tmu-text-primary tmu-page-heading mb-2 mt-2"><span>College </span><span> Gallery</span></h1>
 
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/40.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/40.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row justify-content-center gutter-10" data-lightbox="gallery">
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/43.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/43.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/39.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/39.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/42.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/42.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/38.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/38.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/37.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/37.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/36.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/36.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/35.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/35.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/34.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/34.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/33.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/33.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/32.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/32.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/31.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/31.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/30.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/30.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/29.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/29.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/28.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/28.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
 
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/1.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/1.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/2.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/2.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/4.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/4.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/3.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/3.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/5.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/5.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/4.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/4.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/6.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/6.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/5.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/5.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/2.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/2.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/29.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/29.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/7.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/7.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/30.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/30.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/8.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/8.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/31.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/31.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/9.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/9.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/32.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/32.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/10.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/10.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/33.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/33.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/11.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/11.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/35.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/35.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/12.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/12.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/36.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/36.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/13.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/13.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/37.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/37.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/14.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/14.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/38.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/38.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/15.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/15.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/39.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/39.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/16.webp')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/16.webp')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/40.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/40.jpg') }}"
+                                alt="">
                         </div>
-                        
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/19.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/19.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/6.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/6.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/20.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/20.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/7.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/7.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/21.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/21.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/19.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/19.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/22.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/22.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/20.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/20.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/23.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/23.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/21.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/21.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/24.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/24.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/22.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/22.jpg') }}"
+                                alt="">
                         </div>
-                        <div class="col-md-3 col-sm-6  ">
-                            <div class="position-relative">
-                                <img class="d-block w-100" src="{{asset('/assets/img/gallery/collegegallery/physical_education/25.jpg')}}"
-                                    alt="Gallery Thumb 2">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark justify-content-end align-items-end"
-                                        data-hover-animate="fadeIn">
-                                        <a href="{{asset('/assets/img/gallery/collegegallery/physical_education/25.jpg')}}"
-                                            class="overlay-trigger-icon size-sm bg-light text-dark"
-                                            data-hover-animate="fadeInDownSmall"
-                                            data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="gallery-item"><i
-                                                class="uil uil-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/23.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/23.jpg') }}"
+                                alt="">
                         </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/24.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/24.jpg') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/25.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/25.jpg') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/33.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/33.jpg') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/34.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/34.jpg') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/21.jpg') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none"
+                        title="Strengthening the Foundation – Physical Education Grassroot Initiative">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/21.jpg') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                    <div class="d-none">
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/16.webp') }}"
+                            data-lightbox="gallery-item"
+                            title="Strengthening the Foundation – Physical Education Grassroot Initiative"></a>
                     </div>
-
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/13.webp') }}"
+                        data-lightbox="gallery-item" class="text-decoration-none" title="">
+                        <div class="position-relative">
+                            <img class="img-fluid"
+                                src="{{ asset('/assets/img/gallery/collegegallery/physical_education/13.webp') }}"
+                                alt="">
+                        </div>
+                        <h5 class="text-center mt-2"></h5>
+                    </a>
+                    <div class="d-none">
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/14.webp') }}"
+                            data-lightbox="gallery-item" title=""></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/physical_education/15.webp') }}"
+                            data-lightbox="gallery-item" title=""></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-
-<!-- Bootstrap JS and dependencies -->
+    </div>
 @endsection
