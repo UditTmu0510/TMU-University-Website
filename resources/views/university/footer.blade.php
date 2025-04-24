@@ -127,91 +127,90 @@
 </a> --}}
 <!-- WhatsApp Widget -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var currentUrl = window.location.pathname;
+document.addEventListener("DOMContentLoaded", function () {
+    var currentUrl = window.location.pathname;
 
-        // Disable widgets on /blog or /news pages
-        var disablePattern = /^\/(blog|news)(\/.*)?$/;
+    // Disable widgets on /blog or /news pages
+    var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
-        if (!disablePattern.test(currentUrl)) {
-            var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
+    if (!disablePattern.test(currentUrl)) {
+        var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
 
-          
-            if (isMobile) {
-             
-                var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
-                var whatsappWidget = document.createElement("a");
-                whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage + "&type=phone_number&app_absent=0";
-                whatsappWidget.setAttribute("target", "_blank");
+        if (isMobile) {
+            var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
+            var whatsappWidget = document.createElement("a");
+            whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage + "&type=phone_number&app_absent=0";
+            whatsappWidget.setAttribute("target", "_blank");
 
-            
-               whatsappWidget.addEventListener("click", function (e) {
-    e.preventDefault();
-    console.log("WhatsApp Clicked");
-               
+            // Add event listener only if not already added
+            if (!whatsappWidget.hasAttribute('data-listener-added')) {
+                whatsappWidget.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    console.log("WhatsApp Clicked");
+
                     if (typeof gtag === 'function') {
-                        console.log("WhatsApp Clicked");
                         gtag('event', 'whatsapp_click', {
                             event_category: 'engagement',
                             event_label: 'WhatsApp Icon',
                         });
-
                     }
                     window.open(whatsappWidget.href, "_blank");
                     return false;
                 });
 
-                whatsappWidget.innerHTML = `
-                    <div class="sticky-wtsap">
-                        <div class="widget-content786">
-                            <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(whatsappWidget);
-            }else {
-               
-                var userwayAnchor = document.createElement("a");
-                userwayAnchor.href = "javascript:void(0);";
-                userwayAnchor.onclick = loadUserWayScript;
-                userwayAnchor.id = "userway-widget786";
-                userwayAnchor.innerHTML = `
-                    <div class="sticky-widget786">
-                        <div class="widget-content786">
-                            <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(userwayAnchor);
+                // Mark the widget as having a listener attached
+                whatsappWidget.setAttribute('data-listener-added', 'true');
             }
 
-       
-            var niaWidget = document.createElement("a");
-            niaWidget.href = "javascript:void(0);";
-            niaWidget.onclick = loadNiaScript;
-            niaWidget.id = "nia-widget786";
-            niaWidget.innerHTML = `
-                <div class="sticky-nia-widget786">
-                    <div class="nia-widget-content786">
-                        <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="NIA Widget">
+            whatsappWidget.innerHTML = `
+                <div class="sticky-wtsap">
+                    <div class="widget-content786">
+                        <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
                     </div>
                 </div>
             `;
-            document.body.appendChild(niaWidget);
+            document.body.appendChild(whatsappWidget);
+        } else {
+            // Non-mobile behavior (UserWay widget or other actions)
+            var userwayAnchor = document.createElement("a");
+            userwayAnchor.href = "javascript:void(0);";
+            userwayAnchor.onclick = loadUserWayScript;
+            userwayAnchor.id = "userway-widget786";
+            userwayAnchor.innerHTML = `
+                <div class="sticky-widget786">
+                    <div class="widget-content786">
+                        <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(userwayAnchor);
         }
-    });
 
-    function loadUserWayScript() {
-        console.log("UserWay script loaded here");
-      
+        var niaWidget = document.createElement("a");
+        niaWidget.href = "javascript:void(0);";
+        niaWidget.onclick = loadNiaScript;
+        niaWidget.id = "nia-widget786";
+        niaWidget.innerHTML = `
+            <div class="sticky-nia-widget786">
+                <div class="nia-widget-content786">
+                    <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="NIA Widget">
+                </div>
+            </div>
+        `;
+        document.body.appendChild(niaWidget);
     }
+});
 
-    function loadNiaScript() {
-        console.log("NIA widget clicked! Load your script here.");
-        // Add actual NIA integration here
-    }
+function loadUserWayScript() {
+    console.log("UserWay script loaded here");
+}
+
+function loadNiaScript() {
+    console.log("NIA widget clicked! Load your script here.");
+}
+
+
 </script>
-
 
 
 <script>
