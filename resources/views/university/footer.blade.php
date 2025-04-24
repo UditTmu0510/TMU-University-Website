@@ -136,12 +136,27 @@
         if (!disablePattern.test(currentUrl)) {
             var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
 
+          
             if (isMobile) {
-                // ✅ WhatsApp widget
-                var whatsappWidget = document.createElement("a");
+             
                 var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
+                var whatsappWidget = document.createElement("a");
                 whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage + "&type=phone_number&app_absent=0";
                 whatsappWidget.setAttribute("target", "_blank");
+
+            
+                whatsappWidget.onclick = function () {
+               
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'whatsapp_click', {
+                            event_category: 'engagement',
+                            event_label: 'WhatsApp Icon',
+                        });
+                    }
+                    window.open(whatsappWidget.href, "_blank");
+                    return false;
+                };
+
                 whatsappWidget.innerHTML = `
                     <div class="sticky-wtsap">
                         <div class="widget-content786">
@@ -150,8 +165,8 @@
                     </div>
                 `;
                 document.body.appendChild(whatsappWidget);
-            } else {
-                // ✅ UserWay widget
+            }else {
+               
                 var userwayAnchor = document.createElement("a");
                 userwayAnchor.href = "javascript:void(0);";
                 userwayAnchor.onclick = loadUserWayScript;
@@ -166,7 +181,7 @@
                 document.body.appendChild(userwayAnchor);
             }
 
-            // ✅ NIA widget (common for both views)
+       
             var niaWidget = document.createElement("a");
             niaWidget.href = "javascript:void(0);";
             niaWidget.onclick = loadNiaScript;
@@ -184,7 +199,7 @@
 
     function loadUserWayScript() {
         console.log("UserWay script loaded here");
-        // Add actual UserWay script if needed
+      
     }
 
     function loadNiaScript() {
