@@ -139,7 +139,8 @@
             if (isMobile) {
                 // ✅ WhatsApp widget
                 var whatsappWidget = document.createElement("a");
-                whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text&type=phone_number&app_absent=0";
+                var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
+                whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage + "&type=phone_number&app_absent=0";
                 whatsappWidget.setAttribute("target", "_blank");
                 whatsappWidget.innerHTML = `
                     <div class="sticky-wtsap">
