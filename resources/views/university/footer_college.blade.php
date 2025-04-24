@@ -123,7 +123,7 @@
 </script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         const isMobile = window.innerWidth < 576;
 
         let widgetAnchor = document.createElement("a");
@@ -628,6 +628,8 @@
 </div>
 
 
+
+
 <style>
     #blurOverlay {
         position: fixed;
@@ -664,7 +666,26 @@
                     <i class="fas fa-download"></i> Download Brochure
                 </button>
             </div>
-            
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="enggCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered custom-height-modal">
+        <div class="modal-content border-0">
+            <div class="modal-body p-0">
+                <img src="https://icmce2025.tmu.ac.in/assets/images/banner/ICMCE-Banner.jpeg" alt="Engineering Poster" class="img-fluid w-100">
+            </div>
+            <div class="modal-footer justify-content-center gap-3 flex-wrap">
+                <a href="https://icmce2025.tmu.ac.in/" class="tmu-btn btn-2 read-more d-flex align-items-center gap-2">
+                    <i class="fas fa-user-edit"></i> Visit Website
+                </a>
+                <button class="tmu-btn btn-1 read-more d-flex align-items-center gap-2 downloadBrochureBtn"
+                    data-brochure="https://icmce2025.tmu.ac.in/assets/images/broucher/1.pdf">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -672,51 +693,62 @@
 
 
 
-
-
 <script>
+    function normalizeUrl(url) {
+    // This function removes trailing slashes and forces lowercase for comparison
+    return url.replace(/\/+$/, '').toLowerCase();
+}
     document.addEventListener("DOMContentLoaded", function() {
-        const currentUrl = window.location.href;
-        const expectedUrl = "{{ url('/college-of-law-and-legal-studies') }}";
-
-        const modalEl = document.getElementById('lawCollegePopup');
         const blurOverlay = document.getElementById('blurOverlay');
-        const downloadBtn = document.getElementById('downloadBrochureBtn');
-        const brochureUrl = "{{ asset('assets/pdf/law/law-brochure.pdf') }}";
 
-        if (currentUrl.startsWith(expectedUrl) && modalEl && blurOverlay) {
-            const myModal = new bootstrap.Modal(modalEl);
+        // Normalize URL: remove trailing slash
+        const normalizeUrl = (url) => url.replace(/\/+$/, '');
 
-            modalEl.addEventListener('shown.bs.modal', () => {
-                document.body.style.overflow = 'hidden';
-                blurOverlay.style.display = 'block';
-            });
+        const currentUrl = normalizeUrl(window.location.href);
 
-            modalEl.addEventListener('hidden.bs.modal', () => {
-                blurOverlay.style.display = 'none';
-                setTimeout(() => {
-                    document.body.style.overflow = 'auto';
-                }, 50);
-            });
+        const modalMap = {
+            "{{ url('/college-of-law-and-legal-studies') }}": {
+                id: 'lawCollegePopup'
+            },
+            "{{ url('/faculty-of-engineering') }}": {
+                id: 'enggCollegePopup'
+            }
+        };
 
-            myModal.show();
+        Object.keys(modalMap).forEach(expectedRaw => {
+            const expectedUrl = normalizeUrl(expectedRaw);
+            if (currentUrl === expectedUrl) {
+                const modalId = modalMap[expectedRaw].id;
+                const modalEl = document.getElementById(modalId);
+                const myModal = new bootstrap.Modal(modalEl);
 
-            downloadBtn.addEventListener('click', function() {
-                // Create a temporary link and trigger download
-                const link = document.createElement('a');
-                link.href = brochureUrl;
-                link.setAttribute('download', 'law-brochure.pdf');
-                link.setAttribute('target', '_blank');
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+                modalEl.addEventListener('shown.bs.modal', () => {
+                    document.body.style.overflow = 'hidden';
+                    blurOverlay.style.display = 'block';
+                });
 
-                // Close modal after a short delay
-                setTimeout(() => {
-                    myModal.hide();
-                }, 300); // Delay to allow browser to process download first
-            });
-        }
+                modalEl.addEventListener('hidden.bs.modal', () => {
+                    blurOverlay.style.display = 'none';
+                    setTimeout(() => document.body.style.overflow = 'auto', 50);
+                });
+
+                myModal.show();
+
+                modalEl.querySelectorAll('.downloadBrochureBtn').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const brochureUrl = this.dataset.brochure;
+                        const link = document.createElement('a');
+                        link.href = brochureUrl;
+                        link.setAttribute('download', '');
+                        link.setAttribute('target', '_blank');
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                        setTimeout(() => myModal.hide(), 300);
+                    });
+                });
+            }
+        });
     });
 </script>
 
