@@ -145,7 +145,9 @@
                 whatsappWidget.setAttribute("target", "_blank");
 
             
-                whatsappWidget.onclick = function () {
+                whatsappWidget.addEventListener("click", function (e) {
+    e.preventDefault();
+    console.log("WhatsApp Clicked");
                
                     if (typeof gtag === 'function') {
                         console.log("WhatsApp Clicked");
