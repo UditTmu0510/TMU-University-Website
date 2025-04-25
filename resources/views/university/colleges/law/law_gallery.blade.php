@@ -2,29 +2,22 @@
 @section('content')
 
 <style>
-    .mtitle {
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        /* Position the caption at the bottom of the lightbox */
-        transform: translateX(-50%);
-        width: auto;
-        /* Adjust width to avoid going too close to edges */
-        text-align: center;
-        line-height: 1.65;
-        color: var(--cnvs-mcaption-title-color);
-        word-wrap: break-word;
-        padding: 8px 10px;
-        /* Provide padding for readability */
-        background: rgba(39, 60, 68, 0.7);
-        /* Darker semi-transparent background for better contrast */
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        border-radius: 8px;
-        /* Slight border-radius for a subtle rounded effect */
-        box-sizing: border-box;
-        /* Ensures padding is inside width */
-    }
+    .mfp-title {
+    position: absolute;
+    left: 50%;
+    bottom: -70px!important ;
+    transform: translateX(-50%);
+    width: 80%!important ;
+    text-align: center;
+    line-height: 1.65;
+    color: var(--cnvs-mfp-caption-title-color);
+    word-wrap: break-word;
+    padding: var(--cnvs-mfp-title-padding);
+    background: rgba(39, 60, 68, .2);
+    -webkit-backdrop-filter: blur(3em);
+    backdrop-filter: blur(3em);
+    border-radius: var(--cnvs-mfp-title-border-radius)
+}
 
     @media (max-width: 576px) {
         .mtitle {
@@ -90,10 +83,10 @@
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{ asset('/assets/img/gallery/collegegallery/law/6.webp') }}" data-lightbox="gallery-item"
+                <a href="{{ asset('/assets/img/gallery/collegegallery/law/6.jpg') }}" data-lightbox="gallery-item"
                     class="text-decoration-none" title="">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/6.webp') }}"
+                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/6.jpg') }}"
                             alt="">
                     </div>
                     <h5 class="text-center mt-2"></h5>
@@ -209,6 +202,8 @@
                     <h5 class="text-center mt-2"></h5>
                 </a>
             </div>
+            
+
         </div>
     </div>
 </div>
