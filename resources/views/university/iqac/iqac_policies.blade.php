@@ -338,6 +338,20 @@
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/policy/sops/SOP_26_0.pdf')}}" target="_blank">View
             PDF</a>
         </div>
+        <div class="card-pdf">
+          <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
+          <p class="description"><b>SOP(27)</b> - Developing E-Content at Teerthanker Mahaveer University</p>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-1" href="{{asset('/assets/pdf/policy/sops/SOP_27.pdf')}}" target="_blank">View
+            PDF</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-1" href="{{asset('/assets/pdf/policy/sops/SOP_27_annexure_1.pdf')}}" target="_blank">View
+           Annexure - 1</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-1" href="{{asset('/assets/pdf/policy/sops/SOP_27_annexure_2.pdf')}}" target="_blank">View
+           Annexure - 2</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-1" href="{{asset('/assets/pdf/policy/sops/SOP_27_annexure_3.pdf')}}" target="_blank">View
+           Annexure - 3</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mb-1" href="{{asset('/assets/pdf/policy/sops/SOP_27_annexure_4.pdf')}}" target="_blank">View
+           Annexure - 4</a>
+        </div>
         
 
       </div>
