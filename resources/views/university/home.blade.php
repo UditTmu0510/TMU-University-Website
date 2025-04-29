@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>28, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Nursing is organising a workshop on “Innovative Health Care Transformation through AI-Driven Solutions” under the aegis of IIC on 3rd May 2025. Join us to explore the future of intelligent healthcare innovation!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Nursing </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            03, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>24, April</span>
                                     </div>
                                     <div class="notice-content">
