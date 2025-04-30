@@ -510,7 +510,7 @@ class TmuController extends Controller
 
     public function ctld_team()
     {
-        $employees = Employees::orderBy('designation_id', 'ASC')->where('department_id', 22)->where('status', 'Y')->get();
+        $employees = Employees::orderBy('priority', 'ASC')->where('department_id', 22)->where('status', 'Y')->get();
         return view('university.ctld.ctld_team', compact('employees'));
     }
 
