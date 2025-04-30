@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>29, April</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Nursing is organising a workshop on “Innovative Health Care Transformation through AI-Driven Solutions” under the aegis of IIC on 3rd May 2025. Join us to explore the future of intelligent healthcare innovation!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Nursing </span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            03, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>28, April</span>
                                     </div>
                                     <div class="notice-content">
@@ -952,67 +969,6 @@
                                             College of Nurisng</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 27
                                             To 28, February</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>08, January</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>TMU Hospital is organising an INS-guided Hands-on Workshop on Cannulation Therapy
-                                            in collaboration with Polymed, the College of Nursing, and the College of
-                                            Paramedical Sciences, aimed at providing practical exposure to advanced
-                                            technologies.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            TMU Hospital</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 10
-                                            To 11, January</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>06, January</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Join Mr. Earnest Lamuel, alumnus of the College of Nursing and Mental Health
-                                            Nurse at Swansea Bay University Health Board, UK, for an alumni session on
-                                            navigating the UK nursing registration process. Date: 7th January 2025, Time:
-                                            12:00 PM, Venue: College of Nursing, TMU. Gain valuable insights from his
-                                            inspiring journey!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Nursing</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 07,
-                                            January</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>06, January</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Faculty of Engineering at TMU is hosting a training session on "Enhancing
-                                            Research Efficiency: Advanced Exploration of IEEE Digital Library" on 6th
-                                            January 2025, from 12:00 PM to 1:00 PM at LT-2, FOE. Led by Mr Lakhpat Singh
-                                            Naruka, it aims to enhance research capabilities. Attendance is encouraged.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            Faculty of Engineering</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 04,
-                                            January</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
