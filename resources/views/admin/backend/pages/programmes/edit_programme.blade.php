@@ -682,6 +682,28 @@
                             </div>
 
 
+                            <div class="row mt-3">
+
+                                <div class="col-md-3">
+                                    <label for="display_on_home_page" class="form-label">Show on Home Page</label>
+                                    <select class="form-select" id="display_on_home_page"
+                                            name="display_on_home_page" required>
+                                        <option value="Y" {{ $programme->display_on_home_page == 'Y' ? 'selected' : '' }}>Enable</option>
+                                        <option value="N" {{ $programme->display_on_home_page == 'N' ? 'selected' : '' }}>Disable</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="col-md-3">
+                                    <label for="display_on_college_page" class="form-label">Show on College Page</label>
+                                    <select class="form-select" id="display_on_college_page"
+                                            name="display_on_college_page" required>
+                                        <option value="Y" {{ $programme->display_on_college_page == 'Y' ? 'selected' : '' }}>Enable</option>
+                                        <option value="N" {{ $programme->display_on_college_page == 'N' ? 'selected' : '' }}>Disable</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
 
                             <div class="text-center"><br />
                                 <input type="submit" class="btn btn-primary" value="Update Programme" />
