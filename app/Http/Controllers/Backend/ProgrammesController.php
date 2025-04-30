@@ -249,6 +249,8 @@ class ProgrammesController extends Controller
                 $syllabusFlag = $request->input('syllabus_flag');
                 // All the values received through the post method End
                 $status  = $request->input('status');
+                $displayOnHomePage    = $request->input('display_on_home_page');      // Y / N
+                $displayOnCollegePage = $request->input('display_on_college_page');   // Y / N
 
 
                 // Form Validation Conditions Start
@@ -282,6 +284,8 @@ class ProgrammesController extends Controller
                     'syllabus_flag' => 'required',
                     'apply_now_button_flag' => 'required',
                     'apply_now_button_color' => 'required',
+                    'display_on_home_page'    => 'required|in:Y,N',
+                    'display_on_college_page' => 'required|in:Y,N',
                     'status' => 'required'
                 ]);
                 date_default_timezone_set('Asia/Kolkata');
@@ -335,6 +339,8 @@ class ProgrammesController extends Controller
                     'syllabus_flag' => $syllabusFlag,
                     'status' => $status,
                     'apply_now_button_flag' => $apply_now_button_flag,
+                    'display_on_home_page'    => $displayOnHomePage,
+                    'display_on_college_page' => $displayOnCollegePage,
                     'apply_now_button_color' => $apply_now_button_color
                 ];
 
