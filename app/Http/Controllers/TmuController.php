@@ -119,6 +119,7 @@ class TmuController extends Controller
             $programs = Programmes::where('cd_id', $cd_id)
                 ->where('programme_level', $programme_level)
                 ->where('status', 'Y')
+                ->where('display_on_college_page', 'Y')
                 ->get();
 
             // Check if any records are found
