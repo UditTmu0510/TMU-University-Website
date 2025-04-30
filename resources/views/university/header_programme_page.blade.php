@@ -629,7 +629,7 @@
             </div>
 
 
-            <div id="nav-banner">
+            <div id="nav-banner" class="d-none">
               <!-- <img src="https://www.hindustantimes.com/ht-img/img/2023/08/08/550x309/Screenshot_2023-08-08_183058_1691499721701_1691499729400.png" class="w-100" alt=""> -->
               <img src="{{asset('assets/image/navbar-banner.webp')}}" alt="" class="w-100" loading="lazy">
               <div class="blue-overlay"></div>
