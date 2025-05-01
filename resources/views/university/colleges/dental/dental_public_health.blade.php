@@ -220,23 +220,19 @@
                                 <td>Generator</td>
                             </tr>
                             <tr>
-                                <td class="text-center" sdval="15">15</td>
-                                <td>Water Tank</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center" sdval="16">16</td>
+                                <td class="text-center" sdval="16">15</td>
                                 <td>Oxygen Cylinder</td>
                             </tr>
                             <tr>
-                                <td class="text-center" sdval="17">17</td>
+                                <td class="text-center" sdval="17">16</td>
                                 <td>Public Address System</td>
                             </tr>
                             <tr>
-                                <td class="text-center" sdval="18">18</td>
+                                <td class="text-center" sdval="18">17</td>
                                 <td>TV and Video Cassette player (pendrive)</td>
                             </tr>
                             <tr>
-                                <td class="text-center" sdval="19">19</td>
+                                <td class="text-center" sdval="19">18</td>
                                 <td>Demonstration models (minimum)</td>
                             </tr>
                             

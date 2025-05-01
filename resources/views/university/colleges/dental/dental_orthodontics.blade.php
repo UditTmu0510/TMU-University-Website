@@ -261,7 +261,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">6</td>
-                                <td>Methanol Solder</td>
+                                <td>Hydro solder</td>
                             </tr>
                             <tr>
                                 <td class="text-center">7</td>
@@ -312,7 +312,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">7</td>
-                                <td>Intra Oral Scanner</td>
+                                <td>Intra oral Scanner</td>
                             </tr>
                             <tr>
                                 <td class="text-center">8</td>
