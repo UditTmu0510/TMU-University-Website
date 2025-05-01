@@ -9,44 +9,79 @@
         <div class="experience" id="experience">
             <div class="container">
                 <header class="section-header text-center wow zoomIn">
-                    <h1 class="tmu-text-primary tmu-page-heading mb-3" style="text-transform:none!important;"><span> USPs of the</span><span> CTLD Training</span></h1>
+                    <h1 class="tmu-text-primary tmu-page-heading mb-3" style="text-transform:none!important;"><span> USPs of</span><span> CTLD Training</span></h1>
                 </header>
                 <div class="timeline ">
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
-                            <div class="timeline-date">Boosting Confidence</div>
-                            <p class="text-justify">This is most important trait of any successful person. Trainers of CTLD, boost the confidence of students by making them participate in activities like public speaking, group discussion, mock interviews, Team work, creativity and innovation, quantitative aptitude problem solving etc.</p>
+                            <div class="timeline-date">Holistic Approach</div>
+                            <p class="text-justify">A comprehensive method addressing academic, personal, and professional development,
+                                combining soft skills, aptitude skills, and emotional well-being.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Upgrading Skills in Staff & Students</div>
-                            <p class="text-justify">Trainers of CTLD plan and execute various programmes for faculty and staff development (FDPs & SDPs) on continuous basis to develop teaching & behavioural skills.</p>
+                            <div class="timeline-date">Outcome-Based Education</div>
+                            <p class="text-justify">Outcome-Based Education aligns learning objectives with measurable outcomes, ensuring students can
+                                apply concept spractically in real-world scenarios.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft">
                         <div class="timeline-text">
-                            <div class="timeline-date">Making Students Industry Ready</div>
+                            <div class="timeline-date">Integrating Information and Communication</div>
                             <p class="text-justify">
-                                There is a severe competition in all the industries and only highly developed employees can keep the company ahead of others. Hence, companies select those students who are excellent in domain skills as well as soft skills and aptitude. Most higher education institutes focus only on domain skills. However, at TMU we ensure all round development of our students. CTLD plays a major role in developing soft skills and quantitative aptitude during the entire programme through rigorous training.</p>
+                                Integrating Information and Communication Technology tools in education, using Learning Management
+                                Systems and virtual labs for teaching.</p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
-                            <div class="timeline-date">Better Placement </div>
-                            <p class="text-justify">CTLD has a strong team of 18 trainers, who have long experience of preparing students for placements into world-class companies. They are always aware of current skills requirements of the companies; hence, they prepare students in planned and systematic way. After creation of CTLD, the placements of TMU have improved phenomenally.</p>
+                            <div class="timeline-date">Faculty Development Programs </div>
+                            <p class="text-justify"> Faculty Development Programs enhance teaching capabilities, workshops on pedagogy, research
+                                methodologies, and ICT tools.</p>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft ">
                         <div class="timeline-text">
-                            <div class="timeline-date">Better Reviews for the Brand</div>
-                            <p class="text-justify">Brand reviews improve, when the customers are satisfied with the brand. At brand TMU, we ensure that our customers (students & their parents) are not only satisfied but are delighted with our services. CTLD has major role in brand building by training faculty & staff members and each students, thereby ensuring better brand reviews.</p>
+                            <div class="timeline-date">Centre of Counselling for Competitive Examination</div>
+                            <p class="text-justify">Specialized sessions to counsel and guide students for exams
+                                like GATE or CAT, e.g., quantitative aptitude and reasoning practice.
+                                </p>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight">
                         <div class="timeline-text">
-                            <div class="ps-md-4 timeline-date text-break">Qualitative Development in the Students & Staff</div>
-                            <p class="text-justify">The trainers of CTLD always ensure that the personality of each student is groomed to the level that makes them stand apart from the students of other Institutions. Our students have better manners and etiquette. We ensure that our students achieve aristocracy. CTLD also takes care of soft skills development of every staff members.</p>
+                            <div class="ps-md-4 timeline-date text-break">Super 30</div>
+                            <p class="text-justify">Focused guidance for talented students from under served backgrounds, intensive campus preparation.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft ">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Staff Development Programs</div>
+                            <p class="text-justify"> Staff Development Programs improve administrative and technical skills, e.g., training on office automation
+                                and team collaboration.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="ps-md-4 timeline-date text-break">Mentoring Sessions</div>
+                            <p class="text-justify"> Providing guidance for academic, personal, and career challenges,e.g., stress management
+                                and career planning workshops.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft ">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Faculty Pool</div>
+                            <p class="text-justify">A team of experienced educators and industry experts.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight">
+                        <div class="timeline-text">
+                            <div class="ps-md-4 timeline-date text-break">Company Specific Trainings</div>
+                            <p class="text-justify"> Tailored programs aligned with industry needs, specifically with training on skills and
+                                processes for top recruiters.</p>
                         </div>
                     </div>
                 </div>
