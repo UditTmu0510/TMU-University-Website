@@ -150,9 +150,9 @@
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#Tab1" type="button" role="tab" aria-controls="Tab1" aria-selected="true"><i class="fas fa-lightbulb"></i> Key Highlights</button>
                 </li>
-                <li class="nav-item" role="presentation">
+                {{-- <li class="nav-item" role="presentation">
                     <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#Tab2" type="button" role="tab" aria-controls="Tab2" aria-selected="false"><i class="fas fa-briefcase"></i> Placement/Internship</button>
-                </li>
+                </li> --}}
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#Tab3" type="button" role="tab" aria-controls="Tab3" aria-selected="false"><i class="fas fa-book"></i> Curriculum</button>
                 </li>
@@ -179,7 +179,7 @@
                         </li>
                     </ul>
                     <div class="read-more-content mt-1">
-                        <ul class="m-ol-list ps-4">
+                        <ul class="m-ol-list ps-4 mb-2">
                             <li>
                                 <p class="p-0 m-0">Paedodontics & Preventive Dentistry
                             </li>
@@ -196,7 +196,7 @@
                                 <p class="p-0 m-0">Oral Pathology & Microbiology
                             </li>
                         </ul>
-                        <p>Additionally, we have a basic sciences department for the overall exposure of the students.</p>
+                        <p class="mt-0 ">Additionally, we have a basic sciences department for the overall exposure of the students.</p>
                     </div>
                     <a href="javascript:void(0);" class="read-more ms-0 mt-1" title="Read More">Read More</a>
                 </div>
@@ -571,8 +571,6 @@
                 <p>Learning at TMU is an immersive experience, guided by highly qualified faculties who bring a wealth of knowledge and practical expertise. The faculty members are dedicated to providing students with hands-on training and real-world dental practice exposure.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Centre for Teaching, </span><span> Learning, and Development</span></h3>
                 <p>The Centre for Teaching, Learning, and Development at TMU is a hub for innovative educational practices. It focuses on enhancing teaching methodologies and ensuring that students receive the best possible learning experience and gain soft skills as well.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Career </span><span> Prospects</span></h3>
-                <p>TMU Dental College provides students with global career prospects. The institution has strong ties with international dental clinics and companies, facilitating global internships and placements.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus </span><span> Hostel Facilities</span></h3>
                 <p>Comfortable On-campus Hostel Facilities ensure that students have a conducive living environment. The hostels are equipped with modern amenities and provide a safe and supportive community for students.</p>
             </div>
@@ -607,17 +605,6 @@
             </div>
             <hr class="horizontal-line">
 
-            <button class="careers-accordion">Career Opportunities <span class="icon">+</span></button>
-            <div class="panel">
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Top-Notch Placement </span><span> Opportunities </span></h3>
-                <p>TMU Dental College offers top-notch placement opportunities, ensuring that graduates secure promising positions in leading dental clinics and companies</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>100% Placement Assistance with </span><span> an Outstanding Track Record </span></h3>
-                <p>The college has a stellar track record of 100% placement assistance. The dedicated placement cell works tirelessly to help students find suitable job opportunities.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Career </span><span> Prospects </span></h3>
-                <p>TMU&rsquo;s strong industry connections and global partnerships open doors to international career opportunities for its graduates.</p>
-            </div>
-            <hr class="horizontal-line">
-
             <button class="careers-accordion">Hands-On Practical Knowledge <span class="icon">+</span></button>
             <div class="panel">
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Expert Faculty for Hands-On </span><span> Practical Knowledge</span></h3>
@@ -633,8 +620,6 @@
             <div class="panel">
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Robust Industry Affiliations for </span><span> Invaluable Insights</span></h3>
                 <p>TMU&rsquo;s robust industry affiliations provide students with invaluable insights into the dental industry. These connections enhance the learning experience and prepare students for their professional careers.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Exposure with </span><span> International Dental Internships</span></h3>
-                <p>The college offers global exposure through international dental internships, giving students the chance to gain international experience and broaden their professional horizons.</p>
             </div>
             <hr class="horizontal-line">
 
@@ -644,8 +629,7 @@
                 <p>TMU boasts well-equipped dental clinics and laboratories, providing students with the necessary tools and technology for comprehensive dental training.</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Dental Technology and </span><span> Instruments for Practical Training</span></h3>
                 <p>The college uses advanced dental technology and instruments, ensuring that students receive the best possible practical training.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Orthodontics Workshop </span><span> and Seminar</span></h3>
-                <p>Regular orthodontic workshops and seminars are held to keep students abreast of the latest techniques and developments in the field.</p>
+                
             </div>
 
             <hr class="horizontal-line">
@@ -675,17 +659,6 @@
                 <p>TMU emphasizes precision dentistry and sustainable dental practices, preparing students for the future of dental care</p>
                 <h3 class="tmu-text-primary fs-16 mb-0"><span>Advanced Dental </span><span> Research Laboratories</span></h3>
                 <p>Advanced dental research laboratories at TMU provide students with the opportunity to engage in cutting-edge research and innovation.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Orthodontics Workshop and </span><span> Implantology Seminar</span></h3>
-                <p>Specialized workshops and seminars on orthodontics and implantology are conducted to enhance students' knowledge and skills in these areas</p>
-            </div>
-            <!-- Add the horizontal line here -->
-            <hr class="horizontal-line">
-            <button class="careers-accordion">Global Exposure and Placements<span class="icon">+</span></button>
-            <div class="panel">
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>Global Exposure with International Dental Placement and </span><span> Internship Opportunities</span></h3>
-                <p>TMU offers global exposure through international dental placements and internships, ensuring that students are well-prepared for international dental careers.</p>
-                <h3 class="tmu-text-primary fs-16 mb-0"><span>On-Campus Dental </span><span> Accommodation Facilities</span></h3>
-                <p>The college provides on-campus accommodation facilities, ensuring students have a comfortable living environment while pursuing their studies.</p>
             </div>
             <!-- Add the horizontal line here -->
             <hr class="horizontal-line">
