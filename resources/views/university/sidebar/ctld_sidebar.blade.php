@@ -16,7 +16,7 @@
                 <p>Aims & Objectives</p>
             </a>
             <a href="{{ route('ctld.benefits') }}" class="custom-menu-item {{ setActive('ctld.benefits') }}">
-                <p>Benefits of CTLD </p>
+                <p>USPs </p>
             </a>
             <a href="{{ route('ctld.director.desk') }}" class="custom-menu-item {{ setActive('ctld.director.desk') }}">
                 <p>Director's Desk</p>
