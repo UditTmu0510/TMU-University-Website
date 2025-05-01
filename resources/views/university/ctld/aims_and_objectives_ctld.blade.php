@@ -38,7 +38,7 @@
         <h1 class="tmu-text-primary tmu-page-heading mb-5 mt-md-5"><span>Aims & Objectives of</span><span> CTLD</span></h1>
         <h3 class="mb-2 fw-bold"> What does the Centre for Teaching, Learning & Development do? </h3>
         <p class="mb-4 text-justify">The Centre for Teaching, Learning & Development (CTLD) is dedicated to fostering holistic development in students, equipping them with essential skills that go beyond academic knowledge. It aims to bridge the gap between classroom learning and the professional skills required in the corporate world. Through a structured approach, CTLD focuses on enhancing students' soft skills and quantitative aptitude, empowering them for both professional success and personal growth.</p>
-        <h3 class="mb-3 tmu-text-primary"><span>What is the importance of Soft skills </span><span> & Quantitative aptitude?</span></h3>
+        <h3 class="mb-2 fw-bold">What is the importance of Soft skills & Quantitative aptitude?</h3>
         <h3 class="mb-2 fs-16 tmu-text-primary"><span>Soft </span><span>Skills:</span></h3>
         <p class="mb-2 text-justify">In today’s global job market, technical knowledge alone is insufficient; employers seek individuals who possess strong soft skills, which play a critical role in workplace dynamics. CTLD’s soft skills training programme is designed to help students navigate the complexities of professional environments with ease. Key aspects of the programme include:</p>
         <ul class="m-ol-list ps-4 text-justify mb-4">
