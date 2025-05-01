@@ -208,9 +208,9 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                        <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
+                        <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
                                 target="_blank"><img
-                                    src="{{asset('/assets/img/magazines/ctld/1.jpg')}}"
+                                    src="{{asset('/assets/img/magazines/ctld/3.jpg')}}"
                                     alt="Book Cover Image"></a>
                         </div>
                     </div>
@@ -242,9 +242,9 @@
                 <div class="book">
                     <div class="front">
                         <div class="cover">
-                            <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
+                            <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
                                     target="_blank"><img
-                                        src="{{asset('/assets/img/magazines/ctld/3.jpg')}}"
+                                        src="{{asset('/assets/img/magazines/ctld/1.jpg')}}"
                                         alt="Book Cover Image"></a>
                         </div>
                     </div>
@@ -273,8 +273,8 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
-                                            target="_blank"><img src="{{asset('/assets/img/magazines/ctld/1.jpg')}}" /></a>
+                                        <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
+                                            target="_blank"><img src="{{asset('/assets/img/magazines/ctld/3.jpg')}}" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -303,8 +303,8 @@
                                 <div class="book-cover">
                                     <div class="book-inside"></div>
                                     <div class="book-image">
-                                        <a href="{{asset('assets/pdf/ctld_magazine/Jigyasa_3.O.pdf')}}"
-                                            target="_blank"><img src="{{asset('/assets/img/magazines/ctld/3.jpg')}}" /></a>
+                                        <a href="{{asset('assets/pdf/ctld_magazine/jigyasa_magazine_final.pdf')}}"
+                                            target="_blank"><img src="{{asset('/assets/img/magazines/ctld/1.jpg')}}" /></a>
 
                                     </div>
                                 </div>
