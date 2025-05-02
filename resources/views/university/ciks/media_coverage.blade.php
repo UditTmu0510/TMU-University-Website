@@ -39,6 +39,21 @@
             <!-- Media Coverage Cards -->
             <div class="col-md-6 col-lg-4">
                 <div class="mc-card p-3">
+                    <img src="{{asset('/assets/img/ciks/media_coverage/quiz_news.jpg')}}"
+                         class="mc-card-img-top lightbox-trigger"
+                         alt="News Image"
+                         data-full="{{asset('/assets/img/ciks/media_coverage/org/quiz_news.jfif')}}"
+                         data-bs-toggle="modal"
+                         data-bs-target="#imageModal">
+                    <div class="mc-card-body">
+                        <p class="mc-card-title">Grand Quiz Competition on Mahabharata Held at TMU Campus</p>
+                        <p class="mc-card-text"><small class="text-muted">29, Apr 2025 | Moradabad</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="mc-card p-3">
                     <img src="{{asset('/assets/img/ciks/media_coverage/21-feb-1NC.jpg')}}"
                          class="mc-card-img-top lightbox-trigger"
                          alt="News Image"
