@@ -44,6 +44,7 @@
             margin-top: 10px;
             align-self: flex-start;
         }
+
         .blog-title {
             font-weight: bold;
             font-size: 1rem;
@@ -58,109 +59,109 @@
 
 
     <!-- <style>
-        .container-56789 {
-            padding: 18px;
-        }
+            .container-56789 {
+                padding: 18px;
+            }
 
-        .blog-card {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            max-width: 100%;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 250ms;
-        }
+            .blog-card {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                max-width: 100%;
+                background-color: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 250ms;
+            }
 
-        .blog-card:hover {
-            transform: translateY(-5px);
-        }
+            .blog-card:hover {
+                transform: translateY(-5px);
+            }
 
-        .image-container889,
-        .blog-card img {
-            width: 100%;
-            height: 70%;
-            /* Ensures 70% height for the image container */
-            object-fit: cover;
-            /* Ensures the image fills the space without distortion */
-        }
+            .image-container889,
+            .blog-card img {
+                width: 100%;
+                height: 70%;
+                /* Ensures 70% height for the image container */
+                object-fit: cover;
+                /* Ensures the image fills the space without distortion */
+            }
 
-        .blog-content {
-            padding: 10px;
-            height: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+            .blog-content {
+                padding: 10px;
+                height: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
 
-        
+            
 
-        /* Background blur for post_path */
-        .image-container889 {
-            height: 100%;
-            /* Set this to match the height of the img elements */
-            width: auto;
-            object-fit: cover;
-            overflow: hidden;
-            position: relative;
-        }
+            /* Background blur for post_path */
+            .image-container889 {
+                height: 100%;
+                /* Set this to match the height of the img elements */
+                width: auto;
+                object-fit: cover;
+                overflow: hidden;
+                position: relative;
+            }
 
-        .image-container889::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            filter: blur(80px);
-            z-index: 1;
-            opacity: 0.7;
-        }
+            .image-container889::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                filter: blur(80px);
+                z-index: 1;
+                opacity: 0.7;
+            }
 
-        .image-container889 img {
-            position: relative;
-            z-index: 2;
-            max-width: 100%;
-            height: auto;
-        }
+            .image-container889 img {
+                position: relative;
+                z-index: 2;
+                max-width: 100%;
+                height: auto;
+            }
 
-        .blog-card img,
-        .image-container889 {
-            aspect-ratio: 1.36;
-            width: 100%;
-            object-fit: contain;
-        }
+            .blog-card img,
+            .image-container889 {
+                aspect-ratio: 1.36;
+                width: 100%;
+                object-fit: contain;
+            }
 
-        .image-container889 {
-            background-size: cover;
-            /* Background will cover the container */
-            background-position: center;
-            /* Center the background image */
-            background-repeat: no-repeat;
-            /* Prevent repetition */
-            height: 70%;
-            /* Match the height to 70% like the img */
-            overflow: hidden;
-            position: relative;
-        }
+            .image-container889 {
+                background-size: cover;
+                /* Background will cover the container */
+                background-position: center;
+                /* Center the background image */
+                background-repeat: no-repeat;
+                /* Prevent repetition */
+                height: 70%;
+                /* Match the height to 70% like the img */
+                overflow: hidden;
+                position: relative;
+            }
 
-        .blurred-background {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background-size: cover;
-            background-position: center;
-            filter: blur(2px);
-            opacity: 0.6;
-            z-index: 1;
-        }
-    </style> -->
+            .blurred-background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-size: cover;
+                background-position: center;
+                filter: blur(2px);
+                opacity: 0.6;
+                z-index: 1;
+            }
+        </style> -->
 
 
 
@@ -176,27 +177,52 @@
             @php
                 $events = [
                     [
+                        'id' => 'modalMQC',
+                        'img' => 'assets/img/ciks/MQC.jpg',
+                        'title' => 'Quiz on Mahabharat',
+                        'summary' =>
+                            'A quiz programme on the ancient Indian epic, Mahabharat, was held on 29th of April, 2025 at TMIMT Auditorium....',
+                        'details' => '<p class="text-justify">A quiz programme on the ancient Indian epic, Mahabharat, was held on 29th of April, 2025 at TMIMT Auditorium. The quiz was open to all students and scholars of TMIMT and provided a unique opportunity to test their knowledge about this timeless classic.</p>
+                        <p class="text-justify mt-2">The quiz programme was conducted by Dr. Alka Agarwal, Coordinator, CIKS, TMU. Team C out of 4 teams A,B,C and D were declared winner. Kavya Mittal, Shraddha Rastogi and Astha Gupta of team ‘C’ were given winner’s trophy while all other participants were awarded a certificate by Centre for Indian Knowledge System.</p>
+        <p class="mt-1 text-justify"><strong>Key Points:</strong> Quiz was made interesting by executing visual round, rapid fire round and transferrable questions. Audience was also involved through audience question rounds.</p>
+       <p class="mt-2 text-justify fw-bold">Watch the Complete Highlights - <a href="https://drive.google.com/file/d/1bIs0ze7Mw81Tv-7GtlSciOB1zafrm06W/view?usp=sharing" target=\"_blank\">Click Here!</a></p>',
+                        'reverse' => false,
+                    ],
+                    [
+                        'id' => 'modalNC3',
+                        'img' => 'assets/img/ciks/NC_3.jpg',
+                        'title' => 'Managing Self and Organizations through Indian Knowledge System',
+                        'summary' =>
+                            'A discussion session on ‘Managing Self and Organizations through Indian Knowledge System’ was held on....',
+                        'details' => '<p class="text-justify mb-2">A discussion session on ‘Managing Self and Organizations through Indian Knowledge System’ was held on 28th of April, 2025. The session aimed to develop a framework for applying IKS principles in managing self and organizations. The discussion was presided over by Honorable Vice Chancellor, Prof. V.K. Jain.</p>
+                        <p class="text-justify"> Following educationists across the nation shared their valuable thoughts through the online event.</p>
+                        <ul class="m-ol-list ps-5 text-justify mb-0"><li>Prof. V.K. Jain, Vice Chancellor, TMU</li><li>Dr. Pawan Kumar Singh, Director of Indian Institute of Management Tiruchirappalli</li><li>Dr. Rajeev Agarwal, Industrialist and Life Coach, M.P.</li><li>Dr. Sachin Vernekar, Professor Emeritus (Advisory) - Dr D Y Patil Vidyapeeth, Pimpri, Pune</li><li>Dr. Rajen Gupta, Former Professor IIM Lucknow, MDI Gurugram and Research Advisor at IIM Sirmaur</li><li>Dr. Varadraj Bapat, Professor, SJM School of Management, IIT Bombay</li><li>Mr. Ajay Agarwal, A Corporate Trainer and HR Consultant, Kolkata</li></ul>
+                        <p class="mt-2 text-justify"><strong>Key Points:</strong> The discussion was based on self- management, because managing self is the most difficult yet most result oriented task. Not only the organizations but the whole nation may be progressive if the citizens learn good values and manage themselves properly.</p>
+                        <p class="mt-2 text-justify fw-bold">Watch the Complete Highlights - <a href="https://drive.google.com/file/d/1Vgs01uNvYu3SJS8oF0bPpoiHJ5zP0iV0/view" target=\"_blank\">Click Here!</a></p>',
+                        'reverse' => true,
+                    ],
+                    [
                         'id' => 'modalNC2',
                         'img' => 'assets/img/ciks/NC_2.jpg',
-                        'title' =>
-                            'Revisiting Human Values and Professional Ethics from indian Knowledge System',
+                        'title' => 'Revisiting Human Values and Professional Ethics from indian Knowledge System',
                         'summary' =>
                             'A discussion session on ‘Revisiting Human Values and Professional Ethics from Indian Knowledge System’ was held on 24th of February, 2025 to decide the main objectives and expected outcomes of the event....',
                         'details' => '<p class="text-justify">A discussion session on ‘Revisiting Human Values and Professional Ethics from Indian Knowledge System’ was held on 24th of February, 2025 to decide the main objectives and expected outcomes of the event. The discussion was presided over by Honorable Vice Chancellor, Prof. V.K. Jain. Following educationists across the nation shared their valuable thoughts through the online event.</p>
         <ul class="m-ol-list ps-5 text-justify mb-0"><li>Prof. V.K. Jain, Vice Chancellor, TMU</li><li>Dr. P.N. Mishra, Founder Director, Center for E-Business and Founder Director, Center of Excellence in E-Management.</li><li>Dr. Renu Jain, Former Vice Chancellor, Devi Ahilya Vishvavidyalaya, Indore</li><li>Dr. Nanditesh Nilay, an author, speaker, columnist</li><li>Dr. H.D. Charan, Chairman National Committee on Human Values & Ethics, Chairman BOG, SOPI</li><li>Dr. Anekant Jain, Professor Jain Philosophy SLBSNSU, New Delhi</li><li>Dr. V.K. Singh, Dean Faculty of Management Studies, Gurukul Kangri, Haridwar</li><li>Prof. Anupam Jain, Professor Chair, CIKS, TMU</li></ul>
-        <p class="mt-1 text-justify"><strong>Key Points:</strong> Experts stressed youth value education for nation-building, urging productive use of time and resources.</p>',
+        <p class="mt-1 text-justify"><strong>Key Points:</strong> Experts stressed youth value education for nation-building, urging productive use of time and resources.</p>
+        <p class="mt-2 text-justify fw-bold">Watch the Complete Highlights - <a href="https://drive.google.com/drive/u/3/folders/1h5fTNDnOz_gEt8ExxnI9OR89zPrd1ly0" target=\"_blank\">Click Here!</a></p>',
                         'reverse' => false,
                     ],
                     [
                         'id' => 'modalNC1',
                         'img' => 'assets/img/ciks/NC_1.jpg',
-                        'title' =>
-                            '"Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum',
+                        'title' => 'Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum',
                         'summary' =>
                             'Ist National Conclave was organized by CIKS on ‘Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum’ on 21st February, 2025. The conclave was presided by Honorable Vice...',
                         'details' => '<p class="text-justify">Ist National Conclave was organized by CIKS on ‘Enhancing Indian Knowledge System Effectiveness in HEIs through Curriculum’ on 21st February, 2025. The conclave was presided by Honorable Vice Chancellor, Prof. V.K. Jain. Following experts across the nation shared their insights on the theme.</p>
         <ul class="m-ol-list ps-5 text-justify mb-0"><li>Prof. K.K. Aggarwal, President, SAU, New Delhi</li><li>Prof. Sandeep Sancheti, Former Chairperson, AIU</li><li>Prof. R.K. Mittal, Founder Vice Chancellor, TMU, UGC Member & Professor GGIPU</li><li>Prof. R.L. Raina, Vice Chancellor, Jaipur National University</li><li>Prof. Ajay Kumar Jain, Director, MDI, Murshidabad</li><li>Prof. Anupam Jain, Professor Chair, CIKS, TMU</li><li>Experts emphasized on all-inclusive education and community engagement for proper expansion of Indian Knowledge system.</li></ul>
-        <p class="mt-1 text-justify"><strong>Key Points:</strong> Experts called for inclusive education and community engagement to strengthen the Indian Knowledge System in HEIs.</p>',
+        <p class="mt-1 text-justify"><strong>Key Points:</strong> Experts called for inclusive education and community engagement to strengthen the Indian Knowledge System in HEIs.</p>
+        <p class="mt-2 text-justify fw-bold">Watch the Complete Highlights - <a href="https://drive.google.com/drive/folders/1U4XZyB1Gi1E4vJ4UAAvRZp5Ks-QBhShB?usp=sharing" target=\"_blank\">Click Here!</a></p>',
                         'reverse' => true,
                     ],
                     [

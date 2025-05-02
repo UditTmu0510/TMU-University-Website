@@ -14,6 +14,76 @@
                         <!-- Academic Blocks -->
 
                         <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/32.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Quiz on Mahabharat</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/34.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Quiz on Mahabharat</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/33.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Quiz on Mahabharat</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/35.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">Quiz on Mahabharat</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/31.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/30.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/29.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/28.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/27.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
+                            <img src="{{ asset('assets/img/ciks/gallery/26.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">3rd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="sports">
                             <img src="{{ asset('assets/img/ciks/gallery/19.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Manthan</h3>
@@ -31,22 +101,6 @@
                             <img src="{{ asset('assets/img/ciks/gallery/21.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
                             <h3 class="gallery-item-title">Manthan</h3>
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/17.jpg') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">1st National Conclave</h3>
-                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
-                            </div>
-                        </div>
-
-                        <div class="gallery-item" data-category="campus">
-                            <img src="{{ asset('assets/img/ciks/gallery/18.jpg') }}" alt="Centre for Indian Knowledge System">
-                            <div class="gallery-item-info">
-                            <h3 class="gallery-item-title">1st National Conclave</h3>
                                 <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
@@ -76,6 +130,22 @@
                             <img src="{{ asset('assets/img/ciks/gallery/25.jpg') }}" alt="Centre for Indian Knowledge System">
                             <div class="gallery-item-info">
                             <h3 class="gallery-item-title">2nd National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/17.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">1st National Conclave</h3>
+                                <p class="gallery-item-category">Centre for Indian Knowledge System</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-item" data-category="campus">
+                            <img src="{{ asset('assets/img/ciks/gallery/18.jpg') }}" alt="Centre for Indian Knowledge System">
+                            <div class="gallery-item-info">
+                            <h3 class="gallery-item-title">1st National Conclave</h3>
                                 <p class="gallery-item-category">Centre for Indian Knowledge System</p>
                             </div>
                         </div>
