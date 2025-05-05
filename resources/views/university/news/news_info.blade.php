@@ -466,17 +466,19 @@
                                 </h2>
                         
                                 <div class="col-12 col-lg-6 d-flex justify-content-center">
-                                <div style="width: 100%; max-width: 100%; display: flex; justify-content: center;">
-    <iframe 
-        style="width: 100%; max-width: 320px; aspect-ratio: 16 / 9;" 
-        src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
+<div class="d-flex justify-content-center w-100">
+    <div class="ratio ratio-16x9" style="max-width: 280px; width: 100%;">
+        <iframe 
+            src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
 </div>
+
                                 </div>
                         
                                 <div class="col-12 col-lg-6 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
@@ -507,6 +509,8 @@
                                 max-width: 600px;
                             }
                         }
+
+
                         </style>';
                             @endphp
                         @endif
