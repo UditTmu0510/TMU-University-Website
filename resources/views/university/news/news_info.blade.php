@@ -494,8 +494,8 @@
                         
                                 <div class="col-12 col-lg-6 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
                                     <div class="form-inner text-center">
-                                        <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem; margin: 30px 0px 20px; text-color:white;">
-                                            <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank">Apply for Admission</a></span>
+                                        <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem; margin: 30px 0px 20px;">
+                                            <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" style="color:white;">Apply for Admission</a></span>
                                         </h3>
                                         <p class="text-center fs-16 fw-bold mt-3 mb-2 d-block d-md-none">
                                             <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link">Click Here </a> To Apply for Admission</span>
