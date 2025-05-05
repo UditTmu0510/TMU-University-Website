@@ -465,10 +465,10 @@
                                     <span></span><span>Teerthanker Mahaveer University </span>
                                 </h2>
                         
-                                <div class="col-12 col-lg-5 d-flex justify-content-center">
+                                <div class="col-12 col-lg-6 d-flex justify-content-center">
                                 <div style="width: 100%; max-width: 100%; display: flex; justify-content: center;">
     <iframe 
-        style="width: 100%; max-width: 280px; aspect-ratio: 16 / 9;" 
+        style="width: 100%; max-width: 320px; aspect-ratio: 16 / 9;" 
         src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
         title="YouTube video player" 
         frameborder="0" 
@@ -479,7 +479,7 @@
 </div>
                                 </div>
                         
-                                <div class="col-12 col-lg-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+                                <div class="col-12 col-lg-6 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
                                     <div class="form-inner text-center">
                                         <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
                                             <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank">Apply for Admission</a></span>
