@@ -518,15 +518,15 @@ class NewsController extends Controller
        }
    
        // Sorting + Pagination
-       $news_post = $query
-           ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
-           ->orderBy('id', 'DESC')
-           ->paginate(10);
-
-      // $news_post = $query
-      //      ->orderBy('event_date', 'DESC')
+      //  $news_post = $query
+      //      ->orderBy(DB::raw("STR_TO_DATE(CONCAT(event_day, '-', event_month, '-', event_year), '%d-%m-%Y')"), 'DESC')
       //      ->orderBy('id', 'DESC')
       //      ->paginate(10);
+
+      $news_post = $query
+           ->orderByRaw('STR_TO_DATE(event_date,%Y-%m-%d) DESC')
+           ->orderBy('id', 'DESC')
+           ->paginate(10);
    
        $news_categories = NewsCategory::latest()->get();
        $colleges = Colleges::latest()->get();
