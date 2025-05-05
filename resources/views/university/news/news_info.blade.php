@@ -261,6 +261,9 @@
         }
     </style>
 
+
+.
+
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
 
 
@@ -339,6 +342,13 @@
             border-radius: 15px;
             z-index: 0;
             opacity: 0.3;
+        }
+
+        @media screen and (min-width:992px)
+        {
+            .bg-section{
+                background: url({{ asset('assets/img/news/form-back.png') }}) no-repeat center center;
+            }
         }
 
         /* Responsive adjustments */
