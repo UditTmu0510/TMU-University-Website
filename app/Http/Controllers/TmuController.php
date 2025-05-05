@@ -1417,6 +1417,10 @@ class TmuController extends Controller
     {
         return view('university.alumni.alumni_contact_us');
     }
+    public function alumni_achievements()
+    {
+        return view('university.alumni.alumni_achievements');
+    }
 
 
     // Teaching Facilities 

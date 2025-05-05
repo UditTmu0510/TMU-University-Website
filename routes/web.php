@@ -1123,6 +1123,7 @@ Route::get('/alumni/alumni-donation', [TmuController::class, 'alumni_donation'])
 Route::get('/alumni/gallery', [TmuController::class, 'alumni_gallery'])->name('alumni.gallery');
 Route::get('/alumni/faq', [TmuController::class, 'alumni_faq'])->name('alumni.faq');
 Route::get('/alumni/contact-us', [TmuController::class, 'alumni_contactus'])->name('alumni.contactus');
+Route::get('/alumni/alumni-achievements', [TmuController::class, 'alumni_achievements'])->name('alumni.achievements');
 
 
 Route::get('/generate-sitemap', [SitemapController::class, 'generateSitemap']);
