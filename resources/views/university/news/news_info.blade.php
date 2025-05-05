@@ -467,8 +467,9 @@
                         
                                 <div class="col-12 col-lg-6 d-flex justify-content-center">
 <div class="d-flex justify-content-center w-100">
-    <div class="ratio ratio-16x9" style="max-width: 280px; width: 100%;">
+    <div style="width: 100%; max-width: 360px; aspect-ratio: 16 / 9;">
         <iframe 
+            style="width: 100%; height: 100%;" 
             src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
             title="YouTube video player" 
             frameborder="0" 
@@ -496,6 +497,13 @@
                         </div>
                         
                         <style>
+
+                            @media (max-width: 768px) {
+    iframe {
+        max-width: 100% !important;
+    }
+}
+
                         @media (max-width: 991.98px) {
                             .bg-section {
                                 background: none !important;
