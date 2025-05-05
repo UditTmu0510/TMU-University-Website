@@ -479,7 +479,7 @@
 <div class="d-flex justify-content-center w-100">
     <div style="width: 100%; max-width: 650px; aspect-ratio: 16 / 9;">
         <iframe 
-            style="width: 100%; height: 100%;" 
+            style="width: 100%; height: 100%; border:10px solid white;" 
             src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
             title="YouTube video player" 
             frameborder="0" 
