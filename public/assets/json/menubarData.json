@@ -113,14 +113,8 @@
                 }
             },
             "Computer Sciences & IT": {
-                "BCA Bachelor Of Computer Applications": {
-                    "link": "\/programme\/bachelor-of-computer-application-programme"
-                },
                 "BTech (Computer Science & Engineering)": {
                     "link": "\/programme\/b-tech-in-computer-science-and-engineering"
-                },
-                "BTech. (Computer Science & Engineering) with specialisation in Data Science (In collaboration with TCS- iON)": {
-                    "link": "\/programme\/btech-computer-science-engineering-with-specialisation-in-data-science"
                 },
                 "BTech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
                     "link": "\/programme\/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning"
@@ -128,13 +122,13 @@
                 "BTech CSE with specialisation in Application Development using Cloud and Analytical Platform (In collaboration with IBM)": {
                     "link": "\/programme\/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
                 },
-                "BSc-(H) Computer Science with Research": {
+                "BSc Computer Science (Hons / Hons with Research)": {
                     "link": "\/programme\/bsc-hons-computer-science-with-research"
                 },
-                "BCA (H) with Research": {
+                "BCA (Hons / Hons with Research)": {
                     "link": "\/programme\/bca-hons-with-research"
                 },
-                "BSc (Animation) ": {
+                "BSc (Animation) (Hons / Hons with Research)": {
                     "link": "\/programme\/bsc-animation"
                 }
             },
@@ -185,24 +179,21 @@
                 }
             },
             "Fine Arts": {
-                "BFA (Bachelor of Fine Arts)": {
+                "BFA (Hons / Hons with Research)": {
                     "link": "\/programme\/bachelor-of-fine-arts-programme"
                 }
             },
             "Management": {
-                "BCom (Hons) ": {
+                "BCom (Honours / Honours with Research) ": {
                     "link": "\/programme\/bachelor-of-commerce-b-com-honours-programme"
                 },
                 "B.Com. Fintech & Blockchain Technologies with Whizhack Technologies": {
                     "link": "\/programme\/bcom-in-fintech"
                 },
-                "BCom (Pass)": {
-                    "link": "\/programme\/bcom-pass"
-                },
-                "BBA in Data Analytics ": {
+                "BBA (Honours / Honours with Research) in IB & Data Analytics": {
                     "link": "\/programme\/bba-in-data-analytics"
                 },
-                "BBA (Bachelor of Business Administration)": {
+                "BBA (Hons) (Honours / Honours with Research)": {
                     "link": "\/programme\/bachelor-of-business-administration-bba"
                 }
             },
@@ -221,7 +212,7 @@
                 }
             },
             "Physical Education": {
-                "BPES (Bachelor of Physical Education & Sports)": {
+                "BPES (Honours / Honours with Research)": {
                     "link": "\/programme\/bpes-programme"
                 },
                 "BPED (Bachelor of Physical Education)": {
@@ -360,7 +351,6 @@
                 }
             },
             "Computing Sciences & IT": {
-               
                 "Master of Computer Applications (MCA) ": {
                     "link": "\/programme\/mca-programme"
                 },
