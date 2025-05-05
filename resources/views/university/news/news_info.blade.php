@@ -524,18 +524,20 @@
                         @endif
                         
                         @php
-                            $count = 0;
-                            $content = preg_replace_callback(
-                                '/(<h2\b[^>]*>.*?<\/h2>)/i',
-                                function ($matches) use (&$count, $insertCode) {
-                                    $count++;
-                                    return $count === 2 ? $insertCode . $matches[0] : $matches[0];
-                                },
-                                $content
-                            );
-                        
-                            echo $content;
-                        @endphp
+                        $count = 0;
+                        $content = preg_replace_callback(
+                            '/(<p\b[^>]*>.*?<\/p>)/i',
+                            function ($matches) use (&$count, $insertCode) {
+                                $count++;
+                                return $count === 2 ? $matches[0] . $insertCode : $matches[0];
+                            },
+                            $content
+                        );
+                    
+                        echo $content;
+                    @endphp
+                    
+
                         
 
 
