@@ -447,18 +447,18 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>29, April</span>
+                                        <span>02, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Nursing is organising a workshop on “Innovative Health Care Transformation through AI-Driven Solutions” under the aegis of IIC on 3rd May 2025. Join us to explore the future of intelligent healthcare innovation!</p>
+                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a session on “Hands-on Experience on Virtual Reality: An Innovative Dental and Medical Practice” on 7th May 2025 at 12 PM. Join us!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                            College of Nursing </span>
+                                            Dental College & Research Centre </span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                            03, May</span>
+                                            07, May</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
