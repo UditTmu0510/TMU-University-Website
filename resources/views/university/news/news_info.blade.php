@@ -451,65 +451,80 @@
                         <div class="entry-content mt-0">
 
                             <!-- Post Single - Content End -->
-                            <p style="text-align:justify">
-                                @php
-                                    $content = nl2br(html_entity_decode($news->event_full_description));
-                                    $insertCode = '';
-
-                                    if (!request()->ajax()) {
-                                        $insertCode =
-                                            '<div class="container-fluid mt-4 p-0">
-<div class="row d-flex align-items-center bg-section" 
-    style="min-height: 550px; 
-           background: url(\'' .
-                                            asset('uploads/blogs/banner_blog_npf.png') .
-                                            '\') no-repeat left center / cover;">
-    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
-                <span></span><span>Teerthanker Mahaveer University </span>
-            </h2>
-    <div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
-        <div class="form-inner text-center">
-          <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" >Apply for Admission</a></span>
-                </h3>
-<p class="text-center fs-16 fw-bold mt-3 mb-2 d-block d-md-none">
-                    <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
-                </p>
-            <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
-        </div>
-    </div>
+                            @php
+                            $content = nl2br(html_entity_decode($news->event_full_description));
+                            $insertCode = '';
+                        @endphp
+                        
+                        @if (!request()->ajax())
+                            @php
+                                $insertCode = '
+                        <div class="container-fluid mt-4 p-0">
+                            <div class="row d-flex align-items-center bg-section" style="min-height: 550px;">
+                                <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
+                                    <span></span><span>Teerthanker Mahaveer University </span>
+                                </h2>
+                        
+                                <div class="col-12 col-lg-5 d-flex justify-content-center">
+                                <div style="width: 100%; max-width: 100%; display: flex; justify-content: center;">
+    <iframe 
+        style="width: 100%; max-width: 280px; aspect-ratio: 16 / 9;" 
+        src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
 </div>
-</div>
-
-<style>
-@media (max-width: 991.98px) {
-.bg-section {
-    background: none !important;
-}
-.bg-form-wrapper {
-    justify-content: center !important;
-}
-.form-inner {
-    width: 100%;
-    max-width: 600px;
-}
-}
-</style>';
-                                    }
-
-                                    $count = 0;
-                                    $content = preg_replace_callback(
-                                        '/(<h2\b[^>]*>.*?<\/h2>)/i',
-                                        function ($matches) use (&$count, $insertCode) {
-                                            $count++;
-                                            return $count === 2 ? $insertCode . $matches[0] : $matches[0];
-                                        },
-                                        $content,
-                                    );
-
-                                    echo $content;
-                                @endphp
-                            </p>
+                                </div>
+                        
+                                <div class="col-12 col-lg-5 d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+                                    <div class="form-inner text-center">
+                                        <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
+                                            <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank">Apply for Admission</a></span>
+                                        </h3>
+                                        <p class="text-center fs-16 fw-bold mt-3 mb-2 d-block d-md-none">
+                                            <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link">Click Here </a> To Apply for Admission</span>
+                                        </p>
+                                        <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <style>
+                        @media (max-width: 991.98px) {
+                            .bg-section {
+                                background: none !important;
+                                flex-direction: column;
+                            }
+                            .bg-form-wrapper {
+                                justify-content: center !important;
+                            }
+                            .form-inner {
+                                width: 100%;
+                                max-width: 600px;
+                            }
+                        }
+                        </style>';
+                            @endphp
+                        @endif
+                        
+                        @php
+                            $count = 0;
+                            $content = preg_replace_callback(
+                                '/(<h2\b[^>]*>.*?<\/h2>)/i',
+                                function ($matches) use (&$count, $insertCode) {
+                                    $count++;
+                                    return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+                                },
+                                $content
+                            );
+                        
+                            echo $content;
+                        @endphp
+                        
 
 
 
