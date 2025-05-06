@@ -1068,6 +1068,26 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const overrideUrls = [
+                "https://www.tmu.ac.in/news/mp-board-result",
+                "https://www.tmu.ac.in/news/mp-board-result-2025-live-updates-expected-dates-and-how-to-check-it",
+                "https://www.tmu.ac.in/news/mpbse-admit-card-2025-mp-board-class-10th-and-12th-admit-card-and-result-date"
+            ];
+
+            const currentUrl = window.location.href.split("?")[0]; // clean URL, removing query parameters
+
+            if (overrideUrls.includes(currentUrl)) {
+                const newVideoSrc = "https://www.youtube.com/embed/RrnioFbPzf8?si=1jSeMygS2-c_H2vj";
+                const iframe = document.querySelector('iframe[src*="youtube.com/embed"]');
+
+                if (iframe) {
+                    iframe.src = newVideoSrc;
+                }
+            }
+        });
+    </script>
+    <script>
         $(document).ready(function() {
             $('.category-link').on('click', function(e) {
                 e.preventDefault();
