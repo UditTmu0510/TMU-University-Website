@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>06, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Law, Teerthanker Mahaveer University, is organising a vibrant Fresher Party on 7th May 2025 at 9:30 AM in the TMU Auditorium to welcome the new batch with enthusiasm and joy!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                                College of Law & Legal Studies</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            07, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>02, May</span>
                                     </div>
                                     <div class="notice-content">
