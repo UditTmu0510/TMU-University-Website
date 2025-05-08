@@ -474,4 +474,30 @@
         document.body.appendChild(s);
     </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const urlPath = window.location.pathname.toLowerCase();
+
+        // Check for MDS programme in URL
+        if (urlPath.includes('/programme/mds')) {
+            const rows = document.querySelectorAll('table tbody tr');
+
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('td.fee_details_fetch');
+
+                if (cells.length >= 2) {
+                    const feeTypeText = cells[0].innerText.trim().toLowerCase(); // "Examination Fee"
+                    const amountCell = cells[1];
+
+                    if (feeTypeText.includes('examination fee') && amountCell.innerHTML.includes('per Year')) {
+                        amountCell.innerHTML = amountCell.innerHTML.replace(/per Year/i, 'Whole Programme');
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+
+
 @endsection
