@@ -15,58 +15,61 @@
                                 <th class="text-center">Sl. No.</th>
                                 <th class="text-center">Name</th>
                                 <th class="text-center">Designation</th>
+                                <th class="text-center">Status</th>
                                 <th class="text-center">Contact No.</th>
+                                <th class="text-center">Email</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td class="text-center">1.</td>
                                 <td class="text-center">Dr. Anurag Verma</td>
+                                <td class="text-center">Principal</td>
                                 <td class="text-center">Chairperson</td>
                                 <td class="text-center">9837004699</td>
-                            </tr>
-                            <tr>
+                                <td class="text-center">principal.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              <tr>
                                 <td class="text-center">2.</td>
-                                <td class="text-center">Dr. Piyush Mittal</td>
+                                <td class="text-center">Dr. Prem Shankar Gupta</td>
+                                <td class="text-center">Associate Professor</td>
                                 <td class="text-center">Member</td>
-                                <td class="text-center">9634232666</td>
-                            </tr>
-                            <tr>
+                                <td class="text-center">9411340720</td>
+                                <td class="text-center">premshankar.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              <tr>
                                 <td class="text-center">3.</td>
-                                <td class="text-center">Dr. Mukesh Singh Sikarwar</td>
-                                <td class="text-center">Member</td>
-                                <td class="text-center">6395867230</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">4.</td>
-                                <td class="text-center">Dr. Ramenani Hari Babu</td>
-                                <td class="text-center">Member</td>
-                                <td class="text-center">9347467131</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">5.</td>
-                                <td class="text-center">Dr. K. K. Sharma</td>
+                                <td class="text-center">Dr. K K Sharma</td>
+                                <td class="text-center">Professor</td>
                                 <td class="text-center">Member</td>
                                 <td class="text-center">9917778686</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">6.</td>
-                                <td class="text-center">Dr. Vaibhav Rastogi</td>
-                                <td class="text-center">Member</td>
-                                <td class="text-center">8218290992</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">7.</td>
+                                <td class="text-center">krishanas.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              <tr>
+                                <td class="text-center">4.</td>
                                 <td class="text-center">Dr. Mayur Porwal</td>
+                                <td class="text-center">Professor</td>
                                 <td class="text-center">Member</td>
                                 <td class="text-center">9719261023</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">8.</td>
+                                <td class="text-center">mayurp.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              <tr>
+                                <td class="text-center">5.</td>
                                 <td class="text-center">Dr. Anuradha Pawar</td>
+                                <td class="text-center">Assistant Professor</td>
                                 <td class="text-center">Member</td>
                                 <td class="text-center">9927076411</td>
-                            </tr>
+                                <td class="text-center">anuradha.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              <tr>
+                                <td class="text-center">6.</td>
+                                <td class="text-center">Dr. Phool Chandra</td>
+                                <td class="text-center">Professor</td>
+                                <td class="text-center">Member</td>
+                                <td class="text-center">9450082374</td>
+                                <td class="text-center">pcpatel.pharmacy@tmu.ac.in</td>
+                              </tr>
+                              
                         </tbody>
                     </table>
                 </div>
