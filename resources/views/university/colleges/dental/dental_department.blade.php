@@ -25,7 +25,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/oms.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/om.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="mb-2">Oral & Maxillofacial Surgery</h4>
 
@@ -42,7 +42,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card shadow-sm college_departments mb-4">
-                    <img src="{{asset('/assets/img/college_departments/dental/odo.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{asset('/assets/img/college_departments/dental/dd.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
 
                         <h4 class="mb-2">Orthodontics & Dentofacial Orthopaedics</h4>
