@@ -32,6 +32,58 @@
     <div class="container">
         <h1 class="tmu-text-primary tmu-page-heading mb-3 mt-2"><span>College </span><span> Gallery</span></h1>
         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
+
+            <div class="col-md-3 col-sm-6">
+                <a href="{{ asset('/assets/img/gallery/collegegallery/law/lc-1.jpg') }}" data-lightbox="gallery-item"
+                    class="text-decoration-none" title="Empowering Change – Dowry Law Awareness for a Viksit Bharat">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/lc-1.jpg') }}"
+                            alt="Empowering Change – Dowry Law Awareness for a Viksit Bharat">
+                    </div>
+                    <h5 class="text-center mt-2"></h5>
+                </a>
+                <div class="d-none">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lc-2.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Empowering Change – Dowry Law Awareness for a Viksit Bharat"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lc-3.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Empowering Change – Dowry Law Awareness for a Viksit Bharat"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lc-4.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Empowering Change – Dowry Law Awareness for a Viksit Bharat"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lc-5.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Empowering Change – Dowry Law Awareness for a Viksit Bharat"></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-1.jpg') }}" data-lightbox="gallery-item"
+                    class="text-decoration-none" title="Law Fresher’s Party 2025 – Welcoming Legal Minds">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/lfs-1.jpg') }}"
+                            alt="Law Fresher’s Party 2025 – Welcoming Legal Minds">
+                    </div>
+                    <h5 class="text-center mt-2"></h5>
+                </a>
+                <div class="d-none">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-2.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Law Fresher’s Party 2025 – Welcoming Legal Minds"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-3.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Law Fresher’s Party 2025 – Welcoming Legal Minds"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-4.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Law Fresher’s Party 2025 – Welcoming Legal Minds"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-5.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Law Fresher’s Party 2025 – Welcoming Legal Minds"></a>
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/law/lfs-6.jpg') }}"
+                        data-lightbox="gallery-item"
+                        title="Law Fresher’s Party 2025 – Welcoming Legal Minds"></a>
+                </div>
+            </div>
             <div class="col-md-3 col-sm-6">
                 <a href="{{ asset('/assets/img/gallery/collegegallery/law/1.jpg') }}" data-lightbox="gallery-item"
                     class="text-decoration-none" title="">
@@ -83,10 +135,10 @@
                 </a>
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="{{ asset('/assets/img/gallery/collegegallery/law/6.jpg') }}" data-lightbox="gallery-item"
+                <a href="{{ asset('/assets/img/gallery/collegegallery/law/6.webp') }}" data-lightbox="gallery-item"
                     class="text-decoration-none" title="">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/6.jpg') }}"
+                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/law/6.webp') }}"
                             alt="">
                     </div>
                     <h5 class="text-center mt-2"></h5>
