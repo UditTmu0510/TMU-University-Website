@@ -31,6 +31,21 @@
         <h1 class="tmu-text-primary tmu-page-heading mb-3 mt-2"><span>College </span><span> Gallery</span></h1>
         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
             <div class="col-md-3 col-sm-6">
+                <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/51.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/ccsit/51.jpg')}}" alt="International Seminar">
+                    </div>
+                    <h5 class="text-center mt-2">BCA Farewell 2025 – Bidding Adieu with Smiles & Memories</h5>
+                    <div class="d-none">
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/52.jpg')}}" data-lightbox="gallery-item" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/53.jpg')}}" data-lightbox="gallery-item" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/54.jpg')}}" data-lightbox="gallery-item" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/55.jpg')}}" data-lightbox="gallery-item" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/56.jpg')}}" data-lightbox="gallery-item" title="BCA Farewell 2025 – Bidding Adieu with Smiles & Memories"></a>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
                 <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/48.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Multiply Your Creativity – Workshop Highlights">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/ccsit/48.jpg')}}" alt="International Seminar">
