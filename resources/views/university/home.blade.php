@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>10, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Nursing is proudly organising International Nurses Day on 12th May 2025 at 2:00 PM in the Multipurpose Hall (Ground Floor), Nursing Building. Join us to honour dedication, compassion, and nursing excellence.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                                College of Nursing</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            12, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>06, May</span>
                                     </div>
                                     <div class="notice-content">
