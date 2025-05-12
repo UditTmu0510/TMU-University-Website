@@ -15,12 +15,18 @@
           <p class="description"><b>POL(1)</b> - Financial Assistance Policy</p>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
             href="{{asset('/assets/pdf/policy/promotion_of_research.pdf')}}" target="_blank">View PDF</a>
-          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+          {{-- <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
             href="{{asset('/assets/pdf/policy/Regulations_Financial_Assistance_2021_Ammended_2022.pdf')}}" target="_blank">View Amendment PDF</a>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
             href="{{asset('/assets/pdf/pdf/Annexure_01_Approved_National_Bodies.pdf')}}" target="_blank">View Annexure-I</a>
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
-            href="{{asset('/assets/pdf/pdf/Annexure_02_Approved_Professional_Bodies.pdf')}}" target="_blank">View Annexure-II</a>
+            href="{{asset('/assets/pdf/pdf/Annexure_02_Approved_Professional_Bodies.pdf')}}" target="_blank">View Annexure-II</a> --}}
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+            href="{{asset('/assets/pdf/policy/TMU_FA_2 Amendment.pdf')}}" target="_blank">View Amendment PDF</a>
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+            href="{{asset('/assets/pdf/policy/Annexure_01_National_Bodies.pdf')}}" target="_blank">View Annexure-I</a>
+            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+            href="{{asset('/assets/pdf/policy/Annexure_02_Professional_Bodies.pdf')}}" target="_blank">View Annexure-II</a>
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
@@ -42,6 +48,9 @@
           <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
             href="{{asset('/assets/pdf/policy/seed_money_grant_scheme_2021.pdf')}}" target="_blank">View
             PDF</a>
+          <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+            href="{{asset('/assets/pdf/policy/TMU_SeedMoney_Second_Amendment.pdf')}}" target="_blank">View
+            Amendement PDF</a>
         </div>
         <div class="card-pdf">
           <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
