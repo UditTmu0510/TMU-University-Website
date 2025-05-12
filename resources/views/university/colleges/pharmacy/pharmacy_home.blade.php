@@ -540,7 +540,7 @@
 
 
 <div class="container mb-5 mt-5">
-<h2 class="tmu-text-primary text-center"><span>Why choose </span><span> Teerthanker Mahaveer College of Phramacy</span></h2>
+<h2 class="tmu-text-primary text-center"><span>Why choose </span><span> Teerthanker Mahaveer College of Pharmacy</span></h2>
             <hr class="horizontal-line">
 
             <button class="careers-accordion">Key Highlights of College of Pharmacy <span class="icon">+</span></button>
