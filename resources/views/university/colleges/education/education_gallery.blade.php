@@ -33,6 +33,24 @@
 
         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
             <div class="col-md-3 col-sm-6">
+                <a href="{{ asset('/assets/img/gallery/collegegallery/education/23.jpg') }}" data-lightbox="gallery-item"
+                    class="text-decoration-none" title="">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/education/23.jpg') }}"
+                            alt="">
+                    </div>
+                    <h5 class="text-center mt-2"></h5>
+                </a>
+                <div class="d-none">
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/24.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/25.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/26.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/27.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/28.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/education/29.jpg')}}" data-lightbox="gallery-item" title="Multiply Your Creativity – Workshop Highlights"></a>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
                 <a href="{{ asset('/assets/img/gallery/collegegallery/education/1.jpg') }}" data-lightbox="gallery-item"
                     class="text-decoration-none" title="">
                     <div class="position-relative">
