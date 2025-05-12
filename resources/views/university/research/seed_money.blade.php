@@ -18,6 +18,9 @@
                             <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                             <p class="description">View Approval Letter</p>
                             <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12" href="{{asset('/assets/pdf/seed_money.pdf')}}">View PDF</a>
+                            <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12 mt-1"
+            href="{{asset('/assets/pdf/policy/TMU_SeedMoney_Second_Amendment.pdf')}}" target="_blank">View
+            Amendement PDF</a>
                         </div>
                     </div>
                 </div>
