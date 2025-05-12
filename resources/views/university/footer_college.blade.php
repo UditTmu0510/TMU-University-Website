@@ -210,7 +210,7 @@
 
 
 
-<script>
+{{-- <script>
     document.addEventListener("DOMContentLoaded", function() {
         var currentUrl = window.location.pathname;
 
@@ -237,7 +237,7 @@
     function loadNiaScript() {
         console.log("Widget clicked! Load your script here.");
     }
-</script>
+</script> --}}
 
 <div class="npf_chatbots" data-w="682ca82a0e534a72adfabb52a87dfac8" style="display:none;"></div>
 
@@ -628,6 +628,7 @@
         // Add an event listener to hide the widget when the script is loaded
         s.onload = function() {
             var niawidget = document.getElementById("nia-widget786");
+            var dummyImg = niawidget?.querySelector(".ticky-nia-widget786s");
             var chatbotsDiv = document.querySelector(".npf_chatbots");
 
             if (niawidget) {
