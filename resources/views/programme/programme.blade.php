@@ -231,8 +231,28 @@
         </div>
     </div>
 
-    <div class="container">
-        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;width:60vw;margin:auto;height:54vh;"></iframe>
+    <style>
+        .framer{
+            border-radius:20px;
+            width:60vw;
+            margin:auto;
+            height:54vh;
+        }
+        @media screen and (max-width:992px){
+            .framer{
+            height:24vh;
+        }
+    }
+        @media screen and (max-width:992px){
+            .framer{
+                width:90vw;
+        }
+
+        }
+    </style>
+
+    <div class="container d-flex">
+        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="framer"></iframe>
     </div>
 
     <div class="container mt-4">
