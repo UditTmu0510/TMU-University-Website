@@ -1,229 +1,6 @@
 @extends('layouts.university.news_single')
 @section('content')
-<style>
-    /* Mimicking your site's body background for context if needed */
-    body {
-        background-color: #f8f9fa; /* Light gray, adjust if your page is different */
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
-    }
 
-    .tmu-video-section {
-        padding: 60px 0;
-        background-color: #ffffff; /* Or a very light neutral if on dark bg */
-        /* If your main page has a dark background, you might want this section on a lighter card */
-    }
-
-    .tmu-video-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #001f5b; /* Your primary dark blue */
-        margin-bottom: 40px;
-        text-align: center;
-        letter-spacing: -0.5px;
-    }
-
-    .tmu-video-player-wrapper {
-        position: relative;
-        width: 100%;
-        max-width: 900px; /* Max width of the player */
-        margin: 0 auto;
-        border-radius: 15px; /* Softer rounded corners */
-        overflow: hidden; /* Important for iframe and controls */
-        box-shadow: 0 10px 30px rgba(0, 31, 91, 0.15); /* Subtle shadow */
-        background-color: #000; /* Fallback for iframe loading */
-    }
-
-    /* Bootstrap's ratio class handles aspect ratio */
-    .tmu-video-player-wrapper .ratio-16x9 {
-        border-radius: 15px; /* Ensures iframe corners are also rounded */
-    }
-
-    .tmu-video-player-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-
-    /* This overlay prevents clicks on the YouTube logo/title redirecting to YouTube */
-    /* It's placed BELOW custom controls via z-index */
-    .tmu-video-click-interceptor {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: calc(100% - 60px); /* Leave space for controls if they are always visible */
-        z-index: 1;
-        cursor: pointer; /* So it still feels interactive for play/pause via this overlay */
-    }
-
-    .tmu-custom-controls {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: linear-gradient(to top, rgba(0, 15, 40, 0.85), rgba(0, 15, 40, 0.6)); /* Darker gradient */
-        padding: 10px 15px;
-        display: flex;
-        align-items: center;
-        z-index: 2; /* Above the click interceptor */
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-
-    .tmu-video-player-wrapper:hover .tmu-custom-controls {
-        opacity: 1;
-    }
-    /* Show controls when paused */
-    .tmu-video-player-wrapper.paused .tmu-custom-controls {
-        opacity: 1;
-    }
-
-
-    .tmu-custom-controls button {
-        background: none;
-        border: none;
-        color: #ffffff;
-        font-size: 1.3rem; /* Icon size */
-        margin-right: 15px;
-        padding: 5px;
-        line-height: 1;
-        cursor: pointer;
-        transition: color 0.2s ease;
-    }
-    .tmu-custom-controls button:hover {
-        color: #ff6600; /* Your orange accent */
-    }
-    .tmu-custom-controls button:focus {
-        outline: none;
-        box-shadow: none;
-    }
-
-    .tmu-progress-bar-container {
-        flex-grow: 1;
-        margin-right: 15px;
-        height: 8px; /* Height of the track */
-        display: flex;
-        align-items: center;
-    }
-
-    .tmu-progress-bar {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 8px;
-        background: rgba(255, 255, 255, 0.3);
-        border-radius: 4px;
-        outline: none;
-        cursor: pointer;
-    }
-
-    .tmu-progress-bar::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 16px;
-        height: 16px;
-        background: #ff6600; /* Orange accent */
-        border-radius: 50%;
-        cursor: pointer;
-        margin-top: -4px; /* Vertically center thumb */
-        box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    }
-
-    .tmu-progress-bar::-moz-range-thumb {
-        width: 16px;
-        height: 16px;
-        background: #ff6600;
-        border-radius: 50%;
-        cursor: pointer;
-        border: none;
-        box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    }
-
-    .tmu-progress-bar::-moz-range-track {
-        background: rgba(255, 255, 255, 0.3);
-        height: 8px;
-        border-radius: 4px;
-    }
-    .tmu-progress-bar::-moz-range-progress {
-        background-color: #ff6600; /* For Firefox progress fill */
-        height: 8px;
-        border-radius: 4px;
-    }
-
-
-    .tmu-time-display {
-        color: #ffffff;
-        font-size: 0.85rem;
-        min-width: 90px; /* To prevent layout shift */
-        text-align: center;
-    }
-
-    /* Style for the main play button overlay (optional) */
-    .tmu-main-play-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 5rem;
-        color: rgba(255, 255, 255, 0.8);
-        background-color: rgba(0, 31, 91, 0.5); /* Semi-transparent dark blue */
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        z-index: 1; /* Above iframe, below controls if they overlap */
-        transition: background-color 0.3s ease, color 0.3s ease;
-        border: 3px solid rgba(255,255,255,0.5);
-    }
-    .tmu-main-play-button:hover {
-        color: #fff;
-        background-color: rgba(255, 102, 0, 0.7); /* Orange accent on hover */
-        border-color: #fff;
-    }
-    .tmu-main-play-button.hidden {
-        display: none;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        .tmu-video-title {
-            font-size: 2rem;
-        }
-        .tmu-custom-controls button {
-            font-size: 1.1rem;
-            margin-right: 10px;
-        }
-        .tmu-time-display {
-            font-size: 0.75rem;
-            min-width: 75px;
-        }
-        .tmu-main-play-button {
-            font-size: 4rem;
-            width: 80px;
-            height: 80px;
-        }
-    }
-    @media (max-width: 480px) {
-        .tmu-video-click-interceptor {
-             height: calc(100% - 50px); /* Adjust for smaller controls bar */
-        }
-        .tmu-custom-controls {
-            padding: 8px 10px;
-        }
-        .tmu-time-display {
-            display: none; /* Hide time on very small screens to save space */
-        }
-    }
-
-</style>
     <style>
         .grid-item {
             padding: 0;
@@ -606,6 +383,226 @@
             padding-top:0;
         }
     </style>
+
+
+<style>
+    .tmu-video-section {
+        padding: 60px 0;
+        background-color: #ffffff; /* Or a very light neutral if on dark bg */
+        /* If your main page has a dark background, you might want this section on a lighter card */
+    }
+
+    .tmu-video-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #001f5b; /* Your primary dark blue */
+        margin-bottom: 40px;
+        text-align: center;
+        letter-spacing: -0.5px;
+    }
+
+    .tmu-video-player-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 900px; /* Max width of the player */
+        margin: 0 auto;
+        border-radius: 15px; /* Softer rounded corners */
+        overflow: hidden; /* Important for iframe and controls */
+        box-shadow: 0 10px 30px rgba(0, 31, 91, 0.15); /* Subtle shadow */
+        background-color: #000; /* Fallback for iframe loading */
+    }
+
+    /* Bootstrap's ratio class handles aspect ratio */
+    .tmu-video-player-wrapper .ratio-16x9 {
+        border-radius: 15px; /* Ensures iframe corners are also rounded */
+    }
+
+    .tmu-video-player-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    /* This overlay prevents clicks on the YouTube logo/title redirecting to YouTube */
+    /* It's placed BELOW custom controls via z-index */
+    .tmu-video-click-interceptor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 60px); /* Leave space for controls if they are always visible */
+        z-index: 1;
+        cursor: pointer; /* So it still feels interactive for play/pause via this overlay */
+    }
+
+    .tmu-custom-controls {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to top, rgba(0, 15, 40, 0.85), rgba(0, 15, 40, 0.6)); /* Darker gradient */
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        z-index: 2; /* Above the click interceptor */
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .tmu-video-player-wrapper:hover .tmu-custom-controls {
+        opacity: 1;
+    }
+    /* Show controls when paused */
+    .tmu-video-player-wrapper.paused .tmu-custom-controls {
+        opacity: 1;
+    }
+
+
+    .tmu-custom-controls button {
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 1.3rem; /* Icon size */
+        margin-right: 15px;
+        padding: 5px;
+        line-height: 1;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+    .tmu-custom-controls button:hover {
+        color: #ff6600; /* Your orange accent */
+    }
+    .tmu-custom-controls button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .tmu-progress-bar-container {
+        flex-grow: 1;
+        margin-right: 15px;
+        height: 8px; /* Height of the track */
+        display: flex;
+        align-items: center;
+    }
+
+    .tmu-progress-bar {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 8px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .tmu-progress-bar::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        background: #ff6600; /* Orange accent */
+        border-radius: 50%;
+        cursor: pointer;
+        margin-top: -4px; /* Vertically center thumb */
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+
+    .tmu-progress-bar::-moz-range-thumb {
+        width: 16px;
+        height: 16px;
+        background: #ff6600;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+
+    .tmu-progress-bar::-moz-range-track {
+        background: rgba(255, 255, 255, 0.3);
+        height: 8px;
+        border-radius: 4px;
+    }
+    .tmu-progress-bar::-moz-range-progress {
+        background-color: #ff6600; /* For Firefox progress fill */
+        height: 8px;
+        border-radius: 4px;
+    }
+
+
+    .tmu-time-display {
+        color: #ffffff;
+        font-size: 0.85rem;
+        min-width: 90px; /* To prevent layout shift */
+        text-align: center;
+    }
+
+    /* Style for the main play button overlay (optional) */
+    .tmu-main-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 31, 91, 0.5); /* Semi-transparent dark blue */
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 1; /* Above iframe, below controls if they overlap */
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border: 3px solid rgba(255,255,255,0.5);
+    }
+    .tmu-main-play-button:hover {
+        color: #fff;
+        background-color: rgba(255, 102, 0, 0.7); /* Orange accent on hover */
+        border-color: #fff;
+    }
+    .tmu-main-play-button.hidden {
+        display: none;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .tmu-video-title {
+            font-size: 2rem;
+        }
+        .tmu-custom-controls button {
+            font-size: 1.1rem;
+            margin-right: 10px;
+        }
+        .tmu-time-display {
+            font-size: 0.75rem;
+            min-width: 75px;
+        }
+        .tmu-main-play-button {
+            font-size: 4rem;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    @media (max-width: 480px) {
+        .tmu-video-click-interceptor {
+             height: calc(100% - 50px); /* Adjust for smaller controls bar */
+        }
+        .tmu-custom-controls {
+            padding: 8px 10px;
+        }
+        .tmu-time-display {
+            display: none; /* Hide time on very small screens to save space */
+        }
+    }
+
+</style>
 
     <!-- Page Title
                           ============================================= -->
@@ -1311,76 +1308,6 @@
     </section><!-- #content end -->
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const pathList = [
-                "/news/mp-board-result",
-                "/news/mp-board-result-2025-live-updates-expected-dates-and-how-to-check-it",
-                "/news/mpbse-admit-card-2025-mp-board-class-10th-and-12th-admit-card-and-result-date"
-            ];
-    
-            const currentPath = window.location.pathname;
-    
-            if (pathList.includes(currentPath)) {
-                const newVideoSrc = "https://www.youtube.com/embed/RrnioFbPzf8?si=1jSeMygS2-c_H2vj";
-                const iframe = document.querySelector('iframe[src*="youtube.com/embed"]');
-    
-                if (iframe) {
-                    iframe.src = newVideoSrc;
-                }
-            }
-        });
-    </script>
-    
-    <script>
-        $(document).ready(function() {
-            $('.category-link').on('click', function(e) {
-                e.preventDefault();
-                var categoryId = $(this).data('category-id');
-                $('#categoryInput').val(categoryId);
-                $('#categoryForm').submit();
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function() {
-            function loadNPFScript(retry = 0) {
-                var script = document.createElement("script");
-                script.type = "text/javascript";
-                script.async = true;
-                script.src = "https://widgets.nopaperforms.com/emwgts.js";
-
-                script.onload = function() {
-                    console.log("✅ NoPaperForms script loaded successfully");
-                };
-
-                script.onerror = function() {
-                    console.warn("⚠️ NoPaperForms script failed to load.");
-                    if (retry < 3) {
-                        console.log(`🔄 Retrying (${retry + 1}/3)...`);
-                        setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
-                    }
-                };
-
-                document.body.appendChild(script);
-            }
-
-            loadNPFScript(); // Initial script load
-        });
-    </script>
-
-    <script>
-        window.addEventListener("error", function(e) {
-            if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
-                console.warn("🚨 NoPaperForms script failed to load.");
-            }
-            e.preventDefault(); // Ignore errors from other scripts
-        }, true);
-    </script>
-    <!-- Go To Top
-                         ============================================= -->
-                         <!-- YouTube Iframe API -->
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
         let player;
@@ -1597,4 +1524,75 @@
 
 
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const pathList = [
+                "/news/mp-board-result",
+                "/news/mp-board-result-2025-live-updates-expected-dates-and-how-to-check-it",
+                "/news/mpbse-admit-card-2025-mp-board-class-10th-and-12th-admit-card-and-result-date"
+            ];
+    
+            const currentPath = window.location.pathname;
+    
+            if (pathList.includes(currentPath)) {
+                const newVideoSrc = "https://www.youtube.com/embed/RrnioFbPzf8?si=1jSeMygS2-c_H2vj";
+                const iframe = document.querySelector('iframe[src*="youtube.com/embed"]');
+    
+                if (iframe) {
+                    iframe.src = newVideoSrc;
+                }
+            }
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function() {
+            $('.category-link').on('click', function(e) {
+                e.preventDefault();
+                var categoryId = $(this).data('category-id');
+                $('#categoryInput').val(categoryId);
+                $('#categoryForm').submit();
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            function loadNPFScript(retry = 0) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = true;
+                script.src = "https://widgets.nopaperforms.com/emwgts.js";
+
+                script.onload = function() {
+                    console.log("✅ NoPaperForms script loaded successfully");
+                };
+
+                script.onerror = function() {
+                    console.warn("⚠️ NoPaperForms script failed to load.");
+                    if (retry < 3) {
+                        console.log(`🔄 Retrying (${retry + 1}/3)...`);
+                        setTimeout(() => loadNPFScript(retry + 1), 2000); // Retry after 2s
+                    }
+                };
+
+                document.body.appendChild(script);
+            }
+
+            loadNPFScript(); // Initial script load
+        });
+    </script>
+
+    <script>
+        window.addEventListener("error", function(e) {
+            if (e.target.tagName === "SCRIPT" && e.target.src.includes("emwgts.js")) {
+                console.warn("🚨 NoPaperForms script failed to load.");
+            }
+            e.preventDefault(); // Ignore errors from other scripts
+        }, true);
+    </script>
+    <!-- Go To Top
+                         ============================================= -->
+                         <!-- YouTube Iframe API -->
+    
 @endsection
