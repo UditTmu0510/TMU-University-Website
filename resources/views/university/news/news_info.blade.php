@@ -721,14 +721,13 @@
                                 $insertCode = '
                                <section class="tmu-video-section-container">
         <div class="container">
-            <h2 class="tmu-video-section-title">Discover Teerthanker Mahaveer University</h2>
             <div id="tmuPlayerWrapper">
                 <div class="ratio ratio-16x9">
                     <div id="youtubePlayerApiContainer"></div> 
                 </div>
 
-                <div class="tmu-main-play-button" id="tmuMainPlayBtn">
-                    <i class="fas fa-play ps-2"></i>
+                <div class="tmu-main-play-button ps-2" id="tmuMainPlayBtn">
+                    <i class="fas fa-play"></i>
                 </div>
 
                 <div class="tmu-video-click-interceptor" id="tmuClickInterceptor"></div>
@@ -1456,7 +1455,11 @@
 
         playPauseBtn.addEventListener('click', togglePlayPause);
         mainPlayButton.addEventListener('click', togglePlayPause);
-        clickInterceptor.addEventListener('click', togglePlayPause);
+        clickInterceptor.addEventListener('click', function(event) {
+    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
+    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
+    togglePlayPause();       // Your existing function to play/pause the video.
+});
 
 
         progressBar.addEventListener('input', function() {
@@ -1681,7 +1684,11 @@
 
             playPauseBtn.addEventListener('click', togglePlayPause);
             mainPlayButton.addEventListener('click', togglePlayPause);
-            clickInterceptor.addEventListener('click', togglePlayPause);
+            clickInterceptor.addEventListener('click', function(event) {
+    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
+    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
+    togglePlayPause();       // Your existing function to play/pause the video.
+});
 
             progressBar.addEventListener('input', function() {
                 if (!player || typeof player.getDuration !== 'function') return;
