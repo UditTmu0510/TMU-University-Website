@@ -601,6 +601,10 @@
                 font-size: 16px;
             }
         }
+
+        .ratio:before , ratio::before {
+            padding-top:0;
+        }
     </style>
 
     <!-- Page Title
@@ -729,19 +733,7 @@
                                 </h2>
                         
                                 <div class="col-12 col-lg-6 d-flex justify-content-center">
-<div class="d-flex justify-content-center w-100">
-    <div style="width: 100%; max-width: 650px; aspect-ratio: 16 / 9;">
-        <iframe 
-            style="width: 100%; height: 100%; border:10px solid white;" 
-            src="https://www.youtube.com/embed/71Qw7YYS_nM?si=fYylipCd2xIcHEon" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
-    </div>
-</div>
+
 
                                 </div>
                         
