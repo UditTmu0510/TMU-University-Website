@@ -591,10 +591,10 @@
 
                                     @php
                                         $content = nl2br(html_entity_decode($blog->full_post));
-                                        $insertCode = '';
+                                        $insertCode = '<iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;"></iframe>';
 
                                         if (!request()->ajax()) {
-                                            $insertCode =
+                                            $insertCode +=
                                                 '<div class="container-fluid mt-4 p-0">
 <div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .
                                                 asset('uploads/blogs/banner_blog_npf.png') .
