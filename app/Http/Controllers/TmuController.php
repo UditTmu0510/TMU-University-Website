@@ -211,7 +211,7 @@ class TmuController extends Controller
     {
 
         $administrators = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->whereIn('cd_id', [0, 1])->where('is_head', 'Y')->get();
-        $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id',  [2, 97])->get();
+        $principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->whereIn('designation_id',  [2, 97])->get();
         $vice_principals = Employees::orderBy('priority', 'ASC')->where('status', 'Y')->where('designation_id', 29)->get();
         $deans = Employees::with('faculty') // Eager load faculty through college
             ->orderBy('priority', 'ASC')
