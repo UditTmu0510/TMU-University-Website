@@ -251,7 +251,7 @@
         }
     </style>
 
-    <div class="container d-flex">
+    <div class="container d-flex mt-4">
         <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="framer"></iframe>
     </div>
 
