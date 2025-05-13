@@ -625,6 +625,9 @@
             margin-right: 10px;
         }
     }
+    .fluid-width-video-wrapper {
+    padding-top: 56.25% !important;
+}
 </style>
     <!-- Page Title
                           ============================================= -->
