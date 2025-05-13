@@ -386,38 +386,42 @@
 
 
 <style>
-    .tmu-video-section {
-        padding: 60px 0;
-        background-color: #ffffff; /* Or a very light neutral if on dark bg */
-        /* If your main page has a dark background, you might want this section on a lighter card */
+    body {
+        background-color: #f8f9fa; /* Your page's background */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Your page's font */
+        margin: 0; /* Ensure no default margin */
     }
 
-    .tmu-video-title {
+    .tmu-video-section-container { /* Renamed for clarity if this is the outermost container for the section */
+        padding: 60px 0;
+        background-color: #ffffff; 
+    }
+
+    .tmu-video-section-title { /* Renamed for clarity */
         font-size: 2.5rem;
         font-weight: 700;
-        color: #001f5b; /* Your primary dark blue */
+        color: #001f5b; /* Primary dark blue - ADJUST TO YOUR BRAND */
         margin-bottom: 40px;
         text-align: center;
         letter-spacing: -0.5px;
     }
 
-    .tmu-video-player-wrapper {
+    #tmuPlayerWrapper { /* Using ID for high specificity on the main wrapper */
         position: relative;
         width: 100%;
-        max-width: 900px; /* Max width of the player */
+        max-width: 900px; 
         margin: 0 auto;
-        border-radius: 15px; /* Softer rounded corners */
-        overflow: hidden; /* Important for iframe and controls */
-        box-shadow: 0 10px 30px rgba(0, 31, 91, 0.15); /* Subtle shadow */
-        background-color: #000; /* Fallback for iframe loading */
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 31, 91, 0.15);
+        background-color: #000000; /* Black background while video loads or if it fails */
     }
 
-    /* Bootstrap's ratio class handles aspect ratio */
-    .tmu-video-player-wrapper .ratio-16x9 {
-        border-radius: 15px; /* Ensures iframe corners are also rounded */
+    #tmuPlayerWrapper .ratio-16x9 {
+        border-radius: 15px; /* Ensure iframe respects rounded corners of wrapper */
     }
 
-    .tmu-video-player-wrapper iframe {
+    #tmuPlayerWrapper iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -425,72 +429,76 @@
         height: 100%;
         border: 0;
     }
-
-    /* This overlay prevents clicks on the YouTube logo/title redirecting to YouTube */
-    /* It's placed BELOW custom controls via z-index */
-    .tmu-video-click-interceptor {
+    
+    /* Click Interceptor: Covers entire video area, below controls */
+    #tmuPlayerWrapper .tmu-video-click-interceptor {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: calc(100% - 60px); /* Leave space for controls if they are always visible */
-        z-index: 1;
-        cursor: pointer; /* So it still feels interactive for play/pause via this overlay */
+        height: 100%; 
+        z-index: 1; /* Below custom controls and main play button */
+        cursor: pointer;
     }
 
-    .tmu-custom-controls {
+    #tmuPlayerWrapper .tmu-custom-controls {
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
-        background: linear-gradient(to top, rgba(0, 15, 40, 0.85), rgba(0, 15, 40, 0.6)); /* Darker gradient */
+        background: linear-gradient(to top, rgba(0, 15, 40, 0.9), rgba(0, 15, 40, 0.65));
         padding: 10px 15px;
         display: flex;
         align-items: center;
-        z-index: 2; /* Above the click interceptor */
+        z-index: 3; /* Above click interceptor and iframe content */
         opacity: 0;
         transition: opacity 0.3s ease-in-out;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px; /* Match wrapper */
+        border-bottom-right-radius: 15px; /* Match wrapper */
     }
 
-    .tmu-video-player-wrapper:hover .tmu-custom-controls {
+    #tmuPlayerWrapper:hover .tmu-custom-controls,
+    #tmuPlayerWrapper.tmu-player-paused .tmu-custom-controls, /* Specific class when paused */
+    #tmuPlayerWrapper.tmu-player-buffering .tmu-custom-controls { /* Specific class when buffering */
         opacity: 1;
     }
-    /* Show controls when paused */
-    .tmu-video-player-wrapper.paused .tmu-custom-controls {
-        opacity: 1;
-    }
 
-
-    .tmu-custom-controls button {
+    #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button { /* Specific class for control buttons */
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 1.3rem; /* Icon size */
+        font-size: 1.3rem;
         margin-right: 15px;
         padding: 5px;
         line-height: 1;
         cursor: pointer;
-        transition: color 0.2s ease;
+        transition: color 0.2s ease, transform 0.1s ease;
     }
-    .tmu-custom-controls button:hover {
-        color: #ff6600; /* Your orange accent */
+    #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button:hover {
+        color: #ff6600; /* Orange accent - ADJUST TO YOUR BRAND */
     }
-    .tmu-custom-controls button:focus {
+    #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button:active {
+        transform: scale(0.9);
+    }
+    #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button:focus {
         outline: none;
         box-shadow: none;
     }
+    /* Remove margin from the last button */
+    #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button:last-of-type {
+        margin-right: 0;
+    }
 
-    .tmu-progress-bar-container {
+
+    #tmuPlayerWrapper .tmu-progress-bar-container {
         flex-grow: 1;
         margin-right: 15px;
-        height: 8px; /* Height of the track */
+        height: 8px;
         display: flex;
         align-items: center;
     }
 
-    .tmu-progress-bar {
+    #tmuPlayerWrapper .tmu-progress-bar {
         -webkit-appearance: none;
         appearance: none;
         width: 100%;
@@ -499,9 +507,13 @@
         border-radius: 4px;
         outline: none;
         cursor: pointer;
+        transition: box-shadow 0.2s ease;
+    }
+    #tmuPlayerWrapper .tmu-progress-bar:hover {
+        box-shadow: 0 0 5px rgba(255, 102, 0, 0.5); /* Subtle glow on hover */
     }
 
-    .tmu-progress-bar::-webkit-slider-thumb {
+    #tmuPlayerWrapper .tmu-progress-bar::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
         width: 16px;
@@ -509,11 +521,15 @@
         background: #ff6600; /* Orange accent */
         border-radius: 50%;
         cursor: pointer;
-        margin-top: -4px; /* Vertically center thumb */
+        margin-top: -4px; 
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        transition: transform 0.1s ease;
+    }
+    #tmuPlayerWrapper .tmu-progress-bar:active::-webkit-slider-thumb {
+        transform: scale(1.2);
     }
 
-    .tmu-progress-bar::-moz-range-thumb {
+    #tmuPlayerWrapper .tmu-progress-bar::-moz-range-thumb {
         width: 16px;
         height: 16px;
         background: #ff6600;
@@ -521,89 +537,95 @@
         cursor: pointer;
         border: none;
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        transition: transform 0.1s ease;
+    }
+    #tmuPlayerWrapper .tmu-progress-bar:active::-moz-range-thumb {
+        transform: scale(1.2);
     }
 
-    .tmu-progress-bar::-moz-range-track {
+    #tmuPlayerWrapper .tmu-progress-bar::-moz-range-track {
         background: rgba(255, 255, 255, 0.3);
         height: 8px;
         border-radius: 4px;
     }
-    .tmu-progress-bar::-moz-range-progress {
-        background-color: #ff6600; /* For Firefox progress fill */
+    #tmuPlayerWrapper .tmu-progress-bar::-moz-range-progress {
+        background-color: #ff6600;
         height: 8px;
         border-radius: 4px;
     }
 
-
-    .tmu-time-display {
+    #tmuPlayerWrapper .tmu-time-display {
         color: #ffffff;
         font-size: 0.85rem;
-        min-width: 90px; /* To prevent layout shift */
+        min-width: 90px; 
         text-align: center;
+        font-variant-numeric: tabular-nums; /* Ensures numbers don't jump around */
     }
 
-    /* Style for the main play button overlay (optional) */
-    .tmu-main-play-button {
+    #tmuPlayerWrapper .tmu-main-play-button {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 5rem;
-        color: rgba(255, 255, 255, 0.8);
-        background-color: rgba(0, 31, 91, 0.5); /* Semi-transparent dark blue */
+        font-size: 4.5rem; /* Slightly smaller for modern feel */
+        color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(0, 31, 91, 0.6); 
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
+        width: 90px; /* Adjusted size */
+        height: 90px; /* Adjusted size */
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        z-index: 1; /* Above iframe, below controls if they overlap */
-        transition: background-color 0.3s ease, color 0.3s ease;
-        border: 3px solid rgba(255,255,255,0.5);
+        z-index: 2; /* Above interceptor, same level as non-hovered controls */
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        border: 2px solid rgba(255,255,255,0.4);
     }
-    .tmu-main-play-button:hover {
+    #tmuPlayerWrapper .tmu-main-play-button:hover {
         color: #fff;
-        background-color: rgba(255, 102, 0, 0.7); /* Orange accent on hover */
-        border-color: #fff;
-    }
-    .tmu-main-play-button.hidden {
-        display: none;
+        background-color: rgba(255, 102, 0, 0.75); 
+        border-color: rgba(255,255,255,0.7);
+        transform: translate(-50%, -50%) scale(1.1); /* Slight zoom on hover */
     }
 
-    /* Responsive adjustments */
+    /* Highly specific class to hide the main play button */
+    #tmuPlayerWrapper .tmu-main-play-button.tmu-main-play-button--hidden {
+        display: none !important; 
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
     @media (max-width: 768px) {
-        .tmu-video-title {
+        .tmu-video-section-title {
             font-size: 2rem;
         }
-        .tmu-custom-controls button {
+        #tmuPlayerWrapper .tmu-custom-controls .tmu-control-button {
             font-size: 1.1rem;
             margin-right: 10px;
         }
-        .tmu-time-display {
+        #tmuPlayerWrapper .tmu-time-display {
             font-size: 0.75rem;
             min-width: 75px;
         }
-        .tmu-main-play-button {
-            font-size: 4rem;
-            width: 80px;
-            height: 80px;
+        #tmuPlayerWrapper .tmu-main-play-button {
+            font-size: 3.5rem;
+            width: 70px;
+            height: 70px;
         }
     }
     @media (max-width: 480px) {
-        .tmu-video-click-interceptor {
-             height: calc(100% - 50px); /* Adjust for smaller controls bar */
-        }
-        .tmu-custom-controls {
+        #tmuPlayerWrapper .tmu-custom-controls {
             padding: 8px 10px;
         }
-        .tmu-time-display {
-            display: none; /* Hide time on very small screens to save space */
+        #tmuPlayerWrapper .tmu-time-display {
+            display: none; 
+        }
+         #tmuPlayerWrapper .tmu-progress-bar-container {
+            margin-right: 10px;
         }
     }
-
 </style>
-
     <!-- Page Title
                           ============================================= -->
     <section class="news-page-title page-title bg-transparent">
@@ -694,31 +716,27 @@
                         @if (!request()->ajax())
                             @php
                                 $insertCode = '
-                                 <section class="tmu-video-section">
+                               <section class="tmu-video-section-container">
         <div class="container">
-            <h2 class="tmu-video-title">Discover Teerthanker Mahaveer University</h2>
-            <div class="tmu-video-player-wrapper" id="tmuPlayerWrapper">
+            <h2 class="tmu-video-section-title">Discover Teerthanker Mahaveer University</h2>
+            <div id="tmuPlayerWrapper"> {/* Main Player Wrapper with ID now */}
                 <div class="ratio ratio-16x9">
-                    <!-- The Iframe will be inserted here by JavaScript -->
-                    <div id="youtubePlayer"></div>
+                    <div id="youtubePlayerApiContainer"></div> {/* Container for YT API to build player */}
                 </div>
 
-                <!-- Main Play Button Overlay -->
-                <div class="tmu-main-play-button ps-3" id="mainPlayButton">
-                    <i class="fas fa-play"></i>
+                <div class="tmu-main-play-button" id="tmuMainPlayBtn">
+                    <i class="fas fa-play ps-2"></i>
                 </div>
 
-                <!-- Transparent overlay to intercept clicks on YouTube logo/title -->
-                <!-- This also acts as a play/pause toggle for the main video area -->
-                <div class="tmu-video-click-interceptor" id="clickInterceptor"></div>
+                <div class="tmu-video-click-interceptor" id="tmuClickInterceptor"></div>
 
                 <div class="tmu-custom-controls">
-                    <button id="playPauseBtn" aria-label="Play"><i class="fas fa-play"></i></button>
+                    <button id="tmuPlayPauseBtn" class="tmu-control-button" aria-label="Play"><i class="fas fa-play"></i></button>
                     <div class="tmu-progress-bar-container">
-                        <input type="range" id="progressBar" value="0" min="0" max="100" class="tmu-progress-bar">
+                        <input type="range" id="tmuProgressBar" value="0" min="0" max="100" class="tmu-progress-bar">
                     </div>
-                    <div class="tmu-time-display" id="timeDisplay">0:00 / 0:00</div>
-                    <button id="fullscreenBtn" aria-label="Fullscreen"><i class="fas fa-expand"></i></button>
+                    <div class="tmu-time-display" id="tmuTimeDisplay">0:00 / 0:00</div>
+                    <button id="tmuFullscreenBtn" class="tmu-control-button" aria-label="Fullscreen"><i class="fas fa-expand"></i></button>
                 </div>
             </div>
         </div>
@@ -1525,6 +1543,200 @@
 
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        // --- YouTube Player Script (Wrapped in IIFE) ---
+        (function() {
+            let player;
+            const videoId = '71Qw7YYS_nM'; // Your YouTube Video ID
+
+            const playerWrapper = document.getElementById('tmuPlayerWrapper');
+            const playPauseBtn = document.getElementById('tmuPlayPauseBtn');
+            const playPauseIcon = playPauseBtn.querySelector('i');
+            const mainPlayButton = document.getElementById('tmuMainPlayBtn');
+            const mainPlayIcon = mainPlayButton.querySelector('i');
+            const progressBar = document.getElementById('tmuProgressBar');
+            const fullscreenBtn = document.getElementById('tmuFullscreenBtn');
+            const timeDisplay = document.getElementById('tmuTimeDisplay');
+            const clickInterceptor = document.getElementById('tmuClickInterceptor');
+
+            // Ensure all elements are found
+            if (!playerWrapper || !playPauseBtn || !mainPlayButton || !progressBar || !fullscreenBtn || !timeDisplay || !clickInterceptor) {
+                console.error("TMU Video Player: One or more essential DOM elements not found. Check IDs.");
+                return;
+            }
+
+            // This function is called by the YouTube API
+            window.onYouTubeIframeAPIReady = function() {
+                player = new YT.Player('youtubePlayerApiContainer', { // Target the new div ID
+                    height: '100%',
+                    width: '100%',
+                    videoId: videoId,
+                    playerVars: {
+                        'autoplay': 0,
+                        'controls': 0,
+                        'rel': 0,
+                        'showinfo': 0,
+                        'modestbranding': 1,
+                        'iv_load_policy': 3,
+                        'fs': 0,
+                        'disablekb': 1,
+                        'origin': window.location.origin // Important for some API functionalities
+                    },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            };
+
+            function onPlayerReady(event) {
+                updateProgressBar();
+                updateTotalTime();
+                playerWrapper.classList.add('tmu-player-paused'); // Initial state is paused
+                mainPlayButton.classList.remove('tmu-main-play-button--hidden'); // Ensure main play button is visible initially
+                mainPlayIcon.className = 'fas fa-play'; // Ensure icon is play
+            }
+
+            let progressInterval;
+
+            function onPlayerStateChange(event) {
+                playerWrapper.classList.remove('tmu-player-playing', 'tmu-player-paused', 'tmu-player-buffering', 'tmu-player-ended');
+
+                if (event.data === YT.PlayerState.PLAYING) {
+                    playPauseIcon.className = 'fas fa-pause';
+                    playPauseBtn.setAttribute('aria-label', 'Pause');
+                    mainPlayButton.classList.add('tmu-main-play-button--hidden');
+                    playerWrapper.classList.add('tmu-player-playing');
+                    progressInterval = setInterval(updateProgressBarAndTimes, 250);
+                } else {
+                    clearInterval(progressInterval); // Clear interval for any non-playing state
+                    playPauseIcon.className = 'fas fa-play';
+                    playPauseBtn.setAttribute('aria-label', 'Play');
+                    mainPlayButton.classList.remove('tmu-main-play-button--hidden');
+                    mainPlayIcon.className = 'fas fa-play'; // Ensure main button shows 'play'
+
+                    if (event.data === YT.PlayerState.PAUSED) {
+                        playerWrapper.classList.add('tmu-player-paused');
+                    } else if (event.data === YT.PlayerState.ENDED) {
+                        playerWrapper.classList.add('tmu-player-ended');
+                        playerWrapper.classList.add('tmu-player-paused'); // Visually it's like paused
+                        progressBar.value = 0;
+                        player.seekTo(0, false);
+                        // player.pauseVideo(); // API docs say it fires ENDED then PAUSED. This might be redundant or cause issues. Test.
+                        updateCurrentTime(0);
+                    } else if (event.data === YT.PlayerState.BUFFERING) {
+                        playerWrapper.classList.add('tmu-player-buffering');
+                        mainPlayButton.classList.add('tmu-main-play-button--hidden'); // Hide play button during buffer
+                    }
+                }
+                updateTotalTime(); // Ensure total time is up-to-date
+            }
+
+            function togglePlayPause() {
+                if (!player || typeof player.getPlayerState !== 'function') return;
+                const state = player.getPlayerState();
+                if (state === YT.PlayerState.PLAYING || state === YT.PlayerState.BUFFERING) {
+                    player.pauseVideo();
+                } else {
+                    player.playVideo();
+                }
+            }
+
+            function formatTime(timeInSeconds) {
+                const minutes = Math.floor(timeInSeconds / 60);
+                const seconds = Math.floor(timeInSeconds % 60);
+                return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            }
+            
+            function updateProgressBarAndTimes() {
+                if (!player || typeof player.getCurrentTime !== 'function' || typeof player.getDuration !== 'function') return;
+                const currentTime = player.getCurrentTime();
+                const duration = player.getDuration();
+                if (duration > 0) {
+                    progressBar.value = (currentTime / duration) * 100;
+                    updateCurrentTime(currentTime);
+                }
+            }
+
+            function updateTotalTime() {
+                if (!player || typeof player.getDuration !== 'function') return;
+                const duration = player.getDuration();
+                if (duration > 0) {
+                    const currentTimeVal = player.getCurrentTime() || 0;
+                    timeDisplay.textContent = `${formatTime(currentTimeVal)} / ${formatTime(duration)}`;
+                } else {
+                     timeDisplay.textContent = `0:00 / --:--`;
+                }
+            }
+
+            function updateCurrentTime(currentTime) {
+                if (!player || typeof player.getDuration !== 'function') return;
+                const duration = player.getDuration();
+                timeDisplay.textContent = `${formatTime(currentTime)} / ${formatTime(duration > 0 ? duration : 0)}`;
+            }
+
+            playPauseBtn.addEventListener('click', togglePlayPause);
+            mainPlayButton.addEventListener('click', togglePlayPause);
+            clickInterceptor.addEventListener('click', togglePlayPause);
+
+            progressBar.addEventListener('input', function() {
+                if (!player || typeof player.getDuration !== 'function') return;
+                const duration = player.getDuration();
+                if (duration > 0) {
+                    const newTime = duration * (progressBar.value / 100);
+                    player.seekTo(newTime, true);
+                    updateCurrentTime(newTime);
+                }
+            });
+             progressBar.addEventListener('mousemove', function(e) {
+                if (e.buttons === 1 && player && typeof player.getDuration === 'function') { 
+                    const duration = player.getDuration();
+                    if (duration > 0) {
+                        const rect = progressBar.getBoundingClientRect();
+                        const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+                        const scrubTime = duration * percent;
+                        updateCurrentTime(scrubTime);
+                    }
+                }
+            });
+
+
+            fullscreenBtn.addEventListener('click', function() {
+                const elem = playerWrapper;
+                if (!document.fullscreenElement) {
+                    if (elem.requestFullscreen) elem.requestFullscreen();
+                    else if (elem.mozRequestFullScreen) elem.mozRequestFullScreen();
+                    else if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
+                    else if (elem.msRequestFullscreen) elem.msRequestFullscreen();
+                } else {
+                    if (document.exitFullscreen) document.exitFullscreen();
+                    else if (document.mozCancelFullScreen) document.mozCancelFullScreen();
+                    else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+                    else if (document.msExitFullscreen) document.msExitFullscreen();
+                }
+            });
+
+            function handleFullscreenChange() {
+                const isFullscreen = !!(document.fullscreenElement || document.webkitIsFullScreen || document.mozFullScreenElement || document.msFullscreenElement);
+                if (isFullscreen) {
+                    fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
+                    fullscreenBtn.setAttribute('aria-label', 'Exit Fullscreen');
+                    playerWrapper.classList.add('tmu-player-fullscreen');
+                } else {
+                    fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
+                    fullscreenBtn.setAttribute('aria-label', 'Fullscreen');
+                    playerWrapper.classList.remove('tmu-player-fullscreen');
+                }
+            }
+
+            document.addEventListener('fullscreenchange', handleFullscreenChange);
+            document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+            document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+            document.addEventListener('MSFullscreenChange', handleFullscreenChange);
+
+        })(); // End of IIFE
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const pathList = [
@@ -1593,6 +1805,6 @@
     </script>
     <!-- Go To Top
                          ============================================= -->
-                         <!-- YouTube Iframe API -->
+       
     
 @endsection
