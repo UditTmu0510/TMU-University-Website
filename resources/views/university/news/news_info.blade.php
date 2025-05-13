@@ -1455,11 +1455,7 @@
 
         playPauseBtn.addEventListener('click', togglePlayPause);
         mainPlayButton.addEventListener('click', togglePlayPause);
-        clickInterceptor.addEventListener('click', function(event) {
-    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
-    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
-    togglePlayPause();       // Your existing function to play/pause the video.
-});
+        clickInterceptor.addEventListener('click', togglePlayPause);
 
 
         progressBar.addEventListener('input', function() {
@@ -1684,11 +1680,7 @@
 
             playPauseBtn.addEventListener('click', togglePlayPause);
             mainPlayButton.addEventListener('click', togglePlayPause);
-            clickInterceptor.addEventListener('click', function(event) {
-    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
-    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
-    togglePlayPause();       // Your existing function to play/pause the video.
-});
+            clickInterceptor.addEventListener('click', togglePlayPause);
 
             progressBar.addEventListener('input', function() {
                 if (!player || typeof player.getDuration !== 'function') return;
