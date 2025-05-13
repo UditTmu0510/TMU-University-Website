@@ -719,8 +719,32 @@
                         @if (!request()->ajax())
                             @php
                                 $insertCode = '
-                      <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;"></iframe>
-                        <div class="container-fluid mt-4 p-0">
+                              <section class="tmu-video-section-container">
+        <div class="container">
+            <div id="tmuPlayerWrapper">
+                <div class="ratio ratio-16x9">
+                    <div id="youtubePlayerApiContainer"></div> 
+                </div>
+
+                <div class="tmu-main-play-button ps-2" id="tmuMainPlayBtn">
+                    <i class="fas fa-play"></i>
+                </div>
+
+                <div class="tmu-video-click-interceptor" id="tmuClickInterceptor"></div>
+
+                <div class="tmu-custom-controls">
+                    <button id="tmuPlayPauseBtn" class="tmu-control-button" aria-label="Play"><i class="fas fa-play"></i></button>
+                    <div class="tmu-progress-bar-container">
+                        <input type="range" id="tmuProgressBar" value="0" min="0" max="100" class="tmu-progress-bar">
+                    </div>
+                    <div class="tmu-time-display" id="tmuTimeDisplay">0:00 / 0:00</div>
+                    <button id="tmuFullscreenBtn" class="tmu-control-button" aria-label="Fullscreen"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+                     
+                                <div class="container-fluid mt-4 p-0">
                             <div class="row d-flex align-items-center bg-section" style="min-height: 550px;">
                                 <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
                                     <span></span><span>Teerthanker Mahaveer University </span>
@@ -1305,226 +1329,7 @@
     </section><!-- #content end -->
 
     </div>
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script>
-        let player;
-        const videoId = '71Qw7YYS_nM'; // Your YouTube Video ID
 
-        const playerWrapper = document.getElementById('tmuPlayerWrapper');
-        const playPauseBtn = document.getElementById('playPauseBtn');
-        const playPauseIcon = playPauseBtn.querySelector('i');
-        const mainPlayButton = document.getElementById('mainPlayButton');
-        const mainPlayIcon = mainPlayButton.querySelector('i');
-        const progressBar = document.getElementById('progressBar');
-        const fullscreenBtn = document.getElementById('fullscreenBtn');
-        const timeDisplay = document.getElementById('timeDisplay');
-        const clickInterceptor = document.getElementById('clickInterceptor');
-
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player('youtubePlayer', {
-                height: '100%', // These are relative to the parent .ratio div
-                width: '100%',
-                videoId: videoId,
-                playerVars: {
-                    'autoplay': 0,        // Don't autoplay
-                    'controls': 0,        // Hide default YouTube controls
-                    'rel': 0,             // Don't show related videos at the end
-                    'showinfo': 0,        // Deprecated, but doesn't hurt
-                    'modestbranding': 1,  // Minimal YouTube logo
-                    'iv_load_policy': 3,  // Hide annotations
-                    'fs': 0,              // Hide YouTube's fullscreen button (we make our own)
-                    'disablekb': 1        // Disable keyboard controls (optional, if you want full custom control)
-                },
-                events: {
-                    'onReady': onPlayerReady,
-                    'onStateChange': onPlayerStateChange
-                }
-            });
-        }
-
-        function onPlayerReady(event) {
-            // Player is ready
-            updateProgressBar(); // Initialize progress bar
-            updateTotalTime(); // Show total duration
-
-            // Add class to wrapper to show controls when paused initially (if not autoplaying)
-            playerWrapper.classList.add('paused');
-        }
-
-        let progressInterval;
-
-        function onPlayerStateChange(event) {
-            if (event.data == YT.PlayerState.PLAYING) {
-                playPauseIcon.classList.remove('fa-play');
-                playPauseIcon.classList.add('fa-pause');
-                playPauseBtn.setAttribute('aria-label', 'Pause');
-                mainPlayButton.classList.add('hidden'); // Hide main play button
-                playerWrapper.classList.remove('paused');
-                playerWrapper.classList.add('playing');
-                progressInterval = setInterval(updateProgressBar, 250); // Update progress bar frequently
-            } else if (event.data == YT.PlayerState.PAUSED) {
-                playPauseIcon.classList.remove('fa-pause');
-                playPauseIcon.classList.add('fa-play');
-                playPauseBtn.setAttribute('aria-label', 'Play');
-                mainPlayButton.classList.remove('hidden'); // Show main play button
-                mainPlayIcon.classList.remove('fa-pause');
-                mainPlayIcon.classList.add('fa-play');
-                playerWrapper.classList.add('paused');
-                playerWrapper.classList.remove('playing');
-                clearInterval(progressInterval);
-            } else if (event.data == YT.PlayerState.ENDED) {
-                playPauseIcon.classList.remove('fa-pause');
-                playPauseIcon.classList.add('fa-play');
-                playPauseBtn.setAttribute('aria-label', 'Play');
-                mainPlayButton.classList.remove('hidden');
-                mainPlayIcon.classList.remove('fa-pause');
-                mainPlayIcon.classList.add('fa-play');
-                playerWrapper.classList.add('paused');
-                playerWrapper.classList.remove('playing');
-                clearInterval(progressInterval);
-                progressBar.value = 0; // Reset progress bar
-                player.seekTo(0, false); // Go to start but don't play
-                player.pauseVideo(); // Ensure it's fully paused
-                updateCurrentTime(0); // Reset current time display
-            }
-             updateTotalTime(); // Update total time as it might become available later
-        }
-
-        function togglePlayPause() {
-            if (player.getPlayerState() == YT.PlayerState.PLAYING) {
-                player.pauseVideo();
-            } else {
-                player.playVideo();
-            }
-        }
-
-        function formatTime(timeInSeconds) {
-            const minutes = Math.floor(timeInSeconds / 60);
-            const seconds = Math.floor(timeInSeconds % 60);
-            return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-        }
-
-        function updateProgressBar() {
-            const currentTime = player.getCurrentTime();
-            const duration = player.getDuration();
-            if (duration > 0) {
-                progressBar.value = (currentTime / duration) * 100;
-                updateCurrentTime(currentTime);
-            }
-        }
-
-        function updateTotalTime() {
-            const duration = player.getDuration();
-            if (duration > 0) {
-                const currentTimeVal = player.getCurrentTime() || 0;
-                timeDisplay.textContent = `${formatTime(currentTimeVal)} / ${formatTime(duration)}`;
-            }
-        }
-        function updateCurrentTime(currentTime) {
-            const duration = player.getDuration();
-            if (duration > 0) {
-                 timeDisplay.textContent = `${formatTime(currentTime)} / ${formatTime(duration)}`;
-            } else {
-                 timeDisplay.textContent = `${formatTime(currentTime)} / --:--`;
-            }
-        }
-
-
-        playPauseBtn.addEventListener('click', togglePlayPause);
-        mainPlayButton.addEventListener('click', togglePlayPause);
-        clickInterceptor.addEventListener('click', function(event) {
-    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
-    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
-    togglePlayPause();       // Your existing function to play/pause the video.
-});
-
-
-        progressBar.addEventListener('input', function() {
-            const duration = player.getDuration();
-            if (duration > 0) {
-                const newTime = duration * (progressBar.value / 100);
-                player.seekTo(newTime, true); // true: allow seek ahead
-                updateCurrentTime(newTime); // Update time display immediately
-            }
-        });
-        // Update time display while scrubbing for better UX
-        progressBar.addEventListener('mousemove', function(e) {
-            if (e.buttons === 1) { // Check if mouse button is pressed
-                const duration = player.getDuration();
-                if (duration > 0) {
-                    const rect = progressBar.getBoundingClientRect();
-                    const percent = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
-                    const scrubTime = duration * percent;
-                    updateCurrentTime(scrubTime);
-                }
-            }
-        });
-
-
-        fullscreenBtn.addEventListener('click', function() {
-            const videoElementContainer = playerWrapper; // The element to make fullscreen
-
-            if (!document.fullscreenElement &&    // Standard
-                !document.mozFullScreenElement && // Firefox
-                !document.webkitFullscreenElement && // Chrome, Safari and Opera
-                !document.msFullscreenElement) {  // IE/Edge
-
-                if (videoElementContainer.requestFullscreen) {
-                    videoElementContainer.requestFullscreen();
-                } else if (videoElementContainer.mozRequestFullScreen) { /* Firefox */
-                    videoElementContainer.mozRequestFullScreen();
-                } else if (videoElementContainer.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-                    videoElementContainer.webkitRequestFullscreen();
-                } else if (videoElementContainer.msRequestFullscreen) { /* IE/Edge */
-                    videoElementContainer.msRequestFullscreen();
-                }
-                fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                fullscreenBtn.setAttribute('aria-label', 'Exit Fullscreen');
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                } else if (document.mozCancelFullScreen) { /* Firefox */
-                    document.mozCancelFullScreen();
-                } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-                    document.webkitExitFullscreen();
-                } else if (document.msExitFullscreen) { /* IE/Edge */
-                    document.msExitFullscreen();
-                }
-                fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                fullscreenBtn.setAttribute('aria-label', 'Fullscreen');
-            }
-        });
-
-        // Listen for fullscreen changes to update button
-        document.addEventListener('fullscreenchange', handleFullscreenChange);
-        document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
-        document.addEventListener('mozfullscreenchange', handleFullscreenChange);
-        document.addEventListener('MSFullscreenChange', handleFullscreenChange);
-
-        function handleFullscreenChange() {
-            if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
-                fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                fullscreenBtn.setAttribute('aria-label', 'Fullscreen');
-            } else {
-                fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                fullscreenBtn.setAttribute('aria-label', 'Exit Fullscreen');
-            }
-        }
-
-        // Optional: Show controls when mouse enters the player wrapper and player exists
-        playerWrapper.addEventListener('mouseenter', () => {
-            if (player && typeof player.getPlayerState === 'function') { // Check if player is initialized
-                 playerWrapper.classList.add('hover'); // You can use this class for :hover styles too
-            }
-        });
-        playerWrapper.addEventListener('mouseleave', () => {
-            if (player && typeof player.getPlayerState === 'function') {
-                 playerWrapper.classList.remove('hover');
-            }
-        });
-
-
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
@@ -1661,7 +1466,12 @@
 
             playPauseBtn.addEventListener('click', togglePlayPause);
             mainPlayButton.addEventListener('click', togglePlayPause);
-            clickInterceptor.addEventListener('click', togglePlayPause);
+           // MODIFIED version for clickInterceptor's event listener
+clickInterceptor.addEventListener('click', function(event) {
+    event.stopPropagation(); // Crucial: Prevents the click from bubbling to the iframe below.
+    // event.preventDefault(); // Also consider this if your interceptor is an <a> or button element.
+    togglePlayPause();       // Your existing function to play/pause the video.
+});
 
             progressBar.addEventListener('input', function() {
                 if (!player || typeof player.getDuration !== 'function') return;
