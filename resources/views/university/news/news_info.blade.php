@@ -722,9 +722,9 @@
                                <section class="tmu-video-section-container">
         <div class="container">
             <h2 class="tmu-video-section-title">Discover Teerthanker Mahaveer University</h2>
-            <div id="tmuPlayerWrapper"> {/* Main Player Wrapper with ID now */}
+            <div id="tmuPlayerWrapper">
                 <div class="ratio ratio-16x9">
-                    <div id="youtubePlayerApiContainer"></div> {/* Container for YT API to build player */}
+                    <div id="youtubePlayerApiContainer"></div> 
                 </div>
 
                 <div class="tmu-main-play-button" id="tmuMainPlayBtn">
