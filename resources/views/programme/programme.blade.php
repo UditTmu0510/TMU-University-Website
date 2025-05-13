@@ -246,6 +246,7 @@
         @media screen and (max-width:992px){
             .framer{
                 width:90vw;
+                height:28vh;
         }
 
         }
