@@ -210,7 +210,6 @@
     <div class="container">
         <div class="row">
             <div class="justitfy-content-center">
-
                 @if ($programme->usp_section_flag == 'Y' && !empty($programme->about_prog))
                     <!-- Scholarship code start -->
                     <div class="container mt-2">
@@ -220,10 +219,7 @@
                                     <span>{{ $programme->prog_name }}</span>
                                 </h2>
                             </div>
-
                         </div>
-
-
                         {!! $programme->about_prog !!}
 
 
@@ -236,7 +232,7 @@
     </div>
 
     <div class="container">
-        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;"></iframe>
+        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;width:60vw;margin:auto;height:54vh;"></iframe>
     </div>
 
     <div class="container mt-4">
