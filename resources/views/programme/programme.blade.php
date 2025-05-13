@@ -234,6 +234,11 @@
 
         </div>
     </div>
+
+    <div class="container">
+        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;"></iframe>
+    </div>
+
     <div class="container mt-4">
         <div class="row d-flex">
             <div class="col-md-8">
