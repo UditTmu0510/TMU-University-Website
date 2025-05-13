@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>13, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Join our 4th National Conclave (Online) on “Contribution of Jain Mathematicians in the Indian Knowledge System” on 24 May 2025, 3:00–5:00 PM, free via Google Meet. Engage with experts and enrich your IKS heritage!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                                Centre for Indian Knowledge System</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            24, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>10, May</span>
                                     </div>
                                     <div class="notice-content">
