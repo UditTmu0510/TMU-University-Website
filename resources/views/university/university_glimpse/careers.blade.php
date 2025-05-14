@@ -124,7 +124,7 @@
         <div class="row flex-sm-row-reverse justify-content-center justify-content-lg-between col-mb-80">
             <div class="col-lg-5 col-8">
                 <div class="dotted-bg">
-                    <img src="/assets/img/udit.png" alt="Image 1" class="d-flex z-1 ms-auto w-100 position-relative" style="border-radius: 2rem;">
+                    <img src="/assets/img/Career-01.png" alt="Image 1" class="d-flex z-1 ms-auto w-100 position-relative" style="border-radius: 2rem;">
                 </div>
             </div>
             <div class="col-lg-7">
