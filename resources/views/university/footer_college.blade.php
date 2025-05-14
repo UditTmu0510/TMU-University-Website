@@ -698,7 +698,7 @@
 
 
 <div id="blurOverlay"></div> <!-- Blurred background -->
-<div class="modal fade" id="lawCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+{{-- <div class="modal fade" id="lawCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered custom-height-modal">
         <div class="modal-content border-0">
             <div class="modal-body p-0">
@@ -716,9 +716,9 @@
 
         </div>
     </div>
-</div>
+</div> --}}
 
-<div class="modal fade" id="enggCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+{{-- <div class="modal fade" id="enggCollegePopup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered custom-height-modal">
         <div class="modal-content border-0">
             <div class="modal-body p-0">
@@ -735,7 +735,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 
