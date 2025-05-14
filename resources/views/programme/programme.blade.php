@@ -454,7 +454,7 @@
     @if ($programme->faq_section_flag == 'Y')
         <section class="my-5">
             <div class="container">
-                <h2 class="tmu-text-primary fs-26 lh-sm mt-4 mb-0 pb-0 text-center">
+                <h2 class="tmu-text-primary fs-26 lh-sm mt-4 mb-3 pb-0 text-center">
                     <span>{{ str_ireplace('programme', '', $programme->prog_name) }}</span><span> Programme Overview
                     </span>
                 </h2>
