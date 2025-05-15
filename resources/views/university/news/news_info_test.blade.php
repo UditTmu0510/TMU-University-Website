@@ -75,6 +75,7 @@
             }
         }
     </style>
+     <link rel="stylesheet" href="{{asset('assets/css/custom-player.css')}}" />
 
 
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 starts here --}}
@@ -242,7 +243,19 @@
     </style>
 
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
+    {{-- Custom Player style --}}
+    <style>
+        .plyr__video-embed iframe {
+      pointer-events: none; /* prevents interaction */
+    }
 
+    .player-wrapper {
+      max-width: 960px;
+      margin: 50px auto;
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+    </style>
 
     <!-- Page Title
                           ============================================= -->
@@ -353,7 +366,8 @@
 
                                     if (!request()->ajax()) {
                                         $insertCode =
-                                            '<div class="container-fluid mt-4 p-0">
+                                            '<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+                                            <div class="container-fluid mt-4 p-0">
     <div class="row d-flex align-items-center bg-section" 
         style="min-height: 550px; 
                background: url(\'' .
@@ -924,6 +938,31 @@
             e.preventDefault(); // Ignore errors from other scripts
         }, true);
     </script>
+
+    <!-- Plyr JS -->
+<script src="{{ asset('assets/js/customplayer.js') }}"></script>
+
+<script>
+  const player = new Plyr('#player', {
+    controls: [
+      'play', 
+      'rewind', 
+      'fast-forward', 
+      'progress', 
+      'current-time', 
+      'duration', 
+      'mute', 
+      'volume', 
+      'fullscreen'
+    ],
+    youtube: {
+      noCookie: true,
+      modestbranding: 1,
+      rel: 0,
+      showinfo: 0
+    }
+  });
+</script>
 
     <!-- Go To Top
                          ============================================= -->
