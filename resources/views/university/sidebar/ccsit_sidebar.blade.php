@@ -15,7 +15,7 @@
                 <p>College Highlights</p>
             </a>
             <a href="{{ route('ccsit.principal') }}" class="custom-menu-item {{ setActive('ccsit.principal') }}">
-                <p>Principal</p>
+                <p>Dean's Desk</p>
             </a>
             <a href="{{ route('ccsit.gallery') }}" class="custom-menu-item {{ setActive('ccsit.gallery') }}">
                 <p>Gallery</p>
