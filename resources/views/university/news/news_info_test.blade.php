@@ -947,31 +947,47 @@
     <!-- Plyr JS -->
     <script src="{{ asset('assets/js/customplayer.js') }}"></script>
 
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const player = new Plyr('#player', {
-            controls: [
-                'play',
-                'rewind',
-                'fast-forward',
-                'progress',
-                'current-time',
-                'duration',
-                'mute',
-                'volume',
-                'fullscreen'
-            ],
-            youtube: {
-                noCookie: true,
-                modestbranding: 1,
-                rel: 0,
-                showinfo: 0,
-                cc_load_policy: 0,        // Disable subtitles
-                cc_lang_pref: ''          // Prevent forcing any language
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const player = new Plyr('#player', {
+        controls: [
+            'play',
+            'rewind',
+            'fast-forward',
+            'progress',
+            'current-time',
+            'duration',
+            'mute',
+            'volume',
+            'fullscreen'
+        ],
+        youtube: {
+            noCookie: true,
+            modestbranding: 1,
+            rel: 0,
+            showinfo: 0,
+            cc_load_policy: 0
+        }
+    });
+
+    // Safe toggle using Plyr's API
+    player.on('ready', () => {
+        // Plyr provides a `.elements.container` that is reliable
+        player.elements.container.addEventListener('click', function (e) {
+            // Prevent toggle if clicking controls
+            if (e.target.closest('.plyr__controls')) return;
+
+            if (player.playing) {
+                player.pause();
+            } else {
+                player.play();
             }
         });
     });
+});
+
 </script>
+
 
 
     <!-- Go To Top
