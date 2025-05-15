@@ -430,6 +430,7 @@
             border-radius: 20px;
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
     <!-- Page Title
                               ============================================= -->
     <section class="news-page-title page-title bg-transparent">
