@@ -245,7 +245,37 @@
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
     {{-- Custom Player style --}}
     <style>
-        
+        .video-wrapper {
+            position: relative;
+            max-width: 960px;
+            margin: 0 auto;
+            aspect-ratio: 16/9;
+        }
+
+        .custom-play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            font-size: 3rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .custom-play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
 
 
         .player-wrapper {
@@ -255,13 +285,13 @@
             background: #000;
         }
 
-        .plyr{
+        .plyr {
             border-radius: 20px;
         }
     </style>
 
     <!-- Page Title
-                              ============================================= -->
+                                  ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -287,7 +317,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-                              ============================================= -->
+                                  ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -295,18 +325,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-                                  ============================================= -->
+                                      ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-                                   ============================================= -->
+                                       ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-                                   ============================================= -->
+                                       ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -328,7 +358,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-                                   ============================================= -->
+                                       ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -337,7 +367,7 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-                                   ============================================= -->
+                                       ============================================= -->
 
                         <style>
                             @keyframes blinkColor {
@@ -369,7 +399,12 @@
 
                                     if (!request()->ajax()) {
                                         $insertCode =
-                                            '<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+                                            '<div class="video-wrapper">
+                <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+                <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
+                    <i class="fas fa-play" id="playIcon"></i>
+                </button>
+            </div>
                                             <div class="container-fluid mt-4 p-0">
     <div class="row d-flex align-items-center bg-section" 
         style="min-height: 550px; 
@@ -625,7 +660,7 @@
                                 </div>
                             </div>
                             <!-- Tag Cloud
-                                    ============================================= -->
+                                        ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -714,7 +749,7 @@
                     </div> --}}
 
                     <!-- Comments
-                                  ============================================= -->
+                                      ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -947,13 +982,11 @@
     <!-- Plyr JS -->
     <script src="{{ asset('assets/js/customplayer.js') }}"></script>
 
-<script>
-   document.addEventListener("DOMContentLoaded", function () {
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
     const player = new Plyr('#player', {
         controls: [
             'play',
-            'rewind',
-            'fast-forward',
             'progress',
             'current-time',
             'duration',
@@ -970,26 +1003,32 @@
         }
     });
 
-    // Safe toggle using Plyr's API
-    player.on('ready', () => {
-        // Plyr provides a `.elements.container` that is reliable
-        player.elements.container.addEventListener('click', function (e) {
-            // Prevent toggle if clicking controls
-            if (e.target.closest('.plyr__controls')) return;
+    const customPlayBtn = document.getElementById('customPlayBtn');
+    const playIcon = document.getElementById('playIcon');
 
+    player.on('ready', () => {
+        customPlayBtn.addEventListener('click', () => {
             if (player.playing) {
                 player.pause();
             } else {
                 player.play();
             }
         });
+
+        player.on('play', () => {
+            customPlayBtn.style.display = 'none';
+        });
+
+        player.on('pause', () => {
+            customPlayBtn.style.display = 'flex';
+        });
     });
 });
 
-</script>
+    </script>
 
 
 
     <!-- Go To Top
-                             ============================================= -->
+                                 ============================================= -->
 @endsection
