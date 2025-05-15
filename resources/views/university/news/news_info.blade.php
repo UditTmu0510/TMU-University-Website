@@ -521,12 +521,12 @@
                             @if (!request()->ajax())
                                 @php
                                     $insertCode = '
-                      <div class="video-wrapper">
+                        <div class="video-wrapper">
                         <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
                         <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
                             <i class="fas fa-play" id="playIcon"></i>
                         </button>
-                    </div>
+                        </div>
                         <div class="container-fluid mt-4 p-0">
                             <div class="row d-flex align-items-center bg-section" style="min-height: 550px;">
                                 <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
