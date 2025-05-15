@@ -948,6 +948,7 @@
     <script src="{{ asset('assets/js/customplayer.js') }}"></script>
 
     <script>
+    document.addEventListener("DOMContentLoaded", function () {
         const player = new Plyr('#player', {
             controls: [
                 'play',
@@ -965,10 +966,13 @@
                 modestbranding: 1,
                 rel: 0,
                 showinfo: 0,
-                cc_load_policy: 0
+                cc_load_policy: 0,        // Disable subtitles
+                cc_lang_pref: ''          // Prevent forcing any language
             }
         });
-    </script>
+    });
+</script>
+
 
     <!-- Go To Top
                              ============================================= -->
