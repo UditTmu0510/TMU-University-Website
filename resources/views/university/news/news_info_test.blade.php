@@ -75,7 +75,7 @@
             }
         }
     </style>
-     <link rel="stylesheet" href="{{asset('assets/css/custom-player.css')}}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
 
 
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 starts here --}}
@@ -245,20 +245,23 @@
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
     {{-- Custom Player style --}}
     <style>
-        .plyr__video-embed iframe {
-      pointer-events: none; /* prevents interaction */
-    }
+        
 
-    .player-wrapper {
-      max-width: 960px;
-      margin: 50px auto;
-      aspect-ratio: 16 / 9;
-      background: #000;
-    }
+
+        .player-wrapper {
+            max-width: 960px;
+            margin: 50px auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+        }
+
+        .plyr{
+            border-radius: 20px;
+        }
     </style>
 
     <!-- Page Title
-                          ============================================= -->
+                              ============================================= -->
     <section class="news-page-title page-title bg-transparent">
         <div class="container">
             <div class="page-title-row">
@@ -284,7 +287,7 @@
     </section><!-- .page-title end -->
 
     <!-- Content
-                          ============================================= -->
+                              ============================================= -->
     <section id="content">
         <div class="content-wrap">
             <div class="container col-12 col-md-7">
@@ -292,18 +295,18 @@
                 <div class="single-post mb-0">
 
                     <!-- Single Post
-                              ============================================= -->
+                                  ============================================= -->
                     <div class="entry">
 
                         <!-- Entry Title
-                               ============================================= -->
+                                   ============================================= -->
                         <div class="entry-title mb-3">
                             <h1 class="tmu-text-primary"><span>{{ html_entity_decode($news->event_title) }}
                                 </span><span></span></h1>
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Meta
-                               ============================================= -->
+                                   ============================================= -->
                         <div class="entry-meta  ">
                             <ul>
                                 <li style="margin: 0 0 8px 0;"><i
@@ -325,7 +328,7 @@
                         </div><!-- .entry-meta end -->
 
                         <!-- Entry Image
-                               ============================================= -->
+                                   ============================================= -->
                         <div class="entry-image mb-5">
                             <a href="#">
                                 <img src="{{ isset($news->ei1_path) && file_exists(public_path($news->ei1_path)) ? asset($news->ei1_path) : asset('uploads/events/past_event/default_banner_news.jpg') }}"
@@ -334,7 +337,7 @@
                         </div><!-- .entry-image end -->
 
                         <!-- Entry Content
-                               ============================================= -->
+                                   ============================================= -->
 
                         <style>
                             @keyframes blinkColor {
@@ -469,8 +472,10 @@
                             <div class="insta-grid-container container">
                                 <div class="insta-grid-header text-center mb-4">
                                     <div class="d-flex gap-3 justify-content-center align-items-center pe-4">
-                                        <img src="{{asset('/assets/img/insta_grid/tmu-insta-logo.jpg')}}" alt="TMU Logo" class="insta-grid-logo">
-                                        <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div class="d-none d-md-block"></div> University
+                                        <img src="{{ asset('/assets/img/insta_grid/tmu-insta-logo.jpg') }}" alt="TMU Logo"
+                                            class="insta-grid-logo">
+                                        <h4 class="insta-grid-title text-start">Teerthanker Mahaveer <div
+                                                class="d-none d-md-block"></div> University
                                             <p class="insta-grid-handle">@tmu_mbd</p>
                                         </h4>
                                     </div>
@@ -620,7 +625,7 @@
                                 </div>
                             </div>
                             <!-- Tag Cloud
-                                ============================================= -->
+                                    ============================================= -->
                             {{-- <h3 class="mb-2">Categories</h3>
                             <div class="tagcloud mb-5">
                                 <a href="#">general</a>
@@ -709,7 +714,7 @@
                     </div> --}}
 
                     <!-- Comments
-                              ============================================= -->
+                                  ============================================= -->
                     {{-- <div id="comments">
 
                         <h3 id="comments-title"><span>3</span> Comments</h3>
@@ -940,30 +945,30 @@
     </script>
 
     <!-- Plyr JS -->
-<script src="{{ asset('assets/js/customplayer.js') }}"></script>
+    <script src="{{ asset('assets/js/customplayer.js') }}"></script>
 
-<script>
-  const player = new Plyr('#player', {
-    controls: [
-      'play', 
-      'rewind', 
-      'fast-forward', 
-      'progress', 
-      'current-time', 
-      'duration', 
-      'mute', 
-      'volume', 
-      'fullscreen'
-    ],
-    youtube: {
-      noCookie: true,
-      modestbranding: 1,
-      rel: 0,
-      showinfo: 0
-    }
-  });
-</script>
+    <script>
+        const player = new Plyr('#player', {
+            controls: [
+                'play',
+                'rewind',
+                'fast-forward',
+                'progress',
+                'current-time',
+                'duration',
+                'mute',
+                'volume',
+                'fullscreen'
+            ],
+            youtube: {
+                noCookie: true,
+                modestbranding: 1,
+                rel: 0,
+                showinfo: 0
+            }
+        });
+    </script>
 
     <!-- Go To Top
-                         ============================================= -->
+                             ============================================= -->
 @endsection
