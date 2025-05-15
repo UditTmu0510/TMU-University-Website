@@ -9,6 +9,9 @@
             <a href="{{ route('student.clubs') }}" class="custom-menu-item {{ setActive('student.clubs') }}">
                 <p>Student Club</p>
             </a>
+            <a href="{{ route('student.club.flyers') }}" class="custom-menu-item {{ setActive('student.club.flyers') }}">
+                <p>Event Flyers</p>
+            </a>
             <a href="{{ route('advertisement.club') }}" class="custom-menu-item {{ setActive('advertisement.club') }}">
                 <p>Advertisement Club</p>
             </a>

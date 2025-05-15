@@ -1,4 +1,4 @@
-@extends('layouts.university.departments.quicklinks_with_sidebar')
+@extends('layouts.university.departments.sc_with_sidebar')
 @section('content')
     <!-- Lightbox2 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
