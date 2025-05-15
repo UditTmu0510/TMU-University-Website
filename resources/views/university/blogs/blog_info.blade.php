@@ -667,7 +667,6 @@
 </div>
 </div>
 </div>
-</div>
 
 <style>
 @media (max-width: 991.98px) {
