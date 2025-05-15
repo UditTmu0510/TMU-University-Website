@@ -509,6 +509,53 @@
         }
     </style>
 
+    <style>
+        .video-wrapper {
+            position: relative;
+            max-width: 960px;
+            margin: 0 auto;
+            aspect-ratio: 16/9;
+        }
+
+        .custom-play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            font-size: 3rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .custom-play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+
+
+        .player-wrapper {
+            max-width: 960px;
+            margin: 50px auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+        }
+
+        .plyr {
+            border-radius: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
+
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
 
     <!-- Page Title -->
@@ -595,7 +642,12 @@
 
                                         if (!request()->ajax()) {
                                             $insertCode =
-                                                '<iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:20px;"></iframe><div class="container-fluid mt-4 p-0">
+                                                '<div class="video-wrapper">
+                        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+                        <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
+                            <i class="fas fa-play" id="playIcon"></i>
+                        </button>
+                        </div>
 <div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .
                                                 asset('uploads/blogs/banner_blog_npf.png') .
                                                 '\') no-repeat left center / cover;">
@@ -1420,6 +1472,55 @@ max-width: 600px;
             }
             e.preventDefault(); // Ignore errors from other scripts
         }, true);
+    </script>
+
+
+    <!-- Plyr JS -->
+    <script src="{{ asset('assets/js/customplayer.js') }}"></script>
+
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+    const player = new Plyr('#player', {
+        controls: [
+            'play',
+            'progress',
+            'current-time',
+            'duration',
+            'mute',
+            'volume',
+            'fullscreen'
+        ],
+        youtube: {
+            noCookie: true,
+            modestbranding: 1,
+            rel: 0,
+            showinfo: 0,
+            cc_load_policy: 0
+        }
+    });
+
+    const customPlayBtn = document.getElementById('customPlayBtn');
+    const playIcon = document.getElementById('playIcon');
+
+    player.on('ready', () => {
+        customPlayBtn.addEventListener('click', () => {
+            if (player.playing) {
+                player.pause();
+            } else {
+                player.play();
+            }
+        });
+
+        player.on('play', () => {
+            customPlayBtn.style.display = 'none';
+        });
+
+        player.on('pause', () => {
+            customPlayBtn.style.display = 'flex';
+        });
+    });
+});
+
     </script>
 
 
