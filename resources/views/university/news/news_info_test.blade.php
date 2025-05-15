@@ -245,15 +245,7 @@
     {{-- Insta Grid Styling code created by Udit Gupta 18-April-2025 ends here --}}
     {{-- Custom Player style --}}
     <style>
-        /* ✅ Do not block pointer-events */
-        .plyr__video-embed iframe {
-        pointer-events: auto !important;
-        }
-
-        /* ✅ Optional: prevent "Watch on YouTube" overlay (this is mostly handled by modestbranding and rel) */
-        .plyr__video-embed iframe::-webkit-media-controls-enclosure {
-        display: none !important;
-        }
+        
 
 
         .player-wrapper {
@@ -261,7 +253,10 @@
             margin: 50px auto;
             aspect-ratio: 16 / 9;
             background: #000;
-            border-radius: 40px;
+        }
+
+        .plyr{
+            border-radius: 20px;
         }
     </style>
 
