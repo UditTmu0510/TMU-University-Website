@@ -14,9 +14,9 @@
             <a href="{{ route('ccsit.highlights') }}" class="custom-menu-item {{ setActive('ccsit.highlights') }}">
                 <p>College Highlights</p>
             </a>
-            {{-- <a href="{{ route('ccsit.principal') }}" class="custom-menu-item {{ setActive('ccsit.principal') }}">
+            <a href="{{ route('ccsit.principal') }}" class="custom-menu-item {{ setActive('ccsit.principal') }}">
                 <p>Principal</p>
-            </a> --}}
+            </a>
             <a href="{{ route('ccsit.gallery') }}" class="custom-menu-item {{ setActive('ccsit.gallery') }}">
                 <p>Gallery</p>
             </a>
