@@ -804,7 +804,7 @@ Route::get('/faculty-of-engineering/study-material', [EngineeringController::cla
 Route::get('/college-of-computing-sciences-and-it', [CcsitController::class, 'index'])->name('ccsit.home');
 Route::get('/college-of-computing-sciences-and-it/about-us', [CcsitController::class, 'ccsit_overview'])->name('ccsit.about.us');
 Route::get('/college-of-computing-sciences-and-it/college-highlight', [CcsitController::class, 'ccsit_highlights'])->name('ccsit.highlights');
-Route::get('/college-of-computing-sciences-and-it/principal', [CcsitController::class, 'ccsit_principal'])->name('ccsit.principal');
+// Route::get('/college-of-computing-sciences-and-it/principal', [CcsitController::class, 'ccsit_principal'])->name('ccsit.principal');
 Route::get('/college-of-computing-sciences-and-it/college-gallery', [CcsitController::class, 'ccsit_gallery'])->name('ccsit.gallery');
 Route::get('/college-of-computing-sciences-and-it/academic-calendar', [CcsitController::class, 'ccsit_academic_calendar'])->name('ccsit.academic.calendar');
 Route::get('/college-of-computing-sciences-and-it/corporate-advisory-board', [CcsitController::class, 'ccsit_corporate_advisory'])->name('ccsit.corporate.advisory');
