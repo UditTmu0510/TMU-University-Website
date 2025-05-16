@@ -80,24 +80,24 @@
     </style>
 
     <!-- <div class="container">
-                        <div class="sidebar-contact">
-                            <div class="toggle-side">
-                                <p class="vericaltext fs-16">Enquire now</p>
-                            </div>
-                            <h2 class="fs-24 tmu-text-primary mb-1"><span>Contact </span><span> Us</span></h2>
-                            <div class="scroll">
-                                <form>
-                                    <input type="text" name="" placeholder="Name">
-                                    <input type="email" name="" placeholder="Email">
-                                    <input type="rel" name="" placeholder="Phone Number">
-                                    <textarea placeholder="Message here.."></textarea>
-                                    <input type="submit" name="" value="Send" class="tmu-btn btn-1 pt-1">
-                                </form>
-                            </div>
-                        </div>
-                    </div> -->
+                                <div class="sidebar-contact">
+                                    <div class="toggle-side">
+                                        <p class="vericaltext fs-16">Enquire now</p>
+                                    </div>
+                                    <h2 class="fs-24 tmu-text-primary mb-1"><span>Contact </span><span> Us</span></h2>
+                                    <div class="scroll">
+                                        <form>
+                                            <input type="text" name="" placeholder="Name">
+                                            <input type="email" name="" placeholder="Email">
+                                            <input type="rel" name="" placeholder="Phone Number">
+                                            <textarea placeholder="Message here.."></textarea>
+                                            <input type="submit" name="" value="Send" class="tmu-btn btn-1 pt-1">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div> -->
     <!-- Slider
-                      ============================================= -->
+                              ============================================= -->
     @php
         $programme_banner_path = $programme->programme_banner_path;
         $programme_brochure_path = $programme->programme_brochure_path;
@@ -150,15 +150,15 @@
 
     @if (!empty($programme_brochure_path) && $programme->video_section_flag == 'Y')
         <!-- <div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url({{ asset($programme_brochure_path) }});">
-                            <div class="ban-text">
-                                <div class="col-xs-6 ban-text">
-                                    <h1 class="display-4 fw-bolder ls-n-1 text-light fs-5 mb-3 mt-3 text-center">
-                                        Build Your Future with {{ $programme->prog_name }}
-                                    </h1>
-                                    <a class="my-button-blk tmu-btn btn-1 px-5 py-2 d-block mx-auto w-fit-content" href="https://admissions.tmu.ac.in/">Apply Now</a>
-                                </div>
-                            </div>
-                        </div> -->
+                                    <div class="ban-text">
+                                        <div class="col-xs-6 ban-text">
+                                            <h1 class="display-4 fw-bolder ls-n-1 text-light fs-5 mb-3 mt-3 text-center">
+                                                Build Your Future with {{ $programme->prog_name }}
+                                            </h1>
+                                            <a class="my-button-blk tmu-btn btn-1 px-5 py-2 d-block mx-auto w-fit-content" href="https://admissions.tmu.ac.in/">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div> -->
         <div class="banner d-block d-sm-none">
             <!-- Image Div -->
             <div class="ban-image">
@@ -191,8 +191,8 @@
                 </h2>
 
                 <!-- <h2 class="display-4 fw-bolder ls-n-1 text-light mb-3 mt-3" style="font-size:1rem;">
-                                Build Your Future with {{ $programme->prog_name }}
-                            </h2> -->
+                                        Build Your Future with {{ $programme->prog_name }}
+                                    </h2> -->
                 @if (in_array($programme->cd_id, [2, 3]) || $programme->apply_now_button_flag == 'N')
                     <!-- If cd_id is 2 or 3, disable the button -->
                 @else
@@ -232,28 +232,79 @@
     </div>
 
     <style>
-        .framer{
-            border-radius:20px;
-            width:60vw;
-            margin:auto;
-            height:54vh;
+        .framer {
+            border-radius: 20px;
+            width: 60vw;
+            margin: auto;
+            height: 54vh;
         }
-        @media screen and (max-width:992px){
-            .framer{
-            height:24vh;
+
+        @media screen and (max-width:992px) {
+            .framer {
+                height: 24vh;
+            }
         }
-    }
-        @media screen and (max-width:992px){
-            .framer{
-                width:90vw;
-                height:28vh;
-        }
+
+        @media screen and (max-width:992px) {
+            .framer {
+                width: 90vw;
+                height: 28vh;
+            }
 
         }
     </style>
 
-    <div class="container d-flex mt-4">
-        <iframe width="405" height="228" src="https://www.youtube.com/embed/71Qw7YYS_nM" title="Admissions Open at Top Private University in India for 2025-26 | Teerthanker Mahaveer University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="framer"></iframe>
+    <style>
+        .video-wrapper {
+            position: relative;
+            max-width: 960px;
+            margin: 0 auto;
+            aspect-ratio: 16/9;
+        }
+
+        .custom-play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            font-size: 3rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .custom-play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+
+
+        .player-wrapper {
+            max-width: 960px;
+            margin: 50px auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+        }
+
+        .plyr {
+            border-radius: 20px;
+        }
+    </style>
+
+    <div class="video-wrapper">
+        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+        <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
+            <i class="fas fa-play" id="playIcon"></i>
+        </button>
     </div>
 
     <div class="container mt-4">
@@ -277,8 +328,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 text-center mt-4">
-                    <h2 class="tmu-text-primary fs-26 mb-2 pb-0 text-center"><span>{{ str_ireplace(['programme', 'at tmu'], '', $programme->prog_name) }}
-                        </span><span>Fees</span></h2>
+                    <h2 class="tmu-text-primary fs-26 mb-2 pb-0 text-center">
+                        <span>{{ str_ireplace(['programme', 'at tmu'], '', $programme->prog_name) }}
+                        </span><span>Fees</span>
+                    </h2>
 
                 </div>
             </div>
@@ -365,7 +418,7 @@
 
 
     <!-- Eligiblity code start
-                      ============================================= -->
+                              ============================================= -->
     @if (
         $programme->eligibility_section_flag == 'Y' &&
             !empty($programme->eligibility) &&
@@ -477,12 +530,12 @@
 
 
                 <!-- <div class="row mx-0">
-                                @foreach ($faqs as $faq)
+                                        @foreach ($faqs as $faq)
     <button class="careers-accordion"><span> <i class="fa-solid fa-sm fakash"></i>&nbsp;&nbsp;{{ $faq->faq_question }}</span> <span class="icon">+</span></button>
-                                <div class="panel {{ $index == 0 ? 'active' : '' }}"> @php echo $faq->faq_answer @endphp</div>
-                                <hr class="horizontal-line">
+                                        <div class="panel {{ $index == 0 ? 'active' : '' }}"> @php echo $faq->faq_answer @endphp</div>
+                                        <hr class="horizontal-line">
     @endforeach
-                            </div> -->
+                                    </div> -->
             </div>
         </section>
     @endif
@@ -496,29 +549,79 @@
         document.body.appendChild(s);
     </script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const urlPath = window.location.pathname.toLowerCase();
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlPath = window.location.pathname.toLowerCase();
 
-        // Check for MDS programme in URL
-        if (urlPath.includes('/programme/mds')) {
-            const rows = document.querySelectorAll('table tbody tr');
+            // Check for MDS programme in URL
+            if (urlPath.includes('/programme/mds')) {
+                const rows = document.querySelectorAll('table tbody tr');
 
-            rows.forEach(row => {
-                const cells = row.querySelectorAll('td.fee_details_fetch');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td.fee_details_fetch');
 
-                if (cells.length >= 2) {
-                    const feeTypeText = cells[0].innerText.trim().toLowerCase(); // "Examination Fee"
-                    const amountCell = cells[1];
+                    if (cells.length >= 2) {
+                        const feeTypeText = cells[0].innerText.trim().toLowerCase(); // "Examination Fee"
+                        const amountCell = cells[1];
 
-                    if (feeTypeText.includes('examination fee') && amountCell.innerHTML.includes('per Year')) {
-                        amountCell.innerHTML = amountCell.innerHTML.replace(/per Year/i, 'Whole Programme');
+                        if (feeTypeText.includes('examination fee') && amountCell.innerHTML.includes(
+                                'per Year')) {
+                            amountCell.innerHTML = amountCell.innerHTML.replace(/per Year/i,
+                                'Whole Programme');
+                        }
                     }
+                });
+            }
+        });
+    </script>
+
+
+    <!-- Plyr JS -->
+    <script src="{{ asset('assets/js/customplayer.js') }}"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const player = new Plyr('#player', {
+                controls: [
+                    'play',
+                    'progress',
+                    'current-time',
+                    'duration',
+                    'mute',
+                    'volume',
+                    'fullscreen'
+                ],
+                youtube: {
+                    noCookie: true,
+                    modestbranding: 1,
+                    rel: 0,
+                    showinfo: 0,
+                    cc_load_policy: 0
                 }
             });
-        }
-    });
-</script>
+
+            const customPlayBtn = document.getElementById('customPlayBtn');
+            const playIcon = document.getElementById('playIcon');
+
+            player.on('ready', () => {
+                customPlayBtn.addEventListener('click', () => {
+                    if (player.playing) {
+                        player.pause();
+                    } else {
+                        player.play();
+                    }
+                });
+
+                player.on('play', () => {
+                    customPlayBtn.style.display = 'none';
+                });
+
+                player.on('pause', () => {
+                    customPlayBtn.style.display = 'flex';
+                });
+            });
+        });
+    </script>
 
 
 
