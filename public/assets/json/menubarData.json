@@ -159,24 +159,22 @@
                 }
             },
             "Engineering": {
-                "BTech (Mechanical Engineering)": {
+                "BTech (AICTE Approved) in Mechanical Engineering": {
                     "link": "\/programme\/b-tech-in-mechanical-engineering"
                 },
-                "BTech (Electrical Engineering)": {
+                "BTech (AICTE Approved) in Electrical Engineering": {
                     "link": "\/programme\/btech-electrical-engineering"
                 },
-                "BTech (Electronics & Communication Engineering)": {
+                "BTech (AICTE Approved) in Electronics & Communication Engineering": {
                     "link": "\/programme\/b-tech-in-electronics-communicationec-engineering-programme"
                 },
-                "B.Tech. (Civil Engineering)": {
+                "BTech (AICTE Approved) in Civil Engineering": {
                     "link": "\/programme\/b-tech-in-civil-engineering-programme"
                 },
-                "BTech (Computer & Communication Engineering)": {
-                    "link": "\/programme\/btech-computer-and-communication-engineering"
-                },
-                "BTech (ECE Internet of Things) (in Collaboration with TCS iON)": {
-                    "link": "\/programme\/btech-ece-internet-of-things"
+                "BTech (AICTE Approved) in Computer Science & Engineering": {
+                    "link": "\/programme\/btech-cse"
                 }
+              
             },
             "Fine Arts": {
                 "BFA (Hons / Hons with Research)": {
