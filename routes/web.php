@@ -618,6 +618,7 @@ Route::get('/student-club/videograpgy-club', [ClubsController::class, 'videograp
 Route::get('/student-club/yoga-club', [ClubsController::class, 'yoga_club'])->name('yoga.club');
 Route::get('/student-club', [ClubsController::class, 'student_clubs'])->name('student.clubs');
 Route::get('/student-club/club-flyers', [ClubsController::class, 'student_club_flyers'])->name('student.club.flyers');
+Route::get('/student-club/gallery', [ClubsController::class, 'student_club_gallery'])->name('student.club.gallery');
 
 
 // Footer links 
