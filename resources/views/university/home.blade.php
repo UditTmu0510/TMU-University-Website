@@ -447,18 +447,18 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>13, May</span>
+                                        <span>15, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>Join our 4th National Conclave (Online) on “Contribution of Jain Mathematicians in the Indian Knowledge System” on 24 May 2025, 3:00–5:00 PM, free via Google Meet. Engage with experts and enrich your IKS heritage!</p>
+                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a workshop on “Simplifying Class II Composite Restorations – Blending Technique, Technology, and Innovations” under the aegis of IIC on 20th May 2025. Join us for clinical excellence!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                                Centre for Indian Knowledge System</span>
+                                               Dental College and Research Centre</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                            24, May</span>
+                                            20, May</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
@@ -971,72 +971,6 @@
                                             CCSIT</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11,
                                             March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>28, February</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Innovation & Incubation Cell, Faculty of Engineering, presents an inspiring
-                                            Motivational Session by Successful Innovators featuring Mr. Pradeep Gupta,
-                                            Assistant Professor, Animation Department, CCSIT. Join us on 3rd March 2025
-                                            (Monday) at LT 2 to explore his remarkable journey of innovation and success.
-                                        </p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            Fcaulty of Engineering</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 03,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>12, February</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Teerthanker Mahaveer University, Moradabad, is hosting a National Conclave
-                                            (Online) on "Enhancing Indian Knowledge System Effectiveness in HEIs through
-                                            Curriculum" on Friday, February 21, 2025, from 3:30 PM to 5:00 PM via Zoom. The
-                                            event will feature distinguished experts discussing strategies to integrate
-                                            Indian Knowledge Systems into higher education curricula. This conclave aims to
-                                            foster insightful discussions, share best practices, and enhance academic
-                                            learning. All faculty, researchers, and students are encouraged to participate.
-                                        </p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            Teerthanker Mahaveer University</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 21,
-                                            February</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>12, February</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Faculty of Allied Health Sciences and Faculty of Nursing, College of Nursing,
-                                            is organising HEALTH FORCE 2025, an International Conference under the
-                                            Institution’s Innovation Council, TMU. Scheduled for 27-28 February 2025 at the
-                                            University Auditorium, TMU, Moradabad, the event will feature insightful
-                                            discussions on healthcare advancements. Stay tuned for updates!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Nurisng</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 27
-                                            To 28, February</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
