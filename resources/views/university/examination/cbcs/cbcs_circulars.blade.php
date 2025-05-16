@@ -20,6 +20,11 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td>16-May-2025</td>
+                                <td> Temporary Unavailability of University Auditorium During Working Hours (20 May 2025 – 15 June 2025)</td>
+                                <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/may/circular_103.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
+                            </tr>
+                            <tr>
                                 <td>15-Apr-2025</td>
                                 <td>Withdrawal of SOP-18 Following the Second Amendment in "TMU Regulations on Financial Assistance to Faculty for Promotion of Research and Students' Participation in Extracurricular Activities, 2021".</td>
                                 <td class="text-center"><a href="{{asset('assets/pdf/announcement/2025/april/Circular_098.pdf')}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a></td>
