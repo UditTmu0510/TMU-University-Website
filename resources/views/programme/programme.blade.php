@@ -301,7 +301,7 @@
     </style>
     <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
 
-    <div class="video-wrapper">
+    <div class="video-wrapper mt-3">
         <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
         <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
             <i class="fas fa-play" id="playIcon"></i>
