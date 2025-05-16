@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>16, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The College of Fine Arts, TMU proudly presents the 7th Annual Art Exhibition, opening on 16th May 2025 at 11:00 AM. Visit from 16–17 May, 9:30 AM–4:00 PM, and experience creativity at its finest!</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                               College of Finearts</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            16-17, May</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>15, May</span>
                                     </div>
                                     <div class="notice-content">
