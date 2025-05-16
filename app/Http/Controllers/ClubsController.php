@@ -15,6 +15,10 @@ class ClubsController extends Controller
     {
         return view('university.student_club.student_club_flyers');
     }
+    public function student_club_gallery()
+    {
+        return view('university.student_club.student_club_gallery');
+    }
     public function advertisement_club()
     {
         return view('university.student_club.advertisement_club');
