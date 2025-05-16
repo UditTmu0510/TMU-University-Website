@@ -299,6 +299,7 @@
             border-radius: 20px;
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
 
     <div class="video-wrapper">
         <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
