@@ -412,6 +412,20 @@
                     <div class="book">
                         <div class="front">
                             <div class="cover">
+                                <a href="{{asset('/assets/pdf/journals/S&T_JAN_JUN_2024.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/S&T_JAN_JUN_2024.jpg')}}" alt="Book Cover Image"></a>
+
+                            </div>
+                        </div>
+                        <div class="left-side">
+                            <h2>
+                                <span>Journals</span>
+
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div class="front">
+                            <div class="cover">
                                 <a href="{{asset('/assets/pdf/journals/TJBAC_vol_1_for_Upload.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/1.jpg')}}" alt="Book Cover Image"></a>
 
                             </div>
@@ -479,6 +493,11 @@
                             </h2>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="container container-jrnl">
+                    <div class="bookshelf"></div>
+                    
                     <div class="book">
                         <div class="front">
                             <div class="cover">
@@ -493,10 +512,8 @@
                             </h2>
                         </div>
                     </div>
-                </div>
-                <div class="container container-jrnl">
-                    <div class="bookshelf"></div>
-                    <div class="book">
+
+                     <div class="book">
                         <div class="front">
                             <div class="cover">
                                 <a href="{{asset('/assets/pdf/journals/s_and_t_final_merged.pdf')}}" target="_blank"><img src="{{asset('/assets/img/publication/jnrl/7.jpg')}}" alt="Book Cover Image"></a>
@@ -549,6 +566,10 @@
                             </h2>
                         </div>
                     </div>
+                </div>
+                <div class="container container-jrnl">
+                    <div class="bookshelf"></div>
+                   
                     <div class="book">
                         <div class="front">
                             <div class="cover">
@@ -935,6 +956,24 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="book-wrapper">
+                            <div class="book-items">
+                                <div class="main-book-wrap">
+                                    <a href="{{asset('/assets/pdf/journals/S&T_JAN_JUN_2024.pdf')}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/jnrl/S&T_JAN_JUN_2024.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                         <div class="book-wrapper">
                             <div class="book-items">
                                 <div class="main-book-wrap">
