@@ -538,6 +538,14 @@ class TmuController extends Controller
     {
         return view('university.iqac.iqac');
     }
+    public function stratergies_and_functions()
+    {
+        return view('university.iqac.stratergies_and_functions');
+    }
+    public function contributions_and_outcomes()
+    {
+        return view('university.iqac.contributions_and_outcomes');
+    }
 
     public function iqac_quality_policy()
     {
