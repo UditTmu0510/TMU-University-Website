@@ -9,7 +9,7 @@
                         </span><span>IQAC</span></h1>
 
                 <div class="heading-block fancy-title border-bottom-0 title-bottom-border mb-2 mt-2">
-                    <h4>3. IQAC will facilitate / contribute:<span></span></h4>
+                    <h4>1. IQAC will facilitate / contribute:<span></span></h4>
                 </div>
                 <ol class="m-ol-list ps-5 mb-2 text-justify">
                     <li>Ensure heightened level of clarity and focus in institutional functioning towards quality
@@ -23,7 +23,7 @@
                 </ol>
 
                 <div class="heading-block fancy-title border-bottom-0 title-bottom-border mb-2 mt-2">
-                    <h4>4. Outcomes of Activities of IQAC at TMU:<span></span></h4>
+                    <h4>2. Outcomes of Activities of IQAC at TMU:<span></span></h4>
                 </div>
                 <ol class="m-ol-list ps-5 mb-2 text-justify">
                     <li>NAAC Accreditation</li>
