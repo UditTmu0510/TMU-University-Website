@@ -14,6 +14,9 @@
             <a href="{{ route('iqac.contributions.and.outcomes') }}" class="custom-menu-item {{ setActive('iqac.contributions.and.outcomes') }}">
                 <p>Contributions and Outcomes</p>
             </a>
+            <a href="{{ route('iqac.iqac.activities') }}" class="custom-menu-item {{ setActive('iqac.iqac.activities') }}">
+                <p>IQAC Activities</p>
+            </a>
             <a href="{{ route('iqac.quality.policy') }}" class="custom-menu-item {{ setActive('iqac.quality.policy') }}">
                 <p>Quality Policy</p>
             </a>

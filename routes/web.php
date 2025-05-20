@@ -517,6 +517,7 @@ Route::get('/tmu/ctld-magazine', [TmuController::class, 'ctld_magazine'])->name(
 Route::get('/tmu/iqac-cell/iqac', [TmuController::class, 'iqac_about'])->name('iqac.about');
 Route::get('/tmu/iqac-cell/contributions-and-outcomes', [TmuController::class, 'contributions_and_outcomes'])->name('iqac.contributions.and.outcomes');
 Route::get('/tmu/iqac-cell/stratergies-and-functions', [TmuController::class, 'stratergies_and_functions'])->name('iqac.stratergies.and.functions');
+Route::get('/tmu/iqac-cell/iqac-activities', [TmuController::class, 'iqac_activities'])->name('iqac.iqac.activities');
 Route::get('/tmu/iqac-cell/quality-policy', [TmuController::class, 'iqac_quality_policy'])->name('iqac.quality.policy');
 Route::get('/tmu/iqac-cell/composition', [TmuController::class, 'iqac_composition'])->name('iqac.composition');
 Route::get('/tmu/iqac-cell/iqac-mom-atr', [TmuController::class, 'iqac_mom_and_action_taken_reports'])->name('iqac.mom.and.action.taken.reports');
