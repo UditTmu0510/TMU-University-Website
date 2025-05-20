@@ -38,13 +38,13 @@
                             <img src="{{ asset('/assets/img/department/iqac/members/2.jpg') }}" alt="Profile Image">
                         </div>
                         <div class="quote-text mt-4 mt-md-0">
-                            <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>“TMU-IQAC is committed
+                            <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>TMU-IQAC is committed
                                 to continuous monitoring, innovation, and
                                 stakeholder engagement. We drive measurable improvements aligned
                                 with the University&#39;s vision of global relevance. Our efforts focus on
                                 enhancing institutional performance and sustaining excellence. IQAC
                                 remains committed to transformative growth and quality-centric
-                                development.” </h4>
+                                development. </h4>
                             <p class="mt-3">- Prof. (Dr.) V. K. Jain</p>
                             <p>Chairperson, IQAC</p>
                         </div>
@@ -59,14 +59,14 @@
                             <img src="{{ asset('/assets/img/department/iqac/members/1.jpg') }}" alt="Profile Image">
                         </div>
                         <div class="quote-text mt-4 mt-md-0">
-                            <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>“Dedicated to promote a
+                            <h4> <i class="bi bi-quote" style="font-size:50px; color: #737373;"></i>Dedicated to promote a
                                 culture of quality across all academic and
                                 administrative function at TMU. Our focus remains on aligning
                                 institutional practices with national and global benchmarks,
                                 enhancing stakeholder engagement, and to integrate best practices
                                 through inclusive, learner-focused policies. We strive for continuous
                                 improvement supporting University&#39;s vision of institutional
-                                excellence and quality education with societal impact.” </h4>
+                                excellence and quality education with societal impact. </h4>
                             <p class="mt-3">- Prof. (Dr.) Nishith Kumar Mishra</p>
                             <p>Director, IQAC</p>
                         </div>
