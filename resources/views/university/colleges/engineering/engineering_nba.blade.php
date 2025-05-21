@@ -423,6 +423,19 @@
                                             </li>
                                         </ol>
                                     </li>
+                                    <li>
+                                        Annexures
+                                        <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
+                                            <li>Annexure-I (NBA SAR)<a
+                                                    href="{{asset('assets/pdf/coe/nba/annexure-I')}}"
+                                                    target="_blank">View More!</a>
+                                            </li>
+                                            <li>Annexure-II (Pre-qualifier)<a
+                                                    href="{{asset('assets/pdf/coe/nba/annexure-II')}}"
+                                                    target="_blank">View More!</a>
+                                            </li>
+                                        </ol>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
