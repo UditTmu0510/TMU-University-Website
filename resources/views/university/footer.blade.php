@@ -333,6 +333,7 @@ function loadNiaScript() {
                                     <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
                                     <li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
                                     <li><a href="{{route('student.clubs')}}" target="_blank">Student Club</a></li>
+                                    <li><a href="{{route('master.programme.page')}}" target="_blank">Programmes</a></li>
                                 </ul>
                             </div>
 
