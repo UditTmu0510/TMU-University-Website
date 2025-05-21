@@ -846,6 +846,10 @@ class TmuController extends Controller
     {
         return view('university.quick_links.tmu_faqs');
     }
+    public function tmu_darpan()
+    {
+        return view('university.quick_links.darpan');
+    }
     public function admission_rules()
     {
         return view('university.quick_links.admission_rules');
