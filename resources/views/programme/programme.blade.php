@@ -453,7 +453,7 @@
                             <div class="col-sm-6">
                                 <div class="feature-box fbox-plain fbox-sm flex-column">
                                     <div class="fbox-content">
-                                        <h3 class="text-transform-none ls-0 fw-bold">Selection</h3>
+                                        <h3 class="text-transform-none ls-0 fw-bold">Criteria of Merit</h3>
                                         @php
                                             echo $programme->criteria_merit;
                                         @endphp
