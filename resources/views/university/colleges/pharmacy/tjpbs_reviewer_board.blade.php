@@ -9,7 +9,7 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
 
                     @foreach ([
-            ['Dr. Keeren Rajoo', 'Head of Biodiversity Borneo Laboratory', 'Borneo Eco science Institute, University Putra Malaysia, Bintulu Sarawak Campus (UPMKB)', 'keeren.rajoo@upm.edu.my', 'Keeren.jpg'],
+            ['Dr. Keeren Rajoo', 'Head of Biodiversity Borneo Laboratory', 'Borneo Eco science Institute, University Putra Malaysia, Bintulu Sarawak Campus (UPMKB)', 'keeren.rajoo@upm.edu.my', 'keeren.jpg'],
             ['Dr. Varun Soti', 'Director of Research, Assistant Professor of Pharmacology', 'Lake Erie College of Osteopathic Medicine, Elmira, New York, USA', 'vsoti@lecom.edu', 'user.jpg'],
             ['Dr. S. Parasuraman', 'Senior Associate Professor & Unit Head', 'Unit of Pharmacology, Toxicology and Basic Health Sciences, AIMST University, Malaysia', 'parasuphd@gmail.com', 'PS.jpg'],
             ['Dr. Pradeep Singh', 'Associate Professor', 'Department of Pharmacy, College of Health Sciences, Debre Tabor University, Ethiopia', 'pradeep_2682@dtu.edu.et', 'user.jpg'],
