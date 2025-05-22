@@ -1501,27 +1501,88 @@
 
 
 
-    <script>
-        let wd = window.innerWidth;
-        let videoElement = document.getElementById('videoPlayer89');
-
-        if (wd <= 540) {
-            document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
-            url = "{{ asset('poster/mobile/output.mpd') }}"; // Switch to mobile
-            document.getElementById('videoPlayer89').classList.add('w-100'); // Use classList.add
-        } else {
-            document.getElementById('videoPlayer89').poster = "{{ asset('poster/banner_video_poster.webp') }}"
-            var url = "{{ asset('poster/desktop_tab/output.mpd') }}"; // Default to desktop
+<script>
+    (function() { // IIFE to scope variables
+        const videoElement = document.getElementById('videoPlayer89');
+        if (!videoElement) {
+            console.error('Video element #videoPlayer89 not found.');
+            return;
         }
-        var player = dashjs.MediaPlayer().create();
-        player.initialize(document.querySelector("#videoPlayer89"), url, true);
 
-        // Looping fix for dash.js
-        videoElement.addEventListener('ended', function() {
-            player.seek(0); // Restart from the beginning
-            videoElement.play();
-        });
-    </script>
+        let player = null; // Hold the player instance
+        let currentUrl = '';
+
+        function setupVideoPlayer() {
+            const screenWidth = window.innerWidth;
+            let newUrl;
+            let newPoster;
+
+            if (screenWidth <= 768) { // Adjusted breakpoint for typical mobile/tablet
+                newPoster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
+                newUrl = "{{ asset('poster/mobile/output.mpd') }}";
+            } else {
+                newPoster = "{{ asset('poster/banner_video_poster.webp') }}";
+                newUrl = "{{ asset('poster/desktop_tab/output.mpd') }}";
+            }
+
+            videoElement.poster = newPoster;
+
+            if (newUrl !== currentUrl) {
+                currentUrl = newUrl;
+
+                if (player) {
+                    // If player exists, detach previous listeners before attaching new source
+                    player.off(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded); // Important to remove old listener
+                    player.attachSource(currentUrl);
+                    // Re-attach listener for the new source
+                    player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
+                    console.log('Attached new video source:', currentUrl);
+                    // Ensure playback starts if it was playing or should autoplay
+                    if (videoElement.autoplay || !videoElement.paused) {
+                         // A short delay might sometimes be needed for attachSource to fully settle
+                        setTimeout(() => player.play(), 50);
+                    }
+                } else {
+                    player = dashjs.MediaPlayer().create();
+                    player.initialize(videoElement, currentUrl, true); // true for autoplay
+
+                    // Listen for the PLAYBACK_ENDED event from Dash.js
+                    player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
+
+                    console.log('Initialized video player with source:', currentUrl);
+                }
+            } else if (player && videoElement.paused && videoElement.autoplay) {
+                // If URL hasn't changed but video is paused and should autoplay (e.g., after tab switch)
+                player.play();
+            }
+        }
+
+        // Handler for when playback ends
+        function handlePlaybackEnded() {
+            if (player) {
+                console.log("Playback ended, seeking to 0 and restarting.");
+                player.seek(0);
+                setTimeout(() => player.play(), 0); 
+            }
+        }
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        setupVideoPlayer();
+        window.addEventListener('resize', debounce(setupVideoPlayer, 250));
+
+    })();
+</script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
