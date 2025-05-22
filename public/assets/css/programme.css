@@ -1479,214 +1479,235 @@ column-count: 2;
 column-gap: 2rem; /* BS class gap-4 equivalent */
 }
 }
-
-
+/* --- Specializations Showcase Section - General (Keep As Is) --- */
 .specializations-showcase-section {
-padding: 60px 0;
-background-color: #ffffff;
-position: relative;
+    padding: 60px 0;
+    background-color: #ffffff;
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scrollbar from section itself on mobile */
 }
 
 .specializations-showcase-section::before {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 25%;
-height: 100%;
-background: linear-gradient(to right, rgba(230, 240, 255, 0.7), transparent);
-z-index: 0;
-pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(230, 240, 255, 0.7), transparent);
+    z-index: 0;
+    pointer-events: none;
 }
 .specializations-showcase-section::after {
-content: '';
-position: absolute;
-top: 0;
-right: 0;
-width: 25%;
-height: 100%;
-background: linear-gradient(to left, rgba(255, 235, 224, 0.7), transparent);
-z-index: 0;
-pointer-events: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 235, 224, 0.7), transparent);
+    z-index: 0;
+    pointer-events: none;
 }
-
 
 .specializations-showcase-section .container {
-position: relative;
-z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .ss-header {
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.ss-section-main-title {
-font-family: 'Poppins', 'Arial', sans-serif;
-font-weight: 700;
-font-size: 2.3rem;
-color: #001055;
-margin-bottom: 15px;
-line-height: 1.3;
+/* --- MODIFIED FONT SIZES FOR HEADER --- */
+.ss-section-main-title { /* This is the main program name part */
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem; /* 28px / 16px */
+    color: #001055;
+    margin-bottom: 15px;
+    line-height: 1.3;
 }
 
-.ss-section-main-title .ss-title-prefix {
-display: block;
-font-size: 0.75em;
-color: #FF7900;
-text-transform: uppercase;
-letter-spacing: 1.8px;
-margin-bottom: 8px;
-font-weight: 500;
+.ss-section-main-title .ss-title-prefix { /* This is the "Explore Our Specialized" part */
+    display: block;
+    font-size: 1.375rem; /* 22px / 16px */
+    color: #FF7900;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+/* --- END: General Section Styles --- */
+
+
+/* --- Refined Program Card (rpc) Styles --- */
+.refined-program-cards .rpc-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 20, 85, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
 }
 
-.ss-card {
-background-color: #ffffff;
-border-radius: 15px;
-box-shadow: 0 10px 30px rgba(0, 20, 85, 0.07);
-transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-display: flex;
-align-items: flex-start;
-padding: 25px;
-overflow: hidden;
-position: relative;
-border: 1px solid #e7eaf3;
-height: 100%;
+.refined-program-cards .rpc-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 35px rgba(0, 20, 85, 0.1);
 }
 
-.ss-card:hover {
-transform: translateY(-8px) scale(1.01);
-box-shadow: 0 15px 40px rgba(0, 20, 85, 0.12);
+.rpc-card-image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
 }
 
-.ss-card-icon-area {
-flex-shrink: 0;
-width: 70px;
-height: 70px;
-border-radius: 12px;
-background-color: #e6f0ff;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 25px;
-transition: background-color 0.3s ease, transform 0.3s ease;
+.rpc-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
 }
 
-.ss-card:hover .ss-card-icon-area {
-background-color: #001055;
-transform: rotate(-5deg) scale(1.05);
+.refined-program-cards .rpc-card:hover .rpc-card-img {
+    transform: scale(1.05);
 }
 
-.ss-card-icon {
-font-size: 2rem;
-color: #001055;
-transition: color 0.3s ease;
+.rpc-card-content {
+    padding: 18px 18px 20px 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
 }
 
-.ss-card:hover .ss-card-icon {
-color: #FF7900;
+.rpc-card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    height: calc(1.4em * 2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: calc(1.4em * 2);
 }
 
-.ss-card-content {
-display: flex;
-flex-direction: column;
-flex-grow: 1;
-text-align: left;
+.rpc-card-cta-button {
+    display: inline-block;
+    background-color: #001055;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    margin-top: auto;
+    align-self: center;
 }
 
-.ss-card-title {
-font-family: 'Poppins', sans-serif;
-font-size: 1.35rem;
-font-weight: 600;
-color: #001055;
-margin-bottom: 10px;
-line-height: 1.3;
+.rpc-card-cta-button:hover {
+    background-color: #FF7900;
+    color: #ffffff;
+    transform: scale(1.03);
 }
 
-.ss-card-description {
-font-family: 'Roboto', sans-serif;
-font-size: 0.92rem;
-color: #505d69;
-line-height: 1.65;
-margin-bottom: 20px;
-flex-grow: 1;
+
+/* Responsive Adjustments */
+@media (max-width: 991px) { /* md breakpoint, where cards might go to 3 or 2 per row */
+    .ss-section-main-title { /* Main program name */
+        font-size: 1.75rem; /* Still 28px */
+    }
+    .ss-section-main-title .ss-title-prefix { /* "Explore..." */
+        font-size: 1.375rem; /* Still 22px */
+    }
+    .rpc-card-title {
+        font-size: 1rem;
+    }
 }
 
-.ss-card-cta-button {
-display: inline-block;
-background-color: transparent;
-color: #FF7900;
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-font-size: 0.9rem;
-padding: 8px 0px;
-text-decoration: none;
-border-radius: 5px;
-transition: color 0.3s ease, transform 0.2s ease;
-align-self: flex-start;
-border-bottom: 2px solid transparent;
-}
 
-.ss-card-cta-button:hover {
-color: #001055;
-border-bottom-color: #001055;
-}
-.ss-card-cta-button .fas {
-transition: transform 0.3s ease;
-font-size: 0.9em;
-}
-.ss-card-cta-button:hover .fas {
-transform: translateX(6px);
-}
+@media (max-width: 767px) { /* sm breakpoint - This is where mobile horizontal scroll kicks in */
+    .specializations-showcase-section::before,
+    .specializations-showcase-section::after {
+        display: none; /* Remove side gradients on mobile for cleaner scroll */
+    }
 
-@media (max-width: 991px) {
-.specializations-showcase-section::before,
-.specializations-showcase-section::after {
-width: 15%;
-}
-.ss-section-main-title {
-font-size: 2rem;
-}
-.ss-card-title {
-font-size: 1.2rem;
-}
-}
+    /* MODIFIED FONT SIZES FOR HEADER ON MOBILE */
+    .ss-section-main-title { /* Main program name */
+        font-size: 1.375rem; /* 22px / 16px */
+    }
+    .ss-section-main-title .ss-title-prefix { /* "Explore..." */
+        font-size: 1rem; /* 16px / 16px */
+    }
 
-@media (max-width: 767px) {
-.specializations-showcase-section {
-padding: 40px 0;
-}
-.specializations-showcase-section::before,
-.specializations-showcase-section::after {
-display: none;
-}
-.ss-header {
-margin-bottom: 30px;
-}
-.ss-section-main-title {
-font-size: 1.8rem;
-}
-.ss-card {
-flex-direction: column;
-align-items: center;
-text-align: center;
-padding: 20px;
-}
-.ss-card-icon-area {
-margin-right: 0;
-margin-bottom: 20px;
-width: 60px;
-height: 60px;
-}
-.ss-card-icon {
-font-size: 1.8rem;
-}
-.ss-card-title {
-font-size: 1.15rem;
-}
-.ss-card-description {
-font-size: 0.9rem;
-}
-.ss-card-cta-button {
-align-self: center;
-}
+    .rpc-cards-mobile-scroll-wrapper {
+        display: flex; /* Enable flex for direct children */
+        overflow-x: auto; /* Enable horizontal scroll */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        padding-bottom: 20px; /* Space for scrollbar, prevents content being cut off */
+        margin-bottom: -20px; /* Counteract padding-bottom to maintain visual spacing */
+        /* Optional: Add subtle scrollbar styling if desired, browser support varies */
+        scrollbar-width: thin; /* Firefox */
+        scrollbar-color: #FF7900 #f0f0f0; /* Firefox: thumb track */
+        padding-left: 24rem;
+    }
+    .rpc-cards-mobile-scroll-wrapper::-webkit-scrollbar { /* Webkit (Chrome, Safari) */
+        height: 6px;
+    }
+    .rpc-cards-mobile-scroll-wrapper::-webkit-scrollbar-track {
+        background: #f0f0f0;
+        border-radius: 3px;
+    }
+    .rpc-cards-mobile-scroll-wrapper::-webkit-scrollbar-thumb {
+        background: #FF7900;
+        border-radius: 3px;
+    }
+
+
+    .rpc-cards-row {
+        flex-wrap: nowrap !important; /* CRITICAL: Prevent wrapping of cards */
+        margin-left: 0 !important; /* Reset Bootstrap gutter */
+        margin-right: 0 !important; /* Reset Bootstrap gutter */
+        /* No need for justify-content-center if it's scrolling */
+    }
+
+    .rpc-card-col {
+        flex: 0 0 auto; /* CRITICAL: Prevent cards from shrinking/growing */
+        width: 80%; /* Width of each card, e.g., 80% of viewport. Adjust as needed. */
+        max-width: 300px; /* Optional: Max width for a card on mobile scroll */
+        padding-left: 8px !important; /* Adjust gutter for scrolled items */
+        padding-right: 8px !important; /* Adjust gutter for scrolled items */
+        /* d-flex and align-items-stretch are still good for card internal height */
+    }
+    .rpc-card-col:first-child {
+        padding-left: 15px !important; /* More padding for the very first item to not touch edge */
+    }
+    .rpc-card-col:last-child {
+        padding-right: 15px !important; /* More padding for the very last item */
+    }
+
+
+    .rpc-card-title {
+        font-size: 0.9rem; /* Slightly smaller for compact mobile cards */
+        height: calc(1.4em * 2); /* Maintain 2 lines */
+        min-height: calc(1.4em * 2);
+    }
+    .rpc-card-cta-button {
+        font-size: 0.75rem;
+        padding: 6px 16px;
+    }
+    .rpc-card-image-wrapper {
+        aspect-ratio: 4 / 3; /* Can make image a bit taller on mobile if desired */
+    }
 }

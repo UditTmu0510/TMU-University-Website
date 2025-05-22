@@ -172,78 +172,80 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
         </div>
     </div>
 
-    {{-- Section: Specializations Showcase --}}
+{{-- Section: Refined Specializations/Programs Showcase --}}
 @php
 // Placeholder data for standalone testing. Remove when integrating.
 if (!isset($programme)) {
-    $programme = (object)['prog_name' => 'Computer Science Engineering'];
+    $programme = (object)['prog_name' => 'Agricultural Sciences'];
 }
 if (!isset($specializations)) {
     $specializations = [
         [
-            'icon' => 'fas fa-cogs',
-            'title' => 'Artificial Intelligence & Machine Learning',
-            'short_description' => 'Dive into the world of intelligent systems, data-driven predictions, and cutting-edge algorithms that are shaping the future of technology.',
+            'image_path' => 'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'title' => 'BSc (Hons.) Agriculture (ICAR-Accredited)',
             'page_link' => '#'
         ],
         [
-            'icon' => 'fas fa-shield-alt', // Changed from fa-shield-virus for a more general security feel
-            'title' => 'Cyber Security & Forensics',
-            'short_description' => 'Master the art of protecting digital assets, networks, and investigating cyber incidents in an increasingly interconnected world.',
+            'image_path' => 'https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'title' => 'MSc - Agronomy & Crop Science Innovations',
             'page_link' => '#'
         ],
         [
-            'icon' => 'fas fa-cloud', // Simplified icon
-            'title' => 'Cloud Computing & DevOps',
-            'short_description' => 'Explore scalable cloud infrastructures and modern software deployment practices for efficient and agile development cycles.',
+            'image_path' => 'https://images.pexels.com/photos/2804047/pexels-photo-2804047.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'title' => 'MSc Plant Pathology & Protection',
             'page_link' => '#'
         ],
-         [
-            'icon' => 'fas fa-gamepad', // Example for Game Development
-            'title' => 'Game Development & AR/VR',
-            'short_description' => 'Build immersive and interactive experiences, from captivating video games to groundbreaking augmented and virtual reality applications.',
+        [
+            'image_path' => 'https://images.pexels.com/photos/7004606/pexels-photo-7004606.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'title' => 'MSc Soil Science & Land Management',
+            'page_link' => '#'
+        ],
+        [
+            'image_path' => 'https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=400',
+            'title' => 'PhD in Agricultural Biotechnology Research',
             'page_link' => '#'
         ]
     ];
 }
 @endphp
 
-<section class="specializations-showcase-section d-none">
-<div class="container">
-    <div class="ss-header text-center">
-        <h2 class="ss-section-main-title">
-            <span class="ss-title-prefix">Specializations in </span>
-            {{ $programme->prog_name ?? 'Our Program' }}
-        </h2>
-    </div>
+<section class="specializations-showcase-section refined-program-cards">
+    <div class="container">
+        <div class="ss-header text-center">
+            <h2 class="ss-section-main-title">
+                <span class="ss-title-prefix">Explore Our Specialized</span>
+                {{ $programme->prog_name ?? 'Program Offerings' }}
+            </h2>
+        </div>
 
-    @if (!empty($specializations))
-        <div class="row g-4 g-lg-5 justify-content-center">
-            @foreach ($specializations as $index => $spec)
-                <div class="col-md-6 col-lg-6 d-flex align-items-stretch"> {{-- Use col-lg-6 for 2 cards per row on large screens --}}
-                    <div class="ss-card" data-aos="fade-right" data-aos-delay="{{ $index * 100 }}">
-                        <div class="ss-card-icon-area">
-                            <i class="{{ $spec['icon'] ?? 'fas fa-star' }} ss-card-icon"></i>
-                        </div>
-                        <div class="ss-card-content">
-                            <h4 class="ss-card-title">{{ $spec['title'] }}</h4>
-                            <p class="ss-card-description">{{ $spec['short_description'] }}</p>
-                            <a href="{{ $spec['page_link'] ?? '#' }}" class="ss-card-cta-button">
-                                Explore Programme <i class="fas fa-long-arrow-alt-right ms-2"></i>
-                            </a>
+        @if (!empty($specializations))
+            {{-- Wrapper for horizontal scroll on mobile --}}
+            <div class="rpc-cards-mobile-scroll-wrapper">
+                <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center rpc-cards-row">
+                    @foreach ($specializations as $index => $spec)
+                        <div class="col d-flex align-items-stretch rpc-card-col">
+                            <div class="rpc-card" data-aos="fade-up" data-aos-delay="{{ $index * 50 }}">
+                                <div class="rpc-card-image-wrapper">
+                                    <img src="{{ $spec['image_path'] ?? 'https://via.placeholder.com/400x250/e0e0e0/999999?text=Program+Image' }}" alt="{{ $spec['title'] }} image" class="rpc-card-img">
+                                </div>
+                                <div class="rpc-card-content">
+                                    <h4 class="rpc-card-title">{{ $spec['title'] }}</h4>
+                                    <a href="{{ $spec['page_link'] ?? '#' }}" class="rpc-card-cta-button">
+                                        View More
+                                    </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            @endforeach
-        </div>
-    @else
-        <div class="text-center p-5 bg-light rounded shadow-sm">
-            <i class="fas fa-stream fa-3x text-muted mb-3"></i>
-            <h4 class="text-muted">Specialization Details Coming Soon</h4>
-            <p>Information about specialized tracks for the {{ $programme->prog_name ?? 'program' }} will be available shortly.</p>
-        </div>
-    @endif
-</div>
+                @endforeach
+            </div>
+        @else
+            <div class="text-center p-5 bg-light rounded shadow-sm">
+                <i class="fas fa-graduation-cap fa-3x text-muted mb-3"></i>
+                <h4 class="text-muted">Program Details Coming Soon</h4>
+                <p>Information about our specialized programs will be available shortly.</p>
+            </div>
+        @endif
+    </div>
 </section>
 
     <style>
