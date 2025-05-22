@@ -171,89 +171,96 @@
             </div>
         </div>
     </div>
-    {{-- Section: Refined Specializations/Programs Showcase --}}
-    @php
-        // Placeholder data for standalone testing. Remove when integrating.
-        if (!isset($programme)) {
-            $programme = (object) ['prog_name' => 'Agricultural Sciences'];
-        }
-        if (!isset($specializations)) {
-            $specializations = [
-                [
-                    'image_path' =>
-                        'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=400',
-                    'title' => 'BSc (Hons.) Agriculture (ICAR-Accredited)',
-                    'page_link' => '#',
-                ],
-                [
-                    'image_path' =>
-                        'https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&w=400',
-                    'title' => 'MSc - Agronomy & Crop Science Innovations',
-                    'page_link' => '#',
-                ],
-                [
-                    'image_path' =>
-                        'https://images.pexels.com/photos/2804047/pexels-photo-2804047.jpeg?auto=compress&cs=tinysrgb&w=400',
-                    'title' => 'MSc Plant Pathology & Protection',
-                    'page_link' => '#',
-                ],
-                [
-                    'image_path' =>
-                        'https://images.pexels.com/photos/7004606/pexels-photo-7004606.jpeg?auto=compress&cs=tinysrgb&w=400',
-                    'title' => 'MSc Soil Science & Land Management',
-                    'page_link' => '#',
-                ],
-                [
-                    'image_path' =>
-                        'https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=400',
-                    'title' => 'PhD in Agricultural Biotechnology Research',
-                    'page_link' => '#',
-                ],
-            ];
-        }
-    @endphp
-    @if (!empty($specializations) && $specializations->isNotEmpty())
-        <section class="specializations-showcase-section refined-program-cards">
-            <div class="container">
-                <div class="ss-header text-center">
-                    <h2 class="ss-section-main-title">
-                        <span class="ss-title-prefix">Explore Our Specialized</span>
-                        {{ $programme->prog_name ?? 'Program Offerings' }}
-                    </h2>
-                </div>
 
 
-                <div class="rpc-cards-mobile-scroll-wrapper">
-                    <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 g-4 justify-content-center rpc-cards-row">
-                        @foreach ($specializations as $index => $spec)
-                            <div class="col d-flex align-items-stretch rpc-card-col">
-                                <div class="rpc-card" data-aos="fade-up" data-aos-delay="{{ $index * 50 }}">
-                                    <div class="rpc-card-image-wrapper">
-                                        @if (!empty($spec->icon_path))
-                                            <img src="{{ asset($spec->icon_path) }}" alt="{{ $spec->name }} image"
-                                                class="rpc-card-img">
-                                        @else
-                                            <img src="{{ asset('uploads/events/past_event/default_thumbnail_news.jpg') }}"
-                                                alt="{{ $spec->name }} image" class="rpc-card-img">
-                                        @endif
-                                    </div>
-                                    <div class="rpc-card-content">
-                                        <h4 class="rpc-card-title">{{ $spec->name }}</h4>
-                                        <p class="text-p-spec">{{ $spec->short_description }}</p>
-                                        
-                                        @if (!empty($spec->page_link))
-                                            <a href="{{ $spec->page_link }}" class="ss-card-cta-button">
-                                                Explore Programme <i class="fas fa-long-arrow-alt-right ms-2"></i>
-                                            </a>
-                                        @endif
-                                    </div>
+   {{-- Section: Advanced Specializations/Programs Showcase --}}
+@if (!empty($specializations) && $specializations->isNotEmpty())
+<section class="specializations-showcase-section refined-program-cards advanced-sp-showcase">
+    <div class="container">
+        <div class="ss-header text-center">
+            <h2 class="ss-section-main-title">
+                <span class="ss-title-prefix">Explore Our Specialized</span>
+                {{ $programme->prog_name ?? 'Program Offerings' }}
+            </h2>
+        </div>
+
+        {{-- Desktop & Tablet View: Carousel for Cards --}}
+        <div class="asp-cards-carousel-wrapper d-none d-md-block">
+            <div class="asp-cards-track-container">
+                <div class="asp-cards-track">
+                    @foreach ($specializations as $index => $spec)
+                        <div class="asp-card-item">
+                            <div class="rpc-card">
+                                <div class="rpc-card-image-wrapper">
+                                    @if (!empty($spec->icon_path))
+                                        <img src="{{ asset($spec->icon_path) }}" alt="{{ $spec->name }} image"
+                                            class="rpc-card-img">
+                                    @else
+                                        <img src="{{ asset('uploads/events/past_event/default_thumbnail_news.jpg') }}"
+                                            alt="{{ $spec->name }} image" class="rpc-card-img">
+                                    @endif
+                                </div>
+                                <div class="rpc-card-content">
+                                    <h4 class="rpc-card-title">{{ $spec->name }}</h4>
+                                    <p class="text-p-spec">{{ $spec->short_description }}</p>
+                                    @if (!empty($spec->page_link))
+                                        <a href="{{ $spec->page_link }}" class="rpc-card-cta-button">
+                                            Explore Programme
+                                        </a>
+                                    @endif
                                 </div>
                             </div>
-                        @endforeach
-                    </div>
+                        </div>
+                    @endforeach
                 </div>
-        </section>
-    @endif
+            </div>
+            @if (count($specializations) > 4) {{-- Show pagination only if more than 4 items --}}
+                <div class="asp-carousel-controls">
+                    <button class="asp-control-prev" aria-label="Previous specializations">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="asp-control-next" aria-label="Next specializations">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            @endif
+        </div>
+
+        {{-- Mobile View: Elegant List --}}
+        <div class="asp-mobile-list-wrapper d-md-none">
+            <ul class="asp-mobile-list list-unstyled">
+                @foreach ($specializations as $spec)
+                    <li>
+                        @if (!empty($spec->page_link))
+                            <a href="{{ $spec->page_link }}" class="asp-mobile-list-item-link">
+                                <div class="asp-mobile-list-item">
+                                    <div class="asp-mobile-list-icon">
+                                        <i class="fas fa-angle-right"></i> {{-- Consistent icon --}}
+                                    </div>
+                                    <div class="asp-mobile-list-content">
+                                        <h5 class="asp-mobile-list-title">{{ $spec->name }}</h5>
+                                        <p class="asp-mobile-list-desc">{{ $spec->short_description }}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        @else
+                            <div class="asp-mobile-list-item asp-mobile-list-item-no-link">
+                                <div class="asp-mobile-list-icon">
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="asp-mobile-list-content">
+                                    <h5 class="asp-mobile-list-title">{{ $spec->name }}</h5>
+                                    <p class="asp-mobile-list-desc">{{ $spec->short_description }}</p>
+                                </div>
+                            </div>
+                        @endif
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    </div>
+</section>
+@endif
 
 
     <style>
@@ -905,6 +912,59 @@
             });
         });
     </script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const carouselWrapper = document.querySelector('.asp-cards-carousel-wrapper');
+    if (!carouselWrapper) return;
+
+    const track = carouselWrapper.querySelector('.asp-cards-track');
+    const items = carouselWrapper.querySelectorAll('.asp-card-item');
+    const prevButton = carouselWrapper.querySelector('.asp-control-prev');
+    const nextButton = carouselWrapper.querySelector('.asp-control-next');
+
+    if (!track || items.length === 0 || !prevButton || !nextButton) return;
+
+    const itemsPerView = 4; // Or dynamically calculate based on window width if needed
+    let totalPages = Math.ceil(items.length / itemsPerView);
+    let currentPage = 0;
+
+    function updateCarousel() {
+        const itemWidth = items[0].offsetWidth; // Assumes all items have same width due to flex-basis
+        const newTransform = - (currentPage * itemWidth * itemsPerView);
+        track.style.transform = `translateX(${newTransform}px)`;
+
+        prevButton.disabled = currentPage === 0;
+        nextButton.disabled = currentPage >= totalPages - 1;
+    }
+
+    prevButton.addEventListener('click', () => {
+        if (currentPage > 0) {
+            currentPage--;
+            updateCarousel();
+        }
+    });
+
+    nextButton.addEventListener('click', () => {
+        if (currentPage < totalPages - 1) {
+            currentPage++;
+            updateCarousel();
+        }
+    });
+
+    // Initial setup
+    if (items.length <= itemsPerView) {
+        prevButton.style.display = 'none';
+        nextButton.style.display = 'none';
+    } else {
+        updateCarousel(); // Set initial button states
+    }
+
+    // Optional: Recalculate on resize if itemsPerView changes (more complex)
+    // window.addEventListener('resize', updateCarousel);
+});
+</script>
 
 
 
