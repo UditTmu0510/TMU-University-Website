@@ -1214,29 +1214,6 @@ font-weight: inherit !important; /* Let the parent h3/h2 control the weight */
 }
 
 
-/* First heading in the section can be styled as a main title if desired */
-.tmu-programme-scholarship .row.justify-content-center > h3.t3:first-child,
-.tmu-programme-scholarship .row.justify-content-center > h2.t3:first-child {
-font-size: 2rem; /* Larger for the very first title */
-display: block; /* Full width for main title's border */
-text-align: center;
-margin-bottom: 25px;
-/* If you want a prefix/suffix style like other sections for the *absolute first* heading:
-position: relative;
-padding-bottom: 20px; */
-}
-/* Example: Main title prefix (would need JS to inject or careful targeting)
-.tmu-programme-scholarship .row.justify-content-center > h3.t3:first-child::before {
-content: "FINANCIAL AID &";
-display: block;
-font-size: 0.7em;
-color: #001055;
-text-transform: uppercase;
-letter-spacing: 1px;
-margin-bottom: 5px;
-} */
-
-
 .tmu-programme-scholarship p,
 .tmu-programme-scholarship .table-wrapper {
 font-size: 1rem;
