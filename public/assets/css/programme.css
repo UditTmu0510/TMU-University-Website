@@ -1181,6 +1181,9 @@ background-color: #f4f7f9; /* A very light, sophisticated grey/blue */
 font-family: 'Roboto', 'Arial', sans-serif;
 color: #333;
 }
+.tmu-programme-scholarship table+table{
+margin-top: 20px; 
+}
 
 .tmu-programme-scholarship .table-container {
 /* The .container class from Bootstrap usually handles max-width and centering.
