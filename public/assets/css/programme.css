@@ -1592,13 +1592,13 @@ column-gap: 2rem; /* BS class gap-4 equivalent */
     color: #2c3e50;
     margin-bottom: 15px;
     line-height: 1.4;
-    height: calc(1.4em * 2);
+    /* height: calc(1.4em * 1.5); */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    min-height: calc(1.4em * 2);
+    /* min-height: calc(1.4em * 1.5); */
 }
 
 .rpc-card-cta-button {
@@ -1660,7 +1660,7 @@ column-gap: 2rem; /* BS class gap-4 equivalent */
         /* Optional: Add subtle scrollbar styling if desired, browser support varies */
         scrollbar-width: thin; /* Firefox */
         scrollbar-color: #FF7900 #f0f0f0; /* Firefox: thumb track */
-        padding-left: 24rem;
+        padding-left: 28rem;
     }
     .rpc-cards-mobile-scroll-wrapper::-webkit-scrollbar { /* Webkit (Chrome, Safari) */
         height: 6px;
@@ -1700,8 +1700,8 @@ column-gap: 2rem; /* BS class gap-4 equivalent */
 
     .rpc-card-title {
         font-size: 0.9rem; /* Slightly smaller for compact mobile cards */
-        height: calc(1.4em * 2); /* Maintain 2 lines */
-        min-height: calc(1.4em * 2);
+        /* height: calc(1.4em * 1.5); Maintain 2 lines */
+        /* min-height: calc(1.4em * 1.5); */
     }
     .rpc-card-cta-button {
         font-size: 0.75rem;
@@ -1710,4 +1710,14 @@ column-gap: 2rem; /* BS class gap-4 equivalent */
     .rpc-card-image-wrapper {
         aspect-ratio: 4 / 3; /* Can make image a bit taller on mobile if desired */
     }
+}
+
+.text-p-spec {
+    hyphens: auto;
+    text-align: justify;
+    text-align-last: left; /* or 'start' */
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 95%;      /* prevents edge-to-edge stretch */
+    margin: 0 auto;
 }
