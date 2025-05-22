@@ -2,15 +2,27 @@
 @section('content')
 
 
+<style>
 
+    .banner {
+      width: 100%;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+    }
 
-<!-- Banner Code start -->
-<section>
-    <div class="container-fluid px-0">
-        <img src="/assets/img/banner/111.webp" alt="Image 1">
-    </div>
-</section>
-<!-- Banner Code end -->
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+   
+  </style>
+
+<section class="banner">
+    <img src="/assets/img/banner/111.webp" alt="Banner Image" />
+  </section>
 
 
 
