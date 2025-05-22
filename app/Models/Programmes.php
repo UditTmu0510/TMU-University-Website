@@ -14,4 +14,10 @@ class Programmes extends Model
     public function college_name(){
         return $this->belongsTo(Colleges::class,'cd_id','cd_id');
     }
+
+
+    public function specializations()
+    {
+        return $this->hasMany(ProgrammeSpecialization::class, 'prog_id', 'prog_id');
+    }
 }

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Colleges;
 use App\Models\News;
 use App\Models\Programmes;
+use App\Models\ProgrammeSpecialization;
 use App\Models\Faqs;
 use App\Models\Blogs;
 use App\Models\Testimonials;
@@ -152,7 +153,10 @@ class TmuController extends Controller
         $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
         $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
         $recruiters = Recruiters::where('cd_id', $cd_id)->where('display_college_main', 'Y')->where('status', 'Y')->get();
-        return view('programme.programme', compact('programme', 'fee_details', 'faqs', 'recruiters'));
+        // ✅ Fetch related specializations
+        $specializations = ProgrammeSpecialization::where('prog_id', $prog_id)->where('status', 'Y')->orderBy('priority')->get();
+
+        return view('programme.programme', compact('programme', 'fee_details', 'faqs', 'recruiters', 'specializations'));
     }
 
     public function university_scholarship()
