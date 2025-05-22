@@ -558,7 +558,7 @@
             <div class="iqac-card">
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of the 22nd meeting of Academic Council | <b>August 16, 2024</b></p>
+                <p class="description">Minutes of the 22nd meeting of Academic Council | <b>July 27, 2024</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="{{asset('/assets/pdf/academic_council_minutes/TMU_MoM_22nd_AC.pdf')}}" target="_blank">View
                   PDF</a>
@@ -567,12 +567,12 @@
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
                 <p class="description">Minutes of the 21st meeting of Academic Council | <b>September 14, 2023</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
-                  href="{{asset('/assets/pdf/academic_council_minutes/21st_MOM_IQAC_compressed_new.pdf')}}" target="_blank">View
+                  href="{{asset('/assets/pdf/academic_council_minutes/Minutes_of_Meeting_21st_AC.pdf')}}" target="_blank">View
                   PDF</a>
               </div>
               <div class="card-pdf">
                 <img src="{{asset('/assets/img/icons/sheet.svg')}}" alt="PDF Icon" class="pdf-icon">
-                <p class="description">Minutes of Meeting of 20th Meeting of Academic Council | <b>November 22, 2022</b></p>
+                <p class="description">Minutes of Meeting of 20th Meeting of Academic Council | <b>November 05, 2022</b></p>
                 <a class="tmu-btn btn-2 m-0 py-1 px-2 fs-12"
                   href="{{asset('/assets/pdf/academic_council_minutes/Minutes_20AC_TMU.pdf')}}" target="_blank">View PDF</a>
               </div>
