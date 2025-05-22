@@ -1,0 +1,1712 @@
+.t2 {
+    font-size: 0px;
+    font-weight: 0;
+    line-height: 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 770px) {
+    .t2 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 35px;
+        visibility: hidden;
+    }
+}
+
+.t3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #ff8c00;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 770px) {
+    .t3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+@media screen and (max-width: 576px) {
+    .fs-26 {
+        font-size: 24px;
+    }
+}
+
+.cropped-image {
+    width: 100%;
+    aspect-ratio: 386 / 277;
+    /* Maintains the desired ratio */
+    object-fit: cover;
+    /* Ensures cropping without distortion */
+    object-position: top;
+    /* Focuses on the upper part */
+}
+
+@media (max-width: 576px) {
+
+    /* Bootstrap 'sm' breakpoint */
+    #slider {
+        display: none !important;
+    }
+}
+
+.careers-accordion h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.careers-accordion:hover h2,
+.careers-accordion.clicked h2 {
+    color: #fff !important;
+}
+
+/* --- Enhanced About Program Section Styles --- */
+
+.enhanced-about-program-section {
+    padding: 40px 0;
+    /* Add some vertical spacing around the section */
+    background-color: #f8f9fa;
+    /* A light, neutral background for the whole section */
+}
+
+.enhanced-about-content-wrapper {
+    background-color: #ffffff;
+    /* White background for the content card */
+    padding: 30px;
+    border-radius: 12px;
+    /* Softer, more modern corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    /* Subtle shadow for depth */
+    text-align: left;
+    /* Default to left-align for readability */
+    overflow: hidden;
+    /* Ensures child elements respect border-radius */
+}
+
+/* Header Styling */
+.enhanced-about-header {
+    margin-bottom: 25px;
+    text-align: center;
+    /* Center the header elements */
+    border-bottom: 1px solid #e0e0e0;
+    /* Subtle separator */
+    padding-bottom: 20px;
+}
+
+.enhanced-about-header .section-main-title {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    /* Example: A modern, readable font */
+    font-weight: 700;
+    font-size: 2rem;
+    /* Responsive font size */
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.enhanced-about-header .title-prefix {
+    color: #001055 !important;
+    display: block;
+    /* Or inline-block if preferred on same line with spacing */
+    font-size: 0.9em;
+    /* Slightly smaller than program name */
+    margin-bottom: 5px;
+    /* Spacing if on separate lines */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.enhanced-about-header .program-name {
+    color: #FF6600;
+    /* Orange - similar to your image's program name color */
+    display: block;
+    /* Or inline-block */
+}
+
+.enhanced-about-header .section-tagline {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    /* Example: A complementary body font */
+    font-size: 1.1rem;
+    color: #555555;
+    /* A softer grey for the tagline */
+    max-width: 700px;
+    /* Improve readability */
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Prose section (where your {!! $programme->about_prog !!} goes) */
+.enhanced-about-prose {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #333333;
+    /* Standard dark grey for body text */
+    line-height: 1.7;
+    /* Improved readability */
+    margin-bottom: 30px;
+}
+
+.enhanced-about-prose p {
+    margin-bottom: 1.2em;
+    /* Spacing between paragraphs from your dynamic content */
+    font-size: 1rem;
+}
+
+.enhanced-about-prose p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments for the title and highlights */
+@media (max-width: 768px) {
+    .enhanced-about-header .section-main-title {
+        font-size: 1.8rem;
+    }
+
+    .enhanced-about-header .section-tagline {
+        font-size: 1rem;
+    }
+
+    .highlight-item {
+        flex-basis: calc(50% - 15px);
+        /* 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .enhanced-about-content-wrapper {
+        padding: 20px;
+    }
+
+    .enhanced-about-header .section-main-title {
+        font-size: 1.6rem;
+    }
+
+    .enhanced-about-highlights {
+        flex-direction: column;
+        /* Stack highlight items vertically */
+        gap: 15px;
+    }
+
+    .highlight-item {
+        flex-basis: 100%;
+        /* Full width on small screens */
+        flex-direction: row;
+        /* Icon beside text on very small stacked view */
+        align-items: center;
+        text-align: left;
+    }
+
+    .highlight-icon {
+        margin-bottom: 0;
+        margin-right: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+
+/* --- Enhanced Fees Section Styles --- */
+
+.enhanced-fees-section {
+padding: 40px 0;
+background-color: #ffffff;
+}
+
+.enhanced-fees-content-wrapper {
+background-color: #f8f9fa; /* Or #ffffff if section bg is colored */
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+text-align: left;
+}
+
+.enhanced-fees-header {
+margin-bottom: 25px;
+text-align: center;
+border-bottom: 1px solid #e0e0e0;
+padding-bottom: 20px;
+}
+
+.enhanced-fees-header .section-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2rem;
+margin-bottom: 10px;
+line-height: 1.3;
+}
+
+.enhanced-fees-header .program-name-part {
+color: #001055; /* YOUR Dark Blue */
+display: inline-block;
+}
+
+.enhanced-fees-header .title-suffix {
+color: #FF7900; /* YOUR Orange */
+display: inline-block;
+margin-left: 8px;
+}
+
+.enhanced-fees-header .section-tagline {
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 1.1rem;
+color: #555555;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+line-height: 1.6;
+}
+
+/* Fees Table Styling */
+.enhanced-fees-table-container {
+overflow-x: auto; /* CRITICAL: Enables horizontal scroll on smaller screens */
+margin-bottom: 20px; /* Reduced margin as note is removed */
+-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.enhanced-fees-table {
+width: 100%;
+min-width: 600px; /* Suggest a min-width to ensure table doesn't get too cramped before scrolling starts. Adjust as needed. */
+border-collapse: collapse;
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 0.95rem;
+}
+
+.enhanced-fees-table thead {
+background-color: #001055; /* YOUR Dark Blue header */
+color: #ffffff;
+}
+
+.enhanced-fees-table th,
+.enhanced-fees-table td {
+padding: 12px 15px;
+text-align: left;
+border-bottom: 1px solid #dee2e6;
+white-space: nowrap; /* Prevents text in cells from wrapping, good for scannable tables. Can be overridden per column if needed. */
+}
+.enhanced-fees-table td:first-child,
+.enhanced-fees-table th:first-child {
+padding-left: 20px; /* More padding for the first column */
+}
+.enhanced-fees-table td:last-child,
+.enhanced-fees-table th:last-child {
+padding-right: 20px; /* More padding for the last column */
+}
+
+
+.enhanced-fees-table th {
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+
+.enhanced-fees-table tbody tr:nth-child(even) {
+background-color: #f8f9fa;
+}
+.enhanced-fees-table tbody tr:hover {
+background-color: #e9ecef;
+}
+
+/* Specific column styling (can be adjusted) */
+.enhanced-fees-table .col-sno { /* This class was on <th>, can apply to <td> via JS if needed, or style first-child td */
+width: 10%;
+text-align: center;
+}
+.enhanced-fees-table td:nth-child(1) { /* S.No column data */
+text-align: center;
+}
+
+.enhanced-fees-table .col-details { /* This class was on <th> */
+width: 50%;
+white-space: normal; /* Allow fee details to wrap if they are long */
+}
+.enhanced-fees-table td:nth-child(2) { /* Fee Details column data */
+white-space: normal; /* Allow fee details to wrap if they are long */
+}
+
+
+.enhanced-fees-table .col-amount { /* This class was on <th> */
+width: 40%;
+font-weight: 500;
+}
+
+.enhanced-fees-table .payment-schedule {
+font-size: 0.85em;
+color: #555;
+margin-left: 5px;
+white-space: nowrap; /* Keep schedule on one line with amount */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+.enhanced-fees-header .section-main-title {
+font-size: 1.8rem;
+}
+.enhanced-fees-content-wrapper {
+padding: 20px; /* Slightly less padding on mobile */
+}
+.enhanced-fees-table {
+font-size: 0.9rem; /* Slightly smaller font on mobile for better fit */
+}
+.enhanced-fees-table th,
+.enhanced-fees-table td {
+padding: 10px 12px; /* Slightly less padding in cells on mobile */
+}
+}
+
+@media (max-width: 576px) {
+/* Further adjustments for very small screens if needed,
+but horizontal scroll should handle most cases for the table. */
+.enhanced-fees-header .section-main-title {
+font-size: 1.6rem;
+}
+.enhanced-fees-header .section-tagline {
+font-size: 1rem;
+}
+}
+
+
+/* --- Enhanced Eligibility Section Styles --- */
+
+.enhanced-eligibility-section {
+padding: 50px 0;
+background-color: #ffffff; /* Or a very light contrasting background like #f8f9fa */
+}
+
+.enhanced-eligibility-main-header {
+text-align: center;
+margin-bottom: 40px;
+}
+
+/* Assuming .section-main-title, .program-name-part, .title-suffix, .section-tagline
+are styled globally or from previous sections using your brand colors:
+.program-name-part color: #001055; (YOUR Dark Blue)
+.title-suffix color: #FF7900; (YOUR Orange)
+*/
+/* If not, define them: */
+.enhanced-eligibility-main-header .section-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2rem;
+margin-bottom: 10px;
+line-height: 1.3;
+}
+.enhanced-eligibility-main-header .program-name-part {
+color: #001055 !important;
+display: inline-block;
+}
+.enhanced-eligibility-main-header .title-suffix {
+color: #FF7900;
+display: inline-block;
+margin-left: 8px;
+}
+.enhanced-eligibility-main-header .section-tagline {
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 1.1rem;
+color: #555555;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+line-height: 1.6;
+}
+
+
+.enhanced-eligibility-image-col {
+display: flex;
+align-items: center; /* Vertically center the image container */
+justify-content: center; /* Horizontally center for smaller screens if it stacks */
+margin-bottom: 30px; /* Spacing when stacked on mobile */
+}
+
+.eligibility-image-placeholder {
+width: 100%;
+max-width: 450px; /* Control max image size */
+border-radius: 12px;
+overflow: hidden; /* To respect border-radius for the image */
+box-shadow: 0 10px 30px rgba(0, 20, 85, 0.1); /* Subtle shadow, using a tint of your blue */
+}
+.eligibility-image-placeholder img {
+width: 100%;
+height: auto;
+display: block;
+object-fit: cover; /* Ensures image covers the area nicely */
+min-height: 300px; /* Give it some minimum height */
+}
+
+.enhanced-eligibility-content-col {
+display: flex;
+flex-direction: column;
+justify-content: center; /* Vertically center content if image is taller */
+}
+
+.eligibility-criteria-wrapper {
+width: 100%;
+}
+
+.criteria-card {
+background-color: #f8f9fa; /* Light background for cards */
+padding: 25px;
+border-radius: 10px;
+margin-bottom: 25px;
+border-left: 5px solid; /* Accent border */
+box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.criteria-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.eligibility-card {
+border-left-color: #001055; /* YOUR Dark Blue */
+}
+.selection-card {
+border-left-color: #FF7900; /* YOUR Orange */
+}
+
+.card-icon-header {
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.card-icon {
+font-size: 1.8rem; /* Adjust icon size as needed */
+margin-right: 15px;
+line-height: 1; /* Helps with vertical alignment */
+}
+.eligibility-card .card-icon {
+color: #001055; /* YOUR Dark Blue */
+}
+.selection-card .card-icon {
+color: #FF7900; /* YOUR Orange */
+}
+
+
+.card-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+margin: 0; /* Remove default margin from h3 */
+color: #333;
+}
+/* If you want card titles to match accent colors: */
+/*
+.eligibility-card .card-title { color: #001055; }
+.selection-card .card-title { color: #FF7900; }
+*/
+
+
+.card-content .criteria-text {
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 1rem;
+color: #454545;
+line-height: 1.7;
+}
+.card-content .criteria-text p,
+.card-content .criteria-text ul,
+.card-content .criteria-text li {
+margin-bottom: 0.8em; /* Spacing for elements within dynamic content */
+}
+.card-content .criteria-text ul {
+padding-left: 20px;
+}
+.card-content .criteria-text li {
+position: relative; /* For custom bullet styling if needed */
+}
+
+
+.eligibility-cta-note {
+text-align: center;
+margin-top: 20px;
+padding: 20px;
+background-color: #e6f0ff; /* A light, inviting blue */
+border-radius: 8px;
+}
+.eligibility-cta-note p {
+margin-bottom: 15px;
+font-size: 1rem;
+color: #001055; /* YOUR Dark Blue */
+}
+/* Assuming .cta-button, .primary-cta are styled globally.
+.small-cta is new for potentially smaller buttons in notes. */
+.cta-button.small-cta {
+padding: 10px 25px;
+font-size: 0.95rem;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 991px) { /* lg breakpoint */
+.enhanced-eligibility-image-col,
+.enhanced-eligibility-content-col {
+text-align: center; /* Center content when stacked */
+}
+.eligibility-image-placeholder {
+margin-left: auto;
+margin-right: auto;
+}
+.criteria-card {
+text-align: left; /* Keep card text left-aligned */
+}
+}
+
+@media (max-width: 768px) { /* md breakpoint */
+.enhanced-eligibility-main-header .section-main-title {
+font-size: 1.8rem;
+}
+.card-title {
+font-size: 1.3rem;
+}
+.card-icon {
+font-size: 1.6rem;
+}
+}
+/* --- Recruiters Light Section --- */
+
+.recruiters-light-section {
+padding: 60px 0;
+background-color: #f8f9fa; /* Very light grey, almost white */
+/* Or a subtle white/light grey gradient for depth:
+background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%); */
+}
+
+.rl-header {
+margin-bottom: 40px;
+}
+
+.rl-section-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2.2rem;
+color: #001055; /* TMU Dark Blue for main title text */
+margin-bottom: 10px;
+line-height: 1.3;
+}
+
+.rl-section-main-title .rl-title-prefix {
+display: block;
+font-size: 0.8em;
+color: #001055 !important;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+margin-bottom: 5px;
+font-weight: 500;
+}
+
+.rl-section-main-title .rl-title-highlight {
+color: #FF7900; /* TMU Orange for the highlight part */
+/* display: block; or inline depending on desired flow */
+}
+
+.rl-section-tagline {
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 1.1rem;
+color: #555555; /* Darker grey for readability on light bg */
+max-width: 750px;
+margin: 0 auto 30px auto;
+line-height: 1.7;
+}
+
+/* Light Theme Placement Stats Bar */
+.rl-placement-stats-bar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+padding: 25px;
+margin-bottom: 50px;
+background-color: #ffffff; /* White background for the stats bar */
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 20, 85, 0.08); /* Subtle blueish shadow */
+border-top: 3px solid #FF7900; /* Orange accent top border */
+}
+
+.rl-stat-item {
+text-align: center;
+flex-grow: 1;
+min-width: 150px; /* Adjust as needed */
+padding: 10px 0;
+}
+
+.rl-stat-figure {
+display: block;
+font-family: 'Poppins', 'Arial', sans-serif;
+font-size: 2.5rem; /* Prominent numbers */
+font-weight: 700;
+color: #001055; /* TMU Dark Blue for figures */
+line-height: 1.1;
+margin-bottom: 3px;
+}
+
+.rl-stat-description {
+font-family: 'Roboto', 'Arial', sans-serif;
+font-size: 0.9rem;
+color: #454545; /* Dark grey for description */
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+
+.rl-cta-action {
+flex-shrink: 0;
+}
+
+.rl-cta-button {
+display: inline-block;
+background-color: #FF7900;
+color: #ffffff;
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 600;
+font-size: 0.95rem;
+padding: 10px 22px;
+text-decoration: none;
+border-radius: 6px;
+transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+border: 2px solid transparent;
+}
+
+.rl-cta-button:hover {
+background-color: transparent;
+color: #FF7900;
+transform: translateY(-2px);
+border-color: #FF7900;
+box-shadow: 0 4px 12px rgba(255, 121, 0, 0.2);
+}
+.rl-cta-button .fas {
+transition: transform 0.3s ease;
+}
+.rl-cta-button:hover .fas {
+transform: translateX(4px);
+}
+
+/* Recruiters Logo Grid - Light Theme */
+.rl-logo-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax as needed */
+gap: 25px;
+}
+
+.rl-logo-item-wrapper {
+display: contents; /* For AOS or other wrappers to not break grid */
+}
+
+.rl-logo-card {
+background-color: #ffffff;
+border: 1px solid #e0e6ed; /* Light subtle border */
+border-radius: 10px;
+padding: 20px; /* Increased padding for better logo display */
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 110px; /* Slightly increased min-height */
+transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+overflow: hidden;
+}
+
+.rl-logo-card:hover {
+transform: translateY(-6px) scale(1.02);
+box-shadow: 0 10px 30px rgba(0, 20, 85, 0.1); /* Softer blueish shadow on hover */
+border-color: #FF7900; /* TMU Orange border on hover */
+}
+
+.rl-logo-card img {
+max-width: 90%; /* Allow logos to be slightly larger within the card */
+max-height: 65px; /* Max height for logos */
+object-fit: contain;
+filter: none; /* No filter needed for light theme usually */
+/* For better display of logos with white parts on white background:
+Add a very subtle drop shadow to the image itself if needed
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
+*/
+}
+.text-muted-light { /* For "no recruiters" message */
+color: #6c757d;
+font-style: italic;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) { /* Tablets */
+.rl-section-main-title {
+font-size: 2rem;
+}
+.rl-placement-stats-bar {
+padding: 20px;
+flex-direction: column; /* Stack stats on tablets for better readability */
+align-items: stretch; /* Make items full width when stacked */
+}
+.rl-stat-item {
+min-width: auto; /* Reset min-width when stacked */
+border-bottom: 1px solid #e9ecef;
+padding-bottom: 15px;
+margin-bottom: 10px;
+}
+.rl-stat-item:last-of-type { /* Last stat item within the flex group */
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.rl-placement-stats-bar .rl-cta-action { /* Ensure CTA is after last stat item or separate */
+ margin-top: 15px;
+ text-align: center;
+}
+.rl-logo-grid {
+grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+gap: 20px;
+}
+.rl-logo-card {
+padding: 18px;
+min-height: 100px;
+}
+.rl-logo-card img {
+max-height: 55px;
+}
+.rl-stat-figure {
+font-size: 2.2rem;
+}
+}
+
+@media (max-width: 767px) { /* Mobile */
+.recruiters-light-section {
+padding: 40px 0;
+}
+.rl-header {
+margin-bottom: 30px;
+}
+.rl-section-main-title {
+font-size: 1.8rem;
+}
+.rl-section-tagline {
+font-size: 1rem;
+}
+.rl-stat-figure {
+font-size: 2rem;
+}
+.rl-stat-description {
+font-size: 0.85rem;
+}
+.rl-cta-button {
+font-size: 0.9rem;
+padding: 10px 20px;
+width: 100%;
+max-width: 280px;
+}
+.rl-logo-grid {
+grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+gap: 15px;
+}
+.rl-logo-card {
+padding: 15px;
+min-height: 90px;
+}
+.rl-logo-card img {
+max-height: 50px;
+}
+}
+.sculpted-curriculum-section {
+padding: 80px 0 60px 0;
+background-color: #ffffff;
+font-family: 'Roboto', 'Arial', sans-serif;
+position: relative;
+}
+.sculpted-curriculum-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 25%;
+height: 100%;
+background: linear-gradient(to right, rgba(230, 240, 255, 0.7), transparent);
+z-index: 0;
+pointer-events: none;
+}
+.sculpted-curriculum-section::after {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+width: 25%;
+height: 100%;
+background: linear-gradient(to left, rgba(255, 235, 224, 0.7), transparent);
+z-index: 0;
+pointer-events: none;
+}
+@media screen and (max-width:796px)
+{
+.sculpted-curriculum-section::before,
+.sculpted-curriculum-section::after {
+display: none;
+}
+}
+.sc-header {
+margin-bottom: 60px;
+}
+
+.sc-section-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2.4rem;
+color: #001055;
+display: block;
+letter-spacing: -0.5px;
+text-transform: none;
+margin-top: 5px;
+}
+.sc-section-main-title span{
+font-weight: 500;
+font-size: 1.3rem;
+color: #001055;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 8px;
+}
+
+.sc-section-main-title .sc-title-prefix {
+display: block;
+margin:0;
+padding:0;
+}
+
+.sc-section-tagline {
+font-size: 1.1rem;
+color: #606f7b;
+max-width: 650px;
+margin: 0 auto;
+line-height: 1.7;
+font-weight: 300;
+}
+
+.sc-semesters-container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.sc-semester-module {
+margin-bottom: 15px; /* Reduced margin as visual separation is less pronounced */
+position: relative;
+padding-left: 30px; /* Still need this for the timeline alignment */
+}
+.sc-semester-module:last-child {
+margin-bottom: 0;
+}
+
+
+.sc-semester-module::before {
+content: '';
+position: absolute;
+left: 10px;
+top: 28px; 
+bottom: -15px; 
+width: 2px;
+background-color: #e8edf3;
+z-index: 0;
+}
+.sc-semester-module:last-child::before {
+height: 90%;
+}
+
+/* --- Collapse Trigger Styling --- */
+.sc-semester-header-trigger {
+background-color: #fdfdff;
+border: 1px solid #eff2f7;
+border-radius: 8px;
+padding: 0;
+width: 100%;
+text-align: left;
+cursor: pointer;
+transition: background-color 0.2s ease, box-shadow 0.2s ease;
+position: relative;
+z-index: 1; /* To be above the timeline ::before */
+margin-left: -30px; /* Compensate for parent's padding-left to align correctly */
+padding-left: 30px; /* Re-apply padding inside the button */
+box-shadow: 0 2px 5px rgba(0, 20, 85, 0.02);
+}
+
+.sc-semester-header-trigger:hover {
+background-color: #f7f9fc;
+box-shadow: 0 4px 10px rgba(0, 20, 85, 0.04);
+}
+
+.sc-semester-header-trigger[aria-expanded="true"] {
+background-color: #001055;
+border-color: #001055;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.sc-semester-header-content {
+display: flex;
+align-items: center;
+padding: 18px 20px; /* Internal padding for the content within the button */
+}
+
+
+.sc-semester-icon-accent {
+width: 24px;
+height: 24px;
+background-color: #FF7900;
+color: #ffffff;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 0.8rem;
+margin-right: 15px; /* Original spacing for icon */
+box-shadow: 0 0 0 4px #fdfdff; /* Shadow against trigger background */
+flex-shrink: 0;
+transition: background-color 0.2s ease, color 0.2s ease;
+}
+.sc-semester-header-trigger[aria-expanded="true"] .sc-semester-icon-accent {
+background-color: #ffffff;
+color: #001055;
+box-shadow: 0 0 0 4px #001055;
+}
+
+
+.sc-semester-name {
+font-family: 'Poppins', sans-serif;
+font-size: 1.3rem; /* Slightly smaller to fit well in button */
+font-weight: 600;
+color: #001055;
+margin: 0;
+line-height: 1.2;
+transition: color 0.2s ease;
+}
+.sc-semester-header-trigger[aria-expanded="true"] .sc-semester-name {
+color: #ffffff;
+}
+
+
+.sc-semester-course-count {
+margin-left: auto;
+font-size: 0.8rem;
+font-weight: 500;
+color: #77838f;
+background-color: #f0f4f8;
+padding: 5px 12px;
+border-radius: 15px;
+transition: color 0.2s ease, background-color 0.2s ease;
+margin-right: 15px; /* Space before indicator */
+}
+.sc-semester-header-trigger[aria-expanded="true"] .sc-semester-course-count {
+color: #001055;
+background-color: #FF7900;
+}
+
+.sc-collapse-indicator {
+font-size: 0.9rem;
+color: #adb5bd;
+transition: transform 0.3s ease-in-out, color 0.2s ease;
+}
+.sc-semester-header-trigger[aria-expanded="true"] .sc-collapse-indicator {
+transform: rotate(180deg);
+color: #ffffff;
+}
+
+/* --- Collapsible Content Styling --- */
+.sc-semester-content-collapsible {
+margin-left: -30px;
+padding-left: 30px; 
+}
+
+.sc-semester-content {
+padding: 25px 20px 25px 30px;
+border-top: none;
+background-color: #ffffff;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+.sc-semester-overview {
+font-size: 0.95rem;
+color: #556270;
+line-height: 1.65;
+margin-bottom: 25px;
+font-style: italic;
+border-left: 3px solid #FFDAB9;
+padding-left: 15px;
+}
+
+.sc-courses-list {
+display: grid;
+gap: 10px;
+}
+
+.sc-course-entry {
+background-color: #fdfdff;
+padding: 15px 20px;
+border-radius: 8px;
+border: 1px solid #eff2f7;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.sc-course-entry:hover {
+transform: translateX(5px);
+box-shadow: 4px 4px 15px rgba(0, 20, 85, 0.04);
+border-left-color: #FF7900;
+border-left-width: 3px;
+}
+
+.sc-course-title {
+font-size: 1rem;
+font-weight: 500;
+color: #2c3e50;
+flex-grow: 1;
+margin-right: 15px;
+}
+
+.sc-course-meta {
+display: flex;
+align-items: center;
+flex-shrink: 0;
+font-size: 0.85rem;
+}
+
+.sc-course-code {
+color: #FF7900;
+font-weight: 600;
+margin-right: 15px;
+background-color: rgba(255, 121, 0, 0.08);
+padding: 3px 7px;
+border-radius: 4px;
+}
+
+.sc-course-credits {
+color: #001055;
+font-weight: 500;
+white-space: nowrap;
+}
+
+.sc-no-courses {
+padding: 15px;
+font-style: italic;
+color: #7f8c8d !important;
+}
+
+
+@media (max-width: 767px) {
+.sculpted-curriculum-section {
+padding: 50px 0 30px 0;
+}
+.sc-header {
+margin-bottom: 40px;
+}
+.sc-section-main-title {
+font-size: 1.1rem;
+}
+.sc-section-main-title .sc-program-name-highlight {
+font-size: 2rem;
+}
+.sc-section-tagline {
+font-size: 1rem;
+}
+.sc-semester-module {
+padding-left: 20px; /* Adjusted for mobile timeline */
+}
+.sc-semester-module::before {
+left: 6px; 
+top: 24px;
+}
+.sc-semester-header-trigger {
+margin-left: -20px; /* Compensate for new parent padding */
+padding-left: 20px; /* Re-apply */
+}
+.sc-semester-header-content {
+padding: 15px 15px;
+}
+.sc-semester-icon-accent {
+width: 20px;
+height: 20px;
+font-size: 0.7rem;
+margin-right: 12px; /* Reduce margin */
+}
+.sc-semester-name {
+font-size: 1.1rem; /* Smaller for button */
+}
+.sc-semester-course-count {
+font-size: 0.75rem;
+padding: 4px 8px;
+margin-right: 10px; /* Space before indicator */
+}
+.sc-collapse-indicator {
+font-size: 0.8rem;
+}
+
+.sc-semester-content-collapsible {
+margin-left: -20px; /* Compensate */
+padding-left: 20px; /* Re-apply */
+}
+.sc-semester-content {
+padding: 20px 15px 20px 15px; /* Simpler padding for content on mobile */
+}
+
+.sc-course-entry {
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 15px;
+}
+.sc-course-title {
+margin-bottom: 8px;
+margin-right: 0;
+}
+.sc-course-meta {
+width: 100%;
+justify-content: space-between;
+}
+.sc-course-code {
+margin-right: 10px;
+}
+}
+
+/* --- Enhanced TMU Programme Scholarship Section --- */
+
+.tmu-programme-scholarship {
+padding: 50px 0;
+background-color: #f4f7f9; /* A very light, sophisticated grey/blue */
+font-family: 'Roboto', 'Arial', sans-serif;
+color: #333;
+}
+
+.tmu-programme-scholarship .table-container {
+/* The .container class from Bootstrap usually handles max-width and centering.
+If .table-container is meant to be the main content wrapper: */
+max-width: 1140px; /* Or your preferred container width */
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+/* Styling for the individual scholarship "blocks" (heading + content) */
+.tmu-programme-scholarship h3.t3,
+.tmu-programme-scholarship h2.t3 {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-size: 1.6rem; /* Prominent but not overly large */
+color: #001055 !important; /* TMU Dark Blue */
+margin-top: 40px; /* Space above each new scholarship block */
+margin-bottom: 15px; /* Space between heading and its content */
+padding-bottom: 10px;
+border-bottom: 2px solid #FF7900; /* TMU Orange accent */
+display: inline-block; /* To make border only as wide as text */
+font-weight: 600 !important; /* Ensure strong weight */
+}
+.tmu-programme-scholarship h3.t3 strong,
+.tmu-programme-scholarship h2.t3 strong {
+font-weight: inherit !important; /* Let the parent h3/h2 control the weight */
+}
+
+
+/* First heading in the section can be styled as a main title if desired */
+.tmu-programme-scholarship .row.justify-content-center > h3.t3:first-child,
+.tmu-programme-scholarship .row.justify-content-center > h2.t3:first-child {
+font-size: 2rem; /* Larger for the very first title */
+display: block; /* Full width for main title's border */
+text-align: center;
+margin-bottom: 25px;
+/* If you want a prefix/suffix style like other sections for the *absolute first* heading:
+position: relative;
+padding-bottom: 20px; */
+}
+/* Example: Main title prefix (would need JS to inject or careful targeting)
+.tmu-programme-scholarship .row.justify-content-center > h3.t3:first-child::before {
+content: "FINANCIAL AID &";
+display: block;
+font-size: 0.7em;
+color: #001055;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 5px;
+} */
+
+
+.tmu-programme-scholarship p,
+.tmu-programme-scholarship .table-wrapper {
+font-size: 1rem;
+line-height: 1.7;
+color: #454545;
+margin-bottom: 25px; 
+}
+.tmu-programme-scholarship h3.t3 + p, /* Paragraphs directly after h3 */
+.tmu-programme-scholarship h2.t3 + p { /* Paragraphs directly after h2 */
+margin-top: 0; /* Remove extra top margin if p is part of the "card" */
+}
+.tmu-programme-scholarship h3.t3 + div.table-wrapper,
+.tmu-programme-scholarship h2.t3 + div.table-wrapper {
+margin-top: 0;
+}
+
+
+/* List Styling */
+.tmu-programme-scholarship ul {
+list-style-type: none !important; /* Override inline style */
+padding-left: 0 !important; /* Override browser default */
+margin-bottom: 0; /* Remove bottom margin from ul inside p */
+}
+
+.tmu-programme-scholarship ul li {
+padding-left: 30px; /* Space for icon */
+position: relative;
+margin-bottom: 10px; /* Space between list items */
+font-size: 0.95rem;
+color: #333;
+}
+
+.tmu-programme-scholarship ul li::before {
+content: "\f058"; /* Font Awesome check-circle icon (solid) */
+font-family: "Font Awesome 6 Free"; /* Use "Font Awesome 6 Pro" if you have Pro */
+font-weight: 900; /* For solid icons */
+color: #FF7900; /* TMU Orange */
+position: absolute;
+left: 0;
+top: 1px; /* Adjust for vertical alignment */
+font-size: 1.1em;
+}
+
+/* Table Wrapper (for responsiveness and multiple tables) */
+.tmu-programme-scholarship .table-wrapper {
+overflow-x: auto;
+-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+padding: 5px;
+}
+
+/* Hide the <br> tag and use margins for spacing tables */
+.tmu-programme-scholarship .table-wrapper > br {
+display: none !important;
+}
+
+/* Targeting the *actual* data tables (inner tables due to invalid HTML) */
+.tmu-programme-scholarship .table-wrapper table.table { /* Target the outer table wrapper if needed */
+/* This might be the problematic empty outer table. Let's ensure it doesn't interfere. */
+border: none !important;
+background-color: transparent !important;
+margin-bottom: 0 !important; /* Reset bootstrap margin */
+}
+.tmu-programme-scholarship .table-wrapper table.table > tbody > tr > td {
+/* Cells of the outer table (if any rendered) should be transparent */
+padding: 0 !important;
+padding-left: 10px !important;
+border: none !important;
+}
+
+
+/* Style the actual data tables (the nested ones) */
+.tmu-programme-scholarship .table-wrapper table table.table { /* This targets the inner tables */
+width: 100% !important;
+min-width: 500px; /* Ensure some min-width before scroll kicks in */
+border-collapse: separate !important; /* Use separate for border-spacing */
+border-spacing: 0; /* Reset spacing */
+margin-bottom: 0 !important; /* Reset Bootstrap's mb-none potentially */
+font-size: 0.9rem;
+overflow: hidden;
+box-shadow: none !important; 
+}
+
+
+
+
+.tmu-programme-scholarship .table-wrapper table table.table thead {
+background-color: #001055 !important; /* TMU Dark Blue */
+color: #ffffff !important;
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table thead th {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 600 !important;
+text-align: left !important;
+padding: 12px 15px !important;
+border-bottom: none !important; /* Remove BS bottom border if we use our own */
+border-color: #001055 !important; /* Match background */
+text-transform: uppercase;
+letter-spacing: 0.5px;
+font-size: 0.85rem;
+white-space: nowrap;
+}
+.tmu-programme-scholarship .table-wrapper table table.table thead th:first-child {
+border-top-left-radius: 6px;
+}
+.tmu-programme-scholarship .table-wrapper table table.table thead th:last-child {
+border-top-right-radius: 6px;
+}
+
+
+.tmu-programme-scholarship .table-wrapper table table.table tbody tr {
+background-color: #ffffff !important; /* Ensure default white */
+border-bottom: 1px solid #e9ecef; /* Subtle horizontal lines */
+transition: background-color 0.2s ease;
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table tbody tr:last-child {
+border-bottom: none; /* No border for the last row */
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table tbody tr:nth-child(even) {
+background-color: #f8f9fa !important; /* Lighter stripe for even rows */
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table tbody tr:hover {
+background-color: #e6f0ff !important; /* Light blue hover effect */
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table tbody td {
+padding: 10px 15px !important;
+
+vertical-align: middle !important;
+color: #333 !important;
+border: none !important; /* Remove all individual cell borders from table-bordered */
+/* border-top: 1px solid #dee2e6 !important; */ /* Use tr border-bottom instead */
+white-space: nowrap; /* Prevent wrapping for most cells */
+}
+/* Allow first column (description) to wrap if needed */
+.tmu-programme-scholarship .table-wrapper table table.table tbody td:first-child {
+white-space: normal;
+}
+
+
+/* Ensure Bootstrap classes don't override too much */
+.tmu-programme-scholarship .mb-none {
+margin-bottom: 0 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+.tmu-programme-scholarship h3.t3,
+.tmu-programme-scholarship h2.t3 {
+font-size: 1.4rem;
+}
+.tmu-programme-scholarship .row.justify-content-center > h3.t3:first-child,
+.tmu-programme-scholarship .row.justify-content-center > h2.t3:first-child {
+font-size: 1.7rem;
+}
+
+.tmu-programme-scholarship p,
+.tmu-programme-scholarship .table-wrapper {
+padding: 5px;
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table {
+font-size: 0.85rem;
+}
+
+.tmu-programme-scholarship .table-wrapper table table.table thead th,
+.tmu-programme-scholarship .table-wrapper table table.table tbody td {
+padding: 8px 10px !important;
+}
+}
+/* --- Career Showcase Section (Image Left, List Right) --- */
+
+/* Define TMU Orange if not globally available */
+.text-tmu-orange {
+color: #FF7900 !important; /* Your TMU Orange */
+}
+
+.career-showcase-section {
+background-color: #f8f9fa; 
+font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+
+.career-showcase-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2.2rem; /* Adjust as needed */
+color: #001055; /* Your TMU Dark Blue */
+margin-bottom: 0.75rem; /* BS class mb-3 equivalent */
+line-height: 1.3;
+}
+
+.career-showcase-main-title .career-showcase-title-prefix {
+display: block;
+font-size: 0.7em;
+color: #FF7900; /* Your TMU Orange */
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 0.5rem; /* BS class mb-2 equivalent */
+font-weight: 500;
+}
+
+
+/* Content Styling (Image and List) */
+
+
+.career-showcase-image-wrapper img {
+border: 3px solid #ffffff; /* Adds a subtle clean border if image has dark edges */
+}
+
+.career-showcase-intro-text {
+font-size: 0.95rem;
+color: #495057; /* Bootstrap's default text muted color or similar */
+font-style: italic;
+font-family: 'Roboto', sans-serif;
+}
+
+.career-showcase-list {
+/* list-unstyled is from Bootstrap */
+padding-left: 0; /* Reinforce, though list-unstyled should do it */
+column-count: 1; /* Default to 1 column for smaller screens */
+column-gap: 1.5rem; /* BS class gap-3 equivalent */
+}
+
+.career-showcase-list li {
+font-family: 'Poppins', sans-serif; /* Using Poppins for a slightly more premium feel for titles */
+font-size: 0.95rem; /* Clean, readable size */
+color: #212529; /* Bootstrap's default dark text */
+padding: 0.35rem 0; /* Minimal vertical spacing for items */
+display: flex; /* For better alignment of icon and text */
+align-items: flex-start; /* Align icon with the top of the text line */
+font-weight: 500;
+/* Break inside avoid is useful for column layouts to prevent items breaking across columns */
+-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+         break-inside: avoid; /* IE 10+ */
+}
+
+.career-showcase-list li .fas.fa-check-circle {
+/* text-tmu-orange is from Bootstrap/custom global */
+/* me-2 is from Bootstrap for margin */
+font-size: 1em; /* Icon size relative to text */
+line-height: inherit; /* Helps with vertical alignment if text wraps */
+margin-top: 0.15em; /* Fine-tune icon vertical position */
+}
+
+
+
+@media (min-width: 768px) { /* Medium devices (md) and up - when image and list are side-by-side */
+.career-showcase-list {
+column-count: 2;
+}
+
+}
+
+@media (min-width: 992px) { /* Large devices (lg) and up */
+
+/* Optionally increase column gap for larger screens */
+.career-showcase-list {
+column-gap: 2rem; /* BS class gap-4 equivalent */
+}
+}
+
+
+.specializations-showcase-section {
+padding: 60px 0;
+background-color: #ffffff;
+position: relative;
+}
+
+.specializations-showcase-section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 25%;
+height: 100%;
+background: linear-gradient(to right, rgba(230, 240, 255, 0.7), transparent);
+z-index: 0;
+pointer-events: none;
+}
+.specializations-showcase-section::after {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+width: 25%;
+height: 100%;
+background: linear-gradient(to left, rgba(255, 235, 224, 0.7), transparent);
+z-index: 0;
+pointer-events: none;
+}
+
+
+.specializations-showcase-section .container {
+position: relative;
+z-index: 1;
+}
+
+.ss-header {
+margin-bottom: 50px;
+}
+
+.ss-section-main-title {
+font-family: 'Poppins', 'Arial', sans-serif;
+font-weight: 700;
+font-size: 2.3rem;
+color: #001055;
+margin-bottom: 15px;
+line-height: 1.3;
+}
+
+.ss-section-main-title .ss-title-prefix {
+display: block;
+font-size: 0.75em;
+color: #FF7900;
+text-transform: uppercase;
+letter-spacing: 1.8px;
+margin-bottom: 8px;
+font-weight: 500;
+}
+
+.ss-card {
+background-color: #ffffff;
+border-radius: 15px;
+box-shadow: 0 10px 30px rgba(0, 20, 85, 0.07);
+transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+display: flex;
+align-items: flex-start;
+padding: 25px;
+overflow: hidden;
+position: relative;
+border: 1px solid #e7eaf3;
+height: 100%;
+}
+
+.ss-card:hover {
+transform: translateY(-8px) scale(1.01);
+box-shadow: 0 15px 40px rgba(0, 20, 85, 0.12);
+}
+
+.ss-card-icon-area {
+flex-shrink: 0;
+width: 70px;
+height: 70px;
+border-radius: 12px;
+background-color: #e6f0ff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 25px;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ss-card:hover .ss-card-icon-area {
+background-color: #001055;
+transform: rotate(-5deg) scale(1.05);
+}
+
+.ss-card-icon {
+font-size: 2rem;
+color: #001055;
+transition: color 0.3s ease;
+}
+
+.ss-card:hover .ss-card-icon {
+color: #FF7900;
+}
+
+.ss-card-content {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+text-align: left;
+}
+
+.ss-card-title {
+font-family: 'Poppins', sans-serif;
+font-size: 1.35rem;
+font-weight: 600;
+color: #001055;
+margin-bottom: 10px;
+line-height: 1.3;
+}
+
+.ss-card-description {
+font-family: 'Roboto', sans-serif;
+font-size: 0.92rem;
+color: #505d69;
+line-height: 1.65;
+margin-bottom: 20px;
+flex-grow: 1;
+}
+
+.ss-card-cta-button {
+display: inline-block;
+background-color: transparent;
+color: #FF7900;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 0.9rem;
+padding: 8px 0px;
+text-decoration: none;
+border-radius: 5px;
+transition: color 0.3s ease, transform 0.2s ease;
+align-self: flex-start;
+border-bottom: 2px solid transparent;
+}
+
+.ss-card-cta-button:hover {
+color: #001055;
+border-bottom-color: #001055;
+}
+.ss-card-cta-button .fas {
+transition: transform 0.3s ease;
+font-size: 0.9em;
+}
+.ss-card-cta-button:hover .fas {
+transform: translateX(6px);
+}
+
+@media (max-width: 991px) {
+.specializations-showcase-section::before,
+.specializations-showcase-section::after {
+width: 15%;
+}
+.ss-section-main-title {
+font-size: 2rem;
+}
+.ss-card-title {
+font-size: 1.2rem;
+}
+}
+
+@media (max-width: 767px) {
+.specializations-showcase-section {
+padding: 40px 0;
+}
+.specializations-showcase-section::before,
+.specializations-showcase-section::after {
+display: none;
+}
+.ss-header {
+margin-bottom: 30px;
+}
+.ss-section-main-title {
+font-size: 1.8rem;
+}
+.ss-card {
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 20px;
+}
+.ss-card-icon-area {
+margin-right: 0;
+margin-bottom: 20px;
+width: 60px;
+height: 60px;
+}
+.ss-card-icon {
+font-size: 1.8rem;
+}
+.ss-card-title {
+font-size: 1.15rem;
+}
+.ss-card-description {
+font-size: 0.9rem;
+}
+.ss-card-cta-button {
+align-self: center;
+}
+}
