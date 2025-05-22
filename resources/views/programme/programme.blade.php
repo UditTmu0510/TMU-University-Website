@@ -171,7 +171,6 @@
             </div>
         </div>
     </div>
-
     {{-- Section: Refined Specializations/Programs Showcase --}}
     @php
         // Placeholder data for standalone testing. Remove when integrating.
