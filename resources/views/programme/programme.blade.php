@@ -209,7 +209,7 @@ if (!isset($specializations)) {
 }
 @endphp
 
-<section class="specializations-showcase-section refined-program-cards">
+<section class="specializations-showcase-section refined-program-cards d-none">
     <div class="container">
         <div class="ss-header text-center">
             <h2 class="ss-section-main-title">
