@@ -569,7 +569,7 @@ if (!isset($specializations)) {
                 <span class="rl-stat-figure">{{ $highestPackage ?? 'Top Tier' }}</span>
                 <span class="rl-stat-description">Highest Package Offered</span>
             </div>
-            <div class="rl-cta-action">
+            <div class="rl-cta-action d-none">
                 <a href="#career-opportunities" class="rl-cta-button">
                     Explore Career Opportunities<i class="fas fa-arrow-right ms-1"></i>
                 </a>
