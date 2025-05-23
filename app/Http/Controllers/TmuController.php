@@ -250,8 +250,14 @@ class TmuController extends Controller
 
     public function tmu_careers()
     {
-        $academicJobs = JobOpening::where('category', 'Academic')->get();
-        $adminJobs = JobOpening::where('category', 'Administration')->get();
+        $academicJobs = JobOpening::where('category', 'Academic')
+                ->orderBy('priority', 'desc')
+                ->get();
+
+        $adminJobs = JobOpening::where('category', 'Administration')
+                ->orderBy('priority', 'desc')
+                ->get();
+
 
         if ($academicJobs->isEmpty() || $adminJobs->isEmpty()) {
             dd('No jobs found');
