@@ -664,7 +664,7 @@
         }
     @endphp
 
-    <section class="sculpted-curriculum-section">
+    <section class="sculpted-curriculum-section d-none">
         <div class="container">
             <div class="career-showcase-header text-center mb-4">
                 <h2 class="career-showcase-main-title">
@@ -746,7 +746,7 @@
     
     ?>
 
-    <section class="career-showcase-section py-5" id="career-opportunities">
+    <section class="career-showcase-section py-5 d-none" id="career-opportunities">
         <div class="container">
             {{-- Reusing the Header Style You Liked --}}
             <div class="career-showcase-header text-center mb-4">
