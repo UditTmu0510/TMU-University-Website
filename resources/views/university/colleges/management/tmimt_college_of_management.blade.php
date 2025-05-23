@@ -159,9 +159,9 @@
                 <div class="tab-pane fade show active" id="Tab1" role="tabpanel" aria-labelledby="tab1-tab">
                     <h3>Key Highlights</h3>
                     <ul class="m-ol-list ps-4 mb-0 pb-0">
-                        <li>
+                        {{-- <li>
                             <p class="p-0 m-0">The only management college in the region with IACBE membership, an international accreditation body.</p>
-                        </li>
+                        </li> --}}
                         <li>
                             <p class="p-0 m-0">The college offers a wide range of specializations in BBA / B. Com/ MBA including Block Chain Technology, Marketing, Logistics and Supply Chain Management, International Business, Human Resources, Finance, Financial Market, Cyber Security, Agricultural Management, Hospital Management, etc.</p>
                         </li>
