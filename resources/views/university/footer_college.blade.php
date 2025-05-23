@@ -336,7 +336,7 @@
                                     <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
                                     <li><a href="{{route('student.clubs')}}" target="_blank">Student Club</a></li>
                                     <li><a href="{{route('master.programme.page')}}" target="_blank">Programmes</a></li>
-
+                                    <li><a href="http://www.samadhaan.ugc.ac.in/" target="_blank">UGC e-Samadhan</a></li>
                                 </ul>
                             </div>
 
