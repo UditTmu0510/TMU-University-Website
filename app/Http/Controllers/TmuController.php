@@ -1590,6 +1590,15 @@ class TmuController extends Controller
         // Fetch programs that have a status of 'Y' and are associated with a college
         $programs = Programmes::whereNotNull('cd_id')
             ->where('status', 'Y')  // Filter to include only programs with 'Y' status
+            ->where('display_on_home_page', 'Y')
+            ->orderByRaw("
+            CASE 
+                WHEN programme_level = 'UG' THEN 1
+                WHEN programme_level = 'PG' THEN 2
+                ELSE 3
+            END
+            ")
+            ->orderBy('prog_name', 'ASC')
             ->get();
 
         // Group the programs by their college ID (cd_id)
