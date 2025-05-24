@@ -113,13 +113,16 @@
                 }
             },
             "Computer Sciences & IT": {
-                "BTech (Computer Science & Engineering)": {
-                    "link": "\/programme\/b-tech-in-computer-science-and-engineering"
+                "BTech CSE in Cloud Technology and Information Security": {
+                    "link": "\/programme\/btech-cse-cloud-technology-information-security"
+                },
+                "BTech CSE in Data Science": {
+                    "link": "\/programme\/btech-cse-data-science"
                 },
                 "BTech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
                     "link": "\/programme\/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning"
                 },
-                "BTech CSE with specialisation in Application Development using Cloud and Analytical Platform (In collaboration with IBM)": {
+                "BTech CSE with specialisation in Cloud & Analytics Platforms (In collaboration with IBM)": {
                     "link": "\/programme\/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
                 },
                 "BSc Computer Science (Hons / Hons with Research)": {
@@ -128,12 +131,12 @@
                 "BCA (Hons / Hons with Research)": {
                     "link": "\/programme\/bca-hons-with-research"
                 },
-                "BSc (Animation) (Hons / Hons with Research)": {
+                "BSc (Animation) / (Hons / Hons with Research)": {
                     "link": "\/programme\/bsc-animation"
                 }
             },
             "Agriculture Science": {
-                "BSc(H) Agriculture": {
+                "BSc (Hons.) Agriculture (ICAR-Accredited)": {
                     "link": "\/programme\/bsc-hons-agriculture"
                 }
             },
@@ -151,33 +154,33 @@
                 }
             },
             "Education": {
-                "BEd (Bachelor of Education)": {
+                "B Ed (Bachelor of Education)": {
                     "link": "\/programme\/bachelor-of-education-b-ed"
                 },
-                "BElED": {
+                "BElED (Bachelor of Elementary Education)": {
                     "link": "\/programme\/b-el-ed-programme"
                 }
             },
             "Engineering": {
+                "BTech (AICTE Approved) in Computer Science & Engineering": {
+                    "link": "\/programme\/btech-cse"
+                },
+                "BTech (AICTE Approved) In Civil Engineering": {
+                    "link": "\/programme\/b-tech-in-civil-engineering-programme"
+                },
                 "BTech (AICTE Approved) in Mechanical Engineering": {
                     "link": "\/programme\/b-tech-in-mechanical-engineering"
                 },
-                "BTech (AICTE Approved) in Electrical Engineering": {
+                "BTech (AICTE Approved) In Electrical Engineering": {
                     "link": "\/programme\/btech-electrical-engineering"
                 },
-                "BTech (AICTE Approved) in Electronics & Communication Engineering": {
+                "BTech (AICTE Approved) in Electronics & Communication (EC) Engineering": {
                     "link": "\/programme\/b-tech-in-electronics-communicationec-engineering-programme"
-                },
-                "BTech (AICTE Approved) in Civil Engineering": {
-                    "link": "\/programme\/b-tech-in-civil-engineering-programme"
-                },
-                "BTech (AICTE Approved) in Computer Science & Engineering": {
-                    "link": "\/programme\/btech-cse"
                 }
-              
+                
             },
             "Fine Arts": {
-                "BFA (Hons / Hons with Research)": {
+                "BFA (Honours / Honours with Research)": {
                     "link": "\/programme\/bachelor-of-fine-arts-programme"
                 }
             },
@@ -185,10 +188,11 @@
                 "BCom (Honours / Honours with Research) ": {
                     "link": "\/programme\/bachelor-of-commerce-b-com-honours-programme"
                 },
-                "B.Com. Fintech & Blockchain Technologies with Whizhack Technologies": {
-                    "link": "\/programme\/bcom-in-fintech"
+
+                "BBA (Honours / Honours with Research) in International Business and Entrepreneurship": {
+                    "link": "\/programme\/bba-hons-international-business-entrepreneurship"
                 },
-                "BBA (Honours / Honours with Research) in IB & Data Analytics": {
+                "BBA (Honours / Honours with Research) in Data Analytics": {
                     "link": "\/programme\/bba-in-data-analytics"
                 },
                 "BBA (Hons) (Honours / Honours with Research)": {
@@ -196,16 +200,16 @@
                 }
             },
             "Paramedical": {
-                "BOptom (Bachelor of Optometry)": {
+                "Bachelor of Optometry": {
                     "link": "\/programme\/bachelor-of-optometry-b-optom"
                 },
-                "BSc (Forensic Sciences) Postmortem Facility": {
+                "BSc in Forensic Science (Honours / Honours with Research)": {
                     "link": "\/programme\/bsc-forensic-science"
                 },
-                "BMLT (B.SC. IN Medical Lab Techniques)": {
+                "BSc in Medical Lab Techniques": {
                     "link": "\/programme\/bsc-in-medical-lab-techniques"
                 },
-                "BSc in Medical Radiological Imaging Techniques ": {
+                "BSc in Radiological Imaging Techniques": {
                     "link": "\/programme\/bsc-in-radiology"
                 }
             },
@@ -213,12 +217,12 @@
                 "BPES (Honours / Honours with Research)": {
                     "link": "\/programme\/bpes-programme"
                 },
-                "BPED (Bachelor of Physical Education)": {
+                "BPEd": {
                     "link": "\/programme\/bachelor-of-physical-education-bped-programme"
                 }
             },
             "Physiotherapy": {
-                "BPT (Bachelor of Physiotherapy)": {
+                "Bachelor of Physiotherapy (BPT)": {
                     "link": "\/programme\/bachelor-of-physiotherapy-programme"
                 }
             }
@@ -240,133 +244,139 @@
                 "MSc Medical in Microbiology": {
                     "link": "\/programme\/MSc-Medical-in-Microbiology"
                 },
-                "MS Medical in ENT\/Oto-Rhinolaryngology": {
+                "MS (Master of Science) in ENT/Oto-Rhinlaryngology": {
                     "link": "\/programme\/ms-ent-oto-rhinlaryngology"
                 },
-                "MS Medical in General Surgery": {
+                "MS (Master of Science) in General Surgery": {
                     "link": "\/programme\/ms-general-surgery"
                 },
-                "MS Medical in Ophthalmology": {
+                "MS (Master of Science) in Ophthalomology": {
                     "link": "\/programme\/ms-ophthalomology"
                 },
-                "MS Medical in Orthopaedics": {
+                "MS (Master of Science) in Orthopaedics": {
                     "link": "\/programme\/ms-orthopaedics"
                 },
-                "MS Medical in Obstetrics and Gynaecology": {
+                "MS (Master of Science) in Obstetrics and Gynaecology": {
                     "link": "\/programme\/ms-obstetrics-and-gynaecology"
                 },
 
-                "MD Radio-Diagnosis\/Radiology": {
+                "MD (Doctor of Medicine) in Radio-Diagnosis/Radiology": {
                     "link": "\/programme\/md-radio-diagnosis-radiology"
                 },
-                "MD (Dermatology, Venereology & Leprosy": {
+                "MD (Doctor of Medicine) in Dermatology, Venereology and Leprosy": {
                     "link": "\/programme\/md-dermatology-venereology-and-leprosy"
                 },
-                "MD General Medicine": {
+                "MD (Doctor of Medicine) in General Medicine": {
                     "link": "\/programme\/md-general-medicine"
                 },
-                "MD Paediatrics": {
+                "MD (Doctor of Medicine) in Paediatrics": {
                     "link": "\/programme\/md-paediatrics"
                 },
-                "MD Respiratory Medicine\/TB & Chest": {
+                "MD (Doctor of Medicine) in Respiratory Medicine/TB & Chest": {
                     "link": "\/programme\/md-respiratory-medicine-tb-and-chest"
                 },
-                "MD Psychiatry": {
+                "MD (Doctor of Medicine) in Psychiatry": {
                     "link": "\/programme\/md-psychiatry"
                 },
-                "MD Anesthesiology": {
+                "MD (Doctor of Medicine) in Anesthesiology": {
                     "link": "\/programme\/md-anesthesiology"
                 },
-                "MD Pathology": {
+                "MD (Doctor of Medicine) in Pathology": {
                     "link": "\/programme\/md-pathology"
                 },
-                "MD Biochemistry": {
+                "MD (Doctor of Medicine) in Biochemistry": {
                     "link": "\/programme\/md-biochemistry"
                 },
-                "MD Microbiology": {
+                "MD (Doctor of Medicine) in Microbiology": {
                     "link": "\/programme\/md-microbiology"
                 },
-                "MD Community Medicine": {
+                "MD (Doctor of Medicine) in Community Medicine": {
                     "link": "\/programme\/md-community-medicine"
                 },
-                "MD Pharmacology": {
+                "MD (Doctor of Medicine) in Pharmacology": {
                     "link": "\/programme\/md-pharmacology"
                 },
-                "MD Anatomy": {
+                "MD (Doctor of Medicine) in Anatomy": {
                     "link": "\/programme\/md-anatomy"
                 },
-                "MD Physiology": {
+                "MD (Doctor of Medicine) in Physiology": {
                     "link": "\/programme\/md-physiology"
                 },
-                "MD Forensic Medicine": {
+                "MD (Doctor of Medicine) in Forensic Medicine": {
                     "link": "\/programme\/md-forensic-medicine"
                 }
             },
             "Dental": {
-                "MDS (Conservative Dentistry and Endodontics)": {
+                "MDS in Conservation Dentistry & Endodontics": {
                     "link": "\/programme\/mds-conservation-dentistry-programme"
                 },
-                "MDS (Oral and Maxillofacial Surgery)": {
+                "MDS in Oral & Maxillofacial Surgery": {
                     "link": "\/programme\/mds-oral-maxillofacial-surgery"
                 },
-                "MDS (Orthodontics and Dentofacial Orthopedics)": {
+                "MDS in Orthodontics & Dentofacial Orthopedics": {
                     "link": "\/programme\/mds-orthodontics-dentofacial-orthopedics"
                 },
-                "MDS (Prosthodontics and Crown and Bridge)": {
+                "MDS In Prosthodontics and Crown & Bridge": {
                     "link": "\/programme\/mds-prosthodontics-crown-bridge"
                 },
-                "MDS (Paedodontics and Preventive Dentistry)": {
+                "MDS in Paedodontics & Preventive Dentistry": {
                     "link": "\/programme\/mds-pediatric-preventive-dentistry"
                 },
-                "MDS (Periodontology)": {
+                "MDS in Periodontology": {
                     "link": "\/programme\/MDS-Periodontology"
                 },
-                "MDS (Public Health Dentistry)": {
+                "MDS in Public Health Dentistry": {
                     "link": "\/programme\/MDS-Public-Health-Dentistry"
                 },
-                "MDS (Oral Medicine and Radiology)": {
+                "MDS in Oral Medicine and Radiology": {
                     "link": "\/programme\/MDS-Oral-Medicine-Radiology"
                 },
-                "MDS (Oral Pathology and Microbiology)": {
+                "MDS in Oral Maxillofacial Pathology & oral Microbiology": {
                     "link": "\/programme\/mds-oral-maxillofacial-pathology-and-oral-microbiology"
                 }
             },
             "Nursing": {
-                "MSc Nursing in Medical Surging": {
+                "MSc in Medical Surgical Nursing": {
                     "link": "\/programme\/msc-medical-surgical-nursing"
                 },
-                "MSc Nursing in Paediatrics": {
+                "MSc in Paediatric Nursing": {
                     "link": "\/programme\/msc-in-paediatric-nursing"
                 },
-                "MSc Nursing in Medical Surging Obstectrics & Gynecology": {
+                "MSc in Obstetrics & Gynaecology Nursing": {
                     "link": "\/programme\/msc-in-gynaecology"
                 },
-                "MSc Nursing in Communty Health": {
+                "MSc in Community Health Nursing": {
                     "link": "\/programme\/msc-in-community-health-nursing"
                 },
-                "MSc Nursing in Psychiatry": {
+                "MSc in Psychiatry Nursing": {
                     "link": "\/programme\/msc-in-psychiatry-nursing"
                 }
             },
             "Computing Sciences & IT": {
-                "Master of Computer Applications (MCA) ": {
+                "MCA (Master of Computer Applications) ": {
                     "link": "\/programme\/mca-programme"
                 },
-                "M Tech (Computer Science & Engineering)": {
+                "MTech (Computer Science & Engineering)": {
                     "link": "\/programme\/mtech-computer-science-engineering"
+                },
+                "MSc (Master of Science) in Artificial Intelligence (In collaboration with Aivancity, France)": {
+                    "link": "\/programme\/msc-artificial-intelligence"
+                },
+                "MSc (Master of Science) in Data Science (In collaboration with Aivancity, France)": {
+                    "link": "\/programme\/msc-data-science"
                 }
             },
             "Engineering": {
-                "Master of Technology (M.tech.) in Additive Manufacturing": {
+                "MTech (Master of Technology) in Additive Manufacturing": {
                     "link": "\/programme\/mtech-additive-manufacturing"
                 },
-                "Master of Technology (M.tech.) in Machine Learning & Data Science": {
+                "MTech in Machine Learning & Data Science": {
                     "link": "\/programme\/mtech-machine-learning-data-science"
                 },
-                "Master of Technology (M.tech.) in Electrical Power & Energy System": {
+                "MTech in Electrical Power and Energy System": {
                     "link": "\/programme\/mtech-electrical-power-energy-system"
                 },
-                "Master of Technology (M.tech.) in Structural & Construction": {
+                "M Tech in Structural and Construction Engineering": {
                     "link": "\/programme\/mtech-structural-and-construction-engineering"
                 }
             },
@@ -376,7 +386,7 @@
                 }
             },
             "Fine Arts": {
-                "MFA (Masters of Fine Arts)": {
+                "Masters of Fine Arts (MFA)": {
                     "link": "\/programme\/MFA-Program"
                 }
             },
@@ -386,44 +396,53 @@
                 },
                 "Master of Business Administration Hospital Management ": {
                     "link": "\/programme\/mba-in-hospital-management-mba-programme"
+                },
+                "MBA in Corporate with Global Exposure ": {
+                    "link": "\/programme\/mba-corporate-global-exposure"
+                },
+                "Master of Business Administration (MBA) with Dual Specialisation ": {
+                    "link": "\/programme\/master-of-business-administration-mba"
+                },
+                "MBA in Logistics and Supply Chain Management ": {
+                    "link": "\/programme\/mba-logistics-supply-chain-management"
                 }
             },
             "Paramedical": {
-                "MSc (Forensic Science)": {
+                "MSc in Forensic Science": {
                     "link": "\/programme\/MSc-Forensic-Science"
                 },
-                "MSc (Medical Laboratory Techniques)": {
+                "MSc in Medical Laboratory Techniques": {
                     "link": "\/programme\/msc-medical-lab-technology"
                 },
-                "MSc (Optometry)": {
+                "MSc in Optometry": {
                     "link": "\/programme\/msc-in-optometry"
                 },
-                "MSc (Radiological Imaging Techniques)": {
+                "MSc in Radiological Imaging Techniques": {
                     "link": "\/programme\/msc-in-radiology"
                 }
             },
             "Pharmacy": {
-                "PharmD Post Baccalaureate": {
+                "Pharm D PB (Post Baccalaureate)": {
                     "link": "\/programme\/pharm-d-pb-post-baccalaureate"
                 },
-                "PharmD": {
+                "Pharm D (Doctor of Pharmacy)": {
                     "link": "\/programme\/doctor-of-pharmacy-programme-at-tmu-moradabad"
                 },
-                "M Pharm in Pharmacology": {
+                "M Pharm (Master of Pharmacy) in Pharmacology": {
                     "link": "\/programme\/m-pharm-pharmacology"
                 },
-                "M Pharm in Pharmacognosy": {
+                "M Pharm (Master of Pharmacy) in Pharmacognosy": {
                     "link": "\/programme\/M-pharm-pharmacognosy"
                 },
-                "M Pharm in Pharmacuetical Analysis": {
+                "M Pharm (Master of Pharmacy) in Pharmaceutical Analysis": {
                     "link": "\/programme\/m-pharm-pharmaceutical-analysis"
                 },
-                "M Pharm in Pharmaceutics": {
+                "M Pharm (Master of Pharmacy) in Pharmaceutics": {
                     "link": "\/programme\/m-pharm-pharmaceutics"
                 }
             },
             "Physical Education": {
-                "MPED (Master of Physical Education)": {
+                "MPEd": {
                     "link": "\/programme\/mped-programme"
                 }
             },
@@ -434,10 +453,10 @@
                 "Master of Physiotherapy (MPT) in Neurosciences": {
                     "link": "\/programme\/mpt-in-neurosciences"
                 },
-                "Master of Physiotherapy(MPT) in Cardiopulmonary": {
+                "Master of Physiotherapy (MPT) in Cardiopulmonary": {
                     "link": "\/programme\/mpt-in-cardiopulmonary"
                 },
-                "Master of Physiotherapy(MPT) in Sports": {
+                "Master of Physiotherapy (MPT) in Sports": {
                     "link": "\/programme\/mpt-in-Sports"
                 },
                 "Master of Physiotherapy (MPT) in Gynaecology": {
@@ -448,13 +467,13 @@
                 }
             },
             "Agriculture": {
-                "MSc (Master of Science in Agronomy )": {
+                "MSc - Agronomy": {
                     "link": "\/programme\/master-of-science-in-agronomy-programme"
                 },
-                "MSc (Master of Science in Plant Pathology )": {
+                "MSc Plant Pathology": {
                     "link": "\/programme\/msc-plant-pathology"
                 },
-                "MSc (Master of Science in Soil Sciences )": {
+                "MSc Soil Science": {
                     "link": "\/programme\/msc-soil-science"
                 }
             },
@@ -465,14 +484,6 @@
             }
         },
         "integrated": {
-            "Education": {
-                "BA-BED (Integrated)": {
-                    "link": "\/programme\/ba-bed-integrated"
-                },
-                "BSC-B ED (Integrated)": {
-                    "link": "\/programme\/b-sc-b-ed-integrated-programme"
-                }
-            },
             "Law & Legal Studies": {
                 "BA-LLB (Hons)": {
                     "link": "\/programme\/ba-llb-hons-programme"
