@@ -487,7 +487,7 @@ $programme->eligibility_section_flag == 'Y' &&
                 <div class="eligibility-image-placeholder">
                     {{-- Consider an SVG icon or a very clean graphic here if a photo isn't ideal --}}
                     {{-- For example, a large stylized checkmark or academic cap icon --}}
-                    <img src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    <img src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy"
                         alt="Eligibility criteria illustration - students studying">
                     {{-- Placeholder: Students studying - choose a relevant, high-quality image --}}
                 </div>
@@ -766,7 +766,7 @@ $careerTitles = ['Management Consultant', 'Marketing Manager', 'Operations Manag
                             Replace with your actual image.
                             Recommended image size: at least 600px wide, consider aspect ratio around 4:3 or 5:4
                         --}}
-                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" loading="lazy"
                             alt="Dynamic career paths and success in {{ $programme->prog_name ?? 'Finance' }}"
                             class="img-fluid rounded shadow-lg">
                         {{-- BS5 classes: img-fluid, rounded, shadow-lg --}}
