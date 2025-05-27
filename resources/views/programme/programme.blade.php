@@ -193,7 +193,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
                         <div class="rpc-card">
                             <div class="rpc-card-image-wrapper">
                                 @if (!empty($spec->icon_path))
-                                <img src="{{ asset($spec->icon_path) }}" alt="{{ $spec->name }} image"
+                                <img src="{{ asset($spec->icon_path) }}" loading="lazy" alt="{{ $spec->name }} image"
                                     class="rpc-card-img">
                                 @else
                                 <img src="{{ asset('uploads/events/past_event/default_thumbnail_news.jpg') }}"
