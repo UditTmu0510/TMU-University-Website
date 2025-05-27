@@ -71,7 +71,6 @@
                 <div class="col-lg-6 col-xl-6">
                   <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
                     <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Law and Legal Studeis</li></a>
-                    {{-- <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Computing Sciences & IT</li></a> --}}
                     <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer University College of Engineering</li></a>
                     <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Fine Arts</li></a>
                     <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Faculty of Education</li></a>
