@@ -225,13 +225,13 @@
                   <td style="text-align:justify;font-size:14px;" class="mb-3"><b style="color:#FF7900;">Centre for Jain Studies</b><br>
                     Established in 2012, the College imparts moral education, conducts comparative studies of different philosophies, and undertakes research in religious studies.
                 </tr>
-                <tr>
+                {{-- <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2014</strong></h2>
                   </td>
                   <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Computing Sciences & IT</b><br>
                     Established in 2014, the College offers programmes in computer science, animation, and IT, providing essential education to aspiring technologists.
-                </tr>
+                </tr> --}}
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2014</strong></h2>
