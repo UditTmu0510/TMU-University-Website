@@ -689,7 +689,7 @@
                                             19, April</span>
                                     </div>
                                 </div>
-                                <hr class="notice-separator">
+                                {{-- <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
                                         <span>17, April</span>
@@ -708,8 +708,8 @@
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             18, April</span>
                                     </div>
-                                </div>
-                                <hr class="notice-separator">
+                                </div> --}}
+                                {{-- <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
                                         <span>17, April</span>
@@ -728,7 +728,7 @@
                                             18-19,
                                             April</span>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
@@ -984,7 +984,7 @@
                                             March</span>
                                     </div>
                                 </div>
-                                <hr class="notice-separator">
+                                {{-- <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
                                         <span>01, March</span>
@@ -1006,7 +1006,7 @@
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11,
                                             March</span>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <hr class="notice-separator">
                             </div>
                         </div>
@@ -1040,17 +1040,17 @@
                                                 <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
 
                 <!-- Lazy loaded thumbnail images with data-bg attribute -->
+                {{-- <div class="thumb" onclick="displayReviewByIndex(0)"
+                    data-bg="{{ asset('assets/img/department/alumni/people/1.png') }}"></div> --}}
                 <div class="thumb" onclick="displayReviewByIndex(0)"
-                    data-bg="{{ asset('assets/img/department/alumni/people/1.png') }}"></div>
-                <div class="thumb" onclick="displayReviewByIndex(1)"
                     data-bg="{{ asset('assets/img/department/alumni/people/2.png') }}"></div>
-                <div class="thumb" onclick="displayReviewByIndex(2)"
+                <div class="thumb" onclick="displayReviewByIndex(1)"
                     data-bg="{{ asset('assets/img/department/alumni/people/3.png') }}"></div>
-                <div class="thumb" onclick="displayReviewByIndex(3)"
+                <div class="thumb" onclick="displayReviewByIndex(2)"
                     data-bg="{{ asset('assets/img/department/alumni/people/4.png') }}"></div>
-                <div class="thumb" onclick="displayReviewByIndex(4)"
+                <div class="thumb" onclick="displayReviewByIndex(3)"
                     data-bg="{{ asset('assets/img/department/alumni/people/8.jpg') }}"></div>
-                <div class="thumb" onclick="displayReviewByIndex(5)"
+                <div class="thumb" onclick="displayReviewByIndex(4)"
                     data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
                 <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
                                                 <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
