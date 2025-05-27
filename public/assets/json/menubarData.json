@@ -69,9 +69,6 @@
         "Teerthanker Mahaveer College of Law & legal studies": {
             "link": "\/college-of-law-and-legal-studies"
         },
-        "College of Computing Sciences & IT ": {
-            "link": "\/college-of-computing-sciences-and-it"
-        },
         "Teerthanker Mahaveer University College of Engineering": {
             "link": "\/faculty-of-engineering"
         },
@@ -110,32 +107,6 @@
             "Dental": {
                 "BDS (Bachelor of Dental Surgery)": {
                     "link": "\/programme\/BDS-course-details"
-                }
-            },
-            "Computer Sciences & IT": {
-                "BTech CSE in Cloud Technology and Information Security": {
-                    "link": "\/programme\/btech-cse-cloud-technology-information-security"
-                },
-                "BTech CSE in Data Science": {
-                    "link": "\/programme\/btech-cse-data-science"
-                },
-                 "BTech CSE in Cyber Security": {
-                    "link": "\/programme\/btech-cse-cyber-security"
-                },
-                "BTech CSE with specialisation in Artificial Intelligence, Machine Learning & Deep Learning": {
-                    "link": "\/programme\/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning"
-                },
-                "BTech CSE with specialisation in Cloud & Analytics Platforms (In collaboration with IBM)": {
-                    "link": "\/programme\/btech-cse-with-specialisation-in-cloud-and-analytics-platforms"
-                },
-                "BSc Computer Science (Hons / Hons with Research)": {
-                    "link": "\/programme\/bsc-hons-computer-science-with-research"
-                },
-                "BCA (Hons / Hons with Research)": {
-                    "link": "\/programme\/bca-hons-with-research"
-                },
-                "BSc (Animation) / (Hons / Hons with Research)": {
-                    "link": "\/programme\/bsc-animation"
                 }
             },
             "Agriculture Science": {
@@ -353,20 +324,6 @@
                 },
                 "MSc in Psychiatry Nursing": {
                     "link": "\/programme\/msc-in-psychiatry-nursing"
-                }
-            },
-            "Computing Sciences & IT": {
-                "MCA (Master of Computer Applications) ": {
-                    "link": "\/programme\/mca-programme"
-                },
-                "MTech (Computer Science & Engineering)": {
-                    "link": "\/programme\/mtech-computer-science-engineering"
-                },
-                "MSc (Master of Science) in Artificial Intelligence (In collaboration with Aivancity, France)": {
-                    "link": "\/programme\/msc-artificial-intelligence"
-                },
-                "MSc (Master of Science) in Data Science (In collaboration with Aivancity, France)": {
-                    "link": "\/programme\/msc-data-science"
                 }
             },
             "Engineering": {
