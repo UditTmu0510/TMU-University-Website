@@ -38,8 +38,6 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <img class="d-none d-sm-block"
         src="{{ asset($programme->programme_banner_path) }}"
         alt="Programme Banner"
-        loading="eager"
-        fetchpriority="high"
         style="width: 100%; height: 100%; object-fit: cover; display: block;">
 
     <div class="text d-none d-sm-block" style="color: #000000;">
@@ -91,7 +89,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <!-- Image Div -->
     <div class="ban-image">
         <img src="{{ asset($programme_brochure_path) }}" alt="Programme Brochure"
-            class="cropped-image img-fluid w-100">
+            class="cropped-image img-fluid w-100" >
     </div>
 
     <!-- Text and Button Div -->
@@ -971,6 +969,20 @@ $careerTitles = ['Management Consultant', 'Marketing Manager', 'Operations Manag
     });
 </script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const isMobile = window.innerWidth < 576;
+        const preloadLink = document.createElement('link');
+        preloadLink.rel = 'preload';
+        preloadLink.as = 'image';
+        preloadLink.fetchPriority = 'high';
+        preloadLink.href = isMobile
+            ? "{{ asset($programme_brochure_path) }}"
+            : "{{ asset($programme_banner_path) }}";
+
+        document.head.appendChild(preloadLink);
+    });
+</script>
 
 
 @endsection
