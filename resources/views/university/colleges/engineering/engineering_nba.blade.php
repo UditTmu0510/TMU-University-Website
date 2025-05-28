@@ -232,7 +232,7 @@
                                         <li>Vision,Mission,PSO,PEO & PO
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
                                                 <li>Link-<a
-                                                        href="{{ asset('/assets/pdf/coe/nba/vission_mission_peo_po_pso_of_FOE.pdf') }}"
+                                                        href="{{ asset('/assets/pdf/coe/nba/vission_mission_peo_po_pso.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
                                             </ol>
@@ -468,6 +468,30 @@
 
                                         <li>Course Files
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
+                                                <li>ECS 810<br />Link- <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/course_files/Neural_Network_ECS810 .pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>ECS 404<br />Link- <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/course_files/Software_Engineering_ECS404.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>ECS 612<br />Link- <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/course_files/Mobile_communication_ECS612.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>EAS 162<br />Link- <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/course_files/Engineering_Physics_Lab_EAS162.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>EAS 112<br />Link- <a
+                                                        href="{{ asset('assets/pdf/coe/nba/course_files/Engineering_Physics_EAS112.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>EEE 117<br />Link- <a
+                                                        href="{{ asset('assets/pdf/coe/nba/course_files/Basic_Electrical_Engineering_EEE117.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
                                                 <li>ECS 355<br />Link- <a
                                                         href="{{ asset('assets/pdf/coe/nba/course_files/ECS355_course_file_with_attainments_compressed.pdf') }}"
                                                         target="_blank">View More!</a>
