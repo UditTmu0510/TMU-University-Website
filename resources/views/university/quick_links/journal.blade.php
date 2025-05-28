@@ -688,6 +688,28 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <h2 class="tmu-text-primary mb-2 mt-5"><span>Darpan</span><span></span></h2>
+
+                <div class="container container-jrnl">
+                    <div class="bookshelf"></div>
+                    <div class="book">
+                        <div class="front">
+                            <div class="cover">
+                                <a href="{{ route('tmu.darpan')}}" target="_blank"><img src="{{asset('/assets/img/publication/darpan/cover.jpg')}}" alt="Book Cover Image"></a>
+
+                            </div>
+                        </div>
+                        <div class="left-side">
+                            <h2>
+                                <span>conference proceedings</span>
+
+                            </h2>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -1303,6 +1325,42 @@
                                             <div class="book-inside"></div>
                                             <div class="book-image">
                                                 <img src="{{asset('/assets/img/publication/confe_pro/6.jpg')}}" />
+                                                <div class="effect"></div>
+                                                <div class="light"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <h2 class="tmu-text-primary mb-3 mt-5 text-center"><span>Darpan</span><span> </span></h2>
+
+            <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="book-wrapper">
+                            <div class="book-items">
+                                <div class="main-book-wrap">
+                                    <a href="{{route("tmu.darpan")}}" target="_blank">
+                                        <div class="book-cover">
+                                            <div class="book-inside"></div>
+                                            <div class="book-image">
+                                                <img src="{{asset('/assets/img/publication/darpan/cover.jpg')}}" />
                                                 <div class="effect"></div>
                                                 <div class="light"></div>
                                             </div>

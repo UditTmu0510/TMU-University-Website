@@ -38,9 +38,6 @@
             <a href="{{route('tmu.publication')}}" class="custom-menu-item {{ setActive('tmu.publication') }}">
                 <p>Publications</p>
             </a>
-            <a href="{{route('tmu.darpan')}}" class="custom-menu-item {{ setActive('tmu.darpan') }}">
-                <p>Darpan</p>
-            </a>
             <a href="{{route('tmu.faqs')}}" class="custom-menu-item {{ setActive('tmu.faqs') }}">
                 <p>FAQ's</p>
             </a>
