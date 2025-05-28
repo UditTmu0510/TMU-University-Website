@@ -505,8 +505,7 @@ $programme->eligibility_section_flag == 'Y' &&
                         </div>
                         <div class="card-content">
                             @php
-                            // Assuming $programme->eligibility contains plain text or simple HTML (like <p> or
-                            <ul>)
+                            // Assuming $programme->eligibility contains plain text or simple HTML (like <p> or <ul>)
                                 // If it's just a string, wrap it in <p> for consistent styling.
                                     // For more complex HTML, ensure it's well-formed.
                                     echo '
