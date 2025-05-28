@@ -2014,7 +2014,6 @@ ul {
     padding-left: 2rem
 }
 
-dl,
 ul {
     margin-top: 0;
     margin-bottom: 1rem
@@ -2055,24 +2054,9 @@ a:not([href]):not([class]):hover {
     text-decoration: none
 }
 
-code,
-pre {
+code {
     font-family: var(--bs-font-monospace);
     font-size: 1em
-}
-
-pre {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    overflow: auto;
-    font-size: .875em
-}
-
-pre code {
-    font-size: inherit;
-    color: inherit;
-    word-break: normal
 }
 
 code {
@@ -2202,11 +2186,6 @@ textarea {
     -webkit-appearance: button
 }
 
-summary {
-    display: list-item;
-    cursor: pointer
-}
-
 progress {
     vertical-align: baseline
 }
@@ -2306,9 +2285,17 @@ progress {
     margin-right: .5rem
 }
 
-.img-fluid {
+.img-fluid,
+.img-thumbnail {
     max-width: 100%;
     height: auto
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius)
 }
 
 .figure {
@@ -3086,19 +3073,6 @@ progress {
     padding: .25rem
 }
 
-.table-bordered>:not(caption)>* {
-    border-width: var(--bs-border-width) 0
-}
-
-.table-bordered>:not(caption)>*>* {
-    border-width: 0 var(--bs-border-width)
-}
-
-.table-striped>tbody>tr:nth-of-type(odd)>* {
-    --bs-table-color-type: var(--bs-table-striped-color);
-    --bs-table-bg-type: var(--bs-table-striped-bg)
-}
-
 .table-active {
     --bs-table-color-state: var(--bs-table-active-color);
     --bs-table-bg-state: var(--bs-table-active-bg)
@@ -3138,22 +3112,9 @@ progress {
     --bs-table-hover-color: #000
 }
 
-.table-info,
 .table-success {
     color: var(--bs-table-color);
     border-color: var(--bs-table-border-color)
-}
-
-.table-info {
-    --bs-table-color: #000;
-    --bs-table-bg: #cff4fc;
-    --bs-table-border-color: #badce3;
-    --bs-table-striped-bg: #c5e8ef;
-    --bs-table-striped-color: #000;
-    --bs-table-active-bg: #badce3;
-    --bs-table-active-color: #000;
-    --bs-table-hover-bg: #bfe2e9;
-    --bs-table-hover-color: #000
 }
 
 .table-light {
@@ -3184,39 +3145,6 @@ progress {
     --bs-table-active-color: #fff;
     --bs-table-hover-bg: #323539;
     --bs-table-hover-color: #fff
-}
-
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch
-}
-
-@media (max-width:575.98px) {
-    .table-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch
-    }
-}
-
-@media (max-width:767.98px) {
-    .table-responsive-md {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch
-    }
-}
-
-@media (max-width:991.98px) {
-    .table-responsive-lg {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch
-    }
-}
-
-@media (max-width:1199.98px) {
-    .table-responsive-xl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch
-    }
 }
 
 .form-label {
