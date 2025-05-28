@@ -1615,6 +1615,11 @@ class TmuController extends Controller
         return view('university.programme.master_programme_page', compact('colleges', 'groupedPrograms'));
     }
 
+    public function visual_stories()
+    {
+        return view('university.quick_links.visual_stories');
+    }
+
 
 
 

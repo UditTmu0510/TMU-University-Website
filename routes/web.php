@@ -1225,3 +1225,4 @@ Route::get('ciks/upcoming-events', [CiksController::class, 'ciks_upcoming_events
 
 Route::get('test/blog/npf-form', [TestController::class, 'blog_info_test'])->name('blog.info.test');
 Route::get('test/news/npf-form', [TestController::class, 'news_info_test'])->name('news.info.test');
+Route::get('tmu/visual-stories', [TmuController::class, 'visual_stories'])->name('visual.stories');
