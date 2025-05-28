@@ -548,6 +548,31 @@
                                                 </li>
                                             </ol>
                                         </li>
+                                        <li>
+                                            E-Content
+                                            <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
+                                                <li>Data Mining ESC611<a
+                                                        href="{{ asset('assets/pdf/coe/nba/econtent/Data_Mining_ECS611.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>Artificial Intelligence EAI404<a
+                                                        href="{{ asset('assets/pdf/coe/nba/econtent/EAI404_Artificial_Intelligence.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>Operating System ECS406<a
+                                                        href="{{ asset('assets/pdf/coe/nba/econtent/ECS_406_Operating_System.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>LINUX <a
+                                                        href="{{ asset('assets/pdf/coe/nba/econtent/LINUX_E_Content.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>ECS404 Software Engineering <a
+                                                        href="{{ asset('assets/pdf/coe/nba/econtent/Software_Engineering_ECS404.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                            </ol>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
