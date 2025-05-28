@@ -605,7 +605,7 @@ $highestPackage = '65 LPA';
                 <div class="rl-logo-card">
                     <img src="{{ asset($recruiter->recruiter_image_path) }}"
                         alt="{{ $recruiter->alt_tag ?: 'Recruiter Logo' }}"
-                        title="{{ $recruiter->alt_tag ?: 'Our Valued Recruiter' }}">
+                        title="{{ $recruiter->alt_tag ?: 'Our Valued Recruiter' }}" loading="lazy">
                 </div>
             </div>
             @endforeach

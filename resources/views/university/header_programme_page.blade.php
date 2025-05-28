@@ -442,7 +442,7 @@
   <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <script src="https://kit.fontawesome.com/0fb07c839c.js" crossorigin="anonymous"></script>
+  
 
   <!-- Niche Demos -->
   <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
