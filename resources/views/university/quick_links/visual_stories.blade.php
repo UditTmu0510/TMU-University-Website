@@ -37,9 +37,7 @@
 	.blog-card img {
 		width: 100%;
 		height: 70%;
-		/* Ensures 70% height for the image container */
 		object-fit: cover;
-		/* Ensures the image fills the space without distortion */
 	}
 
 	.blog-content {
@@ -64,7 +62,6 @@
 	/* Background blur for post_path */
 	.image-container889 {
 		height: 100%;
-		/* Set this to match the height of the img elements */
 		width: auto;
 		object-fit: cover;
 		overflow: hidden;
@@ -101,13 +98,9 @@
 
 	.image-container889 {
 		background-size: cover;
-		/* Background will cover the container */
 		background-position: center;
-		/* Center the background image */
 		background-repeat: no-repeat;
-		/* Prevent repetition */
 		height: 70%;
-		/* Match the height to 70% like the img */
 		overflow: hidden;
 		position: relative;
 	}
@@ -141,14 +134,11 @@
 		.blog-title {
 			display: -webkit-box;
 			-webkit-line-clamp: 2;
-			/* Limit the title to 2 lines */
 			-webkit-box-orient: vertical;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			line-clamp: 2;
-			/* For non-webkit browsers */
 			height: 3em;
-			/* Set a fixed height, adjust as necessary */
 		}
 	}
 
@@ -173,77 +163,172 @@
 		border-radius: 15px;
 	}
 </style>
+@php
+    // Sample data 
+    $storyTitles = [
+        "Best Pilot Training Institutes in India",
+        "Average student creating Big: Untold facts",
+        "Top 10 countries for Medical Students: Education, Research and Career",
+        "Top Study Destinations for Medical Students in 2025: Break and Matriculate"
+    ];
+    // Using descriptive seeds for picsum.photos to get varied, somewhat relevant images
+    $storyImageSeeds = [
+        "airplane_cockpit", "student_robotics_project", "medical_research_lab", "university_library_study"
+    ];
+@endphp
 
-<div class="row">
-	<div class="col-12">
-		<h1 class="fw-bolder tmu-text-primary text-center mt-5" style="font-size:2.5rem"><span>All</span><span> Blogs</span></h1>
-	</div>
+
+<style>
+    /* Custom Styles for Visual Stories Section */
+    .visual-stories-page-title-icon {
+        display: inline-block;
+        width: 0.8em;
+        height: 0.8em;
+        background-color: #212529; /* Dark square icon */
+        margin-right: 0.4em;
+        vertical-align: -0.1em; /* Align with text */
+    }
+
+    .visual-stories-section-wrapper {
+        background-color: #e9f5fe; /* Light blue background for the section */
+        border-radius: 12px;
+        /* container-fluid behavior within the parent .container */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visual-story-card-item a {
+        display: block;
+        border-radius: 10px; /* Rounded corners for the card */
+        overflow: hidden;
+        position: relative;
+        height: 400px; /* Adjust height as per your design preference for portrait feel */
+        background-size: cover;
+        background-position: center;
+        text-decoration: none;
+        color: white;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .visual-story-card-item a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .story-icon-badge {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background-color: rgba(255, 255, 255, 0.85); /* Slightly opaque white background */
+        color: #333; /* Dark icon for contrast */
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px; /* Icon size */
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .story-bottom-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 12px 15px 15px;
+        /* Gradient to make text readable */
+        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.75) 50%, rgba(0,0,0,0) 100%);
+    }
+
+    .story-progress-segments {
+        display: flex;
+        gap: 3px;
+        margin-bottom: 10px; /* Space between progress indicators and title */
+        height: 3px; /* Height of each segment line */
+    }
+
+    .story-progress-segments .segment {
+        flex-grow: 1; /* Distribute width equally */
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+        border-radius: 3px;
+    }
+
+    .story-card-title {
+        font-size: 0.95rem; /* Adjust for optimal readability */
+        font-weight: 600; /* Make title stand out */
+        line-height: 1.3;
+        margin: 0;
+        color: #fff; /* White text color */
+    }
+
+    /* Custom "View All" button style */
+    .btn-view-all-stories {
+        display: inline-block;
+        background-color: #0d6efd; /* Bootstrap primary blue or your theme color */
+        color: white;
+        border: none;
+        border-radius: 20px; /* Pill shape */
+        padding: 10px 25px; /* Comfortable padding */
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .btn-view-all-stories:hover {
+        background-color: #0b5ed7; /* Darker shade on hover */
+        color: white;
+    }
+</style>
+
+<!-- Main Page Title for Visual Stories -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="fw-bolder text-start mt-5 mb-4" style="font-size:2.2rem;">
+                <span class="visual-stories-page-title-icon"></span>Visual Stories
+            </h1>
+        </div>
+    </div>
 </div>
 
 <div class="container pb-3">
-
-	<!-- All Blogs Section -->
-	<div class="container container-56789 my-4">
-		<div class="row p-2 mb-3 style-pe7mR">
-			<div class="fw-bolder fs-5 pt-2 text-center text-sm-start">All Blogs</div>
-			<div class="row justify-content-center">
-				@for ($i = 1; $i <= 4; $i++)
-				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">
-					<div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0">
-						<a href="#" class="text-decoration-none text-reset">
-							<div class="text-justify-centre">
-								<img src="https://picsum.photos/seed/blog{{ $i }}/300/200" alt="Sample Blog Title {{ $i }}" />
-								<div class="blog-content">
-									<div class="blog-title">Sample Blog Title {{ $i }}</div>
-									<div class="blog-description">This is a dummy description for blog {{ $i }}.</div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				@endfor
-			</div>
-			<div class="text-center col-12 col-md-12 my-4">
-				<a href="#" class="tmu-btn btn-1 px-3 py-2 fs-12"> View All </a>
-			</div>
-		</div>
-	</div>
-
-	<!-- Dummy Category Sections -->
-	@php
-	$categories = ['Technology', 'Health', 'Education'];
-	@endphp
-
-	@foreach ($categories as $index => $category)
-	<div class="container container-56789 my-4">
-		<div class="row p-2 mb-3 style-pe7mR">
-			<div class="fw-bolder fs-4 pt-2 text-center text-sm-start">{{ $category }}</div>
-			<div class="row">
-				@for ($j = 1; $j <= 3; $j++)
-				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-12 my-3 px-2 text-justify-centre mx-auto ">
-					<div id="blog_box" class="shadow bg-white overflow-hidden rounded-box p-0">
-						<a href="#" class="text-decoration-none text-reset">
-							<div class="blog-card text-justify-centre">
-								<div class="image-container889">
-									<div class="blurred-background" style="background-image: url('https://picsum.photos/seed/{{ $category }}{{ $j }}/300/200');"></div>
-									<img src="https://picsum.photos/seed/{{ $category }}{{ $j }}/300/200" alt="Dummy {{ $category }} Blog {{ $j }}" />
-								</div>
-								<div class="blog-content">
-									<div class="blog-title">Dummy {{ $category }} Blog {{ $j }}</div>
-									<div class="blog-description">Short dummy description for {{ $category }} blog {{ $j }}.</div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				@endfor
-			</div>
-			<div class="text-center col-12 col-md-12 my-4">
-				<a href="#" class="tmu-btn btn-1 px-3 py-2 fs-12"> View All </a>
-			</div>
-		</div>
-	</div>
-	@endforeach
-
+    <!-- Visual Stories Section -->
+    <div class="visual-stories-section-wrapper py-4 px-lg-4 px-md-3 px-2 my-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="fw-bolder fs-4 mb-3 text-start">Latest webstories</h2>
+            </div>
+        </div>
+        <div class="row justify-content-start"> 
+            @for ($i = 0; $i < count($storyTitles); $i++)
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 my-3 px-2"> 
+                <div class="visual-story-card-item">
+                    <a href="/your-story-viewer-page.html?storyId={{ $i + 1 }}"
+                       style="background-image: url('https://picsum.photos/seed/{{ $storyImageSeeds[$i] }}/400/600');">
+                        <div class="story-icon-badge">
+                            <i class="fas fa-clone"></i>
+                        </div>
+                        <div class="story-bottom-content">
+                            <div class="story-progress-segments">
+                                @for ($s = 0; $s < 5; $s++)
+                                <span class="segment"></span>
+                                @endfor
+                            </div>
+                            <h5 class="story-card-title">{{ $storyTitles[$i] }}</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            @endfor
+        </div>
+        <div class="text-center col-12 my-4 pt-2">
+            <a href="#" class="btn-view-all-stories">View All</a>
+        </div>
+    </div>
 </div>
 @endsection
