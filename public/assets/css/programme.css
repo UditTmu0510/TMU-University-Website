@@ -1701,6 +1701,21 @@
         font-size: 1rem
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #footer {
     --cnvs-footer-top-border: 5px solid rgba(var(--cnvs-contrast-rgb), 0.15);
     --cnvs-copyrights-link-color: var(--cnvs-contrast-500);
@@ -1728,6 +1743,7 @@
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
+
 .row > * {
     flex-shrink: 0;
     width: 100%;
@@ -1740,15 +1756,19 @@
 [class*=col-]:not([class*=sticky-]):not([class*=position-]) {
     position: relative;
 }
+
 [class*=col-mb-] {
     margin-bottom: calc(var(--cnvs-col-mb) * -1);
 }
+
 [class*=col-mb-] > .col, [class*=col-mb-] > [class*=col-] {
     padding-bottom: var(--cnvs-col-mb);
 }
+
 .col-mb-50 {
     --cnvs-col-mb: 50px;
 }
+
 .col-mb-30 {
     --cnvs-col-mb: 30px;
 }
@@ -1762,9 +1782,11 @@
 .justify-content-between {
     justify-content: space-between !important;
 }
+
 .text-center {
     text-align: center !important;
 }
+
 .col-12 {
     flex: 0 0 auto;
     width: 100%;
@@ -1780,9 +1802,11 @@
     position: relative;
     margin-top: var(--cnvs-widget-margin);
 }
+
 .widget:first-child {
     margin-top: 0;
 }
+
 .not-dark, .widget, :root {
     --cnvs-widget-border: 1px solid rgba(var(--cnvs-contrast-rgb), 0.1);
 }
@@ -1791,6 +1815,7 @@
     position: relative;
     padding: var(--cnvs-content-padding) 0;
 }
+
 .dark#footer .footer-widgets-wrap, .dark #footer .footer-widgets-wrap {
     color: var(--cnvs-contrast-800);
 }
@@ -1814,31 +1839,35 @@
     line-height: var(--cnvs-line-height-content);
     font-size: var(--cnvs-copyrights-font-size);
 }
+
 #copyrights.dark, .dark #copyrights {
     color: hsla(0, 0%, 100%, .4);
     background-color: rgba(0, 0, 0, .2);
 }
+
 #copyrights i.footer-icon {
     font-size: var(--cnvs-copyrights-font-size);
 }
+
 .copyrights-menu {
     margin-bottom: 10px;
 }
+
 .copyright-links {
     margin-top: .5rem;
 }
-.copyright-links,
-.copyright-links a {
+
+.copyright-links, .copyright-links a {
     color: var(--cnvs-copyrights-link-color);
 }
+
 .pb-5 {
     padding-bottom: 3rem !important;
 }
+
 .mb-5 {
     margin-bottom: 3rem !important;
 }
-
-/* === Responsive Media Queries (Mobile First Order) === */
 
 @media (min-width: 576px) {
     .container, .container-sm {
