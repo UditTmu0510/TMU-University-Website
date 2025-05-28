@@ -231,7 +231,7 @@
                                         <li>Vision,Mission,PSO,PEO & PO
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
                                                 <li>Link-<a
-                                                        href="{{ asset('assets/pdf/coe/nba/vission_mission_peo_po_pso_of_FOE.pdf') }}"
+                                                        href="{{ asset('/assets/pdf/coe/nba/vission_mission_peo_po_pso_of_FOE.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
                                             </ol>
