@@ -344,7 +344,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <div class="row d-flex">
         <div class="col-md-8">
             <img src="{{ asset('assets/img/programmes_offered/form-side-banner.webp') }}" alt=""
-                class="w-100">
+              style="aspect-ratio: 890 / 665; width: 100%; height: auto;"  class="w-100">
         </div>
         <div class="col-md-4 pt-5">
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">
@@ -505,7 +505,8 @@ $programme->eligibility_section_flag == 'Y' &&
                         </div>
                         <div class="card-content">
                             @php
-                            // Assuming $programme->eligibility contains plain text or simple HTML (like <p> or  <ul>)
+                            // Assuming $programme->eligibility contains plain text or simple HTML (like <p> or
+                            <ul>)
                                 // If it's just a string, wrap it in <p> for consistent styling.
                                     // For more complex HTML, ensure it's well-formed.
                                     echo '
