@@ -135,7 +135,10 @@
                     "link": "\/programme\/b-el-ed-programme"
                 }
             },
-            "Computer Sciences & IT": {
+            "Computer Science": {
+                "BTech Computer Science & Engineering": {
+                    "link": "\/programme\/b-tech-in-computer-science-and-engineering"
+                },
                 "BTech CSE in Cloud Technology and Information Security": {
                     "link": "\/programme\/btech-cse-cloud-technology-information-security"
                 },
@@ -352,7 +355,7 @@
                     "link": "\/programme\/msc-in-psychiatry-nursing"
                 }
             },
-            "Computer Science & IT": {
+            "Computer Science": {
                 "MCA (Master of Computer Applications) ": {
                     "link": "\/programme\/mca-programme"
                 },
