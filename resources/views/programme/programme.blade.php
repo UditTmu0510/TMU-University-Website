@@ -35,7 +35,11 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @if (!empty($programme_banner_path) && $programme->video_section_flag == 'Y')
 <div id="slider" class="slideshow-container  d-none d-sm-block"
     style="position: relative; width: 100%; aspect-ratio: 3173 / 1354; overflow: hidden;">
-    <img class="d-none d-sm-block" src="{{ asset($programme->programme_banner_path) }}" alt="Programme Banner"
+    <img class="d-none d-sm-block"
+        src="{{ asset($programme->programme_banner_path) }}"
+        alt="Programme Banner"
+        loading="eager"
+        fetchpriority="high"
         style="width: 100%; height: 100%; object-fit: cover; display: block;">
 
     <div class="text d-none d-sm-block" style="color: #000000;">
@@ -344,7 +348,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <div class="row d-flex">
         <div class="col-md-8">
             <img src="{{ asset('assets/img/programmes_offered/form-side-banner.webp') }}" alt=""
-              style="aspect-ratio: 890 / 665; width: 100%; height: auto;"  class="w-100">
+                style="aspect-ratio: 890 / 665; width: 100%; height: auto;" class="w-100">
         </div>
         <div class="col-md-4 pt-5">
             <h2 class="tmu-text-primary text-center" style="font-size:1.7rem !important; line-height:1.5rem">

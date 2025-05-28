@@ -36,6 +36,7 @@
     </div>
     <script src="{{ asset('js/modules/bootstrap.js') }}" defer></script>
     <script src="{{ asset('js/modules/stickfooteronsmall.js') }}" defer></script>
+    <script src="https://widgets.nopaperforms.com/emwgts.js" async></script>
 </body>
 
 </html>
