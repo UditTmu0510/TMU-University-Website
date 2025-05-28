@@ -44,6 +44,7 @@
                                         </ol>
                                         <li>Lab Manuals</li>
                                         <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal fs-14 fw-normal">
+                                            
                                             <li>Basic Electronics Engineering Lab <br> Link:-<a
                                                     href="{{ asset('assets/pdf/coe/nba/lab_mannuals/basic_electronics_engineering_lab_compressed.pdf') }}"
                                                     target="_blank">View
@@ -329,6 +330,26 @@
 
                                         <li>Lab Manuals
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
+                                                <li>Artificial Intelligence Lab (ECS-651) VI Semester <br> Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_651_Artificial_Intelligence.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
+                                            <li>Java Programming Lab (ECS-456) IV Semester <br> Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_456_Java_Programming.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
+                                            <li>Database Management System Lab (ECS-356) III Semester <br> Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_356_DBMS_Lab.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
+                                            <li>Data Structure Lab (ECS355) III Semester <br> Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_355_Data_Structure_Using.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
+                                            <li>Computer Basic & C Programming Lab (ECS-251) II Semester <br> Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_251_C_Programming.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
                                                 <li>Basic Electronics Engineering Lab<br /><a
                                                         href="{{ asset('assets/pdf/coe/nba/lab_mannuals/basic_electronics_engineering_lab_compressed.pdf') }}"
                                                         target="_blank">View More!</a>
@@ -390,6 +411,30 @@
 
                                         <li>Time Tables
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
+                                                <li>B.Tech. Computer Science & Engineering (2024-25)<br />Odd Semester
+                                                    Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/ODD_SEM_(SESSION_2024_25).pdf') }}"
+                                                        target="_blank">View More!</a><br />
+                                                    Even Semester Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/EVEN_SEM_(SESSION_2024_25).pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>B.Tech. Computer Science & Engineering (2023-24)<br />Odd Semester
+                                                    Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/ODD_SEM_(SESSION_2023_24).pdf') }}"
+                                                        target="_blank">View More!</a><br />
+                                                    Even Semester Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/EVEN_SEM_(SESSION_2023_24).pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>B.Tech. Computer Science & Engineering (2022-23)<br />Odd Semester
+                                                    Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/ODD_SEM_(SESSION_2022_23).pdf') }}"
+                                                        target="_blank">View More!</a><br />
+                                                    Even Semester Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/time_tables/EVEN_SEM_(SESSION_2022_23).pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
                                                 <li>B.Tech. Computer Science & Engineering (2021-22)<br />Odd Semester
                                                     Link-<a
                                                         href="{{ asset('assets/pdf/coe/nba/time_tables/btech_cse_odd_sem_2021-22_compressed.pdf') }}"
