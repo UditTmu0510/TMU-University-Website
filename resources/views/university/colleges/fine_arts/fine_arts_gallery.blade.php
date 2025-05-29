@@ -35,6 +35,26 @@
                         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
 
                             <div class="col-md-3 col-sm-6">
+                                <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/25.jpg') }}"
+                                    data-lightbox="gallery-item" class="text-decoration-none"
+                                    title="Art That Unites – TMU's Youth Showcase">
+                                    <div class="position-relative">
+                                        <img class="img-fluid"
+                                            src="{{ asset('/assets/img/gallery/collegegallery/finearts/25.jpg') }}"
+                                            alt="International Seminar">
+                                    </div>
+                                    <h5 class="text-center mt-2"></h5>
+                                </a>
+                                <div class="d-none">
+                                    <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/26.jpg') }}" data-lightbox="gallery-item" title="Art That Unites – TMU's Youth Showcase"></a>
+                                    <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/27.jpg') }}" data-lightbox="gallery-item" title="Art That Unites – TMU's Youth Showcase"></a>
+                                    <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/28.jpg') }}" data-lightbox="gallery-item" title="Art That Unites – TMU's Youth Showcase"></a>
+                                    <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/29.jpg') }}" data-lightbox="gallery-item" title="Art That Unites – TMU's Youth Showcase"></a>
+                                    <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/30.jpg') }}" data-lightbox="gallery-item" title="Art That Unites – TMU's Youth Showcase"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
                                 <a href="{{ asset('/assets/img/gallery/collegegallery/finearts/21.jpg') }}"
                                     data-lightbox="gallery-item" class="text-decoration-none"
                                     title="Digital Art in the AI Era — Guest Lecture Highlights">
