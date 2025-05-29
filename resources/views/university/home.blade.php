@@ -256,7 +256,7 @@
                 <!-- Accordion code ends here -->
             </div>
             <!-- -------------   Accordian 4 Ends here -------------
-                                           -------------------------      -------------------------  -->
+                                               -------------------------      -------------------------  -->
 
             <!-- Code for the Mobile View Ends Here -->
 
@@ -393,8 +393,8 @@
                             </div>
                         </div>
                         <!--
-                                                  Blog Carousel Starts Here
-                                                  -->
+                                                      Blog Carousel Starts Here
+                                                      -->
 
 
 
@@ -447,16 +447,38 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
-                                        <span>21, May</span>
+                                        <span>29, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The Mental Health Nursing Department is organising an insightful Guest Lecture on “Stress Adaptation and Its Management” on 26th May 2025. Don’t miss this opportunity to explore practical strategies for mental wellness and resilience!</p>
+                                        <p>Teerthanker Mahaveer University proudly presents the 5th National Conclave (Online) on “Yoga & Meditation: 
+                                            An Ancient Solution to Modern Problems” on 20th June 2025, organised by the Centre for Indian Knowledge System, TMU. Join us for holistic insights!
+                                        </p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                               College of Nursing</span>
+                                            Centre for Indian Knowledge System</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            20, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>21, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>The Mental Health Nursing Department is organising an insightful Guest Lecture on
+                                            “Stress Adaptation and Its Management” on 26th May 2025. Don’t miss this
+                                            opportunity to explore practical strategies for mental wellness and resilience!
+                                        </p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            College of Nursing</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             26, May</span>
                                     </div>
@@ -467,13 +489,15 @@
                                         <span>16, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Fine Arts, TMU proudly presents the 7th Annual Art Exhibition, opening on 16th May 2025 at 11:00 AM. Visit from 16–17 May, 9:30 AM–4:00 PM, and experience creativity at its finest!</p>
+                                        <p>The College of Fine Arts, TMU proudly presents the 7th Annual Art Exhibition,
+                                            opening on 16th May 2025 at 11:00 AM. Visit from 16–17 May, 9:30 AM–4:00 PM, and
+                                            experience creativity at its finest!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                               College of Finearts</span>
+                                            College of Finearts</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             16-17, May</span>
                                     </div>
@@ -484,13 +508,16 @@
                                         <span>15, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a workshop on “Simplifying Class II Composite Restorations – Blending Technique, Technology, and Innovations” under the aegis of IIC on 20th May 2025. Join us for clinical excellence!</p>
+                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a workshop on
+                                            “Simplifying Class II Composite Restorations – Blending Technique, Technology,
+                                            and Innovations” under the aegis of IIC on 20th May 2025. Join us for clinical
+                                            excellence!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                               Dental College and Research Centre</span>
+                                            Dental College and Research Centre</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             20, May</span>
                                     </div>
@@ -501,13 +528,15 @@
                                         <span>10, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>TMIMT cordially invites you to Daffodils 2025—an enchanting evening of culture, creativity, and celebration on 10th May 2025, 5:00 PM onwards at TMIMT Premises, TMU. Experience performances, joy, and unforgettable memories!</p>
+                                        <p>TMIMT cordially invites you to Daffodils 2025—an enchanting evening of culture,
+                                            creativity, and celebration on 10th May 2025, 5:00 PM onwards at TMIMT Premises,
+                                            TMU. Experience performances, joy, and unforgettable memories!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                                TMIMT College of Management</span>
+                                            TMIMT College of Management</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             12, May</span>
                                     </div>
@@ -518,13 +547,15 @@
                                         <span>10, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Nursing is proudly organising International Nurses Day on 12th May 2025 at 2:00 PM in the Multipurpose Hall (Ground Floor), Nursing Building. Join us to honour dedication, compassion, and nursing excellence.</p>
+                                        <p>The College of Nursing is proudly organising International Nurses Day on 12th May
+                                            2025 at 2:00 PM in the Multipurpose Hall (Ground Floor), Nursing Building. Join
+                                            us to honour dedication, compassion, and nursing excellence.</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                                College of Nursing</span>
+                                            College of Nursing</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             12, May</span>
                                     </div>
@@ -535,13 +566,15 @@
                                         <span>06, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Law, Teerthanker Mahaveer University, is organising a vibrant Fresher Party on 7th May 2025 at 9:30 AM in the TMU Auditorium to welcome the new batch with enthusiasm and joy!</p>
+                                        <p>The College of Law, Teerthanker Mahaveer University, is organising a vibrant
+                                            Fresher Party on 7th May 2025 at 9:30 AM in the TMU Auditorium to welcome the
+                                            new batch with enthusiasm and joy!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
                                                 src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
                                                 height="16px">
-                                                College of Law & Legal Studies</span>
+                                            College of Law & Legal Studies</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             07, May</span>
                                     </div>
@@ -552,7 +585,9 @@
                                         <span>02, May</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a session on “Hands-on Experience on Virtual Reality: An Innovative Dental and Medical Practice” on 7th May 2025 at 12 PM. Join us!</p>
+                                        <p>Teerthanker Mahaveer Dental College & Research Centre is organising a session on
+                                            “Hands-on Experience on Virtual Reality: An Innovative Dental and Medical
+                                            Practice” on 7th May 2025 at 12 PM. Join us!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -569,7 +604,9 @@
                                         <span>28, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Nursing is organising a workshop on “Innovative Health Care Transformation through AI-Driven Solutions” under the aegis of IIC on 3rd May 2025. Join us to explore the future of intelligent healthcare innovation!</p>
+                                        <p>The College of Nursing is organising a workshop on “Innovative Health Care
+                                            Transformation through AI-Driven Solutions” under the aegis of IIC on 3rd May
+                                            2025. Join us to explore the future of intelligent healthcare innovation!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -586,7 +623,9 @@
                                         <span>24, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>The College of Nursing is organising a workshop on “Raising Capitals and Managing Finance for Startups” on 26th April 2025 as part of the IIC Activity. Empower your startup journey with innovation and insight!</p>
+                                        <p>The College of Nursing is organising a workshop on “Raising Capitals and Managing
+                                            Finance for Startups” on 26th April 2025 as part of the IIC Activity. Empower
+                                            your startup journey with innovation and insight!</p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -603,7 +642,10 @@
                                         <span>22, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>National Conference on Social Impacts of Dowry Prohibition Laws in India on May 9-10, 2025, at TMU Moradabad. Abstract submission deadline: May 2, 2025. <a href="{{asset('/assets/pdf/law/law-brochure.pdf')}}" target="_blank">Read More!</a></p>
+                                        <p>National Conference on Social Impacts of Dowry Prohibition Laws in India on May
+                                            9-10, 2025, at TMU Moradabad. Abstract submission deadline: May 2, 2025. <a
+                                                href="{{ asset('/assets/pdf/law/law-brochure.pdf') }}"
+                                                target="_blank">Read More!</a></p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -620,7 +662,10 @@
                                         <span>23, April</span>
                                     </div>
                                     <div class="notice-content">
-                                        <p>TMU College of Fine Arts presents a lecture on ‘The Journey of Indian Advertising: Tracing its Evolution & the Growing Influence of AI’ by Mr Nihar Ranjan Kanungo on 26 April 2025 at 11 AM. Join us for this insightful session!</p>
+                                        <p>TMU College of Fine Arts presents a lecture on ‘The Journey of Indian
+                                            Advertising: Tracing its Evolution & the Growing Influence of AI’ by Mr Nihar
+                                            Ranjan Kanungo on 26 April 2025 at 11 AM. Join us for this insightful session!
+                                        </p>
                                     </div>
                                     <div class="notice-meta">
                                         <span style="margin-right: 15px;"><img
@@ -628,7 +673,7 @@
                                                 height="16px">
                                             College of Finearts</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                           26, April</span>
+                                            26, April</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
@@ -689,46 +734,6 @@
                                             19, April</span>
                                     </div>
                                 </div>
-                                {{-- <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>17, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>CCSIT, under the aegis of IIC, TMU, is organising a workshop on "Multiply Your
-                                            Creativity: For Initiating an Entrepreneur Adroitness" on 18th April 2025 at
-                                            11:30 AM in LT-2, CCSIT.
-                                            Don’t miss this inspiring session!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                            18, April</span>
-                                    </div>
-                                </div> --}}
-                                {{-- <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>17, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>CCSIT proudly presents Gamophobia 4.0! Gear up for the thrilling on-campus
-                                            inaugural event on 18th April, followed by the grand finale and award ceremony
-                                            on 19th April. Dive into the ultimate gaming showdown—don’t miss the action!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                            18-19,
-                                            April</span>
-                                    </div>
-                                </div> --}}
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
@@ -866,148 +871,6 @@
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>27, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Samarthya Bodh 3.0 – A Mock Placement Drive & Expert Talk by CTLD on 28th March
-                                            2025, 09:30 AM at TMU Auditorium for Pre-final Year B.Tech & Final Year MCA
-                                            students. Don’t miss out!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            CTLD</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>26, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Attend a motivational talk on “The Art of Communication Skills: Bridging the Gap
-                                            Between Patients and Professionals” by Dr. Pankaj Kumar Singh on 29th March
-                                            2025, 11:00 AM at 4th Floor, College of Paramedical Sciences.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Paramedical Sciences</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 29,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>26, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Department of Forensic Science, TMU, is hosting an expert talk-cum-workshop
-                                            on “Innovation in Cyber Suraksha & Role of IT Act” on 27th March 2025 at 11:00
-                                            AM in the University Auditorium.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Paramedical Sciences</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 27,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>26, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Join the workshop on "Quality Enhancement in Research – IPR & Academic
-                                            Identities" on 28th March 2025 at 10:00 AM in the Smart Classroom. Enhance
-                                            research quality, learn reference management, and patent drafting.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Nursing </span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>18, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Join us for an insightful session by Dr. Ajit Singh (M.J.P. Rohilkhand
-                                            University) on 20th March 2025, 11:00 AM at L.T. Faculty of Education. Learn
-                                            about India’s self-reliance vision, MSME growth, and economic resilience. Don’t
-                                            miss it!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            Faculty of Education</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 24,
-                                            March</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>17, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Teerthanker Mahaveer College of Pharmacy is organizing a webinar on
-                                            "Entrepreneurship and Innovation as a Career Choice for Students" on 18th March
-                                            2025 in online mode.
-                                            The session will feature Dr. Kirtika Chetia, an Assistant Professor at EDII in
-                                            Ahmedabad. Dr Anurag Verma will facilitate the webinar, which will be
-                                            coordinated by Mrs Urvashi Saxena and will focus on R&D, innovation, startups,
-                                            and skill enhancement.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Pharmacy</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 18,
-                                            March</span>
-                                    </div>
-                                </div>
-                                {{-- <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>01, March</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Teerthanker Mahaveer University’s College of Computing Sciences & IT (CCSIT) and
-                                            Faculty of Engineering (FOE) are organising SPLASH 2K25 – The Joy of Colors on
-                                            11th March 2025 to celebrate Holi with joy and enthusiasm. The event will
-                                            feature competitions like dance, singing, poetry, stand-up comedy, rangoli,
-                                            videography, logo design, and various stalls. Registrations for stalls and
-                                            cultural events are open till 7th March 2025. Students must adhere to university
-                                            rules, including restrictions on colours and alcohol on campus.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            CCSIT</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 11,
-                                            March</span>
-                                    </div>
-                                </div> --}}
-                                <hr class="notice-separator">
                             </div>
                         </div>
                     </aside>
@@ -1032,12 +895,12 @@
                 </div>
                 <!-- Lazy loaded thumbnail images (use loading="lazy") -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(0)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
+                                                    <div class="thumb" onclick="displayReviewByIndex(1)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(2)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(3)" style="background-image: url('/assets/img/department/alumni/people/4.png');" ></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(4)" style="background-image: url('/assets/img/department/alumni/people/1.png');" ></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(5)" style="background-image: url('/assets/img/department/alumni/people/2.png');" ></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(6)" style="background-image: url('/assets/img/department/alumni/people/3.png');" ></div> -->
 
                 <!-- Lazy loaded thumbnail images with data-bg attribute -->
                 {{-- <div class="thumb" onclick="displayReviewByIndex(0)"
@@ -1053,13 +916,13 @@
                 <div class="thumb" onclick="displayReviewByIndex(4)"
                     data-bg="{{ asset('assets/img/department/alumni/people/7.png') }}"></div>
                 <!-- <div class="thumb" onclick="displayReviewByIndex(6)" data-bg="{{ asset('assets/img/department/alumni/people/5.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
+                                                    <div class="thumb" onclick="displayReviewByIndex(7)" data-bg="{{ asset('assets/img/department/alumni/people/6.png') }}"></div> -->
                 <!-- <div class="thumb" onclick="displayReviewByIndex(8)" data-bg="{{ asset('assets/img/department/alumni/people/9.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
-                                                <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
+                                                    <div class="thumb" onclick="displayReviewByIndex(9)" data-bg="{{ asset('assets/img/department/alumni/people/10.png') }}"></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(10)" data-bg="{{ asset('assets/img/department/alumni/people/11.png') }}"></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(11)" data-bg="{{ asset('assets/img/department/alumni/people/12.png') }}"></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(12)" data-bg="{{ asset('assets/img/department/alumni/people/13.png') }}"></div>
+                                                    <div class="thumb" onclick="displayReviewByIndex(13)" data-bg="{{ asset('assets/img/department/alumni/people/14.png') }}"></div> -->
 
             </div>
         </div>
@@ -1113,10 +976,10 @@
         <div class="content-wrap py-0" style="margin-top: 23px; margin-bottom: 37px;">
 
             <!-- <div class="row justify-content-center ">
-                                                <div class="col-xl-10 col-lg-10 text-center">
-                                                    <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
-                                                </div>
-                                            </div> -->
+                                                    <div class="col-xl-10 col-lg-10 text-center">
+                                                        <h2 class="tmu-text-primary my-4 mb-5"> <span>Testimonials</span></h2>
+                                                    </div>
+                                                </div> -->
 
             <div class="owl-carousel tmu-video-testimonial" id="owl-carousel4">
                 <div class="item">
@@ -1450,43 +1313,43 @@
         });
     </script>
 
-<script>
-    $(document).ready(function () {
-        console.log("DOM Ready - Checking first active panel...");
+    <script>
+        $(document).ready(function() {
+            console.log("DOM Ready - Checking first active panel...");
 
-        const activePanel = $('.panel.active:visible').first();
-        console.log("Found panel:", activePanel.length > 0 ? activePanel[0] : "None");
+            const activePanel = $('.panel.active:visible').first();
+            console.log("Found panel:", activePanel.length > 0 ? activePanel[0] : "None");
 
-        const programmeList = activePanel.find('ul.progul');
-        console.log("Found programmeList:", programmeList.length > 0 ? programmeList[0].id : "None");
+            const programmeList = activePanel.find('ul.progul');
+            console.log("Found programmeList:", programmeList.length > 0 ? programmeList[0].id : "None");
 
-        if (programmeList.length && programmeList.children().length === 0) {
-            const collegeId = programmeList.attr('id').replace('programme', '');
-            console.log("Extracted College ID:", collegeId);
+            if (programmeList.length && programmeList.children().length === 0) {
+                const collegeId = programmeList.attr('id').replace('programme', '');
+                console.log("Extracted College ID:", collegeId);
 
-            $.ajax({
-                url: '{{ route('fetch_programme_by_college_id') }}',
-                type: 'POST',
-                data: {
-                    _token: '{{ csrf_token() }}',
-                    cd_id: collegeId
-                },
-                success: function (response) {
-                    console.log("✅ AJAX Success. Data received:", response);
+                $.ajax({
+                    url: '{{ route('fetch_programme_by_college_id') }}',
+                    type: 'POST',
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                        cd_id: collegeId
+                    },
+                    success: function(response) {
+                        console.log("✅ AJAX Success. Data received:", response);
 
-                    const programs = response.programs;
-                    if (!Array.isArray(programs) || programs.length === 0) {
-                        console.warn("⚠️ No programs found for college ID:", collegeId);
-                        return;
-                    }
+                        const programs = response.programs;
+                        if (!Array.isArray(programs) || programs.length === 0) {
+                            console.warn("⚠️ No programs found for college ID:", collegeId);
+                            return;
+                        }
 
-                    let programListHtml = '';
-                    let i = 0;
+                        let programListHtml = '';
+                        let i = 0;
 
-                    programs.forEach(function (program) {
-                        console.log(`➡️ Rendering program: ${program.prog_name}`);
+                        programs.forEach(function(program) {
+                            console.log(`➡️ Rendering program: ${program.prog_name}`);
 
-                        programListHtml += `<li class="progli">
+                            programListHtml += `<li class="progli">
                             <div class="card shadow-sm progcard card-sz">
                                 <img src="${program.programme_image_path}" class="card-img-top" alt="...">
                                 <div class="card-body progcardbody">
@@ -1498,108 +1361,109 @@
                                 </div>
                             </div>
                         </li>`;
-                        i++;
-                    });
+                            i++;
+                        });
 
-                    programmeList.html(programListHtml);
+                        programmeList.html(programListHtml);
 
-                    // Confirm insertion
-                    
-                },
-                error: function (xhr, status, error) {
-                    console.error('❌ AJAX error:', status, error);
-                }
-            });
-        } else {
-            console.warn("⛔ Panel is missing or already populated.");
-        }
-    });
-</script>
+                        // Confirm insertion
 
-
-
-<script>
-    (function() { // IIFE to scope variables
-        const videoElement = document.getElementById('videoPlayer89');
-        if (!videoElement) {
-            console.error('Video element #videoPlayer89 not found.');
-            return;
-        }
-
-        let player = null; // Hold the player instance
-        let currentUrl = '';
-
-        function setupVideoPlayer() {
-            const screenWidth = window.innerWidth;
-            let newUrl;
-            let newPoster;
-
-            if (screenWidth <= 768) { // Adjusted breakpoint for typical mobile/tablet
-                newPoster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
-                newUrl = "{{ asset('poster/mobile/output.mpd') }}";
-            } else {
-                newPoster = "{{ asset('poster/banner_video_poster.webp') }}";
-                newUrl = "{{ asset('poster/desktop_tab/output.mpd') }}";
-            }
-
-            videoElement.poster = newPoster;
-
-            if (newUrl !== currentUrl) {
-                currentUrl = newUrl;
-
-                if (player) {
-                    // If player exists, detach previous listeners before attaching new source
-                    player.off(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded); // Important to remove old listener
-                    player.attachSource(currentUrl);
-                    // Re-attach listener for the new source
-                    player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
-                    console.log('Attached new video source:', currentUrl);
-                    // Ensure playback starts if it was playing or should autoplay
-                    if (videoElement.autoplay || !videoElement.paused) {
-                         // A short delay might sometimes be needed for attachSource to fully settle
-                        setTimeout(() => player.play(), 50);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('❌ AJAX error:', status, error);
                     }
+                });
+            } else {
+                console.warn("⛔ Panel is missing or already populated.");
+            }
+        });
+    </script>
+
+
+
+    <script>
+        (function() { // IIFE to scope variables
+            const videoElement = document.getElementById('videoPlayer89');
+            if (!videoElement) {
+                console.error('Video element #videoPlayer89 not found.');
+                return;
+            }
+
+            let player = null; // Hold the player instance
+            let currentUrl = '';
+
+            function setupVideoPlayer() {
+                const screenWidth = window.innerWidth;
+                let newUrl;
+                let newPoster;
+
+                if (screenWidth <= 768) { // Adjusted breakpoint for typical mobile/tablet
+                    newPoster = "{{ asset('poster/banner_video_poster_mobile.webp') }}";
+                    newUrl = "{{ asset('poster/mobile/output.mpd') }}";
                 } else {
-                    player = dashjs.MediaPlayer().create();
-                    player.initialize(videoElement, currentUrl, true); // true for autoplay
-
-                    // Listen for the PLAYBACK_ENDED event from Dash.js
-                    player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
-
-                    console.log('Initialized video player with source:', currentUrl);
+                    newPoster = "{{ asset('poster/banner_video_poster.webp') }}";
+                    newUrl = "{{ asset('poster/desktop_tab/output.mpd') }}";
                 }
-            } else if (player && videoElement.paused && videoElement.autoplay) {
-                // If URL hasn't changed but video is paused and should autoplay (e.g., after tab switch)
-                player.play();
-            }
-        }
 
-        // Handler for when playback ends
-        function handlePlaybackEnded() {
-            if (player) {
-                console.log("Playback ended, seeking to 0 and restarting.");
-                player.seek(0);
-                setTimeout(() => player.play(), 0); 
-            }
-        }
+                videoElement.poster = newPoster;
 
-        function debounce(func, wait) {
-            let timeout;
-            return function executedFunction(...args) {
-                const later = () => {
+                if (newUrl !== currentUrl) {
+                    currentUrl = newUrl;
+
+                    if (player) {
+                        // If player exists, detach previous listeners before attaching new source
+                        player.off(dashjs.MediaPlayer.events.PLAYBACK_ENDED,
+                        handlePlaybackEnded); // Important to remove old listener
+                        player.attachSource(currentUrl);
+                        // Re-attach listener for the new source
+                        player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
+                        console.log('Attached new video source:', currentUrl);
+                        // Ensure playback starts if it was playing or should autoplay
+                        if (videoElement.autoplay || !videoElement.paused) {
+                            // A short delay might sometimes be needed for attachSource to fully settle
+                            setTimeout(() => player.play(), 50);
+                        }
+                    } else {
+                        player = dashjs.MediaPlayer().create();
+                        player.initialize(videoElement, currentUrl, true); // true for autoplay
+
+                        // Listen for the PLAYBACK_ENDED event from Dash.js
+                        player.on(dashjs.MediaPlayer.events.PLAYBACK_ENDED, handlePlaybackEnded);
+
+                        console.log('Initialized video player with source:', currentUrl);
+                    }
+                } else if (player && videoElement.paused && videoElement.autoplay) {
+                    // If URL hasn't changed but video is paused and should autoplay (e.g., after tab switch)
+                    player.play();
+                }
+            }
+
+            // Handler for when playback ends
+            function handlePlaybackEnded() {
+                if (player) {
+                    console.log("Playback ended, seeking to 0 and restarting.");
+                    player.seek(0);
+                    setTimeout(() => player.play(), 0);
+                }
+            }
+
+            function debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
                     clearTimeout(timeout);
-                    func(...args);
+                    timeout = setTimeout(later, wait);
                 };
-                clearTimeout(timeout);
-                timeout = setTimeout(later, wait);
-            };
-        }
+            }
 
-        setupVideoPlayer();
-        window.addEventListener('resize', debounce(setupVideoPlayer, 250));
+            setupVideoPlayer();
+            window.addEventListener('resize', debounce(setupVideoPlayer, 250));
 
-    })();
-</script>
+        })();
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const lazyBackgrounds = document.querySelectorAll(".thumb[data-bg]");
