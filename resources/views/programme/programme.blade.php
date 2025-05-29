@@ -33,15 +33,22 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 @endphp
 
 @if (!empty($programme_banner_path) && $programme->video_section_flag == 'Y')
-<div id="slider" class="slideshow-container  d-none d-sm-block"
+<div id="slider" class="slideshow-container d-none d-sm-block"
     style="position: relative; width: 100%; aspect-ratio: 3173 / 1354; overflow: hidden;">
+
     <img class="d-none d-sm-block"
         src="{{ asset($programme->programme_banner_path) }}"
         alt="Programme Banner"
-        style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        width="100%"
+        height="auto"
+        style="width: 100%; height: 100%; object-fit: cover; display: block;" />
 
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
+
         @if ($prog_duration_without_intersnhip || $prog_duration_with_intersnhip)
         <p class="mb-3">Duration :
             @if ($prog_duration_without_intersnhip)
@@ -67,12 +74,10 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
             Apply Now
         </a>
         @endif
-
     </div>
 </div>
-
-
 @endif
+
 
 @if (!empty($programme_brochure_path) && $programme->video_section_flag == 'Y')
 <!-- <div class="banner d-block d-sm-none" style="max-height: 85.1vh; background-image: url({{ asset($programme_brochure_path) }});">
