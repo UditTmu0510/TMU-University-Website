@@ -22,9 +22,6 @@
         },
         "Academic Calendar": {
             "link": "\/faculty-of-engineering\/academic-calendar"
-        },
-        "NBA": {
-            "link": "\/faculty-of-engineering\/nba"
         }
     },
     "4": {
@@ -70,6 +67,6 @@
         }
     },
     "7": {
-        "link": "\/faculty-of-engineering\/iqac"
+        "link": "\/faculty-of-engineering\/nba"
     }
 }
