@@ -473,7 +473,11 @@ function loadNiaScript() {
 							============================================= -->
 
 
-<script src="{{asset('js/functions.js')}}"></script>
+@if (Request::is('programme/*'))
+    <script type="module" src="{{ asset('js/functions.js') }}"></script>
+@else
+    <script src="{{ asset('js/functions.js') }}"></script>
+@endif 
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="{{asset('assets/js/swipe-content.js')}}"></script>
 <script src="{{asset('assets/js/util.js')}}"></script>
