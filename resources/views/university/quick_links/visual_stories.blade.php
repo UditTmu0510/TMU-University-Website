@@ -163,21 +163,6 @@
 		border-radius: 15px;
 	}
 </style>
-@php
-    // Sample data 
-    $storyTitles = [
-        "Best Pilot Training Institutes in India",
-        "Average student creating Big: Untold facts",
-        "Top 10 countries for Medical Students: Education, Research and Career",
-        "Top Study Destinations for Medical Students in 2025: Break and Matriculate"
-    ];
-    // Using descriptive seeds for picsum.photos to get varied, somewhat relevant images
-    $storyImageSeeds = [
-        "airplane_cockpit", "student_robotics_project", "medical_research_lab", "university_library_study"
-    ];
-@endphp
-
-
 <style>
     /* Custom Styles for Visual Stories Section */
     .visual-stories-page-title-icon {
@@ -285,6 +270,24 @@
     }
 </style>
 
+
+@php
+    // Sample data 
+    $storyTitles = [
+        "Best Pilot Training Institutes in India",
+        "Average student creating Big: Untold facts",
+        "Top 10 countries for Medical Students: Education, Research and Career",
+        "Top Study Destinations for Medical Students in 2025: Break and Matriculate"
+    ];
+    // Using descriptive seeds for picsum.photos to get varied, somewhat relevant images
+    $storyImageSeeds = [
+        "airplane_cockpit", "student_robotics_project", "medical_research_lab", "university_library_study"
+    ];
+@endphp
+
+
+{{-- Remove the old @php block --}}
+
 <!-- Main Page Title for Visual Stories -->
 <div class="container">
     <div class="row">
@@ -305,13 +308,13 @@
             </div>
         </div>
         <div class="row justify-content-start"> 
-            @for ($i = 0; $i < count($storyTitles); $i++)
+            @foreach ($stories as $i => $story)
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 my-3 px-2"> 
                 <div class="visual-story-card-item">
-                    <a href="/your-story-viewer-page.html?storyId={{ $i + 1 }}"
-                       style="background-image: url('https://picsum.photos/seed/{{ $storyImageSeeds[$i] }}/400/600');">
+                    <a href="{{ route('visual.story', $story->id) }}"
+                       style="background-image: url('{{ $story->thumbnail_path }}');">
                         <div class="story-icon-badge">
-                            <i class="fas fa-clone"></i>
+                            <i class="{{ $story->icon ?? 'fas fa-clone' }}"></i>
                         </div>
                         <div class="story-bottom-content">
                             <div class="story-progress-segments">
@@ -319,16 +322,17 @@
                                 <span class="segment"></span>
                                 @endfor
                             </div>
-                            <h5 class="story-card-title">{{ $storyTitles[$i] }}</h5>
+                            <h5 class="story-card-title">{{ $story->title }}</h5>
                         </div>
                     </a>
                 </div>
             </div>
-            @endfor
+            @endforeach
         </div>
         <div class="text-center col-12 my-4 pt-2">
             <a href="#" class="btn-view-all-stories">View All</a>
         </div>
     </div>
 </div>
+
 @endsection
