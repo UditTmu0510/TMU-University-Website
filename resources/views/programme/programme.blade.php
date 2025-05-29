@@ -89,7 +89,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <!-- Image Div -->
     <div class="ban-image">
         <img src="{{ asset($programme_brochure_path) }}" alt="Programme Brochure"
-            class="cropped-image img-fluid w-100" >
+            class="cropped-image img-fluid w-100">
     </div>
 
     <!-- Text and Button Div -->
@@ -336,12 +336,18 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
 <link rel="stylesheet" href="{{ asset('assets/css/custom-player.css') }}" />
 
 <div class="video-wrapper mt-3">
-    <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
-    <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
+    <!-- YouTube thumbnail -->
+    <div id="player" style="position: relative; width: 100%; height: 100%;">
+        <img
+            src="https://img.youtube.com/vi/71Qw7YYS_nM/hqdefault.jpg"
+            alt="Video thumbnail"
+            style="position: absolute; width: 100%; height: 100%; object-fit: cover; border-radius: 20px;" />
+    </div>
+
+    <button class="custom-play-button" id="customPlayBtn" aria-label="Play Video">
         <i class="fas fa-play" id="playIcon"></i>
     </button>
 </div>
-
 <div class="container mt-4">
     <div class="row d-flex">
         <div class="col-md-8">
@@ -874,47 +880,90 @@ $careerTitles = ['Management Consultant', 'Marketing Manager', 'Operations Manag
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const player = new Plyr('#player', {
-            controls: [
-                'play',
-                'progress',
-                'current-time',
-                'duration',
-                'mute',
-                'volume',
-                'fullscreen'
-            ],
-            youtube: {
-                noCookie: true,
-                modestbranding: 1,
-                rel: 0,
-                showinfo: 0,
-                cc_load_policy: 0
-            }
-        });
+        const playButton = document.getElementById('customPlayBtn');
+        const playerContainer = document.getElementById('player');
+        let playerInitialized = false;
+        let player;
 
-        const customPlayBtn = document.getElementById('customPlayBtn');
-        const playIcon = document.getElementById('playIcon');
+        playButton.addEventListener('click', async () => {
+            if (!playerInitialized) {
+                // Remove thumbnail image
+                playerContainer.innerHTML = '';
 
-        player.on('ready', () => {
-            customPlayBtn.addEventListener('click', () => {
+                // Create video player container
+                const plyrDiv = document.createElement('div');
+                plyrDiv.setAttribute('data-plyr-provider', 'youtube');
+                plyrDiv.setAttribute('data-plyr-embed-id', '71Qw7YYS_nM');
+                plyrDiv.style.position = 'absolute';
+                plyrDiv.style.top = '0';
+                plyrDiv.style.left = '0';
+                plyrDiv.style.width = '100%';
+                plyrDiv.style.height = '100%';
+                playerContainer.appendChild(plyrDiv);
+
+                // Load Plyr CSS + JS
+                loadCSS('https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css');
+                await loadScript('https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.min.js');
+
+                // Initialize Plyr
+                player = new Plyr(plyrDiv, {
+                    controls: [
+                        'play',
+                        'progress',
+                        'current-time',
+                        'duration',
+                        'mute',
+                        'volume',
+                        'fullscreen'
+                    ],
+                    youtube: {
+                        noCookie: true,
+                        modestbranding: 1,
+                        rel: 0,
+                        showinfo: 0,
+                        cc_load_policy: 0
+                    }
+                });
+
+                player.on('ready', () => {
+                    player.play();
+                    playButton.style.display = 'none';
+                });
+
+                player.on('pause', () => {
+                    playButton.style.display = 'flex';
+                });
+
+                playerInitialized = true;
+            } else {
                 if (player.playing) {
                     player.pause();
                 } else {
                     player.play();
                 }
-            });
-
-            player.on('play', () => {
-                customPlayBtn.style.display = 'none';
-            });
-
-            player.on('pause', () => {
-                customPlayBtn.style.display = 'flex';
-            });
+            }
         });
+
+        // Utility functions
+        function loadScript(src) {
+            return new Promise(resolve => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.defer = true;
+                script.onload = resolve;
+                document.head.appendChild(script);
+            });
+        }
+
+        function loadCSS(href) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
     });
 </script>
+
 
 
 <script>
@@ -970,15 +1019,15 @@ $careerTitles = ['Management Consultant', 'Marketing Manager', 'Operations Manag
 </script>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const isMobile = window.innerWidth < 576;
         const preloadLink = document.createElement('link');
         preloadLink.rel = 'preload';
         preloadLink.as = 'image';
         preloadLink.fetchPriority = 'high';
-        preloadLink.href = isMobile
-            ? "{{ asset($programme_brochure_path) }}"
-            : "{{ asset($programme_banner_path) }}";
+        preloadLink.href = isMobile ?
+            "{{ asset($programme_brochure_path) }}" :
+            "{{ asset($programme_banner_path) }}";
 
         document.head.appendChild(preloadLink);
     });
