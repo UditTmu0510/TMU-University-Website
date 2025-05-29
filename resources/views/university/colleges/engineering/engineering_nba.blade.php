@@ -150,6 +150,11 @@
                                             <li><a href="{{ asset('assets/pdf/coe/faculty_details_finalized.pdf') }}"
                                                     target="_blank">Faculty List Link</a></li>
                                         </ol>
+                                        <li>Academic Calendar </li>
+                                        <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal fs-14 fw-normal">
+                                            <li>2024-25 <br>Link: <a href="{{asset('/assets/pdf/academic_calendars/engineering/FoE_AC_2024_25.pdf')}}"
+                                                    target="_blank">View Link</a></li>
+                                        </ol>
                                     </ul>
                                 </div>
                             </div>
