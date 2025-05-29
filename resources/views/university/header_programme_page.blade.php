@@ -9,36 +9,37 @@
   <link rel="icon" type="image/x-icon" href="{{ asset('favicon-48x48.ico') }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-icon-180x180.png') }}">
   <link rel="icon" type="image/png" sizes="512x512" href="{{ asset('android-chrome-512x512.png') }}">
-   <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('android-chrome-192x192.png') }}">
-      <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                "gtm.start": new Date().getTime(),
-                event: "gtm.js",
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != "dataLayer" ? "&l=" + l : "";
-            j.async = true;
-            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, "script", "dataLayer", "GTM-NW83TRG");
-    </script>
-    <!-- End Google Tag Manager -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('android-chrome-192x192.png') }}">
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NW83TRG");
+  </script>
+  <!-- End Google Tag Manager -->
 
-    <!--Google Analytics tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-        gtag("config", "G-QXM8FSJKVR");
-    </script>
-    
-    <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
+  <!--Google Analytics tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-QXM8FSJKVR");
+  </script>
+
+  <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
 
   @php
   // Build the full URL
@@ -71,8 +72,8 @@
   <meta name="twitter:site" content="@Tmumbd" />
   <meta name="twitter:title" content="{{ $metaData->meta_title }}" />
   <meta name="twitter:description" content="{{ $metaData->meta_description }}" />
-  
-  
+
+
 
   @if(!empty($metaData->sitemap_url))
   @php
@@ -115,8 +116,8 @@
   <meta name="slurp" content="noodp, noydir">
   <meta name="teoma" content="noodp">
   <meta name="robots" content="noodp, noydir">
-  
- 
+
+
 
 
   <script>
@@ -442,7 +443,7 @@
   <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  
+
 
   <!-- Niche Demos -->
   <link rel="stylesheet" href="{{asset('demos/store/store.css')}}">
@@ -475,35 +476,35 @@
 
 
 
-<!--mobile tray starts-->
-<div class="new-menu-container d-block d-sm-none">
-  <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
-      ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
+    <!--mobile tray starts-->
+    <div class="new-menu-container d-block d-sm-none">
+      <div class="new-menu-btn" id="new-menu-btn" onclick="toggleNewMenu()" ontouchstart="handleTouchStart(event)"
+        ontouchmove="handleTouchMove(event)" ontouchend="handleTouchEnd()">
 
-      <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
+        <img class="new-arrow" id="new-menu-icon" src="{{asset('assets/img/icons/arrowu.png')}}" width="25px"
           alt="Menu Icon"> <!-- Replace arrow with your image -->
-  </div>
-  <div class="new-menu-row">
-      <div class="new-menu-item-tray"><span><a href="https://admissions.tmu.ac.in/"
-                  style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
-      <!--<div class="new-vl"></div>-->
-      <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
-      <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
-  </div>
-  <div class="new-menu" id="new-menu">
+      </div>
       <div class="new-menu-row">
+        <div class="new-menu-item-tray"><span><a href="https://admissions.tmu.ac.in/"
+              style="color: #fff; text-decoration: none;">Admissions Open 2025</a></span></div>
+        <!--<div class="new-vl"></div>-->
+        <!--<div class="new-menu-item"><span><a href="https://cdoeadmissions.tmu.ac.in/"-->
+        <!--            style="color: #fff; text-decoration: none;">TMU Online</a></span></div>-->
+      </div>
+      <div class="new-menu" id="new-menu">
+        <div class="new-menu-row">
           <div class="new-menu-item"><a
               href="https://www.instagram.com/tmu_mbd/"
               target="blank"><img src="{{asset('assets/img/icons/insta.png')}}" height="25px" width="auto"
-                  alt="Icon 1"></a></div>
+                alt="Icon 1"></a></div>
           <div class="new-menu-item"><a href="{{route('tmu.virtual_tour')}}" target="blank"><img
-                      src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
+                src="{{asset('assets/img/icons/360.png')}}" height="25px" width="auto" alt="Icon 2"></a></div>
           <div class="new-menu-item"><a href="tel:18002701490" target="blank"><img
-                      src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
+                src="{{asset('assets/img/icons/call.png')}}" height="25px" width="auto" alt="Icon 1"></a></div>
+        </div>
       </div>
-  </div>
-</div>
-<!--mobile tray ends-->
+    </div>
+    <!--mobile tray ends-->
 
 
     <!-- Header Code Section Begin -->
@@ -668,5 +669,14 @@
         </div>
       </div>
     </div>
+
+    @if (!empty($programme_banner_path) && $programme->video_section_flag == 'Y')
+    <link rel="preload"
+      as="image"
+      href="{{ asset($programme->programme_banner_path) }}"
+      imagesrcset="{{ asset($programme->programme_banner_path) }}"
+      imagesizes="100vw"
+      fetchpriority="high" />
+    @endif
 
     <!-- Searchbar code ends here -->
