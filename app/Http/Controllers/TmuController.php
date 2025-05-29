@@ -14,6 +14,9 @@ use App\Models\Testimonials;
 use App\Models\Recruiters;
 use App\Models\ProgrameeFee;
 use App\Models\Employees;
+use App\Models\VisualStory;
+use App\Models\VisualStoryCategory;
+use App\Models\VisualStorySlide;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
@@ -251,12 +254,12 @@ class TmuController extends Controller
     public function tmu_careers()
     {
         $academicJobs = JobOpening::where('category', 'Academic')
-                ->orderBy('priority', 'desc')
-                ->get();
+            ->orderBy('priority', 'desc')
+            ->get();
 
         $adminJobs = JobOpening::where('category', 'Administration')
-                ->orderBy('priority', 'desc')
-                ->get();
+            ->orderBy('priority', 'desc')
+            ->get();
 
 
         if ($academicJobs->isEmpty() || $adminJobs->isEmpty()) {
@@ -1617,8 +1620,25 @@ class TmuController extends Controller
 
     public function visual_stories()
     {
-        return view('university.quick_links.visual_stories');
+        $stories = VisualStory::where('status', 'Y')
+            ->orderBy('priority')
+            ->orderByDesc('published_at')
+            ->take(4) // or as many as you need
+            ->get();
+
+        return view('university.quick_links.visual_stories', compact('stories'));
     }
+
+
+    public function visual_story_show($id)
+    {
+        $story = VisualStory::with(['slides' => function ($query) {
+            $query->where('status', 'Y')->orderBy('slide_order');
+        }])->findOrFail($id);
+
+        return view('university.quick_links.visual_story_viewer', compact('story'));
+    }
+
 
 
 
