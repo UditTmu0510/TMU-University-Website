@@ -44,7 +44,7 @@
                                         </ol>
                                         <li>Lab Manuals</li>
                                         <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal fs-14 fw-normal">
-                                            
+
                                             <li>Basic Electronics Engineering Lab <br> Link:-<a
                                                     href="{{ asset('assets/pdf/coe/nba/lab_mannuals/basic_electronics_engineering_lab_compressed.pdf') }}"
                                                     target="_blank">View
@@ -86,6 +86,13 @@
                                                     More!</a></li>
                                             <li>March 2018 <br>Link:- <a
                                                     href="{{ asset('assets/pdf/coe/nba/academic_council_minutes/march_2018_compressed.pdf') }}"
+                                                    target="_blank">View
+                                                    More!</a></li>
+                                        </ol>
+                                        <li>Innovations by the Faculty in Teaching and Learning Process</li>
+                                        <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal fs-14 fw-normal">
+                                            <li>Link:-<a
+                                                    href="{{ asset('/assets/pdf/coe/nba/other_docs/Innovations_by_the_FTLP.pdf') }}"
                                                     target="_blank">View
                                                     More!</a></li>
                                         </ol>
@@ -152,9 +159,11 @@
                                         </ol>
                                         <li>Academic Calendar </li>
                                         <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal fs-14 fw-normal">
-                                            <li>2024-25 <br>Link: <a href="{{asset('/assets/pdf/academic_calendars/engineering/FoE_AC_2024_25.pdf')}}"
+                                            <li>2024-25 <br>Link: <a
+                                                    href="{{ asset('/assets/pdf/academic_calendars/engineering/FoE_AC_2024_25.pdf') }}"
                                                     target="_blank">View Link</a></li>
-                                            <li>2023-24 <br>Link: <a href="{{asset('/assets/pdf/pdf/university-academic-calendar-2023-24.pdf')}}"
+                                            <li>2023-24 <br>Link: <a
+                                                    href="{{ asset('/assets/pdf/pdf/university-academic-calendar-2023-24.pdf') }}"
                                                     target="_blank">View Link</a></li>
                                         </ol>
                                     </ul>
@@ -254,7 +263,12 @@
                                         </li>
                                         <li>Placement data for the following academic years
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
-                                                <li>2017-18,2018-19,2019-20,2020-21<br /></li>
+                                                <li>Company officials visited in Session 2024-25<br /> <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/Placement_Data/List_of_Company_visited_.pdf') }}"
+                                                        target="_blank">View More!</a></li>
+                                                <li>Placement details 2024-25 Session<br /> <a
+                                                        href="{{ asset('/assets/pdf/coe/nba/Placement_Data/Placement_details.pdf') }}"
+                                                        target="_blank">View More!</a></li>
                                             </ol>
                                         </li>
 
@@ -303,6 +317,10 @@
                                                         href="{{ asset('assets/pdf/coe/nba/list_of_research_papers_2018_19_2019_20_and_2020_21.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
+                                                <li>2021-22,2022-23 & 2023-24<br /><a
+                                                        href="{{ asset('assets/pdf/coe/nba/other_docs/Research_Papers_Publication_Summary.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
                                             </ol>
                                         </li>
                                         <li>Project Reports
@@ -317,6 +335,10 @@
                                                 </li>
                                                 <li>B.Tech. CSE Program (Online Tour Guide Portal) 2020-21<br /><a
                                                         href="{{ asset('assets/pdf/coe/nba/project_reports/project_report_2020_21_travello_compressed.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>B.Tech. CSE Program (Online Tour Guide Portal) 2023-24<br /><a
+                                                        href="{{ asset('assets/pdf/coe/nba/project_reports/Project_Report_2023-24.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
                                             </ol>
@@ -338,25 +360,25 @@
                                         <li>Lab Manuals
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
                                                 <li>Artificial Intelligence Lab (ECS-651) VI Semester <br> Link:-<a
-                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_651_Artificial_Intelligence.pdf') }}"
-                                                    target="_blank">View
-                                                    More!</a></li>
-                                            <li>Java Programming Lab (ECS-456) IV Semester <br> Link:-<a
-                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_456_Java_Programming.pdf') }}"
-                                                    target="_blank">View
-                                                    More!</a></li>
-                                            <li>Database Management System Lab (ECS-356) III Semester <br> Link:-<a
-                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_356_DBMS_Lab.pdf') }}"
-                                                    target="_blank">View
-                                                    More!</a></li>
-                                            <li>Data Structure Lab (ECS355) III Semester <br> Link:-<a
-                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_355_Data_Structure_Using.pdf') }}"
-                                                    target="_blank">View
-                                                    More!</a></li>
-                                            <li>Computer Basic & C Programming Lab (ECS-251) II Semester <br> Link:-<a
-                                                    href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_251_C_Programming.pdf') }}"
-                                                    target="_blank">View
-                                                    More!</a></li>
+                                                        href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_651_Artificial_Intelligence.pdf') }}"
+                                                        target="_blank">View
+                                                        More!</a></li>
+                                                <li>Java Programming Lab (ECS-456) IV Semester <br> Link:-<a
+                                                        href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_456_Java_Programming.pdf') }}"
+                                                        target="_blank">View
+                                                        More!</a></li>
+                                                <li>Database Management System Lab (ECS-356) III Semester <br> Link:-<a
+                                                        href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_356_DBMS_Lab.pdf') }}"
+                                                        target="_blank">View
+                                                        More!</a></li>
+                                                <li>Data Structure Lab (ECS355) III Semester <br> Link:-<a
+                                                        href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_355_Data_Structure_Using.pdf') }}"
+                                                        target="_blank">View
+                                                        More!</a></li>
+                                                <li>Computer Basic & C Programming Lab (ECS-251) II Semester <br> Link:-<a
+                                                        href="{{ asset('/assets/pdf/coe/nba/lab_mannuals/ECS_251_C_Programming.pdf') }}"
+                                                        target="_blank">View
+                                                        More!</a></li>
                                                 <li>Basic Electronics Engineering Lab<br /><a
                                                         href="{{ asset('assets/pdf/coe/nba/lab_mannuals/basic_electronics_engineering_lab_compressed.pdf') }}"
                                                         target="_blank">View More!</a>
@@ -530,6 +552,10 @@
                                                         href="{{ asset('assets/pdf/coe/nba/google_scholar_link_of_faculty_memebrs.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
+                                                <li>Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/other_docs/Google_Scholar_link_and_email_id.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
                                             </ol>
                                         </li>
                                         <li>
@@ -538,6 +564,18 @@
                                             <ol class="m-ol-list ps-4 mb-3 fs-14 fw-normal">
                                                 <li>Link-<a
                                                         href="{{ asset('assets/pdf/coe/nba/list_of_patents_of_2019_2020_2021.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>Patent Filed 2021-22 Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/Patent_Filed/Patents_21_22_NBA.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>Patent Filed 2022-23 Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/Patent_Filed/Patents_22_23_NBA.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
+                                                <li>Patent Filed 2023-24 Link-<a
+                                                        href="{{ asset('assets/pdf/coe/nba/Patent_Filed/Patents_23_24_NBA.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
                                             </ol>
