@@ -28,16 +28,7 @@
   <!-- End Google Tag Manager -->
 
   <!--Google Analytics tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-QXM8FSJKVR");
-  </script>
 
   <link rel="shortcut icon" href="{{asset('/assets/img/fevicon.png')}}" type="image/x-icon" />
 
@@ -135,10 +126,7 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, "script", "dataLayer", "GTM-NW83TRG");
   </script>
-  <!-- End Google Tag Manager -->
 
-  <!--Google Analytics tag (gtag.js) -->
-  
 
 
 
