@@ -337,10 +337,14 @@
                                                         href="{{ asset('assets/pdf/coe/nba/project_reports/project_report_2020_21_travello_compressed.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
-                                                {{-- <li>B.Tech. CSE Program (Online Tour Guide Portal) 2023-24<br /><a
-                                                        href="{{ asset('assets/pdf/coe/nba/project_reports/Project_Report_2023-24.pdf') }}"
+                                                <li>B.Tech. CSE Program (Online Tour Guide Portal) 2023-24<br /><a
+                                                        href="{{ asset('/assets/pdf/coe/nba/project_reports/Project_Report_23_24.pdf') }}"
                                                         target="_blank">View More!</a>
-                                                </li> --}}
+                                                </li>
+                                                <li>B.Tech. CSE Program (Online Tour Guide Portal) 2023-24<br /><a
+                                                        href="{{ asset('/assets/pdf/coe/nba/project_reports/Project_Report_24.pdf') }}"
+                                                        target="_blank">View More!</a>
+                                                </li>
                                             </ol>
                                         </li>
 
