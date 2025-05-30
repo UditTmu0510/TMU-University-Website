@@ -44,7 +44,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
         decoding="async"
         width="100%"
         height="auto"
-        style="aspect-ratio: 1440 / 500; width: 100%; object-fit: cover;" />
+        style="aspect-ratio: 1440 / 600; width: 100%; object-fit: cover;" />
 
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
