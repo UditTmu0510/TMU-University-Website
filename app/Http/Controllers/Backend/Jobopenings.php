@@ -25,7 +25,7 @@ use Carbon\Carbon;
 class Jobopenings extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the resources on the job openings page.
      */
     public function index()
     {
