@@ -39,12 +39,12 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
     <img class="d-none d-sm-block"
         src="{{ asset($programme->programme_banner_path) }}"
         alt="Programme Banner"
-        loading="eager"
+        loading="lazy"
         fetchpriority="high"
         decoding="async"
         width="100%"
         height="auto"
-        style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+        style="aspect-ratio: 1440 / 500; width: 100%; object-fit: cover;" />
 
     <div class="text d-none d-sm-block" style="color: #000000;">
         <h1>{{ $programme->prog_name }}</h1>
