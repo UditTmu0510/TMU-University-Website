@@ -341,7 +341,7 @@
                                                         href="{{ asset('/assets/pdf/coe/nba/project_reports/Project_Report_23_24.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
-                                                <li>B.Tech. CSE Program (Online Tour Guide Portal) 2023-24<br /><a
+                                                <li>B.Tech. CSE Program (Online Tour Guide Portal)<br /><a
                                                         href="{{ asset('/assets/pdf/coe/nba/project_reports/Project_Report_24.pdf') }}"
                                                         target="_blank">View More!</a>
                                                 </li>
