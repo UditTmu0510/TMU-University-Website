@@ -138,7 +138,7 @@
   <!-- End Google Tag Manager -->
 
   <!--Google Analytics tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXM8FSJKVR"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -147,7 +147,7 @@
     }
     gtag("js", new Date());
     gtag("config", "G-QXM8FSJKVR");
-  </script>
+  </script> -->
 
 
 
