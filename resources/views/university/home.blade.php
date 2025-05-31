@@ -466,6 +466,24 @@
                                 <hr class="notice-separator">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>31, May</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Teerthanker Mahaveer Dental College & Research Centre is celebrating World Environment Day on 5th June 2025 to raise awareness about environmental issues and encourage sustainable practices across the university community. Join us in making a difference!
+                                        </p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Dental College & Research Centre</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            05, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>21, May</span>
                                     </div>
                                     <div class="notice-content">
