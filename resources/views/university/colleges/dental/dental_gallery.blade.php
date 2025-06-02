@@ -32,22 +32,25 @@
 
             <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                 <div class="col-md-3 col-sm-6">
-                    <a href="{{ asset('/assets/img/gallery/collegegallery/dental/ff3_1.jpg') }}" data-lightbox="gallery-item"
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/dental/41.jpg') }}" data-lightbox="gallery-item"
                         class="text-decoration-none"
-                        title="Carnival Chronicles – Highlights from Fête Foraine 3.0">
+                        title="Expert Talk on Modern Restorative Procedures">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/dental/ff3_1.jpg') }}"
+                            <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/dental/41.jpg') }}"
                                 alt="International Seminar">
                         </div>
-                        <h5 class="text-center mt-2">Carnival Chronicles – Highlights from Fête Foraine 3.0</h5>
+                        <h5 class="text-center mt-2">Expert Talk on Modern Restorative Procedures</h5>
                     </a>
                     <div class="d-none">
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/ff3_2.jpg') }}"
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/42.jpg') }}"
                             data-lightbox="gallery-item"
-                            title="Carnival Chronicles – Highlights from Fête Foraine 3.0"></a>
-                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/ff3_3.jpg') }}"
+                            title="Expert Talk on Modern Restorative Procedures"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/43.jpg') }}"
                             data-lightbox="gallery-item"
-                            title="Carnival Chronicles – Highlights from Fête Foraine 3.0"></a>
+                            title="Expert Talk on Modern Restorative Procedures"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/44.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="Expert Talk on Modern Restorative Procedures"></a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
