@@ -27,7 +27,7 @@
                 <p class="text-justify fs-14 mb-2">As a multi-disciplinary varsity, we offer
                   career-oriented programmes
                   at all levels, i.e., UG, PG, and Doctoral degrees across diverse streams such as <span class="highlight p-0"><a href="{{route('medical.home')}}" target="_blank">Medical</a>, <a href="{{route('dental.home')}}" target="_blank">Dental</a>, <a href="{{route('pharmacy.home')}}" target="_blank">Pharmacy</a>, <a href="{{route('nursing.home')}}" target="_blank">Nursing</a>, <a href="{{route('paramedical.home')}}" target="_blank">Paramedical Sciences</a>, <a href="{{route('physiotherapy.home')}}" target="_blank">Physiotherapy</a>, <a href="#" target="_blank">Hospital Administration</a>,
-                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('education.home')}}" target="_blank"> Education</a>,
+                    <a href="{{route('physical_education.home')}}" target="_blank">Physical Education</a>, <a href="{{route('tmimt.home')}}" target="_blank">Management</a>,<a href="{{route('ccsit.home')}}" target="_blank">Computer Sciences</a>, <a href="{{route('engineering.home')}}" target="_blank">Engineering</a>,<a href="{{route('education.home')}}" target="_blank"> Education</a>,
                     <a href="{{route('law.home')}}" target="_blank">Law</a>, <a href="{{route('fine_arts.home')}}" target="_blank">Fine Arts</a>, <a href="{{route('agriculture.home')}}" target="_blank">Agriculture</a></span> and <span class="highlight p-0"><a href="{{route('jain.studies.home')}}" target="_blank">Jain Studies</a></span> to meet the rising aspirations of the youth.
                 </p>
 
@@ -71,6 +71,7 @@
                 <div class="col-lg-6 col-xl-6">
                   <ul class="custom-list ps-0" style="font-size: 14px; line-height: 30px; ">
                     <li><a href="{{route('law.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer College of Law and Legal Studeis</li></a>
+                    <li><a href="{{route('ccsit.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Computing Sciences & IT</li></a>
                     <li><a href="{{route('engineering.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Teerthanker Mahaveer University College of Engineering</li></a>
                     <li><a href="{{route('fine_arts.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;College of Fine Arts</li></a>
                     <li><a href="{{route('education.home')}}"><i class="fa-solid fa-arrow-right text-break"></i>&nbsp;Faculty of Education</li></a>
@@ -225,13 +226,13 @@
                   <td style="text-align:justify;font-size:14px;" class="mb-3"><b style="color:#FF7900;">Centre for Jain Studies</b><br>
                     Established in 2012, the College imparts moral education, conducts comparative studies of different philosophies, and undertakes research in religious studies.
                 </tr>
-                {{-- <tr>
+                <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2014</strong></h2>
                   </td>
                   <td class="text-justify fs-14" class="mb-3"><b style="color:#FF7900;">College of Computing Sciences & IT</b><br>
                     Established in 2014, the College offers programmes in computer science, animation, and IT, providing essential education to aspiring technologists.
-                </tr> --}}
+                </tr>
                 <tr>
                   <td>
                     <h2 style="color:#001055;"><strong style="font-weight:600;">2014</strong></h2>
