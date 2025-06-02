@@ -380,7 +380,7 @@ $prog_duration_type_with_internship = $programme->prog_duration_type_with_intern
                     {{-- Section Header --}}
                     <div class="enhanced-fees-header">
                         <h2 class="section-main-title">
-                            <span class="title-suffix">FEES</span>
+                            <span class="title-suffix">{{ $programme->prog_name }} FEES</span>
                         </h2>
                         <p class="section-tagline">
                             A transparent breakdown of the investment in your future.
