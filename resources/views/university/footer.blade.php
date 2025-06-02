@@ -548,20 +548,20 @@ function loadNiaScript() {
 
 
     const reviews = [
-        // {
-        //     name: "Speaks about College of Computing Sciences & IT",
-        //     text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-        //     img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
-        //     profile: {
-        //         img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
-        //         name: "Rajeev Mishra",
-        //         link: "https://www.linkedin.com/in/rajeevmishra20/",
-        //         designation: "Technology Architect",
-        //         company: "Bearing Point, Germany",
-        //         course: "B.Tech CSE",
-        //         graduationYear: "2014",
-        //     },
-        // },
+        {
+            name: "Speaks about College of Computing Sciences & IT",
+            text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
+            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+            profile: {
+                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+                name: "Rajeev Mishra",
+                link: "https://www.linkedin.com/in/rajeevmishra20/",
+                designation: "Technology Architect",
+                company: "Bearing Point, Germany",
+                course: "B.Tech CSE",
+                graduationYear: "2014",
+            },
+        },
         {
             name: "Speaks about TMIMT College of Management",
             text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
