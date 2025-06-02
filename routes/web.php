@@ -806,27 +806,27 @@ Route::get('/faculty-of-engineering/study-material', [EngineeringController::cla
 
 // CCSIT College
 
-// Route::get('/college-of-computing-sciences-and-it', [CcsitController::class, 'index'])->name('ccsit.home');
-// Route::get('/college-of-computing-sciences-and-it/about-us', [CcsitController::class, 'ccsit_overview'])->name('ccsit.about.us');
-// Route::get('/college-of-computing-sciences-and-it/college-highlight', [CcsitController::class, 'ccsit_highlights'])->name('ccsit.highlights');
-// Route::get('/college-of-computing-sciences-and-it/dean', [CcsitController::class, 'ccsit_principal'])->name('ccsit.principal');
-// Route::get('/college-of-computing-sciences-and-it/college-gallery', [CcsitController::class, 'ccsit_gallery'])->name('ccsit.gallery');
-// Route::get('/college-of-computing-sciences-and-it/academic-calendar', [CcsitController::class, 'ccsit_academic_calendar'])->name('ccsit.academic.calendar');
-// Route::get('/college-of-computing-sciences-and-it/corporate-advisory-board', [CcsitController::class, 'ccsit_corporate_advisory'])->name('ccsit.corporate.advisory');
-// Route::get('/college-of-computing-sciences-and-it/placement-calendar', [CcsitController::class, 'ccsit_placement_calendar'])->name('ccsit.placement.calendar');
-// Route::get('/college-of-computing-sciences-and-it/placement-brochure', [CcsitController::class, 'ccsit_placement_brochure'])->name('ccsit.placement.brochure');
-// Route::get('/college-of-computing-sciences-and-it/placement-news', [CcsitController::class, 'ccsit_placement_news'])->name('ccsit.placement.news');
-// Route::get('/college-of-computing-sciences-and-it/project-guidelines', [CcsitController::class, 'ccsit_project_guidelines'])->name('ccsit.project.guidelines');
-// Route::get('/college-of-computing-sciences-and-it/project-templates', [CcsitController::class, 'ccsit_project_templates'])->name('ccsit.project.templates');
-// Route::get('/college-of-computing-sciences-and-it/time-table', [CcsitController::class, 'ccsit_timetable'])->name('ccsit.timetable');
-// Route::get('/college-of-computing-sciences-and-it/anti-ragging-committee', [CcsitController::class, 'ccsit_anti_ragging'])->name('ccsit.anti.ragging');
-// Route::get('/college-of-computing-sciences-and-it/kaaryashala', [CcsitController::class, 'ccsit_karyashala'])->name('ccsit.karyashala');
-// Route::get('/college-of-computing-sciences-and-it/event-magazine', [CcsitController::class, 'ccsit_event_magazine'])->name('ccsit.event.magazine');
-// Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitController::class, 'ccsit_guest_lecture'])->name('ccsit.guest.lecture');
-// Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
-// Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
-// Route::get('/college-of-computing-sciences-and-it/iqac', [CcsitController::class, 'ccsit_iqac'])->name('ccsit.iqac');
-// Route::get('/college-of-computing-sciences-and-it/study-material', [CcsitController::class, 'ccsit_study_material'])->name('ccsit.study.material');
+Route::get('/college-of-computing-sciences-and-it', [CcsitController::class, 'index'])->name('ccsit.home');
+Route::get('/college-of-computing-sciences-and-it/about-us', [CcsitController::class, 'ccsit_overview'])->name('ccsit.about.us');
+Route::get('/college-of-computing-sciences-and-it/college-highlight', [CcsitController::class, 'ccsit_highlights'])->name('ccsit.highlights');
+Route::get('/college-of-computing-sciences-and-it/dean', [CcsitController::class, 'ccsit_principal'])->name('ccsit.principal');
+Route::get('/college-of-computing-sciences-and-it/college-gallery', [CcsitController::class, 'ccsit_gallery'])->name('ccsit.gallery');
+Route::get('/college-of-computing-sciences-and-it/academic-calendar', [CcsitController::class, 'ccsit_academic_calendar'])->name('ccsit.academic.calendar');
+Route::get('/college-of-computing-sciences-and-it/corporate-advisory-board', [CcsitController::class, 'ccsit_corporate_advisory'])->name('ccsit.corporate.advisory');
+Route::get('/college-of-computing-sciences-and-it/placement-calendar', [CcsitController::class, 'ccsit_placement_calendar'])->name('ccsit.placement.calendar');
+Route::get('/college-of-computing-sciences-and-it/placement-brochure', [CcsitController::class, 'ccsit_placement_brochure'])->name('ccsit.placement.brochure');
+Route::get('/college-of-computing-sciences-and-it/placement-news', [CcsitController::class, 'ccsit_placement_news'])->name('ccsit.placement.news');
+Route::get('/college-of-computing-sciences-and-it/project-guidelines', [CcsitController::class, 'ccsit_project_guidelines'])->name('ccsit.project.guidelines');
+Route::get('/college-of-computing-sciences-and-it/project-templates', [CcsitController::class, 'ccsit_project_templates'])->name('ccsit.project.templates');
+Route::get('/college-of-computing-sciences-and-it/time-table', [CcsitController::class, 'ccsit_timetable'])->name('ccsit.timetable');
+Route::get('/college-of-computing-sciences-and-it/anti-ragging-committee', [CcsitController::class, 'ccsit_anti_ragging'])->name('ccsit.anti.ragging');
+Route::get('/college-of-computing-sciences-and-it/kaaryashala', [CcsitController::class, 'ccsit_karyashala'])->name('ccsit.karyashala');
+Route::get('/college-of-computing-sciences-and-it/event-magazine', [CcsitController::class, 'ccsit_event_magazine'])->name('ccsit.event.magazine');
+Route::get('/college-of-computing-sciences-and-it/guest-lecture', [CcsitController::class, 'ccsit_guest_lecture'])->name('ccsit.guest.lecture');
+Route::get('/college-of-computing-sciences-and-it/contact-us', [CcsitController::class, 'ccsit_contact_us'])->name('ccsit.contact.us');
+Route::get('/college-of-computing-sciences-and-it/syllabus', [CcsitController::class, 'ccsit_syllabus'])->name('ccsit.syllabus');
+Route::get('/college-of-computing-sciences-and-it/iqac', [CcsitController::class, 'ccsit_iqac'])->name('ccsit.iqac');
+Route::get('/college-of-computing-sciences-and-it/study-material', [CcsitController::class, 'ccsit_study_material'])->name('ccsit.study.material');
 
 
 
