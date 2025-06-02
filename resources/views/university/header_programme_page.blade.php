@@ -382,16 +382,16 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="dns-prefetch"
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <!-- Core Style -->
-  <link rel="preload" rel="stylesheet" href="{{asset('style.css')}}">
+  <link rel="stylesheet" href="{{asset('style.css')}}">
 
   <!-- Font Icons -->
-  <link  rel="stylesheet" href="{{asset('css/font-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('css/font-icons.css')}}">
 
   <!-- Plugins/Components CSS -->
   <link rel="stylesheet" href="{{asset('css/swiper.css')}}">
@@ -407,7 +407,7 @@
   <!-- managemt college css -->
   <!-- <link rel="stylesheet" href="{{asset('assets/css/managemnt.css')}}"> -->
 
-  <link rel="dns-prefetch" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 
   <!-- Niche Demos -->
@@ -417,11 +417,11 @@
   <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
   <!-- Bootstrap Bundle with Popper -->
-  <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 
   <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
 </head>
