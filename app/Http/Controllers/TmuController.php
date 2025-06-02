@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 use App\Models\Colleges;
 use App\Models\News;
@@ -143,24 +144,49 @@ class TmuController extends Controller
 
     public function programme($slug)
     {
+        $cacheKey = 'programme_page_data_' . $slug;
 
-        $programme = Programmes::where('page_slug', $slug)->firstOrFail();
-        if ($programme->status === 'N') {
-            abort(404); // Return a 404 error if the programme is not visible
-        }
+        // Cache only the data, not the view or closure
+        $data = Cache::remember($cacheKey, 3600, function () use ($slug) {
+            $programme = Programmes::where('page_slug', $slug)->firstOrFail();
 
-        $cd_id = $programme->cd_id;
+            if ($programme->status === 'N') {
+                abort(404); // Inactive programme
+            }
 
+            $cd_id = $programme->cd_id;
+            $prog_id = $programme->prog_id;
 
-        $prog_id = $programme->prog_id;
-        $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
-        $faqs = Faqs::where('prog_id', $prog_id)->where('display_programme_page', 'Y')->where('status', 'Y')->get();
-        $recruiters = Recruiters::where('cd_id', $cd_id)->where('display_college_main', 'Y')->where('status', 'Y')->get();
-        // ✅ Fetch related specializations
-        $specializations = ProgrammeSpecialization::where('prog_id', $prog_id)->where('status', 'Y')->orderBy('priority')->get();
+            $fee_details = ProgrameeFee::where('prog_id', $prog_id)->get();
+            $faqs = Faqs::where('prog_id', $prog_id)
+                ->where('display_programme_page', 'Y')
+                ->where('status', 'Y')
+                ->get();
 
-        return view('programme.programme', compact('programme', 'fee_details', 'faqs', 'recruiters', 'specializations'));
+            $recruiters = Recruiters::where('cd_id', $cd_id)
+                ->where('display_college_main', 'Y')
+                ->where('status', 'Y')
+                ->get();
+
+            $specializations = ProgrammeSpecialization::where('prog_id', $prog_id)
+                ->where('status', 'Y')
+                ->orderBy('priority')
+                ->get();
+
+            // Return as a simple array — Laravel can safely cache this
+            return [
+                'programme' => $programme,
+                'fee_details' => $fee_details,
+                'faqs' => $faqs,
+                'recruiters' => $recruiters,
+                'specializations' => $specializations,
+            ];
+        });
+
+        // Return the view using cached data
+        return view('programme.programme', $data);
     }
+
 
     public function university_scholarship()
     {
