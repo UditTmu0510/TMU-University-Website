@@ -630,7 +630,22 @@
                             </div>
 
                            @if(strtolower($categoryName) === 'online courses')
-                                <p>Lorem Ipsum</p>
+                                <!-- Apply Now Section -->
+                                <div class="apply-now-section">
+                                    <!-- Background Design -->
+                                    <div class="background-design"></div>
+
+                                    <!-- Content -->
+                                    <div class="apply-now-content">
+                                        <h2>Admission Open</h2>
+                                        <p>Your future is just a click away - Enroll now in our <br>Online Programmes and learn anytime, anywhere!</p>
+                                        <a href="https://admissions.tmuonline.ac.in/" class="tmu-btn btn-1 px-5 py-2">Apply
+                                            Now</a>
+                                    </div>
+
+                                    <!-- Image -->
+                                    <img src="{{ asset('/assets/img/distance.png') }}" alt="Girl with books">
+                                </div>
                             @endif 
 
 
