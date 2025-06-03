@@ -199,7 +199,7 @@
                 whatsappWidget.innerHTML = `
                 <div class="sticky-wtsap">
                     <div class="widget-content786">
-                        <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
+                        <img src="/assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
                     </div>
                 </div>
             `;
