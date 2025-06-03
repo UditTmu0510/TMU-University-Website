@@ -424,6 +424,15 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
+  @if (!empty($programme_banner_path) && $programme->video_section_flag == 'Y')
+    <link rel="preload"
+      as="image"
+      href="{{ asset($programme->programme_banner_path) }}"
+      imagesrcset="{{ asset($programme->programme_banner_path) }}"
+      imagesizes="100vw"
+      fetchpriority="high" />
+    @endif
+
 </head>
 
 <body class="stretched is-expanded-menu" data-menu-breakpoint="1200">
@@ -603,6 +612,7 @@
           </div>
         </div>
       </nav>
+
     </header>
 
     <!-- Header Code Section Completed -->
@@ -635,13 +645,6 @@
       </div>
     </div>
 
-    @if (!empty($programme_banner_path) && $programme->video_section_flag == 'Y')
-    <link rel="preload"
-      as="image"
-      href="{{ asset($programme->programme_banner_path) }}"
-      imagesrcset="{{ asset($programme->programme_banner_path) }}"
-      imagesizes="100vw"
-      fetchpriority="high" />
-    @endif
+    
 
     <!-- Searchbar code ends here -->
