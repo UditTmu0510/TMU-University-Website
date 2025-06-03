@@ -466,6 +466,21 @@
       </div>
     </section>
 
+    <nav class="social d-none d-sm-block">
+            <ul>
+                <li class="view">
+                    <a href="{{route('tmu.virtual_tour')}}"><img
+                            src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
+                </li>
+                <li class="phone">
+                  <a id="desktopWhatsappLink">
+                    <img src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />
+                    Whats App
+                  </a>
+                </li>
+            </ul>
+        </nav>
+
 
 
     <!--mobile tray starts-->
