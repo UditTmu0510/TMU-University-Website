@@ -629,6 +629,8 @@
                                 <ul id="tocList"></ul> <!-- TOC will be populated here by JavaScript -->
                             </div>
 
+                            @if(strtolower($categoryName) === 'online courses')
+
                             <!-- Entry Content -->
                             <div class="entry-content mt-0">
 
@@ -637,65 +639,72 @@
 
 
                                     @php
-                                        $content = nl2br(html_entity_decode($blog->full_post));
-                                        $insertCode = '';
+$content = nl2br(html_entity_decode($blog->full_post));
+$insertCode = '';
 
-                                        if (!request()->ajax()) {
-                                            $insertCode =
-                                                '<div class="video-wrapper">
-                        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
-                        <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
-                            <i class="fas fa-play" id="playIcon"></i>
-                        </button>
-                        </div>
-<div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' .
-                                                asset('uploads/blogs/banner_blog_npf.png') .
-                                                '\') no-repeat left center / cover;">
-                                                    <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
+if (!request()->ajax()) {
+    // Always include the YouTube video
+    $videoPart = '
+    <div class="video-wrapper">
+        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
+        <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Vide">
+            <i class="fas fa-play" id="playIcon"></i>
+        </button>
+    </div>';
+
+    // Include the form only if the category is NOT "online courses"
+    $formPart = '';
+
+    if (strtolower($categoryName) !== 'online courses') {
+        $formPart = '
+        <div class="row d-flex align-items-center bg-section" style="min-height: 550px; background: url(\'' . asset('uploads/blogs/banner_blog_npf.png') . '\') no-repeat left center / cover;">
+            <h2 class="tmu-text-primary text-center d-block d-md-none" style="font-size:1.7rem !important; line-height:1.5rem;">
                 <span></span><span>Teerthanker Mahaveer University </span>
             </h2>
-<div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+            <div class="col-12 col-lg-6 ms-auto d-flex justify-content-center bg-form-wrapper" style="background: transparent;">
+                <div class="form-inner text-center">
+                    <h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
+                        <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" > Apply for Admission</a></span>
+                    </h3>
+                    <p class="text-center fs-16 fw-bold mt-2 mb-2 d-block d-md-none">
+                        <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
+                    </p>
+                    <div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
+                </div>
+            </div>
+        </div>
+        <style>
+            @media (max-width: 991.98px) {
+                .bg-section {
+                    background: none !important;
+                }
+                .bg-form-wrapper {
+                    justify-content: center !important;
+                }
+                .form-inner {
+                    width: 100%;
+                    max-width: 600px;
+                }
+            }
+        </style>';
+    }
 
-<div class="form-inner text-center">
-<h3 class="tmu-text-primary text-center d-none d-md-block" style="font-size:1.7rem !important; line-height:1.5rem">
-                    <span></span><span> <a href="https://admissions.tmu.ac.in" target="_blank" > Apply for Admission</a></span>
-                </h3>
-<p class="text-center fs-16 fw-bold mt-2 mb-2 d-block d-md-none">
-                    <span></span><span > <a href="https://admissions.tmu.ac.in" target="_blank" class="blink-link" >Click Here </a> To Apply for Admission</span>
-                </p>
-<div class="npf_wgts" style="max-width: 600px; width: 100%;" data-height="560px" data-w="fced4875037a3071c2bc93dc1c15ae45"></div>
-</div>
-</div>
-</div>
+    $insertCode = $videoPart . $formPart;
+}
 
-<style>
-@media (max-width: 991.98px) {
-.bg-section {
-background: none !important;
-}
-.bg-form-wrapper {
-justify-content: center !important;
-}
-.form-inner {
-width: 100%;
-max-width: 600px;
-}
-}
-</style>';
-                                        }
+$count = 0;
+$content = preg_replace_callback(
+    '/(<h2\b[^>]*>.*?<\/h2>)/i',
+    function ($matches) use (&$count, $insertCode) {
+        $count++;
+        return $count === 2 ? $insertCode . $matches[0] : $matches[0];
+    },
+    $content,
+);
 
-                                        $count = 0;
-                                        $content = preg_replace_callback(
-                                            '/(<h2\b[^>]*>.*?<\/h2>)/i',
-                                            function ($matches) use (&$count, $insertCode) {
-                                                $count++;
-                                                return $count === 2 ? $insertCode . $matches[0] : $matches[0];
-                                            },
-                                            $content,
-                                        );
+echo $content;
+@endphp
 
-                                        echo $content;
-                                    @endphp
                                 </div>
 
 
