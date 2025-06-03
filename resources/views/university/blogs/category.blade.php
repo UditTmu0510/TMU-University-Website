@@ -1,4 +1,4 @@
-@extends('layouts.university.main')
+@extends('layouts.university.news_single')
 @section('content')
 
 <style>
