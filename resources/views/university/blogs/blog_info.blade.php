@@ -630,13 +630,8 @@
                             </div>
 
                            @if(strtolower($categoryName) === 'online courses')
-                                <div class="video-wrapper">
-                                    <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="71Qw7YYS_nM"></div>
-                                    <button class="custom-play-button" id="customPlayBtn" aria-label="Play/Pause Video">
-                                        <i class="fas fa-play" id="playIcon"></i>
-                                    </button>
-                                </div>
-                            @endif
+                                <p>Lorem Ipsum</p>
+                            @endif 
 
 
                             <!-- Entry Content -->
