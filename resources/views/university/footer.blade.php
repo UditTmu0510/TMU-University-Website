@@ -52,7 +52,7 @@
 
             if (query.length > 2) {
                 searchRequest = $.ajax({
-                    url: '{{ route("search") }}',
+                    url: '{{ route('search') }}',
                     type: 'post',
                     data: {
                         _token: '{{ csrf_token() }}',
@@ -84,13 +84,16 @@
 
                                 if (isValidSlug(slug1) && !isValidSlug(slug2)) {
                                     final_slug = `${url}${slug1}`;
-                                } else if (isValidSlug(slug1) && isValidSlug(slug2) && !
+                                } else if (isValidSlug(slug1) && isValidSlug(
+                                    slug2) && !
                                     isValidSlug(slug3)) {
                                     final_slug = `${url}${slug1}/${slug2}`;
-                                } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
+                                } else if (isValidSlug(slug1) && isValidSlug(
+                                    slug2) &&
                                     isValidSlug(slug3) && !isValidSlug(slug4)) {
                                     final_slug = `${url}${slug1}/${slug2}/${slug3}`;
-                                } else if (isValidSlug(slug1) && isValidSlug(slug2) &&
+                                } else if (isValidSlug(slug1) && isValidSlug(
+                                    slug2) &&
                                     isValidSlug(slug3) && isValidSlug(slug4) && !
                                     isValidSlug(slug5)) {
                                     final_slug =
@@ -98,7 +101,8 @@
                                 }
 
                                 if (final_slug) {
-                                    if ($.trim(data.disp_attribute_1) !== '' && $.trim(
+                                    if ($.trim(data.disp_attribute_1) !== '' && $
+                                        .trim(
                                             data.disp_attribute_2) !== '') {
                                         suggestions.append(
                                             `<a href="${final_slug}"><div style="font-weight:600">${data.disp_attribute_1}<br><span style="font-size:12px;font-weight:400">${data.disp_attribute_2}</span></div></a>`
@@ -127,94 +131,139 @@
 </a> --}}
 <!-- WhatsApp Widget -->
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    var currentUrl = window.location.pathname;
+    document.addEventListener("DOMContentLoaded", function() {
+        var currentUrl = window.location.pathname;
 
-    // Disable widgets on /blog or /news pages
-    var disablePattern = /^\/(blog|news)(\/.*)?$/;
+        // Disable widgets on /blog or /news pages
+        // var disablePattern = /^\/(blog|news)(\/.*)?$/;
 
-    if (!disablePattern.test(currentUrl)) {
-        var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
+        
+            var isMobile = window.innerWidth < 576; // Bootstrap 'sm' breakpoint
 
-        if (isMobile) {
-            var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
-            var whatsappWidget = document.createElement("a");
-            whatsappWidget.href = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage + "&type=phone_number&app_absent=0";
-            whatsappWidget.setAttribute("target", "_blank");
+            // // Shared WhatsApp message
+            // var whatsappMessage = encodeURIComponent(
+            //     "Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |"
+            // );
+            // var whatsappUrl = "https://api.whatsapp.com/send/?phone=919258112544&text=" + whatsappMessage +
+            //     "&type=phone_number&app_absent=0";
 
-            // Add event listener only if not already added
-            if (!whatsappWidget.hasAttribute('data-listener-added')) {
-                whatsappWidget.addEventListener("click", function (e) {
-                    e.preventDefault();
-                    console.log("WhatsApp Clicked");
 
-                    if (typeof gtag === 'function') {
-                        gtag('event', 'whatsapp_click', {
-                            event_category: 'engagement',
-                            event_label: 'WhatsApp Icon',
-                        });
-                    }
-                    window.open(whatsappWidget.href, "_blank");
-                    return false;
-                });
+                // Get first-level slug after domain
+            var firstSegment = currentUrl.split("/")[1];
 
-                // Mark the widget as having a listener attached
-                whatsappWidget.setAttribute('data-listener-added', 'true');
+            let phoneNumber = "9258112544"; // default number
+            let messageText = "Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |";
+
+            // Update for specific pages
+            if (firstSegment === "programme") {
+                phoneNumber = "9258284012";
+                messageText = "Hello TMU, I am seeking admission-related information. I found your contact number through TMU Programme Page.";
+            } else if (firstSegment === "blog") {
+                phoneNumber = "9258284012";
+                messageText = "Hello TMU, I am seeking admission-related information. I found your contact number through TMU Blog.";
+            } else if (firstSegment === "news") {
+                phoneNumber = "9258284012";
+                messageText = "Hello TMU, I am seeking admission-related information. I found your contact number through TMU News.";
             }
 
-            whatsappWidget.innerHTML = `
+            var whatsappMessage = encodeURIComponent(messageText);
+            var whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${whatsappMessage}&type=phone_number&app_absent=0`;
+
+
+            if (isMobile) {
+                // var whatsappMessage = encodeURIComponent("Hi, I want to get admission-related information in Teerthanker Mahaveer University.\nमुझे तीर्थंकर महावीर विश्वविद्यालय में एडमिशन की जानकारी चाहिए |");
+                var whatsappWidget = document.createElement("a");
+                whatsappWidget.href = whatsappUrl
+                whatsappWidget.setAttribute("target", "_blank");
+
+                // Add event listener only if not already added
+                if (!whatsappWidget.hasAttribute('data-listener-added')) {
+                    whatsappWidget.addEventListener("click", function(e) {
+                        e.preventDefault();
+                        console.log("WhatsApp Clicked");
+
+                        if (typeof gtag === 'function') {
+                            gtag('event', 'whatsapp_click', {
+                                event_category: 'engagement',
+                                event_label: 'WhatsApp Icon',
+                            });
+                        }
+                        window.open(whatsappWidget.href, "_blank");
+                        return false;
+                    });
+
+                    // Mark the widget as having a listener attached
+                    whatsappWidget.setAttribute('data-listener-added', 'true');
+                }
+
+                whatsappWidget.innerHTML = `
                 <div class="sticky-wtsap">
                     <div class="widget-content786">
                         <img src="assets/img/icons/wtsapp.png" width="38" height="38" alt="WhatsApp">
                     </div>
                 </div>
             `;
-            document.body.appendChild(whatsappWidget);
-        } else {
-            // Non-mobile behavior (UserWay widget or other actions)
-            var userwayAnchor = document.createElement("a");
-            userwayAnchor.href = "javascript:void(0);";
-            userwayAnchor.onclick = loadUserWayScript;
-            userwayAnchor.id = "userway-widget786";
-            userwayAnchor.innerHTML = `
+                document.body.appendChild(whatsappWidget);
+            } else {
+
+                // 💬 Update desktop WhatsApp link if it exists
+                var desktopLink = document.getElementById("desktopWhatsappLink");
+                if (desktopLink) {
+                    desktopLink.href = whatsappUrl;
+                    desktopLink.setAttribute("target", "_blank");
+                    desktopLink.addEventListener("click", function() {
+                        if (typeof gtag === 'function') {
+                            gtag('event', 'whatsapp_click', {
+                                event_category: 'engagement',
+                                event_label: 'Desktop WhatsApp Icon',
+                            });
+                        }
+                    });
+                }
+
+
+                // Non-mobile behavior (UserWay widget or other actions)
+                var userwayAnchor = document.createElement("a");
+                userwayAnchor.href = "javascript:void(0);";
+                userwayAnchor.onclick = loadUserWayScript;
+                userwayAnchor.id = "userway-widget786";
+                userwayAnchor.innerHTML = `
                 <div class="sticky-widget786">
                     <div class="widget-content786">
                         <img src="https://cdn.userway.org/widgetapp/images/wheel_right_bl.svg" width="43" height="43" alt="UserWay Widget">
                     </div>
                 </div>
             `;
-            document.body.appendChild(userwayAnchor);
-        }
+                document.body.appendChild(userwayAnchor);
+            }
 
-        var niaWidget = document.createElement("a");
-        niaWidget.href = "javascript:void(0);";
-        niaWidget.onclick = loadNiaScript;
-        niaWidget.id = "nia-widget786";
-        niaWidget.innerHTML = `
+            var niaWidget = document.createElement("a");
+            niaWidget.href = "javascript:void(0);";
+            niaWidget.onclick = loadNiaScript;
+            niaWidget.id = "nia-widget786";
+            niaWidget.innerHTML = `
             <div class="sticky-nia-widget786">
                 <div class="nia-widget-content786">
                     <img class="ticky-nia-widget786s" src="https://chatcdn.npfs.co/static/backend/img/niaa.png" width="43" height="43" alt="NIA Widget">
                 </div>
             </div>
         `;
-        document.body.appendChild(niaWidget);
+            document.body.appendChild(niaWidget);
+    
+    });
+
+    function loadUserWayScript() {
+        console.log("UserWay script loaded here");
     }
-});
 
-function loadUserWayScript() {
-    console.log("UserWay script loaded here");
-}
-
-function loadNiaScript() {
-    console.log("NIA widget clicked! Load your script here.");
-}
-
-
+    function loadNiaScript() {
+        console.log("NIA widget clicked! Load your script here.");
+    }
 </script>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
+{{-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
         var currentPath = window.location.pathname;
         var shouldRemoveWhatsApp = /^\/(blog|news)(\/.*)?$/.test(currentPath);
 
@@ -225,7 +274,7 @@ function loadNiaScript() {
             }
         }
     });
-</script>
+</script> --}}
 
 
 
@@ -234,7 +283,7 @@ function loadNiaScript() {
 <footer id="footer" class="dark" style="background-color: #001055;margin-top:0 !important;">
     <div class="container">
         <!-- Footer Widgets
-										============================================= -->
+          ============================================= -->
         <div class="footer-widgets-wrap">
 
             <div class="row col-mb-50">
@@ -242,8 +291,8 @@ function loadNiaScript() {
                     <div class="widget">
 
                         <!-- <img src="https://www.smart2020.tmu.ac.in/image/tmu-logo.png" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A; height: 120px;">
-						
-														<p>Teerthanker Mahaveer University, the Best Private University in UP, established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the University Grants Commission (UGC) in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008. <br> On National Highway 9, 144 Km from New Delhi, TMU stands committed to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge and Right Conduct in all spheres of activity and aspires to be the ultimate destination for world-class education.</p> -->
+      
+              <p>Teerthanker Mahaveer University, the Best Private University in UP, established by an 'Act' (No. 30) of 2008 of the Government of Uttar Pradesh, approved by the University Grants Commission (UGC) in 2008, vide letter No. F. 9-31/2008 (CPP-1) dated October 2008. <br> On National Highway 9, 144 Km from New Delhi, TMU stands committed to the ideals of Lord Mahaveer - Right Philosophy, Right Knowledge and Right Conduct in all spheres of activity and aspires to be the ultimate destination for world-class education.</p> -->
 
                         <div class="line" style="margin: 30px 0;"></div>
 
@@ -254,17 +303,18 @@ function loadNiaScript() {
                                 <div class="widget">
 
                                     <img style="width: 40%;" alt="Teerthanker mahaveer university logo with name"
-                                        class="img-fluid" src="{{asset('images/logo/logo-footer.png')}}" loading="lazy">
+                                        class="img-fluid" src="{{ asset('images/logo/logo-footer.png') }}"
+                                        loading="lazy">
 
 
                                     <!-- <div style="background: url('') no-repeat center center; background-size: 100%;">
-																		<address>
-																			<strong>Delhi Office</strong>
-																		</address>
-																		<abbr title="Address"><strong>Address:</strong></abbr> 1004-1005-1006, 10th Floor, <br> Mercantile House, <br> 15 Kasturba Gandhi Marg, <br> New Delhi-110001<br>
-																		<abbr title="contactus"><strong>Contact Us:</strong></abbr> 1800-270-1490<br>
-																		<abbr title="Email Address"><strong>Email:</strong></abbr> admissions@tmu.ac.in
-																	</div> -->
+                  <address>
+                   <strong>Delhi Office</strong>
+                  </address>
+                  <abbr title="Address"><strong>Address:</strong></abbr> 1004-1005-1006, 10th Floor, <br> Mercantile House, <br> 15 Kasturba Gandhi Marg, <br> New Delhi-110001<br>
+                  <abbr title="contactus"><strong>Contact Us:</strong></abbr> 1800-270-1490<br>
+                  <abbr title="Email Address"><strong>Email:</strong></abbr> admissions@tmu.ac.in
+                 </div> -->
                                     <br>
                                     <div style="margin-top:30px;">
                                         <address>
@@ -286,12 +336,14 @@ function loadNiaScript() {
                                             university@tmu.ac.in</p>
 
                                         <p style="margin-bottom: 0px;"><strong
-                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Contact Number:
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions
+                                                Contact Number:
                                             </strong></abbr>
                                             1800-270-1490</p>
 
                                         <p style="margin-bottom: 0px;"><strong
-                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions Email:
+                                                style="font-size: 16px; font-weight: 600; color:#FF7900;">Admissions
+                                                Email:
                                             </strong></abbr>
                                             admissions@tmu.ac.in
                                         </p>
@@ -303,37 +355,43 @@ function loadNiaScript() {
                             <div class="col-6 col-lg-2 widget_links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><a href="{{route('tmu.convocation')}}" target="_blank">Convocation</a></li>
+                                    <li><a href="{{ route('tmu.convocation') }}" target="_blank">Convocation</a></li>
 
-                                    <li><a href="{{route('all_news')}}" target="_blank">News</a></li>
-                                    <li><a href="{{route('tmu.media.cover')}}" target="_blank">Media Coverage</a></li>
-                                    <li><a href="{{route('tmu.careers')}}" target="_blank">Join TMU</a></li>
+                                    <li><a href="{{ route('all_news') }}" target="_blank">News</a></li>
+                                    <li><a href="{{ route('tmu.media.cover') }}" target="_blank">Media Coverage</a></li>
+                                    <li><a href="{{ route('tmu.careers') }}" target="_blank">Join TMU</a></li>
                                     <!--- CAREERS -->
                                     <!-- <li><a href="#">About City</a></li> -->
-                                    <li><a href="{{route('iqac.about')}}" target="_blank">IQAC</a></li>
-                                    <li><a href="https://incubator.tmu.ac.in" target="_blank">Business Incubation Centre</a></li>
+                                    <li><a href="{{ route('iqac.about') }}" target="_blank">IQAC</a></li>
+                                    <li><a href="https://incubator.tmu.ac.in" target="_blank">Business Incubation
+                                            Centre</a></li>
                                     <li><a href="http://portal.tmu.ac.in/" target="_blank">ERP Login</a></li>
-                                    <li><a href="{{route('all_blogs')}}" target="_blank">Blogs</a></li>
-                                    <li><a href="{{route('teaching.facility')}}" target="_blank">Teaching Facility</a></li>
-                                    <li><a href="{{route('iqac.student.feedback')}}" target="_blank">Feedback</a></li>
-                                    
+                                    <li><a href="{{ route('all_blogs') }}" target="_blank">Blogs</a></li>
+                                    <li><a href="{{ route('teaching.facility') }}" target="_blank">Teaching Facility</a>
+                                    </li>
+                                    <li><a href="{{ route('iqac.student.feedback') }}" target="_blank">Feedback</a>
+                                    </li>
+
                                 </ul>
                             </div>
 
                             <div class="col-6 col-lg-2 widget_links">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="{{route('application.form')}}" target="_blank">Application Form</a></li>
+                                    <li><a href="{{ route('application.form') }}" target="_blank">Application Form</a>
+                                    </li>
                                     <!--<li><a href="#">Entrance Test</a></li>-->
-                                    <li><a href="{{route('tmu.loan')}}" target="_blank">Education Loan</a></li>
-                                    <li><a href="{{route('tmu.scholarship')}}" target="_blank">Scholarships</a></li>
-                                    <li><a href="{{route('how.to.apply')}}" target="_blank">How to Apply</a></li>
+                                    <li><a href="{{ route('tmu.loan') }}" target="_blank">Education Loan</a></li>
+                                    <li><a href="{{ route('tmu.scholarship') }}" target="_blank">Scholarships</a></li>
+                                    <li><a href="{{ route('how.to.apply') }}" target="_blank">How to Apply</a></li>
 
-                                    <li><a href="{{route('campus.view')}}" target="_blank">Campus View</a></li>
-                                    <li><a href="{{route('tmu.faqs')}}" target="_blank">FAQs</a></li>
-                                    <li><a href="{{route('tmu.privacy.policy')}}" target="_blank">Privacy Policy</a></li>
-                                    <li><a href="{{route('student.clubs')}}" target="_blank">Student Club</a></li>
-                                    <li><a href="{{route('master.programme.page')}}" target="_blank">Programmes</a></li>
+                                    <li><a href="{{ route('campus.view') }}" target="_blank">Campus View</a></li>
+                                    <li><a href="{{ route('tmu.faqs') }}" target="_blank">FAQs</a></li>
+                                    <li><a href="{{ route('tmu.privacy.policy') }}" target="_blank">Privacy Policy</a>
+                                    </li>
+                                    <li><a href="{{ route('student.clubs') }}" target="_blank">Student Club</a></li>
+                                    <li><a href="{{ route('master.programme.page') }}" target="_blank">Programmes</a>
+                                    </li>
                                     <li><a href="https://samadhaan.ugc.ac.in/" target="_blank">UGC e-Samadhaan</a></li>
                                 </ul>
                             </div>
@@ -356,24 +414,29 @@ function loadNiaScript() {
                                 <h4>Campus Facilities</h4>
                                 <ul>
 
-                                    <li><a href="{{route('faculty.accomodation')}}" target="_blank">Faculty Accommodation</a></li>
-                                    <li><a href="{{route('guest.house')}}" target="_blank">Guest House</a></li>
-                                    <li><a href="{{route('banking.facility')}}" target="_blank">Banking Facility</a></li>
-                                    <li><a href="{{route('tmu.hospital')}}" target="_blank">Hospital</a></li>
-                                    <li><a href="{{route('auditorium')}}" target="_blank">Auditorium</a></li>
-                                    <li><a href="{{route('tmu.hostel')}}" target="_blank">Hostel</a></li>
+                                    <li><a href="{{ route('faculty.accomodation') }}" target="_blank">Faculty
+                                            Accommodation</a></li>
+                                    <li><a href="{{ route('guest.house') }}" target="_blank">Guest House</a></li>
+                                    <li><a href="{{ route('banking.facility') }}" target="_blank">Banking Facility</a>
+                                    </li>
+                                    <li><a href="{{ route('tmu.hospital') }}" target="_blank">Hospital</a></li>
+                                    <li><a href="{{ route('auditorium') }}" target="_blank">Auditorium</a></li>
+                                    <li><a href="{{ route('tmu.hostel') }}" target="_blank">Hostel</a></li>
                                 </ul>
                             </div>
                             <div class="col-6 col-lg-2 widget_links">
                                 <h4>Student Life</h4>
                                 <ul>
-                                    <li><a href="{{route('jinalaya')}}" target="_blank">Mahaveer Ji Jinalaya</a></li>
-                                    <li><a href="{{route('yoga.and.meditation')}}" target="_blank">Yoga & Meditation</a></li>
-                                    <li><a href="{{route('sports')}}" target="_blank">Sports</a></li>
-                                    <li><a href="{{route('library')}}" target="_blank">Library</a></li>
-                                    <li><a href="{{route('music.and.dance.room')}}" target="_blank">Music & Dance</a></li>
-                                    <li><a href="{{route('tmu.transport')}}" target="_blank">Transport</a></li>
-                                    <li><a href="{{route('gym')}}" target="_blank">GYM</a></li>
+                                    <li><a href="{{ route('jinalaya') }}" target="_blank">Mahaveer Ji Jinalaya</a>
+                                    </li>
+                                    <li><a href="{{ route('yoga.and.meditation') }}" target="_blank">Yoga &
+                                            Meditation</a></li>
+                                    <li><a href="{{ route('sports') }}" target="_blank">Sports</a></li>
+                                    <li><a href="{{ route('library') }}" target="_blank">Library</a></li>
+                                    <li><a href="{{ route('music.and.dance.room') }}" target="_blank">Music &
+                                            Dance</a></li>
+                                    <li><a href="{{ route('tmu.transport') }}" target="_blank">Transport</a></li>
+                                    <li><a href="{{ route('gym') }}" target="_blank">GYM</a></li>
 
                                 </ul>
                             </div>
@@ -398,17 +461,20 @@ function loadNiaScript() {
 
     </div>
     <!-- Copyrights
-									============================================= -->
+         ============================================= -->
     <div id="copyrights">
         <div class="container">
 
             <div class="row justify-content-between">
                 <div class="col-12 col-lg-auto text-center text-lg-start">
                     <div class="copyrights-menu copyright-links">
-                        <a href="{{route('university.anti.ragging.committee')}}" target="_blank">Anti Ragging</a>/<a
-                            href="{{route('nirf.home')}}" target="_blank">NIRF</a>/<a href="{{route('naac.home')}}" target="_blank">NAAC</a>/<a
-                            href="{{route('ctld.home')}}" target="_blank">CTLD</a>/<a href="{{route('crc.home')}}" target="_blank">Placement</a>/<a
-                            href="{{route('iqac.about')}}" target="_blank">IQAC</a>/<a href="{{route('tmu.disclaimer')}}" target="_blank">Disclaimer</a>
+                        <a href="{{ route('university.anti.ragging.committee') }}" target="_blank">Anti
+                            Ragging</a>/<a href="{{ route('nirf.home') }}" target="_blank">NIRF</a>/<a
+                            href="{{ route('naac.home') }}" target="_blank">NAAC</a>/<a
+                            href="{{ route('ctld.home') }}" target="_blank">CTLD</a>/<a
+                            href="{{ route('crc.home') }}" target="_blank">Placement</a>/<a
+                            href="{{ route('iqac.about') }}" target="_blank">IQAC</a>/<a
+                            href="{{ route('tmu.disclaimer') }}" target="_blank">Disclaimer</a>
                     </div>
                     Copyrights &copy; 2025 All Rights Reserved by Teerthanker Mahaveer University, Moradabad.
                 </div>
@@ -470,25 +536,27 @@ function loadNiaScript() {
 
 
 <!-- JavaScripts
-							============================================= -->
+       ============================================= -->
 
 
 @if (Request::is('programme/*'))
     <script type="module" src="{{ asset('js/functions.js') }}"></script>
 @else
     <script src="{{ asset('js/functions.js') }}"></script>
-@endif 
-<script src="{{asset('assets/js/main.js')}}"></script>
-<script src="{{asset('assets/js/swipe-content.js')}}"></script>
-<script src="{{asset('assets/js/util.js')}}"></script>
+@endif
+<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/swipe-content.js') }}"></script>
+<script src="{{ asset('assets/js/util.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<!-- <script src="{{asset('js/components/bs-datatable.js')}}"></script> -->
-<script src="{{asset('assets/js/index.js')}}"></script>
+<!-- <script src="{{ asset('js/components/bs-datatable.js') }}"></script> -->
+<script src="{{ asset('assets/js/index.js') }}"></script>
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script> -->
 
 </div>
 
@@ -547,13 +615,12 @@ function loadNiaScript() {
     // 
 
 
-    const reviews = [
-        {
+    const reviews = [{
             name: "Speaks about College of Computing Sciences & IT",
             text: "TMU, as a University is the cornerstone of my success as a Technical Architect. The transformative education equipped me with vital skills and mentorship from faculty. Practical learning and industry exposure provided confidence to excel in my profession. Grateful for TMU's profound impact on my career journey.",
-            img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/2.png') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/1.png') }}",
                 name: "Rajeev Mishra",
                 link: "https://www.linkedin.com/in/rajeevmishra20/",
                 designation: "Technology Architect",
@@ -565,9 +632,9 @@ function loadNiaScript() {
         {
             name: "Speaks about TMIMT College of Management",
             text: "Teerthanker Mahaveer University (TMU) played a vital role in my success as Head of Saudi German Hospitals Group in Dubai. The transformative MBA experience provided essential skills and support from faculty mentors. Practical learning and industry exposure instilled confidence for leadership, and I am forever grateful for TMU's impact on my career.",
-            img: "{{asset('/assets/img/department/alumni/people/1.png')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/1.png') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/2.png')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/2.png') }}",
                 name: "Shobhit Jain",
                 link: "https://www.linkedin.com/in/shobhit-jain-49197ba0",
                 designation: "Group Director - Talent Acquisition",
@@ -579,9 +646,9 @@ function loadNiaScript() {
         {
             name: "Speaks about Medical College & Research Centre",
             text: "TMU, Medical College & Research Centre has been the bedrock of my success as an MBBS doctor. The comprehensive medical education and mentorship from faculty have honed my skills and knowledge. With practical training and industry exposure, TMU empowered me to make a meaningful impact in healthcare. Forever grateful to TMU.",
-            img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/3.png') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/3.png')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/3.png') }}",
                 name: "Radhika Mathur",
                 designation: "Resident Physician",
                 company: "HCA Florida Oak Hill Hospital",
@@ -592,9 +659,9 @@ function loadNiaScript() {
         {
             name: "Speaks about Engineering College",
             text: "I am deeply grateful to TMU for laying the foundation of my academic and professional journey. Graduating with a Master of Computer Applications in 2005 as a First Division Honors topper, I can confidently say that the education and mentorship I received at TMU were pivotal in shaping my career. The institute’s strong curriculum and emphasis on practical learning equipped me with the skills necessary to excel in the technology field. Today, as a Senior Software Architect at HCL Software in Noida, I often reflect on the solid foundation and critical thinking skills I developed at TMU. The institute will always hold a special place in my heart, and I am proud to be an alumnus of such a distinguished institution. ",
-            img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/4.png') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/4.png')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/4.png') }}",
                 name: "Ashish Bhatnagar",
                 link: "https://www.linkedin.com/in/abhatnagar83",
                 designation: "Senior Software Architect",
@@ -606,9 +673,9 @@ function loadNiaScript() {
         {
             name: "Speaks about Dental College & Research Centre",
             text: "I am incredibly thankful to TMU for playing a pivotal role in shaping my journey as a dental professional. Pursuing my Master’s in Conservative Dentistry and Endodontics at this renowned university in 2016 was a transformative experience that equipped me with the expertise and confidence to excel in my field. Today, as the proprietor of Khoriya Multispeciality Dental Clinic and a consultant Endodontist in multiple districts, I reflect on how the knowledge and values imparted by TMU have been instrumental in my achievements. I am proud to be an alumnus of such a prestigious university that encourages students to innovate, lead and transform.",
-            img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/8.jpg') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/8.jpg')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/8.jpg') }}",
                 name: "Dr. Sarvesh S. Khoriya",
                 link: "#",
                 designation: "Dentist (Owner)",
@@ -620,9 +687,9 @@ function loadNiaScript() {
         {
             name: "Speaks about Dental College & Research Centre",
             text: "TMU has been a cornerstone in my academic and professional journey. The years I spent pursuing my BDS and MDS at this esteemed university were marked by the best learning experiences and growth. From the exceptional faculty to the modern curriculum and constant encouragement from the management, every aspect contributed to my success. As the owner of multiple successful clinics and the founder of several organisations, I often reflect on my time at TMU with great gratitude. The university not only equipped me with the technical skills and knowledge needed to excel but also instilled in me the confidence to dream big and achieve even bigger.",
-            img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
+            img: "{{ asset('/assets/img/department/alumni/people/7.png') }}",
             profile: {
-                img: "{{asset('/assets/img/department/alumni/people/7.png')}}",
+                img: "{{ asset('/assets/img/department/alumni/people/7.png') }}",
                 name: "Dr. Swapnil Sunil Bumb",
                 link: "#",
                 designation: "Associate Professor",
@@ -679,7 +746,8 @@ function loadNiaScript() {
         s.type = "text/javascript";
         s.async = true;
         s.defer = true;
-        s.src = "https://chatbot.in1.nopaperforms.com/en-gb/backend/bots/niaachtbtscpt.js/4305f35478c52f37/682ca82a0e534a72adfabb52a87dfac8";
+        s.src =
+            "https://chatbot.in1.nopaperforms.com/en-gb/backend/bots/niaachtbtscpt.js/4305f35478c52f37/682ca82a0e534a72adfabb52a87dfac8";
 
         // Add an event listener to hide the widget when the script is loaded
         s.onload = function() {
