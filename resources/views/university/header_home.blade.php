@@ -593,8 +593,11 @@
                     <a href="https://www.tmu.ac.in/virtual-tour"><img
                             src="{{ asset('monaco/assets/image/360.svg') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />360 View</a>
                 </li>
-                <li class="phone"><a href="https://api.whatsapp.com/send/?phone=919258112544&text=Hello%20TMU&type=phone_number&app_absent=0"><img
-                    src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />Whats App</a>
+                <li class="phone">
+                  <a id="desktopWhatsappLink">
+                    <img src="{{ asset('monaco/assets/image/whatsapp-icon.png') }}" alt="TMU University Logo in SVG Format" aria-hidden="true" />
+                    Whats App
+                  </a>
                 </li>
             </ul>
         </nav>
