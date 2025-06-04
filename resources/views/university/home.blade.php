@@ -447,6 +447,42 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>04, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Yoga Unplugged, a youth-focused yoga and meditation session, will be held at TMU on 21 June 2025. This event encourages students to embrace holistic wellness through yoga. Open to all.
+                                        </p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            21, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>04, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU will host Yoga Connect, a virtual global yoga summit, on 20 June 2025. Renowned experts will discuss yoga’s relevance in healthcare. Participants must register in advance to attend the sessions.
+                                        </p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            20, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>29, May</span>
                                     </div>
                                     <div class="notice-content">
@@ -461,6 +497,40 @@
                                             Centre for Indian Knowledge System</span>
                                         <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
                                             20, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>04, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>Join TMU’s Green Yoga on 19 June 2025, combining yoga with tree plantation and clean-up drives. This initiative promotes environmental consciousness and well-being. Students and faculty are encouraged to take part.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            19, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
+                                        <span>04, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU will organise a National Seminar titled “Yoga Impact: A decadal impact assessment on the role of yoga in public health” on 18 June 2025. All are invited to attend and participate.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            18, June</span>
                                     </div>
                                 </div>
                                 <hr class="notice-separator">
@@ -830,65 +900,6 @@
                                             April</span>
                                     </div>
                                 </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>09, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>Vocabaddicts 5.0 – Gear up for a thrilling Vocabulary Quiz Competition by CTLD on
-                                            23rd April 2025! Showcase your word power and win exciting prizes. Open to all!
-                                            Join the linguistic showdown at TMU. </p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            CTLD</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 23,
-                                            April</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>07, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>The Centre for Indian Knowledge System, TMU, invites you to National Conclave 3
-                                            on April 28, 2025, exploring "Managing Self and Organizations through Indian
-                                            Knowledge System". Join us online!</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            Centre for Indian Knowledge System</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px"> 28,
-                                            April</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
-                                <div class="notice">
-                                    <div class="notice-pub">
-                                        <span>03, April</span>
-                                    </div>
-                                    <div class="notice-content">
-                                        <p>TMU’s National Conference on Pharmaceutical Research and Innovation (NCPRI-2025)
-                                            will be held at TMU Auditorium & TMCOP on 18 and 19 April 2025. Featuring
-                                            industry experts, researchers, and academicians, the event fosters
-                                            industry-academia collaboration in pharmaceutical sciences.</p>
-                                    </div>
-                                    <div class="notice-meta">
-                                        <span style="margin-right: 15px;"><img
-                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
-                                                height="16px">
-                                            College of Pharmacy</span>
-                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
-                                            18-19, April</span>
-                                    </div>
-                                </div>
-                                <hr class="notice-separator">
                             </div>
                         </div>
                     </aside>
