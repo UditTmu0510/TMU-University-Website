@@ -31,6 +31,19 @@
         <h1 class="tmu-text-primary tmu-page-heading mb-3 mt-2"><span>College </span><span> Gallery</span></h1>
         <div class="row justify-content-center gutter-10" data-lightbox="gallery">
             <div class="col-md-3 col-sm-6">
+                <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/57.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Ignite the Spirit – Annual Fest Highlights">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/ccsit/57.jpg')}}" alt="International Seminar">
+                    </div>
+                    <h5 class="text-center mt-2">Ignite the Spirit – Annual Fest Highlights</h5>
+                </a>
+                <div class="d-none">
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/58.jpg')}}" data-lightbox="gallery-item" title="Ignite the Spirit – Annual Fest Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/59.jpg')}}" data-lightbox="gallery-item" title="Ignite the Spirit – Annual Fest Highlights"></a>
+                        <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/60.jpg')}}" data-lightbox="gallery-item" title="Ignite the Spirit – Annual Fest Highlights"></a>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
                 <a href="{{asset('/assets/img/gallery/collegegallery/ccsit/ntd-1.jpg')}}" data-lightbox="gallery-item" class="text-decoration-none" title="Tech for Tomorrow – National Technology Day at TMU">
                     <div class="position-relative">
                         <img class="img-fluid" src="{{asset('/assets/img/gallery/collegegallery/ccsit/ntd-1.jpg')}}" alt="International Seminar">
