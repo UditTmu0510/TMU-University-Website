@@ -10,10 +10,10 @@
             </a>
 
             <a href="{{ route('ctld.about') }}" class="custom-menu-item {{ setActive('ctld.about') }}">
-                <p>About CTLD</p>
+                <p>Vision, Mission & Objectives</p>
             </a>
             <a href="{{ route('ctld.aims.and.objectives') }}" class="custom-menu-item {{ setActive('ctld.aims.and.objectives') }}">
-                <p>Aims & Objectives</p>
+                <p>Why CTLD Matters</p>
             </a>
             <a href="{{ route('ctld.benefits') }}" class="custom-menu-item {{ setActive('ctld.benefits') }}">
                 <p>USPs </p>
