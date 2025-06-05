@@ -34,6 +34,38 @@
             <div class="container">
                 <div class="row justify-content-center gutter-10" data-lightbox="gallery">
                     <div class="col-md-3 col-sm-6">
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/42.jpg') }}"
+                            data-lightbox="gallery-item" class="text-decoration-none"
+                            title="TMCON Hosts Expert Talk on VR & Cardiac Recovery">
+                            <div class="position-relative">
+                                <img class="img-fluid"
+                                    src="{{ asset('/assets/img/gallery/collegegallery/nursing/42.jpg') }}"
+                                    alt="Guest lecture">
+                            </div>
+                            <h5 class="text-center mt-2"></h5>
+                        </a>
+                        <div class="d-none">
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/43.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/44.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/45.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/46.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/47.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                            <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/48.jpg') }}"
+                                data-lightbox="gallery-item"
+                                title="TMCON Hosts Expert Talk on VR & Cardiac Recovery"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
                         <a href="{{ asset('/assets/img/gallery/collegegallery/nursing/36.jpg') }}"
                             data-lightbox="gallery-item" class="text-decoration-none"
                             title="Exploring AI in Fetal Health – Lecture Recap">

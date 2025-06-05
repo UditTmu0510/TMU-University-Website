@@ -69,6 +69,43 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
+                    <a href="{{ asset('/assets/img/gallery/collegegallery/dental/45.jpg') }}" data-lightbox="gallery-item"
+                        class="text-decoration-none"
+                        title="World No Tobacco Day – Awareness Program at TMU">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ asset('/assets/img/gallery/collegegallery/dental/45.jpg') }}"
+                                alt="International Seminar">
+                        </div>
+                        <h5 class="text-center mt-2">World No Tobacco Day – Awareness Program at TMU</h5>
+                    </a>
+                    <div class="d-none">
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/46.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/47.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/48.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/49.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/50.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/51.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/52.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                        <a href="{{ asset('/assets/img/gallery/collegegallery/dental/53.jpg') }}"
+                            data-lightbox="gallery-item"
+                            title="World No Tobacco Day – Awareness Program at TMU"></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
                     <a href="{{ asset('/assets/img/gallery/collegegallery/dental/41.jpg') }}" data-lightbox="gallery-item"
                         class="text-decoration-none"
                         title="Expert Talk on Modern Restorative Procedures">
