@@ -447,6 +447,24 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>06, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU is organising a campus placement drive by Softpro India Computer Technologies (Pvt.) Ltd. on 11th June 2025 at CCSIT, 9:30 AM onwards, for eligible UG/PG students. Don’t miss this opportunity!
+                                        </p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Teerthanker Mahaveer University</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            11, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>04, June</span>
                                     </div>
                                     <div class="notice-content">
