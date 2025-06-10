@@ -43,7 +43,7 @@ class BlogsController extends Controller
     {
         $id_profile = Auth::user()->id;
         $profileData = User::find($id_profile);
-        $blogs = Blogs::latest()->get();
+        $blogs = Blogs::withoutGlobalScope('excludeOnlineWebsite')->latest()->get();
         return view('admin.backend.pages.blogs.all_blogs', compact('blogs', 'profileData'));
     }
 
@@ -64,7 +64,7 @@ class BlogsController extends Controller
         try {
             DB::beginTransaction();
             $id = $request->post_id;
-            $blog = Blogs::findOrFail($id);
+            $blog = Blogs::withoutGlobalScope('excludeOnlineWebsite')->findOrFail($id);
             $request->validate([
                 'post_title' => 'required',
                 'post_description' => 'required',
@@ -397,7 +397,8 @@ class BlogsController extends Controller
     {
 
         try {
-            Blogs::find($blog_id)->delete();
+            $blog = Blogs::withoutGlobalScope('excludeOnlineWebsite')->find($blog_id);
+            $blog?->delete();
             Session::flash('success', 'Blog Deleted Successfully');
         } catch (Exception $e) {
             Session::flash('error', 'Error in deleting Blog' . $e->getMessage());
@@ -412,7 +413,7 @@ class BlogsController extends Controller
         $profileData = User::find($id_profile);
         $blogs_category = BlogsCategory::latest()->get();
         $colleges = Colleges::latest()->get();
-        $blog = Blogs::find($id);
+        $blog = Blogs::withoutGlobalScope('excludeOnlineWebsite')->find($id); 
         return view('admin.backend.pages.blogs.edit_blog_post', compact('profileData', 'blog', 'blogs_category'));
     }
 
