@@ -730,83 +730,46 @@
                     <div class="panel">
                         <div class="table-responsive mb-3">
                             <table class="table table-bordered table-striped">
-                                <thead>
-                                    <tr class="text-center">
-                                        <th class="text-center">Name</th>
-                                        <th class="text-center">Designation</th>
-                                        <th class="text-center">Organization & Address</th>
-                                        <th class="text-center">Status</th>
-                                    </tr>
-                                </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Shri Suresh Jain</td>
-                                        <td>Chancellor</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
+                                        <td>i.</td>
+                                        <td>Sri Suresh Jain, Nominee of the Sponsoring body</td>
                                         <td>Chairperson</td>
                                     </tr>
                                     <tr>
-                                        <td>Prof. (Dr.) V K Jain</td>
-                                        <td>Vice Chancellor</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
+                                        <td>ii.</td>
+                                        <td>Prof. V K Jain, Vice Chancellor</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>Er. Kamal Malhotra</td>
-                                        <td>Architect</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
+                                        <td>iii. </td>
+                                        <td>Er. Kamal Mehrotra, Architect, nominated by the Hon'ble Chancellor</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>Shri Akshat Jain</td>
-                                        <td>Member, Governing Body</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
+                                        <td>iv. </td>
+                                        <td>Invitee Members
+                                            <ul class="m-ol-list ps-5">
+                                                <li>Sri. Akshat Jain</li>
+                                                <li>Ms. Arunima Mittal</li>
+                                                <li>Sri. Ajay Garg</li>
+                                                <li>Prof. Manjula Jain</li>
+                                                <li>Prof. Vipin Jain</li>
+                                                <li>Sri. Gaurav Agarwal</li>
+                                            </ul>
+                                        </td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>Ms Arunima Mittal</td>
-                                        <td>Member, Governing Body</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
+                                        <td>v. </td>
+                                        <td>Dr. Harshit Jain, Finance Officer</td>
                                         <td>Member</td>
                                     </tr>
                                     <tr>
-                                        <td>Sri Ajay Garg</td>
-                                        <td>Director (Hospital Administration)</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                                        <td>Member</td>
+                                        <td>vi. </td>
+                                        <td>Dr Vaibhav Rastogi, Joint Registrar</td>
+                                        <td>Ex-Officio Secretary</td>
                                     </tr>
-                                    <tr>
-                                        <td>Prof. Manjula Jain</td>
-                                        <td>Dean (Academics)</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Prof. Vipin Jain</td>
-                                        <td>Principal</td>
-                                        <td>TMIMT College of Management, Teerthanker Mahaveer University, Delhi
-                                            Road, Moradabad</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sri Gaurav Aggarwal</td>
-                                        <td>Chartered Accountant</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dr. Harshit Jain</td>
-                                        <td>Finance Officer</td>
-                                        <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                                        <td>Member</td>
-                                    </tr>
-                                    <!-- <tr>
-                                                                      <td>Dr. Aditya Sharma</td>
-                                                                      <td>Registrar</td>
-                                                                      <td>Teerthanker Mahaveer University, Delhi Road, Moradabad</td>
-                                                                      <td>Ex-officio Secretary</td>
-                                                                    </tr> -->
-                                </tbody>
                                 </tbody>
                             </table>
                         </div>
