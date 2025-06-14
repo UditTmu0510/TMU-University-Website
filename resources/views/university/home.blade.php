@@ -447,6 +447,23 @@
                             <div class="notice-body">
                                 <div class="notice">
                                     <div class="notice-pub">
+                                        <span>14, June</span>
+                                    </div>
+                                    <div class="notice-content">
+                                        <p>TMU’s Centre for Indian Knowledge System (CIKS) is organising the 5th National Conclave (Online) on “Yoga & Meditation: An Ancient Solution to Modern Problems” on 20th June 2025, from 3:00 PM via Google Meet.</p>
+                                    </div>
+                                    <div class="notice-meta">
+                                        <span style="margin-right: 15px;"><img
+                                                src="{{ asset('assets/img/icons/placeholder.svg') }}" width="16px"
+                                                height="16px">
+                                            Centre for Indian Knowledge System</span>
+                                        <span><img src="assets/img/icons/calendar.svg" width="16px" height="16px">
+                                            20, June</span>
+                                    </div>
+                                </div>
+                                <hr class="notice-separator">
+                                <div class="notice">
+                                    <div class="notice-pub">
                                         <span>06, June</span>
                                     </div>
                                     <div class="notice-content">
